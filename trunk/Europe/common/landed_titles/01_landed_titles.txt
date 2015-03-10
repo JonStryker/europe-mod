@@ -2836,34 +2836,34 @@ e_deutsches_reich = {
 				b_stuttgart_5 = {
 				}
 			}
-			c_heilbronn = { # 306
+			c_hohenlohe = { # 306
 				color={ 16 0 96 }
 				color2={ 255 255 255 }
 				
 				b_heilbronn = {
 				}
-				b_heilbronn_2 = {
+				b_hohenlohe = {
 				}
-				b_heilbronn_3 = {
+				b_hohenlohe_2 = {
 				}
-				b_heilbronn_4 = {
+				b_hohenlohe_3 = {
 				}
-				b_heilbronn_5 = {
+				b_hohenlohe_4 = {
 				}
 			}
-			c_sigmaringen = { # 309
+			c_hohenzollern = { # 309
 				color={ 144 128 96 }
 				color2={ 255 255 255 }
 				
 				b_sigmaringen = {
 				}
-				b_sigmaringen_2 = {
+				b_hohenzollern = {
 				}
-				b_sigmaringen_3 = {
+				b_hohenzollern_2 = {
 				}
-				b_sigmaringen_4 = {
+				b_hohenzollern_3 = {
 				}
-				b_sigmaringen_5 = {
+				b_hohenzollern_4 = {
 				}
 			}
 			c_tuebingen = { # 307
@@ -2956,7 +2956,7 @@ e_deutsches_reich = {
 			}
 		}
 		d_baden = {
-			color={ 59 118 102 }
+			color={ 186 247 101 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -2965,66 +2965,66 @@ e_deutsches_reich = {
 					any_demesne_province = { OR = { province_id = 313 province_id = 314 province_id = 315 province_id = 316 } }
 				}
 			}
-			capital = 313 # c_mannheim
+			capital = 313 # c_baden
 			
-			c_mannheim = { # 313
-				color={ 49 128 97 }
-				color2={ 255 255 255 }
-				
-				b_mannheim = {
-				}
-				b_mannheim_2 = {
-				}
-				b_mannheim_3 = {
-				}
-				b_mannheim_4 = {
-				}
-				b_mannheim_5 = {
-				}
-			}
-			c_freiburg = { # 315
-				color={ 176 128 97 }
-				color2={ 255 255 255 }
-				
-				b_freiburg = {
-				}
-				b_freiburg_2 = {
-				}
-				b_freiburg_3 = {
-				}
-				b_freiburg_4 = {
-				}
-				b_freiburg_5 = {
-				}
-			}
-			c_karlsruhe = { # 314
+			c_baden = { # 313
 				color={ 176 1 96 }
 				color2={ 255 255 255 }
 				
 				b_karlsruhe = {
 				}
-				b_karlsruhe_2 = {
+				b_baden_2 = {
 				}
-				b_karlsruhe_3 = {
+				b_baden_3 = {
 				}
-				b_karlsruhe_4 = {
+				b_baden_4 = {
 				}
-				b_karlsruhe_5 = {
+				b_baden_5 = {
 				}
 			}
-			c_konstanz = { # 316
+			c_breisgau = { # 315
+				color={ 176 128 97 }
+				color2={ 255 255 255 }
+				
+				b_freiburg = {
+				}
+				b_breisgau = {
+				}
+				b_breisgau_2 = {
+				}
+				b_breisgau_3 = {
+				}
+				b_breisgau_4 = {
+				}
+			}
+			c_fuerstenberg = { # 316
 				color={ 174 186 42 }
 				color2={ 255 255 255 }
 				
 				b_konstanz = {
 				}
-				b_konstanz_2 = {
+				b_fuerstenberg = {
 				}
-				b_konstanz_3 = {
+				b_fuerstenberg_2 = {
 				}
-				b_konstanz_4 = {
+				b_fuerstenberg_3 = {
 				}
-				b_konstanz_5 = {
+				b_fuerstenberg_4 = {
+				}
+			}
+			c_pfalz = { # 314
+				color={ 49 128 97 }
+				color2={ 255 255 255 }
+				
+				b_mannheim = {
+				}
+				b_pfalz = {
+				}
+				b_pfalz_2 = {
+				}
+				b_pfalz_3 = {
+				}
+				b_pfalz_4 = {
 				}
 			}
 		}
@@ -9143,6 +9143,350 @@ e_iran = {
 				b_zanjan_4 = {
 				}
 				b_zanjan_5 = {
+				}
+			}
+		}
+	}
+	k_afghanistan = {
+		color={ 63 18 175 }
+		color2={ 255 255 255 }
+		
+		capital = 1080 # c_kabul
+		culture = afghan
+		
+		d_eastern_afghanistan = {
+			color={ 43 38 165 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1080 province_id = 1081 province_id = 1082 province_id = 1083 } }
+				}
+			}
+			capital = 1080 # c_kabul
+			
+			c_kabul = { # 1080
+				color={ 33 48 160 }
+				color2={ 255 255 255 }
+				
+				b_kabul = {
+				}
+				b_kabul_2 = {
+				}
+				b_kabul_3 = {
+				}
+				b_kabul_4 = {
+				}
+				b_kabul_5 = {
+				}
+			}
+			c_faizabad = { # 1083
+				color={ 160 48 160 }
+				color2={ 255 255 255 }
+				
+				b_faizabad = {
+				}
+				b_faizabad_2 = {
+				}
+				b_faizabad_3 = {
+				}
+				b_faizabad_4 = {
+				}
+				b_faizabad_5 = {
+				}
+			}
+			c_ghazni = { # 1081
+				color={ 160 176 32 }
+				color2={ 255 255 255 }
+				
+				b_ghazni = {
+				}
+				b_ghazni_2 = {
+				}
+				b_ghazni_3 = {
+				}
+				b_ghazni_4 = {
+				}
+				b_ghazni_5 = {
+				}
+			}
+			c_jalalabad = { # 1082
+				color={ 64 240 89 }
+				color2={ 255 255 255 }
+				
+				b_jalalabad = {
+				}
+				b_jalalabad_2 = {
+				}
+				b_jalalabad_3 = {
+				}
+				b_jalalabad_4 = {
+				}
+				b_jalalabad_5 = {
+				}
+			}
+		}
+		d_western_afghanistan = {
+			color={ 182 249 91 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1084 province_id = 1085 province_id = 1086 province_id = 1087 province_id = 1088 } }
+				}
+			}
+			capital = 1084 # c_farrah
+			
+			c_farrah = { # 1084
+				color={ 192 239 96 }
+				color2={ 255 255 255 }
+				
+				b_farrah = {
+				}
+				b_farrah_2 = {
+				}
+				b_farrah_3 = {
+				}
+				b_farrah_4 = {
+				}
+				b_farrah_5 = {
+				}
+			}
+			c_balkh = { # 1088
+				color={ 96 176 160 }
+				color2={ 255 255 255 }
+				
+				b_balkh = {
+				}
+				b_balkh_2 = {
+				}
+				b_balkh_3 = {
+				}
+				b_balkh_4 = {
+				}
+				b_balkh_5 = {
+				}
+			}
+			c_bamyan = { # 1086
+				color={ 240 64 122 }
+				color2={ 255 255 255 }
+				
+				b_bamyan = {
+				}
+				b_bamyan_2 = {
+				}
+				b_bamyan_3 = {
+				}
+				b_bamyan_4 = {
+				}
+				b_bamyan_5 = {
+				}
+			}
+			c_herat = { # 1087
+				color={ 64 240 96 }
+				color2={ 255 255 255 }
+				
+				b_herat = {
+				}
+				b_herat_2 = {
+				}
+				b_herat_3 = {
+				}
+				b_herat_4 = {
+				}
+				b_herat_5 = {
+				}
+			}
+			c_kandahar = { # 1085
+				color={ 64 240 224 }
+				color2={ 255 255 255 }
+				
+				b_kandahar = {
+				}
+				b_kandahar_2 = {
+				}
+				b_kandahar_3 = {
+				}
+				b_kandahar_4 = {
+				}
+				b_kandahar_5 = {
+				}
+			}
+		}
+	}
+	k_azerbaijan = {
+		color={ 30 113 206 }
+		color2={ 255 255 255 }
+		
+		capital = 653 # c_baku
+		culture = azeri
+		
+		d_azerbaijan = {
+			color={ 10 133 196 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 653 province_id = 654 province_id = 655 province_id = 656 province_id = 657 province_id = 658 } }
+				}
+			}
+			capital = 653 # c_baku
+			
+			c_baku = { # 653
+				color={ 0 143 191 }
+				color2={ 255 255 255 }
+				
+				b_baku = {
+				}
+				b_baku_2 = {
+				}
+				b_baku_3 = {
+				}
+				b_baku_4 = {
+				}
+				b_baku_5 = {
+				}
+			}
+			c_agdam = { # 655
+				color={ 128 144 64 }
+				color2={ 255 255 255 }
+				
+				b_agdam = {
+				}
+				b_agdam_2 = {
+				}
+				b_agdam_3 = {
+				}
+				b_agdam_4 = {
+				}
+				b_agdam_5 = {
+				}
+			}
+			c_ganja = { # 654
+				color={ 128 208 65 }
+				color2={ 255 255 255 }
+				
+				b_ganja = {
+				}
+				b_ganja_2 = {
+				}
+				b_ganja_3 = {
+				}
+				b_ganja_4 = {
+				}
+				b_ganja_5 = {
+				}
+			}
+			c_lankaran = { # 657
+				color={ 0 112 96 }
+				color2={ 255 255 255 }
+				
+				b_lankaran = {
+				}
+				b_lankaran_2 = {
+				}
+				b_lankaran_3 = {
+				}
+				b_lankaran_4 = {
+				}
+				b_lankaran_5 = {
+				}
+			}
+			c_sheki = { # 656
+				color={ 128 144 191 }
+				color2={ 255 255 255 }
+				
+				b_sheki = {
+				}
+				b_sheki_2 = {
+				}
+				b_sheki_3 = {
+				}
+				b_sheki_4 = {
+				}
+				b_sheki_5 = {
+				}
+			}
+			c_siyazen = { # 658
+				color={ 191 209 89 }
+				color2={ 255 255 255 }
+				
+				b_siyazen = {
+				}
+				b_siyazen_2 = {
+				}
+				b_siyazen_3 = {
+				}
+				b_siyazen_4 = {
+				}
+				b_siyazen_5 = {
+				}
+			}
+		}
+	}
+	k_tajikistan = {
+		color={ 206 114 47 }
+		color2={ 255 255 255 }
+		
+		capital = 811 # c_dushanbe
+		culture = tajik
+		
+		d_tajikistan = {
+			color={ 186 134 37 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 811 province_id = 812 province_id = 813 } }
+				}
+			}
+			capital = 811 # c_dushanbe
+			
+			c_dushanbe = { # 811
+				color={ 176 144 32 }
+				color2={ 255 255 255 }
+				
+				b_dushanbe = {
+				}
+				b_dushanbe_2 = {
+				}
+				b_dushanbe_3 = {
+				}
+				b_dushanbe_4 = {
+				}
+				b_dushanbe_5 = {
+				}
+				b_dushanbe_6 = {
+				}
+			}
+			c_badakhshon = { # 812
+				color={ 66 176 32 }
+				color2={ 255 255 255 }
+				
+				b_khorugh = {
+				}
+				b_badakhshon = {
+				}
+				b_badakhshon_2 = {
+				}
+			}
+			c_sughd = { # 813
+				color={ 34 76 183 }
+				color2={ 255 255 255 }
+				
+				b_khujand = {
+				}
+				b_sughd = {
+				}
+				b_sughd_2 = {
+				}
+				b_sughd_3 = {
+				}
+				b_sughd_4 = {
 				}
 			}
 		}
@@ -20162,175 +20506,6 @@ e_turkey = {
 		}
 	}
 }
-k_afghanistan = {
-	color={ 63 18 175 }
-	color2={ 255 255 255 }
-	
-	capital = 1080 # c_kabul
-	culture = afghan
-	
-	d_eastern_afghanistan = {
-		color={ 43 38 165 }
-		color2={ 255 255 255 }
-		
-		allow = {
-			OR = {
-				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 1080 province_id = 1081 province_id = 1082 province_id = 1083 } }
-			}
-		}
-		capital = 1080 # c_kabul
-		
-		c_kabul = { # 1080
-			color={ 33 48 160 }
-			color2={ 255 255 255 }
-			
-			b_kabul = {
-			}
-			b_kabul_2 = {
-			}
-			b_kabul_3 = {
-			}
-			b_kabul_4 = {
-			}
-			b_kabul_5 = {
-			}
-		}
-		c_faizabad = { # 1083
-			color={ 160 48 160 }
-			color2={ 255 255 255 }
-			
-			b_faizabad = {
-			}
-			b_faizabad_2 = {
-			}
-			b_faizabad_3 = {
-			}
-			b_faizabad_4 = {
-			}
-			b_faizabad_5 = {
-			}
-		}
-		c_ghazni = { # 1081
-			color={ 160 176 32 }
-			color2={ 255 255 255 }
-			
-			b_ghazni = {
-			}
-			b_ghazni_2 = {
-			}
-			b_ghazni_3 = {
-			}
-			b_ghazni_4 = {
-			}
-			b_ghazni_5 = {
-			}
-		}
-		c_jalalabad = { # 1082
-			color={ 64 240 89 }
-			color2={ 255 255 255 }
-			
-			b_jalalabad = {
-			}
-			b_jalalabad_2 = {
-			}
-			b_jalalabad_3 = {
-			}
-			b_jalalabad_4 = {
-			}
-			b_jalalabad_5 = {
-			}
-		}
-	}
-	d_western_afghanistan = {
-		color={ 182 249 91 }
-		color2={ 255 255 255 }
-		
-		allow = {
-			OR = {
-				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 1084 province_id = 1085 province_id = 1086 province_id = 1087 province_id = 1088 } }
-			}
-		}
-		capital = 1084 # c_farrah
-		
-		c_farrah = { # 1084
-			color={ 192 239 96 }
-			color2={ 255 255 255 }
-			
-			b_farrah = {
-			}
-			b_farrah_2 = {
-			}
-			b_farrah_3 = {
-			}
-			b_farrah_4 = {
-			}
-			b_farrah_5 = {
-			}
-		}
-		c_balkh = { # 1088
-			color={ 96 176 160 }
-			color2={ 255 255 255 }
-			
-			b_balkh = {
-			}
-			b_balkh_2 = {
-			}
-			b_balkh_3 = {
-			}
-			b_balkh_4 = {
-			}
-			b_balkh_5 = {
-			}
-		}
-		c_bamyan = { # 1086
-			color={ 240 64 122 }
-			color2={ 255 255 255 }
-			
-			b_bamyan = {
-			}
-			b_bamyan_2 = {
-			}
-			b_bamyan_3 = {
-			}
-			b_bamyan_4 = {
-			}
-			b_bamyan_5 = {
-			}
-		}
-		c_herat = { # 1087
-			color={ 64 240 96 }
-			color2={ 255 255 255 }
-			
-			b_herat = {
-			}
-			b_herat_2 = {
-			}
-			b_herat_3 = {
-			}
-			b_herat_4 = {
-			}
-			b_herat_5 = {
-			}
-		}
-		c_kandahar = { # 1085
-			color={ 64 240 224 }
-			color2={ 255 255 255 }
-			
-			b_kandahar = {
-			}
-			b_kandahar_2 = {
-			}
-			b_kandahar_3 = {
-			}
-			b_kandahar_4 = {
-			}
-			b_kandahar_5 = {
-			}
-		}
-	}
-}
 k_al_yaman = {
 	color={ 199 253 44 }
 	color2={ 255 255 255 }
@@ -21117,117 +21292,6 @@ k_armenia = {
 			b_nakhchivan_4 = {
 			}
 			b_nakhchivan_5 = {
-			}
-		}
-	}
-}
-k_azerbaijan = {
-	color={ 30 113 206 }
-	color2={ 255 255 255 }
-	
-	capital = 653 # c_baku
-	culture = azeri
-	
-	d_azerbaijan = {
-		color={ 10 133 196 }
-		color2={ 255 255 255 }
-		
-		allow = {
-			OR = {
-				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 653 province_id = 654 province_id = 655 province_id = 656 province_id = 657 province_id = 658 } }
-			}
-		}
-		capital = 653 # c_baku
-		
-		c_baku = { # 653
-			color={ 0 143 191 }
-			color2={ 255 255 255 }
-			
-			b_baku = {
-			}
-			b_baku_2 = {
-			}
-			b_baku_3 = {
-			}
-			b_baku_4 = {
-			}
-			b_baku_5 = {
-			}
-		}
-		c_agdam = { # 655
-			color={ 128 144 64 }
-			color2={ 255 255 255 }
-			
-			b_agdam = {
-			}
-			b_agdam_2 = {
-			}
-			b_agdam_3 = {
-			}
-			b_agdam_4 = {
-			}
-			b_agdam_5 = {
-			}
-		}
-		c_ganja = { # 654
-			color={ 128 208 65 }
-			color2={ 255 255 255 }
-			
-			b_ganja = {
-			}
-			b_ganja_2 = {
-			}
-			b_ganja_3 = {
-			}
-			b_ganja_4 = {
-			}
-			b_ganja_5 = {
-			}
-		}
-		c_lankaran = { # 657
-			color={ 0 112 96 }
-			color2={ 255 255 255 }
-			
-			b_lankaran = {
-			}
-			b_lankaran_2 = {
-			}
-			b_lankaran_3 = {
-			}
-			b_lankaran_4 = {
-			}
-			b_lankaran_5 = {
-			}
-		}
-		c_sheki = { # 656
-			color={ 128 144 191 }
-			color2={ 255 255 255 }
-			
-			b_sheki = {
-			}
-			b_sheki_2 = {
-			}
-			b_sheki_3 = {
-			}
-			b_sheki_4 = {
-			}
-			b_sheki_5 = {
-			}
-		}
-		c_siyazen = { # 658
-			color={ 191 209 89 }
-			color2={ 255 255 255 }
-			
-			b_siyazen = {
-			}
-			b_siyazen_2 = {
-			}
-			b_siyazen_3 = {
-			}
-			b_siyazen_4 = {
-			}
-			b_siyazen_5 = {
 			}
 		}
 	}
@@ -27043,70 +27107,6 @@ k_sudan = {
 			b_obeid_4 = {
 			}
 			b_obeid_5 = {
-			}
-		}
-	}
-}
-k_tajikistan = {
-	color={ 206 114 47 }
-	color2={ 255 255 255 }
-	
-	capital = 811 # c_dushanbe
-	culture = tajik
-	
-	d_tajikistan = {
-		color={ 186 134 37 }
-		color2={ 255 255 255 }
-		
-		allow = {
-			OR = {
-				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 811 province_id = 812 province_id = 813 } }
-			}
-		}
-		capital = 811 # c_dushanbe
-		
-		c_dushanbe = { # 811
-			color={ 176 144 32 }
-			color2={ 255 255 255 }
-			
-			b_dushanbe = {
-			}
-			b_dushanbe_2 = {
-			}
-			b_dushanbe_3 = {
-			}
-			b_dushanbe_4 = {
-			}
-			b_dushanbe_5 = {
-			}
-			b_dushanbe_6 = {
-			}
-		}
-		c_badakhshon = { # 812
-			color={ 66 176 32 }
-			color2={ 255 255 255 }
-			
-			b_khorugh = {
-			}
-			b_badakhshon = {
-			}
-			b_badakhshon_2 = {
-			}
-		}
-		c_sughd = { # 813
-			color={ 34 76 183 }
-			color2={ 255 255 255 }
-			
-			b_khujand = {
-			}
-			b_sughd = {
-			}
-			b_sughd_2 = {
-			}
-			b_sughd_3 = {
-			}
-			b_sughd_4 = {
 			}
 		}
 	}
