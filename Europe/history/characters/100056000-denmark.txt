@@ -1,189 +1,187 @@
 ### ÄNSI
 
 ### Glücksburg of Denmark 100056000 - 100056199
-100056000 = {
+100056000={			# Christian IX of Denmark
 	name=Christian
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	1818.4.8={birth=yes}
-	1842.5.26 = {
+	1842.5.26={
 		add_spouse=100101709
 	}
 	1906.1.29={death=yes}
 }
-
-100056010 = {			# KING Frederik IX
-	name=Frederik
-	dynasty=11501
-	religion=lutheran
-	culture=danish
-	father=100056000
-	1843.6.3={birth=yes}
-	1912.5.14={death=yes}
-}
-	100056011 = {
-		name=Alexandra
-		female = yes
-		dynasty=11501
-		religion=lutheran
-		culture=danish
+	100056010={			# KING Frederik VIII
+		name=Frederik
+		dynasty=1501
+		religion=lutheran culture=danish
 		father=100056000
-		1844.1.1={birth=yes}
-		1925.1.1={death=yes}
+		1843.6.3={birth=yes}
+		1912.5.14={death=yes}
 	}
-	100056012 = {
-		name=Georg
-		dynasty=11501
-		religion=lutheran
-		culture=danish
-		father=100056000
-		1845.1.1={birth=yes}
-		1913.1.1={death=yes}
-	}
-	100056013 = {
-		name=Dagmar
-		female = yes
-		dynasty=11501
-		religion=lutheran
-		culture=danish
-		father=100056000
-		1847.1.1={birth=yes}
-		1928.1.1={death=yes}
-	}
-	100056014 = {
-		name=Thyra
-		female = yes
-		dynasty=11501
-		religion=lutheran
-		culture=danish
-		father=100056000
-		1853.1.1={birth=yes}
-		1933.1.1={death=yes}
-	}
-	100056015 = {
-		name=Valdemar
-		dynasty=11501
-		religion=lutheran
-		culture=danish
-		father=100056000
-		1858.1.1={birth=yes}
-		1939.1.1={death=yes}
-	}
+		100056011={
+			name=Alexandra
+			female=yes
+			dynasty=1501
+			religion=lutheran culture=danish
+			father=100056000
+			1844.12.1={birth=yes}
+			1925.11.20={death=yes}
+		}
+		100056012 ={
+			name=Georgios
+			dynasty=1501
+			religion=lutheran culture=danish
+			father=100056000
+			1845.12.24={birth=yes}
+			1913.3.18={death=yes}
+		}
+		100056013={
+			name=Dagmar
+			female=yes
+			dynasty=1501
+			religion=lutheran
+			culture=danish
+			father=100056000
+			1847.1.1={birth=yes}
+			1928.1.1={death=yes}
+		}
+		100056014={
+			name=Thyra
+			female=yes
+			dynasty=1501
+			religion=lutheran
+			culture=danish
+			father=100056000
+			1853.1.1={birth=yes}
+			1933.1.1={death=yes}
+		}
+		100056015={
+			name=Valdemar
+			dynasty=1501
+			religion=lutheran
+			culture=danish
+			father=100056000
+			1858.1.1={birth=yes}
+			1939.1.1={death=yes}
+		}
+		100056020={
+			name=Christian
+			dynasty=1501
+			religion=lutheran culture=danish
+			father=100056010
+			1870.9.26={birth=yes}
+			1947.4.20={death=yes}
+		}
+			100056030={			# Frederick IX of Denmark
+				name=Frederik
+				dynasty=1501
+				religion=lutheran culture=danish
+				father=100056020
+				1899.3.11={birth=yes}
+				1935.5.24={add_spouse=100059000}
+				1972.1.14={death=yes}
+			}
+				100056040={
+					name=Margrethe
+					dynasty=1501
+					religion=lutheran culture=danish
+					female=yes
+					father=100056030 
+					mother=100059000
+					1940.4.16={birth=yes}
+					1967.6.10={
+						add_spouse=100101716
+						effect={
+							set_character_flag=no_wedding_event
+							spouse={
+								set_character_flag=no_wedding_event
+								remove_spouse=spouse
+								add_spouse_matrilineal=ROOT
+								clr_character_flag=no_wedding_event
+							} 
+							clr_character_flag=no_wedding_event
+						} 
+					} 
+					1940.4.16={birth=yes}
+				}
+				100101941={
+					name=Benedikte
+					dynasty=1501
+					religion=lutheran culture=danish
+					father=100056030
+					female=yes
+					1944.4.29={birth=yes}
+				}
+				100101960={
+				name=Anne-Marie
+				dynasty=1501
+				religion=orthodox culture=danish
+				father=100056030
+				female=yes
+				1946.8.30={birth=yes}
+			}
 
-100056020 = {
-	name=Christian
-	dynasty=11501
-	religion=lutheran
-	culture=danish
-	father=100056010
-	1870.9.26={birth=yes}
-	1947.4.20={death=yes}
-}
-
-100056030 = {
-	name=Frederik
-	dynasty=11501
-	religion=lutheran
-	culture=danish
-	father=100056020
-	1899.3.11={birth=yes}
-	1935.5.24={add_spouse = 100059000}
-	1972.1.14={death=yes}
-}
-
-100056040 = {
-	name=Margrethe
-	dynasty=11501
-	religion=lutheran
-	culture=danish
-	female=yes
-	father = 100056030 
-	mother = 100059000
-	1940.4.16={birth=yes}
-	1967.6.10={
-		add_spouse=100101716
-		effect={
-			set_character_flag=no_wedding_event
-			spouse={
-				set_character_flag=no_wedding_event
-				remove_spouse=spouse
-				add_spouse_matrilineal=ROOT
-				clr_character_flag=no_wedding_event
-			} 
-			clr_character_flag=no_wedding_event
-		} 
-	} 
-	1940.4.16={birth=yes}
-}
-
-100101716 = {
+100101716={
 	name=Henrik
 	dynasty=10241
-	religion=lutheran
-	culture=frankish
+	religion=lutheran culture=frankish
 	1934.6.11={birth=yes}
 }
 
-100101717 = {
+100101717={
 	name=Frederik
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	father=100101716
 	mother=100056040
 	1968.5.26={birth=yes}
-	2004.5.14 = {
+	2004.5.14={
 		add_spouse=100101718
 	}
 }
 
-100101718 = {
+100101718={
 	name=Mary
 	dynasty=10242
-	religion=lutheran
-	culture=english
+	religion=lutheran culture=english
 	female=yes
 	1972.2.5={birth=yes}
 }
 
-100101719 = {
+100101719={
 	name=Christian
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	father=100101717
 	mother=100101718
 	2005.10.15={birth=yes}
 }
 
-100101720 = {
+100101720={
 	name=Isabella
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	female=yes
 	father=100101717
 	mother=100101718
 	2007.4.21={birth=yes}
 }
 
-100101721 = {
+100101721={
 	name=Vincent
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	father=100101717
 	mother=100101718
 	trait=twin
 	2011.1.8={birth=yes}
 }
 
-100101722 = {
+100101722={
 	name=Josephine
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	female=yes
 	father=100101717
 	mother=100101718
@@ -191,78 +189,71 @@
 	2011.1.9={birth=yes}
 }
 
-100101723 = {
+100101723={
 	name=Joachim
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	father=100101716
 	mother=100056040
 	1969.6.7={birth=yes}
-	1995.11.18 = {
+	1995.11.18={
 		add_spouse=100101724
 	}
-	2005.4.8 = {
+	2005.4.8={
 		remove_spouse=100101724
 	}
-	2008.5.24 = {
+	2008.5.24={
 		add_spouse=100101727
 	}
 }
 
-100101724 = {
+100101724={
 	name=Alexandra
 	dynasty=10243
-	religion=lutheran
-	culture=danish
+	religion=lutheran culture=danish
 	female=yes
 	1964.6.30={birth=yes}
 }
 
-100101725 = {
+100101725={
 	name=Nikolai
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	father=100101723
 	mother=100101724
 	1999.8.28={birth=yes}
 }
 
-100101726 = {
+100101726={
 	name=Felix
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	father=100101723
 	mother=100101724
 	2002.7.22={birth=yes}
 }
 
-100101727 = {
+100101727={
 	name=Marie
 	dynasty=10244
-	religion=lutheran
-	culture=frankish
+	religion=lutheran culture=frankish
 	female=yes
 	1976.2.6={birth=yes}
 }
 
-100101728 = {
+100101728={
 	name=Henrik
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	father=100101723
 	mother=100101727
 	2009.5.4={birth=yes}
 }
 
-100101729 = {
+100101729={
 	name=Athena
-	dynasty=11501
-	religion=lutheran
-	culture=danish
+	dynasty=1501
+	religion=lutheran culture=danish
 	female=yes
 	father=100101723
 	mother=100101727
