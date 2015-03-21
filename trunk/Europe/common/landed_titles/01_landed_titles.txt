@@ -1449,7 +1449,7 @@ e_ceskoslovensko = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 121 province_id = 122 province_id = 123 province_id = 124 } }
+					any_demesne_province = { OR = { province_id = 121 province_id = 122 } }
 				}
 			}
 			capital = 121 # c_brno
@@ -1484,21 +1484,19 @@ e_ceskoslovensko = {
 				b_olomouc_5 = {
 				}
 			}
-			c_opava = { # 123
-				color={ 240 224 128 }
-				color2={ 255 255 255 }
-				
-				b_opava = {
-				}
-				b_opava_2 = {
-				}
-				b_opava_3 = {
-				}
-				b_opava_4 = {
-				}
-				b_opava_5 = {
+		}
+		d_teschen = {
+			color={ 6 233 218 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 123 province_id = 124 } }
 				}
 			}
+			capital = 124 # c_tesin
+			
 			c_tesin = { # 124
 				color={ 16 223 223 }
 				color2={ 255 255 255 }
@@ -1512,6 +1510,21 @@ e_ceskoslovensko = {
 				b_tesin_4 = {
 				}
 				b_tesin_5 = {
+				}
+			}
+			c_opava = { # 123
+				color={ 240 224 128 }
+				color2={ 255 255 255 }
+				
+				b_opava = {
+				}
+				b_opava_2 = {
+				}
+				b_opava_3 = {
+				}
+				b_opava_4 = {
+				}
+				b_opava_5 = {
 				}
 			}
 		}
@@ -1596,6 +1609,34 @@ e_ceskoslovensko = {
 				}
 			}
 		}
+		d_felvidek = {
+			color={ 42 182 5 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 130 } }
+				}
+			}
+			capital = 130 # c_felvidek
+			
+			c_felvidek = { # 130
+				color={ 32 192 0 }
+				color2={ 255 255 255 }
+				
+				b_felvidek = {
+				}
+				b_felvidek_2 = {
+				}
+				b_felvidek_3 = {
+				}
+				b_felvidek_4 = {
+				}
+				b_felvidek_5 = {
+				}
+			}
+		}
 		d_kosice = {
 			color={ 71 234 92 }
 			color2={ 255 255 255 }
@@ -1603,7 +1644,7 @@ e_ceskoslovensko = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 129 province_id = 130 province_id = 131 } }
+					any_demesne_province = { OR = { province_id = 129 province_id = 131 } }
 				}
 			}
 			capital = 129 # c_kosice
@@ -1621,21 +1662,6 @@ e_ceskoslovensko = {
 				b_kosice_4 = {
 				}
 				b_kosice_5 = {
-				}
-			}
-			c_felvidek = { # 130
-				color={ 32 192 0 }
-				color2={ 255 255 255 }
-				
-				b_felvidek = {
-				}
-				b_felvidek_2 = {
-				}
-				b_felvidek_3 = {
-				}
-				b_felvidek_4 = {
-				}
-				b_felvidek_5 = {
 				}
 			}
 			c_uzhhorod = { # 131
@@ -9997,7 +10023,7 @@ e_italia = {
 				}
 			}
 		}
-		d_sicilia = {
+		d_sicily = {
 			color={ 138 71 37 }
 			color2={ 255 255 255 }
 			
@@ -19737,17 +19763,17 @@ e_turkey = {
 	color={ 200 200 12 }
 	color2={ 255 255 20 }
 	
-	capital = 991 # c_istanbul
+	capital = 991 # c_constantinople
 	culture = turkish
 	
 	k_turkey = {
 		color={ 210 190 17 }
 		color2={ 255 255 255 }
 		
-		capital = 991 # c_istanbul
+		capital = 991 # c_constantinople
 		culture = turkish
 		
-		d_izmit = {
+		d_thrace = {
 			color={ 230 170 27 }
 			color2={ 255 255 255 }
 			
@@ -19757,9 +19783,9 @@ e_turkey = {
 					any_demesne_province = { OR = { province_id = 991 province_id = 992 province_id = 993 province_id = 994 province_id = 995 } }
 				}
 			}
-			capital = 991 # c_istanbul
+			capital = 991 # c_constantinople
 			
-			c_istanbul = { # 991
+			c_constantinople = { # 991
 				color={ 240 160 32 }
 				color2={ 255 255 255 }
 				
@@ -20716,34 +20742,34 @@ k_albania = {
 	color={ 178 190 82 }
 	color2={ 255 255 255 }
 	
-	capital = 1089 # c_tirane
+	capital = 1089 # c_tirana
 	culture = albanian
 	
-	d_albania = {
+	d_tirana = {
 		color={ 198 170 92 }
 		color2={ 255 255 255 }
 		
 		allow = {
 			OR = {
 				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 1089 province_id = 1090 province_id = 1091 province_id = 1092 province_id = 1093 } }
+				any_demesne_province = { OR = { province_id = 1089 province_id = 1090 province_id = 1091 } }
 			}
 		}
-		capital = 1089 # c_tirane
+		capital = 1089 # c_tirana
 		
-		c_tirane = { # 1089
+		c_tirana = { # 1089
 			color={ 208 160 97 }
 			color2={ 255 255 255 }
 			
-			b_tirane = {
+			b_tirana = {
 			}
-			b_tirane_2 = {
+			b_tirana_2 = {
 			}
-			b_tirane_3 = {
+			b_tirana_3 = {
 			}
-			b_tirane_4 = {
+			b_tirana_4 = {
 			}
-			b_tirane_5 = {
+			b_tirana_5 = {
 			}
 		}
 		c_durres = { # 1091
@@ -20761,21 +20787,6 @@ k_albania = {
 			b_durres_5 = {
 			}
 		}
-		c_gjirokaster = { # 1093
-			color={ 123 224 113 }
-			color2={ 255 255 255 }
-			
-			b_gjirokaster = {
-			}
-			b_gjirokaster_2 = {
-			}
-			b_gjirokaster_3 = {
-			}
-			b_gjirokaster_4 = {
-			}
-			b_gjirokaster_5 = {
-			}
-		}
 		c_shkoder = { # 1090
 			color={ 81 160 97 }
 			color2={ 255 255 255 }
@@ -20791,6 +20802,19 @@ k_albania = {
 			b_shkoder_5 = {
 			}
 		}
+	}
+	d_vlora = {
+		color={ 103 202 219 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 1092 province_id = 1093 } }
+			}
+		}
+		capital = 1092 # c_vlore
+		
 		c_vlore = { # 1092
 			color={ 113 192 224 }
 			color2={ 255 255 255 }
@@ -20804,6 +20828,21 @@ k_albania = {
 			b_vlore_4 = {
 			}
 			b_vlore_5 = {
+			}
+		}
+		c_gjirokaster = { # 1093
+			color={ 123 224 113 }
+			color2={ 255 255 255 }
+			
+			b_gjirokaster = {
+			}
+			b_gjirokaster_2 = {
+			}
+			b_gjirokaster_3 = {
+			}
+			b_gjirokaster_4 = {
+			}
+			b_gjirokaster_5 = {
 			}
 		}
 	}
