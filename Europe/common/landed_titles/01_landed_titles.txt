@@ -6877,14 +6877,14 @@ e_india = {
 	color2={ 255 255 20 }
 	
 	capital = 1338 # c_delhi
-	culture = panjabi
+	culture = hindustani
 	
 	k_india = {
 		color={ 194 13 145 }
 		color2={ 255 255 255 }
 		
 		capital = 1338 # c_delhi
-		culture = panjabi
+		culture = hindustani
 		
 		d_united_provinces = {
 			color={ 214 249 155 }
@@ -6893,7 +6893,7 @@ e_india = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1338 province_id = 1339 province_id = 1340 province_id = 1341 province_id = 1342 province_id = 1343 province_id = 1344 province_id = 1345 province_id = 1346 province_id = 1347 province_id = 1348 } }
+					any_demesne_province = { OR = { province_id = 1338 province_id = 1339 province_id = 1340 province_id = 1341 province_id = 1342 } }
 				}
 			}
 			capital = 1338 # c_delhi
@@ -6928,51 +6928,6 @@ e_india = {
 				b_agra_5 = {
 				}
 			}
-			c_allahabad = { # 1344
-				color={ 17 112 33 }
-				color2={ 255 255 255 }
-				
-				b_allahabad = {
-				}
-				b_allahabad_2 = {
-				}
-				b_allahabad_3 = {
-				}
-				b_allahabad_4 = {
-				}
-				b_allahabad_5 = {
-				}
-			}
-			c_benares = { # 1345
-				color={ 208 176 160 }
-				color2={ 255 255 255 }
-				
-				b_benares = {
-				}
-				b_benares_2 = {
-				}
-				b_benares_3 = {
-				}
-				b_benares_4 = {
-				}
-				b_benares_5 = {
-				}
-			}
-			c_cawnpore = { # 1343
-				color={ 97 112 160 }
-				color2={ 255 255 255 }
-				
-				b_cawnpore = {
-				}
-				b_cawnpore_2 = {
-				}
-				b_cawnpore_3 = {
-				}
-				b_cawnpore_4 = {
-				}
-				b_cawnpore_5 = {
-				}
-			}
 			c_dehra_dun = { # 1340
 				color={ 73 51 127 }
 				color2={ 255 255 255 }
@@ -6986,51 +6941,6 @@ e_india = {
 				b_dehra_dun_4 = {
 				}
 				b_dehra_dun_5 = {
-				}
-			}
-			c_fyzabad = { # 1348
-				color={ 51 127 108 }
-				color2={ 255 255 255 }
-				
-				b_fyzabad = {
-				}
-				b_fyzabad_2 = {
-				}
-				b_fyzabad_3 = {
-				}
-				b_fyzabad_4 = {
-				}
-				b_fyzabad_5 = {
-				}
-			}
-			c_gorakhpur = { # 1346
-				color={ 160 49 96 }
-				color2={ 255 255 255 }
-				
-				b_gorakhpur = {
-				}
-				b_gorakhpur_2 = {
-				}
-				b_gorakhpur_3 = {
-				}
-				b_gorakhpur_4 = {
-				}
-				b_gorakhpur_5 = {
-				}
-			}
-			c_lucknow = { # 1347
-				color={ 224 112 160 }
-				color2={ 255 255 255 }
-				
-				b_lucknow = {
-				}
-				b_lucknow_2 = {
-				}
-				b_lucknow_3 = {
-				}
-				b_lucknow_4 = {
-				}
-				b_lucknow_5 = {
 				}
 			}
 			c_meerut = { # 1341
@@ -7162,6 +7072,64 @@ e_india = {
 				b_imphal_4 = {
 				}
 				b_imphal_5 = {
+				}
+			}
+		}
+		d_awadh = {
+			color={ 214 122 155 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1343 province_id = 1347 province_id = 1348 } }
+				}
+			}
+			capital = 1347 # c_lucknow
+			
+			c_lucknow = { # 1347
+				color={ 224 112 160 }
+				color2={ 255 255 255 }
+				
+				b_lucknow = {
+				}
+				b_lucknow_2 = {
+				}
+				b_lucknow_3 = {
+				}
+				b_lucknow_4 = {
+				}
+				b_lucknow_5 = {
+				}
+			}
+			c_cawnpore = { # 1343
+				color={ 97 112 160 }
+				color2={ 255 255 255 }
+				
+				b_cawnpore = {
+				}
+				b_cawnpore_2 = {
+				}
+				b_cawnpore_3 = {
+				}
+				b_cawnpore_4 = {
+				}
+				b_cawnpore_5 = {
+				}
+			}
+			c_fyzabad = { # 1348
+				color={ 51 127 108 }
+				color2={ 255 255 255 }
+				
+				b_fyzabad = {
+				}
+				b_fyzabad_2 = {
+				}
+				b_fyzabad_3 = {
+				}
+				b_fyzabad_4 = {
+				}
+				b_fyzabad_5 = {
 				}
 			}
 		}
@@ -7371,6 +7339,79 @@ e_india = {
 				}
 			}
 		}
+		d_bundelkhand = {
+			color={ 27 102 38 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1344 province_id = 1345 province_id = 1346 province_id = 1373 } }
+				}
+			}
+			capital = 1344 # c_allahabad
+			
+			c_allahabad = { # 1344
+				color={ 17 112 33 }
+				color2={ 255 255 255 }
+				
+				b_allahabad = {
+				}
+				b_allahabad_2 = {
+				}
+				b_allahabad_3 = {
+				}
+				b_allahabad_4 = {
+				}
+				b_allahabad_5 = {
+				}
+			}
+			c_benares = { # 1345
+				color={ 208 176 160 }
+				color2={ 255 255 255 }
+				
+				b_benares = {
+				}
+				b_benares_2 = {
+				}
+				b_benares_3 = {
+				}
+				b_benares_4 = {
+				}
+				b_benares_5 = {
+				}
+			}
+			c_gorakhpur = { # 1346
+				color={ 160 49 96 }
+				color2={ 255 255 255 }
+				
+				b_gorakhpur = {
+				}
+				b_gorakhpur_2 = {
+				}
+				b_gorakhpur_3 = {
+				}
+				b_gorakhpur_4 = {
+				}
+				b_gorakhpur_5 = {
+				}
+			}
+			c_rewa = { # 1373
+				color={ 208 176 33 }
+				color2={ 255 255 255 }
+				
+				b_rewa = {
+				}
+				b_rewa_2 = {
+				}
+				b_rewa_3 = {
+				}
+				b_rewa_4 = {
+				}
+				b_rewa_5 = {
+				}
+			}
+		}
 		d_calcutta = {
 			color={ 198 186 218 }
 			color2={ 255 255 255 }
@@ -7421,7 +7462,7 @@ e_india = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1367 province_id = 1368 province_id = 1369 province_id = 1370 province_id = 1371 province_id = 1372 province_id = 1373 } }
+					any_demesne_province = { OR = { province_id = 1367 province_id = 1368 province_id = 1369 province_id = 1370 province_id = 1371 province_id = 1372 } }
 				}
 			}
 			capital = 1367 # c_jubbulpore
@@ -7516,21 +7557,6 @@ e_india = {
 				b_indore_5 = {
 				}
 			}
-			c_rewa = { # 1373
-				color={ 208 176 33 }
-				color2={ 255 255 255 }
-				
-				b_rewa = {
-				}
-				b_rewa_2 = {
-				}
-				b_rewa_3 = {
-				}
-				b_rewa_4 = {
-				}
-				b_rewa_5 = {
-				}
-			}
 		}
 		d_circars = {
 			color={ 134 122 155 }
@@ -7542,21 +7568,21 @@ e_india = {
 					any_demesne_province = { OR = { province_id = 1392 province_id = 1393 province_id = 1394 province_id = 1395 } }
 				}
 			}
-			capital = 1392 # c_vizagapatnam
+			capital = 1392 # c_visakhapatnam
 			
-			c_vizagapatnam = { # 1392
+			c_visakhapatnam = { # 1392
 				color={ 144 112 160 }
 				color2={ 255 255 255 }
 				
-				b_vizagapatnam = {
+				b_visakhapatnam = {
 				}
-				b_vizagapatnam_2 = {
+				b_visakhapatnam_2 = {
 				}
-				b_vizagapatnam_3 = {
+				b_visakhapatnam_3 = {
 				}
-				b_vizagapatnam_4 = {
+				b_visakhapatnam_4 = {
 				}
-				b_vizagapatnam_5 = {
+				b_visakhapatnam_5 = {
 				}
 			}
 			c_kurnool = { # 1395
@@ -7602,197 +7628,6 @@ e_india = {
 				b_nellore_4 = {
 				}
 				b_nellore_5 = {
-				}
-			}
-		}
-		d_gujarat = {
-			color={ 166 218 91 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1374 province_id = 1375 province_id = 1376 province_id = 1377 province_id = 1378 province_id = 1379 } }
-				}
-			}
-			capital = 1374 # c_ahmedabad
-			
-			c_ahmedabad = { # 1374
-				color={ 176 208 96 }
-				color2={ 255 255 255 }
-				
-				b_ahmedabad = {
-				}
-				b_ahmedabad_2 = {
-				}
-				b_ahmedabad_3 = {
-				}
-				b_ahmedabad_4 = {
-				}
-				b_ahmedabad_5 = {
-				}
-			}
-			c_baroda = { # 1377
-				color={ 240 17 96 }
-				color2={ 255 255 255 }
-				
-				b_baroda = {
-				}
-				b_baroda_2 = {
-				}
-				b_baroda_3 = {
-				}
-				b_baroda_4 = {
-				}
-				b_baroda_5 = {
-				}
-			}
-			c_mandvi = { # 1379
-				color={ 176 80 96 }
-				color2={ 255 255 255 }
-				
-				b_mandvi = {
-				}
-				b_mandvi_2 = {
-				}
-				b_mandvi_3 = {
-				}
-				b_mandvi_4 = {
-				}
-				b_mandvi_5 = {
-				}
-			}
-			c_patan = { # 1376
-				color={ 49 81 224 }
-				color2={ 255 255 255 }
-				
-				b_patan = {
-				}
-				b_patan_2 = {
-				}
-				b_patan_3 = {
-				}
-				b_patan_4 = {
-				}
-				b_patan_5 = {
-				}
-			}
-			c_rajkot = { # 1378
-				color={ 48 208 96 }
-				color2={ 255 255 255 }
-				
-				b_rajkot = {
-				}
-				b_rajkot_2 = {
-				}
-				b_rajkot_3 = {
-				}
-				b_rajkot_4 = {
-				}
-				b_rajkot_5 = {
-				}
-			}
-			c_surat = { # 1375
-				color={ 49 208 224 }
-				color2={ 255 255 255 }
-				
-				b_surat = {
-				}
-				b_surat_2 = {
-				}
-				b_surat_3 = {
-				}
-				b_surat_4 = {
-				}
-				b_surat_5 = {
-				}
-			}
-		}
-		d_madras = {
-			color={ 26 166 101 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1387 province_id = 1388 province_id = 1389 province_id = 1390 province_id = 1391 } }
-				}
-			}
-			capital = 1387 # c_madras
-			
-			c_madras = { # 1387
-				color={ 16 176 96 }
-				color2={ 255 255 255 }
-				
-				b_madras = {
-				}
-				b_madras_2 = {
-				}
-				b_madras_3 = {
-				}
-				b_madras_4 = {
-				}
-				b_madras_5 = {
-				}
-			}
-			c_coimbatore = { # 1390
-				color={ 32 160 80 }
-				color2={ 255 255 255 }
-				
-				b_coimbatore = {
-				}
-				b_coimbatore_2 = {
-				}
-				b_coimbatore_3 = {
-				}
-				b_coimbatore_4 = {
-				}
-				b_coimbatore_5 = {
-				}
-			}
-			c_madurai = { # 1389
-				color={ 160 33 208 }
-				color2={ 255 255 255 }
-				
-				b_madurai = {
-				}
-				b_madurai_2 = {
-				}
-				b_madurai_3 = {
-				}
-				b_madurai_4 = {
-				}
-				b_madurai_5 = {
-				}
-			}
-			c_pondicherry = { # 1391
-				color={ 171 173 177 }
-				color2={ 255 255 255 }
-				
-				b_pondicherry = {
-				}
-				b_pondicherry_2 = {
-				}
-				b_pondicherry_3 = {
-				}
-				b_pondicherry_4 = {
-				}
-				b_pondicherry_5 = {
-				}
-			}
-			c_tanjore = { # 1388
-				color={ 160 32 80 }
-				color2={ 255 255 255 }
-				
-				b_tanjore = {
-				}
-				b_tanjore_2 = {
-				}
-				b_tanjore_3 = {
-				}
-				b_tanjore_4 = {
-				}
-				b_tanjore_5 = {
 				}
 			}
 		}
@@ -8101,109 +7936,6 @@ e_india = {
 				}
 			}
 		}
-		d_rajputana = {
-			color={ 214 250 28 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1361 province_id = 1362 province_id = 1363 province_id = 1364 province_id = 1365 province_id = 1366 } }
-				}
-			}
-			capital = 1361 # c_ajmer
-			
-			c_ajmer = { # 1361
-				color={ 224 240 33 }
-				color2={ 255 255 255 }
-				
-				b_ajmer = {
-				}
-				b_ajmer_2 = {
-				}
-				b_ajmer_3 = {
-				}
-				b_ajmer_4 = {
-				}
-				b_ajmer_5 = {
-				}
-			}
-			c_bikaner = { # 1364
-				color={ 1 240 224 }
-				color2={ 255 255 255 }
-				
-				b_bikaner = {
-				}
-				b_bikaner_2 = {
-				}
-				b_bikaner_3 = {
-				}
-				b_bikaner_4 = {
-				}
-				b_bikaner_5 = {
-				}
-			}
-			c_jaipur = { # 1365
-				color={ 97 240 33 }
-				color2={ 255 255 255 }
-				
-				b_jaipur = {
-				}
-				b_jaipur_2 = {
-				}
-				b_jaipur_3 = {
-				}
-				b_jaipur_4 = {
-				}
-				b_jaipur_5 = {
-				}
-			}
-			c_jaisalmer = { # 1362
-				color={ 96 49 160 }
-				color2={ 255 255 255 }
-				
-				b_jaisalmer = {
-				}
-				b_jaisalmer_2 = {
-				}
-				b_jaisalmer_3 = {
-				}
-				b_jaisalmer_4 = {
-				}
-				b_jaisalmer_5 = {
-				}
-			}
-			c_jodhpur = { # 1363
-				color={ 224 176 32 }
-				color2={ 255 255 255 }
-				
-				b_jodhpur = {
-				}
-				b_jodhpur_2 = {
-				}
-				b_jodhpur_3 = {
-				}
-				b_jodhpur_4 = {
-				}
-				b_jodhpur_5 = {
-				}
-			}
-			c_udaipur = { # 1366
-				color={ 240 81 223 }
-				color2={ 255 255 255 }
-				
-				b_udaipur = {
-				}
-				b_udaipur_2 = {
-				}
-				b_udaipur_3 = {
-				}
-				b_udaipur_4 = {
-				}
-				b_udaipur_5 = {
-				}
-			}
-		}
 		d_sikkim = {
 			color={ 214 186 219 }
 			color2={ 255 255 255 }
@@ -8232,61 +7964,127 @@ e_india = {
 				}
 			}
 		}
-		d_travancore = {
-			color={ 150 170 75 }
+	}
+	k_gujarat = {
+		color={ 146 238 81 }
+		color2={ 255 255 255 }
+		
+		capital = 1374 # c_ahmedabad
+		culture = gujurati
+		
+		d_ahmedabad = {
+			color={ 166 218 91 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1396 province_id = 1397 province_id = 1398 } }
+					any_demesne_province = { OR = { province_id = 1374 province_id = 1375 province_id = 1377 } }
 				}
 			}
-			capital = 1396 # c_calicut
+			capital = 1374 # c_ahmedabad
 			
-			c_calicut = { # 1396
-				color={ 160 160 80 }
+			c_ahmedabad = { # 1374
+				color={ 176 208 96 }
 				color2={ 255 255 255 }
 				
-				b_calicut = {
+				b_ahmedabad = {
 				}
-				b_calicut_2 = {
+				b_ahmedabad_2 = {
 				}
-				b_calicut_3 = {
+				b_ahmedabad_3 = {
 				}
-				b_calicut_4 = {
+				b_ahmedabad_4 = {
 				}
-				b_calicut_5 = {
+				b_ahmedabad_5 = {
 				}
 			}
-			c_cochin = { # 1397
-				color={ 33 33 208 }
+			c_baroda = { # 1377
+				color={ 240 17 96 }
 				color2={ 255 255 255 }
 				
-				b_cochin = {
+				b_baroda = {
 				}
-				b_cochin_2 = {
+				b_baroda_2 = {
 				}
-				b_cochin_3 = {
+				b_baroda_3 = {
 				}
-				b_cochin_4 = {
+				b_baroda_4 = {
 				}
-				b_cochin_5 = {
+				b_baroda_5 = {
 				}
 			}
-			c_trivandrum = { # 1398
-				color={ 33 160 208 }
+			c_surat = { # 1375
+				color={ 49 208 224 }
 				color2={ 255 255 255 }
 				
-				b_trivandrum = {
+				b_surat = {
 				}
-				b_trivandrum_2 = {
+				b_surat_2 = {
 				}
-				b_trivandrum_3 = {
+				b_surat_3 = {
 				}
-				b_trivandrum_4 = {
+				b_surat_4 = {
 				}
-				b_trivandrum_5 = {
+				b_surat_5 = {
+				}
+			}
+		}
+		d_rajkot = {
+			color={ 58 198 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1376 province_id = 1378 province_id = 1379 } }
+				}
+			}
+			capital = 1378 # c_rajkot
+			
+			c_rajkot = { # 1378
+				color={ 48 208 96 }
+				color2={ 255 255 255 }
+				
+				b_rajkot = {
+				}
+				b_rajkot_2 = {
+				}
+				b_rajkot_3 = {
+				}
+				b_rajkot_4 = {
+				}
+				b_rajkot_5 = {
+				}
+			}
+			c_mandvi = { # 1379
+				color={ 176 80 96 }
+				color2={ 255 255 255 }
+				
+				b_mandvi = {
+				}
+				b_mandvi_2 = {
+				}
+				b_mandvi_3 = {
+				}
+				b_mandvi_4 = {
+				}
+				b_mandvi_5 = {
+				}
+			}
+			c_patan = { # 1376
+				color={ 49 81 224 }
+				color2={ 255 255 255 }
+				
+				b_patan = {
+				}
+				b_patan_2 = {
+				}
+				b_patan_3 = {
+				}
+				b_patan_4 = {
+				}
+				b_patan_5 = {
 				}
 			}
 		}
@@ -8296,7 +8094,7 @@ e_india = {
 		color2={ 255 255 255 }
 		
 		capital = 1399 # c_hyderabad
-		culture = hindustani
+		culture = telugu
 		
 		d_hyderabad = {
 			color={ 218 102 37 }
@@ -8398,6 +8196,292 @@ e_india = {
 				b_warangal_4 = {
 				}
 				b_warangal_5 = {
+				}
+			}
+		}
+	}
+	k_kerala = {
+		color={ 130 190 65 }
+		color2={ 255 255 255 }
+		
+		capital = 1396 # c_calicut
+		culture = malayalam
+		
+		d_travancore = {
+			color={ 150 170 75 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1396 province_id = 1397 province_id = 1398 } }
+				}
+			}
+			capital = 1396 # c_calicut
+			
+			c_calicut = { # 1396
+				color={ 160 160 80 }
+				color2={ 255 255 255 }
+				
+				b_calicut = {
+				}
+				b_calicut_2 = {
+				}
+				b_calicut_3 = {
+				}
+				b_calicut_4 = {
+				}
+				b_calicut_5 = {
+				}
+			}
+			c_cochin = { # 1397
+				color={ 33 33 208 }
+				color2={ 255 255 255 }
+				
+				b_cochin = {
+				}
+				b_cochin_2 = {
+				}
+				b_cochin_3 = {
+				}
+				b_cochin_4 = {
+				}
+				b_cochin_5 = {
+				}
+			}
+			c_trivandrum = { # 1398
+				color={ 33 160 208 }
+				color2={ 255 255 255 }
+				
+				b_trivandrum = {
+				}
+				b_trivandrum_2 = {
+				}
+				b_trivandrum_3 = {
+				}
+				b_trivandrum_4 = {
+				}
+				b_trivandrum_5 = {
+				}
+			}
+		}
+	}
+	k_rajasthan = {
+		color={ 127 210 48 }
+		color2={ 255 255 255 }
+		
+		capital = 1365 # c_jaipur
+		culture = hindustani
+		
+		d_jaipur = {
+			color={ 107 230 38 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1361 province_id = 1365 province_id = 1366 } }
+				}
+			}
+			capital = 1365 # c_jaipur
+			
+			c_jaipur = { # 1365
+				color={ 97 240 33 }
+				color2={ 255 255 255 }
+				
+				b_jaipur = {
+				}
+				b_jaipur_2 = {
+				}
+				b_jaipur_3 = {
+				}
+				b_jaipur_4 = {
+				}
+				b_jaipur_5 = {
+				}
+			}
+			c_ajmer = { # 1361
+				color={ 224 240 33 }
+				color2={ 255 255 255 }
+				
+				b_ajmer = {
+				}
+				b_ajmer_2 = {
+				}
+				b_ajmer_3 = {
+				}
+				b_ajmer_4 = {
+				}
+				b_ajmer_5 = {
+				}
+			}
+			c_udaipur = { # 1366
+				color={ 240 81 223 }
+				color2={ 255 255 255 }
+				
+				b_udaipur = {
+				}
+				b_udaipur_2 = {
+				}
+				b_udaipur_3 = {
+				}
+				b_udaipur_4 = {
+				}
+				b_udaipur_5 = {
+				}
+			}
+		}
+		d_jodhpur = {
+			color={ 214 186 27 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1362 province_id = 1363 province_id = 1364 } }
+				}
+			}
+			capital = 1363 # c_jodhpur
+			
+			c_jodhpur = { # 1363
+				color={ 224 176 32 }
+				color2={ 255 255 255 }
+				
+				b_jodhpur = {
+				}
+				b_jodhpur_2 = {
+				}
+				b_jodhpur_3 = {
+				}
+				b_jodhpur_4 = {
+				}
+				b_jodhpur_5 = {
+				}
+			}
+			c_bikaner = { # 1364
+				color={ 1 240 224 }
+				color2={ 255 255 255 }
+				
+				b_bikaner = {
+				}
+				b_bikaner_2 = {
+				}
+				b_bikaner_3 = {
+				}
+				b_bikaner_4 = {
+				}
+				b_bikaner_5 = {
+				}
+			}
+			c_jaisalmer = { # 1362
+				color={ 96 49 160 }
+				color2={ 255 255 255 }
+				
+				b_jaisalmer = {
+				}
+				b_jaisalmer_2 = {
+				}
+				b_jaisalmer_3 = {
+				}
+				b_jaisalmer_4 = {
+				}
+				b_jaisalmer_5 = {
+				}
+			}
+		}
+	}
+	k_tamil_nadu = {
+		color={ 46 146 111 }
+		color2={ 255 255 255 }
+		
+		capital = 1387 # c_madras
+		culture = tamil
+		
+		d_madras = {
+			color={ 26 166 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1387 province_id = 1388 province_id = 1389 province_id = 1390 province_id = 1391 } }
+				}
+			}
+			capital = 1387 # c_madras
+			
+			c_madras = { # 1387
+				color={ 16 176 96 }
+				color2={ 255 255 255 }
+				
+				b_madras = {
+				}
+				b_madras_2 = {
+				}
+				b_madras_3 = {
+				}
+				b_madras_4 = {
+				}
+				b_madras_5 = {
+				}
+			}
+			c_coimbatore = { # 1390
+				color={ 32 160 80 }
+				color2={ 255 255 255 }
+				
+				b_coimbatore = {
+				}
+				b_coimbatore_2 = {
+				}
+				b_coimbatore_3 = {
+				}
+				b_coimbatore_4 = {
+				}
+				b_coimbatore_5 = {
+				}
+			}
+			c_madurai = { # 1389
+				color={ 160 33 208 }
+				color2={ 255 255 255 }
+				
+				b_madurai = {
+				}
+				b_madurai_2 = {
+				}
+				b_madurai_3 = {
+				}
+				b_madurai_4 = {
+				}
+				b_madurai_5 = {
+				}
+			}
+			c_pondicherry = { # 1391
+				color={ 171 173 177 }
+				color2={ 255 255 255 }
+				
+				b_pondicherry = {
+				}
+				b_pondicherry_2 = {
+				}
+				b_pondicherry_3 = {
+				}
+				b_pondicherry_4 = {
+				}
+				b_pondicherry_5 = {
+				}
+			}
+			c_tanjore = { # 1388
+				color={ 160 32 80 }
+				color2={ 255 255 255 }
+				
+				b_tanjore = {
+				}
+				b_tanjore_2 = {
+				}
+				b_tanjore_3 = {
+				}
+				b_tanjore_4 = {
+				}
+				b_tanjore_5 = {
 				}
 			}
 		}
@@ -12588,7 +12672,7 @@ e_pakistan = {
 		color2={ 255 255 255 }
 		
 		capital = 1292 # c_srinagar
-		culture = sindhi
+		culture = kashmiri
 		
 		d_kashmir = {
 			color={ 43 102 38 }
@@ -21392,7 +21476,7 @@ k_bangladesh = {
 	color2={ 255 255 255 }
 	
 	capital = 1427 # c_dacca
-	culture = hindustani
+	culture = bengali
 	
 	d_bangladesh = {
 		color={ 27 102 101 }
@@ -21554,7 +21638,7 @@ k_bhutan = {
 	color2={ 255 255 255 }
 	
 	capital = 1433 # c_thimpu
-	culture = hindustani
+	culture = tibetic
 	
 	d_bhutan = {
 		color={ 86 186 218 }
@@ -25513,7 +25597,7 @@ k_nepal = {
 	color2={ 255 255 255 }
 	
 	capital = 1431 # c_jumla
-	culture = hindustani
+	culture = nepali
 	
 	d_nepal = {
 		color={ 106 70 38 }
