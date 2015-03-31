@@ -1,116 +1,115 @@
-100098000 = {
-name="Benjamin"
-dynasty=4126
-dna="dgaddabdaaj"
-properties="ah0aoc00000"
-martial=7
-diplomacy=9
-intrigue=9
-stewardship=5
-learning=4
-religion="jewish"
-culture="israeli"
-add_trait="grey_eminence"
-add_trait="quick"
-add_trait="envious"
-add_trait="patient"
-add_trait="deceitful"
-add_trait="brave"
-add_trait="ambitious"
-add_trait="paranoid"
-add_trait="proud"
-father= 10098002
-mother= 10098003
- 1949.10.21={
-          birth="1949.10.21"
+##ÄNSI
+
+100098000={
+    name=Benjamin
+    dynasty=4126
+    dna=dgaddabdaaj
+    properties=ah0aoc00000
+    martial=7
+    diplomacy=9
+    intrigue=9
+    stewardship=5
+    learning=4
+    religion=jewish
+    culture=israeli
+    add_trait=grey_eminence
+    add_trait=quick
+    add_trait=envious
+    add_trait=patient
+    add_trait=deceitful
+    add_trait=brave
+    add_trait=ambitious
+    add_trait=paranoid
+    add_trait=proud
+    father=100098002
+    mother=100098003
+    1949.10.21={
+        birth=yes
+    }
+    1991.1.1={
+        add_spouse=10098001
+    }
 }
-1991.1.1={
-         add_spouse = 10098001
-   }
-     }
- { = 10098001
- name="Sarah"
- dynasty=4210
-dna="
-properties="
-martial=3
-diplomacy=6
-intrigue=11
-stewardship=8
-learning=5
-religion="jewish"
-culture="israeli"
-add_trait="fortune_builder"
-add_trait="diligent"
-add_trait="wroth"
-add_trait="proud"
-add_trait="deceitful"
-add_trait="gregarious"
-add_trait="arbitrary"
-  1958.11.5={
-          birth="1958.11.5"
+
+100098001={ 
+    name=Sarah
+    dynasty=4210
+    # dna=
+    # properties=
+    martial=3
+    diplomacy=6
+    intrigue=11
+    stewardship=8
+    learning=5
+    religion=jewish
+    culture=israeli
+    add_trait=fortune_builder
+    add_trait=diligent
+    add_trait=wroth
+    add_trait=proud
+    add_trait=deceitful
+    add_trait=gregarious
+    add_trait=arbitrary
+    1958.11.5={
+        birth=yes
+    }
+    1991.1.1={
+        add_spouse=10098000
+    }
 }
-1991.1.1={
-         add_spouse = 10098000
-   }
-     }
-       10098002 = {
-	   name="Bentzion"
-	   dynasty=4126
-	   dna="
-	   properties="
-	   martial=2
-	   diplomacy=7
-	   intrigue=5
-	   stewardship=6
-	   learning=15
-	   religion="jewish"
-	   culture="israeli"
-	   add_trait="mastermind_theologian"
-	   add_trait="genius"
-	   add_trait="scholar"
-	   add_trait="diligent"
-	   add_trait="content"
-	   add_trait="patient"
-	   add_trait="shy"
-	   add_trait="theologian"
-	   1910.3.25={
-	   birth="1910.3.25"
-	   }
-	   1944.1.1={
-	  add_spouse=10098003
-	  }
-	   2012.30.4={
-	   death = {
-	   death_reason = death_natural
-	   }
-	    }
-	      } 
-		  10098003 = {
-		  name="tzila"
-		  dynasty=4212
-		  dna="
-		  properties="
-		  martial=3
-		  diplomacy=7
-		  stewardship=5
-		  intrigue=1
-		  learning=5
-		  religion="jewish"
-		  culture="israeli"
-		  add_trait="dutiful_cleric"
-		  1912.8.28 = {
-		  birth="1912.8.28"
-		  }
-		  1944.1.1={
-		  add_spouse=10098002
-		  }
-		  2000.2.1={
-		  death= {
-		  death_reason = death_natural
-	   }
-	    }
-	      } 
-		  
-		  
-	   
+
+100098002={
+    name=Bentzion
+    dynasty=4126
+    # dna=
+    # properties=
+    martial=2
+    diplomacy=7
+    intrigue=5
+    stewardship=6
+    learning=15
+    religion=jewish
+    culture=israeli
+    add_trait=mastermind_theologian
+    add_trait=genius
+    add_trait=scholar
+    add_trait=diligent
+    add_trait=content
+    add_trait=patient
+    add_trait=shy
+    add_trait=theologian
+    1910.3.25={
+        birth=yes
+    }
+    1944.1.1={
+        add_spouse=10098003
+    }
+    2012.30.4={
+        death={
+            death_reason=death_natural
+        }
+    }
+}
+100098003={
+    name=Tzila
+	female=yes
+    dynasty=4212
+    # dna=
+    # properties=
+    martial=3
+    diplomacy=7
+    stewardship=5
+    intrigue=1
+    learning=5
+    religion=jewish
+    culture=israeli
+    add_trait=dutiful_cleric
+    1912.8.28={
+        birth=yes
+    }
+    2000.2.1={
+        death={
+            death_reason=death_natural
+        }
+    }
+}
