@@ -122,3 +122,111 @@ k_baden = {
 
 	capital = 313 # c_karlsruhe
 }
+#Oryx's titles
+e_sweden = {
+	color = { 36 34 111 }
+	
+	creation_requires_capital = no
+	
+	capital = 875 #c_stockhom
+	
+	allow = {
+		AND = {
+			has_landed_title = k_sweden
+			has_landed_title = k_finland
+			has_landed_title = k_estonia
+			has_landed_title = k_latvia
+		}
+		
+		num_of_king_titles = 4
+		
+		NOT = {
+			any_demesne_title = {
+				tier = emperor
+			}
+		}
+
+		war = no
+		is_adult = yes
+		NOT = { tier = emperor }
+
+	}
+}
+e_finland = {
+	color = { 138 90 56 }
+	
+	creation_requires_capital = no
+	
+	capital = 849 #c_helsinki
+	
+	allow = {
+		culture = finnish
+		AND = {
+			has_landed_title = k_finland
+			has_landed_title = k_karelia
+		}
+		
+		NOT = {
+			any_demesne_title = {
+				tier = emperor
+			}
+		}
+
+		independent = yes
+		war = no
+		is_adult = yes
+		NOT = { tier = emperor }
+
+	}
+}
+e_byzantium = {
+	color = { 162 43 169 }
+	
+	creation_requires_capital = yes
+	
+	capital = 991 #c_constantinople
+	
+	allow = {
+		culture = greek
+		AND = {
+			has_landed_title = k_turkey
+			has_landed_title = k_greece
+		}
+		
+		NOT = {
+			any_demesne_title = {
+				tier = emperor
+			}
+		}
+
+		independent = yes
+		war = no
+		is_adult = yes
+
+	}
+}
+k_kurdistan
+	color = { 87 20 27 }
+	
+	creation_requires_capital = no
+	
+	capital = 1190 #c_arbil
+	
+	allow = {
+		culture = kurdish
+		
+		NOT = {
+			any_demesne_title = {
+				tier = king
+				tier = emperor
+			}
+		}
+
+		num_of_duke_titles = 3
+		
+		independent = yes
+		war = no
+		is_adult = yes
+
+	}
+}
