@@ -1372,9 +1372,6 @@ add_spouse=100098055
 	1956.1.4={
 	birth=yes
 	}
-	1979.1.1={
-	add_matrilineal_spouse=100098061
-	}
 	 }
 	 100098061={
 	 name=Pesah
@@ -1395,7 +1392,16 @@ add_spouse=100098055
 	 birth=yes
 	 }
 	 1979.1.1={
-	 add_matrilineal_spouse=100098060
+	effect={ 
+			set_character_flag=no_wedding_event
+			spouse={ 
+				set_character_flag=no_wedding_event
+				remove_spouse=spouse
+				add_spouse_matrilineal=ROOT
+				clr_character_flag=no_wedding_event
+			} 
+			clr_character_flag=no_wedding_event
+		} 
      }
 	  }
 	  100098062={
@@ -1482,7 +1488,7 @@ add_spouse=100098055
 		 birth=yes
 		 }
 		  }
-		  100098066={
+		  100098101={
 		  name=Miri
 		  female=yes
 		  dynasty=4222
@@ -2008,6 +2014,7 @@ add_spouse=100098055
 							   add_trait=diligent
 							   add_trait=just
 							   add_trait=patient
+							   father=100098088
 							   1950.3.19={
 							   birth=yes
 							   }
@@ -2032,9 +2039,6 @@ add_spouse=100098055
 								1977.3.20={
 								birth=yes
 								}
-								2006.9.29={
-								add_matrilineal_spouse=100098092
-								}
 								 }
 								 100098092={
 								 name=Eldad
@@ -2052,9 +2056,119 @@ add_spouse=100098055
 								 birth=yes
 								 }
 								 2006.9.29={
-								 add_matrilineal_spouse=100098091
-								 }
+								 effect={ 
+		                         set_character_flag=no_wedding_event
+			                     spouse={ 
+                     			 set_character_flag=no_wedding_event
+			                     remove_spouse=spouse
+				                 add_spouse_matrilineal=ROOT
+				                 clr_character_flag=no_wedding_event
+			                     } 
+			                     clr_character_flag=no_wedding_event
+		                         } 
 								  }
+<<<<<<< .mine
+								   }
+								  100098093={
+								  name=Omer
+								  dynasty=4146
+								  martial=0
+								  diplomacy=1
+								  stewardship=1
+								  intrigue=0
+								  learning=1
+								  religion=jewish
+								  culture=israeli
+								  father=100098092
+								  mother=100098091
+								  2009.1.1={
+								  birth=yes
+								  }
+								   }
+								   100098094={
+								   name=Yael
+								   female=yes
+								   dynasty=4146
+								   martial=0
+								   diplomacy=1
+								   stewardship=0
+								   intrigue=0
+								   learning=0
+								   religion=jewish
+								   culture=israeli
+								   father=100098092
+								   mother=100098091
+								   2011.6.4={
+								   birth=yes
+								   }
+								    }
+									100098095={
+									name=Menachem
+									dynasty=4020
+									martial=10
+									diplomacy=7
+									stewardship=8
+									intrigue=7
+									learning=6
+									religion=jewish
+									culture=israeli
+									add_trait=brilliant_strategist
+									add_trait=wroth
+									add_trait=brave
+									add_trait=temperate
+									add_trait=just
+									add_trait=humble
+									add_trait=honest
+									1913.8.16={
+									birth=yes
+									}
+									1992.3.9={
+									}
+									 }
+									 100098096={
+									 name=Itzhak
+									 dynasty=4173
+									 martial=9
+									 diplomacy=4
+									 stewardship=6
+									 intrigue=7
+									 learning=5
+									 religion=jewish
+									 culture=israeli
+									 add_trait=skilled_tactician
+									 add_trait=humble
+									 add_trait=temperate
+									 add_trait=brave
+									 add_trait=honest
+									 add_trait=diligent
+									 1915.10.22={
+									 birth=yes
+									 }
+									 2012.6.30={
+									 death=yes
+									 }
+									  }
+									  100098097={
+									  name=Ehud
+									  dynasty=4017
+									  martial=11
+									  diplomacy=6
+									  stewardship=4
+									  intrigue=4
+									  learning=6
+									  religion=jewish
+									  culture=israeli
+									  add_trait=brilliant_strategist
+									  add_trait=brave
+									  add_trait=arbitrary
+									  add_trait=proud
+									  add_trait=gluttonus
+									  add_trait=paranoid
+									  1942.2.12={
+									  birth=yes
+									  }
+									   }
+=======
 100098093 = {
     name = Omer
     dynasty = 4146
@@ -2155,6 +2269,7 @@ add_spouse=100098055
         birth = yes
     }
 }
+>>>>>>> .r58
 									   100098098={
 									   name=Ariel
 									   dynasty=4178
