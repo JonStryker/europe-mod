@@ -2208,21 +2208,21 @@ e_deutsches_reich = {
 				b_berlin_6 = {
 				}
 			}
-			c_cottbus = { # 228
+			c_niederlausitz = { # 228
 				color={ 223 64 32 }
 				color2={ 255 255 255 }
 				
 				b_cottbus = {
 				}
-				b_cottbus_2 = {
+				b_niederlausitz = {
 				}
-				b_cottbus_3 = {
+				b_niederlausitz_2 = {
 				}
-				b_cottbus_4 = {
+				b_niederlausitz_3 = {
 				}
-				b_cottbus_5 = {
+				b_niederlausitz_4 = {
 				}
-				b_cottbus_6 = {
+				b_niederlausitz_5 = {
 				}
 			}
 			c_prenzlau = { # 226
@@ -2997,21 +2997,6 @@ e_deutsches_reich = {
 				b_chemnitz_3 = {
 				}
 			}
-			c_goerlitz = { # 263
-				color={ 97 65 33 }
-				color2={ 255 255 255 }
-				
-				b_goerlitz = {
-				}
-				b_bautzen = {
-				}
-				b_goerlitz_2 = {
-				}
-				b_goerlitz_3 = {
-				}
-				b_goerlitz_4 = {
-				}
-			}
 			c_leipzig = { # 261
 				color={ 175 223 191 }
 				color2={ 255 255 255 }
@@ -3027,6 +3012,21 @@ e_deutsches_reich = {
 				b_leipzig_5 = {
 				}
 				b_leipzig_6 = {
+				}
+			}
+			c_oberlausitz = { # 263
+				color={ 97 65 33 }
+				color2={ 255 255 255 }
+				
+				b_goerlitz = {
+				}
+				b_bautzen = {
+				}
+				b_oberlausitz = {
+				}
+				b_oberlausitz_2 = {
+				}
+				b_oberlausitz_3 = {
 				}
 			}
 		}
@@ -18985,39 +18985,50 @@ e_scandinavia = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 892 province_id = 893 } }
+					any_demesne_province = { OR = { province_id = 892 province_id = 893 province_id = 1589 } }
 				}
 			}
-			capital = 892 # c_malmoe
+			capital = 892 # c_skane
 			
-			c_malmoe = { # 892
+			c_skane = { # 892
 				color={ 192 65 97 }
 				color2={ 255 255 255 }
 				
 				b_malmoe = {
 				}
-				b_malmoe_2 = {
+				b_skane = {
 				}
-				b_malmoe_3 = {
+				b_skane_2 = {
 				}
-				b_malmoe_4 = {
+				b_skane_3 = {
 				}
-				b_malmoe_5 = {
+				b_skane_4 = {
 				}
 			}
-			c_karlskrona = { # 893
+			c_blekinge = { # 893
 				color={ 192 192 97 }
 				color2={ 255 255 255 }
 				
 				b_karlskrona = {
 				}
-				b_karlskrona_2 = {
+				b_blekinge = {
 				}
-				b_karlskrona_3 = {
+				b_blekinge_2 = {
 				}
-				b_karlskrona_4 = {
+				b_blekinge_3 = {
 				}
-				b_karlskrona_5 = {
+			}
+			c_halland = { # 1589
+				color={ 133 43 131 }
+				color2={ 255 255 255 }
+				
+				b_halmstad = {
+				}
+				b_halland = {
+				}
+				b_halland_2 = {
+				}
+				b_halland_3 = {
 				}
 			}
 		}
@@ -23403,7 +23414,7 @@ k_israel = {
 		allow = {
 			OR = {
 				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 1193 province_id = 1194 province_id = 1195 province_id = 1196 province_id = 1197 province_id = 1598 } }
+				any_demesne_province = { OR = { province_id = 1193 province_id = 1194 province_id = 1195 province_id = 1196 province_id = 1197 } }
 			}
 		}
 		capital = 1193 # c_jerusalem
@@ -23418,26 +23429,11 @@ k_israel = {
 			}
 			b_temple_mount = {
 			}
-			b_mevaseret_zion = {
+			b_gush_etzion = {
 			}
 			b_beit_shemesh = {
 			}
-			b_gush_etzion = {
-			}
-		}
-		c_ashkelon = { # 1598
-			color={ 189 188 107 }
-			color2={ 255 255 255 }
-			
-			b_ashkelon = {
-			}
-			b_ashdod = {
-			}
-			b_sderot = {
-			}
-			b_kiryat_gat = {
-			}
-			b_kiryat_malakhi = {
+			b_bet_hamikdash = {
 			}
 		}
 		c_beersheba = { # 1196
@@ -23446,11 +23442,11 @@ k_israel = {
 			
 			b_beersheba = {
 			}
+			b_ashdod = {
+			}
+			b_ashkelon = {
+			}
 			b_eilat = {
-			}
-			b_dimona = {
-			}
-			b_arad = {
 			}
 		}
 		c_galilee = { # 1197
@@ -23463,9 +23459,9 @@ k_israel = {
 			}
 			b_safed = {
 			}
-			b_nahariya = {
-			}
 			b_tiberias = {
+			}
+			b_nahariya = {
 			}
 		}
 		c_haifa = { # 1195
@@ -23479,10 +23475,6 @@ k_israel = {
 			b_hadera = {
 			}
 			b_tirat_carmel = {
-			}
-			b_nesher = {
-			}
-			b_daliyat_al_karmel = {
 			}
 		}
 		c_tel_aviv = { # 1194
