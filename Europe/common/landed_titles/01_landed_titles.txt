@@ -2240,19 +2240,19 @@ e_deutsches_reich = {
 				b_prenzlau_5 = {
 				}
 			}
-			c_pritzwalk = { # 227
+			c_prignitz = { # 227
 				color={ 97 192 160 }
 				color2={ 255 255 255 }
 				
-				b_pritzwalk = {
+				b_wittenberge = {
 				}
-				b_pritzwalk_2 = {
+				b_perleberg = {
 				}
-				b_pritzwalk_3 = {
+				b_prignitz = {
 				}
-				b_pritzwalk_4 = {
+				b_prignitz_2 = {
 				}
-				b_pritzwalk_5 = {
+				b_prignitz_3 = {
 				}
 			}
 		}
@@ -21367,14 +21367,14 @@ k_bulgaria = {
 	capital = 1094 # c_sofia
 	culture = bulgarian
 	
-	d_rumelia = {
+	d_sofia = {
 		color={ 218 87 38 }
 		color2={ 255 255 255 }
 		
 		allow = {
 			OR = {
 				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 1094 province_id = 1095 province_id = 1096 province_id = 1097 province_id = 1098 } }
+				any_demesne_province = { OR = { province_id = 1094 province_id = 1095 province_id = 1099 } }
 			}
 		}
 		capital = 1094 # c_sofia
@@ -21383,95 +21383,89 @@ k_bulgaria = {
 			color={ 208 97 33 }
 			color2={ 255 255 255 }
 			
+			b_vrana = {
+			}
 			b_sofia = {
 			}
 			b_sofia_2 = {
 			}
-			b_sofia_3 = {
+			b_samokov = {
 			}
-			b_sofia_4 = {
+			b_botevgrad = {
 			}
-			b_sofia_5 = {
+			b_ihtiman = {
 			}
-			b_sofia_6 = {
-			}
-		}
-		c_burgas = { # 1098
-			color={ 113 33 160 }
-			color2={ 255 255 255 }
-			
-			b_burgas = {
-			}
-			b_burgas_2 = {
-			}
-			b_burgas_3 = {
-			}
-			b_burgas_4 = {
+			b_novi_iskar = {
 			}
 		}
-		c_petrich = { # 1095
+		c_pernik = { # 1095
 			color={ 240 160 224 }
 			color2={ 255 255 255 }
 			
+			b_pernik = {
+			}
+			b_blagoevgrad = {
+			}
+			b_kyustendil = {
+			}
+			b_dupnitsa = {
+			}
 			b_petrich = {
 			}
-			b_petrich_2 = {
+			b_sandanski = {
 			}
-			b_petrich_3 = {
+			b_gotse_delchev = {
 			}
 		}
+		c_vidin = { # 1099
+			color={ 205 210 55 }
+			color2={ 255 255 255 }
+			
+			b_montana = {
+			}
+			b_vidin = {
+			}
+			b_vratsa = {
+			}
+			b_lom = {
+			}
+			b_berkovitsa = {
+			}
+			b_kozloduy = {
+			}
+			b_mezdra = {
+			}
+		}
+	}
+	d_plovdiv = {
+		color={ 230 43 155 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 1096 province_id = 1097 province_id = 1101 } }
+			}
+		}
+		capital = 1096 # c_plovdiv
+		
 		c_plovdiv = { # 1096
 			color={ 240 33 160 }
 			color2={ 255 255 255 }
 			
 			b_plovdiv = {
 			}
-			b_plovdiv_2 = {
+			b_pazardzhik = {
 			}
-			b_plovdiv_3 = {
+			b_asenovgrad = {
 			}
-		}
-		c_stara_zagora = { # 1097
-			color={ 110 113 146 }
-			color2={ 255 255 255 }
-			
-			b_stara_zagora = {
+			b_smolyan = {
 			}
-			b_stara_zagora_2 = {
+			b_karlovo = {
 			}
-			b_stara_zagora_3 = {
+			b_velingrad = {
 			}
-			b_stara_zagora_4 = {
-			}
-			b_stara_zagora_5 = {
-			}
-		}
-	}
-	d_bulgaria = {
-		color={ 195 220 50 }
-		color2={ 255 255 255 }
-		
-		allow = {
-			OR = {
-				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 1099 province_id = 1100 province_id = 1101 province_id = 1102 province_id = 1103 province_id = 1104 } }
-			}
-		}
-		capital = 1099 # c_vidin
-		
-		c_vidin = { # 1099
-			color={ 205 210 55 }
-			color2={ 255 255 255 }
-			
-			b_vidin = {
-			}
-			b_vidin_2 = {
-			}
-			b_vidin_3 = {
-			}
-			b_vidin_4 = {
-			}
-			b_vidin_5 = {
+			b_panagyurishte = {
 			}
 		}
 		c_pleven = { # 1101
@@ -21480,61 +21474,125 @@ k_bulgaria = {
 			
 			b_pleven = {
 			}
-			b_pleven_2 = {
+			b_veliko_tarnovo = {
 			}
-			b_pleven_3 = {
+			b_lovech = {
+			}
+			b_gabrovo = {
+			}
+			b_svishtov = {
+			}
+			b_oryahovitsa = {
+			}
+			b_troyan = {
 			}
 		}
-		c_ruse = { # 1100
-			color={ 181 87 87 }
+		c_stara_zagora = { # 1097
+			color={ 110 113 146 }
 			color2={ 255 255 255 }
 			
-			b_ruse = {
+			b_stara_zagora = {
 			}
-			b_ruse_2 = {
+			b_haskovo = {
 			}
-			b_ruse_3 = {
+			b_kardzhali = {
 			}
-			b_ruse_4 = {
+			b_kazanlak = {
 			}
-		}
-		c_shumen = { # 1102
-			color={ 232 213 156 }
-			color2={ 255 255 255 }
-			
-			b_shumen = {
+			b_dimitrovgrad = {
 			}
-			b_shumen_2 = {
+			b_harmanli = {
 			}
-			b_shumen_3 = {
-			}
-			b_shumen_4 = {
+			b_chirpan = {
 			}
 		}
-		c_silistre = { # 1104
-			color={ 49 96 33 }
-			color2={ 255 255 255 }
-			
-			b_silistre = {
-			}
-			b_silistre_2 = {
-			}
-			b_silistre_3 = {
-			}
-			b_silistre_4 = {
+	}
+	d_varna = {
+		color={ 230 170 155 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 1098 province_id = 1102 province_id = 1103 province_id = 1104 } }
 			}
 		}
+		capital = 1103 # c_varna
+		
 		c_varna = { # 1103
 			color={ 240 160 160 }
 			color2={ 255 255 255 }
 			
 			b_varna = {
 			}
-			b_varna_2 = {
+			b_shumen = {
 			}
-			b_varna_3 = {
+			b_provadiya = {
 			}
-			b_varna_4 = {
+			b_novi_pazar_6 = {
+			}
+			b_devnya = {
+			}
+			b_veliki_preslav = {
+			}
+			b_beloslav = {
+			}
+		}
+		c_burgas = { # 1098
+			color={ 113 33 160 }
+			color2={ 255 255 255 }
+			
+			b_burgas = {
+			}
+			b_sliven = {
+			}
+			b_yambol = {
+			}
+			b_nova_zagora = {
+			}
+			b_aytos = {
+			}
+			b_karnobat = {
+			}
+			b_pomorie = {
+			}
+		}
+		c_dobrudzha = { # 1104
+			color={ 49 96 33 }
+			color2={ 255 255 255 }
+			
+			b_dobrich = {
+			}
+			b_silistra = {
+			}
+			b_balchik = {
+			}
+			b_kavarna = {
+			}
+			b_tutrakan = {
+			}
+			b_general_toshevo = {
+			}
+			b_tervel = {
+			}
+		}
+		c_ruse = { # 1102
+			color={ 232 213 156 }
+			color2={ 255 255 255 }
+			
+			b_ruse = {
+			}
+			b_targovishte = {
+			}
+			b_razgrad = {
+			}
+			b_popovo = {
+			}
+			b_omurtag = {
+			}
+			b_byala = {
+			}
+			b_isperih = {
 			}
 		}
 	}
