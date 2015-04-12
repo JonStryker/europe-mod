@@ -4546,25 +4546,53 @@
 
 
 ### Württemberg|12446|100017800-100018199
-100017933={	# Karl Alexander (auch Carl Alexander; * 24. Januar 1684 in Stuttgart; † 12. März 1737 in Ludwigsburg)
-	name="Karl Alexander"
-	dynasty=12446
-	religion=catholic culture=german
-	1684.1.24={birth=yes}
-	1737.3.12={death=yes}
-}
-100017006={
-	name="Auguste Elisabeth"
+100015801={	# Magdalene Wilhelmine 	Dss 		of Württemberg (Stuttgart 7 Nov 1677-Karlsburg 30 Oct 1742); [
+	name="Magdalene Wilhelmine"
 	female=yes
 	dynasty=12446
 	religion=catholic culture=german
-	1734.10.30={birth=yes}
-	1787.06.04={death=yes}
+	1677.11.07={birth=yes}
+	1742.10.30={death=yes}
 }
+100017685={	# Luise Friederike 		Dss 		of Württemberg (Stuttgart 3 Feb 1722-Hamburg 2 Aug 1791)
+	name="Luise Friederike"
+	female=yes
+	dynasty=12446
+	religion=lutheran culture=german
+	1722.02.03={birth=yes}
+	1791.08.02={death=yes}
+}
+
+100018136={
+	name="Friedrich Karl"
+	dynasty=12446
+	religion=catholic culture=german
+	1652.1.24={birth=yes}
+	1698.3.12={death=yes}
+}
+	100017933={	# Karl Alexander 					*24. Januar 1684 in Stuttgart; † 12. März 1737 in Ludwigsburg)
+		name="Karl Alexander"
+		dynasty=12446
+		religion=catholic culture=german
+		father=100018136
+		1684.1.24={birth=yes}
+		1737.3.12={death=yes}
+	}
+		100017006={	# Auguste Elisabeth
+			name="Auguste Elisabeth"
+			female=yes
+			dynasty=12446
+			religion=catholic culture=german
+			father=100017933
+			1734.10.30={birth=yes}
+			1787.06.04={death=yes}
+		}
+	
 100017800={	# FRIEDRICH II EUGEN, Duke of Württemberg 20 May 1795 (Stuttgart 21 Jan 1732-Hohenheim 22 Dec 1797); m.Schwedt 29 Nov 1753 Friederike, Margravine of Brandenburg-Schwedt (Schwedt 18 Dec 1736-Stuttgart 9 Mar 1798)
 	name="Friedrich Eugen"
 	dynasty=12446
 	religion=catholic culture=german
+	father=100017933
 	1732.01.21={birth=yes}
 	1753.11.29={
 		add_spouse=100017801 # Friederike
@@ -6333,11 +6361,568 @@
 ### Württemberg|12446|100017800-100018199
 
 
-### Mecklenburg-Strelitz|1002013|100017600-100017699
-100017600={	# Karl Ludwig Friedrich, Duke of Mecklenburg-Strelitz (Strelitz 23 Feb 1708-Mirow 5 Jun 1752); m.Eisfeld 5 Feb 1735 Elisabeth Albertine Pss von Sachsen-Hildburghausen (Hildburghausen 3 Aug 1713-Neustrelitz 29 Jun 1761)
-	name="Karl Ludwig"
+### Mecklenburg-Schwerin|1002013|100017600-100017699
+100017773={
+	name="Adolf Friedrich"
+	dynasty=1002013
+	religion=catholic culture=german
+	1588.1.1={birth=yes}
+	1658.1.1={death=yes}
+}
+
+100017772={		# 13 February 1638, Schwerin – 28 April 1688
+	name=Friedrich
+	dynasty=1002013
+	religion=catholic culture=german
+	father=100017773
+	1638.02.13={birth=yes}
+	1688.04.28={death=yes}
+}
+
+100004021={	# Karl Leopold			Duke 		of Mecklenburg-Schwerin (Grabow 26 Nov 1678-Dömitz 28 Nov 1747)
+	name="Karl Leopold"
+	dynasty=1002013
+	religion=orthodox culture=russian
+	father=100017772
+	1678.11.26={birth=yes}
+	1747.11.28={death=yes}
+}
+100017682={	# CHRISTIAN LUDWIG II, Duke of Mecklenburg-Schwerin 28 Nov 1747 (Grabow 15 May 1683-Schwerin 30 May 1756); m.Güstrow 13 Nov 1714 Gustave Karoline Dss of Mecklenburg-Strelitz (Neustrelitz 12 Jul 1694-Schwerin 13 Apr 1748)
+	name="Christian Ludwig"
 	dynasty=1002013
 	religion=lutheran culture=german
+	father=100017772
+	1683.05.15={birth=yes}
+	1714.11.13={
+		add_spouse=100017683 # Gustave Karoline of Mecklenburg-Strelitz
+	}
+	1756.05.30={death=yes}
+}
+
+100019003={	# Sofie Luise 			Dss		of Mecklenburg-Schwerin (Grabow 16 May 1685-Schwerin 29 Jul 1735)
+	name="Sofie Luise"
+	female=yes
+	dynasty=100017772
+	religion=lutheran culture=german
+	father=100017772
+	1685.05.16={birth=yes}
+	1735.07.29={death=yes}
+}
+	100017684={	# 1a) FRIEDRICH, Duke of Mecklenburg-Schwerin (Schwerin 9 Nov 1717-Ludwigslust 24 Apr 1785); m.Schwedt 2 Mar 1746 Luise Friederike Dss of Württemberg (Stuttgart 3 Feb 1722-Hamburg 2 Aug 1791)
+		name=Friedrich
+		dynasty=1002013
+		religion=lutheran culture=german
+		father=100017682 # Christian Ludwig of Mecklenburg-Schwerin 28 Nov 1747
+		mother=100017683 # Gustave Karoline of Mecklenburg-Strelitz
+		1717.11.09={birth=yes}
+		1746.03.02={
+			add_spouse=100017685 # Luise Friederike of Württemberg
+		}
+		1785.04.24={death=yes}
+	}
+	100017686={	# 2a) Ulrike Sophie (Grabow 1 Jul 1723-Rostock 17 Sep 1813)
+		name="Ulrike Sophie"
+		female=yes
+		dynasty=1002013
+		religion=lutheran culture=german
+		father=100017682 # Christian Ludwig of Mecklenburg-Schwerin 28 Nov 1747
+		mother=100017683 # Gustave Karoline of Mecklenburg-Strelitz
+		1723.07.01={birth=yes}
+		1813.09.17={death=yes}
+	}
+	100017687={	# 3a) Ludwig (Grabow 6 Aug 1725-Schwerin 12 Sep 1778); m.by proxy at Coburg 25 Apr 1755 and in person at Schwerin 14 May 1755 Charlotte Pss of Saxe-Coburg-Saalfeld (Coburg 24 Sep 1731-Schwerin 2 Aug 1810)
+		name=Ludwig
+		dynasty=1002013
+		religion=lutheran culture=german
+		father=100017682 # Christian Ludwig of Mecklenburg-Schwerin 28 Nov 1747
+		mother=100017683 # Gustave Karoline of Mecklenburg-Strelitz
+		1725.08.06={birth=yes}
+		1755.04.25={
+			add_spouse=100017688 # Charlotte of Saxe-Coburg-Saalfeld
+		}
+		1778.09.12={death=yes}
+	}
+		100017689={	# 1b) FRIEDRICH FRANZ I, Duke of Mecklenburg-Schwerin, Grand Duke of Mecklenburg-Schwerin 14 Jun 1815 (Schwerin 10 Dec 1756-Ludwigslust 1 Feb 1837); m.Gotha 1 Jun 1775 Luise Pss of Saxe-Gotha (Roda 9 Mar 1756-Ludwigslust 1 Jan 1808)
+			name="Friedrich Franz"
+			dynasty=1002013
+			religion=lutheran culture=german
+			father=100017687 # Ludwig
+			mother=100017688 # Charlotte of Saxe-Coburg-Saalfeld
+			1756.12.10={birth=yes}
+			1775.06.01={
+				add_spouse=100017690 # Luise of Saxe-Gotha
+			}
+			1837.02.01={death=yes}
+		}
+			100017691={	# 1c) Friedrich Ludwig, Hereditary Grand Duke of Mecklenburg-Schwerin (Ludwigslust 13 Jun 1778-Ludwigslust 29 Nov 1819); m.1st Gatschina 23 Oct 1799 Elena Pavlovna, Grand Dss of Russia (St.Petersburg 24 Dec 1784-Ludwigslust 24 Sep 1803); m.2d Weimar 1 Jul 1810 Karoline Luise Pss of Saxe-Weimar-Eisenach (Weimar 18 Jul 1786-Ludwigslust 20 Jan 1816); m.3d Homburg 3 Apr 1818 Auguste Landgravine of Hesse-Homburg (Homburg 28 Nov 1776-Ludwigslust 1 Apr 1871)
+				name="Friedrich Ludwig"
+				dynasty=1002013
+				religion=lutheran culture=german
+				father=100017689 # Friedrich Franz of Mecklenburg-Schwerin Grand Duke of Mecklenburg-Schwerin 14 Jun 1815
+				mother=100017690 # Luise of Saxe-Gotha
+				1778.06.13={birth=yes}
+				1799.10.23={
+					add_spouse=100004057 # Elena Pavlovna Dss of Russia
+				}
+				1810.07.01={
+					add_spouse=100018252 # Carolina Luise
+				}
+				1810.07.01={
+					add_spouse=100018252 # Karoline Luise of Saxe-Weimar-Eisenach
+				}
+				1818.04.03={
+					add_spouse=100017694 # Auguste Landgravine of Hesse-Homburg
+				}
+				1819.11.29={death=yes}
+			}
+				100017695={	# 1d) PAUL FRIEDRICH, Grand Duke of Mecklenburg-Schwerin (Ludwigslust 15 Sep 1800-Schwerin 7 Mar 1842); m.Berlin 25 May 1822 Alexandrine Pss of Prussia (Berlin 23 Feb 1803-Schwerin 21 Apr 1892)
+					name="Paul Friedrich"
+					dynasty=1002013
+					religion=lutheran culture=german
+					father=100017691 # Friedrich Ludwig Duke of Mecklenburg-Schwerin
+					mother=100004057 # Elena Pavlovna Dss of Russia
+					1800.09.15={birth=yes}
+					1822.05.25={
+						add_spouse=100019240 # Alexandrine of Prussia
+					}
+					1842.03.07={death=yes}
+				}
+					100017697={	# 1e) FRIEDRICH FRANZ II, Grand Duke of Mecklenburg-Schwerin (Ludwigslust 28 Feb 1823-Schwerin 15 Apr 1883); m.1st Ludwigslust 3 Nov 1849 Auguste Pss Reuss (Klipphausen 26 May 1822-Schwerin 3 Mar 1862); m.2d Darmstadt 12 May 1864 Anne Pss of Hesse and the Rhine (Bessungen 25 May 1843-Schwerin 16 Apr 1865); m.3d Rudolstadt 4 Jul 1868 Marie Pss von Schwarzburg-Rudolstadt (Rabensteinfeld 29 Jan 1850-The Hague 22 Apr 1922)
+						name="Friedrich Franz"
+						dynasty=1002013
+						religion=lutheran culture=german
+						father=100017695 # Paul Friedrich Duke of Mecklenburg-Schwerin
+						mother=100019240 # Alexandrine of Prussia
+						1823.02.28={birth=yes}
+						1849.11.03={
+							add_spouse=100017698 # Auguste Reuss
+						}
+						1864.05.12={
+							add_spouse=100017699 # Anne of Hesse and the Rhine
+						}
+						1868.07.04={
+							add_spouse=100017700 # Marie von Schwarzburg-Rudolstadt
+						}
+						1883.04.15={death=yes}
+					}
+						100017701={	# 1f) FRIEDRICH FRANZ III Paul Nikolaus Ernst Heinrich (Ludwigslust 19 Mar 1851-Cannes 10 Apr 1897); m.St.Petersburg 24 Jan 1879 Anastasia, Grand Dss of Russia (Peterhof 28 Jul 1860-Eze 11 Mar 1922)
+							name="Friedrich Franz"
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017698 # Auguste Reuss
+							1851.03.19={birth=yes}
+							1879.01.24={
+								add_spouse=100004254 # Anastasia Dss of Russia
+							}
+							1897.04.10={death=yes}
+						}
+							100017703={	# 1g) Alexandrine Auguste (Schwerin 24 Dec 1879-Copenhagen 28 Dec 1952); m.Cannes 26 Apr 1898 King Christian X of Denmark (Charlottenlund 26 Sep 1870-Amalienborg 20 Apr 1947)
+								name=Alexandrine
+								female=yes
+								dynasty=1002013
+								religion=lutheran culture=german
+								father=100017701 # Friedrich Franz
+								mother=100004254 # Anastasia Dss of Russia
+								1879.12.24={birth=yes}
+								1952.12.28={death=yes}
+							}
+							100017705={	# 2g) FRIEDRICH FRANZ IV, Grand Duke of Mecklenburg-Schwerin, renounced the throne 14 Nov 1918 (Palermo 9 Apr 1882-Flensburg 17 Nov 1945); m.Gmunden 7 Jun 1904 Alexandra Pss of Hannover (Gmunden 29 Sep 1882-Glücksburg 30 Aug 1963)
+								name="Friedrich Franz"
+								dynasty=1002013
+								religion=lutheran culture=german
+								father=100017701 # Friedrich Franz
+								mother=100004254 # Anastasia Dss of Russia
+								1882.04.09={birth=yes}
+								1904.06.07={
+									add_spouse=100014509 # Alexandra of Hannover
+								}
+								1904.06.07={
+									add_spouse=100014509 # Alexandra Luise
+								}
+								1945.11.17={death=yes}
+							}
+								100017707={	# 1h) FRIEDRICH FRANZ Michael Wilhelm Nikolaus Franz-Joseph Ernst August Hans, Hereditary Grand Duke of Mecklenburg-Schwerin (Schwerin 22 Apr 1910-Hamburg-Blankenese 31 Jul 2001); m.Wiligrad 11 Jun 1941 (div 1967, remarried Glücksburg 22 Apr 1977) Karin von Schaper (b.Breslau 31 Jan 1920)
+									name="Friedrich Franz"
+									dynasty=1002013
+									religion=lutheran culture=german
+									father=100017705 # Friedrich Franz Duke of Mecklenburg-Schwerin renounced the throne 14 Nov 1918
+									mother=100014509 # Alexandra of Hannover
+									1910.04.22={birth=yes}
+									1941.06.11={
+										add_spouse=100017708 # Karin von Schaper
+									}
+									2001.07.31={death=yes}
+								}
+								100017709={	# 2h) Christian Ludwig Ernst August Maximilian Johann Albrecht Adolf Friedrich (Ludwigslust 29 Sep 1912-Hemmelmark 18 Jul 1996); m.Schloß Glücksburg 11 Jul 1954 Barbara Pss of Prussia (Hemmelmark 2 Aug 1920-Hemmelmark 31 May 1994)
+									name="Christian Ludwig"
+									dynasty=1002013
+									religion=lutheran culture=german
+									father=100017705 # Friedrich Franz Duke of Mecklenburg-Schwerin renounced the throne 14 Nov 1918
+									mother=100014509 # Alexandra of Hannover
+									1912.09.29={birth=yes}
+									1954.07.11={
+										add_spouse=100019192 # Barbara of Prussia
+									}
+									1996.07.18={death=yes}
+								}
+									100017711={	# 1i) Donata (b.Kiel 11 Mar 1956); m.Eckernförde 19 Sep 1987 Alexander von Solodkoff (b.Köln 20 Jan 1951)
+										name=Donata
+										female=yes
+										dynasty=1002013
+										religion=lutheran culture=german
+										father=100017709 # Christian Ludwig
+										mother=100019192 # Barbara of Prussia
+										1956.03.11={birth=yes}
+										1987.09.19={
+											add_spouse=100017712 # Alexander von Solodkoff
+										}
+									}
+									100017713={	# 2i) Edwina ( b.Kiel 26 Sep 1960); m.Hemmelmark 14 Oct 1995 Konrad von Posern (b.Innsbruck 24 Jul 1964)
+										name=Edwina
+										female=yes
+										dynasty=1002013
+										religion=lutheran culture=german
+										father=100017709 # Christian Ludwig
+										mother=100019192 # Barbara of Prussia
+										1960.09.26={birth=yes}
+										1995.10.14={
+											add_spouse=100017714 # Konrad von Posern
+										}
+									}
+								100017716={	# 4h) Thyra Anastasia Alexandrine Marie-Louise Olga Cecilie Charlotte Elisabeth Emma (Sorgenfri 18 Jun 1919-Flensburg 27 Sep 1981)
+									name="Thyra Anastasia"
+									female=yes
+									dynasty=1002013
+									religion=lutheran culture=german
+									father=100017705 # Friedrich Franz Duke of Mecklenburg-Schwerin renounced the throne 14 Nov 1918
+									mother=100014509 # Alexandra of Hannover
+									1919.06.18={birth=yes}
+									1981.09.27={death=yes}
+								}
+								100017717={	# 5h) Anastasia Alexandrine Cecile Marie-Louise Wilhelmine (Gelbansande 11 Nov 1922-Hamburg 25 Jan 1979); m.Wiligrad 1 Sep 1943 Friedrich Ferdinand Pr of Schleswig-Holstein (Gotha 14 May 1913-Glücksburg 31 May 1989)
+									name="Anastasia Alexandrine"
+									female=yes
+									dynasty=1002013
+									religion=lutheran culture=german
+									father=100017705 # Friedrich Franz Duke of Mecklenburg-Schwerin renounced the throne 14 Nov 1918
+									mother=100014509 # Alexandra of Hannover
+									1922.11.11={birth=yes}
+									1979.01.25={death=yes}
+								}
+							100017719={	# 3g) Cecile Auguste Marie (Schwerin 20 Sep 1886-Bad Kissingen 6 May 1954); m.Berlin 6 Jun 1905 Wilhelm, Crown Pr of Prussia (Marmorpalais 6 May 1882-Hechingen 20 Jul 1951)
+								name="Cecile Auguste"
+								female=yes
+								dynasty=1002013
+								religion=lutheran culture=german
+								father=100017701 # Friedrich Franz
+								mother=100004254 # Anastasia Dss of Russia
+								1886.09.20={birth=yes}
+								1954.05.06={death=yes}
+							}
+						100017721={	# 2f) Paul Friedrich Wilhelm Heinrich (Ludwigslust 19 Sep 1852-Ludwigslust 17 May 1923); m.Schwerin 5 May 1881 Marie Pss zu Windisch-Grätz (Vienna 11 Dec 1856-Ludwigslust 9 Jul 1929)
+							name="Paul Friedrich"
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017698 # Auguste Reuss
+							1852.09.19={birth=yes}
+							1881.05.05={
+								add_spouse=100017722 # Marie zu Windisch-Grätz
+							}
+							1923.05.17={death=yes}
+						}
+							100017723={	# 1g) Paul Friedrich Carl Alexander Michael Hugo (Schwerin 12 May 1882-Kiel 21 May 1904)
+								name="Paul Friedrich"
+								dynasty=1002013
+								religion=lutheran culture=german
+								father=100017721 # Paul Friedrich
+								mother=100017722 # Marie zu Windisch-Grätz
+								1882.05.12={birth=yes}
+								1904.05.21={death=yes}
+							}
+							100017725={	# 3g) Maria Antonia Margarete Auguste Mathilde (Venice 28 May 1884-Bled, Yugoslavia 26 Oct 1944)
+								name="Maria Antonia"
+								female=yes
+								dynasty=1002013
+								religion=lutheran culture=german
+								father=100017721 # Paul Friedrich
+								mother=100017722 # Marie zu Windisch-Grätz
+								1884.05.28={birth=yes}
+								1944.10.26={death=yes}
+							}
+							100017726={	# 4g) Heinrich Borwin Albert Hugo Joseph Paul (Venice 16 Dec 1885-Sarszentmihaly, Hungary 3 Nov 1942); m.1st Dover 15 Jun 1911 (div 1913) Elizabeth Pratt (New York City 27 Jan 1860-Ponovich 1 Nov 1928); m.2d New York City 1 Jan 1915 Natalie Oelrichs (Cheyenne 12 Oct 1880-San Francisco 23 Feb 1931); m.3d Rome 5 Nov 1921 Karola von Alers (Wiesbaden 3 Sep 1882-Garmisch-Partenkirchen 27 Sep 1974)
+								name="Heinrich Borwin"
+								dynasty=1002013
+								religion=lutheran culture=german
+								father=100017721 # Paul Friedrich
+								mother=100017722 # Marie zu Windisch-Grätz
+								1885.12.16={birth=yes}
+								1911.06.15={
+									add_spouse=100017727 # Elizabeth Pratt
+								}
+								1914.01.01={
+									add_spouse=100017728 # Natalie Oelrichs
+								}
+								1921.11.05={
+									add_spouse=100017729 # Karola von Alers
+								}
+								1942.11.03={death=yes}
+							}
+						100017730={	# 3f) Marie Alexandrine Elisabeth Eleonore (Ludwigslust 14 May 1854-Contexeville, France 6 Sep 1920); m.St.Petersburg 28 Aug 1874 Vladimir, Grand Duke of Russia (St.Petersburg 22 Apr 1847-St.Petersburg 17 Feb 1909)
+							name=Marie
+							female=yes
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017698 # Auguste Reuss
+							1854.05.14={birth=yes}
+							1920.09.06={death=yes}
+						}
+						100017733={	# 5f) Johann Albrecht Ernst Konstantin Friedrich Heinrich (Schwerin 8 Dec 1857-Wiligrad 16 Feb 1920); m.1st Weimar 6 Nov 1886 Elisabeth Pss of Saxe-Weimar (Weimar 28 Feb 1854-Wiligrad 10 Jul 1908); m.2d Braunschweig 15 Dec 1909 Elisabeth Pss zu Stolberg-Rossla (Rossla 23 Jun 1885-Eutin 16 Oct 1969)
+							name="Johann Albrecht"
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017698 # Auguste Reuss
+							1857.12.08={birth=yes}
+							1886.11.06={
+								add_spouse=100018250 # Elisabeth of Saxe-Weimar
+							}
+							1886.11.06={
+								add_spouse=100018250 # Elisabeth Sibylle
+							}
+							1909.12.15={
+								add_spouse=100017735 # Elisabeth zu Stolberg-Rossla
+							}
+							1920.02.16={death=yes}
+						}
+						100017736={	# 6f) Alexander Theodor Georg Friedrich Heinrich (b.and d.Doberan 13 Aug 1859)
+							name="Alexander Theodor"
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017698 # Auguste Reuss
+							1859.08.13={birth=yes}
+							1934.08.13={death=yes}  # EST.
+						}
+						100017737={	# 7f) Anne Elisabeth Auguste Alexandrine (Schwerin 7 Apr 1865-Schwerin 8 Feb 1882)
+							name="Anne Elisabeth"
+							female=yes
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017699 # Anne of Hesse and the Rhine
+							1865.04.07={birth=yes}
+							1882.02.08={death=yes}
+						}
+						100017738={	# 8f) Elisabeth Alexandrine Mathilde Auguste (Ludwigslust 10 Aug 1869-Schaumburg 3 Sep 1955); m.Schwerin 24 Aug 1896 Friedrich August, Grand Duke of Oldenburg (Oldenburg 16 Nov 1852-Rastede 24 Feb 1931)
+							name="Elisabeth Alexandrine"
+							female=yes
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017700 # Marie von Schwarzburg-Rudolstadt
+							1869.08.10={birth=yes}
+							1955.09.03={death=yes}
+						}
+						100017740={	# 9f) Friedrich Wilhelm Adolf Günther (Schwerin 5 Apr 1871-d.on a ship in the Elbe nr Cuxhaven 22 Sep 1897)
+							name="Friedrich Wilhelm"
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017700 # Marie von Schwarzburg-Rudolstadt
+							1871.04.05={birth=yes}
+							1897.09.22={death=yes}
+						}
+						100017741={	# 10f) Adolf Friedrich Albrecht Heinrich (Schwerin 10 Oct 1873-Eutin 5 Aug 1969); m.1st Gera 24 Apr 1917 Viktoria Pss Reuss (Potsdam 21 Apr 1889-Rostock 18 Dec 1918); m.2d Ludwigslust 15 Oct 1924 Elisabeth Pss zu Stolberg-Rossla (Rossla 23 Jun 1885-Eutin 16 Oct 1969)
+							name="Adolf Friedrich"
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017700 # Marie von Schwarzburg-Rudolstadt
+							1873.10.10={birth=yes}
+							1917.04.24={
+								add_spouse=100017742 # Viktoria Reuss
+							}
+							1924.10.15={
+								add_spouse=100017743 # Elisabeth zu Stolberg-Rossla
+							}
+							1969.08.05={death=yes}
+						}
+							100017744={	# 1g) Woizlawa-Feodore Elise Marie Elisabeth (b.Rostock 17 Dec 1918); m.Bad Doberan 15 Sep 1939 Heinrich I Pr Reuss (Krietern 8 Oct 1910-Büdingen 10 Mar 1982)
+								name=Woizlawa-Feodore
+								female=yes
+								dynasty=1002013
+								religion=lutheran culture=german
+								father=100017741 # Adolf Friedrich
+								mother=100017742 # Viktoria Reuss
+								1918.12.17={birth=yes}
+								1993.12.17={death=yes}  # EST.
+							}
+						100017746={	# 11f) Heinrich Wladimir Albrecht Ernst, cr Pr Hendrik of the Netherlands (Royal Highness) 6 Feb 1901 (Schwerin 19 Apr 1876-The Hague 3 Jul 1934); m.The Hague 7 Feb 1901 Queen Wilhelmina of the Netherlands (The Hague 31 Aug 1880-Het Loo 28 Nov 1962); for his issue see The Netherlands
+							name="Heinrich Wladimir"
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017697 # Friedrich Franz Duke of Mecklenburg-Schwerin
+							mother=100017700 # Marie von Schwarzburg-Rudolstadt
+							1876.04.19={birth=yes}
+							1901.02.07={
+								add_spouse=100017747 # Wilhelmina of the Netherlands
+							}
+							1934.07.03={death=yes}
+						}
+					100017748={	# 2e) Luise Marie Helene (Schwerin 17 May 1824-Venice 9 Mar 1859); m.Ludwigslust 20 Oct 1849 Hugo Fst zu Windisch-Grätz (Vienna 26 May 1823-Schloß Haasberg 26 Nov 1904)
+						name="Luise Marie"
+						female=yes
+						dynasty=1002013
+						religion=lutheran culture=german
+						father=100017695 # Paul Friedrich Duke of Mecklenburg-Schwerin
+						mother=100019240 # Alexandrine of Prussia
+						1824.05.17={birth=yes}
+						1859.03.09={death=yes}
+					}
+					100017750={	# 3e) Friedrich Wilhelm Nikolaus (Ludwigslust 5 Mar 1827-Heidelberg 28 Jul 1879); m.Berlin 9 Dec 1865 Alexandrine Pss of Prussia (Berlin 1 Feb 1842-Schloß Marly 25 Mar 1906)
+						name="Friedrich Wilhelm"
+						dynasty=1002013
+						religion=lutheran culture=german
+						father=100017695 # Paul Friedrich Duke of Mecklenburg-Schwerin
+						mother=100019240 # Alexandrine of Prussia
+						1827.03.05={birth=yes}
+						1865.12.09={
+							add_spouse=100019267 # Alexandrine of Prussia
+						}
+						1879.07.28={death=yes}
+					}
+						100017752={	# 1f) Friederike Wilhelmine Elisabeth Alexandrine Auguste Marianne Charlotte (Schloß Bellevue 7 Nov 1868-Partenkirchen 20 Dec 1944) m.1st Schwerin 17 Nov 1886 Heinrich XVIII Pr Reuss (Leipzig 14 May 1847-Schweinfurt 15 Aug 1911); m.2d Berlin 4 Feb 1921 Robert Schmidt (Wilmersdorf 1 Nov 1892-Bamberg 26 Dec 1971)
+							name="Friederike Wilhelmine"
+							female=yes
+							dynasty=1002013
+							religion=lutheran culture=german
+							father=100017750 # Friedrich Wilhelm
+							mother=100019267 # Alexandrine of Prussia
+							1868.11.07={birth=yes}
+							1944.12.20={death=yes}
+						}
+				100017755={	# 2d) Marie Luise Friederike Alexandrine Elisabeth Catharina (Ludwigslust 31 Mar 1803-Meiningen 26 Oct 1862); m.Ludwigslust 7 Oct 1825 Duke Georg of Saxe-Altenburg (Hildburghausen 24 Jul 1796-Altenburg 3 Aug 1853)
+					name="Marie Luise"
+					female=yes
+					dynasty=1002013
+					religion=lutheran culture=german
+					father=100017691 # Friedrich Ludwig Duke of Mecklenburg-Schwerin
+					mother=100004057 # Elena Pavlovna Dss of Russia
+					1803.03.31={birth=yes}
+					1862.10.26={death=yes}
+				}
+				100017757={	# 3d) Albrecht (Ludwigslust 11 Feb 1812-Ludwigslust 18 Oct 1834)
+					name=Albrecht
+					dynasty=1002013
+					religion=lutheran culture=german
+					father=100017691 # Friedrich Ludwig Duke of Mecklenburg-Schwerin
+					mother=100018252 # Karoline Luise of Saxe-Weimar-Eisenach
+					1812.02.11={birth=yes}
+					1834.10.18={death=yes}
+				}
+				100017758={	# 4d) Helene Luise Elisabeth (Ludwigslust 24 Jan 1814-Richmond, Surrey 18 May 1858); m.Fontainebleau 30 May 1837 Ferdinand d'Orléans Duc d'Orléans (Palermo 3 Sep 1810-Sablonville 13 Jul 1842)
+					name="Helene Luise"
+					female=yes
+					dynasty=1002013
+					religion=lutheran culture=german
+					father=100017691 # Friedrich Ludwig Duke of Mecklenburg-Schwerin
+					mother=100018252 # Karoline Luise of Saxe-Weimar-Eisenach
+					1814.01.24={birth=yes}
+					1858.05.18={death=yes}
+				}
+			100017761={	# 2c) Luise Charlotte (Schwerin 19 Nov 1779-Gotha 4 Jan 1801); m.Ludwigslust 21 Oct 1797 August, Duke of Saxe-Gotha-Altenburg (Gotha 23 Nov 1772-Gotha 17 May 1822)
+				name="Luise Charlotte"
+				female=yes
+				dynasty=1002013
+				religion=lutheran culture=german
+				father=100017689 # Friedrich Franz of Mecklenburg-Schwerin Grand Duke of Mecklenburg-Schwerin 14 Jun 1815
+				mother=100017690 # Luise of Saxe-Gotha
+				1779.11.19={birth=yes}
+				1801.01.04={death=yes}
+			}
+			100017763={	# 3c) Gustav Wilhelm (Ludwigslust 31 Jan 1781-Ludwigslust 10 Jan 1851)
+				name="Gustav Wilhelm"
+				dynasty=1002013
+				religion=lutheran culture=german
+				father=100017689 # Friedrich Franz of Mecklenburg-Schwerin Grand Duke of Mecklenburg-Schwerin 14 Jun 1815
+				mother=100017690 # Luise of Saxe-Gotha
+				1781.01.31={birth=yes}
+				1851.01.10={death=yes}
+			}
+			100017764={	# 4c) Karl (Ludwigslust 2 Jul 1782-Ludwigslust 22 May 1833)
+				name=Karl
+				dynasty=1002013
+				religion=lutheran culture=german
+				father=100017689 # Friedrich Franz of Mecklenburg-Schwerin Grand Duke of Mecklenburg-Schwerin 14 Jun 1815
+				mother=100017690 # Luise of Saxe-Gotha
+				1782.07.02={birth=yes}
+				1833.05.22={death=yes}
+			}
+			100017765={	# 5c) Charlotte Friederike (Ludwigslust 4 Dec 1784-Rome 13 Jul 1840); m.Ludwigslust 21 Jun 1806 (div 1810) Christian, Crown Pr [King 1839] of Denmark (Christiansborg 18 Sep 1786-Amalienborg 20 Jan 1848)
+				name="Charlotte Friederike"
+				female=yes
+				dynasty=1002013
+				religion=lutheran culture=german
+				father=100017689 # Friedrich Franz of Mecklenburg-Schwerin Grand Duke of Mecklenburg-Schwerin 14 Jun 1815
+				mother=100017690 # Luise of Saxe-Gotha
+				1784.12.04={birth=yes}
+				1840.07.13={death=yes}
+			}
+			100017767={	# 6c) Adolf (Ludwigslust 18 Dec 1785-Schwerin 8 May 1821)
+				name=Adolf
+				dynasty=1002013
+				religion=lutheran culture=german
+				father=100017689 # Friedrich Franz of Mecklenburg-Schwerin Grand Duke of Mecklenburg-Schwerin 14 Jun 1815
+				mother=100017690 # Luise of Saxe-Gotha
+				1785.12.18={birth=yes}
+				1821.05.08={death=yes}
+			}
+		100017768={	# 2b) Sophie Friederike (Schwerin 24 Aug 1758-Sorgenfri 29 Nov 1794); m.Copenhagen 21 Oct 1774 Frederik, Hereditary Pr of Denmark (Copenhagen 11 Oct 1753-Copenhagen 7 Dec 1805)
+			name="Sophie Friederike"
+			female=yes
+			dynasty=1002013
+			religion=lutheran culture=german
+			father=100017687 # Ludwig
+			mother=100017688 # Charlotte of Saxe-Coburg-Saalfeld
+			1758.08.24={birth=yes}
+			1794.11.29={death=yes}
+		}
+	100017771={	# 5a) Amalie (Grabow 8 Mar 1732-23 Sep 1775)
+		name=Amalie
+		female=yes
+		dynasty=1002013
+		religion=lutheran culture=german
+		father=100017682 # Christian Ludwig of Mecklenburg-Schwerin 28 Nov 1747
+		mother=100017683 # Gustave Karoline of Mecklenburg-Strelitz
+		1732.03.08={birth=yes}
+		1775.09.23={death=yes}
+	}
+### Mecklenburg-Strelitz|1002013|100017600-100017699
+100017785={
+	name="Adolf Friedrich"
+	dynasty=1002013
+	religion=catholic culture=german
+	father=100017773
+	1658.1.1={birth=yes}
+	1708.1.1={death=yes}
+}
+100017683={	# Gustave Karoline 		Dss 		of Mecklenburg-Strelitz (Neustrelitz 12 Jul 1694-Schwerin 13 Apr 1748)
+	name=Gustave Karoline
+	female=yes
+	dynasty=1002013
+	father=100017785
+	religion=lutheran culture=german
+	1694.07.12={birth=yes}
+	1748.04.13={death=yes}
+}
+100017600={	# Karl Ludwig Friedrich, Duke of Mecklenburg-Strelitz (Strelitz 23 Feb 1708-Mirow 5 Jun 1752); m.Eisfeld 5 Feb 1735 Elisabeth Albertine Pss von Sachsen-Hildburghausen (Hildburghausen 3 Aug 1713-Neustrelitz 29 Jun 1761)
+	name=Karl
+	dynasty=1002013
+	religion=lutheran culture=german
+	father=100017785
 	1708.02.23={birth=yes}
 	1735.02.05={
 		add_spouse=100017601 # Elisabeth Albertine, Pss von Sachsen-Hildburghausen
@@ -6451,15 +7036,6 @@
 				}
 				1904.05.30={death=yes}
 			}
-				100017628={	# 1d) Friedrich Wilhelm (b.and d.London 13 Jan 1845)
-					name="Friedrich Wilhelm"
-					dynasty=1002013
-					religion=lutheran culture=german
-					father=100017626 # Friedrich Wilhelm
-					mother=100017627 # Augusta, Pss of Great Britain, Ireland and Hannover, etc
-					1845.01.13={birth=yes}
-					#YYYY.1.1={death=yes}
-				}
 				100017629={	# 2d) Georg ADOLF FRIEDRICH V August Viktor Ernst Adalbert Gustav Wilhelm Wellington, Grand Duke of Mecklenburg-Strelitz (Neustrelitz 22 Jul 1848-Berlin 11 Jun 1914); m.Dessau 17 Apr 1877 Elisabeth Pss of Anhalt (Wörlitz 7 Sep 1857-Neustrelitz 20 Jul 1933)
 					name="Adolf Friedrich"
 					dynasty=1002013
@@ -6499,7 +7075,7 @@
 						father=100017629 # Adolf Friedrich
 						mother=100018719 # Elisabeth, Pss of Anhalt
 						1882.06.17={birth=yes}
-						1918.02.23={death=yes}
+						1918.02.24={death=yes}
 					}
 					100017637={	# 4e) Karl Borwin Christian Alexander Arthur (Neustrelitz 10 Oct 1888-Bans, St.Martin 24 Aug 1908)
 						name="Karl Borwin"
@@ -6521,7 +7097,7 @@
 				1876.06.01={death=yes}
 			}
 			100017640={	# 4c) Georg August Ernst Adolf Karl Ludwig (Neustrelitz 11 Jan 1824-St.Petersburg 20 Jun 1876); m.St.Petersburg 16 Feb 1851 Catherine, Grand Dss of Russia (St.Petersburg 28 Aug 1827-St.Petersburg 12 May 1894)
-				name="Georg August"
+				name=Georg
 				dynasty=1002013
 				religion=lutheran culture=german
 				father=100017623 # Georg
@@ -6532,15 +7108,6 @@
 				}
 				1876.06.20={death=yes}
 			}
-				100017642={	# 1d) Nikolaus Georg Michael Karl (b.and d.St.Petersburg 11 Jul 1854)
-					name="Nikolaus Georg"
-					dynasty=1002013
-					religion=lutheran culture=german
-					father=100017640 # Georg August
-					mother=100004354 # Catherine
-					1854.07.11={birth=yes}
-					#YYYY.1.1={death=yes}
-				}
 				100017643={	# 2d) Helene Marie Alexandra Elisabeth Auguste Karoline (St.Petersburg 16 Jan 1857-Remplin 28 Aug 1936); m.Remplin 13 Dec 1891 Albrecht Pr von Sachsen-Altenburg (Munich 14 Apr 1843-Serrahn 22 May 1902)
 					name="Helene Marie"
 					female=yes
@@ -6715,7 +7282,7 @@
 				100017674={	# 4d) Karl Michael Wilhelm August Alexander, renounced his rights 24 Jun 1914 (Oranienbaum 17 Jun 1863-Remplin 6 Dec 1934)
 					name="Karl Michael"
 					dynasty=1002013
-					religion=lutheran culture=german
+					religion=lutheran culture=russian
 					father=100017640 # Georg August
 					mother=100004354 # Catherine
 					1863.06.17={birth=yes}
@@ -6751,7 +7318,7 @@
 		}
 		1818.11.17={death=yes}
 	}
-	100017682={	# 10a) Georg August (Mirow 16 Aug 1748-Tyrnau, Hungary 14 Nov 1785)
+	100017799={	# 10a) Georg August (Mirow 16 Aug 1748-Tyrnau, Hungary 14 Nov 1785)
 		name="Georg August"
 		dynasty=1002013
 		religion=lutheran culture=german
