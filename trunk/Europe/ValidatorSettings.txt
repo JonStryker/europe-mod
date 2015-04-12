@@ -76,21 +76,21 @@ AddFlag = CharacterHistory.NoComplexDateChecks
 # Disables checks that all other events are between the single birth and death date.
 #AddFlag = CharacterHistory.NoBirthDeathCheck
 # Sets the minimum age of marriage
-(SetVar CharacterHistory.MinAgeOfMarriage) = 12
+(SetVar CharacterHistory.MinAgeOfMarriage) = 16
 # Sets the minimum age of being a parent
-(SetVar CharacterHistory.MinAgeOfParent) = 12
+(SetVar CharacterHistory.MinAgeOfParent) = 16
 # Sets the minimum age of being a guardian
-(SetVar CharacterHistory.MinAgeOfGuardian) = 12
+(SetVar CharacterHistory.MinAgeOfGuardian) = 16
 # Sets the maximum age of someone needing a guardian
-(SetVar CharacterHistory.MaxAgeNeedingGuardian) = 12
+(SetVar CharacterHistory.MaxAgeNeedingGuardian) = 15
 # Sets the maximum age of someone
-(SetVar CharacterHistory.MaxAge) = 5000
+(SetVar CharacterHistory.MaxAge) = 100
 # Sets the most days that the father can be dead before a child is born
 (SetVar CharacterHistory.MaxDaysFatherDeadBeforeChild) = 300
 # Disables twin check
 #AddFlag = CharacterHistory.NoTwinCheck
 # Disables bastard check
-AddFlag = CharacterHistory.NoBastardCheck
+#AddFlag = CharacterHistory.NoBastardCheck
 # Don't enforce characters needing a death date
 AddFlag = CharacterHistory.NoDeathDateNeeded
 
@@ -121,6 +121,13 @@ AddFlag = CharacterHistory.NoDeathDateNeeded
 #AddFlag = Event.NoCheckIdCollision
 
 ###########################################
+# DECISIONS
+###########################################
+
+# Disable check for unique decision names across files. There will still be a check for unique names in a single file.
+#AddFlag = Decisions.NoUniqueIdCheck
+
+###########################################
 # PROVINCE HISTORY
 ###########################################
 
@@ -135,6 +142,14 @@ AddFlag = CharacterHistory.NoDeathDateNeeded
 
 # Disables checks that dates are in chronological order, and that there are no duplicates within groups of dates.
 #AddFlag = TitleHistory.NoComplexDateChecks
+
+###########################################
+# TITLES
+###########################################
+
+# Allows duplicate entries in the landed_titles, as titles will get merged. Note this disables some related checks, such as that a color is specified
+AddFlag = Titles.AllowDuplicateEntries
+
 
 
 

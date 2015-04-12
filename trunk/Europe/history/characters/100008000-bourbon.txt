@@ -109,7 +109,7 @@
 				mother=100008022 # Christina, Pss
 				1836.01.16={birth=yes}
 				1859.01.18={
-					add_spouse=100008025 # Maria Sophia, Dss
+					add_spouse=100014029 # Maria Sophia, Dss
 				}
 				1894.12.27={death=yes}
 			}
@@ -121,7 +121,7 @@
 				mother=100020225 # Theresa
 				1838.08.01={birth=yes}
 				1861.06.05={
-					add_spouse=100008028 # Mathilde, Dss
+					add_spouse=100014029 # Mathilde, Dss
 				}
 				1886.06.08={death=yes}
 			}
@@ -131,7 +131,7 @@
 					dynasty=1006001
 					religion=catholic culture=neapolitan
 					father=100008027 # Lodovico Maria
-					mother=100008028 # Mathilde, Dss
+					mother=100014029 # Mathilde, Dss
 					1867.01.15={birth=yes}
 					1909.03.01={death=yes}
 				}
@@ -1277,7 +1277,9 @@
 100008300={	# Felipe (Madrid 15 Mar 1720-Alessandria 18 Jul 1765); m.Versailles 26 Aug 1739 Elisabeth of France (Versailles 14 Aug 1727-Versailles 6 Dec 1759)
 	name=Felipe
 	dynasty=1006002
-	religion=catholic culture=italian
+	religion=catholic culture=castillan
+	father=100025000 # FELIPE V of Spain
+	mother=100025002 # Elisabetha Farnese of Parma
 	1720.03.15={birth=yes}
 	1739.08.26={
 		add_spouse=100008301 # Elisabeth of France
@@ -1732,7 +1734,7 @@
 							mother=100033115 # Maria Antonia of Portugal
 							1893.09.28={birth=yes}
 							1919.11.06={
-								add_spouse=100008369 # null
+								add_spouse=100092006
 							}
 							1970.04.08={death=yes}
 						}
@@ -1797,7 +1799,7 @@
 									1951.07.27={birth=yes}
 								}
 								100008379={	# 3h) Alain Johann Knud Bernhard Felix Maria René Joseph (b.Roskilde 15 May 1955); m.1 Jan 2001 Inge Birgitte Vedel Andersen (b.1948)
-									name="Alain Johann"
+									name=Alain
 									dynasty=1006002
 									religion=catholic culture=italian
 									father=100008372 # Jacques
@@ -1815,10 +1817,9 @@
 								father=100008370 # René Charles
 								mother=100056121 # Margrethe of Denmark
 								1923.09.18={birth=yes}
-								1998.09.18={death=yes}  # EST.
 							}
 							100008383={	# 3g) Michel Marie Xavier Waldemar Georg Robert Karl Eymar (b.Paris 4 Mar 1926); m.1st Paris 9 Jun 1951 Yolande Pss de Broglie-Revel (b.Paris 26 Apr 1928); m.2d Manalapan 16 May 2003 Princess Maria Pia of Savoy (b.Naples 24 Sep 1934)
-								name="Michel Marie"
+								name=Michel
 								dynasty=1006002
 								religion=catholic culture=italian
 								father=100008370 # René Charles
@@ -1827,13 +1828,23 @@
 								1951.06.09={
 									add_spouse=100008384 # Yolande de Broglie-Revel
 								}
+								1999.01.01={remove_spouse=100008384}
 								2003.05.16={
 									add_spouse=100070019 # Maria Pia of Savoy
 								}
-								2001.03.04={death=yes}  # EST.
 							}
+								100008394={	# 2h) Inès Marie Joseph Margarethe Yolande Tatiana (Paris 9 May 1952-London 20 Oct 1981)
+									name=Inès
+									female=yes
+									dynasty=1006002
+									religion=catholic culture=italian
+									father=100008383 # Michel Marie
+									mother=100008384 # Yolande de Broglie-Revel
+									1952.05.09={birth=yes}
+									1981.10.20={death=yes}
+								}
 								100008386={	# 1h) Eric Marie Joseph René Michel Pierre (b.Copenhagen 28 Aug 1953); m.Ledreborg 8 Aug 1980 (div 1999) Lydia Komtesse af Holstein-Ledreborg (b.Roskilde 22 Feb 1955)
-									name="Eric Marie"
+									name=Erik
 									dynasty=1006002
 									religion=catholic culture=italian
 									father=100008383 # Michel Marie
@@ -1844,7 +1855,7 @@
 									}
 								}
 									100008388={	# 1i) Antoinette Monique Charlotte Marie (b.Roskilde 10 Jun 1981); m.Ledreborg 15 May 2010 Martin Krusbæk (b.Nykøbing Falster 27 Jan 1982)
-										name="Antoinette Monique"
+										name=Antoinette
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
@@ -1853,7 +1864,7 @@
 										1981.06.10={birth=yes}
 									}
 									100008390={	# 2i) Marie Gabrielle Yolanda Camilla Philippine (b.Paris 23 Dec 1982)
-										name="Marie Gabrielle"
+										name=Gabrielle
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
@@ -1862,7 +1873,7 @@
 										1982.12.23={birth=yes}
 									}
 									100008391={	# 3i) Alexia Thérèse Sybille Eric Charles Marie (b.Palm Beach, Florida 7 Mar 1985); m.Fabian Davis
-										name="Alexia Thérèse"
+										name=Alexia
 										dynasty=1006002
 										religion=catholic culture=italian
 										father=100008386 # Eric Marie
@@ -1870,7 +1881,7 @@
 										1985.03.07={birth=yes}
 									}
 									100008392={	# 4i) Michel Knud John Joseph Marie (b.Lejre, nr Roskilde 12 Feb 1989)
-										name="Michel Knud"
+										name=Michel
 										dynasty=1006002
 										religion=catholic culture=italian
 										father=100008386 # Eric Marie
@@ -1878,24 +1889,16 @@
 										1989.02.12={birth=yes}
 									}
 									100008393={	# 5i) Henri Luitpold Antoine Victor Marie Joseph (b.Roskilde 14 Oct 1991)
-										name="Henri Luitpold"
+										name=Henri
 										dynasty=1006002
 										religion=catholic culture=italian
 										father=100008386 # Eric Marie
 										mother=100008387 # Lydia Komtesse
 										1991.10.14={birth=yes}
 									}
-								100008394={	# 2h) Inès Marie Joseph Margarethe Yolande Tatiana (Paris 9 May 1952-London 20 Oct 1981)
-									name="Inès Marie"
-									dynasty=1006002
-									religion=catholic culture=italian
-									father=100008383 # Michel Marie
-									mother=100008384 # Yolande de Broglie-Revel
-									1952.05.09={birth=yes}
-									1981.10.20={death=yes}
-								}
 								100008395={	# 3h) Sybil Marie Joseph Anne Victoire (b.Paris 10 Nov 1954); m.Versailles 5 Dec 1997 Craig Richards (b.in Wales 22 Apr 1962)
-									name="Sybil Marie"
+									name=Sybil
+									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
 									father=100008383 # Michel Marie
@@ -1916,7 +1919,7 @@
 									2001.01.24={death=yes}
 								}
 								100008400={	# 5h) Charles Emmanuel Marie Joseph Jacques Hély (b.Paris 3 Jun 1961); m.Dampierre 25 May 1991 Constance de Ravinel (b.Boulogne 18 Jul 1970)
-									name="Charles Emmanuel"
+									name="Charles-Emmanuel"
 									dynasty=1006002
 									religion=catholic culture=italian
 									father=100008383 # Michel Marie
