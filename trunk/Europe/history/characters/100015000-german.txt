@@ -1964,22 +1964,19 @@
 			1842.11.13={birth=yes}
 			#YYYY.1.1={death=yes}
 		}
-	100018300={	# 7a) Carl von Heygendorff (Weimar 25 Dec 1806-Dresden 17 Feb 1895); m.1st Mannheim 1 Jun 1831 Meta Abegg (Elbing 16 Apr 1810-Dresden 23 May 1835); m.2d Dresden 10 Oct 1836 Therese von Watzdorf (Dresden 4 Dec 1808-Dresden 31 Aug 1841); m.3d Erdmannsdorf bei Chemnitz 24 Dec 1848 Rosa Frn von Koenneritz (Dresden 1 Jan 1823-Dresden 30 Sep 1906)
+	100018300={	# 7a) Carl von Heygendorff (Weimar 25 Dec 1806-Dresden 17 Feb 1895); 
+				# m.1st Mannheim 1 Jun 1831 Meta Abegg (Elbing 16 Apr 1810-Dresden 23 May 1835); 
+				# m.2d Dresden 10 Oct 1836 Therese von Watzdorf (Dresden 4 Dec 1808-Dresden 31 Aug 1841); 
+				# m.3d Erdmannsdorf bei Chemnitz 24 Dec 1848 Rosa Frn von Koenneritz (Dresden 1 Jan 1823-Dresden 30 Sep 1906)
 		name="Carl von Heygendorff"
 		dynasty=528
 		religion=catholic culture=german
 		father=100018200 # Carl August
 		mother=100018201 # Luise
 		1806.12.25={birth=yes}
-		1831.06.01={
-			add_spouse=100018301 # Meta Abegg
-		}
-		1836.10.10={
-			remove_spouse = 100018301	add_spouse=100018302 # Therese von
-		}
-		1848.12.24={
-			remove_spouse = 100018302	add_spouse=100018303 # Rosa Frn
-		}
+		1831.06.01={add_spouse=100018301}
+		1836.10.10={add_spouse=100018302}
+		1848.12.24={add_spouse=100018303}
 		1895.02.17={death=yes}
 	}
 		100018305={	# 2b) Bernhard von Heygendorff (Dresden 19 Mar 1834-Dresden 24 Apr 1916); m.Wiederode 1 Jan 1864 Emmy Müller (Königstein 6 Mar 1837-Dresden 17 Dec 1913)
@@ -3466,7 +3463,7 @@
 						mother=100015872 # Maria Romanowsky
 						1867.07.10={birth=yes}
 						1900.07.10={
-							add_spouse=100015876 # Marie Luise, Pss of Hannover, Pss of Great Britain and Ireland
+							add_spouse=100014506 # Marie Luise, Pss of Hannover, Pss of Great Britain and Ireland
 						}
 						1929.11.06={death=yes}
 					}
@@ -3476,7 +3473,7 @@
 							dynasty=100125
 							religion=catholic culture=german
 							father=100015875 # Maximilian
-							mother=100015876 # Marie Luise, Pss of Hannover, Pss of Great Britain and Ireland
+							mother=100014506 # Marie Luise, Pss of Hannover, Pss of Great Britain and Ireland
 							1902.08.01={birth=yes}
 							1944.01.29={death=yes}
 						}
@@ -3485,7 +3482,7 @@
 							dynasty=100125
 							religion=catholic culture=german
 							father=100015875 # Maximilian
-							mother=100015876 # Marie Luise, Pss of Hannover, Pss of Great Britain and Ireland
+							mother=100014506 # Marie Luise, Pss of Hannover, Pss of Great Britain and Ireland
 							1906.02.24={birth=yes}
 							1931.08.17={
 								add_spouse=100045065 # Theodora, Pss of Greece and Denmark
@@ -3510,9 +3507,8 @@
 								mother=100045065 # Theodora, Pss of Greece and Denmark
 								1933.07.03={birth=yes}
 								1966.09.23={
-									add_spouse=100020936 # 1966
+									add_spouse=100020936
 								}
-								#YYYY.1.1={death=yes}
 							}
 								100015885={	# 1h) Marie Louise Elisabeth Mathilde Theodora Cecilie Sarah Charlotte, b.Salem 3 Jul 1969; m.Salem (civ) 15 Sep 1999 (rel) 25 Sep 1999 Richard Baker (b.Biddeford, Maine 30 Mar 1936)
 									name="Marie Louise"
@@ -6119,7 +6115,7 @@
 							mother=100018091 # Nadeshda, Pss of Bulgaria
 							1930.11.02={birth=yes}
 							1962.08.31={
-								add_spouse=100020872 # 1962
+								add_spouse=100020872
 							}
 							#YYYY.1.1={death=yes}
 						}
@@ -6202,7 +6198,7 @@
 					1904.05.24={death=yes}
 				}
 				100018108={	# 4d) Robert Maria Klemens Philipp Joseph (Meran 14 Jan 1873-Altshausen 12 Apr 1947); m. Vienna 29 Oct 1900 Maria Immakulata, Archdss of Austria (Baden bei Wien 3 Sep 1878- Altshausen 25 Nov 1968)
-					name="Robert Maria"
+					name=Robert
 					dynasty=12446
 					religion=catholic culture=german
 					father=100018041 # Philipp Alexander
@@ -6682,7 +6678,9 @@
 							1854.05.14={birth=yes}
 							1920.09.06={death=yes}
 						}
-						100017733={	# 5f) Johann Albrecht Ernst Konstantin Friedrich Heinrich (Schwerin 8 Dec 1857-Wiligrad 16 Feb 1920); m.1st Weimar 6 Nov 1886 Elisabeth Pss of Saxe-Weimar (Weimar 28 Feb 1854-Wiligrad 10 Jul 1908); m.2d Braunschweig 15 Dec 1909 Elisabeth Pss zu Stolberg-Rossla (Rossla 23 Jun 1885-Eutin 16 Oct 1969)
+						100017733={	# 5f) Johann Albrecht Ernst Konstantin Friedrich Heinrich (Schwerin 8 Dec 1857-Wiligrad 16 Feb 1920); 
+									# m.1st Weimar 6 Nov 1886 Elisabeth Pss of Saxe-Weimar (Weimar 28 Feb 1854-Wiligrad 10 Jul 1908); 
+									# m.2d Braunschweig 15 Dec 1909 Elisabeth Pss zu Stolberg-Rossla (Rossla 23 Jun 1885-Eutin 16 Oct 1969)
 							name="Johann Albrecht"
 							dynasty=1002013
 							religion=lutheran culture=german
@@ -6692,11 +6690,8 @@
 							1886.11.06={
 								add_spouse=100018250 # Elisabeth of Saxe-Weimar
 							}
-							1886.11.06={
-								add_spouse=100018250 # Elisabeth Sibylle
-							}
 							1909.12.15={
-								add_spouse=100017735 # Elisabeth zu Stolberg-Rossla
+								add_spouse=100017743 # Elisabeth zu Stolberg-Rossla
 							}
 							1920.02.16={death=yes}
 						}
@@ -8269,7 +8264,7 @@
 						mother=100019204 # Margarethe, Pss of Prussia
 						1896.11.06={birth=yes}
 						1924.09.17={
-							add_spouse=100017562 # Marie Alexandra, Pss of Baden
+							add_spouse=100015877 # Marie Alexandra, Pss of Baden
 						}
 						1948.09.07={
 							add_spouse=100017563 # Ottilie Moeller
@@ -9371,7 +9366,8 @@
 		}
 		1831.05.15={death=yes}
 	}
-		100017161={	# 1b) Karl Anselm (Prague 18 Jun 1792-Teplitz 25 Aug 1844); m.Dobrschitz 4 Jul 1815 Marie Isabelle Gfn u.Edle Hrn von und zu Eltz gt Faust von Stromberg (Dresden 10 Feb 1795-Prague 12 Mar 1859)
+		100017161={	# 1b) Karl Anselm (Prague 18 Jun 1792-Teplitz 25 Aug 1844); 
+					# m.Dobrschitz 4 Jul 1815 Marie Isabelle Gfn u.Edle Hrn von und zu Eltz gt Faust von Stromberg (Dresden 10 Feb 1795-Prague 12 Mar 1859)
 			name="Karl Anselm"
 			dynasty=1002011
 			religion=catholic culture=german
@@ -11019,7 +11015,7 @@
 							mother=100092060 # Sophie, Pss of Luxemburg and Nassau
 							1923.12.22={birth=yes}
 							1952.08.07={
-								add_spouse=100016672 # Ruhr 7
+								add_spouse=100016672
 							}
 							1966.02.05={
 								add_spouse=100016673 #  Lahn
@@ -11034,7 +11030,7 @@
 								dynasty=528
 								religion=catholic culture=german
 								father=100016671 # Georg Timo
-								mother=100016672 # Ruhr 7
+								mother=100016672
 								1953.12.23={birth=yes}
 								1974.06.14={
 									add_spouse=100016676 # Astrid Linke
@@ -11123,15 +11119,37 @@
 										2010.05.04={birth=yes}
 										#YYYY.1.1={death=yes}
 									}
-							100016688={	# 2g) Iris Hildegard Sophie Margrit Gisela (b.Mühlheim 21 Sep 1955); m.1st 21 Mar 1975 (div 1976) Hans Jürgen Hadam (Mühlheim 18 Oct 1950-Mühlheim 9 Jan 1977); m.2d Mühlheim 22 Jul 1977 Wolfgang Graf Deym von Stritetz (b.as Wolfgang König at Agram 10 Jan 1943; adopted by Leopold Gf Deym von Stritetz); m.3d Hachenburg 8 Aug 1988 (div 1989) Ulrich Schuhmacher (b.20 Jun 1953); m.4th Sonsbeck 11 Nov 1996 Wolfgang Siegfried Döhring (b.Salpia 6 Mar 1941)
-								name="Iris Hildegard"
+							100016688={	# 2g) Iris Hildegard Sophie Margrit Gisela (b.Mühlheim 21 Sep 1955); 
+										# m.1st 21 Mar 1975 (div 1976) Hans Jürgen Hadam (Mühlheim 18 Oct 1950-Mühlheim 9 Jan 1977); 
+										# m.2d Mühlheim 22 Jul 1977 Wolfgang Graf Deym von Stritetz (b.as Wolfgang König at Agram 10 Jan 1943
+										# m.3d Hachenburg 8 Aug 1988 (div 1989) Ulrich Schuhmacher (b.20 Jun 1953); 
+										# m.4th Sonsbeck 11 Nov 1996 Wolfgang Siegfried Döhring (b.Salpia 6 Mar 1941)
+								name=Iris
 								female=yes
 								dynasty=528
 								religion=catholic culture=german
 								father=100016671 # Georg Timo
-								mother=100016672 # Ruhr 7
+								mother=100016672
 								1955.09.21={birth=yes}
 							}
+									100016693={	# 1h) Xenia Florence Gabriela Sophie Iris Princess von Sachsen and Duchess von Sachsen, b.Düsseldorf 20 Aug 1986
+										name=Xenia
+										female=yes
+										dynasty=528
+										religion=catholic culture=german
+										father=100016690 # Wolfgang
+										mother=100016688
+										1986.08.20={birth=yes}
+									}
+									100016694={	# 2h) Xandra Barbara Desirée Emy Margrit Princess von Sachsen and Duchess von Sachsen, b.Hachenburg 15 Jan 1990
+										name=Xandra
+										female=yes
+										dynasty=528
+										religion=catholic culture=german
+										father=100016691
+										mother=100016688
+										1990.01.15={birth=yes}
+									}
 						100016695={	# 3f) Rupprecht Hubertus Gero Maria (Munich 12 Sep 1925-Picton, Ontario 10 Apr 2003)
 							name="Rupprecht Hubertus"
 							dynasty=528
@@ -11596,7 +11614,9 @@
 						1827.08.07={birth=yes}
 						1900.06.13={death=yes}
 					}
-						100016428={	# 1f) FRIEDRICH AUGUST, Grand Duke of Oldenburg, renounced the throne 11 Nov 1918 (Oldenburg 16 Nov 1852-Oldenburg 24 Feb 1931); m.1st Berlin 18 Feb 1878 Elisabeth Pss of Prussia (Potsdam 8 Feb 1857-Schloß Adolfseck 28 Aug 1895); m.2d Schwerin 24 Oct 1896 Elisabeth, Dss of Mecklenburg-Schwerin (Ludwigslust 10 Aug 1869-Schaumburg 3 Sep 1955)
+						100016428={	# 1f) FRIEDRICH AUGUST, Grand Duke of Oldenburg, renounced the throne 11 Nov 1918 (Oldenburg 16 Nov 1852-Oldenburg 24 Feb 1931); 
+									# m.1st Berlin 18 Feb 1878 Elisabeth Pss of Prussia (Potsdam 8 Feb 1857-Schloß Adolfseck 28 Aug 1895); 
+									# m.2d Schwerin 24 Oct 1896 Elisabeth, Dss of Mecklenburg-Schwerin (Ludwigslust 10 Aug 1869-Schaumburg 3 Sep 1955)
 							name="Friedrich August"
 							dynasty=224
 							religion=lutheran culture=german
