@@ -228,7 +228,7 @@
 					mother=100070037 # Maria Vittoria della Cisterna
 					1869.01.13={birth=yes}
 					1895.06.25={
-						add_spouse=100070040 # Helene d'Orléans
+						add_spouse=100065010 # Helene d'Orléans
 					}
 					1931.07.04={death=yes}
 				}
@@ -239,8 +239,11 @@
 						dynasty=240
 						religion=catholic culture=italian
 						father=100070039 # Emanuele Filiberto of Aosta
-						mother=100070040 # Helene d'Orléans
+						mother=100065010 # Helene d'Orléans
 						1898.10.21={birth=yes}
+						1927.11.05={
+							add_spouse=100065035
+						}
 						1942.03.03={death=yes}
 					}
 						100070043={	# 1f) Margherita Isabella (b.Capodimonte 7 Apr 1930)
@@ -249,7 +252,7 @@
 							female=yes
 							dynasty=240
 							religion=catholic culture=italian
-							father=100070042 # Anne d'Orléans
+							father=100065035 # Anne d'Orléans
 							mother=100070041 # Amedeo Umberto of Aosta
 							1930.04.07={birth=yes}
 							2005.04.07={death=yes}  # EST.
@@ -259,7 +262,7 @@
 							female=yes
 							dynasty=240
 							religion=catholic culture=italian
-							father=100070042 # Anne d'Orléans
+							father=100065035 # Anne d'Orléans
 							mother=100070041 # Amedeo Umberto of Aosta
 							1933.09.12={birth=yes}
 							2008.09.12={death=yes}  # EST.
@@ -270,7 +273,7 @@
 						dynasty=240
 						religion=catholic culture=italian
 						father=100070039 # Emanuele Filiberto of Aosta
-						mother=100070040 # Helene d'Orléans
+						mother=100065010 # Helene d'Orléans
 						1900.03.09={birth=yes}
 						1939.07.01={
 							add_spouse=100045036 # Irene of Greece and Denmark
@@ -280,13 +283,17 @@
 						100070049={	# 1f) Amedeo Umberto Constantino Giorgio Paolo Elena Maria Fiorenzo Zvonimir, Duke of Aosta
 									# m.1st Sintra, Portugal 22 Jul 1964 (div 1982) Pss Claude d'Orléans (b.11 Dec 1943)
 									# m.2d Bagheria, Sicily 30 Mar 1987 Marchesa Silvia Paterno di Spedalotto (b.Palermo 31 Dec 1953)
-							name="Amedeo Umberto"
+							name=Amedeo
 							female=yes
 							dynasty=240
 							religion=catholic culture=italian
 							father=100070047 # Aimone Roberto of Aosta
 							mother=100045036 # Irene of Greece and Denmark
 							1943.09.27={birth=yes}
+							1964.07.22={
+								add_spouse=100065058
+							}
+							1982.1.1={remove_spouse=100065058}
 						}
 							100070052={	# 1g) Bianca Irene Olga Elena Isabella Fiorenza Maria (b.Florence 2 Apr 1966)
 										# m.San Giustino Valdarno 11 Sep 1988 Cte Gilberto Arrivabene Valenti Gonzaga (b.Rome 5 Jul 1961)
@@ -294,8 +301,8 @@
 								female=yes
 								dynasty=240
 								religion=catholic culture=italian
-								father=100070050 # Claude d'Orléans
-								mother=100070049 # Amedeo Umberto of Aosta; he has recently asserted a claim to be head of the House of Savoy
+								mother=100065058 # Anne d'Orleans
+								father=100070049 # Amedeo Umberto of Aosta
 								1966.04.02={birth=yes}
 							}
 							100070054={	# 2g) Aimone Umberto Emanuele, Duke of Apulia (b.Florence 13 Oct 1967)
@@ -303,8 +310,8 @@
 								name="Aimone Umberto"
 								dynasty=240
 								religion=catholic culture=italian
-								father=100070050 # Claude d'Orléans
-								mother=100070049 # Amedeo Umberto of Aosta; he has recently asserted a claim to be head of the House of Savoy
+								mother=100065058 # Anne d'Orleans
+								father=100070049 # Amedeo Umberto of Aosta
 								1967.10.13={birth=yes}
 								2008.09.16={
 									add_spouse=100045081 # Aimone Umberto of Apulia
@@ -314,16 +321,16 @@
 									name=Umberto
 									dynasty=240
 									religion=catholic culture=italian
-									father=100045081
-									mother=100070054 # Aimone Umberto of Apulia
+									mother=100045081
+									father=100070054 # Aimone Umberto of Apulia
 									2009.03.07={birth=yes}
 								}
 								100070057={	# 2h) Amedeo, Duke of the Abruzzi (b.Paris 24 May 2011)
 									name=Amedeo
 									dynasty=240
 									religion=catholic culture=italian
-									father=100045081
-									mother=100070054 # Aimone Umberto of Apulia
+									mother=100045081
+									father=100070054 # Aimone Umberto of Apulia
 									2011.05.24={birth=yes}
 								}
 							100070058={	# 3g) Mafalda Giovanna Shams Maria Fiorenza Isabella (b.Florence 20 Sep 1969)
@@ -333,16 +340,16 @@
 								female=yes
 								dynasty=240
 								religion=catholic culture=italian
-								father=100070050 # Claude d'Orléans
-								mother=100070049 # Amedeo Umberto of Aosta; he has recently asserted a claim to be head of the House of Savoy
+								mother=100065058 # Anne d'Orleans
+								father=100070049 # Amedeo Umberto of Aosta
 								1969.09.20={birth=yes}
 							}
 							100070061={	# 4g) [by Kyra van Ellinghuizen] Ginevra di Savoia, b.Milan 19 Mar 2006
 								name=Ginevra
 								dynasty=240
 								religion=catholic culture=italian
-								father=100070051 # Marchesa Silvia di Spedalotto
-								mother=100070049 # Amedeo Umberto of Aosta
+								father=100070049 # Amedeo Umberto of Aosta
+								add_trait=bastard
 								2006.03.19={birth=yes}
 							}
 				100070062={	# 2d) Vittorio Emanuele Torino Giovanni Maria, Ct of Turin (Turin 24 Nov 1870-Brussels 16 Oct 1946)
