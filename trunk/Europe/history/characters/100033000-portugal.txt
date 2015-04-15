@@ -64,7 +64,7 @@
 			1739.11.21={birth=yes}
 			1771.01.14={death=yes}
 		}
-		100033011={	# 4b) Maria Francisca Benedita Ana Isabel Joana Antónia Laura Inácia Gertrudes Rita Rosa (Lisbon 25 Jul 1746-Lisbon 10 Aug 1829); m.Lisbon 7 Feb 1777 José Pr of Brazil (XXX 1 Jan 1746-XXX 1 Jan 1829)
+		100033011={	# 4b) Maria Francisca Benedita Ana Isabel Joana Antónia Laura Inácia Gertrudes Rita Rosa (Lisbon 25 Jul 1746-Lisbon 10 Aug 1829); m.Lisbon 7 Feb 1777 José Pr of Brazil (1 Jan 1746-1 Jan 1829)
 			name="Maria Francisca"
 			female=yes
 			dynasty=100188
@@ -596,12 +596,19 @@
 		
 ####### de Saxe-Coburgo-Gotha e Bragança
 100033032={	# Ferdinand Pr of Saxe-Coburg-Gotha, cr King Consort Fernando II of Portugal 16 Sep 1837 (Vienna 29 Oct 1816-Lisbon 15 Dec 1885)
-	name="Ferdinand of Saxe-Coburg-Gotha"
+			# m.1st 9 Apr 1836 Queen Maria II of Portugal (4 Apr 1819-15 Nov 1853); 
+			# m.2d Lisbon 10 Jun 1869 Elise Friederike Hensler, cr Gfn v.Edla 1869 (Vienna 22 May 1836-Lisbon 21 May 1929)
+	name=Ferdinand
 	dynasty=1001000
-	religion=catholic culture=portuguese
+	religion=catholic culture=german
+	father=100018535 # Ferdinand Georg
+	mother=100018536 # Antonie
 	1816.10.29={birth=yes}
 	1836.04.09={
 		add_spouse=100033030 # Maria
+	}
+	1869.06.10={
+		add_spouse=100018539 # Elise Friederike
 	}
 	1885.12.15={death=yes}
 }
@@ -609,7 +616,8 @@
 		name=Pedro
 		dynasty=1001000
 		religion=catholic culture=portuguese
-		father=100033032 # Ferdinand of Saxe-Coburg-Gotha, cr King Consort Fernando II of Portugal 16 Sep 1837, Pr
+		father=100033032 # Ferdinand of Saxe-Coburg-Gotha
+		mother=100033030
 		1837.09.16={birth=yes}
 		1858.05.18={
 			add_spouse=100033034 # Stephanie
@@ -620,7 +628,8 @@
 		name=Luís
 		dynasty=1001000
 		religion=catholic culture=portuguese
-		father=100033032 # Ferdinand of Saxe-Coburg-Gotha, cr King Consort Fernando II of Portugal 16 Sep 1837, Pr
+		father=100033032 # Ferdinand of Saxe-Coburg-Gotha
+		mother=100033030
 		1838.10.31={birth=yes}
 		1862.10.06={
 			add_spouse=100070066 # Maria Pia
@@ -676,7 +685,8 @@
 		name="João Maria"
 		dynasty=1001000
 		religion=catholic culture=portuguese
-		father=100033032 # Ferdinand of Saxe-Coburg-Gotha, cr King Consort Fernando II of Portugal 16 Sep 1837, Pr
+		father=100033032 # Ferdinand of Saxe-Coburg-Gotha
+		mother=100033030
 		1842.03.16={birth=yes}
 		1861.12.27={death=yes}
 	}
@@ -685,7 +695,8 @@
 		female=yes
 		dynasty=1001000
 		religion=catholic culture=portuguese
-		father=100033032 # Ferdinand of Saxe-Coburg-Gotha, cr King Consort Fernando II of Portugal 16 Sep 1837, Pr
+		father=100033032 # Ferdinand of Saxe-Coburg-Gotha
+		mother=100033030
 		1843.07.21={birth=yes}
 		1884.02.05={death=yes}
 	}
@@ -694,7 +705,8 @@
 		female=yes
 		dynasty=1001000
 		religion=catholic culture=portuguese
-		father=100033032 # Ferdinand of Saxe-Coburg-Gotha, cr King Consort Fernando II of Portugal 16 Sep 1837, Pr
+		father=100033032 # Ferdinand of Saxe-Coburg-Gotha
+		mother=100033030
 		1845.02.17={birth=yes}
 		1913.12.27={death=yes}
 	}
@@ -702,7 +714,8 @@
 		name="Fernando Maria"
 		dynasty=1001000
 		religion=catholic culture=portuguese
-		father=100033032 # Ferdinand of Saxe-Coburg-Gotha, cr King Consort Fernando II of Portugal 16 Sep 1837, Pr
+		father=100033032 # Ferdinand of Saxe-Coburg-Gotha
+		mother=100033030
 		1846.07.23={birth=yes}
 		1861.11.06={death=yes}
 	}
@@ -710,7 +723,8 @@
 		name=Augusto
 		dynasty=1001000
 		religion=catholic culture=portuguese
-		father=100033032 # Ferdinand of Saxe-Coburg-Gotha, cr King Consort Fernando II of Portugal 16 Sep 1837, Pr
+		father=100033032 # Ferdinand of Saxe-Coburg-Gotha
+		mother=100033030
 		1847.11.04={birth=yes}
 		1889.09.26={death=yes}
 	}
