@@ -1,3 +1,745 @@
+###########################################################
+##  100062000		LIGNE			1007002	
+###########################################################
+
+
+##  100062000		LIGNE			1007002	
+100062118={	# Lamoral I, 1st Prince of Ligne and of the Holy Roman Empire (1563-1624)
+	name=Lamoral
+	dynasty=1007002
+	religion=catholic culture=frankish
+	1563.1.1={birth=yes}
+	1624.1.1={death=yes}
+}
+
+100062117={	# Albert Henri, 2nd Prince of Ligne and of the Holy Roman Empire (1615-1641)
+	name="Albert Henri"
+	dynasty=1007002
+	religion=catholic culture=frankish
+	father = 100062118
+	1615.1.1={birth=yes}
+	1641.1.1={death=yes}
+}
+100062116={	# Claude Lamoral I, 3rd Prince of Ligne and of the Holy Roman Empire (1618-1679)
+	name="Claude Lamoral"
+	dynasty=1007002
+	religion=catholic culture=frankish
+	father = 100062118
+	1618.1.1={birth=yes}
+	1679.1.1={death=yes}
+}
+
+100062113={	# Henri Louis Ernest, 4th Prince of Ligne and of the Holy Roman Empire (1644-1702)
+	name="Henri Louis Ernest"
+	dynasty=1007002
+	religion=catholic culture=frankish
+	father = 100062116
+	1644.1.1={birth=yes}
+	1702.1.1={death=yes}
+}
+
+100062114={	# Antoine Joseph Ghislain, 5th Prince of Ligne and of the Holy Roman Empire (1682-1750)
+	name=Antoine
+	dynasty=1007002
+	religion=catholic culture=frankish
+	father = 100062113
+	1682.1.1={birth=yes}
+	1750.1.1={death=yes}
+}
+100062115={	# Claude Lamoral II, 6th Prince of Ligne and of the Holy Roman Empire (1685-1766)
+	name="Claude Lamoral"
+	dynasty=1007002
+	religion=catholic culture=frankish
+	father = 100062113
+	1685.1.1={birth=yes}
+	1766.1.1={death=yes}
+}
+
+100062112={	# Charles-Joseph, 7th Prince of Ligne and of the Holy Roman Empire (1735-1814)
+	name="Charles-Joseph"
+	dynasty=1007002
+	religion=catholic culture=frankish
+	father = 100062115
+	1735.1.1={birth=yes}
+	1755.08.06={
+		add_spouse=100023110 # Franziska
+	}
+	1814.1.1={death=yes}
+}
+
+100062000={	# EUGÈNE François Charles Lamoral Fürst von Ligne (Brussels 28 Jan 1804-Brussels 20 May 1880); m.1st Roeulx 12 May 1823 Amélie de Conflans (Brussels 18 Jun 1802-Florence 31 Jan 1833); m.2d Brussels 28 Jul 1834 Nathalie de Trazegnies (Brussels 7 Sep 1811-Beloeil 4 Jun 1835); m.3d Vienna 28 Oct 1836 Jadwiga Pss Lubomirska (29 Jun 1815-Brussels 14 Feb 1895)
+	name=Eugène
+	dynasty=1007002
+	religion=catholic culture=frankish
+	father=100062112
+	mother=100023110
+	1804.01.28={birth=yes}
+	1823.05.12={
+		add_spouse=100062001 # Amélie de Conflans
+	}
+	1834.07.28={
+		add_spouse=100062002 # Nathalie de Trazegnies
+	}
+	1836.10.28={
+		add_spouse=100062003 # Jadwiga Lubomirska
+	}
+	1880.05.20={death=yes}
+}
+	100062004={	# 1a) Henri Maximilien Joseph Charles Louis Lamoral (Paris 16 Oct 1824-Beloeil 27 Nov 1871); m.Paris 30 Sep 1851 Marguerite de Talleyrand-Périgord (Paris 29 Mar 1832-Paris 3 Jul 1917)
+		name=Henri
+		dynasty=1007002
+		religion=catholic culture=frankish
+		father=100062000 # Eugène von Ligne
+		mother=100062001 # Amélie de Conflans
+		1824.10.16={birth=yes}
+		1851.09.30={
+			add_spouse=100062005 # Marguerite de Talleyrand-Périgord
+		}
+		1871.11.27={death=yes}
+	}
+		100062006={	# 1b) LOUIS Eugène Henri Marie Lamoral Fst von Ligne (Paris 18 Jul 1854-Beloeil 27 Aug 1918); m.Paris 24 Jul 1884 (div 1909) Elisabeth de la Rochefoucauld (La Vallée aux Loups 4 Aug 1865-Paris 9 Nov 1946)
+			name=Louis
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062004 # Henri
+			mother=100062005 # Marguerite de Talleyrand-Périgord
+			1854.07.18={birth=yes}
+			1884.07.24={
+				add_spouse=100062007 # Elisabeth de la Rochefoucauld
+			}
+			1909.02.01={
+				remove_spouse=100062007
+			}
+			1918.08.27={death=yes}
+		}
+			100062008={	# 1c) Marie Suzanna Marguerite Louise (Mauny 22 Jul 1885-Paris 13 Jan 1971); m.Paris 29 Jan 1906 (div 1919) Pr Alexander della Torre e Tasso (Schloß Mzell 8 Jul 1881-Castel Duino 11 Mar 1937)
+				name=Marie
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062006 # Louis von Ligne
+				mother=100062007 # Elisabeth de la Rochefoucauld
+				1885.07.22={birth=yes}
+				1971.01.13={death=yes}
+			}
+		100062010={	# 2b) Marie Mélanie (Paris 25 Nov 1855-Rome 2 Apr 1931); m.Paris 2 Jun 1875 Friedrich, Duke von Beaufort-Spontin (8 Jun 1843-Petschau 26 Dec 1916)
+			name="Marie Mélanie"
+			female=yes
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062004 # Henri
+			mother=100062005 # Marguerite de Talleyrand-Périgord
+			1855.11.25={birth=yes}
+			1931.04.02={death=yes}
+		}
+		100062012={	# 3b) ERNEST Henri Louis Lamoral Fst von Ligne (Paris 12 Jan 1857-Brussels 23 Jun 1937); m.Paris 4 Jan 1887 Diane de Cossé Brissac (Paris 19 Dec 1869-Beloeil 10 Apr 1950)
+			name=Ernest
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062004 # Henri
+			mother=100062005 # Marguerite de Talleyrand-Périgord
+			1857.01.12={birth=yes}
+			1887.01.04={
+				add_spouse=100062013 # Diane de Cossé Brissac
+			}
+			1937.06.23={death=yes}
+		}
+			100062014={	# 1c) Jeanne Marie Louise (Brussels 2 Oct 1887-Montabon 23 Feb 1974); m.Brussels 5 Jun 1906 Léonel Marquis de Moustier (Paris 5 Apr 1882-Hamburg-Neuengamme 1 Mar 1945)
+				name=Jeanne
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062012 # Ernest von Ligne
+				mother=100062013 # Diane de Cossé Brissac
+				1887.10.02={birth=yes}
+				1974.02.23={death=yes}
+			}
+			100062017={	# 3c) Isabelle Melanie Marie (Brussels 23 Sep 1889-Brussels 11 Dec 1968); m.Brussels 25 Oct 1920 Pr Reginald von Croy (London 26 Sep 1878-Woluwe-Saint-Pierre 13 Apr 1961)
+				name=Isabelle
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062012 # Ernest von Ligne
+				mother=100062013 # Diane de Cossé Brissac
+				1889.09.23={birth=yes}
+				1968.12.11={death=yes}
+			}
+			100062019={	# 3c) Claude (Brussels 19 Oct 1890-Brussels 4 Apr 1900)
+				name=Claude
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062012 # Ernest von Ligne
+				mother=100062013 # Diane de Cossé Brissac
+				1890.10.19={birth=yes}
+				1900.04.04={death=yes}
+			}
+			100062020={	# 4c) Henriette Marie Juliette (Brussels 31 Dec 1891-Tramecourt 19 Feb 1981); m.Paris 12 Aug 1919 Robert Vcte de Chabot-Tramecourt (Monchamps 13 Feb 1890-d.a prisoner in Brussels 14 Jul 1944)
+				name=Henriette
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062012 # Ernest von Ligne
+				mother=100062013 # Diane de Cossé Brissac
+				1891.12.31={birth=yes}
+				1981.02.19={death=yes}
+			}
+			100062022={	# 5c) EUGÈNE Frederic Marie Lamoral Fst von Ligne (Breuilpont 10 Aug 1893-Beloeil 26 Jun 1960); m.Paris (civ) 28 Feb 1917 (rel) 31 Mar 1917 Philippine de Noailles (Paris 23 Aug 1898-Beloeil 13 Aug 1991)
+				name=Eugène
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062012 # Ernest von Ligne
+				mother=100062013 # Diane de Cossé Brissac
+				1893.08.10={birth=yes}
+				1917.03.31={
+					add_spouse=100062023 # Philippine de Noailles
+				}
+				1960.06.26={death=yes}
+			}
+				100062024={	# 1d) BAUDOUIN Marie Lamoral Fst von Ligne (Paris 27 Nov 1918-Beloeil 3 Mar 1985); m.Malines 9 Jan 1946 (div 1954) Css Monique de Bousies (b.St.Gilles, Belgium 11 Dec 1922)
+					name=Baudouin
+					dynasty=1007002
+					religion=catholic culture=frankish
+					father=100062022 # Eugène von Ligne
+					mother=100062023 # Philippine de Noailles
+					1918.11.27={birth=yes}
+					1946.01.09={
+						add_spouse=100062025 # Monique de Bousies
+					}
+					1954.02.01={
+						remove_spouse=100062025
+					}
+					1985.03.03={death=yes}
+				}
+				100062026={	# 2d) Isabelle Marie Diane Françoise (Bucharest 14 Feb 1921-Marbella 11 Nov 2000); m.Beloeil 13 Dec 1941 Carlos de Saavedra y Ozores, Marques de Villalobar y de Guimarey (Madrid 18 Aug 1912-Madrid 9 Jun 2004)
+					name=Isabelle
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=frankish
+					father=100062022 # Eugène von Ligne
+					mother=100062023 # Philippine de Noailles
+					1921.02.14={birth=yes}
+					2000.11.11={death=yes}
+				}
+				100062028={	# 3d) Yolande Marie Jeanne Charlotte (b.Madrid 6 May 1923); m.Beloeil 17 Jan 1950 Carl Ludwig, Archduke of Austria (Baden, nr Vienna 10 Mar 1918-Brussels 11 Dec 2007)
+					name=Yolande
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=frankish
+					father=100062022 # Eugène von Ligne
+					mother=100062023 # Philippine de Noailles
+					1923.05.06={birth=yes}
+					2003.05.06={death=yes}  # EST.
+				}
+				100062030={	# 4d) ANTOINE Marie Joachim Lamoral Fst von Ligne (Brussels 8 Mar 1925-Beloeil 21 Aug 2005); m.Luxemburg 17 Aug 1950 Pss Alix of Luxemburg (b.Colmar-Berg 24 Aug 1929)
+					name=Antoine
+					dynasty=1007002
+					religion=catholic culture=frankish
+					father=100062022 # Eugène von Ligne
+					mother=100062023 # Philippine de Noailles
+					1925.03.08={birth=yes}
+					1950.08.17={
+						add_spouse=100092052 # Alix of Luxemburg
+					}
+					2005.08.21={death=yes}
+				}
+					100062032={	# 1e) MICHEL Charles Eugène Marie Lamoral Fst von Ligne (b.Château de Beloeil 26 May 1951); m.Rio de Janeiro 10 Mar 1981 Pss Eleonora of Orleans-Braganza (b.Rio de Janeiro 20 May 1953)
+						name=Michel
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062030 # Antoine von Ligne
+						mother=100092052 # Alix of Luxemburg
+						1951.05.26={birth=yes}
+						1981.03.10={
+							add_spouse=100062033 # Eleonora of Orleans-Braganza
+						}
+					}
+						100062034={	# 1f) Alix Marie Isabelle Aldegonde Eleonore (b.Brussels 3 Jul 1984)
+							name=Alix
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062032 # Michel von Ligne
+							mother=100062033 # Eleonora of Orleans-Braganza
+							1984.07.03={birth=yes}
+						}
+						100062035={	# 2f) Henri Antoine Gabriël Wauthier Marie Lamoral (b.Brussels 1 Mar 1989)
+							name=Henri
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062032 # Michel von Ligne
+							mother=100062033 # Eleonora of Orleans-Braganza
+							1989.03.01={birth=yes}
+						}
+					100062036={	# 2e) Wauthier Philippe Féliz Marie Lamoral (b.Château de Beloeil 10 Jul 1952); m.Elderen (civ) 28 Apr 1976 (rel) 1 May 1976 Css Régine de Renesse (b.Louvaine 6 Jun 1955)
+						name=Wauthier
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062030 # Antoine von Ligne
+						mother=100092052 # Alix of Luxemburg
+						1952.07.10={birth=yes}
+						1976.05.01={
+							add_spouse=100062037 # Régine de Renesse
+						}
+					}
+						100062038={	# 1f) Philippe Michel Marie Lamoral (b.Château de Beloeil 29 May 1977)
+							name=Philippe
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062036 # Wauthier
+							mother=100062037 # Régine de Renesse
+							1977.05.29={birth=yes}
+						}
+						100062039={	# 2f) Mélanie-Yolande de Ligne (b.Château de Beloeil 19 Jun 1979)
+							name=Mélanie-Yolande
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062036 # Wauthier
+							mother=100062037 # Régine de Renesse
+							1979.06.19={birth=yes}
+						}
+						100062040={	# 3f) Elisabeth-Eleonore de Ligne (b.Château de Beloeil 27 Jun 1983); m.Beloeil 9 Jul 2005 Baron Baudouin Gillès de Pélichy (b.Louvain 26 Nov 1982)
+							name=Elisabeth-Eleonore
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062036 # Wauthier
+							mother=100062037 # Régine de Renesse
+							1983.06.27={birth=yes}
+							2005.07.09={
+								add_spouse=100062041 # Baron de Pélichy
+							}
+						}
+					100062042={	# 3e) Anne-Marie Jeanne Isabelle (b.Château de Beloeil 3 Apr 1954); m.Beloeil 30 May 1981 Olivier Mortgat (b.Boulogne-Billancourt 7 Mar 1956)
+						name=Anne-Marie
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062030 # Antoine von Ligne
+						mother=100092052 # Alix of Luxemburg
+						1954.04.03={birth=yes}
+					}
+						100062044={	# 1f) Laure Mortgat, b.Brussels 23 Mar 1983
+							name=Laure
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062043 # Olivier Mortgat
+							mother=100062042 # Anne-Marie
+							1983.03.23={birth=yes}
+						}
+						100062045={	# 2f) Isabelle-Marie Mortgat, b.Quito 2 Jan 1985
+							name=Isabelle-Marie
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062043 # Olivier Mortgat
+							mother=100062042 # Anne-Marie
+							1985.01.02={birth=yes}
+						}
+					100062046={	# 4e) Christine Marie Elisabeth (b.Château de Beloeil 11 Aug 1955); m.Beloeil (civ) 25 Sep 1981 (rel) 26 Sep 1981 Pr Antonio of Orleans-Braganza (b.Rio de Janeiro 24 Jun 1950)
+						name=Christine
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062030 # Antoine von Ligne
+						mother=100092052 # Alix of Luxemburg
+						1955.08.11={birth=yes}
+					}
+					100062048={	# 5e) Sophie Léontine Charlotte Marie Gabrielle (b.Château de Beloeil 23 Apr 1957); m.Beloeil 26 Jun 1982 Cte Philippe de Nicolay (b.Neuilly-sur-Seine 1 Aug 1955)
+						name=Sophie
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062030 # Antoine von Ligne
+						mother=100092052 # Alix of Luxemburg
+						1957.04.23={birth=yes}
+					}
+						100062050={	# 1f) Cte François de Nicolay, b.London 19 Oct 1989
+							name=Cte
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062049 # Cte de Nicolay
+							mother=100062048 # Sophie
+							1989.10.19={birth=yes}
+						}
+						100062051={	# 2f) Cte Guy de Nicolay, b.Paris 19 Dec 1993
+							name=Cte
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062049 # Cte de Nicolay
+							mother=100062048 # Sophie
+							1993.12.19={birth=yes}
+						}
+					100062052={	# 6e) Antoine Lamoral Charles Joseph Marie (b.Colmar-Berg 28 Dec 1959); m.Brussels 16 Jun 2001 Jacqueline Léonore Léopoldine Css de Lannoy (b.Uccle 15 Mar 1966)
+						name=Antoine
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062030 # Antoine von Ligne
+						mother=100092052 # Alix of Luxemburg
+						1959.12.28={birth=yes}
+						2001.06.16={
+							add_spouse=100062053 # Jacqueline de Lannoy
+						}
+					}
+						100062054={	# 1f) Louis (b.Brussels 4 Mar 2003)
+							name=Louis
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062052 # Antoine
+							mother=100062053 # Jacqueline de Lannoy
+							2003.03.04={birth=yes}
+						}
+						100062055={	# 2f) Marie (b.2004)
+							name=Marie
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062052 # Antoine
+							mother=100062053 # Jacqueline de Lannoy
+							2004.02.01={birth=yes}
+						}
+						100062056={	# 3f) Florence (b.2006)
+							name=Florence
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062052 # Antoine
+							mother=100062053 # Jacqueline de Lannoy
+							2006.02.01={birth=yes}
+						}
+					100062057={	# 7e) Yolande Marie Gabrielle (b.Château de Beloeil 16 Jun 1964); m.London 28 Nov 1994 Hugo Townsend (b.Windsor 29 Jun 1945)
+						name=Yolande
+						female=yes
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062030 # Antoine von Ligne
+						mother=100092052 # Alix of Luxemburg
+						1964.06.16={birth=yes}
+					}
+						100062059={	# 1f) Marie Townsend, b.London 29 Apr 1995
+							name="Marie Townsend"
+							female=yes
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062058 # Hugo Townsend
+							mother=100062057 # Yolande
+							1995.04.29={birth=yes}
+						}
+						100062060={	# 2f) George Townsend, b.Brussels 16 Mar 1997
+							name=George
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062058 # Hugo Townsend
+							mother=100062057 # Yolande
+							1997.03.16={birth=yes}
+						}
+						100062061={	# 3f) James Townsend, b.London 9 May 1998
+							name=James
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062058 # Hugo Townsend
+							mother=100062057 # Yolande
+							1998.05.09={birth=yes}
+						}
+						100062062={	# 4f) Bartholomew Townsend, b.2000
+							name=Bartholomew
+							dynasty=1007002
+							religion=catholic culture=frankish
+							father=100062058 # Hugo Townsend
+							mother=100062057 # Yolande
+							2000.02.01={birth=yes}
+						}
+			100062063={	# 6c) Baudouin (Brussels 28 Jan 1896-Herenthals 8 Sep 1914)
+				name=Baudouin
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062012 # Ernest von Ligne
+				mother=100062013 # Diane de Cossé Brissac
+				1896.01.28={birth=yes}
+				1914.09.08={death=yes}
+			}
+			100062064={	# 7c) Marie Charlotte Béatrice (Moulbaix 28 Aug 1898-Anvaing 8 Nov 1982); m.Beloeil 19 Jul 1921 Cte Paul de Lannoy (Brussels 19 Jul 1898-Anvaing 7 Oct 1980)
+				name="Marie Charlotte"
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062012 # Ernest von Ligne
+				mother=100062013 # Diane de Cossé Brissac
+				1898.08.28={birth=yes}
+				1982.11.08={death=yes}
+			}
+			100062066={	# 8c) Thérèse Marie Eugenie (Brussels 27 Dec 1905-Brussels 11 Dec 2000); m.Brussels 22 Nov 1927 Ct Bernard d'Ursel (Paris 11 Nov 1904-Woluwe-St.Lambert 4 Oct 1965)
+				name=Thérèse
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062012 # Ernest von Ligne
+				mother=100062013 # Diane de Cossé Brissac
+				1905.12.27={birth=yes}
+				1927.11.22={
+					add_spouse=100062067 # Bernard d'Ursel
+				}
+				2000.12.11={death=yes}
+			}
+		100062068={	# 4b) Eugène (Paris 15 Dec 1858-17 Jun 1882)
+			name=Eugène
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062004 # Henri
+			mother=100062005 # Marguerite de Talleyrand-Périgord
+			1858.12.15={birth=yes}
+			1882.06.17={death=yes}
+		}
+	100062069={	# 2a) Louis Marie Charles Gabriel Lamoral (2 Mar 1827-13 Apr 1845)
+		name=Louis
+		dynasty=1007002
+		religion=catholic culture=frankish
+		father=100062000 # Eugène von Ligne
+		mother=100062001 # Amélie de Conflans
+		1827.03.02={birth=yes}
+		1845.04.13={death=yes}
+	}
+	100062070={	# 3a) Nathalie Flore Georgine Eugénie (Beloeil 31 May 1835-Beloeil 23 Mar 1863); m.Beloeil 15 Sep 1853 Duke Rudolf von Croy (Dülmen 13 Mar 1823-Cannes 8 Feb 1902)
+		name=Nathalie
+		female=yes
+		dynasty=1007002
+		religion=catholic culture=frankish
+		father=100062000 # Eugène von Ligne
+		mother=100062002 # Nathalie de Trazegnies
+		1835.05.31={birth=yes}
+		1863.03.23={death=yes}
+	}
+	100062072={	# 4a) Charles Joseph Eugène Henri Georges Lamoral (Brussels 17 Nov 1837-Brussels 11 May 1914); m.Paris 1 Jun 1876 Charlotte de Gontaut-Biron (Paris 19 Jul 1854-Brussels 27 Jun 1933)
+		name=Charles
+		dynasty=1007002
+		religion=catholic culture=frankish
+		father=100062000 # Eugène von Ligne
+		mother=100062003 # Jadwiga Lubomirska
+		1837.11.17={birth=yes}
+		1876.06.01={
+			add_spouse=100062073 # Charlotte de Gontaut-Biron
+		}
+		1914.05.11={death=yes}
+	}
+		100062074={	# 1b) Hedwige Marie Gabrielle (Paris 4 May 1877-Neuilly 22 Sep 1938); m.Brussels 14 Oct 1897 Engelbert, Duke von Arenberg (Bürglstein 10 Aug 1872-Lausanne 15 Jan 1949)
+			name=Hedwige
+			female=yes
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062072 # Charles
+			mother=100062073 # Charlotte de Gontaut-Biron
+			1877.05.04={birth=yes}
+			1938.09.22={death=yes}
+		}
+		100062076={	# 2b) Henri Florent Eugène François Joseph Lamoral (Paris 29 Dec 1881-Montreux, Switzerland 15 May 1967); m.Paris 13 Apr 1910 Pss Charlotte de La Tremoille (Paris 20 Nov 1892-Paris 27 Oct 1971)
+			name=Henri
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062072 # Charles
+			mother=100062073 # Charlotte de Gontaut-Biron
+			1881.12.29={birth=yes}
+			1910.04.13={
+				add_spouse=100062077 # Charlotte de La Tremoille
+			}
+			1967.05.15={death=yes}
+		}
+			100062078={	# 1c) Jean Charles Lamoral Pr de Ligne de La Tremoille (Brussels 16 Jun 1911-Serrant 9 Jul 2005); m.Paris 11 Mar 1942 Maria del Rosario de Lambertye-Gerbeviller (b.Paris 14 Oct 1922)
+				name=Jean
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062076 # Henri
+				mother=100062077 # Charlotte de La Tremoille
+				1911.06.16={birth=yes}
+				1942.03.11={
+					add_spouse=100062079 # Maria del de Lambertye-Gerbeviller
+				}
+				2005.07.09={death=yes}
+			}
+				100062080={	# 1d) Hedwige Marie Gabrielle Charlotte (b.Madrid 18 Feb 1943); m.Antoing (civ) 30 Sep 1966 (rel) 4 Oct 1966 Pr Charles de Merode (b.Coigny 27 May 1940)
+					name=Hedwige
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=frankish
+					father=100062078 # Jean de Ligne de La Tremoille
+					mother=100062079 # Maria del de Lambertye-Gerbeviller
+					1943.02.18={birth=yes}
+				}
+				100062082={	# 2d) Charles-Antoine Marie Louis Eugène Lamoral (b.Boulogne-Billancourt 30 Sep 1946); m.1st Paris 7 Oct 1971 (div 1975) Lady Moira Forbes (b.Boulogne-Billancourt 2 Feb 1951); m.2d Neuilly-sur-Seine 23 Jan 1976 Alyette Pss von Croy (b.Neuilly-sur-Seine 13 Jul 1951)
+					name=Charles-Antoine
+					dynasty=1007002
+					religion=catholic culture=frankish
+					father=100062078 # Jean de Ligne de La Tremoille
+					mother=100062079 # Maria del de Lambertye-Gerbeviller
+					1946.09.30={birth=yes}
+					1971.10.07={
+						add_spouse=100062083 # Lady Forbes
+					}
+					1975.02.01={
+						remove_spouse=100062083
+					}
+					1976.01.23={
+						add_spouse=100062084 # Alyette von Croy
+					}
+				}
+					100062085={	# 1e) Edouard Lamoral Rodolphe (b.Paris 27 Sep 1976)
+						name=Edouard
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062082 # Charles-Antoine
+						mother=100062084 # Alyette von Croy
+						1976.09.27={birth=yes}
+					}
+					100062086={	# 2e) Charles Lamoral Joseph Malcolm (b.Paris 25 Feb 1980)
+						name=Charles
+						dynasty=1007002
+						religion=catholic culture=frankish
+						father=100062082 # Charles-Antoine
+						mother=100062084 # Alyette von Croy
+						1980.02.25={birth=yes}
+					}
+				100062087={	# 3d) Nathalie Marie (Paris 22 Sep 1948-22 Sep 1992); m.Saint-Georges-sur-Loire 7 Jul 1973 Pr Alain de Polignac (b.Biarritz 31 Jul 1940)
+					name=Nathalie
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=frankish
+					father=100062078 # Jean de Ligne de La Tremoille
+					mother=100062079 # Maria del de Lambertye-Gerbeviller
+					1948.09.22={birth=yes}
+					1992.09.22={death=yes}
+				}
+	100062089={	# 5a) Edouard Henri (Brussels 7 Feb 1839-Neuville 17 Oct 1911); m.1st London 11 Sep 1866 Augusta Cunynghame (1836-London 27 Oct 1872); m.2d Baden-Baden 12 Mar 1874 Eulalie Pss zu Solms-Braunfels (Kleinheubach 2 Feb 1851-Amay, Belgium 16 Aug 1922)
+		name=Edouard
+		dynasty=1007002
+		religion=catholic culture=frankish
+		father=100062000 # Eugène von Ligne
+		mother=100062003 # Jadwiga Lubomirska
+		1839.02.07={birth=yes}
+		1866.09.11={
+			add_spouse=100062090 # Augusta Cunynghame
+		}
+		1874.03.12={
+			add_spouse=100062091 # Eulalie zu Solms-Braunfels
+		}
+		1911.10.17={death=yes}
+	}
+		100062092={	# 1b) Albert Edouard Eugène Lamoral (Brussels 12 Dec 1874-Brussels 4 Jul 1957); m.Angleur, Belgium 9 Aug 1906 Marie Louise Calley Saint-Paul de Sincay (Angleur 22 Mar 1885-Brussels 24 Jun 1968)
+			name=Albert
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062089 # Edouard
+			mother=100062091 # Eulalie zu Solms-Braunfels
+			1874.12.12={birth=yes}
+			1906.08.09={
+				add_spouse=100062093 # Marie Louise de Sincay
+			}
+			1957.07.04={death=yes}
+		}
+			100062094={	# 1c) Elisabeth Marie Eulalie Adrienne Hélène (Brussels 1 Jun 1908-Brussels 15 Feb 1998); m.Beloeil 19 Sep 1932 Cte Guillaume de Limburg-Stirum (Brussels 5 Jan 1908-Brussels 27 Jan 1989)
+				name=Elisabeth
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062092 # Albert
+				mother=100062093 # Marie Louise de Sincay
+				1908.06.01={birth=yes}
+				1998.02.15={death=yes}
+			}
+			100062096={	# 2c) Marie-Antoinette Henriette Anne (Brussels 28 Oct 1910-Uccle 19 Oct 2001)
+				name=Marie-Antoinette
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062092 # Albert
+				mother=100062093 # Marie Louise de Sincay
+				1910.10.28={birth=yes}
+				2001.10.19={death=yes}
+			}
+			100062097={	# 3c) Albert-Edouard Philippe Marie Lamoral (The Hague 29 Aug 1912-Natoye 27 Apr 1963); m.Gerbeviller 26 Mar 1949 Leontine de Lambertye-Gerbeviller (b.Paris 24 Jun 1925)
+				name=Albert-Edouard
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062092 # Albert
+				mother=100062093 # Marie Louise de Sincay
+				1912.08.29={birth=yes}
+				1949.03.26={
+					add_spouse=100062098 # Leontine de Lambertye-Gerbeviller
+				}
+				1963.04.27={death=yes}
+			}
+				100062099={	# 1d) Marie Vanda Rita Line (b.Uccle, Belgium 13 May 1950); m.Beloeil 6 Apr 1979 Alfonso Gonzalo Perez de Guzman y Bustos (b.24 Mar 1951)
+					name="Marie Vanda"
+					female=yes
+					dynasty=1007002
+					religion=catholic culture=frankish
+					father=100062097 # Albert-Edouard
+					mother=100062098 # Leontine de Lambertye-Gerbeviller
+					1950.05.13={birth=yes}
+				}
+			100062101={	# 4c) Hélène Henriette Anne Marie (The Hague 9 Jun 1917-Uccle 2 Dec 2004); m.Brussels 9 Sep 1948 Peter Francis Whitwell (b.Ambleside, Westmoreland 30 Jun 1911)
+				name=Hélène
+				female=yes
+				dynasty=1007002
+				religion=catholic culture=frankish
+				father=100062092 # Albert
+				mother=100062093 # Marie Louise de Sincay
+				1917.06.09={birth=yes}
+				2004.12.02={death=yes}
+			}
+		100062103={	# 2b) Eléonore Marie (Brussels 25 Jan 1877-Hohenberg 13 Aug 1959); m.La Neuville 30 Nov 1907 Friedrich Pr von Thurn und Taxis (Raab 23 Dec 1871-Biskupitz 10 May 1945)
+			name=Eléonore
+			female=yes
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062089 # Edouard
+			mother=100062091 # Eulalie zu Solms-Braunfels
+			1877.01.25={birth=yes}
+			1959.08.13={death=yes}
+		}
+		100062105={	# 3b) Alexandre (La Neuville 7 Dec 1879-k.a.Winghe-St.George 16 Aug 1914)
+			name=Alexandre
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062089 # Edouard
+			mother=100062091 # Eulalie zu Solms-Braunfels
+			1879.12.07={birth=yes}
+			1914.08.16={death=yes}
+		}
+		100062106={	# 4b) Hélène Marie (La Neuville 14 Aug 1887-Brussels 21 Nov 1963); m.1st La Neuville 26 Sep 1912 Cte Hadelin d'Oultremont (Ixelles 5 Mar 1877-Saint-Georges-sur-Meuse 10 Dec 1943); m.2d Tronchiennes 19 Jul 1945 Jean Wolff (Saint-Gilles 26 Feb 1892-Brussels 5 May 1951)
+			name=Hélène
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100062089 # Edouard
+			mother=100062091 # Eulalie zu Solms-Braunfels
+			1887.08.14={birth=yes}
+			1912.09.26={
+				add_spouse=100062107 # Cte d'Oultremont
+			}
+			1945.07.19={
+				add_spouse=100062108 # Jean Wolff
+			}
+			1963.11.21={death=yes}
+		}
+	100062109={	# 6a) Isabelle Hedwige Mathilde Eugénie (15 Apr 1840-11 Mar 1858)
+		name=Isabelle
+		female=yes
+		dynasty=1007002
+		religion=catholic culture=frankish
+		father=100062000 # Eugène von Ligne
+		mother=100062003 # Jadwiga Lubomirska
+		1840.04.15={birth=yes}
+		1858.03.11={death=yes}
+	}
+	100062110={	# 7a) Marie Georgine Sophie Hedwige Eugénie (Brussels 19 Apr 1843-Paris 3 Mar 1898); m.Beloeil 8 Jun 1862 Sosthène de la Rochefoucauld, Duc de Doudeauville (1825-château de Bonnetable 27 Aug 1908)
+		name="Marie Georgine"
+		female=yes
+		dynasty=1007002
+		religion=catholic culture=frankish
+		father=100062000 # Eugène von Ligne
+		mother=100062003 # Jadwiga Lubomirska
+		1843.04.19={birth=yes}
+		1898.03.03={death=yes}
+	}
+##  100062000		LIGNE			1007002	
+
+
 #d'Udekem d'Acoz|1151	116000
 116001={	# Patrick d'Udekem d'Acoz
 	name=Patrick
@@ -33,218 +775,6 @@
 	1984.1.1={birth=yes}
 	2100.1.1={death=yes}
 }
-
-# de Ligne|1154	116400
-116400={	# Lamoral I, 1st Prince of Ligne and of the Holy Roman Empire (1563-1624).
-	name=Lamoral
-	dynasty=1005000
-	religion=catholic culture=frankish
-	1563.1.1={birth=yes}
-	1624.1.1={death=yes}
-}
-
-116410={	# Albert Henri, 2nd Prince of Ligne and of the Holy Roman Empire (1615-1641)
-	name="Albert Henri"
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116400
-	1615.1.1={birth=yes}
-	1641.1.1={death=yes}
-}
-116411={	# Claude Lamoral I, 3rd Prince of Ligne and of the Holy Roman Empire (1618-1679)
-	name="Claude Lamoral"
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116400
-	1618.1.1={birth=yes}
-	1679.1.1={death=yes}
-}
-
-116420={	# Henri Louis Ernest, 4th Prince of Ligne and of the Holy Roman Empire (1644-1702)
-	name="Henri Louis Ernest"
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116411
-	1644.1.1={birth=yes}
-	1702.1.1={death=yes}
-}
-
-116430={	# Antoine Joseph Ghislain, 5th Prince of Ligne and of the Holy Roman Empire (1682-1750)
-	name=Antoine
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116420
-	1682.1.1={birth=yes}
-	1750.1.1={death=yes}
-}
-116431={	# Claude Lamoral II, 6th Prince of Ligne and of the Holy Roman Empire (1685-1766)
-	name="Claude Lamoral"
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116420
-	1685.1.1={birth=yes}
-	1766.1.1={death=yes}
-}
-
-116440={	# Charles-Joseph, 7th Prince of Ligne and of the Holy Roman Empire (1735-1814)
-	name="Charles-Joseph"
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116431
-	1735.1.1={birth=yes}
-	1814.1.1={death=yes}
-}
-
-116450={	# Eugène, 8th Prince of Ligne and of the Holy Roman Empire (1804-1880)
-	name="Eugène"
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116440
-	1804.1.1={birth=yes}
-	1880.1.1={death=yes}
-}
-
-116460={	# Louis, 9th Prince of Ligne (1854-1918)
-	name=Louis
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116450
-	1854.1.1={birth=yes}
-	1918.1.1={death=yes}
-}
-116461={	# Ernest, 10th Prince of Ligne (1857-1937)
-	name=Ernest
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116450
-	1857.1.1={birth=yes}
-	1937.1.1={death=yes}
-}
-
-116470={	# Eugène II, 11th Prince of Ligne (1893-1960)
-	name=Eugène
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116461
-	1893.1.1={birth=yes}
-	1960.1.1={death=yes}
-}
-
-116480={	# Baudouin, 12th Prince of Ligne (1918-1985)
-	name=Baudouin
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116470
-	1918.1.1={birth=yes}
-	1985.1.1={death=yes}
-}
-116482={	# Princess Isabelle de Ligne (1921–2000)
-	name=Isabelle
-	female = yes
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116470
-	1921.1.1={birth=yes}
-	2000.1.1={death=yes}
-}
-116483={	# Princess Yolande Marie Jeanne Charlotte de Ligne (born 6 May 1923) married Archduke Carl Ludwig of Austria
-	name=Yolande
-	female = yes
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116470
-	1923.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-116481={	# Antoine, 13th Prince of Ligne (1925-2005)
-	name=Antoine
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116470
-	1925.1.1={birth=yes}
-	2005.1.1={death=yes}
-}
-
-116490={	# Michel, 14th Prince of Ligne (1951-)
-	name=Michel
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116481
-	1951.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-116491={	# Prince Wauthier de Ligne (b. 10 July 1952), he married Countess Regine van Renesse
-	name=Wauthier
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116481
-	1952.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-116492={	# Princess Anne-Marie de Ligne (b. 3 April 1954), she married Olivier Mortgat
-	name="Anne-Marie"
-	female = yes
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116481
-	1954.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-116493={	# Princess Christine de Ligne (b. 11 August 1955), she married Prince Antonio of Orléans-Braganza.
-	name=Christine
-	female = yes
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116481
-	1955.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-116494={	# Princess Sophie de Ligne (b. 23 April 1957), she married Count Philippe de Nicolay.
-	name=Sophie
-	female = yes
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116481
-	1957.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-116495={	# Prince Antoine de Ligne (b. 28 December 1959). he married Countess Minthia de Lannoy
-	name=Antoine
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116481
-	1959.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-116496={	# Princess Yolande de Ligne (b. 16 June 1964), she married Hugo Townsend, son of Group Captain Peter Townsend
-	name=Yolande
-	female = yes
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116481
-	1964.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-
-116500={	# Princess Alix Marie Isabelle Adelgonde Eléonore de Ligne b. 3 July 1984
-	name=Alix
-	female = yes
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116490
-	1984.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-116501={	# Prince Henri Antoine de Ligne b. 3 March 1989
-	name="Henri Antoine"
-	dynasty=1005000
-	religion=catholic culture=frankish
-	father = 116490
-	1989.1.1={birth=yes}
-	2050.1.1={death=yes}
-}
-
-
 
 ### Belgian Sachsen-Coburg und Gotha	100062000 - 100062199
 
