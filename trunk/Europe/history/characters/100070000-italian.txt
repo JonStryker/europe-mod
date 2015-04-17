@@ -1,9 +1,180 @@
 #di Savoia|240|100070000-100070199
+
+100025001={ # Pss        Maria Luisa               di Savoia                                (1688-1714)
+	name="Maria Luisa di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=castillan
+	1688.09.17={birth=yes}
+	1714.02.14={death=yes}
+}
+100025408={ # King       Vittorio Amedeo III       di Savoia                                (1726-1796)
+	name="Vittorio Amedeo III di Savoia"
+	dynasty=0
+	religion=catholic culture=castillan
+	1726.06.26={birth=yes}
+	1750.04.12={
+		add_spouse=100025407 # Maria Antonieta
+	}
+	1796.10.16={death=yes}
+}
+100020631={ # King       Vittorio Emanuele I       di Savoia                                (1759-1824)
+	name="Vittorio Emanuele I di Savoia"
+	dynasty=0
+	religion=catholic culture=german
+	1759.07.24={birth=yes}
+	1789.04.21={
+		add_spouse=100020630 # Maria Theresia
+	}
+	1824.01.10={death=yes}
+}
+100016608={ # Pss        Maria Carolina            di Savoia                                (1764-1782)
+	name="Maria Carolina di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1764.01.17={birth=yes}
+	1782.12.28={death=yes}
+}
+100008216={ # King       Charles Felix             di Savoia                                (1765-1831)
+	name="Charles Felix di Savoia"
+	dynasty=0
+	religion=catholic culture=neapolitan
+	1765.04.06={birth=yes}
+	1831.04.27={death=yes}
+}
+100020637={ # Pss        Maria Beatrice            di Savoia                                (1792-1840)
+	name="Maria Beatrice di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1792.12.06={birth=yes}
+	1840.09.15={death=yes}
+}
+100021076={ # King       Carlo Alberto             di Savoia                                (1798-1849)
+	name="Carlo Alberto di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1798.10.29={birth=yes}
+	1817.09.30={
+		add_spouse=100021075
+	}
+	1849.07.28={death=yes}
+}
+100008311={ # Pss        Maria Teresa              di Savoia                                (1803-1879)
+	name="Maria Teresa di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1803.09.19={birth=yes}
+	1879.07.16={death=yes}
+}
+100020031={ # Pss        Maria Anna                di Savoia                                (1803-1884)
+	name="Maria Anna di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1803.09.19={birth=yes}
+	1884.05.04={death=yes}
+}
+100008022={ # Pss        Christina                 di Savoia                                (1812-1836)
+	name="Christina di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=neapolitan
+	1812.11.14={birth=yes}
+	1836.01.31={death=yes}
+}
+
+100070107={	# Carlo Emanuele
+	name="Carlo Emanuele"
+	dynasty=240
+	religion=catholic culture=italian
+	1562.01.01={birth=yes}
+	1630.01.01={death=yes}
+}
+100070106={	# Tommaso Francesco
+	name="Tommaso Francesco"
+	dynasty=240
+	religion=catholic culture=italian
+	father=100070107
+	1596.01.01={birth=yes}
+	1656.01.01={death=yes}
+}
+100070105={	# Emanuele Filiberto
+	name="Emanuele Filiberto"
+	dynasty=240
+	religion=catholic culture=italian
+	father=100070106
+	1628.01.01={birth=yes}
+	1709.01.01={death=yes}
+}
+100070104={	# Vittorio Amedeo
+	name="Vittorio Amedeo"
+	dynasty=240
+	religion=catholic culture=italian
+	father=100070105
+	1690.01.01={birth=yes}
+	1741.01.01={death=yes}
+}
+100070103={	# Luigi Vittorio
+	name="Luigi Vittorio"
+	dynasty=240
+	religion=catholic culture=italian
+	father=100070104
+	1717.01.01={birth=yes}
+	1778.01.01={death=yes}
+}
+	100070102={	# Vittorio Amedeo
+		name="Vittorio Amedeo"
+		dynasty=240
+		religion=catholic culture=italian
+		father=100070103
+		1743.01.01={birth=yes}
+		1780.01.01={death=yes}
+	}
+	100085012={ # Pss        Gabriella                 di Savoia-Carignano                      (1748-1828)
+		name=Gabriella
+		female=yes
+		dynasty=240
+		religion=catholic culture=italian
+		father=100070103
+		1748.03.27={birth=yes}
+		1828.04.10={death=yes}
+	}
+	100070108={	# Eugenio
+		name=Eugenio
+		dynasty=240
+		religion=catholic culture=italian
+		father=100070103
+		1753.01.01={birth=yes}
+		1785.01.01={death=yes}
+	}
+		100070109={	# Giuseppe Maria
+			name="Giuseppe Maria"
+			dynasty=240
+			religion=catholic culture=italian
+			father=100070108
+			1783.01.01={birth=yes}
+			1825.01.01={death=yes}
+		}
+			100008170={ # Pss        Maria                     di Savoia-Carignano                      (1814-1874)
+				name="Maria Vittoria"
+				female=yes
+				dynasty=240
+				religion=catholic culture=neapolitan
+				father=100070109
+				1814.09.29={birth=yes}
+				1874.01.02={death=yes}
+			}
+
 100070000={	# Carlo Emanuele Ferdinando Pr of Savoy-Carignano (Turin 24 Oct 1770-Chaillot 16 Aug 1800)
 			# m.Turin 24 Oct 1797 Maria Cristina Pss of Saxony (Dresden 7 Dec 1779-Paris 24 Nov 1851)
 	name="Carlo Emanuele"
 	dynasty=240
 	religion=catholic culture=italian
+	father=100070102
 	1770.10.24={birth=yes}
 	1797.10.24={
 		add_spouse=100070001 # Maria Cristina of Saxony
