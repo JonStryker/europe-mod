@@ -14,16 +14,6 @@
 	1739.03.30={birth=yes}
 	1767.05.28={death=yes}
 }
-100015813={	# Maximilian I Joseph 	King 	von Bayern (Mannheim 27 May 1756-Nymphenburg 13 Oct 1825)
-	name="Maximilian Joseph King"
-	dynasty=0
-	religion=catholic culture=german
-	1756.05.27={birth=yes}
-	1797.03.09={
-		add_spouse=100015812 # Friederike Karoline
-	}
-	1825.10.13={death=yes}
-}
 100020634={	# Karl Theodor			Elector von Bayern (Brussels 11 Dec 1724-Munich 16 Feb 1799)
 	name="Karl Theodor"
 	dynasty=0
@@ -419,28 +409,38 @@
 	dynasty=217
 	religion=catholic culture=german
 	father=100014102
-	1674.1.1={birth=yes}
-	1735.1.1={death=yes}
+	1674.11.07={birth=yes}
+	1735.02.03={death=yes}
 }
 100014100={
 	name="Friedrich Michael"
 	dynasty=217
 	religion=catholic culture=german
 	father=100014101
-	1724.1.1={birth=yes}
-	1767.1.1={death=yes}
+	1724.02.27={birth=yes}
+	1767.08.15={death=yes}
 }
-
-100016978={
-	name="Auguste von Hessen-Darmstadt"
-	female=yes
-	dynasty=217
-	religion=catholic culture=german
-	father=100014101
-	1765.04.14={birth=yes}
-	1796.03.30={death=yes}
-}
-
+	100016615={ # Duke       Karl III                  von Zweibrücken                          (1746-1795)
+		name=Karl
+		dynasty=217
+		religion=catholic culture=german
+		father=100014100
+		1746.10.29={birth=yes}
+		1774.02.12={
+			add_spouse=100016615 # Maria Amalia
+		}
+		1795.04.01={death=yes}
+	}
+	100016603={ # Pfgfn      Amalie                    von Zweibrücken-Birkenfeld               (1752-1828)
+		name=Amalie
+		female=yes
+		dynasty=217
+		religion=catholic culture=german
+		father=100014100
+		1752.05.10={birth=yes}
+		1828.11.15={death=yes}
+	}
+	
 100016800={	# Maximilian Joseph, Pfalzgraf von Zweibrücken, was b.Mannheim 27 May 1756
 			# he succeeded his brother as Herzog von Zweibrücken 1795, and his distant cousin as Elector von Bayern in 1799
 			# he assumed the title MAXIMILIAN I, King von Bayern 26 Dec 1805, and d.at Schloß Nymphenburg 23 Oct 1825
@@ -452,7 +452,7 @@
 	father=100014100
 	mother=100014103
 	1756.05.27={birth=yes}
-	1785.09.30={add_spouse=100016978}
+	1785.09.30={add_spouse=100010690}
 	1797.03.09={add_spouse=100015812}
 	1825.10.13={death=yes}
 }
@@ -461,7 +461,7 @@
 		dynasty=217
 		religion=catholic culture=german
 		father=100016800 # Maximilian Joseph
-		mother=100016978
+		mother=100010690
 		1786.08.25={birth=yes}
 		1810.10.12={
 			add_spouse=100016802 # Therese von Sachsen-Hildburghausen
@@ -499,7 +499,7 @@
 				1916.10.11={death=yes}
 			}
 		100016807={	# 2b) Mathilde Caroline Friederike Wilhelmine Charlotte (Augsburg 30 Aug 1813-Darmstadt 25 May 1862); m.Munich 26 Dec 1833 Ludwig III, Grand Duke von Hessen und bei Rhein (Darmstadt 9 Jun 1806-Seeheim 13 Jun 1877)
-			name="Mathilde Caroline"
+			name=Mathilde
 			female=yes
 			dynasty=217
 			religion=catholic culture=german
@@ -1446,7 +1446,7 @@
 		dynasty=217
 		religion=catholic culture=german
 		father=100016800 # Maximilian Joseph
-		mother=100016978
+		mother=100010690
 		1788.06.21={birth=yes}
 		1851.05.13={death=yes}
 	}
@@ -1456,7 +1456,7 @@
 		dynasty=217
 		religion=catholic culture=german
 		father=100016800 # Maximilian Joseph
-		mother=100016978
+		mother=100010690
 		1792.02.08={birth=yes}
 		1873.02.09={death=yes}
 	}
@@ -1467,7 +1467,7 @@
 		dynasty=217
 		religion=catholic culture=german
 		father=100016800 # Maximilian Joseph
-		mother=100016978
+		mother=100010690
 		1795.07.07={birth=yes}
 		1823.10.01={
 			add_spouse=100016958
