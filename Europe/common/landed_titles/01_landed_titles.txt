@@ -593,9 +593,9 @@ e_austria = {
 				}
 				b_wr_neustadt = {
 				}
-				b_melk = {
-				}
 				b_amstetten = {
+				}
+				b_melk = {
 				}
 			}
 		}
@@ -12992,7 +12992,7 @@ e_netherlands = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 446 province_id = 447 province_id = 448 province_id = 449 } }
+					any_demesne_province = { OR = { province_id = 446 province_id = 447 province_id = 448 province_id = 450 } }
 				}
 			}
 			capital = 446 # c_amsterdam
@@ -13014,23 +13014,6 @@ e_netherlands = {
 				b_den_helder = {
 				}
 				b_castricum = {
-				}
-			}
-			c_arnhem = { # 449
-				color={ 65 192 160 }
-				color2={ 255 255 255 }
-				
-				b_arnhem = {
-				}
-				b_zevenaar = {
-				}
-				b_apeldoorn = {
-				}
-				b_ermelo = {
-				}
-				b_lelystad = {
-				}
-				b_zutphen = {
 				}
 			}
 			c_rotterdam = { # 447
@@ -13071,6 +13054,21 @@ e_netherlands = {
 				b_barnevelde = {
 				}
 			}
+			c_zeeland = { # 450
+				color={ 1 192 160 }
+				color2={ 255 255 255 }
+				
+				b_middelburg = {
+				}
+				b_vlissingen = {
+				}
+				b_terneuzen = {
+				}
+				b_bergen_op_zoom = {
+				}
+				b_hellevoetsluis = {
+				}
+			}
 		}
 		d_friesland = {
 			color={ 75 182 38 }
@@ -13079,12 +13077,12 @@ e_netherlands = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 454 province_id = 455 province_id = 456 province_id = 457 } }
+					any_demesne_province = { OR = { province_id = 454 province_id = 455 province_id = 457 } }
 				}
 			}
-			capital = 454 # c_leeuwarden
+			capital = 454 # c_friesland
 			
-			c_leeuwarden = { # 454
+			c_friesland = { # 454
 				color={ 65 192 33 }
 				color2={ 255 255 255 }
 				
@@ -13097,7 +13095,7 @@ e_netherlands = {
 				b_drachten = {
 				}
 			}
-			c_assen = { # 457
+			c_drenthe = { # 457
 				color={ 65 65 160 }
 				color2={ 255 255 255 }
 				
@@ -13127,7 +13125,50 @@ e_netherlands = {
 				b_bedum = {
 				}
 			}
-			c_zwolle = { # 456
+		}
+		d_gelre = {
+			color={ 55 202 155 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 449 province_id = 456 province_id = 1100 } }
+				}
+			}
+			capital = 449 # c_gelderland
+			
+			c_gelderland = { # 449
+				color={ 65 192 160 }
+				color2={ 255 255 255 }
+				
+				b_arnhem = {
+				}
+				b_zevenaar = {
+				}
+				b_apeldoorn = {
+				}
+				b_ermelo = {
+				}
+				b_lelystad = {
+				}
+				b_zutphen = {
+				}
+			}
+			c_flevoland = { # 1100
+				color={ 162 156 133 }
+				color2={ 255 255 255 }
+				
+				b_lelystad_2 = {
+				}
+				b_almere = {
+				}
+				b_dronten = {
+				}
+				b_urk = {
+				}
+			}
+			c_overijssel = { # 456
 				color={ 192 65 160 }
 				color2={ 255 255 255 }
 				
@@ -13135,37 +13176,37 @@ e_netherlands = {
 				}
 				b_hardenberg = {
 				}
-				b_dronten = {
+				b_dronten_2 = {
 				}
 				b_raalte = {
 				}
 			}
 		}
-		d_zeeland = {
-			color={ 11 182 165 }
+		d_noord_brabant = {
+			color={ 182 202 155 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 450 province_id = 451 province_id = 452 province_id = 453 } }
+					any_demesne_province = { OR = { province_id = 451 province_id = 452 province_id = 453 } }
 				}
 			}
-			capital = 450 # c_middelburg
+			capital = 451 # c_eindhoven
 			
-			c_middelburg = { # 450
-				color={ 1 192 160 }
+			c_eindhoven = { # 451
+				color={ 192 192 160 }
 				color2={ 255 255 255 }
 				
-				b_middelburg = {
+				b_eindhoven = {
 				}
-				b_vlissingen = {
+				b_geldrop = {
 				}
-				b_terneuzen = {
+				b_helmond = {
 				}
-				b_bergen_op_zoom = {
+				b_boxtel = {
 				}
-				b_hellevoetsluis = {
+				b_valkanswaard = {
 				}
 			}
 			c_breda = { # 452
@@ -13183,22 +13224,7 @@ e_netherlands = {
 				b_s_hertogenbosch = {
 				}
 			}
-			c_eindhoven = { # 451
-				color={ 192 192 160 }
-				color2={ 255 255 255 }
-				
-				b_eindhoven = {
-				}
-				b_geldrop = {
-				}
-				b_helmond = {
-				}
-				b_boxtel = {
-				}
-				b_valkanswaard = {
-				}
-			}
-			c_maastricht = { # 453
+			c_limburg = { # 453
 				color={ 0 0 223 }
 				color2={ 255 255 255 }
 				
