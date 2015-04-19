@@ -1,0 +1,27 @@
+namespace = Habsburg
+
+character_event = {
+	id = Habsburg.01
+	title = OK
+	desc = OK
+	picture = GFX_evt_peasants
+	min_age = 16
+	
+	trigger = {
+		has_landed_title = k_austria
+		dynasty = 1503
+		is_alive = yes
+		NOT = { has_claim = k_hungary }
+		NOT = { has_landed_title = k_hungary }
+		NOT = { any_vassal = { has_landed_title = k_hungary } }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		add_claim = k_hungary
+	}
+}
