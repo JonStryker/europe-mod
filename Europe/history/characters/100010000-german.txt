@@ -1,11 +1,897 @@
 ###########################################################
-##  100010000	Fürstenberg			1002020	
-##  100010200	Waldeck				1002023	
-##  100010500	Hessen (Rhein)		1002012	
+## 100010000	Fürstenberg			1002020	
+## 100010200	Waldeck				1002023	
+## 100010500	Hessen (Rhein)		1002012	
+## 100010700	Schaumburg-Lippe	1002025	
 ###########################################################
 
 
-##  100010500	Hessen (Rhein)		1002012	
+## 100010700	Schaumburg-Lippe	1002025	
+100010700={	# GEORG Wilhelm Gf zu Schaumburg-Lippe, Fürst zu Schaumburg-Lippe 6 Aug 1806 (Bückeburg 20 Dec 1784-Bückeburg 21 Nov 1860; bur Stadthagen); m.Arolsen 23 Jun 1816 Ida Pss zu Waldeck u.Pyrmont (Rhoden 26 Sep 1796-Menton 12 Apr 1869; bur Stadthagen)
+	name=Georg
+	dynasty=1002025
+	religion=lutheran culture=german
+	1784.12.20={birth=yes}
+	1816.06.23={
+		add_spouse=100010381 # Ida zu Waldeck u.Pyrmont
+	}
+	1860.02.01={death=yes}
+}
+	100010702={	# 1a) ADOLF I Georg Fst zu Schaumburg-Lippe (Bückeburg 1 Aug 1817-Bückeburg 8 May 1893; bur Stadthagen); m.Arolsen 25 Oct 1844 Hermine Pss zu Waldeck u.Pyrmont (Arolsen 29 Sep 1827-Bückeburg 16 Feb 1910; bur Stadthagen)
+		name=Adolf
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010700 # Georg zu Schaumburg-Lippe Fürst zu Schaumburg-Lippe 6 Aug 1806
+		mother=100010381 # Ida zu Waldeck u.Pyrmont
+		1817.08.01={birth=yes}
+		1844.10.25={
+			add_spouse=100010209 # Hermine zu Waldeck u.Pyrmont
+		}
+		1893.02.01={death=yes}
+	}
+		100010704={	# 1b) Hermine (Bückeburg 5 Oct 1845-Regensburg 23 Dec 1930); m.Bückeburg 16 Feb 1876 Maximilian, Duke of Württemberg (Schloß Taxis 3 Sep 1828-Regensburg 28 Jul 1888)
+			name=Hermine
+			female=yes
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010702 # Adolf zu Schaumburg-Lippe
+			mother=100010209 # Hermine zu Waldeck u.Pyrmont
+			1845.10.05={birth=yes}
+			1930.12.23={death=yes}
+		}
+		100010706={	# 2b) Stephan Albrecht GEORG Fst zu Schaumburg-Lippe (Bückeburg 10 Oct 1846-Bückeburg 29 Apr 1911); m.Altenburg 16 Apr 1882 Marie Pss of Saxe-Altenburg (Altenburg 14 Mar 1864-Bückeburg 3 May 1918)
+			name=Georg
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010702 # Adolf zu Schaumburg-Lippe
+			mother=100010209 # Hermine zu Waldeck u.Pyrmont
+			1846.10.10={birth=yes}
+			1882.04.16={
+				add_spouse=100010707 # Marie of Saxe-Altenburg
+			}
+			1911.04.29={death=yes}
+		}
+			100010708={	# 1c) ADOLF II Bernhard Moritz Ernst Waldemar Fst zu Schaumburg-Lippe, renounced the throne 16 Nov 1918 (Stadthagen 23 Feb 1883-k.in air crash Zompango, Mexico 26 Mar 1936); m.Berlin 10 Jan 1920 Ellen Bischoff-Korthaus (Munich 6 Nov 1894-k.with her husband 26 Mar 1936), former wife of Pr Eberwyn zu Bentheim
+				name=Adolf
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010706 # Georg zu Schaumburg-Lippe
+				mother=100010707 # Marie of Saxe-Altenburg
+				1883.02.23={birth=yes}
+				1920.01.10={
+					add_spouse=100010709 # Ellen Bischoff-Korthaus
+				}
+				1936.03.26={death=yes}
+			}
+			100010710={	# 2c) Moritz Georg (Stadthagen 11 Mar 1884-Breslau 10 Mar 1920; bur Bückeburg)
+				name=Moritz
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010706 # Georg zu Schaumburg-Lippe
+				mother=100010707 # Marie of Saxe-Altenburg
+				1884.03.11={birth=yes}
+				1920.02.01={death=yes}
+			}
+			100010712={	# 4c) Ernst WOLRAD Fst zu Schaumburg-Lippe (Stadthagen 19 Apr 1887-Hannover 15 Jun 1962); m.(civ) Simbach am Inn 15 Apr 1925 (rel) Schloß Pfaffstadt 16 Apr 1925 Bathildis Pss zu Schaumburg-Lippe (11 Nov 1903-29 Jun 1983; below)
+				name=Wolrad
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010706 # Georg zu Schaumburg-Lippe
+				mother=100010707 # Marie of Saxe-Altenburg
+				1887.04.19={birth=yes}
+				1925.04.16={
+					add_spouse=100010838 # Bathildis zu Schaumburg-Lippe
+				}
+				1962.06.15={death=yes}
+			}
+				100010714={	# 1d) Albrecht Georg-Wilhelm Eugen Erbprinz zu Schaumburg-Lippe (Schloß Hagenburg 26 Jan 1926-k.a.Nössige, Saxony 29 Apr 1945; bur there)
+					name=Albrecht
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010712 # Wolrad zu Schaumburg-Lippe
+					mother=100010838 # Bathildis zu Schaumburg-Lippe
+					1926.01.26={birth=yes}
+					1945.02.01={death=yes}
+				}
+				100010715={	# 2d) Friedrich August PHILIPP-ERNST Wolrad Fst zu Schaumburg-Lippe, HD (Hagenburg 26 Jul 1928-Bückeburg 28 Aug 2003); m.Bückeburg 3 Oct 1955 Eva-Benita Frn von Tiele-Winckler (Vollratsruhe 18 Nov 1927-8 May 2013)
+					name=Philipp-Ernst
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010712 # Wolrad zu Schaumburg-Lippe
+					mother=100010838 # Bathildis zu Schaumburg-Lippe
+					1928.07.26={birth=yes}
+					1955.10.03={
+						add_spouse=100010716 # Eva-Benita von Tiele-Winckler
+					}
+					2003.08.28={death=yes}
+				}
+					100010717={	# 1e) Adolf Friedrich Georg-Wilhelm Wolrad Hans-Werner Erbprinz zu Schaumburg-Lippe (Freiburg im Breisgau 14 Jul 1956-nr Sternbergen 31 Jul 1983)
+						name=Adolf
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010715 # Friedrich zu Schaumburg-Lippe HD
+						mother=100010716 # Eva-Benita von Tiele-Winckler
+						1956.07.14={birth=yes}
+						1983.07.31={death=yes}
+					}
+					100010718={	# 2e) Ernst August ALEXANDER CHRISTIAN Viktor Hubert Fst zu Schaumburg-Lippe, HD (b.Düsseldorf 25 Dec 1958); m.1st Bückeburg 27 Aug 1993 (rel) 29 Aug 1993 (div 2002) Marie Luise Pss zu SaynWittgensteinBerleburg (b.Stuttgart 25 Sep 1972); m.2nd Bückeburg 28 Jun 2007 (rel) 30 Jun 2007 Nadja Anna Zsoeks (b.Munich 20 Feb 1975)
+						name="Alexander Christian"
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010715 # Friedrich zu Schaumburg-Lippe HD
+						mother=100010716 # Eva-Benita von Tiele-Winckler
+						1958.12.25={birth=yes}
+						1993.08.27={
+							add_spouse=100010719 # Marie Luise zu SaynWittgensteinBerleburg
+						}
+						2002.02.01={
+							remove_spouse=100010719
+						}
+						2007.06.28={
+							add_spouse=100010720 # Nadja Zsoeks
+						}
+					}
+						100010721={	# 1f) Hereditary Prince Ernst-August Alexander Wilhelm Bernhard Krafft Heinrich-Donatus, HD (b.Bückeburg 13 May 1994)
+							name=Ernst-August
+							dynasty=1002025
+							religion=lutheran culture=german
+							father=100010718 # Alexander Christian zu Schaumburg-Lippe HD
+							mother=100010719 # Marie Luise zu SaynWittgensteinBerleburg
+							1994.05.13={birth=yes}
+						}
+						100010722={	# 2f) Friederike Marie-Caroline Elisabeth Thaddaea Benita Eleonore Felipa (b.Munich 1 Dec 2008)
+							name=Friederike
+							female=yes
+							dynasty=1002025
+							religion=lutheran culture=german
+							father=100010718 # Alexander Christian zu Schaumburg-Lippe HD
+							mother=100010720 # Nadja Zsoeks
+							2008.12.01={birth=yes}
+						}
+						100010723={	# 3f) Philomena Sylvia Huberta Amelie Juliane Vera Marie-Anna (b.Munich 10 Jul 2011)
+							name=Philomena
+							female=yes
+							dynasty=1002025
+							religion=lutheran culture=german
+							father=100010718 # Alexander Christian zu Schaumburg-Lippe HD
+							mother=100010720 # Nadja Zsoeks
+							2011.07.10={birth=yes}
+						}
+				100010724={	# 3d) Konstantin Karl-Eduard Ernst-August Stephan Alexander, HD (Hagenburg 22 Dec 1930-16 Apr 2008); m.1st Hannover 28 Dec 1956 Sigrid Knape (Hirschberg 2 Sep 1929-Bielefeld 30 Aug 1997); m.2nd Bielefeld 6 Nov 1998 Petra Maass (b.Salzkotten 18 Feb 1951)
+					name=Konstantin
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010712 # Wolrad zu Schaumburg-Lippe
+					mother=100010838 # Bathildis zu Schaumburg-Lippe
+					1930.12.22={birth=yes}
+					1956.12.28={
+						add_spouse=100010725 # Sigrid Knape
+					}
+					1998.11.06={
+						add_spouse=100010726 # Petra Maass
+					}
+					2008.04.16={death=yes}
+				}
+					100010727={	# 1e) York Karl-Albrecht Konstantin (b.Bielefeld 4 Jun 1960); m.Bielefeld 5 Sep 1986 Susanne Seidensticker (Bielefeld 10 Sep 1961-Bielefeld 19 Dec 1992)
+						name=York
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010724 # Hd
+						mother=100010725 # Sigrid Knape
+						1960.06.04={birth=yes}
+						1986.09.05={
+							add_spouse=100010728 # Susanne Seidensticker
+						}
+					}
+						100010729={	# 1f) Nicolai-York Gerhard Konstantin (b.San Diego, California 23 Apr 1989)
+							name=Nicolai-York
+							dynasty=1002025
+							religion=lutheran culture=german
+							father=100010727 # York
+							mother=100010728 # Susanne Seidensticker
+							1989.04.23={birth=yes}
+						}
+					100010730={	# 2e) Tatjana-Sybille Viktoria Juliane (b.Bielefeld 13 Nov 1962)
+						name=Tatjana-Sybille
+						female=yes
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010724 # Hd
+						mother=100010725 # Sigrid Knape
+						1962.11.13={birth=yes}
+					}
+					100010731={	# 3e) Oliver Konstantin Mortimer (b. [by 2nd wife] Bielefeld 27 Mar 1988)
+						name=Oliver
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010724 # Hd
+						mother=100010725 # Sigrid Knape
+						1988.03.27={birth=yes}
+					}
+				100010732={	# 4d) Elsa Viktoria Luise Marie Barbara Elisabeth Bathildis Wera, HD (b.Hagenburg 31 Jul 1940); m.1st (civ) Willing bei Bad Aibling 16 Dec 1966 (rel) Bückeburg 30 Jan 1967 Karl-Georg Gf von Stackelberg (Arensburg 19 Jul 1913-Rosenheim 28 Aug 1980); m.2nd Bückeburg (civ) 27 Jun (rel) 28 Jun 1983 Jürgen von Goerne (Allenstein 12 Feb 1908-Munich 3 Mar 2001)
+					name=Elsa
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010712 # Wolrad zu Schaumburg-Lippe
+					mother=100010838 # Bathildis zu Schaumburg-Lippe
+					1940.07.31={birth=yes}
+				}
+			100010735={	# 5c) Stephan Alexander Viktor (Stadthagen 21 Jun 1891-Kempfenhausen am Starnberger See 20 Feb 1965; bur Bückeburg); m.Rastede 4 Jun 1921 Ingeborg, Dss of Oldenburg (Oldenburg 20 Jul 1901-Bienebek, Holstein 10 Jan 1996)
+				name=Stephan
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010706 # Georg zu Schaumburg-Lippe
+				mother=100010707 # Marie of Saxe-Altenburg
+				1891.06.21={birth=yes}
+				1921.06.04={
+					add_spouse=100013212 # Ingeborg of Oldenburg
+				}
+				1965.02.01={death=yes}
+			}
+				100010737={	# 1d) Georg-Moritz Friedrich August Otto Christian (Bückeburg 9 Mar 1924-Wolfratshausen 17 Oct 1970)
+					name=Georg-Moritz
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010735 # Stephan
+					mother=100013212 # Ingeborg of Oldenburg
+					1924.03.09={birth=yes}
+					1970.10.17={death=yes}
+				}
+				100010738={	# 2d) Marie-Alix (b.Bückeburg 2 Apr 1923); m.Glücksburg 9 Oct 1947 Peter, Duke of Schleswig-Holstein (Schloß Luisenlund 30 Apr 1922-Bienebek 30 Sep 1980)
+					name=Marie-Alix
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010735 # Stephan
+					mother=100013212 # Ingeborg of Oldenburg
+					1923.04.02={birth=yes}
+					2003.04.02={death=yes} # EST.
+				}
+			100010740={	# 6c) Heinrich Konstantin Friedrich Ernst (Bückeburg 25 Sep 1894-Minden 11 Nov 1952); m.(civ) Berlin 30 May 1933 (rel) Sophienreuth bei Schönwald 10 Jun 1933 Marie-Erika Gfn von Hardenberg (Hofgeismar 10 Feb 1903-Bad Oeynhausen 15 Jul 1964)
+				name=Heinrich
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010706 # Georg zu Schaumburg-Lippe
+				mother=100010707 # Marie of Saxe-Altenburg
+				1894.09.25={birth=yes}
+				1933.06.10={
+					add_spouse=100010741 # Marie-Erika von Hardenberg
+				}
+				1952.11.11={death=yes}
+			}
+				100010742={	# 1d) Dagmar Marie Elisabeth (HD) (Berlin-Wilmersdorf 18 Feb 1934-24 Dec 2008); m.1st Kronberg, Taunus 7 May 1956 Christoph Kalau vom Hofe (Schwierse 16 Sep 1931-Caracas 8 Oct 1981); m.2nd Celle 27 Jan 1989 Heinz Heine (Großlichterfelde 8 Jan 1907-Celle 26 Feb 1991)
+					name=Dagmar
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010740 # Heinrich
+					mother=100010741 # Marie-Erika von Hardenberg
+					1934.02.18={birth=yes}
+					2008.12.24={death=yes}
+				}
+			100010746={	# 8c) Friedrich Christian Wilhelm Alexander (Bückeburg 5 Jan 1906-Wasserburg am Inn 20 Sep 1983); m.1st Seeläsgen 25 Sep 1927 Alexandra Gfn zu Castell-Rüdenhausen (Stein bei Nürnberg 29 Jun 1904-Linz an der Donau 9 Sep 1961); m.2nd Glücksburg (civ) 8 Oct (rel) 15 Oct 1962 Marie Luise Pss of Schleswig-Holstein (Berlin 8 Dec 1908-Wiesbaden 29 Dec 1969); m.3rd Schlangenbad 6 Mar 1971 Hélène Mayr (Lausanne 12 Mar 1913-Bad Reichenhall 6 Oct 2006)
+				name=Friedrich
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010706 # Georg zu Schaumburg-Lippe
+				mother=100010707 # Marie of Saxe-Altenburg
+				1906.01.05={birth=yes}
+				1927.09.25={
+					add_spouse=100010747 # Alexandra zu Castell-Rüdenhausen
+				}
+				1962.10.15={
+					add_spouse=100010748 # Marie Luise of Schleswig-Holstein
+				}
+				1971.03.06={
+					add_spouse=100010749 # Hélène Mayr
+				}
+				1983.09.20={death=yes}
+			}
+				100010750={	# 1d) Marie Elisabeth Hermine Hedwig Bathildis (Göttingen 19 Dec 1928-Nürnberg 4 Dec 1945)
+					name="Marie Elisabeth"
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010746 # Friedrich
+					mother=100010747 # Alexandra zu Castell-Rüdenhausen
+					1928.12.19={birth=yes}
+					1945.12.04={death=yes}
+				}
+				100010751={	# 2d) Albrecht-Wolfgang Friedrich Wolrad Ruppert, HD (b.Berlin 5 Aug 1934); m.1st Salzburg 7 Jan 1961 (div 1962) Catherine Whitenack-Hurt (b.Wilmington, Delaware 13 Dec 1941); m.2nd Linz an der Donau (civ) 6 May 1964 (rel) 8 May 1964 (div 1974) Heidemarie Günther (b.Grundlsee, Austria 31 Aug 1945); m.3rd Linz an der Donau 16 Jul 1983 Gertrude Friedhuber (b.Linz 5 Nov 1951)
+					name=Albrecht-Wolfgang
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010746 # Friedrich
+					mother=100010747 # Alexandra zu Castell-Rüdenhausen
+					1934.08.05={birth=yes}
+					1961.01.07={
+						add_spouse=100010752 # Catherine Whitenack-Hurt
+					}
+					1962.02.01={
+						remove_spouse=100010752
+					}
+					1964.05.08={
+						add_spouse=100010753 # Heidemarie Günther
+					}
+					1974.02.01={
+						remove_spouse=100010753
+					}
+					1983.07.16={
+						add_spouse=100010754 # Gertrude Friedhuber
+					}
+					2014.08.05={death=yes} # EST.
+				}
+					100010755={	# 1e) Stephan Wilhelm Ernst (b.Linz 10 Sep 1965); m.1st Gallneukirchen 24 Sep 1988 (div 1989) Andrea Maria Reichl (b.Pasching 9 Jul 1966); m.2nd Linz 31 Aug 2002 Michaela Lasisch (b.Linz 24 Feb 1973)
+						name=Stephan
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010751 # Hd
+						mother=100010753 # Heidemarie Günther
+						1965.09.10={birth=yes}
+						1988.09.24={
+							add_spouse=100010756 # Andrea Reichl
+						}
+						1989.02.01={
+							remove_spouse=100010756
+						}
+						2002.08.31={
+							add_spouse=100010757 # Michaela Lasisch
+						}
+					}
+						100010758={	# 1f) Raphael Elias (b.Reichenau 5 Apr 1989)
+							name=Raphael
+							dynasty=1002025
+							religion=lutheran culture=german
+							father=100010755 # Stephan
+							mother=100010756 # Andrea Reichl
+							1989.04.05={birth=yes}
+						}
+						100010759={	# 2f) Niklas Georg (b.Linz 20 Aug 2001)
+							name=Niklas
+							dynasty=1002025
+							religion=lutheran culture=german
+							father=100010755 # Stephan
+							mother=100010756 # Andrea Reichl
+							2001.08.20={birth=yes}
+						}
+					100010760={	# 2e) Alexandra Maria Christina (b.Linz 15 Jan 1967); m.New York 16 Sep 2005 Stephen J. Mallon (b.Aylesbury 2 Aug 1973)
+						name=Alexandra
+						female=yes
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010751 # Hd
+						mother=100010753 # Heidemarie Günther
+						1967.01.15={birth=yes}
+					}
+				100010762={	# 3d) Christine Marie-Luise Auguste Friederike, HD (b.Berlin 16 Oct 1936); m.Lehenleiten bei Scharnstein, Upper Austria 21 Sep 1958 Albrecht Frhr von Süsskind-Schwendi (b.Schweinfurt 20 Feb 1937)
+					name=Christine
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010746 # Friedrich
+					mother=100010747 # Alexandra zu Castell-Rüdenhausen
+					1936.10.16={birth=yes}
+				}
+			100010764={	# 9c) Elisabeth Hermine Auguste Viktoria (Bückeburg 31 May 1908-Grünau, Upper Austria 25 Feb 1933; bur there); m.1st Schloß Dwasieden 1 Aug 1928 (div 1928) Benvenuto Hauptmann (1 Jun 1900-Locarno 15 Apr 1965); m.2nd Munich 10 Jan 1930 Johann Frhr Herring von Frankensdorff (Gmunden 1 Sep 1891-Grünau 25 Mar 1971)
+				name=Elisabeth
+				female=yes
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010706 # Georg zu Schaumburg-Lippe
+				mother=100010707 # Marie of Saxe-Altenburg
+				1908.05.31={birth=yes}
+				1933.02.01={death=yes}
+			}
+		100010767={	# 3b) Peter Hermann (Bückeburg 19 May 1848-Achern- Illenau 29 Dec 1928)
+			name=Peter
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010702 # Adolf zu Schaumburg-Lippe
+			mother=100010209 # Hermine zu Waldeck u.Pyrmont
+			1848.05.19={birth=yes}
+			1928.12.29={death=yes}
+		}
+		100010769={	# 5b) Ida Mathilde Adelheid (Bückeburg 28 Jul 1852-Greiz 28 Sep 1891; bur Greiz); m.Bückeburg 8 Oct 1872 Heinrich XXII Pr Reuss (Greiz 28 Mar 1846-Greiz 19 Apr 1902)
+			name=Ida
+			female=yes
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010702 # Adolf zu Schaumburg-Lippe
+			mother=100010209 # Hermine zu Waldeck u.Pyrmont
+			1852.07.28={birth=yes}
+			1891.02.01={death=yes}
+		}
+		100010771={	# 6b) Otto Heinrich (Bückeburg 23 Sep 1854-Cottbus 18 Aug 1935; bur Cabel); m.Elsen 28 Nov 1893 Anna von Koppen, cr Gfn von Hagenburg 20 Nov 1893 (St.Goarshausen 3 Feb 1860-Cabel, Lausitz 27 Mar 1932)
+			name=Otto
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010702 # Adolf zu Schaumburg-Lippe
+			mother=100010209 # Hermine zu Waldeck u.Pyrmont
+			1854.09.23={birth=yes}
+			1893.11.28={
+				add_spouse=100010772 # Anna von Koppen
+			}
+			1935.02.01={death=yes}
+		}
+			100010773={	# 1c) Wilhelm Hermann Heinrich Albrecht Otto Gf von Hagenburg (Metz 15 Jan 1895-k.a.Cabel, Lausitz 19 Apr 1945); m.1st Berlin-Steglitz 1 Jan 1920 (div 1928) Marie Holzfuss (Aalen 11 Nov 1893- 16 Mar 1953); m.2nd Darmstadt 10 Nov 1928 Wilhelmine Bisch (Darmstadt 4 Sep 1898-Egelsbach 4 Sep 1975)
+				name=Wilhelm
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010771 # Otto Heinrich
+				mother=100010772 # Anna von Koppen
+				1895.01.15={birth=yes}
+				1920.01.01={
+					add_spouse=100010774 # Marie Holzfuss
+				}
+				1928.02.01={
+					remove_spouse=100010774
+				}
+				1928.11.10={
+					add_spouse=100010775 # Wilhelmine Bisch
+				}
+				1945.04.19={death=yes}
+			}
+				100010776={	# 1d) Gisela Anna Hermine Edeltraut Gfn von Hagenburg (b.Salzkotten 15 Apr 1930); m.Darmstadt 21 May 1955 Heinrich Silbernagel (b.31 Oct 1925); he took the name "Graf von Hagenburg"
+					name=Gisela
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010773 # Wilhelm von Hagenburg
+					mother=100010775 # Wilhelmine Bisch
+					1930.04.15={birth=yes}
+					2010.04.15={death=yes} # EST.
+				}
+			100010778={	# 2c) Hermine Franziska Maria Gfn von Hagenburg (Longeville 27 Aug 1898-Holterhöfe 11 Mar 1963); m.Ringelsbruch 11 May 1920 Felix Frhr von Quernheim (Vorwerk 29 Apr 1891-Holterhöfe in Willich 13 Aug 1966)
+				name=Hermine
+				female=yes
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010771 # Otto Heinrich
+				mother=100010772 # Anna von Koppen
+				1898.08.27={birth=yes}
+				1963.03.11={death=yes}
+			}
+			100010780={	# 3c) Otto Heinrich Hermann Gottlieb Hubertus Gf von Hagenburg (Longeville, nr Metz 13 Oct 1901-21 Dec 1993); m.1st Oberkainsbach 27 May 1935 (div 1959) Gertrud Carnier (b.Seligenstadt 1 Nov 1909); m.2nd Landsberg am Lech 24 Apr 1959 Renate Wackwitz (Tübingen 13 Feb 1927-Wertingen 25 Sep 1981)
+				name=Otto
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010771 # Otto Heinrich
+				mother=100010772 # Anna von Koppen
+				1901.10.13={birth=yes}
+				1935.05.27={
+					add_spouse=100010781 # Gertrud Carnier
+				}
+				1959.02.01={
+					remove_spouse=100010781
+				}
+				1959.04.24={
+					add_spouse=100010782 # Renate Wackwitz
+				}
+				1993.12.21={death=yes}
+			}
+				100010783={	# 1d) Hans Heinrich Gf von Hagenburg (b.28 Sep 1959)
+					name=Hans
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010780 # Otto von Hagenburg
+					mother=100010782 # Renate Wackwitz
+					1959.09.28={birth=yes}
+				}
+				100010784={	# 2d) Sybille Gfn von Hagenburg (b.4 Apr 1961)
+					name=Sybille
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010780 # Otto von Hagenburg
+					mother=100010782 # Renate Wackwitz
+					1961.04.04={birth=yes}
+				}
+				100010785={	# 3d) Pamina Gfn von Hagenburg (b.30 Mar 1966)
+					name=Pamina
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010780 # Otto von Hagenburg
+					mother=100010782 # Renate Wackwitz
+					1966.03.30={birth=yes}
+				}
+		100010787={	# 7b) Adolf Wilhelm Viktor (Bückeburg 20 Jul 1859-Bonn 9 Jul 1916); m.Berlin 19 Nov 1890 Viktoria Pss of Prussia (Neues Palais 12 Apr 1866-Bonn 13 Nov 1929; bur Kronberg)
+			name=Adolf
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010702 # Adolf zu Schaumburg-Lippe
+			mother=100010209 # Hermine zu Waldeck u.Pyrmont
+			1859.07.20={birth=yes}
+			1890.11.19={
+				add_spouse=100019198 # Viktoria of Prussia
+			}
+			1916.07.09={death=yes}
+		}
+	100010790={	# 2a) Mathilde Auguste Wilhelmine Karoline (Bückeburg 11 Sep 1818-Carlsruhe, Silesia 14 Aug 1891; bur there); m.Bückeburg 15 Jul 1843 Eugen, Duke of Württemberg (Carlsruhe 25 Dec 1820-Carlsruhe 8 Jan 1875)
+		name=Mathilde
+		female=yes
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010700 # Georg zu Schaumburg-Lippe Fürst zu Schaumburg-Lippe 6 Aug 1806
+		mother=100010381 # Ida zu Waldeck u.Pyrmont
+		1818.09.11={birth=yes}
+		1891.02.01={death=yes}
+	}
+	100010792={	# 3a) Adelheid Christine Juliane Charlotte (Bückeburg 9 Mar 1821-Itzehoe 30 Jul 1899); m.Bückeburg 16 Oct 1841 (div 1848) Friedrich, Duke of Schleswig-Holstein-Sonderburg-Glücksburg (Schleswig 23 Oct 1814- Luisenlund 27 Nov 1885); remarried Turin 7 May 1854 her first husband
+		name=Adelheid
+		female=yes
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010700 # Georg zu Schaumburg-Lippe Fürst zu Schaumburg-Lippe 6 Aug 1806
+		mother=100010381 # Ida zu Waldeck u.Pyrmont
+		1821.03.09={birth=yes}
+		1899.07.30={death=yes}
+	}
+	100010794={	# 4a) Ernst (Bückeburg 12 Dec 1822- Bückeburg 2 Apr 1831; bur Stadthagen)
+		name=Ernst
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010700 # Georg zu Schaumburg-Lippe Fürst zu Schaumburg-Lippe 6 Aug 1806
+		mother=100010381 # Ida zu Waldeck u.Pyrmont
+		1822.12.12={birth=yes}
+		1831.02.01={death=yes}
+	}
+	100010795={	# 5a) Ida Marie Auguste Friederike (Bückeburg 26 May 1824-Bückeburg 5 Mar 1894; bur Stadthagen)
+		name=Ida
+		female=yes
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010700 # Georg zu Schaumburg-Lippe Fürst zu Schaumburg-Lippe 6 Aug 1806
+		mother=100010381 # Ida zu Waldeck u.Pyrmont
+		1824.05.26={birth=yes}
+		1894.02.01={death=yes}
+	}
+	100010797={	# 7a) Wilhelm Karl August (Bückeburg 12 Dec 1834-Ratiboritz 4 Apr 1906; bur Nachod); m.Dessau 30 May 1862 Bathildis Pss of Anhalt (Dessau 29 Dec 1837-Nachod 10 Feb 1902; bur Nachod)
+		name=Wilhelm
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010700 # Georg zu Schaumburg-Lippe Fürst zu Schaumburg-Lippe 6 Aug 1806
+		mother=100010381 # Ida zu Waldeck u.Pyrmont
+		1834.12.12={birth=yes}
+		1862.05.30={
+			add_spouse=100018780 # Bathildis of Anhalt
+		}
+		1906.02.01={death=yes}
+	}
+		100010799={	# 1b) Charlotte Marie Ida Luise Hermine Mathilde (Ratiboritz 10 Oct 1864-Schloß Bebenhausen 16 Jul 1946; bur Ludwigsburg); m.Bückeburg 8 Apr 1886 King Wilhelm II of Württemberg (Stuttgart 25 Feb 1848- Schloß Bebenhausen 2 Oct 1921)
+			name=Charlotte
+			female=yes
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010797 # Wilhelm
+			mother=100018780 # Bathildis of Anhalt
+			1864.10.10={birth=yes}
+			1946.02.01={death=yes}
+		}
+		100010801={	# 2b) Franz Joseph Leopold Adolf Alexander August Wilhelm (Ratiboritz 8 Oct 1865-Ratiboritz 4 Sep 1881; bur Nachod)
+			name=Franz
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010797 # Wilhelm
+			mother=100018780 # Bathildis of Anhalt
+			1865.10.08={birth=yes}
+			1881.02.01={death=yes}
+		}
+		100010802={	# 3b) Friedrich Georg Wilhelm Bruno (Ratiboritz 30 Jan 1868-Kudowa 12 Dec 1945; bur Nachod); m.1st Copenhagen 5 May 1896 Lovisa Pss of Denmark (Copenhagen 17 Feb 1875-Ratiboritz 4 Apr 1906); m.2nd Dessau 26 May 1909 Antoinette Pss of Anhalt (Schloß Georgium 3 Mar 1885- Dessau 3 Apr 1963; bur Dessau)
+			name=Friedrich
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010797 # Wilhelm
+			mother=100018780 # Bathildis of Anhalt
+			1868.01.30={birth=yes}
+			1896.05.05={
+				add_spouse=100010803 # Lovisa of Denmark
+			}
+			1909.05.26={
+				add_spouse=100018715 # Antoinette of Anhalt
+			}
+			1945.02.01={death=yes}
+		}
+			100010805={	# 1c) Marie Luise Dagmar Bathildis Charlotte (Ödenburg 10 Feb 1897-Neu- Fahrland, nr Potsdam 1 Oct 1938); m.Klein-Glienicke 27 Apr 1916 Friedrich Sigismund Pr of Prussia (Klein-Glienicke 17 Dec 1891-Luzern 6 Jul 1927)
+				name="Marie Luise"
+				female=yes
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010802 # Friedrich
+				mother=100010803 # Lovisa of Denmark
+				1897.02.10={birth=yes}
+				1938.10.01={death=yes}
+			}
+			100010807={	# 2c) Christian Nikolaus Wilhelm Friedrich Albert Ernst (Ödenburg 20 Feb 1898-Bückeburg 13 Jul 1974; bur Bückeburg); m.Fredensborg 9 Sep 1937 Feodora Pss of Denmark (Jægersborghus 3 Jul 1910-Bückeburg 17 Mar 1975; bur Bückeburg)
+				name=Christian
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010802 # Friedrich
+				mother=100010803 # Lovisa of Denmark
+				1898.02.20={birth=yes}
+				1937.09.09={
+					add_spouse=100010808 # Feodora of Denmark
+				}
+				1974.02.01={death=yes}
+			}
+				100010809={	# 1d) Wilhelm Friedrich Harald Christian Ernst-August Carl Gustav, HD (b. Glienicke 19 Aug 1939); m.Munich 14 Dec 1970 (rel) 17 Jan 1971 Ilona Frn Hentschel von Gilgenheimb (b.Breslau 17 Oct 1940)
+					name=Wilhelm
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010807 # Christian
+					mother=100010808 # Feodora of Denmark
+					1939.08.19={birth=yes}
+					1970.12.14={
+						add_spouse=100010810 # Ilona Hentschel von Gilgenheimb
+					}
+				}
+					100010811={	# 1e) Christian Hubertus Clemens-August Friedrich-Sigismund Louis-Ferdinand Harald, HD (b.Munich 14 Sep 1971); m.Glücksburg 24 Jul 2009 Lena Giese (b.Eckernförde 3 Apr 1979)
+						name=Christian
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010809 # Hd
+						mother=100010810 # Ilona Hentschel von Gilgenheimb
+						1971.09.14={birth=yes}
+						2009.07.24={
+							add_spouse=100010812 # Lena Giese
+						}
+					}
+					100010813={	# 2e) Desirée Alexandra Felicitas Rosemarie Feodora, HD (b.Copenhagen 27 Jun 1974); m.Glesborg 1 Sep 2001 Michael Frederik Iuel (b.Århus 7 Oct 1969)
+						name=Desirée
+						female=yes
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010809 # Hd
+						mother=100010810 # Ilona Hentschel von Gilgenheimb
+						1974.06.27={birth=yes}
+					}
+				100010815={	# 2d) Waldemar Stephan Ferdinand Wolrad Friedrich Karl, HD (b.Glienicke 19 Dec 1940); m.1st Karlebo 10 Sep 1977 (div 1991) Anne-Lise Johansen (Copenhagen 8 Aug 1946-Dronningmole, Denmark 27 Jul 1994); m.2nd Hamburg 15 May 2001 (div 2002) Karin Grundmann (b.9 Dec 1962); m.3rd Wilhelmshaven 1 Jan 2002 (div 2003) Ruth Schneidewind (b.4 Aug 1949); m.4th 20 Sep 2008 Gertraud Antonia Wagner-Schöppl (b.21 Sep 1956)
+					name=Waldemar
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010807 # Christian
+					mother=100010808 # Feodora of Denmark
+					1940.12.19={birth=yes}
+					1977.09.10={
+						add_spouse=100010816 # Anne-Lise Johansen
+					}
+					1991.02.01={
+						remove_spouse=100010816
+					}
+					2001.05.15={
+						add_spouse=100010817 # Karin Grundmann
+					}
+					2002.01.01={
+						add_spouse=100010818 # Ruth Schneidewind
+					}
+					2002.02.01={
+						remove_spouse=100010818
+					}
+					2003.02.01={
+						remove_spouse=100010818
+					}
+					2008.09.20={
+						add_spouse=100010819 # Gertraud WagnerSchöppl
+					}
+				}
+					100010820={	# 1e) Eleonore-Christine Eugenie Benita Feodora Maria (b.Hörsholm, Denmark 22 Dec 1978)
+						name=Eleonore-Christine
+						female=yes
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010815 # Hd
+						mother=100010816 # Anne-Lise Johansen
+						1978.12.22={birth=yes}
+					}
+					100010821={	# 2e) Mario Max Antonius Adolf Albert Isidor Eduard Oliver Prinz zu Schaumburg-Lippe (b.Salzburg 23 December 1977)
+						name="Mario Max"
+						dynasty=1002025
+						religion=lutheran culture=german
+						father=100010815 # Hd
+						mother=100010816 # Anne-Lise Johansen
+						1977.12.23={birth=yes}
+					}
+				100010822={	# 3d) Marie-Louise Friederike Cecilie Alexandrine Helena Bathildis Stephanie, HD (b.Hagenburg 27 Dec 1945)
+					name=Marie-Louise
+					female=yes
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010807 # Christian
+					mother=100010808 # Feodora of Denmark
+					1945.12.27={birth=yes}
+				}
+				100010823={	# 4d) Harald Christian Leopold Gustav, HD (b.Hagenburg 27 Mar 1948); m.1st Bückeburg 22 Jul 1976 (div 1980) Petra Wera Kirstein (b.Heessen 24 Sep 1956); m.2nd Bückeburg 23 Sep 1988 Gabrielle Hagemann (b.Coesfeld 26 Jul 1962)
+					name=Harald
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010807 # Christian
+					mother=100010808 # Feodora of Denmark
+					1948.03.27={birth=yes}
+					1976.07.22={
+						add_spouse=100010824 # Petra Kirstein
+					}
+					1980.02.01={
+						remove_spouse=100010824
+					}
+					1988.09.23={
+						add_spouse=100010825 # Gabrielle Hagemann
+					}
+				}
+			100010826={	# 3c) Stephanie Alexandra Hermine Thyra Xenia Bathildis Ingeborg (Ödenburg 19 Dec 1899-Burgsteinfurt 2 May 1925; bur Burgsteinfurt); m.Ratiboritz 9 Sep 1921 Viktor Adolf Fst zu Bentheim und Steinfurt (Potsdam 18 Jul 1883-Burgsteinfurt 4 Jun 1961
+				name=Stephanie
+				female=yes
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010802 # Friedrich
+				mother=100010803 # Lovisa of Denmark
+				1899.12.19={birth=yes}
+				1925.02.01={death=yes}
+			}
+			100010828={	# 4c) Leopold Friedrich Alexander Wilhelm Eduard, HD (Schloß Nachod 21 Feb 1910-Bad Waldsee 25 Jan 2006)
+				name=Leopold
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010802 # Friedrich
+				mother=100018715 # Antoinette of Anhalt
+				1910.02.21={birth=yes}
+				2006.01.25={death=yes}
+			}
+			100010829={	# 5c) Wilhelm Friedrich Karl Adolf Leopold Hilderich (Ratiboritz 24 Aug 1912-Neubrandenburg 4 Mar 1938; bur Glienicke)
+				name=Wilhelm
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010802 # Friedrich
+				mother=100018715 # Antoinette of Anhalt
+				1912.08.24={birth=yes}
+				1938.02.01={death=yes}
+			}
+		100010830={	# 4b) Christian Albrecht Gaetano Karl Wilhelm (Ratiboritz 24 Oct 1869-Linz 25 Dec 1942); m.1st Stuttgart 6 May 1897 Elsa, Dss of Württemberg (Stuttgart 1 Mar 1876-Pfaffstätt 27 May 1936); m.2nd Braunau am Inn 24 Jun 1939 Maria Herget (Prague 26 Jul 1897-Linz 25 Dec 1942)
+			name=Christian
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010797 # Wilhelm
+			mother=100018780 # Bathildis of Anhalt
+			1869.10.24={birth=yes}
+			1897.05.06={
+				add_spouse=100017934 # Elsa of Württemberg
+			}
+			1939.06.24={
+				add_spouse=100010832 # Maria Herget
+			}
+			1942.12.25={death=yes}
+		}
+			100010833={	# 1c) Wilhelm Eugen Georg Konstantin Maximilian (Max) (Wels, Upper Austria 28 Mar 1898-Salzburg 4 Feb 1974); m.Bad Homburg vor der Höhe 9 May 1933 Helga Roderbourg (Köln 24 Feb 1911-New York 9 Jul 2005)
+				name=Max
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010830 # Christian
+				mother=100017934 # Elsa of Württemberg
+				1898.03.28={birth=yes}
+				1933.05.09={
+					add_spouse=100010834 # Helga Roderbourg
+				}
+				1974.02.04={death=yes}
+			}
+			100010835={	# 2c) Franz Josef Adolf Ernst (Wels 1 Sep 1899-Kassel 6 Jul 1963); m.Munich 29 Jan 1959 Maria Theresia Peschel (b.Neutitschein, Moravia 29 Jul 1912)
+				name=Franz
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010830 # Christian
+				mother=100017934 # Elsa of Württemberg
+				1899.09.01={birth=yes}
+				1959.01.29={
+					add_spouse=100010836 # Maria Peschel
+				}
+				1963.07.06={death=yes}
+			}
+			100010837={	# 3c) Alexander Ernst Friedrich Albrecht (Wels 20 Jan 1901-Siedlberg 26 Nov 1923)
+				name=Alexander
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010830 # Christian
+				mother=100017934 # Elsa of Württemberg
+				1901.01.20={birth=yes}
+				1923.11.26={death=yes}
+			}
+			100010838={	# 4c) Bathildis Wera Thyra Adelheid Hermine Mathilde Mary (Wels 11 Nov 1903-Hagenburg 29 Jun 1983); m.(civ) Simbach am Inn 15 Apr 1925 (rel) Pfaffstätt 16 Apr 1925 Wolrad Fst zu Schaumburg-Lippe (above)
+				name=Bathildis
+				female=yes
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010830 # Christian
+				mother=100017934 # Elsa of Württemberg
+				1903.11.11={birth=yes}
+				1983.06.29={death=yes}
+			}
+		100010840={	# 5b) Maximilian August Jaroslav Adalbert Hermann Georg (Ratiboritz 13 Mar 1871-Abbazia 1 Apr 1904; bur Ludwigsburg); m.Stuttgart 3 Nov 1898 Olga, Dss of Württemberg (Stuttgart 1 Mar 1876-Ludwigsburg 21 Oct 1932; bur Ludwigsburg)
+			name=Maximilian
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010797 # Wilhelm
+			mother=100018780 # Bathildis of Anhalt
+			1871.03.13={birth=yes}
+			1898.11.03={
+				add_spouse=100017936 # Olga of Württemberg
+			}
+			1904.02.01={death=yes}
+		}
+			100010842={	# 1c) Wilhelm Eugen Georg Friedrich August Albrecht (Ludwigsburg 8 Aug 1899-k.in air crash at Caterham, England 9 Nov 1929; bur Ludwigsburg)
+				name=Wilhelm
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010840 # Maximilian
+				mother=100017936 # Olga of Württemberg
+				1899.08.08={birth=yes}
+				1929.02.01={death=yes}
+			}
+			100010843={	# 2c) Albrecht Adolf Konstantin Ernst Nikolaus Friedrich (Ludwigsburg 17 Oct 1900-Eugendorf 20 May 1984); m.Partenkirchen 2 Sep 1930 Walburga Frn von Hirschberg (Nürnberg 26 Mar 1906-Eugendorf 10 Apr 1986)
+				name=Albrecht
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100010840 # Maximilian
+				mother=100017936 # Olga of Württemberg
+				1900.10.17={birth=yes}
+				1930.09.02={
+					add_spouse=100010844 # Walburga von Hirschberg
+				}
+				1984.05.20={death=yes}
+			}
+				100010845={	# 1d) [by Marie Gabriele Frn v.Pfetten-Arnbach] Andrea Schaumburg-Lippe (b.Verden a.d.Aller 19 Sep 1960); m.Salzburg 4 Sep 1993 Franz Gf von Degenfeld-Schonburg
+					name=Andrea
+					dynasty=1002025
+					religion=lutheran culture=german
+					father=100010843 # Albrecht
+					mother=100010844 # Walburga von Hirschberg
+					1960.09.19={birth=yes}
+					1993.09.04={
+						add_spouse=100010846 # Franz Gf von Degenfeld-Schonburg
+					}
+				}
+		100010848={	# 6b) Bathildis Marie Leopoldine Anna Auguste (Ratiboritz 21 May 1873-Arolsen 6 Apr 1962; bur Rhoden); m.Nachod 9 Aug 1895 Friedrich Fst zu Waldeck u.Pyrmont (Arolsen 20 Jan 1865-Arolsen 26 May 1946)
+			name=Bathildis
+			female=yes
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010797 # Wilhelm
+			mother=100018780 # Bathildis of Anhalt
+			1873.05.21={birth=yes}
+			1962.02.01={death=yes}
+		}
+		100010850={	# 7b) Friederike Adelheid Marie Luise Hilda Eugenie (Ratiboritz 22 Sep 1875-Ballenstedt 27 Jan 1971; bur Bückeburg); m.Bückeburg 17 Feb 1898 (div 1920) Ernst II, Duke of Saxe-Altenburg (Altenburg 31 Aug 1871- Schloß Fröhliche Wiederkunft 22 Mar 1955)
+			name=Friederike
+			female=yes
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010797 # Wilhelm
+			mother=100018780 # Bathildis of Anhalt
+			1875.09.22={birth=yes}
+			1971.02.01={death=yes}
+		}
+		100010852={	# 8b) Alexandra Karoline Marie Ida Henriette Juliane (Ratiboritz 9 Jun 1879-Linz am Rhein 5 Jan 1949)
+			name=Alexandra
+			female=yes
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010797 # Wilhelm
+			mother=100018780 # Bathildis of Anhalt
+			1879.06.09={birth=yes}
+			1949.01.05={death=yes}
+		}
+	100010854={	# 9a) Elisabeth Wilhelmine Auguste Marie (Bückeburg 5 Mar 1841-Wiesbaden 30 Nov 1926); m.Frankfurt 30 Jan 1866 (div 1868) Wilhelm Pr von Hanau (Kassel 19 Dec 1836-Horowitz 3 Jun 1902)
+		name=Elisabeth
+		female=yes
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010700 # Georg zu Schaumburg-Lippe Fürst zu Schaumburg-Lippe 6 Aug 1806
+		mother=100010381 # Ida zu Waldeck u.Pyrmont
+		1841.03.05={birth=yes}
+		1926.11.30={death=yes}
+	}
+## 100010700	Schaumburg-Lippe	1002025	
+
+
+## 100010500	Hessen (Rhein)		1002012	
 100010514={
 	name=Georg
 	dynasty=1002012
@@ -632,10 +1518,10 @@
 		1726.05.07={birth=yes}
 		1746.01.25={death=yes}
 	}
-##  100010500	Hessen (Rhein)		1002012	
+## 100010500	Hessen (Rhein)		1002012	
 
 
-##  100010200	Fürstenberg			1002023
+## 100010200	Waldeck			1002023
 100010200={	# GEORG Fürst zu Waldeck u.Pyrmont 24 Sep 1812 (Arolsen 6 May 1747-Pyrmont 9 Sep 1813); m.Otterwisch 12 Sep 1784 Auguste Pss von Schwarzburg-Sondershausen (Sondershausen 1 Feb 1768-Arolsen 26 Dec 1849)
 	name=Georg
 	dynasty=1002023
@@ -770,7 +1656,7 @@
 				mother=100010212 # Helene of Nassau
 				1865.01.20={birth=yes}
 				1895.08.09={
-					add_spouse=100010224 # Bathildis zu Schaumburg-Lippe
+					add_spouse=100010848 # Bathildis zu Schaumburg-Lippe
 				}
 				1946.05.26={death=yes}
 			}
@@ -779,7 +1665,7 @@
 					dynasty=1002023
 					religion=lutheran culture=german
 					father=100010223 # Friedrich zu Waldeck u.Pyrmont abdicated 13 Nov 1918
-					mother=100010224 # Bathildis zu Schaumburg-Lippe
+					mother=100010848 # Bathildis zu Schaumburg-Lippe
 					1896.05.13={birth=yes}
 					1922.08.25={
 						add_spouse=100013214 # Altburg of Oldenburg
@@ -814,7 +1700,7 @@
 						father=100010225 # Josias zu Waldeck u.Pyrmont
 						mother=100013214 # Altburg of Oldenburg
 						1931.09.02={birth=yes}
-						2011.09.02={death=yes}  # EST.
+						2011.09.02={death=yes} # EST.
 					}
 					100010232={	# 4e) WITTEKIND Adolf Heinrich Georg-Wilhelm Fst zu Waldeck u.Pyrmont (b.Arolsen 9 Mar 1936); m.(civ) Frohnleiten, Styria 1 Apr 1988 (rel) Arolsen 19 May 1988 Cecilie Gfn von Goëß-Saurau (b.Frohnleiten 23 Aug 1956)
 						name=Wittekind
@@ -881,7 +1767,7 @@
 					dynasty=1002023
 					religion=lutheran culture=german
 					father=100010223 # Friedrich zu Waldeck u.Pyrmont abdicated 13 Nov 1918
-					mother=100010224 # Bathildis zu Schaumburg-Lippe
+					mother=100010848 # Bathildis zu Schaumburg-Lippe
 					1898.09.13={birth=yes}
 					1929.09.12={
 						add_spouse=100010243 # Gustava von Platen Hallermund
@@ -896,7 +1782,7 @@
 						father=100010242 # Max
 						mother=100010243 # Gustava von Platen Hallermund
 						1930.11.30={birth=yes}
-						2010.11.30={death=yes}  # EST.
+						2010.11.30={death=yes} # EST.
 					}
 					100010246={	# 2e) Friedrich-Karl Georg Viktor (b.Kiel 21 Aug 1933); m.(civ) Arolsen 24 Jan 1959 (rel) Berlin 26 Jan 1959 Ingeborg von Biela (b.Halle an der Saale 2 Jul 1932)
 						name=Friedrich-Karl
@@ -908,7 +1794,7 @@
 						1959.01.26={
 							add_spouse=100010247 # Ingeborg von Biela
 						}
-						2013.08.21={death=yes}  # EST.
+						2013.08.21={death=yes} # EST.
 					}
 						100010248={	# 1f) Caroline Gustava Adelheid (b.Hannover 8 Jan 1960); m.Hamburg (civ) 29 Aug 1985 (rel) 27 Oct 1985 Cord-Georg Hasselmann (b.Hamburg 4 Jul 1956)
 							name=Caroline
@@ -1088,7 +1974,7 @@
 					dynasty=1002023
 					religion=lutheran culture=german
 					father=100010223 # Friedrich zu Waldeck u.Pyrmont abdicated 13 Nov 1918
-					mother=100010224 # Bathildis zu Schaumburg-Lippe
+					mother=100010848 # Bathildis zu Schaumburg-Lippe
 					1899.12.22={birth=yes}
 					1948.02.18={death=yes}
 				}
@@ -1097,7 +1983,7 @@
 					dynasty=1002023
 					religion=lutheran culture=german
 					father=100010223 # Friedrich zu Waldeck u.Pyrmont abdicated 13 Nov 1918
-					mother=100010224 # Bathildis zu Schaumburg-Lippe
+					mother=100010848 # Bathildis zu Schaumburg-Lippe
 					1902.03.10={birth=yes}
 					1932.01.20={
 						add_spouse=100010279 # Ingeborg von Platen Hallermund
@@ -1515,7 +2401,7 @@
 					}
 					1940.03.11={death=yes}
 				}
-					100010344={	# 1e) Friedrich (Tiszarof 5 Aug 1906- ); m.1st XXX 1 Jan 1932 Clara Szák de Jaszdereny
+					100010344={	# 1e) Friedrich (Tiszarof 5 Aug 1906- ); m.1st 1 Jan 1932 Clara Szák de Jaszdereny
 						name=Friedrich
 						dynasty=1002023
 						religion=lutheran culture=german
@@ -1525,7 +2411,7 @@
 						1931.01.01={
 							add_spouse=100010345 # null
 						}
-						1986.08.05={death=yes}  # EST.
+						1986.08.05={death=yes} # EST.
 					}
 						100010346={	# 1f) Georg Vari (b.1935)
 							name=Georg
@@ -1534,7 +2420,7 @@
 							father=100010344 # Friedrich
 							mother=100010345 # null
 							1935.02.01={birth=yes}
-							2015.02.01={death=yes}  # EST.
+							2015.02.01={death=yes} # EST.
 						}
 							100010347={	# 1g) György, b.1968
 								name=György
@@ -1567,7 +2453,7 @@
 						father=100010342 # Georg
 						mother=100010343 # Margarete Csáky von Köröszeg u.Adorján
 						1907.07.27={birth=yes}
-						1987.07.27={death=yes}  # EST.
+						1987.07.27={death=yes} # EST.
 					}
 					100010352={	# 3e) Armin (Tiszarof 7 Jun 1909- ); m.Budapest 27 Dec 1935 Rosa Goldschmidt (Mannheim 24 Jul 1898- )
 						name=Armin
@@ -1579,7 +2465,7 @@
 						1935.12.27={
 							add_spouse=100010353 # Rosa Goldschmidt
 						}
-						1989.06.07={death=yes}  # EST.
+						1989.06.07={death=yes} # EST.
 					}
 				100010355={	# 3d) Kornelie (Tiszarof 21 Jan 1877-Tiszarof 7 Jan 1946); m.Budapest 17 Sep 1893 Elemér Blaskovich ab Eleczk (d.Budapest 22 Feb 1918)
 					name=Kornelie
@@ -1784,7 +2670,7 @@
 					add_spouse=100010392 # Martha Heubach
 				}
 				1929.12.09={
-					add_spouse=100010393 #  Teichelmann
+					add_spouse=100010393 # Teichelmann
 				}
 				1937.01.12={death=yes}
 			}
@@ -1824,7 +2710,7 @@
 						father=100010396 # Albrecht von Rhoden
 						mother=100010398 # Melanie von Amelunxen
 						1931.03.21={birth=yes}
-						2011.03.21={death=yes}  # EST.
+						2011.03.21={death=yes} # EST.
 					}
 					100010401={	# 2e) Luitgarde Helene Clementine Gudrun Gfn von Rhoden (b.Bonn 10 Dec 1932); m.Bad Godesberg 20 Apr 1957 Eric Pörschmann (b.Torgau an der Elbe 31 Aug 1919)
 						name=Luitgarde
@@ -1834,7 +2720,7 @@
 						father=100010396 # Albrecht von Rhoden
 						mother=100010398 # Melanie von Amelunxen
 						1932.12.10={birth=yes}
-						2012.12.10={death=yes}  # EST.
+						2012.12.10={death=yes} # EST.
 					}
 			100010403={	# 2c) Robert Hermann Karl Gf von Rhoden (Kleve 17 Dec 1866-Wiesbaden 4 Apr 1915); m.Karlsruhe 23 Apr 1895 Pauline von Friedeburg (Karlsruhe 9 Dec 1870-Wuppertal-Elberfeld 16 Nov 1956)
 				name=Robert
@@ -2003,10 +2889,47 @@
 		}
 		1876.10.06={death=yes}
 	}
-##  100010200	Fürstenberg			1002023
+## 100010200	Waldeck			1002023
 
 
-##  100010000	Fürstenberg			1002020	
+## 100010000	Fürstenberg			1002020	
+100085510={	# Ldgf 		Karl Egon 				zu Fürstenberg 			(k.a.14 Oct 1702)
+	name="Karl zu Fürstenberg"
+	dynasty=0
+	religion=catholic culture=bohemian
+	1702.10.14={birth=yes}
+	1699.02.15={
+		add_spouse=100085509 # Maria Franziska
+	}
+	1782.10.14={death=yes}  # EST.
+}
+100085666={	# Ldgf 		Friedrich Egon 			zu Fürstenberg-Weitra	(Vienna 26 Jan 1774-4 Feb 1856)
+	name="Friedrich zu Fürstenberg"
+	dynasty=0
+	religion=catholic culture=bohemian
+	1774.01.26={birth=yes}
+	1801.05.25={
+		add_spouse=100085665 # Maria Theresia
+	}
+	1856.02.04={death=yes}
+}
+100023208={ # Ldgfn     Elisabeth               zu Fürstenberg          (1784-1865)
+	name="Elisabeth zu Fürstenberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1784.07.12={birth=yes}
+	1865.06.19={death=yes}
+}
+100022712={ # Landgfn   Josephine Sophie        zu Fürstenberg-Weitra   (1776-1848)
+	name="Josephine Sophie zu Fürstenberg-Weitra"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1776.06.21={birth=yes}
+	1848.02.23={death=yes}
+}
+
 100010001={	# Karl Joseph Aloys Pr zu Fürstenberg (26 Jun 1760-k.a.Lipingen 25 Mar 1799); m.Prague 4 Nov 1790 Elisabetha Alexandrina Pss von Thurn u.Taxis (Regensburg 30 Nov 1767-21 Jul 1822)
 	name=Karl
 	dynasty=1002020
@@ -2038,7 +2961,7 @@
 		father=100010001 # Karl zu Fürstenberg
 		mother=100017157 # Elisabetha von Thurn u.Taxis
 		1792.09.09={birth=yes}
-		1872.09.09={death=yes}  # EST.
+		1872.09.09={death=yes} # EST.
 	}
 	100010007={	# 4a) KARL EGON II, succeeded his cousin as Fürst zu Fürstenberg 17 May 1804 (Prague 28 Oct 1796-Bad Ischl 22 Oct 1854); m.19 Apr 1818 Amalie Christine Karoline Pss of Baden (Karlsruhe 26 Jan 1795-Karlsruhe 14 Sep 1869)
 		name="Karl Egon"
@@ -2182,7 +3105,7 @@
 						father=100010027 # Maximilian
 						mother=100010028 # Wilhelmine von Schönburg-Glauchau
 						1922.04.23={birth=yes}
-						2002.04.23={death=yes}  # EST.
+						2002.04.23={death=yes} # EST.
 					}
 						100010031={	# 1f) Hubertus Maximilian Gf von Hardenberg, b.Donaueschingen 1 Jun 1944; m.1st Baden-Baden 1 Jun 1977 (div 1985) Monica Lindner (b.Heidelberg 24 Jun 1948); m.2d Baden-Baden 6 Dec 1999 Mercedes Parra Gallardo (b.Barcelona 7 Sep 1952)
 							name=Hubertus
@@ -2549,7 +3472,7 @@
 					1997.02.01={
 						remove_spouse=100010092
 					}
-					2003.08.03={death=yes}  # EST.
+					2003.08.03={death=yes} # EST.
 				}
 					100010093={	# 1e) Diega Katharina Berta Anna Marie (Vienna 12 Dec 1961-Danzig 2 Jan 1975)
 						name=Diega
@@ -2612,7 +3535,7 @@
 					father=100010098 # Emil
 					mother=100010099 # Margarethe von Gecmen-Waldek
 					1924.04.23={birth=yes}
-					2004.04.23={death=yes}  # EST.
+					2004.04.23={death=yes} # EST.
 				}
 				100010102={	# 2d) Emil Egon Karl Joseph Hubertus Vincenz (Klafterbrunn 18 Mar 1927-Boston, Massachusetts 27 Apr 1967)
 					name=Emil
@@ -2662,4 +3585,4 @@
 			1829.06.11={birth=yes}
 			1900.08.03={death=yes}
 		}
-##  100010000	Fürstenberg			1002020	
+## 100010000	Fürstenberg			1002020	

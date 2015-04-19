@@ -2,7 +2,252 @@
 ### OLDENBURG/SH 	| 1002021 | 100013000-100013099
 ### OLDENBURG/OB 	| 1002019 | 100013100-100013299
 ### NORWAY 			| 1002021 | 100013300-100013349
+### DENMARK			| 224 	  | 100013350-xxx
 #############################################################
+
+100013101={ # Frederika Amalia von Oldenburg (1649-1704)
+	name="Frederika Amalia von Oldenburg"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=german
+	1649.04.11={birth=yes}
+	1704.10.30={death=yes}
+}
+
+### DENMARK			| 224 	  | 100013350-100013399
+100013350={	# FREDERIK V (Copenhagen 31 Mar 1723-Christiansborg 14 Jan 1766); m.1st Christiansborg 11 Dec 1743 Louise Pss of Great Britain, Ireland and Hannover (Leicester House, London 7 Dec 1724-Christiansborg 19 Dec 1751); m.2d Frederiksborg 8 Jul 1752 Juliana Maria Dss of Braunschweig- Wolfenbüttel (Wolfenbüttel 4 Sep 1729-Fredensborg 10 Oct 1796)
+	name=Frederik
+	dynasty=224
+	religion=lutheran culture=danish
+	1723.03.31={birth=yes}
+	1743.12.11={
+		add_spouse=100105216 # Louise of Great Britain
+	}
+	1752.07.08={
+		add_spouse=100013352 # Juliana of Braunschweig- Wolfenbüttel
+	}
+	1766.01.14={death=yes}
+}
+	100013354={	# 2a) Sophie Magdalene (Christiansborg 3 Jul 1746-Ulriksdal 21 Aug 1813); m.by proxy at Copenhagen on 1 Oct 1766 and in person at Stockholm 4 Nov 1766 King Gustaf III of Sweden (Stockholm 24 Jan 1746-Stockholm 29 Mar 1792)
+		name=Sophie
+		female=yes
+		dynasty=224
+		religion=lutheran culture=danish
+		father=100013350 # Frederik V
+		mother=100105216 # Louise of Great Britain Ireland and Hannover
+		1746.07.03={birth=yes}
+		1813.08.21={death=yes}
+	}
+	100013356={	# 3a) Wilhelmine Caroline (Christiansborg 10 Jul 1747-Kassel 14 Jan 1820); m.Christiansborg 1 Sep 1764 Wilhelm I, Elector of Hesse (Kassel 3 Jun 1743-Kassel 27 Feb 1821)
+		name=Caroline
+		female=yes
+		dynasty=224
+		religion=lutheran culture=danish
+		father=100013350 # Frederik V
+		mother=100105216 # Louise of Great Britain Ireland and Hannover
+		1747.07.10={birth=yes}
+		1820.01.14={death=yes}
+	}
+	100013358={	# 4a) CHRISTIAN VII, King of Denmark and Norway (Copenhagen 29 Jan 1749-Rendsborg 12 Mar 1808); m.Christiansborg 8 Nov 1766 (div 1772) Caroline Matilda Pss of Great Britain, Ireland and Hannover (Leicester House 11 Jul 1751-Celle 10 May 1775)
+		name=Christian
+		dynasty=224
+		religion=lutheran culture=danish
+		father=100013350 # Frederik V
+		mother=100105216 # Louise of Great Britain Ireland and Hannover
+		1749.01.29={birth=yes}
+		1766.11.08={
+			add_spouse=100105204 # Caroline of Great Britain
+		}
+		1772.02.01={
+			remove_spouse=100105204
+		}
+		1808.03.12={death=yes}
+	}
+		100013360={	# 1b) Frederik VI (Christiansborg 28 Jan 1768-Amalienborg 3 Dec 1839); m.Gottorp 31 Jul 1790 Marie Landgravine of Hesse-Kassel (Hanau 28 Oct 1767-Amalienborg 21 Mar 1852)
+			name=Frederik
+			dynasty=224
+			religion=lutheran culture=danish
+			father=100013358 # Christian
+			mother=100105204 # Caroline of Great Britain Ireland and Hannover
+			1768.01.28={birth=yes}
+			1790.07.31={
+				add_spouse=100017511 # Marie of Hesse-Kassel
+			}
+			1839.12.03={death=yes}
+		}
+			100013364={	# 3c) Caroline (Christiansborg 28 Oct 1793-Copenhagen 30 Mar 1881); m.Frederiksborg 1 Aug 1829 Ferdinand Pr of Denmark (1792-1863; below)
+				name=Caroline
+				female=yes
+				dynasty=224
+				religion=lutheran culture=danish
+				father=100013360 # Frederik VI
+				mother=100017511 # Marie of Hesse-Kassel
+				1793.10.28={birth=yes}
+				1881.03.30={death=yes}
+			}
+			100013370={	# 8c) Wilhelmine Marie (Kiel 18 Jan 1808-Glücksburg 30 May 1891); m.1st Copenhagen 1 Nov 1828 (div 1837) Frederik Pr of Denmark (Amalienborg 6 Oct 1808-Glücksburg 15 Nov 1863); m.2d Amalienborg 19 May 1838 Karl, Duke of Schleswig-Holstein-Sonderburg-Glücksburg (Gottorp 30 Sep 1813-Glücksburg 24 Oct 1878)
+				name=Wilhelmine
+				female=yes
+				dynasty=224
+				religion=lutheran culture=danish
+				father=100013360 # Frederik VI
+				mother=100017511 # Marie of Hesse-Kassel
+				1808.01.18={birth=yes}
+				1891.05.30={death=yes}
+			}
+		100013373={	# 2b) Louise Augusta (Horsholm 7 Jul 1771-Augustenburg 13 Jan 1843); m.Christiansborg 27 May 1786 Friedrich Christian, Duke of Schleswig-Holstein-Sonderburg-Augustenburg (Augustenburg 28 Sep 1765-Augustenburg 14 Jun 1814)
+			name=Louise
+			female=yes
+			dynasty=224
+			religion=lutheran culture=danish
+			father=100013358 # Christian
+			mother=100105204 # Caroline of Great Britain Ireland and Hannover
+			1771.07.07={birth=yes}
+			1843.01.13={death=yes}
+		}
+	100013375={	# 5a) Louise (Christiansborg 30 Jan 1750-Gottorp 12 Jan 1831); m.Christiansborg 30 Aug 1766 Karl Landgrave of Hesse-Kassel (Kassel 19 Dec 1744-Luisenlund 17 Aug 1836)
+		name=Louise
+		female=yes
+		dynasty=224
+		religion=lutheran culture=danish
+		father=100013350 # Frederik V
+		mother=100105216 # Louise of Great Britain Ireland and Hannover
+		1750.01.30={birth=yes}
+		1831.01.12={death=yes}
+	}
+	100013377={	# 6a) Frederik, Hereditary Pr of Denmark (Copenhagen 11 Oct 1753-Amalienborg 7 Dec 1805); m.Copenhagen 21 Oct 1774 Sophie Friederike Dss of Mecklenburg-Schwerin (Schwerin 24 Aug 1758-Sorgenfri 29 Nov 1794)
+		name=Frederik
+		dynasty=224
+		religion=lutheran culture=danish
+		father=100013350 # Frederik V
+		mother=100013352 # Juliana of Braunschweig- Wolfenbüttel
+		1753.10.11={birth=yes}
+		1774.10.21={
+			add_spouse=100017768 # Sophie of Mecklenburg-Schwerin
+		}
+		1805.12.07={death=yes}
+	}
+		100013379={	# 2b) CHRISTIAN VIII Frederik, King of Denmark (Christiansborg 18 Sep 1786-Amalienborg 20 Jan 1848); m.1st Ludwigslust 21 Jun 1806 (div 1810) Charlotte Dss of Mecklenburg-Schwerin (Ludwigslust 4 Dec 1784-Rome 13 Jul 1840); m.2d Schloß Augustenburg 22 May 1815 Pss Karoline of Schleswig-Holstein- Sonderburg-Augustenburg (Copenhagen 28 Jun 1796-Amalienborg 9 Mar 1881)
+			name=Christian
+			dynasty=224
+			religion=lutheran culture=danish
+			father=100013377 # Frederik of Denmark
+			mother=100017768 # Sophie of Mecklenburg-Schwerin
+			1786.09.18={birth=yes}
+			1806.06.21={
+				add_spouse=100017765 # Charlotte of Mecklenburg-Schwerin
+			}
+			1810.02.01={
+				remove_spouse=100017765
+			}
+			1815.05.22={
+				add_spouse=100013381 # Karoline Sonderburg-Augustenburg
+			}
+			1848.01.20={death=yes}
+		}
+			100013382={	# 2c) Frederik VII Carl Christian, King of Denmark (Amalienborg 6 Oct 1808-Glücksburg 15 Nov 1863); on his death he was succeeded by Pr Christian of Schleswig-Holstein-Sonderburg-Glücksburg (see Part 2); m.1st Copenhagen 1 Nov 1828 (div 1837) Wilhelmine Pss of Denmark (1808-1891; above); m.2d Neustrelitz 10 Jun 1841 (div 1846) Caroline Dss of Mecklenburg-Strelitz (Neustrelitz 10 Jan 1821-Neustrelitz 1 Jun 1876); m.3d (morganatically) Frederiksborg 7 Aug 1850 Lovisa Christina, cr Lehnsgräfin Danner 1850 (Copenhagen 21 Apr 1815-Cannes [Genoa?] 6 Mar 1874), natural daughter of G. L. Köppen and of Juliane Caroline Rasmussen
+				name=Frederik
+				dynasty=224
+				religion=lutheran culture=danish
+				father=100013379 # Christian Viii
+				mother=100017765 # Charlotte of Mecklenburg-Schwerin
+				1808.10.06={birth=yes}
+				1828.11.01={
+					add_spouse=100013370 # Wilhelmine of Denmark
+				}
+				1837.02.01={
+					remove_spouse=100013370
+				}
+				1841.06.10={
+					add_spouse=100017638 # Caroline of Mecklenburg-Strelitz
+				}
+				1846.02.01={
+					remove_spouse=100017638
+				}
+				1850.08.07={
+					add_spouse=100013385 # Lovisa Christina
+				}
+				1863.11.15={death=yes}
+			}
+		100013386={	# 3b) Juliana Sophie (Copenhagen 18 Feb 1788-Copenhagen 9 May 1850); m.Frederiksborg 22 Aug 1812 Wilhelm Landgrave of Hesse-Philippsthal-Barchfeld (Barchfeld 10 Aug 1786-Copenhagen 30 Nov 1834)
+			name=Juliana
+			dynasty=224
+			religion=lutheran culture=danish
+			father=100013377 # Frederik of Denmark
+			mother=100017768 # Sophie of Mecklenburg-Schwerin
+			1788.02.18={birth=yes}
+			1812.08.22={
+				add_spouse=100013387 # Wilhelm of Hesse-Philippsthal-Barchfeld
+			}
+			1850.05.09={death=yes}
+		}
+		100013388={	# 4b) Louise Charlotte (Christiansborg 30 Oct 1789-Christiansborg 28 Mar 1864); m.Amalienborg 10 Nov 1810 Wilhelm Landgrave of Hesse-Kassel (Biebrich 24 Dec 1787-Copenhagen 5 Sep 1867)
+			name=Charlotte
+			female=yes
+			dynasty=224
+			religion=lutheran culture=danish
+			father=100013377 # Frederik of Denmark
+			mother=100017768 # Sophie of Mecklenburg-Schwerin
+			1789.10.30={birth=yes}
+			1864.03.28={death=yes}
+		}
+		100013390={	# 5b) Frederik Ferdinand, Hereditary Pr of Denmark (Copenhagen 22 Nov 1792-Copenhagen 29 Jun 1863); m.Frederiksborg 1 Aug 1829 Caroline Pss of Denmark (1793-1881; above)
+			name=Frederik
+			dynasty=224
+			religion=lutheran culture=danish
+			father=100013377 # Frederik of Denmark
+			mother=100017768 # Sophie of Mecklenburg-Schwerin
+			1792.11.22={birth=yes}
+			1829.08.01={
+				add_spouse=100013364 # Caroline of Denmark
+			}
+			1863.06.29={death=yes}
+		}
+
+#######
+100013352={	# Juliana			Dss			of Braunschweig-Wolfenbüttel		(Wolfenbüttel 4 Sep 1729-1796)
+	name="Juliana of Braunschweig-Wolfenbüttel"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=danish
+	1729.09.04={birth=yes}
+	1796.10.10={death=yes}
+}
+100013374={	# Friedrich			Duke		of Schleswig-Holstein-Sonderburg-Augustenburg	(Augustenburg 28 Sep 1765-1814)
+	name="Friedrich of Schleswig-Holstein-Sonderburg-Augustenburg"
+	dynasty=0
+	religion=lutheran culture=danish
+	1765.09.28={birth=yes}
+	1786.05.27={
+		add_spouse=100013373 # Louise Augusta
+	}
+	1814.06.14={death=yes}
+}
+100013381={	# Karoline 			Pss			of Sonderburg-Augustenburg (Copenhagen 28 Jun 1796-1881)
+	name="Karoline Sonderburg-Augustenburg"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=danish
+	1796.06.28={birth=yes}
+	1881.03.09={death=yes}
+}
+100013387={	# Wilhelm			Landgrave 	of Hesse-Philippsthal-Barchfeld (Barchfeld 10 Aug 1786-Copenhagen 30 Nov 1834)
+	name="Wilhelm of Hesse-Philippsthal-Barchfeld"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=danish
+	1786.08.10={birth=yes}
+	1834.11.30={death=yes}
+}
+100013385={	# Lovisa Christina, cr Lehnsgräfin Danner 1850 (Copenhagen 21 Apr 1815-Cannes [Genoa?] 6 Mar 1874), natural daughter of G. L. Köppen and of Juliane Caroline Rasmussen
+	name="Lovisa Christina"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=danish
+	1815.04.21={birth=yes}
+	1874.03.06={death=yes}
+}
+### DENMARK			| 224 	  | 100013350-100013399
 
 
 ### NORWAY 			| 1002021 | 100013300-100013349
@@ -197,7 +442,7 @@
 			mother=100017518 # Luise of Hesse-Kassel
 			1813.09.30={birth=yes}
 			1838.05.19={
-				add_spouse=100013014 # Wilhelmina of Denmark
+				add_spouse=100013370 # Wilhelmina of Denmark
 			}
 			1878.10.24={death=yes}
 		}
@@ -209,10 +454,10 @@
 			mother=100017518 # Luise of Hesse-Kassel
 			1814.10.23={birth=yes}
 			1841.10.16={
-				add_spouse=100013016 # Adelheid zu Schaumburg-Lippe
+				add_spouse=100010792 # Adelheid zu Schaumburg-Lippe
 			}
 			1848.02.01={
-				remove_spouse=100013016
+				remove_spouse=100010792
 			}
 			1885.11.27={death=yes}
 		}
@@ -222,7 +467,7 @@
 				dynasty=1002021
 				religion=lutheran culture=german
 				father=100013015 # Friedrich of Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100013016 # Adelheid zu Schaumburg-Lippe
+				mother=100010792 # Adelheid zu Schaumburg-Lippe
 				1844.02.27={birth=yes}
 				1932.09.16={death=yes}
 			}
@@ -231,7 +476,7 @@
 				dynasty=1002021
 				religion=lutheran culture=german
 				father=100013015 # Friedrich of Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100013016 # Adelheid zu Schaumburg-Lippe
+				mother=100010792 # Adelheid zu Schaumburg-Lippe
 				1855.10.12={birth=yes}
 				1885.03.19={
 					add_spouse=100013020 # Karoline of Schleswig-Holstein-Sonderburg-Augustenburg
@@ -316,7 +561,7 @@
 						mother=100013031 # Marie Melita zu Hohenlohe-Langenburg
 						1922.04.30={birth=yes}
 						1947.10.09={
-							add_spouse=100013035 # Marie Alix zu Schaumburg-Lippe
+							add_spouse=100010738 # Marie Alix zu Schaumburg-Lippe
 						}
 						1980.09.30={death=yes}
 					}
@@ -326,7 +571,7 @@
 							dynasty=1002021
 							religion=lutheran culture=german
 							father=100013034 # Peter of Schleswig-Holstein
-							mother=100013035 # Marie Alix zu Schaumburg-Lippe
+							mother=100010738 # Marie Alix zu Schaumburg-Lippe
 							1948.09.05={birth=yes}
 						}
 						100013038={	# 2f) CHRISTOPH, Duke of Schleswig-Holstein (b.Schloß Luisenlund 22 Aug 1949); m.Glücksburg 23 Sep 1981 Elisabeth Pss zur Lippe-Weissenfeld (b.Munich 28 Jul 1957)
@@ -334,7 +579,7 @@
 							dynasty=1002021
 							religion=lutheran culture=german
 							father=100013034 # Peter of Schleswig-Holstein
-							mother=100013035 # Marie Alix zu Schaumburg-Lippe
+							mother=100010738 # Marie Alix zu Schaumburg-Lippe
 							1949.08.22={birth=yes}
 							1981.09.23={
 								add_spouse=100013039 # Elisabeth zur Lippe-Weissenfeld
@@ -378,7 +623,7 @@
 							dynasty=1002021
 							religion=lutheran culture=german
 							father=100013034 # Peter of Schleswig-Holstein
-							mother=100013035 # Marie Alix zu Schaumburg-Lippe
+							mother=100010738 # Marie Alix zu Schaumburg-Lippe
 							1953.07.09={birth=yes}
 							1994.08.29={
 								add_spouse=100013045 # 3 Fertsch
@@ -407,7 +652,7 @@
 							dynasty=1002021
 							religion=lutheran culture=german
 							father=100013034 # Peter of Schleswig-Holstein
-							mother=100013035 # Marie Alix zu Schaumburg-Lippe
+							mother=100010738 # Marie Alix zu Schaumburg-Lippe
 							1956.07.09={birth=yes}
 						}
 					100013050={	# 4e) Marie Alexandra Caroline-Mathilde Viktoria Irene (Schloß Luisenlund 9 Jul 1927-Friedrichshafen 14 Dec 2000); m.Grünholz 27 Jul 1970 Douglas Barton-Miller (b.San Francisco 8 Dec 1929)
@@ -436,7 +681,7 @@
 				dynasty=1002021
 				religion=lutheran culture=german
 				father=100013015 # Friedrich of Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100013016 # Adelheid zu Schaumburg-Lippe
+				mother=100010792 # Adelheid zu Schaumburg-Lippe
 				1858.01.06={birth=yes}
 				1936.07.02={death=yes}
 			}
@@ -446,7 +691,7 @@
 				dynasty=1002021
 				religion=lutheran culture=german
 				father=100013015 # Friedrich of Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100013016 # Adelheid zu Schaumburg-Lippe
+				mother=100010792 # Adelheid zu Schaumburg-Lippe
 				1859.08.31={birth=yes}
 				1941.06.26={death=yes}
 			}
@@ -455,7 +700,7 @@
 				dynasty=1002021
 				religion=lutheran culture=german
 				father=100013015 # Friedrich of Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100013016 # Adelheid zu Schaumburg-Lippe
+				mother=100010792 # Adelheid zu Schaumburg-Lippe
 				1863.03.15={birth=yes}
 				1906.10.14={
 					add_spouse=100013058 # Ortrud zu Isenburg-Büdingen in Meerholz
@@ -466,7 +711,7 @@
 				1948.04.23={death=yes}
 			}
 				100013060={	# 1d) Viktoria Marie Luise Agnes Calma Elisabeth Irmgard (Berlin 8 Dec 1908-Wiesbaden 29 Dec 1969); m.1st Primkenau 19 Apr 1934 (div 1955) Rudolf Karl Frhr von Stengel (Munich 7 Dec 1899-Rieden 21 Sep 1969); m.2d Glücksburg 8 Oct 1962 Friedrich Christian Pr zu Schaumburg-Lippe (Bückeburg 5 Jan 1906-Wasserburg am Inn 20 Sep 1983)
-					name=Viktoria
+					name="Marie Luise"
 					female=yes
 					dynasty=1002021
 					religion=lutheran culture=german
@@ -709,15 +954,7 @@
 			1709.02.03={birth=yes}
 			1758.02.02={death=yes}
 		}
-		100013116={	# 5b) Adolf Friedrich (1710-1771); in 1751 he ascended the Swedish throne; for further details see Sweden
-			name=Adolf
-			dynasty=1002019
-			religion=lutheran culture=german
-			father=100013109 # Christian of Holstein-Gottorp
-			mother=100013110 # Albertine of Baden-Durlach
-			1710.02.01={birth=yes}
-			1771.02.01={death=yes}
-		}
+		# 5b) Adolf Friedrich (1710-1771); in 1751 he ascended the Swedish throne; for further details see Sweden
 		100013117={	# 6b) FRIEDRICH AUGUST, Duke of Holstein-Gottorp; in 1773/4 the Tsarevich of Russia ceded to him Oldenburg and Delmenhorst (Gottorp 20 Sep 1711-Oldenburg 6 Jul 1785); m.Kassel 21 Nov 1752 Ulrika Friederike Wilhelmine, Landgravine of Hesse-Kassel (Kassel 31 Oct 1722-Eutin 28 Feb 1787)
 			name="Friedrich August"
 			dynasty=1002019
@@ -816,7 +1053,7 @@
 						add_spouse=100013137 # Ida von Anhalt-Bernburg-Schaumburg-Hoym
 					}
 					1831.05.05={
-						add_spouse=100013138 # Cecilie of Sweden
+						add_spouse=100006215 # Cecilie of Sweden
 					}
 					1853.02.27={death=yes}
 				}
@@ -1102,7 +1339,7 @@
 										remove_spouse=100019077
 									}
 									1991.02.09={
-										add_spouse=100013185 # Donata zu Castell-Rüdenhausen
+										add_spouse=100019082 # Donata zu Castell-Rüdenhausen
 									}
 								}
 									100013186={	# 1i) Paul Wladimir Nikolaus Louis-Ferdinand Peter Max Karl-Emich (b.Lübeck 16 Aug 1969); m.Wertheim 18 Jan 2001 Maria del Pilar Méndez de Vigo y Löwenstein-Wertheim-Rosenberg (b.Madrid 20 Oct 1970)
@@ -1286,7 +1523,7 @@
 						dynasty=1002019
 						religion=lutheran culture=german
 						father=100013135 # August of Oldenburg became Grand Duke of Oldenburg 28 May 1829
-						mother=100013138 # Cecilie of Sweden
+						mother=100006215 # Cecilie of Sweden
 						1844.01.23={birth=yes}
 						1876.11.09={
 							add_spouse=100013220 # Natalie von Friesenhof
