@@ -37,6 +37,8 @@ cultural_liberation = {
 	can_use_title = {
 		# Must be liberating same-ideology populace
 		FROM = {
+			NOT = { has_landed_title=k_bosnia }
+			NOT = { has_landed_title=k_schweiz }
 			any_realm_province = {
 				culture_group = ROOT
 				duchy = { title = PREVPREVPREV }
