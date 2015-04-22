@@ -1,0 +1,64 @@
+decisions = {
+	
+	reorganize_slovenia = {
+		is_high_prio = yes
+		
+		potential = {
+			age = 18
+			independent=yes
+			has_landed_title=k_austria
+			NOT = { has_global_flag = slovenia_austrian }
+		}
+		allow = {
+			war = no
+			prisoner = no
+			in_command = no
+			NOT = { trait = in_hiding }
+			completely_controls = k_slovenija
+			wealth = 100
+		}
+		effect = {
+			set_global_flag = slovenia_austrian
+			wealth = -100
+			c_stajerska = { de_jure_liege = d_steiermark }
+			d_slovenija = { de_jure_liege = k_austria }
+			k_slovenija = {
+				destroy_landed_title = THIS
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	reorganize_brandenburg = {
+		is_high_prio = yes
+		
+		potential = {
+			NOT = { has_global_flag = kuestrin_german }
+			age = 18
+			independent=yes
+			OR = {
+				has_landed_title=k_prussia
+				has_landed_title=e_deutsches_reich
+			}
+			
+		}
+		allow = {
+			war = no
+			prisoner = no
+			in_command = no
+			NOT = { trait = in_hiding }
+			has_landed_title = c_kuestrin
+			wealth = 100
+		}
+		effect = {
+			set_global_flag = kuestrin_german
+			wealth = -100
+			c_kuestrin = { de_jure_liege = d_brandenburg }
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+}
