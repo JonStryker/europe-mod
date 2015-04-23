@@ -1410,10 +1410,71 @@
 
 
 ## 100010700	Schaumburg-Lippe	1002025	
+
+100010713={	# 1647–1681: Philipp I. (1601–1681)
+	name=Philipp
+	dynasty=1002025
+	religion=lutheran culture=german
+	# father=xxx
+	1601.01.01={birth=yes}
+	1681.01.01={death=yes}
+}
+	100010711={	# 1681–1728: Friedrich Christian (1655–1728)
+		name="Friedrich Christian"
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010713
+		1655.01.01={birth=yes}
+		1728.01.01={death=yes}
+	}
+		100105223={ #	1728–1748: Albrecht Wolfgang (1699–1748)
+			name="Albrecht Wolfgang"
+			dynasty=1002025
+			religion=lutheran culture=english
+			father=100010711
+			1699.05.08={birth=yes}
+			1721.09.30={
+				add_spouse=100105222 # Margarete von Oeynhausen
+			}
+			1748.09.24={death=yes}
+		}
+			100010705={	#	1748–1777: Wilhelm (1724–1777)
+				name=Wilhelm
+				dynasty=1002025
+				religion=lutheran culture=german
+				father=100105223
+				1724.01.01={birth=yes}
+				1777.01.01={death=yes}
+			}
+	100010736={	# Philipp Ernst
+		name="Philipp Ernst"
+		dynasty=1002025
+		religion=lutheran culture=german
+		father=100010713
+		1659.01.01={birth=yes}
+		1723.01.01={death=yes}
+	}
+		100010703={	# Friedrich Ernst
+			name="Friedrich Ernst"
+			dynasty=1002025
+			religion=lutheran culture=german
+			father=100010736
+			1694.01.01={birth=yes}
+			1777.01.01={death=yes}
+		}
+100010701={	#	1777–1787: Philipp II. Ernst (1723–1787)
+	name=Philipp
+	dynasty=1002025
+	religion=lutheran culture=german
+	father=100010703
+	1723.01.01={birth=yes}
+	1787.01.01={death=yes}
+}
 100010700={	# GEORG Wilhelm Gf zu Schaumburg-Lippe, Fürst zu Schaumburg-Lippe 6 Aug 1806 (Bückeburg 20 Dec 1784-Bückeburg 21 Nov 1860; bur Stadthagen); m.Arolsen 23 Jun 1816 Ida Pss zu Waldeck u.Pyrmont (Rhoden 26 Sep 1796-Menton 12 Apr 1869; bur Stadthagen)
 	name=Georg
 	dynasty=1002025
 	religion=lutheran culture=german
+	father=100010701
 	1784.12.20={birth=yes}
 	1816.06.23={
 		add_spouse=100010381 # Ida zu Waldeck u.Pyrmont
@@ -1421,7 +1482,7 @@
 	1860.02.01={death=yes}
 }
 	100010702={	# 1a) ADOLF I Georg Fst zu Schaumburg-Lippe (Bückeburg 1 Aug 1817-Bückeburg 8 May 1893; bur Stadthagen); m.Arolsen 25 Oct 1844 Hermine Pss zu Waldeck u.Pyrmont (Arolsen 29 Sep 1827-Bückeburg 16 Feb 1910; bur Stadthagen)
-		name=Adolf
+		name="Adolf Georg"
 		dynasty=1002025
 		religion=lutheran culture=german
 		father=100010700 # Georg zu Schaumburg-Lippe Fürst zu Schaumburg-Lippe 6 Aug 1806
@@ -1442,7 +1503,7 @@
 			1845.10.05={birth=yes}
 			1930.12.23={death=yes}
 		}
-		100010706={	# 2b) Stephan Albrecht GEORG Fst zu Schaumburg-Lippe (Bückeburg 10 Oct 1846-Bückeburg 29 Apr 1911); m.Altenburg 16 Apr 1882 Marie Pss of Saxe-Altenburg (Altenburg 14 Mar 1864-Bückeburg 3 May 1918)
+		100010706={	# 2b) Stephan Albrecht GEORG Fst zu Schaumburg-Lippe (Bückeburg 10 Oct 1846-Bückeburg 29 Apr 1911); m.Altenburg 16 Apr 1882 Marie Pss von Sachsen-Altenburg (Altenburg 14 Mar 1864-Bückeburg 3 May 1918)
 			name=Georg
 			dynasty=1002025
 			religion=lutheran culture=german
@@ -1450,7 +1511,7 @@
 			mother=100010209 # Hermine zu Waldeck u.Pyrmont
 			1846.10.10={birth=yes}
 			1882.04.16={
-				add_spouse=100010707 # Marie of Saxe-Altenburg
+				add_spouse=100010707 # Marie von Sachsen-Altenburg
 			}
 			1911.04.29={death=yes}
 		}
@@ -1459,7 +1520,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010706 # Georg zu Schaumburg-Lippe
-				mother=100010707 # Marie of Saxe-Altenburg
+				mother=100010707 # Marie von Sachsen-Altenburg
 				1883.02.23={birth=yes}
 				1920.01.10={
 					add_spouse=100010709 # Ellen Bischoff-Korthaus
@@ -1471,7 +1532,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010706 # Georg zu Schaumburg-Lippe
-				mother=100010707 # Marie of Saxe-Altenburg
+				mother=100010707 # Marie von Sachsen-Altenburg
 				1884.03.11={birth=yes}
 				1920.02.01={death=yes}
 			}
@@ -1480,7 +1541,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010706 # Georg zu Schaumburg-Lippe
-				mother=100010707 # Marie of Saxe-Altenburg
+				mother=100010707 # Marie von Sachsen-Altenburg
 				1887.04.19={birth=yes}
 				1925.04.16={
 					add_spouse=100010838 # Bathildis zu Schaumburg-Lippe
@@ -1579,7 +1640,7 @@
 						name=York
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010724 # Hd
+						father=100010724
 						mother=100010725 # Sigrid Knape
 						1960.06.04={birth=yes}
 						1986.09.05={
@@ -1599,7 +1660,7 @@
 						female=yes
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010724 # Hd
+						father=100010724
 						mother=100010725 # Sigrid Knape
 						1962.11.13={birth=yes}
 					}
@@ -1607,7 +1668,7 @@
 						name=Oliver
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010724 # Hd
+						father=100010724
 						mother=100010725 # Sigrid Knape
 						1988.03.27={birth=yes}
 					}
@@ -1625,7 +1686,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010706 # Georg zu Schaumburg-Lippe
-				mother=100010707 # Marie of Saxe-Altenburg
+				mother=100010707 # Marie von Sachsen-Altenburg
 				1891.06.21={birth=yes}
 				1921.06.04={
 					add_spouse=100013212 # Ingeborg of Oldenburg
@@ -1656,7 +1717,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010706 # Georg zu Schaumburg-Lippe
-				mother=100010707 # Marie of Saxe-Altenburg
+				mother=100010707 # Marie von Sachsen-Altenburg
 				1894.09.25={birth=yes}
 				1933.06.10={
 					add_spouse=100010741 # Marie-Erika von Hardenberg
@@ -1678,7 +1739,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010706 # Georg zu Schaumburg-Lippe
-				mother=100010707 # Marie of Saxe-Altenburg
+				mother=100010707 # Marie von Sachsen-Altenburg
 				1906.01.05={birth=yes}
 				1927.09.25={
 					add_spouse=100010747 # Alexandra zu Castell-Rüdenhausen
@@ -1729,7 +1790,7 @@
 						name=Stephan
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010751 # Hd
+						father=100010751
 						mother=100010753 # Heidemarie Günther
 						1965.09.10={birth=yes}
 						1988.09.24={
@@ -1763,7 +1824,7 @@
 						female=yes
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010751 # Hd
+						father=100010751
 						mother=100010753 # Heidemarie Günther
 						1967.01.15={birth=yes}
 					}
@@ -1782,7 +1843,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010706 # Georg zu Schaumburg-Lippe
-				mother=100010707 # Marie of Saxe-Altenburg
+				mother=100010707 # Marie von Sachsen-Altenburg
 				1908.05.31={birth=yes}
 				1933.02.01={death=yes}
 			}
@@ -1989,7 +2050,7 @@
 			mother=100018780 # Bathildis of Anhalt
 			1868.01.30={birth=yes}
 			1896.05.05={
-				add_spouse=100010803 # Lovisa of Denmark
+				add_spouse=100056042 # Lovisa of Denmark
 			}
 			1909.05.26={
 				add_spouse=100018715 # Antoinette of Anhalt
@@ -2002,7 +2063,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010802 # Friedrich
-				mother=100010803 # Lovisa of Denmark
+				mother=100056042 # Lovisa of Denmark
 				1897.02.10={birth=yes}
 				1938.10.01={death=yes}
 			}
@@ -2011,10 +2072,10 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010802 # Friedrich
-				mother=100010803 # Lovisa of Denmark
+				mother=100056042 # Lovisa of Denmark
 				1898.02.20={birth=yes}
 				1937.09.09={
-					add_spouse=100010808 # Feodora of Denmark
+					add_spouse=100056046 # Feodora of Denmark
 				}
 				1974.02.01={death=yes}
 			}
@@ -2023,7 +2084,7 @@
 					dynasty=1002025
 					religion=lutheran culture=german
 					father=100010807 # Christian
-					mother=100010808 # Feodora of Denmark
+					mother=100056046 # Feodora of Denmark
 					1939.08.19={birth=yes}
 					1970.12.14={
 						add_spouse=100010810 # Ilona Hentschel von Gilgenheimb
@@ -2033,7 +2094,7 @@
 						name=Christian
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010809 # Hd
+						father=100010809
 						mother=100010810 # Ilona Hentschel von Gilgenheimb
 						1971.09.14={birth=yes}
 						2009.07.24={
@@ -2045,7 +2106,7 @@
 						female=yes
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010809 # Hd
+						father=100010809
 						mother=100010810 # Ilona Hentschel von Gilgenheimb
 						1974.06.27={birth=yes}
 					}
@@ -2054,7 +2115,7 @@
 					dynasty=1002025
 					religion=lutheran culture=german
 					father=100010807 # Christian
-					mother=100010808 # Feodora of Denmark
+					mother=100056046 # Feodora of Denmark
 					1940.12.19={birth=yes}
 					1977.09.10={
 						add_spouse=100010816 # Anne-Lise Johansen
@@ -2083,7 +2144,7 @@
 						female=yes
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010815 # Hd
+						father=100010815
 						mother=100010816 # Anne-Lise Johansen
 						1978.12.22={birth=yes}
 					}
@@ -2091,7 +2152,7 @@
 						name="Mario Max"
 						dynasty=1002025
 						religion=lutheran culture=german
-						father=100010815 # Hd
+						father=100010815
 						mother=100010816 # Anne-Lise Johansen
 						1977.12.23={birth=yes}
 					}
@@ -2101,7 +2162,7 @@
 					dynasty=1002025
 					religion=lutheran culture=german
 					father=100010807 # Christian
-					mother=100010808 # Feodora of Denmark
+					mother=100056046 # Feodora of Denmark
 					1945.12.27={birth=yes}
 				}
 				100010823={	# 4d) Harald Christian Leopold Gustav, HD (b.Hagenburg 27 Mar 1948); m.1st Bückeburg 22 Jul 1976 (div 1980) Petra Wera Kirstein (b.Heessen 24 Sep 1956); m.2nd Bückeburg 23 Sep 1988 Gabrielle Hagemann (b.Coesfeld 26 Jul 1962)
@@ -2109,7 +2170,7 @@
 					dynasty=1002025
 					religion=lutheran culture=german
 					father=100010807 # Christian
-					mother=100010808 # Feodora of Denmark
+					mother=100056046 # Feodora of Denmark
 					1948.03.27={birth=yes}
 					1976.07.22={
 						add_spouse=100010824 # Petra Kirstein
@@ -2127,7 +2188,7 @@
 				dynasty=1002025
 				religion=lutheran culture=german
 				father=100010802 # Friedrich
-				mother=100010803 # Lovisa of Denmark
+				mother=100056042 # Lovisa of Denmark
 				1899.12.19={birth=yes}
 				1925.02.01={death=yes}
 			}
@@ -2261,7 +2322,7 @@
 			1873.05.21={birth=yes}
 			1962.02.01={death=yes}
 		}
-		100010850={	# 7b) Friederike Adelheid Marie Luise Hilda Eugenie (Ratiboritz 22 Sep 1875-Ballenstedt 27 Jan 1971; bur Bückeburg); m.Bückeburg 17 Feb 1898 (div 1920) Ernst II, Duke of Saxe-Altenburg (Altenburg 31 Aug 1871- Schloß Fröhliche Wiederkunft 22 Mar 1955)
+		100010850={	# 7b) Friederike Adelheid Marie Luise Hilda Eugenie (Ratiboritz 22 Sep 1875-Ballenstedt 27 Jan 1971; bur Bückeburg); m.Bückeburg 17 Feb 1898 (div 1920) Ernst II, Duke von Sachsen-Altenburg (Altenburg 31 Aug 1871- Schloß Fröhliche Wiederkunft 22 Mar 1955)
 			name=Friederike
 			female=yes
 			dynasty=1002025
@@ -2748,7 +2809,7 @@
 			1755.06.25={birth=yes}
 			1776.04.26={death=yes}
 		}
-		100010666={	# 6b) Luise Auguste (Berlin 30 Jan 1757-Weimar 14 Feb 1830); m.Karlsruhe 3 Oct 1775 Karl August, Grand Duke of Saxe-Weimar (Weimar 3 Sep 1757-Graditz 14 Jun 1828)
+		100010666={	# 6b) Luise Auguste (Berlin 30 Jan 1757-Weimar 14 Feb 1830); m.Karlsruhe 3 Oct 1775 Karl August, Grand Duke von Sachsen-Weimar (Weimar 3 Sep 1757-Graditz 14 Jun 1828)
 			name=Luise
 			female=yes
 			dynasty=1002012
@@ -4332,6 +4393,14 @@
 	1776.06.21={birth=yes}
 	1848.02.23={death=yes}
 }
+100017003={ # Pss       Maria Henriette         zu Fürstenberg          (1732-1772)
+	name="Maria Henriette zu Fürstenberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1732.03.31={birth=yes}
+	1772.06.04={death=yes}
+}
 
 100010001={	# Karl Joseph Aloys Pr zu Fürstenberg (26 Jun 1760-k.a.Lipingen 25 Mar 1799); m.Prague 4 Nov 1790 Elisabetha Alexandrina Pss von Thurn u.Taxis (Regensburg 30 Nov 1767-21 Jul 1822)
 	name=Karl
@@ -4340,9 +4409,6 @@
 	1760.06.26={birth=yes}
 	1790.11.04={
 		add_spouse=100017157 # Elisabetha von Thurn u.Taxis
-	}
-	1790.11.04={
-		add_spouse=100017157 # Marie Elisabetha
 	}
 	1799.03.25={death=yes}
 }
