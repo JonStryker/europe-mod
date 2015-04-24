@@ -1841,7 +1841,7 @@ e_ceskoslovensko = {
 	capital = 115 # c_praha
 	culture = bohemian
 	
-	k_cesko = {
+	k_bohemia = {
 		color={ 83 254 50 }
 		color2={ 255 255 255 }
 		
@@ -2164,1891 +2164,6 @@ e_ceskoslovensko = {
 				b_komarno = {
 				}
 				b_lucenec = {
-				}
-			}
-		}
-	}
-}
-e_deutsches_reich = {
-	color={ 91 217 148 }
-	color2={ 255 255 20 }
-	
-	capital = 225 # c_berlin
-	culture = german
-	
-	k_preussen = {
-		color={ 101 207 153 }
-		color2={ 255 255 255 }
-		
-		capital = 225 # c_berlin
-		culture = german
-		
-		d_brandenburg = {
-			color={ 121 187 163 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 225 province_id = 226 province_id = 227 province_id = 228 } }
-				}
-			}
-			capital = 225 # c_berlin
-			
-			c_berlin = { # 225
-				color={ 131 177 168 }
-				color2={ 255 255 255 }
-				
-				b_berliner_stadtschloss = {
-				}
-				b_berlin = {
-				}
-				b_potsdam = {
-				}
-				b_hennigsdorf = {
-				}
-				b_falkensee = {
-				}
-				b_hennigsdorf_2 = {
-				}
-				b_teltow = {
-				}
-			}
-			c_niederlausitz = { # 228
-				color={ 223 64 32 }
-				color2={ 255 255 255 }
-				
-				b_cottbus = {
-				}
-				b_forst = {
-				}
-				b_guben = {
-				}
-				b_finsterwalde = {
-				}
-				b_senftenburg = {
-				}
-				b_lauchhammer = {
-				}
-			}
-			c_prignitz = { # 227
-				color={ 97 192 160 }
-				color2={ 255 255 255 }
-				
-				b_wittenberge = {
-				}
-				b_perleberg = {
-				}
-				b_neuruppin = {
-				}
-				b_rathenow = {
-				}
-			}
-			c_uckermark = { # 226
-				color={ 160 64 160 }
-				color2={ 255 255 255 }
-				
-				b_prenzlau = {
-				}
-				b_schwedt = {
-				}
-				b_eberswalde_finow = {
-				}
-				b_strausberg = {
-				}
-				b_fuerstenwalde = {
-				}
-			}
-		}
-		d_mecklenburg_vorpommern = {
-			color={ 214 138 155 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 233 province_id = 234 province_id = 235 province_id = 236 } }
-				}
-			}
-			capital = 233 # c_schwerin
-			
-			c_schwerin = { # 233
-				color={ 224 128 160 }
-				color2={ 255 255 255 }
-				
-				b_schwerin = {
-				}
-				b_parchim = {
-				}
-				b_wismar = {
-				}
-				b_hagenow = {
-				}
-			}
-			c_neustrelitz = { # 234
-				color={ 224 65 160 }
-				color2={ 255 255 255 }
-				
-				b_neustrelitz = {
-				}
-				b_waren = {
-				}
-				b_neubrandenburg = {
-				}
-				b_roebel = {
-				}
-			}
-			c_stralsund = { # 235
-				color={ 86 116 82 }
-				color2={ 255 255 255 }
-				
-				b_stralsund = {
-				}
-				b_rostock = {
-				}
-				b_greifswald = {
-				}
-				b_barth = {
-				}
-			}
-			c_swinemuende = { # 236
-				color={ 160 65 33 }
-				color2={ 255 255 255 }
-				
-				b_swinemuende = {
-				}
-				b_wolgast = {
-				}
-				b_griefswald = {
-				}
-				b_pasewalk = {
-				}
-			}
-		}
-		d_ostpreussen = {
-			color={ 75 23 165 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 237 province_id = 238 province_id = 239 province_id = 240 province_id = 241 province_id = 242 } }
-				}
-			}
-			capital = 237 # c_koenigsberg
-			
-			c_koenigsberg = { # 237
-				color={ 65 33 160 }
-				color2={ 255 255 255 }
-				
-				b_koenigsberg = {
-				}
-				b_baltiysk = {
-				}
-				b_gvardeysk = {
-				}
-				b_zelenogradsk = {
-				}
-			}
-			c_allenstein = { # 241
-				color={ 191 159 32 }
-				color2={ 255 255 255 }
-				
-				b_allenstein = {
-				}
-				b_bartoszyce = {
-				}
-				b_ostroda = {
-				}
-				b_orneta = {
-				}
-			}
-			c_danzig = { # 239
-				color={ 128 160 160 }
-				color2={ 255 255 255 }
-				
-				b_danzig = {
-				}
-				b_gdynia = {
-				}
-				b_tczew = {
-				}
-				b_sopot = {
-				}
-				b_pruszcz_gdanski = {
-				}
-				b_starogard_gdanski = {
-				}
-				b_kwidzyn = {
-				}
-			}
-			c_elbing = { # 240
-				color={ 122 96 97 }
-				color2={ 255 255 255 }
-				
-				b_elbing = {
-				}
-				b_malbork = {
-				}
-				b_sztum = {
-				}
-				b_paslek = {
-				}
-			}
-			c_gumbinnen = { # 242
-				color={ 192 32 160 }
-				color2={ 255 255 255 }
-				
-				b_gumbinnen = {
-				}
-				b_chernyakhovsk = {
-				}
-				b_sovetsk = {
-				}
-				b_ozersk = {
-				}
-			}
-			c_memel = { # 238
-				color={ 64 160 160 }
-				color2={ 255 255 255 }
-				
-				b_memel = {
-				}
-				b_silute = {
-				}
-				b_gargzadai = {
-				}
-				b_giruliai = {
-				}
-				b_nida = {
-				}
-			}
-		}
-		d_pommern = {
-			color={ 35 164 30 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 243 province_id = 244 province_id = 245 province_id = 246 } }
-				}
-			}
-			capital = 243 # c_stettin
-			
-			c_stettin = { # 243
-				color={ 25 174 25 }
-				color2={ 255 255 255 }
-				
-				b_stettin = {
-				}
-				b_wolin = {
-				}
-				b_police = {
-				}
-				b_goleniow = {
-				}
-				b_gryfino = {
-				}
-			}
-			c_koeslin = { # 245
-				color={ 128 1 160 }
-				color2={ 255 255 255 }
-				
-				b_koeslin = {
-				}
-				b_ustka = {
-				}
-				b_slupsk = {
-				}
-				b_slawno = {
-				}
-			}
-			c_kolberg = { # 244
-				color={ 160 192 32 }
-				color2={ 255 255 255 }
-				
-				b_kolberg = {
-				}
-				b_bialogard = {
-				}
-				b_karlino = {
-				}
-				b_swidwin = {
-				}
-			}
-			c_kuestrin = { # 246
-				color={ 96 191 32 }
-				color2={ 255 255 255 }
-				
-				b_kuestrin = {
-				}
-				b_gorzow_wielkopolski = {
-				}
-				b_zielona_gora = {
-				}
-				b_zary = {
-				}
-			}
-		}
-		d_silesia = {
-			color={ 120 87 132 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 247 province_id = 248 province_id = 249 province_id = 250 } }
-				}
-			}
-			capital = 247 # c_breslau
-			
-			c_breslau = { # 247
-				color={ 110 97 127 }
-				color2={ 255 255 255 }
-				
-				b_breslau = {
-				}
-				b_lubin = {
-				}
-				b_glogow = {
-				}
-				b_olesnica = {
-				}
-			}
-			c_kattowitz = { # 250
-				color={ 94 144 145 }
-				color2={ 255 255 255 }
-				
-				b_kattowitz = {
-				}
-				b_gliwice = {
-				}
-				b_zabrze = {
-				}
-				b_bytom = {
-				}
-				b_sosnowiec = {
-				}
-				b_chorzow = {
-				}
-			}
-			c_liegnitz = { # 248
-				color={ 192 1 33 }
-				color2={ 255 255 255 }
-				
-				b_liegnitz = {
-				}
-				b_walbrzych = {
-				}
-				b_kamienna = {
-				}
-				b_swidnica = {
-				}
-			}
-			c_oppeln = { # 249
-				color={ 175 159 32 }
-				color2={ 255 255 255 }
-				
-				b_oppeln = {
-				}
-				b_krapowice = {
-				}
-				b_kedzierzyn_kozle = {
-				}
-				b_prudnik = {
-				}
-				b_brzeg = {
-				}
-			}
-		}
-	}
-	k_bayern = {
-		color={ 206 227 48 }
-		color2={ 255 255 255 }
-		
-		capital = 251 # c_muenchen
-		culture = german
-		
-		d_bayern = {
-			color={ 186 247 38 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 251 province_id = 252 province_id = 253 province_id = 254 province_id = 255 } }
-				}
-			}
-			capital = 251 # c_muenchen
-			
-			c_muenchen = { # 251
-				color={ 176 1 33 }
-				color2={ 255 255 255 }
-				
-				b_muenchen = {
-				}
-				b_erding = {
-				}
-				b_friesing = {
-				}
-				b_germening = {
-				}
-				b_starnsburg = {
-				}
-				b_olching = {
-				}
-			}
-			c_augsburg = { # 255
-				color={ 112 74 95 }
-				color2={ 255 255 255 }
-				
-				b_augsburg = {
-				}
-				b_neusaess = {
-				}
-				b_kempten = {
-				}
-				b_memmingen = {
-				}
-			}
-			c_ingolstadt = { # 253
-				color={ 49 128 33 }
-				color2={ 255 255 255 }
-				
-				b_ingolstadt = {
-				}
-				b_neuburg = {
-				}
-				b_pfaffenhofen = {
-				}
-				b_eichstaett = {
-				}
-				b_mainburg = {
-				}
-			}
-			c_niederbayern = { # 252
-				color={ 176 128 33 }
-				color2={ 255 255 255 }
-				
-				b_landshut = {
-				}
-				b_passau = {
-				}
-				b_deggendorf = {
-				}
-				b_straubing = {
-				}
-				b_plattling = {
-				}
-			}
-			c_oberpfalz = { # 254
-				color={ 49 1 160 }
-				color2={ 255 255 255 }
-				
-				b_regensburg = {
-				}
-				b_neumarkt = {
-				}
-				b_schwandorf = {
-				}
-				b_weiden = {
-				}
-				b_sulzbach_rosenburg = {
-				}
-			}
-		}
-		d_franken = {
-			color={ 198 202 155 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 256 province_id = 257 province_id = 258 province_id = 259 } }
-				}
-			}
-			capital = 256 # c_nuernberg
-			
-			c_nuernberg = { # 256
-				color={ 208 192 160 }
-				color2={ 255 255 255 }
-				
-				b_nuernberg = {
-				}
-				b_fuerth = {
-				}
-				b_erlangen = {
-				}
-				b_zirndorf = {
-				}
-				b_ansbach = {
-				}
-			}
-			c_aschaffenburg = { # 257
-				color={ 144 64 160 }
-				color2={ 255 255 255 }
-				
-				b_aschaffenburg = {
-				}
-				b_lohr = {
-				}
-				b_wertheim = {
-				}
-				b_karlstadt = {
-				}
-			}
-			c_oberfranken = { # 259
-				color={ 208 65 160 }
-				color2={ 255 255 255 }
-				
-				b_bayreuth = {
-				}
-				b_forchein = {
-				}
-				b_bamberg = {
-				}
-				b_coberg = {
-				}
-			}
-			c_wuerzburg = { # 258
-				color={ 81 192 160 }
-				color2={ 255 255 255 }
-				
-				b_wuerzburg = {
-				}
-				b_kitzingen = {
-				}
-				b_schweinfurt = {
-				}
-				b_bad_kissingen = {
-				}
-				b_ochsenfurt = {
-				}
-			}
-		}
-	}
-	k_hannover = {
-		color={ 135 45 160 }
-		color2={ 255 255 255 }
-		
-		capital = 268 # c_hannover
-		culture = german
-		
-		d_hannover = {
-			color={ 115 65 150 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 268 province_id = 269 province_id = 270 province_id = 271 } }
-				}
-			}
-			capital = 268 # c_hannover
-			
-			c_hannover = { # 268
-				color={ 105 75 145 }
-				color2={ 255 255 255 }
-				
-				b_hannover = {
-				}
-				b_hildesheim = {
-				}
-				b_laatzen = {
-				}
-				b_garbsen = {
-				}
-				b_burgdorf = {
-				}
-				b_wedemark = {
-				}
-			}
-			c_braunschweig = { # 270
-				color={ 33 128 224 }
-				color2={ 255 255 255 }
-				
-				b_braunschweig = {
-				}
-				b_wolfsburg = {
-				}
-				b_gifhorn = {
-				}
-				b_wolfenbuettal = {
-				}
-				b_slazgitter = {
-				}
-			}
-			c_goettingen = { # 271
-				color={ 160 1 224 }
-				color2={ 255 255 255 }
-				
-				b_goettingen = {
-				}
-				b_duderstadt = {
-				}
-				b_northeim = {
-				}
-				b_einbeck = {
-				}
-				b_holzminden = {
-				}
-			}
-			c_nienburg = { # 269
-				color={ 191 0 223 }
-				color2={ 255 255 255 }
-				
-				b_nienburg = {
-				}
-				b_neustadt = {
-				}
-				b_wunstorf = {
-				}
-				b_stadthagen = {
-				}
-			}
-		}
-		d_niederelbe = {
-			color={ 75 118 102 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 273 province_id = 274 } }
-				}
-			}
-			capital = 273 # c_stade
-			
-			c_stade = { # 273
-				color={ 65 128 97 }
-				color2={ 255 255 255 }
-				
-				b_stade = {
-				}
-				b_cuxhaven = {
-				}
-				b_buxtehude = {
-				}
-				b_nordenham = {
-				}
-			}
-			c_lueneburg = { # 274
-				color={ 192 128 224 }
-				color2={ 255 255 255 }
-				
-				b_lueneburg = {
-				}
-				b_soltau = {
-				}
-				b_uelzen = {
-				}
-			}
-		}
-		d_oldenburg = {
-			color={ 202 247 102 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 277 province_id = 278 } }
-				}
-			}
-			capital = 277 # c_oldenburg
-			
-			c_oldenburg = { # 277
-				color={ 192 1 97 }
-				color2={ 255 255 255 }
-				
-				b_oldenburg = {
-				}
-				b_wilhelmshaven = {
-				}
-				b_varel = {
-				}
-			}
-			c_cloppenburg = { # 278
-				color={ 65 1 224 }
-				color2={ 255 255 255 }
-				
-				b_cloppenburg = {
-				}
-				b_vechta = {
-				}
-				b_lohne = {
-				}
-			}
-		}
-		d_ostfriesland = {
-			color={ 87 88 165 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 275 province_id = 276 province_id = 279 province_id = 280 } }
-				}
-			}
-			capital = 275 # c_osnabrueck
-			
-			c_osnabrueck = { # 275
-				color={ 77 98 160 }
-				color2={ 255 255 255 }
-				
-				b_osnabrueck = {
-				}
-				b_georgsmarienhutte = {
-				}
-				b_wallenhorst = {
-				}
-				b_bransche = {
-				}
-				b_ibbenbuergen = {
-				}
-				b_luebebecke = {
-				}
-			}
-			c_bremen = { # 276
-				color={ 192 128 97 }
-				color2={ 255 255 255 }
-				
-				b_bremen = {
-				}
-				b_bremerhaven = {
-				}
-				b_achim = {
-				}
-			}
-			c_emden = { # 280
-				color={ 120 75 142 }
-				color2={ 255 255 255 }
-				
-				b_emden = {
-				}
-				b_leer = {
-				}
-				b_moormerland = {
-				}
-				b_papenburg = {
-				}
-				b_aurich = {
-				}
-			}
-			c_lingen = { # 279
-				color={ 128 128 224 }
-				color2={ 255 255 255 }
-				
-				b_lingen = {
-				}
-				b_nordhorn = {
-				}
-				b_meppen = {
-				}
-				b_haren = {
-				}
-				b_haseluenne = {
-				}
-			}
-		}
-	}
-	k_sachsen = {
-		color={ 151 53 119 }
-		color2={ 255 255 255 }
-		
-		capital = 260 # c_dresden
-		culture = german
-		
-		d_sachsen = {
-			color={ 131 73 109 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 260 province_id = 261 province_id = 262 province_id = 263 } }
-				}
-			}
-			capital = 260 # c_dresden
-			
-			c_dresden = { # 260
-				color={ 121 83 104 }
-				color2={ 255 255 255 }
-				
-				b_dresden = {
-				}
-				b_coswig = {
-				}
-				b_frietal = {
-				}
-				b_pirna = {
-				}
-				b_meissen = {
-				}
-				b_riesa = {
-				}
-				b_radebeul = {
-				}
-			}
-			c_chemnitz = { # 262
-				color={ 49 224 192 }
-				color2={ 255 255 255 }
-				
-				b_chemnitz = {
-				}
-				b_zwickau = {
-				}
-				b_plauen = {
-				}
-				b_freiberg = {
-				}
-				b_aue = {
-				}
-			}
-			c_leipzig = { # 261
-				color={ 175 223 191 }
-				color2={ 255 255 255 }
-				
-				b_leipzig = {
-				}
-				b_torgau = {
-				}
-				b_borna = {
-				}
-				b_eilenburg = {
-				}
-				b_delitzsch = {
-				}
-				b_markkleeberg = {
-				}
-			}
-			c_oberlausitz = { # 263
-				color={ 97 65 33 }
-				color2={ 255 255 255 }
-				
-				b_goerlitz = {
-				}
-				b_bautzen = {
-				}
-				b_hoyerswerda = {
-				}
-				b_wiesswassel = {
-				}
-				b_niesky = {
-				}
-			}
-		}
-		d_anhalt = {
-			color={ 150 138 219 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 229 province_id = 230 province_id = 231 province_id = 232 } }
-				}
-			}
-			capital = 229 # c_magdeburg
-			
-			c_magdeburg = { # 229
-				color={ 160 128 224 }
-				color2={ 255 255 255 }
-				
-				b_magdeburg = {
-				}
-				b_burg = {
-				}
-				b_haldensleben = {
-				}
-				b_schoenebeck = {
-				}
-				b_wolmirstedt = {
-				}
-			}
-			c_altmark = { # 232
-				color={ 224 192 160 }
-				color2={ 255 255 255 }
-				
-				b_stendal = {
-				}
-				b_salzwedel = {
-				}
-				b_gardelegen = {
-				}
-			}
-			c_dessau = { # 230
-				color={ 138 68 140 }
-				color2={ 255 255 255 }
-				
-				b_dessau = {
-				}
-				b_lutherstadt_wittenburg = {
-				}
-				b_wolfen = {
-				}
-				b_bernburg = {
-				}
-				b_koethen = {
-				}
-			}
-			c_halle = { # 231
-				color={ 207 93 142 }
-				color2={ 255 255 255 }
-				
-				b_halle = {
-				}
-				b_merseburg = {
-				}
-				b_weissenfels = {
-				}
-				b_naumburg = {
-				}
-			}
-		}
-		d_thueringen = {
-			color={ 107 118 102 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 264 province_id = 265 province_id = 266 province_id = 267 } }
-				}
-			}
-			capital = 264 # c_erfurt
-			
-			c_erfurt = { # 264
-				color={ 97 128 97 }
-				color2={ 255 255 255 }
-				
-				b_erfurt = {
-				}
-				b_muehlhausen = {
-				}
-				b_sondershausen = {
-				}
-				b_nordhausen = {
-				}
-				b_artern = {
-				}
-			}
-			c_gotha = { # 266
-				color={ 208 192 33 }
-				color2={ 255 255 255 }
-				
-				b_gotha = {
-				}
-				b_arnstadt = {
-				}
-				b_ilmenau = {
-				}
-				b_bad_salzungen = {
-				}
-			}
-			c_meiningen = { # 267
-				color={ 81 65 160 }
-				color2={ 255 255 255 }
-				
-				b_meiningen = {
-				}
-				b_suhl = {
-				}
-				b_zella_mehlis = {
-				}
-				b_schmalkalden = {
-				}
-				b_hildburghausen = {
-				}
-				b_eisfeld = {
-				}
-			}
-			c_weimar = { # 265
-				color={ 81 192 33 }
-				color2={ 255 255 255 }
-				
-				b_weimar = {
-				}
-				b_jena = {
-				}
-				b_gena = {
-				}
-				b_saalfeld = {
-				}
-				b_rudolstadt = {
-				}
-			}
-		}
-	}
-	k_schleswig_holstein = {
-		color={ 158 35 111 }
-		color2={ 255 255 255 }
-		
-		capital = 300 # c_kiel
-		culture = german
-		
-		d_holstein = {
-			color={ 138 55 101 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 300 province_id = 301 province_id = 302 } }
-				}
-			}
-			capital = 300 # c_kiel
-			
-			c_kiel = { # 300
-				color={ 128 65 96 }
-				color2={ 255 255 255 }
-				
-				b_kiel = {
-				}
-				b_neumuenster = {
-				}
-				b_rendsburg = {
-				}
-				b_echernfoerde = {
-				}
-				b_itzehoe = {
-				}
-			}
-			c_lauenburg = { # 301
-				color={ 224 0 160 }
-				color2={ 255 255 255 }
-				
-				b_lauenburg = {
-				}
-				b_norderstedt = {
-				}
-				b_ahrensburg = {
-				}
-				b_reinbeck = {
-				}
-			}
-			c_luebeck = { # 302
-				color={ 96 128 159 }
-				color2={ 255 255 255 }
-				
-				b_luebeck = {
-				}
-				b_bad_schwartau = {
-				}
-				b_bad_oldesloe = {
-				}
-				b_neuestadt = {
-				}
-				b_segeburg = {
-				}
-				b_bargteheide = {
-				}
-			}
-		}
-		d_hamburg = {
-			color={ 98 104 156 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 272 } }
-				}
-			}
-			capital = 272 # c_hamburg
-			
-			c_hamburg = { # 272
-				color={ 88 114 151 }
-				color2={ 255 255 255 }
-				
-				b_hamburg = {
-				}
-				b_seevetal = {
-				}
-				b_harburg = {
-				}
-				b_wedel = {
-				}
-				b_pinneberg = {
-				}
-				b_bergedorf = {
-				}
-				b_barmstedt = {
-				}
-			}
-		}
-		d_schleswig = {
-			color={ 10 182 101 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 303 province_id = 304 } }
-				}
-			}
-			capital = 303 # c_flensburg
-			
-			c_flensburg = { # 303
-				color={ 0 192 96 }
-				color2={ 255 255 255 }
-				
-				b_flensburg = {
-				}
-				b_schleswig = {
-				}
-				b_husum = {
-				}
-				b_kappeln = {
-				}
-			}
-			c_aabenraa = { # 304
-				color={ 128 192 97 }
-				color2={ 255 255 255 }
-				
-				b_aabenraa = {
-				}
-				b_sonderborg = {
-				}
-				b_haderslev = {
-				}
-			}
-		}
-	}
-	k_schwaben = {
-		color={ 47 98 111 }
-		color2={ 255 255 255 }
-		
-		capital = 305 # c_stuttgart
-		culture = german
-		
-		d_wuerttemberg = {
-			color={ 27 118 101 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 305 province_id = 306 province_id = 307 province_id = 308 } }
-				}
-			}
-			capital = 305 # c_stuttgart
-			
-			c_stuttgart = { # 305
-				color={ 17 128 96 }
-				color2={ 255 255 255 }
-				
-				b_stuttgart = {
-				}
-				b_sindelfingen = {
-				}
-				b_esslingen = {
-				}
-				b_waiblingen = {
-				}
-				b_ludwigsburg = {
-				}
-			}
-			c_hohenlohe = { # 306
-				color={ 16 0 96 }
-				color2={ 255 255 255 }
-				
-				b_heilbronn = {
-				}
-				b_vaihingen = {
-				}
-				b_oehringen = {
-				}
-				b_crailsheim = {
-				}
-				b_mosbach = {
-				}
-			}
-			c_tuebingen = { # 307
-				color={ 143 0 96 }
-				color2={ 255 255 255 }
-				
-				b_tuebingen = {
-				}
-				b_reutlingen = {
-				}
-				b_rottenburg = {
-				}
-				b_bailingen = {
-				}
-			}
-			c_ulm = { # 308
-				color={ 219 184 76 }
-				color2={ 255 255 255 }
-				
-				b_ulm = {
-				}
-				b_biberach = {
-				}
-				b_friedrichshafen = {
-				}
-				b_wangen = {
-				}
-				b_ehingen = {
-				}
-			}
-		}
-		d_alsace_lorraine = {
-			color={ 120 62 150 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 310 province_id = 311 province_id = 312 } }
-				}
-			}
-			capital = 310 # c_strasbourg
-			
-			c_strasbourg = { # 310
-				color={ 110 72 145 }
-				color2={ 255 255 255 }
-				
-				b_strasbourg = {
-				}
-				b_kehl = {
-				}
-				b_graffenstaden = {
-				}
-				b_haguenau = {
-				}
-				b_schiltigheim = {
-				}
-			}
-			c_colmar = { # 311
-				color={ 176 0 224 }
-				color2={ 255 255 255 }
-				
-				b_colmar = {
-				}
-				b_wittenheim = {
-				}
-				b_mulhouse = {
-				}
-				b_guebwiller = {
-				}
-			}
-			c_metz = { # 312
-				color={ 240 192 160 }
-				color2={ 255 255 255 }
-				
-				b_metz = {
-				}
-				b_hagondange = {
-				}
-				b_thionville = {
-				}
-				b_sarreguemines = {
-				}
-				b_wioppy = {
-				}
-			}
-		}
-		d_baden = {
-			color={ 186 247 101 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 313 province_id = 314 province_id = 315 province_id = 316 } }
-				}
-			}
-			capital = 313 # c_baden
-			
-			c_baden = { # 313
-				color={ 176 1 96 }
-				color2={ 255 255 255 }
-				
-				b_karlsruhe = {
-				}
-				b_pforzheim = {
-				}
-				b_rastatt = {
-				}
-				b_weingarten = {
-				}
-				b_buehl = {
-				}
-			}
-			c_breisgau = { # 315
-				color={ 176 128 97 }
-				color2={ 255 255 255 }
-				
-				b_freiburg = {
-				}
-				b_lahr = {
-				}
-				b_offenburg = {
-				}
-				b_kehl_2 = {
-				}
-				b_loerrach = {
-				}
-			}
-			c_fuerstenberg = { # 316
-				color={ 174 186 42 }
-				color2={ 255 255 255 }
-				
-				b_konstanz = {
-				}
-				b_radolfzell = {
-				}
-				b_donaueschingen = {
-				}
-				b_villingen_schwenningen = {
-				}
-				b_ueberlingen = {
-				}
-			}
-			c_pfalz = { # 314
-				color={ 49 128 97 }
-				color2={ 255 255 255 }
-				
-				b_mannheim = {
-				}
-				b_heidelburg = {
-				}
-				b_wiesloch = {
-				}
-				b_leimen = {
-				}
-				b_bruchsal = {
-				}
-			}
-		}
-		d_hohenzollern = {
-			color={ 154 118 101 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 309 } }
-				}
-			}
-			capital = 309 # c_hohenzollern
-			
-			c_hohenzollern = { # 309
-				color={ 144 128 96 }
-				color2={ 255 255 255 }
-				
-				b_sigmaringen = {
-				}
-				b_ebingen = {
-				}
-				b_tuttlingen = {
-				}
-				b_messkirch = {
-				}
-			}
-		}
-		d_luxemburg = {
-			color={ 91 118 165 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 294 } }
-				}
-			}
-			capital = 294 # c_luxemburg
-			
-			c_luxemburg = { # 294
-				color={ 81 128 160 }
-				color2={ 255 255 255 }
-				
-				b_betzdorf = {
-				}
-				b_luxemburg = {
-				}
-				b_mersch = {
-				}
-				b_esch_sur_alzette = {
-				}
-				b_differdagne = {
-				}
-				b_ettelbruck = {
-				}
-			}
-		}
-		d_rheinland_pfalz = {
-			color={ 154 182 37 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 317 province_id = 318 province_id = 319 province_id = 320 } }
-				}
-			}
-			capital = 317 # c_mainz
-			
-			c_mainz = { # 317
-				color={ 144 192 32 }
-				color2={ 255 255 255 }
-				
-				b_mainz = {
-				}
-				b_riedstadt = {
-				}
-				b_gernsheim = {
-				}
-				b_alzey = {
-				}
-				b_simmern = {
-				}
-			}
-			c_kaiserlautern = { # 318
-				color={ 17 192 33 }
-				color2={ 255 255 255 }
-				
-				b_kaiserlautern = {
-				}
-				b_landau = {
-				}
-				b_zweibruecken = {
-				}
-				b_worms = {
-				}
-				b_annweiler = {
-				}
-			}
-			c_kreuznach = { # 319
-				color={ 93 122 104 }
-				color2={ 255 255 255 }
-				
-				b_kreuznach = {
-				}
-				b_idar_oberstein = {
-				}
-				b_nohfelden = {
-				}
-				b_kirn = {
-				}
-			}
-			c_trier = { # 320
-				color={ 208 128 160 }
-				color2={ 255 255 255 }
-				
-				b_trier = {
-				}
-				b_morbach = {
-				}
-				b_bitburg = {
-				}
-				b_konz = {
-				}
-			}
-		}
-		d_saarland = {
-			color={ 154 54 37 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 321 } }
-				}
-			}
-			capital = 321 # c_saarland
-			
-			c_saarland = { # 321
-				color={ 144 64 32 }
-				color2={ 255 255 255 }
-				
-				b_saarbruecken = {
-				}
-				b_sulzbach = {
-				}
-				b_blieskastel = {
-				}
-				b_puttlingen = {
-				}
-				b_saarlouis = {
-				}
-				b_merzig = {
-				}
-			}
-		}
-	}
-	k_westfalen = {
-		color={ 63 227 239 }
-		color2={ 255 255 255 }
-		
-		capital = 281 # c_duesseldorf
-		culture = german
-		
-		d_duesseldorf = {
-			color={ 43 247 229 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 281 province_id = 282 } }
-				}
-			}
-			capital = 281 # c_duesseldorf
-			
-			c_duesseldorf = { # 281
-				color={ 33 1 224 }
-				color2={ 255 255 255 }
-				
-				b_duesseldorf = {
-				}
-				b_bochen = {
-				}
-				b_wuppertal = {
-				}
-				b_essen = {
-				}
-				b_velbert = {
-				}
-				b_grevenbroich = {
-				}
-				b_remscheild = {
-				}
-			}
-			c_kleve = { # 282
-				color={ 128 1 224 }
-				color2={ 255 255 255 }
-				
-				b_kleve = {
-				}
-				b_krefeld = {
-				}
-				b_duisburg = {
-				}
-				b_moenchen = {
-				}
-				b_vierson = {
-				}
-			}
-		}
-		d_amsberg = {
-			color={ 75 118 38 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 285 province_id = 287 } }
-				}
-			}
-			capital = 285 # c_siegen
-			
-			c_siegen = { # 285
-				color={ 65 128 33 }
-				color2={ 255 255 255 }
-				
-				b_siegen = {
-				}
-				b_kreuztal = {
-				}
-				b_haiger = {
-				}
-				b_dillenburg = {
-				}
-				b_marburg = {
-				}
-				b_herborn = {
-				}
-			}
-			c_koblenz = { # 287
-				color={ 81 1 160 }
-				color2={ 255 255 255 }
-				
-				b_koblenz = {
-				}
-				b_neuwied = {
-				}
-				b_andernach = {
-				}
-				b_wielburg = {
-				}
-				b_bad_honhef = {
-				}
-			}
-		}
-		d_detmold = {
-			color={ 169 246 101 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 288 province_id = 289 } }
-				}
-			}
-			capital = 288 # c_detmold
-			
-			c_detmold = { # 288
-				color={ 159 0 96 }
-				color2={ 255 255 255 }
-				
-				b_detmold = {
-				}
-				b_bad_salzuflen = {
-				}
-				b_herfoerd = {
-				}
-				b_hoexter = {
-				}
-				b_bad_oeynhausen = {
-				}
-				b_buende = {
-				}
-			}
-			c_minden = { # 289
-				color={ 33 128 97 }
-				color2={ 255 255 255 }
-				
-				b_minden = {
-				}
-				b_bielefeld = {
-				}
-				b_paderborn = {
-				}
-				b_guetersloh = {
-				}
-				b_delbrueck = {
-				}
-			}
-		}
-		d_hessen = {
-			color={ 27 182 165 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 286 province_id = 290 province_id = 295 province_id = 296 province_id = 297 province_id = 298 province_id = 299 } }
-				}
-			}
-			capital = 290 # c_frankfurt
-			
-			c_frankfurt = { # 290
-				color={ 17 192 160 }
-				color2={ 255 255 255 }
-				
-				b_frankfurt = {
-				}
-				b_offenbach = {
-				}
-				b_holfheim = {
-				}
-				b_oberursel = {
-				}
-				b_maintal = {
-				}
-				b_dreieich = {
-				}
-				b_langen = {
-				}
-			}
-			c_darmstadt = { # 299
-				color={ 17 65 160 }
-				color2={ 255 255 255 }
-				
-				b_darmstadt = {
-				}
-				b_bensheim = {
-				}
-				b_griesheim = {
-				}
-				b_pfungstadt = {
-				}
-				b_lampertheim = {
-				}
-				b_weinheim = {
-				}
-			}
-			c_fulda = { # 298
-				color={ 208 65 33 }
-				color2={ 255 255 255 }
-				
-				b_fulda = {
-				}
-				b_gelnhausen = {
-				}
-				b_mellrichstadt = {
-				}
-				b_schluechtern = {
-				}
-				b_huenfeld = {
-				}
-			}
-			c_giessen = { # 297
-				color={ 139 124 103 }
-				color2={ 255 255 255 }
-				
-				b_giessen = {
-				}
-				b_wetzlar = {
-				}
-				b_weilburg = {
-				}
-				b_butzbach = {
-				}
-				b_kirchhain = {
-				}
-			}
-			c_kassel = { # 296
-				color={ 192 128 32 }
-				color2={ 255 255 255 }
-				
-				b_kassel = {
-				}
-				b_baunatal = {
-				}
-				b_eschwege = {
-				}
-				b_warburg = {
-				}
-				b_vellmar = {
-				}
-			}
-			c_korbach = { # 286
-				color={ 65 1 160 }
-				color2={ 255 255 255 }
-				
-				b_korbach = {
-				}
-				b_frankenburg = {
-				}
-				b_stadtallendorf = {
-				}
-				b_bad_berleburg = {
-				}
-				b_arolsen = {
-				}
-			}
-			c_wiesbaden = { # 295
-				color={ 144 192 160 }
-				color2={ 255 255 255 }
-				
-				b_wiesbaden = {
-				}
-				b_boppard = {
-				}
-				b_ruesselsheim = {
-				}
-				b_limburg = {
-				}
-				b_eltville = {
-				}
-				b_bingen = {
-				}
-			}
-		}
-		d_koeln = {
-			color={ 91 118 38 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 291 province_id = 292 province_id = 293 } }
-				}
-			}
-			capital = 291 # c_koeln
-			
-			c_koeln = { # 291
-				color={ 81 128 33 }
-				color2={ 255 255 255 }
-				
-				b_koeln = {
-				}
-				b_berg = {
-				}
-				b_mark = {
-				}
-				b_bonn = {
-				}
-				b_dietz = {
-				}
-				b_saffenburg = {
-				}
-				b_hochstaden = {
-				}
-				b_brauwiler = {
-				}
-			}
-			c_aachen = { # 292
-				color={ 131 75 102 }
-				color2={ 255 255 255 }
-				
-				b_aachen = {
-				}
-				b_stolberg = {
-				}
-				b_kerkrade = {
-				}
-				b_heinsberg = {
-				}
-			}
-			c_siegburg = { # 293
-				color={ 208 128 33 }
-				color2={ 255 255 255 }
-				
-				b_siegburg = {
-				}
-				b_st_augusten = {
-				}
-				b_troisdorf = {
-				}
-				b_waldbrol = {
-				}
-			}
-		}
-		d_muenster = {
-			color={ 11 118 229 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 283 province_id = 284 } }
-				}
-			}
-			capital = 283 # c_muenster
-			
-			c_muenster = { # 283
-				color={ 1 128 224 }
-				color2={ 255 255 255 }
-				
-				b_muenster = {
-				}
-				b_marl = {
-				}
-				b_dorsten = {
-				}
-				b_recklinghausen = {
-				}
-				b_coesfeld = {
-				}
-			}
-			c_dortmund = { # 284
-				color={ 160 128 97 }
-				color2={ 255 255 255 }
-				
-				b_dortmund = {
-				}
-				b_hamm = {
-				}
-				b_bergkamen = {
-				}
-				b_unna = {
-				}
-				b_ahlen = {
-				}
-				b_luenen = {
 				}
 			}
 		}
@@ -6567,6 +4682,1904 @@ e_france = {
 				b_lorient = {
 				}
 				b_hennebont = {
+				}
+			}
+		}
+	}
+}
+e_germany = {
+	color={ 91 217 148 }
+	color2={ 255 255 20 }
+	
+	capital = 225 # c_berlin
+	culture = german
+	
+	k_preussen = {
+		color={ 101 207 153 }
+		color2={ 255 255 255 }
+		
+		capital = 225 # c_berlin
+		culture = german
+		
+		d_brandenburg = {
+			color={ 121 187 163 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 225 province_id = 226 province_id = 227 province_id = 228 } }
+				}
+			}
+			capital = 225 # c_berlin
+			
+			c_berlin = { # 225
+				color={ 131 177 168 }
+				color2={ 255 255 255 }
+				
+				b_berliner_stadtschloss = {
+				}
+				b_berlin = {
+				}
+				b_potsdam = {
+				}
+				b_hennigsdorf = {
+				}
+				b_falkensee = {
+				}
+				b_hennigsdorf_2 = {
+				}
+				b_teltow = {
+				}
+			}
+			c_niederlausitz = { # 228
+				color={ 223 64 32 }
+				color2={ 255 255 255 }
+				
+				b_cottbus = {
+				}
+				b_forst = {
+				}
+				b_guben = {
+				}
+				b_finsterwalde = {
+				}
+				b_senftenburg = {
+				}
+				b_lauchhammer = {
+				}
+			}
+			c_prignitz = { # 227
+				color={ 97 192 160 }
+				color2={ 255 255 255 }
+				
+				b_wittenberge = {
+				}
+				b_perleberg = {
+				}
+				b_neuruppin = {
+				}
+				b_rathenow = {
+				}
+			}
+			c_uckermark = { # 226
+				color={ 160 64 160 }
+				color2={ 255 255 255 }
+				
+				b_prenzlau = {
+				}
+				b_schwedt = {
+				}
+				b_eberswalde_finow = {
+				}
+				b_strausberg = {
+				}
+				b_fuerstenwalde = {
+				}
+			}
+		}
+		d_mecklenburg_vorpommern = {
+			color={ 214 138 155 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 233 province_id = 234 province_id = 235 province_id = 236 } }
+				}
+			}
+			capital = 233 # c_schwerin
+			
+			c_schwerin = { # 233
+				color={ 224 128 160 }
+				color2={ 255 255 255 }
+				
+				b_schwerin = {
+				}
+				b_parchim = {
+				}
+				b_wismar = {
+				}
+				b_hagenow = {
+				}
+			}
+			c_neustrelitz = { # 234
+				color={ 224 65 160 }
+				color2={ 255 255 255 }
+				
+				b_neustrelitz = {
+				}
+				b_waren = {
+				}
+				b_neubrandenburg = {
+				}
+				b_roebel = {
+				}
+			}
+			c_stralsund = { # 235
+				color={ 86 116 82 }
+				color2={ 255 255 255 }
+				
+				b_stralsund = {
+				}
+				b_rostock = {
+				}
+				b_greifswald = {
+				}
+				b_barth = {
+				}
+			}
+			c_swinemuende = { # 236
+				color={ 160 65 33 }
+				color2={ 255 255 255 }
+				
+				b_swinemuende = {
+				}
+				b_wolgast = {
+				}
+				b_griefswald = {
+				}
+				b_pasewalk = {
+				}
+			}
+		}
+		d_ostpreussen = {
+			color={ 75 23 165 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 237 province_id = 238 province_id = 239 province_id = 240 province_id = 241 province_id = 242 } }
+				}
+			}
+			capital = 237 # c_koenigsberg
+			
+			c_koenigsberg = { # 237
+				color={ 65 33 160 }
+				color2={ 255 255 255 }
+				
+				b_koenigsberg = {
+				}
+				b_baltiysk = {
+				}
+				b_gvardeysk = {
+				}
+				b_zelenogradsk = {
+				}
+			}
+			c_allenstein = { # 241
+				color={ 191 159 32 }
+				color2={ 255 255 255 }
+				
+				b_allenstein = {
+				}
+				b_bartoszyce = {
+				}
+				b_ostroda = {
+				}
+				b_orneta = {
+				}
+			}
+			c_danzig = { # 239
+				color={ 128 160 160 }
+				color2={ 255 255 255 }
+				
+				b_danzig = {
+				}
+				b_gdynia = {
+				}
+				b_tczew = {
+				}
+				b_sopot = {
+				}
+				b_pruszcz_gdanski = {
+				}
+				b_starogard_gdanski = {
+				}
+				b_kwidzyn = {
+				}
+			}
+			c_elbing = { # 240
+				color={ 122 96 97 }
+				color2={ 255 255 255 }
+				
+				b_elbing = {
+				}
+				b_malbork = {
+				}
+				b_sztum = {
+				}
+				b_paslek = {
+				}
+			}
+			c_gumbinnen = { # 242
+				color={ 192 32 160 }
+				color2={ 255 255 255 }
+				
+				b_gumbinnen = {
+				}
+				b_chernyakhovsk = {
+				}
+				b_sovetsk = {
+				}
+				b_ozersk = {
+				}
+			}
+			c_memel = { # 238
+				color={ 64 160 160 }
+				color2={ 255 255 255 }
+				
+				b_memel = {
+				}
+				b_silute = {
+				}
+				b_gargzadai = {
+				}
+				b_giruliai = {
+				}
+				b_nida = {
+				}
+			}
+		}
+		d_pommern = {
+			color={ 35 164 30 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 243 province_id = 244 province_id = 245 province_id = 246 } }
+				}
+			}
+			capital = 243 # c_stettin
+			
+			c_stettin = { # 243
+				color={ 25 174 25 }
+				color2={ 255 255 255 }
+				
+				b_stettin = {
+				}
+				b_wolin = {
+				}
+				b_police = {
+				}
+				b_goleniow = {
+				}
+				b_gryfino = {
+				}
+			}
+			c_koeslin = { # 245
+				color={ 128 1 160 }
+				color2={ 255 255 255 }
+				
+				b_koeslin = {
+				}
+				b_ustka = {
+				}
+				b_slupsk = {
+				}
+				b_slawno = {
+				}
+			}
+			c_kolberg = { # 244
+				color={ 160 192 32 }
+				color2={ 255 255 255 }
+				
+				b_kolberg = {
+				}
+				b_bialogard = {
+				}
+				b_karlino = {
+				}
+				b_swidwin = {
+				}
+			}
+			c_kuestrin = { # 246
+				color={ 96 191 32 }
+				color2={ 255 255 255 }
+				
+				b_kuestrin = {
+				}
+				b_gorzow_wielkopolski = {
+				}
+				b_zielona_gora = {
+				}
+				b_zary = {
+				}
+			}
+		}
+		d_silesia = {
+			color={ 120 87 132 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 247 province_id = 248 province_id = 249 province_id = 250 } }
+				}
+			}
+			capital = 247 # c_breslau
+			
+			c_breslau = { # 247
+				color={ 110 97 127 }
+				color2={ 255 255 255 }
+				
+				b_breslau = {
+				}
+				b_lubin = {
+				}
+				b_glogow = {
+				}
+				b_olesnica = {
+				}
+			}
+			c_kattowitz = { # 250
+				color={ 94 144 145 }
+				color2={ 255 255 255 }
+				
+				b_kattowitz = {
+				}
+				b_gliwice = {
+				}
+				b_zabrze = {
+				}
+				b_bytom = {
+				}
+				b_sosnowiec = {
+				}
+				b_chorzow = {
+				}
+			}
+			c_liegnitz = { # 248
+				color={ 192 1 33 }
+				color2={ 255 255 255 }
+				
+				b_liegnitz = {
+				}
+				b_walbrzych = {
+				}
+				b_kamienna = {
+				}
+				b_swidnica = {
+				}
+			}
+			c_oppeln = { # 249
+				color={ 175 159 32 }
+				color2={ 255 255 255 }
+				
+				b_oppeln = {
+				}
+				b_krapowice = {
+				}
+				b_kedzierzyn_kozle = {
+				}
+				b_prudnik = {
+				}
+				b_brzeg = {
+				}
+			}
+		}
+	}
+	k_bayern = {
+		color={ 206 227 48 }
+		color2={ 255 255 255 }
+		
+		capital = 251 # c_muenchen
+		culture = german
+		
+		d_bayern = {
+			color={ 186 247 38 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 251 province_id = 252 province_id = 253 province_id = 254 } }
+				}
+			}
+			capital = 251 # c_muenchen
+			
+			c_muenchen = { # 251
+				color={ 176 1 33 }
+				color2={ 255 255 255 }
+				
+				b_muenchen = {
+				}
+				b_erding = {
+				}
+				b_friesing = {
+				}
+				b_germening = {
+				}
+				b_starnsburg = {
+				}
+				b_olching = {
+				}
+			}
+			c_ingolstadt = { # 253
+				color={ 49 128 33 }
+				color2={ 255 255 255 }
+				
+				b_ingolstadt = {
+				}
+				b_neuburg = {
+				}
+				b_pfaffenhofen = {
+				}
+				b_eichstaett = {
+				}
+				b_mainburg = {
+				}
+			}
+			c_niederbayern = { # 252
+				color={ 176 128 33 }
+				color2={ 255 255 255 }
+				
+				b_landshut = {
+				}
+				b_passau = {
+				}
+				b_deggendorf = {
+				}
+				b_straubing = {
+				}
+				b_plattling = {
+				}
+			}
+			c_oberpfalz = { # 254
+				color={ 49 1 160 }
+				color2={ 255 255 255 }
+				
+				b_regensburg = {
+				}
+				b_neumarkt = {
+				}
+				b_schwandorf = {
+				}
+				b_weiden = {
+				}
+				b_sulzbach_rosenburg = {
+				}
+			}
+		}
+		d_franken = {
+			color={ 198 202 155 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 256 province_id = 257 province_id = 258 province_id = 259 } }
+				}
+			}
+			capital = 256 # c_nuernberg
+			
+			c_nuernberg = { # 256
+				color={ 208 192 160 }
+				color2={ 255 255 255 }
+				
+				b_nuernberg = {
+				}
+				b_fuerth = {
+				}
+				b_erlangen = {
+				}
+				b_zirndorf = {
+				}
+				b_ansbach = {
+				}
+			}
+			c_aschaffenburg = { # 257
+				color={ 144 64 160 }
+				color2={ 255 255 255 }
+				
+				b_aschaffenburg = {
+				}
+				b_lohr = {
+				}
+				b_wertheim = {
+				}
+				b_karlstadt = {
+				}
+			}
+			c_oberfranken = { # 259
+				color={ 208 65 160 }
+				color2={ 255 255 255 }
+				
+				b_bayreuth = {
+				}
+				b_forchein = {
+				}
+				b_bamberg = {
+				}
+				b_coberg = {
+				}
+			}
+			c_wuerzburg = { # 258
+				color={ 81 192 160 }
+				color2={ 255 255 255 }
+				
+				b_wuerzburg = {
+				}
+				b_kitzingen = {
+				}
+				b_schweinfurt = {
+				}
+				b_bad_kissingen = {
+				}
+				b_ochsenfurt = {
+				}
+			}
+		}
+		d_schwaben = {
+			color={ 122 64 100 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 255 } }
+				}
+			}
+			capital = 255 # c_augsburg
+			
+			c_augsburg = { # 255
+				color={ 112 74 95 }
+				color2={ 255 255 255 }
+				
+				b_augsburg = {
+				}
+				b_neusaess = {
+				}
+				b_kempten = {
+				}
+				b_memmingen = {
+				}
+			}
+		}
+	}
+	k_hannover = {
+		color={ 135 45 160 }
+		color2={ 255 255 255 }
+		
+		capital = 268 # c_hannover
+		culture = german
+		
+		d_hannover = {
+			color={ 115 65 150 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 268 province_id = 269 province_id = 270 province_id = 271 } }
+				}
+			}
+			capital = 268 # c_hannover
+			
+			c_hannover = { # 268
+				color={ 105 75 145 }
+				color2={ 255 255 255 }
+				
+				b_hannover = {
+				}
+				b_hildesheim = {
+				}
+				b_laatzen = {
+				}
+				b_garbsen = {
+				}
+				b_burgdorf = {
+				}
+				b_wedemark = {
+				}
+			}
+			c_braunschweig = { # 270
+				color={ 33 128 224 }
+				color2={ 255 255 255 }
+				
+				b_braunschweig = {
+				}
+				b_wolfsburg = {
+				}
+				b_gifhorn = {
+				}
+				b_wolfenbuettal = {
+				}
+				b_slazgitter = {
+				}
+			}
+			c_goettingen = { # 271
+				color={ 160 1 224 }
+				color2={ 255 255 255 }
+				
+				b_goettingen = {
+				}
+				b_duderstadt = {
+				}
+				b_northeim = {
+				}
+				b_einbeck = {
+				}
+				b_holzminden = {
+				}
+			}
+			c_nienburg = { # 269
+				color={ 191 0 223 }
+				color2={ 255 255 255 }
+				
+				b_nienburg = {
+				}
+				b_neustadt = {
+				}
+				b_wunstorf = {
+				}
+				b_stadthagen = {
+				}
+			}
+		}
+		d_niederelbe = {
+			color={ 75 118 102 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 273 province_id = 274 } }
+				}
+			}
+			capital = 273 # c_stade
+			
+			c_stade = { # 273
+				color={ 65 128 97 }
+				color2={ 255 255 255 }
+				
+				b_stade = {
+				}
+				b_cuxhaven = {
+				}
+				b_buxtehude = {
+				}
+				b_nordenham = {
+				}
+			}
+			c_lueneburg = { # 274
+				color={ 192 128 224 }
+				color2={ 255 255 255 }
+				
+				b_lueneburg = {
+				}
+				b_soltau = {
+				}
+				b_uelzen = {
+				}
+			}
+		}
+		d_oldenburg = {
+			color={ 202 247 102 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 277 province_id = 278 } }
+				}
+			}
+			capital = 277 # c_oldenburg
+			
+			c_oldenburg = { # 277
+				color={ 192 1 97 }
+				color2={ 255 255 255 }
+				
+				b_oldenburg = {
+				}
+				b_wilhelmshaven = {
+				}
+				b_varel = {
+				}
+			}
+			c_cloppenburg = { # 278
+				color={ 65 1 224 }
+				color2={ 255 255 255 }
+				
+				b_cloppenburg = {
+				}
+				b_vechta = {
+				}
+				b_lohne = {
+				}
+			}
+		}
+		d_ostfriesland = {
+			color={ 87 88 165 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 275 province_id = 276 province_id = 279 province_id = 280 } }
+				}
+			}
+			capital = 275 # c_osnabrueck
+			
+			c_osnabrueck = { # 275
+				color={ 77 98 160 }
+				color2={ 255 255 255 }
+				
+				b_osnabrueck = {
+				}
+				b_georgsmarienhutte = {
+				}
+				b_wallenhorst = {
+				}
+				b_bransche = {
+				}
+				b_ibbenbuergen = {
+				}
+				b_luebebecke = {
+				}
+			}
+			c_bremen = { # 276
+				color={ 192 128 97 }
+				color2={ 255 255 255 }
+				
+				b_bremen = {
+				}
+				b_bremerhaven = {
+				}
+				b_achim = {
+				}
+			}
+			c_emden = { # 280
+				color={ 120 75 142 }
+				color2={ 255 255 255 }
+				
+				b_emden = {
+				}
+				b_leer = {
+				}
+				b_moormerland = {
+				}
+				b_papenburg = {
+				}
+				b_aurich = {
+				}
+			}
+			c_lingen = { # 279
+				color={ 128 128 224 }
+				color2={ 255 255 255 }
+				
+				b_lingen = {
+				}
+				b_nordhorn = {
+				}
+				b_meppen = {
+				}
+				b_haren = {
+				}
+				b_haseluenne = {
+				}
+			}
+		}
+	}
+	k_sachsen = {
+		color={ 151 53 119 }
+		color2={ 255 255 255 }
+		
+		capital = 260 # c_dresden
+		culture = german
+		
+		d_sachsen = {
+			color={ 131 73 109 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 260 province_id = 261 province_id = 262 province_id = 263 } }
+				}
+			}
+			capital = 260 # c_dresden
+			
+			c_dresden = { # 260
+				color={ 121 83 104 }
+				color2={ 255 255 255 }
+				
+				b_dresden = {
+				}
+				b_coswig = {
+				}
+				b_frietal = {
+				}
+				b_pirna = {
+				}
+				b_meissen = {
+				}
+				b_riesa = {
+				}
+				b_radebeul = {
+				}
+			}
+			c_chemnitz = { # 262
+				color={ 49 224 192 }
+				color2={ 255 255 255 }
+				
+				b_chemnitz = {
+				}
+				b_zwickau = {
+				}
+				b_plauen = {
+				}
+				b_freiberg = {
+				}
+				b_aue = {
+				}
+			}
+			c_leipzig = { # 261
+				color={ 175 223 191 }
+				color2={ 255 255 255 }
+				
+				b_leipzig = {
+				}
+				b_torgau = {
+				}
+				b_borna = {
+				}
+				b_eilenburg = {
+				}
+				b_delitzsch = {
+				}
+				b_markkleeberg = {
+				}
+			}
+			c_oberlausitz = { # 263
+				color={ 97 65 33 }
+				color2={ 255 255 255 }
+				
+				b_goerlitz = {
+				}
+				b_bautzen = {
+				}
+				b_hoyerswerda = {
+				}
+				b_wiesswassel = {
+				}
+				b_niesky = {
+				}
+			}
+		}
+		d_anhalt = {
+			color={ 150 138 219 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 229 province_id = 230 province_id = 231 province_id = 232 } }
+				}
+			}
+			capital = 229 # c_magdeburg
+			
+			c_magdeburg = { # 229
+				color={ 160 128 224 }
+				color2={ 255 255 255 }
+				
+				b_magdeburg = {
+				}
+				b_burg = {
+				}
+				b_haldensleben = {
+				}
+				b_schoenebeck = {
+				}
+				b_wolmirstedt = {
+				}
+			}
+			c_altmark = { # 232
+				color={ 224 192 160 }
+				color2={ 255 255 255 }
+				
+				b_stendal = {
+				}
+				b_salzwedel = {
+				}
+				b_gardelegen = {
+				}
+			}
+			c_dessau = { # 230
+				color={ 138 68 140 }
+				color2={ 255 255 255 }
+				
+				b_dessau = {
+				}
+				b_lutherstadt_wittenburg = {
+				}
+				b_wolfen = {
+				}
+				b_bernburg = {
+				}
+				b_koethen = {
+				}
+			}
+			c_halle = { # 231
+				color={ 207 93 142 }
+				color2={ 255 255 255 }
+				
+				b_halle = {
+				}
+				b_merseburg = {
+				}
+				b_weissenfels = {
+				}
+				b_naumburg = {
+				}
+			}
+		}
+		d_thueringen = {
+			color={ 107 118 102 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 264 province_id = 265 province_id = 266 province_id = 267 } }
+				}
+			}
+			capital = 264 # c_erfurt
+			
+			c_erfurt = { # 264
+				color={ 97 128 97 }
+				color2={ 255 255 255 }
+				
+				b_erfurt = {
+				}
+				b_muehlhausen = {
+				}
+				b_sondershausen = {
+				}
+				b_nordhausen = {
+				}
+				b_artern = {
+				}
+			}
+			c_gotha = { # 266
+				color={ 208 192 33 }
+				color2={ 255 255 255 }
+				
+				b_gotha = {
+				}
+				b_arnstadt = {
+				}
+				b_ilmenau = {
+				}
+				b_bad_salzungen = {
+				}
+			}
+			c_meiningen = { # 267
+				color={ 81 65 160 }
+				color2={ 255 255 255 }
+				
+				b_meiningen = {
+				}
+				b_suhl = {
+				}
+				b_zella_mehlis = {
+				}
+				b_schmalkalden = {
+				}
+				b_hildburghausen = {
+				}
+				b_eisfeld = {
+				}
+			}
+			c_weimar = { # 265
+				color={ 81 192 33 }
+				color2={ 255 255 255 }
+				
+				b_weimar = {
+				}
+				b_jena = {
+				}
+				b_gena = {
+				}
+				b_saalfeld = {
+				}
+				b_rudolstadt = {
+				}
+			}
+		}
+	}
+	k_schleswig_holstein = {
+		color={ 158 35 111 }
+		color2={ 255 255 255 }
+		
+		capital = 300 # c_kiel
+		culture = german
+		
+		d_holstein = {
+			color={ 138 55 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 300 province_id = 301 province_id = 302 } }
+				}
+			}
+			capital = 300 # c_kiel
+			
+			c_kiel = { # 300
+				color={ 128 65 96 }
+				color2={ 255 255 255 }
+				
+				b_kiel = {
+				}
+				b_neumuenster = {
+				}
+				b_rendsburg = {
+				}
+				b_echernfoerde = {
+				}
+				b_itzehoe = {
+				}
+			}
+			c_lauenburg = { # 301
+				color={ 224 0 160 }
+				color2={ 255 255 255 }
+				
+				b_lauenburg = {
+				}
+				b_norderstedt = {
+				}
+				b_ahrensburg = {
+				}
+				b_reinbeck = {
+				}
+			}
+			c_luebeck = { # 302
+				color={ 96 128 159 }
+				color2={ 255 255 255 }
+				
+				b_luebeck = {
+				}
+				b_bad_schwartau = {
+				}
+				b_bad_oldesloe = {
+				}
+				b_neuestadt = {
+				}
+				b_segeburg = {
+				}
+				b_bargteheide = {
+				}
+			}
+		}
+		d_hamburg = {
+			color={ 98 104 156 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 272 } }
+				}
+			}
+			capital = 272 # c_hamburg
+			
+			c_hamburg = { # 272
+				color={ 88 114 151 }
+				color2={ 255 255 255 }
+				
+				b_hamburg = {
+				}
+				b_seevetal = {
+				}
+				b_harburg = {
+				}
+				b_wedel = {
+				}
+				b_pinneberg = {
+				}
+				b_bergedorf = {
+				}
+				b_barmstedt = {
+				}
+			}
+		}
+		d_schleswig = {
+			color={ 10 182 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 303 province_id = 304 } }
+				}
+			}
+			capital = 303 # c_flensburg
+			
+			c_flensburg = { # 303
+				color={ 0 192 96 }
+				color2={ 255 255 255 }
+				
+				b_flensburg = {
+				}
+				b_schleswig = {
+				}
+				b_husum = {
+				}
+				b_kappeln = {
+				}
+			}
+			c_aabenraa = { # 304
+				color={ 128 192 97 }
+				color2={ 255 255 255 }
+				
+				b_aabenraa = {
+				}
+				b_sonderborg = {
+				}
+				b_haderslev = {
+				}
+			}
+		}
+	}
+	k_schwaben = {
+		color={ 47 98 111 }
+		color2={ 255 255 255 }
+		
+		capital = 305 # c_stuttgart
+		culture = german
+		
+		d_wuerttemberg = {
+			color={ 27 118 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 305 province_id = 306 province_id = 307 province_id = 308 } }
+				}
+			}
+			capital = 305 # c_stuttgart
+			
+			c_stuttgart = { # 305
+				color={ 17 128 96 }
+				color2={ 255 255 255 }
+				
+				b_stuttgart = {
+				}
+				b_sindelfingen = {
+				}
+				b_esslingen = {
+				}
+				b_waiblingen = {
+				}
+				b_ludwigsburg = {
+				}
+			}
+			c_hohenlohe = { # 306
+				color={ 16 0 96 }
+				color2={ 255 255 255 }
+				
+				b_heilbronn = {
+				}
+				b_vaihingen = {
+				}
+				b_oehringen = {
+				}
+				b_crailsheim = {
+				}
+				b_mosbach = {
+				}
+			}
+			c_tuebingen = { # 307
+				color={ 143 0 96 }
+				color2={ 255 255 255 }
+				
+				b_tuebingen = {
+				}
+				b_reutlingen = {
+				}
+				b_rottenburg = {
+				}
+				b_bailingen = {
+				}
+			}
+			c_ulm = { # 308
+				color={ 219 184 76 }
+				color2={ 255 255 255 }
+				
+				b_ulm = {
+				}
+				b_biberach = {
+				}
+				b_friedrichshafen = {
+				}
+				b_wangen = {
+				}
+				b_ehingen = {
+				}
+			}
+		}
+		d_alsace_lorraine = {
+			color={ 120 62 150 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 310 province_id = 311 province_id = 312 } }
+				}
+			}
+			capital = 310 # c_strasbourg
+			
+			c_strasbourg = { # 310
+				color={ 110 72 145 }
+				color2={ 255 255 255 }
+				
+				b_strasbourg = {
+				}
+				b_kehl = {
+				}
+				b_graffenstaden = {
+				}
+				b_haguenau = {
+				}
+				b_schiltigheim = {
+				}
+			}
+			c_colmar = { # 311
+				color={ 176 0 224 }
+				color2={ 255 255 255 }
+				
+				b_colmar = {
+				}
+				b_wittenheim = {
+				}
+				b_mulhouse = {
+				}
+				b_guebwiller = {
+				}
+			}
+			c_metz = { # 312
+				color={ 240 192 160 }
+				color2={ 255 255 255 }
+				
+				b_metz = {
+				}
+				b_hagondange = {
+				}
+				b_thionville = {
+				}
+				b_sarreguemines = {
+				}
+				b_wioppy = {
+				}
+			}
+		}
+		d_baden = {
+			color={ 186 247 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 313 province_id = 314 province_id = 315 province_id = 316 } }
+				}
+			}
+			capital = 313 # c_baden
+			
+			c_baden = { # 313
+				color={ 176 1 96 }
+				color2={ 255 255 255 }
+				
+				b_karlsruhe = {
+				}
+				b_pforzheim = {
+				}
+				b_rastatt = {
+				}
+				b_weingarten = {
+				}
+				b_buehl = {
+				}
+			}
+			c_breisgau = { # 315
+				color={ 176 128 97 }
+				color2={ 255 255 255 }
+				
+				b_freiburg = {
+				}
+				b_lahr = {
+				}
+				b_offenburg = {
+				}
+				b_kehl_2 = {
+				}
+				b_loerrach = {
+				}
+			}
+			c_fuerstenberg = { # 316
+				color={ 174 186 42 }
+				color2={ 255 255 255 }
+				
+				b_konstanz = {
+				}
+				b_radolfzell = {
+				}
+				b_donaueschingen = {
+				}
+				b_villingen_schwenningen = {
+				}
+				b_ueberlingen = {
+				}
+			}
+			c_pfalz = { # 314
+				color={ 49 128 97 }
+				color2={ 255 255 255 }
+				
+				b_mannheim = {
+				}
+				b_heidelburg = {
+				}
+				b_wiesloch = {
+				}
+				b_leimen = {
+				}
+				b_bruchsal = {
+				}
+			}
+		}
+		d_hohenzollern = {
+			color={ 154 118 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 309 } }
+				}
+			}
+			capital = 309 # c_hohenzollern
+			
+			c_hohenzollern = { # 309
+				color={ 144 128 96 }
+				color2={ 255 255 255 }
+				
+				b_sigmaringen = {
+				}
+				b_ebingen = {
+				}
+				b_tuttlingen = {
+				}
+				b_messkirch = {
+				}
+			}
+		}
+		d_luxemburg = {
+			color={ 91 118 165 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 294 } }
+				}
+			}
+			capital = 294 # c_luxemburg
+			
+			c_luxemburg = { # 294
+				color={ 81 128 160 }
+				color2={ 255 255 255 }
+				
+				b_betzdorf = {
+				}
+				b_luxemburg = {
+				}
+				b_mersch = {
+				}
+				b_esch_sur_alzette = {
+				}
+				b_differdagne = {
+				}
+				b_ettelbruck = {
+				}
+			}
+		}
+		d_rheinland_pfalz = {
+			color={ 154 182 37 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 317 province_id = 318 province_id = 319 province_id = 320 } }
+				}
+			}
+			capital = 317 # c_mainz
+			
+			c_mainz = { # 317
+				color={ 144 192 32 }
+				color2={ 255 255 255 }
+				
+				b_mainz = {
+				}
+				b_riedstadt = {
+				}
+				b_gernsheim = {
+				}
+				b_alzey = {
+				}
+				b_simmern = {
+				}
+			}
+			c_kaiserlautern = { # 318
+				color={ 17 192 33 }
+				color2={ 255 255 255 }
+				
+				b_kaiserlautern = {
+				}
+				b_landau = {
+				}
+				b_zweibruecken = {
+				}
+				b_worms = {
+				}
+				b_annweiler = {
+				}
+			}
+			c_kreuznach = { # 319
+				color={ 93 122 104 }
+				color2={ 255 255 255 }
+				
+				b_kreuznach = {
+				}
+				b_idar_oberstein = {
+				}
+				b_nohfelden = {
+				}
+				b_kirn = {
+				}
+			}
+			c_trier = { # 320
+				color={ 208 128 160 }
+				color2={ 255 255 255 }
+				
+				b_trier = {
+				}
+				b_morbach = {
+				}
+				b_bitburg = {
+				}
+				b_konz = {
+				}
+			}
+		}
+		d_saarland = {
+			color={ 154 54 37 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 321 } }
+				}
+			}
+			capital = 321 # c_saarland
+			
+			c_saarland = { # 321
+				color={ 144 64 32 }
+				color2={ 255 255 255 }
+				
+				b_saarbruecken = {
+				}
+				b_sulzbach = {
+				}
+				b_blieskastel = {
+				}
+				b_puttlingen = {
+				}
+				b_saarlouis = {
+				}
+				b_merzig = {
+				}
+			}
+		}
+	}
+	k_westfalen = {
+		color={ 63 227 239 }
+		color2={ 255 255 255 }
+		
+		capital = 281 # c_duesseldorf
+		culture = german
+		
+		d_duesseldorf = {
+			color={ 43 247 229 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 281 province_id = 282 } }
+				}
+			}
+			capital = 281 # c_duesseldorf
+			
+			c_duesseldorf = { # 281
+				color={ 33 1 224 }
+				color2={ 255 255 255 }
+				
+				b_duesseldorf = {
+				}
+				b_bochen = {
+				}
+				b_wuppertal = {
+				}
+				b_essen = {
+				}
+				b_velbert = {
+				}
+				b_grevenbroich = {
+				}
+				b_remscheild = {
+				}
+			}
+			c_kleve = { # 282
+				color={ 128 1 224 }
+				color2={ 255 255 255 }
+				
+				b_kleve = {
+				}
+				b_krefeld = {
+				}
+				b_duisburg = {
+				}
+				b_moenchen = {
+				}
+				b_vierson = {
+				}
+			}
+		}
+		d_amsberg = {
+			color={ 75 118 38 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 285 province_id = 287 } }
+				}
+			}
+			capital = 285 # c_siegen
+			
+			c_siegen = { # 285
+				color={ 65 128 33 }
+				color2={ 255 255 255 }
+				
+				b_siegen = {
+				}
+				b_kreuztal = {
+				}
+				b_haiger = {
+				}
+				b_dillenburg = {
+				}
+				b_marburg = {
+				}
+				b_herborn = {
+				}
+			}
+			c_koblenz = { # 287
+				color={ 81 1 160 }
+				color2={ 255 255 255 }
+				
+				b_koblenz = {
+				}
+				b_neuwied = {
+				}
+				b_andernach = {
+				}
+				b_wielburg = {
+				}
+				b_bad_honhef = {
+				}
+			}
+		}
+		d_detmold = {
+			color={ 169 246 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 288 province_id = 289 } }
+				}
+			}
+			capital = 288 # c_detmold
+			
+			c_detmold = { # 288
+				color={ 159 0 96 }
+				color2={ 255 255 255 }
+				
+				b_detmold = {
+				}
+				b_bad_salzuflen = {
+				}
+				b_herfoerd = {
+				}
+				b_hoexter = {
+				}
+				b_bad_oeynhausen = {
+				}
+				b_buende = {
+				}
+			}
+			c_minden = { # 289
+				color={ 33 128 97 }
+				color2={ 255 255 255 }
+				
+				b_minden = {
+				}
+				b_bielefeld = {
+				}
+				b_paderborn = {
+				}
+				b_guetersloh = {
+				}
+				b_delbrueck = {
+				}
+			}
+		}
+		d_hessen = {
+			color={ 27 182 165 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 286 province_id = 290 province_id = 295 province_id = 296 province_id = 297 province_id = 298 province_id = 299 } }
+				}
+			}
+			capital = 290 # c_frankfurt
+			
+			c_frankfurt = { # 290
+				color={ 17 192 160 }
+				color2={ 255 255 255 }
+				
+				b_frankfurt = {
+				}
+				b_offenbach = {
+				}
+				b_holfheim = {
+				}
+				b_oberursel = {
+				}
+				b_maintal = {
+				}
+				b_dreieich = {
+				}
+				b_langen = {
+				}
+			}
+			c_darmstadt = { # 299
+				color={ 17 65 160 }
+				color2={ 255 255 255 }
+				
+				b_darmstadt = {
+				}
+				b_bensheim = {
+				}
+				b_griesheim = {
+				}
+				b_pfungstadt = {
+				}
+				b_lampertheim = {
+				}
+				b_weinheim = {
+				}
+			}
+			c_fulda = { # 298
+				color={ 208 65 33 }
+				color2={ 255 255 255 }
+				
+				b_fulda = {
+				}
+				b_gelnhausen = {
+				}
+				b_mellrichstadt = {
+				}
+				b_schluechtern = {
+				}
+				b_huenfeld = {
+				}
+			}
+			c_giessen = { # 297
+				color={ 139 124 103 }
+				color2={ 255 255 255 }
+				
+				b_giessen = {
+				}
+				b_wetzlar = {
+				}
+				b_weilburg = {
+				}
+				b_butzbach = {
+				}
+				b_kirchhain = {
+				}
+			}
+			c_kassel = { # 296
+				color={ 192 128 32 }
+				color2={ 255 255 255 }
+				
+				b_kassel = {
+				}
+				b_baunatal = {
+				}
+				b_eschwege = {
+				}
+				b_warburg = {
+				}
+				b_vellmar = {
+				}
+			}
+			c_korbach = { # 286
+				color={ 65 1 160 }
+				color2={ 255 255 255 }
+				
+				b_korbach = {
+				}
+				b_frankenburg = {
+				}
+				b_stadtallendorf = {
+				}
+				b_bad_berleburg = {
+				}
+				b_arolsen = {
+				}
+			}
+			c_wiesbaden = { # 295
+				color={ 144 192 160 }
+				color2={ 255 255 255 }
+				
+				b_wiesbaden = {
+				}
+				b_boppard = {
+				}
+				b_ruesselsheim = {
+				}
+				b_limburg = {
+				}
+				b_eltville = {
+				}
+				b_bingen = {
+				}
+			}
+		}
+		d_koeln = {
+			color={ 91 118 38 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 291 province_id = 292 province_id = 293 } }
+				}
+			}
+			capital = 291 # c_koeln
+			
+			c_koeln = { # 291
+				color={ 81 128 33 }
+				color2={ 255 255 255 }
+				
+				b_koeln = {
+				}
+				b_berg = {
+				}
+				b_mark = {
+				}
+				b_bonn = {
+				}
+				b_dietz = {
+				}
+				b_saffenburg = {
+				}
+				b_hochstaden = {
+				}
+				b_brauwiler = {
+				}
+			}
+			c_aachen = { # 292
+				color={ 131 75 102 }
+				color2={ 255 255 255 }
+				
+				b_aachen = {
+				}
+				b_stolberg = {
+				}
+				b_kerkrade = {
+				}
+				b_heinsberg = {
+				}
+			}
+			c_siegburg = { # 293
+				color={ 208 128 33 }
+				color2={ 255 255 255 }
+				
+				b_siegburg = {
+				}
+				b_st_augusten = {
+				}
+				b_troisdorf = {
+				}
+				b_waldbrol = {
+				}
+			}
+		}
+		d_muenster = {
+			color={ 11 118 229 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 283 province_id = 284 } }
+				}
+			}
+			capital = 283 # c_muenster
+			
+			c_muenster = { # 283
+				color={ 1 128 224 }
+				color2={ 255 255 255 }
+				
+				b_muenster = {
+				}
+				b_marl = {
+				}
+				b_dorsten = {
+				}
+				b_recklinghausen = {
+				}
+				b_coesfeld = {
+				}
+			}
+			c_dortmund = { # 284
+				color={ 160 128 97 }
+				color2={ 255 255 255 }
+				
+				b_dortmund = {
+				}
+				b_hamm = {
+				}
+				b_bergkamen = {
+				}
+				b_unna = {
+				}
+				b_ahlen = {
+				}
+				b_luenen = {
 				}
 			}
 		}
@@ -19192,6 +19205,26 @@ e_the_united_kingdom = {
 				}
 			}
 		}
+		d_channel_islands = {
+			color={ 173 152 79 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 90 } }
+				}
+			}
+			capital = 90 # c_channel_islands
+			
+			c_channel_islands = { # 90
+				color={ 183 142 84 }
+				color2={ 255 255 255 }
+				
+				b_st_peter_port = {
+				}
+			}
+		}
 		d_devonshire = {
 			color={ 23 234 123 }
 			color2={ 255 255 255 }
@@ -19242,7 +19275,7 @@ e_the_united_kingdom = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 83 province_id = 84 province_id = 85 province_id = 86 } }
+					any_demesne_province = { OR = { province_id = 83 province_id = 85 province_id = 86 } }
 				}
 			}
 			capital = 83 # c_cambridge
@@ -19275,21 +19308,6 @@ e_the_united_kingdom = {
 				b_basildon = {
 				}
 				b_harlow = {
-				}
-			}
-			c_ipswich = { # 84
-				color={ 224 32 64 }
-				color2={ 255 255 255 }
-				
-				b_ipswich = {
-				}
-				b_norwich = {
-				}
-				b_lowestoft = {
-				}
-				b_great_yarmouth = {
-				}
-				b_bury = {
 				}
 			}
 			c_st_albans = { # 86
@@ -19406,6 +19424,45 @@ e_the_united_kingdom = {
 				b_hereford = {
 				}
 				b_bridgnorth = {
+				}
+			}
+		}
+		d_norfolk = {
+			color={ 234 22 69 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 84 province_id = 1337 } }
+				}
+			}
+			capital = 84 # c_norfolk
+			
+			c_norfolk = { # 84
+				color={ 224 32 64 }
+				color2={ 255 255 255 }
+				
+				b_norwich = {
+				}
+				b_kings_lynn = {
+				}
+				b_great_yarmouth = {
+				}
+				b_thorpe_st_andrew = {
+				}
+			}
+			c_suffolk = { # 1337
+				color={ 190 0 32 }
+				color2={ 255 255 255 }
+				
+				b_ipswich = {
+				}
+				b_bury = {
+				}
+				b_lowestoft = {
+				}
+				b_stowmarket = {
 				}
 			}
 		}
@@ -19572,6 +19629,53 @@ e_the_united_kingdom = {
 				}
 			}
 		}
+		d_somerset = {
+			color={ 214 234 59 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 89 province_id = 1325 } }
+				}
+			}
+			capital = 89 # c_somerset
+			
+			c_somerset = { # 89
+				color={ 224 224 64 }
+				color2={ 255 255 255 }
+				
+				b_taunton = {
+				}
+				b_bath = {
+				}
+				b_bridgwater = {
+				}
+				b_trowbridge = {
+				}
+				b_yeovil = {
+				}
+			}
+			c_dorset = { # 1325
+				color={ 32 156 94 }
+				color2={ 255 255 255 }
+				
+				b_dorchester = {
+				}
+				b_poole_2 = {
+				}
+				b_weymouth_2 = {
+				}
+				b_bridport = {
+				}
+				b_shaftesbury = {
+				}
+				b_verwood = {
+				}
+				b_wimborne = {
+				}
+			}
+		}
 		d_south_west_england = {
 			color={ 214 42 187 }
 			color2={ 255 255 255 }
@@ -19579,7 +19683,7 @@ e_the_united_kingdom = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 87 province_id = 88 province_id = 89 province_id = 90 } }
+					any_demesne_province = { OR = { province_id = 87 province_id = 88 } }
 				}
 			}
 			capital = 87 # c_bristol
@@ -19599,28 +19703,6 @@ e_the_united_kingdom = {
 				b_keynsham = {
 				}
 				b_portishead = {
-				}
-			}
-			c_bath = { # 89
-				color={ 224 224 64 }
-				color2={ 255 255 255 }
-				
-				b_bath = {
-				}
-				b_bridgwater = {
-				}
-				b_taunton = {
-				}
-				b_trowbridge = {
-				}
-				b_yeovil = {
-				}
-			}
-			c_channel_islands = { # 90
-				color={ 183 142 84 }
-				color2={ 255 255 255 }
-				
-				b_st_peter_port = {
 				}
 			}
 			c_salisbury = { # 88

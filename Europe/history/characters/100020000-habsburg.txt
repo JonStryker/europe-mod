@@ -1,67 +1,18 @@
-100022060={
-	name=Ferdinand
-	dynasty=51
+100020001={	# Duke Francis Stephen of Lorraine    
+	name="Franz Stephan"
+	dynasty=1503
 	religion=catholic culture=german
-	father=100100897
-	1503.6.3={birth=yes}
-	1564.7.10={death=yes}
+	1711.01.01={birth=yes}
+	1736.02.12={add_spouse=100020000}	# Maria Theresia
+	1765.08.18={death=yes}
 }
-100022070={		# 3 June 1540 – 10 July 1590
-	name="Karl Franz"
-	dynasty=51
-	religion=catholic culture=german
-	father=100022060
-	1540.6.3={birth=yes}
-	1590.7.10={death=yes}
-}
-100022080={		# 9 July 1578 – 15 February 1637
-	name=Ferdinand
-	dynasty=51
-	religion=catholic culture=german
-	father=100022070
-	1578.7.9={birth=yes}
-	1637.2.15={death=yes}
-}
-100022090={		# 13 July 1608 – 2 April 1657
-	name=Ferdinand
-	dynasty=51
-	religion=catholic culture=german
-	father=100022080
-	1608.7.13={birth=yes}
-	1657.4.2={death=yes}
-}
-100022100={		# 9 June 1640 – 5 May 1705
-	name=Leopold
-	dynasty=51
-	religion=catholic culture=german
-	father=100022090
-	1640.6.9={birth=yes}
-	1705.5.5={death=yes}
-}
-	100033001={ # Archdss    Maria Anna                von Habsburg                             (1683-1754)
-		name="Maria Anna"
-		female=yes
-		dynasty=51
-		religion=catholic culture=german
-		father=100022100
-		1683.09.07={birth=yes}
-		1754.08.14={death=yes}
-	}
-100022110={		# 1 October 1685 – 20 October 1740
-	name=Karl
-	dynasty=51
-	religion=catholic culture=german
-	father=100022100
-	1685.10.1={birth=yes}
-	1740.10.20={death=yes}
-}
-
 100020000={	# Maria Theresia, Archduchess of Austria, daughter of Emperor Karl VI (Vienna 13 May 1717 - Vienna 29 Nov 1780), m. Vienna 12 Feb 1736 Francis Stephen, Duke of Lorraine (Lothringen) (Lunéville 8 Dec 1708-Innsbruck 18 Aug 1765), who in 1745 became the Emperor FRANZ I. Their issue:
 	name="Maria Theresia"
 	female=yes
-	dynasty=1503
+	dynasty=51
 	religion=catholic culture=german
-	father=100022110
+	father=100021285 # Karl
+	mother=100021286 # Elisabeth Christine of Braunschweig-Wolfenbüttel
 	1717.05.13={birth=yes}
 	1780.11.29={death=yes}
 }
@@ -192,7 +143,7 @@
 				1791.12.12={birth=yes}
 				1847.12.17={death=yes}
 			}
-			100020030={	# 3c) FERDINAND I Karl Leopold Joseph Franz Marcelin, Emperor of Austria from the death of his father until his abdication 2 Dec 1848 (Vienna 19 Apr 1793-Prague 29 Jun 1875); m.Vienna 27 Feb 1831 Maria Anna Pss of Savoy (Rome 19 Sep 1803-Prague 4 May 1884)
+			100020030={	# 3c) FERDINAND I Karl Leopold Joseph Franz Marcelin, Emperor of Austria from the death of his father until his abdication 2 Dec 1848 (Vienna 19 Apr 1793-Prague 29 Jun 1875); m.Vienna 27 Feb 1831 Maria Anna Pss di Savoia (Rome 19 Sep 1803-Prague 4 May 1884)
 				name=Ferdinand
 				dynasty=1503
 				religion=catholic culture=german
@@ -200,7 +151,7 @@
 				mother=100008003 # Maria Teresa Pss of Bourbon-Two Sicilies, Pss of Bourbon-Two Sicilies
 				1793.04.19={birth=yes}
 				1831.02.27={
-					add_spouse=100020031 # Maria Anna, Pss of Savoy
+					add_spouse=100020031 # Maria Anna, Pss di Savoia
 				}
 				1875.06.29={death=yes}
 			}
@@ -530,7 +481,7 @@
 								1914.01.03={birth=yes}
 								1971.10.02={death=yes}
 							}
-							100020092={	# 3g) Robert Karl Ludwig Maximilian Michael Maria Anton Franz Ferdinand Joseph Otto Hubert Georg Pius Johannes Marcus d'Aviano "von Österreich-Este" (Schönbrunn 8 Feb 1915-Basel 7 Feb 1996); m.(civ) Bourg-en-Bresse 28 Dec 1953 (rel) Brou, France 29 Dec 1953 Margherita Pss of Savoy (b.Capodimonte, Naples 7 Apr 1930)
+							100020092={	# 3g) Robert Karl Ludwig Maximilian Michael Maria Anton Franz Ferdinand Joseph Otto Hubert Georg Pius Johannes Marcus d'Aviano "von Österreich-Este" (Schönbrunn 8 Feb 1915-Basel 7 Feb 1996); m.(civ) Bourg-en-Bresse 28 Dec 1953 (rel) Brou, France 29 Dec 1953 Margherita Pss di Savoia (b.Capodimonte, Naples 7 Apr 1930)
 								name=Robert
 								dynasty=1503
 								religion=catholic culture=german
@@ -538,7 +489,7 @@
 								mother=100008366 # Zita Pss of Bourbon-Parma, Pss of Bourbon-Parma
 								1915.02.08={birth=yes}
 								1953.12.29={
-									add_spouse=100070043 # Margherita, Pss of Savoy
+									add_spouse=100070043 # Margherita, Pss di Savoia
 								}
 								1996.02.07={death=yes}
 							}
@@ -548,7 +499,7 @@
 									dynasty=1503
 									religion=catholic culture=german
 									father=100020092 # Robert Karl
-									mother=100070043 # Margherita Pss of Savoy, Pss of Savoy
+									mother=100070043 # Margherita Pss di Savoia, Pss di Savoia
 									1954.12.11={birth=yes}
 									#YYYY.1.1={death=yes}
 								}
@@ -557,7 +508,7 @@
 									dynasty=1503
 									religion=catholic culture=frankish
 									father=100020092 # Robert Karl
-									mother=100070043 # Margherita Pss of Savoy, Pss of Savoy
+									mother=100070043 # Margherita Pss di Savoia, Pss di Savoia
 									1955.12.16={birth=yes}
 									1984.09.22={
 										add_spouse=100018641 # Astrid, Pss of Belgium
@@ -611,7 +562,7 @@
 									dynasty=1503
 									religion=catholic culture=german
 									father=100020092 # Robert Karl
-									mother=100070043 # Margherita Pss of Savoy, Pss of Savoy
+									mother=100070043 # Margherita Pss di Savoia, Pss di Savoia
 									1957.10.30={birth=yes}
 									#YYYY.1.1={death=yes}
 								}
@@ -621,7 +572,7 @@
 									dynasty=1503
 									religion=catholic culture=german
 									father=100020092 # Robert Karl
-									mother=100070043 # Margherita Pss of Savoy, Pss of Savoy
+									mother=100070043 # Margherita Pss di Savoia, Pss di Savoia
 									1959.12.19={birth=yes}
 									2004.04.17={
 										add_spouse=100013536
@@ -671,7 +622,7 @@
 									dynasty=1503
 									religion=catholic culture=german
 									father=100020092 # Robert Karl
-									mother=100070043 # Margherita Pss of Savoy, Pss of Savoy
+									mother=100070043 # Margherita Pss di Savoia, Pss di Savoia
 									1963.03.02={birth=yes}
 									#YYYY.1.1={death=yes}
 								}
@@ -3664,7 +3615,7 @@
 					1874.12.11={birth=yes}
 					1928.07.09={death=yes}
 				}
-		100020589={	# 14b) Rainer Joseph Johann Michael Franz Hieronymus (Pisa 30 Sep 1783-Bolzano 16 Jan 1853); m.Prague 28 May 1820 Elisabeth Pss of Savoy-Carignano (Paris 13 Apr 1800-Bolzano 25 Dec 1856)
+		100020589={	# 14b) Rainer Joseph Johann Michael Franz Hieronymus (Pisa 30 Sep 1783-Bolzano 16 Jan 1853); m.Prague 28 May 1820 Elisabeth Pss di Savoia-Carignano (Paris 13 Apr 1800-Bolzano 25 Dec 1856)
 			name=Rainer
 			dynasty=1503
 			religion=catholic culture=german
@@ -3672,7 +3623,7 @@
 			mother=100025015 # Maria Luisa Infanta of Spain
 			1783.09.30={birth=yes}
 			1820.05.28={
-				add_spouse=100070101 # Elisabeth, Pss of Savoy-Carignano
+				add_spouse=100070101 # Elisabeth, Pss di Savoia-Carignano
 			}
 			1853.01.16={death=yes}
 		}
@@ -3682,7 +3633,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020589 # Rainer Joseph
-				mother=100070101 # Elisabeth Pss of Savoy-Carignano, Pss of Savoy-Carignano
+				mother=100070101 # Elisabeth Pss di Savoia-Carignano, Pss di Savoia-Carignano
 				1821.02.06={birth=yes}
 				1844.01.23={death=yes}
 			}
@@ -3692,7 +3643,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020589 # Rainer Joseph
-				mother=100070101 # Elisabeth Pss of Savoy-Carignano, Pss of Savoy-Carignano
+				mother=100070101 # Elisabeth Pss di Savoia-Carignano, Pss di Savoia-Carignano
 				1822.06.03={birth=yes}
 				1855.01.20={death=yes}
 			}
@@ -3701,7 +3652,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020589 # Rainer Joseph
-				mother=100070101 # Elisabeth Pss of Savoy-Carignano, Pss of Savoy-Carignano
+				mother=100070101 # Elisabeth Pss di Savoia-Carignano, Pss di Savoia-Carignano
 				1823.06.06={birth=yes}
 				1898.05.24={death=yes}
 			}
@@ -3710,7 +3661,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020589 # Rainer Joseph
-				mother=100070101 # Elisabeth Pss of Savoy-Carignano, Pss of Savoy-Carignano
+				mother=100070101 # Elisabeth Pss di Savoia-Carignano, Pss di Savoia-Carignano
 				1824.08.08={birth=yes}
 				1858.04.26={
 					add_spouse=100020596 # bach 26
@@ -3844,7 +3795,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020589 # Rainer Joseph
-				mother=100070101 # Elisabeth Pss of Savoy-Carignano, Pss of Savoy-Carignano
+				mother=100070101 # Elisabeth Pss di Savoia-Carignano, Pss di Savoia-Carignano
 				1826.01.07={birth=yes}
 				1891.12.15={death=yes}
 			}
@@ -3853,7 +3804,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020589 # Rainer Joseph
-				mother=100070101 # Elisabeth Pss of Savoy-Carignano, Pss of Savoy-Carignano
+				mother=100070101 # Elisabeth Pss di Savoia-Carignano, Pss di Savoia-Carignano
 				1827.01.11={birth=yes}
 				1852.02.21={
 					add_spouse=100020305
@@ -3865,7 +3816,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020589 # Rainer Joseph
-				mother=100070101 # Elisabeth Pss of Savoy-Carignano, Pss of Savoy-Carignano
+				mother=100070101 # Elisabeth Pss di Savoia-Carignano, Pss di Savoia-Carignano
 				1828.05.09={birth=yes}
 				1868.02.04={
 					add_spouse=100020617 # lzano 4
@@ -3889,7 +3840,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020589 # Rainer Joseph
-				mother=100070101 # Elisabeth Pss of Savoy-Carignano, Pss of Savoy-Carignano
+				mother=100070101 # Elisabeth Pss di Savoia-Carignano, Pss di Savoia-Carignano
 				1830.01.16={birth=yes}
 				1839.03.16={death=yes}
 			}
@@ -3973,7 +3924,7 @@
 			1776.12.10={birth=yes}
 			1848.06.23={death=yes}
 		}
-		100020636={	# 5b) Francesco IV Joseph Karl Ambrosius Stanislaus, Duke of Modena, Reggio and Mirandola (Milan 6 Oct 1779-Modena 21 Jan 1846); m.Cagliari 20 Jun 1812 Maria Beatrice Pss of Savoy (Turin 6 Dec 1792-Cattajo 15 Sep 1840)
+		100020636={	# 5b) Francesco IV Joseph Karl Ambrosius Stanislaus, Duke of Modena, Reggio and Mirandola (Milan 6 Oct 1779-Modena 21 Jan 1846); m.Cagliari 20 Jun 1812 Maria Beatrice Pss di Savoia (Turin 6 Dec 1792-Cattajo 15 Sep 1840)
 			name="Francesco Joseph"
 			dynasty=1503
 			religion=catholic culture=german
@@ -3981,7 +3932,7 @@
 			mother=100020629 # Maria Beatrice Pss of Modena, Dss of Massa and Pss of Carrara, Pss of Modena, Dss of Massa and Pss of Carrara
 			1779.10.06={birth=yes}
 			1812.06.20={
-				add_spouse=100020637 # Maria Beatrice, Pss of Savoy
+				add_spouse=100020637 # Maria Beatrice, Pss di Savoia
 			}
 			1846.01.21={death=yes}
 		}
@@ -3991,7 +3942,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020636 # Francesco Joseph
-				mother=100020637 # Maria Beatrice Pss of Savoy, Pss of Savoy
+				mother=100020637 # Maria Beatrice Pss di Savoia, Pss di Savoia
 				1817.07.14={birth=yes}
 				1886.03.25={death=yes}
 			}
@@ -4000,7 +3951,7 @@
 				dynasty=1503
 				religion=catholic culture=italian
 				father=100020636 # Francesco Joseph
-				mother=100020637 # Maria Beatrice Pss of Savoy, Pss of Savoy
+				mother=100020637 # Maria Beatrice Pss di Savoia, Pss di Savoia
 				1819.06.01={birth=yes}
 				1842.03.20={
 					add_spouse=100016910 # Adelgunde, Pss of Bavaria
@@ -4012,7 +3963,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020636 # Francesco Joseph
-				mother=100020637 # Maria Beatrice Pss of Savoy, Pss of Savoy
+				mother=100020637 # Maria Beatrice Pss di Savoia, Pss di Savoia
 				1821.07.20={birth=yes}
 				1847.10.04={
 					add_spouse=100020320 # Elisabeth Archduchess
@@ -4038,7 +3989,7 @@
 				dynasty=1503
 				religion=catholic culture=german
 				father=100020636 # Francesco Joseph
-				mother=100020637 # Maria Beatrice Pss of Savoy, Pss of Savoy
+				mother=100020637 # Maria Beatrice Pss di Savoia, Pss di Savoia
 				1824.02.13={birth=yes}
 				1906.03.18={death=yes}
 			}
@@ -6463,3 +6414,1719 @@
 		1855.01.12={death=yes}
 	}
 #Line Toscana|1503|100020700-100021099
+
+
+#Earlier Habsburgs|51|100021100
+100021100={	# Maximilian I (Burg zu Neustadt 22 Mar 1459-Wels 12 Jan 1519; bur Wiener Neustadt); m.1st Ghent 20 Aug 1477 Marie of Burgundy (Brussels 13 Feb 1457-Bruges 27 Mar 1482; bur Bruges); m.2nd Hall 16 Mar 1494 Blanca Maria (Milan 5 Apr 1472-Innsbruck 31 Dec 1510; bur Stams)
+	name=Maximilian
+	dynasty=51
+	religion=catholic culture=german
+	father=100022020
+	1459.03.22={birth=yes}
+	1477.08.20={add_spouse=100021101}	# Marie of Burgundy
+	1494.03.16={add_spouse=100021102}	# Blanca Maria
+	1519.01.12={death=yes}
+}
+	100021103={	# 1a) Felipe (Bruges 22 Jun 1478-Burgos 25 Sep 1506); m.Liera 20 Oct 1496 Queen Juana of Castile (Toledo 6 Nov 1479-Tordesillas 12 Apr 1555)
+		name=Felipe
+		dynasty=51
+		religion=catholic culture=german
+		father=100021100 # Maximilian
+		mother=100021101 # Marie of Burgundy
+		1478.06.22={birth=yes}
+		1496.10.20={add_spouse=100021104}	# Queen Juana of Castile
+		1496.10.20 = {
+			add_spouse=100100896
+		}
+		1506.09.25={death=yes}
+	}
+		100021105={	# 1b) Eleonore (Brussels 24 Nov 1498-Talavera 18 Feb 1558); m.1st Lisbon 7 Mar 1519 King Manoel of Portugal (1469 - 13 Dec 1521); m.2nd Captieux 1530 King François I of France (1494-31 Jul 1547)
+			name=Eleonore
+			female=yes
+			dynasty=51
+			religion=catholic culture=german
+			father=100021103 # Felipe
+			mother=100021104 # Queen Juana of Castile
+			1498.11.24={birth=yes}
+			1558.02.18={death=yes}
+		}
+		100021108={	# 2b) Karl V (Ghent 24 Feb 1500-San Jerónimo de Yuste 21 Sep 1558); he abdicated in 1556 and left Spain, the Netherlands and the Americas to his son, and Austria and the Empire to his brother; m.Seville 11 Mar 1526 Isabella of Portugal (Lisbon 4 Oct 1503-Toledo 17 May 1539)
+			name=Karl
+			dynasty=51
+			religion=catholic culture=german
+			father=100021103 # Felipe
+			mother=100021104 # Queen Juana of Castile
+			1500.02.24={birth=yes}
+			1526.03.11={add_spouse=100021109}	# Isabella of Portugal
+			1558.09.21={death=yes}
+		}
+			100100356={	# 1c) Felipe II (Valladolid 21 May 1527-Escorial 13 Sep 1598); m.1st Almeria 15 Nov 1543 Maria of Portugal(15 Oct 1527-12 Jul 1545); m.2nd Winchester 25 Jul 1554 Queen Mary I of England (Greenwich 8 Feb 1516-London 17 Nov 1558; bur Westminster Abbey); m.3rd Toledo 2 Feb 1559 Elisabeth of France (Fontainebleau 2 Apr 1545-Aranjuez 3 Oct 1568); m.4th Segovia 12 Nov 1570 Anna of Austria(Cigales 2 Nov 1549-Badajoz 26 Oct 1580)
+				name=Felipe
+				dynasty=51
+				religion=catholic culture=german
+				father=100021108 # Karl he abdicated in 1556 and left Spain the Netherlands and the Americas to his son and Austria and the Empire to his brother
+				mother=100021109 # Isabella of Portugal
+				1527.05.21={birth=yes}
+				1543.11.15={add_spouse=100021111}	# Maria of Portugal
+				1554.07.25={add_spouse=100021112}	# Queen Mary of England
+				1559.02.02={add_spouse=100021113}	# Elisabeth of France
+				1570.11.12={add_spouse=100021166}	# Anna of Austria
+				1598.09.13={death=yes}
+			}
+				100021115={	# 1d) Carlos (Valladolid 8 Jul 1545-Madrid 24 Jul 1568)
+					name=Carlos
+					dynasty=51
+					religion=catholic culture=german
+					father=100100356 # Felipe
+					mother=100021111 # Maria of Portugal
+					1545.07.08={birth=yes}
+					1568.07.24={death=yes}
+				}
+				100021116={	# 2d) Isabella Clara Eugenia (Segovia 12 Aug 1566-Brussels 1 Dec 1633; bur St.Gudula, Brussels); m.Valencia 18 Apr 1599 Archduke Albrecht of Austria
+					name="Isabella Clara"
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100100356 # Felipe
+					mother=100021113 # Elisabeth of France
+					1566.08.12={birth=yes}
+					1633.12.01={death=yes}
+				}
+				100021118={	# 3d) Catalina Micaela (Segovia 10 Oct 1567-Turin 5 Nov 1597; bur Vicoforte); m.Saragossa 11 Mar 1585 Duke Carlo Emanuele di Savoia (d.26 Jul 1630)
+					name="Catalina Micaela"
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100100356 # Felipe
+					mother=100021113 # Elisabeth of France
+					1567.10.10={birth=yes}
+					1597.11.05={death=yes}
+				}
+				100021120={	# 4d) Fernando Pr of the Asturias (Madrid 4 Dec 1571-Madrid 18 Oct 1578)
+					name=Fernando
+					dynasty=51
+					religion=catholic culture=german
+					father=100100356 # Felipe
+					mother=100021166 # Anna of Austria
+					1571.12.04={birth=yes}
+					1578.10.18={death=yes}
+				}
+				100021122={	# 6d) Diego Pr of the Asturias (Madrid 12 Jul 1575-Madrid 21 Nov 1582)
+					name=Diego
+					dynasty=51
+					religion=catholic culture=german
+					father=100100356 # Felipe
+					mother=100021166 # Anna of Austria
+					1575.07.12={birth=yes}
+					1582.11.21={death=yes}
+				}
+				100021123={	# 7d) King Felipe III of Spain (Madrid 14 Apr 1578-Escorial 31 Mar 1621); m.Valencia 18 Apr 1599 Margarete (Graz 25 Dec 1584-Escorial 13 Oct 1611)
+					name=Felipe
+					dynasty=51
+					religion=catholic culture=german
+					father=100100356 # Felipe
+					mother=100021166 # Anna of Austria
+					1578.04.14={birth=yes}
+					1599.04.18={add_spouse=100021311}	# Margarete
+					1621.03.31={death=yes}
+				}
+					100021125={	# 1e) Anna Maria (Valladolid 23 Sep 1601-Louvre 20 Jan 1666; bur St.Denis); m.25 Nov 1615 Bordeaux King Louis XIII of France (d.14 May 1643)
+						name="Anna Maria"
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021123 # Felipe of Spain
+						mother=100021311 # Margarete
+						1601.09.23={birth=yes}
+						1666.01.20={death=yes}
+					}
+					100021128={	# 3e) Felipe IV, King of Spain (Valladolid 8 Apr 1605-Madrid 17 Sep 1665); m.1st Bordeaux 25 Nov 1621 Elisabeth of France (Fontainebleau 22 Nov 1602-Madrid 6 Oct 1644); m.2nd Madrid 7 Oct 1649 Maria Anna (1635-1696)
+						name=Felipe
+						dynasty=51
+						religion=catholic culture=german
+						father=100021123 # Felipe of Spain
+						mother=100021311 # Margarete
+						1605.04.08={birth=yes}
+						1621.11.25={add_spouse=100021129}	# Elisabeth of France
+						1649.10.07={add_spouse=100021130}	# Maria Anna
+						1665.09.17={death=yes}
+					}
+						100021135={	# 5f) Baltazar Carlos Pr of the Asturias (Madrid 17 Oct 1629-Zaragoza 9 Oct 1646)
+							name="Baltazar Carlos"
+							dynasty=51
+							religion=catholic culture=german
+							father=100021128 # Felipe
+							mother=100021129 # Elisabeth of France
+							1629.10.17={birth=yes}
+							1646.10.09={death=yes}
+						}
+						100021137={	# 8f) Maria Teresa (Madrid 20 Sep 1638-Versailles 30 Jul 1683; bur St.Denis); m.Luz 9 Jun 1660 King Louis XIV of France (d.1 Sep 1715)
+							name="Maria Teresa"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021128 # Felipe
+							mother=100021129 # Elisabeth of France
+							1638.09.20={birth=yes}
+							1683.07.30={death=yes}
+						}
+						100021139={	# 9f) Margarita Maria Teresa (Madrid 12 Jul 1651-Vienna 12 Mar 1673); m.Vienna 5 Dec 1666 Emperor Leopold I (Vienna 9 Jun 1640-Vienna 5 May 1705)
+							name="Margarita Maria"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021128 # Felipe
+							mother=100021130 # Maria Anna
+							1651.07.12={birth=yes}
+							1673.03.12={death=yes}
+						}
+						100021144={	# 13f) Carlos II, King of Spain (Madrid 6 Nov 1661-Madrid 1 Nov 1700); m.1st Quintanapalha 19 Nov 1679 Marie Louise d’Orléans (Paris 27 Mar 1662-Madrid 12 Feb 1689); m.2nd San Diego 14 May 1690 Maria Anna Pfgfn von Neuburg (Schloß Benrath 28 Oct 1667-Guadalajara 16 Aug 1740)
+							name=Carlos
+							dynasty=51
+							religion=catholic culture=german
+							father=100021128 # Felipe
+							mother=100021130 # Maria Anna
+							1661.11.06={birth=yes}
+							1679.11.19={add_spouse=100021145}	# Marie Louise d’Orléans
+							1690.05.14={add_spouse=100021146}	# Maria Anna
+							1700.11.01={death=yes}
+						}
+							100021147={	# 2g) Ana Maria (1663-17 Mar 1705)
+								name="Ana Maria"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021144 # Carlos
+								mother=100021145 # Marie Louise d’Orléans
+								1663.01.01={birth=yes}
+								1705.03.17={death=yes}
+							}
+					100021148={	# 4e) Maria Anna Margareta (Escorial 18 Aug 1606-Linz 13 May 1646); m.Vienna 20 Feb 1631 Emperor Ferdinand III
+						name="Maria Anna"
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021123 # Felipe of Spain
+						mother=100021311 # Margarete
+						1606.08.18={birth=yes}
+						1646.05.13={death=yes}
+					}
+					100021150={	# 5e) Carlos (Madrid 14 Sep 1607-d.of typhus at Madrid 30 Jul 1632)
+						name=Carlos
+						dynasty=51
+						religion=catholic culture=german
+						father=100021123 # Felipe of Spain
+						mother=100021311 # Margarete
+						1607.09.14={birth=yes}
+						1632.07.30={death=yes}
+					}
+					100021151={	# 6e) Fernando (Escorial 16 May 1609-Brussels 9 Nov 1641)
+						name=Fernando
+						dynasty=51
+						religion=catholic culture=german
+						father=100021123 # Felipe of Spain
+						mother=100021311 # Margarete
+						1609.05.16={birth=yes}
+						1641.11.09={death=yes}
+					}
+					100021152={	# 7e) Margarita Francisca (Madrid 24 May 1610-Madrid 1 Mar 1617)
+						name="Margarita Francisca"
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021123 # Felipe of Spain
+						mother=100021311 # Margarete
+						1610.05.24={birth=yes}
+						1617.03.01={death=yes}
+					}
+			100021154={	# 2c) Maria (Madrid 21 Jun 1528-Madrid 26 Feb 1603); m.Valladolid 13 Sep 1548 Emperor Maximilian II (Vienna 31 Jul 1527-Regensburg 12 Oct 1576)
+				name=Maria
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021108 # Karl he abdicated in 1556 and left Spain the Netherlands and the Americas to his son and Austria and the Empire to his brother
+				mother=100021109 # Isabella of Portugal
+				1528.06.21={birth=yes}
+				1603.02.26={death=yes}
+			}
+			100021156={	# 4c) Juana (Madrid 24 Jun 1537-Madrid 7 Sep 1573); m.Toro 7 Dec 1552 Infant João of Portugal (d.2 Jan 1554)
+				name=Juana
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021108 # Karl he abdicated in 1556 and left Spain the Netherlands and the Americas to his son and Austria and the Empire to his brother
+				mother=100021109 # Isabella of Portugal
+				1537.06.24={birth=yes}
+				1573.09.07={death=yes}
+			}
+		100021158={	# 3b) Isabella (Brussels 18 Jul 1501-Zwijnaarde 19 Jan 1526); m.12 Aug 1515 King Christian II of Denmark (d.Kalundborg 25 Jan 1559)
+			name=Isabella
+			female=yes
+			dynasty=51
+			religion=catholic culture=german
+			father=100021103 # Felipe
+			mother=100021104 # Queen Juana of Castile
+			1501.07.18={birth=yes}
+			1526.01.19={death=yes}
+		}
+		100021160={	# 4b) Ferdinand I (Alcala de Henares 10 Mar 1503-Vienna 25 Jul 1564); m.Linz 27 May 1521 Anna of Hungary (Prague 23 Jul 1503-Prague 27 Jan 1547; bur St.Veit, Prague)
+			name=Ferdinand
+			dynasty=51
+			religion=catholic culture=german
+			father=100021103 # Felipe
+			mother=100021104 # Queen Juana of Castile
+			1503.03.10={birth=yes}
+			1521.05.27={add_spouse=100021161}	# Anna of Hungary
+			1564.07.25={death=yes}
+		}
+			100021162={	# 1c) Elisabeth (Linz 9 Jun 1526-Wilna 15 Jun 1545; bur Wilna Cathedral); m.5 May 1543 King Zygmunt II August of Poland (d.7 Jul 1572)
+				name=Elisabeth
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1526.06.09={birth=yes}
+				1545.06.15={death=yes}
+			}
+			100021164={	# 2c) Maximilian II (Vienna 31 Jul 1527-Regensburg 12 Oct 1576); m.Valladolid 13 Sep 1548 Maria of Austria
+				name=Maximilian
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1527.07.31={birth=yes}
+				1548.09.13={add_spouse=100021154}	# Maria of Austria
+				1576.10.12={death=yes}
+			}
+				100021166={	# 1d) Anna (Cigales 2 Nov 1549-Basladoz 26 Oct 1580); m.Segovia 12 Nov 1570 King Felipe II of Spain
+					name=Anna
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1549.11.02={birth=yes}
+					1580.10.26={death=yes}
+				}
+				100021169={	# 3d) Rudolf II (Vienna 18 May 1552-Prague 20 Jan 1612; bur St.Veit, Prague); he had the following illegitimate issue:
+					name=Rudolf
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1552.05.18={birth=yes}
+					1612.01.20={death=yes}
+				}
+					100021170={	# 2e) Julius (1586 - 25 Jun 1609)
+						name=Julius
+						dynasty=51
+						religion=catholic culture=german
+						father=100021169 # Rudolf he had the following illegitimate issue:
+						1586.01.01={birth=yes}
+						1609.06.25={death=yes}
+					}
+					100021171={	# 6e) Charlotte (1588-12 Jan 1662); m.10 Feb 1608 Marquis François Thomas d'Oiselet (d.Besançon 5 Jan 1629)
+						name=Charlotte
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021169 # Rudolf he had the following illegitimate issue:
+						1588.01.01={birth=yes}
+						1662.01.12={death=yes}
+					}
+				100021173={	# 4d) Ernst (Vienna 15 Jun 1553-Brussels 20 Feb 1595; bur St.Gudula, Brussels)
+					name=Ernst
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1553.06.15={birth=yes}
+					1595.02.20={death=yes}
+				}
+				100021174={	# 5d) Elisabeth (Vienna 5 Jun 1554-Vienna 22 Jan 1592; bur Vienna); m.Mézières 26 Nov 1570 King Charles IX of France (d.30 May 1574)
+					name=Elisabeth
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1554.06.05={birth=yes}
+					1592.01.22={death=yes}
+				}
+				100021177={	# 7d) Matthias (Vienna 24 Feb 1557-Vienna 20 Mar 1619); m.Vienna 4 Dec 1611 Archduchess Anna of Austria
+					name=Matthias
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1557.02.24={birth=yes}
+					1611.12.04={add_spouse=100021227}	# Archduchess Anna of Austria
+					1619.03.20={death=yes}
+				}
+				100021179={	# 8d) Maximilian (Wiener Neustadt 12 Oct 1558-Vienna 3 Nov 1618; bur St.Jakob, Innsbruck)
+					name=Maximilian
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1558.10.12={birth=yes}
+					1618.11.03={death=yes}
+				}
+				100021180={	# 9d) Albrecht (Wiener Neustadt 13 Nov 1559-Brussels 13 Jul 1621); m.1580 Valencia Infanta Isabella of Spain
+					name=Albrecht
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1559.11.13={birth=yes}
+					1580.01.01={add_spouse=100021116}	# Valencia Isabella of Spain
+					1621.07.13={death=yes}
+				}
+				100021182={	# 10d) Wenzel (Wiener Neustadt 9 Mar 1561-Madrid 22 Sep 1578)
+					name=Wenzel
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1561.03.09={birth=yes}
+					1578.09.22={death=yes}
+				}
+				100021186={	# 14d) Margareta (Vienna 25 Jan 1567-Madrid 5 Jul 1633)
+					name=Margareta
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1567.01.25={birth=yes}
+					1633.07.05={death=yes}
+				}
+				100021187={	# 15d) Eleonore (Vienna 4 Nov 1568-Prague 12 Mar 1580; bur St.Veit, Prague)
+					name=Eleonore
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021164 # Maximilian
+					mother=100021154 # Maria of Austria
+					1568.11.04={birth=yes}
+					1580.03.12={death=yes}
+				}
+			100021188={	# 3c) Anna (Prague 7 Jul 1528-Munich 16/17 Oct 1590; bur Munich); m.Regensburg 4 Jul 1546 Duke Albrecht V of Bavaria (d.24 Oct 1579)
+				name=Anna
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1528.07.07={birth=yes}
+				1590.10.16={death=yes}
+			}
+			100021190={	# 4c) Ferdinand, Archduke of Tyrol (Linz 14 Jun 1529-Innsbruck 24 Jan 1595; bur Innsbruck Hofkirche); m.1st Bresnice 7 Jan 1557 Philippine Welser (1527-Schloß Ambras 24 Apr 1580); m.2nd Innsbruck 14 May 1582 Anna Caterina (17 Jan 1566-Innsbruck 3 Aug 1621)
+				name=Ferdinand
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1529.06.14={birth=yes}
+				1557.01.07={add_spouse=100021191}	# Philippine Welser
+				1582.05.14={add_spouse=100021192}	# Anna Caterina
+				1595.01.24={death=yes}
+			}
+				100021193={	# 1d) Andreas of Austria (15 Jun 1558-12 Nov 1600)
+					name=Andreas
+					dynasty=51
+					religion=catholic culture=german
+					father=100021190 # Ferdinand
+					mother=100021191 # Philippine Welser
+					1558.06.15={birth=yes}
+					1600.11.12={death=yes}
+				}
+				100021194={	# 2d) Karl of Austria (22 Nov 1560-31 Oct 1618); m.4 Mar 1601 Sibylle of Jülich (26 Aug 1557-16 Dec 1627)
+					name=Karl
+					dynasty=51
+					religion=catholic culture=german
+					father=100021190 # Ferdinand
+					mother=100021191 # Philippine Welser
+					1560.11.22={birth=yes}
+					1601.03.04={add_spouse=100021195}	# Sibylle of Jülich
+					1618.10.31={death=yes}
+				}
+					100021196={	# 1e) Karl von Hohenberg (1584-7 Jul 1628); m.1st Günzburg 2 Feb 1615 Anna Katharina von Waltenhofen; m.2nd 24 May 1621 Maria Jakobine von Stotzingen (1605-1635)
+						name=Karl
+						dynasty=51
+						religion=catholic culture=german
+						father=100021194 # Karl of Austria
+						mother=100021195 # Sibylle of Jülich
+						1584.01.01={birth=yes}
+						1615.02.02={add_spouse=100021197}	# Anna Katharina von Waltenhofen
+						1621.01.01={remove_spouse=100021197}
+						1621.05.24={add_spouse=100021198}	# Maria Jakobine von Stotzingen
+						1628.07.07={death=yes}
+					}
+						100021199={	# 1f) Anna Sibylla (1621 - 21 Sep 1688); m.Paulus Rehlinger von Horgau (d.1667)
+							name="Anna Sibylla"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021196 # Karl von Hohenberg
+							mother=100021197 # Anna Katharina von Waltenhofen
+							1621.01.01={birth=yes}
+							1688.09.21={death=yes}
+						}
+						100021201={	# 2f) Elisabeth Anna (26 May 1626, d.after 21 Aug 1685); m.Georg Schütz von Burschütz (d.after 16 Nov 1677)
+							name="Elisabeth Anna"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021196 # Karl von Hohenberg
+							mother=100021198 # Maria Jakobine von Stotzingen
+							1626.05.26={birth=yes}
+							1686.08.21={death=yes}
+						}
+						100021203={	# 3f) Karl Siegmund (1628-1678); m.Susanna von Rost (d.1690)
+							name="Karl Siegmund"
+							dynasty=51
+							religion=catholic culture=german
+							father=100021196 # Karl von Hohenberg
+							mother=100021198 # Maria Jakobine von Stotzingen
+							1628.01.01={birth=yes}
+							1653.01.01={add_spouse=100021204}	# Susanna von Rost
+							1678.01.01={death=yes}
+						}
+							100021205={	# 1g) Franz Anton Ignaz (1630-26 May 1699)
+								name="Franz Anton"
+								dynasty=51
+								religion=catholic culture=german
+								father=100021203 # Karl Siegmund
+								mother=100021204 # Susanna von Rost
+								1630.01.01={birth=yes}
+								1699.05.26={death=yes}
+							}
+							100021206={	# 2g) Karl Joseph (7 Mar 1665-28 Jun 1725); m.1690 Maria Katharina Schindelin von und zu Unterraitenau (1672-3 Feb 1737)
+								name="Karl Joseph"
+								dynasty=51
+								religion=catholic culture=german
+								father=100021203 # Karl Siegmund
+								mother=100021204 # Susanna von Rost
+								1665.03.07={birth=yes}
+								1690.01.01={add_spouse=100021207}	# Maria Katharina Schindelin von und zu Unterraitenau
+								1725.06.28={death=yes}
+							}
+								100021208={	# 1h) Franz Joseph Anton (1691-12 Apr 1728); m.Maria Anna Voehlin (d.Jan 1761)
+									name="Franz Joseph"
+									dynasty=51
+									religion=catholic culture=german
+									father=100021206 # Karl Joseph
+									mother=100021207 # Maria Katharina Schindelin von und zu Unterraitenau
+									1691.01.01={birth=yes}
+									1716.01.01={add_spouse=100021209}	# Maria Anna Voehlin
+									1728.04.12={death=yes}
+								}
+							100021210={	# 3g) Gaudenz Siegmund (1667-5 Sep 1699); m.Maria Claudia von Stain (d.Augsburg 25 Apr 1736)
+								name="Gaudenz Siegmund"
+								dynasty=51
+								religion=catholic culture=german
+								father=100021203 # Karl Siegmund
+								mother=100021204 # Susanna von Rost
+								1667.01.01={birth=yes}
+								1692.01.01={add_spouse=100021211}	# Maria Claudia von Stain
+								1699.09.05={death=yes}
+							}
+								100021212={	# 1h) Friedrich Wilhelm (24 May 1694-24 May 1726); m.7 Jul 1725 Maria Karoline Gfn von Gleispach (3 May 1701-Frankfurt Apr 1764)
+									name="Friedrich Wilhelm"
+									dynasty=51
+									religion=catholic culture=german
+									father=100021210 # Gaudenz Siegmund
+									mother=100021211 # Maria Claudia von Stain
+									1694.05.24={birth=yes}
+									1725.07.07={add_spouse=100021213}	# Maria Karoline
+									1726.05.24={death=yes}
+								}
+							100021214={	# 4g) Maria Barbara, d.after 1728; m.31 May 1677 Adam Heinrich Keller von Schleitheim, Frhr von Isenburg (d.12 Dec 1731)
+								name="Maria Barbara"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021203 # Karl Siegmund
+								mother=100021204 # Susanna von Rost
+								1668.1.1={birth=yes}
+								1729.01.01={death=yes}
+							}
+							100021216={	# 6g) Susanna Felizitas (1664-1718); m.by 1700 Maximilian von Stain (d.1722)
+								name="Susanna Felizitas"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021203 # Karl Siegmund
+								mother=100021204 # Susanna von Rost
+								1664.01.01={birth=yes}
+								1718.01.01={death=yes}
+							}
+							100021218={	# 7g) Maria Johanna (1662-27 May 1726); m.1694 Veit Benno Frhr von Stuben (d.23 Jan 1695)
+								name="Maria Johanna"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021203 # Karl Siegmund
+								mother=100021204 # Susanna von Rost
+								1662.01.01={birth=yes}
+								1726.05.27={death=yes}
+							}
+					100021220={	# 2e) Ferdinand (1586-1660); m.1617 Barbara von Breiningen (1586-1660)
+						name=Ferdinand
+						dynasty=51
+						religion=catholic culture=german
+						father=100021194 # Karl of Austria
+						mother=100021195 # Sibylle of Jülich
+						1586.01.01={birth=yes}
+						1617.01.01={add_spouse=100021221}	# Barbara von Breiningen
+						1660.01.01={death=yes}
+					}
+						100021222={	# 1f) Karl Ferdinand (1610-1640)
+							name="Karl Ferdinand"
+							dynasty=51
+							religion=catholic culture=german
+							father=100021220 # Ferdinand
+							mother=100021221 # Barbara von Breiningen
+							1610.01.01={birth=yes}
+							1640.01.01={death=yes}
+						}
+					100021223={	# 3e) Anna Elisabeth (1588-1621); m.1607 Pietro Francesco di Ferrero, Marchese della Marmora (d.7 Mar 1611)
+						name="Anna Elisabeth"
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021194 # Karl of Austria
+						mother=100021195 # Sibylle of Jülich
+						1588.01.01={birth=yes}
+						1621.01.01={death=yes}
+					}
+				100021226={	# 7d) Maria (Innsbruck 16 Jun 1584-Innsbruck 2 Mar 1649; bur Innsbruck)
+					name=Maria
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021190 # Ferdinand
+					mother=100021192 # Anna Caterina
+					1584.06.16={birth=yes}
+					1649.03.02={death=yes}
+				}
+				100021227={	# 8d) Anna (Innsbruck 4 Oct 1585-Vienna 14 Dec 1618); m.Vienna 4 Dec 1611 Emperor Matthias
+					name=Anna
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021190 # Ferdinand
+					mother=100021192 # Anna Caterina
+					1585.10.04={birth=yes}
+					1618.12.14={death=yes}
+				}
+			100021229={	# 5c) Maria (Prague 15 May 1531-Hambach 11 Dec 1581; bur Kleve Stiftskirche); m.Regensburg 18 Jul 1546 Duke William III of Jülich, Kleve and Berg (d.Düsseldorf 5 Jan 1592)
+				name=Maria
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1531.05.15={birth=yes}
+				1581.12.11={death=yes}
+			}
+			100021231={	# 6c) Magdalena (Innsbruck 14 Aug 1532-Hall 10 Sep 1590)
+				name=Magdalena
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1532.08.14={birth=yes}
+				1590.09.10={death=yes}
+			}
+			100021232={	# 7c) Katharina (15 Sep 1533-Linz 28 Feb 1572); m.1st 22 Oct 1549 Duke Francesco III Gonzaga (1500 - 22 Feb 1550); m.2nd 31 Jul 1553 (div 1566) King Zygmunt August of Poland (d.7 Jul 1572)
+				name=Katharina
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1533.09.15={birth=yes}
+				1572.02.28={death=yes}
+			}
+			100021235={	# 8c) Eleonora (Vienna 2 Nov 1534-Mantua 5 Aug 1594; bur Mantua); m.Mantua 27 Apr 1561 Guglielmo Gonzaga, Duke of Mantua (d.Bozzolo 14 Aug 1587)
+				name=Eleonora
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1534.11.02={birth=yes}
+				1594.08.05={death=yes}
+			}
+			100021237={	# 9c) Margareta (Innsbruck 16 Feb 1536-Hall 12 Mar 1567)
+				name=Margareta
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1536.02.16={birth=yes}
+				1567.03.12={death=yes}
+			}
+			100021238={	# 11c) Barbara (Vienna 30 Apr 1539-Ferrara 19 Sep 1572); m.Ferrara 5 Dec 1565 Alfonso II d'Este, Duke of Ferrara (d.27 Oct 1597)
+				name=Barbara
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1539.04.30={birth=yes}
+				1572.09.19={death=yes}
+			}
+			100021240={	# 12c) Karl (Vienna 3 Jun 1540-Graz 10 Jul 1590); m.Vienna 26 Aug 1571 Maria Pss of Bavaria (Munich 21 Mar 1551-Graz 29 Apr 1608; bur St.Klara, Graz)
+				name=Karl
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1540.06.03={birth=yes}
+				1571.08.26={add_spouse=100021241}	# Maria of Bavaria
+				1590.07.10={death=yes}
+			}
+				100021243={	# 2d) Anna (Graz 16 Aug 1573-Warsaw 10 Feb 1598; bur Cracow Cathedral); m.31 May 1592 King Zygmunt III of Poland (d.30 Apr 1632)
+					name=Anna
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1573.08.16={birth=yes}
+					1598.02.10={death=yes}
+				}
+				100021245={	# 3d) Maria Christina (10 Nov 1574-Hall 6 Apr 1621); m.Weissenburg 6 Aug 1595 (div 1599) Zsigmond Báthori, Pr of Siebenbürgen (d.Prague 28 Mar 1613)
+					name="Maria Christina"
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1574.11.10={birth=yes}
+					1621.04.06={death=yes}
+				}
+				100021247={	# 4d) Katharina Renata (Graz 4 Jan 1576-Graz 29 Jun 1599)
+					name="Katharina Renata"
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1576.01.04={birth=yes}
+					1599.06.29={death=yes}
+				}
+				100021248={	# 5d) Elisabeth (Graz 13 Mar 1577-Graz 29 Jan 1586)
+					name=Elisabeth
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1577.03.13={birth=yes}
+					1586.01.29={death=yes}
+				}
+				100021249={	# 6d) Emperor Ferdinand II (Graz 9 Jul 1578-Vienna 15 Feb 1637); m.1st Graz 23 Apr 1600 Maria Anna Pss of Bavaria (Munich 8 Dec 1574-Graz 8 Mar 1616); m.2nd Innsbruck 4 Feb 1622 Eleonora Gonzaga (Mantua 23 Sep 1598-Vienna 27 Jun 1655; bur Vienna)
+					name="Ferdinand"
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1578.07.09={birth=yes}
+					1600.04.23={add_spouse=100021250}	# Maria Anna
+					1622.02.04={add_spouse=100021251}	# Eleonora Gonzaga
+					1637.02.15={death=yes}
+				}
+					100021253={	# 3e) Johann Karl (Graz 1 Nov 1605-Graz 26 Dec 1619)
+						name="Johann Karl"
+						dynasty=51
+						religion=catholic culture=german
+						father=100021249 # Emperor Ferdinand
+						mother=100021250 # Maria Anna
+						1605.11.01={birth=yes}
+						1619.12.26={death=yes}
+					}
+					100021254={	# 4e) Emperor Ferdinand III (Graz 13 Jul 1608-Vienna 2 Apr 1657); m.1st Vienna 20 Feb 1631 Maria Ana of Spain (1606-1646); m.2nd Linz 2 Jul 1648 Archduchess Marie Leopoldine of Austria; m.3rd Wiener Neustadt 30 Apr 1651 Eleonora Gonzaga (Mantua 18 Nov 1630-Vienna 6 Dec 1686)
+						name="Ferdinand"
+						dynasty=51
+						religion=catholic culture=german
+						father=100021249 # Emperor Ferdinand
+						mother=100021250 # Maria Anna
+						1608.07.13={birth=yes}
+						1631.02.20={add_spouse=100021148}	# Maria Ana of Spain
+						1648.07.02={add_spouse=100021324}	# Archduchess Marie of Austria
+						1651.01.01={remove_spouse=100021324}
+						1651.04.30={add_spouse=100021257}	# Eleonora Gonzaga
+						1657.04.02={death=yes}
+					}
+						100021258={	# 1f) Ferdinand Franz (Vienna 8 Sep 1633-Vienna 9 Jul 1654)
+							name="Ferdinand Franz"
+							dynasty=51
+							religion=catholic culture=german
+							father=100021254 # Emperor Ferdinand
+							mother=100021148 # Maria Ana of Spain
+							1633.09.08={birth=yes}
+							1654.07.09={death=yes}
+						}
+						100021130={	# 2f) Maria Anna (Wiener Neustadt 24 Dec 1635-Toledo 16 May 1696); m.Madrid 7 Oct 1649 King Felipe IV of Spain
+							name="Maria Anna"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021254 # Emperor Ferdinand
+							mother=100021148 # Maria Ana of Spain
+							1635.12.24={birth=yes}
+							1696.05.16={death=yes}
+						}
+						100021263={	# 5f) Leopold I (Vienna 9 Jun 1640-Vienna 5 May 1705); m.1st Vienna 5 Dec 1666 Margarita Teresa of Spain(1651-1673); m.2nd Graz 15 Oct 1673 Archduchess Klaudia Felizitas of Austria; m.3rd Passau 14 Dec 1676 Eleonore Magdalene Pfgfn von Neuburg (Düsseldorf 6 Jan 1655-Vienna 19 Jan 1720)
+							name=Leopold
+							dynasty=51
+							religion=catholic culture=german
+							father=100021254 # Emperor Ferdinand
+							mother=100021148 # Maria Ana of Spain
+							1640.06.09={birth=yes}
+							1666.12.05={add_spouse=100021139}	# Margarita Teresa of Spain
+							1673.10.15={add_spouse=100021318}	# Archduchess Klaudia of Austria
+							1676.01.01={remove_spouse=100021318}
+							1676.12.14={add_spouse=100021266}	# Eleonore Magdalene
+							1705.05.05={death=yes}
+						}
+							100021268={	# 2g) Maria Antonie (Vienna 18 Jan 1669-Vienna 24 Dec 1692); m.Vienna 15 Jul 1685 Elector Maximilian II of Bavaria (d.26 Feb 1726)
+								name="Maria Antonie"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021263 # Leopold
+								mother=100021139 # Margarita Teresa of Spain
+								1669.01.18={birth=yes}
+								1692.12.24={death=yes}
+							}
+							100021273={	# 7g) Joseph I (Vienna 26 Jul 1678-Vienna 17 Apr 1711); m.Vienna 24 Feb 1699 Wilhelmine Amalie of BraunschweigLüneburg (Hannover 21 Apr 1673-Vienna 10 Apr 1742; bur Vienna)
+								name=Joseph
+								dynasty=51
+								religion=catholic culture=german
+								father=100021263 # Leopold
+								mother=100021266 # Eleonore Magdalene
+								1678.07.26={birth=yes}
+								1699.02.24={add_spouse=100021274}	# Wilhelmine Amalie of BraunschweigLüneburg
+								1711.04.17={death=yes}
+							}
+								100021275={	# 1h) Maria Josefa (Vienna 8 Dec 1699-Dresden 17 Nov 1757); m.Vienna 20 Aug 1719 Elector Friedrich August III of Saxony, King of Poland (d.5 Oct 1763)
+									name="Maria Josefa"
+									female=yes
+									dynasty=51
+									religion=catholic culture=german
+									father=100021273 # Joseph
+									mother=100021274 # Wilhelmine Amalie of BraunschweigLüneburg
+									1699.12.08={birth=yes}
+									1757.11.17={death=yes}
+								}
+								100021278={	# 3h) Maria Amalia (Vienna 22 Oct 1701-Munich 11 Dec 1756); m.Vienna 5 Oct 1722 Elector Karl of Bavaria (d.2 Jan 1745)
+									name="Maria Amalia"
+									female=yes
+									dynasty=51
+									religion=catholic culture=german
+									father=100021273 # Joseph
+									mother=100021274 # Wilhelmine Amalie of BraunschweigLüneburg
+									1701.10.22={birth=yes}
+									1756.12.11={death=yes}
+								}
+							100021280={	# 9g) Marie Elisabeth (Linz 13 Dec 1680-Marimont 26 Aug 1741)
+								name="Marie Elisabeth"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021263 # Leopold
+								mother=100021266 # Eleonore Magdalene
+								1680.12.13={birth=yes}
+								1741.08.26={death=yes}
+							}
+							100021282={	# 11g) Maria Anna Josefa (7 Sep 1683-14 Aug 1754); m.Lisbon 27 Oct 1708 King João V of Portugal (1689-31 Jul 1750)
+								name="Maria Anna"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021263 # Leopold
+								mother=100021266 # Eleonore Magdalene
+								1683.09.07={birth=yes}
+								1754.08.14={death=yes}
+							}
+							100021284={	# 12g) Maria Theresia (Vienna 22 Aug 1684-Schloß Ebersdorf 28 Sep 1696)
+								name="Maria Theresia"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021263 # Leopold
+								mother=100021266 # Eleonore Magdalene
+								1684.08.22={birth=yes}
+								1696.09.28={death=yes}
+							}
+							100021285={	# 13g) Karl VI (Vienna 1 Oct 1685-Vienna 20 Oct 1740); m.Hietzing 23 Apr 1708 Elisabeth Christine of BraunschweigWolfenbüttel (Braunschweig 28 Aug 1691-Vienna 21 Dec 1750)
+								name=Karl
+								dynasty=51
+								religion=catholic culture=german
+								father=100021263 # Leopold
+								mother=100021266 # Eleonore Magdalene
+								1685.10.01={birth=yes}
+								1708.04.23={add_spouse=100021286}	# Elisabeth Christine of BraunschweigWolfenbüttel
+								1740.10.20={death=yes}
+							}
+								## 2h) Maria Theresia (Vienna 13 May 1717-Vienna 29 Nov 1780); m.Vienna 12 Feb 1736 Duke Francis Stephen of Lorraine
+								100021290={	# 3h) Maria Anna (Vienna 14 Sep 1718-Brussels 16 Dec 1744); m.Vienna 7 Jan 1744 Charles of Lorraine (d.Tervueren 4 Jul 1780)
+									name="Maria Anna"
+									female=yes
+									dynasty=51
+									religion=catholic culture=german
+									father=100021285 # Karl
+									mother=100021286 # Elisabeth Christine of BraunschweigWolfenbüttel
+									1718.09.14={birth=yes}
+									1744.12.16={death=yes}
+								}
+							100021292={	# 14g) Maria Josefa (Vienna 6 Mar 1687-Vienna 14 Apr 1703)
+								name="Maria Josefa"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021263 # Leopold
+								mother=100021266 # Eleonore Magdalene
+								1687.03.06={birth=yes}
+								1703.04.14={death=yes}
+							}
+							100021293={	# 15g) Maria Magdalene Josefa (Vienna 26 Mar 1689-Vienna 1 May 1743)
+								name="Maria Magdalene"
+								female=yes
+								dynasty=51
+								religion=catholic culture=german
+								father=100021263 # Leopold
+								mother=100021266 # Eleonore Magdalene
+								1689.03.26={birth=yes}
+								1743.05.01={death=yes}
+							}
+						100021295={	# 7f) Karl Joseph (Vienna 7 Aug 1649-Vienna 27 Jan 1664)
+							name="Karl Joseph"
+							dynasty=51
+							religion=catholic culture=german
+							father=100021254 # Emperor Ferdinand
+							mother=100021324 # Archduchess Marie of Austria
+							1649.08.07={birth=yes}
+							1664.01.27={death=yes}
+						}
+						100021297={	# 9f) Eleonore Maria Josefa (Regensburg 31 May 1653-Vienna 17 Dec 1697); m.1st 27 Feb 1670 Michal Wisniowecki, King of Poland (d.Lemberg 10 Nov 1673; bur Cracow Cathedral); m.2nd Wiener Neustadt 6 Feb 1678 Duke Charles IV of Lorraine (d.Wels 18 Apr 1690)
+							name="Eleonore Maria"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021254 # Emperor Ferdinand
+							mother=100021257 # Eleonora Gonzaga
+							1653.05.31={birth=yes}
+							1697.12.17={death=yes}
+						}
+						100021300={	# 10f) Maria Anna Josefa (Regensburg 30 Dec 1654-Vienna 4 Apr 1691); m.Wiener Neustadt 25 Oct 1678 Johann Wilhelm Pfgf von Neuburg (d.8 Jun 1716)
+							name="Maria Anna"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021254 # Emperor Ferdinand
+							mother=100021257 # Eleonora Gonzaga
+							1654.12.30={birth=yes}
+							1691.04.04={death=yes}
+						}
+					100021303={	# 5e) Maria Anna (Graz 13 Jan 1610-Munich 25 Sep 1665; bur St.Michael); m.Vienna 15 Jul 1635 Elector Maximilian I of Bavaria (d.27 Sep 1651)
+						name="Maria Anna"
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021249 # Emperor Ferdinand
+						mother=100021250 # Maria Anna
+						1610.01.13={birth=yes}
+						1665.09.25={death=yes}
+					}
+					100021305={	# 6e) Cäcilia Renata (16 Jul 1611-Wilna 24 Mar 1644; bur Cracow Cathedral); m.Vienna 9 Aug 1637 King Wladislaw IV of Poland (d.19 May 1648)
+						name="Cäcilia Renata"
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021249 # Emperor Ferdinand
+						mother=100021250 # Maria Anna
+						1611.07.16={birth=yes}
+						1644.03.24={death=yes}
+					}
+					100021307={	# 7e) Leopold Wilhelm (Graz 6 Jan 1614-Vienna 20 Nov 1662)
+						name="Leopold Wilhelm"
+						dynasty=51
+						religion=catholic culture=german
+						father=100021249 # Emperor Ferdinand
+						mother=100021250 # Maria Anna
+						1614.01.06={birth=yes}
+						1662.11.20={death=yes}
+					}
+				100021308={	# 8d) Gregoria Maximiliana (Graz 22 Mar 1581-Graz 20 Sep 1597)
+					name="Gregoria Maximiliana"
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1581.03.22={birth=yes}
+					1597.09.20={death=yes}
+				}
+				100021309={	# 9d) Eleonora (Graz 25 Sep 1582-Hall 28 Jan 1620)
+					name=Eleonora
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1582.09.25={birth=yes}
+					1620.01.28={death=yes}
+				}
+				100021310={	# 10d) Maximilian Ernst (Graz 17 Nov 1583-Graz 18 Feb 1616)
+					name="Maximilian Ernst"
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1583.11.17={birth=yes}
+					1616.02.18={death=yes}
+				}
+				100021311={	# 11d) Margareta (Graz 25 Dec 1584-Escorial 3 Oct 1611); m.Valencia 18 Apr 1599 King Felipe III of Spain (Madrid 14 Apr 1578-Escorial 31 Mar 1621)
+					name=Margareta
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1584.12.25={birth=yes}
+					1611.10.03={death=yes}
+				}
+				100021313={	# 12d) Leopold V (Graz 9 Oct 1586-Schwaz 13 Sep 1632; bur Jesuit Chirch, Innsbruck); m.19 Apr 1626 Claudia de Medici (Florence 4 Jun 1604-Innsbruck 25 Dec 1648)
+					name=Leopold
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1586.10.09={birth=yes}
+					1626.04.19={add_spouse=100021314}	# Claudia de Medici
+					1632.09.13={death=yes}
+				}
+					100021316={	# 2e) Ferdinand Karl (17 May 1628-Kaltern 30 Dec 1662); m.10 Jun 1646 Anna de Medici (Florence 21 Jul 1616-Vienna 11 Sep 1676)
+						name="Ferdinand Karl"
+						dynasty=51
+						religion=catholic culture=german
+						father=100021313 # Leopold
+						mother=100021314 # Claudia de Medici
+						1628.05.17={birth=yes}
+						1646.06.10={add_spouse=100021317}	# Anna de Medici
+						1662.12.30={death=yes}
+					}
+						100021318={	# 1f) Klaudia Felizitas (Innsbruck 30 May 1653-Vienna 8 Apr 1676); m.Graz 15 Oct 1673 Emperor Leopold I (Vienna 9 Jun 1640-Vienna 5 May 1705)
+							name="Klaudia Felizitas"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021316 # Ferdinand Karl
+							mother=100021317 # Anna de Medici
+							1653.05.30={birth=yes}
+							1676.04.08={death=yes}
+						}
+						100021320={	# 2f) Maria Magdalena (Innsbruck 17 Aug 1656-Innsbruck 21 Jan 1669)
+							name="Maria Magdalena"
+							female=yes
+							dynasty=51
+							religion=catholic culture=german
+							father=100021316 # Ferdinand Karl
+							mother=100021317 # Anna de Medici
+							1656.08.17={birth=yes}
+							1669.01.21={death=yes}
+						}
+					100021321={	# 3e) Isabella Klara (Innsbruck 12 Aug 1629-Mantua 24 Feb 1685); m.7 Nov 1649 Carlo Gonzaga, Duke of Mantua (d.14 Aug 1665)
+						name="Isabella Klara"
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021313 # Leopold
+						mother=100021314 # Claudia de Medici
+						1629.08.12={birth=yes}
+						1685.02.24={death=yes}
+					}
+					100021323={	# 4e) Sigismund Franz (Innsbruck 27/28 Nov 1630-Innsbruck 25 Jun 1665)
+						name="Sigismund Franz"
+						dynasty=51
+						religion=catholic culture=german
+						father=100021313 # Leopold
+						mother=100021314 # Claudia de Medici
+						1630.11.27={birth=yes}
+						1665.06.25={death=yes}
+					}
+					100021324={	# 5e) Marie Leopoldina (Innsbruck 6 Apr 1632-Vienna 7 Aug 1649); m.Linz 2 Aug 1648 Emperor Ferdinand III
+						name="Marie Leopoldina"
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100021313 # Leopold
+						mother=100021314 # Claudia de Medici
+						1632.04.06={birth=yes}
+						1649.08.07={death=yes}
+					}
+				100021326={	# 13d) Konstanze (Graz 24 Dec 1588-Warsaw 10 Jul 1631; bur Cracow Cathedral); m.11 Dec 1605 King Zygmunt III of Poland and Sweden(d.30 Apr 1632)
+					name=Konstanze
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1588.12.24={birth=yes}
+					1631.07.10={death=yes}
+				}
+				100021328={	# 14d) Maria Magdalena (Graz 7 Oct 1589-Padua 1 Nov 1631, bur S.Lorenzo, Florence); m.19 Oct 1608 Cosimo de Medici, Gr Duke of Tuscany (d.28 Feb 1621)
+					name="Maria Magdalena"
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1589.10.07={birth=yes}
+					1631.11.01={death=yes}
+				}
+				100021330={	# 15d) Karl (Graz 7 Aug 1590-Madrid 28 Dec 1624)
+					name=Karl
+					dynasty=51
+					religion=catholic culture=german
+					father=100021240 # Karl
+					mother=100021241 # Maria of Bavaria
+					1590.08.07={birth=yes}
+					1624.12.28={death=yes}
+				}
+			100021332={	# 14c) Helene (Vienna 7 Jan 1543-Hall 5 Mar 1574)
+				name=Helene
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1543.01.07={birth=yes}
+				1574.03.05={death=yes}
+			}
+			100021333={	# 15c) Johanna (Prague 24 Jan 1547-Florence 10 Apr 1578; bur S.Lorenzo, Florence); m.Florence 18 Dec 1565 Francesco de Medici, Gr Duke of Tuscany (d.Florence 19 Oct 1587)
+				name=Johanna
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100021160 # Ferdinand
+				mother=100021161 # Anna of Hungary
+				1547.01.24={birth=yes}
+				1578.04.10={death=yes}
+			}
+		100021335={	# 5b) Marie (Brussels 17 Sep 1505-Cigales 18 Oct 1558); m.Prague 13 Jan 1522 King Louis II of Bohemia and Hungary (d.29 Aug 1526)
+			name=Marie
+			female=yes
+			dynasty=51
+			religion=catholic culture=german
+			father=100021103 # Felipe
+			mother=100021104 # Queen Juana of Castile
+			1505.09.17={birth=yes}
+			1558.10.18={death=yes}
+		}
+		100021337={	# 6b) Katharina (Torquemada 14 Jan 1507-Lisbon 12 Feb 1578; bur Belem); m.Salamanca 5 Feb 1525 King João III of Portugal (1521 - 11 Jun 1557)
+			name=Katharina
+			female=yes
+			dynasty=51
+			religion=catholic culture=german
+			father=100021103 # Felipe
+			mother=100021104 # Queen Juana of Castile
+			1507.01.14={birth=yes}
+			1578.02.12={death=yes}
+		}
+	100021339={	# 2a) Margarete (Brussels 10 Jan 1480-Malines 1 Dec 1530); m.1st Burgos 3 Apr 1497 Infant Juan of Aragón (d.4 Oct 1497); m.2nd Romainmôtier 3 Dec 1501 Duke Philibert II di Savoia (d.Pont 10 Sep 1504)
+		name=Margarete
+		female=yes
+		dynasty=51
+		religion=catholic culture=german
+		father=100021100 # Maximilian
+		mother=100021101 # Marie of Burgundy
+		1480.01.10={birth=yes}
+		1530.12.01={death=yes}
+	}
+
+#######
+100021146={	# Pfgfn   			Maria               			Anna           
+	name="Maria Anna"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1667.10.28={birth=yes}
+	1740.08.16={death=yes}
+}
+100021250={	# Pss     			Maria               			Anna           
+	name="Maria Anna"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1574.12.08={birth=yes}
+	1616.03.08={death=yes}
+}
+100021219={	# Frhr    			Veit                			Benno          
+	name="Veit Benno"
+	dynasty=0
+	religion=catholic culture=german
+	1669.01.01={birth=yes}
+	1694.01.01={add_spouse=100021218}	# Maria Johanna
+	1695.01.23={death=yes}
+}
+100021246={	# Pr      			Zsigmond            			Báthori        
+	name="Zsigmond Báthori"
+	dynasty=0
+	religion=catholic culture=german
+	1570.01.01={birth=yes}
+	1595.08.06={add_spouse=100021245}	# Maria Christina
+	1599.01.01={remove_spouse=100021245}
+	1613.03.28={death=yes}
+}
+100021233={	# Duke    			Francesco           			Gonzaga        
+	name="Francesco Gonzaga"
+	dynasty=0
+	religion=catholic culture=german
+	1500.01.01={birth=yes}
+	1549.10.22={add_spouse=100021232}	# Katharina
+	1550.02.22={death=yes}
+}
+100021236={	# Duke    			Guglielmo           			Gonzaga        
+	name="Guglielmo Gonzaga"
+	dynasty=0
+	religion=catholic culture=german
+	1536.01.01={birth=yes}
+	1561.04.27={add_spouse=100021235}	# Eleonora
+	1587.08.14={death=yes}
+}
+100021322={	# Duke    			Carlo               			Gonzaga        
+	name="Carlo Gonzaga"
+	dynasty=0
+	religion=catholic culture=german
+	1624.01.01={birth=yes}
+	1649.11.07={add_spouse=100021321}	# Isabella Klara
+	1665.08.14={death=yes}
+}
+100021213={	# Gfn     			Maria               			Karoline       
+	name="Maria Karoline"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1701.05.03={birth=yes}
+	1764.04.01={death=yes}
+}
+100021215={	# Frhr    			Adam Heinrich       			Keller von Schleitheim
+	name="Adam Heinrich Keller von Schleitheim"
+	dynasty=0
+	religion=catholic culture=german
+	1652.01.01={birth=yes}
+	1677.05.31={add_spouse=100021214}	# Maria Barbara
+	1731.12.12={death=yes}
+}
+100021266={	# Pfgfn   			Eleonore            			Magdalene      
+	name="Eleonore Magdalene"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1655.01.06={birth=yes}
+	1720.01.19={death=yes}
+}
+100021301={	# Pfgf    			Johann              			Wilhelm        
+	name="Johann Wilhelm"
+	dynasty=0
+	religion=catholic culture=german
+	1653.01.01={birth=yes}
+	1678.10.25={add_spouse=100021300}	# Maria Anna
+	1716.06.08={death=yes}
+}
+100021298={	# King    			Michal              			Wisniowecki    
+	name="Michal Wisniowecki"
+	dynasty=0
+	religion=catholic culture=german
+	1645.01.01={birth=yes}
+	1670.02.27={add_spouse=100021297}	# Eleonore Maria
+	1673.11.10={death=yes}
+}
+100021239={	# Duke    			Alfonso             			d'Este         
+	name="Alfonso d'Este"
+	dynasty=0
+	religion=catholic culture=german
+	1540.01.01={birth=yes}
+	1565.12.05={add_spouse=100021238}	# Barbara
+	1597.10.27={death=yes}
+}
+100021172={	# Marquis 			François Thomas     			d'Oiselet      
+	name="François Thomas d'Oiselet"
+	dynasty=0
+	religion=catholic culture=german
+	1583.01.01={birth=yes}
+	1608.02.10={add_spouse=100021171}	# Charlotte
+	1629.01.05={death=yes}
+}
+100021329={	# Duke    			Cosimo              			de Medici   
+	name="Cosimo de Medici"
+	dynasty=0
+	religion=catholic culture=german
+	1583.01.01={birth=yes}
+	1608.10.19={add_spouse=100021328}	# Maria Magdalena
+	1621.02.28={death=yes}
+}
+100021334={	# Duke    			Francesco           			de Medici   
+	name="Francesco de Medici"
+	dynasty=0
+	religion=catholic culture=german
+	1540.01.01={birth=yes}
+	1565.12.18={add_spouse=100021333}	# Johanna
+	1587.10.19={death=yes}
+}
+100021224={	# Marchese			Pietro Francesco    			di Ferrero della Marmora
+	name="Pietro Francesco di Ferrero della Marmora"
+	dynasty=0
+	religion=catholic culture=german
+	1582.01.01={birth=yes}
+	1607.01.01={add_spouse=100021223}	# Anna Elisabeth
+	1611.03.07={death=yes}
+}
+100021189={	# Duke    			Albrecht            			of Bavaria     
+	name="Albrecht of Bavaria"
+	dynasty=0
+	religion=catholic culture=german
+	1521.01.01={birth=yes}
+	1546.07.04={add_spouse=100021188}	# Anna
+	1579.10.24={death=yes}
+}
+100021241={	# Pss     			Maria               			of Bavaria     
+	name="Maria of Bavaria"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1551.03.21={birth=yes}
+	1608.04.29={death=yes}
+}
+100021269={	#         			Maximilian  					of Bavaria     
+	name="Maximilian of Bavaria"
+	dynasty=0
+	religion=catholic culture=german
+	1660.01.01={birth=yes}
+	1685.07.15={add_spouse=100021268}	# Maria Antonie
+	1726.02.26={death=yes}
+}
+100021279={	#         			Karl        					of Bavaria     
+	name="Karl of Bavaria"
+	dynasty=0
+	religion=catholic culture=german
+	1697.01.01={birth=yes}
+	1722.10.05={add_spouse=100021278}	# Maria Amalia
+	1745.01.02={death=yes}
+}
+100021304={	#         			Maximilian  					of Bavaria     
+	name="Maximilian of Bavaria"
+	dynasty=0
+	religion=catholic culture=german
+	1610.01.01={birth=yes}
+	1635.07.15={add_spouse=100021303}	# Maria Anna
+	1651.09.27={death=yes}
+}
+100021336={	# King    			Louis               			of Bohemia and Hungary
+	name="Louis of Bohemia and Hungary"
+	dynasty=0
+	religion=catholic culture=german
+	1497.01.01={birth=yes}
+	1522.01.13={add_spouse=100021335}	# Marie
+	1526.08.29={death=yes}
+}
+100021159={	# King    			Christian           			of Denmark     
+	name="Christian of Denmark"
+	dynasty=0
+	religion=catholic culture=german
+	1490.01.01={birth=yes}
+	1515.08.12={add_spouse=100021158}	# Isabella
+	1559.01.25={death=yes}
+}
+100021107={	# King    			François            			of France      
+	name="François of France"
+	dynasty=0
+	religion=catholic culture=german
+	1494.01.01={birth=yes}
+	1530.01.01={add_spouse=100021105}	# Eleonore
+	1547.07.31={death=yes}
+}
+100021126={	# King    			Bordeaux Louis      			of France      
+	name="Bordeaux Louis of France"
+	dynasty=0
+	religion=catholic culture=german
+	1590.01.01={birth=yes}
+	1615.11.25={add_spouse=100021125}	# Anna Maria
+	1643.05.14={death=yes}
+}
+100021138={	# King    			Louis               			of France      
+	name="Louis of France"
+	dynasty=0
+	religion=catholic culture=german
+	1635.01.01={birth=yes}
+	1660.06.09={add_spouse=100021137}	# Maria Teresa
+	1715.09.01={death=yes}
+}
+100021175={	# King    			Charles             			of France      
+	name="Charles of France"
+	dynasty=0
+	religion=catholic culture=german
+	1545.01.01={birth=yes}
+	1570.11.26={add_spouse=100021174}	# Elisabeth
+	1574.05.30={death=yes}
+}
+100021230={	# Duke    			William             			of Jülich Kleve and Berg
+	name="William of Jülich Kleve and Berg"
+	dynasty=0
+	religion=catholic culture=german
+	1521.01.01={birth=yes}
+	1546.07.18={add_spouse=100021229}	# Maria
+	1592.01.05={death=yes}
+}
+100021299={	# Duke    			Charles             			of Lorraine    
+	name="Charles of Lorraine"
+	dynasty=0
+	religion=catholic culture=german
+	1653.01.01={birth=yes}
+	1678.02.06={add_spouse=100021297}	# Eleonore Maria
+	1690.04.18={death=yes}
+}
+100021163={	# King    			Zygmunt August      			of Poland      
+	name="Zygmunt August of Poland"
+	dynasty=0
+	religion=catholic culture=german
+	1520.08.01={birth=yes}
+	1543.05.05={add_spouse=100021162}	# Elisabeth
+	1553.07.31={add_spouse=100021232}	# Katharina
+	1566.01.01={remove_spouse=100021232}
+	1572.07.07={death=yes}
+}
+100021244={	# King    			Zygmunt             			Vasa      
+	name="Zygmunt Vasa"
+	dynasty=0
+	religion=catholic culture=german
+	1566.01.01={birth=yes}
+	1592.05.31={add_spouse=100021243}	# Anna
+	1605.12.11={add_spouse=100021326}	# Konstanze
+	1632.04.30={death=yes}
+}
+100021306={	# King    			Wladislaw           			of Poland      
+	name="Wladislaw of Poland"
+	dynasty=0
+	religion=catholic culture=german
+	1612.01.01={birth=yes}
+	1637.08.09={add_spouse=100021305}	# Cäcilia Renata
+	1648.05.19={death=yes}
+}
+100021106={	# King    			Manoel              			of Portugal    
+	name="Manoel of Portugal"
+	dynasty=0
+	religion=catholic culture=german
+	1469.01.01={birth=yes}
+	1519.03.07={add_spouse=100021105}	# Eleonore
+	1521.12.13={death=yes}
+}
+100021283={	# King    			João                			of Portugal    
+	name="João of Portugal"
+	dynasty=0
+	religion=catholic culture=german
+	1689.01.01={birth=yes}
+	1708.10.27={add_spouse=100021282}	# Maria Anna
+	1750.07.31={death=yes}
+}
+100021338={	# King    			João                			of Portugal    
+	name="João of Portugal"
+	dynasty=0
+	religion=catholic culture=german
+	1521.01.01={birth=yes}
+	1525.02.05={add_spouse=100021337}	# Katharina
+	1557.06.11={death=yes}
+}
+100021119={	# Duke    			Carlo Emanuele      			di Savoia       
+	name="Carlo Emanuele di Savoia"
+	dynasty=0
+	religion=catholic culture=german
+	1560.01.01={birth=yes}
+	1585.03.11={add_spouse=100021118}	# Catalina Micaela
+	1630.07.26={death=yes}
+}
+100021341={	# Duke    			Philibert           			di Savoia       
+	name="Philibert di Savoia"
+	dynasty=0
+	religion=catholic culture=german
+	1476.01.01={birth=yes}
+	1501.12.03={add_spouse=100021339}	# Margarete
+	1504.09.10={death=yes}
+}
+100021276={	# King    			Elector Friedrich   			of Saxony      
+	name="Friedrich of Saxony"
+	dynasty=0
+	religion=catholic culture=german
+	1694.01.01={birth=yes}
+	1719.08.20={add_spouse=100021275}	# Maria Josefa
+	1763.10.05={death=yes}
+}
+100021192={	#         			Anna Caterina       			Gonzaga
+	name="Anna Caterina Gonzaga"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1566.01.17={birth=yes}
+	1621.08.03={death=yes}
+}
+100021251={	#         			Eleonora            			Gonzaga        
+	name="Eleonora Gonzaga"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1598.09.23={birth=yes}
+	1655.06.27={death=yes}
+}
+100021257={	#         			Eleonora            			Gonzaga        
+	name="Eleonora Gonzaga"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1630.11.18={birth=yes}
+	1686.12.06={death=yes}
+}
+100021102={	#         			Blanca Maria					Sforza          
+	name="Blanca Maria Sforza"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1472.04.05={birth=yes}
+	1510.12.31={death=yes}
+}
+100021200={	#         			Paulus              			Rehlinger von Horgau
+	name="Paulus Rehlinger von Horgau"
+	dynasty=0
+	religion=catholic culture=german
+	1621.01.01={birth=yes}
+	1646.01.01={add_spouse=100021199}	# Anna Sibylla
+	1667.01.01={death=yes}
+}
+100021207={	#         			Maria Katharina     			Schindelin von und zu Unterraitenau
+	name="Maria Katharina Schindelin von und zu Unterraitenau"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1672.01.01={birth=yes}
+	1737.02.03={death=yes}
+}
+100021202={	#         			Georg               			Schütz von Burschütz
+	name="Georg Schütz von Burschütz"
+	dynasty=0
+	religion=catholic culture=german
+	1626.01.01={birth=yes}
+	1651.01.01={add_spouse=100021201}	# Elisabeth Anna
+	1678.11.16={death=yes}
+}
+100021209={	#         			Maria Anna          			Voehlin        
+	name="Maria Anna Voehlin"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1696.01.01={birth=yes}
+	1761.01.01={death=yes}
+}
+100021191={	#         			Philippine          			Welser         
+	name="Philippine Welser"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1527.01.01={birth=yes}
+	1580.04.24={death=yes}
+}
+100021314={	#         			Claudia             			de Medici      
+	name="Claudia de Medici"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1604.06.04={birth=yes}
+	1648.12.25={death=yes}
+}
+100021317={	#         			Anna                			de Medici      
+	name="Anna de Medici"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1616.07.21={birth=yes}
+	1676.09.11={death=yes}
+}
+100021145={	#         			Marie Louise        			d’Orléans      
+	name="Marie Louise d’Orléans"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1662.03.27={birth=yes}
+	1689.02.12={death=yes}
+}
+100021340={	#         			Infant Juan         			of Aragón      
+	name="Infant Juan of Aragón"
+	dynasty=0
+	religion=catholic culture=german
+	1472.01.01={birth=yes}
+	1497.04.03={add_spouse=100021339}	# Margarete
+	1497.10.04={death=yes}
+}
+100021274={	#         			Wilhelmine Amalie   			of Braunschweig-Lüneburg
+	name="Wilhelmine Amalie of Braunschweig-Lüneburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1673.04.21={birth=yes}
+	1742.04.10={death=yes}
+}
+100021286={	#         			Elisabeth Christine 			of Braunschweig-Wolfenbüttel
+	name="Elisabeth Christine of Braunschweig-Wolfenbüttel"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1691.08.28={birth=yes}
+	1750.12.21={death=yes}
+}
+100021101={	#         			Marie               			of Burgundy    
+	name="Marie of Burgundy"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1457.02.13={birth=yes}
+	1482.03.27={death=yes}
+}
+100021104={	# Queen 			Juana         					of Castile     
+	name="Queen Juana of Castile"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1479.11.06={birth=yes}
+	1555.04.12={death=yes}
+}
+100021112={	# Queen 			Mary          					of England     
+	name="Queen Mary of England"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1516.02.08={birth=yes}
+	1558.11.17={death=yes}
+}
+100021113={	#         			Elisabeth           			of France      
+	name="Elisabeth of France"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1545.04.02={birth=yes}
+	1568.10.03={death=yes}
+}
+100021129={	#         			Elisabeth           			of France      
+	name="Elisabeth of France"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1602.11.22={birth=yes}
+	1644.10.06={death=yes}
+}
+100021161={	#         			Anna                			of Hungary     
+	name="Anna of Hungary"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1503.07.23={birth=yes}
+	1547.01.27={death=yes}
+}
+100021195={	#         			Sibylle             			of Jülich      
+	name="Sibylle of Jülich"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1557.08.26={birth=yes}
+	1627.12.16={death=yes}
+}
+100021291={	#         			Charles             			of Lorraine    
+	name="Charles of Lorraine"
+	dynasty=0
+	religion=catholic culture=german
+	1719.01.01={birth=yes}
+	1744.01.07={add_spouse=100021290}	# Maria Anna
+	1780.07.04={death=yes}
+}
+100021109={	#         			Isabella            			of Portugal    
+	name="Isabella of Portugal"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	father=100100955
+	1503.10.24={birth=yes}
+	1539.05.01={death=yes}
+}
+
+100021111={	#         			Maria               			of Portugal    
+	name="Maria of Portugal"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1527.10.15={birth=yes}
+	1545.07.12={death=yes}
+}
+100021157={	#         			Infant João         			of Portugal    
+	name="Infant João of Portugal"
+	dynasty=0
+	religion=catholic culture=german
+	1527.01.01={birth=yes}
+	1552.12.07={add_spouse=100021156}	# Juana
+	1554.01.02={death=yes}
+}
+100021221={	#         			Barbara             			von Breiningen 
+	name="Barbara von Breiningen"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1586.01.01={birth=yes}
+	1660.01.01={death=yes}
+}
+100021204={	#         			Susanna             			von Rost       
+	name="Susanna von Rost"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1628.01.01={birth=yes}
+	1690.01.01={death=yes}
+}
+100021211={	#         			Maria Claudia       			von Stain      
+	name="Maria Claudia von Stain"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1672.01.01={birth=yes}
+	1736.04.25={death=yes}
+}
+100021217={	#         			Maximilian          			von Stain      
+	name="Maximilian von Stain"
+	dynasty=0
+	religion=catholic culture=german
+	1675.01.01={birth=yes}
+	1700.01.01={add_spouse=100021216}	# Susanna Felizitas
+	1722.01.01={death=yes}
+}
+100021198={	#         			Maria Jakobine      			von Stotzingen 
+	name="Maria Jakobine von Stotzingen"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1605.01.01={birth=yes}
+	1635.01.01={death=yes}
+}
+100021197={	#         			Anna Katharina      			von Waltenhofen
+	name="Anna Katharina von Waltenhofen"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1595.01.01={birth=yes}
+	1675.01.01={death=yes}  # EST.
+}
+#Earlier Habsburgs|51|100021100

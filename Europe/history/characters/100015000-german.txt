@@ -3609,16 +3609,70 @@
 
 
 #Baden|100125|100015800-100016099
+100085002={ # Margr      Maria Anna                von Baden                                (1655-1701)
+	name="Maria Anna von Baden"
+	female=yes
+	dynasty=0
+	religion=catholic culture=bohemian
+	1655.09.08={birth=yes}
+	1701.08.22={death=yes}
+}
+100085514={ # Mgve       Ludwig Georg              von Baden-Baden                          (1706-1761)
+	name="Ludwig Georg von Baden-Baden"
+	dynasty=0
+	religion=catholic culture=bohemian
+	1706.12.25={birth=yes}
+	1721.03.18={
+		add_spouse=100085513 # Maria Anna
+	}
+	1761.10.22={death=yes}
+}
+
+
+100015820={	# Friedrich V.
+	name=Friedrich
+	dynasty=100125
+	religion=catholic culture=german
+	# father=xxx
+	1594.01.01={birth=yes}
+	1659.01.01={death=yes}
+}
+	100015817={	# Friedrich VI.
+		name=Friedrich
+		dynasty=100125
+		religion=catholic culture=german
+		father=100015820
+		1617.01.01={birth=yes}
+		1677.01.01={death=yes}
+	}
+		100015815={	# Friedrich VII. Magnus
+			name="Friedrich Magnus"
+			dynasty=100125
+			religion=catholic culture=german
+			father=100015817
+			1647.01.01={birth=yes}
+			1709.01.01={death=yes}
+		}
+			100013110={ # Margr Albertine von Baden-Durlach (1682-1755)
+				name=Albertine
+				female=yes
+				dynasty=100125
+				religion=lutheran culture=german
+				father=100015815
+				1682.07.03={birth=yes}
+				1755.12.22={death=yes}
+			}
 100015800={	# KARL III WILHELM, Margrave of Baden-Durlach (Karlsburg 17 Jan 1679-Karlsruhe 12 May 1738); m.Stuttgart 27 Jun 1697 Magdalene Wilhelmine Dss of Württemberg (Stuttgart 7 Nov 1677-Karlsburg 30 Oct 1742); [m.2d 1 Jun 1709 Eberhardine Luise v.u.zu Maddenbach, "Frau v.Wangen" (1690-ca 1722)]
 	name="Karl Wilhelm"
 	dynasty=100125
 	religion=catholic culture=german
+	father=100015815
 	1679.01.17={birth=yes}
 	1697.06.27={
 		add_spouse=100015801 # Magdalene Wilhelmine of Württemberg
 	}
 	1709.06.01={
-		remove_spouse = 100015801	add_spouse=100015802 # Eberhardine Luise
+		add_spouse=100015802 # Eberhardine Luise
 	}
 	1738.05.12={death=yes}
 }
@@ -9184,7 +9238,7 @@
 						mother=100017171 # Marie
 						1876.01.11={birth=yes}
 						1903.02.21={
-							add_spouse=100017173 # Gabriele Kinsky, Gfn
+							add_spouse=100085932 # Gabriele Kinsky, Gfn
 						}
 						1952.10.20={death=yes}
 					}
@@ -9194,7 +9248,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1904.01.21={birth=yes}
 							1972.12.17={death=yes}
 						}
@@ -9204,7 +9258,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1904.12.15={birth=yes}
 							1988.07.14={death=yes}
 						}
@@ -9213,7 +9267,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1906.08.31={birth=yes}
 							1935.10.26={
 								add_spouse=100017177 # ague 26, Gfn von Mazzuchelli
@@ -9300,7 +9354,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1908.06.28={birth=yes}
 							1939.01.26={
 								add_spouse=100085192 # Maria Julia, Pss von Lobkowicz
@@ -9402,7 +9456,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1911.08.29={birth=yes}
 							1994.06.06={death=yes}
 						}
@@ -9411,7 +9465,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1913.12.23={birth=yes}
 							1960.01.10={
 								add_spouse=100017205 # Anna Maria
@@ -9457,7 +9511,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1915.04.15={birth=yes}
 							1950.05.27={
 								add_spouse=100017213 # enna 27
@@ -9483,7 +9537,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1917.10.22={birth=yes}
 							1990.10.22={death=yes}
 						}
@@ -9492,7 +9546,7 @@
 							dynasty=1002011
 							religion=catholic culture=german
 							father=100017172 # Erich Lamoral
-							mother=100017173 # Gabriele Kinsky, Gfn
+							mother=100085932 # Gabriele Kinsky, Gfn
 							1919.03.29={birth=yes}
 							2004.01.25={death=yes}
 						}
@@ -10296,7 +10350,7 @@
 				1907.02.21={death=yes}
 			}
 			100017344={	# 3c) Marie Helene Sophie Isaure (Sarospatak 16 May 1836-Vienna 13 Nov 1901); m.Vienna 15 May 1871 Wolfgang Gf Kinsky von Wchinitz u.Tettau (19 Jan 1836-14 Dec 1885)
-				name="Marie Helene"
+				name=Helene
 				female=yes
 				dynasty=1002011
 				religion=catholic culture=german
