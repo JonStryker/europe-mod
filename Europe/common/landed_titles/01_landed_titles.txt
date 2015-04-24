@@ -19192,20 +19192,20 @@ e_the_united_kingdom = {
 				}
 			}
 		}
-		d_cornwall = {
-			color={ 86 170 187 }
+		d_devonshire = {
+			color={ 23 234 123 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 91 } }
+					any_demesne_province = { OR = { province_id = 91 province_id = 1219 } }
 				}
 			}
-			capital = 91 # c_cornwall
+			capital = 1219 # c_devon
 			
-			c_cornwall = { # 91
-				color={ 96 160 192 }
+			c_devon = { # 1219
+				color={ 33 224 128 }
 				color2={ 255 255 255 }
 				
 				b_plymouth = {
@@ -19216,7 +19216,22 @@ e_the_united_kingdom = {
 				}
 				b_camborne = {
 				}
+			}
+			c_cornwall = { # 91
+				color={ 96 160 192 }
+				color2={ 255 255 255 }
+				
+				b_truro = {
+				}
+				b_st_austell = {
+				}
+				b_newquay = {
+				}
 				b_penzance = {
+				}
+				b_saltash = {
+				}
+				b_bude = {
 				}
 			}
 		}
