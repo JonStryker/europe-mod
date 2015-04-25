@@ -20,6 +20,16 @@ central_germanic = {
 			Yvonne Kirsten Annette Simone Angela
 		}
 		from_dynasty_prefix = "von "
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 25
+		mat_grf_name_chance = 5
+		father_name_chance = 40
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
 
 		modifier = default_culture_modifier
 	}
@@ -132,6 +142,39 @@ west_germanic = {
 		female_names = {
 			Adela_Adela Adelaide_Adelaide Alice_Alice Amice Anne_Anna Aveline_Avelina Beatrice_Beatrice Blanche_Blanche Catherine_Catherine Cecilia_Cecilia Constance_Constance Edith_Edith Ela Eleanor_Eleanor Elizabeth_Elisabeth Emma_Emma Hawise Isabel_Elisabeth
 			Isabella_Elisabeth Joan_Joan Joanna_Joan Juliana_Juliana Mahaut_Mahaut Margaret_Margaret Mary_Maria Matilda_Matilda Maud_Matilda Philippa_Philippa Sybilla_Sibylla
+		}
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	anglo_irish = {
+		graphical_culture = englishgfx
+		
+		color = { 0.8 0.2 0.2 }
+		
+		male_names = {
+			Jack:300 Sean:300 Daniel:300 James:300 Conor:200 Ryan:200 Adam:200 Alex Luke Dylan Jamie Michael Aaron Cian Liam Darragh Oisin Patrick Charlie Harry Cillian John Thomas Matthew 
+			David Noah Evan Ben Eoin Nathan Jake Callum Shane Ethan Fionn Joshua Joseph Kyle Samuel Tadhg Sam Cathal Robert Mark William Finn Jayden Aidan Max 
+			Ronan Alexander Oliver Ciaran Rian Eoghan Leon Rory Andrew Cormac Jakub Oscar Benjamin Killian Bobby Tom Rhys Kevin Alan Josh Christopher Dara Filip 
+			Scott Senan Oran Shay Jason Odhran Jacob Lucas Brian Lee Martin Peter Tyler Anthony Tomas Ruairi Stephen Paul Niall Sebastian Calum Daithi Patryk 
+			Leo Alfie Cameron Lorcan Daire
+		}
+		female_names = {
+			Sophie:200 Emily:200 Emma:200 Sarah Lucy Ava Grace Chloe Katie Aoife Ella Anna Lily Amy Ciara Leah Holly Saoirse Kate Mia Lauren Hannah Ruby Caoimhe Niamh Isabelle 
+			Olivia Ellie Jessica Rachel Molly Roisin Sophia Amelia Julia Erin Megan Laura Clodagh Nicole Kayla Aisling Robyn Eva Abbie Zoe Ellen Rebecca Abigail 
+			Layla Cara Isabella Maria Maja Eabha Faye Aimee Aine Eve Mary Freya Elizabeth Isabel Tara Sadhbh Alannah Aoibhinn Katelyn Charlotte Alice Amber Daisy 
+			Zuzanna Brooke Caitlin Aoibheann Lilly Eimear Aoibhe Sofia Isobel Natalia Lena Maya Millie Orla Shauna Sara Zara Alexandra Kayleigh Alicia Emilia Clara 
+			Orlaith Victoria Jennifer Sinead Hollie Madison Ruth 
 		}
 		from_dynasty_prefix = "of "
 		bastard_dynasty_prefix = "Fitz"

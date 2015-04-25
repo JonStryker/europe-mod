@@ -1612,7 +1612,7 @@
 						mother=100023461 # Helene von San Serff
 						1934.08.16={birth=yes}
 						1967.09.02={
-							add_spouse=100023465 # Maria Christina Czernin v.u.zu Chudenitz
+							add_spouse=100086571 # Maria Christina Czernin v.u.zu Chudenitz
 						}
 						2014.08.16={death=yes}  # EST.
 					}
@@ -1622,7 +1622,7 @@
 							dynasty=1004004
 							religion=catholic culture=german
 							father=100023464 # Johannes
-							mother=100023465 # Maria Christina Czernin v.u.zu Chudenitz
+							mother=100086571 # Maria Christina Czernin v.u.zu Chudenitz
 							1968.07.18={birth=yes}
 						}
 						100023468={	# 2f) Gabrielle Eleonore (b.Vienna 11 Jul 1969); m.Maria Jeutendorf 9 Jul 1988 Georg Erd (b.Vienna 11 Sep 1964)
@@ -1631,7 +1631,7 @@
 							dynasty=1004004
 							religion=catholic culture=german
 							father=100023464 # Johannes
-							mother=100023465 # Maria Christina Czernin v.u.zu Chudenitz
+							mother=100086571 # Maria Christina Czernin v.u.zu Chudenitz
 							1969.07.11={birth=yes}
 						}
 						100023470={	# 3f) Johannes Paul (b.Vienna 12 Dec 1970); m.Breitenau 25 Jun 1994 Dorothea Tessmar-Pfohl (b.31 Mar 1971)
@@ -1639,7 +1639,7 @@
 							dynasty=1004004
 							religion=catholic culture=german
 							father=100023464 # Johannes
-							mother=100023465 # Maria Christina Czernin v.u.zu Chudenitz
+							mother=100086571 # Maria Christina Czernin v.u.zu Chudenitz
 							1970.12.12={birth=yes}
 							1994.06.25={
 								add_spouse=100023471 # Dorothea Tessmar-Pfohl
@@ -1676,7 +1676,7 @@
 							dynasty=1004004
 							religion=catholic culture=german
 							father=100023464 # Johannes
-							mother=100023465 # Maria Christina Czernin v.u.zu Chudenitz
+							mother=100086571 # Maria Christina Czernin v.u.zu Chudenitz
 							1979.05.30={birth=yes}
 						}
 					100023477={	# 3e) Eleonore Marie Therese Aglaë (b.Pottenbrunn 8 Feb 1938); m.Vienna 5 Sep 1964 Johannes Gf Kinsky von Wchinitz u.Tettau (Prague 22 Mar 1937-Graz 5 Aug 2004)
@@ -2551,38 +2551,47 @@
 	1613.2.9={birth=yes}
 	1686.2.11={death=yes}
 }
-100102061 ={
-	name="Anton Florian"
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102060
-	1656.5.28={birth=yes}
-	1721.10.11={death=yes}
-}
-100102062 ={
-	name="Josef Johann Adam"
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102061
-	1690.05.25={birth=yes}
-	1732.12.17={death=yes}
-}
-100102063 ={
-	name="Johann Nepomuk Karl"
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102062
-	1724.07.06={birth=yes}
-	1748.12.22={death=yes}
-}
-100102064 ={
-	name="Philip Erasmus"
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102060
-	1640.8.9={birth=yes}
-	1710.2.10={death=yes}
-}
+	100102061 ={
+		name="Anton Florian"
+		dynasty=1004002
+		religion=catholic culture=german
+		father=100102060
+		1656.5.28={birth=yes}
+		1721.10.11={death=yes}
+	}
+		100102062 ={
+			name="Josef Johann Adam"
+			dynasty=1004002
+			religion=catholic culture=german
+			father=100102061
+			1690.05.25={birth=yes}
+			1732.12.17={death=yes}
+		}
+			100085516={ # Pss Maria Theresia von und zu Liechtenstein (1721-1753)
+				name="Maria Theresia von und zu Liechtenstein"
+				female=yes
+				dynasty=1004002
+				religion=catholic culture=bohemian
+				father=100102062
+				1721.12.28={birth=yes}
+				1753.01.19={death=yes}
+			}
+			100102063 ={
+				name="Johann Nepomuk Karl"
+				dynasty=1004002
+				religion=catholic culture=german
+				father=100102062
+				1724.07.06={birth=yes}
+				1748.12.22={death=yes}
+			}
+	100102064 ={
+		name="Philip Erasmus"
+		dynasty=1004002
+		religion=catholic culture=german
+		father=100102060
+		1640.8.9={birth=yes}
+		1710.2.10={death=yes}
+	}
 100102065={ # Josef Wenzel Lorenz (9 August 1696 – 10 February 1772)
 	name="Joseph Wenzel"
 	dynasty=1004002
@@ -6478,45 +6487,12 @@
 	dynasty=51
 	religion=catholic culture=german
 	father=100021103
-	mother=100100896
+	mother=100021104
 	1500.2.24={birth=yes}
 	1525.11.1 = {
 		add_spouse=100021109
 	}
 	1558.09.21={death=yes}
-}
-100021123 = {
-	name="Felipe"
-	dynasty=51
-	religion=catholic culture=german
-	father=100100356
-	1578.4.14={birth=yes}
-	1621.3.31={death=yes}
-}
-100100900 = {
-	name="Felipe"
-	dynasty=51
-	religion=catholic culture=german
-	father=100021123
-	1605.4.8={birth=yes}
-	1665.9.17={death=yes}
-}
-100100901 = {
-	name="Carlos"
-	dynasty=51
-	religion=catholic culture=german
-	father=100100900
-	1661.11.6={birth=yes}
-	1700.11.1={death=yes}
-}
-100100903 = {
-	name="María Teresa"
-	dynasty=51
-	religion=catholic culture=german
-	father=100100900
-	female=yes
-	1638.9.10={birth=yes}
-	1683.7.30={death=yes}
 }
 #Habsburg|51|100022000-100022499
 
