@@ -1116,7 +1116,7 @@ character_event = {
 	picture = GFX_evt_illness
 	border = GFX_event_normal_frame_religion
 	
-	min_age = 45
+	min_age = 58
 	
 	trigger = {
 		NOT = { trait = infirm }
@@ -1124,18 +1124,14 @@ character_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 2400
 		
 		modifier = {
 			factor = 0.8
-			age = 60
-		}
-		modifier = {
-			factor = 0.7
 			age = 70
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.7
 			age = 80
 		}
 		modifier = {
