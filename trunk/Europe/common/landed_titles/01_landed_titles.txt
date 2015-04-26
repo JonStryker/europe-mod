@@ -19205,6 +19205,51 @@ e_the_united_kingdom = {
 				}
 			}
 		}
+		d_beaufort = {
+			color={ 214 42 187 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 87 province_id = 88 } }
+				}
+			}
+			capital = 87 # c_gloucestershire
+			
+			c_gloucestershire = { # 87
+				color={ 224 32 192 }
+				color2={ 255 255 255 }
+				
+				b_bristol = {
+				}
+				b_filton = {
+				}
+				b_weston_super_mare = {
+				}
+				b_stroud = {
+				}
+				b_keynsham = {
+				}
+				b_portishead = {
+				}
+			}
+			c_wiltshere = { # 88
+				color={ 96 96 192 }
+				color2={ 255 255 255 }
+				
+				b_salisbury = {
+				}
+				b_poole = {
+				}
+				b_bournemouth = {
+				}
+				b_swindon = {
+				}
+				b_weymouth = {
+				}
+			}
+		}
 		d_channel_islands = {
 			color={ 173 152 79 }
 			color2={ 255 255 255 }
@@ -19333,7 +19378,7 @@ e_the_united_kingdom = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 77 province_id = 78 province_id = 79 province_id = 80 province_id = 81 province_id = 82 } }
+					any_demesne_province = { OR = { province_id = 77 province_id = 79 province_id = 80 province_id = 81 province_id = 82 } }
 				}
 			}
 			capital = 77 # c_birmingham
@@ -19413,19 +19458,6 @@ e_the_united_kingdom = {
 				b_mansfield = {
 				}
 			}
-			c_shrewsbury = { # 78
-				color={ 160 33 176 }
-				color2={ 255 255 255 }
-				
-				b_shrewsbury = {
-				}
-				b_telford = {
-				}
-				b_hereford = {
-				}
-				b_bridgnorth = {
-				}
-			}
 		}
 		d_norfolk = {
 			color={ 234 22 69 }
@@ -19467,30 +19499,17 @@ e_the_united_kingdom = {
 			}
 		}
 		d_north_east_england = {
-			color={ 106 86 5 }
+			color={ 214 106 123 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 73 province_id = 74 province_id = 75 province_id = 76 } }
+					any_demesne_province = { OR = { province_id = 74 province_id = 75 province_id = 76 } }
 				}
 			}
-			capital = 73 # c_newcastle_upon_tyne
+			capital = 74 # c_hull
 			
-			c_newcastle_upon_tyne = { # 73
-				color={ 96 96 0 }
-				color2={ 255 255 255 }
-				
-				b_newcastle_upon_tyne = {
-				}
-				b_sunderland = {
-				}
-				b_hartlepool = {
-				}
-				b_tynemouth = {
-				}
-			}
 			c_hull = { # 74
 				color={ 224 96 128 }
 				color2={ 255 255 255 }
@@ -19546,7 +19565,7 @@ e_the_united_kingdom = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 68 province_id = 69 province_id = 70 province_id = 71 province_id = 72 } }
+					any_demesne_province = { OR = { province_id = 68 province_id = 69 province_id = 71 province_id = 72 } }
 				}
 			}
 			capital = 68 # c_liverpool
@@ -19568,21 +19587,6 @@ e_the_united_kingdom = {
 				b_ellesmere_port = {
 				}
 				b_warrington = {
-				}
-			}
-			c_carlisle = { # 70
-				color={ 224 96 0 }
-				color2={ 255 255 255 }
-				
-				b_carlisle = {
-				}
-				b_workington = {
-				}
-				b_barrow_in_furness = {
-				}
-				b_kendal = {
-				}
-				b_whitehaven = {
 				}
 			}
 			c_chester = { # 71
@@ -19626,6 +19630,66 @@ e_the_united_kingdom = {
 				b_glossop = {
 				}
 				b_blackburn = {
+				}
+			}
+		}
+		d_northumberland = {
+			color={ 106 86 5 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 70 province_id = 73 province_id = 1221 } }
+				}
+			}
+			capital = 73 # c_northumberland
+			
+			c_northumberland = { # 73
+				color={ 96 96 0 }
+				color2={ 255 255 255 }
+				
+				b_newcastle_upon_tyne = {
+				}
+				b_north_tyneside = {
+				}
+				b_tynemouth = {
+				}
+				b_morpeth = {
+				}
+				b_prudhoe = {
+				}
+			}
+			c_cumberland = { # 70
+				color={ 224 96 0 }
+				color2={ 255 255 255 }
+				
+				b_carlisle = {
+				}
+				b_workington = {
+				}
+				b_barrow_in_furness = {
+				}
+				b_kendal = {
+				}
+				b_whitehaven = {
+				}
+			}
+			c_durham = { # 1221
+				color={ 132 132 25 }
+				color2={ 255 255 255 }
+				
+				b_durham = {
+				}
+				b_sunderland = {
+				}
+				b_south_tyneside = {
+				}
+				b_hartlepool = {
+				}
+				b_darlington = {
+				}
+				b_stockton = {
 				}
 			}
 		}
@@ -19676,48 +19740,53 @@ e_the_united_kingdom = {
 				}
 			}
 		}
-		d_south_west_england = {
-			color={ 214 42 187 }
+		d_sutherland = {
+			color={ 170 23 181 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 87 province_id = 88 } }
+					any_demesne_province = { OR = { province_id = 78 province_id = 1222 province_id = 1426 } }
 				}
 			}
-			capital = 87 # c_bristol
+			capital = 78 # c_shropshire
 			
-			c_bristol = { # 87
-				color={ 224 32 192 }
+			c_shropshire = { # 78
+				color={ 160 33 176 }
 				color2={ 255 255 255 }
 				
-				b_bristol = {
+				b_shrewsbury = {
 				}
-				b_filton = {
+				b_telford = {
 				}
-				b_weston_super_mare = {
+				b_hereford = {
 				}
-				b_stroud = {
-				}
-				b_keynsham = {
-				}
-				b_portishead = {
+				b_bridgnorth = {
 				}
 			}
-			c_salisbury = { # 88
-				color={ 96 96 192 }
+			c_herefordshire = { # 1222
+				color={ 149 0 168 }
 				color2={ 255 255 255 }
 				
-				b_salisbury = {
+				b_hereford_2 = {
 				}
-				b_poole = {
+				b_leominster = {
 				}
-				b_bournemouth = {
+				b_kington = {
 				}
-				b_swindon = {
+			}
+			c_worcestershire = { # 1426
+				color={ 207 62 225 }
+				color2={ 255 255 255 }
+				
+				b_worcester = {
 				}
-				b_weymouth = {
+				b_malvern = {
+				}
+				b_bromsgrove = {
+				}
+				b_pershore = {
 				}
 			}
 		}
