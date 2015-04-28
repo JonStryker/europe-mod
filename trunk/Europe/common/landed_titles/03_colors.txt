@@ -1,4 +1,4 @@
-#äää
+#ÄÄÄ
 
 e_france = {
 	color= { 63 125 214  }
@@ -18,9 +18,114 @@ e_austria = {
 e_india = {
 	color = { 255 110 0 }
 }
+
+
+### UK
 e_the_united_kingdom = {
 	color= { 193 26 14  }
+	
+	welsh = Prydain
+	irish = Alba
+	scottish = Alba
+	pictish = Alba
+	breton = Prydain
 }
+k_england = {
+	color={ 202 26 26 }
+	dignity = 10 # Counted as having this many more counties than it does
+	
+	catholic = 300 # Crusade target weight
+	norse_pagan_reformed = 200 # Crusade target weight
+	
+	culture = saxon
+
+	welsh = Lloegyr
+	pictish = Lloegyr
+	breton = Lloegyr
+	irish = Sasana
+}
+k_wales = {
+	color={ 135 25 3 }
+	
+	culture = welsh
+	
+	catholic = 300 # Crusade target weight
+	
+	welsh=Brythoniaid
+	pictish=Brythoniaid
+	breton=Kembre
+	irish="Bhreatain Bheag"
+}
+k_scotland = {
+	color={ 20 80 162 }
+	
+	culture = scottish
+	
+	catholic = 300 # Crusade target weight
+	norse_pagan_reformed = 200 # Crusade target weight
+	
+	norse = Skotland
+	swedish = Skottland
+	danish = Skotland
+	norwegian = Skottland
+	welsh = Alban
+	irish = Alba
+	breton = Alba
+	pictish = Pictland
+}
+k_ireland = {
+	color={ 6 127 2 }
+	
+	culture = irish
+	
+	catholic = 300 # Crusade target weight
+	norse_pagan_reformed = 200 # Crusade target weight
+	
+	norse = Irland
+	german = Irland
+	swedish = Irland
+	danish = Irland
+	norwegian = Irland
+	irish = Éire
+	pictish = Iuerthon
+	welsh = Iwerddon
+	breton = Iwerzhon
+}
+### UK
+
+
+### FRANCE
+k_brittany = {
+	color={ 165 49 16 }
+	
+	culture = breton
+	
+	catholic = 300 # Crusade target weight
+	
+	norse = Bertangaland
+	welsh = Arymôr
+	irish = Bhriotáin
+	frankish = Bretagne
+}
+k_france = {
+	color={ 15 27 187 }
+	dignity = 30 # Counted as having this many more counties than it does
+	
+	culture = frankish
+	
+	catholic = 5000 # Crusade target weight
+	norse_pagan_reformed = 100 # Crusade target weight
+}
+k_aquitaine = {
+	color={ 150 80 170 }
+	color2={ 255 255 20 }
+
+	culture = occitan
+	
+	catholic = 5000 # Crusade target weight
+}
+### FRANCE
+
 
 k_israel = {
 	color = { 20 138 255 }
@@ -30,7 +135,6 @@ k_israel = {
 
 	dynasty_title_names = no
 }
-
 k_portugal = {
 	color= { 103 123 204  }
 }
@@ -60,9 +164,6 @@ k_armenia = {
 }
 k_bulgaria = {
 	color={ 113 88 101 }
-}
-k_ireland = {
-	color={ 6 127 2 }
 }
 k_greece = {
 	color={ 165 11 111 }
