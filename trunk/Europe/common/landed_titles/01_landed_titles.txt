@@ -19314,33 +19314,59 @@ e_the_united_kingdom = {
 			}
 		}
 		d_eastern_counties = {
-			color={ 150 92 128 }
+			color={ 214 170 59 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 83 province_id = 85 province_id = 86 } }
+					any_demesne_province = { OR = { province_id = 86 } }
 				}
 			}
-			capital = 83 # c_cambridge
+			capital = 86 # c_st_albans
 			
-			c_cambridge = { # 83
-				color={ 140 102 123 }
+			c_st_albans = { # 86
+				color={ 224 160 64 }
 				color2={ 255 255 255 }
 				
-				b_cambridge = {
+				b_st_albans = {
 				}
-				b_peterborough = {
+				b_luton = {
 				}
-				b_st_neots = {
+				b_milton_keynes = {
 				}
-				b_kettering = {
+				b_hempstead = {
 				}
-				b_wellingborough = {
+				b_hertford = {
 				}
 			}
-			c_chelmsford = { # 85
+		}
+		d_grafton = {
+			color={ 200 246 37 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 85 province_id = 1337 } }
+				}
+			}
+			capital = 1337 # c_suffolk
+			
+			c_suffolk = { # 1337
+				color={ 190 0 32 }
+				color2={ 255 255 255 }
+				
+				b_ipswich = {
+				}
+				b_bury = {
+				}
+				b_lowestoft = {
+				}
+				b_stowmarket = {
+				}
+			}
+			c_essex = { # 85
 				color={ 96 160 64 }
 				color2={ 255 255 255 }
 				
@@ -19355,19 +19381,70 @@ e_the_united_kingdom = {
 				b_harlow = {
 				}
 			}
-			c_st_albans = { # 86
-				color={ 224 160 64 }
+		}
+		d_manchester = {
+			color={ 214 234 251 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 68 province_id = 69 province_id = 71 } }
+				}
+			}
+			capital = 69 # c_manchester
+			
+			c_manchester = { # 69
+				color={ 224 224 0 }
 				color2={ 255 255 255 }
 				
-				b_st_albans = {
+				b_manchester = {
 				}
-				b_luton = {
+				b_oldham = {
 				}
-				b_milton_keynes = {
+				b_stockpot = {
 				}
-				b_hempstead = {
+				b_bolton = {
 				}
-				b_hertford = {
+				b_salford = {
+				}
+				b_glossop = {
+				}
+				b_blackburn = {
+				}
+			}
+			c_chester = { # 71
+				color={ 101 97 124 }
+				color2={ 255 255 255 }
+				
+				b_chester = {
+				}
+				b_crewe = {
+				}
+				b_winsford = {
+				}
+				b_natwich = {
+				}
+				b_congleton = {
+				}
+			}
+			c_liverpool = { # 68
+				color={ 96 224 0 }
+				color2={ 255 255 255 }
+				
+				b_liverpool = {
+				}
+				b_blackpool = {
+				}
+				b_st_helens = {
+				}
+				b_preston = {
+				}
+				b_kirkby = {
+				}
+				b_ellesmere_port = {
+				}
+				b_warrington = {
 				}
 			}
 		}
@@ -19466,7 +19543,7 @@ e_the_united_kingdom = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 84 province_id = 1337 } }
+					any_demesne_province = { OR = { province_id = 83 province_id = 84 } }
 				}
 			}
 			capital = 84 # c_norfolk
@@ -19484,17 +19561,19 @@ e_the_united_kingdom = {
 				b_thorpe_st_andrew = {
 				}
 			}
-			c_suffolk = { # 1337
-				color={ 190 0 32 }
+			c_cambridgeshire = { # 83
+				color={ 140 102 123 }
 				color2={ 255 255 255 }
 				
-				b_ipswich = {
+				b_cambridge = {
 				}
-				b_bury = {
+				b_peterborough = {
 				}
-				b_lowestoft = {
+				b_st_neots = {
 				}
-				b_stowmarket = {
+				b_kettering = {
+				}
+				b_wellingborough = {
 				}
 			}
 		}
@@ -19555,81 +19634,6 @@ e_the_united_kingdom = {
 				b_barnsley = {
 				}
 				b_worksop = {
-				}
-			}
-		}
-		d_north_west_england = {
-			color={ 106 214 5 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 68 province_id = 69 province_id = 71 province_id = 72 } }
-				}
-			}
-			capital = 68 # c_liverpool
-			
-			c_liverpool = { # 68
-				color={ 96 224 0 }
-				color2={ 255 255 255 }
-				
-				b_liverpool = {
-				}
-				b_blackpool = {
-				}
-				b_st_helens = {
-				}
-				b_preston = {
-				}
-				b_kirkby = {
-				}
-				b_ellesmere_port = {
-				}
-				b_warrington = {
-				}
-			}
-			c_chester = { # 71
-				color={ 101 97 124 }
-				color2={ 255 255 255 }
-				
-				b_chester = {
-				}
-				b_crewe = {
-				}
-				b_winsford = {
-				}
-				b_natwich = {
-				}
-				b_congleton = {
-				}
-			}
-			c_isle_of_man = { # 72
-				color={ 19 114 99 }
-				color2={ 255 255 255 }
-				
-				b_ramsey = {
-				}
-				b_douglas = {
-				}
-			}
-			c_manchester = { # 69
-				color={ 224 224 0 }
-				color2={ 255 255 255 }
-				
-				b_manchester = {
-				}
-				b_oldham = {
-				}
-				b_stockpot = {
-				}
-				b_bolton = {
-				}
-				b_salford = {
-				}
-				b_glossop = {
-				}
-				b_blackburn = {
 				}
 			}
 		}
@@ -19787,6 +19791,28 @@ e_the_united_kingdom = {
 				b_bromsgrove = {
 				}
 				b_pershore = {
+				}
+			}
+		}
+		d_the_isles = {
+			color={ 29 104 104 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 72 } }
+				}
+			}
+			capital = 72 # c_isle_of_man
+			
+			c_isle_of_man = { # 72
+				color={ 19 114 99 }
+				color2={ 255 255 255 }
+				
+				b_ramsey = {
+				}
+				b_douglas = {
 				}
 			}
 		}
