@@ -11,6 +11,32 @@
 
 
 ##	Clermont-Tonnerre	1007008				100066800
+100066616={ #            Geneviève                 de Clermont-Tonnerre                     (1855-1880)
+	name=Geneviève
+	female=yes
+	dynasty=1007008
+	religion=catholic culture=frankish
+	1855.06.07={birth=yes}
+	1880.06.12={death=yes}
+}
+100065718={ # Cte        François Amédée           de Clermont-Tonnerre                     (1906-1979)
+	name="François Amédée"
+	dynasty=1007008
+	religion=catholic culture=frankish
+	1906.09.19={birth=yes}
+	1929.07.31={add_spouse=100065717}	# Charlotte Marie
+	1979.12.02={death=yes}
+}
+100065812={ # Cte        Thierry Jean              de Clermont-Tonnerre                     (1913-1993)
+	name="Thierry Jean"
+	dynasty=1007008
+	religion=catholic culture=frankish
+	1913.01.10={birth=yes}
+	1940.04.20={add_spouse=100065811}	# Hélène Anna
+	1949.03.30={remove_spouse=100065811}
+	1993.01.10={death=yes}	# EST.
+}
+
 100066800={	# GASPARD Duc de Clermont-Tonnerre (Dijon 16 Aug 1688-Hôtel de Matignon, Paris 16 Mar 1781); m.1st Paris 10 Apr 1714 Antoinette Potier de Rovion (18 Nov 1685-château de Champlâtreux 29 Aug 1754)
 	name=Gaspard
 	dynasty=1007008
@@ -530,12 +556,12 @@
 			}
 				100066900={	# 1d) Marie Louise (Boucq 30 Mar 1894-Boucq 12 May 1941); m.Paris 26 Sep 1925 Luigi di Borbone Cte di Roccaguglielma (Narni 18 Oct 1898-Paris 12 Apr 1967)
 					name="Marie Louise"
+					female=yes
 					dynasty=1007008
 					religion=catholic culture=frankish
 					father=100066898 # Marie André
-					mother=100066899 # Henriette-Louise - Piat de Braux
+					mother=100066899 # Henriette-Louise Piat de Braux
 					1894.03.30={birth=yes}
-					1925.09.26={add_spouse=100066901}	# Luigi di Roccaguglielma
 					1941.05.12={death=yes}
 				}
 ##	Clermont-Tonnerre	1007008				100066800
@@ -1246,14 +1272,14 @@
 						1953.01.19={death=yes}
 					}
 						100066637={	# 1f) Yolande Marie Gonzague Thérèse (Paris 26 Apr 1928-2 Sep 2014); m.Paris 9 Jun 1951 (div 22 Jun 1966) Michel Pr of Bourbon-Parma (b.Paris 4 Mar 1926)
-							name="Yolande Marie"
+							name=Yolande
 							dynasty=1007007
 							religion=catholic culture=frankish
 							father=100066635 # Joseph Marie
 							mother=100066636 # Marie Marguerite de La Cour de Balleroy
 							1928.04.26={birth=yes}
-							1951.06.09={add_spouse=100066638}	# Michel of Bourbon-Parma
-							1966.06.22={remove_spouse=100066638}
+							1951.06.09={add_spouse=100008383}	# Michel of Bourbon-Parma
+							1966.06.22={remove_spouse=100008383}
 							2014.09.02={death=yes}
 						}
 						100066639={	# 2f) Amaury Jacques Louis Bernard (b.Balleroy 20 Aug 1929); m.Paris 9 Jun 1960 Marie-Anne Michelin (b.Boulogne 16 Dec 1934)
@@ -2251,7 +2277,7 @@
 								1870.01.07={birth=yes}
 								1946.06.28={death=yes}
 							}
-							100066420={	# 3g) LOUIS EMMANUEL, 14th Duc d'Uzès, etc (Paris 15 Sep 1871-Neuilly 28 Sep 1943); m.1st Paris 10 Jan 1894 (div 1938) Thérèse d'Albert de Luynes (Sablé 12 Jan 1876-Paris 21 Oct 1941); m.2nd Paris 18 Nov 1940 Josephine Angela (San Francisco 24 Aug 1888-Washington 1965)
+							100066420={	# 3g) LOUIS EMMANUEL, 14th Duc d'Uzès, etc (Paris 15 Sep 1871-Neuilly 28 Sep 1943); m.1st Paris 10 Jan 1894 (div 1938) Thérèse d'Albert de Luynes (Sablé 12 Jan 1876-Paris 21 Oct 1941)
 								name="Louis Emmanuel"
 								dynasty=1007006
 								religion=catholic culture=frankish
@@ -2259,8 +2285,6 @@
 								mother=100066416 # Marie Adrienne de Rochechouart
 								1871.09.15={birth=yes}
 								1894.01.10={add_spouse=100066421}	# Thérèse d'Albert de Luynes
-								1938.01.01={remove_spouse=100066421}
-								1940.11.18={add_spouse=100066422}	# Josephine Angela
 								1943.09.28={death=yes}
 							}
 								100066423={	# 1h) Anne Emmanuela Sophie Pauline Marie Thérèse (Bonnelles 2 Jan 1895-Paris 1 Jun 1984); m.Paris 4 Nov 1919 Gaston Cte de La Rochefoucauld (Paris 25 Apr 1893-Paris 5 Jun 1930)
@@ -2321,8 +2345,8 @@
 									father=100066420 # Louis Emmanuel
 									mother=100066421 # Thérèse d'Albert de Luynes
 									1902.07.24={birth=yes}
-									1924.08.26={add_spouse=100066434}	# Marie-Louise Béziers
-									1941.01.01={remove_spouse=100066434}
+									1924.08.26={add_spouse=100066436}	# Marie-Louise Béziers
+									1941.01.01={remove_spouse=100066436}
 									1943.05.25={add_spouse=100066435}	# Henriette Mendelssohn
 									1951.10.29={add_spouse=100066436}	# Marie-Louise Béziers
 									1952.01.26={death=yes}
@@ -2332,7 +2356,7 @@
 										dynasty=1007006
 										religion=catholic culture=frankish
 										father=100066433 # Emmanuel Simon
-										mother=100066434 # Marie-Louise Béziers
+										mother=100066436 # Marie-Louise Béziers
 										1925.12.24={birth=yes}
 										1954.01.29={add_spouse=100066438}	# Françoise Marque
 										1955.01.01={remove_spouse=100066438}
@@ -2961,6 +2985,7 @@
 				religion=catholic culture=frankish
 				father=100066104 # Antoine
 				mother=100066106 # Claude de Montmorency-Bouteville
+				add_trait=nun
 				1622.01.01={birth=yes}
 				1707.01.01={death=yes}
 			}
@@ -3026,7 +3051,7 @@
 	}
 
 100066201={	# ANTOINE Geneviève Héraclius Agénor Duc de Gramont Pr de Bidache, etc (Versailles 17 Jun 1789-Paris 3 Mar 1855); m.Paris 23 Jul 1818 Anna Quintina Ida Grimaud Cts d'Orsay (19 Jun 1802-2 Jan 1882)
-	name="Antoine"
+	name=Antoine
 	dynasty=1007005
 	religion=catholic culture=frankish
 	father=100066149 # Antoine Louis
@@ -4313,7 +4338,8 @@
 						mother=100065810 # Nicole Hélène de Henin-Liétard-d'Alsace
 						1921.07.01={birth=yes}
 						1949.01.11={add_spouse=100065815}	# Alix Marie de Luppé
-						2001.07.01={death=yes} }	# EST.
+						2001.07.01={death=yes}	# EST.
+}
 						100065816={# 1f) Pierre Jacques (b.Neuilly 8 Jan 1950)
 							name="Pierre Jacques"
 							dynasty=1007004
@@ -4616,7 +4642,8 @@
 						father=100065866 # Henri Marie
 						mother=100065867 # Joséphine Anne de Giraud d'Agay
 						1925.04.01={birth=yes}
-						2005.04.01={death=yes} }	# EST.
+						2005.04.01={death=yes}	# EST.
+}
 					100065878={# 3e) Marguerite Marie Berthe (Saint Raphaël 19 Oct 1927-Pin-Balma 5 Jan 2007)
 						name="Marguerite Marie"
 						dynasty=1007004
@@ -4836,7 +4863,8 @@
 						father=100065909 # Edmé Marie
 						mother=100065910 # Marie Antoinette Roberte Laurence de Mun
 						1933.06.27={birth=yes}
-						2013.06.27={death=yes} }	# EST.
+						2013.06.27={death=yes}	# EST.
+}
 			100065913={# 2c) Sébran Marie Gaspard Henri Cte de Rohan-Chabot-Chabot (Paris 27 Feb 1863-Moulins 28 Sep 1936); m.Paris 26 May 1896 Eliane Marie Antoinette Eugénie Thiroux de Gervilliers (Versailles 6 Mar 1869-Moulins 4 Mar 1953)
 				name="Sébran Marie"
 				dynasty=1007004
@@ -4929,7 +4957,7 @@
 						1968.06.27={add_spouse=100065930}	# Isabelle Marie de Bauffremont-Courtenay
 					}
 						100065931={# 1f) Marie-Liesse Claude Anne Rolande (b.Paris 29 Jun 1969); m.(civ) Dreux 19 Jun 1999 (rel) Antrain 10 Jul 1999 Eudes d'Orléans Duc d'Angoulême (b.Paris 18 Mar 1968)
-							name="Marie-Liesse Claude"
+							name=Marie-Liesse
 							dynasty=1007004
 							religion=catholic culture=frankish
 							father=100065929 # Louis-Mériadec Alain
@@ -5052,7 +5080,8 @@
 						father=100065949 # Gaël Antoine
 						mother=100065950 # Marguerite Marie de Chabrol-Tournoël
 						1935.02.25={birth=yes}
-						2015.02.25={death=yes} }	# EST.
+						2015.02.25={death=yes}	# EST.
+}
 					100065954={# 2e) Sébran Marie Louis Pierre (Paris 10 Mar 1936-Paris 14 Sep 2005); m.Paris 20 Oct 1967 Elsy Servilia Piccinoni-Adamès (Aroa 6 Oct 1939-16 Feb 2015)
 						name="Sébran Marie"
 						dynasty=1007004
@@ -5768,7 +5797,8 @@
 						father=100065438 # Emmanuel de Noailles dit le Marquis de Noailles et de Maintenon
 						mother=100065439 # Charlotte de Hallencourt de Dromesnil
 						1777.05.10={birth=yes}
-						1857.05.10={death=yes} }	# EST.
+						1857.05.10={death=yes}	# EST.
+}
 					100065490={# 3e) Achilles Charles Victor Cte de Noailles (Paris 25 Feb 1779-Jul 1837); m.XXX 1 Jan 1809 Rose Dussuc de Saint-Affrique (Chartres 26 Mar 1773-4 Dec 1815)
 						name=Achilles
 						dynasty=1007003
@@ -5997,7 +6027,8 @@
 											father=100065517 # Henry de Mouchy Pr-Duc de Poix
 											mother=100065518 # Marie de La Rochefoucauld
 											1925.09.04={birth=yes}
-											2005.09.04={death=yes} }	# EST.
+											2005.09.04={death=yes}	# EST.
+}
 										100065537={# 3j) Sabine Marie (Paris 11 Oct 1931-Paris 22 Jan 2010); m.Paris (civ) 5 Dec 1953 (rel) 7 Dec 1953 Nicolas Wyrubov (Orel, Russia 7 Feb 1915-13 Aug 2009)
 											name=Sabine
 											dynasty=1007003
@@ -6084,7 +6115,8 @@
 								father=100065550 # Charles
 								mother=100065551 # Anne Cosvelt
 								1850.03.25={birth=yes}
-								1930.03.25={death=yes} }	# EST.
+								1930.03.25={death=yes}	# EST.
+}
 						100065553={# 3f) Amédee Adélaide Louis (8 Oct 1813-27 Feb 1860)
 							name=Amédee
 							dynasty=1007003
@@ -6252,7 +6284,8 @@
 					father=100065496 # Philippe de Noailles Pr de Poix 1729 Duc de Mouchy 1750
 					mother=100065497 # Anne d'Arpajon
 					1756.04.17={birth=yes}
-					1836.04.17={death=yes} }	# EST.
+					1836.04.17={death=yes}	# EST.
+}
 			100065584={# 6c) Marie Anne Françoise (12 Jan 1719-29 Jun 1793); m.2 Apr 1744 Ludwig Engelbert von der Marck Gf von Schleiden (22 Dec 1701-5 Oct 1773)
 				name="Marie Anne"
 				female=yes
@@ -6348,7 +6381,8 @@
 			father=100065402 # Anne Jules de Noailles Gov of Roussillon and Languedoc Viceroy of Catalonia
 			mother=100065403 # Marie Françoise de Bournonville
 			1691.10.17={birth=yes}
-			1771.10.17={death=yes} }	# EST.
+			1771.10.17={death=yes}	# EST.
+}
 		100065604={# 18b) Anne Louise (26 Aug 1695-1755); m.1st 11 Mar 1716 Jean François Macé Le Tellier, Marquis de Louvois (1693-24 Sep 1719); m.2nd 1 Feb 1726 Jacques Hippolyte, Marquis de Mancini (16 May 1690-24 Nov 1759)
 			name=Anne
 			female=yes
@@ -6611,7 +6645,7 @@
 				1836.11.09={birth=yes}
 				1900.03.29={death=yes}
 			}
-			100065235={# 9c) Napoléon Charles Grégoire Jacques Philippe 5th Pr di Canino e Musignano, granted the style "Highness" on his marriage, recognized as "Principe Romano" (Excellence) 1895 (Rome 5 Feb 1839-Rome 11 Feb 1899); m.Rome 25 Nov 1859 Maria Cristina dei Principi Ruspoli (Rome 25 Jul 1842-Rome 12 Feb 1907)
+			100065235={# 9c) Napoléon Charles Grégoire Jacques Philippe 5th Pr di Canino e Musignano, granted the style Highness on his marriage, recognized as "Principe Romano" (Excellence) 1895 (Rome 5 Feb 1839-Rome 11 Feb 1899); m.Rome 25 Nov 1859 Maria Cristina dei Principi Ruspoli (Rome 25 Jul 1842-Rome 12 Feb 1907)
 				name=Napoléon
 				dynasty=1007001
 				religion=catholic culture=frankish
@@ -6626,7 +6660,7 @@
 					female=yes
 					dynasty=1007001
 					religion=catholic culture=frankish
-					father=100065235 # Napoléon di Canino e Musignano granted the style "Highness" on his marriage recognized as "Principe Romano"
+					father=100065235 # Napoléon di Canino e Musignano granted the style Highness on his marriage recognized as "Principe Romano"
 					mother=100065236 # Maria Ruspoli
 					1870.12.10={birth=yes}
 					1947.02.01={death=yes}
@@ -6636,7 +6670,7 @@
 					female=yes
 					dynasty=1007001
 					religion=catholic culture=frankish
-					father=100065235 # Napoléon di Canino e Musignano granted the style "Highness" on his marriage recognized as "Principe Romano"
+					father=100065235 # Napoléon di Canino e Musignano granted the style Highness on his marriage recognized as "Principe Romano"
 					mother=100065236 # Maria Ruspoli
 					1872.09.06={birth=yes}
 					1949.02.01={death=yes}
@@ -6719,7 +6753,7 @@
 				dynasty=1007001
 				religion=catholic culture=frankish
 				father=100065258 # Pierre Bonaparte 21 Feb 1853
-				mother=100065259 # 1853
+				mother=100065259
 				1858.05.19={birth=yes}
 				1880.11.18={add_spouse=100065261}	# Marie Blanc
 				1924.04.14={death=yes}
@@ -6739,7 +6773,7 @@
 				dynasty=1007001
 				religion=catholic culture=frankish
 				father=100065258 # Pierre Bonaparte 21 Feb 1853
-				mother=100065259 # 1853
+				mother=100065259
 				1861.09.25={birth=yes}
 				1882.03.22={add_spouse=100065265}	# Christian de Villeneuve-Escaplon
 				1910.07.23={death=yes}
@@ -7434,7 +7468,7 @@
 												father=100008666 # Henri Philippe
 												mother=100018065 # Marie Therese of Württemberg
 												1968.03.18={birth=yes}
-												1999.06.19={add_spouse=100008679}	# Marie-Liesse de Rohan-Chabot-Chabot
+												1999.06.19={add_spouse=100065931}	# Marie-Liesse de Rohan-Chabot-Chabot
 											}
 												100008680={# 1m) Thérèse Isabelle Marie Eléonore (b.Cannes 23 Apr 2001)
 													name="Thérèse Isabelle"
@@ -7442,7 +7476,7 @@
 													dynasty=1007000
 													religion=catholic culture=frankish
 													father=100008678 # Eudes Thibaut
-													mother=100008679 # Marie-Liesse de Rohan-Chabot-Chabot
+													mother=100065931 # Marie-Liesse de Rohan-Chabot-Chabot
 													2001.04.23={birth=yes}
 												}
 												100008681={# 2m) Pierre Jean Marie (b.Cannes 6 Aug 2003)
@@ -7450,7 +7484,7 @@
 													dynasty=1007000
 													religion=catholic culture=frankish
 													father=100008678 # Eudes Thibaut
-													mother=100008679 # Marie-Liesse de Rohan-Chabot-Chabot
+													mother=100065931 # Marie-Liesse de Rohan-Chabot-Chabot
 													2003.08.06={birth=yes}
 												}
 										100008682={# 3k) Hélène Astrid Léopoldine Marie (Woluwé 17 Sep 1934); m.Louveciennes 16 Jan 1957 Evrard Gf von Limburg-Stirum (Huldenberg, Brabant 31 Oct 1927-Brussels 5 Mar 2001)
