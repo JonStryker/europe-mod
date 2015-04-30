@@ -3441,7 +3441,7 @@ e_france = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 153 province_id = 154 province_id = 155 } }
+					any_demesne_province = { OR = { province_id = 153 province_id = 155 province_id = 156 province_id = 178 } }
 				}
 			}
 			capital = 153 # c_paris
@@ -3465,21 +3465,30 @@ e_france = {
 				b_nanterre = {
 				}
 			}
-			c_chartres = { # 154
-				color={ 144 160 192 }
+			c_beauvais = { # 178
+				color={ 196 198 26 }
 				color2={ 255 255 255 }
 				
-				b_chartres = {
+				b_beauvais = {
 				}
-				b_rambouillet = {
+				b_compiegne = {
 				}
-				b_etampes = {
+				b_creil = {
 				}
-				b_dreux = {
+			}
+			c_laon = { # 156
+				color={ 112 64 160 }
+				color2={ 255 255 255 }
+				
+				b_laon = {
 				}
-				b_mainvilliers = {
+				b_soissons = {
 				}
-				b_vernouillet = {
+				b_st_quentin = {
+				}
+				b_chauny = {
+				}
+				b_chateau_thierry = {
 				}
 			}
 			c_melun = { # 155
@@ -3500,46 +3509,128 @@ e_france = {
 				}
 			}
 		}
-		d_champagne = {
-			color={ 122 54 165 }
+		d_anjou = {
+			color={ 90 150 69 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 156 province_id = 157 province_id = 158 province_id = 159 province_id = 160 } }
+					any_demesne_province = { OR = { province_id = 168 } }
 				}
 			}
-			capital = 156 # c_laon
+			capital = 168 # c_anjou
 			
-			c_laon = { # 156
-				color={ 112 64 160 }
+			c_anjou = { # 168
+				color={ 80 160 64 }
 				color2={ 255 255 255 }
 				
-				b_laon = {
+				b_angers = {
 				}
-				b_soissons = {
+				b_ponts_de_cel = {
 				}
-				b_st_quentin = {
+				b_trelaze = {
 				}
-				b_chauny = {
+				b_cholet = {
 				}
-				b_chateau_thierry = {
+				b_saumur = {
+				}
+				b_avrille = {
 				}
 			}
-			c_cambrai = { # 157
-				color={ 112 192 32 }
+		}
+		d_artois = {
+			color={ 26 86 5 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 176 } }
+				}
+			}
+			capital = 176 # c_arras
+			
+			c_arras = { # 176
+				color={ 16 96 0 }
 				color2={ 255 255 255 }
 				
-				b_cambrai = {
+				b_arras = {
 				}
-				b_douai = {
+				b_cambrai_2 = {
 				}
-				b_valenciennes = {
+				b_caudry = {
 				}
-				b_hirson = {
+				b_st_pol_sur_ternoise = {
 				}
-				b_maubeuge = {
+				b_doullens = {
+				}
+			}
+		}
+		d_berry = {
+			color={ 154 214 5 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 180 province_id = 197 } }
+				}
+			}
+			capital = 180 # c_bourges
+			
+			c_bourges = { # 180
+				color={ 144 224 0 }
+				color2={ 255 255 255 }
+				
+				b_bourges = {
+				}
+				b_vierzon = {
+				}
+				b_aubigny = {
+				}
+				b_st_amand_montrond = {
+				}
+			}
+			c_chateauroux = { # 197
+				color={ 80 160 192 }
+				color2={ 255 255 255 }
+				
+				b_chateauroux = {
+				}
+				b_deols = {
+				}
+				b_issoudun = {
+				}
+				b_le_blanc = {
+				}
+			}
+		}
+		d_champagne = {
+			color={ 229 10 218 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 158 province_id = 159 province_id = 160 province_id = 164 } }
+				}
+			}
+			capital = 158 # c_troyes
+			
+			c_troyes = { # 158
+				color={ 239 0 223 }
+				color2={ 255 255 255 }
+				
+				b_troyes = {
+				}
+				b_ste_savine = {
+				}
+				b_st_dizler = {
+				}
+				b_romilly = {
+				}
+				b_vitrey_le_francois = {
 				}
 			}
 			c_chalons = { # 159
@@ -3570,19 +3661,17 @@ e_france = {
 				b_rethel = {
 				}
 			}
-			c_troyes = { # 158
-				color={ 239 0 223 }
+			c_chaumont = { # 164
+				color={ 112 0 96 }
 				color2={ 255 255 255 }
 				
-				b_troyes = {
+				b_chaumont = {
 				}
-				b_ste_savine = {
+				b_langres = {
 				}
-				b_st_dizler = {
+				b_joinville = {
 				}
-				b_romilly = {
-				}
-				b_vitrey_le_francois = {
+				b_nogent = {
 				}
 			}
 		}
@@ -3610,14 +3699,42 @@ e_france = {
 				}
 			}
 		}
-		d_franche_comte = {
+		d_hainaut = {
+			color={ 150 170 123 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 174 } }
+				}
+			}
+			capital = 174 # c_lille
+			
+			c_lille = { # 174
+				color={ 160 160 128 }
+				color2={ 255 255 255 }
+				
+				b_lille = {
+				}
+				b_lens = {
+				}
+				b_bethune = {
+				}
+				b_lievin = {
+				}
+				b_armentieres = {
+				}
+			}
+		}
+		d_lorraine = {
 			color={ 166 138 219 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 162 province_id = 163 province_id = 164 province_id = 165 province_id = 166 } }
+					any_demesne_province = { OR = { province_id = 162 province_id = 163 province_id = 165 } }
 				}
 			}
 			capital = 162 # c_nancy
@@ -3635,32 +3752,6 @@ e_france = {
 				b_laxou = {
 				}
 				b_mousson = {
-				}
-			}
-			c_besancon = { # 166
-				color={ 240 0 96 }
-				color2={ 255 255 255 }
-				
-				b_besancon = {
-				}
-				b_montbeliard = {
-				}
-				b_vesoul = {
-				}
-				b_lure = {
-				}
-			}
-			c_chaumont = { # 164
-				color={ 112 0 96 }
-				color2={ 255 255 255 }
-				
-				b_chaumont = {
-				}
-				b_langres = {
-				}
-				b_joinville = {
-				}
-				b_nogent = {
 				}
 			}
 			c_epinal = { # 165
@@ -3688,18 +3779,31 @@ e_france = {
 				}
 			}
 		}
-		d_loire = {
-			color={ 38 234 123 }
+		d_maine = {
+			color={ 166 234 123 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 167 province_id = 168 province_id = 169 } }
+					any_demesne_province = { OR = { province_id = 167 province_id = 183 } }
 				}
 			}
-			capital = 167 # c_laval
+			capital = 183 # c_le_mans
 			
+			c_le_mans = { # 183
+				color={ 176 224 128 }
+				color2={ 255 255 255 }
+				
+				b_le_mans = {
+				}
+				b_allonnes = {
+				}
+				b_mamers = {
+				}
+				b_sable_sur_sarthe = {
+				}
+			}
 			c_laval = { # 167
 				color={ 48 224 128 }
 				color2={ 255 255 255 }
@@ -3715,39 +3819,35 @@ e_france = {
 				b_evron = {
 				}
 			}
-			c_angers = { # 168
-				color={ 80 160 64 }
-				color2={ 255 255 255 }
-				
-				b_angers = {
-				}
-				b_ponts_de_cel = {
-				}
-				b_trelaze = {
-				}
-				b_cholet = {
-				}
-				b_saumur = {
-				}
-				b_avrille = {
+		}
+		d_nivernais = {
+			color={ 230 138 219 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 211 } }
 				}
 			}
-			c_la_roche = { # 169
-				color={ 63 116 175 }
+			capital = 211 # c_nevers
+			
+			c_nevers = { # 211
+				color={ 240 128 224 }
 				color2={ 255 255 255 }
 				
-				b_la_roche = {
+				b_moulins = {
 				}
-				b_olonne_sur_mer = {
+				b_nevers = {
 				}
-				b_les_sables_dolonne = {
+				b_varennes = {
 				}
-				b_aizenay = {
+				b_yzeure = {
 				}
 			}
 		}
-		d_normandie = {
-			color={ 154 150 69 }
+		d_normandy = {
+			color={ 154 22 197 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -3756,19 +3856,21 @@ e_france = {
 					any_demesne_province = { OR = { province_id = 170 province_id = 171 province_id = 172 province_id = 173 } }
 				}
 			}
-			capital = 170 # c_caen
+			capital = 171 # c_rouen
 			
-			c_caen = { # 170
-				color={ 144 160 64 }
+			c_rouen = { # 171
+				color={ 144 32 192 }
 				color2={ 255 255 255 }
 				
-				b_caen = {
+				b_rouen = {
 				}
-				b_cherbourg = {
+				b_elbeuf = {
 				}
-				b_mondeville = {
+				b_le_harve = {
 				}
-				b_lisieux = {
+				b_dieppe = {
+				}
+				b_mont_st_aignan = {
 				}
 			}
 			c_alencon = { # 173
@@ -3786,6 +3888,19 @@ e_france = {
 				b_laigle = {
 				}
 			}
+			c_caen = { # 170
+				color={ 144 160 64 }
+				color2={ 255 255 255 }
+				
+				b_caen = {
+				}
+				b_cherbourg = {
+				}
+				b_mondeville = {
+				}
+				b_lisieux = {
+				}
+			}
 			c_evreux = { # 172
 				color={ 176 96 128 }
 				color2={ 255 255 255 }
@@ -3801,49 +3916,77 @@ e_france = {
 				b_gaillon = {
 				}
 			}
-			c_rouen = { # 171
-				color={ 144 32 192 }
-				color2={ 255 255 255 }
-				
-				b_rouen = {
-				}
-				b_elbeuf = {
-				}
-				b_le_harve = {
-				}
-				b_dieppe = {
-				}
-				b_mont_st_aignan = {
-				}
-			}
 		}
-		d_picardie = {
-			color={ 150 170 123 }
+		d_orleans = {
+			color={ 26 213 5 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 174 province_id = 175 province_id = 176 province_id = 177 province_id = 178 } }
+					any_demesne_province = { OR = { province_id = 154 province_id = 179 province_id = 181 } }
 				}
 			}
-			capital = 174 # c_lille
+			capital = 181 # c_orleans
 			
-			c_lille = { # 174
-				color={ 160 160 128 }
+			c_orleans = { # 181
+				color={ 16 223 0 }
 				color2={ 255 255 255 }
 				
-				b_lille = {
+				b_orleans = {
 				}
-				b_lens = {
+				b_montargis = {
 				}
-				b_bethune = {
+				b_gien = {
 				}
-				b_lievin = {
+				b_olivert = {
 				}
-				b_armentieres = {
+				b_loire = {
 				}
 			}
+			c_blois = { # 179
+				color={ 136 98 119 }
+				color2={ 255 255 255 }
+				
+				b_blois = {
+				}
+				b_vendome = {
+				}
+				b_vineuil = {
+				}
+				b_romortantin_lanthenay = {
+				}
+			}
+			c_chartres = { # 154
+				color={ 144 160 192 }
+				color2={ 255 255 255 }
+				
+				b_chartres = {
+				}
+				b_rambouillet = {
+				}
+				b_etampes = {
+				}
+				b_dreux = {
+				}
+				b_mainvilliers = {
+				}
+				b_vernouillet = {
+				}
+			}
+		}
+		d_picardie = {
+			color={ 26 150 197 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 157 province_id = 175 province_id = 177 } }
+				}
+			}
+			capital = 177 # c_amiens
+			
 			c_amiens = { # 177
 				color={ 16 160 192 }
 				color2={ 255 255 255 }
@@ -3857,30 +4000,19 @@ e_france = {
 				b_longueau = {
 				}
 			}
-			c_arras = { # 176
-				color={ 16 96 0 }
+			c_cambrai = { # 157
+				color={ 112 192 32 }
 				color2={ 255 255 255 }
 				
-				b_arras = {
+				b_cambrai = {
 				}
-				b_cambrai_2 = {
+				b_douai = {
 				}
-				b_caudry = {
+				b_valenciennes = {
 				}
-				b_st_pol_sur_ternoise = {
+				b_hirson = {
 				}
-				b_doullens = {
-				}
-			}
-			c_beauvais = { # 178
-				color={ 196 198 26 }
-				color2={ 255 255 255 }
-				
-				b_beauvais = {
-				}
-				b_compiegne = {
-				}
-				b_creil = {
+				b_maubeuge = {
 				}
 			}
 			c_dunkirk = { # 175
@@ -3899,72 +4031,68 @@ e_france = {
 				}
 			}
 		}
-		d_region_centre = {
-			color={ 146 88 124 }
+		d_poitou = {
+			color={ 198 42 187 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 179 province_id = 180 province_id = 181 province_id = 182 province_id = 183 } }
+					any_demesne_province = { OR = { province_id = 169 province_id = 202 province_id = 1558 } }
 				}
 			}
-			capital = 179 # c_blois
+			capital = 202 # c_poitiers
 			
-			c_blois = { # 179
-				color={ 136 98 119 }
+			c_poitiers = { # 202
+				color={ 208 32 192 }
 				color2={ 255 255 255 }
 				
-				b_blois = {
+				b_poiters = {
 				}
-				b_vendome = {
+				b_chatellerault = {
 				}
-				b_vineuil = {
+				b_thouars = {
 				}
-				b_romortantin_lanthenay = {
+				b_chauvigny = {
 				}
 			}
-			c_bourges = { # 180
-				color={ 144 224 0 }
+			c_la_roche = { # 169
+				color={ 63 116 175 }
 				color2={ 255 255 255 }
 				
-				b_bourges = {
+				b_la_roche = {
 				}
-				b_vierzon = {
+				b_olonne_sur_mer = {
 				}
-				b_aubigny = {
+				b_les_sables_dolonne = {
 				}
-				b_st_amand_montrond = {
+				b_aizenay = {
 				}
 			}
-			c_le_mans = { # 183
-				color={ 176 224 128 }
+			c_niort = { # 1558
+				color={ 57 129 42 }
 				color2={ 255 255 255 }
 				
-				b_le_mans = {
+				b_niort = {
 				}
-				b_allonnes = {
+				b_bressuire = {
 				}
-				b_mamers = {
-				}
-				b_sable_sur_sarthe = {
+				b_parthenay = {
 				}
 			}
-			c_orleans = { # 181
-				color={ 16 223 0 }
-				color2={ 255 255 255 }
-				
-				b_orleans = {
-				}
-				b_montargis = {
-				}
-				b_gien = {
-				}
-				b_olivert = {
-				}
-				b_loire = {
+		}
+		d_touraine = {
+			color={ 218 22 69 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 182 } }
 				}
 			}
+			capital = 182 # c_tours
+			
 			c_tours = { # 182
 				color={ 208 32 64 }
 				color2={ 255 255 255 }
@@ -3994,7 +4122,7 @@ e_france = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 184 province_id = 185 province_id = 186 } }
+					any_demesne_province = { OR = { province_id = 184 province_id = 185 } }
 				}
 			}
 			capital = 184 # c_bordeaux
@@ -4031,54 +4159,19 @@ e_france = {
 				b_tartas = {
 				}
 			}
-			c_pau = { # 186
-				color={ 240 32 128 }
-				color2={ 255 255 255 }
-				
-				b_pau = {
-				}
-				b_bayonne = {
-				}
-				b_orthez = {
-				}
-			}
 		}
 		d_auvergne = {
-			color={ 230 202 91 }
+			color={ 102 202 91 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 187 province_id = 188 province_id = 189 } }
+					any_demesne_province = { OR = { province_id = 189 } }
 				}
 			}
-			capital = 187 # c_aurillac
+			capital = 189 # c_clermont_ferrand
 			
-			c_aurillac = { # 187
-				color={ 240 192 96 }
-				color2={ 255 255 255 }
-				
-				b_aurillac = {
-				}
-				b_villefranche_de_rouerge = {
-				}
-				b_decazeville = {
-				}
-				b_mende = {
-				}
-			}
-			c_cahors = { # 188
-				color={ 48 224 0 }
-				color2={ 255 255 255 }
-				
-				b_cahors = {
-				}
-				b_gourdan = {
-				}
-				b_caussade = {
-				}
-			}
 			c_clermont_ferrand = { # 189
 				color={ 112 192 96 }
 				color2={ 255 255 255 }
@@ -4090,6 +4183,32 @@ e_france = {
 				b_st_flour = {
 				}
 				b_brioude = {
+				}
+			}
+		}
+		d_gramont = {
+			color={ 230 42 123 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 186 } }
+				}
+			}
+			capital = 186 # c_gramont
+			
+			c_gramont = { # 186
+				color={ 240 32 128 }
+				color2={ 255 255 255 }
+				
+				b_gramont = {
+				}
+				b_pau = {
+				}
+				b_bayonne = {
+				}
+				b_orthez = {
 				}
 			}
 		}
@@ -4211,32 +4330,19 @@ e_france = {
 			}
 		}
 		d_limousin = {
-			color={ 70 170 187 }
+			color={ 186 86 5 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 197 province_id = 198 province_id = 199 } }
+					any_demesne_province = { OR = { province_id = 198 } }
 				}
 			}
-			capital = 197 # c_chateauroux
+			capital = 198 # c_limoges
 			
-			c_chateauroux = { # 197
-				color={ 80 160 192 }
-				color2={ 255 255 255 }
-				
-				b_chateauroux = {
-				}
-				b_deols = {
-				}
-				b_issoudun = {
-				}
-				b_le_blanc = {
-				}
-			}
 			c_limoges = { # 198
-				color={ 48 96 0 }
+				color={ 176 96 0 }
 				color2={ 255 255 255 }
 				
 				b_limoges = {
@@ -4248,26 +4354,37 @@ e_france = {
 				b_aixe_sur_vienne = {
 				}
 			}
-			c_tulle = { # 199
-				color={ 176 96 0 }
+		}
+		d_marche = {
+			color={ 58 86 5 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 199 } }
+				}
+			}
+			capital = 199 # c_marche
+			
+			c_marche = { # 199
+				color={ 48 96 0 }
 				color2={ 255 255 255 }
 				
-				b_tulle = {
+				b_gueret = {
 				}
-				b_brive_le_gaillarde = {
-				}
-				b_sarlat_la_caneda = {
+				b_marche = {
 				}
 			}
 		}
-		d_poitou = {
+		d_saintonge = {
 			color={ 90 22 197 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 200 province_id = 201 province_id = 202 } }
+					any_demesne_province = { OR = { province_id = 200 province_id = 201 } }
 				}
 			}
 			capital = 200 # c_angouleme
@@ -4293,77 +4410,121 @@ e_france = {
 				}
 				b_rochefort = {
 				}
-				b_niort = {
+				b_niort_2 = {
 				}
 				b_saintes = {
 				}
 				b_royan = {
 				}
 			}
-			c_poitiers = { # 202
-				color={ 208 32 192 }
-				color2={ 255 255 255 }
-				
-				b_poiters = {
-				}
-				b_chatellerault = {
-				}
-				b_thouars = {
-				}
-				b_chauvigny = {
-				}
-			}
 		}
-	}
-	k_bourgogne = {
-		color={ 206 34 111 }
-		color2={ 255 255 255 }
-		
-		capital = 203 # c_lyon
-		culture = frankish
-		
-		d_rhone = {
-			color={ 186 54 101 }
+		d_uzes = {
+			color={ 212 160 20 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 203 province_id = 204 province_id = 205 province_id = 206 } }
+					any_demesne_province = { OR = { province_id = 1585 } }
 				}
 			}
-			capital = 203 # c_lyon
+			capital = 1585 # c_gard
 			
-			c_lyon = { # 203
+			c_gard = { # 1585
+				color={ 222 150 25 }
+				color2={ 255 255 255 }
+				
+				b_gard = {
+				}
+				b_gard_2 = {
+				}
+				b_gard_3 = {
+				}
+			}
+		}
+		d_xxx = {
+			color={ 230 202 91 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 187 province_id = 188 province_id = 1587 } }
+				}
+			}
+			capital = 187 # c_aurillac
+			
+			c_aurillac = { # 187
+				color={ 240 192 96 }
+				color2={ 255 255 255 }
+				
+				b_aurillac = {
+				}
+				b_villefranche_de_rouerge = {
+				}
+				b_decazeville = {
+				}
+				b_mende = {
+				}
+			}
+			c_ayen = { # 1587
+				color={ 79 26 128 }
+				color2={ 255 255 255 }
+				
+				b_ayen = {
+				}
+				b_ayen_2 = {
+				}
+				b_ayen_3 = {
+				}
+			}
+			c_cahors = { # 188
+				color={ 48 224 0 }
+				color2={ 255 255 255 }
+				
+				b_cahors = {
+				}
+				b_gourdan = {
+				}
+				b_caussade = {
+				}
+			}
+		}
+	}
+	k_bourgogne = {
+		color={ 210 158 81 }
+		color2={ 255 255 255 }
+		
+		capital = 208 # c_dijon
+		culture = frankish
+		
+		d_burgundy = {
+			color={ 230 138 91 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 203 province_id = 207 province_id = 208 province_id = 210 } }
+				}
+			}
+			capital = 208 # c_dijon
+			
+			c_dijon = { # 208
+				color={ 240 128 96 }
+				color2={ 255 255 255 }
+				
+				b_dijon = {
+				}
+				b_genlis = {
+				}
+				b_beaune = {
+				}
+				b_montbard = {
+				}
+			}
+			c_ain = { # 203
 				color={ 176 64 96 }
-				color2={ 255 255 255 }
-				
-				b_lyon = {
-				}
-				b_villefrance_sur_saone = {
-				}
-				b_velleurbanne = {
-				}
-				b_venissieux = {
-				}
-				b_oullins = {
-				}
-				b_meyzieu = {
-				}
-				b_st_priest = {
-				}
-			}
-			c_grenoble = { # 204
-				color={ 48 192 96 }
-				color2={ 255 255 255 }
-				
-				b_grenoble = {
-				}
-				b_briancon = {
-				}
-			}
-			c_st_etienne = { # 205
-				color={ 239 64 96 }
 				color2={ 255 255 255 }
 				
 				b_st_etienne = {
@@ -4375,6 +4536,54 @@ e_france = {
 				b_st_chamond = {
 				}
 				b_rive_de_gier = {
+				}
+			}
+			c_auxerre = { # 207
+				color={ 112 0 224 }
+				color2={ 255 255 255 }
+				
+				b_auxerre = {
+				}
+				b_sens = {
+				}
+				b_tonnerre = {
+				}
+				b_joigny = {
+				}
+			}
+			c_macon = { # 210
+				color={ 109 120 150 }
+				color2={ 255 255 255 }
+				
+				b_macon = {
+				}
+				b_paray_le_monial = {
+				}
+				b_chalon_sur_saone = {
+				}
+				b_monteceau_les_mines = {
+				}
+			}
+		}
+		d_dauphine = {
+			color={ 58 182 101 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 204 province_id = 206 } }
+				}
+			}
+			capital = 204 # c_grenoble
+			
+			c_grenoble = { # 204
+				color={ 48 192 96 }
+				color2={ 255 255 255 }
+				
+				b_grenoble = {
+				}
+				b_briancon = {
 				}
 			}
 			c_valence = { # 206
@@ -4391,42 +4600,29 @@ e_france = {
 				}
 			}
 		}
-		d_bourgogne = {
-			color={ 122 246 229 }
+		d_franche_comte = {
+			color={ 250 246 101 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 207 province_id = 208 province_id = 209 province_id = 210 province_id = 211 } }
+					any_demesne_province = { OR = { province_id = 166 province_id = 209 } }
 				}
 			}
-			capital = 207 # c_auxerre
+			capital = 166 # c_besancon
 			
-			c_auxerre = { # 207
-				color={ 112 0 224 }
+			c_besancon = { # 166
+				color={ 240 0 96 }
 				color2={ 255 255 255 }
 				
-				b_auxerre = {
+				b_besancon = {
 				}
-				b_sens = {
+				b_montbeliard = {
 				}
-				b_tonnerre = {
+				b_vesoul = {
 				}
-				b_joigny = {
-				}
-			}
-			c_dijon = { # 208
-				color={ 240 128 96 }
-				color2={ 255 255 255 }
-				
-				b_dijon = {
-				}
-				b_genlis = {
-				}
-				b_beaune = {
-				}
-				b_montbard = {
+				b_lure = {
 				}
 			}
 			c_lons = { # 209
@@ -4440,30 +4636,36 @@ e_france = {
 				b_st_claude = {
 				}
 			}
-			c_macon = { # 210
-				color={ 109 120 150 }
-				color2={ 255 255 255 }
-				
-				b_macon = {
-				}
-				b_paray_le_monial = {
-				}
-				b_chalon_sur_saone = {
-				}
-				b_monteceau_les_mines = {
+		}
+		d_lyonnaise = {
+			color={ 229 74 91 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 205 } }
 				}
 			}
-			c_moulins = { # 211
-				color={ 240 128 224 }
+			capital = 205 # c_lyon
+			
+			c_lyon = { # 205
+				color={ 239 64 96 }
 				color2={ 255 255 255 }
 				
-				b_moulins = {
+				b_lyon = {
 				}
-				b_nevers = {
+				b_villefrance_sur_saone = {
 				}
-				b_varennes = {
+				b_velleurbanne = {
 				}
-				b_yzeure = {
+				b_venissieux = {
+				}
+				b_oullins = {
+				}
+				b_meyzieu = {
+				}
+				b_st_priest = {
 				}
 			}
 		}
@@ -4543,8 +4745,8 @@ e_france = {
 				}
 			}
 		}
-		d_savoie = {
-			color={ 117 65 169 }
+		d_savoy = {
+			color={ 198 10 219 }
 			color2={ 255 255 255 }
 			
 			allow = {
@@ -4553,19 +4755,8 @@ e_france = {
 					any_demesne_province = { OR = { province_id = 217 province_id = 218 province_id = 219 } }
 				}
 			}
-			capital = 217 # c_annency
+			capital = 218 # c_chambery
 			
-			c_annency = { # 217
-				color={ 107 75 164 }
-				color2={ 255 255 255 }
-				
-				b_annency = {
-				}
-				b_annemasse = {
-				}
-				b_passy = {
-				}
-			}
 			c_chambery = { # 218
 				color={ 208 0 224 }
 				color2={ 255 255 255 }
@@ -4577,6 +4768,17 @@ e_france = {
 				b_aix_les_baines = {
 				}
 				b_belley = {
+				}
+			}
+			c_annency = { # 217
+				color={ 107 75 164 }
+				color2={ 255 255 255 }
+				
+				b_annency = {
+				}
+				b_annemasse = {
+				}
+				b_passy = {
 				}
 			}
 			c_nice = { # 219
