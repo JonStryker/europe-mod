@@ -1,0 +1,199 @@
+# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+###########################################################################
+# World Regions
+#	These groups are mutually exclusive on the same tier
+###########################################################################
+
+world_europe_west_brittania = {
+	duchies = {
+		d_devonshire
+	}
+}
+world_europe_west_germania = {
+	duchies = {
+		d_hessen
+	}
+}
+world_europe_west_francia = {
+	duchies = {
+		d_anjou
+	}
+}
+world_europe_west_iberia = {
+	duchies = {
+		d_galicia d_braganca
+	}
+}
+world_europe_west = {
+	regions = {
+		world_europe_west_iberia world_europe_west_francia world_europe_west_germania world_europe_west_brittania
+	}
+}
+world_europe_north = {
+	duchies = {
+		d_scania d_sjaelland d_schleswig d_holstein
+	}
+}
+world_europe_south_east = { 
+	duchies = {
+	}
+}
+world_europe_south_italy = { 
+	duchies = {
+		d_campania
+	}
+}
+world_europe_south = {
+	regions = {
+		world_europe_south_east world_europe_south_italy
+	}
+}
+world_europe_east = {
+	duchies = {
+	}
+}
+world_asia_minor = {
+	duchies = {
+	}
+}
+world_middle_east_jerusalem = {
+	duchies = {
+	}
+}
+world_middle_east_arabia = {
+	duchies = {
+	}
+}
+world_india_deccan = {
+	duchies = {
+	}
+}
+world_india_bengal = {
+	duchies = {
+	}
+}
+world_india_rajastan = {
+	duchies = {
+	}
+}
+world_persia = {
+	duchies = {
+	}
+}
+world_africa_north = {
+	duchies = {
+	}
+}
+world_africa_west = {
+	duchies = {
+		
+	}
+}
+world_africa_east = {
+	duchies = {
+	}
+}
+world_africa = {
+	regions = {
+		world_africa_north world_africa_west world_africa_east
+	}
+}
+world_steppe_tarim = {
+	duchies = {
+	}
+}
+world_steppe_west = {
+	duchies = {
+	}
+}
+world_steppe_east = {
+	duchies = {
+	}
+}
+world_steppe = {
+	regions = {
+		world_steppe_west world_steppe_east world_steppe_tarim
+	}
+}
+world_europe = {
+	regions = {
+		world_europe_west world_europe_south world_europe_east world_europe_north
+	}
+}
+world_middle_east = {
+	regions = {
+		world_middle_east_arabia world_middle_east_jerusalem
+	}
+}
+world_india = {
+	regions = {
+		world_india_deccan world_india_bengal world_india_rajastan
+	}
+}
+
+###########################################################################
+# Custom Regions
+###########################################################################
+
+custom_eastern_baltic = {
+	duchies = {
+		d_lithuania
+	}
+}
+custom_frisia = {
+	duchies = {
+		d_noord_brabant
+	}
+}
+custom_england = {
+	duchies = {
+		d_devonshire d_somerset
+	}
+}
+custom_castillian = {
+	duchies = {
+		d_madrid
+	}
+}
+custom_catalan = {
+	duchies = {
+		d_catalunya d_valencia
+	}
+}
+custom_andalusian = {
+	duchies = {
+		d_andalucia_occidental d_andalucia_oriental
+	}
+}
+custom_portuguese = {
+	duchies = {
+		d_estremadure d_braganca d_algarve d_alentejo d_beira
+	}
+}
+custom_swedish = {
+	duchies = {
+		d_svealand
+	}
+}
+custom_danish = {
+	duchies = {
+		d_sjaelland
+	}
+}
+custom_norwegian = {
+	duchies = {
+		d_ostlandet d_vestlandet d_nordnorge
+	}
+}
+custom_scotland = {
+	duchies = {
+		d_argyll
+	}
+}

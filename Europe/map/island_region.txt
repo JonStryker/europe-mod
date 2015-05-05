@@ -1,0 +1,72 @@
+# Island regions - no land path from the continent
+# The AI needs these to optimize path finding
+#
+# NOTE: do not add any regions here that are NOT islands
+
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+region_iceland = {
+	provinces = { 861 }
+}
+
+region_faereyar = {
+	provinces = { 844 }
+}
+
+region_shetland = {
+	provinces = { }
+}
+
+region_gotland = {
+	provinces = { 890 }
+}
+
+region_britain = {
+	provinces = { 
+		63 64 65 66 67 73 70 1221 69 68 71 72 74 75 76 78 
+		1222 1426 77 79 80 81 82 86 84 83 1337 85 87 88 89 
+		1325 90 1219 91 92 93 94 95 96 97 98 99 100 101 102 
+		103 104 105 106 107 108 109 110 1217 111 112 113 114
+	}
+}
+
+region_baleares = {
+	provinces = { 933 }
+}
+
+region_sardinia_corsica = {
+	provinces = { 371 372 161 }
+}
+
+region_malta = {
+	provinces = { 1258 }
+}
+
+region_crete = {
+	provinces = { 358 }
+}
+
+region_cyprus = {
+	provinces = { 359 360 361 }
+}
+
+region_socotra = {
+	provinces = { }
+}
+
+region_maldives = { 
+	provinces = { 1421 }
+}
+
+region_canarias = {
+	provinces = { 901 }
+}
+
+region_venice = { 
+	provinces = { 1336 }
+}
