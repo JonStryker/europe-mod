@@ -1,0 +1,25 @@
+namespace = dynastical
+
+character_event = {
+	id = dynastical.01
+	title = OK
+	desc = OK
+	picture = GFX_evt_peasants
+	hide_window = yes
+	
+	trigger = {
+		is_alive = yes
+		is_female = no
+		dynasty = 1002037
+		NOT = { has_character_flag = reuss_renamed }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = reuss_renamed
+		set_name=Heinrich
+	}
+}
