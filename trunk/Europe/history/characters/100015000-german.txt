@@ -7908,14 +7908,39 @@
 
 
 ### Thurn+Taxis|1002011|100017000-100017399
-100085294={ # Fst        Anselm Franz             von Thurn u.Taxis                        (1739-1819)
-	name="Anselm Franz"
+100017013={
+	name="Lamoral Claudius Franz"
 	dynasty=1002011
 	religion=catholic culture=bohemian
-	1681.01.30={birth=yes}
-	1703.01.10={add_spouse=100085293}	# Ludovika
-	1739.11.08={death=yes}
+	1621.01.01={birth=yes}
+	1676.09.13={death=yes}
 }
+	100017014={
+		name="Eugen Alexander Franz"
+		dynasty=1002011
+		religion=catholic culture=bohemian
+		father=100017013
+		1652.01.11={birth=yes}
+		1714.02.21={death=yes}
+	}
+		100085294={ # Fst Anselm Franz von Thurn u.Taxis
+			name="Anselm Franz"
+			dynasty=1002011
+			religion=catholic culture=bohemian
+			father=100017014
+			1681.01.30={birth=yes}
+			1703.01.10={add_spouse=100085293}	# Ludovika
+			1739.11.08={death=yes}
+		}
+	100062205={	# Gf Franz Sigismund von Thurn und Taxis
+		name="Franz Sigismund"
+		dynasty=1002011
+		religion=catholic culture=frankish
+		father=100017013
+		1655.01.30={birth=yes}
+		1684.01.01={add_spouse=100062204}	# Anne Hyacinthe
+		1714.01.19={death=yes}
+	}
 100017000={# ALEXANDER FERDINAND Fürst von Thurn und Taxis 8 Nov 1739, hereditary general postmaster of the empire, the Netherlands and Burgundy, hereditary marshal of Hainault, etc (Frankfurt-am-Main 21 Mar 1704-Regensburg 17 Mar 1773); m.1st Frankfurt 11 Apr 1731 Sophie Christine Margravine of Brandenburg-Bayreuth (Weferlingen 4 Jan 1710-Brussels 13 Jun 1739); m.2d Paris 22 Mar 1745 Charlotte Louise of Lorraine, Cts de Lambesc (22 Jul 1724-Schloß Trugenhofen 6 Jan 1747); m.3d Regensburg 21 Sep 1750 Maria Henriette Pss zu Fürstenberg (Prague 31 Mar 1732-Regensburg 4 Jun 1772)
 	name="Alexander Ferdinand"
 	dynasty=1002011
