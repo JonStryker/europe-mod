@@ -4047,6 +4047,7 @@
 					}
 					100021839={	# 5e) Maria Theresia (13 Jun 1837-1 Feb 1888); m.Prague 26 Oct 1858 Gf Rudolf Karl Chotek (23 Jun 1832-1 Oct 1894)
 						name="Maria Theresia"
+						female=yes
 						dynasty=1004007
 						religion=catholic culture=german
 						father=100021832 # Franz Xaver
@@ -7980,15 +7981,6 @@
 				1821.08.11={birth=yes}
 				1876.03.09={death=yes}
 			}
-			100024071={	# 6c) Rudolf (16 Apr 1825-28 Aug 1849)
-				name=Rudolf
-				dynasty=1004005
-				religion=catholic culture=german
-				father=100024035 # Johann
-				mother=100024036 # Nicolassine Baillet de La Tour
-				1825.04.16={birth=yes}
-				1849.08.28={death=yes}
-			}
 			100024072={	# 7c) Franz (Choltitz 27 Jul 1826-Schwaz 30 Jul 1888); m.Innsbruck 16 Jun 1877 Auguste-Eugenie Pss von Urach (Stuttgart 27 Dec 1842-Schwaz 11 Mar 1916)
 				name=Franz
 				dynasty=1004005
@@ -8619,15 +8611,6 @@
 			1824.06.13={add_spouse=100024182}	# Marie Mladota v.Solopisk
 			1827.01.05={death=yes}
 		}
-			100024183={	# 1c) Rudolf (16 Apr 1825-28 Aug 1849)
-				name=Rudolf
-				dynasty=1004005
-				religion=catholic culture=german
-				father=100024181 # Johann Ernst
-				mother=100024182 # Marie Mladota v.Solopisk
-				1825.04.16={birth=yes}
-				1849.08.28={death=yes}
-			}
 			100024184={	# 2c) Ernst (Stiahlau 28 Jul 1826-Salzburg 8 Mar 1907); m.Salzburg 12 Jun 1858 Philippine Gfn von Thun und Hohenstein (1835-1928)
 				name=Ernst
 				dynasty=1004005
@@ -11529,40 +11512,51 @@
 	1770.11.19={birth=yes}
 	1849.08.10={death=yes}
 }
-100024436={ # Gf         Siegmund Friedrich        von Khevenhüller                         (1666-1742)
-	name="Siegmund Friedrich von Khevenhüller"
-	dynasty=0
-	religion=catholic culture=german
-	1666.09.17={birth=yes}
-	1699.08.08={add_spouse=100024435}	# Ernestina Leopoldina
-	1742.12.08={death=yes}
-}
 100024454={ # Gfn        Marie Karoline            von Khevenhüller-Metsch                  (1767-1811)
 	name="Marie Karoline von Khevenhüller-Metsch"
 	female=yes
-	dynasty=0
+	dynasty=1004003
 	religion=catholic culture=german
 	1767.03.14={birth=yes}
 	1811.08.24={death=yes}
 }
 
-100015000={# Johann Joseph
-	name="Johann Joseph"
+100024436={ # Gf         Siegmund Friedrich        von Khevenhüller                         (1666-1742)
+	name="Siegmund Friedrich von Khevenhüller"
 	dynasty=1004003
 	religion=catholic culture=german
-	father=100015030
-	1706.01.01={birth=yes}
-	1776.01.01={death=yes}
+	1666.09.17={birth=yes}
+	1699.08.08={add_spouse=100024435}	# Ernestina Leopoldina
+	1742.12.08={death=yes}
 }
-	100015001={# Johann Sigismund Friedrich
-		name="Johann Sigismund Friedrich"
+	100015000={# Johann Joseph
+		name="Johann Joseph"
 		dynasty=1004003
 		religion=catholic culture=german
-		father=100015000
-		1732.02.23={birth=yes}
-		1754.02.25={add_spouse=100023106}	# Maria Amalia
-		1801.06.15={death=yes}
+		father=100024436
+		mother=100024435
+		1706.01.01={birth=yes}
+		1776.01.01={death=yes}
 	}
+		100015001={# Johann Sigismund Friedrich
+			name="Johann Sigismund Friedrich"
+			dynasty=1004003
+			religion=catholic culture=german
+			father=100015000
+			1732.02.23={birth=yes}
+			1754.02.25={add_spouse=100023106}	# Maria Amalia
+			1801.06.15={death=yes}
+		}
+			100115811={	# Anna Maria
+				name="Anna Maria"
+				female=yes
+				dynasty=1004003
+				religion=catholic culture=hungarian
+				father=100015001
+				mother=100023106
+				1759.04.10={birth=yes}
+				1809.01.18={death=yes}
+			}
 100015002={# FRANZ Maria Johann Joseph Hermann Fürst von Khevenhüller-Metsch 2 Jun 1823 (Vienna 7 Apr 1762- Frohnsburg, Lower Austria 2 Jul 1837); 
 			# m.1st Vienna 6 Jul 1791 Maria-Elisabeth Gfn von Kuefstein (Vienna 2 May 1771-St.Pölten 8 Jan 1798); 
 			# m.2d St.Pölten 16 Apr 1798 Maria Josefa Gfn von Abensperg u.Traun (St.Pölten 23 Nov 1782-St.Pölten 6 Mar 1799); 
@@ -11575,7 +11569,7 @@
 	1762.04.07={birth=yes}
 	1791.07.06={add_spouse=100015003}	# Maria-Elisabeth von Kuefstein
 	1798.04.16={add_spouse=100015004}	# Maria Josefa von Abensperg u.Traun
-	1812.06.15={add_spouse=100015005}	# Christine Zichy zu Zich u.Vásonykeö
+	1812.06.15={add_spouse=100115970}	# Christine Zichy zu Zich u.Vásonykeö
 	1837.07.02={death=yes}
 }
 	100015009={# 4a) RICHARD Maria Johannes Basilius Fst von Khevenhüller-Metsch (Talheim, Lower Austria 23 May 1813- Ladendorf 29 Nov 1877); m.Vienna 8 Dec 1836 Antonia Maria Gfn Lichnowsky (Vienna 18 Apr 1818-Vienna 10 Jan 1870)
@@ -11583,7 +11577,7 @@
 		dynasty=1004003
 		religion=catholic culture=german
 		father=100015002 # Franz von Khevenhüller-Metsch 2 Jun 1823
-		mother=100015005 # his Zichy zu Zich u.Vásonykeö
+		mother=100115970 # Christine Zichy zu Zich u.Vásonykeö
 		1813.05.23={birth=yes}
 		1836.12.08={add_spouse=100015010}	# Antonia Lichnowsky
 		1877.11.29={death=yes}
@@ -11829,8 +11823,8 @@
 		name=Albig
 		dynasty=1004003
 		religion=catholic culture=german
-		father=100015002 # Franz von Khevenhüller-Metsch 2 Jun 1823
-		mother=100015005 # his Zichy zu Zich u.Vásonykeö
+		father=100015002 # Franz von Khevenhüller-Metsch
+		mother=100115970 # Christine Zichy zu Zich u.Vásonykeö
 		1814.11.19={birth=yes}
 		1865.04.29={add_spouse=100015058}	# Franziska Esterházy von Galántha
 		1896.09.14={death=yes}
@@ -11840,7 +11834,7 @@
 		dynasty=1004003
 		religion=catholic culture=german
 		father=100015002 # Franz von Khevenhüller-Metsch 2 Jun 1823
-		mother=100015005 # his Zichy zu Zich u.Vásonykeö
+		mother=100115970 # Christine Zichy zu Zich u.Vásonykeö
 		1819.11.29={birth=yes}
 		1850.01.12={add_spouse=100015061}	# Leontine von Kressenstein
 		1890.05.23={death=yes}
@@ -12155,7 +12149,7 @@
 		dynasty=1004003
 		religion=catholic culture=german
 		father=100015002 # Franz von Khevenhüller-Metsch 2 Jun 1823
-		mother=100015005 # his Zichy zu Zich u.Vásonykeö
+		mother=100115970 # Christine Zichy zu Zich u.Vásonykeö
 		1823.08.31={birth=yes}
 		1876.02.09={death=yes}
 	}
