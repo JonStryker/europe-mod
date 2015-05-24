@@ -88,9 +88,9 @@ AddFlag = CharacterHistory.NoComplexDateChecks
 # Sets the most days that the father can be dead before a child is born
 (SetVar CharacterHistory.MaxDaysFatherDeadBeforeChild) = 300
 # Disables twin check
-#AddFlag = CharacterHistory.NoTwinCheck
+AddFlag = CharacterHistory.NoTwinCheck
 # Disables bastard check
-#AddFlag = CharacterHistory.NoBastardCheck
+AddFlag = CharacterHistory.NoBastardCheck
 # Don't enforce characters needing a death date
 AddFlag = CharacterHistory.NoDeathDateNeeded
 
@@ -134,14 +134,14 @@ AddFlag = CharacterHistory.NoDeathDateNeeded
 # Suppresses warnings if the file is empty.
 #AddFlag = ProvinceHistory.NoWarnOnEmptyFile
 # Disables checks that dates are in chronological order, and that there are no duplicates within groups of dates.
-#AddFlag = ProvinceHistory.NoComplexDateChecks
+AddFlag = ProvinceHistory.NoComplexDateChecks
 
 ###########################################
 # TITLE HISTORY
 ###########################################
 
 # Disables checks that dates are in chronological order, and that there are no duplicates within groups of dates.
-#AddFlag = TitleHistory.NoComplexDateChecks
+AddFlag = TitleHistory.NoComplexDateChecks
 
 ###########################################
 # TITLES
