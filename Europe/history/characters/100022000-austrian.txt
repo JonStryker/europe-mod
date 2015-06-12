@@ -2859,12 +2859,12 @@
 										}
 									100021679={	# 6i) Maria Perpetua Euphemia (b.Weitwörth 5 Jun 1929); m.Weitwörth 16 Jul 1950 Heriprand Gf vin Thurn und Valsassina-Como-Vercelli (Bleiburg 1 Jun 1925-Klagenfurt 31 Jul 1996)
 										name="Maria Perpetua"
+										female=yes
 										dynasty=1004007
 										religion=catholic culture=german
 										father=100021630 # Franz
 										mother=100085073 # Hedwig von Lobkowicz
 										1929.06.05={birth=yes}
-										1950.07.16={add_spouse=100021680}	# Heriprand - vin Thurn und Valsassina-Como
 										2009.01.01={death=yes}	# EST.
 									}
 									100021681={	# 7i) Johannes von Nepomuk Alfred Josef Maria Franziskus Stephanus Rembertus (b.Weitwörth 29 Jan 1934); m.1st Eisenkappel 16 Jul 1959 (div 1971) Irene Gfn von Starhemberg (b.Birstein 7 Mar 1940); m.2nd (civ) Salzburg 23 May 1972 (div 1976) Urdar von Bonin (b.Berlin 30 Dec 1934); m.3rd (civ) Vienna 17 Feb 1976 Adelheid Wellert (b.Vienna 18 Nov 1941)
@@ -3559,13 +3559,11 @@
 			}
 			100021820={	# 6c) Maria Theresia (22 Mar 1735-16 Nov 1800); m.25 Apr 1758 Joseph Gf Kinsky (d.1790)
 				name="Maria Theresia"
-				female=yes
 				dynasty=1004007
 				religion=catholic culture=german
 				father=100021412 # Heinrich
 				mother=100021414 # Marie Franziska von Falkenstein
 				1735.03.22={birth=yes}
-				1758.04.25={add_spouse=100021821}	# Joseph Kinsky
 				1800.11.16={death=yes}
 			}
 			100021822={	# 7c) Maria Antonia (30 Sep 1739-30 Jun 1816); m.12 Jan 1755 Gundackar Thomas Gf von Wurmbrand (d.1791)
@@ -4815,12 +4813,12 @@
 				}
 				100024590={	# 5d) Maria Cäcilie (30 Sep 1766-30 Sep 1841); m.21 Jul 1786 Hieronymus Gf zu Lodron-Laterano (1766-1823)
 					name="Maria Cäcilie"
+					female=yes
 					dynasty=1004006
 					religion=catholic culture=german
 					father=100024451 # Vincenz Ferrerius
 					mother=100024452 # Maria Juliana von Stubenberg
 					1766.09.30={birth=yes}
-					1786.07.21={add_spouse=100024591}	# Hieronymus zu Lodron-Laterano
 					1841.09.30={death=yes}
 				}
 				100024592={	# 6d) Maria Seraphina (3 Jul 1769-11 Jan 1841); m.14 Apr 1807 Joseph Gf von Thurn und Valsassina-Como-Vercelli (3 Sep 1771-9 Aug 1829)
@@ -9443,10 +9441,35 @@
 
 
 #Trauttmansdorff	|	1004004		|	100023200
+100024772={ # Gfn        Maria Josepha             von Trauttmansdorff-Weinsberg            (1718-1772)
+	name="Maria Josepha von Trauttmansdorff-Weinsberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1718.02.27={birth=yes}
+	1772.10.12={death=yes}
+}
+
+100023220={
+	name="Johann Joseph"
+	dynasty=1004004
+	religion=catholic culture=german
+	1676.08.07={birth=yes}
+	1713.04.13={death=yes}
+}
+100023210={
+	name="Franz Norbert"
+	dynasty=1004004
+	religion=catholic culture=german
+	father=100023220
+	1705.08.10={birth=yes}
+	1786.06.18={death=yes}
+}
 100023200={# Franz FERDINAND Fürst von und zu Trauttmansdorff-Weinsberg (Vienna 12 Jan 1749-Vienna 27 Aug 1827); m.Vienna 18 May 1772 Karoline Gfn von Colloredo-Mannsfeld (Vienna 14 Feb 1752-Vienna 20 Sep 1832)
 	name=Ferdinand
 	dynasty=1004004
 	religion=catholic culture=german
+	father=100023210
 	1749.01.12={birth=yes}
 	1772.05.18={add_spouse=100023201}	# Karoline von Colloredo-Mannsfeld
 	1827.08.27={death=yes}
@@ -11716,7 +11739,7 @@
 						mother=100015073 # Wilhelmine Henckel von Donnersmarck
 						1972.03.30={birth=yes}
 					}
-				100015102={# 4d) Helene Maria Anna Franziska (b.Vienna 4 Apr 1921); m.1st St.Georg am Lingsee 14 Aug 1953 (rel) Hochosterwitz 15 Aug 1953 Konstantin Pr of Bavaria (Munich 15 Aug 1920- Hechingen 30 Jul 1969); m.2d (civ) Munich 16 Nov 1970 (rel) Innsbruck 21 Nov 1970 Eugen Pr of Bavaria (Munich 16 Jul 1925-Grasse 1 Jan 1997)
+				100016924={# 4d) Helene Maria Anna Franziska (b.Vienna 4 Apr 1921); m.1st St.Georg am Lingsee 14 Aug 1953 (rel) Hochosterwitz 15 Aug 1953 Konstantin Pr of Bavaria (Munich 15 Aug 1920- Hechingen 30 Jul 1969); m.2d (civ) Munich 16 Nov 1970 (rel) Innsbruck 21 Nov 1970 Eugen Pr of Bavaria (Munich 16 Jul 1925-Grasse 1 Jan 1997)
 					name=Helene
 					female=yes
 					dynasty=1004003
