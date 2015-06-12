@@ -6,6 +6,7 @@
 ##  100111200	Lubomirski				1012004
 ##  100111400	Sapieha					1012005
 ##  100111500	Potocki					1012006
+##  100111653	Lubomirski2				1012004
 ###########################################################
 
 
@@ -327,7 +328,7 @@
 				father=100111559 # Adam
 				mother=100111560 # Katarzyna Branicki
 				1850.06.14={birth=yes}
-				1877.07.07={add_spouse=100111565}	# Roza Lubomirski
+				1877.07.07={add_spouse=100111685}	# Roza Lubomirski
 				1890.03.01={death=yes}
 			}
 				100111566={	# 1d) Roza (Krzeszowice 6 May 1878-Sichow 26 May 1931); m.Cracow 4 Aug 1897 Pr Mateusz Radziwill (Zegrze 25 Jul 1873-Staszow 5 Nov 1920)
@@ -336,7 +337,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111564 # Artur
-					mother=100111565 # Roza Lubomirski
+					mother=100111685 # Roza Lubomirski
 					1878.05.06={birth=yes}
 					1931.05.26={death=yes}
 				}
@@ -346,7 +347,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111564 # Artur
-					mother=100111565 # Roza Lubomirski
+					mother=100111685 # Roza Lubomirski
 					1879.04.21={birth=yes}
 					1933.11.16={death=yes}
 				}
@@ -1618,14 +1619,6 @@
 	1937.06.30={add_spouse=100111486}	# Maria Matylda
 	1947.05.10={death=yes}
 }
-100111482={	#         			Virgilia            			Peterson       
-	name="Virgilia Peterson"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1904.05.16={birth=yes}
-	1966.02.24={death=yes}
-}
 100111489={	#         			Alicja              			Probyn         
 	name="Alicja Probyn"
 	female=yes
@@ -1676,10 +1669,1126 @@
 
 
 ##  100111200	Lubomirski				1012004
+100110652={ # Pss        Anna                      Lubomirski                               (1643-1701)
+	name="Anna Lubomirski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1643.01.01={birth=yes}
+	1701.01.01={death=yes}
+}
+100111501={ # Pss        Julia                     Lubomirski                               (1760-1799)
+	name="Julia Lubomirski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1760.01.01={birth=yes}
+	1799.08.26={death=yes}
+}
+100111236={ # Pss        Wanda                     Lubomirski                               (1841-1910)
+	name="Wanda Lubomirski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1841.01.01={birth=yes}
+	1910.01.01={death=yes}
+}
+100110605={ # Pr         Adam                      Lubomirski                               (1852-1893)
+	name="Adam Lubomirski"
+	dynasty=0
+	religion=catholic culture=polish
+	1852.12.04={birth=yes}
+	1881.01.23={add_spouse=100110604}	# Maria Eleonora
+	1893.11.22={death=yes}
+}
+
+100111653={	# Stanislaw (1704-Warsaw 19 Jul 1793); m.1740 Ludwika Honoratia Pociej (d.ca 1786)
+	name=Stanislaw
+	dynasty=1012004
+	religion=catholic culture=polish
+	1704.01.01={birth=yes}
+	1740.01.01={add_spouse=100111654}	# Ludwika Honoratia Pociej
+	1793.07.19={death=yes}
+}
+	100111655={	# 1a) Ludwika (1743-1829); m.1774 Ct Józef Makary Potocki (d.1821)
+		name=Ludwika
+		female=yes
+		dynasty=1012004
+		religion=catholic culture=polish
+		father=100111653 # Stanislaw
+		mother=100111654 # Ludwika Honoratia Pociej
+		1743.01.01={birth=yes}
+		1829.01.01={death=yes}
+	}
+	100111657={	# 2a) Franciszek Ksawery Pr Lubomirski (1747-1819); m.1st Antonia Potocki; 2nd 1785 (div 1799) Teofila Rzewuski (d.Lawrow 20 Apr 1831); m.3rd 1800 Maria Lvovna Naryshkina
+		name="Franciszek Ksawery"
+		dynasty=1012004
+		religion=catholic culture=polish
+		father=100111653 # Stanislaw
+		mother=100111654 # Ludwika Honoratia Pociej
+		1747.01.01={birth=yes}
+		1785.01.01={add_spouse=100111658}	# Teofila Rzewuski
+		1799.01.01={remove_spouse=100111658}
+		1800.01.01={add_spouse=100111659}	# Maria Lvovna Naryshkina
+		1819.01.01={death=yes}
+	}
+		100111660={	# 5b) Konstanty Stanislas Xaver Feliks (18 Nov 1786-25 Apr 1870); m.18 Feb 1812 Css Catharina Tolstoy (15 Aug 1789-11 Feb 1870)
+			name="Konstanty Stanislas"
+			dynasty=1012004
+			religion=catholic culture=polish
+			father=100111657 # Franciszek Ksawery
+			mother=100111658 # Teofila Rzewuski
+			1786.11.18={birth=yes}
+			1812.02.18={add_spouse=100111661}	# Catharina Tolstoy
+			1870.04.25={death=yes}
+		}
+			100111662={	# 2c) Valentina Maria Isabella (28 Feb 1817); m.1840 Raimond Paul Segur-d’Aguessau (18 Feb 1803-13 Feb 1889)
+				name="Valentina Maria"
+				female=yes
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111660 # Konstanty Stanislas
+				mother=100111661 # Catharina Tolstoy
+				1817.02.28={birth=yes}
+				1889.01.01={death=yes}  # EST.
+			}
+			100111664={	# 3c) Zygmunt Maria Jozef Konstanty Xaver (8 Dec 1822-28 Sep 1863); m.15 Jun 1853 Css Alexandrine Gurieva (1822-Dresden 10 Apr 1854)
+				name="Zygmunt Maria"
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111660 # Konstanty Stanislas
+				mother=100111661 # Catharina Tolstoy
+				1822.12.08={birth=yes}
+				1853.06.15={add_spouse=100111665}	# Alexandrine Gurieva
+				1863.09.28={death=yes}
+			}
+				100111666={	# 1d) Katarzyna Maria (St.Petersburg 4 Apr 1854-Versailles 18 Aug 1937); m.1887 Bratislaw Bartoszewski
+					name="Katarzyna Maria"
+					female=yes
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111664 # Zygmunt Maria
+					mother=100111665 # Alexandrine Gurieva
+					1854.04.04={birth=yes}
+					1937.08.18={death=yes}
+				}
+			100110374={	# 4c) Krystyna Maria Alexandrina Emmanuela (28 Nov 1825-6 Nov 1851); m.Warsaw 4 May 1850 Eugeniusz Pr Lubomirski (Dubrowna 17 Jun 1825-Kruszyna 15 Sep 1911)
+				name="Krystyna Maria"
+				female=yes
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111660 # Konstanty Stanislas
+				mother=100111661 # Catharina Tolstoy
+				1825.11.28={birth=yes}
+				1851.11.06={death=yes}
+			}
+			100111670={	# 5c) Jadwiga Maria Elzbieta Josephine (St.Petersburg 15 Oct 1830 [1828?]-1908); m.15 Dec 1853 Ct Adam Götzendorf-Grabowski (1827-1899 [1900?])
+				name="Jadwiga Maria"
+				female=yes
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111660 # Konstanty Stanislas
+				mother=100111661 # Catharina Tolstoy
+				1830.10.15={birth=yes}
+				1908.01.01={death=yes}
+			}
+			100111672={	# 6c) Maria Anna Dorothea (St.Petersburg 1 Jul 1832-15 Oct 1905); m.1st 10 Jun 1855 Wladislaw v.Götzendorf-Grabowski (d.19 May 1858); m.2nd Wiesbaden 18 Oct 1870 Ct Roman Ronikier (d.16 Jan 1918)
+				name="Maria Anna"
+				female=yes
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111660 # Konstanty Stanislas
+				mother=100111661 # Catharina Tolstoy
+				1832.07.01={birth=yes}
+				1905.10.15={death=yes}
+			}
+			100111675={	# 7c) Anna Maria Clementina (St.Petersburg 6 Mar 1838-1916); m.Warsaw 10 May 1859 Ct Franciszek Lubienski (1834-3 Aug 1891)
+				name="Anna Maria"
+				female=yes
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111660 # Konstanty Stanislas
+				mother=100111661 # Catharina Tolstoy
+				1838.03.06={birth=yes}
+				1916.01.01={death=yes}
+			}
+		100111677={	# 6b) Eugeniusz (13 Sep 1789-1834); m.1st 1817 Maria Czacki (d.1826); m.2nd Klementyna Pss Swiatopelk-Czetwertynska
+			name=Eugeniusz
+			dynasty=1012004
+			religion=catholic culture=polish
+			father=100111657 # Franciszek Ksawery
+			mother=100111658 # Teofila Rzewuski
+			1789.09.13={birth=yes}
+			1817.01.01={add_spouse=100111678}	# Maria Czacki
+			1827.01.01={add_spouse=100111679}	# Klementyna Swiatopelk-Czetwertynska
+			1834.01.01={death=yes}
+		}
+			100111680={	# 1c) Stefan Xaver Thaddeus Pawel (21 Feb 1819-1900)
+				name="Stefan Xaver"
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111677 # Eugeniusz
+				mother=100111678 # Maria Czacki
+				1819.02.21={birth=yes}
+				1900.01.01={death=yes}
+			}
+			100111681={	# 2c) Wladyslaw Jan Emanuel (19 Jun 1824-1882)
+				name="Wladyslaw Jan"
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111677 # Eugeniusz
+				mother=100111678 # Maria Czacki
+				1824.06.19={birth=yes}
+				1882.01.01={death=yes}
+			}
+			100111682={	# 3c) Eugeniusz Adolf (Dubrowna 17 Jun 1825-Kruszyna 15 Sep 1911); m.1st Warsaw 4 May 1850 Krystyna Pss Lubomirski (28 Nov 1825-6 Nov 1851); m.2nd Warsaw 5 Jun 1859 Css Roza Zamoyski (Warsaw 29 Jul 1836-Wilna 12 Oct 1915)
+				name="Eugeniusz Adolf"
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111677 # Eugeniusz
+				mother=100111678 # Maria Czacki
+				1825.06.17={birth=yes}
+				1850.05.04={add_spouse=100110374}	# Krystyna Lubomirski
+				1859.06.05={add_spouse=100111683}	# Roza Zamoyski
+				1911.09.15={death=yes}
+			}
+				100111685={	# 1d) Roza (13 Apr 1860-Krzeszowice 12 May 1881); m.Cracow 7 Jul 1877 Ct Artur Potocki (Krzeszowice 14 Jun 1850-Krzeszowice 16/26 Mar 1890)
+					name=Roza
+					female=yes
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111682 # Eugeniusz Adolf
+					mother=100111683 # Roza Zamoyski
+					1860.04.13={birth=yes}
+					1881.05.12={death=yes}
+				}
+				100111687={	# 2d) Stephan Andrzej (Warsaw 5 May 1862-Kruszyna 4 Jun 1941); m.Warsaw 29 Jan 1891 Css Natalie Zamoyski (Warsaw 27 Jul 1870-Cracow 11 Aug 1944)
+					name="Stephan Andrzej"
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111682 # Eugeniusz Adolf
+					mother=100111683 # Roza Zamoyski
+					1862.05.05={birth=yes}
+					1891.01.29={add_spouse=100110311}	# Natalie Zamoyski
+					1941.06.04={death=yes}
+				}
+					100111689={	# 1e) Hieronymus (Warsaw 28 Jan 1892-Warsaw 30 Jun 1931); m.Warsaw 17 Apr 1923 Marie Dzierzanowski (Owrucz 13 Dec 1906-London 19 Jan 1995)
+						name=Hieronymus
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111687 # Stephan Andrzej
+						mother=100110311 # Natalie Zamoyski
+						1892.01.28={birth=yes}
+						1923.04.17={add_spouse=100111690}	# Marie Dzierzanowski
+						1931.06.30={death=yes}
+					}
+					100111691={	# 2e) Tomasz (Warsaw 18 Dec 1892-Cracow 20 Feb 1969); m.1st St.Petersburg Feb 1917 Marie Pss Drucki-Lubecki (Warsaw 10 Mar 1890-Otwock 26 Jun 1943); m.2nd Warsaw 8 Dec 1943 Stefania Garbarczyk (30 Aug 1897-Cracow 21 Jun 1973)
+						name=Tomasz
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111687 # Stephan Andrzej
+						mother=100110311 # Natalie Zamoyski
+						1892.12.18={birth=yes}
+						1917.02.01={add_spouse=100111692}	# Marie Drucki-Lubecki
+						1943.12.08={add_spouse=100111693}	# Stefania Garbarczyk
+						1969.02.20={death=yes}
+					}
+						100111694={	# 1f) Rafael Stephan (Warsaw 1 Sep 1918-Los Angeles 2 Apr 1984); m.Paris 4 Aug 1951 Isabella Pss Puzyna (b.Stryhów 17 Mar 1925)
+							name="Rafael Stephan"
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111691 # Tomasz
+							mother=100111692 # Marie Drucki-Lubecki
+							1918.09.01={birth=yes}
+							1951.08.04={add_spouse=100111695}	# Isabella Puzyna
+							1984.04.02={death=yes}
+						}
+							100111696={	# 1g) Marek (b.Los Angeles 14 May 1952); m.1982 Allison Williams (b.1962)
+								name=Marek
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111694 # Rafael Stephan
+								mother=100111695 # Isabella Puzyna
+								1952.05.14={birth=yes}
+								1982.01.01={add_spouse=100111697}	# Allison Williams
+							}
+								100111698={	# 1h) Savannah (b.1990)
+									name=Savannah
+									female=yes
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111696 # Marek
+									mother=100111697 # Allison Williams
+									1990.01.01={birth=yes}
+								}
+							100111699={	# 2g) Paul Xaver (b.Los Angeles 29 Jun 1953); m.Hauula, Hawaii 16 Aug 1986 Rona Staszkow (b.1952)
+								name="Paul Xaver"
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111694 # Rafael Stephan
+								mother=100111695 # Isabella Puzyna
+								1953.06.29={birth=yes}
+								1986.08.16={add_spouse=100111700}	# Rona Staszkow
+							}
+						100111701={	# 2f) Marek (Plawno 7 Sep 1920-nr Lille 19 Apr 1987); m.São Paulo 19 Apr 1952 Joan Wooley (Dallas 30 Mar 1927-São Paulo 24 May 2015)
+							name=Marek
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111691 # Tomasz
+							mother=100111692 # Marie Drucki-Lubecki
+							1920.09.07={birth=yes}
+							1952.04.19={add_spouse=100111702}	# Joan Wooley
+							1987.04.19={death=yes}
+						}
+							100111703={	# 1g) Dominic William Thomas (b.São Paulo 1953); m.Rabat 17 Apr 1979 Susan Vavra (b.1950)
+								name="Dominic William"
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111701 # Marek
+								mother=100111702 # Joan Wooley
+								1953.01.01={birth=yes}
+								1979.04.17={add_spouse=100111704}	# Susan Vavra
+							}
+								100111705={	# 1h) Annemarie (b.12 Aug 1984)
+									name=Annemarie
+									female=yes
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111703 # Dominic William
+									mother=100111704 # Susan Vavra
+									1984.08.12={birth=yes}
+								}
+								100111706={	# 2h) Elizabeth (b.Chicago 1987)
+									name=Elizabeth
+									female=yes
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111703 # Dominic William
+									mother=100111704 # Susan Vavra
+									1987.01.01={birth=yes}
+								}
+								100111707={	# 3h) Marek William Thomas (b.Chicago 17 May 1989)
+									name="Marek William"
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111703 # Dominic William
+									mother=100111704 # Susan Vavra
+									1989.05.17={birth=yes}
+								}
+								100111708={	# 4h) Stefan Joseph Dominic (b.Chicago 18 Oct 1993)
+									name="Stefan Joseph"
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111703 # Dominic William
+									mother=100111704 # Susan Vavra
+									1993.10.18={birth=yes}
+								}
+							100111709={	# 2g) Maria Alexandra (b.São Paulo 4 May 1955); m.São Paulo 8 Aug 1981 Daniel Sledge Herbert (b.1950)
+								name="Maria Alexandra"
+								female=yes
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111701 # Marek
+								mother=100111702 # Joan Wooley
+								1955.05.04={birth=yes}
+							}
+							100111711={	# 3g) Maria Philippa (b.São Paulo 19 Sep 1956); m.Ecuires 1980 William Frederick James Harkness (b.1950)
+								name="Maria Philippa"
+								female=yes
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111701 # Marek
+								mother=100111702 # Joan Wooley
+								1956.09.19={birth=yes}
+							}
+							100111713={	# 4g) Thomas Markus (b.São Paulo 21 Jan 1958)
+								name="Thomas Markus"
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111701 # Marek
+								mother=100111702 # Joan Wooley
+								1958.01.21={birth=yes}
+							}
+							100111714={	# 5g) Julia (b.São Paulo 21 Sep 1960); m.1988 Yves Carakehian (b.1960)
+								name=Julia
+								female=yes
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111701 # Marek
+								mother=100111702 # Joan Wooley
+								1960.09.21={birth=yes}
+							}
+						100111716={	# 3f) Anna Therese (b.Plawno 7 Aug 1922); m.San Francisco 28 Dec 1951 Felix Mkgf Pallavicini (b.Ecski 3 Nov 1920)
+							name="Anna Therese"
+							female=yes
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111691 # Tomasz
+							mother=100111692 # Marie Drucki-Lubecki
+							1922.08.07={birth=yes}
+							1998.01.01={death=yes}  # EST.
+						}
+					100110473={	# 3e) Natalie (Kruszyna 4 Jun 1895-Boston 1981); m.Kruszyna 4 Jun 1921 Ct Konstanty Zamoyski (Rózanka 8 Jan 1894-Boston 24 Jan 1963)
+						name=Natalie
+						female=yes
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111687 # Stephan Andrzej
+						mother=100110311 # Natalie Zamoyski
+						1895.06.04={birth=yes}
+						1981.01.01={death=yes}
+					}
+					100111720={	# 4e) Wladislaw (Warsaw 17 Dec 1897-Kruszyna 12 Aug 1927); m.Warsaw 17 Jan 1922 Rosa Gfn von dem Broel gt Plater (Nieklan 14 Jul 1901-Cracow 31 Oct 1999)
+						name=Wladislaw
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111687 # Stephan Andrzej
+						mother=100110311 # Natalie Zamoyski
+						1897.12.17={birth=yes}
+						1922.01.17={add_spouse=100111721}	# Rosa von dem Broel gt Plater
+						1927.08.12={death=yes}
+					}
+						100111722={	# 1f) Elzbieta (b.Kruszyna 17 Oct 1922); m.1st Lipinki 8 Oct 1944 Ct Joseph Stadnicki (Nawojowo, Galicia 16 Oct 1919-Grójec 13 Oct 1960); m.2nd Puszczykówko 28 Nov 1964 Jean Ollier (Paris 1916-Moulignon 18 May 1980)
+							name=Elzbieta
+							female=yes
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111720 # Wladislaw
+							mother=100111721 # Rosa von dem Broel gt Plater
+							1922.10.17={birth=yes}
+							1998.01.01={death=yes}  # EST.
+						}
+						100111725={	# 2f) Natalia (Kruszyna 25 Aug 1923-Cracow 18 Apr 2015); m.Tyniec 24 Aug 1944 Michael Sobanski (Warsaw 8 Dec 1919-Cracow 20 Jul 1984)
+							name=Natalia
+							female=yes
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111720 # Wladislaw
+							mother=100111721 # Rosa von dem Broel gt Plater
+							1923.08.25={birth=yes}
+							2015.04.18={death=yes}
+						}
+						100111727={	# 3f) Roza (Kruczyna 3 Nov 1925-Kruczyna 12 Feb 1933)
+							name=Roza
+							female=yes
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111720 # Wladislaw
+							mother=100111721 # Rosa von dem Broel gt Plater
+							1925.11.03={birth=yes}
+							1933.02.12={death=yes}
+						}
+					100111728={	# 5e) Krystyna (Kruszyna 7 May 1901-Cracow 18 Nov 1984); m.Kruszyna 26 Aug 1930 Stephan Pr Lubomirski (Warsaw 8 Nov 1899-Cracow 27 Jul 1948)
+						name=Krystyna
+						female=yes
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111687 # Stephan Andrzej
+						mother=100110311 # Natalie Zamoyski
+						1901.05.07={birth=yes}
+						1984.11.18={death=yes}
+					}
+				100111730={	# 3d) Wladislaw (Warsaw 1 Jan 1866-Inzersdorf 29 Oct 1934); m.Vienna 14 Jan 1890 Elisabeth Frn de Vaux (Vienna 9 May 1866-Lemberg 10 Mar 1940)
+					name=Wladislaw
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111682 # Eugeniusz Adolf
+					mother=100111683 # Roza Zamoyski
+					1866.01.01={birth=yes}
+					1890.01.14={add_spouse=100111731}	# Elisabeth de Vaux
+					1934.10.29={death=yes}
+				}
+					100111732={	# 1e) Leonia Roza Elzbieta Maria Eugenia Karolina (Cracow 27 Sep 1890-Cracow 21 Aug 1978)
+						name="Leonia Roza"
+						female=yes
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111730 # Wladislaw
+						mother=100111731 # Elisabeth de Vaux
+						1890.09.27={birth=yes}
+						1978.08.21={death=yes}
+					}
+					100111733={	# 2e) Roza Elzbieta Maria Karolina (Vienna 31 Dec 1892-Cracow 16 Jun 1969); m.Kruszyna 21 Oct 1920 Ct Tomasz Potocki (Warsaw 6 Jul 1898-Stockholm 1978)
+						name="Roza Elzbieta"
+						female=yes
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111730 # Wladislaw
+						mother=100111731 # Elisabeth de Vaux
+						1892.12.31={birth=yes}
+						1969.06.16={death=yes}
+					}
+					100111735={	# 3e) Eugeniusz Karol Maria Stefan Andrzej Wladislaw Kasimierz Wilhelm, took the name "Prince Lubomirski-de Vaux" (Vienna 28 May 1895-London 16 Mar 1982); m.Vienna 18 Aug 1934 Erika von Wolff (Aßling, Tyrol 17 Jul 1909-London 14 May 1989)
+						name="Eugeniusz Karol"
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111730 # Wladislaw
+						mother=100111731 # Elisabeth de Vaux
+						1895.05.28={birth=yes}
+						1934.08.18={add_spouse=100111736}	# Erika von Wolff
+						1982.03.16={death=yes}
+					}
+						100111737={	# 1f) Krystyna Maria Monika (b.Ancona 2 Jun 1946); m.London 16 Nov 1968 Andreas Zóltowski (b.Nekla 29 Jul 1939)
+							name="Krystyna Maria"
+							female=yes
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111735 # Eugeniusz Karol
+							mother=100111736 # Erika von Wolff
+							1946.06.02={birth=yes}
+						}
+						100111739={	# 2f) Stefan Maria Antoni Leon Wladislaw (b.London 4 Jun 1949); m.Lisbon 4 Jun 1980 Maria Anna de Lancastre Pinto Coelho
+							name="Stefan Maria"
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111735 # Eugeniusz Karol
+							mother=100111736 # Erika von Wolff
+							1949.06.04={birth=yes}
+							1980.06.04={add_spouse=100111740}	# Maria Anna de Lancastre Pinto Coelho
+						}
+					100111741={	# 4e) Stefan Kasimierz Wldislaw Leon Stanislaw (Warsaw 8 Nov 1899-Cracow 27 Jul 1948); m.Kruszyna 26 Aug 1930 Krystyna Pss Lubomirski (Kruszyna 7 May 1901-Cracow 18 Nov 1984)
+						name="Stefan Kasimierz"
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111730 # Wladislaw
+						mother=100111731 # Elisabeth de Vaux
+						1899.11.08={birth=yes}
+						1930.08.26={add_spouse=100111728}	# Krystyna Lubomirski
+						1948.07.27={death=yes}
+					}
+						100111743={	# 1f) Stanislaw Stefan (b.Warsaw 4 Jul 1931); m.Cracow 18 Dec 1971 Eva Tarnawiecki (b.Cracow 26 Nov 1945)
+							name="Stanislaw Stefan"
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111741 # Stefan Kasimierz
+							mother=100111728 # Krystyna Lubomirski
+							1931.07.04={birth=yes}
+							1971.12.18={add_spouse=100111744}	# Eva Tarnawiecki
+							2008.01.01={death=yes}  # EST.
+						}
+							100111745={	# 1g) Jan Eugeniusz (b.Cracow 22 Mar 1978); m.Venice 21 Oct 2001 Dominika Kulczyk (b.30 Jul 1977)
+								name="Jan Eugeniusz"
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111743 # Stanislaw Stefan
+								mother=100111744 # Eva Tarnawiecki
+								1978.03.22={birth=yes}
+								2001.10.21={add_spouse=100111746}	# Dominika Kulczyk
+							}
+								100111747={	# 1h) Jeremi Sebastian (b.Poznan 17 Jul 2004)
+									name="Jeremi Sebastian"
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111745 # Jan Eugeniusz
+									mother=100111746 # Dominika Kulczyk
+									2004.07.17={birth=yes}
+								}
+								100111748={	# 2h) Weronika Karla Konstancja (b.6 Jul 2008)
+									name="Weronika Karla"
+									female=yes
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111745 # Jan Eugeniusz
+									mother=100111746 # Dominika Kulczyk
+									2008.07.06={birth=yes}
+								}
+						100111749={	# 2f) Jan Leon Wladislaw (b.Warsaw 12 Jan 1933); m.Lausanne 25 Oct 1964 Ingrid Marie Thérèse Kietlicz-Rayski (Warsaw 23 Apr 1943-7 Feb 2009)
+							name="Jan Leon"
+							dynasty=1012004
+							religion=catholic culture=polish
+							father=100111741 # Stefan Kasimierz
+							mother=100111728 # Krystyna Lubomirski
+							1933.01.12={birth=yes}
+							1964.10.25={add_spouse=100111750}	# Ingrid Marie Kietlicz-Rayski
+							2010.01.01={death=yes}  # EST.
+						}
+							100111751={	# 1g) Alexandre Stefan Marc Adam (b.Lausanne 12 Feb 1967); m.Cracow 1 Jun 2013 Julia Pleines
+								name="Alexandre Stefan"
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111749 # Jan Leon
+								mother=100111750 # Ingrid Marie Kietlicz-Rayski
+								1967.02.12={birth=yes}
+								2013.06.01={add_spouse=100111752}	# Julia Pleines
+							}
+							100111753={	# 2g) Stanislas Johann Joseph (b.Lausanne 18 Sep 1970); m.Satigny 15 Oct 2005 Delphine Eggly (b.Bern 27 Jul 1972)
+								name="Stanislas Johann"
+								dynasty=1012004
+								religion=catholic culture=polish
+								father=100111749 # Jan Leon
+								mother=100111750 # Ingrid Marie Kietlicz-Rayski
+								1970.09.18={birth=yes}
+								2005.10.15={add_spouse=100111754}	# Delphine Eggly
+							}
+								100111755={	# 1h) Hadrien Jan Simon Constantin Barnabé (b.Geneva 9 Dec 2007)
+									name="Hadrien Jan"
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111753 # Stanislas Johann
+									mother=100111754 # Delphine Eggly
+									2007.12.09={birth=yes}
+								}
+								100111756={	# 2h) Héloise Corinne Ingrid (b.Geneva 3 Nov 2010)
+									name="Héloise Corinne"
+									female=yes
+									dynasty=1012004
+									religion=catholic culture=polish
+									father=100111753 # Stanislas Johann
+									mother=100111754 # Delphine Eggly
+									2010.11.03={birth=yes}
+								}
+				100111757={	# 4d) Konstanty Eugeniusz Andrzej Adam (Kruszyna 26 Jul 1868-Landwarow 17 Aug 1934); m.Klemensow 25 Jul 1893 Css Marie Potocki (Warsaw 24 Jun 1851-Cracow 12 Dec 1945)
+					name="Konstanty Eugeniusz"
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111682 # Eugeniusz Adolf
+					mother=100111683 # Roza Zamoyski
+					1868.07.26={birth=yes}
+					1893.07.25={add_spouse=100111758}	# Marie Potocki
+					1934.08.17={death=yes}
+				}
+				100111759={	# 5d) Maria Krystyna Alexandra (Cracow 1871-Rome 8 Jan 1958); m.Kruszyna 25 Apr 1892 Ct Ladislaus Tyszkiewicz (26 Jun 1865-21 Sep 1936)
+					name="Maria Krystyna"
+					female=yes
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111682 # Eugeniusz Adolf
+					mother=100111683 # Roza Zamoyski
+					1871.01.01={birth=yes}
+					1958.01.08={death=yes}
+				}
+				100111761={	# 6d) Stanislaw Sebastian (Cracow 31 Jan 1875-Karlsbad 16 Aug 1932); m.Zakopane 5 Mar 1905 Hedwig Jelowicki (1879-1965)
+					name="Stanislaw Sebastian"
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111682 # Eugeniusz Adolf
+					mother=100111683 # Roza Zamoyski
+					1875.01.31={birth=yes}
+					1905.03.05={add_spouse=100111762}	# Hedwig Jelowicki
+					1932.08.16={death=yes}
+				}
+			100111763={	# 4c) Jan Tadeusz (Stanislawów 24 Sep 1826-Warsaw 17 Apr 1908); m.Warsaw 24 Jun 1863 Css Marie Zamoyski (Wysok 25 Apr 1841-Warsaw Dec 1922)
+				name="Jan Tadeusz"
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111677 # Eugeniusz
+				mother=100111678 # Maria Czacki
+				1826.09.24={birth=yes}
+				1863.06.24={add_spouse=100110454}	# Marie Zamoyski
+				1908.04.17={death=yes}
+			}
+				100111765={	# 1d) Zdislaw (Nishnij Novgorod 4 Apr 1865-Mala Wies 31 Jul 1943); m.Warsaw 6 Sep 1893 Css Marie Branicki (Stawischtsche 10 Oct 1873-Warsaw 12 Jul 1934)
+					name=Zdislaw
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111763 # Jan Tadeusz
+					mother=100110454 # Marie Zamoyski
+					1865.04.04={birth=yes}
+					1893.09.06={add_spouse=100111766}	# Marie Branicki
+					1943.07.31={death=yes}
+				}
+					100111767={	# 1e) Julia Maria (Warsaw 2 Jul 1894-Warsaw 12 Dec  1982); m.Mala Wies 31 Oct 1922 Tadeusz Morawski (Jurków 13 Jun 1893-Warsaw 22 Nov 1974)
+						name="Julia Maria"
+						female=yes
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111765 # Zdislaw
+						mother=100111766 # Marie Branicki
+						1894.07.02={birth=yes}
+						1982.12.12={death=yes}
+					}
+					100111769={	# 2e) Jerzy Aleksander (Mala Wies 9 Nov 1896-21 May 1943); m.Warsaw 28 Jan 1931 Juliette Rembielinski (Krosniewice 1890-28 Nov 1988)
+						name="Jerzy Aleksander"
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111765 # Zdislaw
+						mother=100111766 # Marie Branicki
+						1896.11.09={birth=yes}
+						1931.01.28={add_spouse=100111770}	# Juliette Rembielinski
+						1943.05.21={death=yes}
+					}
+					100111771={	# 3e) Dorota (24 Feb 1904-Warsaw 5 Jan 1930)
+						name=Dorota
+						female=yes
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111765 # Zdislaw
+						mother=100111766 # Marie Branicki
+						1904.02.24={birth=yes}
+						1930.01.05={death=yes}
+					}
+				100111772={	# 2d) Jerzy (1867-1894)
+					name=Jerzy
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111763 # Jan Tadeusz
+					mother=100110454 # Marie Zamoyski
+					1867.01.01={birth=yes}
+					1894.01.01={death=yes}
+				}
+				100111773={	# 3d) Zofia Klementina Maria Alexandrina Konstanze Josefina Philomena (Warsaw 9 Nov 1869-Obornicki, Silesia 10 Mar 1950); m.Mala Wies 9 Jan 1896 Sigismund Pr Czartoryski (Posen 1 Sep 1853-Rokosowo 24 Dec 1921)
+					name=Zofia
+					female=yes
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111763 # Jan Tadeusz
+					mother=100110454 # Marie Zamoyski
+					1869.11.09={birth=yes}
+					1950.03.10={death=yes}
+				}
+				100111775={	# 4d) Helena (Warsaw 16 Jun 1870-Zakopane 1 Mar 1950); m.Mala Wies 18 Apr 1891 Stanislaus Gawronski (1860-Warsaw 1942)
+					name=Helena
+					female=yes
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111763 # Jan Tadeusz
+					mother=100110454 # Marie Zamoyski
+					1870.06.16={birth=yes}
+					1950.03.01={death=yes}
+				}
+				100111777={	# 7d) Jadwiga (Rodaun 24 Jun 1876-Poznan 11 Jan 1930); m.Mata-Wies 19 Aug 1901 Ct Franciszek Kwilcz-Kwilecki (Dobrojewo 4 Oct 1875-Ostrorog 20 Sep 1937)
+					name=Jadwiga
+					female=yes
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111763 # Jan Tadeusz
+					mother=100110454 # Marie Zamoyski
+					1876.06.24={birth=yes}
+					1930.01.11={death=yes}
+				}
+				100111779={	# 8d) Maria (1878-Warsaw 23 Apr 1923)
+					name=Maria
+					female=yes
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111763 # Jan Tadeusz
+					mother=100110454 # Marie Zamoyski
+					1878.01.01={birth=yes}
+					1923.04.23={death=yes}
+				}
+		100111780={	# 7b) Antoni Juliusz (15 Sep 1801-20 Jun 1885); m.Kiev 15 May 1832 Honorine Kraszewski (12 Jan 1814-Vienna 4 Apr 1890)
+			name="Antoni Juliusz"
+			dynasty=1012004
+			religion=catholic culture=polish
+			father=100111657 # Franciszek Ksawery
+			mother=100111659 # Maria Lvovna Naryshkina
+			1801.09.15={birth=yes}
+			1832.05.15={add_spouse=100111781}	# Honorine Kraszewski
+			1885.06.20={death=yes}
+		}
+			100111782={	# 1c) Franciszek Ksawery (Antonówka 22 Aug 1833-Paris 13 Nov 1895); m.1866 Emilie Dzialynski (Paris 21 Jun 1843-1904)
+				name="Franciszek Ksawery"
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111780 # Antoni Juliusz
+				mother=100111781 # Honorine Kraszewski
+				1833.08.22={birth=yes}
+				1866.01.01={add_spouse=100111783}	# Emilie Dzialynski
+				1895.11.13={death=yes}
+			}
+				100111784={	# 1d) Leon Franciszek (Kiev 11 Jun 1867-26 Mar 1962); m.1st Budapest 14 Aug 1888 (div 1922) Marie Havlaczek (1868); m.2nd Nice 14 Mar 1923 Emilie Schrener (1864-1946)
+					name="Leon Franciszek"
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111782 # Franciszek Ksawery
+					mother=100111783 # Emilie Dzialynski
+					1867.06.11={birth=yes}
+					1888.08.14={add_spouse=100111785}	# Marie Havlaczek
+					1922.01.01={remove_spouse=100111785}
+					1923.03.14={add_spouse=100111786}	# Emilie Schrener
+					1962.03.26={death=yes}
+				}
+					100111787={	# 1e) Alexander (Vienna 21 Sep 1890); m.Domodossola 7 Aug 1912 Eveline Dowiatt (d.1965)
+						name=Alexander
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111784 # Leon Franciszek
+						mother=100111785 # Marie Havlaczek
+						1890.09.21={birth=yes}
+						1912.08.07={add_spouse=100111788}	# Eveline Dowiatt
+						1965.01.01={death=yes}  # EST.
+					}
+					100111789={	# 2e) Stefan (Vienna 24 Dec 1894-London 7 Oct 1988); m.28 Dec 1927 Sophie Hantke (1900-London 23 Sep 1985)
+						name=Stefan
+						dynasty=1012004
+						religion=catholic culture=polish
+						father=100111784 # Leon Franciszek
+						mother=100111785 # Marie Havlaczek
+						1894.12.24={birth=yes}
+						1927.12.28={add_spouse=100111790}	# Sophie Hantke
+						1988.10.07={death=yes}
+					}
+			100111791={	# 2c) Julie (22 May 1836-Pau 29 Dec 1891); m.10 Jan 1865 Wladislaw Ct Karnicki (d.31 Dec 1883)
+				name=Julie
+				female=yes
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111780 # Antoni Juliusz
+				mother=100111781 # Honorine Kraszewski
+				1836.05.22={birth=yes}
+				1891.12.29={death=yes}
+			}
+			100111793={	# 3c) Aleksander (10 Nov 1839-1893)
+				name=Aleksander
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111780 # Antoni Juliusz
+				mother=100111781 # Honorine Kraszewski
+				1839.11.10={birth=yes}
+				1893.01.01={death=yes}
+			}
+			100111794={	# 4c) Maria (15 Jul 1842); m.Ct August Komarowski
+				name=Maria
+				female=yes
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111780 # Antoni Juliusz
+				mother=100111781 # Honorine Kraszewski
+				1842.07.15={birth=yes}
+				1915.01.01={death=yes}  # EST.
+			}
+			100111796={	# 5c) Dorothea (26 Jun 1843); m.Ct Jozef Mlodecki
+				name=Dorothea
+				female=yes
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111780 # Antoni Juliusz
+				mother=100111781 # Honorine Kraszewski
+				1843.06.26={birth=yes}
+				1916.01.01={death=yes}  # EST.
+			}
+			100111798={	# 6c) Stephanie (19 Sep 1845-Warsaw 30 Sep 1897); m.30 Apr 1877 Ct Gustav Tarnowski (9 Apr 1829-Berlin 20 Dec 1906)
+				name=Stephanie
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111780 # Antoni Juliusz
+				mother=100111781 # Honorine Kraszewski
+				1845.09.19={birth=yes}
+				1877.04.30={add_spouse=100111799}	# Gustav Tarnowski
+				1897.09.30={death=yes}
+			}
+			100111800={	# 7c) Antoni Kasimierz (Constantinople 31 Jul 1847-1876); m.1874 Maria Waskowski (1849)
+				name="Antoni Kasimierz"
+				dynasty=1012004
+				religion=catholic culture=polish
+				father=100111780 # Antoni Juliusz
+				mother=100111781 # Honorine Kraszewski
+				1847.07.31={birth=yes}
+				1874.01.01={add_spouse=100111801}	# Maria Waskowski
+				1876.01.01={death=yes}
+			}
+				100111802={	# 1d) Alexander (Constantinople 3 May 1876)
+					name=Alexander
+					dynasty=1012004
+					religion=catholic culture=polish
+					father=100111800 # Antoni Kasimierz
+					mother=100111801 # Maria Waskowski
+					1876.05.03={birth=yes}
+					1951.01.01={death=yes}  # EST.
+				}
+		100111803={	# 8b) Alexander (11 Aug 1802-Paris 12 Jun 1893); m.1823 Julia Pss Radziwill
+			name=Alexander
+			dynasty=1012004
+			religion=catholic culture=polish
+			father=100111657 # Franciszek Ksawery
+			mother=100111659 # Maria Lvovna Naryshkina
+			1802.08.11={birth=yes}
+			1823.01.01={add_spouse=100111804}	# Julia Radziwill
+			1893.06.12={death=yes}
+		}
+
+#######
+100111667={	#         			Bratislaw           			Bartoszewski   
+	name="Bratislaw Bartoszewski"
+	dynasty=0
+	religion=catholic culture=polish
+	1862.01.01={birth=yes}
+	1887.01.01={add_spouse=100111666}	# Katarzyna Maria
+	1936.01.01={death=yes}  # EST.
+}
+100111715={	#         			Yves                			Carakehian     
+	name="Yves Carakehian"
+	dynasty=0
+	religion=catholic culture=polish
+	1960.01.01={birth=yes}
+	1988.01.01={add_spouse=100111714}	# Julia
+}
+100111678={	#         			Maria               			Czacki         
+	name="Maria Czacki"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1797.01.01={birth=yes}
+	1826.01.01={death=yes}
+}
+100111788={	#         			Eveline             			Dowiatt        
+	name="Eveline Dowiatt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1892.01.01={birth=yes}
+	1965.01.01={death=yes}
+}
+100111783={	#         			Emilie              			Dzialynski     
+	name="Emilie Dzialynski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1843.06.21={birth=yes}
+	1904.01.01={death=yes}
+}
+100111690={	#         			Marie               			Dzierzanowski  
+	name="Marie Dzierzanowski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1906.12.13={birth=yes}
+	1995.01.19={death=yes}
+}
+100111754={	#         			Delphine            			Eggly          
+	name="Delphine Eggly"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1972.07.27={birth=yes}
+}
+100111693={	#         			Stefania            			Garbarczyk     
+	name="Stefania Garbarczyk"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1897.08.30={birth=yes}
+	1973.06.21={death=yes}
+}
+100111776={	#         			Stanislaus          			Gawronski      
+	name="Stanislaus Gawronski"
+	dynasty=0
+	religion=catholic culture=polish
+	1860.01.01={birth=yes}
+	1891.04.18={add_spouse=100111775}	# Helena
+	1942.01.01={death=yes}
+}
+100111790={	#         			Sophie              			Hantke         
+	name="Sophie Hantke"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1900.01.01={birth=yes}
+	1985.09.23={death=yes}
+}
+100111712={	#         			William Frederick   			Harkness       
+	name="William Frederick Harkness"
+	dynasty=0
+	religion=catholic culture=polish
+	1950.01.01={birth=yes}
+	1980.01.01={add_spouse=100111711}	# Maria Philippa
+}
+100111785={	#         			Marie               			Havlaczek      
+	name="Marie Havlaczek"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1868.01.01={birth=yes}
+	1942.01.01={death=yes}  # EST.
+}
+100111762={	#         			Hedwig              			Jelowicki      
+	name="Hedwig Jelowicki"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1879.01.01={birth=yes}
+	1965.01.01={death=yes}
+}
+100111750={	#         			Ingrid Marie        			Kietlicz-Rayski
+	name="Ingrid Marie Kietlicz-Rayski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1943.04.23={birth=yes}
+	2009.02.07={death=yes}
+}
+100111781={	#         			Honorine            			Kraszewski     
+	name="Honorine Kraszewski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1814.01.12={birth=yes}
+	1890.04.04={death=yes}
+}
+100111746={	#         			Dominika            			Kulczyk        
+	name="Dominika Kulczyk"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1977.07.30={birth=yes}
+}
+100111659={	#         			Maria               			Lvovna Naryshkina
+	name="Maria Lvovna Naryshkina"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1780.01.01={birth=yes}
+	1851.01.01={death=yes}  # EST.
+}
+100111768={	#         			Tadeusz             			Morawski       
+	name="Tadeusz Morawski"
+	dynasty=0
+	religion=catholic culture=polish
+	1893.06.13={birth=yes}
+	1922.10.31={add_spouse=100111767}	# Julia Maria
+	1974.11.22={death=yes}
+}
+100111724={	#         			Jean                			Ollier         
+	name="Jean Ollier"
+	dynasty=0
+	religion=catholic culture=polish
+	1916.01.01={birth=yes}
+	1964.11.28={add_spouse=100111722}	# Elzbieta
+	1980.05.18={death=yes}
+}
+100111752={	#         			Julia               			Pleines        
+	name="Julia Pleines"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1993.01.01={birth=yes}
+}
+100111654={	#         			Ludwika Honoratia   			Pociej         
+	name="Ludwika Honoratia Pociej"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1720.01.01={birth=yes}
+	1786.01.01={death=yes}
+}
+100111770={	#         			Juliette            			Rembielinski   
+	name="Juliette Rembielinski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1890.01.01={birth=yes}
+	1988.11.28={death=yes}
+}
+100111658={	#         			Teofila             			Rzewuski       
+	name="Teofila Rzewuski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1765.01.01={birth=yes}
+	1831.04.20={death=yes}
+}
+100111786={	#         			Emilie              			Schrener       
+	name="Emilie Schrener"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1864.01.01={birth=yes}
+	1946.01.01={death=yes}
+}
+100111663={	#         			Raimond Paul        			Segur-d’Aguessau
+	name="Raimond Paul Segur-d’Aguessau"
+	dynasty=0
+	religion=catholic culture=polish
+	1803.02.18={birth=yes}
+	1840.01.01={add_spouse=100111662}	# Valentina Maria
+	1889.02.13={death=yes}
+}
+100111710={	#         			Daniel              			Sledge Herbert 
+	name="Daniel Sledge Herbert"
+	dynasty=0
+	religion=catholic culture=polish
+	1950.01.01={birth=yes}
+	1981.08.08={add_spouse=100111709}	# Maria Alexandra
+}
+100111726={	#         			Michael             			Sobanski       
+	name="Michael Sobanski"
+	dynasty=0
+	religion=catholic culture=polish
+	1919.12.08={birth=yes}
+	1944.08.24={add_spouse=100111725}	# Natalia
+	1984.07.20={death=yes}
+}
+100111700={	#         			Rona                			Staszkow       
+	name="Rona Staszkow"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1952.01.01={birth=yes}
+}
+100111744={	#         			Eva                 			Tarnawiecki    
+	name="Eva Tarnawiecki"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1945.11.26={birth=yes}
+}
+100111704={	#         			Susan               			Vavra          
+	name="Susan Vavra"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1950.01.01={birth=yes}
+}
+100111801={	#         			Maria               			Waskowski      
+	name="Maria Waskowski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1849.01.01={birth=yes}
+	1922.01.01={death=yes}  # EST.
+}
+100111697={	#         			Allison             			Williams       
+	name="Allison Williams"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1962.01.01={birth=yes}
+}
+100111702={	#         			Joan                			Wooley         
+	name="Joan Wooley"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1927.03.30={birth=yes}
+	2015.05.24={death=yes}
+}
+100111738={	#         			Andreas             			Zóltowski      
+	name="Andreas Zóltowski"
+	dynasty=0
+	religion=catholic culture=polish
+	1939.07.29={birth=yes}
+	1968.11.16={add_spouse=100111737}	# Krystyna Maria
+}
+100111740={	#         			Maria Anna          			de Lancastre Pinto Coelho
+	name="Maria Anna de Lancastre Pinto Coelho"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1960.01.01={birth=yes}
+}
+100111673={	#         			Wladislaw           			v.Götzendorf-Grabowski
+	name="Wladislaw v.Götzendorf-Grabowski"
+	dynasty=0
+	religion=catholic culture=polish
+	1830.01.01={birth=yes}
+	1855.06.10={add_spouse=100111672}	# Maria Anna
+	1858.05.19={death=yes}
+}
+100111736={	#         			Erika               			von Wolff      
+	name="Erika von Wolff"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1909.07.17={birth=yes}
+	1989.05.14={death=yes}
+}
+
 100111200={	# Józef (1751-Rovno Jul 1817); m.1776 Ludwika Sosnowska (1751-6 Dec 1836)
 	name=Józef
 	dynasty=1012004
 	religion=catholic culture=polish
+	father=100111653 # Stanislaw
+	mother=100111654 # Ludwika Honoratia Pociej
 	1751.01.01={birth=yes}
 	1776.01.01={add_spouse=100111201}	# Ludwika Sosnowska
 	1817.07.01={death=yes}
@@ -2090,8 +3199,8 @@
 							mother=100111271 # Halina Krajnik
 							1953.02.10={birth=yes}
 						}
-						100111278={	# 3g) Krysztof Jan (b.Trzebielno, Pomerania 20 Jan 1959); m.Trzebielno 1 Jul 1983 Anna Kocela (b.Waldowo 1 Jul 1963)
-							name="Krysztof Jan"
+						100111278={	# 3g) Krzysztof Jan (b.Trzebielno, Pomerania 20 Jan 1959); m.Trzebielno 1 Jul 1983 Anna Kocela (b.Waldowo 1 Jul 1963)
+							name="Krzysztof Jan"
 							dynasty=1012004
 							religion=catholic culture=polish
 							father=100111270 # Stanislaw Hubert
@@ -2104,23 +3213,15 @@
 								female=yes
 								dynasty=1012004
 								religion=catholic culture=polish
-								father=100111278 # Krysztof Jan
+								father=100111278 # Krzysztof Jan
 								mother=100111279 # Anna Kocela
 								1984.01.01={birth=yes}
 							}
-							100111281={	# 2h) Jacek (b.and d.Bytow 28 Aug 1989)
-								name=Jacek
+							100111282={	# 3h) Jakub Krzysztof (b.Bytow 1 Aug 1990)
+								name="Jakub Krzysztof"
 								dynasty=1012004
 								religion=catholic culture=polish
-								father=100111278 # Krysztof Jan
-								mother=100111279 # Anna Kocela
-								1989.08.28={birth=yes}
-							}
-							100111282={	# 3h) Jakub Krysztof (b.Bytow 1 Aug 1990)
-								name="Jakub Krysztof"
-								dynasty=1012004
-								religion=catholic culture=polish
-								father=100111278 # Krysztof Jan
+								father=100111278 # Krzysztof Jan
 								mother=100111279 # Anna Kocela
 								1990.08.01={birth=yes}
 							}
@@ -2141,7 +3242,7 @@
 						father=100111260 # Hubert Stanislaw
 						mother=100110715 # Tereza Radziwill
 						1917.10.30={birth=yes}
-						1979.02.17={add_spouse=100111286}	# Maria Dziernanowska
+						1979.02.17={add_spouse=100111690}	# Maria Dziernanowska
 						1996.05.07={death=yes}
 					}
 					100111287={	# 6f) Henryk Ignacy (b.Viareggio 2 Sep 1919); m.London 18 Sep 1946 Adela Malachowski (26 Feb 1921-27 Nov 2003)
@@ -2216,7 +3317,7 @@
 					1882.10.09={birth=yes}
 					1947.02.16={death=yes}
 				}
-			100111303={	# 2d) Maria (Równo 1847-Pau 18 May 1930); m.Paris 4 Nov 1875 René Cte Lannes de Montebello (Gelos 13 Sep 1845-Pau 27 Dec 1925)
+			100111209={	# 2d) Maria (Równo 1847-Pau 18 May 1930); m.Paris 4 Nov 1875 René Cte Lannes de Montebello (Gelos 13 Sep 1845-Pau 27 Dec 1925)
 				name=Maria
 				female=yes
 				dynasty=1012004
@@ -2226,16 +3327,6 @@
 				1847.01.01={birth=yes}
 				1930.05.18={death=yes}
 			}
-	100111305={	# 3b) Helene (6 Jan 1783-    ); m.Ct Stanislas Muiszek
-		name=Helene
-		female=yes
-		dynasty=1012004
-		religion=catholic culture=polish
-		father=100111200 # Józef
-		mother=100111201 # Ludwika Sosnowska
-		1783.01.06={birth=yes}
-		1854.01.01={death=yes}  # EST.
-	}
 
 #######
 100111268={	#         			Kasimir             			Antczak        
@@ -2251,13 +3342,6 @@
 	dynasty=0
 	religion=catholic culture=polish
 	1969.02.23={birth=yes}
-}
-100111246={	#         			Eileen Pamela       			Beardsell      
-	name="Eileen Pamela Beardsell"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1947.01.01={birth=yes}
 }
 100111294={	#         			Dorothea            			Brzozowski     
 	name="Dorothea Brzozowski"
@@ -2289,15 +3373,7 @@
 	1943.11.04={add_spouse=100111283}	# Anna Maria
 	1959.04.05={death=yes}
 }
-100111286={	#         			Maria               			Dziernanowska  
-	name="Maria Dziernanowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1906.12.13={birth=yes}
-	1995.01.19={death=yes}
-}
-100111234={	#         			Zenaida             			Holynska       
+100111234={	#         			Zenaida             			Holynski       
 	name="Zenaida Holynska"
 	female=yes
 	dynasty=0
@@ -2381,7 +3457,7 @@
 	1965.12.24={add_spouse=100111289}	# Wanda Zofia
 	2005.06.06={death=yes}
 }
-100111238={	#         			Ada                 			Rzewuska       
+100111238={	#         			Ada                 			Rzewuski       
 	name="Ada Rzewuska"
 	female=yes
 	dynasty=0
@@ -2389,7 +3465,7 @@
 	1893.06.06={birth=yes}
 	1940.01.01={death=yes}
 }
-100111201={	#         			Ludwika             			Sosnowska      
+100111201={	#         			Ludwika             			Sosnowski      
 	name="Ludwika Sosnowska"
 	female=yes
 	dynasty=0
@@ -2412,7 +3488,7 @@
 	1923.07.14={add_spouse=100111239}	# Maria Stanislawa
 	1955.08.22={death=yes}
 }
-100111219={	#         			Anna                			Wilamowska     
+100111219={	#         			Anna                			Wilamowski     
 	name="Anna Wilamowska"
 	female=yes
 	dynasty=0
@@ -2444,11 +3520,19 @@
 	1921.09.14={birth=yes}
 	2004.09.23={death=yes}
 }
-####### 100111307
 ##  100111200	Lubomirski				1012004
 
 
 ##  100110650	Radziwill				1012003
+100017011={ # Pr Hieronymus Vincenz Radziwill (1759-1786)
+	name="Hieronymus Vincenz Radziwill"
+	dynasty=0
+	religion=catholic culture=german
+	1759.07.20={birth=yes}
+	1775.12.31={add_spouse=100017010}	# Sophie Friederike
+	1786.09.18={death=yes}
+}
+
 100110650={# Dominik Mikolaj Pr Radziwill (1643-27 Jul 1697); m.1st 11 Oct 1662 Anna Pss Polubinska (d.2 Nov 1690); m.2nd 1 Jan 1692 Anna Pss Lubomirski (d.1701)
 	name=Dominik
 	dynasty=1012003
@@ -4678,7 +5762,7 @@
 				mother=100111073 # Eleonore Kamienska
 				1752.01.01={birth=yes}
 				1780.01.01={add_spouse=100111075}	# Cecilia Zakrzewska;
-				1790.01.01={add_spouse=100111117}	# Julia Radziwill
+				1810.01.01={add_spouse=100111117}	# Julia Radziwill
 				1818.01.01={death=yes}
 			}
 				100111077={# 1d) Alexander (1782)
@@ -5224,7 +6308,7 @@
 			father=100110302 # Konstanty
 			mother=100110303 # Angelica Sapieha-Siewierski
 			1832.01.18={birth=yes}
-			1869.09.26={add_spouse=100110310}	# Maria Potocki
+			1869.09.26={add_spouse=100111758}	# Maria Potocki
 			1889.12.21={death=yes}
 		}
 			100110311={# 1c) Natalia Maria (Warsaw 27 Jul 1870-Cracow 11 Aug 1944); m.Warsaw 29 Jan 1891 Pr Stephan Lubomirski (Warsaw 15 May 1862-Kruszyna 4 Jun 1941)
@@ -5233,7 +6317,7 @@
 				dynasty=1012001
 				religion=catholic culture=polish
 				father=100110309 # Tomasz
-				mother=100110310 # Maria Potocki
+				mother=100111758 # Maria Potocki
 				1870.07.27={birth=yes}
 				1944.08.11={death=yes}
 			}
@@ -5242,7 +6326,7 @@
 				dynasty=1012001
 				religion=catholic culture=polish
 				father=100110309 # Tomasz
-				mother=100110310 # Maria Potocki
+				mother=100111758 # Maria Potocki
 				1871.07.30={birth=yes}
 				1906.07.18={add_spouse=100110314}	# Maria Sapieha-Rozanski
 				1939.05.12={death=yes}
@@ -5469,7 +6553,7 @@
 				dynasty=1012001
 				religion=catholic culture=polish
 				father=100110309 # Tomasz
-				mother=100110310 # Maria Potocki
+				mother=100111758 # Maria Potocki
 				1873.07.30={birth=yes}
 				1926.01.01={add_spouse=100110353}	# Felicie Koch
 				1927.10.18={death=yes}
@@ -5480,7 +6564,7 @@
 				dynasty=1012001
 				religion=catholic culture=polish
 				father=100110309 # Tomasz
-				mother=100110310 # Maria Potocki
+				mother=100111758 # Maria Potocki
 				1877.05.09={birth=yes}
 				1943.01.01={death=yes}
 			}
@@ -5489,7 +6573,7 @@
 				dynasty=1012001
 				religion=catholic culture=polish
 				father=100110309 # Tomasz
-				mother=100110310 # Maria Potocki
+				mother=100111758 # Maria Potocki
 				1879.01.01={birth=yes}
 				1888.01.01={death=yes}
 			}
@@ -5498,7 +6582,7 @@
 				dynasty=1012001
 				religion=catholic culture=polish
 				father=100110309 # Tomasz
-				mother=100110310 # Maria Potocki
+				mother=100111758 # Maria Potocki
 				1880.05.14={birth=yes}
 				1903.01.01={add_spouse=100110358}	# Maria Kruszewska
 				1963.07.19={death=yes}
@@ -5599,7 +6683,7 @@
 			1834.05.14={birth=yes}
 			1881.05.10={death=yes}
 		}
-		100110374={# 7b) Roza (Warsaw 29 Jul 1836-Wilno 12 Oct 1915); m.Warsaw 5 Jun 1859 Pr Eugeniusz Lubomirski (Dubrowna 17 Jun 1825-Kruszyna 15 Sep 1911)
+		100111683={# 7b) Roza (Warsaw 29 Jul 1836-Wilno 12 Oct 1915); m.Warsaw 5 Jun 1859 Pr Eugeniusz Lubomirski (Dubrowna 17 Jun 1825-Kruszyna 15 Sep 1911)
 			name=Roza
 			female=yes
 			dynasty=1012001
@@ -7025,7 +8109,7 @@
 				father=100110038 # Adam
 				mother=100110040 # Elisabeth Dzialynska
 				1853.09.29={birth=yes}
-				1896.01.09={add_spouse=100110046}	# Sophie Lubomirski
+				1896.01.09={add_spouse=100111773}	# Sophie Lubomirski
 				1920.12.24={death=yes}
 			}
 				100110047={# 1d) Jan Roman (Warsaw 8 Jan 1897-Wrexham 15 May 1986); m.Baltów 1 Jan 1925 Alexandrine Pss Drucki-Lubecki (Baltów 3 May 1901-Revelstoke, British Columbia 17 Mar 1980)
@@ -7033,7 +8117,7 @@
 					dynasty=1012000
 					religion=catholic culture=polish
 					father=100110045 # Tomasz
-					mother=100110046 # Sophie Lubomirski
+					mother=100111773 # Sophie Lubomirski
 					1897.01.08={birth=yes}
 					1925.01.01={add_spouse=100110048}	# Alexandrine Drucki-Lubecki
 					1986.05.15={death=yes}
@@ -7117,7 +8201,7 @@
 					dynasty=1012000
 					religion=catholic culture=polish
 					father=100110045 # Tomasz
-					mother=100110046 # Sophie Lubomirski
+					mother=100111773 # Sophie Lubomirski
 					1898.05.05={birth=yes}
 					1978.07.11={death=yes}
 				}
@@ -7127,7 +8211,7 @@
 					dynasty=1012000
 					religion=catholic culture=polish
 					father=100110045 # Tomasz
-					mother=100110046 # Sophie Lubomirski
+					mother=100111773 # Sophie Lubomirski
 					1905.08.22={birth=yes}
 					1929.04.16={death=yes}
 				}
@@ -7136,7 +8220,7 @@
 					dynasty=1012000
 					religion=catholic culture=polish
 					father=100110045 # Tomasz
-					mother=100110046 # Sophie Lubomirski
+					mother=100111773 # Sophie Lubomirski
 					1905.03.10={birth=yes}
 					1939.06.14={add_spouse=100110065}	# Hedwig Kwilecki
 					1974.01.05={death=yes}
@@ -7147,7 +8231,7 @@
 					dynasty=1012000
 					religion=catholic culture=polish
 					father=100110045 # Tomasz
-					mother=100110046 # Sophie Lubomirski
+					mother=100111773 # Sophie Lubomirski
 					1906.11.22={birth=yes}
 					1984.08.22={death=yes}
 				}
@@ -7156,7 +8240,7 @@
 					dynasty=1012000
 					religion=catholic culture=polish
 					father=100110045 # Tomasz
-					mother=100110046 # Sophie Lubomirski
+					mother=100111773 # Sophie Lubomirski
 					1909.03.08={birth=yes}
 					1932.01.01={add_spouse=100110068}	# Zofia Wysocki
 					2006.02.10={death=yes}
