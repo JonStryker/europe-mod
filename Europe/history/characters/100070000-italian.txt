@@ -1282,10 +1282,53 @@
 
 
 ##  1006006		Colonna					100070750
+
+100071134={
+	name=Filippo
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071109
+	1642.01.01={birth=yes}
+	1686.01.01={death=yes}
+}
+100071133={
+	name=Giuliano
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071134
+	1671.01.01={birth=yes}
+	1732.01.01={death=yes}
+}
+100071132={
+	name=Ferdinando
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071133
+	1695.01.01={birth=yes}
+	1775.01.01={death=yes}
+}
+100071131={
+	name=Marcantonio
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071132
+	1724.01.01={birth=yes}
+	1796.01.01={death=yes}
+}
+100071130={
+	name=Andrea
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071131
+	1748.01.01={birth=yes}
+	1820.01.01={death=yes}
+}
+
 100070919={	# Andrea, Pr di Stigliano (Naples 21 Nov 1748-Naples 9 Jul 1820); m.Bagnara 9 Feb 1776 Donna Cecilia Ruffo di Bagnara (Naples 28 Jun 1759-16 Dec 1833)
 	name=Andrea
 	dynasty=1006006
 	religion=catholic culture=italian
+	father=100071130
 	1748.11.21={birth=yes}
 	1776.02.09={add_spouse=100070920}	# Cecilia Ruffo di Bagnara
 	1820.07.09={death=yes}
@@ -1714,7 +1757,6 @@
 						mother=100070998 # Simonetta dei Marchesi Torrigiani
 						1938.10.27={birth=yes}
 						1980.04.01={add_spouse=100071002}	# Frances Loftus
-						2015.01.01={death=yes}  # EST.
 					}
 						100071003={	# 1f) Vittoria (b.Dublin 28 Mar 1981)
 							name=Vittoria
@@ -2159,20 +2201,23 @@
 		}
 		100071084={	# 5b) Luigi Maria (Caserta 17 Dec 1844-Pegli 2 May 1933); m.1st Milan 2 Dec 1875 Giuseppina Faraggiana (Novara 1838-San Remo 28 Oct 1898); m.2nd Munich 20 Dec 1901 (div 1908) Guidobaldine von Alten (Hannover 2 Nov 1838-Deutsch-Matrei 23 Jun 1922); m.3rd Nice 8 Sep 1909 Luise Raguet (Boulogne-sur-Seine 18 May 1841-Zürich 12 Dec 1922)
 			name="Luigi Maria"
-			female=yes
 			dynasty=1006006
 			religion=catholic culture=italian
 			father=100071045 # Filippo
 			mother=100071046 # Maria Luisa Hueber
 			1844.12.17={birth=yes}
+			1875.12.02={add_spouse=100071085}
+			1901.12.20={add_spouse=100071086}
+			1908.01.01={remove_spouse=100071086}
+			1909.09.08={add_spouse=100071087}
 			1933.05.02={death=yes}
 		}
 			100071088={	# 1c) Ferdinando Giuseppe Pr di Altora (Brussels 29 May 1871-Pegli 23 Dec 1939); m.1st Paris 26 Jul 1920 Jeanne Carraby (Neuilly 20 Apr 1870-Paris 11 Feb 1922); m.2nd Paris 16 May 1924 Viviene Carrère de Maynard de Ségoufielle (Paris 16 Jul 1887-19__)
 				name="Ferdinando Giuseppe"
 				dynasty=1006006
 				religion=catholic culture=italian
-				father=100071085 # Giuseppina Faraggiana
-				mother=100071084 # Luigi Maria
+				mother=100071085 # Giuseppina Faraggiana
+				father=100071084 # Luigi Maria
 				1871.05.29={birth=yes}
 				1920.07.26={add_spouse=100071089}	# Jeanne Carraby
 				1924.05.16={add_spouse=100071090}	# Viviene Carrère de Maynard de Ségoufielle
@@ -2840,11 +2885,83 @@
 #1926.02.16={holder=100070937} # 1d) Andrea Marcantonio Ferdinando Pr di Stigliano 
 #1943.01.01={holder=100070939} # 1e) Lorenzo Filippo Ferdinando Marco Antonio Selario Pr di Stigliano 
 
+100071112={ # Marcantonio Colonna, prince of Paliano
+	name=Marcantonio
+	dynasty=1006006
+	religion=catholic culture=italian
+	1535.01.01={birth=yes}
+	1584.01.01={death=yes}
+}
+100071111={
+	name=Fabrizzio
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071112
+	1557.01.01={birth=yes}
+	1580.01.01={death=yes}
+}
+100071110={ # Filippo Colonna, 4th prince of Paliano
+	name=Filippo
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071111
+	1578.01.01={birth=yes}
+	1639.01.01={death=yes}
+}
+100071109={
+	name=Marcantonio
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071110
+	1606.01.01={birth=yes}
+	1659.01.01={death=yes}
+}
+100071108={
+	name="Lorenzo Onofrio"
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071109
+	1637.01.01={birth=yes}
+	1689.01.01={death=yes}
+}
+100071107={
+	name=Filippo
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071108
+	1663.01.01={birth=yes}
+	1714.01.01={death=yes}
+}
+100071106={
+	name=Fabrizio
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071107
+	1700.01.01={birth=yes}
+	1755.01.01={death=yes}
+}
+100071105={
+	name=Lorenzo
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071106
+	1723.01.01={birth=yes}
+	1779.01.01={death=yes}
+}
+100071104={
+	name=Fabrizio
+	dynasty=1006006
+	religion=catholic culture=italian
+	father=100071105
+	1761.01.01={birth=yes}
+	1813.01.01={death=yes}
+}
 
 100070750={	# Don ASPRENO Colonna-Doria del Caretto, Pr di Paliano, Duca di Tagliacozzo, Pr di Castiglione, Duca d'Avella, etc (Rome 10 Sep 1787-Rome 3 Feb 1847); m.Rome 20 Mar 1819 Donna Maria Giovanna Cattaneo della Volta (Naples 2 Nov 1790-Rome 15 Feb 1876)
 	name="Aspreno Colonna-Doria"
 	dynasty=1006006
 	religion=catholic culture=italian
+	father=100071104
 	1787.09.10={birth=yes}
 	1819.03.20={add_spouse=100070751}	# Maria Giovanna Cattaneo della Volta
 	1847.02.03={death=yes}
