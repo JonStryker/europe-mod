@@ -1156,13 +1156,9 @@ e_bilad_as_sam = {
 				
 				b_katzrin = {
 				}
-				b_al_qunaitira = {
+				b_katzrin_2 = {
 				}
-				b_qiryat_shemona = {
-				}
-				b_zefat = {
-				}
-				b_teverya = {
+				b_majdal_shams = {
 				}
 			}
 			c_homs = { # 965
@@ -19306,10 +19302,6 @@ e_the_united_kingdom = {
 	capital = 63 # c_london
 	culture = english
 	
-	title = "KING_E"
-	title_female = "QUEEN_E"
-	foa = "NON_E_FOA"
-	
 	k_england = {
 		color={ 194 254 177 }
 		color2={ 255 255 255 }
@@ -23733,9 +23725,6 @@ k_ireland = {
 	capital = 92 # c_dublin
 	culture = anglo_irish
 	
-	title = "TAIOSEACH_IRE"
-	foa = "TAIOSEACH_IRE_foa"
-	
 	d_leinster = {
 		color={ 150 234 59 }
 		color2={ 255 255 255 }
@@ -23954,14 +23943,14 @@ k_israel = {
 	capital = 1193 # c_jerusalem
 	culture = israeli
 	
-	d_israel = {
+	d_jerusalem = {
 		color={ 113 51 109 }
 		color2={ 255 255 255 }
 		
 		allow = {
 			OR = {
 				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 1193 province_id = 1194 province_id = 1195 province_id = 1196 province_id = 1197 province_id = 1215 } }
+				any_demesne_province = { OR = { province_id = 1193 } }
 			}
 		}
 		capital = 1193 # c_jerusalem
@@ -23983,32 +23972,34 @@ k_israel = {
 			b_gush_etzion = {
 			}
 		}
-		c_ashkelon = { # 1215
-			color={ 189 188 107 }
-			color2={ 255 255 255 }
-			
-			b_ashkelon = {
-			}
-			b_ashdod = {
-			}
-			b_sderot = {
-			}
-			b_kiryat_gat = {
-			}
-			b_kiryat_malakhi = {
+	}
+	d_galilee = {
+		color={ 106 70 101 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 1195 province_id = 1197 } }
 			}
 		}
-		c_beersheba = { # 1196
-			color={ 224 208 96 }
+		capital = 1195 # c_haifa
+		
+		c_haifa = { # 1195
+			color={ 96 80 96 }
 			color2={ 255 255 255 }
 			
-			b_beersheba = {
+			b_haifa = {
 			}
-			b_eilat = {
+			b_haifa_2 = {
 			}
-			b_dimona = {
+			b_the_krayot = {
 			}
-			b_arad_2 = {
+			b_hadera = {
+			}
+			b_nesher = {
+			}
+			b_daliyat_al_karmel = {
 			}
 		}
 		c_galilee = { # 1197
@@ -24026,28 +24017,67 @@ k_israel = {
 			b_tiberias = {
 			}
 		}
-		c_haifa = { # 1195
-			color={ 96 80 96 }
-			color2={ 255 255 255 }
-			
-			b_haifa = {
-			}
-			b_the_krayot = {
-			}
-			b_hadera = {
-			}
-			b_tirat_carmel = {
-			}
-			b_nesher = {
-			}
-			b_daliyat_al_karmel = {
+	}
+	d_negev = {
+		color={ 214 218 91 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 1196 province_id = 1215 } }
 			}
 		}
+		capital = 1196 # c_beersheba
+		
+		c_beersheba = { # 1196
+			color={ 224 208 96 }
+			color2={ 255 255 255 }
+			
+			b_beersheba = {
+			}
+			b_eilat = {
+			}
+			b_dimona = {
+			}
+			b_arad_israel = {
+			}
+		}
+		c_ashkelon = { # 1215
+			color={ 189 188 107 }
+			color2={ 255 255 255 }
+			
+			b_ashdod = {
+			}
+			b_ashdod_2 = {
+			}
+			b_ashkelon = {
+			}
+			b_sderot = {
+			}
+			b_kiryat_gat = {
+			}
+		}
+	}
+	d_tel_aviv = {
+		color={ 175 78 183 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 1194 } }
+			}
+		}
+		capital = 1194 # c_tel_aviv
+		
 		c_tel_aviv = { # 1194
 			color={ 185 68 188 }
 			color2={ 255 255 255 }
 			
 			b_tel_aviv = {
+			}
+			b_tel_aviv_2 = {
 			}
 			b_rishon_lezion = {
 			}
@@ -24056,8 +24086,6 @@ k_israel = {
 			b_holon = {
 			}
 			b_ramat_gan = {
-			}
-			b_bat_yam = {
 			}
 			b_rehovot = {
 			}
