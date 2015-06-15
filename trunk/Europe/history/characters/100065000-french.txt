@@ -8,8 +8,783 @@
 ##	Broglie				1007007				100066500				
 ##	Clermont-Tonnerre	1007008				100066800				
 ##	Brissac				1007009				100067000				
-##	Beauharnais			1007011				100067200				
+##	Beauharnais			1007011				100067200	
+##  Grimaldi			1007012				100067300			
 ###################################################################
+
+
+##  Grimaldi			1007012				100067300
+100067300={	# ONORATO II, lord of Monaco, 1659 Prince of Monaco, cr 1642 Duc de Valentinois, Cte de Carladez, Baron de Calvinet, des Baux et de Buis (24 Dec 1597-10 Jan 1662); m.Css Ippolita Trivulzio (d.1638)
+	name=Onorato
+	dynasty=1007012
+	religion=catholic culture=frankish
+	1597.12.24={birth=yes}
+	1622.01.01={add_spouse=100067301}	# Ippolita Trivulzio
+	1662.01.10={death=yes}
+}
+	100067302={	# 1a) Ercole II, cr 1643 Marquis des Baux (26 Dec 1623-k.a.2 Aug 1651); m.1641 Maria Aurelia Spinola (d.29 Sep 1670)
+		name=Ercole
+		dynasty=1007012
+		religion=catholic culture=frankish
+		father=100067300 # Onorato
+		mother=100067301 # Ippolita Trivulzio
+		1623.12.26={birth=yes}
+		1641.01.01={add_spouse=100067303}	# Maria Aurelia Spinola
+		1651.08.01={death=yes}
+	}
+		100067304={	# 1b) LOUIS I, Pr of Monaco, etc (25 Jul 1642-3 Jan 1701); m.30 Mar 1660 Dss Cathérine Charlotte de Gramont (1639-4 Jun 1678)
+			name=Louis
+			dynasty=1007012
+			religion=catholic culture=frankish
+			father=100067302 # Ercole
+			mother=100067303 # Maria Aurelia Spinola
+			1642.07.25={birth=yes}
+			1660.03.30={add_spouse=100066113}	# Cathérine Charlotte de Gramont
+			1701.01.03={death=yes}
+		}
+			100067306={	# 1c) ANTOINE I, Pr of Monaco (25 Jan 1661-20 Jan 1731); m.12 Jun 1688 Marie de Lorraine-Armagnac (12 Aug 1674-30 Oct 1724)
+				name=Antoine
+				dynasty=1007012
+				religion=catholic culture=frankish
+				father=100067304 # Louis
+				mother=100066113 # Cathérine Charlotte de Gramont
+				1661.01.25={birth=yes}
+				1688.06.12={add_spouse=100067307}	# Marie de Lorraine-Armagnac
+				1731.01.20={death=yes}
+			}
+				100067308={	# 1d) Catherine Charlotte (7 Oct 1690-18 Jun 1696)
+					name="Catherine Charlotte"
+					dynasty=1007012
+					religion=catholic culture=frankish
+					father=100067306 # Antoine
+					mother=100067307 # Marie de Lorraine-Armagnac
+					1690.10.07={birth=yes}
+					1696.06.18={death=yes}
+				}
+				100067309={	# 2d) LOUISE HIPPOLYTE, Pss of Monaco (10 Nov 1697-29 Dec 1731); m.24 Oct 1715 Pr Jacques de Goyon de Matignon (d.23 Apr 1751)
+					name="Louise Hippolyte"
+					dynasty=1007012
+					religion=catholic culture=frankish
+					father=100067306 # Antoine
+					mother=100067307 # Marie de Lorraine-Armagnac
+					1697.11.10={birth=yes}
+					1715.10.24={add_spouse=100067310}	# Jacques de Goyon de Matignon
+					1731.12.29={death=yes}
+				}
+					100067312={	# 2e) Charlotte Thérèse Nathalie, a nun (19 May 1719-1 Sep 1774)
+						name="Charlotte Thérèse"
+						female=yes
+						dynasty=1007012
+						religion=catholic culture=frankish
+						father=100067309 # Louise Hippolyte
+						mother=100067310 # Jacques de Goyon de Matignon
+						add_trait=nun
+						1719.05.19={birth=yes}
+						1774.09.01={death=yes}
+					}
+					100067313={	# 3e) HONORÉ III Camille Léonor, Prince of Monaco (10 Nov 1720-21 Mar 1795); m.5 Jul 1757 (div 1770) Maria Caterina Brignole (7 Oct 1737-Wimbledon 18 Mar 1813)
+						name=Honoré
+						dynasty=1007012
+						religion=catholic culture=frankish
+						father=100067309 # Louise Hippolyte
+						mother=100067310 # Jacques de Goyon de Matignon
+						1720.11.10={birth=yes}
+						1757.07.05={add_spouse=100067314}	# Maria Caterina Brignole
+						1770.01.01={remove_spouse=100067314}
+						1795.03.21={death=yes}
+					}
+						100067315={	# 1f) HONORÉ IV, Prince of Monaco 12 Mar 1795 (Monaco 17 May 1758-Paris 16 Feb 1819); m.Paris 15 Jul 1777 (div 1793) Louise d'Aumont, Duchesse de Mazarin et de la Meilleraye (Paris 22 Oct 1759-Paris 13 Dec 1826)
+							name=Honoré
+							dynasty=1007012
+							religion=catholic culture=frankish
+							father=100067313 # Honoré
+							mother=100067314 # Maria Caterina Brignole
+							1758.05.17={birth=yes}
+							1777.07.15={add_spouse=100067316}	# Louise d'Aumont
+							1793.01.01={remove_spouse=100067316}
+							1819.02.16={death=yes}
+						}
+							100067317={	# 1g) HONORÉ V Gabriel, Prince of Monaco (Paris 13 May 1778-Paris 2 Oct 1841)
+								name=Honoré
+								dynasty=1007012
+								religion=catholic culture=frankish
+								father=100067315 # Honoré
+								mother=100067316 # Louise d'Aumont
+								1778.05.13={birth=yes}
+								1841.10.02={death=yes}
+							}
+							100067318={	# 2g) Tancrede FLORESTAN Roger Louis, Prince of Monaco (Paris 10 Oct 1785-Paris 20 Jun 1856); m.Commercy 27 Nov 1816 Caroline Gibert (Paris 18 Jul 1793-Monaco 25 Nov 1879)
+								name=Florestan
+								dynasty=1007012
+								religion=catholic culture=frankish
+								father=100067315 # Honoré
+								mother=100067316 # Louise d'Aumont
+								1785.10.10={birth=yes}
+								1816.11.27={add_spouse=100067319}	# Caroline Gibert
+								1856.06.20={death=yes}
+							}
+								100067320={	# 1h) CHARLES III Honoré, Prince of Monaco (Paris 8 Dec 1818-Château de Marchais 10 Sep 1889); m.Brussels 28 Sep 1846 Antoinette de Mérode (Brussels 28 Sep 1828-Monaco 10 Feb 1864)
+									name=Charles
+									dynasty=1007012
+									religion=catholic culture=frankish
+									father=100067318 # Florestan
+									mother=100067319 # Caroline Gibert
+									1818.12.08={birth=yes}
+									1846.09.28={add_spouse=100067321}	# Antoinette de Mérode
+									1889.09.10={death=yes}
+								}
+									100067322={	# 1i) ALBERT Honoré Charles, Prince of Monaco (Paris 13 Nov 1848-Paris 26 Jun 1922); m.1st Château de Marchais 21 Sep 1869 (div 1880) Lady Mary Douglas-Hamilton (Hamilton Palace 11 Dec 1850-Budapest 14 May 1922); m.2nd Paris 30 Oct 1889 Alice Heine (New Orleans 10 Feb 1858-22 Dec 1925)
+										name=Albert
+										dynasty=1007012
+										religion=catholic culture=frankish
+										father=100067320 # Charles
+										mother=100067321 # Antoinette de Mérode
+										1848.11.13={birth=yes}
+										1869.09.21={add_spouse=100067323}	# Mary Douglas-Hamilton
+										1880.01.01={remove_spouse=100067323}
+										1889.10.30={add_spouse=100067324}	# Alice Heine
+										1922.06.26={death=yes}
+									}
+										100067325={	# 1j) LOUIS II Honoré Charles Antoine, Prince of Monaco (Baden-Baden 12 Jul 1870-Monaco 9 May 1949); m.Monaco 24 Jul 1946 Ghislaine Dommanget (Rheims 13 Oct 1900-Neuilly-sur-Seine 30 Apr 1991)
+											name=Louis
+											dynasty=1007012
+											religion=catholic culture=frankish
+											father=100067322 # Albert
+											mother=100067323 # Mary Douglas-Hamilton
+											1870.07.12={birth=yes}
+											1946.07.24={add_spouse=100067326}	# Ghislaine Dommanget
+											1949.05.09={death=yes}
+										}
+											100067327={	# 1k) Charlotte Louise Juliette (Constantine 30 Sep 1898-Paris 16 Nov 1977); m.Monaco 19 Mar 1920 (div 1933) Cte Pierre de Polignac (Kerscamp 24 Oct 1895-Neuilly 10 Nov 1964)
+												name="Charlotte Louise"
+												dynasty=1007012
+												religion=catholic culture=frankish
+												father=100067325 # Louis
+												mother=100067326 # Ghislaine Dommanget
+												1898.09.30={birth=yes}
+												1920.03.19={add_spouse=100067328}	# Pierre de Polignac
+												1933.01.01={remove_spouse=100067328}
+												1977.11.16={death=yes}
+											}
+												100067329={	# 1l) Antoinette Louise Alberte Suzanne, Baronne de Massy (Paris 28 Dec 1920-17 Mar 2011); m.1st Genoa 23 Oct 1951 (div 1954) Alexandre Noghès (Monaco 15 Jun 1916-17 Feb 1999); m.2nd The Hague 2 Dec 1961 (div 1973) Jean-Charles Rey (Monaco 22 Oct 1914-Monaco 17 Sep 1994); m.3rd Monaco 28 Jul 1983 John Gilpin (Southsea, Hants 10 Feb 1930-London 5 Sep 1983)
+													name="Antoinette Louise"
+													female=yes
+													dynasty=1007012
+													religion=catholic culture=frankish
+													father=100067327 # Charlotte Louise
+													mother=100067328 # Pierre de Polignac
+													1920.12.28={birth=yes}
+													2011.03.17={death=yes}
+												}
+												100067333={	# 2l) RAINIER III Louis Henri Maxence Bertrand, Pr of Monaco (Monaco 31 May 1923-Monaco 6 Apr 2005); m.Monaco (civ) 18 Apr 1956 (rel) 19 Apr 1956 Grace Kelly (Philadelphia 12 Nov 1929-k.in car wreck at Monaco 14 Sep 1982)
+													name=Rainier
+													dynasty=1007012
+													religion=catholic culture=frankish
+													father=100067327 # Charlotte Louise
+													mother=100067328 # Pierre de Polignac
+													1923.05.31={birth=yes}
+													1956.04.18={add_spouse=100067334}	# Grace Kelly
+													2005.04.06={death=yes}
+												}
+													100067335={	# 1m) Caroline Louise Marguerite (b.Monaco 23 Jan 1957); m.1st Monaco (civ) 28 Jun 1978 (rel) 29 Jun 1978 (div 1980) Philippe Michel Francis Junot (b.Paris 19 Apr 1940); m.2nd Monaco 29 Dec 1983 Stefano Andrea Casiraghi (Milan 8 Sep 1960-k.in boating accident nr Cap Ferrat 3 Oct 1990); m.3rd Monaco 23 Jan 1999 (rel) Marienburg 27 Jan 1999 Ernst August Pr of Hannover (b.Hannover 26 Feb 1954)
+														name="Caroline Louise"
+														female=yes
+														dynasty=1007012
+														religion=catholic culture=frankish
+														father=100067333 # Rainier
+														mother=100067334 # Grace Kelly
+														1957.01.23={birth=yes}
+													}
+														100067339={	# 1n) Andrea Albert Pierre Casiraghi (b.Princess Grace Clinic, Monte Carlo 8 Jun 1984); m.Monaco 31 Aug 2013 (rel) Gstaad 1 Feb 2014 Tatiana Santo Domingo
+															name=Andrea
+															dynasty=1007012
+															religion=catholic culture=frankish
+															father=100067337 # Stefano Andrea Casiraghi
+															mother=100067335 # Caroline Louise
+															1984.06.08={birth=yes}
+															2013.08.31={add_spouse=100067340}	# Tatiana Santo Domingo
+														}
+															100067341={	# 1o) Alexandre Andrea Stefano Casiraghi (b.21 Mar 2013)
+																name="Alexandre Andrea"
+																dynasty=1007012
+																religion=catholic culture=frankish
+																father=100067339 # Andrea Albert
+																mother=100067340 # Tatiana Santo Domingo
+																2013.03.21={birth=yes}
+															}
+															100067342={	# 2o) India (b.London 12 Apr 2015)
+																name=India
+																female=yes
+																dynasty=1007012
+																religion=catholic culture=frankish
+																father=100067339 # Andrea Albert
+																mother=100067340 # Tatiana Santo Domingo
+																2015.04.12={birth=yes}
+															}
+														100067343={	# 2n) Charlotte Marie Pomeline Casiraghi (b.Princess Grace Clinic, Monte Carlo 3 Aug 1986)
+															name="Charlotte Marie"
+															dynasty=1007012
+															religion=catholic culture=frankish
+															father=100067337 # Stefano Andrea Casiraghi
+															mother=100067335 # Caroline Louise
+															1986.08.03={birth=yes}
+														}
+															100067344={	# 1o) Raphaël ...., b.Monaco 17 Dec 2013
+																name="Raphaël ...."
+																dynasty=1007012
+																religion=catholic culture=frankish
+																father=100067343 # Charlotte Marie
+																2013.12.17={birth=yes}
+															}
+														100067345={	# 3n) Pierre Rainier Stefano Casiraghi (b.Princess Grace Clinic, Monte Carlo 5 Sep 1987)
+															name="Pierre Rainier"
+															dynasty=1007012
+															religion=catholic culture=frankish
+															father=100067337 # Stefano Andrea Casiraghi
+															mother=100067335 # Caroline Louise
+															1987.09.05={birth=yes}
+														}
+													100067346={	# 2m) ALBERT II Alexandre Louis Pierre, Prince of Monaco (b.Monaco 14 Mar 1958); m.Monaco 1 Jul 2011 (rel) 2 Jul 2011 Charlene Lynette Wittstock (b.Bulawayo, South Africa 25 Jan 1978)
+														name=Albert
+														dynasty=1007012
+														religion=catholic culture=frankish
+														father=100067333 # Rainier
+														mother=100067334 # Grace Kelly
+														1958.03.14={birth=yes}
+														2011.07.01={add_spouse=100067347}	# Charlene Lynette Wittstock
+													}
+														100067348={	# 1n) Gabriella Thérèse Marie, comtesse de Carladès (b.Monte Carlo 10 Dec 2014)
+															name=Gabriella
+															female=yes
+															dynasty=1007012
+															religion=catholic culture=frankish
+															father=100067346 # Albert
+															mother=100067347 # Charlene Lynette Wittstock
+															2014.12.10={birth=yes}
+														}
+														100067349={	# 2n) Jacques Honoré Rainier, marquis des Baux (b.Monte Carlo 10 Dec 2014)
+															name=Jacques
+															dynasty=1007012
+															religion=catholic culture=frankish
+															father=100067346 # Albert
+															mother=100067347 # Charlene Lynette Wittstock
+															2014.12.10={birth=yes}
+														}
+													100067350={	# 3m) Stéphanie Marie Elisabeth (b.Monaco 1 Feb 1965); m.1st Monaco 1 Jul 1995 (div 1996) Daniel Ducruet (b.Beausoleil 27 Nov 1964); m.2d Vandoeuvres, Switzerland 12 Sep 2003 (div 2005) Adans Lopez Peres (b.1974)
+														name=Stéphanie
+														female=yes
+														dynasty=1007012
+														religion=catholic culture=frankish
+														father=100067333 # Rainier
+														mother=100067334 # Grace Kelly
+														1965.02.01={birth=yes}
+													}
+														100067353={	# 1n) Louis Robert Paul Ducruet (b.Princess Grace Clinic, Monte Carlo 26 Nov 1992)
+															name="Louis Robert"
+															dynasty=1007012
+															religion=catholic culture=frankish
+															father=100067351 # Daniel Ducruet
+															mother=100067350 # Stéphanie Marie
+															1992.11.26={birth=yes}
+														}
+														100067354={	# 2n) Pauline Grace Maguy Ducruet (b.Princess Grace Clinic, Monte Carlo 4 May 1994)
+															name="Pauline Grace"
+															female=yes
+															dynasty=1007012
+															religion=catholic culture=frankish
+															father=100067351 # Daniel Ducruet
+															mother=100067350 # Stéphanie Marie
+															1994.05.04={birth=yes}
+														}
+														100067355={	# 3n) Camille Marie Kelly Grimaldi (b.Monte Carlo 15 Jul 1998)
+															name="Camille Marie"
+															female=yes
+															dynasty=1007012
+															religion=catholic culture=frankish
+															father=100067351 # Daniel Ducruet
+															mother=100067350 # Stéphanie Marie
+															1998.07.15={birth=yes}
+														}
+								100067356={	# 2h) Florentine Gabrielle Antoinette (Fontenay 2 Oct 1833-Stuttgart 24 Apr 1897); m.Monaco 15 Feb 1863 Wilhelm, Duke von Urach (Stuttgart 6 Jul 1810-Schloß Lichtenstein 17 Jul 1869)
+									name=Florentine
+									female=yes
+									dynasty=1007012
+									religion=catholic culture=frankish
+									father=100067318 # Florestan
+									mother=100067319 # Caroline Gibert
+									1833.10.02={birth=yes}
+									1897.04.24={death=yes}
+								}
+						100067358={	# 2f) Joseph Marie Jerôme Honoré (10 Sep 1763-28 Jun 1816); m.6 Apr 1782 Françoise Thérèse de Choiseul-Stainville (8 Dec 1766-guillotined at Paris 26 Jul 1794)
+							name="Joseph Marie"
+							dynasty=1007012
+							religion=catholic culture=frankish
+							father=100067313 # Honoré
+							mother=100067314 # Maria Caterina Brignole
+							1763.09.10={birth=yes}
+							1782.04.06={add_spouse=100067359}	# Françoise Thérèse de Choiseul-Stainville
+							1816.06.28={death=yes}
+						}
+							100067360={	# 1g) Honorine Camille Athénais (22 Apr 1784-8 May 1879); m.20 Jul 1803 René Louis Victor Marquis de la Tour du Pin (d.4 Jun 1832)
+								name="Honorine Camille"
+								female=yes
+								dynasty=1007012
+								religion=catholic culture=frankish
+								father=100067358 # Joseph Marie
+								mother=100067359 # Françoise Thérèse de Choiseul-Stainville
+								1784.04.22={birth=yes}
+								1879.05.08={death=yes}
+							}
+							100067362={	# 2g) Athénais Euphrasie Louise Philippine (2 Jun 1786-11 Sep 1860); m.8 Aug 1804 Auguste Michel Felicité Le Tellier de Souvre Marquis de Louvois (d.3 Apr 1844)
+								name="Athénais Euphrasie"
+								female=yes
+								dynasty=1007012
+								religion=catholic culture=frankish
+								father=100067358 # Joseph Marie
+								mother=100067359 # Françoise Thérèse de Choiseul-Stainville
+								1786.06.02={birth=yes}
+								1860.09.11={death=yes}
+							}
+							100067364={	# 3g) Delphine Aimée Charlotte (22 Jul 1788-    )
+								name="Delphine Aimée"
+								dynasty=1007012
+								religion=catholic culture=frankish
+								father=100067358 # Joseph Marie
+								mother=100067359 # Françoise Thérèse de Choiseul-Stainville
+								1788.07.22={birth=yes}
+								1859.01.01={death=yes}  # EST.
+							}
+					100067365={	# 4e) Marie Charles Auguste Cte de Matignon (1 Jan 1722-24 Aug 1749)
+						name="Marie Charles"
+						dynasty=1007012
+						religion=catholic culture=frankish
+						father=100067309 # Louise Hippolyte
+						mother=100067310 # Jacques de Goyon de Matignon
+						1722.01.01={birth=yes}
+						1749.08.24={death=yes}
+					}
+					100067367={	# 7e) François Charles Madeleine Joseph Cte de Thorigny (5 Feb 1726-May 1735)
+						name="François Charles"
+						dynasty=1007012
+						religion=catholic culture=frankish
+						father=100067309 # Louise Hippolyte
+						mother=100067310 # Jacques de Goyon de Matignon
+						1726.02.05={birth=yes}
+						1735.05.01={death=yes}
+					}
+					100067368={	# 8e) Charles Maurice dit le Chevalier de Monaco (14 May 1727-18 Jan 1798); m.10 Dec 1749 Marie Christine de Rouvroy de Saint-Simon (7 May 1728-4 Jul 1774)
+						name="Charles Maurice"
+						dynasty=1007012
+						religion=catholic culture=frankish
+						father=100067309 # Louise Hippolyte
+						mother=100067310 # Jacques de Goyon de Matignon
+						1727.05.14={birth=yes}
+						1749.12.10={add_spouse=100067369}	# Marie Christine de Rouvroy de Saint-Simon
+						1798.01.18={death=yes}
+					}
+					100067370={	# 9e) Marie Françoise Thérèse dit le Mlle d’Estouteville (20 Jul 1728-20 Jun 1743)
+						name="Marie Françoise"
+						female=yes
+						dynasty=1007012
+						religion=catholic culture=frankish
+						father=100067309 # Louise Hippolyte
+						mother=100067310 # Jacques de Goyon de Matignon
+						1728.07.20={birth=yes}
+						1743.06.20={death=yes}
+					}
+				100067372={	# 4d) Marguerite Camille (1 May 1700-27 Apr 1758); m.16 Apr 1720 Louis de Gand-Vilain, Pr d’Isenghien et de Masmines (d.16 Jun 1767)
+					name="Marguerite Camille"
+					female=yes
+					dynasty=1007012
+					religion=catholic culture=frankish
+					father=100067306 # Antoine
+					mother=100067307 # Marie de Lorraine-Armagnac
+					1700.05.01={birth=yes}
+					1758.04.27={death=yes}
+				}
+				100067375={	# 6d) Marie Pauline Thérèse Devota (23 Oct 1708-20 May 1726)
+					name="Marie Pauline"
+					female=yes
+					dynasty=1007012
+					religion=catholic culture=frankish
+					father=100067306 # Antoine
+					mother=100067307 # Marie de Lorraine-Armagnac
+					1708.10.23={birth=yes}
+					1726.05.20={death=yes}
+				}
+				100067376={	# 7d) Antoine, Chevalier de Grimaldi, Gov-Gen of Monaco (2 Oct 1697-28 Nov 1784)
+					name=Antoine
+					dynasty=1007012
+					religion=catholic culture=frankish
+					father=100067306 # Antoine
+					mother=100067307 # Marie de Lorraine-Armagnac
+					1697.10.02={birth=yes}
+					1784.11.28={death=yes}
+				}
+				100067377={	# 8d) Antoinette, dit Mlle de Saint-Rémy
+					name="Antoinette dit"
+					female=yes
+					dynasty=1007012
+					religion=catholic culture=frankish
+					father=100067306 # Antoine
+					mother=100067307 # Marie de Lorraine-Armagnac
+					1705.01.01={birth=yes}
+					1773.01.01={death=yes}  # EST.
+				}
+				100067378={	# 9d) [illegitimate] Louise Marie Thérèse (2 Jun 1705-21 Sep 1723)
+					name="Louise Marie"
+					female=yes
+					dynasty=1007012
+					religion=catholic culture=frankish
+					father=100067306 # Antoine
+					mother=100067307 # Marie de Lorraine-Armagnac
+					add_trait=bastard
+					1705.06.02={birth=yes}
+					1723.09.21={death=yes}
+				}
+			100067379={	# 2c) Jeanne Marie, a nun at Visitation de Monaco, Soeur Louise Marie Thérèse (14 Jan 1662-21 Apr 1741)
+				name="Jeanne Marie"
+				female=yes
+				dynasty=1007012
+				religion=catholic culture=frankish
+				father=100067304 # Louis
+				mother=100066113 # Cathérine Charlotte de Gramont
+				add_trait=nun
+				1662.01.14={birth=yes}
+				1741.04.21={death=yes}
+			}
+			100067380={	# 3c) Thérèse Marie Amélie, Mlle des Baux (20 May 1663-15 Feb 1675)
+				name="Thérèse Marie"
+				female=yes
+				dynasty=1007012
+				religion=catholic culture=frankish
+				father=100067304 # Louis
+				mother=100066113 # Cathérine Charlotte de Gramont
+				1663.05.20={birth=yes}
+				1675.02.15={death=yes}
+			}
+			100067381={	# 4c) Marie Hippolyte (26 Jul 1664-23 Jul 1700); m.17 Jan 1696 Jean Charles de Crussol, Duc d’Uzès (d.20 Jul 1739)
+				name="Marie Hippolyte"
+				dynasty=1007012
+				religion=catholic culture=frankish
+				father=100067304 # Louis
+				mother=100066113 # Cathérine Charlotte de Gramont
+				1664.07.26={birth=yes}
+				1696.01.17={add_spouse=100067382}	# Jean Charles de Crussol d’Uzès
+				1700.07.23={death=yes}
+			}
+			100067383={	# 5c) François Honoré, Archbishop of Besançon 1725/31 (21 Dec 1669-Paris 18 Feb 1748)
+				name="François Honoré"
+				dynasty=1007012
+				religion=catholic culture=frankish
+				father=100067304 # Louis
+				mother=100066113 # Cathérine Charlotte de Gramont
+				1669.12.21={birth=yes}
+				1748.02.18={death=yes}
+			}
+		100067384={	# 2b) Maria Ippolita [Marie Hippolyte], Mlle de Monaco (8 May 1644-23 Jul 1722)
+			name="Maria Ippolita"
+			dynasty=1007012
+			religion=catholic culture=frankish
+			father=100067302 # Ercole
+			mother=100067303 # Maria Aurelia Spinola
+			1644.05.08={birth=yes}
+			1722.07.23={death=yes}
+		}
+		100067385={	# 3b) Giovanna Maria [Jeanne Marie], Mlle de Valentinois (4 Jun 1645-8 Oct 1674); m.23 Oct 1659 Charles Emanuel Philibert de Simiane, Marchese di Pianezzo, Pr di Montafia
+			name="Giovanna Maria"
+			dynasty=1007012
+			religion=catholic culture=frankish
+			father=100067302 # Ercole
+			mother=100067303 # Maria Aurelia Spinola
+			1645.06.04={birth=yes}
+			1659.10.23={add_spouse=100067386}	# Charles Emanuel de Simiane di Montafia
+			1674.10.08={death=yes}
+		}
+		100067387={	# 4b) Devota Maria Renata [Devota Marie Renée], Mlle des Baux, a nun in Genoa (4 Sep 1646-3 Dec 1722)
+			name="Devota Maria"
+			female=yes
+			dynasty=1007012
+			religion=catholic culture=frankish
+			father=100067302 # Ercole
+			mother=100067303 # Maria Aurelia Spinola
+			add_trait=nun
+			1646.09.04={birth=yes}
+			1722.12.03={death=yes}
+		}
+		100067389={	# 6b) Teresa Maria [Thérèse Marie] dit Mlle de Carladez (19 Feb 1650-20 Jul 1723); m.18 Nov 1671 Sigismondo Francesco d’Este, Marchese di San Martino e Lunzo
+			name="Teresa Maria"
+			dynasty=1007012
+			religion=catholic culture=frankish
+			father=100067302 # Ercole
+			mother=100067303 # Maria Aurelia Spinola
+			1650.02.19={birth=yes}
+			1671.11.18={add_spouse=100067390}	# Sigismondo Francesco d’Este
+			1723.07.20={death=yes}
+		}
+		100067391={	# 7b) Maria Pellina, Mlle de Grimaldi (12 Mar 1651-24 Sep 1724); m.1st 3 Sep 1668 Andrea Imperiali Pr di Francavilla (d.25 Nov 1678); m.2nd Ambrogio Doria
+			name="Maria Pellina"
+			dynasty=1007012
+			religion=catholic culture=frankish
+			father=100067302 # Ercole
+			mother=100067303 # Maria Aurelia Spinola
+			1651.03.12={birth=yes}
+			1668.09.03={add_spouse=100067392}	# Andrea Imperiali
+			1676.01.01={remove_spouse=100067392}
+			1676.02.01={add_spouse=100067393}	# Ambrogio Doria
+			1724.09.24={death=yes}
+		}
+
+#######
+100067392={	# Pr      			Andrea              			Imperiali      
+	name="Andrea Imperiali"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1643.01.01={birth=yes}
+	1678.11.25={death=yes}
+}
+100067363={	# Marquis 			Auguste Michel      			Le Tellier de Souvre
+	name="Auguste Michel Le Tellier de Souvre"
+	dynasty=0
+	religion=catholic culture=frankish
+	1779.01.01={birth=yes}
+	1804.08.08={add_spouse=100067362}	# Athénais Euphrasie
+	1844.04.03={death=yes}
+}
+100067301={	# Css     			Ippolita            			Trivulzio      
+	name="Ippolita Trivulzio"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1602.01.01={birth=yes}
+	1638.01.01={death=yes}
+}
+100067316={	# Duchesse			Louise              			d'Aumont       
+	name="Louise d'Aumont"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1759.10.22={birth=yes}
+	1826.12.13={death=yes}
+}
+100067382={	# Duc     			Jean Charles        			de Crussol d’Uzès
+	name="Jean Charles de Crussol d’Uzès"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1671.01.01={birth=yes}
+	1739.07.20={death=yes}
+}
+100067373={	# Pr      			Louis               			de Gand-Vilain d’Isenghien et de Masmines
+	name="Louis de Gand-Vilain d’Isenghien et de Masmines"
+	dynasty=0
+	religion=catholic culture=frankish
+	1695.01.01={birth=yes}
+	1720.04.16={add_spouse=100067372}	# Marguerite Camille
+	1767.06.16={death=yes}
+}
+100067310={	# Pr      			Jacques             			de Goyon de Matignon
+	name="Jacques de Goyon de Matignon"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1690.01.01={birth=yes}
+	1751.04.23={death=yes}
+}
+100067328={	# Cte     			Pierre              			de Polignac    
+	name="Pierre de Polignac"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1895.10.24={birth=yes}
+	1964.11.10={death=yes}
+}
+100067386={	# Marchese			Charles Emanuel     			de Simiane di Montafia
+	name="Charles Emanuel de Simiane di Montafia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1634.01.01={birth=yes}
+	1699.01.01={death=yes}  # EST.
+}
+100067361={	# Marquis 			René Louis          			de la Tour     
+	name="René Louis de la Tour"
+	dynasty=0
+	religion=catholic culture=frankish
+	1778.01.01={birth=yes}
+	1803.07.20={add_spouse=100067360}	# Honorine Camille
+	1832.06.04={death=yes}
+}
+100067390={	# Marchese			Sigismondo Francesco			d’Este         
+	name="Sigismondo Francesco d’Este"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1646.01.01={birth=yes}
+	1711.01.01={death=yes}  # EST.
+}
+100067314={	#         			Maria Caterina      			Brignole       
+	name="Maria Caterina Brignole"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1737.10.07={birth=yes}
+	1813.03.18={death=yes}
+}
+100067337={	#         			Stefano Andrea      			Casiraghi      
+	name="Stefano Andrea Casiraghi"
+	dynasty=0
+	religion=catholic culture=frankish
+	1960.09.08={birth=yes}
+	1983.12.29={add_spouse=100067335}	# Caroline Louise
+	1990.10.03={death=yes}
+}
+100067326={	#         			Ghislaine           			Dommanget      
+	name="Ghislaine Dommanget"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1900.10.13={birth=yes}
+	1991.04.30={death=yes}
+}
+100067393={	#         			Ambrogio            			Doria          
+	name="Ambrogio Doria"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1651.01.01={birth=yes}
+	1717.01.01={death=yes}  # EST.
+}
+100067351={	#         			Daniel              			Ducruet        
+	name="Daniel Ducruet"
+	dynasty=0
+	religion=catholic culture=frankish
+	1964.11.27={birth=yes}
+	1995.07.01={add_spouse=100067350}	# Stéphanie Marie
+	1996.01.01={remove_spouse=100067350}
+}
+100067319={	#         			Caroline            			Gibert         
+	name="Caroline Gibert"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1793.07.18={birth=yes}
+	1879.11.25={death=yes}
+}
+100067332={	#         			John                			Gilpin         
+	name="John Gilpin"
+	dynasty=0
+	religion=catholic culture=frankish
+	1930.02.10={birth=yes}
+	1983.07.28={add_spouse=100067329}	# Antoinette Louise
+	1983.09.05={death=yes}
+}
+100067324={	#         			Alice               			Heine          
+	name="Alice Heine"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1858.02.10={birth=yes}
+	1925.12.22={death=yes}
+}
+100067336={	#         			Philippe Michel     			Junot          
+	name="Philippe Michel Junot"
+	dynasty=0
+	religion=catholic culture=frankish
+	1940.04.19={birth=yes}
+	1978.06.28={add_spouse=100067335}	# Caroline Louise
+	1980.01.01={remove_spouse=100067335}
+}
+100067334={	#         			Grace               			Kelly          
+	name="Grace Kelly"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1929.11.12={birth=yes}
+	1982.09.14={death=yes}
+}
+100067352={	#         			Adans               			Lopez Peres    
+	name="Adans Lopez Peres"
+	dynasty=0
+	religion=catholic culture=frankish
+	1974.01.01={birth=yes}
+	2003.09.12={add_spouse=100067350}	# Stéphanie Marie
+	2005.01.01={remove_spouse=100067350}
+}
+100067330={	#         			Alexandre           			Noghès         
+	name="Alexandre Noghès"
+	dynasty=0
+	religion=catholic culture=frankish
+	1916.06.15={birth=yes}
+	1951.10.23={add_spouse=100067329}	# Antoinette Louise
+	1954.01.01={remove_spouse=100067329}
+	1999.02.17={death=yes}
+}
+100067331={	#         			Jean-Charles        			Rey            
+	name="Jean-Charles Rey"
+	dynasty=0
+	religion=catholic culture=frankish
+	1914.10.22={birth=yes}
+	1961.12.02={add_spouse=100067329}	# Antoinette Louise
+	1973.01.01={remove_spouse=100067329}
+	1994.09.17={death=yes}
+}
+100067340={	#         			Tatiana             			Santo Domingo  
+	name="Tatiana Santo Domingo"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1993.01.01={birth=yes}
+}
+100067303={	#         			Maria Aurelia       			Spinola        
+	name="Maria Aurelia Spinola"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1621.01.01={birth=yes}
+	1670.09.29={death=yes}
+}
+100067347={	#         			Charlene 	    			Wittstock      
+	name="Charlene Wittstock"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1978.01.25={birth=yes}
+}
+100067359={	#         			Françoise Thérèse   			de Choiseul-Stainville
+	name="Françoise Thérèse de Choiseul-Stainville"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1766.12.08={birth=yes}
+	1794.07.26={death=yes}
+}
+100067307={	#         			Marie               			de Lorraine-Armagnac
+	name="Marie de Lorraine-Armagnac"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1674.08.12={birth=yes}
+	1724.10.30={death=yes}
+}
+100067321={	#         			Antoinette          			de Mérode      
+	name="Antoinette de Mérode"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1828.09.28={birth=yes}
+	1864.02.10={death=yes}
+}
+100067369={	#         			Marie Christine     			de Rouvroy de Saint-Simon
+	name="Marie Christine de Rouvroy de Saint-Simon"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1728.05.07={birth=yes}
+	1774.07.04={death=yes}
+}
+##  Grimaldi			1007012				100067300
 
 
 ##	Beauharnais			1007011				100067200		
