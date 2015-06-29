@@ -3083,19 +3083,6 @@ character_event = {
 				NOT = { religion = zoroastrian }
 				NOT = { religion = messalian }
 			}
-			NOT = { new_character = { is_close_relative = FROM } }
-		}
-		OR = {
-			FROM = { character = ROOT }
-			AND = {
-				FROM = {
-					dynasty = ROOT
-					is_primary_heir = ROOT
-				}
-				new_character = {
-					NOT = { character = ROOT }
-				}
-			}
 		}
 	}
 	
@@ -3144,9 +3131,9 @@ character_event = {
 		religion = zoroastrian
 		new_character = { is_close_relative = FROM }
 		OR = {
-			FROM = { character = ROOT }
+			FROMFROM = { character = ROOT }
 			AND = {
-				FROM = {
+				FROMFROM = {
 					dynasty = ROOT
 					is_primary_heir = ROOT
 				}
@@ -3239,9 +3226,9 @@ character_event = {
 		religion = messalian
 		new_character = { is_close_relative = FROM }
 		OR = {
-			FROM = { character = ROOT }
+			FROMFROM = { character = ROOT }
 			AND = {
-				FROM = {
+				FROMFROM = {
 					dynasty = ROOT
 					is_primary_heir = ROOT
 				}

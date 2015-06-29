@@ -3128,6 +3128,14 @@ religious = {
 			NOT = { religion_group = pagan_group }
 			NOT = { pacifist = yes }
 			NOT = { religion = buddhist }
+			NOT = {
+				OR = {
+					trait = pious
+					trait = traditional
+					trade = agnostic
+					trait = atheist
+				}
+			}
 			OR = {
 				NOT = { religion = hindu }
 				FROM = { NOT = { religion_group = indian_group } }
@@ -9555,7 +9563,10 @@ buddhist_holy_war = {
 	
 	can_use = {
 		ROOT = {
-			religion = buddhist
+			OR = {
+				trait = fundamentalist
+				trait = pious
+			}
 			NOT = { same_realm = FROM }
 			NOT = { religion_group = FROM }
 			top_liege = {
