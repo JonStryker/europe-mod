@@ -1,0 +1,184 @@
+namespace = Oryx_abortion
+
+#Wife decides on abortion
+character_event = {
+	id = Oryx_abortion.01
+	desc = EVTDESCOryx_abortion.01
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryx_abortion.01
+		ai_chance = { 
+				factor = 50
+				modifier = {
+					factor = 0.5
+					trait = cynical
+				}
+				modifier = {
+					factor = 3.0
+					trait = zealous
+				}
+				modifier = {
+					factor = 0.5
+					trait = shy
+				}
+				modifier = {
+					factor = 10.0
+					trait = fundamentalist
+				}
+				modifier = {
+					factor = 2.0
+					trait = pious
+				}
+				modifier = {
+					factor = 20.0
+					NOT = {
+						num_of_children = 3
+					}
+				}
+		}
+		piety = -25
+		prestige = -50
+		remove_trait = pregnant
+		spouse = {
+			character_event = {
+				id = Oryx_abortion.05
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryx_abortion.01
+		ai_chance = { factor = 50 }
+		spouse = {
+			character_event = {
+				id = Oryx_abortion.04
+				days = 2
+			}
+		}
+		add_character_modifier = {
+			name = denied_abortion
+			duration = 1
+		}
+	}
+}
+
+#Queen abortion
+character_event = {
+	id = Oryx_abortion.02
+	desc = EVTDESCOryx_abortion.02
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryx_abortion.02
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 20.0
+				NOT = {
+					num_of_children = 3
+				}
+			}
+		}
+		piety = -25
+		prestige = -50
+		remove_trait = pregnant
+	}
+	option = {
+		name = EVTOPTBOryx_abortion.02
+		ai_chance = { factor = 10 }
+		prestige = 10
+		wealth = 50
+	}
+}
+
+#Islamic Abortion
+character_event = {
+	id = Oryx_abortion.03
+	desc = EVTDESCOryx_abortion.03
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryx_abortion.03
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 10.0
+				trait = fundamentalist
+			}
+			modifier = {
+				factor = 5.0
+				trait = pious
+			}
+			modifier = {
+				factor = 20.0
+				NOT = {
+					num_of_children = 3
+				}
+			}
+		}
+		piety = -25
+		prestige = -50
+		remove_trait = pregnant
+		spouse = {
+			character_event = {
+				id = Oryx_abortion.05
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryx_abortion.03
+		ai_chance = { factor = 10 }
+		spouse = {
+			character_event = {
+				id = Oryx_abortion.04
+				days = 2
+			}
+		}
+		add_character_modifier = {
+			name = denied_abortion
+			duration = 1
+		}
+	}
+}
+
+#Husband hears of decision con
+character_event = {
+	id = Oryx_abortion.04
+	desc = EVTDESCOryx_abortion.04
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryx_abortion.04
+		wealth = 50
+		ai_chance = { 
+			factor = 100
+		}
+	}
+}
+
+#Husband hears of decision pro
+character_event = {
+	id = Oryx_abortion.05
+	desc = EVTDESCOryx_abortion.05
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryx_abortion.05
+		ai_chance = { 
+			factor = 100
+		}
+	}
+}
+
