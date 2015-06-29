@@ -633,7 +633,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		FROM = {
+		FROMFROM = {
 			ai = no
 		}
 	}
@@ -645,9 +645,9 @@ character_event = {
 				OR = {
 					new_character = {
 						father_even_if_dead = {
-							PREV = {
+							PREVPREV = {
 								mother_even_if_dead = {
-									higher_tier_than = PREVPREV
+									higher_tier_than = PREVPREVPREV
 								}
 							}
 						}
@@ -655,7 +655,7 @@ character_event = {
 					NOT = { father_even_if_dead = { always = yes } }
 				}
 			}
-			FROM = {
+			FROMFROM = {
 				chronicle = {
 				entry = CHRONICLE_MARRIED_MOTHER_IMPORTANT
 				portrait = [New.GetID]
@@ -668,9 +668,9 @@ character_event = {
 				OR = {
 					new_character = {
 						father_even_if_dead = {
-							PREV = {
+							PREVPREV = {
 								mother_even_if_dead = {
-									NOT = { higher_tier_than = PREVPREV }
+									NOT = { higher_tier_than = PREVPREVPREV }
 								}
 							}
 						}
@@ -678,7 +678,7 @@ character_event = {
 					NOT = { mother_even_if_dead = { always = yes } }
 				}
 			}
-			FROM = {
+			FROMFROM = {
 				chronicle = {
 				entry = CHRONICLE_MARRIED_FATHER_IMPORTANT
 				portrait = [New.GetID]
@@ -692,7 +692,7 @@ character_event = {
 					NOT = { mother_even_if_dead = { always = yes } }
 				}
 			}
-			FROM = {
+			FROMFROM = {
 				chronicle = {
 				entry = CHRONICLE_MARRIED_NO_PARENT
 				portrait = [New.GetID]
@@ -1203,7 +1203,7 @@ character_event = {
 	trigger = {
 		any_playable_ruler = {
 			ai = no
-			FROM = { is_primary_heir = PREV }
+			FROMFROM = { is_primary_heir = PREV }
 		}
 	}
 
@@ -1214,9 +1214,9 @@ character_event = {
 				OR = {
 					new_character = {
 						father_even_if_dead = {
-							PREV = {
+							PREVPREV = {
 								mother_even_if_dead = {
-									higher_tier_than = PREVPREV
+									higher_tier_than = PREVPREVPREV
 								}
 							}
 						}
@@ -1227,7 +1227,7 @@ character_event = {
 			any_playable_ruler = {
 				limit = {
 					ai = no
-					FROM = { is_primary_heir = PREV }
+					FROMFROM = { is_primary_heir = PREV }
 				}
 				chronicle = {
 					entry = CHRONICLE_MARRIED_MOTHER_IMPORTANT
@@ -1241,9 +1241,9 @@ character_event = {
 				OR = {
 					new_character = {
 						father_even_if_dead = {
-							PREV = {
+							PREVPREV = {
 								mother_even_if_dead = {
-									NOT = { higher_tier_than = PREVPREV }
+									NOT = { higher_tier_than = PREVPREVPREV }
 								}
 							}
 						}
@@ -1254,7 +1254,7 @@ character_event = {
 			any_playable_ruler = {
 				limit = {
 					ai = no
-					FROM = { is_primary_heir = PREV }
+					FROMFROM = { is_primary_heir = PREV }
 				}
 				chronicle = {
 					entry = CHRONICLE_MARRIED_FATHER_IMPORTANT
@@ -1272,7 +1272,7 @@ character_event = {
 			any_playable_ruler = {
 				limit = {
 					ai = no
-					FROM = { is_primary_heir = PREV }
+					FROMFROM = { is_primary_heir = PREVPREV }
 				}
 				chronicle = {
 					entry = CHRONICLE_MARRIED_NO_PARENT
