@@ -1,0 +1,1737 @@
+namespace = Oryxevents
+
+#Wife debates with Husband
+character_event = {
+	id = Oryxevents.15
+	desc = EVTDESCOryxevents.15
+	picture = GFX_evt_quarrel
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		NOT = { religion_group = muslim }
+		in_command = no
+		is_landed = no
+		is_female = yes
+		spouse = {
+			NOT = {
+				religion_group = muslim
+			}
+			in_command = no
+			war = no
+			is_abroad = no
+			is_married = yes
+			is_landed = yes
+			is_alive = yes
+			prisoner = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 700
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+		modifier = {
+			factor = 3.0
+			trait = chaste
+		}
+		modifier = {
+			factor = 4.0
+			trait = shy 
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.15
+		spouse = {
+			character_event = {
+				id = Oryxevents.16
+				days = 1
+				tooltip = "EVTTOOLTIPOryx.1"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.15
+		ai_chance = { 
+				factor = 25 
+		}
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTCOryxevents.15
+		trigger = {
+			diplomacy = 16
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.17
+				days = 1
+				tooltip = "EVTTOOLTIPOryx.1"
+			}
+		}
+	}
+}
+
+#Husband chooses
+character_event = {
+	id = Oryxevents.16
+	desc = EVTDESCOryxevents.16
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.16"
+		ai_chance = { 
+				factor = 50
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.18
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.2"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.16
+		ai_chance = { 
+				factor = 50
+		}
+	}
+}
+
+#Husband is forced
+character_event = {
+	id = Oryxevents.17
+	desc = EVTDESCOryxevents.17
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.17"
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.18
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.2"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.17
+		ai_chance = { 
+				factor = 0
+		}
+		prestige = -100
+		piety = -50
+	}
+}
+
+#Choose Communist
+character_event = {
+	id = Oryxevents.19
+	desc = EVTDESCOryxevents.19
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.19"
+		trigger = {
+			NOT = { trait = communist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = communist
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.19
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.19
+		trigger = {
+			trait = communist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Socialist
+character_event = {
+	id = Oryxevents.20
+	desc = EVTDESCOryxevents.20
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.20"
+		trigger = {
+			NOT = { trait = socialist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = socialist
+		hidden_tooltip = {
+			remove_trait = communist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.20
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.20
+		trigger = {
+			trait = socialist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose socialdemocrat
+character_event = {
+	id = Oryxevents.21
+	desc = EVTDESCOryxevents.21
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.21"
+		trigger = {
+			NOT = { trait = socialdemocrat }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = socialdemocrat
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = communist
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.21
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.21
+		trigger = {
+			trait = socialdemocrat
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Centrist
+character_event = {
+	id = Oryxevents.22
+	desc = EVTDESCOryxevents.22
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.22"
+		trigger = {
+			NOT = { trait = centrist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = centrist
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = communist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.22
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.22
+		trigger = {
+			trait = centrist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Conservative
+character_event = {
+	id = Oryxevents.23
+	desc = EVTDESCOryxevents.23
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.23"
+		trigger = {
+			NOT = { trait = conservative }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = conservative
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = communist
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.23
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.23
+		trigger = {
+			trait = conservative
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose NeoLiberal
+character_event = {
+	id = Oryxevents.24
+	desc = EVTDESCOryxevents.24
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.24"
+		trigger = {
+			NOT = { trait = neoliberal }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = neoliberal
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = communist
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.24
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.24
+		trigger = {
+			trait = neoliberal
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Facist
+character_event = {
+	id = Oryxevents.25
+	desc = EVTDESCOryxevents.25
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.25"
+		trigger = {
+			NOT = { trait = facist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = facist
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = communist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.25
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.25
+		trigger = {
+			trait = facist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Green
+character_event = {
+	id = Oryxevents.26
+	desc = EVTDESCOryxevents.26
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.26"
+		trigger = {
+			NOT = { trait = green }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = green
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = communist
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.26
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.26
+		trigger = {
+			trait = green
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Globalist
+character_event = {
+	id = Oryxevents.27
+	desc = EVTDESCOryxevents.27
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.27"
+		trigger = {
+			NOT = { trait = globalist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = globalist
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = communist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.27
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.27
+		trigger = {
+			trait = globalist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Husband debates with wife
+character_event = {
+	id = Oryxevents.28
+	desc = EVTDESCOryxevents.28
+	picture = GFX_evt_quarrel
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		NOT = { religion_group = muslim }
+		in_command = no
+		is_landed = no
+		is_female = no
+		spouse = {
+			NOT = {
+				religion_group = muslim
+			}
+			in_command = no
+			war = no
+			is_married = yes 
+			is_abroad = no
+			is_landed = yes
+			is_alive = yes
+			prisoner = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 700
+		
+		modifier = {
+			factor = 0.75
+			trait = lustful
+		}
+		modifier = {
+			factor = 3.0
+			trait = chaste
+		}
+		modifier = {
+			factor = 4.0
+			trait = shy 
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = envious
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.28
+		spouse = {
+			character_event = {
+				id = Oryxevents.29
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.2"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.28
+		ai_chance = { 
+				factor = 25 
+		}
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTCOryxevents.28
+		trigger = {
+			diplomacy = 16
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.30
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.2"
+			}
+		}
+	}
+}
+
+#Wife chooses
+character_event = {
+	id = Oryxevents.29
+	desc = EVTDESCOryxevents.29
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.29"
+		ai_chance = { 
+				factor = 50
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.31
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.1"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.31
+		ai_chance = { 
+				factor = 50
+		}
+	}
+}
+
+#Wife is forced
+character_event = {
+	id = Oryxevents.30
+	desc = EVTDESCOryxevents.30
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.30"
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.31
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.1"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.30
+		ai_chance = { 
+				factor = 0
+		}
+		prestige = -100
+		piety = -50
+	}
+}
+
+#Wife Chooses how Husband sees
+character_event = {
+	id = Oryxevents.18
+	desc = EVTDESCOryxevents.18
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.18"
+		trigger = {
+			trait = communist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.19
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBOryxevents.18"
+		trigger = {
+			trait = socialist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.20
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCOryxevents.18"
+		trigger = {
+			trait = socialdemocrat
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.21
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDOryxevents.18
+		trigger = {
+			AND = {
+				NOT = { trait = communist }
+				NOT = { trait = socialist }
+				NOT = { trait = socialdemocrat }
+			}
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		hidden_tooltip = { character_event = { id = Oryxevents.41 } }
+	}
+}
+
+#Wife Chooses how Husband sees prt 2
+character_event = {
+	id = Oryxevents.41
+	desc = EVTDESCOryxevents.41
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTAOryxevents.41"
+		trigger = {
+			trait = centrist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.22
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBOryxevents.41"
+		trigger = {
+			trait = conservative
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.23
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCOryxevents.41"
+		trigger = {
+			trait = neoliberal
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.24
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDOryxevents.41
+		trigger = {
+			AND = {
+				NOT = { trait = neoliberal }
+				NOT = { trait = conservative }
+				NOT = { trait = centrist }
+			}
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		hidden_tooltip = { character_event = { id = Oryxevents.42 } }
+	}
+}
+	
+#Wife Chooses how Husband sees prt 3
+character_event = {
+	id = Oryxevents.42
+	desc = EVTDESCOryxevents.42
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.42"
+		trigger = {
+			trait = facist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.25
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBOryxevents.42"
+		trigger = {
+			trait = green
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.26
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCOryxevents.42"
+		trigger = {
+			trait = globalist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.27
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.4"
+			}
+		}
+	}
+}
+
+#Husband Chooses how Wife sees prt 1 
+character_event = {
+	id = Oryxevents.31
+	desc = EVTDESCOryxevents.31
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.31"
+		trigger = {
+			trait = communist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.32
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBOryxevents.31"
+		trigger = {
+			trait = socialist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.33
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCOryxevents.31"
+		trigger = {
+			trait = socialdemocrat
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.34
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDOryxevents.31
+		trigger = {
+			AND = {
+				NOT = { trait = communist }
+				NOT = { trait = socialist }
+				NOT = { trait = socialdemocrat }
+			}
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		hidden_tooltip = { character_event = { id = Oryxevents.43 } }
+	}
+}
+
+#Husband Chooses how Wife sees prt 2
+character_event = {
+	id = Oryxevents.43
+	desc = EVTDESCOryxevents.43
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTAOryxevents.43"
+		trigger = {
+			trait = centrist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.35
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBOryxevents.43"
+		trigger = {
+			trait = conservative
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.36
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCOryxevents.43"
+		trigger = {
+			trait = neoliberal
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.37
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDOryxevents.43
+		trigger = {
+			AND = {
+				NOT = { trait = neoliberal }
+				NOT = { trait = conservative }
+				NOT = { trait = centrist }
+			}
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		hidden_tooltip = { character_event = { id = Oryxevents.44 } }
+	}
+}
+
+#Husband Chooses how Wife sees prt 3
+character_event = {
+	id = Oryxevents.44
+	desc = EVTDESCOryxevents.44
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.44"
+		trigger = {
+			trait = facist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.38
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBOryxevents.44"
+		trigger = {
+			trait = green
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.39
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCOryxevents.44"
+		trigger = {
+			trait = globalist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		spouse = {
+			character_event = {
+				id = Oryxevents.40
+				days = 1 
+				tooltip = "EVTTOOLTIPOryx.3"
+			}
+		}
+	}
+}
+
+#Choose Communist
+character_event = {
+	id = Oryxevents.32
+	desc = EVTDESCOryxevents.32
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.32"
+		trigger = {
+			NOT = { trait = communist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = communist
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.32
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.32
+		trigger = {
+			trait = communist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Socialist
+character_event = {
+	id = Oryxevents.33
+	desc = EVTDESCOryxevents.33
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.33"
+		trigger = {
+			NOT = { trait = socialist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = socialist
+		hidden_tooltip = {
+			remove_trait = communist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.33
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.33
+		trigger = {
+			trait = socialist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose socialdemocrat
+character_event = {
+	id = Oryxevents.34
+	desc = EVTDESCOryxevents.34
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.34"
+		trigger = {
+			NOT = { trait = socialdemocrat }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = socialdemocrat
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = communist
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.34
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.34
+		trigger = {
+			trait = socialdemocrat
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Centrist
+character_event = {
+	id = Oryxevents.35
+	desc = EVTDESCOryxevents.35
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.35"
+		trigger = {
+			NOT = { trait = centrist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = centrist
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = communist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.35
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.35
+		trigger = {
+			trait = centrist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Conservative
+character_event = {
+	id = Oryxevents.36
+	desc = EVTDESCOryxevents.36
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.36"
+		trigger = {
+			NOT = { trait = conservative }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = conservative
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = communist
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.36
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.36
+		trigger = {
+			trait = conservative
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose NeoLiberal
+character_event = {
+	id = Oryxevents.37
+	desc = EVTDESCOryxevents.37
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.37"
+		trigger = {
+			NOT = { trait = neoliberal }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = neoliberal
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = communist
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.37
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.37
+		trigger = {
+			trait = neoliberal
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Facist
+character_event = {
+	id = Oryxevents.38
+	desc = EVTDESCOryxevents.38
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.38"
+		trigger = {
+			NOT = { trait = facist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = facist
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = communist
+			remove_trait = green
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.38
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.38
+		trigger = {
+			trait = facist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Green
+character_event = {
+	id = Oryxevents.39
+	desc = EVTDESCOryxevents.39
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.39"
+		trigger = {
+			NOT = { trait = green }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = green
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = communist
+			remove_trait = globalist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.39
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.39
+		trigger = {
+			trait = green
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
+
+#Choose Globalist
+character_event = {
+	id = Oryxevents.40
+	desc = EVTDESCOryxevents.40
+	picture = GFX_evt_quarrel
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAOryxevents.40"
+		trigger = {
+			NOT = { trait = globalist }
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = globalist
+		hidden_tooltip = {
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = centrist
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = green
+			remove_trait = communist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 2
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.40
+		ai_chance = { 
+				factor = 50
+		}
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.40
+		trigger = {
+			trait = globalist
+		}
+		ai_chance = { 
+				factor = 100
+		}
+		prestige = 50
+		piety = 10
+	}
+}
