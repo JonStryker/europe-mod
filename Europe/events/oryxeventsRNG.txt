@@ -1,0 +1,701 @@
+namespace = OryxRNG
+
+#Greedy Communist or not
+character_event = {
+	id = OryxRNG.01
+	desc = EVTDESCOryxRNG.01
+	picture = GFX_evt_market
+	
+	min_age = 16
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	only_playable = yes
+	
+	trigger = {
+		in_command = no
+		OR = {
+			trait = communist
+			trait = socialist
+		}
+		NOT = {
+			trait = charitable
+		}
+		NOT = {
+			trait = greedy
+		}
+		NOT = {
+			personality_traits = 5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			trait = stressed
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxRNG.01
+		if = {
+			limit = {
+				trait = proud
+				NOT = {
+					trait = content
+				}
+			}
+			random = {
+				chance = 70
+				
+				add_trait = greedy
+				hidden_tooltip = {
+					character_event = {
+						id = 38252 #Notify Greedy
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = content
+				NOT = {
+					trait = proud
+				}
+			}
+			random = {
+				chance = 20
+				
+				add_trait = greedy
+				hidden_tooltip = {
+					character_event = {
+						id = 38252 #Notify Greedy
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = content
+				}
+				NOT = {
+					trait = proud
+				}
+			}
+			random = {
+				chance = 45
+				
+				add_trait = greedy
+				hidden_tooltip = {
+					character_event = {
+						id = 38252 #Notify Greedy
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = content
+				trait = proud
+			}
+			random = {
+				chance = 45
+				
+				add_trait = greedy
+				hidden_tooltip = {
+					character_event = {
+						id = 38252 #Notify Greedy
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxRNG.01
+		if = {
+			limit = {
+				trait = honest
+				NOT = {
+					trait = envious
+				}
+			}
+			random = {
+				chance = 70
+				
+				add_trait = charitable
+				hidden_tooltip = {
+					character_event = {
+						id = 38273 #Notify Charitable
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = envious
+				NOT = {
+					trait = honest
+				}
+			}
+			random = {
+				chance = 20
+				
+				add_trait = charitable
+				hidden_tooltip = {
+					character_event = {
+						id = 38273 #Notify Charitable
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = envious
+				}
+				NOT = {
+					trait = honest
+				}
+			}
+			random = {
+				chance = 45
+				
+				add_trait = charitable
+				hidden_tooltip = {
+					character_event = {
+						id = 38273 #Notify Charitable
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = envious
+				trait = honest
+			}
+			random = {
+				chance = 45
+				
+				add_trait = charitable
+				hidden_tooltip = {
+					character_event = {
+						id = 38273 #Notify Charitable
+					}
+				}
+			}
+		}
+	}
+}
+#Stalinist?
+character_event = {
+	id = OryxRNG.02
+	desc = EVTDESCOryxRNG.02
+	picture = GFX_evt_market
+	
+	min_age = 16
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	only_playable = yes
+	
+	trigger = {
+		in_command = no
+		NOT = { has_character_modifier = communist_dictator }
+		NOT = { trait = kind }
+		AND = {
+			trait = communist
+			trait = greedy
+			trait = envious
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			trait = stressed
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxRNG.02
+		wealth = 200
+		add_character_modifier = {
+			name = communist_dictator
+			duration = -1
+		}
+		random_list = {
+			60 = {}
+			20 = { 
+				prestige = 30
+				if = {
+					limit = {
+						NOT = {
+							trait = cruel
+						}
+					}
+					add_trait = cruel
+					hidden_tooltip = {
+						character_event = {
+							id = 38259 #Notify Cruel
+						}
+					}
+				}
+			}
+			20 = { 
+				piety = -25
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxRNG.02
+		prestige = -25
+		piety = 25
+		if = {
+			limit = {
+				NOT = {
+					trait = kind
+					}
+				}
+			}
+			add_trait = kind
+			hidden_tooltip = {
+				remove_trait = communist
+			}
+			add_trait = socialist
+		}
+	}
+}
+
+character_event = {
+	id = OryxRNG.03
+	desc = EVTDESCOryxRNG.03
+	picture = GFX_evt_family
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	only_playable = yes
+	
+	trigger = {
+		in_command = no
+	}
+	
+	mean_time_to_happen = {
+		months = 50000
+	}
+	
+	option = {
+		name = EVTOPTAOryxRNG.03
+		prestige = 50
+		intrigue = 2
+	}
+}
+
+character_event = {
+	id = OryxRNG.04
+	desc = EVTDESCOryxRNG.04
+	picture = GFX_evt_family
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	only_playable = yes
+	
+	trigger = {
+		in_command = no
+	}
+	
+	mean_time_to_happen = {
+		months = 50000
+	}
+	
+	option = {
+		name = EVTOPTAOryxRNG.04
+		prestige = 100
+	}
+}
+
+#Greedy Fascist
+character_event = {
+	id = OryxRNG.05
+	desc = EVTDESCOryxRNG.05
+	picture = GFX_evt_market
+	
+	min_age = 16
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	only_playable = yes
+	
+	trigger = {
+		in_command = no
+		OR = {
+			trait = facist
+			trait = neoliberal
+		}
+		NOT = {
+			trait = charitable
+		}
+		NOT = {
+			trait = greedy
+		}
+		NOT = {
+			personality_traits = 5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000
+		
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			trait = stressed
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxRNG.05
+		if = {
+			limit = {
+				trait = proud
+				NOT = {
+					trait = content
+				}
+			}
+			random = {
+				chance = 70
+				
+				add_trait = greedy
+				hidden_tooltip = {
+					character_event = {
+						id = 38252 #Notify Greedy
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = content
+				NOT = {
+					trait = proud
+				}
+			}
+			random = {
+				chance = 20
+				
+				add_trait = greedy
+				hidden_tooltip = {
+					character_event = {
+						id = 38252 #Notify Greedy
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = content
+				}
+				NOT = {
+					trait = proud
+				}
+			}
+			random = {
+				chance = 45
+				
+				add_trait = greedy
+				hidden_tooltip = {
+					character_event = {
+						id = 38252 #Notify Greedy
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = content
+				trait = proud
+			}
+			random = {
+				chance = 45
+				
+				add_trait = greedy
+				hidden_tooltip = {
+					character_event = {
+						id = 38252 #Notify Greedy
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxRNG.05
+		if = {
+			limit = {
+				trait = honest
+				NOT = {
+					trait = envious
+				}
+			}
+			random = {
+				chance = 70
+				
+				add_trait = charitable
+				hidden_tooltip = {
+					character_event = {
+						id = 38273 #Notify Charitable
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = envious
+				NOT = {
+					trait = honest
+				}
+			}
+			random = {
+				chance = 20
+				
+				add_trait = charitable
+				hidden_tooltip = {
+					character_event = {
+						id = 38273 #Notify Charitable
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					trait = envious
+				}
+				NOT = {
+					trait = honest
+				}
+			}
+			random = {
+				chance = 45
+				
+				add_trait = charitable
+				hidden_tooltip = {
+					character_event = {
+						id = 38273 #Notify Charitable
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				trait = envious
+				trait = honest
+			}
+			random = {
+				chance = 45
+				
+				add_trait = charitable
+				hidden_tooltip = {
+					character_event = {
+						id = 38273 #Notify Charitable
+					}
+				}
+			}
+		}
+	}
+}
+#Hitler?
+character_event = {
+	id = OryxRNG.06
+	desc = EVTDESCOryxRNG.06
+	picture = GFX_evt_market
+	
+	min_age = 16
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	only_playable = yes
+	
+	trigger = {
+		in_command = no
+		NOT = { has_character_modifier = facist_dictator }
+		NOT = { trait = kind }
+		AND = {
+			trait = facist
+			trait = greedy
+			trait = envious
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			trait = stressed
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxRNG.06
+		wealth = 200
+		add_character_modifier = {
+			name = facist_dictator
+			duration = -1
+		}
+		random_list = {
+			60 = {}
+			20 = { 
+				prestige = 30
+				if = {
+					limit = {
+						NOT = {
+							trait = cruel
+						}
+					}
+					add_trait = cruel
+					hidden_tooltip = {
+						character_event = {
+							id = 38259 #Notify Cruel
+						}
+					}
+				}
+			}
+			20 = { 
+				piety = -25
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxRNG.06
+		prestige = -25
+		piety = 25
+		if = {
+			limit = {
+				NOT = {
+					trait = envious
+					}
+				}
+			}
+			add_trait = envious
+			hidden_tooltip = {
+				remove_trait = facist
+			}
+			add_trait = neoliberal
+		}
+	}
+}
+
+character_event = {
+	id = OryxRNG.07
+	desc = EVTDESCOryxRNG.07
+	picture = GFX_evt_market
+	
+	min_age = 16
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	only_playable = yes
+	
+	trigger = {
+		in_command = no
+		trait = greedy
+	}
+	
+	mean_time_to_happen = {
+		months = 1500
+		
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 10.0
+			trait = stressed
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxRNG.07
+		wealth = 100
+		prestige = -50
+	}
+	option = {
+		name = EVTOPTBOryxRNG.07
+		wealth = -50
+		prestige = 100
+	}
+	option = {
+		name = EVTOPTCOryxRNG.07
+		tooltip_info = stewardship
+		trigger = {
+			stewardship = 16
+		}
+		wealth = 50
+		prestige = 25
+	}
+}
+
+
+
