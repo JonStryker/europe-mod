@@ -1,0 +1,242 @@
+decisions = {
+	
+	abortion_male = {
+		is_high_prio = yes
+		potential = {
+			age = 18
+			NOT = {
+				religion_group = muslim
+			}
+			NOT = {
+				trait = homosexual
+			}
+			is_ruler = yes
+			is_female = no
+			NOT = {
+				has_character_modifier = seeking_abortion
+			}
+			is_married = yes
+		}
+		allow = {
+			war = no
+			prisoner = no
+			NOT = { trait = in_hiding }
+			wealth = 50
+			spouse = {
+				trait = pregnant
+				prisoner = no
+				NOT = { trait = in_hiding }
+				NOT = { has_character_modifier = denied_abortion }
+			}
+			NOT = {
+				has_character_modifier = seeking_abortion
+			}
+		}
+		effect = {
+			wealth = -50
+			add_character_modifier = {
+				name = seeking_abortion
+				duration = 1
+			}
+			spouse = {
+				character_event = {
+					id = Oryx_abortion.01
+					days = 2
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 200
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = fundamentalist
+			}
+			modifier = {
+				factor = 0.5
+				trait = pious
+			}	
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					num_of_children = 3
+				}
+			}
+		}
+	}
+	
+	abortion_female = {
+		is_high_prio = yes
+		potential = {
+			age = 18
+			NOT = {
+				religion_group = muslim
+			}
+			NOT = {
+				trait = homosexual
+			}
+			is_ruler = yes
+			is_female = yes
+			NOT = {
+				has_character_modifier = seeking_abortion
+			}
+			is_married = yes
+		}
+		allow = {
+			war = no
+			prisoner = no
+			NOT = { trait = in_hiding }
+			wealth = 50
+			trait = pregnant
+			NOT = {
+				has_character_modifier = seeking_abortion
+			}
+		}
+		effect = {
+			wealth = -50
+			add_character_modifier = {
+				name = seeking_abortion
+				duration = 1
+			}
+			spouse = {
+				character_event = {
+					id = Oryx_abortion.02
+					days = 2
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 200
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = fundamentalist
+			}
+			modifier = {
+				factor = 0.5
+				trait = pious
+			}	
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					num_of_children = 3
+				}
+			}
+		}
+	}
+	
+	abortion_male_muslim = {
+		is_high_prio = yes
+		potential = {
+			age = 18
+			religion_group = muslim
+			NOT = {
+				trait = homosexual
+			}
+			is_ruler = yes
+			is_female = no
+			NOT = {
+				has_character_modifier = seeking_abortion
+			}
+			is_married = yes
+		}
+		allow = {
+			war = no
+			prisoner = no
+			NOT = { trait = in_hiding }
+			wealth = 50
+			NOT = {
+				has_character_modifier = seeking_abortion
+			}
+			any_spouse = {
+				trait = pregnant
+				prisoner = no
+				NOT = { trait = in_hiding }
+				NOT = { has_character_modifier = denied_abortion }
+			}
+		}
+		effect = {
+			wealth = -50
+			add_character_modifier = {
+				name = seeking_abortion
+				duration = 1
+			}
+			any_spouse = {
+				is_pregnant = yes
+				character_event = {
+					id = Oryx_abortion.03
+					days = 2
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 50
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 200
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = fundamentalist
+			}
+			modifier = {
+				factor = 0
+				trait = pious
+			}	
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					num_of_children = 8
+				}
+			}
+		}
+	}
+}
