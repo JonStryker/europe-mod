@@ -1,0 +1,959 @@
+namespace = Oryxmarriage 
+
+character_event = {
+	id = Oryxmarriage.01
+	desc = EVTDESCOryxmarriage.01
+	picture = GFX_evt_marriage
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		trigger = {
+		OR = {
+			AND = {
+				NOT = { religion = zoroastrian }
+				NOT = { religion = messalian }
+			}
+			NOT = { new_character = { is_close_relative = FROM } }
+		}
+		OR = {
+			FROM = { character = ROOT }
+			AND = {
+				FROM = {
+					dynasty = ROOT
+					is_primary_heir = ROOT
+				}
+				new_character = {
+					NOT = { character = ROOT }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAOryxmarriage.01"
+		trigger = {
+			OR = {
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group						
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+			}
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		ROOT = {
+			character_event = {
+				id = 500
+				days = 1
+			}
+			character_event = {
+				id = 501
+				days = 1
+			}
+			character_event = {
+				id = 502
+				days = 1
+			}
+			character_event = {
+				id = 702
+				days = 1
+			}
+			character_event = {
+				id = CM.10023
+				days = 1
+			}
+			character_event = {
+				id = CM.10036
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBOryxmarriage.01"
+		trigger = {
+			ROOT = {
+				OR = {
+					trait = atheist
+					trait = agnostic
+					}
+				}
+			}
+			OR = {
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+			}
+		}
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+			factor = 0.5
+				trait = agnostic
+			}
+			modifier = {
+				factor = 0.5
+				trait = atheist
+			}
+		}
+		ROOT = {
+			character_event = {
+				id = 500
+				days = 1
+			}
+			character_event = {
+				id = 501
+				days = 1
+			}
+			character_event = {
+				id = 502
+				days = 1
+			}
+			character_event = {
+				id = 702
+				days = 1
+			}
+			character_event = {
+				id = CM.10023
+				days = 1
+			}
+			character_event = {
+				id = CM.10036
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCOryxmarriage.01"
+		trigger = {
+			OR = {
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = christian 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = muslim 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = pagan_group 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = zoroastrian_group 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = jewish_group 
+					}
+					FROM = {
+						religion_group = indian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = christian
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = muslim
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = pagan_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = zoroastrian_group
+					}
+				}
+				AND = {
+					new_character = { 
+						religion_group = indian_group 
+					}
+					FROM = {
+						religion_group = jewish_group
+					}
+				}
+			}
+		}
+		ai_chance = { 
+			factor = 10 
+			modifier = {
+				factor = 0.1
+				trait = fundamentalist
+			}
+			modifier = {
+				factor = 0.1
+				trait = pious
+			}
+			modifier = {
+				factor = 0.1
+				trait = traditional
+			}
+		}
+		remove_spouse = FROM
+		hidden_tooltip = {
+			new_character = {
+				move_character = father	
+			}
+		}
+	}
+}
+
+#divorce via faith
+character_event = {
+	id = Oryxmarriage.02
+	desc = EVTDESCOryxmarriage.02
+	picture = GFX_evt_marriage
+	
+	prisoner = no
+	capable_only = yes
+	min_age = 18 
+	
+	trigger = {
+		in_command = no
+		OR = {
+			trait = pious
+			trait = fundamentalist
+		}
+		NOT = { trait = cynical }
+		NOT = { character_modifier = denied_divorce }
+		NOT = {
+			spouse = {
+				is_lover = ROOT
+			}
+		}
+		is_married = yes 
+		OR = {
+			AND = {
+				religion_group = christian 
+				spouse = {
+					religion_group = muslim
+				}
+			}
+			AND = {
+				religion_group = christian 
+				spouse = {
+					religion_group = pagan_group
+				}
+			}
+			AND = {
+				religion_group = christian 
+				spouse = {
+					religion_group = zoroastrian_group
+				}
+			}
+			AND = {
+				religion_group = christian 
+				spouse = {
+					religion_group = jewish_group
+				}
+			}
+			AND = {
+				religion_group = christian 
+				spouse = {
+					religion_group = indian_group
+				}
+			}
+			AND = {
+				religion_group = muslim 
+				spouse = {
+					religion_group = christian
+				}
+			}
+			AND = {
+				religion_group = muslim 
+				spouse = {
+					religion_group = pagan_group
+				}
+			}
+			AND = {
+				religion_group = muslim 
+				spouse = {
+					religion_group = zoroastrian_group
+				}
+			}
+			AND = {
+				religion_group = muslim 
+				spouse = {
+					religion_group = jewish_group
+				}
+			}
+			AND = {
+				religion_group = muslim 
+				spouse = {
+					religion_group = indian_group
+				}
+			}
+			AND = {
+				religion_group = pagan_group 
+				spouse = {
+					religion_group = christian
+				}
+			}
+			AND = {
+				religion_group = pagan_group 
+				spouse = {
+					religion_group = muslim
+				}
+			}
+			AND = {
+				religion_group = pagan_group 
+				spouse = {
+					religion_group = zoroastrian_group
+				}
+			}
+			AND = {
+				religion_group = pagan_group 
+				spouse = {
+					religion_group = jewish_group
+				}
+			}
+			AND = {
+				religion_group = pagan_group 
+				spouse = {
+					religion_group = indian_group
+				}
+			}
+			AND = {
+				religion_group = zoroastrian_group 
+				spouse = {
+					religion_group = christian
+				}
+			}
+			AND = {
+				religion_group = zoroastrian_group 
+				spouse = {
+					religion_group = muslim
+				}
+			}
+			AND = {
+				religion_group = zoroastrian_group 
+				spouse = {
+					religion_group = pagan_group
+				}
+			}
+			AND = {
+				religion_group = zoroastrian_group 
+				spouse = {
+					religion_group = jewish_group
+				}
+			}
+			AND = {
+				religion_group = zoroastrian_group 
+				spouse = {
+					religion_group = indian_group
+				}
+			}
+			AND = {
+				religion_group = jewish_group 
+				spouse = {
+					religion_group = christian
+				}
+			}
+			AND = {
+				religion_group = jewish_group 
+				spouse = {
+					religion_group = muslim
+				}
+			}
+			AND = {
+				religion_group = jewish_group 
+				spouse = {
+					religion_group = pagan_group
+				}
+			}
+			AND = {
+				religion_group = jewish_group 
+				spouse = {
+					religion_group = zoroastrian_group
+				}
+			}
+			AND = {
+				religion_group = jewish_group 
+				spouse = {
+					religion_group = indian_group
+				}
+			}
+			AND = {
+				religion_group = indian_group 
+				spouse = {
+					religion_group = christian
+				}
+			}
+			AND = {
+				religion_group = indian_group 
+				spouse = {
+					religion_group = muslim
+				}
+			}
+			AND = {
+				religion_group = indian_group 
+				spouse = {
+					religion_group = pagan_group
+				}
+			}
+			AND = {
+				religion_group = indian_group 
+				spouse = {
+					religion_group = zoroastrian_group
+				}
+			}
+			AND = {
+				religion_group = indian_group 
+				spouse = {
+					religion_group = jewish_group
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+		
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.75
+			trait = chaste
+		}
+		modifier = {
+			factor = 4.0
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.5
+			trait = depressed
+		}
+		modifier = {
+			factor = 0.75
+			trait = stressed
+		}
+		modifier = {
+			factor = 0.2
+			trait = attractive
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxmarriage.02
+		ai_chance = { 75 }
+		spouse = {
+			character_event = {
+				id = Oryxmarriage.03
+				days = 3
+			}
+		}
+		piety = 10
+	}
+	option = {
+		name = EVTOPTBOryxmarriage.02
+		ai_chance = { 25 }
+		prestige = 10
+		add_character_modifier = {
+			name = denied_divorce
+			duration = -1
+		}
+	}
+}
+
+character_event = {
+	id = Oryxmarriage.03
+	desc = EVTDESCOryxmarriage.03
+	picture = GFX_evt_marriage
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxmarriage.03
+		ai_chance = { 100 }
+		remove_spouse = FROM
+		piety = 10
+	}
+	option = {
+		name = EVTOPTBOryxmarriage.03
+		ai_chance = { 0 }
+		prestige = 10
+	}
+}
