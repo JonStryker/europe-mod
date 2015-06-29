@@ -1,0 +1,598 @@
+namespace = Oryxpiety
+
+#youthful sentiments faith
+character_event = {
+	id = Oryxpiety.01
+	desc = EVTDESCOryxpiety.01
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	max_age = 40
+	
+	trigger = {
+		in_command = no
+		OR = {
+			trait = pious
+			trait = traditional
+			trait = agnostic
+		}
+		NOT = { trait = zealous }
+		is_theocracy =  no 
+	}
+	
+	mean_time_to_happen = {
+		months = 2000
+		
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 3.0
+			trait = chaste
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxpiety.01
+		trigger = {
+			trait = pious
+		}
+		ai_chance = { 
+				factor = 70 
+		}
+		hidden_tooltip = {
+			remove_trait = pious
+		}
+		add_trait = traditional
+		prestige = 10
+	}	
+	option = {
+		name = EVTOPTBOryxpiety.01
+		trigger = {
+			trait = traditional
+		}
+		ai_chance = { 
+				factor = 70 
+		}
+		hidden_tooltip = {
+			remove_trait = traditional
+		}
+		add_trait = agnostic
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTCOryxpiety.01
+		trigger = {
+			trait = agnostic
+		}
+		ai_chance = { 
+				factor = 70 
+		}
+		hidden_tooltip = {
+			remove_trait = agnostic
+		}
+		add_trait = atheist
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTDOryxpiety.01
+		ai_chance = {
+				factor = 30
+		}
+		prestige = 30
+	}
+}
+
+#elder restoration faith
+character_event = {
+	id = Oryxpiety.02
+	desc = EVTDESCOryxpiety.02
+	picture = GFX_evt_monk
+	
+	min_age = 40
+	prisoner = no
+	capable_only = yes
+	max_age = 100
+	
+	trigger = {
+		in_command = no
+		OR = {
+			trait = pious
+			trait = traditional
+			trait = agnostic
+		}
+		NOT = { trait = cynical }
+		is_theocracy =  no
+	}
+	
+	mean_time_to_happen = {
+		months = 2500
+		
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 3.0
+			trait = chaste
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxpiety.02
+		trigger = {
+			trait = pious
+		}
+		ai_chance = { 
+				factor = 70 
+		}
+		hidden_tooltip = {
+			remove_trait = pious
+		}
+		add_trait = fundamentalist
+		prestige = 10
+	}	
+	option = {
+		name = EVTOPTBOryxpiety.02
+		trigger = {
+			trait = traditional
+		}
+		ai_chance = { 
+				factor = 70 
+		}
+		hidden_tooltip = {
+			remove_trait = traditional
+		}
+		add_trait = pious
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTCOryxpiety.02
+		trigger = {
+			trait = agnostic
+		}
+		ai_chance = { 
+				factor = 70 
+		}
+		hidden_tooltip = {
+			remove_trait = agnostic
+		}
+		add_trait = traditional
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTDOryxpiety.02
+		ai_chance = {
+				factor = 30
+		}
+		prestige = 30
+	}
+}
+
+#Radicalism Fundemental
+character_event = {
+	id = Oryxpiety.03
+	desc = EVTDESCOryxpiety.03
+	picture = GFX_evt_monk
+	
+	min_age = 30
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		in_command = no
+		trait = pious
+	}
+	
+	mean_time_to_happen = {
+		months = 2500
+		
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 5.0
+			trait = depressed
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxpiety.03
+		trigger = {
+			trait = pious
+		}
+		ai_chance = { 
+				factor = 60 
+		}
+		hidden_tooltip = {
+			remove_trait = pious
+		}
+		add_trait = fundamentalist
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTBOryxpiety.03
+		ai_chance = {
+				factor = 40
+		}
+		prestige = 30
+		piety = 40
+	}
+}
+
+#flip
+character_event = {
+	id = Oryxpiety.04
+	desc = EVTDESCOryxpiety.04
+	picture = GFX_evt_monk
+	
+	min_age = 30
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		in_command = no
+		OR = {
+			trait = agnostic
+			trait = pious
+		}
+		is_theocracy =  no
+	}
+	
+	mean_time_to_happen = {
+		months = 6000
+		
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 5.0
+			trait = depressed
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxpiety.04
+		trigger = {
+			trait = pious
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		hidden_tooltip = {
+			remove_trait = pious
+		}
+		add_trait = agnostic
+		prestige = 10
+	}	
+	option = {
+		name = EVTOPTBOryxpiety.04
+		trigger = {
+			trait = agnostic
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		hidden_tooltip = {
+			remove_trait = agnostic
+		}
+		add_trait = pious
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTCOryxpiety.04
+		ai_chance = {
+				factor = 50
+		}
+		prestige = 50
+	}
+}
+
+#Radicalism Atheist
+character_event = {
+	id = Oryxpiety.05
+	desc = EVTDESCOryxpiety.05
+	picture = GFX_evt_monk
+	
+	min_age = 30
+	prisoner = no
+	capable_only = yes
+
+	trigger = {
+		in_command = no
+		trait = agnostic
+		is_theocracy =  no
+	}
+	
+	mean_time_to_happen = {
+		months = 2500
+		
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 5.0
+			trait = depressed
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxpiety.05
+		trigger = {
+			trait = agnostic
+		}
+		ai_chance = { 
+				factor = 60 
+		}
+		hidden_tooltip = {
+			remove_trait = agnostic
+		}
+		add_trait = atheist
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTBOryxpiety.05
+		ai_chance = {
+				factor = 40
+		}
+		prestige = 30
+		piety = 40
+	}
+}
+
+#Giving faith through edu
+character_event = {
+	id = Oryxpiety.06
+	desc = EVTDESCOryxpiety.06
+	picture = GFX_evt_family
+	
+	capable_only = yes
+	prisoner = no
+	min_age = 12
+	max_age = 14
+	
+	trigger = {
+		has_guardian = yes
+		AND = {
+			NOT = { trait = atheist }
+			NOT = { trait = agnostic }
+			NOT = { trait = traditional }
+			NOT = { trait = pious }
+			NOT = { trait = fundamentalist }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTAOryxpiety.06"
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = Oryxpiety.07
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+#Guardian instructs child on faith 
+character_event = {
+	id = Oryxpiety.07
+	desc = EVTDESCOryxpiety.07
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxpiety.07
+		trigger = {
+			trait = fundamentalist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxpiety.08
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOrypiety.07
+		trigger = {
+			trait = atheist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxpiety.09
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCOryxpiety.07
+		trigger = {
+			OR = {
+				trait = traditional
+				trait = pious
+			}
+		}
+		ai_chance = { 
+				factor = 50
+				modifier = {
+					factor = 0.5
+					trait = pious
+				}
+		}
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxpiety.10
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDOryxpiety.07
+		trigger = {
+			OR = {
+				trait = traditional
+				trait = agnostic
+			}
+		}
+		ai_chance = { 
+				factor = 50
+				modifier = {
+					factor = 0.5
+					trait = agnostic
+				}
+		}
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxpiety.11
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+#Fundementalist Child
+character_event = {
+	id = Oryxpiety.08
+	desc = EVTDESCOryxpiety.08
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxpiety.08
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				55 = { add_trait = fundamentalist }
+				20 = { add_trait = pious }
+				15 = { add_trait = traditional }
+				6 = { add_trait = agnostic }
+				4 = { add_trait = atheist }
+			}
+		}
+	}
+}
+
+#Athiest Child
+character_event = {
+	id = Oryxpiety.09
+	desc = EVTDESCOryxpiety.09
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxpiety.09
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				4 = { add_trait = fundamentalist }
+				6 = { add_trait = pious }
+				15 = { add_trait = traditional }
+				20 = { add_trait = agnostic }
+				55 = { add_trait = atheist }
+			}
+		}
+	}
+}
+
+#Pious Child
+character_event = {
+	id = Oryxpiety.10
+	desc = EVTDESCOryxpiety.10
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxpiety.10
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				10 = { add_trait = fundamentalist }
+				35 = { add_trait = pious }
+				30 = { add_trait = traditional }
+				20 = { add_trait = agnostic }
+				5 = { add_trait = atheist }
+			}
+		}
+	}
+}
+
+#Agnostic Child
+character_event = {
+	id = Oryxpiety.11
+	desc = EVTDESCOryxpiety.11
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxpiety.11
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				5 = { add_trait = fundamentalist }
+				20 = { add_trait = pious }
+				30 = { add_trait = traditional }
+				35 = { add_trait = agnostic }
+				10 = { add_trait = atheist }
+			}
+		}
+	}
+}
