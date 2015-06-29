@@ -1,0 +1,940 @@
+namespace = Oryxcourtfaith
+
+character_event = {
+	id = Oryxcourtfaith.01
+	desc = EVTDESCOryxcourtfaith.01
+	picture = GFX_evt_courtiers_talking
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		OR = {
+			trait = agnostic
+			trait = atheist
+		}
+		NOT = { trait = zealous }
+		prestige = 100
+	}
+	
+	mean_time_to_happen = {
+		months = 400
+		
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 5.0
+			trait = stressed
+		}
+		modifier = {
+			factor = 5.0
+			trait = depressed
+		}
+		modifier = {
+			factor = 0.75
+			trait = attractive
+		}
+		modifier = {
+			factor = 0.5
+			trait = genius
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 3.0
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.5
+			trait = kind
+		}
+		modifier = {
+			factor = 5.0
+			trait = envious
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxcourtfaith.01
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = { 
+			text = new_foriegner_court
+			hidden_tooltip = {
+				random_list = {
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = lutheran
+							culture = german
+							dynasty = none
+							trait="charismatic_negotiator"
+							trait="cynical"
+							trait="diligent"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = lutheran
+							culture = danish
+							dynasty = none
+							trait="elusive_shadow"
+							trait="cynical"
+							trait="kind"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = lutheran
+							culture = swedish
+							dynasty = none
+							trait="charismatic_negotiator"
+							trait="cynical"
+							trait="diligent"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = lutheran
+							culture = norwegian
+							dynasty = none
+							trait="fortune_builder"
+							trait="cynical"
+							trait="charitable"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = lutheran
+							culture = icelandic
+							dynasty = none
+							trait="grey_eminence"
+							trait="cynical"
+							trait="diligent"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = lutheran
+							culture = estonian
+							dynasty = none
+							trait="skilled_tactician"
+							trait="brave"
+							trait="wroth"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = catholic
+							culture = portuguese
+							dynasty = none
+							trait="brilliant_strategist"
+							trait="brave"
+							trait="kind"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = catholic
+							culture = spanish
+							dynasty = none
+							trait="grey_eminence"
+							trait="just"
+							trait="kind"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = catholic
+							culture = french
+							dynasty = none
+							trait="fortune_builder"
+							trait="charitable"
+							trait="just"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = catholic
+							culture = german
+							dynasty = none
+							trait="elusive_shadow"
+							trait="cynical"
+							trait="greedy"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = catholic
+							culture = italian
+							dynasty = none
+							trait="skilled_tactician"
+							trait="brave"
+							trait="shy"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = catholic
+							culture = sicilian
+							dynasty = none
+							trait="tough_soldier"
+							trait="brave"
+							trait="diligent"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = catholic
+							culture = polish
+							dynasty = none
+							trait="elusive_shadow"
+							trait="cynical"
+							trait="gregarious"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = catholic
+							culture = hungarian
+							dynasty = none
+							trait="charismatic_negotiator"
+							trait="just"
+							trait="kind"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = anglican
+							culture = english
+							dynasty = none
+							trait="grey_eminence"
+							trait="charitable"
+							trait="kind"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = anglican
+							culture = welsh
+							dynasty = none
+							trait="skilled_tactician"
+							trait="brave"
+							trait="wroth"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = anglican
+							culture = anglo_scottish
+							dynasty = none
+							trait="grey_eminence"
+							trait="charitable"
+							trait="cynical"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = anglican
+							culture = anglo_irish
+							dynasty = none
+							trait="midas_touched"
+							trait="just"
+							trait="greedy"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = orthodox
+							culture = greek
+							dynasty = none
+							trait="charismatic_negotiator"
+							trait="kind"
+							trait="proud"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = orthodox
+							culture = serbian
+							dynasty = none
+							trait="tough_soldier"
+							trait="brave"
+							trait="wroth"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = orthodox
+							culture = bulgarian
+							dynasty = none
+							trait="midas_touched"
+							trait="just"
+							trait="proud"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = orthodox
+							culture = georgian
+							dynasty = none
+							trait="elusive_shadow"
+							trait="cynical"
+							trait="charitable"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = orthodox
+							culture = romanian
+							dynasty = none
+							trait="thrifty_clerk"
+							trait="kind"
+							trait="charitable"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = orthodox
+							culture = russian
+							dynasty = none
+							trait="brilliant_strategist"
+							trait="brave"
+							trait="wroth"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = orthodox
+							culture = russian
+							dynasty = none
+							trait="intricate_webweaver"
+							trait="cynical"
+							trait="deceitful"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							name="Oryxslayer"
+							random_traits = no
+							age = 18
+							female = no				  
+							religion = jewish
+							culture = polish
+							dynasty = none
+							trait="grey_eminence"
+							trait="quick"
+							trait="charitable"
+							trait="patient"
+							trait="kind"
+							trait="honest"
+							trait="proud"
+							trait="ambitious"
+							trait="just"
+							trait="traditional"
+							trait="globalist"
+							trait="game_master"
+							trait="scholar"
+							attributes = {
+								intrigue = 5
+								diplomacy = 5
+								martial = 5
+								stewardship = 5
+								learning = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = jewish
+							culture = israeli
+							dynasty = none
+							trait="fortune_builder"
+							trait="just"
+							trait="charitable"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = jewish
+							culture = israeli
+							dynasty = none
+							trait="skilled_tactician"
+							trait="cruel"
+							trait="brave"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = sunni
+							culture = turkish
+							dynasty = none
+							trait="skilled_tactician"
+							trait="wroth"
+							trait="brave"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = sunni
+							culture = bedouin_arabic
+							dynasty = none
+							trait="charismatic_negotiator"
+							trait="patient"
+							trait="kind"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = sunni
+							culture = libyan
+							dynasty = none
+							trait="intricate_webweaver"
+							trait="cynical"
+							trait="deceitful"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = sunni
+							culture = kurdish
+							dynasty = none
+							trait="skilled_tactician"
+							trait="wroth"
+							trait="brave"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = sunni
+							culture = tunisian
+							dynasty = none
+							trait="grey_eminence"
+							trait="patient"
+							trait="honest"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = sunni
+							culture = algerian
+							dynasty = none
+							trait="elusive_shadow"
+							trait="deceitful"
+							trait="cynical"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = sunni
+							culture = hausa
+							dynasty = none
+							trait="fortune_builder"
+							trait="just"
+							trait="diligent"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = sunni
+							culture = somoli
+							dynasty = none
+							trait="tough_soldier"
+							trait="wroth"
+							trait="brave"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = shiite
+							culture = persian
+							dynasty = none
+							trait="midas_touched"
+							trait="diligent"
+							trait="greedy"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = shiite
+							culture = iraqi
+							dynasty = none
+							trait="charismatic_negotiator"
+							trait="diligent"
+							trait="charitable"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = shiite
+							culture = afghan
+							dynasty = none
+							trait="elusive_shadow"
+							trait="cynical"
+							trait="deceitful"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = shiite
+							culture = azeri
+							dynasty = none
+							trait="skilled_tactician"
+							trait="brave"
+							trait="cruel"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = shiite
+							culture = gulfer_arabic
+							dynasty = none
+							trait="intricate_webweaver"
+							trait="deceitful"
+							trait="cynical"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = hindu
+							culture = nepali
+							dynasty = none
+							trait="midas_touched"
+							trait="diligent"
+							trait="greedy"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = hindu
+							culture = marathi
+							dynasty = none
+							trait="grey_eminence"
+							trait="kind"
+							trait="just"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = hindu
+							culture = hindustani
+							dynasty = none
+							trait="skilled_tactician"
+							trait="brave"
+							trait="just"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = hindu
+							culture = gujarati
+							dynasty = none
+							trait="midas_touched"
+							trait="diligent"
+							trait="just"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = hindu
+							culture = malayalam
+							dynasty = none
+							trait="elusive_shadow"
+							trait="cynical"
+							trait="just"
+							trait="agnostic"
+							attributes = {
+								intrigue = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = buddhist
+							culture = kashmiri
+							dynasty = none
+							trait="tough_soldier"
+							trait="brave"
+							trait="honest"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = buddhist
+							culture = sinhala
+							dynasty = none
+							trait="fortune_builder"
+							trait="just"
+							trait="honest"
+							trait="agnostic"
+							attributes = {
+								stewardship = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = yes				  
+							religion = buddhist
+							culture = sinhala
+							dynasty = none
+							trait="charismatic_negotiator"
+							trait="kind"
+							trait="honest"
+							trait="agnostic"
+							attributes = {
+								diplomacy = 5
+							}
+						}
+					}
+					2 = { 
+						create_character = {
+							random_traits = yes
+							age = 21
+							female = no				  
+							religion = sunni
+							culture = fulbe
+							dynasty = none
+							trait="tough_soldier"
+							trait="brave"
+							trait="wroth"
+							trait="agnostic"
+							attributes = {
+								martial = 5
+							}
+						}
+					}
+				}
+			}
+			prestige = -20
+		}
+	}
+}
