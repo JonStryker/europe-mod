@@ -1,0 +1,65 @@
+decisions = {
+
+	restore_soviet = {
+		is_high_prio = yes
+		potential = {
+			age = 20
+			independent = yes
+			religion = orthodox
+			culture = russian
+			is_playable = yes
+			NOT = { trait = incapable }
+			has_landed_title = e_russia
+			NOT = { global_flag = ussr }
+		}
+		allow = {
+			war = no
+			prisoner = no
+			in_command = no
+			NOT = { trait = in_hiding }
+			completely_controls = e_russia
+			completely_controls = k_belarus
+			completely_controls = d_luhansk
+			completely_controls = k_georgia
+			completely_controls = k_armenia
+			completely_controls = k_qazaqstan
+			completely_controls = k_estonia
+			completely_controls = k_latvia
+			wealth = 300
+			prestige = 3000
+			trait = communist
+		}
+		effect = {
+			set_global_flag = ussr
+			activate_title = { title = e_soviet status = yes }
+			wealth = -300
+			prestige = -2000
+			k_belarus = { de_jure_liege = e_soviet }
+			k_georgia = { de_jure_liege = e_soviet }
+			k_qazaqstan = { de_jure_liege = e_soviet }
+			k_estonia = { de_jure_liege = e_soviet }
+			k_latvia = { de_jure_liege = e_soviet }
+			k_karelia = { de_jure_liege = e_soviet }
+			k_russia = { de_jure_liege = e_soviet }
+			k_caucasia = { de_jure_liege = e_soviet }
+			k_armenia = { de_jure_liege = e_soviet }
+			k_uralia = { de_jure_liege = e_soviet }
+			k_krim = { de_jure_liege = e_soviet }
+			k_petersgrad = { de_jure_liege = e_soviet }
+			k_volgaland = { de_jure_liege = e_soviet }
+			d_luhansk = { de_jure_liege = k_caucasia }
+			primary_title = {
+				e_soviet = {
+					grant_title = ROOT
+					copy_title_laws = PREV
+				}
+			}
+			e_russia = {
+				destroy_landed_title = THIS
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
