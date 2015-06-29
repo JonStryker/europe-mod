@@ -1,0 +1,1905 @@
+namespace = Oryxevents
+
+character_event = {
+	id = Oryxevents.01
+	desc = EVTDESCOryxevents.01
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	
+	trigger = {
+		AND = {
+			in_command = no
+			NOT = { trait = communist }
+			NOT = { trait = socialist }
+			NOT = { trait = socialdemocrat }
+			NOT = { trait = centrist }
+			NOT = { trait = conservative }
+			NOT = { trait = neoliberal }
+			NOT = { trait = facist }
+			NOT = { trait = green }
+			NOT = { trait = globalist }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.01
+		custom_tooltip = {
+			random_list = {
+				20 = { add_trait = centrist }
+				20 = { add_trait = socialdemocrat }
+				20 = { add_trait = conservative }
+				10 = { add_trait = neoliberal }
+				10 = { add_trait = socialist }
+				5 = { add_trait = communist }
+				5 = { add_trait = facist }
+				5 = { add_trait = green }
+				5 = { add_trait = globalist }
+			}
+		}
+	}	
+}
+
+character_event = {
+	id = Oryxevents.02
+	desc = EVTDESCOryxevents.02
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	
+	trigger = {
+		AND = {
+			in_command = no
+			NOT = { trait = atheist }
+			NOT = { trait = agnostic }
+			NOT = { trait = traditional }
+			NOT = { trait = pious }
+			NOT = { trait = fundamentalist }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.02
+		custom_tooltip = {
+			random_list = {
+				30 = { add_trait = traditional }
+				25 = { add_trait = pious }
+				25 = { add_trait = agnostic }
+				10 = { add_trait = atheist }
+				10 = { add_trait = fundamentalist }
+			}
+		}
+	}	
+}
+
+#Character moves to the left communist
+character_event = {
+	id = Oryxevents.03
+	desc = EVTDESCOryxevents.03
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	max_age = 65
+	
+	trigger = {
+		in_command = no
+		trait = socialist
+		NOT = { trait = zealous }
+	}
+	
+	mean_time_to_happen = {
+		months = 700
+		
+		modifier = {
+			factor = 0.75
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				trait = amateurish_plotter
+				trait = intricate_webweaver
+				trait = elusive_shadow
+				trait = flamboyant_schemer
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.03
+		ai_chance = { 
+				factor = 30 
+		}
+		hidden_tooltip = {
+			remove_trait = socialist
+		}
+		add_trait = communist
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTBOryxevents.03
+		ai_chance = { 
+				factor = 70 
+		}
+		prestige = 30
+	}
+}
+
+#Centrist picks a side
+character_event = {
+	id = Oryxevents.04
+	desc = EVTDESCOryxevents.04
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	max_age = 65
+	
+	trigger = {
+		in_command = no
+		trait = centrist
+		NOT = { trait = zealous }
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 4.0
+			trait = craven
+		}
+		modifier = {
+			factor = 4.00
+			trait = shy 
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.04
+		ai_chance = { 
+				factor = 45 
+		}
+		add_trait = socialdemocrat
+		hidden_tooltip = {
+			remove_trait = centrist
+		}
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTBOryxevents.04
+		ai_chance = { 
+				factor = 45 
+		}
+		add_trait = conservative
+		hidden_tooltip = {
+			remove_trait = centrist
+		}
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTCOryxevents.04
+		ai_chance = { 
+				factor = 10 
+		}
+		prestige = -30
+		piety = -25
+	}
+}
+
+#Character moves from socialism in old age
+character_event = {
+	id = Oryxevents.05
+	desc = EVTDESCOryxevents.05
+	picture = GFX_evt_monk
+	
+	min_age = 50
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		in_command = no
+		NOT = { trait = zealous }
+		OR = {
+			trait = communist
+			trait = socialist
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		
+		modifier = {
+			factor = 0.75
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.05
+		ai_chance = { 
+				factor = 50 
+		}
+		hidden_tooltip = {
+			remove_trait = communist
+			remove_trait = socialist
+		}
+		add_trait = centrist
+	}
+	option = {
+		name = EVTOPTBOryxevents.05
+		ai_chance = { 
+				factor = 50 
+		}
+		random_list = {
+			60 = {}
+			40 = { add_trait = stressed }
+		}
+		prestige = 30
+	}
+}
+
+#Character Becomes Green
+character_event = {
+	id = Oryxevents.06
+	desc = EVTDESCOryxevents.06
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	max_age = 65
+	
+	trigger = {
+		in_command = no
+		NOT = { trait = green }
+		NOT = { trait = zealous }
+		NOT = { trait = globalist }
+	}
+	
+	mean_time_to_happen = {
+		months = 4000
+		
+		modifier = {
+			factor = 0.5
+			trait = gardener
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.06
+		ai_chance = { 
+				factor = 30 
+		}
+		hidden_tooltip = {
+			remove_trait = communist
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = centrist
+		}
+		add_trait = green
+		prestige = -25
+	}
+	option = {
+		name = EVTOPTBOryxevents.06
+		ai_chance = { 
+				factor = 70 
+		}
+		prestige = 25
+	}
+}
+
+#Character moves to the left from liberal
+character_event = {
+	id = Oryxevents.07
+	desc = EVTDESCOryxevents.07
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	max_age = 65
+	
+	trigger = {
+		in_command = no
+		trait = socialdemocrat
+		NOT = { trait = zealous }
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		
+		modifier = {
+			factor = 0.75
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 4.00
+			trait = shy 
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.07
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = socialist
+		hidden_tooltip = {
+			remove_trait = socialdemocrat
+		}
+		prestige = 50
+	}
+	option = {
+		name = EVTOPTBOryxevents.07
+		ai_chance = { 
+				factor = 50 
+		}
+		prestige = 50
+	}
+}
+
+#Character no longer green
+character_event = {
+	id = Oryxevents.08
+	desc = EVTDESCOryxevents.08
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		in_command = no
+		trait = green
+		NOT = { trait = zealous }
+	}
+	
+	mean_time_to_happen = {
+		months = 700
+		
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 4.00
+			trait = shy 
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.08
+		ai_chance = { 
+				factor = 70 
+		}
+		hidden_tooltip = {
+			remove_trait = green
+		}
+		add_trait = centrist
+		prestige = 25
+	}
+	option = {
+		name = EVTOPTBOryxevents.08
+		ai_chance = { 
+				factor = 30 
+		}
+		prestige = 50
+	}
+}
+
+#Character Becomes globalist
+character_event = {
+	id = Oryxevents.09
+	desc = EVTDESCOryxevents.09
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	max_age = 65
+	
+	trigger = {
+		in_command = no
+		NOT = { trait = green }
+		NOT = { trait = zealous }
+		NOT = { trait = globalist }
+	}
+	
+	mean_time_to_happen = {
+		months = 4000
+		
+		modifier = {
+			factor = 0.5
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.5
+			trait = charitable
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.09
+		ai_chance = { 
+				factor = 30 
+		}
+		hidden_tooltip = {
+			remove_trait = communist
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+			remove_trait = centrist
+		}
+		add_trait = globalist
+		prestige = -25
+	}
+	option = {
+		name = EVTOPTBOryxevents.09
+		ai_chance = { 
+				factor = 70 
+		}
+		prestige = 25
+	}
+}
+
+#Character no longer globalist
+character_event = {
+	id = Oryxevents.10
+	desc = EVTDESCOryxevents.10
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		in_command = no
+		trait = globalist
+		NOT = { trait = zealous }
+	}
+	
+	mean_time_to_happen = {
+		months = 700
+		
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 4.00
+			trait = shy 
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.10
+		ai_chance = { 
+				factor = 70 
+		}
+		hidden_tooltip = {
+			remove_trait = globalist
+		}
+		add_trait = centrist
+		prestige = 25
+	}
+	option = {
+		name = EVTOPTBOryxevents.10
+		ai_chance = { 
+				factor = 30 
+		}
+		prestige = 50
+	}
+}
+
+#Character moves to the right from conservative
+character_event = {
+	id = Oryxevents.11
+	desc = EVTDESCOryxevents.11
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	max_age = 65
+	
+	trigger = {
+		in_command = no
+		trait = conservative
+		NOT = { trait = zealous }
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		
+		modifier = {
+			factor = 0.75
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 4.00
+			trait = shy 
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.11
+		ai_chance = { 
+				factor = 50 
+		}
+		add_trait = neoliberal
+		hidden_tooltip = {
+			remove_trait = conservative
+		}
+		prestige = 50
+	}
+	option = {
+		name = EVTOPTBOryxevents.11
+		ai_chance = { 
+				factor = 50 
+		}
+		prestige = 50
+	}
+}
+
+#Character moves to the right facist
+character_event = {
+	id = Oryxevents.12
+	desc = EVTDESCOryxevents.12
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	max_age = 65
+	
+	trigger = {
+		in_command = no
+		trait = neoliberal
+		NOT = { trait = zealous }
+	}
+	
+	mean_time_to_happen = {
+		months = 800
+		
+		modifier = {
+			factor = 0.75
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				trait = amateurish_plotter
+				trait = intricate_webweaver
+				trait = elusive_shadow
+				trait = flamboyant_schemer
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.12
+		ai_chance = { 
+				factor = 30 
+		}
+		add_trait = facist
+		hidden_tooltip = {
+			remove_trait = neoliberal
+		}
+		prestige = 10
+	}
+	option = {
+		name = EVTOPTBOryxevents.12
+		ai_chance = { 
+				factor = 70 
+		}
+		prestige = 30
+	}
+}
+
+#Character moves from reactionism in old age
+character_event = {
+	id = Oryxevents.13
+	desc = EVTDESCOryxevents.13
+	picture = GFX_evt_monk
+	
+	min_age = 50
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		in_command = no
+		NOT = { trait = zealous }
+		OR = {
+			trait = facist
+			trait = neoliberal
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		
+		modifier = {
+			factor = 0.75
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.13
+		ai_chance = { 
+				factor = 50 
+		}
+		hidden_tooltip = {
+			remove_trait = neoliberal
+			remove_trait = facist
+		}
+		add_trait = centrist
+	}
+	option = {
+		name = EVTOPTBOryxevents.13
+		ai_chance = { 
+				factor = 50 
+		}
+		random_list = {
+			60 = {}
+			40 = { add_trait = stressed }
+		}
+		prestige = 30
+	}
+}
+
+#Healthy debates changes sides
+character_event = {
+	id = Oryxevents.14
+	desc = EVTDESCOryxevents.14
+	picture = GFX_evt_monk
+	
+	min_age = 16
+	prisoner = no
+	capable_only = yes
+	
+	trigger = {
+		in_command = no
+		NOT = { trait = zealous }
+		OR = {
+			trait = conservative
+			trait = socialdemocrat
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		
+		modifier = {
+			factor = 0.75
+			trait = cynical
+		}
+		modifier = {
+			factor = 3.0
+			trait = content
+		}
+		modifier = {
+			factor = 4.00
+			trait = shy 
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = gregarious
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.14
+		trigger = {
+			trait = conservative
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		hidden_tooltip = {
+			remove_trait = conservative'
+		}
+		add_trait = socialdemocrat
+	}
+	option = {
+		name = EVTOPTBOryxevents.14
+		trigger = {
+			trait = socialdemocrat
+		}
+		ai_chance = { 
+				factor = 50 
+		}
+		hidden_tooltip = {
+			remove_trait = socialdemocrat
+		}
+		add_trait = conservative
+	}
+	option = {
+		name = EVTOPTCOryxevents.14
+		ai_chance = { 
+				factor = 50 
+		}
+		prestige = 30
+	}
+}
+
+#Giving traits through edu
+character_event = {
+	id = Oryxevents.45
+	desc = EVTDESCOryxevents.45
+	picture = GFX_evt_family
+	
+	capable_only = yes
+	prisoner = no
+	min_age = 10
+	max_age = 12
+	
+	trigger = {
+		has_guardian = yes
+		AND = {
+			NOT = { trait = communist }
+			NOT = { trait = socialist }
+			NOT = { trait = socialdemocrat }
+			NOT = { trait = centrist }
+			NOT = { trait = conservative }
+			NOT = { trait = neoliberal }
+			NOT = { trait = facist }
+			NOT = { trait = green }
+			NOT = { trait = globalist }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTAOryxevents.45"
+		hidden_tooltip = {
+			guardian = {
+				character_event = {
+					id = Oryxevents.46
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+#Guardian instructs child on politics prt 1
+character_event = {
+	id = Oryxevents.46
+	desc = EVTDESCOryxevents.46
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.46
+		trigger = {
+			trait = communist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.49
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.46
+		trigger = {
+			trait = socialist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.50
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.46
+		trigger = {
+			trait = socialdemocrat
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.51
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDOryxevents.46
+		trigger = {
+			AND = {
+				NOT = { trait = communist }
+				NOT = { trait = socialist }
+				NOT = { trait = socialdemocrat }
+			}
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		hidden_tooltip = { character_event = { id = Oryxevents.47 } }
+	}
+}
+
+#Guardian instructs child on politics prt 2
+character_event = {
+	id = Oryxevents.47
+	desc = EVTDESCOryxevents.47
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.47
+		trigger = {
+			trait = conservative
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROMFROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.52
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.47
+		trigger = {
+			trait = neoliberal
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROMFROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.53
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.47
+		trigger = {
+			trait = facist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROMFROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.54
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDOryxevents.47
+		trigger = {
+			AND = {
+				NOT = { trait = conservative }
+				NOT = { trait = neoliberal }
+				NOT = { trait = facist }
+			}
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		hidden_tooltip = { character_event = { id = Oryxevents.48 } }
+	}
+}
+
+#Guardian instructs child on politics prt 3
+character_event = {
+	id = Oryxevents.48
+	desc = EVTDESCOryxevents.48
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.48
+		trigger = {
+			trait = centrist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROMFROMFROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.55
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.48
+		trigger = {
+			trait = green
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROMFROMFROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.56
+					days = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.48
+		trigger = {
+			trait = globalist
+		}
+		ai_chance = { 
+				factor = 100 
+		}
+		FROMFROMFROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.57
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+#Communist Child
+character_event = {
+	id = Oryxevents.49
+	desc = EVTDESCOryxevents.49
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.49
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				55 = { add_trait = communist }
+				15 = { add_trait = socialist }
+				10 = { add_trait = socialdemocrat }
+				5 = { add_trait = centrist }
+				2 = { add_trait = conservative }
+				2 = { add_trait = neoliberal }
+				1 = { add_trait = facist }
+				5 = { add_trait = green }
+				5 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+#Socialist Child
+character_event = {
+	id = Oryxevents.50
+	desc = EVTDESCOryxevents.50
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.50
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				10 = { add_trait = communist }
+				50 = { add_trait = socialist }
+				10 = { add_trait = socialdemocrat }
+				10 = { add_trait = centrist }
+				4 = { add_trait = conservative }
+				4 = { add_trait = neoliberal }
+				2 = { add_trait = facist }
+				5 = { add_trait = green }
+				5 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+#Liberal Child
+character_event = {
+	id = Oryxevents.51
+	desc = EVTDESCOryxevents.51
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.51
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				5 = { add_trait = communist }
+				10 = { add_trait = socialist }
+				40 = { add_trait = socialdemocrat }
+				10 = { add_trait = centrist }
+				20 = { add_trait = conservative }
+				4 = { add_trait = neoliberal }
+				1 = { add_trait = facist }
+				5 = { add_trait = green }
+				5 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+#Centrist Child
+character_event = {
+	id = Oryxevents.55
+	desc = EVTDESCOryxevents.55
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.55
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				5 = { add_trait = communist }
+				5 = { add_trait = socialist }
+				10 = { add_trait = socialdemocrat }
+				10 = { add_trait = centrist }
+				40 = { add_trait = conservative }
+				10 = { add_trait = neoliberal }
+				5 = { add_trait = facist }
+				5 = { add_trait = green }
+				5 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+#Conservative Child
+character_event = {
+	id = Oryxevents.52
+	desc = EVTDESCOryxevents.52
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.52
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				1 = { add_trait = communist }
+				4 = { add_trait = socialist }
+				20 = { add_trait = socialdemocrat }
+				10 = { add_trait = centrist }
+				40 = { add_trait = conservative }
+				10 = { add_trait = neoliberal }
+				5 = { add_trait = facist }
+				5 = { add_trait = green }
+				5 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+#Neo-Liberal Child
+character_event = {
+	id = Oryxevents.53
+	desc = EVTDESCOryxevents.53
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.53
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				2 = { add_trait = communist }
+				4 = { add_trait = socialist }
+				4 = { add_trait = socialdemocrat }
+				10 = { add_trait = centrist }
+				10 = { add_trait = conservative }
+				50 = { add_trait = neoliberal }
+				10 = { add_trait = facist }
+				5 = { add_trait = green }
+				5 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+#Fascist Child
+character_event = {
+	id = Oryxevents.54
+	desc = EVTDESCOryxevents.54
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.54
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				1 = { add_trait = communist }
+				2 = { add_trait = socialist }
+				2 = { add_trait = socialdemocrat }
+				5 = { add_trait = centrist }
+				10 = { add_trait = conservative }
+				15 = { add_trait = neoliberal }
+				55 = { add_trait = facist }
+				5 = { add_trait = green }
+				5 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+#Green Child
+character_event = {
+	id = Oryxevents.56
+	desc = EVTDESCOryxevents.56
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.56
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				2 = { add_trait = communist }
+				3 = { add_trait = socialist }
+				5 = { add_trait = socialdemocrat }
+				15 = { add_trait = centrist }
+				5 = { add_trait = conservative }
+				3 = { add_trait = neoliberal }
+				2 = { add_trait = facist }
+				50 = { add_trait = green }
+				15 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+#Globalist Child
+character_event = {
+	id = Oryxevents.57
+	desc = EVTDESCOryxevents.57
+	picture = GFX_evt_child_play
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.57
+		ai_chance = { 
+				factor = 100 
+		}
+		custom_tooltip = {
+			random_list = {
+				2 = { add_trait = communist }
+				3 = { add_trait = socialist }
+				5 = { add_trait = socialdemocrat }
+				15 = { add_trait = centrist }
+				5 = { add_trait = conservative }
+				3 = { add_trait = neoliberal }
+				2 = { add_trait = facist }
+				15 = { add_trait = green }
+				50 = { add_trait = globalist }
+			}
+		}
+	}
+}
+
+# Vassal believes liege should have right trait Left
+character_event = {
+	id = Oryxevents.58
+	desc = EVTDESCOryxevents.58
+	picture = GFX_evt_council
+	
+	only_playable = yes
+	capable_only = yes
+	prisoner = no
+	min_age = 16
+	
+	trigger = {
+		independent = no
+		war = no
+		OR = {
+			trait = communist
+			trait = socialist
+			trait = socialdemocrat
+		}
+		liege = {
+			NOT = { character = ROOT }
+			war = no
+			OR = {
+				trait = facist
+				trait = neoliberal
+				trait = conservative
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 0.25
+			trait = gregarious
+		}
+		modifier = {
+			factor = 4.0
+			trait = shy
+		}
+		modifier = {
+			factor = 0.25
+			trait = gregarious
+		}
+		modifier = {
+			factor = 4.0
+			trait = shy
+		}
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 10.0
+			trait = cynical
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.58
+		trigger = {
+			trait = communist
+		}
+		ai_chance = { factor = 100 }
+		liege = { 
+			character_event = { 
+				id = Oryxevents.59
+				days = 4 
+				tooltip = EVTTOOLTIPOryxevents.7
+			} 
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.58
+		trigger = {
+			OR = {
+				trait = socialdemocrat
+				trait = socialist
+			}
+		}
+		ai_chance = { factor = 100 }
+		liege = { 
+			character_event = { 
+				id = Oryxevents.60
+				days = 4 
+				tooltip = EVTTOOLTIPOryxevents.7
+			} 
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.58 
+		ai_chance = { factor = 0 }
+		prestige = -25
+	}
+}
+
+# Liege receives event Radical
+character_event = {
+	id = Oryxevents.59
+	desc = EVTDESCOryxevents.59
+	
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.59
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = shy
+			}
+			modifier = {
+				factor = 0.5
+				trait = charitable
+			}
+		}
+		custom_tooltip = {
+			random_list = {
+				60 = { add_trait = communist }
+				30 = { add_trait = socialist }
+				10 = { add_trait = socialdemocrat }
+			}
+		}
+		hidden_tooltip = {
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.59
+		ai_chance = { factor = 90 }
+		prestige = 25
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+}
+
+# Liege receives event Left
+character_event = {
+	id = Oryxevents.60
+	desc = EVTDESCOryxevents.60
+	
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.60
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = shy
+			}
+			modifier = {
+				factor = 0.5
+				trait = charitable
+			}
+		}
+		custom_tooltip = {
+			random_list = {
+				10 = { add_trait = communist }
+				20 = { add_trait = socialist }
+				40 = { add_trait = socialdemocrat }
+				20 = { add_trait = centrist }
+				10 = { add_trait = green }
+			}
+		}
+		hidden_tooltip = {
+			remove_trait = conservative
+			remove_trait = neoliberal
+			remove_trait = facist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.60 
+		ai_chance = { factor = 50 }
+		prestige = 25
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.60
+		tooltip_info = diplomacy
+		trigger = {
+			diplomacy = 12
+		}
+		ai_chance = { factor = 100 }
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.61
+					days = 1
+				}
+			}
+		}
+	}
+}	
+
+#Vassal gets a request from king
+character_event = {
+	id = Oryxevents.61
+	desc = EVTDESCOryxevents.61
+	
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAOryxevents.61
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = shy
+			}
+			modifier = {
+				factor = 0.5
+				trait = charitable
+			}
+		}
+		custom_tooltip = {
+			random_list = {
+				10 = { add_trait = facist }
+				20 = { add_trait = neoliberal }
+				40 = { add_trait = conservative }
+				20 = { add_trait = centrist }
+				10 = { add_trait = globalist }
+			}
+		}
+		hidden_tooltip = {
+			remove_trait = communist
+			remove_trait = socialist
+			remove_trait = socialdemocrat
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.61
+		ai_chance = { factor = 50 }
+		prestige = -50
+		piety = -25
+	}
+}
+
+# Vassal believes liege should have right trait Right
+character_event = {
+	id = Oryxevents.62
+	desc = EVTDESCOryxevents.62
+	picture = GFX_evt_council
+	
+	only_playable = yes
+	capable_only = yes
+	prisoner = no
+	min_age = 16
+	
+	trigger = {
+		independent = no
+		war = no
+		OR = {
+			trait = facist
+			trait = neoliberal
+			trait = conservative
+		}
+		liege = {
+			NOT = { character = ROOT }
+			war = no
+			OR = {
+				trait = communist
+				trait = socialist
+				trait = socialdemocrat
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 0.25
+			trait = gregarious
+		}
+		modifier = {
+			factor = 4.0
+			trait = shy
+		}
+		modifier = {
+			factor = 0.25
+			trait = gregarious
+		}
+		modifier = {
+			factor = 4.0
+			trait = shy
+		}
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 10.0
+			trait = cynical
+		}
+	}
+	
+	option = {
+		name = EVTOPTAOryxevents.62
+		trigger = {
+			trait = facist
+		}
+		ai_chance = { factor = 100 }
+		liege = { 
+			character_event = { 
+				id = Oryxevents.63
+				days = 4 
+				tooltip = EVTTOOLTIPOryxevents.7
+			} 
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.62
+		trigger = {
+			OR = {
+				trait = conservative
+				trait = neoliberal
+			}
+		}
+		ai_chance = { factor = 100 }
+		liege = { 
+			character_event = { 
+				id = Oryxevents.64
+				days = 4 
+				tooltip = EVTTOOLTIPOryxevents.7
+			} 
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.62 
+		ai_chance = { factor = 0 }
+		prestige = -25
+	}
+}
+
+# Liege receives event Reactionary
+character_event = {
+	id = Oryxevents.63
+	desc = EVTDESCOryxevents.63
+	
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.63
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = shy
+			}
+			modifier = {
+				factor = 0.5
+				trait = charitable
+			}
+		}
+		custom_tooltip = {
+			random_list = {
+				60 = { add_trait = facist }
+				30 = { add_trait = neoliberal }
+				10 = { add_trait = conservative }
+			}
+		}
+		hidden_tooltip = {
+			remove_trait = communist
+			remove_trait = socialdemocrat
+			remove_trait = socialist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.63
+		ai_chance = { factor = 90 }
+		prestige = 25
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+}
+
+# Liege receives event Left
+character_event = {
+	id = Oryxevents.64
+	desc = EVTDESCOryxevents.64
+	
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAOryxevents.64
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = shy
+			}
+			modifier = {
+				factor = 0.5
+				trait = charitable
+			}
+		}
+		custom_tooltip = {
+			random_list = {
+				10 = { add_trait = facist }
+				20 = { add_trait = neoliberal }
+				40 = { add_trait = conservative }
+				20 = { add_trait = centrist }
+				10 = { add_trait = globalist }
+			}
+		}
+		hidden_tooltip = {
+			remove_trait = socialdemocrat
+			remove_trait = socialist
+			remove_trait = communist
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.64
+		ai_chance = { factor = 50 }
+		prestige = 25
+		opinion = {
+			modifier = opinion_angry
+			who = ROOT
+			years = 5
+		}
+	}
+	option = {
+		name = EVTOPTCOryxevents.64
+		tooltip_info = diplomacy
+		trigger = {
+			diplomacy = 12
+		}
+		ai_chance = { factor = 100 }
+		FROM = {
+			hidden_tooltip = {
+				character_event = {
+					id = Oryxevents.65
+					days = 1
+				}
+			}
+		}
+	}
+}	
+
+#Vassal gets a request from king
+character_event = {
+	id = Oryxevents.65
+	desc = EVTDESCOryxevents.65
+	
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAOryxevents.65
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = shy
+			}
+			modifier = {
+				factor = 0.5
+				trait = charitable
+			}
+		}
+		custom_tooltip = {
+			random_list = {
+				10 = { add_trait = communist }
+				20 = { add_trait = socialist }
+				40 = { add_trait = socialdemocrat }
+				20 = { add_trait = centrist }
+				10 = { add_trait = green }
+			}
+		}
+		hidden_tooltip = {
+			remove_trait = facist
+			remove_trait = neoliberal
+			remove_trait = conservative
+		}
+	}
+	option = {
+		name = EVTOPTBOryxevents.65
+		ai_chance = { factor = 50 }
+		prestige = -50
+		piety = -25
+	}
+}
