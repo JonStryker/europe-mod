@@ -40,6 +40,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = preparing_hajj
@@ -49,7 +50,6 @@ character_event = {
 			prisoner = no
 			NOT = { trait = on_hajj }
 			NOT = { trait = hajjaj }
-			religion_group = muslim
 			NOT = {	has_character_flag = ramadan }
 			NOT = { trait = in_hiding }
 		}
@@ -144,6 +144,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = preparing_hajj
@@ -294,6 +295,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = preparing_hajj
@@ -338,6 +340,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = preparing_hajj
@@ -473,12 +476,12 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	only_rulers = yes
 	
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
-		is_ruler = yes
 	}
 	
 	option = {
@@ -609,12 +612,12 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	only_rulers = yes
 	
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
-		is_ruler = yes
 	}
 	
 	option = {
@@ -640,13 +643,12 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	only_rulers = yes
 	
 	is_triggered_only = yes
 
 	trigger = {
 		trait = on_hajj
-		is_ruler = yes
-
 	}
 	
 	option = {
@@ -707,21 +709,19 @@ character_event = {
 	trigger = {
 		trait = on_hajj
 		on_hajj = {
-			NOT = {
-				has_character_flag = hajj_arrived_in_mecca
-				opinion = { who = ROOT value = 0 }
-			}
+			is_rival = ROOT
+			prisoner = no
+			NOT = { has_character_flag = hajj_arrived_in_mecca }
 		}
 	}
 	
 	immediate = {
-		on_hajj = {
+		random_playable_ruler = {
 			limit = {
+				is_rival = ROOT
 				prisoner = no
-				NOT = {
-					has_character_flag = hajj_arrived_in_mecca
-					opinion = { who = ROOT value = 0 }
-				}
+				trait = on_hajj
+				NOT = { has_character_flag = hajj_arrived_in_mecca }
 			}
 			set_character_flag = hajj_rival
 		}
@@ -1622,6 +1622,10 @@ character_event = {
 			remove_character_modifier = voice_of_satan
 			remove_character_modifier = voice_of_jesus
 			remove_character_modifier = holy_comet
+			remove_character_modifier = lycanthropy
+			clr_character_flag = demon_child
+			clr_character_flag = demon_child_fake
+			clr_character_flag = child_exorcism
 		}
 		if = {
 			limit = { trait = lunatic }
@@ -1682,6 +1686,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
@@ -1725,6 +1730,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
@@ -1755,6 +1761,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
@@ -1831,11 +1838,11 @@ character_event = {
 	only_men = yes
 	min_age = 35
 	capable_only = yes
+	only_rulers = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
-		is_ruler = yes
-		religion_group = muslim
 		NOT = { trait = hajjaj }
 		NOT = { trait = mujahid}
 		NOT = { trait = on_hajj }
@@ -1910,12 +1917,12 @@ character_event = {
 	only_men = yes
 	min_age = 30
 	capable_only = yes
+	only_rulers = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		is_female = no
-		is_ruler = yes
-		religion_group = muslim
 		war = no
 		has_character_flag = promise_hajj
 		any_demesne_title = {
@@ -1950,12 +1957,12 @@ character_event = {
 	only_men = yes
 	min_age = 30
 	capable_only = yes
+	only_rulers = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		is_female = no
-		is_ruler = yes
-		religion_group = muslim
 		war = no
 		has_character_flag = promise_jihad
 		prisoner = no		
@@ -1988,10 +1995,10 @@ character_event = {
 	min_age = 30
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = promise_jihad
-		religion_group = muslim
 		war = yes
 		any_war = { religion_group = christian }
 	
@@ -2387,6 +2394,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
@@ -2416,6 +2424,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
@@ -2445,6 +2454,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
@@ -2479,6 +2489,7 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
