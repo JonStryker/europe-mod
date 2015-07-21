@@ -469,6 +469,7 @@ character_event = {
 	
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		is_female = yes
@@ -477,7 +478,6 @@ character_event = {
 		is_married = yes
 		is_pregnant = no
 		is_main_spouse = yes
-		religion_group = muslim
 		spouse = { demesne_size = 5 }
 		spouse = { religion_group = muslim }
 		NOT = { has_character_flag = envious_mother }
@@ -620,7 +620,8 @@ character_event = {
 	
 	capable_only = yes
 	prisoner = no
-	
+	religion_group = muslim
+
 	trigger = {
 		is_female = yes
 		num_of_children = 1
@@ -628,14 +629,8 @@ character_event = {
 		is_married = yes
 		is_pregnant = no
 		NOT = { trait = in_hiding }
-		religion_group = muslim
-		any_child = {
-			is_female = no
-			is_alive = yes
-			is_primary_heir = no
-			is_pretender = yes
-		}
 		spouse = {
+			is_ruler = yes
 			any_child = { 
 				is_primary_heir = yes
 				ai = yes
@@ -644,6 +639,12 @@ character_event = {
 				mother = { NOT = { character = ROOT } }
 				at_location = ROOT
 			}
+		}
+		any_child = {
+			is_female = no
+			is_alive = yes
+			is_primary_heir = no
+			is_pretender = yes
 		}
 		NOT = {
 			any_child = { is_primary_heir = yes	}
@@ -888,6 +889,7 @@ character_event = {
 	
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		is_female = yes
@@ -896,7 +898,6 @@ character_event = {
 		is_married = yes
 		is_pregnant = no
 		NOT = { trait = in_hiding }
-		religion_group = muslim
 		any_child = {
 			is_female = no
 			is_alive = yes
