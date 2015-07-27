@@ -31,7 +31,7 @@ targetted_decisions = {
 			always = yes
 		}
 		effect = {
-			character_event = { id = WoL.1103 tooltip = EVTTOOLTIP64046 }
+			FROM = { character_event = { id = WoL.1109 tooltip = EVTTOOLTIP64046 } }
 		}
 		revoke_allowed = {
 			always = no
@@ -78,7 +78,6 @@ targetted_decisions = {
 					NOT = { trait = imbecile }
 					NOT = { trait = chaste }
 					NOT = { trait = shy }
-					NOT = { num_of_lovers = 5 }
 				}
 			}
 		}
@@ -199,7 +198,55 @@ targetted_decisions = {
 			}
 			modifier = {
 				factor = 0
-				num_of_lovers = 3
+				is_female = yes
+				has_character_modifier = lustful_affair_timer
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					is_female = no
+					num_of_children = 3
+				}
+			}
+			modifier = {
+				factor = 0.1
+				FROM = {
+					is_female = no
+					num_of_children = 6
+				}
+			}
+			modifier = {
+				factor = 0.5
+				FROM = {
+					is_female = no
+					num_of_children = 8
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				num_of_lovers = 1
+				NOT = { trait = lustful }
+				NOT = { trait = hedonist }
+				NOT = { trait = seducer }
+				NOT = { trait = seductress }
+				NOT = { has_focus = focus_seduction }
+			}
+			
+			modifier = {
+				factor = 0.25
+				ai = no
+			}
+			
+			modifier = {
+				factor = 0.1
+				is_ruler = no
+				any_spouse = {
+					ai = no
+				}
+				any_consort = {
+					ai = no
+				}
 			}
 			
 			modifier = {
@@ -215,16 +262,9 @@ targetted_decisions = {
 			}
 			
 			modifier = {
-				factor = 0.25
-				num_of_lovers = 1
-			}
-			modifier = {
-				factor = 0.25
-				num_of_lovers = 2
-			}
-			modifier = {
 				factor = 0
 				OR = {
+					trait = chaste
 					trait = ugly
 					trait = dwarf
 					trait = inbred
@@ -270,6 +310,78 @@ targetted_decisions = {
 				factor = 10
 				trait = fair
 			}
+		}
+	}
+	
+	stop_seduce_decision = {
+		filter = self
+		ai_target_filter = self
+	
+		potential = {
+			ai = no
+			is_marriage_adult = yes
+			has_focus = focus_seduction
+			has_character_flag = seduction_confirmed
+			has_any_opinion_modifier = opinion_seducing
+		}
+		
+		effect = {
+			random_opinion_modifier_target = {
+				limit = {
+					ROOT = {
+						has_opinion_modifier = {
+							who = PREV
+							name = opinion_seducing
+						}
+					}
+				}
+				save_event_target_as = target_seduced
+				ROOT = { character_event = { id = WoL.118 tooltip = stop_seduce_decision_tt } }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	stop_seduce_decision_target = {
+		ai_target_filter = realm
+	
+		from_potential = {
+			ai = no
+			is_marriage_adult = yes
+			has_focus = focus_seduction
+			has_character_flag = seduction_confirmed
+			has_any_opinion_modifier = opinion_seducing
+		}
+		
+		potential = {
+			FROM = {
+				has_opinion_modifier = {
+					who = ROOT
+					name = opinion_seducing
+				}
+			}
+		}
+		
+		effect = {
+			save_event_target_as = target_seduced
+			hidden_tooltip = {
+				FROM = { character_event = { id = WoL.118 } }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	
@@ -366,6 +478,76 @@ targetted_decisions = {
 		}
 	}
 	
+	stop_spy_on_decision = {
+		filter = self
+		ai_target_filter = self
+	
+		potential = {
+			ai = no
+			has_focus = focus_intrigue
+			has_character_flag = spy_on_confirmed
+			has_any_opinion_modifier = opinion_spying_on
+		}
+		
+		effect = {
+			random_opinion_modifier_target = {
+				limit = {
+					ROOT = {
+						has_opinion_modifier = {
+							who = PREV
+							name = opinion_spying_on
+						}
+					}
+				}
+				save_event_target_as = target_spy_on
+				ROOT = { character_event = { id = WoL.2069 tooltip = stop_spy_on_decision_tt } }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	stop_spy_on_decision_target = {
+		ai_target_filter = realm
+	
+		from_potential = {
+			ai = no
+			has_focus = focus_intrigue
+			has_character_flag = spy_on_confirmed
+			has_any_opinion_modifier = opinion_spying_on
+		}
+		
+		potential = {
+			FROM = {
+				has_opinion_modifier = {
+					who = ROOT
+					name = opinion_spying_on
+				}
+			}
+		}
+		
+		effect = {
+			save_event_target_as = target_spy_on
+			hidden_tooltip = {
+				FROM = { character_event = { id = WoL.2069 } }
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	decision_break_free = {
 		is_high_prio = yes
 	
@@ -459,7 +641,6 @@ targetted_decisions = {
 			prisoner = no
 			war = no
 			NOT = { trait = incapable }
-			NOT = { has_character_modifier = party_timer }
 			NOT = { had_character_flag = { flag = inviting_guests_to_party_timer days = 90 } }
 		}
 		potential = {
@@ -472,14 +653,6 @@ targetted_decisions = {
 			NOT = { character = FROM }                            # Can't do this decision on yourself...
 		}
 		allow = {
-			FROM = {
-				OR = {
-					NOT = { religion_group = muslim }
-					trait = decadent
-					trait = hedonist
-					trait = drunkard
-				}
-			}
 			same_realm = FROM   # Can only invite characters in same realm!
 			NOT = { has_character_modifier = organizing_party }
 			NOT = { has_character_modifier = party_carousing }
@@ -487,6 +660,22 @@ targetted_decisions = {
 				reverse_has_opinion_modifier = {
 					modifier = opinion_declined_party
 					who = FROM
+				}
+			}
+			ROOT = {
+				custom_tooltip = {
+					text = tooltip_not_busy
+					NOT = { has_character_flag = do_not_disturb }
+				}
+			}
+			FROM = {
+				
+				NOT = { has_character_modifier = party_timer }
+				OR = {
+					NOT = { religion_group = muslim }
+					trait = decadent
+					trait = hedonist
+					trait = drunkard
 				}
 			}
 		}
@@ -556,6 +745,7 @@ targetted_decisions = {
 			OR = {
 				is_female = no
 				religion_group = pagan_group
+				is_nomadic = yes
 				religion = cathar
 				religion = buddhist
 				religion = bogomilist
@@ -573,7 +763,6 @@ targetted_decisions = {
 			NOT = { character = FROM }
 			is_ill = no
 			NOT = { trait = incapable }
-			NOT = { age = 60 }
 		}
 		
 		allow = {
@@ -600,6 +789,7 @@ targetted_decisions = {
 				}
 				NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_fled_duel } }
 			}
+			ROOT = { NOT = { age = 60 } }
 			custom_tooltip = {
 				text = duel_tooltip_fought_before
 				hidden_tooltip = {
@@ -627,11 +817,16 @@ targetted_decisions = {
 				hidden_tooltip = { ### Not female or challenger religion accepts female warriors
 					OR = {
 						is_female = no
-						FROM = { religion_group = pagan_group }
-						FROM = { religion = cathar }
-						FROM = { religion = buddhist }
-						FROM = { religion = bogomilist }
-						FROM = { religion = messalian }
+						FROM = { 
+							OR = {
+								is_nomadic = yes
+								religion_group = pagan_group
+								religion = cathar
+								religion = buddhist
+								religion = bogomilist
+								religion = messalian
+							}
+						}
 					} ### Not priest or challenger religion is pagan
 					OR = {
 						is_priest = no
