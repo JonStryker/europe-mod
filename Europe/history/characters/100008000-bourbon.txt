@@ -4,6 +4,33 @@
 ##	France					100146				100008500-xxx
 #########################################################################
 
+100021107={ # King       François                  de France                                (1494-1547)
+	name="François of France"
+	dynasty=0
+	religion=catholic culture=german
+	1494.01.01={birth=yes}
+	1530.01.01={add_spouse=100021105}
+	1547.07.31={death=yes}
+}
+100021113={ #            Elisabeth                 de France                                (1545-1568)
+	name="Elisabeth of France"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1545.04.02={birth=yes}
+	1568.10.03={death=yes}
+}
+100021175={ # King       Charles                   de France                                (1550-1574)
+	name="Charles of France"
+	dynasty=0
+	religion=catholic culture=frankish
+	father=100100766	# Henri de Valois
+	1550.06.27={birth=yes}
+	1570.11.26={add_spouse=100021174}
+	1574.05.30={death=yes}
+}
+
+
 
 ##	France					100146				100008500-xxx		RULING BRANCH
 100008777={# 2g) Jaime Luitpold Isabelino Enrique Alejandro (San Ildefonso 23 Jun 1908-St.Gallen 20 Mar 1975);
@@ -13,31 +40,31 @@
 	name=Jaime
 	dynasty=100146
 	religion=catholic culture=castillan
-	father=100025063 # Alfonso
-	mother=100010645 # Victoria Eugenie von Battenberg
+	father=100025063	# Alfonso de Bourbon
+	mother=100010645	# Victoria Mountbatten
 	1908.06.23={birth=yes}
-	1935.03.04={add_spouse=100008778} # Emanuela de Dampierre
+	1935.03.04={add_spouse=100008778}	# Emanuela de Dampierre
 	1947.01.01={remove_spouse=100008778}
-	1949.08.03={add_spouse=100008779} # Charlotte Tiedemann
+	1949.08.03={add_spouse=100008779}	# Charlotte Tiedemann
 	1975.03.20={death=yes}
 }
 	100008780={# 1k) Alfonso Jaime Marcelino Manuel (Rome 20 Apr 1936 - Colorado 30 Jan 1989); m.Madrid 8 Mar 1972 (div 1982) Maria del Carmen Martínez-Bordiu y Franco (b.Madrid 26 Feb 1951)
 		name=Alfonso
 		dynasty=100146
 		religion=catholic culture=castillan
-		father=100008777 # Jaime Luitpold
-		mother=100008778 # Emanuela de Dampierre
+		father=100008777	# Jaime de Bourbon
+		mother=100008778	# Emanuela de Dampierre
 		1936.04.20={birth=yes}
-		1972.03.08={add_spouse=100008781}	# Maria del Carmen Martínez-Bordiu y Franco
-		1982.01.01={remove_spouse=100008781}
+		1972.03.08={add_spouse=100025954}	# Maria del Carmen Seymour
+		1982.01.01={remove_spouse=100025954}
 		1989.01.30={death=yes}
 	}
 		100008782={# 1l) Francisco Alfonso Jaime Cristobal Victor José Gonzalo Cecilio de Borbón y Martinez-Bordiu, Duc de Bourbon (Madrid 22 Nov 1972-Pamplona 7 Feb 1984)
-			name="Francisco Alfonso"
+			name=Francisco
 			dynasty=100146
 			religion=catholic culture=castillan
-			father=100008780 # Alfonso Jaime
-			mother=100008781 # Maria del Carmen Martínez-Bordiu y Franco
+			father=100008780	# Alfonso de Bourbon
+			mother=100025954	# Maria del Carmen Seymour
 			1972.11.22={birth=yes}
 			1984.02.07={death=yes}
 		}
@@ -45,8 +72,8 @@
 			name="Luis Alfonso"
 			dynasty=100146
 			religion=catholic culture=castillan
-			father=100008780 # Alfonso Jaime
-			mother=100008781 # Maria del Carmen Martínez-Bordiu y Franco
+			father=100008780	# Alfonso de Bourbon
+			mother=100025954	# Maria del Carmen Seymour
 			1983.10.21={birth=yes}
 			2004.11.05={add_spouse=100008793}	# Maria Margarita Vargas Santaella
 		}
@@ -55,32 +82,32 @@
 				female=yes
 				dynasty=100146
 				religion=catholic culture=castillan
-				father=100008783 # Luis Alfonso
-				mother=100008793 # Maria Margarita Vargas Santaella
+				father=100008783	# Luis Alfonso de Bourbon
+				mother=100008793	# Maria Margarita Vargas Santaella
 				2007.03.05={birth=yes}
 			}
 			100008785={# 2m) Luis (b.New York 28 May 2010)
 				name=Luis
 				dynasty=100146
 				religion=catholic culture=castillan
-				father=100008783 # Luis Alfonso
-				mother=100008793 # Maria Margarita Vargas Santaella
+				father=100008783	# Luis Alfonso de Bourbon
+				mother=100008793	# Maria Margarita Vargas Santaella
 				2010.05.28={birth=yes}
 			}
 			100008786={# 3m) Alfonso, Duc de Berry (b.New York 28 May 2010)
 				name=Alfonso
 				dynasty=100146
 				religion=catholic culture=castillan
-				father=100008783 # Luis Alfonso
-				mother=100008793 # Maria Margarita Vargas Santaella
+				father=100008783	# Luis Alfonso de Bourbon
+				mother=100008793	# Maria Margarita Vargas Santaella
 				2010.05.28={birth=yes}
 			}
 	100008787={# 2k) Gonzalo Victor Alfonso (Rome 5 Jun 1937-Lausanne 27 May 2000); m.1st Puerto Vallarta 28 Jan 1983 (div 1983) Maria del Carmen Harto Monteallegre (b.Vallecas, Madrid 23 Apr 1947); m.2d Valladolid 30 Jun 1984 (div 1989) Maria de las Mercedes Licer y García (b.Valencia 15 Oct 1963); m.3d Genoa 12 Dec 1992 Emanuela Pratolongo (b.Genoa 22 Mar 1960)
 		name="Gonzalo Victor"
 		dynasty=100146
 		religion=catholic culture=frankish
-		father=100008777 # Jaime Luitpold
-		mother=100008778 # Emanuela de Dampierre
+		father=100008777	# Jaime de Bourbon
+		mother=100008778	# Emanuela de Dampierre
 		1937.06.05={birth=yes}
 		1983.01.01={remove_spouse=100008788}
 		1983.01.28={add_spouse=100008788}	# Maria del Carmen Harto Monteallegre
@@ -94,8 +121,8 @@
 			female=yes
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008787 # Gonzalo Victor
-			mother=100008788 # Maria del Carmen Harto Monteallegre
+			father=100008787	# Gonzalo Victor de Bourbon
+			mother=100008788	# Maria del Carmen Harto Monteallegre
 			1968.06.19={birth=yes}
 			1995.07.27={add_spouse=100008792}	# Richard Carl McMasters
 		}
@@ -107,7 +134,7 @@
 	name=Henri
 	dynasty=10066
 	religion=catholic culture=frankish
-	father=100100766
+	father=100100766	# Henri de Valois
 	1551.09.19={birth=yes}
 	1589.08.02={death=yes}
 }
@@ -115,35 +142,44 @@
 	name=Antoine
 	dynasty=100146
 	religion=catholic culture=frankish
-	father=100025413
+	father=100025413	# Charles de Bourbon
 	1518.04.22={birth=yes}
 	1562.11.17={death=yes}
 }
-	100025411={
+	100025411={# Henri
 		name=Henri
 		dynasty=100146
 		religion=catholic culture=frankish
-		father=100025412
+		father=100025412	# Antoine de Bourbon
 		1553.12.13={birth=yes}
 		1610.05.14={death=yes}
 	}
+		100021129={ # Elisabeth de France (1602-1644)
+			name=Elisabeth
+			female=yes
+			dynasty=100146
+			religion=catholic culture=frankish
+			father=100025411	# Henri de Bourbon
+			1602.11.22={birth=yes}
+			1644.10.06={death=yes}
+		}
 100008500={# LOUIS XIII of France (Fontainebleau 27 Sep 1601-14 May 1643);m.at Bordeaux 24 Nov 1615 Anna of Spain (Valladolid 22 Sep 1601-Louvre 20 Jan 1666)
 	name=Louis
 	dynasty=100146
 	religion=catholic culture=frankish
-	father=100025411
+	father=100025411	# Henri de Bourbon
 	1601.09.27={birth=yes}
-	1615.11.24={add_spouse=100021125}	# Anna of Spain
+	# Anna Maria v. Habsburg
 	1643.05.14={death=yes}
 }
 	100008502={# 1a) LOUIS XIV, King of France (St-Germain-en-Laye 5 Sep 1638-Versailles 1 Sep 1715); m.1st Fuenterrabía 3 Jun 1660 Maria Teresa of Spain (Madrid 20 Sep 1638-Versailles 30 Jul 1683); m.2nd at Versailles ca 12 Jun 1684 Françoise d'Aubigné (Niort 27 Nov 1635-St.Cyr 15 Apr 1719; bur St.Cyr)
 		name=Louis
 		dynasty=100146
 		religion=catholic culture=frankish
-		father=100008500 # Louis
-		mother=100021125 # Anna of Spain
+		father=100008500	# Louis de Bourbon
+		mother=100021125	# Anna Maria v. Habsburg
 		1638.09.05={birth=yes}
-		1660.06.03={add_spouse=100021137}	# Maria Teresa of Spain
+		1660.06.03={add_spouse=100021137}	# Maria Teresa v. Habsburg
 		1684.06.12={add_spouse=100008504}	# Françoise d'Aubigné
 		1715.09.01={death=yes}
 	}
@@ -151,10 +187,10 @@
 			name=Louis
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008502 # Louis
-			mother=100021137 # Maria Teresa of Spain
+			father=100008502	# Louis de Bourbon
+			mother=100021137	# Maria Teresa v. Habsburg
 			1661.11.01={birth=yes}
-			1680.01.28={add_spouse=100008506}	# Marie Anne of Bavaria
+			1680.01.28={add_spouse=100008506}	# Marie Anne von Bayern
 			1691.01.01={add_spouse=100008507}	# Marie Émilie Joly de Choin
 			1711.04.14={death=yes}
 		}
@@ -162,20 +198,20 @@
 				name=Louis
 				dynasty=100146
 				religion=catholic culture=frankish
-				father=100008505 # Louis
-				mother=100008506 # Marie Anne of Bavaria
+				father=100008505	# Louis de Bourbon
+				mother=100008506	# Marie Anne von Bayern
 				1682.08.06={birth=yes}
-				1696.09.15={add_spouse=100008509}	# Marie Adélaïde of Savoy
+				1696.09.15={add_spouse=100070118}	# Marie Adélaïde de Savoie
 				1712.02.18={death=yes}
 			}
 				100008512={# 3d) LOUIS XV, King of France (Versailles 15 Feb 1710-Versailles 10 May 1774); m.Strasbourg 15 Aug 1725 Pss Marie Lesczynski(Poznan 23 Jun 1703-Versailles 24 Jun 1768)
 					name=Louis
 					dynasty=100146
 					religion=catholic culture=frankish
-					father=100008508 # Louis
-					mother=100008509 # Marie Adélaïde of Savoy
+					father=100008508	# Louis de Bourbon
+					mother=100070118	# Marie Adélaïde de Savoie
 					1710.02.15={birth=yes}
-					1725.08.15={add_spouse=100008513}	# Marie Lesczynski
+					1725.08.15={add_spouse=100008513}	# PSS Marie Lesczynski
 					1774.05.10={death=yes}
 				}
 					100008514={# 1e) Louise Élisabeth (Versailles 14 Aug 1727-Versailles 6 Dec 1759); m.Versailles 26 Aug 1739 Duke Filippo of Spain (Madrid 15 Mar 1720-Alessandria 18 Jul 1765)
@@ -184,8 +220,8 @@
 						dynasty=100146
 						religion=catholic culture=frankish
 						add_trait=twin
-						father=100008512 # Louis
-						mother=100008513 # Marie Lesczynski
+						father=100008512	# Louis de Bourbon
+						mother=100008513	# PSS Marie Lesczynski
 						1727.08.14={birth=yes}
 						1759.12.06={death=yes}
 					}
@@ -195,8 +231,8 @@
 						dynasty=100146
 						religion=catholic culture=frankish
 						add_trait=twin
-						father=100008512 # Louis
-						mother=100008513 # Marie Lesczynski
+						father=100008512	# Louis de Bourbon
+						mother=100008513	# PSS Marie Lesczynski
 						1727.08.14={birth=yes}
 						1752.02.10={death=yes}
 					}
@@ -204,19 +240,19 @@
 						name=Louis
 						dynasty=100146
 						religion=catholic culture=frankish
-						father=100008512 # Louis
-						mother=100008513 # Marie Lesczynski
+						father=100008512	# Louis de Bourbon
+						mother=100008513	# PSS Marie Lesczynski
 						1729.09.04={birth=yes}
-						1744.12.18={add_spouse=100025398}	# Maria Teresa of Spain
-						1747.01.10={add_spouse=100008520}	# Josepha of Saxony
+						1744.12.18={add_spouse=100025398}	# Maria Teresa de Bourbon
+						1747.01.10={add_spouse=100008520}	# PSS Josepha von Sachsen
 						1765.12.20={death=yes}
 					}
 						100008523={# 3f) Louis Joseph Xavier Duc de Bourgogne (Versailles 13 Sep 1751-Versailles 22 Mar 1761)
 							name="Louis Joseph"
 							dynasty=100146
 							religion=catholic culture=frankish
-							father=100008518 # Louis Ferdinand
-							mother=100008520 # Josepha of Saxony
+							father=100008518	# Louis de Bourbon
+							mother=100008520	# PSS Josepha von Sachsen
 							1751.09.13={birth=yes}
 							1761.03.22={death=yes}
 						}
@@ -224,10 +260,10 @@
 							name=Louis
 							dynasty=100146
 							religion=catholic culture=frankish
-							father=100008518 # Louis Ferdinand
-							mother=100008520 # Josepha of Saxony
+							father=100008518	# Louis de Bourbon
+							mother=100008520	# PSS Josepha von Sachsen
 							1754.08.23={birth=yes}
-							1770.04.18={add_spouse=100020655}	# Marie Antonie of Austria
+							1770.04.18={add_spouse=100020655}	# Marie Antonie v. Habsburg-Lothringen
 							1793.01.21={death=yes}
 						}
 							100008527={# 1g) Marie Thérèse Charlotte, Cts de Marnes (Versailles 19 Dec 1778-Schloß Frohsdorf 19 Oct 1851; bur Castagnavizza); m.Mitau 10 Jun 1799 King Louis of France
@@ -235,8 +271,8 @@
 								female=yes
 								dynasty=100146
 								religion=catholic culture=frankish
-								father=100008525 # Louis
-								mother=100020655 # Marie Antonie of Austria
+								father=100008525	# Louis de Bourbon
+								mother=100020655	# Marie Antonie v. Habsburg-Lothringen
 								1778.12.19={birth=yes}
 								1851.10.19={death=yes}
 							}
@@ -244,8 +280,8 @@
 								name="Louis Joseph"
 								dynasty=100146
 								religion=catholic culture=frankish
-								father=100008525 # Louis
-								mother=100020655 # Marie Antonie of Austria
+								father=100008525	# Louis de Bourbon
+								mother=100020655	# Marie Antonie v. Habsburg-Lothringen
 								1781.10.22={birth=yes}
 								1789.06.04={death=yes}
 							}
@@ -253,8 +289,8 @@
 								name=Louis
 								dynasty=100146
 								religion=catholic culture=frankish
-								father=100008525 # Louis
-								mother=100020655 # Marie Antonie of Austria
+								father=100008525	# Louis de Bourbon
+								mother=100020655	# Marie Antonie v. Habsburg-Lothringen
 								1785.03.27={birth=yes}
 								1795.06.08={death=yes}
 							}
@@ -262,40 +298,40 @@
 							name=Louis
 							dynasty=100146
 							religion=catholic culture=frankish
-							father=100008518 # Louis Ferdinand
-							mother=100008520 # Josepha of Saxony
+							father=100008518	# Louis de Bourbon
+							mother=100008520	# PSS Josepha von Sachsen
 							1755.11.17={birth=yes}
-							1771.04.21={add_spouse=100008533}	# Joséphine of Savoy
+							1771.04.21={add_spouse=100070134}	# Giuseppina de Savoie
 							1824.09.16={death=yes}
 						}
 						100008534={# 7f) CHARLES X Philippe, King of France, was forced to abdicate 2 Aug 1830 (Versailles 9 Oct 1757-Görz 6 Nov 1836; bur Castagnavizza, nr Görz); m.Moncalieri 24 Oct 1773 Pss Maria Teresa of Savoy (Turin 31 Jan 1756-Graz 2 Jun 1805; bur Graz)
 							name=Charles
 							dynasty=100146
 							religion=catholic culture=frankish
-							father=100008518 # Louis Ferdinand
-							mother=100008520 # Josepha of Saxony
+							father=100008518	# Louis de Bourbon
+							mother=100008520	# PSS Josepha von Sachsen
 							1757.10.09={birth=yes}
-							1773.10.24={add_spouse=100008535}	# Maria Teresa of Savoy
+							1773.10.24={add_spouse=100070137}	# Maria Teresa de Savoie
 							1836.11.06={death=yes}
 						}
 							100008536={# 1g) LOUIS XIX Antoine, King of France, Duc d'Angoulême, Dauphin de Viennois, he was king momentarily immediately after the abdication of his father until, moments later, he abdicated in favor of his nephew, Henri; (Versailles 6 Aug 1775-Görz 3 Jun 1844; bur Castagavizza); m.Mitau, Courland 10 Jun 1799 Marie Thérèse of France
 								name=Louis
 								dynasty=100146
 								religion=catholic culture=frankish
-								father=100008534 # Charles
-								mother=100008535 # Maria Teresa of Savoy
+								father=100008534	# Charles de Bourbon
+								mother=100070137	# Maria Teresa de Savoie
 								1775.08.06={birth=yes}
-								1799.06.10={add_spouse=100008527}	# Marie Thérèse of France
+								1799.06.10={add_spouse=100008527}	# Marie Thérèse de Bourbon
 								1844.06.03={death=yes}
 							}
 							100008538={# 3g) Charles Ferdinand (Versailles 24 Jan 1778-Paris 14 Feb 1820); m.Naples 17 Jun 1816 Maria Carolina Pss of Bourbon-Two Sicilies (Naples 5 Nov 1798-Schloß Brunnsee 17 Apr 1870)
 								name="Charles Ferdinand"
 								dynasty=100146
 								religion=catholic culture=frankish
-								father=100008534 # Charles
-								mother=100008535 # Maria Teresa of Savoy
+								father=100008534	# Charles de Bourbon
+								mother=100070137	# Maria Teresa de Savoie
 								1778.01.24={birth=yes}
-								1816.06.17={add_spouse=100008012}	# Maria Carolina of Bourbon-TwoSicilies
+								1816.06.17={add_spouse=100008012}	# Maria Carolina di Borbone-Due Sicilie
 								1820.02.14={death=yes}
 							}
 								100008540={# 3h) Louise Marie Thérèse (Paris 21 Sep 1819-Venice 1 Feb 1864); m.Frohsdorf 10 Nov 1845 Duke Carlo III of Parma, Pr of Bourbon (Lucca 14 Jan 1823-Parma 27 Mar 1854)
@@ -303,8 +339,8 @@
 									female=yes
 									dynasty=100146
 									religion=catholic culture=frankish
-									father=100008538 # Charles Ferdinand
-									mother=100008012 # Maria Carolina of Bourbon-TwoSicilies
+									father=100008538	# Charles Ferdinand de Bourbon
+									mother=100008012	# Maria Carolina di Borbone-Due Sicilie
 									1819.09.21={birth=yes}
 									1864.02.01={death=yes}
 								}
@@ -312,10 +348,10 @@
 									name=Henri
 									dynasty=100146
 									religion=catholic culture=frankish
-									father=100008538 # Charles Ferdinand
-									mother=100008012 # Maria Carolina of Bourbon-TwoSicilies
+									father=100008538	# Charles Ferdinand de Bourbon
+									mother=100008012	# Maria Carolina di Borbone-Due Sicilie
 									1820.09.29={birth=yes}
-									1846.11.07={add_spouse=100020638}	# Marie Therese of Austria
+									1846.11.07={add_spouse=100020638}	# Maria Theresia v. Habsburg-Lothringen
 									1883.08.24={death=yes}
 								}
 								100008544={# 5h) Charlotte Marie Augustine, Cts d'Issoudun (London 13 Jul 1808-Turin 13 Jul 1886); m.Paris 8 Oct 1823 Ferdinand Pr de Faucigny-Lucinge (Versailles 8 Sep 1789-Paris 18 Mar 1866)
@@ -323,10 +359,10 @@
 									female=yes
 									dynasty=100146
 									religion=catholic culture=frankish
-									father=100008538 # Charles Ferdinand
-									mother=100008012 # Maria Carolina of Bourbon-TwoSicilies
+									father=100008538	# Charles Ferdinand de Bourbon
+									mother=100008012	# Maria Carolina di Borbone-Due Sicilie
 									1808.07.13={birth=yes}
-									1823.10.08={add_spouse=100008545}	# Ferdinand de Faucigny-Lucinge
+									1823.10.08={add_spouse=100008545}	# PR Ferdinand de Faucigny-Lucinge
 									1886.07.13={death=yes}
 								}
 								100008546={# 6h) Louise Marie Charlotte, Cts de Vierzon (London 29 Dec 1809-Château de la Contrie 26 Dec 1891); m.Paris 16 Jun 1827 Athanase Charles Marin de Charette de la Contrie (La Trémissinière 14 Jan 1796-château de La Contrie 16 Mar 1848)
@@ -334,8 +370,8 @@
 									female=yes
 									dynasty=100146
 									religion=catholic culture=frankish
-									father=100008538 # Charles Ferdinand
-									mother=100008012 # Maria Carolina of Bourbon-TwoSicilies
+									father=100008538	# Charles Ferdinand de Bourbon
+									mother=100008012	# Maria Carolina di Borbone-Due Sicilie
 									1809.12.29={birth=yes}
 									1891.12.26={death=yes}
 								}
@@ -343,18 +379,18 @@
 									name="Charles Louis"
 									dynasty=100146
 									religion=catholic culture=frankish
-									father=100008538 # Charles Ferdinand
-									mother=100008012 # Maria Carolina of Bourbon-TwoSicilies
+									father=100008538	# Charles Ferdinand de Bourbon
+									mother=100008012	# Maria Carolina di Borbone-Due Sicilie
 									1815.03.04={birth=yes}
-									1840.01.01={add_spouse=100008549}	# in Elisabeth Austria Jugan
+									1840.01.01={add_spouse=100008549}	# Elisabeth Jugan
 									1858.08.30={death=yes}
 								}
 								100008550={# 8h) Ferdinand Oreille de Carrière (Paris 10 Oct 1820-Neuilly 27 Dec 1876); m.Neuilly 30 Jan 1860 Louise Eugénie Ancelle (Neuilly 24 Jun 1833-Paris 14 Apr 1900)
 									name="Ferdinand Oreille"
 									dynasty=100146
 									religion=catholic culture=frankish
-									father=100008538 # Charles Ferdinand
-									mother=100008012 # Maria Carolina of Bourbon-TwoSicilies
+									father=100008538	# Charles Ferdinand de Bourbon
+									mother=100008012	# Maria Carolina di Borbone-Due Sicilie
 									1820.10.10={birth=yes}
 									1860.01.30={add_spouse=100008551}	# Louise Eugénie Ancelle
 									1876.12.27={death=yes}
@@ -363,19 +399,19 @@
 									name="Charles Ferdinand"
 									dynasty=100146
 									religion=catholic culture=frankish
-									father=100008538 # Charles Ferdinand
-									mother=100008012 # Maria Carolina of Bourbon-TwoSicilies
+									father=100008538	# Charles Ferdinand de Bourbon
+									mother=100008012	# Maria Carolina di Borbone-Due Sicilie
 									1817.09.24={birth=yes}
 									1849.05.24={add_spouse=100008553}	# Claudine Gabrielle de Bachet
 									1908.12.24={death=yes}
 								}
 						100008555={# 8f) Marie Adélaïde Clotilde Xavière (Versailles 23 Sep 1759-Naples 7 Mar 1802); m.Versailles 21 Aug 1775 King Carlo Emanuele IV of Sardinia (Turin 24 May 1751-Rome 6 Oct 1819)
-							name="Marie Adélaïde"
+							name=Clotilde
 							female=yes
 							dynasty=100146
 							religion=catholic culture=frankish
-							father=100008518 # Louis Ferdinand
-							mother=100008520 # Josepha of Saxony
+							father=100008518	# Louis de Bourbon
+							mother=100008520	# PSS Josepha von Sachsen
 							1759.09.23={birth=yes}
 							1802.03.07={death=yes}
 						}
@@ -384,8 +420,8 @@
 							female=yes
 							dynasty=100146
 							religion=catholic culture=frankish
-							father=100008518 # Louis Ferdinand
-							mother=100008520 # Josepha of Saxony
+							father=100008518	# Louis de Bourbon
+							mother=100008520	# PSS Josepha von Sachsen
 							1764.05.03={birth=yes}
 							1794.05.10={death=yes}
 						}
@@ -393,8 +429,8 @@
 						name="Marie Adélaïde"
 						dynasty=100146
 						religion=catholic culture=frankish
-						father=100008512 # Louis
-						mother=100008513 # Marie Lesczynski
+						father=100008512	# Louis de Bourbon
+						mother=100008513	# PSS Marie Lesczynski
 						1732.03.23={birth=yes}
 						1800.02.27={death=yes}
 					}
@@ -403,8 +439,8 @@
 						female=yes
 						dynasty=100146
 						religion=catholic culture=frankish
-						father=100008512 # Louis
-						mother=100008513 # Marie Lesczynski
+						father=100008512	# Louis de Bourbon
+						mother=100008513	# PSS Marie Lesczynski
 						1733.05.11={birth=yes}
 						1799.06.07={death=yes}
 					}
@@ -413,8 +449,8 @@
 						female=yes
 						dynasty=100146
 						religion=catholic culture=frankish
-						father=100008512 # Louis
-						mother=100008513 # Marie Lesczynski
+						father=100008512	# Louis de Bourbon
+						mother=100008513	# PSS Marie Lesczynski
 						1734.07.27={birth=yes}
 						1782.03.03={death=yes}
 					}
@@ -423,8 +459,8 @@
 						female=yes
 						dynasty=100146
 						religion=catholic culture=frankish
-						father=100008512 # Louis
-						mother=100008513 # Marie Lesczynski
+						father=100008512	# Louis de Bourbon
+						mother=100008513	# PSS Marie Lesczynski
 						1736.05.16={birth=yes}
 						1744.09.28={death=yes}
 					}
@@ -432,8 +468,8 @@
 						name="Louise Marie"
 						dynasty=100146
 						religion=catholic culture=frankish
-						father=100008512 # Louis
-						mother=100008513 # Marie Lesczynski
+						father=100008512	# Louis de Bourbon
+						mother=100008513	# PSS Marie Lesczynski
 						1737.07.15={birth=yes}
 						1787.12.23={death=yes}
 					}
@@ -441,8 +477,8 @@
 				name="Philippe d'Anjou"
 				dynasty=100146
 				religion=catholic culture=frankish
-				father=100008505 # Louis
-				mother=100008506 # Marie Anne of Bavaria
+				father=100008505	# Louis de Bourbon
+				mother=100008506	# Marie Anne von Bayern
 				1686.01.01={birth=yes}
 				1766.01.01={death=yes}	# EST.
 }
@@ -450,18 +486,18 @@
 				name=Charles
 				dynasty=100146
 				religion=catholic culture=frankish
-				father=100008505 # Louis
-				mother=100008506 # Marie Anne of Bavaria
+				father=100008505	# Louis de Bourbon
+				mother=100008506	# Marie Anne von Bayern
 				1686.08.31={birth=yes}
-				1710.07.06={add_spouse=100008612}	# Louise Élisabeth d'Orléans
+				1710.07.06={add_spouse=100008612}	# Marie Louise d'Orléans
 				1714.05.04={death=yes}
 			}
 		100008574={# 12b) Louis (St.Germain-en-Laye 2 Oct 1667-Courtrau 18 Nov 1683, bur Arras)
 			name=Louis
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008502 # Louis
-			mother=100021137 # Maria Teresa of Spain
+			father=100008502	# Louis de Bourbon
+			mother=100021137	# Maria Teresa v. Habsburg
 			1667.10.02={birth=yes}
 			1683.11.18={death=yes}
 		}
@@ -470,28 +506,28 @@
 			female=yes
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008502 # Louis
-			mother=100021137 # Maria Teresa of Spain
+			father=100008502	# Louis de Bourbon
+			mother=100021137	# Maria Teresa v. Habsburg
 			1667.10.02={birth=yes}
-			1680.01.16={add_spouse=100008576}	# Louis Armand de Conti
+			1680.01.16={add_spouse=100008576}	# PR Louis Armand de Conti
 			1739.05.03={death=yes}
 		}
 		100008577={# 14b) Louis Auguste (St.Germain-en-Laye 31 Mar 1670-Château de Sceaux 14 May 1736); m.Versailles 19 Mar 1692 Pss Anne Louise de Condé (1676-1753)
 			name="Louis Auguste"
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008502 # Louis
-			mother=100021137 # Maria Teresa of Spain
+			father=100008502	# Louis de Bourbon
+			mother=100021137	# Maria Teresa v. Habsburg
 			1670.03.31={birth=yes}
-			1692.03.19={add_spouse=100008578}	# Anne Louise de Condé
+			1692.03.19={add_spouse=100008578}	# PSS Anne Louise de Condé
 			1736.05.14={death=yes}
 		}
 			100008580={# 4c) Louis Auguste (Versailles 4 Mar 1700-Fontainebleau 1 Oct 1755)
 				name="Louis Auguste"
 				dynasty=100146
 				religion=catholic culture=frankish
-				father=100008577 # Louis Auguste
-				mother=100008578 # Anne Louise de Condé
+				father=100008577	# Louis Auguste de Bourbon
+				mother=100008578	# PSS Anne Louise de Condé
 				1700.03.04={birth=yes}
 				1755.10.01={death=yes}
 			}
@@ -499,8 +535,8 @@
 				name="Louis Charles"
 				dynasty=100146
 				religion=catholic culture=frankish
-				father=100008577 # Louis Auguste
-				mother=100008578 # Anne Louise de Condé
+				father=100008577	# Louis Auguste de Bourbon
+				mother=100008578	# PSS Anne Louise de Condé
 				1701.10.15={birth=yes}
 				1775.07.13={death=yes}
 			}
@@ -509,8 +545,8 @@
 				female=yes
 				dynasty=100146
 				religion=catholic culture=frankish
-				father=100008577 # Louis Auguste
-				mother=100008578 # Anne Louise de Condé
+				father=100008577	# Louis Auguste de Bourbon
+				mother=100008578	# PSS Anne Louise de Condé
 				1707.12.04={birth=yes}
 				1743.08.19={death=yes}
 			}
@@ -518,8 +554,8 @@
 			name="Louis César"
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008502 # Louis
-			mother=100021137 # Maria Teresa of Spain
+			father=100008502	# Louis de Bourbon
+			mother=100021137	# Maria Teresa v. Habsburg
 			1672.06.20={birth=yes}
 			1683.01.10={death=yes}
 		}
@@ -528,27 +564,27 @@
 			female=yes
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008502 # Louis
-			mother=100021137 # Maria Teresa of Spain
+			father=100008502	# Louis de Bourbon
+			mother=100021137	# Maria Teresa v. Habsburg
 			1673.06.01={birth=yes}
 			1743.06.16={death=yes}
 		}
 		100008587={# 17b) Françoise Marie (Château de Maintenon 9 Feb 1677-Paris 1 Feb 1749); m.Versailles 18 Feb 1692 Duc Philippe II d'Orleans (d.1723)
 			name="Françoise Marie"
+			female=yes
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008502 # Louis
-			mother=100021137 # Maria Teresa of Spain
+			father=100008502	# Louis de Bourbon
+			mother=100021137	# Maria Teresa v. Habsburg
 			1677.02.09={birth=yes}
-			1692.02.18={add_spouse=100008588}	# Philippe d'Orleans
 			1749.02.01={death=yes}
 		}
 		100008589={# 18b) Louis Alexandre (Versailles 6 Jun 1678-Rambouillet 1 Dec 1737); m.Paris 22 Feb 1723 Marie Victoire Sophie de Noailles (6 May 1688-Paris 30 Sep 1766)
 			name="Louis Alexandre"
 			dynasty=100146
 			religion=catholic culture=frankish
-			father=100008502 # Louis
-			mother=100021137 # Maria Teresa of Spain
+			father=100008502	# Louis de Bourbon
+			mother=100021137	# Maria Teresa v. Habsburg
 			1678.06.06={birth=yes}
 			1723.02.22={add_spouse=100065597}	# Marie Victoire de Noailles
 			1737.12.01={death=yes}
@@ -557,28 +593,28 @@
 				name="Louis Jean"
 				dynasty=100146
 				religion=catholic culture=frankish
-				father=100008589 # Louis Alexandre
-				mother=100065597 # Marie Victoire de Noailles
+				father=100008589	# Louis Alexandre de Bourbon
+				mother=100065597	# Marie Victoire de Noailles
 				1725.11.16={birth=yes}
-				1744.12.29={add_spouse=100008592}	# Teresa d'Este
+				1744.12.29={add_spouse=100008592}	# Maria Teresa Felicitas d'Este
 				1793.03.04={death=yes}
 			}
 				100008593={# 2d) Louis Alexandre (Paris 6 Sep 1747-Château de Louveciennes 6 May 1768); m.Turin 17 Jan 1767 Pss Maria Teresa of Savoy (Turin 8 Sep 1749-Paris 3 Sep 1792)
 					name="Louis Alexandre"
 					dynasty=100146
 					religion=catholic culture=frankish
-					father=100008591 # Louis Jean
-					mother=100008592 # Teresa d'Este
+					father=100008591	# Louis Jean de Bourbon
+					mother=100008592	# Maria Teresa Felicitas d'Este
 					1747.09.06={birth=yes}
-					1767.01.17={add_spouse=100008594}	# Maria Teresa of Savoy
+					1767.01.17={add_spouse=100008594}	# Maria Teresa di Savoia de Savoie
 					1768.05.06={death=yes}
 				}
 				100008595={# 6d) Louise Marie Adélaide (Paris 13 Mar 1753-Château d'Ivry 23 Jun 1821); m.Versailles 5 Apr 1769 Duc Louis Philippe II d'Orleans (d.1793)
 					name="Louise Marie"
 					dynasty=100146
 					religion=catholic culture=frankish
-					father=100008591 # Louis Jean
-					mother=100008592 # Teresa d'Este
+					father=100008591	# Louis Jean de Bourbon
+					mother=100008592	# Maria Teresa Felicitas d'Este
 					1753.03.13={birth=yes}
 					1821.06.23={death=yes}
 				}
@@ -586,8 +622,8 @@
 				name=Philippe
 				dynasty=100146
 				religion=catholic culture=frankish
-				father=100008589 # Louis Alexandre
-				mother=100065597 # Marie Victoire de Noailles
+				father=100008589	# Louis Alexandre de Bourbon
+				mother=100065597	# Marie Victoire de Noailles
 				1721.07.20={birth=yes}
 				1772.02.11={add_spouse=100008598}	# Marie Richard
 				1795.02.05={death=yes}
@@ -596,8 +632,8 @@
 					name=N
 					dynasty=100146
 					religion=catholic culture=frankish
-					father=100008597 # Philippe
-					mother=100008598 # Marie Richard
+					father=100008597	# Philippe de Bourbon
+					mother=100008598	# Marie Richard
 					1767.09.14={birth=yes}
 					1795.01.23={death=yes}
 				}
@@ -610,11 +646,11 @@
 	name=Ferdinando
 	dynasty=1006001
 	religion=catholic culture=neapolitan
-	father=100025009 # Carlos
-	mother=100025010 # Maria Amalia of Saxony
+	father=100025009	# Carlos de Bourbon
+	mother=100025010	# PSS Maria Amalia von Sachsen
 	1751.01.18={birth=yes}
-	1768.04.07={add_spouse=100020626}	# Maria Karoline
-	1814.11.27={add_spouse=100008002}	# Donna Lucia
+	1768.04.07={add_spouse=100020626}	# Marie Caroline v. Habsburg-Lothringen
+	1814.11.27={add_spouse=100008002}	# DUCHESSA Lucia Migliaccio di Floridia
 	1825.01.04={death=yes}
 }
 	100008003={# 1a) Maria Teresa Carolina Giuseppina (Naples 6 Jun 1772-Vienna 13 Apr 1807); m.by proxy at Naples 15 Aug 1792 and in person at Vienna 19 Sep 1792 Emperor Franz of Austria (Florence 12 Feb 1768-Vienna 2 Mar 1835)
@@ -622,8 +658,8 @@
 		female=yes
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1772.06.06={birth=yes}
 		1807.04.13={death=yes}
 	}
@@ -632,8 +668,8 @@
 		female=yes
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1773.07.27={birth=yes}
 		1802.09.19={death=yes}
 	}
@@ -641,11 +677,11 @@
 		name=Francesco
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1777.08.19={birth=yes}
-		1790.09.19={add_spouse=100020418}	# Clementine
-		1802.07.06={add_spouse=100025193}	# Maria Isabella, Infanta
+		1790.09.19={add_spouse=100020418}	# Klementine v. Habsburg-Lothringen
+		1802.07.06={add_spouse=100025193}	# Maria Isabel de Bourbon
 		1830.11.08={death=yes}
 	}
 		100008012={# 1b) Maria Carolina Ferdinanda Luisa, Cts de Rony 1830 (Naples 5 Nov 1798-Brunnsee 17 Apr 1870); m.1st by proxy at Naples 24 Apr 1816 and in person at Paris 17 Jun 1816 Charles of France Duc de Berry (Versailles 24 Jan 1778-assassinated Paris 14 Feb 1820); m.2d Rome 14 Dec 1831 Ettore Carlo Cte Lucchesi Palli Pr di Campofranco, Duca della Grazia (Palermo 2 Aug 1806-Brunnsee 1 Apr 1864)
@@ -653,8 +689,8 @@
 			female=yes
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100020418 # Clementine
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100020418	# Klementine v. Habsburg-Lothringen
 			1798.11.05={birth=yes}
 			1870.04.17={death=yes}
 		}
@@ -663,52 +699,64 @@
 			female=yes
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1804.10.24={birth=yes}
 			1844.01.29={death=yes}
 		}
-		100008018={# 4b) Maria Cristina Ferdinanda (Palermo 27 Apr 1806-Le Havre 22 Aug 1878); m.1st Madrid 11 Dec 1829 King Fernando VII of Spain (San Ildefonso 13 Oct 1784-Madrid 29 Sep 1833); m.2d Madrid 28 Dec 1833 Fernando Muñoz y Sanchez, Duque de Rianzaro (Tarancón 13 Sep 1808-Le Havre 13 Sep 1873)
+		100008018={# 4b) Maria Cristina Ferdinanda (Palermo 27 Apr 1806-Le Havre 22 Aug 1878); 
+				   # m.1st Madrid 11 Dec 1829 King Fernando VII of Spain (San Ildefonso 13 Oct 1784-Madrid 29 Sep 1833); 
+				   # m.2nd Madrid 28 Dec 1833 Fernando Muñoz y Sanchez, Duque de Rianzaro (Tarancón 13 Sep 1808-Le Havre 13 Sep 1873)
 			name="Maria Cristina"
 			female=yes
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1806.04.27={birth=yes}
 			1878.08.22={death=yes}
 		}
+			100071353={	# Maria Milagros Muñoz y Borbon 
+				name="Maria Milagros Muñoz y Borbon"
+				female=yes
+				dynasty=0
+				religion=catholic culture=neapolitan
+				father=100008020	# Fernando Muñoz y Sanchez
+				mother=100008018	# Maria Cristina di Borbone-Due Sicilie
+				1835.11.08={birth=yes}
+				1903.07.09={death=yes}
+			}
 		100008021={# 5b) FERDINANDO II Carlo, King of the Two Sicilies (Palermo 12 Jan 1810-Caserta 22 May 1859); 
 					# m.1st Voltri 21 Nov 1832 Christina Pss of Savoy (Cagliari 14 Nov 1812-Caserta 31 Jan 1836); 
 					# m.2d by proxy at Trieste 9 Jan 1837 and in person at Naples 27 Jan 1837 Theresa, Archdss of Austria (Vienna 31 Jul 1816- Albano 8 Aug 1867)
 			name=Ferdinando
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1810.01.12={birth=yes}
-			1832.11.21={add_spouse=100008022}	# Christina
-			1837.01.09={add_spouse=100020225}	# Theresa
+			1832.11.21={add_spouse=100008022}
+			1837.01.09={add_spouse=100020225}	# Theresia v. Habsburg-Lothringen
 			1859.05.22={death=yes}
 		}
 			100008024={# 1c) FRANCESCO II d'Assisi Maria Leopoldo, King of the Two Sicilies, lost the throne when the kingdom was annexed to Italy 17 Dec 1860 but held on to territory until he finally surrendered 13 Feb 1861 (Naples 16 Jan 1836-Schloß Arco, Tyrol 27 Dec 1894); m.by proxy at Munich 18 Jan 1859 and in person at Bari 3 Feb 1859 Maria Sophia Dss in Bavaria (Possenhofen 4 Oct 1841-Munich 19 Jan 1925)
 				name=Francesco
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100008022 # Christina
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100070150	# Cristina de Savoie
 				1836.01.16={birth=yes}
-				1859.01.18={add_spouse=100014029}	# Maria Sophia
+				1859.01.18={add_spouse=100014029}	# Marie Sophie v. Wittelsbach
 				1894.12.27={death=yes}
 			}
 			100008027={# 2c) Lodovico Maria, Cte di Trani (Naples 1 Aug 1838-Paris 8 Jun 1886); m.Munich 5 Jun 1861 Mathilde Dss in Bavaria (Possenhofen 30 Sep 1843-Munich 18 Jun 1925)
 				name=Lodovico
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1838.08.01={birth=yes}
-				1861.06.05={add_spouse=100014031}	# Mathilde
+				1861.06.05={add_spouse=100014031}	# Mathilde v. Wittelsbach
 				1886.06.08={death=yes}
 			}
 				100008029={# 1d) Maria Teresa Maddalena (Zürich 15 Jan 1867-Cannes 1 Mar 1909); m.Sigmaringen 27 Jun 1889 Wilhelm Fst von Hohenzollern (Schloß Benrath 7 Mar 1864-Sigmaringen 22 Oct 1927)
@@ -716,8 +764,8 @@
 					female=yes
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008027 # Lodovico Maria
-					mother=100014031 # Mathilde
+					father=100008027	# Lodovico di Borbone-Due Sicilie
+					mother=100014031	# Mathilde v. Wittelsbach
 					1867.01.15={birth=yes}
 					1909.03.01={death=yes}
 				}
@@ -725,20 +773,20 @@
 				name=Alfonso
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1841.03.28={birth=yes}
-				1868.06.08={add_spouse=100008207}	# Antonietta
+				1868.06.08={add_spouse=100008207}	# Maria Antonietta di Borbone-Due Sicilie
 				1934.05.26={death=yes}
 			}
 				100008034={# 1d) FERDINANDO Pio Maria, Duca di Calabria (Rome 25 Jul 1869-Lindau 7 Jan 1960); m.Munich 31 May 1897 Marie Pss of Bavaria (Villa Amsee 6 Jul 1872-Villa Amsee 10 Jun 1954)
 					name="Ferdinando Pio"
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1869.07.25={birth=yes}
-					1897.05.31={add_spouse=100016845}	# Marie
+					1897.05.31={add_spouse=100016845}	# Maria Ludwiga v. Wittelsbach
 					1960.01.07={death=yes}
 				}
 					100008036={# 1e) Maria Antonietta Leonia (Madrid 16 Apr 1898-Winterthur, Switzerland 11 Jan 1957)
@@ -746,8 +794,8 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008034 # Ferdinando
-						mother=100016845 # Marie
+						father=100008034	# Ferdinando Pio di Borbone-Due Sicilie
+						mother=100016845	# Maria Ludwiga v. Wittelsbach
 						1898.04.16={birth=yes}
 						1957.01.11={death=yes}
 					}
@@ -756,18 +804,18 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008034 # Ferdinando
-						mother=100016845 # Marie
+						father=100008034	# Ferdinando Pio di Borbone-Due Sicilie
+						mother=100016845	# Maria Ludwiga v. Wittelsbach
 						1899.05.04={birth=yes}
-						1948.03.03={add_spouse=100008038}	# Manoel Sotomayor-Luna
+						1948.03.03={add_spouse=100008038}	# Manoel of Ecuador
 						1985.04.21={death=yes}
 					}
 					100008039={# 3e) Ruggiero Maria, Duca di Noto (Sardinero, Santander, Spain 7 Sep 1901-Munich 1 Dec 1914)
 						name=Ruggiero
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008034 # Ferdinando
-						mother=100016845 # Marie
+						father=100008034	# Ferdinando Pio di Borbone-Due Sicilie
+						mother=100016845	# Maria Ludwiga v. Wittelsbach
 						1901.09.07={birth=yes}
 						1914.12.01={death=yes}
 					}
@@ -775,10 +823,10 @@
 						name=Barbara
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008034 # Ferdinando
-						mother=100016845 # Marie
+						father=100008034	# Ferdinando Pio di Borbone-Due Sicilie
+						mother=100016845	# Maria Ludwiga v. Wittelsbach
 						1902.12.14={birth=yes}
-						1922.05.31={add_spouse=100008041}	# Franz Xaver, Gf
+						1922.05.31={add_spouse=100008041}	# GF Franz Xaver zu Stolberg-Wernigerode
 						1926.01.01={death=yes}
 					}
 					100008042={# 5e) Lucia Maria Rainiera (Schloß Nymphenburg 9 Jul 1908-São Paulo 3 Nov 2001); m.Nymphenburg 29 Oct 1938 Eugenio Pr of Savoy, Duke of Ancona (Turin 13 Mar 1906-São Paulo 8 Dec 1996)
@@ -786,8 +834,8 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008034 # Ferdinando
-						mother=100016845 # Marie
+						father=100008034	# Ferdinando Pio di Borbone-Due Sicilie
+						mother=100016845	# Maria Ludwiga v. Wittelsbach
 						1908.07.09={birth=yes}
 						2001.11.03={death=yes}
 					}
@@ -795,8 +843,8 @@
 						name=Urraca
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008034 # Ferdinando
-						mother=100016845 # Marie
+						father=100008034	# Ferdinando Pio di Borbone-Due Sicilie
+						mother=100016845	# Maria Ludwiga v. Wittelsbach
 						1913.07.14={birth=yes}
 						1999.05.03={death=yes}
 					}
@@ -804,21 +852,21 @@
 					name=Carlo
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1870.11.10={birth=yes}
-					1901.02.14={add_spouse=100025045}	# Maria
-					1907.11.16={add_spouse=100008642}
+					1901.02.14={add_spouse=100025045}	# Maria de Bourbon
+					1907.11.16={add_spouse=100008642}	# Louise Françoise d'Orléans
 					1949.11.11={death=yes}
 				}
 					100008048={# 1e) Alfonso Maria Leo Christinus Alfonso di Liguori Antonio Francesco Saverio (Madrid 30 Nov 1901-Vienna 3 Feb 1964); m.Vienna 16 Apr 1936 Alice Pss of Bourbon-Parma (b.Vienna 13 Nov 1917)
 						name=Alfonso
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008045 # Carlo Maria
-						mother=100025045 # Maria
+						father=100008045	# Carlo di Borbone-Due Sicilie
+						mother=100025045	# Maria de Bourbon
 						1901.11.30={birth=yes}
-						1936.04.16={add_spouse=100008339}	# Alice
+						1936.04.16={add_spouse=100008339}	# Alice di Borbone-Parma
 						1964.02.03={death=yes}
 					}
 						100008050={# 1f) Teresa Maria Francisca Dorothea (b.Lausanne 6 Feb 1937); m.Madrid 16 Apr 1961 Don Iñigo Moreno y Arteaga Marques de Laula (b.Madrid 18 Apr 1934)
@@ -826,8 +874,8 @@
 							female=yes
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008048 # Alfonso Maria
-							mother=100008339 # Alice
+							father=100008048	# Alfonso di Borbone-Due Sicilie
+							mother=100008339	# Alice di Borbone-Parma
 							1937.02.06={birth=yes}
 							2012.01.01={death=yes}
 						}
@@ -836,11 +884,11 @@
 							name=Carlos
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008048 # Alfonso Maria
-							mother=100008339 # Alice
+							father=100008048	# Alfonso di Borbone-Due Sicilie
+							mother=100008339	# Alice di Borbone-Parma
 							1938.01.16={birth=yes}
 							1964.02.03={add_claim=k_due_sicilie}
-							1965.05.11={add_spouse=100008685}
+							1965.05.11={add_spouse=100008685}	# Anne Marguerite d'Orléans
 							2014.01.01={death=yes}
 						}
 							100008054={# 1g) Cristina Isabella Maria Luisa (b.Madrid 15 Mar 1966); m.Prov Ciudad Real, Spain 15 Jul 1994 Pedro Lopez-Quesada y Fernandez-Urrutia (b.Madrid 26 Jul 1964)
@@ -848,75 +896,75 @@
 								female=yes
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008052 # Carlos Maria
-								mother=100008712
+								father=100008052	# Carlos di Borbone-Due Sicilie
+								mother=100008685	# Anne Marguerite d'Orléans
 								1966.03.15={birth=yes}
-								1994.07.15={add_spouse=100008055}	# Pedro Lopez-Quesada
+								1994.07.15={add_spouse=100008055}	# Pedro Lopez-Quesada y Fernandez-Urrutia
 							}
 							100008056={# 2g) Maria Paloma Diana Irene (b.Madrid 5 Apr 1967); m.La Toledana 13 Jul 1996 Simeon, Archduke of Austria (b.Katana, Belgian Congo 29 Jun 1958)
 								name=Maria
 								female=yes
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008052 # Carlos Maria
-								mother=100008712
+								father=100008052	# Carlos di Borbone-Due Sicilie
+								mother=100008685	# Anne Marguerite d'Orléans
 								1967.04.05={birth=yes}
 							}
 							100008058={# 3g) Pedro Juan Maria Alejo Saturnino y todos los Santos, Duca di Noto (b.Madrid 16 Oct 1968); m.Madrid 30 Mar 2001 Sofia Landaluce y Melgarejo (b.Madrid 23 Nov 1973)
 								name="Pedro Juan"
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008052 # Carlos Maria
-								mother=100008712
+								father=100008052	# Carlos di Borbone-Due Sicilie
+								mother=100008685	# Anne Marguerite d'Orléans
 								1968.10.16={birth=yes}
-								2001.03.30={add_spouse=100008059}	# Sofia Landaluce
+								2001.03.30={add_spouse=100008059}	# Sofia Landaluce y Melgarejo
 							}
 								100008060={# 1h) Jaime (b.Madrid 26 Jun 1992)
 									name=Jaime
 									dynasty=1006001
 									religion=catholic culture=neapolitan
-									father=100008058 # Pedro Juan
-									mother=100008059 # Sofia Landaluce
+									father=100008058	# Pedro Juan di Borbone-Due Sicilie
+									mother=100008059	# Sofia Landaluce y Melgarejo
 									1992.06.26={birth=yes}
 								}
 								100008061={# 2h) Juan (b.Madrid 18 Apr 2003)
 									name=Juan
 									dynasty=1006001
 									religion=catholic culture=neapolitan
-									father=100008058 # Pedro Juan
-									mother=100008059 # Sofia Landaluce
+									father=100008058	# Pedro Juan di Borbone-Due Sicilie
+									mother=100008059	# Sofia Landaluce y Melgarejo
 									2003.04.18={birth=yes}
 								}
 								100008062={# 3h) Pablo (b.Madrid 28 Jun 2004)
 									name=Pablo
 									dynasty=1006001
 									religion=catholic culture=neapolitan
-									father=100008058 # Pedro Juan
-									mother=100008059 # Sofia Landaluce
+									father=100008058	# Pedro Juan di Borbone-Due Sicilie
+									mother=100008059	# Sofia Landaluce y Melgarejo
 									2004.06.28={birth=yes}
 								}
 								100008063={# 4h) Pedro (b.3 Jan 2007)
 									name=Pedro
 									dynasty=1006001
 									religion=catholic culture=neapolitan
-									father=100008058 # Pedro Juan
-									mother=100008059 # Sofia Landaluce
+									father=100008058	# Pedro Juan di Borbone-Due Sicilie
+									mother=100008059	# Sofia Landaluce y Melgarejo
 									2007.01.03={birth=yes}
 								}
 								100008064={# 5h) Sofia (b.Madrid 12 Nov 2008)
 									name=Sofia
 									dynasty=1006001
 									religion=catholic culture=neapolitan
-									father=100008058 # Pedro Juan
-									mother=100008059 # Sofia Landaluce
+									father=100008058	# Pedro Juan di Borbone-Due Sicilie
+									mother=100008059	# Sofia Landaluce y Melgarejo
 									2008.11.12={birth=yes}
 								}
 								100008065={# 6h) Blanca (b.6 Apr 2011)
 									name=Blanca
 									dynasty=1006001
 									religion=catholic culture=neapolitan
-									father=100008058 # Pedro Juan
-									mother=100008059 # Sofia Landaluce
+									father=100008058	# Pedro Juan di Borbone-Due Sicilie
+									mother=100008059	# Sofia Landaluce y Melgarejo
 									2011.04.06={birth=yes}
 								}
 							100008066={# 4g) Inès Maria Alice Anna Isabella (b.Madrid 20 Apr 1971); m.Toledo 13 Oct 2001 Nobile Michele Carrelli Palombi dei Marchesi di Raiano (b.Rome 17 Sep 1965)
@@ -924,8 +972,8 @@
 								female=yes
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008052 # Carlos Maria
-								mother=100008712
+								father=100008052	# Carlos di Borbone-Due Sicilie
+								mother=100008685	# Anne Marguerite d'Orléans
 								1971.04.20={birth=yes}
 							}
 							100008068={# 5g) Victoria Maria Aline Carolina de la Santissima Trinidad y todos los Santos (b.Madrid 24 May 1976); m.27 Sep 2003 Markos Nomikos (b.Kifissia, Greece 29 Oct 1965)
@@ -933,8 +981,8 @@
 								female=yes
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008052 # Carlos Maria
-								mother=100008712
+								father=100008052	# Carlos di Borbone-Due Sicilie
+								mother=100008685	# Anne Marguerite d'Orléans
 								1976.05.24={birth=yes}
 							}
 						100008070={# 3f) Inès Maria Alice (b.Ouchy 18 Feb 1940); m.Madrid 21 Jan 1965 Don Luis de Morales y Aguado (Granada 8 Oct 1933-Elche de la Sierra 9 Nov 2000)
@@ -942,18 +990,17 @@
 							female=yes
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008048 # Alfonso Maria
-							mother=100008339 # Alice
+							father=100008048	# Alfonso di Borbone-Due Sicilie
+							mother=100008339	# Alice di Borbone-Parma
 							1940.02.18={birth=yes}
-							#YYYY.01.01={death=yes}
 						}
 					100008073={# 3e) Isabella Alfonsa Maria Teresa Antonia Cristina Mercedes Carolina Adelaide Raphaela (Madrid 10 Oct 1904-Madrid 18 Jul 1985); m.Madrid 9 Mar 1929 Jan Ct Zamoyski (Cracow 17 Aug 1900-Monte Carlo 28 Sep 1961)
 						name=Isabella
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008045 # Carlo Maria
-						mother=100025045 # Maria
+						father=100008045	# Carlo di Borbone-Due Sicilie
+						mother=100025045	# Maria de Bourbon
 						1904.10.10={birth=yes}
 						1985.07.18={death=yes}
 					}
@@ -961,8 +1008,8 @@
 						name=Carlo
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008045 # Carlo Maria
-						mother=100008642
+						father=100008045	# Carlo di Borbone-Due Sicilie
+						mother=100008642	# Louise Françoise d'Orléans
 						1908.09.05={birth=yes}
 						1936.09.27={death=yes}
 					}
@@ -971,8 +1018,8 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008045 # Carlo Maria
-						mother=100008642
+						father=100008045	# Carlo di Borbone-Due Sicilie
+						mother=100008642	# Louise Françoise d'Orléans
 						1909.11.15={birth=yes}
 						1996.05.11={death=yes}
 					}
@@ -981,8 +1028,8 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008045 # Carlo Maria
-						mother=100008642
+						father=100008045	# Carlo di Borbone-Due Sicilie
+						mother=100008642	# Louise Françoise d'Orléans
 						1910.09.23={birth=yes}
 						2000.01.02={death=yes}
 					}
@@ -991,8 +1038,8 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008045 # Carlo Maria
-						mother=100008642
+						father=100008045	# Carlo di Borbone-Due Sicilie
+						mother=100008642	# Louise Françoise d'Orléans
 						1914.06.14={birth=yes}
 						2005.08.08={death=yes}
 					}
@@ -1000,10 +1047,10 @@
 					name=Gennaro
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1882.01.24={birth=yes}
-					1922.06.27={add_spouse=100008085}	# Beatrice Dorothy
+					1922.06.27={add_spouse=100008085}	# CTSA Beatrice Dorothy Bordessa di Villa Colli
 					1944.04.11={death=yes}
 				}
 				100008086={# 5d) Maria Immacolata Cristina Pia Isabella (Cannes 30 Oct 1874-Muri 28 Nov 1947); m.Cannes 30 Oct 1906 Johann Georg Pr of Saxony (Dresden 10 Jul 1869-Altshausen 24 Nov 1938)
@@ -1011,8 +1058,8 @@
 					female=yes
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1874.10.30={birth=yes}
 					1947.11.28={death=yes}
 				}
@@ -1021,8 +1068,8 @@
 					female=yes
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1877.04.10={birth=yes}
 					1947.10.04={death=yes}
 				}
@@ -1031,8 +1078,8 @@
 					female=yes
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1878.08.12={birth=yes}
 					1973.06.20={death=yes}
 				}
@@ -1041,8 +1088,8 @@
 					female=yes
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1880.02.25={birth=yes}
 					1971.07.22={death=yes}
 				}
@@ -1050,10 +1097,10 @@
 					name=Ranieri
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1883.12.03={birth=yes}
-					1923.09.12={add_spouse=100110525}
+					1923.09.12={add_spouse=100110525}	# Karolina Zamoyski
 					1973.01.13={death=yes}
 				}
 					100008095={# 1e) Maria del Carmen Carolina Antonia (b.Podzamcze 13 Jul 1924)
@@ -1061,8 +1108,8 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008093 # Ranieri Maria
-						mother=100110525
+						father=100008093	# Ranieri di Borbone-Due Sicilie
+						mother=100110525	# Karolina Zamoyski
 						1924.07.13={birth=yes}
 						2000.01.01={death=yes}
 					}
@@ -1070,10 +1117,10 @@
 						name=Ferdinando
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008093 # Ranieri
-						mother=100110525
+						father=100008093	# Ranieri di Borbone-Due Sicilie
+						mother=100110525	# Karolina Zamoyski
 						1926.05.28={birth=yes}
-						1949.07.23={add_spouse=100008097}	# Chantal
+						1949.07.23={add_spouse=100008097}	# Chantal de Chevron-Villette
 						2008.03.20={death=yes}
 					}
 						100008098={# 1f) Béatrice Marie Caroline Louise Françoise (b.St.Raphael 16 Jun 1950); m.Paris 19 Dec 1978 (div 1989) Charles, Pr Napoléon (b.Boulogne-sur-Seine 19 Oct 1950)
@@ -1081,8 +1128,8 @@
 							female=yes
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008096 # Ferdinando
-							mother=100008097 # Chantal
+							father=100008096	# Ferdinando di Borbone-Due Sicilie
+							mother=100008097	# Chantal de Chevron-Villette
 							1950.06.16={birth=yes}
 						}
 						100008100={# 2f) Anna Marie Caroline Carmen (b.St.Raphael 24 Apr 1957); m.Roquebrunne- sur-Argens (civ) 7 Sep (rel) 9 Sep 1977 (div) Jacques Cochin (b.Vichy 23 Mar 1951)
@@ -1090,16 +1137,16 @@
 							female=yes
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008096 # Ferdinando
-							mother=100008097 # Chantal
+							father=100008096	# Ferdinando di Borbone-Due Sicilie
+							mother=100008097	# Chantal de Chevron-Villette
 							1957.04.24={birth=yes}
 						}
 						100008102={# 3f) Charles Marie Bernard Gennaro, Duca di Calabria (b.St.Raphael 24 Feb 1963); m.Monaco 31 Oct 1998 Camilla Crociani (b.Rome 5 Apr 1971)
 							name=Carlo
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008096 # Ferdinando
-							mother=100008097 # Chantal
+							father=100008096	# Ferdinando di Borbone-Due Sicilie
+							mother=100008097	# Chantal de Chevron-Villette
 							1963.02.24={birth=yes}
 							1998.10.31={add_spouse=100008103}	# Camilla Crociani
 						}
@@ -1108,8 +1155,8 @@
 								female=yes
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008102 # Charles Marie
-								mother=100008103 # Camilla Crociani
+								father=100008102	# Carlo di Borbone-Due Sicilie
+								mother=100008103	# Camilla Crociani
 								2003.06.23={birth=yes}
 							}
 							100008105={# 2g) Maria Chiara Amalia Carola Louise Carmen (b.Rome 1 Jan 2005)
@@ -1117,8 +1164,8 @@
 								female=yes
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008102 # Charles Marie
-								mother=100008103 # Camilla Crociani
+								father=100008102	# Carlo di Borbone-Due Sicilie
+								mother=100008103	# Camilla Crociani
 								2004.01.01={birth=yes}
 							}
 				100008106={# 10d) Filippo Maria Alfonso Antonio Ferdinando Francisco di Paola Lodovico Enrico Alberto Taddeo Francesco Saverio Uberto (Cannes 10 Dec 1885-St.John, New Brunswick 9 Mar 1949); 
@@ -1126,10 +1173,10 @@
 					name=Filippo
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1885.12.10={birth=yes}
-					1916.01.12={add_spouse=100008736}	# Marie Louise
+					1916.01.12={add_spouse=100008736}	# Marie Louise d'Orléans
 					1927.01.10={
 						remove_spouse=100008736
 						add_spouse=100008107}	# Odette Labori
@@ -1139,8 +1186,8 @@
 						name="Gaëtano Maria"
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008106 # Filippo Maria
-						mother=100008107 # Odette Labori
+						father=100008106	# Filippo di Borbone-Due Sicilie
+						mother=100008107	# Odette Labori
 						1917.04.16={birth=yes}
 						1946.02.16={add_spouse=100008109}	# Olivia Yarrow
 						1984.12.27={death=yes}
@@ -1149,109 +1196,110 @@
 							name="Adrian Philip"
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008108 # Gaëtano Maria
-							mother=100008109 # Olivia Yarrow
+							father=100008108	# Gaëtano Maria di Borbone-Due Sicilie
+							mother=100008109	# Olivia Yarrow
 							1948.04.07={birth=yes}
-							1976.03.20={add_spouse=100008111}	# Linda Rose
+							1976.03.20={add_spouse=100008111}	# Linda Rose Idensohn
 						}
 							100008112={# 1g) Philippe Charles de Bourbon (b.Harare 5 May 1977)
 								name="Philippe Charles"
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008110 # Adrian Philip
-								mother=100008111 # Linda Rose
+								father=100008110	# Adrian Philip di Borbone-Due Sicilie
+								mother=100008111	# Linda Rose Idensohn
 								1977.05.05={birth=yes}
 							}
 							100008113={# 2g) Michelle Laura de Bourbon (b.Harare 12 Feb 1979); m.Groot Constantia, Cape Town 8 Apr 2009 James T D Moss-Gibbons
 								name="Michelle Laura"
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008110 # Adrian Philip
-								mother=100008111 # Linda Rose
+								father=100008110	# Adrian Philip di Borbone-Due Sicilie
+								mother=100008111	# Linda Rose Idensohn
 								1979.02.12={birth=yes}
-								2009.04.08={add_spouse=100008114}
+								2009.04.08={add_spouse=100008114}	# James Moss-Gibbons
 							}
 						100008115={# 2f) Gregory Peter de Bourbon (b.Warrington 2 Jan 1950); m.1st Rusape, Rhodesia 15 May 1971 (div) Maureen Marjorie Powell (b.Bulawayo 19 Apr 1951); m.2d Brisbane 30 Aug 1986 Carrie Anne Thornley (b.Cessnock, New South Wales 2 Feb 1945)
 							name="Gregory Peter"
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008108 # Gaëtano Maria
-							mother=100008109 # Olivia Yarrow
+							father=100008108	# Gaëtano Maria di Borbone-Due Sicilie
+							mother=100008109	# Olivia Yarrow
 							1950.01.02={birth=yes}
-							1971.05.15={add_spouse=100008116}	# Maureen Marjorie
-							1986.08.30={remove_spouse=100008116	add_spouse=100008117}	# Carrie Anne
-							#YYYY.01.01={death=yes}
+							1971.05.15={add_spouse=100008116}	# Maureen Marjorie Powell
+							1986.08.30={remove_spouse=100008116	add_spouse=100008117}	# Carrie Anne Thornley
 						}
 							100008118={# 1g) Christian Peter de Bourbon (b.Vancouver 11 Apr 1974); m.Marondera, Zimbabwe 26 Apr 1997 Brigette Dick
 								name="Christian Peter"
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008115 # Gregory Peter
-								mother=100008116 # Maureen Marjorie
+								father=100008115	# Gregory Peter di Borbone-Due Sicilie
+								mother=100008116	# Maureen Marjorie Powell
 								1974.04.11={birth=yes}
-								1997.04.26={add_spouse=100008119}
+								1997.04.26={add_spouse=100008119}	# Brigette Dick
 							}
 							100008120={# 2g) Raymond de Bourbon (b.Harare 8 Nov 1978)
 								name=Raymond
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008115 # Gregory Peter
-								mother=100008116 # Maureen Marjorie
+								father=100008115	# Gregory Peter di Borbone-Due Sicilie
+								mother=100008116	# Maureen Marjorie Powell
 								1978.11.08={birth=yes}
 							}
 				100008121={# 11d) Francesco d'Assisi Maria Ferdinando Eudo (Cannes 13 Jan 1888-Cannes 26 Mar 1914)
 					name="Francesco d'Assisi"
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1888.01.13={birth=yes}
 					1914.03.26={death=yes}
 				}
-				100008122={# 12d) Gabriele Maria Giuseppe Carlo Ignazio Antonio Alfonso Pietro Giovanni Gerardo di Majella et Omni Sancti, naturalized in Spain and granted the title Pr de Borbón (Royal Highness) for himself and his children (Cannes 11 Jan 1897-Itu, Sao Paulo, Brazil 22 Oct 1975); m.1st Paris 25 Aug 1927 Malgorzata Pss Czartoryski (Warsaw 17 Aug 1902-Cannes 8 Mar 1929); m.2d Cracow 15 Sep 1932 Cecilia Pss Lubomirski (Poreba Wielka 28 Jun 1907-São Paulo 20 Sep 2001)
+				100008122={# 12d) Gabriele Maria Giuseppe Carlo Ignazio Antonio Alfonso Pietro Giovanni Gerardo di Majella et Omni Sancti, naturalized in Spain and granted the title Pr de Borbón (Royal Highness) for himself and his children (Cannes 11 Jan 1897-Itu, Sao Paulo, Brazil 22 Oct 1975); 
+						   # m.1st Paris 25 Aug 1927 Malgorzata Pss Czartoryski (Warsaw 17 Aug 1902-Cannes 8 Mar 1929); 
+						   # m.2d Cracow 15 Sep 1932 Cecilia Pss Lubomirski (Poreba Wielka 28 Jun 1907-São Paulo 20 Sep 2001)
 					name=Gabriele
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008032 # Alfonso
-					mother=100008207 # Antonietta
+					father=100008032	# Alfonso di Borbone-Due Sicilie
+					mother=100008207	# Maria Antonietta di Borbone-Due Sicilie
 					1897.01.11={birth=yes}
-					1927.08.25={add_spouse=100110014}	# Malgorzata
-					1932.09.15={add_spouse=100111227}
+					1927.08.25={add_spouse=100110014}	# Malgorzata Czartoryski
+					1932.09.15={add_spouse=100111227}	# Cäcilie Lubomirski
 					1975.10.22={death=yes}
 				}
 					100008125={# 1e) Antoine Marie Joseph Alphonse Adam et omnes sancti (b.Cannes 20 Jan 1929); m.Altshausen (civ) 18 Jul (rel) 19 Jul 1958 Elisabeth, Dss of Württemberg (b.Stuttgart 2 Feb 1933)
 						name=Antoine
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008122 # Gabriele Maria
-						mother=100110014 # Malgorzata
+						father=100008122	# Gabriele di Borbone-Due Sicilie
+						mother=100110014	# Malgorzata Czartoryski
 						1929.01.20={birth=yes}
-						1958.07.19={add_spouse=100018063}	# Elisabeth
+						1958.07.19={add_spouse=100018063}	# Elisabeth Maria v. Württemberg
 						2000.01.01={death=yes}
 					}
 						100008127={# 1f) Franz Philipp Maria Joseph Gabriel (b.Ravensburg 20 Jun 1960); m.Geneva 17 Jun 2000 Alexandra Gfn von Schönborn-Wiesentheid (b.Zürich 2 Jun 1967)
 							name="Franz Philipp"
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008125 # Antoine Marie
-							mother=100018063 # Elisabeth
+							father=100008125	# Antoine di Borbone-Due Sicilie
+							mother=100018063	# Elisabeth Maria v. Württemberg
 							1960.06.20={birth=yes}
-							2000.06.17={add_spouse=100008128}	# Alexandra, Gfn
+							2000.06.17={add_spouse=100008128}	# GFN Alexandra von Schönborn-Wiesentheid
 						}
 							100008129={# 1g) Antoine Gaetano Nicolas Istvan Marie (b.Geneva 6 Jun 2003)
 								name="Antoine Gaetano"
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008127 # Franz Philipp
-								mother=100008128 # Alexandra, Gfn
+								father=100008127	# Franz Philipp di Borbone-Due Sicilie
+								mother=100008128	# GFN Alexandra von Schönborn-Wiesentheid
 								2003.06.06={birth=yes}
 							}
 							100008130={# 2g) Dorothée Maria Amalia Tatiana Hélène (b.Zürich 10 May 2005)
 								name="Dorothée Maria"
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008127 # Franz Philipp
-								mother=100008128 # Alexandra, Gfn
+								father=100008127	# Franz Philipp di Borbone-Due Sicilie
+								mother=100008128	# GFN Alexandra von Schönborn-Wiesentheid
 								2005.05.10={birth=yes}
 							}
 						100008131={# 2f) Maria Carolina Johanna Rosa Cecilia (b.Friedrichshafen 18 Jul 1962); m.Tübingen (civ) 6 May 1988 (rel) 26 Aug 1989 Andreas Baumbach (b.Tübingen 30 Apr 1963)
@@ -1259,16 +1307,16 @@
 							female=yes
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008125 # Antoine Marie
-							mother=100018063 # Elisabeth
+							father=100008125	# Antoine di Borbone-Due Sicilie
+							mother=100018063	# Elisabeth Maria v. Württemberg
 							1962.07.18={birth=yes}
 						}
 						100008133={# 3f) Gennaro Maria Pio Casimir b.(Ravensburg 27 Jan 1966)
 							name=Gennaro
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008125 # Antoine Marie
-							mother=100018063 # Elisabeth
+							father=100008125	# Antoine di Borbone-Due Sicilie
+							mother=100018063	# Elisabeth Maria v. Württemberg
 							1966.01.27={birth=yes}
 						}
 						100008134={# 4f) Maria Annunziata Urraca Margarita Elisabeth (b.Friedrichshafen 4 Mar 1973); m.Helsinki 2 Aug 2003 Ct Carl Fredrik Creutz (b.1 Nov 1971)
@@ -1276,16 +1324,16 @@
 							female=yes
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008125 # Antoine Marie
-							mother=100018063 # Elisabeth
+							father=100008125	# Antoine di Borbone-Due Sicilie
+							mother=100018063	# Elisabeth Maria v. Württemberg
 							1973.03.04={birth=yes}
 						}
 					100008136={# 2e) Jean (Giovanni) Maria Casimir (Warsaw 30 Jun 1933-Madrid 25 Dec 2000)
 						name=Jean
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008122 # Gabriele Maria
-						mother=100111227 # Cecilia
+						father=100008122	# Gabriele di Borbone-Due Sicilie
+						mother=100111227	# Cäcilie Lubomirski
 						1933.06.30={birth=yes}
 						2000.12.25={death=yes}
 					}
@@ -1294,34 +1342,34 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008122 # Gabriele Maria
-						mother=100111227 # Cecilia
+						father=100008122	# Gabriele di Borbone-Due Sicilie
+						mother=100111227	# Cäcilie Lubomirski
 						1934.11.16={birth=yes}
 					}
 					100008139={# 4e) Marie Immaculata (b.Warsaw 25 Jun 1937); m.San Carlos, Ibiza 29 Jun 1970 (div 1979) Miguel Garcia de Saéz y Tellecea (Pamplona 6 Sep 1921-Madrid 12 Mar 1982)
 						name=Immaculata
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008122 # Gabriele Maria
-						mother=100111227 # Cecilia
+						father=100008122	# Gabriele di Borbone-Due Sicilie
+						mother=100111227	# Cäcilie Lubomirski
 						1937.06.25={birth=yes}
-						1970.06.29={add_spouse=100008140}	# Miguel Garcia
+						1970.06.29={add_spouse=100008140}	# Miguel de Saéz y Tellecea
 					}
 					100008141={# 5e) Casimir Maria Alfons Gabriel (b.Warsaw 8 Nov 1938); m.Jacarezinho, Brazil 29 Jan 1967 Maria Cristina Pss of Savoy (Castelo Miramar 12 Sep 1933)
 						name=Casimir
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008122 # Gabriele Maria
-						mother=100111227 # Cecilia
+						father=100008122	# Gabriele di Borbone-Due Sicilie
+						mother=100111227	# Cäcilie Lubomirski
 						1938.11.08={birth=yes}
-						1967.01.29={add_spouse=100070045}	# Maria Cristina
+						1967.01.29={add_spouse=100070045}	# Maria Cristina de Savoie
 					}
 						100008143={# 1f) Luis Alfonso (b.Rio de Janeiro 28 Nov 1970); m.São Paolo 22 Oct 1998 Christine Apovian (b.São Paolo 20 May 1969)
 							name="Luis Alfonso"
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008141 # Casimir Maria
-							mother=100070045 # Maria Cristina
+							father=100008141	# Casimir di Borbone-Due Sicilie
+							mother=100070045	# Maria Cristina de Savoie
 							1970.11.28={birth=yes}
 							1998.10.22={add_spouse=100008144}	# Christine Apovian
 						}
@@ -1330,8 +1378,8 @@
 								female=yes
 								dynasty=1006001
 								religion=catholic culture=neapolitan
-								father=100008143 # Luis Alfonso
-								mother=100008144 # Christine Apovian
+								father=100008143	# Luis Alfonso di Borbone-Due Sicilie
+								mother=100008144	# Christine Apovian
 								1999.04.09={birth=yes}
 							}
 						100008146={# 2f) Anna Cecilia (b.São Paulo 24 Dec 1971); m.Verchers-sur-Layon 18 Aug 2005 (rel) Turin 19 Sep 2005 Cte Rodolphe Jean Etienne Marie de Vincens de Causans (b.Chesnay 22 Jan 1973)
@@ -1339,24 +1387,24 @@
 							female=yes
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008141 # Casimir Maria
-							mother=100070045 # Maria Cristina
+							father=100008141	# Casimir di Borbone-Due Sicilie
+							mother=100070045	# Maria Cristina de Savoie
 							1971.12.24={birth=yes}
 						}
 						100008148={# 3f) Elena Sofia (b.São Paulo 10 Sep 1973)
 							name="Elena Sofia"
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008141 # Casimir Maria
-							mother=100070045 # Maria Cristina
+							father=100008141	# Casimir di Borbone-Due Sicilie
+							mother=100070045	# Maria Cristina de Savoie
 							1973.09.10={birth=yes}
 						}
 						100008149={# 4f) Alexander Henrique (b.São Paulo 9 Aug 1974); ordained a priest at Rome 22 Dec 2007
 							name="Alexander Henrique"
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008141 # Casimir Maria
-							mother=100070045 # Maria Cristina
+							father=100008141	# Casimir di Borbone-Due Sicilie
+							mother=100070045	# Maria Cristina de Savoie
 							1974.08.09={birth=yes}
 						}
 			100008150={# 5c) Maria Annunziata Isabella Filomena Sabasia (Caserta 24 Mar 1843-Vienna 4 May 1871); m.by proxy at Rome 16 Oct 1862 and in person at Venice 21 Oct 1862 Karl Ludwig, Archduke of Austria (Schönbrunn 30 Jul 1833-Vienna 19 May 1896)
@@ -1364,8 +1412,8 @@
 				female=yes
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1843.03.24={birth=yes}
 				1871.05.04={death=yes}
 			}
@@ -1374,8 +1422,8 @@
 				female=yes
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1844.04.14={birth=yes}
 				1899.02.18={death=yes}
 			}
@@ -1383,10 +1431,10 @@
 				name=Gaëtano
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1846.01.12={birth=yes}
-				1868.05.13={add_spouse=100025039}	# Maria, Infanta of Spain
+				1868.05.13={add_spouse=100025039}	# Maria Isabel de Bourbon
 				1871.11.26={death=yes}
 			}
 			100008157={# 9c) Maria delle Grazie Pia (Gaeta 2 Aug 1849-Biarritz 29 Sep 1882); m.Rome 5 Apr 1869 Duke Robert I of Parma (Florence 9 Jul 1848-Pianore 16 Nov 1907)
@@ -1394,8 +1442,8 @@
 				female=yes
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1849.08.02={birth=yes}
 				1882.09.29={death=yes}
 			}
@@ -1403,8 +1451,8 @@
 				name=Pasquale
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1852.09.15={birth=yes}
 				1878.11.20={add_spouse=100008161}	# Blanche Marconnay
 				1904.12.21={death=yes}
@@ -1414,8 +1462,8 @@
 				female=yes
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1855.01.21={birth=yes}
 				1874.08.23={death=yes}
 			}
@@ -1423,8 +1471,8 @@
 				name=Gennaro
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008021 # Ferdinando
-				mother=100020225 # Theresa
+				father=100008021	# Ferdinando di Borbone-Due Sicilie
+				mother=100020225	# Theresia v. Habsburg-Lothringen
 				1857.02.28={birth=yes}
 				1867.08.13={death=yes}
 			}
@@ -1432,18 +1480,18 @@
 			name="Carlo Ferdinando"
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1811.11.10={birth=yes}
-			1836.04.05={add_spouse=100008166}	# Penelope Smyth
+			1836.04.05={add_spouse=100008166}	# Penelope di Marescata
 			1862.04.22={death=yes}
 		}
 			100008167={# 1c) Francesco Ferdinando Carlo di Borbone, Cte di Mascali (24 Mar 1837-Lucca 2 Jun 1862)
 				name="Francesco Ferdinando"
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008165 # Carlo Ferdinando
-				mother=100008166 # Penelope Smyth
+				father=100008165	# Carlo Ferdinando di Borbone-Due Sicilie
+				mother=100008166	# Penelope di Marescata
 				1837.03.24={birth=yes}
 				1862.06.02={death=yes}
 			}
@@ -1452,8 +1500,8 @@
 				female=yes
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008165 # Carlo Ferdinando
-				mother=100008166 # Penelope Smyth
+				father=100008165	# Carlo Ferdinando di Borbone-Due Sicilie
+				mother=100008166	# Penelope di Marescata
 				1838.05.15={birth=yes}
 				1895.08.09={death=yes}
 			}
@@ -1461,10 +1509,10 @@
 			name="Leopoldo Beniamino"
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1813.05.22={birth=yes}
-			1837.06.16={add_spouse=100008170}	# Maria
+			1837.06.16={add_spouse=100008170}	# Maria Vittoria de Savoie
 			1860.12.04={death=yes}
 		}
 		100008172={# 8b) Maria Antonietta Anna (Palermo 19 Dec 1814-Orth 7 Nov 1898); m.Naples 7 Jun 1833 Leopoldo II, Grand Duke of Tuscany, Archduke of Austria (Florence 3 Oct 1797-Rome 29 Jan 1870)
@@ -1472,8 +1520,8 @@
 			female=yes
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1814.12.19={birth=yes}
 			1898.11.07={death=yes}
 		}
@@ -1481,8 +1529,8 @@
 			name="Antonio Pasquale"
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1816.09.23={birth=yes}
 			1843.01.12={death=yes}
 		}
@@ -1491,8 +1539,8 @@
 			female=yes
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1818.02.25={birth=yes}
 			1857.11.06={death=yes}
 		}
@@ -1501,8 +1549,8 @@
 			female=yes
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1820.11.29={birth=yes}
 			1861.01.14={death=yes}
 		}
@@ -1511,8 +1559,8 @@
 			female=yes
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1822.03.14={birth=yes}
 			1889.12.28={death=yes}
 		}
@@ -1520,20 +1568,20 @@
 			name="Luigi Carlo"
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1824.07.19={birth=yes}
-			1844.04.28={add_spouse=100033506}	# Januaria
+			1844.04.28={add_spouse=100033506}	# Januária Maria de Braganza
 			1897.03.05={death=yes}
 		}
 			100008183={# 1c) Luigi Maria Ferdinando Pietro di Alcantara Francesco d'Assisi Gennaro Francesco di Paola Alfonso Luigi di Gonzaga Camillo de Hellis Alexis Raimondo Torillo Sebastiano Filomena, Cte di Roccaguglielma 31 Jan 1872 (Naples 18 Jul 1845-Nice 27 Nov 1909); m.(morganatically) New York 28 May 1869 Amelia Bellow-Hamel y Penot (Havana 19 Jun 1847-Paris 1 Mar 1914)
 				name=Luigi
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008181 # Luigi Carlo
-				mother=100033506 # Januaria
+				father=100008181	# Luigi Carlo di Borbone-Due Sicilie
+				mother=100033506	# Januária Maria de Braganza
 				1845.07.18={birth=yes}
-				1869.05.28={add_spouse=100008184}	# Amelia Bellow-Hamel
+				1869.05.28={add_spouse=100008184}	# Amelia Bellow-Hamel y Penot
 				1909.11.27={death=yes}
 			}
 				100008185={# 1d) Maria Gennara Amelia Isabella Luisa Enrichetta Giovanna Bona Nicanoretta Gisela Micaela Gabriela Rafaela Gonzaga de Borbon (Havana 10 Jan 1870-Rio de Janeiro 6 Nov 1941); m.Nice 15 Nov 1898 William Louis Freeman (La Bergerie, Noyon, Vaud 6 Oct 1845-Évian-les-Bains 23 Dec 1907)
@@ -1541,8 +1589,8 @@
 					female=yes
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008183 # Luigi Maria
-					mother=100008184 # Amelia Bellow-Hamel
+					father=100008183	# Luigi di Borbone-Due Sicilie
+					mother=100008184	# Amelia Bellow-Hamel y Penot
 					1870.01.10={birth=yes}
 					1941.11.06={death=yes}
 				}
@@ -1550,8 +1598,8 @@
 					name=Luigi
 					dynasty=1006001
 					religion=catholic culture=neapolitan
-					father=100008183 # Luigi Maria
-					mother=100008184 # Amelia Bellow-Hamel
+					father=100008183	# Luigi di Borbone-Due Sicilie
+					mother=100008184	# Amelia Bellow-Hamel y Penot
 					1873.05.21={birth=yes}
 					1898.01.23={add_spouse=100008188}	# Enrica Weiss
 					1932.01.05={remove_spouse=100008188	add_spouse=100008189}	# Adeline Landegren
@@ -1561,10 +1609,10 @@
 						name=Luigi
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008187 # Luigi Maria
-						mother=100008188 # Enrica Weiss
+						father=100008187	# Luigi di Borbone-Due Sicilie
+						mother=100008188	# Enrica Weiss
 						1898.10.18={birth=yes}
-						1925.09.26={add_spouse=100066900}	# Marie Louise
+						1925.09.26={add_spouse=100066900}	# Marie Louise de Clermont-Tonnerre
 						1967.04.12={death=yes}
 					}
 						100008192={# 1f) Marie Christine Amélie Janvière Léopoldine Louise Jeanne Thérèse Caroline Henriette Françoise Isabelle Gabrielle Victoire de Bourbon; granted title Princess and style HRH by Infante Don Carlos (b.Paris 15 Mar 1933); m.Neuilly-sur-Seine 26 Sep 1957 Michel Denizot (Paris 17 May 1923-10 Mar 2011)
@@ -1572,8 +1620,8 @@
 							female=yes
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008190 # Luigi Maria
-							mother=100066900 # Marie Louise
+							father=100008190	# Luigi di Borbone-Due Sicilie
+							mother=100066900	# Marie Louise de Clermont-Tonnerre
 							1933.03.15={birth=yes}
 						}
 					100008194={# 2e) Gennara Maria Pia di Borbone (Narni 7 Jul 1903-Naples 2 Nov 1982); m.Paola 2 May 1930 Alfonso Bongiorno (Acireale 25 Jul 1908-Messina 6 Oct 1980)
@@ -1581,8 +1629,8 @@
 						female=yes
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008187 # Luigi Maria
-						mother=100008188 # Enrica Weiss
+						father=100008187	# Luigi di Borbone-Due Sicilie
+						mother=100008188	# Enrica Weiss
 						1903.07.07={birth=yes}
 						1982.11.02={death=yes}
 					}
@@ -1590,29 +1638,29 @@
 						name=Carlo
 						dynasty=1006001
 						religion=catholic culture=neapolitan
-						father=100008187 # Luigi Maria
-						mother=100008188 # Enrica Weiss
+						father=100008187	# Luigi di Borbone-Due Sicilie
+						mother=100008188	# Enrica Weiss
 						1905.11.08={birth=yes}
-						1925.04.25={add_spouse=100008197}	# Fanny Greco
+						1925.04.25={add_spouse=100008197}	# Fanny di Chiaramonte
 						1968.12.12={death=yes}
 					}
 						100008198={# 1f) Isabella Maria Francesca di Borbone; granted title Princess and style HRH by Prince Ferdinando; (b.Viareggio 17 Apr 1926); m.1st Buenos Aires 2 Aug 1954 (div 1969) José Gutierrez (b.Buenos Aires 16 Apr 1921); m.2d Buenos Aires 7 Jul 1969 Isidoro-Mariano Vejo Rodriguez (Rivera, Uruguay 31 Jan 1915-12 Mar 2007)
 							name=Isabella
 							dynasty=1006001
 							religion=catholic culture=neapolitan
-							father=100008196 # Carlo Maria
-							mother=100008197 # Fanny Greco
+							father=100008196	# Carlo di Borbone-Due Sicilie
+							mother=100008197	# Fanny di Chiaramonte
 							1926.04.17={birth=yes}
 							1954.08.02={add_spouse=100008199}	# José Gutierrez
-							1969.07.07={remove_spouse=100008199	add_spouse=100008200}	# Isidoro-Mariano
+							1969.07.07={remove_spouse=100008199	add_spouse=100008200}	# Isidoro-Mariano Vejo Rodriguez
 						}
 			100008201={# 2c) Maria Isabella Leopoldina Amelia (Naples 22 Jul 1846-Naples 14 Feb 1859)
 				name="Maria Isabella"
 				female=yes
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008181 # Luigi Carlo
-				mother=100033506 # Januaria
+				father=100008181	# Luigi Carlo di Borbone-Due Sicilie
+				mother=100033506	# Januária Maria de Braganza
 				1846.07.22={birth=yes}
 				1859.02.14={death=yes}
 			}
@@ -1620,8 +1668,8 @@
 				name="Filippo Luigi"
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008181 # Luigi Carlo
-				mother=100033506 # Januaria
+				father=100008181	# Luigi Carlo di Borbone-Due Sicilie
+				mother=100033506	# Januária Maria de Braganza
 				1847.08.12={birth=yes}
 				1882.09.23={add_spouse=100008203}	# Flora Boonen
 				1922.07.09={death=yes}
@@ -1630,10 +1678,10 @@
 			name=Francesco
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008009 # Francesco
-			mother=100025193 # Maria Isabella, Infanta
+			father=100008009	# Francesco di Borbone-Due Sicilie
+			mother=100025193	# Maria Isabel de Bourbon
 			1827.08.13={birth=yes}
-			1850.04.10={add_spouse=100020712}	# Isabella
+			1850.04.10={add_spouse=100020712}	# Maria Isabella v. Habsburg-Lothringen
 			1892.09.24={death=yes}
 		}
 			100008207={# 1c) Maria Antonietta Giuseppina Leopoldina (Naples 16 Mar 1851-Freiburg 12 Sep 1938); m.Rome 8 Jun 1868 Alfonso Pr of Bourbon-Two Sicilies, Cte di Caserta (1 Jan 1841-1 Jan 1934)
@@ -1641,8 +1689,8 @@
 				female=yes
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008205 # Francesco
-				mother=100020712 # Isabella
+				father=100008205	# Francesco di Borbone-Due Sicilie
+				mother=100020712	# Maria Isabella v. Habsburg-Lothringen
 				1851.03.16={birth=yes}
 				1938.09.12={death=yes}
 			}
@@ -1650,8 +1698,8 @@
 				name=Leopoldo
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008205 # Francesco
-				mother=100020712 # Isabella
+				father=100008205	# Francesco di Borbone-Due Sicilie
+				mother=100020712	# Maria Isabella v. Habsburg-Lothringen
 				1853.09.24={birth=yes}
 				1870.09.04={death=yes}
 			}
@@ -1660,8 +1708,8 @@
 				female=yes
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008205 # Francesco
-				mother=100020712 # Isabella
+				father=100008205	# Francesco di Borbone-Due Sicilie
+				mother=100020712	# Maria Isabella v. Habsburg-Lothringen
 				1856.03.20={birth=yes}
 				1941.04.07={death=yes}
 			}
@@ -1669,8 +1717,8 @@
 				name="Maria Annunziata"
 				dynasty=1006001
 				religion=catholic culture=neapolitan
-				father=100008205 # Francesco
-				mother=100020712 # Isabella
+				father=100008205	# Francesco di Borbone-Due Sicilie
+				mother=100020712	# Maria Isabella v. Habsburg-Lothringen
 				1858.09.21={birth=yes}
 				1873.03.20={death=yes}
 			}
@@ -1679,18 +1727,17 @@
 		female=yes
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1779.01.17={birth=yes}
-		1807.03.07={add_spouse=100008216}	# Charles Felix
 		1849.03.11={death=yes}
 	}
 	100008218={# 8a) Carlo Gennaro Francesco (Naples 12 Apr 1780-Naples 2 Jan 1789)
 		name="Carlo Gennaro"
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1780.04.12={birth=yes}
 		1789.01.02={death=yes}
 	}
@@ -1699,8 +1746,8 @@
 		female=yes
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1782.04.26={birth=yes}
 		1866.03.24={death=yes}
 	}
@@ -1709,8 +1756,8 @@
 		female=yes
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1784.12.14={birth=yes}
 		1806.05.21={death=yes}
 	}
@@ -1719,8 +1766,8 @@
 		female=yes
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1786.02.18={birth=yes}
 		1792.09.12={death=yes}
 	}
@@ -1728,10 +1775,10 @@
 		name="Leopoldo Giovanni"
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1790.07.02={birth=yes}
-		1816.07.28={add_spouse=100020036}	# Clementine, Archdss
+		1816.07.28={add_spouse=100020036}	# Clementine v. Habsburg-Lothringen
 		1851.03.10={death=yes}
 	}
 		100008229={# 1b) Maria Carolina Augusta (Vienna 26 Apr 1822-Twickenham 6 Dec 1869); m.Naples 25 Nov 1844 Henri Pr d'Orléans Duc d'Aumâle (Paris 16 Jan 1822-Zucco 7 May 1897)
@@ -1739,8 +1786,8 @@
 			female=yes
 			dynasty=1006001
 			religion=catholic culture=neapolitan
-			father=100008227 # Leopoldo Giovanni
-			mother=100020036 # Clementine, Archdss
+			father=100008227	# Leopoldo Giovanni di Borbone-Due Sicilie
+			mother=100020036	# Clementine v. Habsburg-Lothringen
 			1822.04.26={birth=yes}
 			1869.12.06={death=yes}
 		}
@@ -1748,8 +1795,8 @@
 		name="Carlo Alberto"
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1792.05.02={birth=yes}
 		1798.12.24={death=yes}
 	}
@@ -1758,8 +1805,8 @@
 		female=yes
 		dynasty=1006001
 		religion=catholic culture=neapolitan
-		father=100008000 # Fernando
-		mother=100020626 # Maria Karoline
+		father=100008000	# Ferdinando di Borbone-Due Sicilie
+		mother=100020626	# Marie Caroline v. Habsburg-Lothringen
 		1793.12.02={birth=yes}
 		1801.04.23={death=yes}
 	}
@@ -1771,10 +1818,10 @@
 	name=Felipe
 	dynasty=1006002
 	religion=catholic culture=castillan
-	father=100025000 # FELIPE V of Spain
-	mother=100025002 # Elisabetha Farnese of Parma
+	father=100025000	# Philippe de Bourbon
+	mother=100025002	# PSS Elisabetha Farnese
 	1720.03.15={birth=yes}
-	1739.08.26={add_spouse=100008514}	# Elisabeth of France
+	1739.08.26={add_spouse=100008514}	# Louise Élisabeth de Bourbon
 	1765.07.18={death=yes}
 }
 	100008302={# 1a) Isabel Maria Luisa Antonietta Ferdinanda Giuseppina Saveria Domenica Giovanna (Madrid 31 Dec 1741-Vienna 27 Nov 1763); m.by proxy at Parma 7 Sep 1760 and in person at Vienna 6 Oct 1760 Emperor Joseph II (Schönbrunn 13 Mar 1741-Vienna 20 Feb 1790)
@@ -1782,8 +1829,8 @@
 		female=yes
 		dynasty=1006002
 		religion=catholic culture=italian
-		father=100008300 # Felipe
-		mother=100008514 # Elisabeth of France
+		father=100008300	# Felipe di Borbone-Parma
+		mother=100008514	# Louise Élisabeth de Bourbon
 		1741.12.31={birth=yes}
 		1763.11.27={death=yes}
 	}
@@ -1791,10 +1838,10 @@
 		name=Ferdinando
 		dynasty=1006002
 		religion=catholic culture=italian
-		father=100008300 # Felipe
-		mother=100008514 # Elisabeth of France
+		father=100008300	# Felipe di Borbone-Parma
+		mother=100008514	# Louise Élisabeth de Bourbon
 		1751.01.20={birth=yes}
-		1769.07.18={add_spouse=100020014}	# Maria Amelia
+		1769.07.18={add_spouse=100020014}	# Marie Amalie v. Habsburg-Lothringen
 		1802.10.09={death=yes}
 	}
 		100008306={# 1b) Carolina Maria Teresa Giuseppa (Parma 22 Nov 1770-Dresden 1 Mar 1804); m.Dresden 9 May 1792 Maximilian Pr of Saxony (Dresden 13 Apr 1759-Dresden 3 Jan 1838)
@@ -1802,8 +1849,8 @@
 			female=yes
 			dynasty=1006002
 			religion=catholic culture=italian
-			father=100008304 # Ferdinando
-			mother=100020014 # Maria Amelia
+			father=100008304	# Ferdinando di Borbone-Parma
+			mother=100020014	# Marie Amalie v. Habsburg-Lothringen
 			1770.11.22={birth=yes}
 			1804.03.01={death=yes}
 		}
@@ -1811,30 +1858,30 @@
 			name=Lodovico
 			dynasty=1006002
 			religion=catholic culture=italian
-			father=100008304 # Ferdinando
-			mother=100020014 # Maria Amelia
+			father=100008304	# Ferdinando di Borbone-Parma
+			mother=100020014	# Marie Amalie v. Habsburg-Lothringen
 			1773.07.05={birth=yes}
-			1795.08.25={add_spouse=100025027}	# Maria Luisa of Spain
+			1795.08.25={add_spouse=100025027}	# Maria Luisa de Bourbon
 			1803.05.27={death=yes}
 		}
 			100008310={# 1c) CARLO II Lodovico Ferdinando, Duke of Parma and Piacenza 17 Dec 1847 on the holder of Empress Marie Louise, Duchess of Parma, abdicated 19 Apr 1848; reigned as King Lodovico II of Etruria 27 May 1803-10 Dec 1807, Duke of Lucca 13 Mar 1824-15 Oct 1847 (Madrid 22 Dec 1799-Nice 16 Apr 1883); m.Turin 5 Sep 1820 Maria Teresa Pss of Savoy (Rome 19 Sep 1803-San Martino 16 Jul 1879)
 				name=Carlo
 				dynasty=1006002
 				religion=catholic culture=italian
-				father=100008308 # Lodovico
-				mother=100025027 # Maria Luisa of Spain
+				father=100008308	# Lodovico di Borbone-Parma
+				mother=100025027	# Maria Luisa de Bourbon
 				1799.12.22={birth=yes}
-				1820.09.05={add_spouse=100008311}	# Maria Teresa of Savoy
+				1820.09.05={add_spouse=100070146}	# Maria Teresa de Savoie
 				1883.04.16={death=yes}
 			}
 				100008313={# 2d) Ferdinando CARLO III Giuseppe (Lucca 14 Jan 1823, assassinated at Parma 27 Mar 1854); m.Frohsdorf 10 Nov 1845 Louise Marie Thérèse of France (Paris 21 Sep 1819-Venice 1 Feb 1864)
 					name=Carlo
 					dynasty=1006002
 					religion=catholic culture=italian
-					father=100008310 # Carlo
-					mother=100008311 # Maria Teresa of Savoy
+					father=100008310	# Carlo di Borbone-Parma
+					mother=100070146	# Maria Teresa de Savoie
 					1823.01.14={birth=yes}
-					1845.11.10={add_spouse=100008540}	# Louise Marie of France
+					1845.11.10={add_spouse=100008540}	# Louise Marie de Bourbon
 					1854.03.27={death=yes}
 				}
 					100008315={# 1e) Margherita Maria Teresa Enrichetta (Lucca 1 Jan 1847-Viareggio 29 Jan 1893); m.Frohsdorf 4 Feb 1867 Carlos de Borbón, Infant of Spain, Duke of Madrid (Laibach 30 Mar 1848-Varese 18 Jul 1909)
@@ -1842,8 +1889,8 @@
 						female=yes
 						dynasty=1006002
 						religion=catholic culture=italian
-						father=100008313 # Carlo of Parma and Piacenza
-						mother=100008540 # Louise Marie of France
+						father=100008313	# Carlo di Borbone-Parma
+						mother=100008540	# Louise Marie de Bourbon
 						1846.01.01={birth=yes}
 						1893.01.29={death=yes}
 					}
@@ -1851,11 +1898,11 @@
 						name=Roberto
 						dynasty=1006002
 						religion=catholic culture=italian
-						father=100008313 # Carlo of Parma and Piacenza
-						mother=100008540 # Louise Marie of France
+						father=100008313	# Carlo di Borbone-Parma
+						mother=100008540	# Louise Marie de Bourbon
 						1848.07.09={birth=yes}
-						1869.04.05={add_spouse=100008157}	# Maria Pia of Bourbon-Two Sicilies
-						1884.10.15={add_spouse=100033115}	# Maria Antonia of Portugal
+						1869.04.05={add_spouse=100008157}	# Maria Pia di Borbone-Due Sicilie
+						1884.10.15={add_spouse=100033115}	# Maria Antónia de Braganza
 						1907.11.16={death=yes}
 					}
 						100008320={# 1f) Maria Luisa Pia Teresa Apolonia (Rome 17 Jan 1870-Sofia 31 Jan 1899); m.Pianore 20 Apr 1893 Ferdinand Pr of Bulgaria (Vienna 26 Feb 1861-Coburg 10 Sep 1948)
@@ -1863,8 +1910,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1870.01.17={birth=yes}
 							1899.01.31={death=yes}
 						}
@@ -1873,8 +1920,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1872.03.24={birth=yes}
 							1943.06.22={death=yes}
 						}
@@ -1882,8 +1929,8 @@
 							name=Enrico
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1873.06.13={birth=yes}
 							1939.05.10={death=yes}
 						}
@@ -1892,8 +1939,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1874.07.21={birth=yes}
 							1914.05.16={death=yes}
 						}
@@ -1901,8 +1948,8 @@
 							name=Giuseppe
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1875.06.30={birth=yes}
 							1950.01.07={death=yes}
 						}
@@ -1911,8 +1958,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1876.10.15={birth=yes}
 							1959.01.25={death=yes}
 						}
@@ -1921,8 +1968,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1877.10.09={birth=yes}
 							1915.01.29={death=yes}
 						}
@@ -1931,8 +1978,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1879.01.09={birth=yes}
 							1946.03.11={death=yes}
 						}
@@ -1940,10 +1987,10 @@
 							name=Elias
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100008157 # Maria Pia of Bourbon-Two Sicilies
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100008157	# Maria Pia di Borbone-Due Sicilie
 							1880.07.23={birth=yes}
-							1903.05.25={add_spouse=100020240}	# Maria Anna
+							1903.05.25={add_spouse=100020240}	# Maria Anna v. Habsburg-Lothringen
 							1959.06.27={death=yes}
 						}
 							100008333={# 1g) Elisabetta Maria Anna Pia Luisa (Vienna 17 Mar 1904-Bad Ischl 13 Jun 1983)
@@ -1951,8 +1998,8 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008331 # Elias
-								mother=100020240 # Maria Anna
+								father=100008331	# Elias di Borbone-Parma
+								mother=100020240	# Maria Anna v. Habsburg-Lothringen
 								1904.03.17={birth=yes}
 								1983.06.13={death=yes}
 							}
@@ -1960,8 +2007,8 @@
 								name="Carlo Luigi"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008331 # Elias
-								mother=100020240 # Maria Anna
+								father=100008331	# Elias di Borbone-Parma
+								mother=100020240	# Maria Anna v. Habsburg-Lothringen
 								1905.09.22={birth=yes}
 								1912.09.26={death=yes}
 							}
@@ -1970,8 +2017,8 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008331 # Elias
-								mother=100020240 # Maria Anna
+								father=100008331	# Elias di Borbone-Parma
+								mother=100020240	# Maria Anna v. Habsburg-Lothringen
 								1906.09.05={birth=yes}
 								1994.02.20={death=yes}
 							}
@@ -1979,8 +2026,8 @@
 								name="Roberto Ugo"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008331 # Elias
-								mother=100020240 # Maria Anna
+								father=100008331	# Elias di Borbone-Parma
+								mother=100020240	# Maria Anna v. Habsburg-Lothringen
 								1909.08.07={birth=yes}
 								1974.11.25={death=yes}
 							}
@@ -1988,8 +2035,8 @@
 								name="Francesco Ranieri"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008331 # Elias
-								mother=100020240 # Maria Anna
+								father=100008331	# Elias di Borbone-Parma
+								mother=100020240	# Maria Anna v. Habsburg-Lothringen
 								1913.06.14={birth=yes}
 								1939.05.29={death=yes}
 							}
@@ -1998,8 +2045,8 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008331 # Elias
-								mother=100020240 # Maria Anna
+								father=100008331	# Elias di Borbone-Parma
+								mother=100020240	# Maria Anna v. Habsburg-Lothringen
 								1916.07.08={birth=yes}
 								1949.11.01={death=yes}
 							}
@@ -2008,8 +2055,8 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008331 # Elias
-								mother=100020240 # Maria Anna
+								father=100008331	# Elias di Borbone-Parma
+								mother=100020240	# Maria Anna v. Habsburg-Lothringen
 								1917.11.13={birth=yes}
 								1992.01.01={death=yes}	# EST.
 }
@@ -2018,8 +2065,8 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008331 # Elias
-								mother=100020240 # Maria Anna
+								father=100008331	# Elias di Borbone-Parma
+								mother=100020240	# Maria Anna v. Habsburg-Lothringen
 								1925.06.07={birth=yes}
 								2009.09.01={death=yes}
 							}
@@ -2028,8 +2075,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1885.08.05={birth=yes}
 							1959.02.06={death=yes}
 						}
@@ -2037,28 +2084,28 @@
 							name=Sisto
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1886.08.01={birth=yes}
-							1919.11.12={add_spouse=100008345}	# Hedwige de la Rochefoucauld
+							1919.11.12={add_spouse=100008345}	# Hedwige de La Rochefoucauld
 							1934.03.14={death=yes}
 						}
-							100008346={# 1g) Isabelle Marie Antoinette Louise Hedwige (b.Paris 14 Mar 1922); m.Paris (civ) 22 Jun 1943 (rel) 23 Jun 1943 (div 1966) Roger de La Rochefoucauld (Paris 8 Oct 1915-StGermain 13 Apr 1970)
+							100008346={# 1g) Isabelle Marie Antoinette Louise Hedwige (b.Paris 14 Mar 1922); m.Paris (civ) 22 Jun 1943 (rel) 23 Jun 1943 (div 1966) Roger de La Rochefoucauld (Paris 8 Oct 1915-Saint Germain 13 Apr 1970)
 								name="Isabelle Marie"
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008344 # Sisto
-								mother=100008345 # Hedwige de la Rochefoucauld
+								father=100008344	# Sisto di Borbone-Parma
+								mother=100008345	# Hedwige de La Rochefoucauld
 								1922.03.14={birth=yes}
 								1997.01.01={death=yes}	# EST.
-}
+							}
 						100008348={# 15f) FRANCESCO SAVERIO (Xavier) Carlo Maria Anna Giuseppe, Duke of Parma and Piacenza (Camaiore 25 May 1889-Zizers 7 May 1977); m.Lignières 12 Nov 1927 Madeleine de Bourbon-Busset (Paris 23 Mar 1898-Paris 1 Sep 1984)
 							name="Francesco Saverio"
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1889.05.25={birth=yes}
 							1927.11.12={add_spouse=100008349}	# Madeleine de Bourbon-Busset
 							1977.05.07={death=yes}
@@ -2068,29 +2115,29 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008348 # Francesco Saverio
-								mother=100008349 # Madeleine de Bourbon-Busset
+								father=100008348	# Francesco Saverio di Borbone-Parma
+								mother=100008349	# Madeleine de Bourbon-Busset
 								1928.08.10={birth=yes}
 								2003.01.01={death=yes}	# EST.
-}
+							}
 							100008352={# 2g) CARLOS HUGO Xavier Marie Sixte Louis Robert Jean Georges Benoît Michel, Duke of Parma and Piacenza (Paris 8 Apr 1930-Barcelona 18 Aug 2010); m.Rome 29 Apr 1964 (div 1981) Irene Pss of the Netherlands, Pss zur Lippe-Biesterfeld (b.Soestdijk 5 Aug 1939)
 								name="Carlo Ugo"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008348 # Francesco Saverio
-								mother=100008349 # Madeleine de Bourbon-Busset
+								father=100008348	# Francesco Saverio di Borbone-Parma
+								mother=100008349	# Madeleine de Bourbon-Busset
 								1930.04.08={birth=yes}
-								1964.04.29={add_spouse=100037040}	# Irene of the Netherlands, Pss zur Lippe-Biesterfeld
+								1964.04.29={add_spouse=100037040}	# Irene van Oranje-Nassau
 								2010.08.18={death=yes}
 							}
 								100008354={# 1h) CARLOS XAVIER Bernardo Sixto Maria, Duke of Parma and Piacenza (b.Nimeguen 27 Jan 1970); m. Brussels 20 Nov 2010 Annemarie Cecilia Gualthérie van Weezel (b.The Hague 18 Dec 1977)
 									name="Carlo Saverio"
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008352 # Carlos Hugo
-									mother=100037040 # Irene of the Netherlands, Pss zur Lippe-Biesterfeld
+									father=100008352	# Carlo Ugo di Borbone-Parma
+									mother=100037040	# Irene van Oranje-Nassau
 									1970.01.27={birth=yes}
-									2010.11.20={add_spouse=100008355}	# Annemarie Cecilia
+									2010.11.20={add_spouse=100008355}	# Annemarie van Weezel
 									2010.08.28={add_claim=e_espana}
 								}
 									100008458={# HRH Princess Luisa Irene Constance Anna Maria of Bourbon-Parma (born 9 May 2012, The Hague).
@@ -2098,8 +2145,8 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008354
-										mother=100008355
+										father=100008354	# Carlo Saverio di Borbone-Parma
+										mother=100008355	# Annemarie van Weezel
 										2012.05.09={birth=yes}
 									}
 									100008459={# HRH Princess Cecilia Maria Johanna Beatrix of Bourbon-Parma (born 17 October 2013, The Hague).
@@ -2107,25 +2154,25 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008354
-										mother=100008355
+										father=100008354	# Carlo Saverio di Borbone-Parma
+										mother=100008355	# Annemarie van Weezel
 										2013.10.17={birth=yes}
 									}		
 								100008356={# 2h) Jaime (Jacques) Bernardo, Cte di Bardi (b.Nimeguen 13 Oct 1972)
 									name=Jacques
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008352 # Carlos Hugo
-									mother=100037040 # Irene of the Netherlands, Pss zur Lippe-Biesterfeld
+									father=100008352	# Carlo Ugo di Borbone-Parma
+									mother=100037040	# Irene van Oranje-Nassau
 									1972.10.13={birth=yes}
-									2013.10.03={add_spouse=100101638}
+									2013.10.03={add_spouse=100101638}	# Viktória Cservenyák
 								}
 									100101639={ # Zita
 										name=Zita
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008356
-										mother=100101638
+										father=100008356	# Jacques di Borbone-Parma
+										mother=100101638	# Viktória Cservenyák
 										female=yes
 										2014.02.21={birth=yes}
 									}
@@ -2134,8 +2181,8 @@
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008352 # Carlos Hugo
-									mother=100037040 # Irene of the Netherlands, Pss zur Lippe-Biesterfeld
+									father=100008352	# Carlo Ugo di Borbone-Parma
+									mother=100037040	# Irene van Oranje-Nassau
 									1972.10.13={birth=yes}
 								}
 								100008360={# 4h) Maria Carolina Christina, Marchesa di Sala (b.Nimeguen 23 Jun 1974)
@@ -2143,8 +2190,8 @@
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008352 # Carlos Hugo
-									mother=100037040 # Irene of the Netherlands, Pss zur Lippe-Biesterfeld
+									father=100008352	# Carlo Ugo di Borbone-Parma
+									mother=100037040	# Irene van Oranje-Nassau
 									1974.06.23={birth=yes}
 								}
 							100008361={# 3g) Marie Thérèse Cécile Zita Charlotte (b.Paris 28 Jul 1933)
@@ -2152,8 +2199,8 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008348 # Francesco Saverio
-								mother=100008349 # Madeleine de Bourbon-Busset
+								father=100008348	# Francesco Saverio di Borbone-Parma
+								mother=100008349	# Madeleine de Bourbon-Busset
 								1933.07.28={birth=yes}
 								2008.01.01={death=yes}	# EST.
 }
@@ -2161,8 +2208,8 @@
 								name="Cécile Marie"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008348 # Francesco Saverio
-								mother=100008349 # Madeleine de Bourbon-Busset
+								father=100008348	# Francesco Saverio di Borbone-Parma
+								mother=100008349	# Madeleine de Bourbon-Busset
 								1935.04.12={birth=yes}
 								2010.01.01={death=yes}	# EST.
 }
@@ -2171,8 +2218,8 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008348 # Francesco Saverio
-								mother=100008349 # Madeleine de Bourbon-Busset
+								father=100008348	# Francesco Saverio di Borbone-Parma
+								mother=100008349	# Madeleine de Bourbon-Busset
 								1937.04.29={birth=yes}
 								2012.01.01={death=yes}	# EST.
 }
@@ -2180,8 +2227,8 @@
 								name="Sixte Henri"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008348 # Francesco Saverio
-								mother=100008349 # Madeleine de Bourbon-Busset
+								father=100008348	# Francesco Saverio di Borbone-Parma
+								mother=100008349	# Madeleine de Bourbon-Busset
 								1940.07.22={birth=yes}
 							}
 						100008365={# 16f) Francesca Giuseppa Maria Teresa Elisabetta Sofia Anna Luisa Eulalia Micaela Raffaela Gabriella (Schwarzau 22 Apr 1890-Solesmes 7 Oct 1978)
@@ -2189,8 +2236,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1890.04.22={birth=yes}
 							1978.10.07={death=yes}
 						}
@@ -2199,8 +2246,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1892.05.09={birth=yes}
 							1989.03.14={death=yes}
 						}
@@ -2208,38 +2255,38 @@
 							name=Felix
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1893.09.28={birth=yes}
-							1919.11.06={add_spouse=100092006}
+							1919.11.06={add_spouse=100092006}	# Charlotte v. Nassau-Weilburg
 							1970.04.08={death=yes}
 						}
 						100008370={# 19f) René Charles Maria Joseph (Schwarzau 17 Oct 1894-Hellerup 30 Jul 1962); m.Copenhagen 9 Jun 1921 Margrethe Pss of Denmark (Bernstorff 17 Sep 1895-Brodrehoj 18 Sep 1992)
 							name="René Charles"
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1894.10.17={birth=yes}
-							1921.06.09={add_spouse=100056121}	# Margrethe of Denmark
+							1921.06.09={add_spouse=100056121}	# Margrethe v. Schleswig-Holstein-Sonderburg-Glücksburg
 							1962.07.30={death=yes}
 						}
 							100008372={# 1g) Jacques Maria Antoine Robert Waldemar Charles Felix Sixte Ansgar (Longwy, France 9 Jun 1922-nr Roskilde 5 Nov 1964); m.Ledreborg 9 Jun 1947 Birgitte Komtesse af Holstein-Ledreborg (Ledreborg 29 Jun 1922-21 Aug 2009)
 								name=Jacques
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008370 # René Charles
-								mother=100056121 # Margrethe of Denmark
+								father=100008370	# René Charles di Borbone-Parma
+								mother=100056121	# Margrethe v. Schleswig-Holstein-Sonderburg-Glücksburg
 								1922.06.09={birth=yes}
-								1947.06.09={add_spouse=100008373}	# Birgitte Komtesse
+								1947.06.09={add_spouse=100008373}	# KOMTESSE Birgitte af Holstein-Ledreborg
 								1964.11.05={death=yes}
 							}
 								100008374={# 1h) Philipp Georg Karl Valdemar René Joseph Marie (b.Copenhagen 22 Jan 1949); m.Ledreborg 5 May 1979 Annette Smith (b.Koge, Seeland 24 Apr 1955)
 									name="Philipp Georg"
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008372 # Jacques
-									mother=100008373 # Birgitte Komtesse
+									father=100008372	# Jacques di Borbone-Parma
+									mother=100008373	# KOMTESSE Birgitte af Holstein-Ledreborg
 									1949.01.22={birth=yes}
 									1979.05.05={add_spouse=100008375}	# Annette Smith
 								}
@@ -2247,16 +2294,16 @@
 										name="Jacques Carl"
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008374 # Philipp Georg
-										mother=100008375 # Annette Smith
+										father=100008374	# Philipp Georg di Borbone-Parma
+										mother=100008375	# Annette Smith
 										1986.01.03={birth=yes}
 									}
 									100008377={# 2i) Joseph Axel Alain Eric Marie (b.Roskilde 6 Jun 1989)
 										name="Joseph Axel"
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008374 # Philipp Georg
-										mother=100008375 # Annette Smith
+										father=100008374	# Philipp Georg di Borbone-Parma
+										mother=100008375	# Annette Smith
 										1989.06.06={birth=yes}
 									}
 								100008378={# 2h) Lorraine Charlotte Tatjana Ebba Johanna Maria Antonia Josephine Renée (b.Roskilde 27 Jul 1951)
@@ -2264,46 +2311,46 @@
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008372 # Jacques
-									mother=100008373 # Birgitte Komtesse
+									father=100008372	# Jacques di Borbone-Parma
+									mother=100008373	# KOMTESSE Birgitte af Holstein-Ledreborg
 									1951.07.27={birth=yes}
 								}
 								100008379={# 3h) Alain Johann Knud Bernhard Felix Maria René Joseph (b.Roskilde 15 May 1955); m.1 Jan 2001 Inge Birgitte Vedel Andersen (b.1948)
 									name=Alain
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008372 # Jacques
-									mother=100008373 # Birgitte Komtesse
+									father=100008372	# Jacques di Borbone-Parma
+									mother=100008373	# KOMTESSE Birgitte af Holstein-Ledreborg
 									1955.05.15={birth=yes}
-									2001.01.01={add_spouse=100008380}	# Inge Birgitte
+									2001.01.01={add_spouse=100008380}	# Inge Birgitte Vedel Andersen
 								}
 							100008381={# 2g) Anna Maria Antonie Françoise Zita Marguerite (b.Paris 18 Sep 1923); m.Athens 10 Jun 1948 King Michael of Romania (b.Sinaia 25 Oct 1921)
 								name=Anna
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008370 # René Charles
-								mother=100056121 # Margrethe of Denmark
+								father=100008370	# René Charles di Borbone-Parma
+								mother=100056121	# Margrethe v. Schleswig-Holstein-Sonderburg-Glücksburg
 								1923.09.18={birth=yes}
 							}
 							100008383={# 3g) Michel Marie Xavier Waldemar Georg Robert Karl Eymar (b.Paris 4 Mar 1926); m.1st Paris 9 Jun 1951 Yolande Pss de Broglie-Revel (b.Paris 26 Apr 1928); m.2d Manalapan 16 May 2003 Princess Maria Pia of Savoy (b.Naples 24 Sep 1934)
 								name=Michel
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008370 # René Charles
-								mother=100056121 # Margrethe of Denmark
+								father=100008370	# René Charles di Borbone-Parma
+								mother=100056121	# Margrethe v. Schleswig-Holstein-Sonderburg-Glücksburg
 								1926.03.04={birth=yes}
-								1951.06.09={add_spouse=100066637}	# Yolande de Broglie-Revel
+								1951.06.09={add_spouse=100066637}	# Yolande de Broglie
 								1999.01.01={remove_spouse=100066637}
-								2003.05.16={add_spouse=100070019}	# Maria Pia of Savoy
+								2003.05.16={add_spouse=100070019}	# Maria Pia de Savoie
 							}
 								100008394={# 2h) Inès Marie Joseph Margarethe Yolande Tatiana (Paris 9 May 1952-London 20 Oct 1981)
 									name=Inès
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008383 # Michel Marie
-									mother=100066637 # Yolande de Broglie-Revel
+									father=100008383	# Michel di Borbone-Parma
+									mother=100066637	# Yolande de Broglie
 									1952.05.09={birth=yes}
 									1981.10.20={death=yes}
 								}
@@ -2311,18 +2358,18 @@
 									name=Erik
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008383 # Michel Marie
-									mother=100066637 # Yolande de Broglie-Revel
+									father=100008383	# Michel di Borbone-Parma
+									mother=100066637	# Yolande de Broglie
 									1953.08.28={birth=yes}
-									1980.08.08={add_spouse=100008387}	# Lydia Komtesse
+									1980.08.08={add_spouse=100008387}	# KOMTESSE Lydia af Holstein-Ledreborg
 								}
 									100008388={# 1i) Antoinette Monique Charlotte Marie (b.Roskilde 10 Jun 1981); m.Ledreborg 15 May 2010 Martin Krusbæk (b.Nykøbing Falster 27 Jan 1982)
 										name=Antoinette
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008386 # Eric Marie
-										mother=100008387 # Lydia Komtesse
+										father=100008386	# Erik di Borbone-Parma
+										mother=100008387	# KOMTESSE Lydia af Holstein-Ledreborg
 										1981.06.10={birth=yes}
 									}
 									100008390={# 2i) Marie Gabrielle Yolanda Camilla Philippine (b.Paris 23 Dec 1982)
@@ -2330,8 +2377,8 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008386 # Eric Marie
-										mother=100008387 # Lydia Komtesse
+										father=100008386	# Erik di Borbone-Parma
+										mother=100008387	# KOMTESSE Lydia af Holstein-Ledreborg
 										1982.12.23={birth=yes}
 									}
 									100008391={# 3i) Alexia Thérèse Sybille Eric Charles Marie (b.Palm Beach, Florida 7 Mar 1985); m.Fabian Davis
@@ -2339,24 +2386,24 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008386 # Eric Marie
-										mother=100008387 # Lydia Komtesse
+										father=100008386	# Erik di Borbone-Parma
+										mother=100008387	# KOMTESSE Lydia af Holstein-Ledreborg
 										1985.03.07={birth=yes}
 									}
 									100008392={# 4i) Michel Knud John Joseph Marie (b.Lejre, nr Roskilde 12 Feb 1989)
 										name=Michel
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008386 # Eric Marie
-										mother=100008387 # Lydia Komtesse
+										father=100008386	# Erik di Borbone-Parma
+										mother=100008387	# KOMTESSE Lydia af Holstein-Ledreborg
 										1989.02.12={birth=yes}
 									}
 									100008393={# 5i) Henri Luitpold Antoine Victor Marie Joseph (b.Roskilde 14 Oct 1991)
 										name=Henri
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008386 # Eric Marie
-										mother=100008387 # Lydia Komtesse
+										father=100008386	# Erik di Borbone-Parma
+										mother=100008387	# KOMTESSE Lydia af Holstein-Ledreborg
 										1991.10.14={birth=yes}
 									}
 								100008395={# 3h) Sybil Marie Joseph Anne Victoire (b.Paris 10 Nov 1954); m.Versailles 5 Dec 1997 Craig Richards (b.in Wales 22 Apr 1962)
@@ -2364,8 +2411,8 @@
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008383 # Michel Marie
-									mother=100066637 # Yolande de Broglie-Revel
+									father=100008383	# Michel di Borbone-Parma
+									mother=100066637	# Yolande de Broglie
 									1954.11.10={birth=yes}
 									1997.12.05={add_spouse=100008396}	# Craig Richards
 								}
@@ -2374,8 +2421,8 @@
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008383 # Michel Marie
-									mother=100066637 # Yolande de Broglie-Revel
+									father=100008383	# Michel di Borbone-Parma
+									mother=100066637	# Yolande de Broglie
 									1957.11.08={birth=yes}
 									2001.01.24={death=yes}
 								}
@@ -2383,8 +2430,8 @@
 									name="Charles-Emmanuel"
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008383 # Michel Marie
-									mother=100066637 # Yolande de Broglie-Revel
+									father=100008383	# Michel di Borbone-Parma
+									mother=100066637	# Yolande de Broglie
 									1961.06.03={birth=yes}
 									1991.05.25={add_spouse=100008401}	# Constance de Ravinel
 								}
@@ -2392,8 +2439,8 @@
 										name="Amaury Yves"
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008400 # Charles Emmanuel
-										mother=100008401 # Constance de Ravinel
+										father=100008400	# Charles-Emmanuel di Borbone-Parma
+										mother=100008401	# Constance de Ravinel
 										1991.10.30={birth=yes}
 									}
 									100008403={# 2i) Charlotte Alexe Yolande Marie Joseph (b.Boulogne-Billaincourt 18 Jul 1993)
@@ -2401,8 +2448,8 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008400 # Charles Emmanuel
-										mother=100008401 # Constance de Ravinel
+										father=100008400	# Charles-Emmanuel di Borbone-Parma
+										mother=100008401	# Constance de Ravinel
 										1993.07.18={birth=yes}
 									}
 									100008404={# 3i) Elisabeth Flore Angélique Marie Joseph (b.Boulogne-Billancourt 12 Jun 1996)
@@ -2410,8 +2457,8 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008400 # Charles Emmanuel
-										mother=100008401 # Constance de Ravinel
+										father=100008400	# Charles-Emmanuel di Borbone-Parma
+										mother=100008401	# Constance de Ravinel
 										1996.06.12={birth=yes}
 									}
 									100008405={# 4i) Zita Angélique Inès Marie Joseph (b.Boulogne-Billancourt 1 Apr 1999)
@@ -2419,16 +2466,16 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008400 # Charles Emmanuel
-										mother=100008401 # Constance de Ravinel
+										father=100008400	# Charles-Emmanuel di Borbone-Parma
+										mother=100008401	# Constance de Ravinel
 										1999.04.01={birth=yes}
 									}
 							100008406={# 4g) André Marie (Paris 6 Mar 1928-22 Oct 2011); m.Villefranche 9 May 1960 Marina Gacry (b.Paris 5 Sep 1935)
 								name="André Marie"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008370 # René Charles
-								mother=100056121 # Margrethe of Denmark
+								father=100008370	# René Charles di Borbone-Parma
+								mother=100056121	# Margrethe v. Schleswig-Holstein-Sonderburg-Glücksburg
 								1928.03.06={birth=yes}
 								1960.05.09={add_spouse=100008407}	# Marina Gacry
 								2011.10.22={death=yes}
@@ -2437,8 +2484,8 @@
 									name=Axel
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008406 # André Marie
-									mother=100008407 # Marina Gacry
+									father=100008406	# André Marie di Borbone-Parma
+									mother=100008407	# Marina Gacry
 									1968.09.18={birth=yes}
 									1996.09.07={add_spouse=100008409}	# Raphaële de Montagnon
 								}
@@ -2446,8 +2493,8 @@
 										name=Côme
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008408 # Axel
-										mother=100008409 # Raphaële de Montagnon
+										father=100008408	# Axel di Borbone-Parma
+										mother=100008409	# Raphaële de Montagnon
 										1997.05.07={birth=yes}
 									}
 									100008411={# 2i) Alix (b.26 Mar 2000)
@@ -2455,8 +2502,8 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008408 # Axel
-										mother=100008409 # Raphaële de Montagnon
+										father=100008408	# Axel di Borbone-Parma
+										mother=100008409	# Raphaële de Montagnon
 										2000.03.26={birth=yes}
 									}
 								100008412={# 2h) Tania (b.13 Nov 1961); m.Lozère 9 Aug 1988 Gilbert Bécaud (b.Paris 2 Feb 1953)
@@ -2464,8 +2511,8 @@
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008406 # André Marie
-									mother=100008407 # Marina Gacry
+									father=100008406	# André Marie di Borbone-Parma
+									mother=100008407	# Marina Gacry
 									1961.11.13={birth=yes}
 								}
 								100008414={# 3h) Astrid (b.22 Sep 1964)
@@ -2473,8 +2520,8 @@
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008406 # André Marie
-									mother=100008407 # Marina Gacry
+									father=100008406	# André Marie di Borbone-Parma
+									mother=100008407	# Marina Gacry
 									1964.09.22={birth=yes}
 								}
 						100008415={# 20f) Maria Antonia Sofia Lodovica Giuseppa Micaela Gabriella Raffaela Anna (Schwarzau 7 Nov 1895-Solesmes 19 Oct 1937)
@@ -2482,8 +2529,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1895.11.07={birth=yes}
 							1937.10.19={death=yes}
 						}
@@ -2492,8 +2539,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1898.06.14={birth=yes}
 							1984.07.28={death=yes}
 						}
@@ -2501,18 +2548,18 @@
 							name="Louis Charles"
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1899.12.05={birth=yes}
-							1939.01.23={add_spouse=100070034}	# Maria of Savoy
+							1939.01.23={add_spouse=100070034}	# Maria de Savoie
 							1967.12.04={death=yes}
 						}
 							100008419={# 1g) Veit (Guy) Sixte Louis Robert Victor (Cannes 7 Aug 1940-Paris 9 Mar 1991); m.Cannes (civ) 10 Jul 1964 (rel) 11 Nov 1964 (div 1981) Brigitte Peu-Duvallon (Cannes 13 Aug 1943-Lausanne 25 Feb 1993)
 								name=Guy
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008417 # Louis Charles
-								mother=100070034 # Maria of Savoy
+								father=100008417	# Louis Charles di Borbone-Parma
+								mother=100070034	# Maria de Savoie
 								1940.08.07={birth=yes}
 								1964.11.11={add_spouse=100008420}	# Brigitte Peu-Duvallon
 								1991.03.09={death=yes}
@@ -2521,8 +2568,8 @@
 									name=Louis
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008419 # Veit
-									mother=100008420 # Brigitte Peu-Duvallon
+									father=100008419	# Guy di Borbone-Parma
+									mother=100008420	# Brigitte Peu-Duvallon
 									1966.06.25={birth=yes}
 									1992.05.19={add_spouse=100008422}	# Ariane Nicolet
 								}
@@ -2531,34 +2578,34 @@
 										female=yes
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008421 # Louis Victor-Emmanuel
-										mother=100008422 # Ariane Nicolet
+										father=100008421	# Louis di Borbone-Parma
+										mother=100008422	# Ariane Nicolet
 										1992.07.11={birth=yes}
 									}
 									100008424={# 2i) Guy (b.Genolier, Switzerland 6 Feb 1995)
 										name=Guy
 										dynasty=1006002
 										religion=catholic culture=italian
-										father=100008421 # Louis Victor-Emmanuel
-										mother=100008422 # Ariane Nicolet
+										father=100008421	# Louis di Borbone-Parma
+										mother=100008422	# Ariane Nicolet
 										1995.02.06={birth=yes}
 									}
 							100008425={# 2g) Rémy François Xavier Louis Robert Victor (b.Cannes 14 Jul 1942); m.1st (civ) Saint Prix 8 Feb 1973 (rel) Paris 10 Feb 1973 (div 1983) Laurence Dufresne d'Arganchy (b.Paris 18 Jan 1951); m.2d Switzerland 5 Jul 2003 Mme Elisabeth Tardif (b.Neuilly 17 Apr 1954)
 								name="Rémy François"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008417 # Louis Charles
-								mother=100070034 # Maria of Savoy
+								father=100008417	# Louis Charles di Borbone-Parma
+								mother=100070034	# Maria de Savoie
 								1942.07.14={birth=yes}
-								1973.02.10={add_spouse=100008426}	# Laurence Dufresne
-								2003.07.05={add_spouse=100008427}	# Mme Elisabeth
+								1973.02.10={add_spouse=100008426}	# Laurence Dufresne d'Arganchy
+								2003.07.05={add_spouse=100008427}	# Mme Elisabeth Tardif
 							}
 								100008428={# 1h) Tristan Louis Christian Thierry Marie (b.Cannes 30 Jun 1974); m.Cumières 21 Aug 2010 Shira Szabo (b.Tel Aviv 31 Jan 1979)
 									name="Tristan Louis"
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008425 # Rémy François
-									mother=100008426 # Laurence Dufresne
+									father=100008425	# Rémy François di Borbone-Parma
+									mother=100008426	# Laurence Dufresne d'Arganchy
 									1974.06.30={birth=yes}
 									2010.08.21={add_spouse=100008429}	# Shira Szabo
 								}
@@ -2567,8 +2614,8 @@
 									female=yes
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008425 # Rémy François
-									mother=100008426 # Laurence Dufresne
+									father=100008425	# Rémy François di Borbone-Parma
+									mother=100008426	# Laurence Dufresne d'Arganchy
 									1977.01.26={birth=yes}
 								}
 							100008431={# 3g) Chantal Marie Helene Charlotte (b.Cannes 24 Nov 1946); m.1st (civ) Mandelieu 1 Jul 1977 (rel) Cannes 23 Sep 1977 (div) Panayotis Skinas (b.Athens 8 Mar 1937); m.2d Sainte-Thorette 24 Sep 1988 François-Henri des Georges (b.Nice 4 Mar 1941)
@@ -2576,16 +2623,16 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008417 # Louis Charles
-								mother=100070034 # Maria of Savoy
+								father=100008417	# Louis Charles di Borbone-Parma
+								mother=100070034	# Maria de Savoie
 								1946.11.24={birth=yes}
 							}
 							100008434={# 4g) Jean Bernard Rémy (b.Cannes 15 Oct 1961); m.(civ) Antibes 25 Mar 1988 (rel) Juan-les-Pins 26 Mar 1988 (div 2000) Virginia Roatta (b.31 Aug 1964)
 								name="Jean Bernard"
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008417 # Louis Charles
-								mother=100070034 # Maria of Savoy
+								father=100008417	# Louis Charles di Borbone-Parma
+								mother=100070034	# Maria de Savoie
 								1961.10.15={birth=yes}
 								1988.03.26={add_spouse=100008435}	# Virginia Roatta
 							}
@@ -2593,16 +2640,16 @@
 									name="Arnaud Pascal"
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008434 # Jean Bernard
-									mother=100008435 # Virginia Roatta
+									father=100008434	# Jean Bernard di Borbone-Parma
+									mother=100008435	# Virginia Roatta
 									1989.10.26={birth=yes}
 								}
 								100008437={# 2h) Christophe (b.Cannes 4 Jul 1991)
 									name=Christophe
 									dynasty=1006002
 									religion=catholic culture=italian
-									father=100008434 # Jean Bernard
-									mother=100008435 # Virginia Roatta
+									father=100008434	# Jean Bernard di Borbone-Parma
+									mother=100008435	# Virginia Roatta
 									1991.07.04={birth=yes}
 								}
 						100008438={# 23f) Enrichetta (Henriette) Anna Maria Immacolata Giuseppa Antonia (Pianore 8 Mar 1903-Marti, nr Pisa 13 Jun 1987)
@@ -2610,8 +2657,8 @@
 							female=yes
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1903.03.08={birth=yes}
 							1987.06.13={death=yes}
 						}
@@ -2619,10 +2666,10 @@
 							name=Gaetano
 							dynasty=1006002
 							religion=catholic culture=italian
-							father=100008317 # Roberto of Parma and Piacenza
-							mother=100033115 # Maria Antonia of Portugal
+							father=100008317	# Roberto di Borbone-Parma
+							mother=100033115	# Maria Antónia de Braganza
 							1905.06.11={birth=yes}
-							1931.04.29={add_spouse=100017239}	# Margarete von Thurn u.Taxis
+							1931.04.29={add_spouse=100017239}	# Margarete v. Thurn und Taxis
 							1958.03.09={death=yes}
 						}
 							100008441={# 1g) Diana Marguerite (b.Paris 22 May 1932); m.Krauchenwies 16 Apr 1955 (div 1961) Franz Pr von Hohenzollern (Umkirch 15 Mar 1926-Sigmaringen 13 Mar 1996); m.2d Stuttgart 21 Mar 1961 Hans Joachim Oehmichen (Barnitz 4 Oct 1920-Bad Krozingen 11 Jul 1995)
@@ -2630,8 +2677,8 @@
 								female=yes
 								dynasty=1006002
 								religion=catholic culture=italian
-								father=100008439 # Gaetano
-								mother=100017239 # Margarete von Thurn u.Taxis
+								father=100008439	# Gaetano di Borbone-Parma
+								mother=100017239	# Margarete v. Thurn und Taxis
 								1932.05.22={birth=yes}
 								2007.01.01={death=yes}	# EST.
 }
@@ -2640,8 +2687,8 @@
 						female=yes
 						dynasty=1006002
 						religion=catholic culture=italian
-						father=100008313 # Carlo of Parma and Piacenza
-						mother=100008540 # Louise Marie of France
+						father=100008313	# Carlo di Borbone-Parma
+						mother=100008540	# Louise Marie de Bourbon
 						1849.12.27={birth=yes}
 						1935.11.16={death=yes}
 					}
@@ -2649,11 +2696,11 @@
 						name=Enrico
 						dynasty=1006002
 						religion=catholic culture=italian
-						father=100008313 # Carlo of Parma and Piacenza
-						mother=100008540 # Louise Marie of France
+						father=100008313	# Carlo di Borbone-Parma
+						mother=100008540	# Louise Marie de Bourbon
 						1851.02.12={birth=yes}
-						1873.11.25={add_spouse=100008162}	# Immacolata of Bourbon-Two Sicilies
-						1876.10.15={add_spouse=100033111}	# Adelgunde of Portugal
+						1873.11.25={add_spouse=100008162}	# Maria Immacolata di Borbone-Due Sicilie
+						1876.10.15={add_spouse=100033111}	# Adelgundes de Braganza
 						1905.04.14={death=yes}
 					}
 			100008449={# 2c) Maria Luisa Carlotta (Barcelona 2 Oct 1802-Rome 18 Mar 1857); m.1st Dresden 7 Nov 1825 Maximilian Pr of Saxony (Dresden 13 Apr 1759-Dresden 3 Jan 1838); m.2d 22 Jul 1849 Cte Francesco Rossi (Rome 5 Dec 1797-Venice 30 Sep 1856); m.3d 19 Feb 1855 Cavaliere Giovanni Vimercati (21 Dec 1788-28 Mar 1858)
@@ -2661,8 +2708,8 @@
 				female=yes
 				dynasty=1006002
 				religion=catholic culture=italian
-				father=100008308 # Lodovico
-				mother=100025027 # Maria Luisa of Spain
+				father=100008308	# Lodovico di Borbone-Parma
+				mother=100025027	# Maria Luisa de Bourbon
 				1802.10.02={birth=yes}
 				1857.03.18={death=yes}
 			}
@@ -2671,8 +2718,8 @@
 			female=yes
 			dynasty=1006002
 			religion=catholic culture=italian
-			father=100008304 # Ferdinando
-			mother=100020014 # Maria Amelia
+			father=100008304	# Ferdinando di Borbone-Parma
+			mother=100020014	# Marie Amalie v. Habsburg-Lothringen
 			1774.11.28={birth=yes}
 			1841.02.20={death=yes}
 		}
@@ -2681,8 +2728,8 @@
 			female=yes
 			dynasty=1006002
 			religion=catholic culture=italian
-			father=100008304 # Ferdinando
-			mother=100020014 # Maria Amelia
+			father=100008304	# Ferdinando di Borbone-Parma
+			mother=100020014	# Marie Amalie v. Habsburg-Lothringen
 			1777.09.01={birth=yes}
 			1813.04.05={death=yes}
 		}
@@ -2691,8 +2738,8 @@
 		female=yes
 		dynasty=1006002
 		religion=catholic culture=italian
-		father=100008300 # Felipe
-		mother=100008514 # Elisabeth of France
+		father=100008300	# Felipe di Borbone-Parma
+		mother=100008514	# Louise Élisabeth de Bourbon
 		1751.12.09={birth=yes}
 		1818.01.02={death=yes}
 	}
