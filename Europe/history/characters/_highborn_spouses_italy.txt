@@ -60,7 +60,7 @@
 	dynasty=0
 	religion=catholic culture=hungarian
 	1813.01.21={birth=yes}
-	1847.05.22={add_spouse=100116919}	# Karoline Erdödy de Monyorókerék et Monoszló
+	1847.05.22={add_spouse=100116919}	# Karoline Erdõdy de Monyorókerék et Monoszló
 	1892.02.04={death=yes}
 }
 100115962={ # Gf         Oswald                    Pallavicini                              (1817-1877)
@@ -68,7 +68,7 @@
 	dynasty=0
 	religion=catholic culture=italian
 	1817.01.01={birth=yes}
-	1856.01.01={add_spouse=100115961}	# Helena Zichy de Zich et Vásonykeö
+	1856.01.01={add_spouse=100115961}	# Helena Zichy de Zich et Vásonykõ
 	1877.01.01={death=yes}
 }
 100023216={ # Mkgfn      Josephine                 Pallavicini                              (1849-1923)
@@ -84,7 +84,7 @@
 	dynasty=0
 	religion=catholic culture=hungarian
 	1853.05.06={birth=yes}
-	1876.06.20={add_spouse=100116502}	# Marie Caroline Széchenyi de Sárvár-Felsövidek
+	1876.06.20={add_spouse=100116502}	# Marie Caroline Széchenyi de Sárvár-Felsõvidek
 	1933.04.14={death=yes}
 }
 100000883={ # Mkgfn      Julia                     Pallavicini                              (1857-1932)
@@ -1160,7 +1160,7 @@
 	dynasty=0
 	religion=catholic culture=hungarian
 	1756.01.24={birth=yes}
-	1786.01.01={add_spouse=100116070}	# Leopoldine Zichy de Zich et Vásonykeö
+	1786.01.01={add_spouse=100116070}	# Leopoldine Zichy de Zich et Vásonykõ
 	1789.03.03={death=yes}
 }
 100071528={ #            Riccardo                  Parodi Delfino                           (1934-2011)
@@ -2071,7 +2071,7 @@
 	dynasty=0
 	religion=catholic culture=german
 	1979.01.01={birth=yes}
-	# Eleonore Katharina v. Habsburg-Lothringen
+	2005.01.01={add_spouse=100020766}	# Eleonore Katharina v. Habsburg-Lothringen
 }
 100071982={ # Conte      Enrico                    Piccone                                  (1894-1969)
 	name="Enrico Piccone"
@@ -2126,8 +2126,7 @@
 	dynasty=0
 	religion=catholic culture=italian
 	1941.12.20={birth=yes}
-	# Gabriele Agnes v. Meran
-	#YYYY.01.01={death=yes}
+	2008.09.27={add_spouse=100020562}	# Gabriele Agnes v. Meran
 }
 100071911={ # Nobile     Marino                    Rodino' Di Miglione                      (1884-1960)
 	name="Marino Rodino' Di Miglione"
@@ -2418,7 +2417,7 @@
 	dynasty=0
 	religion=catholic culture=italian
 	1827.07.09={birth=yes}
-	1848.05.08={add_spouse=100116508}	# Elisabeth Széchenyi de Sárvár-Felsövidek
+	1848.05.08={add_spouse=100116508}	# Elisabeth Széchenyi de Sárvár-Felsõvidek
 	1890.01.01={death=yes}
 }
 100071308={ # Marchese   Connestabile              della Staffa                             (1793-1864)
@@ -2484,12 +2483,12 @@
 	1840.07.16={add_spouse=100070852}	# Teresa Colonna
 	1886.02.07={death=yes}
 }
-100021224={ # Marchese   Pietro Francesco          di Ferrero della Marmora                 (1582-1611)
-	name="Pietro Francesco di Ferrero della Marmora"
+100021224={ # Marchese   Pietro Francesco          di Ferrero                               (1582-1611)
+	name="Pietro Francesco di Ferrero"
 	dynasty=0
 	religion=catholic culture=german
 	1582.01.01={birth=yes}
-	# Anna Elisabeth v. Habsburg
+	1607.01.01={add_spouse=100021223}	# Anna Elisabeth v. Habsburg
 	1611.03.07={death=yes}
 }
 100070244={ # Marchese   Casimiro                  di Fontanetto con San Germano            (1903-1988)
@@ -2579,13 +2578,48 @@
 	1874.02.02={add_spouse=100017975}	# Mathilde Auguste v. Urach
 	1901.01.04={death=yes}
 }
-100067390={ # Marchese   Sigismondo Francesco      d’Este                                   (1646-1711)
+100067390={ # Marchese   Sigismondo Francesco      d'Este                                   (1646-1711)
 	name="Sigismondo Francesco d’Este"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
 	1646.01.01={birth=yes}
 	1711.01.01={death=yes}  # EST.
+}
+100101593={ # Duke       Alfonso                   d'Este                                   (1533-1597)     0
+	name="Alfonso d'Este"
+	dynasty=10089
+	religion=catholic culture=italian
+	father=100101592	# Ercole d'Este
+	1533.11.22={birth=yes}
+	1565.12.05={add_spouse=100021238}	# Barbara v. Habsburg
+	1597.10.27={death=yes}
+}
+100101601={ # Duke       Francesco                 d'Este                                   (1698-1780)     2
+	name="Francesco d'Este"
+	dynasty=10089
+	religion=catholic culture=italian
+	father=100101600	# Rinaldo d'Este
+	1698.07.02={birth=yes}
+	1720.02.12={add_spouse=100008616}	# Charlotte Aglaé d'Orléans
+	1780.02.22={death=yes}
+}
+100008592={ #            Maria Teresa Felicitas    d'Este                                   (1726-1754)     2
+	name="Maria Teresa Felicitas d'Este"
+	female=yes
+	dynasty=10089
+	religion=catholic culture=italian
+	father=100101601	# DUKE Francesco d'Este
+	1726.10.06={birth=yes}
+	1754.04.30={death=yes}
+}
+100020629={ # Pss        Maria Beatrice            d'Este                                   (1750-1829)     7
+	name="Maria Beatrice d'Este"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1750.04.07={birth=yes}
+	1829.11.14={death=yes}
 }
 100071370={ # Cts        Marie-Cécile              van der Noot                             (1865-1920)
 	name="Marie-Cécile van der Noot"
@@ -5578,9 +5612,7 @@
 	dynasty=0
 	religion=catholic culture=german
 	1887.10.22={birth=yes}
-	1937.11.27={
-	# Margarita Raineria v. Habsburg-Lothringen
-	}
+	1937.11.27={add_spouse=100020839}	# Margarita Raineria v. Habsburg-Lothringen
 	1968.03.16={death=yes}
 }
 100008166={ #            Penelope                  di Marescata                             (1815-1882)
@@ -5613,7 +5645,7 @@
 	dynasty=0
 	religion=catholic culture=italian
 	1799.01.01={birth=yes}
-	1824.01.01={add_spouse=100115448}	# Johanna Zichy de Zich et Vásonykeö
+	1824.01.01={add_spouse=100115448}	# Johanna Zichy de Zich et Vásonykõ
 	1847.11.28={death=yes}
 }
 100025369={ #            Paolo                     di Riparbella                            (1915-2000)
@@ -5677,7 +5709,7 @@
 	dynasty=10223
 	religion=catholic culture=german
 	1541.03.25={birth=yes}
-	# Johanna v. Habsburg
+	1565.12.18={add_spouse=100021333}	# Johanna v. Habsburg
 	1587.10.19={death=yes}
 }
 100021329={ # Duke       Cosimo                    de Medici                                (1590-1621)
@@ -5686,7 +5718,7 @@
 	religion=catholic culture=italian
 	father=100101565	# Ferdinando de' Medici
 	1590.05.12={birth=yes}
-	# Maria Magdalena v. Habsburg
+	1608.10.19={add_spouse=100021328}	# Maria Magdalena v. Habsburg
 	1621.02.28={death=yes}
 }
 100021314={ #            Claudia                   de Medici                                (1604-1648)
