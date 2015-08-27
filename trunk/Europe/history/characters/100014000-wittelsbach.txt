@@ -6,6 +6,14 @@
 	1546.07.04={add_spouse=100021188}	# Anna v. Habsburg
 	1579.10.24={death=yes}
 }
+100067650={	# Duke    			Wilhelm             			von Bayern     
+	name="Wilhelm of Bavaria"
+	dynasty=0
+	religion=catholic culture=frankish
+	1548.09.29={birth=yes}
+	1568.02.22={add_spouse=100067649}	# Renée de Lorraine
+	1626.01.01={death=yes}
+}
 100021241={ # Pss Maria von Bayern (1551-1608)
 	name="Maria von Bayern"
 	female=yes
@@ -26,7 +34,8 @@
 	name="Maximilian von Bayern"
 	dynasty=0
 	religion=catholic culture=german
-	1610.01.01={birth=yes}
+	1573.04.17={birth=yes}
+	1599.02.05={add_spouse=100067646}	# Elisabeth de Lorraine
 	1635.07.15={add_spouse=100021303}	# Maria Anna v. Habsburg
 	1651.09.27={death=yes}
 }
@@ -1264,24 +1273,28 @@
 							1947.09.20={birth=yes}
 						}
 							100016927={# 1g) Manuel Maria Alexander Leopold Jerg, b.Starnberg 27 Dec 1972; m.Nyköping, Sweden 6 Aug 2005 Anna Pss zu Sayn-Wittgenstein-Berleburg (b.Munich 15 Mar 1978)
-								name="Manuel Maria"
+								name=Manuel
 								dynasty=217
 								religion=catholic culture=german
 								father=100016926	# Leopold Rupprecht v. Wittelsbach
 								1972.12.27={birth=yes}
+								2005.08.06={add_spouse=100000443}	# Anna-Natascha Monique Sayn-Wittgenstein-Berleburg
 							}
 								100016928={# 1h) Leopold Maria Bengt Karl Manuel, b.13 Jun 2007
-									name="Leopold Maria"
+									name=Leopold
 									dynasty=217
 									religion=catholic culture=german
-									father=100016927	# Manuel Maria v. Wittelsbach
+									father=100016927	# Manuel v. Wittelsbach
+									mother=100000443	# Anna-Natascha Monique Sayn-Wittgenstein-Berleburg
 									2007.06.13={birth=yes}
 								}
 								100016929={# 2h) Alva Manuelle Maria Petra Yvonne (b.5 Jan 2010)
-									name="Alva Manuelle"
+									name=Alva
+									female=yes
 									dynasty=217
 									religion=catholic culture=german
-									father=100016927	# Manuel Maria v. Wittelsbach
+									father=100016927	# Manuel v. Wittelsbach
+									mother=100000443	# Anna-Natascha Monique Sayn-Wittgenstein-Berleburg
 									2010.01.05={birth=yes}
 								}
 							100016930={# 2g) Maria del Pilar Birgitta Adelgunde Charlotte, b.Starnberg 3 May 1978
