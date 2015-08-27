@@ -10,8 +10,532 @@
 ##	Brissac				1007009				100067000				
 ##	Beauharnais			1007011				100067200	
 ##  Grimaldi			1007012				100067300			
-##  Murat				1007013				100067400			
+##  Murat				1007013				100067400		
+##  Lorraine			1007014				100067590
 ###################################################################
+
+
+##  Lorraine			1007014				100067590
+100067590={	# Frederic, sn de Rumigny, de Boves, d’Aubenton, 1394 Cte de Vaudémont (ca 1370-Agincourt 25 Oct 1415); m.1393 Marguerite de Vaudémont (d.28 Apr 1417)
+	name=Frederic
+	dynasty=1007014
+	religion=catholic culture=frankish
+	1370.01.01={birth=yes}
+	1393.01.01={add_spouse=100067591}	# Marguerite de Vaudémont
+	1415.10.25={death=yes}  # Agincourt
+}
+	100067592={	# 1a) Antoine, Cte de Vaudémont, Baron de Joinville, sn de Rumigny, de Boves et de Florennes (d.22 Mar 1458); m.12 Aug 1416 Marie d'Harcourt Css d’Aumale (7 Sep 1398-29 Apr 1476)
+		name=Antoine
+		dynasty=1007014
+		religion=catholic culture=frankish
+		father=100067590	# Frederic de Lorraine
+		mother=100067591	# Marguerite de Vaudémont
+		1395.01.01={birth=yes}
+		1416.08.12={add_spouse=100067593}	# CSS Marie d'Harcourt d’Aumale
+		1458.03.22={death=yes}
+	}
+		100067594={	# 1b) Frederic, Cte de Vaudémont, etc, 1453 sn de Lambesc, de Suse et de Verbenne, Gov of Bar (1417-Joinville 31 Aug 1470); m.Nancy 1445 Yolande d'Anjou (Bar 1429-Joinville 31 Aug 1483)
+			name=Frederic
+			dynasty=1007014
+			religion=catholic culture=frankish
+			father=100067592	# Antoine de Lorraine
+			mother=100067593	# CSS Marie d'Harcourt d’Aumale
+			1417.01.01={birth=yes}
+			1445.01.01={add_spouse=100067595}	# Yolande d'Anjou
+			1470.08.31={death=yes}  # Joinville
+		}
+			100067596={	# 1c) René II, 1473 Duke of Lorraine, etc, 1480 Duke of Bar, etc, Cte de Vaudémont, d’Harcourt et de Guise, titular King of Sicily and Jerusalem, Gov of Anjou (Angers 2 May 1451-10 Dec 1508); m.1st 9 Sep 1471 (div 1485) Css Jeanne d'Harcourt (d.8 Nov 1488); m.2nd Orléans 1 Sep 1485 Philippine von Egmond (d.Pont 26 Feb 1547)
+				name=René
+				dynasty=1007014
+				religion=catholic culture=frankish
+				father=100067594	# Frederic de Lorraine
+				mother=100067595	# Yolande d'Anjou
+				1451.05.02={birth=yes}  # Angers
+				1471.09.09={add_spouse=100067597}	# CSS Jeanne d'Harcourt
+				1485.01.01={remove_spouse=100067597}
+				1485.09.01={add_spouse=100067598}	# Philippine von Egmond
+				1508.12.10={death=yes}
+			}
+				100067599={	# 3d) Antoine II, Duke of Lorraine and Bar, etc (Bar 4 Jun 1489-Bar 14 Jun 1544); m.château d’Amboise 26 Jun 1515 Renée de Bourbon (1494-Nancy 26 May 1539)
+					name=Antoine
+					dynasty=1007014
+					religion=catholic culture=frankish
+					father=100067596	# René de Lorraine
+					mother=100067598	# Philippine von Egmond
+					1489.06.04={birth=yes}  # Bar
+					1515.06.26={add_spouse=100067600}	# Renée de Bourbon
+					1544.06.14={death=yes}  # Bar
+				}
+					100067601={	# 1e) Francis I, Duke of Lorraine and Bar, etc (1517-Plombières 12 Jun 1545); m.Brussels 10 Jul 1541 Pss Christine of Denmark (1521-Tortona 10 Sep 1590)
+						name=Francis
+						dynasty=1007014
+						religion=catholic culture=frankish
+						father=100067599	# Antoine de Lorraine
+						mother=100067600	# Renée de Bourbon
+						1517.01.01={birth=yes}
+						1541.07.10={add_spouse=100067602}	# Christine v. Oldenburg
+						1545.06.12={death=yes}  # Plombières
+					}
+						100067603={	# 1f) Charles III, Duke of Lorraine and Bar, etc (Nancy 15 Feb 1543-Nancy 14 May 1608); m.Paris 22 Jan 1559 Pss Claude of France (Fontainebleau 12 Nov 1547-Nancy 20 Feb 1575)
+							name=Charles
+							dynasty=1007014
+							religion=catholic culture=frankish
+							father=100067601	# Francis de Lorraine
+							mother=100067602	# Christine v. Oldenburg
+							1543.02.15={birth=yes}  # Nancy
+							1559.01.22={add_spouse=100067604}	# PSS Claude of France
+							1608.05.14={death=yes}  # Nancy
+						}
+							100067605={	# 1g) Henry II, Duke of Lorraine and Bar, etc (Nancy 6 Aug 1563-Nancy 31 Jul 1624); m.1st Saint Germain 31 Jan 1599 Catherine of Navarre (Paris 7 Feb 1559-Nancy 13 Feb 1604); m.2nd Mantua 24 Apr 1606 Margherita Gonzaga (2 Oct 1591-6 Feb 1632)
+								name=Henry
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067603	# Charles de Lorraine
+								mother=100067604	# PSS Claude of France
+								1563.08.06={birth=yes}  # Nancy
+								1599.01.31={add_spouse=100067606}	# Catherine of Navarre
+								1606.04.24={add_spouse=100067607}	# Margherita Gonzaga
+								1624.07.31={death=yes}  # Nancy
+							}
+								100067608={	# 1h) Nicole (3 Oct 1608-Paris 2 Feb 1657); m.Nancy 22 Oct 1621 (div 1635) Duke Charles IV of Lorraine (5 Apr 1604-Bernkastel 18 Sep 1675)
+									name=Nicole
+									female=yes
+									dynasty=1007014
+									religion=catholic culture=frankish
+									father=100067605	# Henry de Lorraine
+									mother=100067607	# Margherita Gonzaga
+									1608.10.03={birth=yes}
+									1657.02.02={death=yes}  # Paris
+								}
+								100067610={	# 2h) Claude (15 Oct 1612-Vienna 2 Aug 1648); m.Lunéville 17 Feb 1634 Duke Nicholas François of Lorraine (6 Dec 1609-25 Jan 1670)
+									name=Claude
+									female=yes
+									dynasty=1007014
+									religion=catholic culture=frankish
+									father=100067605	# Henry de Lorraine
+									mother=100067607	# Margherita Gonzaga
+									1612.10.15={birth=yes}
+									1648.08.02={death=yes}  # Vienna
+								}
+							100067612={	# 2g) Christine (Nancy 6 Aug 1565-Florence 19 Dec 1637); m.Florence 30 Apr 1589 Ferdinando de Medici, Duke of Tuscany (d.17 Feb 1609)
+								name=Christine
+								female=yes
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067603	# Charles de Lorraine
+								mother=100067604	# PSS Claude of France
+								1565.08.06={birth=yes}  # Nancy
+								1637.12.19={death=yes}  # Florence
+							}
+							100067614={	# 3g) Charles, Cardinal de Lorraine, Bp of Strassburg 1604/7 (Nancy 1 Jul 1567-Nancy 24 Nov 1607)
+								name=Charles
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067603	# Charles de Lorraine
+								mother=100067604	# PSS Claude of France
+								1567.07.01={birth=yes}  # Nancy
+								1607.11.24={death=yes}  # Nancy
+							}
+							100067615={	# 4g) Antonia (Gondreville 23 Aug 1568-Nancy 23 Aug 1610); m.20 Jun 1599 Johann Wilhelm, Duke of Jülich-Kleve (d.25 Mar 1609)
+								name=Antonia
+								female=yes
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067603	# Charles de Lorraine
+								mother=100067604	# PSS Claude of France
+								1568.08.23={birth=yes}  # Gondreville
+								1610.08.23={death=yes}  # Nancy
+							}
+							100067617={	# 6g) Francis II, Duke of Lorraine and Bar, etc (27 Feb 1572-14 Oct 1632); m.1597 Christina Katharina Gfn von Salm (May 1575-31 Dec 1627)
+								name=Francis
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067603	# Charles de Lorraine
+								mother=100067604	# PSS Claude of France
+								1572.02.27={birth=yes}
+								1597.01.01={add_spouse=100067618}	# GFN Christina Katharina von Salm
+								1632.10.14={death=yes}
+							}
+								100067619={	# 2h) Charles IV, Duke of Lorraine and Bar, etc (5 Apr 1604-Bernkastel 18 Sep 1675; bur Art-sur-Meurthe 1717); m.1st Nancy 22 Oct 1621 Nicole of Lorraine (3 Oct 1608-Paris 2 Feb 1657); m.2nd 9 Apr 1637 Beatrix de Cusance (Belvoir 27 Nov 1614-Besançon 5 Jun 1663); m.3rd 1665 Marie Louise d'Aspremont (1651/2-Madrid 23 Oct 1692)
+									name=Charles
+									dynasty=1007014
+									religion=catholic culture=frankish
+									father=100067617	# Francis de Lorraine
+									mother=100067618	# GFN Christina Katharina von Salm
+									1604.04.05={birth=yes}
+									1621.10.22={add_spouse=100067608}	# Nicole de Lorraine
+									1637.01.01={remove_spouse=100067608}
+									1637.04.09={add_spouse=100067621}	# Beatrix de Cusance
+									1665.01.01={add_spouse=100067622}	# Marie Louise d'Aspremont
+									1675.09.18={death=yes}  # Bernkastel
+								}
+									100067623={	# 2i) Anne (Trier 23 Aug 1639-Paris 19 Feb 1720; bur St.Paul, Paris); m.Montmartre 7 Oct 1660 François Marie de Lorraine, Prince de Lillebonne (d.1694)
+										name=Anne
+										dynasty=1007014
+										religion=catholic culture=german
+										father=100067619	# Charles de Lorraine
+										mother=100067621	# Beatrix de Cusance
+										1639.08.23={birth=yes}  # Trier
+										1660.10.07={add_spouse=100067624}	# PRINCE François Marie de Lorraine
+										1720.02.19={death=yes}  # Paris
+									}
+									100067625={	# 3i) Charles Henri de Lorraine, Prince de Vaudémont (Brussels 17 Apr 1649-Nancy 14 Jan 1723); m.Bar 15 Apr 1669 Anne Elizabeth de Lorraine-Elboeuf (1649-1714)
+										name="Charles Henri"
+										dynasty=1007014
+										religion=catholic culture=frankish
+										father=100067619	# Charles de Lorraine
+										mother=100067621	# Beatrix de Cusance
+										1649.04.17={birth=yes}  # Brussels
+										1669.04.15={add_spouse=100067626}	# Anne Elizabeth de Lorraine-Elboeuf
+										1723.01.14={death=yes}  # Nancy
+									}
+										100067627={	# 1j) Charles Thomas, an imperial Field Marshal (7 Mar 1670-Ostiglia 12 May 1704)
+											name="Charles Thomas"
+											dynasty=1007014
+											religion=catholic culture=frankish
+											father=100067625	# Charles Henri de Lorraine
+											mother=100067626	# Anne Elizabeth de Lorraine-Elboeuf
+											1670.03.07={birth=yes}
+											1704.05.12={death=yes}  # Ostiglia
+										}
+								100067628={	# 3h) Nicolas François, Cardinal, resigned 1634, Duke of Lorraine and Bar, etc 1634 (6 Dec 1609-25 Jan 1670); m.Lunéville 17 Feb 1634 Claude of Lorraine (15 Oct 1612-Vienna 2 Aug 1648)
+									name="Nicolas François"
+									dynasty=1007014
+									religion=catholic culture=frankish
+									father=100067617	# Francis de Lorraine
+									mother=100067618	# GFN Christina Katharina von Salm
+									1609.12.06={birth=yes}
+									1634.02.17={add_spouse=100067610}	# Claude de Lorraine
+									1670.01.25={death=yes}
+								}
+									100067630={	# 2i) Charles V Leopold, Duke of Lorraine and Bar, etc (Vienna 3 Apr 1643-Wels 18 Apr 1690); m.Wiener Neustadt 6 Feb 1678 Archdss Eleonore Marie Josepha of Austria (Regensburg 21 May 1653-Vienna 17 Dec 1697)
+										name=Charles
+										dynasty=1007014
+										religion=catholic culture=german
+										father=100067628	# Nicolas François de Lorraine
+										mother=100067610	# Claude de Lorraine
+										1643.04.03={birth=yes}  # Vienna
+										1678.02.06={add_spouse=100021297}	# Eleonore v. Habsburg
+										1690.04.18={death=yes}  # Wels
+									}
+										100067632={	# 1j) Leopold Joseph, Duke of Lorraine and Bar, etc (Innsbruck 11 Sep 1679-château de Ménil 27 Mar 1729); m.Fontainebleau 13 Oct 1698 Elizabeth Charlotte d'Orleans (St-Cloud 13 Sep 1676-Commercy 23 Dec 1744)
+											name="Leopold Joseph"
+											dynasty=1007014
+											religion=catholic culture=german
+											father=100067630	# Charles de Lorraine
+											mother=100021297	# Eleonore v. Habsburg
+											1679.09.11={birth=yes}  # Innsbruck
+											1698.10.13={add_spouse=100008775}	# Élisabeth Charlotte d'Orléans
+											1729.03.27={death=yes}  # château de_Ménil
+										}
+											100020001={	# 9k) Francis Stephen, Duke of Lorraine and Bar, etc (Lunéville 8 Dec 1708-Innsbruck 18 Aug 1765); m.Vienna 12 Feb 1736 Archdss Maria Theresa of Austria (1717-1780)
+												name="Franz Stephan"
+												dynasty=1503
+												religion=catholic culture=german
+												father=100067632	# Leopold Joseph de Lorraine
+												mother=100008775	# Élisabeth Charlotte d'Orléans
+												1708.12.08={birth=yes}  # Lunéville
+												1736.02.12={add_spouse=100020000}	# Maria Theresia v. Habsburg
+												1765.08.18={death=yes}  # Innsbruck
+											}
+											100067636={	# 11k) Elisabeth Therese (Lunéville 15 Oct 1711-Turin 3 Jul 1741); m.Chambéry 1 Apr 1737 King Carlo Emanuele III of Sardinia (d.20 Feb 1773)
+												name="Elisabeth Therese"
+												female=yes
+												dynasty=1007014
+												religion=catholic culture=frankish
+												father=100067632	# Leopold Joseph de Lorraine
+												mother=100008775	# Élisabeth Charlotte d'Orléans
+												1711.10.15={birth=yes}  # Lunéville
+												1741.07.03={death=yes}  # Turin
+											}
+											100067638={	# 12k) Charles Alexander Emanuel, Stattholder of the Austrian Netherlands (Lunéville 12 Dec 1712-Tervueren 4 Jul 1780; bur St.Gudula, Brussels); m.Vienna 7 Jan 1744 Archdss Maria Anna of Austria (Vienna 14 Sep 1718-Brussels 16 Dec 1744; bur Kapuzinergruft, Vienna)
+												name="Charles Alexander"
+												dynasty=1007014
+												religion=catholic culture=frankish
+												father=100067632	# Leopold Joseph de Lorraine
+												mother=100008775	# Élisabeth Charlotte d'Orléans
+												1712.12.12={birth=yes}  # Lunéville
+												1744.01.07={add_spouse=100021290}	# Maria Anna v. Habsburg
+												1780.07.04={death=yes}  # Tervueren
+											}
+								100067640={	# 4h) Henriette (7 Apr 1611-Neufchâteau 16 Nov 1660); m.1st Nancy 23 May 1621 Louis de Guise Pr de Lixheim et de Pfalzburg (d.Munich 4 Dec 1631); m.2nd Brussels 11 Oct 1643 Carlo Guasco Marchese di Sallerio; m.3rd Antwerp 1652 Francesco Marchese Grimaldi (d.Sampigny 29 Aug 1693)
+									name=Henriette
+									female=yes
+									dynasty=1007014
+									religion=catholic culture=frankish
+									father=100067617	# Francis de Lorraine
+									mother=100067618	# GFN Christina Katharina von Salm
+									1611.04.07={birth=yes}
+									1660.11.16={death=yes}  # Neufchâteau
+								}
+								100067644={	# 5h) Margaret (22 Jul 1615-Paris 13 Apr 1672); m.Nancy 3 Jan 1632 Gaston, Duc d'Orléans (d.2 Feb 1660)
+									name=Margaret
+									dynasty=1007014
+									religion=catholic culture=frankish
+									father=100067617	# Francis de Lorraine
+									mother=100067618	# GFN Christina Katharina von Salm
+									1615.07.22={birth=yes}
+									1632.01.03={add_spouse=100067645}	# DUC Gaston d'Orléans
+									1672.04.13={death=yes}  # Paris
+								}
+							100067646={	# 8g) Elisabeth (Nancy 20 Feb 1574-6 Jan 1636); m.5 Feb 1599 Maximilian I of Bavaria (d.27 Sep 1651)
+								name=Elisabeth
+								female=yes
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067603	# Charles de Lorraine
+								mother=100067604	# PSS Claude of France
+								1574.02.20={birth=yes}  # Nancy
+								1636.01.06={death=yes}
+							}
+						100067649={	# 2f) Renée (20 Apr 1544-Munich 23 May 1602); m.Munich 22 Feb 1568 Duke Wilhelm V of Bavaria (d.1626)
+							name=Renée
+							female=yes
+							dynasty=1007014
+							religion=catholic culture=frankish
+							father=100067601	# Francis de Lorraine
+							mother=100067602	# Christine v. Oldenburg
+							1544.04.20={birth=yes}
+							1602.05.23={death=yes}  # Munich
+						}
+						100067651={	# 3f) Dorothea (Debeuvre 24 Aug 1545-2 Jun 1621); m.1st Nancy 19 Dec 1575 Duke Erich II of Braunschweig-Kalenberg (d.1584); m.2nd 1597 Marquis Marc de Rye de la Palud (d.Dec 1598)
+							name=Dorothea
+							female=yes
+							dynasty=1007014
+							religion=catholic culture=frankish
+							father=100067601	# Francis de Lorraine
+							mother=100067602	# Christine v. Oldenburg
+							1545.08.24={birth=yes}  # Debeuvre
+							1621.06.02={death=yes}
+						}
+					100067654={	# 2e) Anne (25 Jul 1522-Diest 15 May 1568; bur Heverlé); m.1st Bar 22 Aug 1540 Rene de Chalon, Pr of Orange (d.1544); m.2nd 1548 Duke Philipp II of Croy-Aerschot (d.1549)
+						name=Anne
+						dynasty=1007014
+						religion=catholic culture=frankish
+						father=100067599	# Antoine de Lorraine
+						mother=100067600	# Renée de Bourbon
+						1522.07.25={birth=yes}
+						1540.08.22={add_spouse=100067655}	# PR Rene de Chalon
+						1548.01.01={add_spouse=100067656}	# DUKE Philipp of Croy-Aerschot
+						1568.05.15={death=yes}  # Diest
+					}
+					100067657={	# 3e) Nicolas, Duc de Mercoeur, Cte de Vaudémont, etc (Bar 16 Oct 1524-23 Jan 1577); m.1st Brussels 1 May 1549 Margaret von Egmond (1517-Bar 10 Mar 1554); m.2nd Fontainebleau 24 Feb 1555 Jeanne of Savoy (Annecy 1532-château de Nomeny 4 Jul 1568); m.3rd Reims 11 May 1569 Catherine de Lorraine-Aumale (1550-1606)
+						name=Nicolas
+						dynasty=1007014
+						religion=catholic culture=frankish
+						father=100067599	# Antoine de Lorraine
+						mother=100067600	# Renée de Bourbon
+						1524.10.16={birth=yes}  # Bar
+						1549.05.01={add_spouse=100067658}	# Margaret von Egmond
+						1555.02.24={add_spouse=100067659}	# Jeanne di Savoia
+						1569.05.11={add_spouse=100067660}	# Catherine de Lorraine-Aumale
+						1577.01.23={death=yes}
+					}
+						100067661={	# 4f) Louise, 1589 Dss de Bourbon (Nomeny 30 Apr 1553-château de Moulins 29 Jan 1601; bur St.Denis 1817); m.Reims 15 Feb 1575 King Henri III of France (d.2 Aug 1589)
+							name=Louise
+							female=yes
+							dynasty=1007014
+							religion=catholic culture=frankish
+							father=100067657	# Nicolas de Lorraine
+							mother=100067658	# Margaret von Egmond
+							1553.04.30={birth=yes}  # Nomeny
+							1601.01.29={death=yes}
+						}
+						100067663={	# 5f) Philippe Emanuel, Duc de Mercoeur (Nancy 9 Sep 1558-Nürnberg 19 Feb 1602); m.Paris 12 Jul 1576 Marie de Luxemburg (15 Feb 1562-6 Sep 1623)
+							name="Philippe Emanuel"
+							dynasty=1007014
+							religion=catholic culture=frankish
+							father=100067657	# Nicolas de Lorraine
+							mother=100067659	# Jeanne di Savoia
+							1558.09.09={birth=yes}  # Nancy
+							1576.07.12={add_spouse=100067664}	# Marie de Luxemburg
+							1602.02.19={death=yes}  # Nürnberg
+						}
+							100067665={	# 2g) Françoise, Ds de Mercoeur et de Penthièvre (Nov 1592-Paris 8 Sep 1669; bur Capucine Cloister, Paris); m.Fontainebleau 7 Jul 1609 César de Bourbon, Duc de Vendôme (d.22 Oct 1665)
+								name=Françoise
+								female=yes
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067663	# Philippe Emanuel de Lorraine
+								mother=100067664	# Marie de Luxemburg
+								1592.11.01={birth=yes}
+								1669.09.08={death=yes}  # Paris
+							}
+						100067667={	# 6f) Charles, Cardinal, Bp of Toul and Verdun (Nomeny 2 Apr 1561-Paris 29 Oct 1587)
+							name=Charles
+							dynasty=1007014
+							religion=catholic culture=frankish
+							father=100067657	# Nicolas de Lorraine
+							mother=100067659	# Jeanne di Savoia
+							1561.04.02={birth=yes}  # Nomeny
+							1587.10.29={death=yes}  # Paris
+						}
+						100067668={	# 8f) Marguerite (Nomeny 14 May 1564-20 Sep 1625); m.1st Paris 24 Sep 1581 Annas de Joyeuse (Coutras 20 Oct 1587); m.2nd 31 Mar 1599 Duc François de Luxemburg (d.30 Aug 1613)
+							name=Marguerite
+							dynasty=1007014
+							religion=catholic culture=frankish
+							father=100067657	# Nicolas de Lorraine
+							mother=100067659	# Jeanne di Savoia
+							1564.05.14={birth=yes}  # Nomeny
+							1581.09.24={add_spouse=100067669}	# Annas de Joyeuse
+							1599.01.01={remove_spouse=100067669}
+							1599.03.31={add_spouse=100067670}	# DUC François de Luxemburg
+							1625.09.20={death=yes}
+						}
+						100067671={	# 11f) Henri, Cte de Chaligny, Marquis de Moy (Nancy 12 Jan 1570-Vienna 26 Nov 1600); m.19 Sep 1585 Claude de Moy (d.Charleville 3 Nov 1627)
+							name=Henri
+							dynasty=1007014
+							religion=catholic culture=frankish
+							father=100067657	# Nicolas de Lorraine
+							mother=100067660	# Catherine de Lorraine-Aumale
+							1570.01.12={birth=yes}  # Nancy
+							1585.09.19={add_spouse=100067672}	# Claude de Moy
+							1600.11.26={death=yes}  # Vienna
+						}
+							100067673={	# 2g) Louise (9 Feb 1595-Mons 1 Dec 1667); m.20 Apr 1608 Florent, Pr de Ligne, Marquis de Roubaix (d.1622)
+								name=Louise
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067671	# Henri de Lorraine
+								mother=100067672	# Claude de Moy
+								1595.02.09={birth=yes}
+								1608.04.20={add_spouse=100067674}	# PR Florent de Roubaix
+								1667.12.01={death=yes}  # Mons
+							}
+							100067675={	# 3g) Henri, Cte de Chaligny Marquis de Moy (1596-10 Jun 1672)
+								name=Henri
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067671	# Henri de Lorraine
+								mother=100067672	# Claude de Moy
+								1596.01.01={birth=yes}
+								1672.06.10={death=yes}
+							}
+							100067676={	# 4g) François, Bp of Verdun 1623/61 (Fougères 13 Jan 1599-Dieuze 10 Jun 1672); m.10 Aug 1661 Christine de Massauve (d.ca 1675)
+								name=François
+								dynasty=1007014
+								religion=catholic culture=frankish
+								father=100067671	# Henri de Lorraine
+								mother=100067672	# Claude de Moy
+								1599.01.13={birth=yes}  # Fougères
+								1661.08.10={add_spouse=100067677}	# Christine de Massauve
+								1672.06.10={death=yes}  # Dieuze
+							}
+				100067678={	# 7d) Claude (Condé 20 Oct 1496-Joinville 12 Apr 1550); m.Paris 5 Jun 1513 Antoinette de Bourbon (Ham 25 Dec 1493-Joinville 22 Jan 1583)
+					name=Claude
+					dynasty=1007014
+					religion=catholic culture=frankish
+					father=100067596	# René de Lorraine
+					mother=100067598	# Philippine von Egmond
+					1496.10.20={birth=yes}  # Condé
+					1513.06.05={add_spouse=100067679}	# Antoinette de Bourbon
+					1550.04.12={death=yes}  # Joinville
+				}
+				100067680={	# 8d) Jean, Cardinal, Bp of Toul, Metz and Verdun (Bar 9 Apr 1498-Neuvy-sur-Loire 18 May 1550)
+					name=Jean
+					dynasty=1007014
+					religion=catholic culture=frankish
+					father=100067596	# René de Lorraine
+					mother=100067598	# Philippine von Egmond
+					1498.04.09={birth=yes}  # Bar
+					1550.05.18={death=yes}  # Neuvy_sur_Loire
+				}
+				100067681={	# 9d) Louis, Cte de Vaudémont (Bar 27 Apr 1500-Naples 23 Aug 1528)
+					name=Louis
+					dynasty=1007014
+					religion=catholic culture=frankish
+					father=100067596	# René de Lorraine
+					mother=100067598	# Philippine von Egmond
+					1500.04.27={birth=yes}  # Bar
+					1528.08.23={death=yes}  # Naples
+				}
+			100067682={	# 4c) Jeanne (1458-Aix 25 Jan 1480); m.Troyes 21 Jan 1474 Charles Duc d'Anjou (d.1481)
+				name=Jeanne
+				dynasty=1007014
+				religion=catholic culture=frankish
+				father=100067594	# Frederic de Lorraine
+				mother=100067595	# Yolande d'Anjou
+				1458.01.01={birth=yes}
+				1474.01.21={add_spouse=100067683}	# DUC Charles d'Anjou
+				1480.01.25={death=yes}  # Aix
+			}
+			100067684={	# 5c) Yolande (d.21 May 150l); m.Kassel 1497 Ldgve Wilhelm II of Hesse (d.1509)
+				name=Yolande
+				female=yes
+				dynasty=1007014
+				religion=catholic culture=frankish
+				father=100067594	# Frederic de Lorraine
+				mother=100067595	# Yolande d'Anjou
+				1463.01.01={birth=yes}
+				1501.05.21={death=yes}
+			}
+			100067686={	# 6c) Marguerite (1463-2 Nov 1521); m.Toul 14 May 1488 René Duc d'Alençon (d.1492)
+				name=Marguerite
+				dynasty=1007014
+				religion=catholic culture=frankish
+				father=100067594	# Frederic de Lorraine
+				mother=100067595	# Yolande d'Anjou
+				1463.01.01={birth=yes}
+				1488.05.14={add_spouse=100067687}	# DUC René d'Alençon
+				1521.11.02={death=yes}
+			}
+		100067688={	# 2b) Jean, Cte d’Harcourt et d’Aumale (d.Jan 1473)
+			name=Jean
+			dynasty=1007014
+			religion=catholic culture=frankish
+			father=100067592	# Antoine de Lorraine
+			mother=100067593	# CSS Marie d'Harcourt d’Aumale
+			1419.01.01={birth=yes}
+			1473.01.01={death=yes}
+		}
+		100067689={	# 4b) Marie (d.23 Apr 1455); m.1450 XXX Vcte Alain IX de Rohan (d.20 Mar 1462)
+			name=Marie
+			female=yes
+			dynasty=1007014
+			religion=catholic culture=frankish
+			father=100067592	# Antoine de Lorraine
+			mother=100067593	# CSS Marie d'Harcourt d’Aumale
+			1421.01.01={birth=yes}
+			1455.04.23={death=yes}
+		}
+		100067691={	# 5b) Marguerite, test 1477; m.Antoine de Croy, Cte de Porcien (d.1475)
+			name="Marguerite [test 1477"
+			dynasty=1007014
+			religion=catholic culture=frankish
+			father=100067592	# Antoine de Lorraine
+			mother=100067593	# CSS Marie d'Harcourt d’Aumale
+			1423.01.01={birth=yes}
+			1475.01.01={death=yes}
+		}
+	100067692={	# 2a) Isabelle (d.Saarbrücken 17 Jan 1456); m.1412 Philipp Gf von Nassau-Saarbrücken (d.2 Jul 1429)
+		name=Isabelle
+		female=yes
+		dynasty=1007014
+		religion=catholic culture=frankish
+		father=100067590	# Frederic de Lorraine
+		mother=100067591	# Marguerite de Vaudémont
+		1397.01.01={birth=yes}
+		1456.01.17={death=yes}  # Saarbrücken
+	}
+	100067694={	# 3a) Margaret, test 6 Apr 1469; m.Theobald Gf von Blamont (d.1431)
+		name="Margaret [test 6 Apr 1469"
+		dynasty=1007014
+		religion=catholic culture=frankish
+		father=100067590	# Frederic de Lorraine
+		mother=100067591	# Marguerite de Vaudémont
+		1399.01.01={birth=yes}
+		1431.01.01={death=yes}
+	}
+#1400.01.01={holder=100067590} # Frederic
+#1415.10.25={holder=100067592} # 1a) Antoine
+#1458.03.22={holder=100067594} # 1b) Frederic
+#1470.08.31={holder=100067596} # 1c) René II
+#1508.12.10={holder=100067599} # 3d) Antoine II
+#1544.06.14={holder=100067601} # 1e) Francis I
+#1545.06.12={holder=100067603} # 1f) Charles III
+#1608.05.14={holder=100067605} # 1g) Henry II
+#1624.07.31={holder=100067610} # 2h) Claude 
+##  Lorraine			1007014				100067590
 
 
 ##  Murat				1007013				100067400	

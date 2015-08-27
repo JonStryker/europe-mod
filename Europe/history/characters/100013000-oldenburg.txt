@@ -712,12 +712,23 @@
 	}
 		100021159={ # King Christian II von Oldenburg (1490-1559)
 			name="Christian von Oldenburg"
-			dynasty=0
-			religion=catholic culture=german
+			dynasty=224
+			religion=catholic culture=danish
+			father=100101693	# Hans v. Oldenburg
 			1490.01.01={birth=yes}
 			1515.08.12={add_spouse=100021158}	# Isabella v. Habsburg
 			1559.01.25={death=yes}
 		}
+			100067602={	# Pss     			Christine           			of Denmark     
+				name=Christine
+				female=yes
+				dynasty=224
+				religion=catholic culture=danish
+				father=100021159	# Christian von Oldenburg v. Oldenburg
+				mother=100021158	# Isabella v. Habsburg
+				1521.01.01={birth=yes}
+				1590.09.10={death=yes}  # Tortona
+			}
 	100101695={ # Frederik
 		name=Frederik
 		dynasty=224
@@ -1001,7 +1012,7 @@
 			father=100013302	# Olav v. Schleswig-Holstein-Sonderburg-Glücksburg
 			mother=100006156	# Märtha Bernadotte
 			1937.02.21={birth=yes}
-			1968.08.29={add_spouse=100013309}	# Sonja Haraldsen
+			1968.08.29={add_spouse=100101858}	# Sonja Haraldsen
 		}
 			100013310={# 1c) Märtha Louise (b.Oslo 22 Sep 1971); m.Trondheim 24 May 2002 Ari Mikael Behn (b.Århus 30 Sep 1972)
 				name=Märtha
@@ -1009,7 +1020,7 @@
 				dynasty=1002021
 				religion=lutheran culture=norwegian
 				father=100013308	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100013309	# Sonja Haraldsen
+				mother=100101858	# Sonja Haraldsen
 				1971.09.22={birth=yes}
 			}
 				100013312={# 1d) Maud Angelica Behn (b.Oslo 29 Apr 2003)
@@ -1044,7 +1055,7 @@
 				dynasty=1002021
 				religion=lutheran culture=norwegian
 				father=100013308	# Harald v. Schleswig-Holstein-Sonderburg-Glücksburg
-				mother=100013309	# Sonja Haraldsen
+				mother=100101858	# Sonja Haraldsen
 				1973.07.20={birth=yes}
 				2001.08.25={add_spouse=100013316}	# Mette-Marit Tjessem Høiby
 			}
