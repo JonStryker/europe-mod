@@ -2,6 +2,8 @@
 --
 -- NDefines.NDiplomacy.DEMESNE_BASE_MAX_SIZE = 2.0
 
+NDefines.NTechnology.DONT_EXECUTE_TECH_BEFORE = 2000
+
 
 -- TODO: REINSTATE THE FOLLOWING
 
