@@ -307,6 +307,10 @@ narrative_event = {
 		}
 	}
 	
+	immediate = {
+		clr_character_flag = lure_robin
+	}
+	
 	option = {
 		name = "EVTOPTA10003" #Too risky
 		prestige = -10
@@ -1672,6 +1676,16 @@ narrative_event = {
 				NOT = {
 					age = 20
 				}
+				is_female = no
+				NOT = {
+					any_sibling = {
+						is_older_than = PREV
+						OR = {
+							father = { character = ROOT }
+							mother = { character = ROOT }
+						}
+					}
+				}
 			}
 		}
 		if = {
@@ -1687,6 +1701,16 @@ narrative_event = {
 				age = 10
 				NOT = {
 					age = 20
+				}
+				is_female = no
+				NOT = {
+					any_sibling = {
+						is_older_than = PREV
+						OR = {
+							father = { character = ROOT }
+							mother = { character = ROOT }
+						}
+					}
 				}
 			}
 			set_character_flag = human_sacrifice
