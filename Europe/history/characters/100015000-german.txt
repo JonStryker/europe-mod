@@ -523,7 +523,7 @@
 	}
 #von Urach / 1002017
 
-#Saxe-Coburg and Gotha/Wettin|528|100018400-100018699
+#Sachsen-Coburg and Gotha/Wettin|528|100018400-100018699
 100018503={
 	name="Johann Ernst"
 	dynasty=528
@@ -1716,9 +1716,9 @@
 		1840.06.07={birth=yes}
 		1927.01.19={death=yes}
 	}
-#Saxe-Coburg and Gotha/Wettin|1002015|100018400-100018699
+#Sachsen-Coburg and Gotha/Wettin|1002015|100018400-100018699
 
-#Saxe-Weimar-Eisenach/Wettin|528|100018200-100018399
+#Sachsen-Weimar-Eisenach/Wettin|528|100018200-100018399
 100018374={
 	name="Johann Ernst"
 	dynasty=528
@@ -9937,20 +9937,81 @@
 	1670.01.01={birth=yes}
 	1733.01.01={death=yes}
 }
-100016750={ # Friedrich August
+	100012962={ # Css        Anna Karoline             von Sachsen                              (1707-1769)     1
+		name="Anna Karolina Orzelska"
+		female=yes
+		dynasty=0
+		religion=lutheran culture=german
+		father=100016751
+		trait=bastard
+		1707.11.01={birth=yes}
+		1769.09.27={death=yes}
+	}
+
+100016750={     # King       Friedrich                 von Sachsen                              (1694-1763)     0
 	name="Friedrich August"
 	dynasty=528
 	religion=catholic culture=german
 	father=100016751	# Friedrich August von Wettin
-	1696.01.01={birth=yes}
-	1763.01.01={death=yes}
+	1696.10.17={birth=yes}
+	1719.08.20={add_spouse=100021275}	# Maria Josefa v. Habsburg
+	1763.10.05={death=yes}
 }
-
+	100025010={ # Pss        Maria Amalia              von Sachsen                              (1724-1760)     9
+		name="Maria Amalia"
+		female=yes
+		dynasty=528
+		religion=catholic culture=german
+		father=100016750	# Friedrich August von Wettin
+		mother=100021275
+		1724.11.24={birth=yes}
+		1760.09.27={death=yes}
+	}
+	100008520={ # Pss        Josepha                   von Sachsen                              (1731-1767)     6
+		name=Josepha
+		female=yes
+		dynasty=528
+		religion=catholic culture=german
+		father=100016750	# Friedrich August von Wettin
+		mother=100021275
+		1731.11.04={birth=yes}
+		1767.03.13={death=yes}
+	}
+	100021276={
+		name=Karl
+		dynasty=528
+		religion=catholic culture=german
+		father=100016750	# Friedrich August von Wettin
+		mother=100021275
+		1733.01.01={birth=yes}
+		1796.07.16={death=yes}
+	}
+		100070001={ # Pss        Maria Christina           von Sachsen                              (1770-1851)     2
+			name="Maria Christina"
+			female=yes
+			dynasty=528
+			religion=catholic culture=german
+			father=100021276
+			1770.12.07={birth=yes}
+			1851.11.24={death=yes}
+		}
+	100020011={ # Pr         Albert                    von Sachsen                              (1738-1822)     0
+		name=Albert
+		dynasty=528
+		religion=catholic culture=german
+		father=100016750	# Friedrich August von Wettin
+		mother=100021275
+		1738.07.11={birth=yes}
+		1766.04.08={add_spouse=100020010}	# Marie Christine v. Habsburg-Lothringen
+		1822.02.10={death=yes}
+	}
+	
 100016600={# FRIEDRICH CHRISTIAN Leopold Johann Georg Franz Xaver, Elector von Sachsen 5 Oct 1763 (Dresden 5 Sep 1722-Dresden 17 Dec 1763); m.by proxy at Munich 13 Jun 1747 and in person at Dresden 20 Jun 1747 Maria Antonia von Bayern (Schloﬂ Nymphenburg 18 Jul 1724-Dresden 23 Apr 1780)
 	name="Friedrich Christian"
 	dynasty=528
 	religion=catholic culture=german
 	father=100016750	# Friedrich August von Wettin
+	mother=100021275
 	1722.09.05={birth=yes}
 	1747.06.13={add_spouse=100016601}	# Maria Antonia von Bayern
 	1763.12.17={death=yes}
