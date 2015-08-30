@@ -265,6 +265,7 @@ character_event = {
 		has_job_action = action_inquisition
 		location = {
 			any_province_character = {
+				is_adult = yes
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
@@ -345,6 +346,7 @@ character_event = {
 		location = {
 			random_province_character = {
 				limit = {
+					is_adult = yes
 					NOT = { character = ROOT }
 					NOT = { is_liege_of = ROOT }
 					NOT = { religion = ROOT }
@@ -1152,19 +1154,22 @@ character_event = {
 		has_character_flag = preacher_arrives
 		location = {
 			owner = {
+				is_adult = yes
+				NOT = { trait = incapable }
 				NOT = { character = ROOT }
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
 				religion_group = pagan_group
+				is_reformed_religion = no
 				NOT = { same_realm = ROOT }
 				controls_religion = no
-				at_location = ROOT
+				# at_location = ROOT
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 220
+		months = 120
 	
 		modifier = {
 			factor = 1.25
@@ -1214,6 +1219,39 @@ character_event = {
 			factor = 0.75
 			religion_authority = 0.8
 		}
+		# Local Pagan religion authority
+		modifier = {
+			factor = 0.75
+			location = {
+				owner = {
+					NOT = { religion_authority = 0.2 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			location = {
+				owner = {
+					NOT = { religion_authority = 0.4 }
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			location = {
+				owner = {
+					religion_authority = 0.6
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			location = {
+				owner = {
+					religion_authority = 0.8
+				}
+			}
+		}
 	}
 	
 	option = {
@@ -1246,6 +1284,7 @@ character_event = {
 				NOT = { is_liege_of = ROOT }
 				NOT = { religion = ROOT }
 				religion_group = pagan_group
+				is_reformed_religion = no
 				NOT = { same_realm = ROOT }
 			}
 		}
@@ -1437,6 +1476,7 @@ character_event = {
 		has_job_action = action_improve_rel_relations
 		location = { 
 			any_province_lord = {
+				NOT = { character = ROOT }
 				is_priest = yes
 				religion = ROOT
 				NOT = { is_liege_of = ROOT }
@@ -1572,6 +1612,7 @@ character_event = {
 		NOT = { religion_group = indian_group }
 		location = { 
 			any_province_lord = {
+				NOT = { character = ROOT }
 				is_priest = yes
 				NOT = { is_liege_of = ROOT }
 				same_realm = ROOT
@@ -2440,6 +2481,7 @@ character_event = {
 					province = PREV
 					home = PREV
 					owner = THIS
+					#leader = none
 					match_character = THIS
 					match_mult = 0.075
 					match_min = 100
@@ -2447,11 +2489,13 @@ character_event = {
 					attrition = 1.0
 					earmark = tribal_build_zeal
 					disband_on_peace = yes
+					can_toggle_looting = no
 				}
 				spawn_unit = {
 					province = PREV
 					home = PREV
 					owner = THIS
+					#leader = none
 					match_character = THIS
 					match_mult = 0.075
 					match_min = 100
@@ -2459,11 +2503,13 @@ character_event = {
 					attrition = 1.0
 					earmark = tribal_build_zeal
 					disband_on_peace = yes
+					can_toggle_looting = no
 				}
 				spawn_unit = {
 					province = PREV
 					home = PREV
 					owner = THIS
+					#leader = none
 					match_character = THIS
 					match_mult = 0.075
 					match_min = 100
@@ -2471,6 +2517,7 @@ character_event = {
 					attrition = 1.0
 					earmark = tribal_build_zeal
 					disband_on_peace = yes
+					can_toggle_looting = no
 				}
 			}
 		}
