@@ -372,13 +372,13 @@
 						}
 						100067668={	# 8f) Marguerite (Nomeny 14 May 1564-20 Sep 1625); m.1st Paris 24 Sep 1581 Annas de Joyeuse (Coutras 20 Oct 1587); m.2nd 31 Mar 1599 Duc François de Luxemburg (d.30 Aug 1613)
 							name=Marguerite
+							female=yes
 							dynasty=1007014
 							religion=catholic culture=frankish
 							father=100067657	# Nicolas de Lorraine
 							mother=100067659	# Jeanne di Savoia
 							1564.05.14={birth=yes}  # Nomeny
 							1581.09.24={add_spouse=100067669}	# Annas de Joyeuse
-							1599.01.01={remove_spouse=100067669}
 							1599.03.31={add_spouse=100067670}	# DUC François de Luxemburg
 							1625.09.20={death=yes}
 						}
@@ -3812,30 +3812,38 @@
 
 ##	Clermont-Tonnerre	1007008				100066800
 100066616={ #            Geneviève                 de Clermont-Tonnerre                     (1855-1880)
-	name=Geneviève
+	name="Geneviève de Clermont-Tonnerre"
 	female=yes
-	dynasty=1007008
+	dynasty=0
 	religion=catholic culture=frankish
 	1855.06.07={birth=yes}
 	1880.06.12={death=yes}
 }
 100065718={ # Cte        François Amédée           de Clermont-Tonnerre                     (1906-1979)
-	name="François Amédée"
-	dynasty=1007008
+	name="François Amédée de Clermont-Tonnerre"
+	dynasty=0
 	religion=catholic culture=frankish
 	1906.09.19={birth=yes}
 	1929.07.31={add_spouse=100065717}	# Charlotte Marie de Rohan-Chabot
 	1979.12.02={death=yes}
 }
 100065812={ # Cte        Thierry Jean              de Clermont-Tonnerre                     (1913-1993)
-	name="Thierry Jean"
-	dynasty=1007008
+	name="Thierry Jean de Clermont-Tonnerre"
+	dynasty=0
 	religion=catholic culture=frankish
 	1913.01.10={birth=yes}
 	1940.04.20={add_spouse=100065811}	# Hélène Anna de Rohan-Chabot
 	1949.03.30={remove_spouse=100065811}
 	1993.01.01={death=yes}	# EST.
 }
+100001409={ #            Charles Arthur            de Clermont-Tonnerre                     (1983-    )
+	name="Charles Arthur de Clermont-Tonnerre"
+	dynasty=0
+	religion=catholic culture=frankish
+	1983.02.20={birth=yes}
+	2009.06.13={add_spouse=100001408}	# Marguerite Jacqueline Croÿ
+}
+
 
 100066800={	# GASPARD Duc de Clermont-Tonnerre (Dijon 16 Aug 1688-Hôtel de Matignon, Paris 16 Mar 1781); m.1st Paris 10 Apr 1714 Antoinette Potier de Rovion (18 Nov 1685-château de Champlâtreux 29 Aug 1754)
 	name=Gaspard
