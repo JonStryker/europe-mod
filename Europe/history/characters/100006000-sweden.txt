@@ -1,12 +1,570 @@
 ########################################################
 ## Bernadotte			10253		100006000
 ## Gottorp of Sweden	1002019		100006200
-## Douglas				1014000		100006250
+## Vasa					1042		100006250
 ########################################################
 
 
-## Douglas				1014000		100006250
-## Douglas				1014000		100006250
+## Vasa					1042		100006250
+100006250={	# Nils (1350-1390); m.Kristina Jonsdotter (d.after 24 Oct 1378)
+	name=Nils
+	dynasty=1042
+	religion=lutheran culture=swedish
+	1350.01.01={birth=yes}
+	1375.01.01={add_spouse=100006251}	# Kristina Jonsdotter
+	1390.01.01={death=yes}
+}
+	100006252={	# 1a) Kristiern (1380-29 Apr 1442); m.1st 1398 Margareta Moltke (d.1413); m.2nd 1425 Margareta Krummedige (d.1451)
+		name=Kristiern
+		dynasty=1042
+		religion=lutheran culture=swedish
+		father=100006250 # Nils
+		mother=100006251 # Kristina Jonsdotter
+		1380.01.01={birth=yes}
+		1398.01.01={add_spouse=100006253}	# Margareta Moltke
+		1425.01.01={add_spouse=100006254}	# Margareta Krummedige
+		1442.04.29={death=yes}
+	}
+		100006255={	# 1b) Karl (d.8 Aug 1440); m.Ebba Krummedige (d.24 Aug 1465)
+			name=Karl
+			dynasty=1042
+			religion=lutheran culture=swedish
+			father=100006252 # Kristiern
+			mother=100006253 # Margareta Moltke
+			1400.01.01={birth=yes}
+			1440.08.08={death=yes}
+		}
+		100006263={	# 2b) Johan (d.6 Apr 1477); m.1st 1460 Birgitta Sture (d.1472); m.2nd 1473 Birgitta Bonde (1456-1522)
+			name=Johan
+			dynasty=1042
+			religion=lutheran culture=swedish
+			father=100006252 # Kristiern
+			mother=100006253 # Margareta Moltke
+			1402.01.01={birth=yes}
+			1460.01.01={add_spouse=100006264}	# Birgitta Sture
+			1473.01.01={add_spouse=100006265}	# Birgitta Bonde
+			1477.04.06={death=yes}
+		}
+			100006266={	# 1c) Kristiern (d.1497); m.Dorothea Banér (d.after 1527)
+				name=Kristiern
+				dynasty=1042
+				religion=lutheran culture=swedish
+				father=100006263 # Johan
+				mother=100006264 # Birgitta Sture
+				1462.01.01={birth=yes}
+				1497.01.01={death=yes}
+			}
+			100006270={	# 2c) Erik (d.8 Nov 1520); m.1492 Cecilia Magnusdotter (d.1522)
+				name=Erik
+				dynasty=1042
+				religion=lutheran culture=swedish
+				father=100006263 # Johan
+				mother=100006264 # Birgitta Sture
+				1464.01.01={birth=yes}
+				1492.01.01={add_spouse=100006271}	# Cecilia Magnusdotter
+				1520.11.08={death=yes}
+			}
+				100006272={	# 1d) Gustaf I Eriksson, King of Sweden (1495-Stockholm 29 Nov 1560); m.1st 24 Sep 1531 Katharina of Saxe-Lauenburg (24 Sep 1513-23 Sep 1535); m.2nd 1 Oct 1536 Margareta Eriksdotter (1 Jan 1514-26 Aug 1551); m.3rd 11 Aug 1552 Katharina Stenbock (22 Jul 1535-13 Nov 1621)
+					name=Gustaf
+					dynasty=1042
+					religion=lutheran culture=swedish
+					father=100006270 # Erik
+					mother=100006271 # Cecilia Magnusdotter
+					1496.05.12={birth=yes}
+					1531.09.24={add_spouse=100006273}	# Katharina of Saxe-Lauenburg
+					1536.10.01={add_spouse=100006274}	# Margareta Eriksdotter
+					1552.08.11={add_spouse=100006275}	# Katharina Stenbock
+					1560.09.29={death=yes}  # Stockholm
+				}
+					100006276={	# 1e) Erik XIV, King of Sweden (13 Dec 1533-26 Feb 1577); m.4 Jul 1568 Katharina Maansdotter (6 Nov 1550-13 Sep 1612)
+						name=Erik
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006273 # Katharina of Saxe-Lauenburg
+						1533.12.13={birth=yes}
+						1568.07.04={add_spouse=100006277}	# Katharina Maansdotter
+						1577.02.26={death=yes}
+					}
+						100006278={	# 1f) Gustaf (28 Jan 1568-Kaschin, Russia 22 Feb 1607)
+							name=Gustaf
+							dynasty=1042
+							religion=lutheran culture=swedish
+							father=100006276 # Erik
+							mother=100006277 # Katharina Maansdotter
+							1568.01.28={birth=yes}
+							1607.02.22={death=yes}  # Kaschin Russia
+						}
+						100006279={	# 4f) Sigrid (15 Oct 1566-24 Apr 1633); m.1st 1597 Henrik Tott (d.1600); m.2nd 10 Sep 1609 Nils Nilsson (d.18 Apr 1613)
+							name=Sigrid
+							female=yes
+							dynasty=1042
+							religion=lutheran culture=swedish
+							father=100006276 # Erik
+							mother=100006277 # Katharina Maansdotter
+							1566.10.15={birth=yes}
+							1633.04.24={death=yes}
+						}
+					100101787={	# 2e) Johan III, King of Finland 1569 (20 Dec 1537-17 Nov 1592); m.1st 4 Oct 1562 Katharina of Poland (1 Nov 1526-16 Sep 1583); m.2nd 21 Feb 1585 Gunilla Bjelke (25 Jun 1568-25 Jul 1597)
+						name=Johan
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006274 # Margareta Eriksdotter
+						1537.12.20={birth=yes}
+						1562.10.04={add_spouse=100006283}	# Katharina of Poland
+						1585.02.21={add_spouse=100006284}	# Gunilla Bjelke
+						1592.11.17={death=yes}
+					}
+						100006285={	# 1f) Sigismund III (20 Jun 1566-Warsaw 30 Apr 1632); m.1st 31 May 1592 Anna of Austria (16 Aug 1573-10 Feb 1598); m.2nd 11 Dec 1605 Constantia of Austria (24 Dec 1588-10 Aug 1631)
+							name=Sigismund
+							dynasty=1042
+							religion=lutheran culture=swedish
+							father=100101787 # Johan
+							mother=100006283 # Katharina of Poland
+							1566.06.20={birth=yes}
+							1592.05.31={add_spouse=100021243}	# Anna of Austria
+							1605.12.11={add_spouse=100021326}	# Constantia of Austria
+							1632.04.30={death=yes}  # Warsaw
+						}
+							100006288={	# 1g) Wladislaw IV Zygmunt, King of Poland 1632 (9 Jun 1595-20 May 1648); m.1st 12 Nov 1637 Cäcilia Renate of Autria (16 Jul 1611-24 Mar 1644); m.2nd 10 Mar 1646 Louisa Maria Gonzaga (18 Aug 1611-10 May 1667)
+								name=Wladislaw
+								dynasty=1042
+								religion=lutheran culture=swedish
+								father=100006285 # Sigismund
+								mother=100021243 # Anna of Austria
+								1595.06.09={birth=yes}
+								1637.11.12={add_spouse=100021305}	# Cäcilia Renate of Autria
+								1646.03.10={add_spouse=100006290}	# Louisa Gonzaga
+								1648.05.20={death=yes}
+							}
+							100006291={	# 4g) Aleksander Karol (14 Nov 1614-19 Nov 1634)
+								name="Aleksander Karol"
+								dynasty=1042
+								religion=lutheran culture=swedish
+								father=100006285 # Sigismund
+								mother=100021326 # Constantia of Austria
+								1614.11.14={birth=yes}
+								1634.11.19={death=yes}
+							}
+							100006292={	# 5g) Jan Kazimierz, Cardinal 1646, King of Poland 1648, abdicated 1668, b.22 Mar 1609, d.as Abbot of St-Martin, Nevers 16 Dec 1672; m.31 May 1649 Louisa Maria Gonzaga (18 Aug 1611-10 May 1667)
+								name="Jan Kazimierz"
+								dynasty=1042
+								religion=catholic culture=polish
+								father=100006285 # Sigismund
+								mother=100021326 # Constantia of Austria
+								1611.08.18={birth=yes}
+								1675.01.01={death=yes}  # EST.
+							}
+							100006293={	# 7g) Karol Ferdinand, Duke of Oppeln and Ratibor 1648, Bp of Breslau 1625 and of Plock 1645 (13 Oct 1613-9 May 1655)
+								name="Karol Ferdinand"
+								dynasty=1042
+								religion=lutheran culture=swedish
+								father=100006285 # Sigismund
+								mother=100021326 # Constantia of Austria
+								1613.10.13={birth=yes}
+								1655.05.09={death=yes}
+							}
+							100006294={	# 12g) Anna Katharina Konstantia (7 Aug 1619-8 Oct 1651); m.8 Jun 1642 Philipp Wilhelm Pfgf von Neuburg [later, Kfst von der Pfalz] (d.1690)
+								name="Anna Katharina"
+								female=yes
+								dynasty=1042
+								religion=lutheran culture=swedish
+								father=100006285 # Sigismund
+								mother=100021326 # Constantia of Austria
+								1619.08.07={birth=yes}
+								1651.10.08={death=yes}
+							}
+						100006296={	# 2f) Johan, Duke of Östergotland (18 Apr 1589-5 Mar 1618); m.29 Nov 1612 Marie Elisabeth of Sweden (10 Mar 1596-7 Aug 1618)
+							name=Johan
+							dynasty=1042
+							religion=lutheran culture=swedish
+							father=100101787 # Johan
+							mother=100006284 # Gunilla Bjelke
+							1589.04.18={birth=yes}
+							1612.11.29={add_spouse=100006308}	# Marie Elisabeth of Sweden
+							1618.03.05={death=yes}
+						}
+					100006298={	# 3e) Magnus, Duke of Östergotland (25 Jul 1542-26 Jun 1595)
+						name=Magnus
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006274 # Margareta Eriksdotter
+						1542.07.25={birth=yes}
+						1595.06.26={death=yes}
+					}
+					100006299={	# 6e) Karl IX, King of Sweden 1604 (4 Oct 1550-30 Oct 1611); m.1st 11 May 1579 Anna Maria Pfgfn von Simmern (24 Jul 1561-29 Jul 1589); m.2nd 27 Aug 1592 Christine of Holstein-Gottorp (12 Apr 1573-8 Dec 1625)
+						name=Karl
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006274 # Margareta Eriksdotter
+						1550.10.04={birth=yes}
+						1579.05.11={add_spouse=100006300}	# Anna von Simmern
+						1592.08.27={add_spouse=100006301}	# Christine of Holstein-Gottorp
+						1611.10.30={death=yes}
+					}
+						100006302={	# 3f) Gustaf II Adolf, King of Sweden (Stockholm 9 Nov 1594-k.a.nr Lützen 6 Dec 1632); m.Stockholm 25 Nov 1620 Marie Eleonore of Brandenburg (11 Nov 1599-18 Mar 1655)
+							name="Gustaf Adolf"
+							dynasty=1042
+							religion=lutheran culture=swedish
+							father=100006299 # Karl
+							mother=100006301 # Christine of Holstein-Gottorp
+							1599.01.01={birth=yes}  # Stockholm
+							1620.11.25={add_spouse=100006303}	# Marie Eleonore of Brandenburg
+							1632.12.06={death=yes}  # Lützen
+						}
+							100006304={	# 2g) Christine, Queen of Sweden 1632, abdicated 1654 (Stockholm 8 Dec 1626-Rome 19 Apr 1689)
+								name=Kristina
+								female=yes
+								dynasty=1042
+								religion=lutheran culture=swedish
+								father=100006302 # Gustaf
+								mother=100006303 # Marie Eleonore of Brandenburg
+								trait=homosexual
+								1626.12.08={birth=yes}  # Stockholm
+								1689.04.19={death=yes}  # Rome
+							}
+						100006305={	# 4f) Karl Filip, Duke of Södermanland, Nerike and Värmland (22 Apr 1601-Narva 25 Jan 1622)
+							name="Karl Filip"
+							dynasty=1042
+							religion=lutheran culture=swedish
+							father=100006299 # Karl
+							mother=100006301 # Christine of Holstein-Gottorp
+							1601.04.22={birth=yes}
+							1622.01.25={death=yes}  # Narva
+						}
+						100101792={	# 7f) Katharina (10 Nov 1584-13 Dec 1638); m.11 Jun 1615 Johann Kasimir Pfgf von Zweibrücken (d.1652)
+							name=Katharina
+							female=yes
+							dynasty=1042
+							religion=lutheran culture=swedish
+							father=100006299 # Karl
+							mother=100006300 # Anna von Simmern
+							1584.11.10={birth=yes}
+							1638.12.13={death=yes}
+						}
+						100006308={	# 10f) Marie Elisabeth (10 Mar 1596-7 Aug 1618); m.29 Nov 1612 Johan of Sweden (18 Apr 1589-5 Mar 1618)
+							name="Marie Elisabeth"
+							female=yes
+							dynasty=1042
+							religion=lutheran culture=swedish
+							father=100006299 # Karl
+							mother=100006301 # Christine of Holstein-Gottorp
+							1596.03.10={birth=yes}
+							1618.08.07={death=yes}
+						}
+					100006310={	# 7e) Katharina (6 Jun 1539-21 Dec 1610); m.1 Oct 1559 Edzard II Gf von Ostfriesland (d.1 Mar 1599)
+						name=Katharina
+						female=yes
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006274 # Margareta Eriksdotter
+						1539.06.06={birth=yes}
+						1610.12.21={death=yes}
+					}
+					100006312={	# 8e) Cäcilia (16 Nov 1540-Brussels 27 Jan 1627); m.18 Jun 1564 Christoph I Mgve of Baden (d.1575)
+						name=Cäcilia
+						female=yes
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006274 # Margareta Eriksdotter
+						1540.11.16={birth=yes}
+						1627.01.27={death=yes}  # Brussels
+					}
+					100006314={	# 9e) Anna (19 Jun 1545-30 Mar 1610); m.20 Dec 1562 Georg Johann Pfgf von Veldenz (d.1592)
+						name=Anna
+						female=yes
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006274 # Margareta Eriksdotter
+						1545.06.19={birth=yes}
+						1610.03.30={death=yes}
+					}
+					100006316={	# 10e) Sophie (29 Oct 1547-17 Mar 1611); m.4 Jul 1568 Magnus II, Duke of Saxe-Lauenburg (d.1603)
+						name=Sophie
+						female=yes
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006274 # Margareta Eriksdotter
+						1547.10.29={birth=yes}
+						1611.03.17={death=yes}
+					}
+					100006318={	# 11e) Elisabeth (4 Apr 1549-20 Nov 1597); m.7 May 1581 Duke Christoph of Mecklenburg (d.1592)
+						name=Elisabeth
+						female=yes
+						dynasty=1042
+						religion=lutheran culture=swedish
+						father=100006272 # Gustaf
+						mother=100006274 # Margareta Eriksdotter
+						1549.04.04={birth=yes}
+						1597.11.20={death=yes}
+					}
+
+#######
+100006313={	# Mgve    			Christoph           			von Baden       
+	name="Christoph of Baden"
+	dynasty=0
+	religion=lutheran culture=swedish
+	1539.01.01={birth=yes}
+	1564.06.18={add_spouse=100006312}	# Cäcilia
+	1575.01.01={death=yes}
+}
+100006319={	# Duke    			Christoph           			von Mecklenburg 
+	name="Christoph of Mecklenburg"
+	dynasty=0
+	religion=lutheran culture=swedish
+	1556.01.01={birth=yes}
+	1581.05.07={add_spouse=100006318}	# Elisabeth
+	1592.01.01={death=yes}
+}
+100006317={	# Duke    			Magnus              			von Sachsen-Lauenburg
+	name="Magnus of Saxe-Lauenburg"
+	dynasty=0
+	religion=lutheran culture=swedish
+	1543.01.01={birth=yes}
+	1568.07.04={add_spouse=100006316}	# Sophie
+	1603.01.01={death=yes}
+}
+100006295={	# Pfgf    			Philipp Wilhelm     			Wittelsbach
+	name="Philipp Wilhelm Wittelsbach"
+	dynasty=0
+	religion=lutheran culture=german
+	1617.01.01={birth=yes}
+	1642.06.08={add_spouse=100006294}	# Anna Katharina
+	1690.01.01={death=yes}
+}
+100006311={	# Gf      			Edzard              			von Ostfriesland
+	name="Edzard von Ostfriesland"
+	dynasty=0
+	religion=lutheran culture=german
+	1534.01.01={birth=yes}
+	1559.10.01={add_spouse=100006310}	# Katharina
+	1599.03.01={death=yes}
+}
+100006300={	# Pfgfn   			Anna                			von Simmern    
+	name="Anna von Simmern"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=german
+	1561.07.24={birth=yes}
+	1589.07.29={death=yes}
+}
+100006315={	# Pfgf    			Georg Johann        			von Veldenz    
+	name="Georg Johann von Veldenz"
+	dynasty=0
+	religion=lutheran culture=german
+	1537.01.01={birth=yes}
+	1562.12.20={add_spouse=100006314}	# Anna
+	1592.01.01={death=yes}
+}
+100006307={	# Pfgf    			Johann Kasimir      			von Zweibrücken
+	name="Johann Kasimir von Zweibrücken"
+	dynasty=0
+	religion=lutheran culture=german
+	1590.01.01={birth=yes}
+	1615.06.11={add_spouse=100101792}	# Katharina
+	1652.01.01={death=yes}
+}
+100006267={	#         			Dorothea            			Banér          
+	name="Dorothea Banér"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1462.01.01={birth=yes}
+	1528.01.01={death=yes}
+}
+100006284={	#         			Gunilla             			Bjelke         
+	name="Gunilla Bjelke"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1568.06.25={birth=yes}
+	1597.07.25={death=yes}
+}
+100006265={	#         			Birgitta            			Bonde          
+	name="Birgitta Bonde"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1456.01.01={birth=yes}
+	1522.01.01={death=yes}
+}
+100006274={	#         			Margareta           			Eriksdotter    
+	name="Margareta Eriksdotter"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1514.01.01={birth=yes}
+	1551.08.26={death=yes}
+}
+100006290={	#         			Louisa              			Gonzaga        
+	name="Louisa Gonzaga"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1611.08.18={birth=yes}
+	1667.05.10={death=yes}
+}
+100006251={	#         			Kristina            			Jonsdotter     
+	name="Kristina Jonsdotter"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1355.01.01={birth=yes}
+	1379.10.24={death=yes}
+}
+100006259={	#         			Anna                			Karlsdotter    
+	name="Anna Karlsdotter"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1468.01.01={birth=yes}
+	1552.01.01={death=yes}
+}
+100006261={	#         			Erik                			Knutsson       
+	name="Erik Knutsson"
+	dynasty=0
+	religion=lutheran culture=swedish
+	1489.01.01={birth=yes}
+	1514.01.01={add_spouse=100006260}	# Margareta
+	1520.11.08={death=yes}
+}
+100006254={	#         			Margareta           			Krummedige     
+	name="Margareta Krummedige"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1405.01.01={birth=yes}
+	1451.01.01={death=yes}
+}
+100006256={	#         			Ebba                			Krummedige     
+	name="Ebba Krummedige"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1400.01.01={birth=yes}
+	1465.08.24={death=yes}
+}
+100006277={	#         			Katharina           			Maansdotter    
+	name="Katharina Maansdotter"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1550.11.06={birth=yes}
+	1612.09.13={death=yes}
+}
+100006271={	#         			Cecilia             			Magnusdotter   
+	name="Cecilia Magnusdotter"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1472.01.01={birth=yes}
+	1522.01.01={death=yes}
+}
+100006253={	#         			Margareta           			Moltke         
+	name="Margareta Moltke"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1378.01.01={birth=yes}
+	1413.01.01={death=yes}
+}
+100006281={	#         			Nils                			Nilsson        
+	name="Nils Nilsson"
+	dynasty=0
+	religion=lutheran culture=swedish
+	1584.01.01={birth=yes}
+	1609.09.10={add_spouse=100006279}	# Sigrid
+	1613.04.18={death=yes}
+}
+100006258={	#         			Iliana              			Oxenstierna    
+	name="Iliana Oxenstierna"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1447.01.01={birth=yes}
+	1483.01.01={death=yes}
+}
+100006269={	#         			Gudmund             			Persson        
+	name="Gudmund Persson"
+	dynasty=0
+	religion=lutheran culture=swedish
+	1487.01.01={birth=yes}
+	1512.01.01={add_spouse=100006268}	# Märta
+	1545.01.01={death=yes}
+}
+100006275={	#         			Katharina           			Stenbock       
+	name="Katharina Stenbock"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1535.07.22={birth=yes}
+	1621.11.13={death=yes}
+}
+100006264={	#         			Birgitta            			Sture          
+	name="Birgitta Sture"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1440.01.01={birth=yes}
+	1472.01.01={death=yes}
+}
+100006280={	#         			Henrik              			Tott           
+	name="Henrik Tott"
+	dynasty=0
+	religion=lutheran culture=swedish
+	1572.01.01={birth=yes}
+	1597.01.01={add_spouse=100006279}	# Sigrid
+	1600.01.01={death=yes}
+}
+100006303={	#         			Marie Eleonore      			von Brandenburg 
+	name="Marie Eleonore of Brandenburg"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1599.11.11={birth=yes}
+	1655.03.18={death=yes}
+}
+100006301={	#         			Christine           			von Holstein-Gottorp
+	name="Christine of Holstein-Gottorp"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1573.04.12={birth=yes}
+	1625.12.08={death=yes}
+}
+100006273={	#         			Katharina           			von Sachsen-Lauenburg
+	name="Katharina of Saxe-Lauenburg"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1513.09.24={birth=yes}
+	1535.09.23={death=yes}
+}
+100006262={	#         			Berend              			von Melen      
+	name="Berend von Melen"
+	dynasty=0
+	religion=lutheran culture=german
+	1498.01.01={birth=yes}
+	1523.01.01={add_spouse=100006260}	# Margareta
+	1561.09.02={death=yes}
+}
+####### 100006320
+#1380.01.01={holder=100006250} # Nils 
+#1390.01.01={holder=100006252} # 1a) Kristiern 
+#1442.04.29={holder=100006263} # 2b) Johan 
+#1477.04.06={holder=100006266} # 1c) Kristiern 
+#1497.01.01={holder=100006270} # 2c) Erik 
+#1520.11.08={holder=100006272} # 1d) Gustaf I Eriksson
+#1560.11.29={holder=100006276} # 1e) Erik XIV
+#1577.02.26={holder=100006278} # 1f) Gustaf 
+## Vasa					1042		100006250
 
 
 ## Gottorp of Sweden	1002019		100006200

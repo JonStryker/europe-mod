@@ -7,7 +7,500 @@
 ##  100111400	Sapieha					1012005
 ##  100111500	Potocki					1012006
 ##  100111653	Lubomirski2				1012004
+##  100111850	Jagiellon				9
 ###########################################################
+
+##  100111850	Jagiellon				9
+100021336={ # King       Louis                     Jagiellon                                (1497-1526)     0
+	name="Louis Jagiellon"
+	dynasty=0
+	religion=catholic culture=polish
+	1497.01.01={birth=yes}
+	1522.01.13={add_spouse=100021335}	# Marie v. Habsburg
+	1526.08.29={death=yes}
+}
+100021161={ # Pss        Anna                      Jagiellon                                (1503-1547)    13
+	name="Anna Jagiellon"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1503.07.23={birth=yes}
+	1547.01.27={death=yes}
+}
+100021163={ # King       Zygmunt August            Jagiellon                                (1520-1572)  2  0
+	name="Zygmunt August Jagiellon"
+	dynasty=0
+	religion=catholic culture=polish
+	1520.08.01={birth=yes}
+	1543.05.05={add_spouse=100021162}	# Elisabeth v. Habsburg
+	1553.07.31={add_spouse=100021232}	# Katharina v. Habsburg
+	1566.01.01={remove_spouse=100021232}
+	1572.07.07={death=yes}
+}
+100006283={	#         	 Katharina           	   Jagiellonica      
+	name="Katharina Jagiellonica"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1526.11.01={birth=yes}
+	1583.09.16={death=yes}
+}
+
+
+100111850={	# Jagiello Wladislaw II, 1377 Pr of Kiev, 1382-6 and 1392-1401 Great Prince of Lithuania, 1386-1434 King of Poland (1351-1 Jun 1434); m.1st 18 Feb 1386 Queen Jadwiga of Poland (1371/3-1399/1400); m.2nd 29 Jan 1402 Anna von Cilli(1380/1-20/21 Mar 1416); m.3rd 2 May 1417 Elzbieta Piloka (1372-12 May 1420); m.4th 1420 Pss Sofia of Kiev; m.5th 7 Feb 1422 Sofia Holczanska (1405-21 Sep 1461)
+	name="Jagiello Wladislaw"
+	dynasty=9
+	religion=catholic culture=polish
+	1351.01.01={birth=yes}
+	1386.02.18={add_spouse=100111851}	# Jadwiga of Poland
+	1402.01.29={add_spouse=100111852}	# Anna von Cilli
+	1417.05.02={add_spouse=100111853}	# Elzbieta Piloka
+	1420.01.01={remove_spouse=100111853}
+	1420.02.01={add_spouse=100111854}	# Sofia of Kiev
+	1422.01.01={remove_spouse=100111854}
+	1422.02.07={add_spouse=100111855}	# Sofia Holczanska
+	1434.06.01={death=yes}
+}
+	100111856={	# 1c) Wladislaw V, King of Poland 1434 and Hungary 1440 (31 Oct 1424-10 Nov 1444)
+		name=Wladislaw
+		dynasty=9
+		religion=catholic culture=polish
+		father=100111850 # Jagiello Wladislaw
+		mother=100111855 # Sofia Holczanska
+		1424.10.31={birth=yes}
+		1444.11.10={death=yes}
+	}
+	100111857={	# 3c) Kazimierz IV, King of Poland 1446, Gr Pr of Lithuania 1440 (30 Nov 1427-7 Jun 1492); m.10 Feb 1454 Elisabeth of Austria (1436/7-30 Aug 1505)
+		name=Kazimierz
+		dynasty=9
+		religion=catholic culture=polish
+		father=100111850 # Jagiello Wladislaw
+		mother=100111855 # Sofia Holczanska
+		1427.11.30={birth=yes}
+		1454.02.10={add_spouse=100111858}	# Elisabeth of Austria
+		1492.06.07={death=yes}
+	}
+		100111859={	# 1d) Ladislaus II, King of Bohemia 1471 and of Hungary 1490 (1 Mar 1456-13 Mar 1516); m.1st 20 Aug 1476 (div 1498) Barbara of Brandenburg (29 May 1464-4 Sep 1515); m.2nd 4 Oct 1490 (div 1500) Beatrice of Sicily (1457-21 Sep 1508); m.3rd 6 Oct 1502 Anne de Foix (1484-26 Jul 1506)
+			name=Ladislaus
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1456.03.01={birth=yes}
+			1476.08.20={add_spouse=100111860}	# Barbara of Brandenburg
+			1490.10.04={add_spouse=100111861}	# Beatrice of Sicily
+			1498.01.01={remove_spouse=100111860}
+			1500.01.01={remove_spouse=100111861}
+			1502.10.06={add_spouse=100111862}	# Anne de Foix
+			1516.03.13={death=yes}
+		}
+			100111863={	# 1e) Anna (23 Jul 1503-27 Jan 1547); m.27 May 1521 Emperor Ferdinand I (10 Mar 1503 – 25 Jul 1564)
+				name=Anna
+				female=yes
+				dynasty=9
+				religion=catholic culture=polish
+				father=100111859 # Ladislaus
+				mother=100111862 # Anne de Foix
+				1503.07.23={birth=yes}
+				1547.01.27={death=yes}
+			}
+			100111865={	# 2e) Louis II, King of Bohemia and Hungary (1 Jul 1506-k.a.Mohacs 29 Aug 1526); m.13 Jan 1522 Maria of Austria (17 Sep 1505-18 Oct 1558)
+				name=Louis
+				dynasty=9
+				religion=catholic culture=polish
+				father=100111859 # Ladislaus
+				mother=100111862 # Anne de Foix
+				1506.07.01={birth=yes}
+				1522.01.13={add_spouse=100111866}	# Maria of Austria
+				1526.08.29={death=yes}  # a.Mohacs
+			}
+		100111867={	# 2d) Jadwiga (21 Sep 1457-18 Feb 1502); m.14 Nov 1475 Duke Georg of Bavaria-Landshut (d.1 Dec 1503)
+			name=Jadwiga
+			female=yes
+			dynasty=9
+			religion=catholic culture=swedish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1457.09.21={birth=yes}
+			1502.02.18={death=yes}
+		}
+		100111869={	# 3d) [St.] Kazimierz (3 Oct 1458-4 Mar 1484)
+			name=Kazimierz
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1458.10.03={birth=yes}
+			1484.03.04={death=yes}
+		}
+		100111870={	# 4d) Jan Olbracht, 1490/8 Duke of Glogau, 1492 King of Poland 1492-1501 (27 Dec 1459-17 Jun 1501)
+			name="Jan Olbracht"
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1459.12.27={birth=yes}
+			1501.06.17={death=yes}
+		}
+		100111871={	# 5d) Alexander, Gr Pr of Lithuania 1492, King of Poland 1501 (5 Aug 1461-19 Aug 1506); m.15 Feb 1495 Pss Jelena of Moscow (19 May 1476-20 Jan 1513)
+			name=Alexander
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1461.08.05={birth=yes}
+			1495.02.15={add_spouse=100111872}	# Jelena of Moscow
+			1506.08.19={death=yes}
+		}
+		100111873={	# 6d) Sofia (6 May 1464-5 Oct 1512); m.14 Feb 1479 Mkgf Friedrich of Brandenburg-Ansbach (d.4 Apr 1536)
+			name=Sofia
+			female=yes
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1464.05.06={birth=yes}
+			1512.10.05={death=yes}
+		}
+		100111876={	# 8d) Zygmunt, Duke of Oppeln and Glogau, King of Poland and Gr Pr of Lithuania 1506-48 (1 Jan 1467-1 Apr 1548); m.1st 8 Feb 1512 Barbara Zapolya (1495-2 Oct 1515); m.2nd 18 Apr 1518 Bona Sforza of Milan (2 Feb 1494-19 Nov 1557)
+			name=Zygmunt
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1467.01.01={birth=yes}
+			1512.02.08={add_spouse=100111877}	# Barbara Zapolya
+			1518.04.18={add_spouse=100111878}	# Bona Sforza of Milan
+			1548.04.01={death=yes}
+		}
+			100111879={	# 1e) Hedwig (25 Mar 1513-7 Feb 1573); m.1535 Elector Joachim II of Brandenburg (d.1571)
+				name=Hedwig
+				female=yes
+				dynasty=9
+				religion=catholic culture=polish
+				father=100111876 # Zygmunt
+				mother=100111877 # Barbara Zapolya
+				1513.03.25={birth=yes}
+				1573.02.07={death=yes}
+			}
+			100111881={	# 3e) Izabella (18 Jan 1519-15 Sep 1559); m.23 Feb 1539 Jan Zapolya, King of Hungary (d.22 Jul 1540)
+				name=Izabella
+				female=yes
+				dynasty=9
+				religion=catholic culture=polish
+				father=100111876 # Zygmunt
+				mother=100111878 # Bona Sforza of Milan
+				1519.01.18={birth=yes}
+				1559.09.15={death=yes}
+			}
+			100111883={	# 4e) Zygmunt II August, King of Poland and Gr Pr of Lithuania (1 Aug 1520-7 Jul 1572); m.1st 5 May 1543 Archduchess Elisabeth of Austria (9 Jul 1526-15 Jun 1545); m.2nd 1547 Pss Barbara Radziwill (6 Dec 1523-8 May 1571); m.3rd 1553 Archduchess Katharina of Austria (15 Sep 1533-28 Feb 1572)
+				name=Zygmunt
+				dynasty=9
+				religion=catholic culture=polish
+				father=100111876 # Zygmunt
+				mother=100111878 # Bona Sforza of Milan
+				1520.08.01={birth=yes}
+				1543.05.05={add_spouse=100111884}	# Elisabeth of Austria
+				1547.01.01={add_spouse=100111885}	# Barbara Radziwill
+				1553.01.01={remove_spouse=100111885}
+				1553.02.01={add_spouse=100111886}	# Katharina of Austria
+				1572.07.07={death=yes}
+			}
+			100111887={	# 5e) Sofia (13 Jul 1522-28 May 1575); m.25 Feb 1556 Duke Heinrich II of Braunschweig (d.1568)
+				name=Sofia
+				female=yes
+				dynasty=9
+				religion=catholic culture=polish
+				father=100111876 # Zygmunt
+				mother=100111878 # Bona Sforza of Milan
+				1522.07.13={birth=yes}
+				1575.05.28={death=yes}
+			}
+			100111889={	# 6e) Anna, Queen of Poland 1575 (18 Oct 1523-9 Sep 1596); m.1 May 1576 Stefan Bátory, Pr von Siebenbürgen, King of Poland (d.12 Dec 1586)
+				name=Anna
+				female=yes
+				dynasty=9
+				religion=catholic culture=polish
+				father=100111876 # Zygmunt
+				mother=100111878 # Bona Sforza of Milan
+				1523.10.18={birth=yes}
+				1596.09.09={death=yes}
+			}
+			100111891={	# 7e) Katarzyna (1 Nov 1526-16 Sep 1583); m.4 oct 1562 King Johan III of Sweden (d.17 Nov 1592)
+				name=Katarzyna
+				female=yes
+				dynasty=9
+				religion=catholic culture=polish
+				father=100111876 # Zygmunt
+				mother=100111878 # Bona Sforza of Milan
+				1526.11.01={birth=yes}
+				1583.09.16={death=yes}
+			}
+		100111893={	# 9d) Frederyk, Archbishop of Gnesen 1493, Cardinal (27 Apr 1468-14 Mar 1503)
+			name=Frederyk
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1468.04.27={birth=yes}
+			1503.03.14={death=yes}
+		}
+		100111894={	# 11d) Anna (12 Mar 1476-12 Aug 1503); m.2 Feb 1491 Duke Bogislav X of Pomerania (d.5 Oct 1523)
+			name=Anna
+			female=yes
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1476.03.12={birth=yes}
+			1503.08.12={death=yes}
+		}
+		100111896={	# 12d) Barbara (15 Jul 1478-15 Feb 1534); m.21 Nov 1496 Duke Georg of Saxony (d.17 Apr 1539)
+			name=Barbara
+			female=yes
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1478.07.15={birth=yes}
+			1534.02.15={death=yes}
+		}
+		100111898={	# 13d) Elzbieta (13 Nov 1482-16 Feb 1517); m.18/19 Nov 1515 Duke Friedrich II of Liegnitz (d.1547)
+			name=Elzbieta
+			female=yes
+			dynasty=9
+			religion=catholic culture=polish
+			father=100111857 # Kazimierz
+			mother=100111858 # Elisabeth of Austria
+			1482.11.13={birth=yes}
+			1517.02.16={death=yes}
+		}
+
+#######
+100111864={	# Emperor 			Ferdinand           			of Austria              
+	name="Ferdinand of Austria"
+	dynasty=0
+	religion=catholic culture=swedish
+	1496.01.01={birth=yes}
+	1521.05.27={add_spouse=100111863}	# Anna
+	1555.01.01={death=yes}  # EST.
+}
+100111890={	# Pr      			Stefan              			Bátory of Poland
+	name="Stefan Bátory of Poland"
+	dynasty=0
+	religion=catholic culture=swedish
+	1551.01.01={birth=yes}
+	1576.05.01={add_spouse=100111889}	# Anna
+	1586.12.12={death=yes}
+}
+100111885={	# Pss     			Barbara             			Radziwill      
+	name="Barbara Radziwill"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1523.12.06={birth=yes}
+	1571.05.08={death=yes}
+}
+100111882={	# King    			Jan                 			Zapolya        
+	name="Jan Zapolya"
+	dynasty=0
+	religion=catholic culture=swedish
+	1514.01.01={birth=yes}
+	1539.02.23={add_spouse=100111881}	# Izabella
+	1540.07.22={death=yes}
+}
+100111884={	# Archduchess		Elisabeth           			of Austria     
+	name="Elisabeth of Austria"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1526.07.09={birth=yes}
+	1545.06.15={death=yes}
+}
+100111886={	# Archduchess		Katharina           			of Austria     
+	name="Katharina of Austria"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1533.09.15={birth=yes}
+	1572.02.28={death=yes}
+}
+100111868={	# Duke    			Georg               			of Bavaria-Landshut
+	name="Georg of Bavaria-Landshut"
+	dynasty=0
+	religion=catholic culture=swedish
+	1450.01.01={birth=yes}
+	1475.11.14={add_spouse=100111867}	# Jadwiga
+	1503.12.01={death=yes}
+}
+100111880={	# Elector 			Joachim             			of Brandenburg 
+	name="Joachim of Brandenburg"
+	dynasty=0
+	religion=catholic culture=swedish
+	1510.01.01={birth=yes}
+	1535.01.01={add_spouse=100111879}	# Hedwig
+	1571.01.01={death=yes}
+}
+100111874={	# Mkgf    			Friedrich           			of Brandenburg-Ansbach
+	name="Friedrich of Brandenburg-Ansbach"
+	dynasty=0
+	religion=catholic culture=swedish
+	1454.01.01={birth=yes}
+	1479.02.14={add_spouse=100111873}	# Sofia
+	1536.04.04={death=yes}
+}
+100111888={	# Duke    			Heinrich            			of Braunschweig
+	name="Heinrich of Braunschweig"
+	dynasty=0
+	religion=catholic culture=swedish
+	1531.01.01={birth=yes}
+	1556.02.25={add_spouse=100111887}	# Sofia
+	1568.01.01={death=yes}
+}
+100111854={	# Pss     			Sofia               			of Kiev        
+	name="Sofia of Kiev"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1400.01.01={birth=yes}
+	1456.01.01={death=yes}  # EST.
+}
+100111899={	# Duke    			Friedrich           			of Liegnitz    
+	name="Friedrich of Liegnitz"
+	dynasty=0
+	religion=catholic culture=swedish
+	1490.01.01={birth=yes}
+	1515.11.18={add_spouse=100111898}	# Elzbieta
+	1547.01.01={death=yes}
+}
+100111872={	# Pss     			Jelena              			of Moscow      
+	name="Jelena of Moscow"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1476.05.19={birth=yes}
+	1513.01.20={death=yes}
+}
+100111851={	# Queen   			Jadwiga             			of Poland      
+	name="Jadwiga of Poland"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1371.01.01={birth=yes}
+	1399.01.01={death=yes}
+}
+100111895={	# Duke    			Bogislav            			of Pomerania   
+	name="Bogislav of Pomerania"
+	dynasty=0
+	religion=catholic culture=swedish
+	1466.01.01={birth=yes}
+	1491.02.02={add_spouse=100111894}	# Anna
+	1523.10.05={death=yes}
+}
+100111897={	# Duke    			Georg               			of Saxony      
+	name="Georg of Saxony"
+	dynasty=0
+	religion=catholic culture=swedish
+	1471.01.01={birth=yes}
+	1496.11.21={add_spouse=100111896}	# Barbara
+	1539.04.17={death=yes}
+}
+100111892={	# King    			Johan               			of Sweden      
+	name="Johan of Sweden"
+	dynasty=0
+	religion=catholic culture=swedish
+	1537.01.01={birth=yes}
+	1562.10.04={add_spouse=100111891}	# Katarzyna
+	1592.11.17={death=yes}
+}
+100111855={	#         			Sofia               			Holczanska     
+	name="Sofia Holczanska"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1405.01.01={birth=yes}
+	1461.09.21={death=yes}
+}
+100111853={	#         			Elzbieta            			Piloka         
+	name="Elzbieta Piloka"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1372.01.01={birth=yes}
+	1420.05.12={death=yes}
+}
+100111878={	#         			Bona                			Sforza of Milan
+	name="Bona Sforza of Milan"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1494.02.02={birth=yes}
+	1557.11.19={death=yes}
+}
+100111877={	#         			Barbara             			Zapolya        
+	name="Barbara Zapolya"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1495.01.01={birth=yes}
+	1515.10.02={death=yes}
+}
+100111862={	#         			Anne                			de Foix        
+	name="Anne de Foix"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1484.01.01={birth=yes}
+	1506.07.26={death=yes}
+}
+100111858={	#         			Elisabeth           			of Austria     
+	name="Elisabeth of Austria"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1436.01.01={birth=yes}
+	1505.08.30={death=yes}
+}
+100111866={	#         			Maria               			of Austria     
+	name="Maria of Austria"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1505.09.17={birth=yes}
+	1558.10.18={death=yes}
+}
+100111860={	#         			Barbara             			of Brandenburg 
+	name="Barbara of Brandenburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1464.05.29={birth=yes}
+	1515.09.04={death=yes}
+}
+100111861={	#         			Beatrice            			of Sicily      
+	name="Beatrice of Sicily"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1457.01.01={birth=yes}
+	1508.09.21={death=yes}
+}
+100111852={	#         			Anna                			von Cilli      
+	name="Anna von Cilli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1380.01.01={birth=yes}
+	1416.03.20={death=yes}
+}
+####### 100111900
+#[(, Brandenburg, Braunschweig, Bátory, Liegnitz, Pomerania, Radziwill, Sforza, Sweden, Zapolya, of]
+#1381.01.01={holder=100111850} # Jagiello Wladislaw II
+#1434.06.01={holder=100111856} # 1c) Wladislaw V
+#1444.11.10={holder=100111857} # 3c) Kazimierz IV
+#1492.06.07={holder=100111859} # 1d) Ladislaus II
+#1516.03.13={holder=100111865} # 2e) Louis II
+##  100111850	Jagiellon				9
 
 
 ##  100111500	Potocki					1012006

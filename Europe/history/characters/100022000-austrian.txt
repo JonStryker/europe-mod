@@ -34,7 +34,7 @@
 			1638.03.04={birth=yes}
 			1667.01.01={add_spouse=100024754}	# FRN Ludmilla von Schönfeld
 			1678.08.25={add_spouse=100024755}	# GFN Anna Eleonore von Lamberg
-			1693.01.01={add_spouse=100024756}	# GFN Barbara Theresia Kokorzowska
+			1693.01.01={add_spouse=100024756}	# GFN Barbara Theresia Kokorzowski
 			1700.04.21={death=yes}
 		}
 			100024757={	# 1c) Franz Karl (1675-20 Jan 1751); m.1696 Maria Theresia Gfn Künigl (1673-18 Feb 1745)
@@ -1186,6 +1186,23 @@
 
 
 ###		Auersperg			1004007			100021400
+100021405={ # Gf         Georg Siegmund            von Auersperg                            (1680-1734)     0
+	name="Georg Siegmund von Auersperg"
+	dynasty=0
+	religion=catholic culture=german
+	1680.01.01={birth=yes}
+	1705.02.24={add_spouse=100021404}	# Maria Theresia v. Auersperg
+	1734.01.01={death=yes}
+}
+100085679={ # Gf         Franz                     von Auersperg                            (1752-1803)     0
+	name="Franz von Auersperg"
+	dynasty=0
+	religion=catholic culture=german
+	1752.10.18={birth=yes}
+	1778.06.25={add_spouse=100085678}	# Marie Ernestine v. Schwarzenberg
+	1803.06.09={death=yes}
+}
+
 100021400={	# JOHANN WEIKHARD Graf von Auersperg, cr 1653 Fürst von Auersperg, Graf von Wels, Duke von Münsterberg und Frankenstein, etc. (11 Mar 1615-11 Nov 1677); m.31 Jan 1654 Marie Katharine Gfn von Losenstein (1635-1691)
 	name="Johann Weikhard"
 	dynasty=1004007
@@ -1206,12 +1223,12 @@
 	}
 		100021404={	# 1b) Maria Theresia (20 Oct 1686-9 Mar 1756); m.24 Feb 1705 Georg Siegmund Gf von Auersperg (d.1734)
 			name="Maria Theresia"
+			female=yes
 			dynasty=1004007
 			religion=catholic culture=german
 			father=100021402	# Johann Ferdinand v. Auersperg
 			mother=100021403	# GFN Maria Anna von Herberstein
 			1686.10.20={birth=yes}
-			1705.02.24={add_spouse=100021405}	# GF Georg Siegmund von Auersperg
 			1756.03.09={death=yes}
 		}
 	100021406={	# 2a) FRANZ KARL Fst von Auersperg (22 Nov 1660-6 Nov 1713); m.26 Feb 1685 Marie Therese von Rappach (1660-20 Jan 1741)
@@ -1259,7 +1276,7 @@
 			father=100021406	# Franz Karl v. Auersperg
 			mother=100021407	# Marie Therese von Rappach
 			1697.06.24={birth=yes}
-			1719.05.21={add_spouse=100021413}	# PSS Marie Dominika von und zu Liechtenstein
+			1719.05.21={add_spouse=100021413}	# Maria Dominika v. Liechtenstein
 			1726.05.07={add_spouse=100021414}	# GFN Marie Franziska von Falkenstein
 			1783.02.09={death=yes}
 		}
@@ -1268,7 +1285,7 @@
 				dynasty=1004007
 				religion=catholic culture=german
 				father=100021412	# Heinrich v. Auersperg
-				mother=100021413	# PSS Marie Dominika von und zu Liechtenstein
+				mother=100021413	# Maria Dominika v. Liechtenstein
 				1720.02.17={birth=yes}
 				1744.05.31={add_spouse=100021416}	# GFN Maria Josepha von Falkenstein
 				1800.10.02={death=yes}
@@ -3414,7 +3431,7 @@
 				dynasty=1004007
 				religion=catholic culture=german
 				father=100021412	# Heinrich v. Auersperg
-				mother=100021413	# PSS Marie Dominika von und zu Liechtenstein
+				mother=100021413	# Maria Dominika v. Liechtenstein
 				1721.08.27={birth=yes}
 				1746.01.17={add_spouse=100021810}	# GFN Katharina von Schönfeld
 				1755.04.10={add_spouse=100021811}	# GFN Marie Wilhelmine von Neipperg
@@ -3434,7 +3451,7 @@
 				dynasty=1004007
 				religion=catholic culture=german
 				father=100021412	# Heinrich v. Auersperg
-				mother=100021413	# PSS Marie Dominika von und zu Liechtenstein
+				mother=100021413	# Maria Dominika v. Liechtenstein
 				1722.08.16={birth=yes}
 				1732.09.13={death=yes}
 			}
@@ -4751,15 +4768,6 @@
 				1737.09.28={birth=yes}
 				1764.08.29={death=yes}
 			}
-		100024600={	# 7b) Leopold Anton (1693-1706)
-			name="Leopold Anton"
-			dynasty=1004006
-			religion=catholic culture=german
-			father=100024420	# Wolfgang Andreas v. Orsini u.Rosenberg
-			mother=100024423	# PSS Ernestine von Montecuccoli
-			1693.01.01={birth=yes}
-			1706.01.01={death=yes}
-		}
 		100024601={	# 8b) Marie Gabriele (4 Mar 1694-30 Sep 1744); m.24 Apr 1715 Johann Sigmund Gf von Stuubenberg (13 Apr 1644-1 Apr 1716)
 			name="Marie Gabriele"
 			dynasty=1004006
@@ -4927,7 +4935,7 @@
 						mother=100023585	# GFN Margarete Anna zu Oettingen
 						1638.01.01={birth=yes}
 						1664.01.01={add_spouse=100023587}	# GFN Marie Franziska von Lodron
-						1680.01.01={add_spouse=100023588}	# PSS Maria Maximiliana von Liechtenstein
+						1680.08.11={add_spouse=100023588}	# Maria Maximiliana von Liechtenstein v. Liechtenstein
 						1688.01.01={add_spouse=100023589}	# GFN Marie Adelheid von Toerring
 						1701.01.01={death=yes}
 					}
@@ -4936,7 +4944,7 @@
 							dynasty=1004005
 							religion=catholic culture=german
 							father=100023586	# Johann Maximilian v. Thun u.Hohenstein
-							mother=100023588	# PSS Maria Maximiliana von Liechtenstein
+							mother=100023588	# Maria Maximiliana von Liechtenstein v. Liechtenstein
 							1686.06.16={birth=yes}
 							1708.11.04={add_spouse=100023591}	# GFN Philippine Aloysia von Harrach
 							1720.06.30={death=yes}
@@ -6035,15 +6043,6 @@
 			1793.10.06={add_spouse=100023796}	# EARL Richard Meade
 			1800.08.08={death=yes}
 		}
-	100023797={	# 2a) Procop Joseph (14 Nov 1735-30 Jan 1798)
-		name="Procop Joseph"
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100023662	# Johann Joseph v. Thun u.Hohenstein
-		mother=100023663	# GFN Marie Christine von Hohenzollern-Hechingen
-		1735.11.14={birth=yes}
-		1798.01.30={death=yes}
-	}
 	100023798={	# 3a) Wenzel Joseph Johann (Prague 6 Feb 1737-Prague 15 Dec 1796); m.Tetschen 22 Nov 1768 Maria Anna Gfn von Kolowrat-Liebsteinsky (Prague 22 Jan 1750-Laer 28 Aug 1828)
 		name="Wenzel Joseph"
 		dynasty=1004005
@@ -6254,6 +6253,7 @@
 									}
 									100023839={	# 3i) Maria Alessina (b.Vienna 16 Feb 2001)
 										name="Maria Alessina"
+										female=yes
 										dynasty=1004005
 										religion=catholic culture=german
 										father=100023835	# Michael v. Thun u.Hohenstein
@@ -7425,7 +7425,7 @@
 								name=Ursula
 								female=yes
 								dynasty=1004005
-								religion=catholic culture=german
+								religion=catholic culture=italian
 								father=100024060	# Berchthold Adam v. Thun u.Hohenstein
 								mother=100024061	# Maurizia Vianello
 								1968.04.19={birth=yes}
@@ -7433,7 +7433,7 @@
 							100024063={	# 2g) Jacobo (b.Venice 24 Nov 1970)
 								name=Jacobo
 								dynasty=1004005
-								religion=catholic culture=german
+								religion=catholic culture=italian
 								father=100024060	# Berchthold Adam v. Thun u.Hohenstein
 								mother=100024061	# Maurizia Vianello
 								1970.11.24={birth=yes}
@@ -7441,7 +7441,7 @@
 							100024064={	# 3g) Nicolas (b.Venice 7 Aug 1985)
 								name=Nicolas
 								dynasty=1004005
-								religion=catholic culture=german
+								religion=catholic culture=italian
 								father=100024060	# Berchthold Adam v. Thun u.Hohenstein
 								mother=100024061	# Maurizia Vianello
 								1985.08.07={birth=yes}
@@ -8173,54 +8173,6 @@
 					1872.09.28={birth=yes}
 					1964.05.26={death=yes}
 				}
-	100024194={	# 18a) Ernestine (3 Dec 1759-21 Jul 1767)
-		name=Ernestine
-		female=yes
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100023662	# Johann Joseph v. Thun u.Hohenstein
-		mother=100023665	# GFN Maria Anna von Wildenstein
-		1759.12.03={birth=yes}
-		1767.07.21={death=yes}
-	}
-	100024197={	# 21a) Emanuel Cajetan (20 Nov 1763-    )
-		name="Emanuel Cajetan"
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100023662	# Johann Joseph v. Thun u.Hohenstein
-		mother=100023665	# GFN Maria Anna von Wildenstein
-		1763.11.20={birth=yes}
-		1843.01.01={death=yes}	# EST.
-	}
-	100024198={	# 22a) Theresa (25 Jan 1765-    )
-		name=Theresa
-		female=yes
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100023662	# Johann Joseph v. Thun u.Hohenstein
-		mother=100023665	# GFN Maria Anna von Wildenstein
-		1765.01.25={birth=yes}
-		1845.01.01={death=yes}	# EST.
-	}
-	100024199={	# 23a) Willibald Cajetan Joseph (25 Jan 1765-    )
-		name="Willibald Cajetan"
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100023662	# Johann Joseph v. Thun u.Hohenstein
-		mother=100023665	# GFN Maria Anna von Wildenstein
-		1765.01.25={birth=yes}
-		1845.01.01={death=yes}	# EST.
-	}
-	100024200={	# 24a) Agnes Gonzaga (17 May 1766-30 Mar 1786)
-		name="Agnes Gonzaga"
-		female=yes
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100023662	# Johann Joseph v. Thun u.Hohenstein
-		mother=100023665	# GFN Maria Anna von Wildenstein
-		1766.05.17={birth=yes}
-		1786.03.30={death=yes}
-	}
 
 100024201={	# Johann Vigil Karl Gf von Thun und Hohenstein (Trient 4 Nov 1728-Corredo 4 Feb 1788); m.Vienna 9 Feb 1755 Anna Maria Josepha Gfn v.Colonna zu Fels (20 Mar 1741-Trient 15 Jul 1819)
 	name="Johann Vigil"
@@ -8805,34 +8757,6 @@
 		mother=100024202	# GFN Anna Maria von Colonna zu Fels
 		1768.11.28={birth=yes}
 		1823.08.02={death=yes}
-	}
-	100024304={	# 10a) Aloisia (1768-    )
-		name=Aloisia
-		female=yes
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100024201	# Johann Vigil v. Thun u.Hohenstein
-		mother=100024202	# GFN Anna Maria von Colonna zu Fels
-		1768.01.01={birth=yes}
-		1848.01.01={death=yes}	# EST.
-	}
-	100024305={	# 11a) Vigil (6 Dec 1769-    )
-		name=Vigil
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100024201	# Johann Vigil v. Thun u.Hohenstein
-		mother=100024202	# GFN Anna Maria von Colonna zu Fels
-		1769.12.06={birth=yes}
-		1849.01.01={death=yes}	# EST.
-	}
-	100024306={	# 12a) Vigil (23 Mar 1771-    )
-		name=Vigil
-		dynasty=1004005
-		religion=catholic culture=german
-		father=100024201	# Johann Vigil v. Thun u.Hohenstein
-		mother=100024202	# GFN Anna Maria von Colonna zu Fels
-		1771.03.23={birth=yes}
-		1851.01.01={death=yes}	# EST.
 	}
 	100024307={	# 13a) Arbogast Amadeus Pius (Castel Brughier 1773-Castel Brughier 8 Nov 1851); m.1st Brughier 1828 Theresia Frn Aschauer von und zu Achenrain und Lichtenthurn (Wilten 14 Jan 1797-Brughier 13 Dec 1836); m.2nd Brughier 27 Sep 1837 Theresia Meyer (Trieste 30 Dec 1810-Stadelhof 2 Apr 1886)
 		name="Arbogast Amadeus"
@@ -11774,6 +11698,7 @@
 
 
 #Liechtenstein|1004002|100022700-100023199
+
 100102055={ # Hartmann
 	name=Hartmann
 	dynasty=1004002
@@ -11781,95 +11706,113 @@
 	1544.01.01={birth=yes}
 	1585.01.01={death=yes}
 }
-100102056={ # Karl
-	name=Karl
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102055	# Hartmann v. Liechtenstein
-	1569.07.30={birth=yes}
-	1627.02.12={death=yes}
-}
-100102057={
-	name="Karl Eusebius"
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102056	# Karl v. Liechtenstein
-	1611.04.11={birth=yes}
-	1684.04.05={death=yes}
-}
-100102058={
-	name="Hans-Adam"
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102057	# Karl Eusebius v. Liechtenstein
-	1662.08.16={birth=yes}
-	1712.06.16={death=yes}
-}
-100102059={ # Gundakar
-	name=Gundakar
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102055	# Hartmann v. Liechtenstein
-	1580.01.30={birth=yes}
-	1658.08.05={death=yes}
-}
-100102060={ # Hartmann
-	name=Hartmann
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102059	# Gundakar v. Liechtenstein
-	1613.02.09={birth=yes}
-	1686.02.11={death=yes}
-}
-	100102061={
-		name="Anton Florian"
+	100102056={ # Karl
+		name=Karl
 		dynasty=1004002
 		religion=catholic culture=german
-		father=100102060	# Hartmann v. Liechtenstein
-		1656.05.28={birth=yes}
-		1721.10.11={death=yes}
+		father=100102055	# Hartmann v. Liechtenstein
+		1569.07.30={birth=yes}
+		1627.02.12={death=yes}
 	}
-		100102062={
-			name="Josef Johann Adam"
+		100102057={
+			name="Karl Eusebius"
 			dynasty=1004002
 			religion=catholic culture=german
-			father=100102061	# Anton Florian v. Liechtenstein
-			1690.05.25={birth=yes}
-			1732.12.17={death=yes}
+			father=100102056	# Karl v. Liechtenstein
+			1611.04.11={birth=yes}
+			1684.04.05={death=yes}
 		}
-			100085516={ # Pss Maria Theresia von und zu Liechtenstein (1721-1753)
-				name="Maria Theresia von und zu Liechtenstein"
-				female=yes
-				dynasty=1004002
-				religion=catholic culture=bohemian
-				father=100102062	# Josef Johann Adam v. Liechtenstein
-				1721.12.28={birth=yes}
-				1753.01.19={death=yes}
-			}
-			100102063={
-				name="Johann Nepomuk Karl"
+			100102058={
+				name="Hans-Adam"
 				dynasty=1004002
 				religion=catholic culture=german
-				father=100102062	# Josef Johann Adam v. Liechtenstein
-				1724.07.06={birth=yes}
-				1748.12.22={death=yes}
+				father=100102057	# Karl Eusebius v. Liechtenstein
+				1662.08.16={birth=yes}
+				1712.06.16={death=yes}
 			}
-	100102064={
-		name="Philip Erasmus"
+				100021413={ # Pss        Maria Dominika            von und zu Liechtenstein                 (1698-1724)     3
+					name="Maria Dominika"
+					female=yes
+					dynasty=1004002
+					religion=catholic culture=german
+					father=100102058	# Hans-Adam v. Liechtenstein
+					1698.08.05={birth=yes}
+					1724.06.02={death=yes}
+				}
+	100102059={ # Gundakar
+		name=Gundakar
 		dynasty=1004002
 		religion=catholic culture=german
-		father=100102060	# Hartmann v. Liechtenstein
-		1640.08.09={birth=yes}
-		1710.02.10={death=yes}
+		father=100102055	# Hartmann v. Liechtenstein
+		1580.01.30={birth=yes}
+		1658.08.05={death=yes}
 	}
-100102065={ # Josef Wenzel Lorenz (9 August 1696 – 10 February 1772)
-	name="Joseph Wenzel"
-	dynasty=1004002
-	religion=catholic culture=german
-	father=100102064	# Philip Erasmus v. Liechtenstein
-	1696.08.09={birth=yes}
-	1772.02.10={death=yes}
-}
+		100102060={# Hartmann
+			name=Hartmann
+			dynasty=1004002
+			religion=catholic culture=german
+			father=100102059	# Gundakar v. Liechtenstein
+			1613.02.09={birth=yes}
+			1686.02.11={death=yes}
+		}
+			100102061={# Anton Florian
+				name="Anton Florian"
+				dynasty=1004002
+				religion=catholic culture=german
+				father=100102060	# Hartmann v. Liechtenstein
+				1656.05.28={birth=yes}
+				1721.10.11={death=yes}
+			}
+				100102062={# Josef Johann Adam
+					name="Josef Johann Adam"
+					dynasty=1004002
+					religion=catholic culture=german
+					father=100102061	# Anton Florian v. Liechtenstein
+					1690.05.25={birth=yes}
+					1732.12.17={death=yes}
+				}
+					100085516={# Pss Maria Theresia von und zu Liechtenstein (1721-1753)
+						name="Maria Theresia von und zu Liechtenstein"
+						female=yes
+						dynasty=1004002
+						religion=catholic culture=bohemian
+						father=100102062	# Josef Johann Adam v. Liechtenstein
+						1721.12.28={birth=yes}
+						1753.01.19={death=yes}
+					}
+					100102063={# Johann Nepomuk Karl
+						name="Johann Nepomuk Karl"
+						dynasty=1004002
+						religion=catholic culture=german
+						father=100102062	# Josef Johann Adam v. Liechtenstein
+						1724.07.06={birth=yes}
+						1748.12.22={death=yes}
+					}
+			100023588={ # Pss        Maria Maximiliana         von Liechtenstein                        (1659-1686)     1
+				name="Maria Maximiliana von Liechtenstein"
+				female=yes
+				dynasty=1004002
+				religion=catholic culture=german
+				father=100102060	# Hartmann v. Liechtenstein
+				1659.08.14={birth=yes}
+				1687.06.17={death=yes}
+			}
+			100102064={# Philip Erasmus
+				name="Philip Erasmus"
+				dynasty=1004002
+				religion=catholic culture=german
+				father=100102060	# Hartmann v. Liechtenstein
+				1664.09.11={birth=yes}
+				1704.01.15={death=yes}
+			}
+				100102065={# Josef Wenzel Lorenz (9 August 1696 – 10 February 1772)
+					name="Joseph Wenzel"
+					dynasty=1004002
+					religion=catholic culture=german
+					father=100102064	# Philip Erasmus v. Liechtenstein
+					1696.08.09={birth=yes}
+					1772.02.10={death=yes}
+				}
 100022700={# Emanuel Joseph Johann Pr von und zu Liechtenstein (Vienna 2 Feb 1700-Vienna 15 Jan 1771); m.Vienna 14 Jan 1726 Maria Antonia Gfn von Dietrichstein-Weichselstädt (Graz 10 Sep 1706-Vienna 7 Jan 1777)
 	name=Emanuel
 	dynasty=1004002
@@ -15438,11 +15381,3 @@
 	1493.08.19={death=yes}
 }
 #Habsburg|51|100022000-100022499
-
-100101897={	# Baroness Francesca Thyssen-Bornemisza
-	name=Francesca
-	dynasty=10271
-	religion=catholic culture=swiss
-	female=yes
-	1958.06.07={birth=yes}
-}
