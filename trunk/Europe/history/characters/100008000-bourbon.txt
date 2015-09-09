@@ -4,33 +4,6 @@
 ##	France					100146				100008500-xxx
 #########################################################################
 
-100021107={ # King       François                  de France                                (1494-1547)
-	name="François of France"
-	dynasty=0
-	religion=catholic culture=german
-	1494.01.01={birth=yes}
-	1530.01.01={add_spouse=100021105}	# Eleonore v. Habsburg
-	1547.07.31={death=yes}
-}
-100021113={ #            Elisabeth                 de France                                (1545-1568)
-	name="Elisabeth of France"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1545.04.02={birth=yes}
-	1568.10.03={death=yes}
-}
-100021175={ # King       Charles                   de France                                (1550-1574)
-	name="Charles of France"
-	dynasty=0
-	religion=catholic culture=frankish
-	father=100100766	# Henri de Valois
-	1550.06.27={birth=yes}
-	1570.11.26={add_spouse=100021174}	# Elisabeth v. Habsburg
-	1574.05.30={death=yes}
-}
-
-
 
 ##	France					100146				100008500-xxx		RULING BRANCH
 100008777={# 2g) Jaime Luitpold Isabelino Enrique Alejandro (San Ildefonso 23 Jun 1908-St.Gallen 20 Mar 1975);
@@ -130,15 +103,79 @@
 		
 		
 ##	France					100146				100008500-xxx
-100100768={ # Henri
-	name=Henri
+100100764={ # Charles
+	name=Charles
 	dynasty=10066
 	religion=catholic culture=frankish
-	father=100100766	# Henri de Valois
-	1551.09.19={birth=yes}
-	1575.02.15={add_spouse=100067661}	# Louise de Lorraine
-	1589.08.02={death=yes}
+	father=100100763	# Jean de Valois
+	1459.01.01={birth=yes}
+	1496.01.01={death=yes}
 }
+	100100765={ # King       François                  de France                                (1494-1547)
+		name=François
+		dynasty=10066
+		religion=catholic culture=frankish
+		father=100100764	# Charles de Valois
+		1494.09.12={birth=yes}
+		1530.01.01={add_spouse=100021105}	# Eleonore v. Habsburg
+		1547.03.31={death=yes}
+	}
+		100100766={ # Henri
+			name=Henri
+			dynasty=10066
+			religion=catholic culture=frankish
+			father=100100765	# François de Valois
+			mother=100021105	# Eleonore v. Habsburg
+			1519.03.31={birth=yes}
+			1559.07.10={death=yes}
+		}
+			100021113={ #            Elisabeth                 de France                                (1545-1568)
+				name=Élisabeth
+				female=yes
+				dynasty=10066
+				religion=catholic culture=german
+				father=100100766	# Henri de Valois
+				1545.04.02={birth=yes}
+				1568.10.03={death=yes}
+			}
+			100067604={ # Pss        Claude                    de France                                (1547-1575)     6
+				name=Claude
+				female=yes
+				dynasty=10066
+				religion=catholic culture=frankish
+				father=100100766	# Henri de Valois
+				1547.11.12={birth=yes}
+				1575.02.20={death=yes}
+			}
+			100021175={ # King       Charles                   de Valois                                (1550-1574)
+				name=Charles
+				dynasty=10066
+				religion=catholic culture=frankish
+				father=100100766	# Henri de Valois
+				1550.06.27={birth=yes}
+				1570.11.26={add_spouse=100021174}	# Elisabeth v. Habsburg
+				1574.05.30={death=yes}
+			}
+			100100768={ # Henri
+				name=Henri
+				dynasty=10066
+				religion=catholic culture=frankish
+				father=100100766	# Henri de Valois
+				1551.09.19={birth=yes}
+				1575.02.15={add_spouse=100067661}	# Louise de Lorraine
+				1589.08.02={death=yes}
+			}
+		100100374={ # Madeleine
+			name=Madeleine
+			dynasty=10066
+			female=yes
+			religion=catholic culture=frankish
+			father=100100765	# François de Valois
+			mother=100021105	# Eleonore v. Habsburg
+			1520.08.10={birth=yes}
+			1537.07.07={death=yes}
+		}
+
 100025412={ # Antoine
 	name=Antoine
 	dynasty=100146
@@ -164,6 +201,7 @@
 			1602.11.22={birth=yes}
 			1644.10.06={death=yes}
 		}
+
 100008500={# LOUIS XIII of France (Fontainebleau 27 Sep 1601-14 May 1643);m.at Bordeaux 24 Nov 1615 Anna of Spain (Valladolid 22 Sep 1601-Louvre 20 Jan 1666)
 	name=Louis
 	dynasty=100146
@@ -474,15 +512,7 @@
 						1737.07.15={birth=yes}
 						1787.12.23={death=yes}
 					}
-			100008564={# 2c) Philippe Duc d'Anjou, who became King Felipe V of Spain [see Spain]
-				name="Philippe d'Anjou"
-				dynasty=100146
-				religion=catholic culture=frankish
-				father=100008505	# Louis de Bourbon
-				mother=100008506	# Marie Anne von Bayern
-				1686.01.01={birth=yes}
-				1766.01.01={death=yes}	# EST.
-}
+			# 2c) Philippe Duc d'Anjou, who became King Felipe V of Spain [see Spain]
 			100008565={# 3c) Charles Duc de Berry, d'Alençon et d'Angoulême, Cte de Ponthieu (Versailles 31 Aug 1686-Marly 4 May 1714); m.Versailles 6 Jul 1710 Louise Élisabeth d'Orléans (1695-1719)
 				name=Charles
 				dynasty=100146
@@ -551,15 +581,6 @@
 				1707.12.04={birth=yes}
 				1743.08.19={death=yes}
 			}
-		100008584={# 15b) Louis César (Le Genitoy 20 Jun 1672-Paris 10 Jan 1683)
-			name="Louis César"
-			dynasty=100146
-			religion=catholic culture=frankish
-			father=100008502	# Louis de Bourbon
-			mother=100021137	# Maria Teresa v. Habsburg
-			1672.06.20={birth=yes}
-			1683.01.10={death=yes}
-		}
 		100008585={# 16b) Louise Françoise (Tournai 1 Jun 1673-Paris 16 Jun 1743); m.Versailles 24 Jul 1685 Pr Louis III de Condé (d.1710)
 			name="Louise Françoise"
 			female=yes
@@ -619,26 +640,6 @@
 					1753.03.13={birth=yes}
 					1821.06.23={death=yes}
 				}
-			100008597={# 3c) [by Madeleine Aumont] Philippe Auguste de Sainte-Foy, dit le Chevalier d'Arcq (Paris 20 Jul 1721-Paris 5 Feb 1795); m.Paris 11 Feb 1772 Marie Richard (d.1801)
-				name=Philippe
-				dynasty=100146
-				religion=catholic culture=frankish
-				father=100008589	# Louis Alexandre de Bourbon
-				mother=100065597	# Marie Victoire de Noailles
-				1721.07.20={birth=yes}
-				1772.02.11={add_spouse=100008598}	# Marie Richard
-				1795.02.05={death=yes}
-			}
-				100008599={# 1d) N Richard de Sainte-Foy [a dau] (14 Sep 1767-23 Jan 1795)
-					name=N
-					dynasty=100146
-					religion=catholic culture=frankish
-					father=100008597	# Philippe de Bourbon
-					mother=100008598	# Marie Richard
-					1767.09.14={birth=yes}
-					1795.01.23={death=yes}
-				}
-		### d'Orleans
 ##	France					100146				100008500-xxx
 
 
