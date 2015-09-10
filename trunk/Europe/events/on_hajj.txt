@@ -1994,14 +1994,23 @@ character_event = {
 	only_men = yes
 	min_age = 30
 	capable_only = yes
+	only_rulers = yes
 	prisoner = no
 	religion_group = muslim
 	
 	trigger = {
 		has_character_flag = promise_jihad
 		war = yes
-		any_war = { religion_group = christian }
-	
+		any_war = { 
+			any_attacker = {
+				is_primary_war_attacker = yes
+				character = ROOT
+			}
+			any_defender = {
+				is_primary_war_defender = yes
+				religion_group = christian 
+			}
+		}
 	}
 	
 	hide_window = yes

@@ -22,6 +22,7 @@ character_event = {
 	
 	trigger = {
 		NOT = { has_dlc = "Way of Life" }
+		NOT = { trait = blinded }
 		in_command = no
 		NOT = {
 			lifestyle_traits = 1
@@ -1367,7 +1368,7 @@ character_event = {
 		NOT = { has_dlc = "Way of Life" }
 		in_command = no
 		NOT = {
-			lifestyle_traits = 1
+			trait = falconer
 		}
 		has_character_modifier = aspiring_falconer
 	}
@@ -1412,7 +1413,7 @@ character_event = {
 
 
 ########################################################################################
-#Female: Poet/Falconer - Start
+#Female: Poet/Falconer - Start #Opened up to male characters in 2.4
 ########################################################################################
 character_event = {
 	id = 5050
@@ -1420,7 +1421,7 @@ character_event = {
 	picture = "GFX_evt_falconing"
 	
 	min_age = 25
-	only_women = yes
+	#only_women = yes
 	capable_only = yes
 	prisoner = no
 
@@ -1428,12 +1429,13 @@ character_event = {
 		NOT = { religion = jain }
 		in_command = no
 		NOT = {
-			lifestyle_traits = 1
-		}
-		NOT = {
 			has_character_flag = LE_ST
 		}
 		NOT = { trait = in_hiding }
+		NOR = {
+			trait = falconer
+			trait = poet
+		}
 	}
 	
 	immediate = {
@@ -1522,7 +1524,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB5051" #Try something else
 		add_character_modifier = {
-			name = aspiring_poet
+			name = aspiring_falconer
 			duration = 90
 		}
 	}
@@ -1591,16 +1593,12 @@ character_event = {
 	picture = "GFX_evt_library"
 	
 	min_age = 25
-	only_women = yes
+	#only_women = yes
 	capable_only = yes
 	prisoner = no
 
 	trigger = {
-		NOT = { has_dlc = "Way of Life" }
 		in_command = no
-		NOT = {
-			lifestyle_traits = 1
-		}
 		has_character_modifier = aspiring_poet
 	}
 	
@@ -1650,16 +1648,12 @@ character_event = {
 	picture = "GFX_evt_falconing"
 	
 	min_age = 25
-	only_women = yes
+	#only_women = yes
 	capable_only = yes
 	prisoner = no	
 	
 	trigger = {
-		NOT = { has_dlc = "Way of Life" }
 		in_command = no
-		NOT = {
-			lifestyle_traits = 1
-		}
 		has_character_modifier = aspiring_falconer
 	}
 	
@@ -2076,10 +2070,10 @@ character_event = {
 	min_age = 25
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		NOT = { has_dlc = "Way of Life" }
-		religion_group = muslim
 		NOT = {
 			lifestyle_traits = 1
 		}
@@ -2143,6 +2137,7 @@ character_event = {
 	min_age = 25
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		NOT = { has_dlc = "Way of Life" }
@@ -2233,6 +2228,7 @@ character_event = {
 	min_age = 25
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		NOT = { has_dlc = "Way of Life" }
@@ -2366,11 +2362,10 @@ character_event = {
 	min_age = 25
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
-		NOT = { has_dlc = "Way of Life" }
 		in_command = no
-		religion_group = muslim
 		NOT = {
 			has_character_modifier = aspiring_faqih
 		}
@@ -2381,7 +2376,7 @@ character_event = {
 			has_character_flag = aspiring_faqih_flag
 		}
 		NOT = {
-			lifestyle_traits = 1
+			trait = scholar
 		}
 		NOT = {
 			trait = hafiz
@@ -2525,18 +2520,17 @@ character_event = {
 	min_age = 25
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
-		NOT = { has_dlc = "Way of Life" }
 		in_command = no
-		religion_group = muslim
 		has_character_modifier = aspiring_faqih
 		had_character_flag = {
 			flag = LE_ST
 			days = 180
 		}
 		NOT = {
-			lifestyle_traits = 1
+			trait = scholar
 		}
 	}
 	
@@ -2593,18 +2587,17 @@ character_event = {
 	min_age = 25
 	capable_only = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
-		NOT = { has_dlc = "Way of Life" }
 		in_command = no
-		religion_group = muslim
 		has_character_modifier = aspiring_faqih
 		had_character_flag = {
 			flag = LE_ST
 			days = 365
 		}
 		NOT = {
-			lifestyle_traits = 1
+			trait = scholar
 		}
 	}
 	

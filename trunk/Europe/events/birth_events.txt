@@ -262,7 +262,7 @@ character_event = {
 		liege = {
 			add_character_modifier = {
 				name = lustful_affair_timer
-				duration = 365
+				duration = 1460
 				hidden = yes
 			}
 			character_event = { id = 451 days = 7 tooltip = EVTTOOLTIP451 }
@@ -597,6 +597,7 @@ character_event = {
 		
 		has_lover = no
 		is_pregnant = no
+		is_ill = no
 		
 		liege = {
 			OR = {
@@ -616,14 +617,24 @@ character_event = {
 			is_married = no
 			trait = lustful
 			trait = deceitful
+			trait = arbitrary
 			spouse = {
-				NOT = { reverse_opinion = { who = ROOT value = 50 } }
+				NOT = { reverse_opinion = { who = ROOT value = 0 } }
+			}
+		}
+		OR = {
+			is_consort = no
+			trait = lustful
+			trait = deceitful
+			trait = arbitrary
+			consort = {
+				NOT = { reverse_opinion = { who = ROOT value = 0 } }
 			}
 		}
 	}
 
 	mean_time_to_happen = {
-		months = 2000
+		months = 4000
 		
 		modifier = {
 			factor = 0.5
@@ -636,7 +647,7 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			NOT = { age = 30 }
-			spouse = { age = 40 }
+			spouse = { age = 50 }
 		}
 		modifier = {
 			factor = 0.33
@@ -693,36 +704,19 @@ character_event = {
 					is_pregnant = no
 					prisoner = no
 					is_marriage_adult = yes
+					is_ill = no
 					
 					NOT = { is_close_relative = ROOT }
 					OR = {
 						AND = {
 							NOT = { trait = homosexual }
 							ROOT = { NOT = { trait = homosexual } }
-							OR = {
-								AND = {
-									is_female = no
-									ROOT = { is_female = yes }
-								}
-								AND = {
-									is_female = yes
-									ROOT = { is_female = no }
-								}
-							}
+							same_sex = no
 						}
 						AND = {
 							trait = homosexual
 							ROOT = { trait = homosexual }
-							OR = {
-								AND = {
-									is_female = no
-									ROOT = { is_female = no }
-								}
-								AND = {
-									is_female = yes
-									ROOT = { is_female = yes }
-								}
-							}
+							same_sex = yes
 						}
 					}
 					
@@ -739,6 +733,7 @@ character_event = {
 					NOT = { trait = incapable }
 					NOT = { trait = celibate }
 					NOT = { trait = eunuch }
+					NOT = { trait = chaste }
 					
 					OR = {
 						ROOT = {
@@ -770,16 +765,21 @@ character_event = {
 						is_married = no
 						trait = lustful
 						trait = deceitful
+						trait = arbitrary
 						spouse = {
-							NOT = { reverse_opinion = { who = PREV value = 50 } }
+							NOT = { reverse_opinion = { who = PREV value = 0 } }
 						}
 					}
-				}
-				
-				add_character_modifier = {
-					name = lustful_affair_timer
-					duration = 365
-					hidden = yes
+					
+					OR = {
+						is_consort = no
+						trait = lustful
+						trait = deceitful
+						trait = arbitrary
+						consort = {
+							NOT = { reverse_opinion = { who = PREV value = 0 } }
+						}
+					}
 				}
 				
 				character_event = { id = 457 }
@@ -816,11 +816,18 @@ character_event = {
 		
 		add_lover = FROM
 		
+		add_character_modifier = {
+			name = lustful_affair_timer
+			duration = 2190
+			hidden = yes
+		}
+		
 #		log = "457: [From.GetBestName] tumbles [Root.GetBestName]"
 		
 		# Chance of impregnation
 		if = {
 			limit = {
+				same_sex = no
 				fertility = 0.25
 				FROM = { fertility = 0.25 }
 				OR = {
@@ -983,7 +990,7 @@ character_event = {
 			
 			# Wives and Concubines of rulers are watched...
 			modifier = {
-				factor = 30.0
+				factor = 60.0
 				is_female = yes
 				has_polygamy = no
 				NOT = { has_focus = focus_seduction }
@@ -999,7 +1006,7 @@ character_event = {
 			
 			# Harems are especially well guarded...
 			modifier = {
-				factor = 100.0
+				factor = 200.0
 				is_female = yes
 				is_married = yes
 				has_polygamy = yes
@@ -2102,6 +2109,7 @@ character_event = {
 	id = 410
 	desc = EVTDESC410
 	picture = GFX_evt_pregnancy
+	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
@@ -2162,6 +2170,7 @@ character_event = {
 	id = 412
 	desc = EVTDESC412
 	picture = "GFX_evt_pregnancy"
+	border = GFX_event_normal_frame_intrigue
 	
 	is_triggered_only = yes
 	
@@ -2186,6 +2195,7 @@ character_event = {
 character_event = {
 	id = 413
 	picture = GFX_evt_pregnancy
+	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes 
 	
@@ -2216,10 +2226,8 @@ character_event = {
 
 	option = {
 		name = OK
-		if = {
-			father = {
-				character_event = { id = 301 days = 1 } # The father's reaction
-			}
+		father = {
+			character_event = { id = 301 days = 1 } # The father's reaction
 		}
 	}
 }
@@ -2724,16 +2732,22 @@ character_event = {
 				}
 			}
 			modifier = {
-				factor = 1.2
-				age = 20
+				factor = 0.85
+				mother = {
+					age = 20
+				}
 			}
 			modifier = {
-				factor = 1.2
-				age = 25
+				factor = 0.85
+				mother = {
+					age = 25
+				}
 			}
 			modifier = {
-				factor = 1.2
-				age = 30
+				factor = 0.85
+				mother = {
+					age = 30
+				}
 			}
 		}
 	}
