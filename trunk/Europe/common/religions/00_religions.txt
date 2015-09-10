@@ -535,7 +535,6 @@ christian = {
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
 		can_call_crusade = no
 		priests_can_inherit = no
 		
@@ -606,7 +605,6 @@ christian = {
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
 		can_call_crusade = no
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
@@ -665,7 +663,6 @@ christian = {
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
 		can_call_crusade = no
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
@@ -778,7 +775,6 @@ christian = {
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
 		can_call_crusade = no
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
@@ -837,7 +833,6 @@ christian = {
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
 		can_call_crusade = no
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
@@ -901,7 +896,6 @@ christian = {
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
 		can_call_crusade = no
 		can_retire_to_monastery = yes
 		priests_can_inherit = no
@@ -1006,11 +1000,42 @@ christian = {
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
 		can_call_crusade = no
 		priests_can_inherit = no
 		
 		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	messalian = {
+		graphical_culture = westerngfx
+
+		icon = 46
+		heresy_icon = 47
+		
+		color = { 0.6 0.1 0.4 }
+		parent = nestorian
+		
+		crusade_name = CRUSADE
+		scripture_name = THE_ASCETICUS
+		
+		god_names = {
+			GOD_GOD THE_PANTOKRATOR GOD_JESUS LUCIFER
+		}
+		
+		evil_god_names = {
+			THE_DEMIURGE
+		}
+
+		can_retire_to_monastery = yes
+		female_temple_holders = yes
+		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		
+		divine_blood = yes # Sacred close-kin marriage mechanics
+		pc_marriage = yes
+		bs_marriage = yes
 		
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
@@ -1027,6 +1052,7 @@ muslim = {
 	
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 1 # try to convert if ai_zeal is high
+	ai_fabricate_claims = no
 	
 	# Names given only to Muslim characters (base names)
 	male_names = {
@@ -1055,10 +1081,8 @@ muslim = {
 			IBLIS SHAYTAN
 		}
 		
-		can_grant_claim = yes
 		can_call_crusade = yes
 		priests_can_marry = yes
-		can_hold_temples = yes
 		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
 		max_wives = 4
 		matrilineal_marriages = no
@@ -1107,6 +1131,9 @@ muslim = {
 		intermarry = nestorian
 		
 		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
 	}
 	zikri = {
 		graphical_culture = muslimgfx
@@ -1120,7 +1147,6 @@ muslim = {
 		crusade_name = JIHAD
 
 		priests_can_marry = yes
-		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
 		matrilineal_marriages = no
@@ -1169,6 +1195,9 @@ muslim = {
 		intermarry = nestorian
 		
 		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
 	}
 	yazidi = {
 		graphical_culture = muslimgfx
@@ -1178,7 +1207,7 @@ muslim = {
 		
 		color = { 0.2 0.2 0.7 }
 		
-		crusade_name = GREAT_HOLY_WAR
+		crusade_name = JIHAD
 		scripture_name = THE_BOOK_OF_ILLUMINATION
 		priest_title = SHEIKH_PRIEST
 		
@@ -1194,8 +1223,8 @@ muslim = {
 		
 		parent = sunni
 		priests_can_marry = yes
-		can_hold_temples = yes
 		can_excommunicate = yes
+		can_call_crusade = yes
 		max_wives = 4
 		matrilineal_marriages = no
 		
@@ -1243,6 +1272,9 @@ muslim = {
 		intermarry = nestorian
 		
 		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
 	}
 	ibadi = {
 		graphical_culture = muslimgfx
@@ -1265,58 +1297,16 @@ muslim = {
 		}
 
 		color = { 0.3 0.6 0.3 }
-		can_grant_claim = yes
 		can_call_crusade = yes
 		priests_can_marry = yes
-		can_hold_temples = yes
 		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
 		max_wives = 4
 		matrilineal_marriages = no
 		
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		
 		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
 	}
 	kharijite = {
 		graphical_culture = muslimgfx
@@ -1328,58 +1318,16 @@ muslim = {
 
 		color = { 0.4 0.8 0.6 }
 		parent = ibadi
-		can_grant_claim = yes
 		can_call_crusade = yes
 		priests_can_marry = yes
-		can_hold_temples = yes
 		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
 		max_wives = 4
 		matrilineal_marriages = no
 		
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		
 		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
 	}
 	shiite = {
 		graphical_culture = muslimgfx
@@ -1402,58 +1350,16 @@ muslim = {
 			IBLIS SHAYTAN
 		}
 		
-		can_grant_claim = yes
 		can_call_crusade = yes
 		priests_can_marry = yes
-		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
 		matrilineal_marriages = no
 		
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		
 		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
 	}
 	druze = {
 		graphical_culture = muslimgfx
@@ -1467,55 +1373,14 @@ muslim = {
 		color = { 0.0 0.9 0.4 }
 		parent = shiite
 		priests_can_marry = yes
-		can_hold_temples = yes
 		psc_marriage = no
 		max_wives = 4
 		matrilineal_marriages = no
 		
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		
 		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
 	}
 	hurufi = {
 		graphical_culture = muslimgfx
@@ -1529,55 +1394,15 @@ muslim = {
 		crusade_name = JIHAD
 
 		priests_can_marry = yes
-		can_hold_temples = yes
 		psc_marriage = no
+		can_call_crusade = yes
 		max_wives = 4
 		matrilineal_marriages = no
-	
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
 		
 		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
 	}
 }
 
@@ -1589,6 +1414,7 @@ pagan_group = {
 	
 	ai_convert_same_group = 2 # always try to convert
 	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
 	
 	# Names given only to Pagan characters (base names)
 	male_names = {
@@ -1669,6 +1495,7 @@ pagan_group = {
 		allow_rivermovement = yes
 		female_temple_holders = yes
 		allow_viking_invasion = yes
+		seafarer = yes
 		
 		short_reign_opinion_year_mult = 3 # The default is 2
 		
@@ -1679,39 +1506,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-				intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
+		intermarry = norse_pagan
 		
 		allow_in_ruler_designer = no
 	}		
@@ -1752,6 +1547,7 @@ pagan_group = {
 		defensive_attrition = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		allow_viking_invasion = yes
+		seafarer = yes
 		raised_vassal_opinion_loss = no
 		max_consorts = 3
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
@@ -1765,39 +1561,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-				intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
+		intermarry = norse_pagan_reformed
 		
 		dislike_tribal_organization = yes
 	}	
@@ -1845,44 +1609,12 @@ pagan_group = {
 		religious_clothing_head = 6
 		religious_clothing_priest = 4
 		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		
 		allow_in_ruler_designer = no
 	}		
 	
-	tengri_pagan = { #Mongols
+	
+	tengri_pagan = { # This tag is used in code to override Nomad religions for purposes of Coats of Arms, etc
+	
 		graphical_culture = mongolgfx
 
 		icon = 28
@@ -1928,40 +1660,6 @@ pagan_group = {
 		religious_clothing_head = 6
 		religious_clothing_priest = 4
 		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		
 		dislike_tribal_organization = yes
 	}
 	
@@ -2004,6 +1702,8 @@ pagan_group = {
 			knights_defensive = 0.8
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
+			camel_cavalry_DEFENSIVE = 0.8
+			war_elephants_DEFENSIVE = 0.8
 			
 			garrison_size = 0.4
 			
@@ -2018,40 +1718,6 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
 		
 		allow_in_ruler_designer = no
 	}		
@@ -2091,6 +1757,8 @@ pagan_group = {
 			knights_defensive = 0.8
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
+			camel_cavalry_DEFENSIVE = 0.8
+			war_elephants_DEFENSIVE = 0.8
 			
 			garrison_size = 0.4
 			
@@ -2109,40 +1777,6 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
 		
 		dislike_tribal_organization = yes
 	}	
@@ -2186,6 +1820,8 @@ pagan_group = {
 			knights_defensive = 0.8
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
+			camel_cavalry_DEFENSIVE = 0.8
+			war_elephants_DEFENSIVE = 0.8
 			
 			garrison_size = 0.4
 			
@@ -2202,40 +1838,6 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
 		
 		allow_in_ruler_designer = no
 	}	
@@ -2274,6 +1876,8 @@ pagan_group = {
 			knights_defensive = 0.8
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
+			camel_cavalry_DEFENSIVE = 0.8
+			war_elephants_DEFENSIVE = 0.8
 			
 			garrison_size = 0.4
 			
@@ -2295,40 +1899,6 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		
 		dislike_tribal_organization = yes
 	}
 	
@@ -2338,6 +1908,7 @@ pagan_group = {
 		secondary_event_pictures = aztec_pagan
 		
 		icon = 17
+		heresy_icon = 18
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -2371,46 +1942,13 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		
 		allow_in_ruler_designer = no
 	}	
 	
 	aztec = {
 		graphical_culture = mesoamericangfx
 		icon = 15
+		heresy_icon = 16
 		color = { 0.8 0.2 0.2 }
 		
 		high_god_name = GOD_HUITZILOPOCHTLI
@@ -2443,40 +1981,6 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
 		
 		dislike_tribal_organization = yes
 	}
@@ -2520,6 +2024,8 @@ pagan_group = {
 			knights_defensive = 0.8
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
+			camel_cavalry_DEFENSIVE = 0.8
+			war_elephants_DEFENSIVE = 0.8
 			
 			garrison_size = 0.4
 			
@@ -2534,40 +2040,6 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
 		
 		allow_in_ruler_designer = no
 	}		
@@ -2607,6 +2079,8 @@ pagan_group = {
 			knights_defensive = 0.8
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
+			camel_cavalry_DEFENSIVE = 0.8
+			war_elephants_DEFENSIVE = 0.8
 			
 			garrison_size = 0.4
 			
@@ -2627,40 +2101,6 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
 		
 		dislike_tribal_organization = yes
 	}
@@ -2705,6 +2145,8 @@ pagan_group = {
 			knights_defensive = 0.8
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
+			camel_cavalry_defensive = 0.8
+			war_elephants_defensive = 0.8
 			
 			garrison_size = 0.4
 			
@@ -2721,40 +2163,6 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
 		
 		allow_in_ruler_designer = no
 	}
@@ -2793,6 +2201,8 @@ pagan_group = {
 			knights_defensive = 0.8
 			archers_defensive = 0.8
 			horse_archers_defensive = 0.8
+			camel_cavalry_DEFENSIVE = 0.8
+			war_elephants_DEFENSIVE = 0.8
 			
 			garrison_size = 0.4
 			
@@ -2813,40 +2223,6 @@ pagan_group = {
 		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
-		
-		intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
 		
 		dislike_tribal_organization = yes
 	}
@@ -2890,39 +2266,8 @@ pagan_group = {
 		religious_clothing_head = 6
 		religious_clothing_priest = 4
 
-				intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
+		intermarry = indian_group
+		intermarry = zoroastrian_group
 		
 		allow_in_ruler_designer = no
 	}
@@ -2965,39 +2310,8 @@ pagan_group = {
 		religious_clothing_head = 6
 		religious_clothing_priest = 4
 
-				intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
+		intermarry = indian_group
+		intermarry = zoroastrian_group
 		
 		dislike_tribal_organization = yes
 	}
@@ -3028,42 +2342,10 @@ pagan_group = {
 		female_temple_holders = yes
 		max_consorts = 3
 		
-				intermarry = zoroastrian
-		intermarry = mazdaki
-		intermarry = manichean
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
+		
+		allow_in_ruler_designer = no
 	}
 }
 
@@ -3108,11 +2390,14 @@ zoroastrian_group = {
 		max_consorts = 3 # Can take concubines
 		
 		divine_blood = yes # Sacred Xwedodah close-kin marriage mechanics
-		pc_marriage = yes
-		bs_marriage = yes
+		pc_marriage = yes # Parent/child marriage allowed
+		bs_marriage = yes # Brother/sister marriage allowed
 		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
 	}
 	
 	mazdaki = {
@@ -3140,8 +2425,13 @@ zoroastrian_group = {
 		can_call_crusade = yes
 		can_grant_invasion_cb = invasion
 		
+		max_consorts = 3 # Can take concubines
+		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
 	}
 	
 	manichean = {
@@ -3167,8 +2457,13 @@ zoroastrian_group = {
 		can_call_crusade = yes
 		can_grant_invasion_cb = invasion
 		
+		max_consorts = 3 # Can take concubines
+		
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
+		
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
 	}
 }
 
@@ -3215,51 +2510,6 @@ jewish_group = {
 		religious_clothing_head = 7
 		religious_clothing_priest = 7
 		
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		
 		expel_modifier = expelled_jewish
 	}
 	samaritan = {
@@ -3282,51 +2532,6 @@ jewish_group = {
 		
 		religious_clothing_head = 7
 		religious_clothing_priest = 7
-		
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = zun_pagan
-		intermarry = hellenic_pagan
 		
 		expel_modifier = expelled_jewish
 	}
@@ -3351,57 +2556,12 @@ jewish_group = {
 		religious_clothing_head = 7
 		religious_clothing_priest = 7
 		
-		intermarry = hindu
-		intermarry = buddhist
-		intermarry = jain
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
-		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		
 		expel_modifier = expelled_jewish
 	}
 }
 
 indian_group = {
-	# has_coa_on_barony_only = no
+	has_coa_on_barony_only = yes
 	graphical_culture = indiangfx
 	playable = yes
 	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
@@ -3456,50 +2616,9 @@ indian_group = {
 		
 		intermarry = jain
 		intermarry = buddhist
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
 		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
+		intermarry = zun_pagan_reformed
+		
 	}
 	buddhist = {
 		graphical_culture = buddhistgfx
@@ -3542,50 +2661,8 @@ indian_group = {
 		
 		intermarry = jain
 		intermarry = hindu
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
 		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
+		intermarry = zun_pagan_reformed
 	}
 	jain = {
 		graphical_culture = jaingfx
@@ -3625,49 +2702,7 @@ indian_group = {
 		
 		intermarry = buddhist
 		intermarry = hindu
-		intermarry = anglican
-		intermarry = lutheran 
-		intermarry = calvinism
-		intermarry = catholic
-		intermarry = cathar
-		intermarry = fraticelli
-		intermarry = waldensian
-		intermarry = lollard
-		intermarry = orthodox
-		intermarry = miaphysite
-		intermarry = monophysite
-		intermarry = bogomilist
-		intermarry = monothelite
-		intermarry = iconoclast
-		intermarry = paulician
-		intermarry = nestorian
-		intermarry = sunni
-		intermarry = zikri
-		intermarry = yazidi
-		intermarry = ibadi
-		intermarry = kharijite
-		intermarry = shiite
-		intermarry = druze
-		intermarry = hurufi
-		intermarry = norse_pagan_reformed
-		intermarry = norse_pagan
-		intermarry = tengri_pagan_reformed
-		intermarry = tengri_pagan
-		intermarry = baltic_pagan_reformed
-		intermarry = baltic_pagan
-		intermarry = finnish_pagan_reformed
-		intermarry = finnish_pagan 
-		intermarry = aztec_reformed
-		intermarry = aztec
-		intermarry = slavic_pagan_reformed
-		intermarry = slavic_pagan
-		intermarry = west_african_pagan_reformed
-		intermarry = west_african_pagan
-		intermarry = zun_pagan_reformed
 		intermarry = zun_pagan
-		intermarry = hellenic_pagan
-		intermarry = jewish
-		intermarry = samaritan
-		intermarry = karaite
+		intermarry = zun_pagan_reformed
 	}
 }
