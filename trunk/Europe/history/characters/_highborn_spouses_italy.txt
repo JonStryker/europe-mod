@@ -352,7 +352,7 @@
 	name="Cosimo de' Medici"
 	dynasty=10223
 	religion=catholic culture=italian
-	father=100101565	# Ferdinando de' Medici
+	father=100101565	# DUKE Ferdinando de' Medici
 	1590.05.12={birth=yes}
 	1608.10.19={add_spouse=100021328}	# Maria Magdalena v. Habsburg
 	1621.02.28={death=yes}
@@ -1252,22 +1252,6 @@
 	1903.08.09={birth=yes}
 	1932.12.31={add_spouse=100070766}	# Sveva Vittoria Colonna
 	1967.05.03={death=yes}
-}
-100071610={ #            Maria-Anna                Filiasi                                  (1803-1851)     2
-	name="Maria-Anna Filiasi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1803.01.01={birth=yes}
-	1851.04.21={death=yes}
-}
-100071054={ #            Giulia                    Filiasi                                  (1879-1937)     6
-	name="Giulia Filiasi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1879.08.30={birth=yes}
-	1937.06.25={death=yes}
 }
 100070996={ #            Caterina                  Franchi de'Cavalieri                     (1901-1987)     0
 	name="Caterina Franchi de'Cavalieri"
@@ -2965,13 +2949,6 @@
 	1853.08.27={birth=yes}
 	1938.07.06={death=yes}
 }
-100071098={ # Jkvrw      Sophie                    du Parc Locmaria                         (1972-    )     1
-	name="Sophie du Parc Locmaria"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1972.01.01={birth=yes}
-}
 100070943={ #            Jules                     Achard de Bonvouloir                     (1880-1955)     0
 	name="Jules Achard de Bonvouloir"
 	dynasty=0
@@ -3688,16 +3665,17 @@
 	name="Grace Dyer"
 	female=yes
 	dynasty=0
-	religion=catholic culture=italian
+	religion=catholic culture=english
 	1922.11.01={birth=yes}
 	1981.03.01={death=yes}
 }
 100072088={ #            John                      Eden Grace                               (1920-1996)     0
 	name="John Eden Grace"
-	female=yes
 	dynasty=0
-	religion=catholic culture=italian
+	religion=catholic culture=english
 	1920.01.01={birth=yes}
+	1945.01.01={add_spouse=100072087}	# Camilla Rospigliosi
+	1959.01.01={remove_spouse=100072087}
 	1996.01.01={death=yes}  # EST.
 }
 100071622={ #            Michael                   Elek                                     (1969-    )     0
@@ -4798,14 +4776,6 @@
 	1954.01.01={birth=yes}
 	1979.11.20={add_spouse=100072232}	# Isabella del Balzo
 }
-100071087={ #            Luise                     Raguet                                   (1841-1922)  2  0
-	name="Luise Raguet"
-	dynasty=0
-	religion=catholic culture=italian
-	1841.05.18={birth=yes}
-	1909.09.08={add_spouse=100071084}	# Luigi Maria Colonna
-	1922.12.12={death=yes}
-}
 100070950={ #            Clementina                Raimondi                                 (1803-1884)     9
 	name="Clementina Raimondi"
 	female=yes
@@ -5892,3 +5862,20 @@
 	1971.01.01={death=yes}  # EST.
 }
 
+100067643={ # Marchese   Francesco                 Grimaldi                                 (1627-1693)     0
+	name="Francesco Grimaldi"
+	dynasty=0
+	religion=catholic culture=italian
+	1627.01.01={birth=yes}
+	1652.01.01={add_spouse=100067640}	# Henriette de Lorraine
+	1693.08.29={death=yes}  # Sampigny
+}
+100067642={ # Marchese   Carlo                     Guasco                                   (1618-1682)     0
+	name="Carlo Guasco"
+	dynasty=0
+	religion=catholic culture=italian
+	1618.01.01={birth=yes}
+	1643.10.11={add_spouse=100067640}	# Henriette de Lorraine
+	1652.01.01={remove_spouse=100067640}
+	1682.01.01={death=yes}  # EST.
+}
