@@ -130,12 +130,12 @@ e_arabia = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 832 province_id = 833 province_id = 834 province_id = 835 province_id = 836 } }
+					any_demesne_province = { OR = { province_id = 719 province_id = 833 province_id = 834 province_id = 835 province_id = 836 } }
 				}
 			}
-			capital = 832 # c_mecca
+			capital = 719 # c_mecca
 			
-			c_mecca = { # 832
+			c_mecca = { # 719
 				color={ 48 144 160 }
 				color2={ 255 255 255 }
 				
@@ -625,7 +625,7 @@ e_austria = {
 				}
 			}
 		}
-		d_kaernten = {
+		d_carinthia = {
 			color={ 153 118 37 }
 			color2={ 255 255 255 }
 			
@@ -763,7 +763,7 @@ e_austria = {
 				}
 			}
 		}
-		d_tirol = {
+		d_tyrol = {
 			color={ 71 202 219 }
 			color2={ 255 255 255 }
 			
@@ -2703,7 +2703,7 @@ e_espana = {
 		capital = 920 # c_sevilla
 		culture = andalucian_spain
 		
-		d_andalucia_occidental = {
+		d_sevilla = {
 			color={ 138 6 37 }
 			color2={ 255 255 255 }
 			
@@ -2787,7 +2787,7 @@ e_espana = {
 				}
 			}
 		}
-		d_andalucia_oriental = {
+		d_granada = {
 			color={ 150 186 59 }
 			color2={ 255 255 255 }
 			
@@ -5257,14 +5257,14 @@ e_germany = {
 			}
 		}
 	}
-	k_bayern = {
+	k_bavaria = {
 		color={ 206 227 48 }
 		color2={ 255 255 255 }
 		
 		capital = 251 # c_muenchen
 		culture = german
 		
-		d_bayern = {
+		d_bavaria = {
 			color={ 186 247 38 }
 			color2={ 255 255 255 }
 			
@@ -6806,7 +6806,7 @@ e_greece = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 329 province_id = 330 province_id = 331 province_id = 332 province_id = 333 } }
+					any_demesne_province = { OR = { province_id = 329 province_id = 330 province_id = 331 province_id = 332 province_id = 367 } }
 				}
 			}
 			capital = 329 # c_athina
@@ -6841,7 +6841,7 @@ e_greece = {
 				b_arachova = {
 				}
 			}
-			c_chalkida = { # 333
+			c_chalkida = { # 367
 				color={ 160 16 160 }
 				color2={ 255 255 255 }
 				
@@ -9688,12 +9688,12 @@ e_iran = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 497 province_id = 498 province_id = 499 province_id = 500 province_id = 501 } }
+					any_demesne_province = { OR = { province_id = 498 province_id = 499 province_id = 500 province_id = 501 province_id = 991 } }
 				}
 			}
-			capital = 497 # c_tabriz
+			capital = 991 # c_tabriz
 			
-			c_tabriz = { # 497
+			c_tabriz = { # 991
 				color={ 96 80 160 }
 				color2={ 255 255 255 }
 				
@@ -10063,14 +10063,14 @@ e_italia = {
 	color={ 136 232 140 }
 	color2={ 255 255 20 }
 	
-	capital = 367 # c_roma
+	capital = 333 # c_roma
 	culture = italian
 	
 	k_italia = {
 		color={ 146 222 145 }
 		color2={ 255 255 255 }
 		
-		capital = 367 # c_roma
+		capital = 333 # c_roma
 		culture = italian
 		
 		d_lazio = {
@@ -10080,12 +10080,12 @@ e_italia = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 367 province_id = 368 province_id = 369 province_id = 370 } }
+					any_demesne_province = { OR = { province_id = 333 province_id = 368 province_id = 369 province_id = 370 } }
 				}
 			}
-			capital = 367 # c_roma
+			capital = 333 # c_roma
 			
-			c_roma = { # 367
+			c_roma = { # 333
 				color={ 176 192 160 }
 				color2={ 255 255 255 }
 				
@@ -17404,12 +17404,12 @@ e_russia = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 719 province_id = 720 province_id = 721 province_id = 722 province_id = 723 } }
+					any_demesne_province = { OR = { province_id = 720 province_id = 721 province_id = 722 province_id = 723 province_id = 832 } }
 				}
 			}
-			capital = 719 # c_kotlas
+			capital = 832 # c_kotlas
 			
-			c_kotlas = { # 719
+			c_kotlas = { # 832
 				color={ 223 64 128 }
 				color2={ 255 255 255 }
 				
@@ -19762,66 +19762,6 @@ e_the_united_kingdom = {
 				}
 			}
 		}
-		d_north_east_england = {
-			color={ 214 106 123 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 74 province_id = 75 province_id = 76 } }
-				}
-			}
-			capital = 74 # c_hull
-			
-			c_hull = { # 74
-				color={ 224 96 128 }
-				color2={ 255 255 255 }
-				
-				b_kingston_upon_hull = {
-				}
-				b_york = {
-				}
-				b_scarborough = {
-				}
-				b_bridlington = {
-				}
-				b_hornsea = {
-				}
-			}
-			c_leeds = { # 75
-				color={ 96 96 128 }
-				color2={ 255 255 255 }
-				
-				b_leeds = {
-				}
-				b_bradford = {
-				}
-				b_huddersfeild = {
-				}
-				b_wakefeild = {
-				}
-				b_keighley = {
-				}
-			}
-			c_sheffield = { # 76
-				color={ 134 176 33 }
-				color2={ 255 255 255 }
-				
-				b_sheffield = {
-				}
-				b_doncaster = {
-				}
-				b_chesterfeild = {
-				}
-				b_rotherdam = {
-				}
-				b_barnsley = {
-				}
-				b_worksop = {
-				}
-			}
-		}
 		d_northumberland = {
 			color={ 106 86 5 }
 			color2={ 255 255 255 }
@@ -19998,6 +19938,66 @@ e_the_united_kingdom = {
 				b_ramsey = {
 				}
 				b_douglas = {
+				}
+			}
+		}
+		d_york = {
+			color={ 214 106 123 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 74 province_id = 75 province_id = 76 } }
+				}
+			}
+			capital = 74 # c_york
+			
+			c_york = { # 74
+				color={ 224 96 128 }
+				color2={ 255 255 255 }
+				
+				b_kingston_upon_hull = {
+				}
+				b_york = {
+				}
+				b_scarborough = {
+				}
+				b_bridlington = {
+				}
+				b_hornsea = {
+				}
+			}
+			c_leeds = { # 75
+				color={ 96 96 128 }
+				color2={ 255 255 255 }
+				
+				b_leeds = {
+				}
+				b_bradford = {
+				}
+				b_huddersfeild = {
+				}
+				b_wakefeild = {
+				}
+				b_keighley = {
+				}
+			}
+			c_sheffield = { # 76
+				color={ 134 176 33 }
+				color2={ 255 255 255 }
+				
+				b_sheffield = {
+				}
+				b_doncaster = {
+				}
+				b_chesterfeild = {
+				}
+				b_rotherdam = {
+				}
+				b_barnsley = {
+				}
+				b_worksop = {
 				}
 			}
 		}
@@ -20672,14 +20672,14 @@ e_turkey = {
 	color={ 200 200 12 }
 	color2={ 255 255 20 }
 	
-	capital = 991 # c_constantinople
+	capital = 497 # c_constantinople
 	culture = turkish
 	
 	k_turkey = {
 		color={ 210 190 17 }
 		color2={ 255 255 255 }
 		
-		capital = 991 # c_constantinople
+		capital = 497 # c_constantinople
 		culture = turkish
 		
 		d_thrace = {
@@ -20689,12 +20689,12 @@ e_turkey = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 991 province_id = 992 province_id = 993 province_id = 994 province_id = 995 } }
+					any_demesne_province = { OR = { province_id = 497 province_id = 992 province_id = 993 province_id = 994 province_id = 995 } }
 				}
 			}
-			capital = 991 # c_constantinople
+			capital = 497 # c_constantinople
 			
-			c_constantinople = { # 991
+			c_constantinople = { # 497
 				color={ 240 160 32 }
 				color2={ 255 255 255 }
 				
@@ -20715,7 +20715,7 @@ e_turkey = {
 				b_vlanga = {
 				}
 			}
-			c_edirne = { # 992
+			c_adrianopolis = { # 992
 				color={ 112 160 32 }
 				color2={ 255 255 255 }
 				
