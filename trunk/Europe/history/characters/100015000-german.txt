@@ -2797,7 +2797,7 @@
 	name=Friedrich
 	dynasty=528
 	religion=catholic culture=german
-	father=462403
+	father=462403	# Friedrich von Wettin
 	1412.01.01={birth=yes}
 	1464.01.01={death=yes}
 }
@@ -3307,7 +3307,6 @@
 							mother=100016174	# Clara Bansbach
 							1969.09.11={birth=yes}
 							1998.12.18={add_spouse=100016177}	# Irene Granados
-							#YYYY.01.01={death=yes}
 						}
 							100016178={# 1g) Thomas Frhr von Saalfeld (b.San José 11 Jan 2002)
 								name=Thomas
@@ -3521,13 +3520,21 @@
 
 
 #Baden|100125|100015800-100016099
-100085002={ # Margr      Maria Anna               von Baden                                (1655-1701)
+100085002={ # Margr      Maria Anna               von Baden-Baden                          (1655-1701)
 	name="Maria Anna von Baden"
 	female=yes
 	dynasty=0
 	religion=catholic culture=bohemian
 	1655.09.08={birth=yes}
 	1701.08.22={death=yes}
+}
+100006313={	# Mgve    	 Christoph           	  von Baden-Baden      
+	name="Christoph of Baden"
+	dynasty=0
+	religion=lutheran culture=swedish
+	1539.01.01={birth=yes}
+	1564.06.18={add_spouse=100006312}	# Cäcilia Vasa
+	1575.01.01={death=yes}
 }
 100085514={ # Mgve       Ludwig Georg             von Baden-Baden                          (1706-1761)
 	name="Ludwig Georg von Baden-Baden"
@@ -3538,39 +3545,62 @@
 	1761.10.22={death=yes}
 }
 
-
-100015820={# Friedrich V.
-	name=Friedrich
+100015827={# Ernst von Baden (1482-1553)
+	name=Ernst
 	dynasty=100125
 	religion=catholic culture=german
-	1594.01.01={birth=yes}
-	1659.01.01={death=yes}
+	1482.01.01={birth=yes}
+	1553.01.01={death=yes}
 }
-	100015817={# Friedrich VI.
-		name=Friedrich
+	100015826={# Karl von Baden (1529-1577)
+		name=Karl
 		dynasty=100125
 		religion=catholic culture=german
-		father=100015820	# Friedrich von Baden
-		1617.01.01={birth=yes}
-		1677.01.01={death=yes}
+		father=100015827	# Ernst von Baden
+		1529.01.01={birth=yes}
+		1577.01.01={death=yes}
 	}
-		100015815={# Friedrich VII. Magnus
-			name="Friedrich Magnus"
+		100015824={# Georg Friedrich von Baden (1573-1638)
+			name="Georg Friedrich"
 			dynasty=100125
 			religion=catholic culture=german
-			father=100015817	# Friedrich von Baden
-			1647.01.01={birth=yes}
-			1709.01.01={death=yes}
+			father=100015826	# Karl von Baden
+			1573.01.01={birth=yes}
+			1638.01.01={death=yes}
 		}
-			100013110={ # Margr Albertine von Baden-Durlach (1682-1755)
-				name=Albertine
-				female=yes
+			100015820={# Friedrich V.
+				name=Friedrich
 				dynasty=100125
-				religion=lutheran culture=german
-				father=100015815	# Friedrich Magnus von Baden
-				1682.07.03={birth=yes}
-				1755.12.22={death=yes}
+				religion=catholic culture=german
+				father=100015824	# Georg Friedrich von Baden
+				1594.01.01={birth=yes}
+				1659.01.01={death=yes}
 			}
+				100015817={# Friedrich VI.
+					name=Friedrich
+					dynasty=100125
+					religion=catholic culture=german
+					father=100015820	# Friedrich von Baden
+					1617.01.01={birth=yes}
+					1677.01.01={death=yes}
+				}
+					100015815={# Friedrich VII. Magnus
+						name="Friedrich Magnus"
+						dynasty=100125
+						religion=catholic culture=german
+						father=100015817	# Friedrich von Baden
+						1647.01.01={birth=yes}
+						1709.01.01={death=yes}
+					}
+						100013110={ # Margr Albertine von Baden-Durlach (1682-1755)
+							name=Albertine
+							female=yes
+							dynasty=100125
+							religion=lutheran culture=german
+							father=100015815	# Friedrich Magnus von Baden
+							1682.07.03={birth=yes}
+							1755.12.22={death=yes}
+						}
 100015800={# KARL III WILHELM, Margrave of Baden-Durlach (Karlsburg 17 Jan 1679-Karlsruhe 12 May 1738); m.Stuttgart 27 Jun 1697 Magdalene Wilhelmine Dss of Württemberg (Stuttgart 7 Nov 1677-Karlsburg 30 Oct 1742); [m.2d 1 Jun 1709 Eberhardine Luise v.u.zu Maddenbach, "Frau v.Wangen" (1690-ca 1722)]
 	name="Karl Wilhelm"
 	dynasty=100125
@@ -6931,7 +6961,6 @@
 		father=100017600	# Karl v. Mecklenburg
 		mother=100017601	# PSS Elisabeth Albertine von Sachsen-Hildburghausen
 		1744.05.19={birth=yes}
-		
 		1818.11.17={death=yes}
 	}
 	100017799={# 10a) Georg August (Mirow 16 Aug 1748-Tyrnau, Hungary 14 Nov 1785)
@@ -9908,7 +9937,7 @@
 	father=100016750	# Friedrich August von Wettin
 	mother=100021275	# Maria Josefa v. Habsburg
 	1722.09.05={birth=yes}
-	1747.06.13={add_spouse=100016601}	# Maria Antonia von Bayern
+	1747.06.13={add_spouse=100016601}	# Maria Antonia v. Wittelsbach
 	1763.12.17={death=yes}
 }
 	100016602={# 1a) FRIEDRICH AUGUST III Joseph Maria Anton Johann Nepomuk Aloys Xaver, Elector von Sachsen, King FRIEDRICH AUGUST I von Sachsen 11 Dec 1806 (Dresden 23 Dec 1750-Dresden 5 May 1827); m.by proxy at Mannheim 17 Jan 1769 and in person at Dresden 29 Jan 1769 Amalie Pfgfn von Zweibrücken-Birkenfeld (Mannheim 10 May 1752-Dresden 15 Nov 1828)
@@ -9916,7 +9945,7 @@
 		dynasty=528
 		religion=catholic culture=german
 		father=100016600	# Friedrich Christian von Wettin
-		mother=100016601	# Maria Antonia von Bayern
+		mother=100016601	# Maria Antonia v. Wittelsbach
 		1750.12.23={birth=yes}
 		1769.01.17={add_spouse=100016603}	# Amalie v. Wittelsbach
 		1827.05.05={death=yes}
@@ -9936,7 +9965,7 @@
 		dynasty=528
 		religion=catholic culture=german
 		father=100016600	# Friedrich Christian von Wettin
-		mother=100016601	# Maria Antonia von Bayern
+		mother=100016601	# Maria Antonia v. Wittelsbach
 		1752.09.24={birth=yes}
 		1781.09.08={death=yes}
 	}
@@ -9945,7 +9974,7 @@
 		dynasty=528
 		religion=catholic culture=german
 		father=100016600	# Friedrich Christian von Wettin
-		mother=100016601	# Maria Antonia von Bayern
+		mother=100016601	# Maria Antonia v. Wittelsbach
 		1754.01.26={birth=yes}
 		1763.03.25={death=yes}
 	}
@@ -9954,7 +9983,7 @@
 		dynasty=528
 		religion=catholic culture=german
 		father=100016600	# Friedrich Christian von Wettin
-		mother=100016601	# Maria Antonia von Bayern
+		mother=100016601	# Maria Antonia v. Wittelsbach
 		1755.12.27={birth=yes}
 		1781.09.29={add_spouse=100016608}
 		1787.09.08={add_spouse=100020018}	# Theresia v. Habsburg-Lothringen
@@ -9966,7 +9995,7 @@
 		dynasty=528
 		religion=catholic culture=german
 		father=100016600	# Friedrich Christian von Wettin
-		mother=100016601	# Maria Antonia von Bayern
+		mother=100016601	# Maria Antonia v. Wittelsbach
 		1757.09.26={birth=yes}
 		1831.04.20={death=yes}
 	}
@@ -9975,7 +10004,7 @@
 		dynasty=528
 		religion=catholic culture=german
 		father=100016600	# Friedrich Christian von Wettin
-		mother=100016601	# Maria Antonia von Bayern
+		mother=100016601	# Maria Antonia v. Wittelsbach
 		1759.04.13={birth=yes}
 		1792.04.22={add_spouse=100008306}	# Carolina di Borbone-Parma
 		1825.10.15={add_spouse=100008449}	# Maria Luisa di Borbone-Parma
@@ -10464,7 +10493,7 @@
 		dynasty=528
 		religion=catholic culture=german
 		father=100016600	# Friedrich Christian von Wettin
-		mother=100016601	# Maria Antonia von Bayern
+		mother=100016601	# Maria Antonia v. Wittelsbach
 		1761.02.27={birth=yes}
 		1820.11.26={death=yes}
 	}
