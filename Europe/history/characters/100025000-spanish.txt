@@ -1,9 +1,11 @@
 ###########################################################
-##  100025000	Bourbon			100146	
-##  100025500	Fitz-James		1009003	
-##  100025600	Arion			1001500	
-##  100025900	Baena			1001501
-##  100025950	Franco			1001502
+##  100025000	Bourbon				100146	
+##  100025500	Fitz-James			1009003	
+##  100025600	Arion				1001500	
+##  100025900	Baena				1001501
+##  100025950	Franco				1001502
+##  100026000	ALBURQUERQUE		1001503
+##  100026050	OSORIO de MOSCOSO	1001504
 ###########################################################
 
 100021104={ # Queen Juana of Castile     
@@ -16,6 +18,395 @@
 	1479.11.06={birth=yes}
 	1555.04.12={death=yes}
 }
+
+
+##  100026050	OSORIO de MOSCOSO	1001504
+100026050={	# José Maria Osorio de Moscoso, Duque de Sessa (Madrid 12 Apr 1828-Córdoba 4 Nov 1881); m.Madrid 10 Feb 1847 Luisa Infanta of Spain (Aranjuez 11 Jun 1824-Madrid 27 Dec 1900)
+	name="José Maria"
+	dynasty=1001504
+	religion=catholic culture=castillan
+	1828.04.12={birth=yes}  # Madrid
+	1847.02.10={add_spouse=100026051}	# Luisa de Bourbon
+	1881.11.04={death=yes}  # Córdoba
+}
+	100026052={	# 1a) Francisco de Asis, Duque de Sessa (Madrid 16 Dec 1847-Madrid 18 Jan 1924); m.Madrid 1 Dec 1873 Maria del Pilar Jordán de Urries y Ruiz de Arana (Zaragoza 21 Jun 1852-Santander 4 Aug 1924)
+		name=Francisco
+		dynasty=1001504
+		religion=catholic culture=castillan
+		father=100026050	# José Maria
+		mother=100026051	# Luisa de Bourbon
+		1847.12.16={birth=yes}  # Madrid
+		1873.12.01={add_spouse=100026053}	# Maria Jordán del Pilar de Urries y Ruiz de Arana
+		1924.01.18={death=yes}  # Madrid
+	}
+		100026054={	# 1b) Francisco de Asis, Duque de Sessa (Madrid 4 Dec 1874-Madrid 5 Apr 1952); m.1st Madrid 8 Dec 1897 Maria de los Dolores de Reynoso y Queralt (Madrid 1880-Madrid 28 Jun 1905); m.2nd Santurce 12 Oct 1909 Maria de los Dolores de Taramona y Diez de Entresoto (Bilbao 15 Mar 1880-Bilbao 6 Jan 1962)
+			name=Francisco
+			dynasty=1001504
+			religion=catholic culture=castillan
+			father=100026052	# Francisco
+			mother=100026053	# Maria Jordán del Pilar de Urries y Ruiz de Arana
+			1874.12.04={birth=yes}  # Madrid
+			1897.12.08={add_spouse=100026055}	# Maria de los Dolores de Reynoso y Queralt
+			1909.10.12={add_spouse=100026056}	# Maria de los Dolores de Taramona y Diez de Entresoto
+			1952.04.05={death=yes}  # Madrid
+		}
+			100026057={	# 1c) Maria del Perpetuo, Duquesa de Sessa (Madrid 30 Jun 1899-Avila 20 Oct 1980); m.Madrid 15 Jan 1917 Leopoldo Barón y Torres (Ayamonte 15 Mar 1890-Madrid 25 Sep 1952)
+				name="Maria _del_Perpetuo"
+				female=yes
+				dynasty=1001504
+				religion=catholic culture=castillan
+				father=100026054	# Francisco
+				mother=100026055	# Maria de los Dolores de Reynoso y Queralt
+				1899.06.30={birth=yes}  # Madrid
+				1980.10.20={death=yes}  # Avila
+			}
+			100026059={	# 2c) Maria de la Soledad, Duquesa de Santangelo (Madrid 13 Jan 1901-Barcelona 15 Mar 1975); m.Madrid 26 Apr 1920 Joaquin de Sentmenat y Sarriera Marques de Sentmenat (Barcelona 2 May 1893-Barcelona 1 Mar 1968)
+				name=Maria
+				female=yes
+				dynasty=1001504
+				religion=catholic culture=castillan
+				father=100026054	# Francisco
+				mother=100026055	# Maria de los Dolores de Reynoso y Queralt
+				1901.01.13={birth=yes}  # Madrid
+				1975.03.15={death=yes}  # Barcelona
+			}
+			100026061={	# 3c) Gerardo, Conde de Altamira (Madrid 9 Nov 1903-k.a.Paracuellos 28 Nov 1936); m.Madrid 2 Jul 1928 Maria del Consuelo Castellejo y Wall Cdsa de la Fuente del Sauco (Madrid 30 Aug 1901-Madrid 19 Oct 1996)
+				name=Gerardo
+				dynasty=1001504
+				religion=catholic culture=castillan
+				father=100026054	# Francisco
+				mother=100026055	# Maria de los Dolores de Reynoso y Queralt
+				1903.11.09={birth=yes}  # Madrid
+				1928.07.02={add_spouse=100026062}	# CDSA Maria del Consuelo Castellejo y Wall
+				1936.11.28={death=yes}  # a.Paracuellos
+			}
+			100026063={	# 4c) Francisco Javier, Cde de Trastamara (Madrid 16 May 1905-k.a.Paracuellos 28 Nov 1936)
+				name="Francisco Javier"
+				dynasty=1001504
+				religion=catholic culture=castillan
+				father=100026054	# Francisco
+				mother=100026055	# Maria de los Dolores de Reynoso y Queralt
+				1905.05.16={birth=yes}  # Madrid
+				1936.11.28={death=yes}  # a.Paracuellos
+			}
+			100026064={	# 5c) Ramon Cde de Cabra (Santurce 8 Oct 1910-k.a.Paracuellos 28 Nov 1936)
+				name=Ramon
+				dynasty=1001504
+				religion=catholic culture=castillan
+				father=100026054	# Francisco
+				mother=100026056	# Maria de los Dolores de Taramona y Diez de Entresoto
+				1910.10.08={birth=yes}  # Santurce
+				1936.11.28={death=yes}  # a.Paracuellos
+			}
+		100026065={	# 2b) Luis Gonzaga, Duque de Montemar (Madrid 28 Dec 1875-Madrid 7 Dec 1942); m.Jerez de la Fontera 3 May 1902 Maria del Consuelo Moreno de la Serna y Zuleta (Jerez de la Fontera 23 Mar 1885-Sanlucar de Barrameda 3 Jan 1967)
+			name="Luis _Gonzaga"
+			dynasty=1001504
+			religion=catholic culture=castillan
+			father=100026052	# Francisco
+			mother=100026053	# Maria Jordán del Pilar de Urries y Ruiz de Arana
+			1875.12.28={birth=yes}  # Madrid
+			1902.05.03={add_spouse=100026066}	# Maria del Consuelo Moreno de la Serna y Zuleta
+			1942.12.07={death=yes}  # Madrid
+		}
+			100026067={	# 1c) Maria del Pilar (b.Jerez 22 Mar 1903); m.1st Madrid 2 Jul 1922 Juan Jacome Ramirez de Cartagena Marques del Real Tesoro (Jerez de la Frontera 1882-Jerez de la Fontera 1 Jan 1945); m.2nd Madrid 2 Jul 1954 Alfonso Sergio Orbanega (Valladolid 18 Feb 1894-Madrid 30 Nov 1979)
+				name="Maria _del_Pilar"
+				female=yes
+				dynasty=1001504
+				religion=catholic culture=castillan
+				father=100026065	# Luis  Gonzaga
+				mother=100026066	# Maria del Consuelo Moreno de la Serna y Zuleta
+				1903.03.22={birth=yes}  # Jerez
+				1979.01.01={death=yes}  # EST.
+			}
+			100026070={	# 2c) Pedro, Duque de Montemar (Madrid 22 May 1904-Madrid 24 Apr 1986); m.Madrid 8 Jul 1936 Elisa de Estanga y Cologan (Tenerife 13 Mar 1911-Madrid 23 Jun 2001)
+				name=Pedro
+				dynasty=1001504
+				religion=catholic culture=castillan
+				father=100026065	# Luis  Gonzaga
+				mother=100026066	# Maria del Consuelo Moreno de la Serna y Zuleta
+				1904.05.22={birth=yes}  # Madrid
+				1936.07.08={add_spouse=100026071}	# Elisa de Estanga y Cologan
+				1986.04.24={death=yes}  # Madrid
+			}
+				100026072={	# 1d) Pedro (Madrid 17 May 1937-Madrid 1 Nov 1986); m.Madrid 31 Jul 1971 Luisa Ana Sanchiz y Mendaro (Madrid 8 Nov 1944-Madrid 19 Jan 1997)
+					name=Pedro
+					dynasty=1001504
+					religion=catholic culture=castillan
+					father=100026070	# Pedro
+					mother=100026071	# Elisa de Estanga y Cologan
+					1937.05.17={birth=yes}  # Madrid
+					1971.07.31={add_spouse=100026073}	# Luisa Ana Sanchiz y Mendaro
+					1986.11.01={death=yes}  # Madrid
+				}
+					100026074={	# 1e) Tatiana Duquesa de Montemar (b.Madrid 31 Jul 1972)
+						name=Tatiana
+						dynasty=1001504
+						religion=catholic culture=castillan
+						father=100026072	# Pedro
+						mother=100026073	# Luisa Ana Sanchiz y Mendaro
+						1972.07.31={birth=yes}  # Madrid
+					}
+					100026075={	# 2e) Maria Beatriz (b.Madrid 25 Aug 1973)
+						name="Maria Beatriz"
+						female=yes
+						dynasty=1001504
+						religion=catholic culture=castillan
+						father=100026072	# Pedro
+						mother=100026073	# Luisa Ana Sanchiz y Mendaro
+						1973.08.25={birth=yes}  # Madrid
+					}
+					100026076={	# 3e) Alejandra (b.Madrid 16 Dec 1974)
+						name=Alejandra
+						female=yes
+						dynasty=1001504
+						religion=catholic culture=castillan
+						father=100026072	# Pedro
+						mother=100026073	# Luisa Ana Sanchiz y Mendaro
+						1974.12.16={birth=yes}  # Madrid
+					}
+				100026077={	# 2d) Angela (b.Madrid 4 Mar 1940)
+					name=Angela
+					female=yes
+					dynasty=1001504
+					religion=catholic culture=castillan
+					father=100026070	# Pedro
+					mother=100026071	# Elisa de Estanga y Cologan
+					1940.03.04={birth=yes}  # Madrid
+				}
+				100026078={	# 3d) Luisa Teresa (b.Madrid 19 Apr 1944); m.Rome 30 Nov 1985 Pr Giovanni Battista Colonna (b.Naples 27 Jun 1941)
+					name="Luisa Teresa"
+					female=yes
+					dynasty=1001504
+					religion=catholic culture=castillan
+					father=100026070	# Pedro
+					mother=100026071	# Elisa de Estanga y Cologan
+					1944.04.19={birth=yes}  # Madrid
+				}
+				100026080={	# 4d) Elisa (b.Madrid 31 Mar 1946); m.Rome 8 Oct 1989 Don Carlo Massimo dei Principi di Arsoli (b.Rome 3 Jul 1942)
+					name=Elisa
+					female=yes
+					dynasty=1001504
+					religion=catholic culture=castillan
+					father=100026070	# Pedro
+					mother=100026071	# Elisa de Estanga y Cologan
+					1946.03.31={birth=yes}  # Madrid
+				}
+			100026082={	# 3c) Maria de la Consolacion (Madrid 19 Jan 1909-Madrid 14 May 1970)
+				name=Maria
+				female=yes
+				dynasty=1001504
+				religion=catholic culture=castillan
+				father=100026065	# Luis  Gonzaga
+				mother=100026066	# Maria del Consuelo Moreno de la Serna y Zuleta
+				1909.01.19={birth=yes}  # Madrid
+				1970.05.14={death=yes}  # Madrid
+			}
+	100026083={	# 2a) Luis Maria Isabel, Marques de Ayamonte, Cde de Cabra (Madrid 11 Feb 1849-Madrid 19 Apr 1924); m.Paris 19 Nov 1883 Mathilde Dorothea Voonen van der Sander (d.Madrid Feb 1915)
+		name=Luis
+		dynasty=1001504
+		religion=catholic culture=castillan
+		father=100026050	# José Maria
+		mother=100026051	# Luisa de Bourbon
+		1849.02.11={birth=yes}  # Madrid
+		1883.11.19={add_spouse=100026084}	# Mathilde Dorothea Voonen van der Sander
+		1924.04.19={death=yes}  # Madrid
+	}
+	100026085={	# 3a) Maria Cristina Duquesa de Astrico (Genoa 26 May 1850-Paris 27 Mar 1904); m.Madrid 11 Mar 1865 Pierre Eugène Pr-Duc de Bauffremont-Courtenay (Paris 6 Sep 1843-Paris 30 Aug 1917)
+		name="Maria Cristina"
+		female=yes
+		dynasty=1001504
+		religion=catholic culture=italian
+		father=100026050	# José Maria
+		mother=100026051	# Luisa de Bourbon
+		1850.05.26={birth=yes}  # Genoa
+		1904.03.27={death=yes}  # Paris
+	}
+#1858.04.12={holder=100026050} # José Maria Osorio de Moscoso
+#1881.11.04={holder=100026052} # 1a) Francisco de Asis
+#1924.01.18={holder=100026054} # 1b) Francisco de Asis
+#1952.04.05={holder=100026070} # 2c) Pedro
+#1986.04.24={holder=100026072} # 1d) Pedro 
+#1986.11.01={holder=100026074} # 1e) Tatiana Duquesa de Montemar 
+##  100026050	OSORIO de MOSCOSO	1001504
+
+
+##  100026000	ALBURQUERQUE	1001503
+100026000={	# José Ramon Osorio y Heredia Cde de la Corzana (Madrid 21 Aug 1854-1919); m.1st Madrid 17 Jan 1877 Marie Eugénie de Morny (Paris 25 May 1857-Paris 26 Jun 1883); m.2nd 29 Dec 1884 Narcisa de Martos y Arizcun (Madrid 4 Oct 1856-9 Jan 1944)
+	name="José Ramon"
+	dynasty=1001503
+	religion=catholic culture=castillan
+	1854.08.21={birth=yes}  # Madrid
+	1877.01.17={add_spouse=100026001}	# Marie Eugénie de Morny
+	1884.12.29={add_spouse=100026002}	# Narcisa de Martos y Arizcun
+	1919.01.01={death=yes}
+}
+	100026003={	# 1a) José, Conde de la Corzana (Madrid 1878-Madrid 1919); m.Madrid 1902 Maria de la Purificacion Dorticos-Marin y Leon, Marquesa de Marin (1878-1928)
+		name=José
+		dynasty=1001503
+		religion=catholic culture=castillan
+		father=100026000	# José Ramon
+		mother=100026001	# Marie Eugénie de Morny
+		1878.01.01={birth=yes}  # Madrid
+		1902.01.01={add_spouse=100026004}	# MARQUESA Maria de la Purificacion Dorticos-Marin y Leon
+		1919.01.01={death=yes}  # Madrid
+	}
+	100026005={	# 2a) MIGUEL, 17th Duque de Alburquerque, etc (Madrid 30 Jul 1886-Madrid 3 May 1942); m.Madrid 29 Jun 1914 Ines Diez de Rivera y de Figueroa (St.Jean-de-Luz 27 Aug 1890-Madrid 7 Feb 1980)
+		name=Miguel
+		dynasty=1001503
+		religion=catholic culture=castillan
+		father=100026000	# José Ramon
+		mother=100026002	# Narcisa de Martos y Arizcun
+		1886.07.30={birth=yes}  # Madrid
+		1914.06.29={add_spouse=100026006}	# Ines Diez de Rivera y de Figueroa
+		1942.05.03={death=yes}  # Madrid
+	}
+		100026007={	# 1b) Maria del Carmen Marquesa de Arenales (Algete 22 Dec 1916-26 Jan 1987); m.Francisco Maestre y Salinas (Seville 21 May 1914-Madrid 18 Apr 1999)
+			name="Maria _del_Carmen"
+			female=yes
+			dynasty=1001503
+			religion=catholic culture=castillan
+			father=100026005	# Miguel
+			mother=100026006	# Ines Diez de Rivera y de Figueroa
+			1916.12.22={birth=yes}  # Algete
+			1987.01.26={death=yes}
+		}
+		100026009={	# 2b) BELTRAN Alfonso, 18th Duque de Alburquerque, etc (Madrid 15 Dec 1918-Madrid 18 Feb 1994); m.1st Madrid 2 Oct 1952 Teresa Bertran de Lis y Pidal (San Sebastian 22 Aug 1923-Burgo, Madrid 17 Dec 1969); m.2nd Estoril 27 Jun 1974 Maria Cristina Malcampo y San Miguel, Duquesa de San Lorenzo de Valhermoso, etc (Madrid 5 May 1935-Madrid 18 Sep 2004)
+			name=Beltran
+			dynasty=1001503
+			religion=catholic culture=castillan
+			father=100026005	# Miguel
+			mother=100026006	# Ines Diez de Rivera y de Figueroa
+			1918.12.15={birth=yes}  # Madrid
+			1952.10.02={add_spouse=100026010}	# Teresa Bertran de Lis y Pidal
+			1974.06.27={add_spouse=100026011}	# DUQUESA Maria Cristina Malcampo y San Miguel
+			1994.02.18={death=yes}  # Madrid
+		}
+			100026012={	# 1c) JUAN Miguel, 19th Duque de Alburquerque, etc (b.Madrid 7 Nov 1958); m.1st Algete 1 Jul 1984 (div 1991) Beatriz Letelier y Bomchil (b.Chile 1960); m.Montferrat 25 Jul 1996 Blanca de Suelves y Figueroa (b.Lima 5 May 1968)
+				name=Juan
+				dynasty=1001503
+				religion=catholic culture=castillan
+				father=100026009	# Beltran
+				mother=100026010	# Teresa Bertran de Lis y Pidal
+				1958.11.07={birth=yes}  # Madrid
+				1984.07.01={add_spouse=100026013}	# Beatriz Letelier y Bomchil
+				1991.01.01={remove_spouse=100026013}
+				1996.07.25={add_spouse=100026014}	# Blanca de Suelves y Figueroa
+			}
+				100026015={	# 1d) Beatriz Osorio y Letelier
+					name="Beatriz Osorio y Letelier"
+					female=yes
+					dynasty=1001503
+					religion=catholic culture=castillan
+					father=100026012	# Juan
+					mother=100026013	# Beatriz Letelier y Bomchil
+					1994.01.01={birth=yes}
+				}
+				100026016={	# 2d) Juan
+					name=Juan
+					dynasty=1001503
+					religion=catholic culture=castillan
+					father=100026012	# Juan
+					mother=100026013	# Beatriz Letelier y Bomchil
+					1996.01.01={birth=yes}
+				}
+				100026017={	# 3d) Blanca (b.Madrid 25 Dec 1996)
+					name=Blanca
+					female=yes
+					dynasty=1001503
+					religion=catholic culture=castillan
+					father=100026012	# Juan
+					mother=100026014	# Blanca de Suelves y Figueroa
+					1996.12.25={birth=yes}  # Madrid
+				}
+				100026018={	# 4d) Luis (b.Madrid 22 Apr 1998)
+					name=Luis
+					dynasty=1001503
+					religion=catholic culture=castillan
+					father=100026012	# Juan
+					mother=100026014	# Blanca de Suelves y Figueroa
+					1998.04.22={birth=yes}  # Madrid
+				}
+			100026019={	# 2c) Teresa (b.Madrid 28 Jan 1962)
+				name=Teresa
+				female=yes
+				dynasty=1001503
+				religion=catholic culture=castillan
+				father=100026009	# Beltran
+				mother=100026010	# Teresa Bertran de Lis y Pidal
+				1962.01.28={birth=yes}  # Madrid
+			}
+			100026020={	# 3c) Maria Cdsa de Villaumbrosa (b.Madrid 14 Nov 1966); m.Humera 4 Jul 1987 Juan José de Suelves y de Figueroa (b.Lima 28 May 1956)
+				name=Maria
+				female=yes
+				dynasty=1001503
+				religion=catholic culture=castillan
+				father=100026009	# Beltran
+				mother=100026010	# Teresa Bertran de Lis y Pidal
+				1966.11.14={birth=yes}  # Madrid
+			}
+			100026022={	# 4c) Maria Cristina (b.1975)
+				name="Maria Cristina"
+				female=yes
+				dynasty=1001503
+				religion=catholic culture=castillan
+				father=100026009	# Beltran
+				mother=100026011	# DUQUESA Maria Cristina Malcampo y San Miguel
+				1975.01.01={birth=yes}
+			}
+			100026023={	# 5c) Maria Rosa (b.1978)
+				name="Maria Rosa"
+				female=yes
+				dynasty=1001503
+				religion=catholic culture=castillan
+				father=100026009	# Beltran
+				mother=100026011	# DUQUESA Maria Cristina Malcampo y San Miguel
+				1978.01.01={birth=yes}
+			}
+		100026024={	# 3b) Cristina Cdsa de la Torre (b.Algete 15 Jun 1920); m.Algete 25 Jul 1953 Juan Pedro Matossian Diacono de El Carro (d.Madrid 21 Jul 2006)
+			name=Cristina
+			female=yes
+			dynasty=1001503
+			religion=catholic culture=castillan
+			father=100026005	# Miguel
+			mother=100026006	# Ines Diez de Rivera y de Figueroa
+			1920.06.15={birth=yes}  # Algete
+			1996.01.01={death=yes}  # EST.
+		}
+		100026026={	# 4b) Maria del Rosario Cdsa de las Torres d'Alcorrin (San Sebastian 7 Sep 1922-9 Sep 2009); m.Algete 21 Jun 1946 José Joaquin Marquez y Alvarez de Toledo Duque de Santa Cristina (b.Madrid 4 Apr 1921)
+			name="Maria _del_Rosario"
+			female=yes
+			dynasty=1001503
+			religion=catholic culture=castillan
+			father=100026005	# Miguel
+			mother=100026006	# Ines Diez de Rivera y de Figueroa
+			1922.09.07={birth=yes}  # San Sebastian
+			2009.09.09={death=yes}
+		}
+		100026028={	# 5b) Miguel Cde de la Corzana, Marques de los Balbases (San Sebastian 28 Aug 1924-Madrid 15 Apr 1997); m.Gloria Nicolas Correa
+			name=Miguel
+			dynasty=1001503
+			religion=catholic culture=castillan
+			father=100026005	# Miguel
+			mother=100026006	# Ines Diez de Rivera y de Figueroa
+			1924.08.28={birth=yes}  # San Sebastian
+			1949.01.01={add_spouse=100026029}	# Gloria Nicolas Correa
+			1997.04.15={death=yes}  # Madrid
+		}
+	100026030={	# 3a) Maria Cristina Duquesa de Algete (Madrid 16 Jun 1897-Madrid 26 Jan 1975); m.Madrid 14 Mar 1918 José Maria Fernandez de Villavicencio y Crooke, Marques de Vallecerrato y de Castrillo (Biarritz 1 Nov 1890-Madrid 28 Oct 1980)
+		name="Maria Cristina"
+		female=yes
+		dynasty=1001503
+		religion=catholic culture=castillan
+		father=100026000	# José Ramon
+		mother=100026002	# Narcisa de Martos y Arizcun
+		1897.06.16={birth=yes}  # Madrid
+		1975.01.26={death=yes}  # Madrid
+	}
+#1884.08.21={holder=100026000} # José Ramon Osorio y Heredia Cde de la Corzana 
+#1919.01.01={holder=100026005} # 2a) MIGUEL
+#1942.05.03={holder=100026009} # 2b) BELTRAN Alfonso
+#1994.02.18={holder=100026012} # 1c) JUAN Miguel
+##  100026000	ALBURQUERQUE	1001503
 
 
 ##  100025950	Franco			1001502
