@@ -10,11 +10,43 @@
 ##  100111850	Jagiellon				9
 ##  100111900	Raczynski				1012007
 ##  100111930	Tarnowski				1012008
+##            	Sulkowski				1012009
+##  100112250					
 ##  100114000	POTOCKI					1012006
 ###########################################################
 
+	
+	
+##            	Sulkowski				1012009	
+100112222={
+	name=Antoni
+	female=yes
+	dynasty=1012009
+	religion=catholic culture=polish
+	1785.12.31={birth=yes}
+	1836.04.13={death=yes}
+}
+	100114562={ # Pss Helene Sulkowska (1812-1900)     6
+		name=Helena
+		female=yes
+		dynasty=1012009
+		religion=catholic culture=polish
+		father=100112222
+		1812.12.31={birth=yes}  # Warsaw
+		1900.01.23={death=yes}
+	}
+	100114617={ # Pss Eva Karolina Sulkowska (1814-1881)     1
+		name=Ewa
+		female=yes
+		dynasty=1012009
+		religion=catholic culture=polish
+		father=100112222
+		1814.10.22={birth=yes}
+		1881.07.06={death=yes}
+	}	
+##            	Sulkowski				1012009
+	
 				
-
 ##  100111930	Tarnowski				1012008		
 100111799={ # Ct         Gustaw                    Tarnowski                                (1829-1906)     0
 	name="Gustaw Tarnowski"
@@ -41,7 +73,7 @@
 	2006.04.04={death=yes}
 }
 	
-100111944={
+100111944={# Józef Mateusz Amor (1707-1744)
 	name="Józef Mateusz Amor"
 	dynasty=0
 	religion=catholic culture=polish
@@ -52,18 +84,18 @@
 	name=Jan-Jacek
 	dynasty=1012008
 	religion=catholic culture=polish
-	father=100111944
+	father=100111944	# Józef Mateusz Amor
 	1729.11.08={birth=yes}  # Dzików
 	1757.06.02={add_spouse=100111931}	# Helene Morska
-	1775.06.04={add_spouse=100111932}	# Rozalja Czacka
+	1775.06.04={add_spouse=100111932}	# CSS Rozalja Czacka
 	1808.08.24={death=yes}  # Dzików
 }
 	100111934={	# 2a) Jan-Feliks (Dzików 6 May 1777-Dzików 3 May 1842); m.Horochów 21 Jun 1800 Waleria Stroynowska (Bubnow 9 Dec 1782-Dzików 23 Nov 1849)
 		name=Jan-Feliks
 		dynasty=1012008
 		religion=catholic culture=polish
-		father=100111930	# Jan-Jacek _Tarnowski
-		mother=100111932	# Rozalja Czacka
+		father=100111930	# Jan-Jacek Tarnowski
+		mother=100111932	# CSS Rozalja Czacka
 		1777.05.06={birth=yes}  # Dzików
 		1800.06.21={add_spouse=100111935}	# Waleria Stroynowska
 		1842.05.03={death=yes}  # Dzików
@@ -72,10 +104,10 @@
 			name="Jan Bogdan"
 			dynasty=1012008
 			religion=catholic culture=polish
-			father=100111934	# Jan-Feliks
+			father=100111934	# Jan-Feliks Tarnowski
 			mother=100111935	# Waleria Stroynowska
 			1805.08.20={birth=yes}  # Horochów
-			1829.10.03={add_spouse=100111938}	# Gabryela Malachowska
+			1829.10.03={add_spouse=100111938}	# CSS Gabryela Malachowska
 			1850.01.28={death=yes}  # Sulejów
 		}
 			100111939={	# 1c) Waleria (Konskie 8 Aug 1830-Nyjtra-Ujlak, Hungary 1 Oct 1914); m.Dresden 30 Aug 1855 Ct Franciszek Mycielski (Chocieszewice 15 Mar 1832-Wisniowa 2 Mar 1901)
@@ -83,8 +115,8 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100111937	# Jan Bogdan
-				mother=100111938	# Gabryela Malachowska
+				father=100111937	# Jan Bogdan Tarnowski
+				mother=100111938	# CSS Gabryela Malachowska
 				1830.08.08={birth=yes}  # Konskie
 				1914.10.01={death=yes}  # Ujlak Hungary
 			}
@@ -93,8 +125,8 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100111937	# Jan Bogdan
-				mother=100111938	# Gabryela Malachowska
+				father=100111937	# Jan Bogdan Tarnowski
+				mother=100111938	# CSS Gabryela Malachowska
 				1832.02.15={birth=yes}  # Dzików
 				1888.03.27={death=yes}  # Chorzelów
 			}
@@ -102,20 +134,20 @@
 				name=Jan-Dzierzyslaw
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100111937	# Jan Bogdan
-				mother=100111938	# Gabryela Malachowska
+				father=100111937	# Jan Bogdan Tarnowski
+				mother=100111938	# CSS Gabryela Malachowska
 				1835.01.11={birth=yes}  # Horochów
-				1861.07.25={add_spouse=100110452}	# Zofia Zamoyska
+				1861.07.25={add_spouse=100110452}	# Zofia Zamoyski
 				1894.05.11={death=yes}  # Dzików
 			}
 				100111945={	# 1d) Zdislaw Jan (Warsaw 5 Jun 1862-Dzików 24 Nov 1937); m.Krzeszowice 5 Aug 1897 Css Zofia Potocka (Krzeszowice 21 Apr 1879-Dzików 16 Nov 1933)
 					name="Zdislaw Jan"
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100111943	# Jan-Dzierzyslaw
-					mother=100110452	# Zofia Zamoyska
+					father=100111943	# Jan-Dzierzyslaw Tarnowski
+					mother=100110452	# Zofia Zamoyski
 					1862.06.05={birth=yes}  # Warsaw
-					1897.08.05={add_spouse=100111568}	# Zofia Potocka
+					1897.08.05={add_spouse=100111568}	# Zofia Potocki
 					1937.11.24={death=yes}  # Dzików
 				}
 					100111947={	# 1e) Róza (Dzików 11 Jun 1898-London 3 Feb 1961); m.Dzików 26 Oct 1920 Ct Wladyslaw Tyszkiewicz (Davos 30 Oct 1898-d.a prisoner in Russia Oct 1939)
@@ -123,8 +155,8 @@
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100111945	# Zdislaw Jan
-						mother=100111568	# Zofia Potocka
+						father=100111945	# Zdislaw Jan Tarnowski
+						mother=100111568	# Zofia Potocki
 						1898.06.11={birth=yes}  # Dzików
 						1961.02.03={death=yes}  # London
 					}
@@ -132,8 +164,8 @@
 						name="Jan Juljusz"
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100111945	# Zdislaw Jan
-						mother=100111568	# Zofia Potocka
+						father=100111945	# Zdislaw Jan Tarnowski
+						mother=100111568	# Zofia Potocki
 						1900.01.04={birth=yes}  # Abbazia
 						1966.05.04={death=yes}  # Edinburgh
 					}
@@ -142,8 +174,8 @@
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100111945	# Zdislaw Jan
-						mother=100111568	# Zofia Potocka
+						father=100111945	# Zdislaw Jan Tarnowski
+						mother=100111568	# Zofia Potocki
 						1901.03.19={birth=yes}  # Dzików
 						1963.01.04={death=yes}  # Bligny
 					}
@@ -151,10 +183,10 @@
 						name=Artur
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100111945	# Zdislaw Jan
-						mother=100111568	# Zofia Potocka
+						father=100111945	# Zdislaw Jan Tarnowski
+						mother=100111568	# Zofia Potocki
 						1903.03.03={birth=yes}  # Dzików
-						1931.07.15={add_spouse=100110319}	# Róza Zamoyski
+						1931.07.15={add_spouse=100110319}	# Roza Zamoyski
 						1984.12.19={death=yes}  # Montreal
 					}
 						100111954={	# 1f) Maria Zófia (b.Dzików 2 Jul 1932); m.Montreal 14 Jun 1952 Zdislaw Kryzan (Poznan 5 Jan 1915-Calgary 25 Mar 1994)
@@ -162,8 +194,8 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100111952	# Artur
-							mother=100110319	# Róza Zamoyski
+							father=100111952	# Artur Tarnowski
+							mother=100110319	# Roza Zamoyski
 							1932.07.02={birth=yes}  # Dzików
 							2009.01.01={death=yes}  # EST.
 						}
@@ -171,10 +203,10 @@
 							name="Jan Artur"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100111952	# Artur
-							mother=100110319	# Róza Zamoyski
+							father=100111952	# Artur Tarnowski
+							mother=100110319	# Roza Zamoyski
 							1933.06.10={birth=yes}  # Dzików
-							1959.12.19={add_spouse=100111957}	# Ioana Ghica Cantacuzene
+							1959.12.19={add_spouse=100111957}	# PSS Ioana Ghica Cantacuzene
 							1994.01.01={remove_spouse=100111957}
 							1996.04.20={add_spouse=100111958}	# Marychna Lichoniewicz
 							2010.01.01={death=yes}  # EST.
@@ -184,8 +216,8 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111956	# Jan Artur
-								mother=100111957	# Ioana Ghica Cantacuzene
+								father=100111956	# Jan Artur Tarnowski
+								mother=100111957	# PSS Ioana Ghica Cantacuzene
 								1960.06.25={birth=yes}  # Calgary
 							}
 							100111961={	# 2g) Danuta Ioana (b.Calgary 18 Oct 1961); m.Calgary 7 Mar 1987 Thomas S.Trafford (b.Calgary 7 Oct 1960)
@@ -193,8 +225,8 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111956	# Jan Artur
-								mother=100111957	# Ioana Ghica Cantacuzene
+								father=100111956	# Jan Artur Tarnowski
+								mother=100111957	# PSS Ioana Ghica Cantacuzene
 								1961.10.18={birth=yes}  # Calgary
 							}
 							100111963={	# 3g) Jolanta Gabrielle (b.Calgary 26 Feb 1964); m.Calgary 27 Apr 2001 (div 18 Jul 2008) Brian Thomas Amos (b.Calgary 19 Apr 1957)
@@ -202,8 +234,8 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111956	# Jan Artur
-								mother=100111957	# Ioana Ghica Cantacuzene
+								father=100111956	# Jan Artur Tarnowski
+								mother=100111957	# PSS Ioana Ghica Cantacuzene
 								1964.02.26={birth=yes}  # Calgary
 							}
 							100111965={	# 4g) Maria Elzbieta (b.Warsaw 8 Jul 1991)
@@ -211,8 +243,8 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111956	# Jan Artur
-								mother=100111957	# Ioana Ghica Cantacuzene
+								father=100111956	# Jan Artur Tarnowski
+								mother=100111957	# PSS Ioana Ghica Cantacuzene
 								1991.07.08={birth=yes}  # Warsaw
 							}
 							100111966={	# 5g) Zofia Gabriella (b.Warsaw 3 Oct 1992)
@@ -220,16 +252,16 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111956	# Jan Artur
-								mother=100111957	# Ioana Ghica Cantacuzene
+								father=100111956	# Jan Artur Tarnowski
+								mother=100111957	# PSS Ioana Ghica Cantacuzene
 								1992.10.03={birth=yes}  # Warsaw
 							}
 						100111967={	# 3f) Marcin Juliusz (Dzików 15 Apr 1935-Montreal 21 Jan 2009); m.1st Montreal 3 Jun 1961 (div May 1975) Elisabeth Rodziewicz (b.Tuchola 13 Feb 1940); m.2nd Montreal 13 Jun 1975 (div Jul 1977) Slawomira Szymczynska (b.Wilno, Lithuania 4 Nov 1934)
 							name="Marcin Juliusz"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100111952	# Artur
-							mother=100110319	# Róza Zamoyski
+							father=100111952	# Artur Tarnowski
+							mother=100110319	# Roza Zamoyski
 							1935.04.15={birth=yes}  # Dzików
 							1961.06.03={add_spouse=100111968}	# Elisabeth Rodziewicz
 							1975.05.01={remove_spouse=100111968}
@@ -242,7 +274,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111967	# Marcin Juliusz
+								father=100111967	# Marcin Juliusz Tarnowski
 								mother=100111968	# Elisabeth Rodziewicz
 								1962.04.13={birth=yes}  # Edmonton
 							}
@@ -250,7 +282,7 @@
 								name="Thomas Amor"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111967	# Marcin Juliusz
+								father=100111967	# Marcin Juliusz Tarnowski
 								mother=100111968	# Elisabeth Rodziewicz
 								1964.02.24={birth=yes}  # St.John Newfoundland
 								2001.02.01={add_spouse=100111973}	# Marie Christine Harvey
@@ -259,7 +291,7 @@
 									name="Erica Harvey-Fortin"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111972	# Thomas Amor
+									father=100111972	# Thomas Amor Tarnowski
 									mother=100111973	# Marie Christine Harvey
 									1991.01.01={birth=yes}  # Laval Canada
 								}
@@ -267,7 +299,7 @@
 									name="Raphael Harvey-Fortin"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111972	# Thomas Amor
+									father=100111972	# Thomas Amor Tarnowski
 									mother=100111973	# Marie Christine Harvey
 									1993.01.01={birth=yes}  # Laval
 								}
@@ -276,7 +308,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111972	# Thomas Amor
+									father=100111972	# Thomas Amor Tarnowski
 									mother=100111973	# Marie Christine Harvey
 									2002.01.01={birth=yes}  # St.Lambert Canada
 								}
@@ -285,7 +317,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111972	# Thomas Amor
+									father=100111972	# Thomas Amor Tarnowski
 									mother=100111973	# Marie Christine Harvey
 									2002.01.01={birth=yes}  # St.Lambert
 								}
@@ -293,7 +325,7 @@
 								name="Michael Stanislaw"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111967	# Marcin Juliusz
+								father=100111967	# Marcin Juliusz Tarnowski
 								mother=100111968	# Elisabeth Rodziewicz
 								1967.03.31={birth=yes}  # Montreal
 								1992.07.04={add_spouse=100111979}	# Tracy Thibault
@@ -302,7 +334,7 @@
 									name="Alexander James"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111978	# Michael Stanislaw
+									father=100111978	# Michael Stanislaw Tarnowski
 									mother=100111979	# Tracy Thibault
 									1995.01.01={birth=yes}  # Ottawa
 								}
@@ -311,7 +343,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111978	# Michael Stanislaw
+									father=100111978	# Michael Stanislaw Tarnowski
 									mother=100111979	# Tracy Thibault
 									1998.01.01={birth=yes}  # Ottawa
 								}
@@ -319,7 +351,7 @@
 								name="Arthur Jan"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111967	# Marcin Juliusz
+								father=100111967	# Marcin Juliusz Tarnowski
 								mother=100111968	# Elisabeth Rodziewicz
 								1971.01.20={birth=yes}  # Montreal
 								2000.09.01={add_spouse=100111983}	# Christine Saucerotte
@@ -328,7 +360,7 @@
 									name="Nicolas Anthony"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111982	# Arthur Jan
+									father=100111982	# Arthur Jan Tarnowski
 									mother=100111983	# Christine Saucerotte
 									2003.01.01={birth=yes}  # Montreal
 								}
@@ -337,7 +369,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111982	# Arthur Jan
+									father=100111982	# Arthur Jan Tarnowski
 									mother=100111983	# Christine Saucerotte
 									2007.01.01={birth=yes}
 								}
@@ -345,8 +377,8 @@
 							name=Pawel
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100111952	# Artur
-							mother=100110319	# Róza Zamoyski
+							father=100111952	# Artur Tarnowski
+							mother=100110319	# Roza Zamoyski
 							1937.01.20={birth=yes}  # Dzików
 							1964.08.22={add_spouse=100111987}	# Yolande Lucciola
 							2014.01.01={death=yes}  # EST.
@@ -355,7 +387,7 @@
 								name="John Anthony"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111986	# Pawel
+								father=100111986	# Pawel Tarnowski
 								mother=100111987	# Yolande Lucciola
 								1971.06.06={birth=yes}  # Ottawa
 								2003.09.06={add_spouse=100111989}	# Judith Ellen Maran
@@ -365,7 +397,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111988	# John Anthony
+									father=100111988	# John Anthony Tarnowski
 									mother=100111989	# Judith Ellen Maran
 									2005.01.01={birth=yes}  # Toronto
 								}
@@ -373,7 +405,7 @@
 									name="Andrew John"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100111988	# John Anthony
+									father=100111988	# John Anthony Tarnowski
 									mother=100111989	# Judith Ellen Maran
 									2008.01.01={birth=yes}  # Toronto
 								}
@@ -382,7 +414,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100111986	# Pawel
+								father=100111986	# Pawel Tarnowski
 								mother=100111987	# Yolande Lucciola
 								1975.01.31={birth=yes}  # Ottawa
 							}
@@ -391,8 +423,8 @@
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100111945	# Zdislaw Jan
-						mother=100111568	# Zofia Potocka
+						father=100111945	# Zdislaw Jan Tarnowski
+						mother=100111568	# Zofia Potocki
 						1904.03.24={birth=yes}  # Dzików
 						1985.10.25={death=yes}  # Royston England
 					}
@@ -400,10 +432,10 @@
 						name=Andrzej
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100111945	# Zdislaw Jan
-						mother=100111568	# Zofia Potocka
+						father=100111945	# Zdislaw Jan Tarnowski
+						mother=100111568	# Zofia Potocki
 						1909.01.15={birth=yes}  # Cracow
-						1937.02.04={add_spouse=100112087}	# Zofia Róza Tarnowska
+						1937.02.04={add_spouse=100112087}	# CSS Zofia Róza Tarnowska
 						1944.01.01={remove_spouse=100112087}
 						1950.12.06={add_spouse=100111998}	# Wendy Mary Kimpson
 						1978.06.09={death=yes}  # Scunthorpe
@@ -413,7 +445,7 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100111996	# Andrzej
+							father=100111996	# Andrzej Tarnowski
 							mother=100111998	# Wendy Mary Kimpson
 							1957.08.16={birth=yes}  # Scunthorpe
 						}
@@ -421,29 +453,29 @@
 					name=Juliusz
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100111943	# Jan-Dzierzyslaw
-					mother=100110452	# Zofia Zamoyska
+					father=100111943	# Jan-Dzierzyslaw Tarnowski
+					mother=100110452	# Zofia Zamoyski
 					1864.04.04={birth=yes}  # Wysock
-					1893.08.31={add_spouse=100112004}	# Gabrielle Starzenska
-					1897.09.14={add_spouse=100112005}	# Anna Branicka
+					1893.08.31={add_spouse=100112004}	# CSS Gabrielle Starzenska
+					1897.09.14={add_spouse=100112005}	# CSS Anna Branicka
 					1917.10.03={death=yes}  # Warsaw
 				}
 					100112006={	# 1e) Wladislaw (Konskie 21 Nov 1899-Poland 1940); m.Chroberz 26 Sep 1928 Css Maria Wielopolska (Chroberz 16 Jul 1904-Poznan 21 Jan 1979)
 						name=Wladislaw
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112003	# Juliusz
-						mother=100112005	# Anna Branicka
+						father=100112003	# Juliusz Tarnowski
+						mother=100112005	# CSS Anna Branicka
 						1899.11.21={birth=yes}  # Konskie
-						1928.09.26={add_spouse=100112007}	# Maria Wielopolska
+						1928.09.26={add_spouse=100112007}	# CSS Maria Wielopolska
 						1940.01.01={death=yes}  # Poland
 					}
 						100112008={	# 1f) Juliusz (b.Konskie 21 Sep 1929); m.1st Cracow 6 Apr 1953 (div 1 Nov 1985) Helena Poninska (b.Poznan 15 Sep 1934); m.2nd (civ) Cracow 1962 (div 1975) Halina Bobinska (b.1945); m.3rd Cracow (civ) 19 Mar 1976 (rel) 10 Dec 1985 Maria Nowacka (b.Cracow 15 Aug 1952)
 							name=Juliusz
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112006	# Wladislaw
-							mother=100112007	# Maria Wielopolska
+							father=100112006	# Wladislaw Tarnowski
+							mother=100112007	# CSS Maria Wielopolska
 							1929.09.21={birth=yes}  # Konskie
 							1953.04.06={add_spouse=100112009}	# Helena Poninska
 							1962.01.01={add_spouse=100112010}	# Halina Bobinska
@@ -456,7 +488,7 @@
 								name="Wladislaw Edward"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112008	# Juliusz
+								father=100112008	# Juliusz Tarnowski
 								mother=100112009	# Helena Poninska
 								1954.01.07={birth=yes}  # Cracow
 								1980.06.21={add_spouse=100112013}	# Hanna Leskiewicz
@@ -465,7 +497,7 @@
 									name="Marek Lazarski"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112012	# Wladislaw Edward
+									father=100112012	# Wladislaw Edward Tarnowski
 									mother=100112013	# Hanna Leskiewicz
 									2003.10.25={birth=yes}  # Cracow
 								}
@@ -473,7 +505,7 @@
 									name="Stanislaw Marek"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112012	# Wladislaw Edward
+									father=100112012	# Wladislaw Edward Tarnowski
 									mother=100112013	# Hanna Leskiewicz
 									1993.05.30={birth=yes}  # Cracow
 								}
@@ -482,7 +514,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112012	# Wladislaw Edward
+									father=100112012	# Wladislaw Edward Tarnowski
 									mother=100112013	# Hanna Leskiewicz
 									1993.02.19={birth=yes}  # Cracow
 								}
@@ -490,7 +522,7 @@
 								name="Robert Marek"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112008	# Juliusz
+								father=100112008	# Juliusz Tarnowski
 								mother=100112010	# Halina Bobinska
 								1966.04.08={birth=yes}  # Cracow
 							}
@@ -498,7 +530,7 @@
 								name="Bohdan Krzystof"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112008	# Juliusz
+								father=100112008	# Juliusz Tarnowski
 								mother=100112011	# Maria Nowacka
 								1977.07.16={birth=yes}  # Cracow
 							}
@@ -507,7 +539,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112008	# Juliusz
+								father=100112008	# Juliusz Tarnowski
 								mother=100112011	# Maria Nowacka
 								1979.09.21={birth=yes}  # Cracow
 							}
@@ -515,8 +547,8 @@
 							name=Marek
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112006	# Wladislaw
-							mother=100112007	# Maria Wielopolska
+							father=100112006	# Wladislaw Tarnowski
+							mother=100112007	# CSS Maria Wielopolska
 							1932.01.26={birth=yes}  # Konskie
 							1975.05.08={add_spouse=100112022}	# Kryztyna Debczynska
 							2009.01.01={death=yes}  # EST.
@@ -525,8 +557,8 @@
 							name="Aleksander _Oles"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112006	# Wladislaw
-							mother=100112007	# Maria Wielopolska
+							father=100112006	# Wladislaw Tarnowski
+							mother=100112007	# CSS Maria Wielopolska
 							1934.08.17={birth=yes}  # Konskie
 							1958.12.06={add_spouse=100112024}	# Marie Jelenska
 							2011.01.01={death=yes}  # EST.
@@ -535,7 +567,7 @@
 								name="Jacek Wladislaw"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112023	# Aleksander _Oles
+								father=100112023	# Aleksander  Oles Tarnowski
 								mother=100112024	# Marie Jelenska
 								1964.01.15={birth=yes}  # Gdansk
 								1988.10.29={add_spouse=100112026}	# Monika Wanicka
@@ -545,7 +577,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112025	# Jacek Wladislaw
+									father=100112025	# Jacek Wladislaw Tarnowski
 									mother=100112026	# Monika Wanicka
 									1989.07.25={birth=yes}  # Gdansk
 								}
@@ -554,7 +586,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112025	# Jacek Wladislaw
+									father=100112025	# Jacek Wladislaw Tarnowski
 									mother=100112026	# Monika Wanicka
 									1991.04.07={birth=yes}  # Gdansk
 								}
@@ -562,7 +594,7 @@
 									name="Pawel Aleksander"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112025	# Jacek Wladislaw
+									father=100112025	# Jacek Wladislaw Tarnowski
 									mother=100112026	# Monika Wanicka
 									1994.04.03={birth=yes}  # Gdynia
 								}
@@ -571,7 +603,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112025	# Jacek Wladislaw
+									father=100112025	# Jacek Wladislaw Tarnowski
 									mother=100112026	# Monika Wanicka
 									1996.09.16={birth=yes}  # Gdynia
 								}
@@ -579,7 +611,7 @@
 								name="Tomasz Kazimierz"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112023	# Aleksander _Oles
+								father=100112023	# Aleksander  Oles Tarnowski
 								mother=100112024	# Marie Jelenska
 								1966.06.11={birth=yes}  # Gdansk
 								1993.05.08={add_spouse=100112032}	# Katarzyna Biegun
@@ -588,7 +620,7 @@
 									name="Jan Wladislaw"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112031	# Tomasz Kazimierz
+									father=100112031	# Tomasz Kazimierz Tarnowski
 									mother=100112032	# Katarzyna Biegun
 									1993.09.15={birth=yes}  # Gdynia
 								}
@@ -597,7 +629,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112031	# Tomasz Kazimierz
+									father=100112031	# Tomasz Kazimierz Tarnowski
 									mother=100112032	# Katarzyna Biegun
 									1996.08.23={birth=yes}  # Gdynia
 								}
@@ -606,7 +638,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112023	# Aleksander _Oles
+								father=100112023	# Aleksander  Oles Tarnowski
 								mother=100112024	# Marie Jelenska
 								1970.10.10={birth=yes}  # Gdansk
 							}
@@ -614,18 +646,18 @@
 						name=Juliusz
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112003	# Juliusz
-						mother=100112005	# Anna Branicka
+						father=100112003	# Juliusz Tarnowski
+						mother=100112005	# CSS Anna Branicka
 						1901.06.08={birth=yes}  # Konskie
-						1930.11.15={add_spouse=100110417}	# Róza Zamoyska
+						1930.11.15={add_spouse=100110417}	# Roza Zamoyski
 						1989.02.19={death=yes}  # Paris
 					}
 						100112039={	# 1f) Wladislaw (b.Sucha 1 Aug 1931); m.1st Paris 11 Feb 1956 (div 1980) Jacqueline Codet de Casaubon (b.Paris 1 Jun 1932); m.2nd Paris 8 Aug 2008 Marita Sobanska (b.Warsaw 23 Sep 1944)
 							name=Wladislaw
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112037	# Juliusz
-							mother=100110417	# Róza Zamoyska
+							father=100112037	# Juliusz Tarnowski
+							mother=100110417	# Roza Zamoyski
 							1931.08.01={birth=yes}  # Sucha
 							1956.02.11={add_spouse=100112040}	# Jacqueline Codet de Casaubon
 							1980.01.01={remove_spouse=100112040}
@@ -637,7 +669,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=frankish
-								father=100112039	# Wladislaw
+								father=100112039	# Wladislaw Tarnowski
 								mother=100112040	# Jacqueline Codet de Casaubon
 								1956.09.29={birth=yes}  # Paris
 							}
@@ -646,7 +678,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=frankish
-								father=100112039	# Wladislaw
+								father=100112039	# Wladislaw Tarnowski
 								mother=100112040	# Jacqueline Codet de Casaubon
 								1960.09.23={birth=yes}  # Paris
 							}
@@ -655,8 +687,8 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112037	# Juliusz
-							mother=100110417	# Róza Zamoyska
+							father=100112037	# Juliusz Tarnowski
+							mother=100110417	# Roza Zamoyski
 							1934.04.23={birth=yes}  # Sucha
 							2011.01.01={death=yes}  # EST.
 						}
@@ -664,8 +696,8 @@
 							name="Adam Zygmunt"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112037	# Juliusz
-							mother=100110417	# Róza Zamoyska
+							father=100112037	# Juliusz Tarnowski
+							mother=100110417	# Roza Zamoyski
 							1937.09.09={birth=yes}  # Sucha
 							1965.03.25={add_spouse=100112049}	# Hélène Jeanne Hervé-Gruyer
 							2003.09.04={remove_spouse=100112049}
@@ -676,7 +708,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112048	# Adam Zygmunt
+								father=100112048	# Adam Zygmunt Tarnowski
 								mother=100112049	# Hélène Jeanne Hervé-Gruyer
 								1966.10.01={birth=yes}  # Geneva
 							}
@@ -684,7 +716,7 @@
 								name=Stanislaw
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112048	# Adam Zygmunt
+								father=100112048	# Adam Zygmunt Tarnowski
 								mother=100112049	# Hélène Jeanne Hervé-Gruyer
 								1970.07.31={birth=yes}  # Geneva
 							}
@@ -693,7 +725,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112048	# Adam Zygmunt
+								father=100112048	# Adam Zygmunt Tarnowski
 								mother=100112049	# Hélène Jeanne Hervé-Gruyer
 								1976.12.22={birth=yes}  # Geneva
 							}
@@ -701,8 +733,8 @@
 							name="Rafal Zdislaw"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112037	# Juliusz
-							mother=100110417	# Róza Zamoyska
+							father=100112037	# Juliusz Tarnowski
+							mother=100110417	# Roza Zamoyski
 							1937.09.09={birth=yes}  # Sucha
 							1974.01.01={add_spouse=100112054}	# Mercedes Olavarria-Gomez
 							1981.01.01={remove_spouse=100112054}
@@ -714,7 +746,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=frankish
-								father=100112053	# Rafal Zdislaw
+								father=100112053	# Rafal Zdislaw Tarnowski
 								mother=100112054	# Mercedes Olavarria-Gomez
 								1974.02.12={birth=yes}  # Paris
 							}
@@ -723,16 +755,16 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112037	# Juliusz
-							mother=100110417	# Róza Zamoyska
+							father=100112037	# Juliusz Tarnowski
+							mother=100110417	# Roza Zamoyski
 							1940.08.21={birth=yes}  # Nice
 						}
 						100112059={	# 6f) Stefan Pawel Henryk (b.Loches 18 Mar 1946); m.Lamilhale 2 Aug 1969 Véronique de Boysson (Paris 10 Feb 1946-Toulouse 26 Jan 1996)
 							name="Stefan Pawel"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112037	# Juliusz
-							mother=100110417	# Róza Zamoyska
+							father=100112037	# Juliusz Tarnowski
+							mother=100110417	# Roza Zamoyski
 							1946.03.18={birth=yes}  # Loches
 							1969.08.02={add_spouse=100112060}	# Véronique de Boysson
 						}
@@ -741,7 +773,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=frankish
-								father=100112059	# Stefan Pawel
+								father=100112059	# Stefan Pawel Tarnowski
 								mother=100112060	# Véronique de Boysson
 								1973.09.21={birth=yes}  # Paris
 							}
@@ -750,7 +782,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=frankish
-								father=100112059	# Stefan Pawel
+								father=100112059	# Stefan Pawel Tarnowski
 								mother=100112060	# Véronique de Boysson
 								1976.06.08={birth=yes}  # Paris
 							}
@@ -758,7 +790,7 @@
 								name=Benoît
 								dynasty=1012008
 								religion=catholic culture=frankish
-								father=100112059	# Stefan Pawel
+								father=100112059	# Stefan Pawel Tarnowski
 								mother=100112060	# Véronique de Boysson
 								1980.04.24={birth=yes}  # Paris
 							}
@@ -767,8 +799,8 @@
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112003	# Juliusz
-						mother=100112005	# Anna Branicka
+						father=100112003	# Juliusz Tarnowski
+						mother=100112005	# CSS Anna Branicka
 						1903.11.18={birth=yes}  # Konskie
 						2000.01.06={death=yes}  # Montrésor
 					}
@@ -776,8 +808,8 @@
 						name=Stefan
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112003	# Juliusz
-						mother=100112005	# Anna Branicka
+						father=100112003	# Juliusz Tarnowski
+						mother=100112005	# CSS Anna Branicka
 						1906.04.22={birth=yes}  # Konskie
 						1943.05.13={death=yes}  # Warsaw
 					}
@@ -785,20 +817,20 @@
 					name="Adam Amor"
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100111943	# Jan-Dzierzyslaw
-					mother=100110452	# Zofia Zamoyska
+					father=100111943	# Jan-Dzierzyslaw Tarnowski
+					mother=100110452	# Zofia Zamoyski
 					1866.03.04={birth=yes}  # Cracow
-					1901.09.10={add_spouse=100112070}	# Marie Swiatopolk-Czetwertynska
+					1901.09.10={add_spouse=100112070}	# PSS Marie Swiatopolk-Czetwertynska
 					1946.10.10={death=yes}  # Lausanne
 				}
 					100112071={	# 1e) Andrzej (Milanów 10 Aug 1902-Rio de Janeiro 27 Oct 1949); m.Karwiná 25 Apr 1935 Helene Gfn Larisch v.Moennich (Roy 1 May 1914-Rio de Janeiro 1 Apr 2011)
 						name=Andrzej
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112069	# Adam Amor
-						mother=100112070	# Marie Swiatopolk-Czetwertynska
+						father=100112069	# Adam Amor Tarnowski
+						mother=100112070	# PSS Marie Swiatopolk-Czetwertynska
 						1902.08.10={birth=yes}  # Milanów
-						1935.04.25={add_spouse=100112072}	# Helene Larisch v.Moennich
+						1935.04.25={add_spouse=100112072}	# GFN Helene Larisch v.Moennich
 						1949.10.27={death=yes}  # Rio de_Janeiro
 					}
 						100112073={	# 1f) Olivia (b.Jaworze 18 Jul 1936); m.Rio de Janeiro 7 Oct 1960 Riccardo Fasanello (Sao Paulo 30 Sep 1931-Rio de Janeiro 1 May 1993)
@@ -806,8 +838,8 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112071	# Andrzej
-							mother=100112072	# Helene Larisch v.Moennich
+							father=100112071	# Andrzej Tarnowski
+							mother=100112072	# GFN Helene Larisch v.Moennich
 							1936.07.18={birth=yes}  # Jaworze
 							2013.01.01={death=yes}  # EST.
 						}
@@ -816,8 +848,8 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112071	# Andrzej
-							mother=100112072	# Helene Larisch v.Moennich
+							father=100112071	# Andrzej Tarnowski
+							mother=100112072	# GFN Helene Larisch v.Moennich
 							1938.01.20={birth=yes}  # Warsaw
 							2015.01.01={death=yes}  # EST.
 						}
@@ -826,8 +858,8 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100111943	# Jan-Dzierzyslaw
-					mother=100110452	# Zofia Zamoyska
+					father=100111943	# Jan-Dzierzyslaw Tarnowski
+					mother=100110452	# Zofia Zamoyski
 					1869.06.29={birth=yes}  # Dzików
 					1954.08.02={death=yes}  # Lesna Podkowa
 				}
@@ -835,10 +867,10 @@
 				name=Stanislaw-Kostka
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100111937	# Jan Bogdan
-				mother=100111938	# Gabryela Malachowska
+				father=100111937	# Jan Bogdan Tarnowski
+				mother=100111938	# CSS Gabryela Malachowska
 				1837.11.07={birth=yes}  # Dzików
-				1874.04.16={add_spouse=100112080}	# Róza Branicka
+				1874.04.16={add_spouse=100112080}	# CSS Róza Branicka
 				1917.12.31={death=yes}  # Cracow
 			}
 				100112081={	# 1d) Elzbieta (Cracow 19 Nov 1875-Montrésor 28 Oct 1955); m.Cracow 8 Jan 1898 Janos Gf Esterházy v.Galantha (Preßburg 6 Dec 1864-Nyitra-Ujlak 2 Sep 1905)
@@ -846,8 +878,8 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112079	# Stanislaw-Kostka
-					mother=100112080	# Róza Branicka
+					father=100112079	# Stanislaw-Kostka Tarnowski
+					mother=100112080	# CSS Róza Branicka
 					1875.11.19={birth=yes}  # Cracow
 					1955.10.28={death=yes}  # Montrésor
 				}
@@ -856,8 +888,8 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112079	# Stanislaw-Kostka
-					mother=100112080	# Róza Branicka
+					father=100112079	# Stanislaw-Kostka Tarnowski
+					mother=100112080	# CSS Róza Branicka
 					1879.06.20={birth=yes}  # Cracow
 					1945.07.22={death=yes}  # Cracow
 				}
@@ -865,10 +897,10 @@
 					name=Hieronim
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112079	# Stanislaw-Kostka
-					mother=100112080	# Róza Branicka
+					father=100112079	# Stanislaw-Kostka Tarnowski
+					mother=100112080	# CSS Róza Branicka
 					1884.08.12={birth=yes}  # Cracow
-					1914.07.08={add_spouse=100110449}	# Wanda Zamoyska
+					1914.07.08={add_spouse=100110449}	# Wanda Zamoyski
 					1945.07.31={death=yes}  # Cracow
 				}
 					100112087={	# 1e) Zofia Róza Jadwiga (Rudnik 16 Mar 1917-Rudnik 22 Nov 2009); m.1st Rudnik 4 Feb 1937 (div 1944) Ct Andrzej Tarnowski (Cracow 15 Jan 1909-Scunthorpe 9 Jun 1978); m.2nd Cairo 26 Apr 1945 Iwan William Stanley Moss (Yokohama 15 Apr 1921-Kingston, Jamaica 8 Aug 1965)
@@ -876,8 +908,8 @@
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112085	# Hieronim
-						mother=100110449	# Wanda Zamoyska
+						father=100112085	# Hieronim Tarnowski
+						mother=100110449	# Wanda Zamoyski
 						1917.03.16={birth=yes}  # Rudnik
 						2009.11.22={death=yes}  # Rudnik
 					}
@@ -885,19 +917,19 @@
 						name="Stanislaw-Kostka Stefan"
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112085	# Hieronim
-						mother=100110449	# Wanda Zamoyska
+						father=100112085	# Hieronim Tarnowski
+						mother=100110449	# Wanda Zamoyski
 						1918.09.16={birth=yes}  # Rudnik
 						1939.10.24={add_spouse=100112091}	# Sophie Cecilie Jaxa-Chamiec
 						1948.01.01={remove_spouse=100112091}
-						1950.01.01={add_spouse=100111258}	# Ada Lubomirska
+						1950.01.01={add_spouse=100111258}	# Ada Lubomirski
 						2006.04.04={death=yes}  # Warsaw
 					}
 						100112093={	# 1f) Andrzej Jan Emeryk Stanislaw (b.Geneva 18 Sep 1940); m.1st Rome 16 Jun 1972 Ysabel Geraldine Trujillo (b.Chicago 28 Sep 1945); m.2nd Nicosia 20 Dec 1985 Wafa Stephan (b.Jounie, Lebanon 20 Aug 1956)
 							name="Andrzej Jan"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112090	# Stanislaw-Kostka Stefan
+							father=100112090	# Stanislaw-Kostka Stefan Tarnowski
 							mother=100112091	# Sophie Cecilie Jaxa-Chamiec
 							1940.09.18={birth=yes}  # Geneva
 							1972.06.16={add_spouse=100112094}	# Ysabel Geraldine Trujillo
@@ -909,7 +941,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=italian
-								father=100112093	# Andrzej Jan
+								father=100112093	# Andrzej Jan Tarnowski
 								mother=100112094	# Ysabel Geraldine Trujillo
 								1972.11.29={birth=yes}  # Rome
 							}
@@ -917,7 +949,7 @@
 								name="Jan Marcos"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112093	# Andrzej Jan
+								father=100112093	# Andrzej Jan Tarnowski
 								mother=100112094	# Ysabel Geraldine Trujillo
 								1976.12.02={birth=yes}  # Buenos Aires
 								2003.07.02={add_spouse=100112100}	# Valentina Alejandra Munoz
@@ -927,7 +959,7 @@
 									female=yes
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112099	# Jan Marcos
+									father=100112099	# Jan Marcos Tarnowski
 									mother=100112100	# Valentina Alejandra Munoz
 									2005.08.12={birth=yes}  # Montreal
 								}
@@ -935,7 +967,7 @@
 									name="Benjamin Andrew"
 									dynasty=1012008
 									religion=catholic culture=polish
-									father=100112099	# Jan Marcos
+									father=100112099	# Jan Marcos Tarnowski
 									mother=100112100	# Valentina Alejandra Munoz
 									2007.12.01={birth=yes}  # Montreal
 								}
@@ -944,7 +976,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=english
-								father=100112093	# Andrzej Jan
+								father=100112093	# Andrzej Jan Tarnowski
 								mother=100112095	# Wafa Stephan
 								1986.10.13={birth=yes}  # London
 							}
@@ -952,7 +984,7 @@
 								name="Jan Stefan"
 								dynasty=1012008
 								religion=catholic culture=english
-								father=100112093	# Andrzej Jan
+								father=100112093	# Andrzej Jan Tarnowski
 								mother=100112095	# Wafa Stephan
 								1987.10.11={birth=yes}  # London
 							}
@@ -961,16 +993,16 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=english
-							father=100112090	# Stanislaw-Kostka Stefan
-							mother=100111258	# Ada Lubomirska
+							father=100112090	# Stanislaw-Kostka Stefan Tarnowski
+							mother=100111258	# Ada Lubomirski
 							1951.03.02={birth=yes}  # London
 						}
 						100112108={	# 3f) Adam (b.London 8 Feb 1952); m.Cracow 1 Sep 1996 Dorota Mazurkiewicz (b.Tuliglów 7 Jan 1962)
 							name=Adam
 							dynasty=1012008
 							religion=catholic culture=english
-							father=100112090	# Stanislaw-Kostka Stefan
-							mother=100111258	# Ada Lubomirska
+							father=100112090	# Stanislaw-Kostka Stefan Tarnowski
+							mother=100111258	# Ada Lubomirski
 							1952.02.08={birth=yes}  # London
 							1996.09.01={add_spouse=100112109}	# Dorota Mazurkiewicz
 						}
@@ -979,16 +1011,16 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=english
-							father=100112090	# Stanislaw-Kostka Stefan
-							mother=100111258	# Ada Lubomirska
+							father=100112090	# Stanislaw-Kostka Stefan Tarnowski
+							mother=100111258	# Ada Lubomirski
 							1953.01.16={birth=yes}  # London
 						}
 						100112112={	# 5f) Michael Hieronim (b.London 12 Feb 1956); m.Cheltenham 8 Sep 1979 Janina Teresa Chojnacka (b.Moreton, England 3 Feb 1958)
 							name="Michael Hieronim"
 							dynasty=1012008
 							religion=catholic culture=english
-							father=100112090	# Stanislaw-Kostka Stefan
-							mother=100111258	# Ada Lubomirska
+							father=100112090	# Stanislaw-Kostka Stefan Tarnowski
+							mother=100111258	# Ada Lubomirski
 							1956.02.12={birth=yes}  # London
 							1979.09.08={add_spouse=100112113}	# Janina Teresa Chojnacka
 						}
@@ -997,7 +1029,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112112	# Michael Hieronim
+								father=100112112	# Michael Hieronim Tarnowski
 								mother=100112113	# Janina Teresa Chojnacka
 								1980.08.13={birth=yes}  # Stirling
 							}
@@ -1005,7 +1037,7 @@
 								name="Andrzej Marek"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112112	# Michael Hieronim
+								father=100112112	# Michael Hieronim Tarnowski
 								mother=100112113	# Janina Teresa Chojnacka
 								1985.05.04={birth=yes}  # Cheltenham
 							}
@@ -1013,7 +1045,7 @@
 								name="Adam Jan"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112112	# Michael Hieronim
+								father=100112112	# Michael Hieronim Tarnowski
 								mother=100112113	# Janina Teresa Chojnacka
 								1993.06.19={birth=yes}  # Cheltenham
 							}
@@ -1021,8 +1053,8 @@
 							name="Jan _Spytek"
 							dynasty=1012008
 							religion=catholic culture=english
-							father=100112090	# Stanislaw-Kostka Stefan
-							mother=100111258	# Ada Lubomirska
+							father=100112090	# Stanislaw-Kostka Stefan Tarnowski
+							mother=100111258	# Ada Lubomirski
 							1958.01.24={birth=yes}  # London
 							1991.11.08={add_spouse=100112118}	# Irena Boruszewska
 						}
@@ -1030,7 +1062,7 @@
 								name="Marek Jan"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112117	# Jan _Spytek
+								father=100112117	# Jan  Spytek Tarnowski
 								mother=100112118	# Irena Boruszewska
 								1992.11.28={birth=yes}  # Warsaw
 							}
@@ -1039,7 +1071,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112117	# Jan _Spytek
+								father=100112117	# Jan  Spytek Tarnowski
 								mother=100112118	# Irena Boruszewska
 								1992.11.28={birth=yes}  # Warsaw
 							}
@@ -1047,16 +1079,16 @@
 							name=Marek
 							dynasty=1012008
 							religion=catholic culture=english
-							father=100112090	# Stanislaw-Kostka Stefan
-							mother=100111258	# Ada Lubomirska
+							father=100112090	# Stanislaw-Kostka Stefan Tarnowski
+							mother=100111258	# Ada Lubomirski
 							1961.12.08={birth=yes}  # London
 						}
 					100112122={	# 3e) Artur Jan (Rudnik 1 Jan 1930-30 Jun 2012); m.1st Aberdeenshire 31 Oct 1980 (div 1986) Bridget Mary Astor (b.London 16 Feb 1948); m.2nd London 6 Jan 1989 Isabella Badeni (b.Jerusalem 29 May 1943)
 						name="Artur Jan"
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112085	# Hieronim
-						mother=100110449	# Wanda Zamoyska
+						father=100112085	# Hieronim Tarnowski
+						mother=100110449	# Wanda Zamoyski
 						1930.01.01={birth=yes}  # Rudnik
 						1980.10.31={add_spouse=100112123}	# Bridget Mary Astor
 						1986.01.01={remove_spouse=100112123}
@@ -1067,7 +1099,7 @@
 							name="John Sebastian"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112122	# Artur Jan
+							father=100112122	# Artur Jan Tarnowski
 							mother=100112123	# Bridget Mary Astor
 							1981.10.23={birth=yes}  # Aberdeen
 						}
@@ -1075,7 +1107,7 @@
 							name="Lucian Francis"
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112122	# Artur Jan
+							father=100112122	# Artur Jan Tarnowski
 							mother=100112123	# Bridget Mary Astor
 							1984.01.04={birth=yes}  # Aberdeen
 						}
@@ -1083,8 +1115,8 @@
 				name=Juliusz
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100111937	# Jan Bogdan
-				mother=100111938	# Gabryela Malachowska
+				father=100111937	# Jan Bogdan Tarnowski
+				mother=100111938	# CSS Gabryela Malachowska
 				1840.12.06={birth=yes}  # Dzików
 				1863.06.20={death=yes}  # Komorów
 			}
@@ -1093,7 +1125,7 @@
 			female=yes
 			dynasty=1012008
 			religion=catholic culture=polish
-			father=100111934	# Jan-Feliks
+			father=100111934	# Jan-Feliks Tarnowski
 			mother=100111935	# Waleria Stroynowska
 			1807.10.26={birth=yes}  # Horochów
 			1870.01.27={death=yes}  # Horochów
@@ -1102,10 +1134,10 @@
 			name="Walerian Spycimir"
 			dynasty=1012008
 			religion=catholic culture=polish
-			father=100111934	# Jan-Feliks
+			father=100111934	# Jan-Feliks Tarnowski
 			mother=100111935	# Waleria Stroynowska
 			1811.03.27={birth=yes}  # Warsaw
-			1835.08.18={add_spouse=100112132}	# Ernestyna Tarnowska
+			1835.08.18={add_spouse=100112132}	# CSS Ernestyna Tarnowska
 			1846.05.24={add_spouse=100112133}	# Karolina Dziokowska
 			1861.11.19={death=yes}  # Wróblewice
 		}
@@ -1113,8 +1145,8 @@
 				name=Wladislaw
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112131	# Walerian Spycimir
-				mother=100112132	# Ernestyna Tarnowska
+				father=100112131	# Walerian Spycimir Tarnowski
+				mother=100112132	# CSS Ernestyna Tarnowska
 				1836.06.04={birth=yes}  # Wróblewice
 				1878.04.19={death=yes}
 			}
@@ -1122,8 +1154,8 @@
 				name=Stanislaw
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112131	# Walerian Spycimir
-				mother=100112132	# Ernestyna Tarnowska
+				father=100112131	# Walerian Spycimir Tarnowski
+				mother=100112132	# CSS Ernestyna Tarnowska
 				1838.05.08={birth=yes}  # Wróblewice
 				1871.03.19={add_spouse=100112136}	# Jadwiga Pieglowska
 				1909.07.02={death=yes}  # Sniatynka
@@ -1133,7 +1165,7 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112135	# Stanislaw
+					father=100112135	# Stanislaw Tarnowski
 					mother=100112136	# Jadwiga Pieglowska
 					1875.05.27={birth=yes}  # Sniatynka
 					1938.10.29={death=yes}  # Sniatynka
@@ -1142,10 +1174,10 @@
 					name=Jan-Kanty
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112135	# Stanislaw
+					father=100112135	# Stanislaw Tarnowski
 					mother=100112136	# Jadwiga Pieglowska
 					1877.01.01={birth=yes}  # Sniatynka
-					1902.02.05={add_spouse=100112139}	# Anna Dzieduszycka
+					1902.02.05={add_spouse=100112139}	# CSS Anna Dzieduszycka
 					1939.09.01={death=yes}  # Poland
 				}
 					100112140={	# 1e) Ursula Zofia (Wróblewice 24 Oct 1903-Cracow 16 Jan 1975); m.30 Apr 1938 Jan Baptysta Miaczysnki (Lvov 20 Feb 1906-Warsaw 21 Apr 1960)
@@ -1153,8 +1185,8 @@
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112138	# Jan-Kanty
-						mother=100112139	# Anna Dzieduszycka
+						father=100112138	# Jan-Kanty Tarnowski
+						mother=100112139	# CSS Anna Dzieduszycka
 						1903.10.24={birth=yes}  # Wróblewice
 						1975.01.16={death=yes}  # Cracow
 					}
@@ -1162,8 +1194,8 @@
 						name=Stanislaw
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112138	# Jan-Kanty
-						mother=100112139	# Anna Dzieduszycka
+						father=100112138	# Jan-Kanty Tarnowski
+						mother=100112139	# CSS Anna Dzieduszycka
 						1904.12.08={birth=yes}  # Wróblewice
 						1939.01.01={death=yes}  # Poland
 					}
@@ -1171,7 +1203,7 @@
 					name=Wladislaw
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112135	# Stanislaw
+					father=100112135	# Stanislaw Tarnowski
 					mother=100112136	# Jadwiga Pieglowska
 					1879.07.21={birth=yes}  # Sniatynka
 					1907.04.24={death=yes}  # Vienna
@@ -1181,7 +1213,7 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112135	# Stanislaw
+					father=100112135	# Stanislaw Tarnowski
 					mother=100112136	# Jadwiga Pieglowska
 					1881.01.24={birth=yes}  # Sniatynka
 					1897.06.18={death=yes}  # Sniatynka
@@ -1191,8 +1223,8 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112131	# Walerian Spycimir
-				mother=100112132	# Ernestyna Tarnowska
+				father=100112131	# Walerian Spycimir Tarnowski
+				mother=100112132	# CSS Ernestyna Tarnowska
 				1840.03.19={birth=yes}  # Sniatynka
 				1938.10.29={death=yes}  # Sniatynka
 			}
@@ -1200,10 +1232,10 @@
 				name=Jan-Kazimierz
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112131	# Walerian Spycimir
+				father=100112131	# Walerian Spycimir Tarnowski
 				mother=100112133	# Karolina Dziokowska
 				1852.01.01={birth=yes}  # Holobutów
-				1902.07.08={add_spouse=100112148}	# Anna Sobanska
+				1902.07.08={add_spouse=100112148}	# CSS Anna Sobanska
 				1923.01.01={death=yes}
 			}
 				100112149={	# 1d) Anna (Lvov 15 May 1903-Warsaw 1944); m.Warsaw 19 Jul 1922 Konstantin Ostrzeniewski
@@ -1211,8 +1243,8 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112147	# Jan-Kazimierz
-					mother=100112148	# Anna Sobanska
+					father=100112147	# Jan-Kazimierz Tarnowski
+					mother=100112148	# CSS Anna Sobanska
 					1903.05.15={birth=yes}  # Lvov
 					1944.01.01={death=yes}  # Warsaw
 				}
@@ -1220,8 +1252,8 @@
 					name=Juliusz
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112147	# Jan-Kazimierz
-					mother=100112148	# Anna Sobanska
+					father=100112147	# Jan-Kazimierz Tarnowski
+					mother=100112148	# CSS Anna Sobanska
 					1906.01.01={birth=yes}
 					1944.01.01={death=yes}  # Warsaw
 				}
@@ -1230,7 +1262,7 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112131	# Walerian Spycimir
+				father=100112131	# Walerian Spycimir Tarnowski
 				mother=100112133	# Karolina Dziokowska
 				1853.01.01={birth=yes}
 				1905.11.26={death=yes}  # Lvov
@@ -1240,7 +1272,7 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112131	# Walerian Spycimir
+				father=100112131	# Walerian Spycimir Tarnowski
 				mother=100112133	# Karolina Dziokowska
 				1855.01.01={birth=yes}  # Holobutów
 				1944.01.01={death=yes}  # Poland
@@ -1249,7 +1281,7 @@
 				name=Juliusz
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112131	# Walerian Spycimir
+				father=100112131	# Walerian Spycimir Tarnowski
 				mother=100112133	# Karolina Dziokowska
 				1857.01.01={birth=yes}  # Holobutów
 				1883.06.09={add_spouse=100112157}	# Helena Babecka
@@ -1260,7 +1292,7 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112156	# Juliusz
+					father=100112156	# Juliusz Tarnowski
 					mother=100112157	# Helena Babecka
 					1897.10.17={birth=yes}  # Byszew
 					1932.04.01={death=yes}  # Lvov
@@ -1269,7 +1301,7 @@
 					name="Juliusz Walerian"
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112156	# Juliusz
+					father=100112156	# Juliusz Tarnowski
 					mother=100112157	# Helena Babecka
 					1901.02.25={birth=yes}  # Rysiów
 					1926.01.01={add_spouse=100112161}	# Berta Czecz v.Lindenwald
@@ -1280,7 +1312,7 @@
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112160	# Juliusz Walerian
+						father=100112160	# Juliusz Walerian Tarnowski
 						mother=100112161	# Berta Czecz v.Lindenwald
 						1928.01.01={birth=yes}
 						2005.01.01={death=yes}  # EST.
@@ -1290,7 +1322,7 @@
 			female=yes
 			dynasty=1012008
 			religion=catholic culture=polish
-			father=100111934	# Jan-Feliks
+			father=100111934	# Jan-Feliks Tarnowski
 			mother=100111935	# Waleria Stroynowska
 			1816.10.22={birth=yes}  # Horochów
 			1893.06.16={death=yes}  # Cracow
@@ -1299,7 +1331,7 @@
 			name=Tadeusz
 			dynasty=1012008
 			religion=catholic culture=polish
-			father=100111934	# Jan-Feliks
+			father=100111934	# Jan-Feliks Tarnowski
 			mother=100111935	# Waleria Stroynowska
 			1819.10.04={birth=yes}  # Horochów
 			1853.06.01={add_spouse=100112166}	# Maria Sobieszczanska
@@ -1309,7 +1341,7 @@
 				name=Jan-Jacek
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112165	# Tadeusz
+				father=100112165	# Tadeusz Tarnowski
 				mother=100112166	# Maria Sobieszczanska
 				1854.03.21={birth=yes}
 				1895.01.01={death=yes}  # Choloniów
@@ -1319,7 +1351,7 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112165	# Tadeusz
+				father=100112165	# Tadeusz Tarnowski
 				mother=100112166	# Maria Sobieszczanska
 				1859.01.05={birth=yes}
 				1899.11.13={death=yes}  # Wysocice
@@ -1329,8 +1361,8 @@
 		female=yes
 		dynasty=1012008
 		religion=catholic culture=polish
-		father=100111930	# Jan-Jacek _Tarnowski
-		mother=100111932	# Rozalja Czacka
+		father=100111930	# Jan-Jacek Tarnowski
+		mother=100111932	# CSS Rozalja Czacka
 		1780.06.28={birth=yes}  # Dzików
 		1849.01.01={death=yes}  # Horochów
 	}
@@ -1338,8 +1370,8 @@
 		name=Michal
 		dynasty=1012008
 		religion=catholic culture=polish
-		father=100111930	# Jan-Jacek _Tarnowski
-		mother=100111932	# Rozalja Czacka
+		father=100111930	# Jan-Jacek Tarnowski
+		mother=100111932	# CSS Rozalja Czacka
 		1782.09.22={birth=yes}  # Dzików
 		1826.02.01={add_spouse=100112174}	# Elzbieta Wysocka
 		1831.12.03={death=yes}  # Chorzelów
@@ -1348,18 +1380,18 @@
 			name=Jan-Józef
 			dynasty=1012008
 			religion=catholic culture=polish
-			father=100112173	# Michal
+			father=100112173	# Michal Tarnowski
 			mother=100112174	# Elzbieta Wysocka
 			1826.12.06={birth=yes}  # Chorzelów
-			1853.01.01={add_spouse=100111941}	# Karolina Tarnowska
+			1853.01.01={add_spouse=100111941}	# Karolina Tarnowski
 			1898.04.11={death=yes}  # Chorzelów
 		}
 			100112177={	# 1c) Jan-Bogdan (Chorzelów 26 Sep 1853-Chorzelów 6 Nov 1914)
 				name=Jan-Bogdan
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112175	# Jan-Józef
-				mother=100111941	# Karolina Tarnowska
+				father=100112175	# Jan-Józef Tarnowski
+				mother=100111941	# Karolina Tarnowski
 				1853.09.26={birth=yes}  # Chorzelów
 				1914.11.06={death=yes}  # Chorzelów
 			}
@@ -1368,8 +1400,8 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112175	# Jan-Józef
-				mother=100111941	# Karolina Tarnowska
+				father=100112175	# Jan-Józef Tarnowski
+				mother=100111941	# Karolina Tarnowski
 				1854.11.21={birth=yes}  # Dzików
 				1921.02.12={death=yes}  # Cracow
 			}
@@ -1377,8 +1409,8 @@
 				name=Krzystof
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112175	# Jan-Józef
-				mother=100111941	# Karolina Tarnowska
+				father=100112175	# Jan-Józef Tarnowski
+				mother=100111941	# Karolina Tarnowski
 				1856.09.18={birth=yes}  # Chorzelów
 				1864.10.29={death=yes}  # Chorzelów
 			}
@@ -1386,8 +1418,8 @@
 				name=Stanislaw
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112175	# Jan-Józef
-				mother=100111941	# Karolina Tarnowska
+				father=100112175	# Jan-Józef Tarnowski
+				mother=100111941	# Karolina Tarnowski
 				1861.03.15={birth=yes}  # Chorzelów
 				1887.05.21={add_spouse=100112183}	# Maria Iwanowska
 				1917.03.17={death=yes}  # Cracow
@@ -1396,7 +1428,7 @@
 					name=Jan-Tytus
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112182	# Stanislaw
+					father=100112182	# Stanislaw Tarnowski
 					mother=100112183	# Maria Iwanowska
 					1888.02.10={birth=yes}  # Turczynce
 					1944.08.09={add_spouse=100112185}	# Zofia Henryka Ludmila Ostoja-Ostaszewska
@@ -1406,7 +1438,7 @@
 					name="Karol _Hilary"
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112182	# Stanislaw
+					father=100112182	# Stanislaw Tarnowski
 					mother=100112183	# Maria Iwanowska
 					1889.01.23={birth=yes}  # Chorzelów
 					1932.07.28={add_spouse=100112187}	# Wanda Janina Pawlikowska
@@ -1417,7 +1449,7 @@
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112186	# Karol _Hilary
+						father=100112186	# Karol  Hilary Tarnowski
 						mother=100112187	# Wanda Janina Pawlikowska
 						1933.11.29={birth=yes}  # Chorzelów
 						1941.10.23={death=yes}  # Cracow
@@ -1426,7 +1458,7 @@
 						name="Karol Benito"
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112186	# Karol _Hilary
+						father=100112186	# Karol  Hilary Tarnowski
 						mother=100112187	# Wanda Janina Pawlikowska
 						1937.02.20={birth=yes}  # Cracow
 						1963.07.10={add_spouse=100112190}	# Maria Kazimiera Brozek
@@ -1437,7 +1469,7 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112189	# Karol Benito
+							father=100112189	# Karol Benito Tarnowski
 							mother=100112190	# Maria Kazimiera Brozek
 							1965.04.09={birth=yes}  # Cracow
 						}
@@ -1445,7 +1477,7 @@
 							name=Jan
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112189	# Karol Benito
+							father=100112189	# Karol Benito Tarnowski
 							mother=100112190	# Maria Kazimiera Brozek
 							1970.11.18={birth=yes}  # Cracow
 							2006.08.19={add_spouse=100112193}	# Anna Janota-Bzowska
@@ -1455,7 +1487,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112192	# Jan
+								father=100112192	# Jan Tarnowski
 								mother=100112193	# Anna Janota-Bzowska
 								2012.01.01={birth=yes}
 							}
@@ -1463,7 +1495,7 @@
 								name=Antoni
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112192	# Jan
+								father=100112192	# Jan Tarnowski
 								mother=100112193	# Anna Janota-Bzowska
 								2014.01.01={birth=yes}
 							}
@@ -1471,7 +1503,7 @@
 								name="Stanislaw Michal"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112192	# Jan
+								father=100112192	# Jan Tarnowski
 								mother=100112193	# Anna Janota-Bzowska
 								2014.01.01={birth=yes}
 							}
@@ -1479,7 +1511,7 @@
 					name=Michal
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112182	# Stanislaw
+					father=100112182	# Stanislaw Tarnowski
 					mother=100112183	# Maria Iwanowska
 					1895.07.16={birth=yes}  # Turczynce
 					1980.12.21={death=yes}  # San Diego
@@ -1488,7 +1520,7 @@
 					name="Antoni Bogdan"
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112182	# Stanislaw
+					father=100112182	# Stanislaw Tarnowski
 					mother=100112183	# Maria Iwanowska
 					1905.07.08={birth=yes}  # Zakopane
 					1957.11.19={add_spouse=100112200}	# Alice McGuire
@@ -1498,8 +1530,8 @@
 				name=Szczepan
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112175	# Jan-Józef
-				mother=100111941	# Karolina Tarnowska
+				father=100112175	# Jan-Józef Tarnowski
+				mother=100111941	# Karolina Tarnowski
 				1862.08.26={birth=yes}  # Chorzelów
 				1892.10.25={add_spouse=100112202}	# Jadwiga Dembowska
 				1940.05.01={death=yes}  # Zaklików
@@ -1509,7 +1541,7 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112201	# Szczepan
+					father=100112201	# Szczepan Tarnowski
 					mother=100112202	# Jadwiga Dembowska
 					1893.09.20={birth=yes}  # Nacpolsk
 					1966.09.30={death=yes}  # Szczecinek
@@ -1519,7 +1551,7 @@
 					female=yes
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112201	# Szczepan
+					father=100112201	# Szczepan Tarnowski
 					mother=100112202	# Jadwiga Dembowska
 					1895.03.20={birth=yes}  # Nacpolsk
 					1956.10.07={death=yes}  # Szymanów
@@ -1528,18 +1560,18 @@
 					name="Tytus Jan"
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112201	# Szczepan
+					father=100112201	# Szczepan Tarnowski
 					mother=100112202	# Jadwiga Dembowska
 					1898.04.04={birth=yes}  # Nacpolsk
-					1923.08.28={add_spouse=100112206}	# Irena Antonina Mycielska
+					1923.08.28={add_spouse=100112206}	# CSS Irena Antonina Mycielska
 					1926.07.02={death=yes}  # Zdziechowice
 				}
 					100112207={	# 1e) Jan Roman (Wolsztyn 18 Jul 1924-Wroclaw 19 Sep 2004); m.Wroclaw 18 Sep 1955 Alina Staniukiewicz (b.Vilno 5 Jun 1930)
 						name="Jan Roman"
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112205	# Tytus Jan
-						mother=100112206	# Irena Antonina Mycielska
+						father=100112205	# Tytus Jan Tarnowski
+						mother=100112206	# CSS Irena Antonina Mycielska
 						1924.07.18={birth=yes}  # Wolsztyn
 						1955.09.18={add_spouse=100112208}	# Alina Staniukiewicz
 						2004.09.19={death=yes}  # Wroclaw
@@ -1549,7 +1581,7 @@
 							female=yes
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112207	# Jan Roman
+							father=100112207	# Jan Roman Tarnowski
 							mother=100112208	# Alina Staniukiewicz
 							1960.02.06={birth=yes}  # Wroclaw
 						}
@@ -1557,18 +1589,18 @@
 							name=Pawel
 							dynasty=1012008
 							religion=catholic culture=polish
-							father=100112207	# Jan Roman
+							father=100112207	# Jan Roman Tarnowski
 							mother=100112208	# Alina Staniukiewicz
 							1962.09.12={birth=yes}  # Wroclaw
-							2007.09.08={add_spouse=100110792}	# Theresa Malgorzata Radziwill
+							2007.09.08={add_spouse=100110792}	# Theresa Radziwill
 						}
 					100112213={	# 2e) Maria Teresa (Wolsztyn 4 Dec 1925-Montreal 23 Feb 1984); m.Lésin, Switzerland 12 Oct 1948 Elgin Scott (b.Lvov 22 Nov 1922)
 						name="Maria Teresa"
 						female=yes
 						dynasty=1012008
 						religion=catholic culture=polish
-						father=100112205	# Tytus Jan
-						mother=100112206	# Irena Antonina Mycielska
+						father=100112205	# Tytus Jan Tarnowski
+						mother=100112206	# CSS Irena Antonina Mycielska
 						1925.12.04={birth=yes}  # Wolsztyn
 						1984.02.23={death=yes}  # Montreal
 					}
@@ -1576,10 +1608,10 @@
 					name=Stefan
 					dynasty=1012008
 					religion=catholic culture=polish
-					father=100112201	# Szczepan
+					father=100112201	# Szczepan Tarnowski
 					mother=100112202	# Jadwiga Dembowska
 					1903.03.02={birth=yes}  # Nacpolsk
-					1931.10.03={add_spouse=100112216}	# Maria Potulicka
+					1931.10.03={add_spouse=100112216}	# CSS Maria Potulicka
 					1976.09.03={death=yes}  # Rappalo
 				}
 			100112217={	# 8c) Zofia (Chorzelów 23 Aug 1866-Cracow 8 Nov 1954)
@@ -1587,8 +1619,8 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112175	# Jan-Józef
-				mother=100111941	# Karolina Tarnowska
+				father=100112175	# Jan-Józef Tarnowski
+				mother=100111941	# Karolina Tarnowski
 				1866.08.23={birth=yes}  # Chorzelów
 				1954.11.08={death=yes}  # Cracow
 			}
@@ -1596,8 +1628,8 @@
 				name=Juliusz
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112175	# Jan-Józef
-				mother=100111941	# Karolina Tarnowska
+				father=100112175	# Jan-Józef Tarnowski
+				mother=100111941	# Karolina Tarnowski
 				1868.01.20={birth=yes}  # Chorzelów
 				1932.05.11={death=yes}  # Rymanów
 			}
@@ -1606,8 +1638,8 @@
 				female=yes
 				dynasty=1012008
 				religion=catholic culture=polish
-				father=100112175	# Jan-Józef
-				mother=100111941	# Karolina Tarnowska
+				father=100112175	# Jan-Józef Tarnowski
+				mother=100111941	# Karolina Tarnowski
 				1876.01.20={birth=yes}  # Chorzelów
 				1882.04.28={death=yes}  # Chorzelów
 			}
@@ -1616,784 +1648,11 @@
 			female=yes
 			dynasty=1012008
 			religion=catholic culture=polish
-			father=100112173	# Michal
+			father=100112173	# Michal Tarnowski
 			mother=100112174	# Elzbieta Wysocka
 			1828.08.15={birth=yes}  # Chorzelów
 			1854.02.19={death=yes}  # Przewioka
 		}
-
-#######
-100112084={	# Ct      			Hilary Aleksander   			Bninski        
-	name="Hilary Aleksander Bninski"
-	dynasty=0
-	religion=catholic culture=polish
-	1873.07.20={birth=yes}  # Oborniki Slaskie
-	1901.09.03={add_spouse=100112083}	# Jadwiga
-	1946.07.20={death=yes}  # Cracow
-}
-100112005={	# Css     			Anna                			Branicka       
-	name="Anna Branicka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1876.08.24={birth=yes}  # Stawiszcze Ukraine
-	1953.01.06={death=yes}  # Paris
-}
-100112080={	# Css     			Róza                			Branicka       
-	name="Róza Branicka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1854.08.03={birth=yes}  # Warsaw
-	1942.02.23={death=yes}  # Rudnik
-}
-100111932={	# Css     			Rozalja             			Czacka         
-	name="Rozalja Czacka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1753.01.01={birth=yes}
-	1821.04.12={death=yes}  # Warsaw
-}
-100112139={	# Css     			Anna                			Dzieduszycka   
-	name="Anna Dzieduszycka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1880.12.02={birth=yes}  # Lvov
-	1970.01.01={death=yes}  # Cracow
-}
-100112082={	# Gf      			Janos               			Esterházy v.Galantha
-	name="Janos Esterházy v.Galantha"
-	dynasty=0
-	religion=catholic culture=polish
-	1864.12.06={birth=yes}  # Preßburg
-	1898.01.08={add_spouse=100112081}	# Elzbieta
-	1905.09.02={death=yes}  # Ujlak
-}
-100111957={	# Pss     			Ioana               			Ghica Cantacuzene
-	name="Ioana Ghica Cantacuzene"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1929.02.15={birth=yes}  # Paris
-	2005.09.11={death=yes}
-}
-100112072={	# Gfn     			Helene              			Larisch v.Moennich
-	name="Helene Larisch v.Moennich"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1914.05.01={birth=yes}  # Roy
-	2011.04.01={death=yes}  # Rio de_Janeiro
-}
-100111938={	# Css     			Gabryela            			Malachowska    
-	name="Gabryela Malachowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1800.01.16={birth=yes}  # Konskie
-	1862.02.23={death=yes}  # Dzików
-}
-100112129={	# Ct      			Onufry              			Malachowski    
-	name="Onufry Malachowski"
-	dynasty=0
-	religion=catholic culture=polish
-	1788.01.01={birth=yes}  # Warsaw
-	1823.09.04={add_spouse=100112128}	# Maria Felicia
-	1848.10.01={death=yes}  # Borkowice
-}
-100112206={	# Css     			Irena Antonina      			Mycielska      
-	name="Irena Antonina Mycielska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1901.06.13={birth=yes}  # Wolsztyn
-	1991.11.28={death=yes}  # Wroclaw
-}
-100111940={	# Ct      			Franciszek          			Mycielski      
-	name="Franciszek Mycielski"
-	dynasty=0
-	religion=catholic culture=polish
-	1832.03.15={birth=yes}  # Chocieszewice
-	1855.08.30={add_spouse=100111939}	# Waleria
-	1901.03.02={death=yes}  # Wisniowa
-}
-100112216={	# Css     			Maria               			Potulicka      
-	name="Maria Potulicka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1897.03.03={birth=yes}  # Warsaw
-	1974.05.18={death=yes}  # Rappalo
-}
-100112172={	# Ct      			Karol               			Scipio-Del-Campo
-	name="Karol Scipio-Del-Campo"
-	dynasty=0
-	religion=catholic culture=polish
-	1775.01.01={birth=yes}
-	1800.06.21={add_spouse=100112171}	# Marianna
-	1846.01.01={death=yes}  # EST.
-}
-100112078={	# Ct      			Stanislaw           			Siemienski     
-	name="Stanislaw Siemienski"
-	dynasty=0
-	religion=catholic culture=polish
-	1864.05.17={birth=yes}  # Lvov
-	1890.02.15={add_spouse=100112077}	# Zofia
-	1918.04.06={death=yes}  # Vienna
-}
-100112148={	# Css     			Anna                			Sobanska       
-	name="Anna Sobanska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1882.01.01={birth=yes}
-	1957.01.01={death=yes}  # EST.
-}
-100112004={	# Css     			Gabrielle           			Starzenska     
-	name="Gabrielle Starzenska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1868.10.20={birth=yes}  # Warsaw
-	1894.08.21={death=yes}  # Wielkie
-}
-100112070={	# Pss     			Marie               			Swiatopolk-Czetwertynska
-	name="Marie Swiatopolk-Czetwertynska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1880.07.06={birth=yes}  # Milanów
-	1965.06.11={death=yes}  # Warsaw
-}
-100112087={	# Css     			Zofia Róza          			Tarnowska      
-	name="Zofia Róza Tarnowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1917.03.16={birth=yes}  # Rudnik
-	2009.11.22={death=yes}  # Rudnik
-}
-100112132={	# Css     			Ernestyna           			Tarnowska      
-	name="Ernestyna Tarnowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1808.03.18={birth=yes}  # Drzazgów
-	1840.04.06={death=yes}  # Wróblewice
-}
-100111948={	# Ct      			Wladyslaw           			Tyszkiewicz    
-	name="Wladyslaw Tyszkiewicz"
-	dynasty=0
-	religion=catholic culture=polish
-	1898.10.30={birth=yes}  # Davos
-	1920.10.26={add_spouse=100111947}	# Róza
-	1939.10.01={death=yes}  # prisoner_in_Russia
-}
-100112007={	# Css     			Maria               			Wielopolska    
-	name="Maria Wielopolska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1904.07.16={birth=yes}  # Chroberz
-	1979.01.21={death=yes}  # Poznan
-}
-100111964={	#         			Brian Thomas        			Amos           
-	name="Brian Thomas Amos"
-	dynasty=0
-	religion=catholic culture=polish
-	1957.04.19={birth=yes}  # Calgary
-	2001.04.27={add_spouse=100111963}	# Jolanta Gabrielle
-	2008.07.18={remove_spouse=100111963}
-}
-100112123={	#         			Bridget Mary        			Astor          
-	name="Bridget Mary Astor"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1948.02.16={birth=yes}  # London
-}
-100112157={	#         			Helena              			Babecka        
-	name="Helena Babecka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1863.01.01={birth=yes}
-	1933.09.01={death=yes}
-}
-100112124={	#         			Isabella            			Badeni         
-	name="Isabella Badeni"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1943.05.29={birth=yes}  # Jerusalem
-}
-100111971={	#         			Arto                			Baltayan       
-	name="Arto Baltayan"
-	dynasty=0
-	religion=catholic culture=polish
-	1963.03.18={birth=yes}  # Alexandria Egypt
-	1994.12.31={add_spouse=100111970}	# Christine Gabryela
-}
-100112032={	#         			Katarzyna           			Biegun         
-	name="Katarzyna Biegun"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1969.02.08={birth=yes}  # Cracow
-}
-100112010={	#         			Halina              			Bobinska       
-	name="Halina Bobinska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1945.01.01={birth=yes}
-}
-100112118={	#         			Irena               			Boruszewska    
-	name="Irena Boruszewska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1961.11.08={birth=yes}  # Warsaw
-}
-100112190={	#         			Maria Kazimiera     			Brozek         
-	name="Maria Kazimiera Brozek"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1942.02.19={birth=yes}  # Cracow
-}
-100112097={	#         			Michael John        			Burke          
-	name="Michael John Burke"
-	dynasty=0
-	religion=catholic culture=polish
-	1970.08.26={birth=yes}  # Ottawa
-	2001.04.16={add_spouse=100112096}	# Sophie Claire
-	2005.01.01={remove_spouse=100112096}
-}
-100112113={	#         			Janina Teresa       			Chojnacka      
-	name="Janina Teresa Chojnacka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1958.02.03={birth=yes}  # Moreton England
-}
-100112040={	#         			Jacqueline          			Codet de Casaubon
-	name="Jacqueline Codet de Casaubon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1932.06.01={birth=yes}  # Paris
-	2009.01.01={death=yes}  # EST.
-}
-100112161={	#         			Berta               			Czecz v.Lindenwald
-	name="Berta Czecz v.Lindenwald"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1891.08.15={birth=yes}  # Biezanów
-	1985.06.09={death=yes}  # Cracow
-}
-100112022={	#         			Kryztyna            			Debczynska     
-	name="Kryztyna Debczynska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1929.07.10={birth=yes}  # Paris
-	2006.01.01={death=yes}  # EST.
-}
-100112202={	#         			Jadwiga             			Dembowska      
-	name="Jadwiga Dembowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1865.01.30={birth=yes}  # Nacpolsk
-	1934.03.18={death=yes}  # Malinie
-}
-100112210={	#         			Pawel               			Dobrzanski     
-	name="Pawel Dobrzanski"
-	dynasty=0
-	religion=catholic culture=polish
-	1956.11.23={birth=yes}  # Warsaw
-	1985.11.16={add_spouse=100112209}	# Izabella
-}
-100112036={	#         			Jerzy               			Donimirski     
-	name="Jerzy Donimirski"
-	dynasty=0
-	religion=catholic culture=polish
-	1960.09.12={birth=yes}  # Cracow
-	1992.10.10={add_spouse=100112035}	# Anna
-}
-100112133={	#         			Karolina            			Dziokowska     
-	name="Karolina Dziokowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1820.01.01={birth=yes}  # Traby
-	1894.06.01={death=yes}  # Holobutów
-}
-100112064={	#         			Matthieu            			Eloy           
-	name="Matthieu Eloy"
-	dynasty=0
-	religion=catholic culture=polish
-	1970.01.01={birth=yes}
-	2004.04.24={add_spouse=100112063}	# Marie
-}
-100112074={	#         			Riccardo            			Fasanello      
-	name="Riccardo Fasanello"
-	dynasty=0
-	religion=catholic culture=polish
-	1931.09.30={birth=yes}  # Sao Paulo
-	1960.10.07={add_spouse=100112073}	# Olivia
-	1993.05.01={death=yes}  # Rio de_Janeiro
-}
-100112106={	#         			Simon               			Goodman        
-	name="Simon Goodman"
-	dynasty=0
-	religion=catholic culture=english
-	1949.01.06={birth=yes}  # London
-	1971.12.03={add_spouse=100112105}	# Ada Sandra
-	1980.01.01={remove_spouse=100112105}
-}
-100112002={	#         			David Charles       			Gouldthorpe    
-	name="David Charles Gouldthorpe"
-	dynasty=0
-	religion=catholic culture=polish
-	1952.11.13={birth=yes}
-	1986.07.05={add_spouse=100112001}	# Marie-Therese Gabriela
-}
-100111960={	#         			Vincent             			Guerre         
-	name="Vincent Guerre"
-	dynasty=0
-	religion=catholic culture=polish
-	1960.11.24={birth=yes}  # Avignon
-	1989.06.17={add_spouse=100111959}	# Rose-Isabelle
-}
-100111973={	#         			Marie Christine     			Harvey         
-	name="Marie Christine Harvey"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1960.09.20={birth=yes}  # Montreal
-}
-100112049={	#         			Hélène Jeanne       			Hervé-Gruyer   
-	name="Hélène Jeanne Hervé-Gruyer"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1940.12.07={birth=yes}  # Paris
-}
-100112153={	#         			Karol               			Huntley Gordon 
-	name="Karol Huntley Gordon"
-	dynasty=0
-	religion=catholic culture=polish
-	1840.11.04={birth=yes}
-	1879.02.22={add_spouse=100112152}	# Waleria
-	1883.06.18={death=yes}
-}
-100112183={	#         			Maria               			Iwanowska      
-	name="Maria Iwanowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1861.01.29={birth=yes}  # Turczynce
-	1927.05.26={death=yes}  # Cracow
-}
-100112193={	#         			Anna                			Janota-Bzowska 
-	name="Anna Janota-Bzowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1979.03.24={birth=yes}  # Warsaw
-}
-100112091={	#         			Sophie Cecilie      			Jaxa-Chamiec   
-	name="Sophie Cecilie Jaxa-Chamiec"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1919.09.17={birth=yes}  # London
-	1968.01.01={death=yes}  # London
-}
-100112024={	#         			Marie               			Jelenska       
-	name="Marie Jelenska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1935.05.20={birth=yes}  # Vilno
-	2002.10.19={death=yes}  # Sopot
-}
-100111998={	#         			Wendy Mary          			Kimpson        
-	name="Wendy Mary Kimpson"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1924.05.08={birth=yes}  # Yadlethorpe
-	2010.01.01={death=yes}
-}
-100111955={	#         			Zdislaw             			Kryzan         
-	name="Zdislaw Kryzan"
-	dynasty=0
-	religion=catholic culture=polish
-	1915.01.05={birth=yes}  # Poznan
-	1952.06.14={add_spouse=100111954}	# Maria Zófia
-	1994.03.25={death=yes}  # Calgary
-}
-100112111={	#         			Dimitrios           			Kurtis         
-	name="Dimitrios Kurtis"
-	dynasty=0
-	religion=catholic culture=polish
-	1951.08.05={birth=yes}  # Poland
-	1975.01.16={add_spouse=100112110}	# Izabella
-	1981.01.01={remove_spouse=100112110}
-}
-100112013={	#         			Hanna               			Leskiewicz     
-	name="Hanna Leskiewicz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1954.07.01={birth=yes}  # Zakopane
-}
-100111958={	#         			Marychna            			Lichoniewicz   
-	name="Marychna Lichoniewicz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1956.04.09={birth=yes}  # Tarnobrzeg
-}
-100111987={	#         			Yolande             			Lucciola       
-	name="Yolande Lucciola"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1937.09.06={birth=yes}  # Montreal
-	2014.01.01={death=yes}  # EST.
-}
-100112185={	#         			Zofia Henryka       			Ludmila Ostoja-Ostaszewska
-	name="Zofia Henryka Ludmila Ostoja-Ostaszewska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1902.01.15={birth=yes}  # Iwonicz
-	1982.01.02={death=yes}  # Bytom
-}
-100112159={	#         			Karol               			Mankowski      
-	name="Karol Mankowski"
-	dynasty=0
-	religion=catholic culture=polish
-	1895.09.29={birth=yes}  # Krasilow
-	1923.01.01={add_spouse=100112158}	# Helena
-	1959.02.12={death=yes}  # Warsaw
-}
-100111989={	#         			Judith Ellen        			Maran          
-	name="Judith Ellen Maran"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1972.06.01={birth=yes}  # Toronto
-}
-100112076={	#         			Italo               			Mastrogiovanni 
-	name="Italo Mastrogiovanni"
-	dynasty=0
-	religion=catholic culture=polish
-	1941.01.01={birth=yes}
-	1966.12.10={add_spouse=100112075}	# Maria-Gabriela
-}
-100112109={	#         			Dorota              			Mazurkiewicz   
-	name="Dorota Mazurkiewicz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1962.01.07={birth=yes}  # Tuliglów
-}
-100112200={	#         			Alice               			McGuire        
-	name="Alice McGuire"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1937.01.01={birth=yes}
-	2014.01.01={death=yes}  # EST.
-}
-100112141={	#         			Jan Baptysta        			Miaczysnki     
-	name="Jan Baptysta Miaczysnki"
-	dynasty=0
-	religion=catholic culture=polish
-	1906.02.20={birth=yes}  # Lvov
-	1938.04.30={add_spouse=100112140}	# Ursula Zofia
-	1960.04.21={death=yes}  # Warsaw
-}
-100112169={	#         			Adolf               			Milieski       
-	name="Adolf Milieski"
-	dynasty=0
-	religion=catholic culture=polish
-	1853.01.01={birth=yes}
-	1884.11.28={add_spouse=100112168}	# Jadwiga
-	1930.06.04={death=yes}  # Wysocice
-}
-100112155={	#         			Jakob               			Mlocki         
-	name="Jakob Mlocki"
-	dynasty=0
-	religion=catholic culture=polish
-	1851.01.01={birth=yes}
-	1876.03.19={add_spouse=100112154}	# Karolina
-	1939.01.01={death=yes}
-}
-100111931={	#         			Helene              			Morska         
-	name="Helene Morska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1737.01.01={birth=yes}
-	1772.02.18={death=yes}
-}
-100112089={	#         			Iwan William        			Moss           
-	name="Iwan William Moss"
-	dynasty=0
-	religion=catholic culture=polish
-	1921.04.15={birth=yes}  # Yokohama
-	1945.04.26={add_spouse=100112087}	# Zofia Róza
-	1965.08.08={death=yes}  # Kingston Jamaica
-}
-100112100={	#         			Valentina Alejandra 			Munoz          
-	name="Valentina Alejandra Munoz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1978.04.28={birth=yes}  # Santiago Chile
-}
-100112055={	#         			Marie Isabell       			Nadejda d'Almont
-	name="Marie Isabell Nadejda d'Almont"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1952.03.20={birth=yes}  # St.Germain
-}
-100112011={	#         			Maria               			Nowacka        
-	name="Maria Nowacka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1952.08.15={birth=yes}  # Cracow
-}
-100111993={	#         			John                			O'Shannassy    
-	name="John O'Shannassy"
-	dynasty=0
-	religion=catholic culture=polish
-	1967.04.01={birth=yes}  # Australia
-	2004.05.01={add_spouse=100111992}	# Julia Anne
-}
-100112054={	#         			Mercedes            			Olavarria-Gomez
-	name="Mercedes Olavarria-Gomez"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1939.10.24={birth=yes}  # New York
-}
-100112150={	#         			Konstantin          			Ostrzeniewski  
-	name="Konstantin Ostrzeniewski"
-	dynasty=0
-	religion=catholic culture=polish
-	1897.01.01={birth=yes}
-	1922.07.19={add_spouse=100112149}	# Anna
-	1972.01.01={death=yes}  # EST.
-}
-100112187={	#         			Wanda Janina        			Pawlikowska    
-	name="Wanda Janina Pawlikowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1895.05.30={birth=yes}  # Lvov
-	1932.03.07={death=yes}  # Rabka
-}
-100112136={	#         			Jadwiga             			Pieglowska     
-	name="Jadwiga Pieglowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1852.06.20={birth=yes}
-	1934.10.29={death=yes}  # Sniatynka
-}
-100112009={	#         			Helena              			Poninska       
-	name="Helena Poninska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1934.09.15={birth=yes}  # Poznan
-	2011.01.01={death=yes}  # EST.
-}
-100112058={	#         			John Francis        			Punch          
-	name="John Francis Punch"
-	dynasty=0
-	religion=catholic culture=polish
-	1929.03.14={birth=yes}  # Cork
-	1962.04.28={add_spouse=100112057}	# Róza-Maria Henryka
-	2006.05.16={death=yes}  # Glanmire Cork
-}
-100111968={	#         			Elisabeth           			Rodziewicz     
-	name="Elisabeth Rodziewicz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1940.02.13={birth=yes}  # Tuchola
-}
-100111962={	#         			Thomas              			S.Trafford     
-	name="Thomas S.Trafford"
-	dynasty=0
-	religion=catholic culture=polish
-	1960.10.07={birth=yes}  # Calgary
-	1987.03.07={add_spouse=100111961}	# Danuta Ioana
-}
-100112146={	#         			Napoleon            			Sarnecki       
-	name="Napoleon Sarnecki"
-	dynasty=0
-	religion=catholic culture=polish
-	1830.01.01={birth=yes}
-	1863.01.01={add_spouse=100112145}	# Maria Jozefa
-	1888.03.31={death=yes}
-}
-100111983={	#         			Christine           			Saucerotte     
-	name="Christine Saucerotte"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1969.01.08={birth=yes}  # Agde France
-}
-100112214={	#         			Elgin               			Scott          
-	name="Elgin Scott"
-	dynasty=0
-	religion=catholic culture=polish
-	1922.11.22={birth=yes}  # Lvov
-	1948.10.12={add_spouse=100112213}	# Maria Teresa
-	1998.01.01={death=yes}  # EST.
-}
-100112041={	#         			Marita              			Sobanska       
-	name="Marita Sobanska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1944.09.23={birth=yes}  # Warsaw
-}
-100112166={	#         			Maria               			Sobieszczanska 
-	name="Maria Sobieszczanska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1822.01.01={birth=yes}  # Czestochowa
-	1882.01.01={death=yes}  # Cracow
-}
-100112208={	#         			Alina               			Staniukiewicz  
-	name="Alina Staniukiewicz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1930.06.05={birth=yes}  # Vilno
-	2007.01.01={death=yes}  # EST.
-}
-100112095={	#         			Wafa                			Stephan        
-	name="Wafa Stephan"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1956.08.20={birth=yes}  # Jounie Lebanon
-}
-100111935={	#         			Waleria             			Stroynowska    
-	name="Waleria Stroynowska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1782.12.09={birth=yes}  # Bubnow
-	1849.11.23={death=yes}  # Dzików
-}
-100112221={	#         			Ludwik Dominik      			Szawloski      
-	name="Ludwik Dominik Szawloski"
-	dynasty=0
-	religion=catholic culture=polish
-	1825.08.04={birth=yes}  # Przewloka
-	1849.09.01={add_spouse=100112220}	# Maria
-	1905.01.25={death=yes}  # Przewloka
-}
-100111969={	#         			Slawomira           			Szymczynska    
-	name="Slawomira Szymczynska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1934.11.04={birth=yes}  # Wilno Lithuania
-	2011.01.01={death=yes}  # EST.
-}
-100111979={	#         			Tracy               			Thibault       
-	name="Tracy Thibault"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1966.02.21={birth=yes}  # Gore Bay
-}
-100112062={	#         			Cédric              			Thibout        
-	name="Cédric Thibout"
-	dynasty=0
-	religion=catholic culture=polish
-	1970.09.24={birth=yes}  # Auch
-	1995.03.11={add_spouse=100112061}	# Cécile
-}
-100112094={	#         			Ysabel Geraldine    			Trujillo       
-	name="Ysabel Geraldine Trujillo"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1945.09.28={birth=yes}  # Chicago
-}
-100112047={	#         			Michel              			Veuthey        
-	name="Michel Veuthey"
-	dynasty=0
-	religion=catholic culture=polish
-	1931.03.21={birth=yes}  # Vernayaz
-	1959.07.23={add_spouse=100112046}	# Anna
-	2008.01.01={death=yes}  # EST.
-}
-100112045={	#         			Stanislas           			Vilgrain       
-	name="Stanislas Vilgrain"
-	dynasty=0
-	religion=catholic culture=frankish
-	1959.03.21={birth=yes}  # Paris
-	1983.10.01={add_spouse=100112044}	# Aniela Rose
-}
-100112026={	#         			Monika              			Wanicka        
-	name="Monika Wanicka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1963.10.09={birth=yes}  # Gdansk
-}
-100112174={	#         			Elzbieta            			Wysocka        
-	name="Elzbieta Wysocka"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1801.11.09={birth=yes}  # Chorzelów
-	1869.01.27={death=yes}  # Chorzelów
-}
-100112060={	#         			Véronique           			de Boysson     
-	name="Véronique de Boysson"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1946.02.10={birth=yes}  # Paris
-	1996.01.26={death=yes}  # Toulouse
-}
-100112043={	#         			Gilles              			de Margerie    
-	name="Gilles de Margerie"
-	dynasty=0
-	religion=catholic culture=frankish
-	1955.08.30={birth=yes}  # Paris
-	1979.05.05={add_spouse=100112042}	# Sophie Caroline
-}
-100112107={	#         			Oskar               			de Sage        
-	name="Oskar de Sage"
-	dynasty=0
-	religion=catholic culture=polish
-	1949.12.07={birth=yes}  # Warsaw
-	1985.01.01={add_spouse=100112105}	# Ada Sandra
-	1996.05.01={remove_spouse=100112105}
-}
 ####### 100112222
 #1759.11.08={holder=100111930} # Ct Jan-Jacek Tarnowski 
 #1808.08.24={holder=100111934} # 2a) Jan-Feliks 
@@ -2496,7 +1755,7 @@
 					father=100114006	# Stanislaw Potocki
 					mother=100114007	# Zofia Kalinowski
 					1608.01.01={birth=yes}
-					1661.01.01={add_spouse=100114023}	# PSS Krystyna Lubomirski
+					1661.01.01={add_spouse=100114023}	# Krystyna Lubomirski
 					1700.01.01={add_spouse=100114024}	# Konstancja Roza Los
 					1702.05.15={death=yes}  # Krystynopol
 				}
@@ -2505,7 +1764,7 @@
 						dynasty=1012006
 						religion=catholic culture=polish
 						father=100114022	# Feliks Kazimierz Potocki
-						mother=100114023	# PSS Krystyna Lubomirski
+						mother=100114023	# Krystyna Lubomirski
 						1663.01.01={birth=yes}
 						1720.01.01={add_spouse=100114026}	# Teofila Cetner
 						1723.01.01={death=yes}
@@ -2526,7 +1785,7 @@
 						dynasty=1012006
 						religion=catholic culture=polish
 						father=100114022	# Feliks Kazimierz Potocki
-						mother=100114023	# PSS Krystyna Lubomirski
+						mother=100114023	# Krystyna Lubomirski
 						1665.01.01={birth=yes}
 						1718.01.01={add_spouse=100114034}	# Constance Drucki-Podberezki
 						1748.01.01={death=yes}
@@ -2548,7 +1807,7 @@
 								father=100114035	# Eustachius Potocki
 								mother=100114036	# Maria-Anna Kacki
 								1755.01.01={birth=yes}  # Lublin
-								1776.06.02={add_spouse=100114038}	# PSS Alexandra Lubomirski
+								1776.06.02={add_spouse=100114038}	# Aleksandra Lubomirski
 								1821.09.14={death=yes}  # Wilanow
 							}
 								# 1h) Ct Aleksander-Stanislaw Potocki (Warsaw 15 May 1778-Warsaw 25 Mar 1845); m.1st Wilna 15 May 1805 Css Anna Tyszkiewicz (1776-Paris 16 Aug 1867); m.2nd 1820 Izabella Mostowska (1807-Dresden 9 Apr 1897)
@@ -2881,7 +2140,7 @@
 							female=yes
 							dynasty=1012006
 							religion=catholic culture=polish
-							father=100111551	# Peter Potocki
+							father=100111551	# Piotr Potocki
 							mother=100111552	# Maria Teresa de Togores
 							1970.04.07={birth=yes}
 						}
@@ -2889,7 +2148,7 @@
 							name=Stanislaw
 							dynasty=1012006
 							religion=catholic culture=polish
-							father=100111551	# Peter Potocki
+							father=100111551	# Piotr Potocki
 							mother=100111552	# Maria Teresa de Togores
 							1971.05.03={birth=yes}
 						}
@@ -3104,7 +2363,7 @@
 					father=100111575	# Andrzej Potocki
 					mother=100111576	# CSS Krystyna Tyszkiewicz
 					1899.07.14={birth=yes}
-					1930.01.08={add_spouse=100111994}	# CSS Marie Tarnowski
+					1930.01.08={add_spouse=100111994}	# Maria Tarnowski
 					1941.12.10={death=yes}
 				}
 				100111600={	# 7d) Andrzej (Krzeszowice 18 Jul 1900-k.a.Przemysl 28 Sep 1939); m.Dzikow 23 Jun 1926 Css Sophie Tarnowski (Cracow 19 Mar 1901-Paris 3 Jan 1963)
@@ -3114,7 +2373,7 @@
 					father=100111575	# Andrzej Potocki
 					mother=100111576	# CSS Krystyna Tyszkiewicz
 					1900.07.18={birth=yes}
-					1926.06.23={add_spouse=100111950}	# CSS Sophie Tarnowski
+					1926.06.23={add_spouse=100111950}	# Zofia Tarnowski
 					1939.09.28={death=yes}
 				}
 					100111602={	# 1e) Andrzej Jerzy Maria Hubert (Miedzyrzec 15 Aug 1927-Jan 2004); m.1st Lyon 13 May 1950 (div 1965) Bss Marie Henriette Durye (b.Villeneuve sur Allier 13 Sep 1927); m.2nd Françoise Escudier
@@ -3122,7 +2381,7 @@
 						dynasty=1012006
 						religion=catholic culture=polish
 						father=100111600	# Andrzej Potocki
-						mother=100111950	# CSS Sophie Tarnowski
+						mother=100111950	# Zofia Tarnowski
 						1927.08.15={birth=yes}
 						1950.05.13={add_spouse=100111603}	# BSS Marie Henriette Durye
 						1965.01.01={remove_spouse=100111603}
@@ -3180,7 +2439,7 @@
 								female=yes
 								dynasty=1012006
 								religion=catholic culture=polish
-								father=100111611	# Stanislaus Peter Potocki
+								father=100111611	# Stanislaus Piotr Potocki
 								mother=100111612	# Josiane Brousse
 								1985.10.29={birth=yes}
 							}
@@ -3189,7 +2448,7 @@
 								female=yes
 								dynasty=1012006
 								religion=catholic culture=polish
-								father=100111611	# Stanislaus Peter Potocki
+								father=100111611	# Stanislaus Piotr Potocki
 								mother=100111612	# Josiane Brousse
 								1990.12.29={birth=yes}
 							}
@@ -3197,7 +2456,7 @@
 								name="Artur Victor"
 								dynasty=1012006
 								religion=catholic culture=polish
-								father=100111611	# Stanislaus Peter Potocki
+								father=100111611	# Stanislaus Piotr Potocki
 								mother=100111612	# Josiane Brousse
 								1999.04.05={birth=yes}
 							}
@@ -3206,7 +2465,7 @@
 						dynasty=1012006
 						religion=catholic culture=polish
 						father=100111600	# Andrzej Potocki
-						mother=100111950	# CSS Sophie Tarnowski
+						mother=100111950	# Zofia Tarnowski
 						1928.12.12={birth=yes}
 						1947.01.01={add_spouse=100111617}	# Janina Plucinski
 						1951.01.01={remove_spouse=100111617}
@@ -3305,7 +2564,7 @@
 						dynasty=1012006
 						religion=catholic culture=polish
 						father=100111600	# Andrzej Potocki
-						mother=100111950	# CSS Sophie Tarnowski
+						mother=100111950	# Zofia Tarnowski
 						1932.10.15={birth=yes}
 						1957.01.01={add_spouse=100111634}	# Geneviève Plat
 						2009.01.01={death=yes}  # EST.
@@ -3877,7 +3136,7 @@
 	dynasty=1012006
 	religion=catholic culture=polish
 	father=100114037	# Stanislaus Kostka Potocki
-	mother=100114038	# PSS Alexandra Lubomirski
+	mother=100114038	# Aleksandra Lubomirski
 	1778.05.15={birth=yes}  # Warsaw
 	1805.05.15={add_spouse=100114040}	# CSS Anna Tyszkiewicz
 	1820.01.01={remove_spouse=100114040}
@@ -5985,7 +5244,7 @@
 					father=100114565	# Henryk Stefan Potocki
 					mother=100114566	# CSS Julia Branicki
 					1903.10.14={birth=yes}  # Chrzastów
-					1930.09.15={add_spouse=100112066}	# CSS Gabriela Tarnowski
+					1930.09.15={add_spouse=100112066}	# Gabryela Tarnowski
 					1973.12.21={death=yes}  # Washington
 				}
 					100114573={	# 1e) Julia Anna Maria Roza (b.Cracow 11 Jun 1931)
@@ -5994,7 +5253,7 @@
 						dynasty=1012006
 						religion=catholic culture=polish
 						father=100114571	# Wladislaw Kalikst Potocki
-						mother=100112066	# CSS Gabriela Tarnowski
+						mother=100112066	# Gabryela Tarnowski
 						1931.06.11={birth=yes}  # Cracow
 						2008.01.01={death=yes}  # EST.
 					}
@@ -6004,7 +5263,7 @@
 						dynasty=1012006
 						religion=catholic culture=polish
 						father=100114571	# Wladislaw Kalikst Potocki
-						mother=100112066	# CSS Gabriela Tarnowski
+						mother=100112066	# Gabryela Tarnowski
 						1934.12.11={birth=yes}  # Warsaw
 						2011.01.01={death=yes}  # EST.
 					}
@@ -6013,7 +5272,7 @@
 						dynasty=1012006
 						religion=catholic culture=polish
 						father=100114571	# Wladislaw Kalikst Potocki
-						mother=100112066	# CSS Gabriela Tarnowski
+						mother=100112066	# Gabryela Tarnowski
 						1937.09.29={birth=yes}  # Gdansk
 						1964.03.30={add_spouse=100114577}	# Veronika Agopian
 						2014.01.01={death=yes}  # EST.
@@ -6225,7 +5484,8 @@
 			father=100114561	# Henryk Potocki
 			mother=100114562	# PSS Helene Sulkowski
 			1850.01.01={birth=yes}
-			1875.01.01={add_spouse=100114612}	# Felice Rzewuski
+			1876.01.01={add_spouse=100114612}	# Felice Rzewuski
+			1887.01.01={remove_spouse=100114612}
 			1888.06.06={add_spouse=100114613}	# Helena Cywinski
 			1924.01.01={death=yes}  # EST.
 		}
@@ -6724,7 +5984,7 @@
 
 
 ##  100111400	Sapieha					1012005
-100111406={
+100111406={# Ignacy	Sapieha (1720-1758)
 	name=Ignacy
 	dynasty=1012005
 	religion=catholic culture=polish
@@ -6735,7 +5995,7 @@
 	name=Józef
 	dynasty=1012005
 	religion=catholic culture=polish
-	father=100111406
+	father=100111406	# Ignacy Sapieha
 	1737.06.01={birth=yes}
 	1761.01.01={add_spouse=100111401}	# PSS Teofila Jablonowski
 	1792.01.10={death=yes}
@@ -7272,34 +6532,34 @@
 	1831.01.01={death=yes}  # EST.
 }
 
-100111806={
+100111806={# Jerzy Sebastian	Lubomirski (1616-1667)
 	name="Jerzy Sebastian"
 	dynasty=1012004
 	religion=catholic culture=polish
 	1616.01.01={birth=yes}
 	1667.01.11={death=yes}
 }
-	100111807={
+	100111807={# Stanislaw Herakliusz	Lubomirski (1643-1702)
 		name="Stanislaw Herakliusz"
 		dynasty=1012004
 		religion=catholic culture=polish
-		father=100111806
+		father=100111806	# Jerzy Sebastian Lubomirski
 		1643.01.01={birth=yes}
 		1702.01.17={death=yes}
 	}
-		100111808={
+		100111808={# Jozef	Lubomirski (1685-1732)
 			name=Jozef
 			dynasty=1012004
 			religion=catholic culture=polish
-			father=100111807
+			father=100111807	# Stanislaw Herakliusz Lubomirski
 			1685.01.01={birth=yes}
 			1732.06.11={death=yes}
 		}
-			100111809={
+			100111809={# Stanislaw	Lubomirski (1722-1783)
 				name=Stanislaw
 				dynasty=1012004
 				religion=catholic culture=polish
-				father=100111808
+				father=100111808	# Jozef Lubomirski
 				1722.12.25={birth=yes}
 				1783.08.12={death=yes}
 			}
@@ -7308,7 +6568,7 @@
 					female=yes
 					dynasty=1012004
 					religion=catholic culture=polish
-					father=100111809
+					father=100111809	# Stanislaw Lubomirski
 					1760.01.01={birth=yes}
 					1830.03.19={death=yes}  # Cracow
 				}
@@ -7317,23 +6577,23 @@
 					female=yes
 					dynasty=1012004
 					religion=catholic culture=polish
-					father=100111809
+					father=100111809	# Stanislaw Lubomirski
 					1764.01.01={birth=yes}
 					1794.08.22={death=yes}
 				}
-	100111805={
+	100111805={# Aleksander Michal	Lubomirski (1643-1675)
 		name="Aleksander Michal"
 		dynasty=1012004
 		religion=catholic culture=polish
-		father=100111806
+		father=100111806	# Jerzy Sebastian Lubomirski
 		1643.01.01={birth=yes}
 		1675.01.11={death=yes}
 	}
-		100111804={
+		100111804={# Jerzy Aleksander	Lubomirski (1670-1735)
 			name="Jerzy Aleksander"
 			dynasty=1012004
 			religion=catholic culture=polish
-			father=100111805
+			father=100111805	# Aleksander Michal Lubomirski
 			1670.01.01={birth=yes}
 			1735.01.11={death=yes}
 		}
@@ -7342,39 +6602,39 @@
 		female=yes
 		dynasty=1012004
 		religion=catholic culture=polish
-		father=100111806
+		father=100111806	# Jerzy Sebastian Lubomirski
 		1641.01.01={birth=yes}
 		1699.01.01={death=yes}
 	}
-	100111810={
+	100111810={# Hieronim Augustyn	Lubomirski (1647-1706)
 		name="Hieronim Augustyn"
 		dynasty=1012004
 		religion=catholic culture=polish
-		father=100111806
+		father=100111806	# Jerzy Sebastian Lubomirski
 		1647.01.01={birth=yes}
 		1706.01.01={death=yes}
 	}
-		100111811={
+		100111811={# Jerzy Ignacy	Lubomirski (1687-1753)
 			name="Jerzy Ignacy"
 			dynasty=1012004
 			religion=catholic culture=polish
-			father=100111810
+			father=100111810	# Hieronim Augustyn Lubomirski
 			1687.01.01={birth=yes}
 			1753.01.01={death=yes}
 		}
-			100111812={
+			100111812={# Franciszek Grzegorz	Lubomirski (1752-1813)
 				name="Franciszek Grzegorz"
 				dynasty=1012004
 				religion=catholic culture=polish
-				father=100111811
+				father=100111811	# Jerzy Ignacy Lubomirski
 				1752.01.01={birth=yes}
 				1813.01.01={death=yes}
 			}
-				100111813={
+				100111813={# Adam	Lubomirski (1812-1873)
 					name=Adam
 					dynasty=1012004
 					religion=catholic culture=polish
-					father=100111812
+					father=100111812	# Franciszek Grzegorz Lubomirski
 					1812.01.01={birth=yes}
 					1873.01.01={death=yes}
 				}
@@ -7383,7 +6643,7 @@
 						female=yes
 						dynasty=1012004
 						religion=catholic culture=polish
-						father=100111813
+						father=100111813	# Adam Lubomirski
 						1841.01.01={birth=yes}
 						1910.01.01={death=yes}
 					}
@@ -7391,7 +6651,7 @@
 						name=Adam
 						dynasty=1012004
 						religion=catholic culture=polish
-						father=100111813
+						father=100111813	# Adam Lubomirski
 						1852.12.04={birth=yes}
 						1881.01.23={add_spouse=100110604}	# Maria Eleonora Zamoyski
 						1893.11.22={death=yes}
@@ -7401,7 +6661,7 @@
 		female=yes
 		dynasty=1012004
 		religion=catholic culture=polish
-		father=100111806
+		father=100111806	# Jerzy Sebastian Lubomirski
 		1665.01.01={birth=yes}
 		1701.01.01={death=yes}
 	}
@@ -7410,7 +6670,7 @@
 	name=Stanislaw
 	dynasty=1012004
 	religion=catholic culture=polish
-	father=100111804
+	father=100111804	# Jerzy Aleksander Lubomirski
 	1704.01.01={birth=yes}
 	1740.01.01={add_spouse=100111654}	# Ludwika Honoratia Pociej
 	1793.07.19={death=yes}
@@ -7434,7 +6694,7 @@
 		1747.01.01={birth=yes}
 		1785.01.01={add_spouse=100111658}	# Teofila Rzewuski
 		1799.01.01={remove_spouse=100111658}
-		1800.01.01={add_spouse=100111659}	# Maria Lvovna Naryshkina
+		1800.01.01={add_spouse=100111659}	# Maria Lvovna Naryshkin
 		1819.01.01={death=yes}
 	}
 		100111660={	# 5b) Konstanty Stanislas Xaver Feliks (18 Nov 1786-25 Apr 1870); m.18 Feb 1812 Css Catharina Tolstoy (15 Aug 1789-11 Feb 1870)
@@ -7750,7 +7010,7 @@
 						father=100111687	# Stephan Andrzej Lubomirski
 						mother=100110311	# Natalia Zamoyski
 						1897.12.17={birth=yes}
-						1922.01.17={add_spouse=100111721}	# GFN Rosa von dem Broel gt Plater
+						1922.01.17={add_spouse=100111721}	# GFN Rosa von dem Broel-Plater
 						1927.08.12={death=yes}
 					}
 						100111722={	# 1f) Elzbieta (b.Kruszyna 17 Oct 1922); m.1st Lipinki 8 Oct 1944 Ct Joseph Stadnicki (Nawojowo, Galicia 16 Oct 1919-Grójec 13 Oct 1960); m.2nd Puszczykówko 28 Nov 1964 Jean Ollier (Paris 1916-Moulignon 18 May 1980)
@@ -7759,7 +7019,7 @@
 							dynasty=1012004
 							religion=catholic culture=polish
 							father=100111720	# Wladislaw Lubomirski
-							mother=100111721	# GFN Rosa von dem Broel gt Plater
+							mother=100111721	# GFN Rosa von dem Broel-Plater
 							1922.10.17={birth=yes}
 							1998.01.01={death=yes}  # EST.
 						}
@@ -7769,7 +7029,7 @@
 							dynasty=1012004
 							religion=catholic culture=polish
 							father=100111720	# Wladislaw Lubomirski
-							mother=100111721	# GFN Rosa von dem Broel gt Plater
+							mother=100111721	# GFN Rosa von dem Broel-Plater
 							1923.08.25={birth=yes}
 							2015.04.18={death=yes}
 						}
@@ -7779,7 +7039,7 @@
 							dynasty=1012004
 							religion=catholic culture=polish
 							father=100111720	# Wladislaw Lubomirski
-							mother=100111721	# GFN Rosa von dem Broel gt Plater
+							mother=100111721	# GFN Rosa von dem Broel-Plater
 							1925.11.03={birth=yes}
 							1933.02.12={death=yes}
 						}
@@ -8076,7 +7336,7 @@
 			dynasty=1012004
 			religion=catholic culture=polish
 			father=100111657	# Franciszek Ksawery Lubomirski
-			mother=100111659	# Maria Lvovna Naryshkina
+			mother=100111659	# Maria Lvovna Naryshkin
 			1801.09.15={birth=yes}
 			1832.05.15={add_spouse=100111781}	# Honorine Kraszewski
 			1885.06.20={death=yes}
@@ -8169,7 +7429,7 @@
 				father=100111780	# Antoni Juliusz Lubomirski
 				mother=100111781	# Honorine Kraszewski
 				1845.09.19={birth=yes}
-				1877.04.30={add_spouse=100111799}	# CT Gustav Tarnowski
+				1877.04.30={add_spouse=100111799}	# Gustaw Tarnowski
 				1897.09.30={death=yes}
 			}
 			100111800={	# 7c) Antoni Kasimierz (Constantinople 31 Jul 1847-1876); m.1874 Maria Waskowski (1849)
@@ -8196,7 +7456,7 @@
 			dynasty=1012004
 			religion=catholic culture=polish
 			father=100111657	# Franciszek Ksawery Lubomirski
-			mother=100111659	# Maria Lvovna Naryshkina
+			mother=100111659	# Maria Lvovna Naryshkin
 			1802.08.11={birth=yes}
 			1823.01.01={add_spouse=100111117}	# Julia Radziwill
 			1893.06.12={death=yes}
@@ -8396,7 +7656,7 @@
 				father=100111233	# Kasimierz Lubomirski
 				mother=100111234	# Zenaida Holynski
 				1838.05.02={birth=yes}
-				1868.11.05={add_spouse=100111236}	# Wanda Lubomirski
+				1868.11.05={add_spouse=100111236}	# Wanda Lubomirski Lubomirski
 				1918.12.08={death=yes}
 			}
 				100111237={	# 1e) Adam Jan Kasimierz Stanislaw (Równe 6 Jul 1873-in Russian prison 12/14 Jan 1940); m.1st Paris 1920 Ada Rzewuska (Wladikawkas 6 Jun 1893-Równe Jan 1940)
@@ -8404,7 +7664,7 @@
 					dynasty=1012004
 					religion=catholic culture=polish
 					father=100111235	# Stanislaw Michal Lubomirski
-					mother=100111236	# Wanda Lubomirski
+					mother=100111236	# Wanda Lubomirski Lubomirski
 					1873.07.06={birth=yes}
 					1920.01.01={add_spouse=100111238}	# Ada Rzewuski
 					1940.01.12={death=yes}
@@ -8530,7 +7790,7 @@
 					dynasty=1012004
 					religion=catholic culture=polish
 					father=100111235	# Stanislaw Michal Lubomirski
-					mother=100111236	# Wanda Lubomirski
+					mother=100111236	# Wanda Lubomirski Lubomirski
 					1875.11.15={birth=yes}
 					1911.10.05={add_spouse=100110715}	# Tereza Radziwill
 					1939.09.21={death=yes}
@@ -8722,7 +7982,7 @@
 					dynasty=1012004
 					religion=catholic culture=polish
 					father=100111235	# Stanislaw Michal Lubomirski
-					mother=100111236	# Wanda Lubomirski
+					mother=100111236	# Wanda Lubomirski Lubomirski
 					1877.06.03={birth=yes}
 					1954.12.20={death=yes}
 				}
@@ -8732,7 +7992,7 @@
 					dynasty=1012004
 					religion=catholic culture=polish
 					father=100111235	# Stanislaw Michal Lubomirski
-					mother=100111236	# Wanda Lubomirski
+					mother=100111236	# Wanda Lubomirski Lubomirski
 					1882.10.09={birth=yes}
 					1947.02.16={death=yes}
 				}
@@ -10648,7 +9908,7 @@
 						father=100110872	# Konstanty Radziwill
 						mother=100110875	# Adela Karnicki
 						1848.02.08={birth=yes}
-						1871.10.05={add_spouse=100111007}	# GFN Hedwig von dem Broel-Plater
+						1871.10.05={add_spouse=100111007}	# GFN Jadwiga von dem Broel-Plater
 						1904.07.22={death=yes}
 					}
 						100111008={# 1f) Maria (Towiany 19 Sep 1872-Cracow 11 Jan 1944); m.Warsaw 26 Jul 1892 Witold Gf Skorzewski (Würzburg 26 Dec 1864-Czerniejewo 30 Dec 1912)
@@ -10657,7 +9917,7 @@
 							dynasty=1012003
 							religion=catholic culture=polish
 							father=100111006	# Karol Radziwill
-							mother=100111007	# GFN Hedwig von dem Broel-Plater
+							mother=100111007	# GFN Jadwiga von dem Broel-Plater
 							1872.09.19={birth=yes}
 							1944.01.11={death=yes}
 						}
@@ -10666,7 +9926,7 @@
 							dynasty=1012003
 							religion=catholic culture=polish
 							father=100111006	# Karol Radziwill
-							mother=100111007	# GFN Hedwig von dem Broel-Plater
+							mother=100111007	# GFN Jadwiga von dem Broel-Plater
 							1873.10.15={birth=yes}
 							1912.10.01={add_spouse=100111011}	# Johanna Holynski
 							1940.01.01={death=yes}
@@ -10741,7 +10001,7 @@
 							dynasty=1012003
 							religion=catholic culture=polish
 							father=100111006	# Karol Radziwill
-							mother=100111007	# GFN Hedwig von dem Broel-Plater
+							mother=100111007	# GFN Jadwiga von dem Broel-Plater
 							1877.04.18={birth=yes}
 							1901.09.17={add_spouse=100111023}	# GFN Isabella Wodzicki
 							1922.11.28={death=yes}
@@ -10771,7 +10031,7 @@
 							dynasty=1012003
 							religion=catholic culture=polish
 							father=100111006	# Karol Radziwill
-							mother=100111007	# GFN Hedwig von dem Broel-Plater
+							mother=100111007	# GFN Jadwiga von dem Broel-Plater
 							1882.10.05={birth=yes}
 							1971.11.16={death=yes}
 						}
