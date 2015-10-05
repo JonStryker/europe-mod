@@ -1,5 +1,30 @@
-#Hohenzollern|12476|100015500-100015699
+100014566={	#         			Elisabeth Magdalene 			von Brandenburg 
+	name="Elisabeth Magdalene of Brandenburg"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=german
+	1537.11.06={birth=yes}  # Berlin
+	1595.08.22={death=yes}  # Berlin
+}
+100014669={	# Mgve    			Georg Friedrich     			von Brandenburg-Ansbach
+	name="Georg Friedrich von Brandenburg-Ansbach"
+	dynasty=0
+	religion=lutheran culture=german
+	1554.01.01={birth=yes}
+	1579.05.03={add_spouse=100014668}	# Sophie
+	1603.04.26={death=yes}
+}
+100014657={	# Mgve    			Friedrich Ernst     			von Brandenburg-Bayreuth
+	name="Friedrich Ernst von Brandenburg-Bayreuth"
+	dynasty=0
+	religion=lutheran culture=german
+	1706.01.01={birth=yes}
+	1731.12.20={add_spouse=100014656}	# Christiane Sophie
+	1762.06.23={death=yes}
+}
 
+
+#Hohenzollern|12476|100015500-100015699
 100015500={ # Friedrich
 	name=Friedrich
 	dynasty=12476
@@ -96,14 +121,15 @@
 					dynasty=12476
 					religion=catholic culture=german
 					father=100015640	# Joachim Nestor v. Hohenzollern
-					1505.01.01={birth=yes}
-					1571.01.01={death=yes}
+					1505.01.13={birth=yes}
+					1535.01.01={add_spouse=100111879}	# Hedwig Jogailaitis
+					1571.01.03={death=yes}
 				}
 					100015670={# Johann Georg von Hohenzollern (1525-1598)
 						name="Johann Georg"
 						dynasty=12476
 						religion=catholic culture=german
-						father=100015640	# Joachim Nestor v. Hohenzollern
+						father=100015650	# Joachim Nestor v. Hohenzollern
 						1525.01.01={birth=yes}
 						1598.01.01={death=yes}
 					}
@@ -154,66 +180,66 @@
 	name=Karl
 	dynasty=1002024
 	religion=catholic culture=german
-	father=100015540	# Eitel Friedrich v. Hohenzollern
+	father=100015550	# Karl v. Hohenzollern
 	1547.01.01={birth=yes}
 	1606.01.01={death=yes}
 }
-100015310={ # Johann
-	name=Johann
-	dynasty=1002024
-	religion=catholic culture=german
-	father=100015300	# Karl v. Hohenzollern-Sigmaringen
-	1578.01.01={birth=yes}
-	1638.01.01={death=yes}
-}
-100015320={ # Meinrad
-	name=Meinrad
-	dynasty=1002024
-	religion=catholic culture=german
-	father=100015310	# Johann v. Hohenzollern-Sigmaringen
-	1605.01.01={birth=yes}
-	1681.01.01={death=yes}
-}
-100015340={ # Maximilian
-	name=Maximilian
-	dynasty=1002024
-	religion=catholic culture=german
-	father=100015320	# Meinrad v. Hohenzollern-Sigmaringen
-	1636.01.01={birth=yes}
-	1689.01.01={death=yes}
-}
-100015350={ # Meinrad
-	name=Meinrad
-	dynasty=1002024
-	religion=catholic culture=german
-	father=100015340	# Maximilian v. Hohenzollern-Sigmaringen
-	1673.01.01={birth=yes}
-	1715.01.01={death=yes}
-}
-100015360={# Joseph Friedrich Ernst v. Hohenzollern-Sigmaringen (1702-1769)
-	name="Joseph Friedrich Ernst"
-	dynasty=1002024
-	religion=catholic culture=german
-	father=100015350	# Meinrad v. Hohenzollern-Sigmaringen
-	1702.01.01={birth=yes}
-	1769.01.01={death=yes}
-}
-100015370={# Karl Friedrich v. Hohenzollern-Sigmaringen (1724-1785)
-	name="Karl Friedrich"
-	dynasty=1002024
-	religion=catholic culture=german
-	father=100015360	# Joseph Friedrich Ernst v. Hohenzollern-Sigmaringen
-	1724.01.01={birth=yes}
-	1785.01.01={death=yes}
-}
-100015380={# Anton Aloys v. Hohenzollern-Sigmaringen (1762-1831)
-	name="Anton Aloys"
-	dynasty=1002024
-	religion=catholic culture=german
-	father=100015370	# Karl Friedrich v. Hohenzollern-Sigmaringen
-	1762.01.01={birth=yes}
-	1831.01.01={death=yes}
-}
+	100015310={ # Johann
+		name=Johann
+		dynasty=1002024
+		religion=catholic culture=german
+		father=100015300	# Karl v. Hohenzollern-Sigmaringen
+		1578.01.01={birth=yes}
+		1638.01.01={death=yes}
+	}
+		100015320={ # Meinrad
+			name=Meinrad
+			dynasty=1002024
+			religion=catholic culture=german
+			father=100015310	# Johann v. Hohenzollern-Sigmaringen
+			1605.01.01={birth=yes}
+			1681.01.01={death=yes}
+		}
+			100015340={ # Maximilian
+				name=Maximilian
+				dynasty=1002024
+				religion=catholic culture=german
+				father=100015320	# Meinrad v. Hohenzollern-Sigmaringen
+				1636.01.01={birth=yes}
+				1689.01.01={death=yes}
+			}
+				100015350={ # Meinrad
+					name=Meinrad
+					dynasty=1002024
+					religion=catholic culture=german
+					father=100015340	# Maximilian v. Hohenzollern-Sigmaringen
+					1673.01.01={birth=yes}
+					1715.01.01={death=yes}
+				}
+					100015360={# Joseph Friedrich Ernst v. Hohenzollern-Sigmaringen (1702-1769)
+						name="Joseph Friedrich Ernst"
+						dynasty=1002024
+						religion=catholic culture=german
+						father=100015350	# Meinrad v. Hohenzollern-Sigmaringen
+						1702.01.01={birth=yes}
+						1769.01.01={death=yes}
+					}
+						100015370={# Karl Friedrich v. Hohenzollern-Sigmaringen (1724-1785)
+							name="Karl Friedrich"
+							dynasty=1002024
+							religion=catholic culture=german
+							father=100015360	# Joseph Friedrich Ernst v. Hohenzollern-Sigmaringen
+							1724.01.01={birth=yes}
+							1785.01.01={death=yes}
+						}
+							100015380={# Anton Aloys v. Hohenzollern-Sigmaringen (1762-1831)
+								name="Anton Aloys"
+								dynasty=1002024
+								religion=catholic culture=german
+								father=100015370	# Karl Friedrich v. Hohenzollern-Sigmaringen
+								1762.01.01={birth=yes}
+								1831.01.01={death=yes}
+							}
 
 100019600={# KARL Anton Friedrich Meinrad Fidelis, Fst von Hohenzollern-Sigmaringen 17 Oct 1831, abdicated in favor of his son 27 Aug 1848 (Sigmaringen 20 Feb 1785-Sigmaringen 11 Mar 1853); m.1st Paris 4 Feb 1808 Antoinette Pss Murat (Cahors 5 Jan 1793-Sigmaringen 19 Jan 1847); m.2d Kupferzell 14 Mar 1848 Katharina Pss zu Hohenlohe-Waldenburg-Schillingsfürst (Stuttgart 19 Jan 1817-Freiburg 15 Feb 1893)
 	name=Karl
@@ -804,7 +830,7 @@
 	father=100015710	# Friedrich Wilhelm v. Hohenzollern
 	1657.07.11={birth=yes}
 	1679.08.23={add_spouse=100019001}	# Elisabeth Henriette v. Hessen
-	1684.10.08={add_spouse=100019002}	# DSS Sophie Charlotte von Braunschweig-Lüneburg
+	1684.10.08={add_spouse=100014702}	# DSS Sophie Charlotte von Braunschweig-Lüneburg
 	1708.11.28={add_spouse=100019003}	# Sofie Luise v. Mecklenburg
 	1713.02.25={death=yes}
 }
@@ -823,7 +849,7 @@
 		dynasty=12476
 		religion=lutheran culture=german
 		father=100019000	# Friedrich v. Hohenzollern
-		mother=100019002	# DSS Sophie Charlotte von Braunschweig-Lüneburg
+		mother=100014702	# DSS Sophie Charlotte von Braunschweig-Lüneburg
 		1688.08.14={birth=yes}
 		1706.11.28={add_spouse=100105218}	# Sophia Welf
 		1740.05.31={death=yes}
@@ -845,7 +871,7 @@
 			father=100019007	# Friedrich Wilhelm v. Hohenzollern
 			mother=100105218	# Sophia Welf
 			1712.01.24={birth=yes}
-			1733.06.12={add_spouse=100019014}	# DSS Elisabeth von Braunschweig-Wolfenbüttel
+			1733.06.12={add_spouse=100014645}	# DSS Elisabeth von Braunschweig-Wolfenbüttel
 			1786.08.17={death=yes}
 		}
 		100019016={# 6b) Friederike Luise (Berlin 28 Sep 1714-Schwaningen 4 Feb 1784); m.Berlin 30 May 1729 Karl, Margrave of Brandenburg-Ansbach (Ansbach 12 May 1712-Gunzenhausen 3 Aug 1757)
@@ -895,7 +921,7 @@
 			father=100019007	# Friedrich Wilhelm v. Hohenzollern
 			mother=100105218	# Sophia Welf
 			1722.08.09={birth=yes}
-			1742.01.06={add_spouse=100019026}	# DSS Luise von Braunschweig-Wolfenbüttel
+			1742.01.06={add_spouse=100014647}	# DSS Luise von Braunschweig-Wolfenbüttel
 			1758.06.12={death=yes}
 		}
 			100019027={# 1c) FRIEDRICH WILHELM II, King of Prussia (Berlin 25 Sep 1744-Marmorpalais, Potsdam 16 Nov 1797); m.1st Charlottenburg 14 Jul 1765 (div 1767) Elisabeth, Dss of Braunschweig-Wolfenbüttel (Wolfenbüttel 8 Nov 1746-Stettin 18 Feb 1840); m.2d Charlottenburg 14 Jul 1767 Friederike, Landgravine of Hesse-Darmstadt (Prenzlau 16 Oct 1751-Berlin 25 Feb 1805)
@@ -903,9 +929,10 @@
 				dynasty=12476
 				religion=lutheran culture=german
 				father=100019025	# August Wilhelm v. Hohenzollern
-				mother=100019026	# DSS Luise von Braunschweig-Wolfenbüttel
+				mother=100014647	# DSS Luise von Braunschweig-Wolfenbüttel
 				1744.09.25={birth=yes}
-				1765.07.14={add_spouse=100019028}	# DSS Elisabeth von Braunschweig-Wolfenbüttel
+				1765.07.14={add_spouse=100014640}	# DSS Elisabeth von Braunschweig-Wolfenbüttel
+				1769.01.01={remove_spouse=100014640}
 				1767.07.14={add_spouse=100010507}	# Friederike v. Hessen
 				1797.11.16={death=yes}
 			}
@@ -915,7 +942,7 @@
 					dynasty=12476
 					religion=lutheran culture=german
 					father=100019027	# Friedrich Wilhelm v. Hohenzollern
-					mother=100019028	# DSS Elisabeth von Braunschweig-Wolfenbüttel
+					mother=100014640	# DSS Elisabeth von Braunschweig-Wolfenbüttel
 					1767.05.07={birth=yes}
 					1820.08.06={death=yes}
 				}
@@ -2683,7 +2710,7 @@
 				dynasty=12476
 				religion=lutheran culture=german
 				father=100019025	# August Wilhelm v. Hohenzollern
-				mother=100019026	# DSS Luise von Braunschweig-Wolfenbüttel
+				mother=100014647	# DSS Luise von Braunschweig-Wolfenbüttel
 				1747.12.30={birth=yes}
 				1767.05.26={death=yes}
 			}
@@ -2693,7 +2720,7 @@
 				dynasty=12476
 				religion=lutheran culture=german
 				father=100019025	# August Wilhelm v. Hohenzollern
-				mother=100019026	# DSS Luise von Braunschweig-Wolfenbüttel
+				mother=100014647	# DSS Luise von Braunschweig-Wolfenbüttel
 				1751.08.07={birth=yes}
 				1820.06.09={death=yes}
 			}

@@ -32,6 +32,14 @@
 	1611.06.10={birth=yes}
 	1650.04.23={death=yes}  # Beck
 }
+100014576={	# Gf      			Anton               			v. Oldenburg    
+	name="Anton v.Oldenburg"
+	dynasty=0
+	religion=lutheran culture=german
+	1575.01.01={birth=yes}
+	1600.08.31={add_spouse=100014575}	# Sibylle Elisabeth
+	1619.10.25={death=yes}
+}
 
 ### BECK		 	| 1002034 | 100012930-100012999
 100012930={	# August Philipp, Duke of Schleswig-Holstein-Sonderburg-Beck (15 Nov 1612-6 May 1675); 
@@ -719,7 +727,7 @@
 			1515.08.12={add_spouse=100021158}	# Isabella v. Habsburg
 			1559.01.25={death=yes}
 		}
-			100067602={	# Pss     			Christine           			of Denmark     
+			100067602={	# Pss Christine of Denmark     
 				name=Christine
 				female=yes
 				dynasty=224
@@ -738,7 +746,7 @@
 		1533.04.10={death=yes}
 	}
 		100101696={ # Christian
-			name=Christian
+			name=Christian III
 			dynasty=224
 			religion=lutheran culture=danish
 			father=100101695	# Frederik v. Oldenburg
@@ -761,48 +769,60 @@
 					1577.04.12={birth=yes}
 					1648.02.28={death=yes}
 				}
-	
-100101699={ # Frederik III
-	name=Frederik
-	dynasty=224
-	religion=lutheran culture=danish
-	father=100101698	# Christian v. Oldenburg
-	1609.03.18={birth=yes}
-	1670.02.09={death=yes}
-}
-	100100414={ # Jørgen
-		name=Jørgen
-		dynasty=224
-		religion=lutheran culture=danish
-		father=100101699	# Frederik v. Oldenburg
-		1653.04.02={birth=yes}
-		1683.07.28={add_spouse=100100031}	# Anne Stuart
-		1708.10.28={death=yes}
-	}
-	100101700={ # Christian V
-		name=Christian
-		dynasty=224
-		religion=lutheran culture=danish
-		father=100101699	# Frederik v. Oldenburg
-		1646.04.15={birth=yes}
-		1699.08.25={death=yes}
-	}
-		100101701={ # Frederik IV
-			name=Frederik
-			dynasty=224
-			religion=lutheran culture=danish
-			father=100101700	# Christian v. Oldenburg
-			1671.10.11={birth=yes}
-			1730.10.12={death=yes}
-		}
-			100101702={ # Christian VI
-				name=Christian
+					100014697={ # Frederik III
+						name=Frederik
+						dynasty=224
+						religion=lutheran culture=danish
+						father=100101698	# Christian v. Oldenburg
+						1609.03.18={birth=yes}
+						1643.10.01={add_spouse=100014696}	# Sophie Amalie
+						1670.02.09={death=yes}
+					}
+						100100414={ # Jørgen
+							name=Jørgen
+							dynasty=224
+							religion=lutheran culture=danish
+							father=100014697	# Frederik v. Oldenburg
+							mother=100014696
+							1653.04.02={birth=yes}
+							1683.07.28={add_spouse=100100031}	# Anne Stuart
+							1708.10.28={death=yes}
+						}
+						100101700={ # Christian V
+							name=Christian
+							dynasty=224
+							religion=lutheran culture=danish
+							father=100014697	# Frederik v. Oldenburg
+							mother=100014696
+							1646.04.15={birth=yes}
+							1699.08.25={death=yes}
+						}
+							100101701={ # Frederik IV
+								name=Frederik
+								dynasty=224
+								religion=lutheran culture=danish
+								father=100101700	# Christian v. Oldenburg
+								1671.10.11={birth=yes}
+								1730.10.12={death=yes}
+							}
+								100101702={ # Christian VI
+									name=Christian
+									dynasty=224
+									religion=lutheran culture=danish
+									father=100101701	# Frederik v. Oldenburg
+									1699.11.30={birth=yes}
+									1746.08.06={death=yes}
+								}
+			100014667={	# Pss Dorothea of Denmark     
+				name=Dorothea
+				female=yes
 				dynasty=224
-				religion=lutheran culture=danish
-				father=100101701	# Frederik v. Oldenburg
-				1699.11.30={birth=yes}
-				1746.08.06={death=yes}
+				religion=lutheran culture=german
+				father=100101696	# Christian v. Oldenburg
+				1546.01.06={birth=yes}  # Winsen
+				1617.01.01={death=yes}
 			}
+
 100013350={# FREDERIK V (Copenhagen 31 Mar 1723-Christiansborg 14 Jan 1766); m.1st Christiansborg 11 Dec 1743 Louise Pss of Great Britain, Ireland and Hannover (Leicester House, London 7 Dec 1724-Christiansborg 19 Dec 1751); m.2d Frederiksborg 8 Jul 1752 Juliana Maria Dss of Braunschweig- Wolfenbüttel (Wolfenbüttel 4 Sep 1729-Fredensborg 10 Oct 1796)
 	name=Frederik
 	dynasty=224
@@ -810,7 +830,7 @@
 	father=100101702	# Christian v. Oldenburg
 	1723.03.31={birth=yes}
 	1743.12.11={add_spouse=100105216}	# Louisa Welf
-	1752.07.08={add_spouse=100013352}	# DSS Juliana von Braunschweig-Wolfenbüttel
+	1752.07.08={add_spouse=100014651}	# DSS Juliana von Braunschweig-Wolfenbüttel
 	1766.01.14={death=yes}
 }
 	100013354={# 2a) Sophie Magdalene (Christiansborg 3 Jul 1746-Ulriksdal 21 Aug 1813); m.by proxy at Copenhagen on 1 Oct 1766 and in person at Stockholm 4 Nov 1766 King Gustaf III of Sweden (Stockholm 24 Jan 1746-Stockholm 29 Mar 1792)
@@ -899,7 +919,7 @@
 		dynasty=224
 		religion=lutheran culture=danish
 		father=100013350	# Frederik v. Oldenburg
-		mother=100013352	# DSS Juliana von Braunschweig-Wolfenbüttel
+		mother=100014651	# DSS Juliana von Braunschweig-Wolfenbüttel
 		1753.10.11={birth=yes}
 		1774.10.21={add_spouse=100017768}	# Sophie v. Mecklenburg
 		1805.12.07={death=yes}

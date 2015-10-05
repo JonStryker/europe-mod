@@ -3264,7 +3264,6 @@
 						father=100016198	# Bernhard von Wettin
 						mother=100016200	# FRN Vera Schäffer von Bernstein
 						1952.04.14={birth=yes}
-						#YYYY.01.01={death=yes}
 					}
 					100016212={# 5e) Almut Huberta Anna Victoria (b.Bützbach 25 Sep 1959); m.(civ) Vorsfelde 14 Oct 1993 (rel) Nordteimke bei Wolfsburg 16 Oct 1993 Eberhard von Braunschweig (Coburg 5 Mar 1954)
 						name="Almut Huberta"
@@ -3274,7 +3273,6 @@
 						father=100016198	# Bernhard von Wettin
 						mother=100016200	# FRN Vera Schäffer von Bernstein
 						1959.09.25={birth=yes}
-						#YYYY.01.01={death=yes}
 					}
 		100016215={# 2b) Auguste Luise Adelheid Karoline Ida (Meiningen 6 Aug 1843-Altenburg 11 Nov 1919); m.Meiningen 15 Oct 1862 Moritz Pr von Sachsen-Altenburg (Eisenberg 24 Oct 1829-Arco 13 May 1907)
 			name="Auguste Luise"
@@ -4805,7 +4803,7 @@
 		father=100017800	# Friedrich Eugen v. Württemberg
 		mother=100017801	# MARGR Friederike von Brandenburg-Schwedt
 		1754.11.06={birth=yes}
-		1780.10.15={add_spouse=100017803}	# DSS Auguste von Braunschweig-Wolfenbüttel
+		1780.10.15={add_spouse=100014623}	# DSS Auguste von Braunschweig-Wolfenbüttel
 		1797.05.18={add_spouse=100105017}	# Charlotte Welf
 		1816.10.30={death=yes}
 	}
@@ -4814,7 +4812,7 @@
 			dynasty=12446
 			religion=catholic culture=german
 			father=100017802	# Friedrich v. Württemberg
-			mother=100017803	# DSS Auguste von Braunschweig-Wolfenbüttel
+			mother=100014623	# DSS Auguste von Braunschweig-Wolfenbüttel
 			1781.09.27={birth=yes}
 			1808.06.08={add_spouse=100017805}	# Wilhelm v. Württemberg
 			1816.01.24={
@@ -4879,16 +4877,16 @@
 			dynasty=12446
 			religion=catholic culture=german
 			father=100017802	# Friedrich v. Württemberg
-			mother=100017803	# DSS Auguste von Braunschweig-Wolfenbüttel
+			mother=100014623	# DSS Auguste von Braunschweig-Wolfenbüttel
 			1783.02.21={birth=yes}
 			1835.11.28={death=yes}
 		}
 		100017822={# 4b) Paul Heinrich Karl Friedrich August (St.Petersburg 19 Jan 1785-Paris 16 Apr 1852); m.Ludwigsburg 28 Sep 1805 Charlotte von Sachsen-Hildburghausen (Hildburghausen 17 Jun 1787-Bamberg 12 Dec 1847)
-			name="Paul Heinrich"
+			name=Paul
 			dynasty=12446
 			religion=catholic culture=german
 			father=100017802	# Friedrich v. Württemberg
-			mother=100017803	# DSS Auguste von Braunschweig-Wolfenbüttel
+			mother=100014623	# DSS Auguste von Braunschweig-Wolfenbüttel
 			1785.01.19={birth=yes}
 			1805.09.28={add_spouse=100016303}	# Katharina Charlotte v. Sachsen-Altenburg
 			1852.04.16={death=yes}
@@ -4935,7 +4933,7 @@
 						1965.05.07={death=yes}
 					}
 			100017835={# 4c) Pauline Friederike Marie (Stuttgart 25 Feb 1810-Wiesbaden 7 Jul 1856); m.Stuttgart 23 Apr 1829 Wilhelm, Duke of Nassau (Kirchheimbolanden 14 Jun 1792-Kissingen 30 Aug 1839)
-				name="Pauline Friederike"
+				name=Pauline
 				female=yes
 				dynasty=12446
 				religion=catholic culture=german
@@ -5887,27 +5885,46 @@
 	name="Adolf Friedrich"
 	dynasty=1002013
 	religion=catholic culture=german
-	1588.01.01={birth=yes}
-	1658.01.01={death=yes}
+	1588.12.15={birth=yes}
+	1635.02.15={add_spouse=100014572}	# Marie Katharine
+	1658.02.27={death=yes}
 }
+	100014595={	# Duke Johann Georg von Mecklenburg-Schwerin
+		name="Johann Georg"
+		dynasty=1002013
+		religion=lutheran culture=german
+		father=100017773	# Adolf Friedrich v. Mecklenburg
+		1629.05.03={birth=yes}
+		1675.02.02={add_spouse=100014594}	# Elisabeth Eleonore
+		1675.07.09={death=yes}  # Mirow
+	}
+	100017772={
+		name=Friedrich
+		dynasty=1002013
+		religion=catholic culture=german
+		father=100017773	# Adolf Friedrich v. Mecklenburg
+		mother=100014572
+		1638.02.13={birth=yes}
+		1688.04.28={death=yes}
+	}
+		100004021={# Duke Karl Leopold von Mecklenburg-Schwerin (Grabow 26 Nov 1678-Dömitz 28 Nov 1747)
+			name="Karl Leopold"
+			dynasty=1002013
+			religion=orthodox culture=russian
+			father=100017772	# Friedrich v. Mecklenburg
+			1678.11.26={birth=yes}
+			1747.11.28={death=yes}
+		}
+		100019003={# Dss Sofie Luise von Mecklenburg-Schwerin (Grabow 16 May 1685-Schwerin 29 Jul 1735)
+			name="Sofie Luise"
+			female=yes
+			dynasty=1002013
+			religion=lutheran culture=german
+			father=100017772	# Friedrich v. Mecklenburg
+			1685.05.16={birth=yes}
+			1735.07.29={death=yes}
+		}
 
-100017772={# 13 February 1638, Schwerin – 28 April 1688
-	name=Friedrich
-	dynasty=1002013
-	religion=catholic culture=german
-	father=100017773	# Adolf Friedrich v. Mecklenburg
-	1638.02.13={birth=yes}
-	1688.04.28={death=yes}
-}
-
-100004021={# Karl Leopold			Duke 		of Mecklenburg-Schwerin (Grabow 26 Nov 1678-Dömitz 28 Nov 1747)
-	name="Karl Leopold"
-	dynasty=1002013
-	religion=orthodox culture=russian
-	father=100017772	# Friedrich v. Mecklenburg
-	1678.11.26={birth=yes}
-	1747.11.28={death=yes}
-}
 100017682={# CHRISTIAN LUDWIG II, Duke of Mecklenburg-Schwerin 28 Nov 1747 (Grabow 15 May 1683-Schwerin 30 May 1756); m.Güstrow 13 Nov 1714 Gustave Karoline Dss of Mecklenburg-Strelitz (Neustrelitz 12 Jul 1694-Schwerin 13 Apr 1748)
 	name="Christian Ludwig"
 	dynasty=1002013
@@ -5916,16 +5933,6 @@
 	1683.05.15={birth=yes}
 	1714.11.13={add_spouse=100017683}	# Gustave Karoline v. Mecklenburg
 	1756.05.30={death=yes}
-}
-
-100019003={# Sofie Luise 			Dss		of Mecklenburg-Schwerin (Grabow 16 May 1685-Schwerin 29 Jul 1735)
-	name="Sofie Luise"
-	female=yes
-	dynasty=1002013
-	religion=lutheran culture=german
-	father=100017772	# Friedrich v. Mecklenburg
-	1685.05.16={birth=yes}
-	1735.07.29={death=yes}
 }
 	100017684={# 1a) FRIEDRICH, Duke of Mecklenburg-Schwerin (Schwerin 9 Nov 1717-Ludwigslust 24 Apr 1785); m.Schwedt 2 Mar 1746 Luise Friederike Dss of Württemberg (Stuttgart 3 Feb 1722-Hamburg 2 Aug 1791)
 		name=Friedrich
@@ -6357,6 +6364,7 @@
 	dynasty=1002013
 	religion=catholic culture=german
 	father=100017773	# Adolf Friedrich v. Mecklenburg
+	mother=100014572
 	1658.01.01={birth=yes}
 	1708.01.01={death=yes}
 }
@@ -9634,7 +9642,7 @@
 	100012962={ # Css        Anna Karoline             von Sachsen                              (1707-1769)     1
 		name="Anna Karolina Orzelska"
 		female=yes
-		dynasty=0
+		dynasty=528
 		religion=lutheran culture=german
 		father=100016751	# Friedrich August von Wettin
 		trait=bastard
@@ -10446,7 +10454,6 @@
 			1960.07.28={birth=yes}
 			1992.01.23={add_spouse=100017890}	# Karen Humphreys
 			2008.10.20={add_spouse=100017891}	# Martha de Klerk
-			#YYYY.01.01={death=yes}
 		}
 		100017892={# 3g) Simon Rupert Liddell-Grainger, b.Edinburgh 27 Dec 1963; m.1st Montreal 26 Jan 1984 (div 1999) Romana Maria Rogoshewska (b.Hutturm 17 Sep 1945); m.2d Canada 4 Feb 2000 Natalie Judith Poulard (b.Montreal 29 Sep 1970)
 			name="Simon Rupert"
@@ -10578,7 +10585,6 @@
 	dynasty=0
 	religion=catholic culture=german
 	1975.01.01={birth=yes}
-	#YYYY.01.01={death=yes}
 }
 100017898={# Pietro Panaggio (b.Castelvetere 5 Mar 1963)
 	name="Pietro Panaggio"
