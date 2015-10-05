@@ -64,14 +64,6 @@
 	1861.07.15={add_spouse=100110452}	# Zofia Zamoyski
 	1894.05.11={death=yes}
 }
-100111259={ # Ct         Stanislaw                 Tarnowski-Mecinski                       (1918-2006)     0
-	name="Stanislaw Tarnowski-Mecinski"
-	dynasty=0
-	religion=catholic culture=polish
-	1918.09.16={birth=yes}
-	1950.11.20={add_spouse=100111258}	# Ada Lubomirski
-	2006.04.04={death=yes}
-}
 	
 100111944={# Józef Mateusz Amor (1707-1744)
 	name="Józef Mateusz Amor"
@@ -470,7 +462,10 @@
 						1928.09.26={add_spouse=100112007}	# CSS Maria Wielopolska
 						1940.01.01={death=yes}  # Poland
 					}
-						100112008={	# 1f) Juliusz (b.Konskie 21 Sep 1929); m.1st Cracow 6 Apr 1953 (div 1 Nov 1985) Helena Poninska (b.Poznan 15 Sep 1934); m.2nd (civ) Cracow 1962 (div 1975) Halina Bobinska (b.1945); m.3rd Cracow (civ) 19 Mar 1976 (rel) 10 Dec 1985 Maria Nowacka (b.Cracow 15 Aug 1952)
+						100112008={	# 1f) Juliusz (b.Konskie 21 Sep 1929); 
+									# m.1st Cracow 6 Apr 1953 (div 1 Nov 1985) Helena Poninska (b.Poznan 15 Sep 1934); 
+									# m.2nd (civ) Cracow 1962 (div 1975) Halina Bobinska (b.1945); 
+									# m.3rd Cracow (civ) 19 Mar 1976 (rel) 10 Dec 1985 Maria Nowacka (b.Cracow 15 Aug 1952)
 							name=Juliusz
 							dynasty=1012008
 							religion=catholic culture=polish
@@ -478,10 +473,10 @@
 							mother=100112007	# CSS Maria Wielopolska
 							1929.09.21={birth=yes}  # Konskie
 							1953.04.06={add_spouse=100112009}	# Helena Poninska
+							1985.11.01={remove_spouse=100112009}
 							1962.01.01={add_spouse=100112010}	# Halina Bobinska
 							1975.01.01={remove_spouse=100112010}
 							1976.03.19={add_spouse=100112011}	# Maria Nowacka
-							1985.11.01={remove_spouse=100112009}
 							2006.01.01={death=yes}  # EST.
 						}
 							100112012={	# 1g) Wladislaw Edward Maria Tarnowski-Lazarski (b.Cracow 7 Jan 1954); m.Tyniec 21 Jun 1980 Hanna Leskiewicz (b.Zakopane 1 Jul 1954)
@@ -914,7 +909,7 @@
 						2009.11.22={death=yes}  # Rudnik
 					}
 					100112090={	# 2e) Stanislaw-Kostka Stefan Jan Tarnowski-Mecinski (Rudnik 16 Sep 1918-Warsaw 4 Apr 2006); m.1st Belgrade 24 Oct 1939 (div 1948) Sophie Cecilie Jaxa-Chamiec (London 17 Sep 1919-London 1968); m.2nd London 1950 Pss Ada Lubomirska (b.Paris 13 Sep 1928)
-						name="Stanislaw-Kostka Stefan"
+						name=Stanislaw-Kostka
 						dynasty=1012008
 						religion=catholic culture=polish
 						father=100112085	# Hieronim Tarnowski
@@ -1315,7 +1310,7 @@
 						father=100112160	# Juliusz Walerian Tarnowski
 						mother=100112161	# Berta Czecz v.Lindenwald
 						1928.01.01={birth=yes}
-						2005.01.01={death=yes}  # EST.
+						1980.01.01={death=yes}  # EST.
 					}
 		100112164={	# 7b) Anna (Horochów 22 Oct 1816-Cracow 16 Jun 1893)
 			name=Anna
@@ -2891,8 +2886,8 @@
 								mother=100114110	# Danuta Barbara Stadnicki
 								2004.10.29={birth=yes}
 							}
-						100114114={	# 2f) Sophia (Johannesburg 9 Aug 1955-Revelstoke, BC 21 Jun 2002); m.Quebec 27 Mar 1980 Ct Bernard Gabriel Potocki
-							name=Sophia
+						100114374={	# 2f) Sophia (Johannesburg 9 Aug 1955-Revelstoke, BC 21 Jun 2002); m.Quebec 27 Mar 1980 Ct Bernard Gabriel Potocki
+							name=Zofia
 							female=yes
 							dynasty=1012006
 							religion=catholic culture=polish
@@ -4854,7 +4849,7 @@
 			1863.01.01={death=yes}
 		}
 			100114494={	# 1c) Karol Wojciech (1859-Cracow 30 Nov 1885); m.Css Alexandra Potocki (29 Apr 1863-13 Jan 1918)
-				name="Karol Wojciech"
+				name=Karol
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100114492	# Antoni Jozef Potocki
@@ -5729,24 +5724,6 @@
 
 
 ##  100111850	Jagiellon				9
-100021161={ # Pss        Anna                      Jagiellon                                (1503-1547)    13
-	name="Anna Jagiellon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1503.07.23={birth=yes}
-	1547.01.27={death=yes}
-}
-100006283={	#         	 Katharina           	   Jagiellonica      
-	name="Katharina Jagiellonica"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1526.11.01={birth=yes}
-	1583.09.16={death=yes}
-}
-
-
 100111850={	# Jagiello Wladislaw II, 1377 Pr of Kiev, 1382-6 and 1392-1401 Great Prince of Lithuania, 1386-1434 King of Poland (1351-1 Jun 1434); m.1st 18 Feb 1386 Queen Jadwiga of Poland (1371/3-1399/1400); m.2nd 29 Jan 1402 Anna von Cilli(1380/1-20/21 Mar 1416); m.3rd 2 May 1417 Elzbieta Piloka (1372-12 May 1420); m.4th 1420 Pss Sofia of Kiev; m.5th 7 Feb 1422 Sofia Holczanska (1405-21 Sep 1461)
 	name="Jagiello Wladislaw"
 	dynasty=9
