@@ -5724,26 +5724,28 @@
 
 
 ##  100111850	Jagiellon				9
-100111850={	# Jagiello Wladislaw II, 1377 Pr of Kiev, 1382-6 and 1392-1401 Great Prince of Lithuania, 1386-1434 King of Poland (1351-1 Jun 1434); m.1st 18 Feb 1386 Queen Jadwiga of Poland (1371/3-1399/1400); m.2nd 29 Jan 1402 Anna von Cilli(1380/1-20/21 Mar 1416); m.3rd 2 May 1417 Elzbieta Piloka (1372-12 May 1420); m.4th 1420 Pss Sofia of Kiev; m.5th 7 Feb 1422 Sofia Holczanska (1405-21 Sep 1461)
-	name="Jagiello Wladislaw"
+100111850={	# Jagiello Wladislaw II, 1377 Pr of Kiev, 1382-6 and 1392-1401 Great Prince of Lithuania, 1386-1434 King of Poland (1351-1 Jun 1434); 
+			# m.1st 18 Feb 1386 Queen Jadwiga of Poland (1371/3-1399/1400); 
+			# m.2nd 29 Jan 1402 Anna von Cilli(1380/1-20/21 Mar 1416); 
+			# m.3rd 2 May 1417 Elzbieta Piloka (1372-12 May 1420); 
+			# m.4th 1420 Pss Sofia of Kiev; 
+			# m.5th 7 Feb 1422 Sofia Holczanska (1405-21 Sep 1461)
+	name=Jogaila
 	dynasty=9
-	religion=catholic culture=polish
+	religion=catholic culture=lithuanian
 	1351.01.01={birth=yes}
 	1386.02.18={add_spouse=100111851}	# QUEEN Jadwiga de Anjou
 	1402.01.29={add_spouse=100111852}	# Anna von Cilli
 	1417.05.02={add_spouse=100111853}	# Elzbieta Piloka
-	1420.01.01={remove_spouse=100111853}
-	1420.02.01={add_spouse=100111854}	# PSS Sofia of Kiev
-	1422.01.01={remove_spouse=100111854}
-	1422.02.07={add_spouse=100111855}	# Sofia Holczanska
+	1422.02.07={add_spouse=100111854}	# PSS Sofia Olshansky
 	1434.06.01={death=yes}
 }
 	100111856={	# 1c) Wladislaw V, King of Poland 1434 and Hungary 1440 (31 Oct 1424-10 Nov 1444)
 		name=Wladislaw
 		dynasty=9
 		religion=catholic culture=polish
-		father=100111850	# Jagiello Wladislaw Jogailaitis
-		mother=100111855	# Sofia Holczanska
+		father=100111850	# Jogaila Jogailaitis
+		mother=100111854	# PSS Sofia Olshansky
 		1424.10.31={birth=yes}
 		1444.11.10={death=yes}
 	}
@@ -5751,8 +5753,8 @@
 		name=Kazimierz
 		dynasty=9
 		religion=catholic culture=polish
-		father=100111850	# Jagiello Wladislaw Jogailaitis
-		mother=100111855	# Sofia Holczanska
+		father=100111850	# Jogaila Jogailaitis
+		mother=100111854	# PSS Sofia Olshansky
 		1427.11.30={birth=yes}
 		1454.02.10={add_spouse=100111858}	# Elisabeth v. Habsburg
 		1492.06.07={death=yes}
@@ -5764,11 +5766,11 @@
 			father=100111857	# Kazimierz Jogailaitis
 			mother=100111858	# Elisabeth v. Habsburg
 			1456.03.01={birth=yes}
-			1476.08.20={add_spouse=100111860}	# Barbara v. Brandenburg
-			1490.10.04={add_spouse=100111861}	# Beatrice of Sicily
+			1476.08.20={add_spouse=100111860}	# Barbara v. Hohenzollern
+			1490.10.04={add_spouse=100111861}	# QUEEN Beatrice de Trastámara
 			1498.01.01={remove_spouse=100111860}
 			1500.01.01={remove_spouse=100111861}
-			1502.10.06={add_spouse=100111862}	# Anne de Foix
+			1502.10.06={add_spouse=100111862}	# QUEEN Anne de Grailly
 			1516.03.13={death=yes}
 		}
 			100111863={	# 1e) Anna (23 Jul 1503-27 Jan 1547); m.27 May 1521 Emperor Ferdinand I (10 Mar 1503 – 25 Jul 1564)
@@ -5777,7 +5779,7 @@
 				dynasty=9
 				religion=catholic culture=polish
 				father=100111859	# Ladislaus Jogailaitis
-				mother=100111862	# Anne de Foix
+				mother=100111862	# QUEEN Anne de Grailly
 				1503.07.23={birth=yes}
 				1547.01.27={death=yes}
 			}
@@ -5786,7 +5788,7 @@
 				dynasty=9
 				religion=catholic culture=polish
 				father=100111859	# Ladislaus Jogailaitis
-				mother=100111862	# Anne de Foix
+				mother=100111862	# QUEEN Anne de Grailly
 				1506.07.01={birth=yes}
 				1522.01.13={add_spouse=100021335}	# Marie v. Habsburg
 				1526.08.29={death=yes}  # Mohacs

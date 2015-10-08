@@ -1,26 +1,91 @@
-100014566={	#         			Elisabeth Magdalene 			von Brandenburg 
-	name="Elisabeth Magdalene of Brandenburg"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1537.11.06={birth=yes}  # Berlin
-	1595.08.22={death=yes}  # Berlin
-}
-100014669={	# Mgve    			Georg Friedrich     			von Brandenburg-Ansbach
-	name="Georg Friedrich von Brandenburg-Ansbach"
-	dynasty=0
-	religion=lutheran culture=german
-	1554.01.01={birth=yes}
-	1579.05.03={add_spouse=100014668}	# Sophie Welf
-	1603.04.26={death=yes}
-}
-100014657={	# Mgve    			Friedrich Ernst     			von Brandenburg-Bayreuth
+100014657={	# Mgve    	 Friedrich Ernst     	   von Brandenburg-Bayreuth
 	name="Friedrich Ernst von Brandenburg-Bayreuth"
 	dynasty=0
 	religion=lutheran culture=german
 	1706.01.01={birth=yes}
 	1731.12.20={add_spouse=100014656}	# Christiane Sophie Welf
 	1762.06.23={death=yes}
+}
+100105003={ # Margr      Karoline                  von Brandenburg-Ansbach                  (1683-1737)     9
+	name="Karoline von Brandenburg-Ansbach"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1683.03.01={birth=yes}
+	1737.11.20={death=yes}
+}
+100019017={ # Margr      Karl                      von Brandenburg-Ansbach                  (1712-1757)     0
+	name="Karl von Brandenburg-Ansbach"
+	dynasty=0
+	religion=lutheran culture=german
+	1712.05.12={birth=yes}
+	1729.05.30={add_spouse=100019016}	# Friederike Luise v. Hohenzollern
+	1757.08.03={death=yes}
+}
+100017001={ # Margr      Sophie Christine          von Brandenburg-Bayreuth                 (1710-1739)     2
+	name="Sophie Christine von Brandenburg-Bayreuth"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1710.01.04={birth=yes}
+	1739.06.13={death=yes}
+}
+100014635={ # Margr      Friedrich                 von Brandenburg-Bayreuth                 (1711-1763)  2  0
+	name="Friedrich von Brandenburg-Bayreuth"
+	dynasty=0
+	religion=lutheran culture=german
+	1711.05.10={birth=yes}
+	1731.11.20={add_spouse=100019010}	# Friederike Sophie v. Hohenzollern
+	1759.09.20={add_spouse=100014634}	# Sophie Karoline Welf
+	1763.02.26={death=yes}
+}
+100012951={ # Mgve       Georg                     von Brandenburg-Kulmbach                 (1684-1735)     0
+	name="Georg von Brandenburg-Kulmbach"
+	dynasty=0
+	religion=lutheran culture=german
+	1684.01.01={birth=yes}
+	1709.04.16={add_spouse=100012950}	# Dorothea v. Schleswig-Holstein-Sonderburg-Beck
+	1735.05.17={death=yes}
+}
+100019022={ # Margr      Friedrich Wilhelm         von Brandenburg-Schwedt                  (1700-1771)     0
+	name="Friedrich Wilhelm von Brandenburg-Schwedt"
+	dynasty=0
+	religion=lutheran culture=german
+	1700.12.27={birth=yes}
+	1734.11.10={add_spouse=100019021}	# Sophie Dorothea v. Hohenzollern
+	1771.03.04={death=yes}
+}
+100017801={ # Margr      Friederike                von Brandenburg-Schwedt                  (1736-1798)    12
+	name="Friederike von Brandenburg-Schwedt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1736.12.18={birth=yes}
+	1798.03.09={death=yes}
+}
+100019369={ # Margr      Luise                     von Brandenburg-Schwedt                  (1738-1820)     5
+	name="Luise von Brandenburg-Schwedt"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=german
+	1738.04.22={birth=yes}
+	1820.02.10={death=yes}
+}
+100017402={ # Margr      Philippine                von Brandenburg-Schwedt                  (1745-1800)     0
+	name="Philippine von Brandenburg-Schwedt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1745.10.10={birth=yes}
+	1800.05.01={death=yes}
+}
+100018701={ # Margr      Luise Henriette           von Brandenburg-Schwedt                  (1750-1811)     1
+	name="Luise Henriette von Brandenburg-Schwedt"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=german
+	1750.09.24={birth=yes}
+	1811.12.21={death=yes}
 }
 
 
@@ -155,6 +220,7 @@
 									religion=catholic culture=german
 									father=100015690	# Johann Sigismund v. Hohenzollern
 									1595.01.01={birth=yes}
+									1616.07.14={add_spouse=100014114}	# Elisabeth Charlotte v. Wittelsbach
 									1640.01.01={death=yes}
 								}
 									100015710={# Friedrich Wilhelm von Hohenzollern (1620-1688)
@@ -162,6 +228,7 @@
 										dynasty=12476
 										religion=catholic culture=german
 										father=100015700	# Georg Wilhelm v. Hohenzollern
+										mother=100014114	# Elisabeth Charlotte v. Wittelsbach
 										1620.01.01={birth=yes}
 										1688.01.01={death=yes}
 									}
@@ -174,6 +241,50 @@
 								1599.11.11={birth=yes}
 								1655.03.18={death=yes}
 							}
+					100014566={# Elisabeth Magdalene	v. Hohenzollern (1537-1595)
+						name="Elisabeth Magdalene"
+						female=yes
+						dynasty=12476
+						religion=lutheran culture=german
+						father=100015650	# Joachim Hector v. Hohenzollern
+						1537.11.06={birth=yes}  # Berlin
+						1595.08.22={death=yes}  # Berlin
+					}
+		100111874={ # Mkgf       Friedrich                 von Brandenburg-Ansbach                  (1454-1536)     0
+			name=Friedrich
+			dynasty=12476
+			religion=catholic culture=swedish
+			father=100015610	# Albrecht Achilles v. Hohenzollern
+			1460.05.08={birth=yes}
+			1479.02.14={add_spouse=100111873}	# Sofia Jogailaitis
+			1536.04.04={death=yes}
+		}
+			100111875={# Georg	v. Hohenzollern (1484-1543)
+				name=Georg
+				dynasty=12476
+				religion=catholic culture=swedish
+				father=100111874	# Friedrich v. Hohenzollern
+				mother=100111873	# Sofia Jogailaitis
+				1484.03.04={birth=yes}
+				1543.12.27={death=yes}
+			}
+				100014669={	# Mgve    	 Georg Friedrich     	   von Brandenburg-Ansbach
+					name="Georg Friedrich"
+					dynasty=12476
+					religion=lutheran culture=german
+					father=100111875	# Georg v. Hohenzollern
+					1539.04.05={birth=yes}
+					1603.04.26={death=yes}
+				}
+		100111860={ #  Barbara von Brandenburg (1464-1515)
+			name=Barbara
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100015610	# Albrecht Achilles v. Hohenzollern
+			1464.05.29={birth=yes}
+			1515.09.04={death=yes}
+		}
 
 ### SIGMARINGEN LINE	100019600	1002024
 100015300={ # Karl
@@ -2752,7 +2863,7 @@
 			father=100019007	# Friedrich Wilhelm v. Hohenzollern
 			mother=100105218	# Sophia Welf
 			1730.05.23={birth=yes}
-			1755.09.27={add_spouse=100019369}	# MARGR Luise von Brandenburg-Schwedt
+			1755.09.27={add_spouse=100019369}	# Luise von Brandenburg-Schwedt
 			1813.05.02={death=yes}
 		}
 			100019370={# 1c) Friederike Elisabeth Dorothea Henriette Amalie (Magdeburg 1 Nov 1761-Berlin 28 Aug 1773)
@@ -2761,7 +2872,7 @@
 				dynasty=12476
 				religion=lutheran culture=german
 				father=100019368	# August Ferdinand v. Hohenzollern
-				mother=100019369	# MARGR Luise von Brandenburg-Schwedt
+				mother=100019369	# Luise von Brandenburg-Schwedt
 				1761.11.01={birth=yes}
 				1773.08.28={death=yes}
 			}
@@ -2771,7 +2882,7 @@
 				dynasty=12476
 				religion=lutheran culture=german
 				father=100019368	# August Ferdinand v. Hohenzollern
-				mother=100019369	# MARGR Luise von Brandenburg-Schwedt
+				mother=100019369	# Luise von Brandenburg-Schwedt
 				1770.05.24={birth=yes}
 				1836.12.07={death=yes}
 			}
@@ -2780,7 +2891,7 @@
 				dynasty=12476
 				religion=lutheran culture=german
 				father=100019368	# August Ferdinand v. Hohenzollern
-				mother=100019369	# MARGR Luise von Brandenburg-Schwedt
+				mother=100019369	# Luise von Brandenburg-Schwedt
 				1771.11.11={birth=yes}
 				1790.10.08={death=yes}
 			}
@@ -2789,7 +2900,7 @@
 				dynasty=12476
 				religion=lutheran culture=german
 				father=100019368	# August Ferdinand v. Hohenzollern
-				mother=100019369	# MARGR Luise von Brandenburg-Schwedt
+				mother=100019369	# Luise von Brandenburg-Schwedt
 				1772.11.18={birth=yes}
 				1806.10.10={death=yes}
 			}
@@ -2856,7 +2967,7 @@
 				dynasty=12476
 				religion=lutheran culture=german
 				father=100019368	# August Ferdinand v. Hohenzollern
-				mother=100019369	# MARGR Luise von Brandenburg-Schwedt
+				mother=100019369	# Luise von Brandenburg-Schwedt
 				1779.09.19={birth=yes}
 				1843.07.19={death=yes}
 			}
