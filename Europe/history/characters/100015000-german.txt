@@ -2595,19 +2595,21 @@
 	1503.01.01={birth=yes}
 	1554.01.01={death=yes}
 }
-100016255={# Johann Wilhelm von Wettin (1530-1573)
+100016255={# Duke Johann Wilhelm von Sachsen-Weimar (1530-1573)
 	name="Johann Wilhelm"
 	dynasty=528
 	religion=catholic culture=german
 	father=100016256	# Johann Friedrich von Wettin
-	1530.01.01={birth=yes}
-	1573.01.01={death=yes}
+	1535.01.01={birth=yes}
+	1560.06.15={add_spouse=100014128}	# Dorothea Susanne v. Wittelsbach
+	1573.03.02={death=yes}
 }
 100016254={ # Johann
 	name=Johann
 	dynasty=528
 	religion=catholic culture=german
 	father=100016255	# Johann Wilhelm von Wettin
+	mother=100014128
 	1570.01.01={birth=yes}
 	1605.01.01={death=yes}
 }
@@ -3326,6 +3328,7 @@
 		religion=catholic culture=german
 		father=100015827	# Ernst von Baden
 		1529.01.01={birth=yes}
+		1558.08.01={add_spouse=100014407}	# Anna v. Wittelsbach
 		1577.01.01={death=yes}
 	}
 		100015824={# Georg Friedrich von Baden (1573-1638)
@@ -3333,6 +3336,7 @@
 			dynasty=100125
 			religion=catholic culture=german
 			father=100015826	# Karl von Baden
+			mother=100014407	# Anna v. Wittelsbach
 			1573.01.01={birth=yes}
 			1638.01.01={death=yes}
 		}
@@ -3344,19 +3348,21 @@
 				1594.01.01={birth=yes}
 				1659.01.01={death=yes}
 			}
-				100015817={# Friedrich VI.
+				100015817={# Friedrich	von Baden (1617-1677)
 					name=Friedrich
 					dynasty=100125
 					religion=catholic culture=german
 					father=100015820	# Friedrich von Baden
 					1617.01.01={birth=yes}
-					1677.01.01={death=yes}
+					1642.12.10={add_spouse=100014273}	# Christine Magdalene v. Wittelsbach
+					1677.01.31={death=yes}
 				}
 					100015815={# Friedrich VII. Magnus
 						name="Friedrich Magnus"
 						dynasty=100125
 						religion=catholic culture=german
 						father=100015817	# Friedrich von Baden
+						mother=100014273	# Christine Magdalene v. Wittelsbach
 						1647.01.01={birth=yes}
 						1709.01.01={death=yes}
 					}
@@ -3945,16 +3951,6 @@
 					1834.08.07={birth=yes}
 					1904.04.06={death=yes}
 				}
-				100015911={# 3d) Pauline Sophie Elisabeth Marie (Karlsruhe 18 Dec 1835-Karlsruhe 15 May 1891)
-					name="Pauline Sophie"
-					female=yes
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015906	# Wilhelm von Baden
-					mother=100017851	# Elisabeth v. Württemberg
-					1835.12.18={birth=yes}
-					1891.05.15={death=yes}
-				}
 				100015912={# 4d) Leopoldine Wilhelmine Pauline Amalie Maximiliane (Karlsruhe 22 Feb 1837-Strassburg 23 Dec 1903); m.Karlsruhe 24 Sep 1862 Hermann Fst zu Hohenlohe-Langenburg (Langenburg 31 Aug 1832-Langenburg 9 Mar 1913)
 					name="Leopoldine Wilhelmine"
 					female=yes
@@ -3975,31 +3971,12 @@
 				1795.01.26={birth=yes}
 				1869.09.14={death=yes}
 			}
-			100015917={# 9c) Maximilian Friedrich Johann Ernst (Triesdorf 8 Dec 1796-Karlsruhe 6 Mar 1882)
-				name="Maximilian Friedrich"
-				dynasty=100125
-				religion=catholic culture=german
-				father=100015806	# Karl Friedrich von Baden
-				mother=100015808	# Luise Karoline Geyer von Geyersberg
-				1796.12.08={birth=yes}
-				1882.03.06={death=yes}
-			}
-				100015918={# 1d) Ernestine Friederike Wilhelmine von Neuenfels; m.N Bevilaqua
-					name="Ernestine von Neuenfels"
-					female=yes
-					dynasty=0
-					religion=catholic culture=german
-					add_trait=bastard
-					father=100015917	# Maximilian Friedrich von Baden
-					1820.01.01={birth=yes}
-					1890.01.01={death=yes}
-				}
 			100015919={# 10c) [illegitimate by Elise Barbara Schlutter] Karl Friedrich Hermann von Freystedt (18 Dec 1749-20 Dec 1795); m.Sophie Götz (d.19 Jun 1824)
 				name="Karl Friedrich Hermann von Freystedt"
 				dynasty=100125
 				religion=catholic culture=german
 				father=100015806	# Karl Friedrich von Baden
-				# add_trait=bastard
+				add_trait=bastard
 				1749.12.18={birth=yes}
 				1795.12.20={death=yes}
 			}
@@ -4072,52 +4049,6 @@
 						1808.01.08={birth=yes}
 						1892.01.21={death=yes}
 					}
-				100015934={# 2d) Friederike; m.Baron Friedrich Christoph von Bühler (d.1833)
-					name=Friederike
-					female=yes
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015919	# Karl Friedrich Hermann von Freystedt von Baden
-					1776.01.01={birth=yes}
-					1833.01.01={death=yes}
-				}
-				100015935={# 3d) Karoline (2 Feb 1776-29 Apr 1862)
-					name=Karoline
-					female=yes
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015919	# Karl Friedrich Hermann von Freystedt von Baden
-					1776.02.02={birth=yes}
-					1862.04.29={death=yes}
-				}
-				100015936={# 4d) Auguste (12 Aug 1780-27 Jan 1861); m.2 Jan 1808 Ferdinand Frhr von Degenfeld (d.1 Jan 1858)
-					name=Auguste
-					female=yes
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015919	# Karl Friedrich Hermann von Freystedt von Baden
-					1780.08.12={birth=yes}
-					1861.01.27={death=yes}
-				}
-				100015938={# 5d) Wilhelmine (10 Jun 1783-18 Jan 1881); m.1 Jun 1806 Karl Heinrich Frhr von Fahnenberg (d.16 Mar 1840)
-					name=Wilhelmine
-					female=yes
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015919	# Karl Friedrich Hermann von Freystedt von Baden
-					1783.06.10={birth=yes}
-					1806.06.01={add_spouse=100015939}	# FRHR Karl Heinrich von Fahnenberg
-					1881.01.18={death=yes}
-				}
-				100015940={# 6d) Luise (1 Jun 1785-18 Jan 1833); m.Friedrich Frhr von Baumbach (d.29 Dec 1828)
-					name=Luise
-					female=yes
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015919	# Karl Friedrich Hermann von Freystedt von Baden
-					1785.06.01={birth=yes}
-					1833.01.18={death=yes}
-				}
 		100015941={# 2b) Wilhelm Ludwig (Karlsruhe 14 Jan 1732-Karlsruhe 17 Dec 1788); m.(morgantically) Karlsruhe 13 Apr 1788 Wilhelmine Christiane Schortmann (Balingen 31 Dec 1740-Mühlburg 10 Mar 1804); they had issue, born before the marriage, who bore the sur	name "von Seldeneck"
 			name="Wilhelm Ludwig"
 			dynasty=100125
@@ -4180,15 +4111,6 @@
 								1923.09.14={remove_spouse=100015953	add_spouse=100015954}	# Claudine von Luschka
 								1934.11.06={death=yes}
 							}
-							100015955={# 3g) Rolf (Karlsruhe 3 Dec 1890-k.a.in Kurland 24 Jan 1917)
-								name=Rolf
-								dynasty=100125
-								religion=catholic culture=german
-								father=100015950	# Wilhelm Rudolf von Baden
-								mother=100015951	# Emma Rüdt von Collenberg
-								1890.12.03={birth=yes}
-								1917.01.24={death=yes}
-							}
 							100015956={# 4g) Jenny (Karlsruhe 2 Apr 1873-Potsdam 1 Mar 1944); m.Karlsruhe 20 Jul 1893 Karl von Borcke (d.1945)
 								name=Jenny
 								female=yes
@@ -4240,106 +4162,6 @@
 							1863.10.07={birth=yes}
 							1938.07.13={death=yes}
 						}
-					100015966={# 2e) Leopold (Karlsruhe-Mühlburg 29 Jul 1826-Philadelphia 31 Dec 1907); m.Philadelphia 3 Jul 1865 Anna Mathilda Wood (Philadelphia 2 Mar 1844-Philadelphia 24 Feb 1925)
-						name=Leopold
-						dynasty=100125
-						religion=catholic culture=german
-						father=100015945	# Wilhelm von Baden
-						mother=100015946	# FRN Franziska von Falkenstein
-						1826.07.29={birth=yes}
-						1865.07.03={add_spouse=100015967}	# Anna Mathilda Wood
-						1908.12.31={death=yes}
-					}
-						100015968={# 1f) Leopold (Mount Vernon 26 Oct 1866-Philadelphia 7 May 1937); m.Wayne, Pennsylvania 2 Jun 1903 Adelaide Wood (Philadelphia 20 Jul 1870-Elkins Park PA 7 Jul 1957)
-							name=Leopold
-							dynasty=100125
-							religion=catholic culture=german
-							father=100015966	# Leopold von Baden
-							mother=100015967	# Anna Mathilda Wood
-							1866.10.26={birth=yes}
-							1903.06.02={add_spouse=100015969}	# Adelaide Wood
-							1937.05.07={death=yes}
-						}
-							100015970={# 1g) Leopold Wood (Wayne PA 29 Oct 1905-Philadelphia 24 Mar 1995); m.Glenside PA 16 Jul 1938 Madeleine Clay (Philadelphia 27 Jul 1907-Philadelphia 3 Mar 1984)
-								name="Leopold Wood"
-								dynasty=100125
-								religion=catholic culture=german
-								father=100015968	# Leopold von Baden
-								mother=100015969	# Adelaide Wood
-								1905.10.29={birth=yes}
-								1938.07.16={add_spouse=100015971}	# Madeleine Clay
-								1995.03.24={death=yes}
-							}
-								100015972={# 1h) Leopold Wood (Abington PA 31 Aug 1940- ); m.Windsor, Connecticut 23 Jun 1962 Priscilla Case à issue
-									name="Leopold Wood"
-									dynasty=100125
-									religion=catholic culture=german
-									father=100015970	# Leopold Wood von Baden
-									mother=100015971	# Madeleine Clay
-									1940.08.31={birth=yes}
-									1962.06.23={add_spouse=100015973}	# Priscilla Case
-									#YYYY.01.01={death=yes}
-								}
-								100015974={# 2h) George Clay (Abington PA 8 Dec 1941- ); m.St. Paul 8 Apr 1972 Judith Metcalfe à issue
-									name="George Clay"
-									dynasty=100125
-									religion=catholic culture=german
-									father=100015970	# Leopold Wood von Baden
-									mother=100015971	# Madeleine Clay
-									1941.12.08={birth=yes}
-									1972.04.08={add_spouse=100015975}	# Judith Metcalfe
-									#YYYY.01.01={death=yes}
-								}
-							100015976={# 2g) William Wood (Elkins Park, Philadelphia 25 Oct 1908-Fort Myers 3 Feb 1978); m.Jenkintown PA 30 Nov 1932 Alice Dean Small (Clear Lake 24 Aug 1912-Martha's Vineyard 17 Aug 1991)
-								name="William Wood"
-								dynasty=100125
-								religion=catholic culture=german
-								father=100015968	# Leopold von Baden
-								mother=100015969	# Adelaide Wood
-								1908.10.25={birth=yes}
-								1932.11.30={add_spouse=100015977}	# Alice Dean Small
-								1978.02.03={death=yes}
-							}
-								100015978={# 1h) William Wood, b.Jenkintown PA 23 Mar 1939; m.Rocky Mount VA 3 Jun 1969 Frances Draper (Martinsville VA 12 Feb 1942- ) à issue
-									name="William Wood"
-									dynasty=100125
-									religion=catholic culture=german
-									father=100015976	# William Wood von Baden
-									mother=100015977	# Alice Dean Small
-									1939.03.23={birth=yes}
-									1969.06.03={add_spouse=100015979}	# Frances Draper
-									#YYYY.01.01={death=yes}
-								}
-								100015980={# 2h) Roger, b.Jenkintown 30 Mar 1941; m.Richmond VA 24 Jun 1967 Judith Crowel (New Rochelle NY 12 Feb 1945- ) à issue
-									name=Roger
-									dynasty=100125
-									religion=catholic culture=german
-									father=100015976	# William Wood von Baden
-									mother=100015977	# Alice Dean Small
-									1941.03.30={birth=yes}
-									1967.06.24={add_spouse=100015981}	# Judith Crowel
-									#YYYY.01.01={death=yes}
-								}
-								100015982={# 3h) Paul, b.Philadelphia 14 Jun 1945; m.Waynesboro VA 3 Apr 1971 Brenda Mae Judd à issue
-									name=Paul
-									dynasty=100125
-									religion=catholic culture=german
-									father=100015976	# William Wood von Baden
-									mother=100015977	# Alice Dean Small
-									1945.06.14={birth=yes}
-									1971.04.03={add_spouse=100015983}	# Brenda Mae Judd
-									#YYYY.01.01={death=yes}
-								}
-								100015984={# 4h) Alice Lee (Rydal PA 8 Jun 1934-18 Feb 2006); m.Harrisonburg VA 6 Apr 1957 Walter Flora (Roanoke VA 13 May 1929-)
-									name="Alice Lee"
-									female=yes
-									dynasty=100125
-									religion=catholic culture=german
-									father=100015976	# William Wood von Baden
-									mother=100015977	# Alice Dean Small
-									1934.06.08={birth=yes}
-									2006.02.18={death=yes}
-								}
 					100015987={# 4e) Maximilian (Karlsruhe 30 Jun 1831-Pettau 12 Jan 1912); m.1st Preßburg 4 Oct 1860 Creszentia Gfn Zichy (Dioszegh 8 Aug 1836-Budapest 28 Apr 1881); m.2d Budapest 5 Jul 1884 Anna Gfn zu Königsegg-Rothenfels (Budapest 19 May 1849-Pettau 6 Jan 1936)
 						name=Maximilian
 						dynasty=100125
@@ -4360,27 +4182,6 @@
 							1864.01.16={birth=yes}
 							1900.06.01={add_spouse=100015991}	# Ilona von Houchard
 							1909.09.23={death=yes}
-						}
-						100015992={# 2f) Fanny, a nun (Preßburg 1 Feb 1862-Mária-Besnyö 1 Jan 1952)
-							name=Fanny
-							dynasty=100125
-							religion=catholic culture=german
-							father=100015987	# Maximilian von Baden
-							mother=100115560	# Creszentia Zichy de Zich et Vásonykõ
-							add_trait=nun
-							1862.02.01={birth=yes}
-							1952.01.01={death=yes}
-						}
-						100015993={# 3f) Maria, a nun (Salzburg 5 May 1865-Budapest 1 Oct 1949)
-							name=Maria
-							female=yes
-							dynasty=100125
-							religion=catholic culture=german
-							father=100015987	# Maximilian von Baden
-							mother=100115560	# Creszentia Zichy de Zich et Vásonykõ
-							add_trait=nun
-							1865.05.05={birth=yes}
-							1949.10.01={death=yes}
 						}
 						100015994={# 4f) Johanna (Kassau 1 Feb 1868-Budapest 17 Jan 1957); m.Budapest 14 Nov 1891 Istvan Fiáth de Eörményes (d.3 Sep 1920)
 							name=Johanna
@@ -4423,15 +4224,6 @@
 						1834.08.15={birth=yes}
 						1879.05.13={death=yes}
 					}
-				100016003={# 2d) Karl Friedrich (Karlsruhe-Mühlburg 31 Jul 1797-Karlsruhe 4 Jun 1861)
-					name="Karl Friedrich"
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015943	# Wilhelm Ludwig von Baden
-					mother=100015944	# FRN Auguste von Bothmer
-					1797.07.31={birth=yes}
-					1861.06.04={death=yes}
-				}
 				100016005={# 4d) Friedrich (Karlsruhe 22 Nov 1799-Gengenbach 16 Mar 1874); m.Seelbach 18 Feb 1836 Marie Edle von Schmidt zu Dautenstein (Seelbach 14 Apr 1808-Fussbach 28 Apr 1872)
 					name=Friedrich
 					dynasty=100125
@@ -4472,72 +4264,6 @@
 						1839.02.20={birth=yes}
 						1902.12.30={death=yes}
 					}
-					100016013={# 4e) Camille (Lahr 6 Jun 1845-Freiburg 22 Jul 1910)
-						name=Camille
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016005	# Friedrich von Baden
-						mother=100016006	# EDLE Marie von Schmidt zu Dautenstein
-						1845.06.06={birth=yes}
-						1910.07.22={death=yes}
-					}
-				100016014={# 5d) Ludwig Karl (Karlsruhe 11 Nov 1800-Karlsruhe 30 Mar 1865); m.Bruchsal 21 Apr 1836 Fanny Kirch (Bruchsal 3 Jul 1816-Karlsruhe 17 Dec 1898)
-					name="Ludwig Karl"
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015943	# Wilhelm Ludwig von Baden
-					mother=100015944	# FRN Auguste von Bothmer
-					1800.11.11={birth=yes}
-					1836.04.21={add_spouse=100016015}	# Fanny Kirch
-					1865.03.30={death=yes}
-				}
-					100016016={# 1e) Ludwig (Bruchsal 20 Jan 1837-Karlsruhe 24 Jul 1880)
-						name=Ludwig
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016014	# Ludwig Karl von Baden
-						mother=100016015	# Fanny Kirch
-						1837.01.20={birth=yes}
-						1880.07.24={death=yes}
-					}
-					100016017={# 2e) Fritz (Bruchsal 22 Jul 1839- )
-						name=Fritz
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016014	# Ludwig Karl von Baden
-						mother=100016015	# Fanny Kirch
-						1839.07.22={birth=yes}
-						1894.01.01={death=yes}
-					}
-					100016018={# 3e) Wilhelm (Bruchsal 18 Apr 1850-Soekaboenni, Java 2 Sep 1898)
-						name=Wilhelm
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016014	# Ludwig Karl von Baden
-						mother=100016015	# Fanny Kirch
-						1850.04.18={birth=yes}
-						1898.09.02={death=yes}
-					}
-					100016019={# 4e) Elise (Bruchsal 13 Jun 1838-Karlsruhe 2 Jul 1909); m.Bruchsal 28 May 1874 (div) Friedrich Pellissier (Bruchsal 8 Jul 1837-Bruchsal 22 Mar 1919)
-						name=Elise
-						female=yes
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016014	# Ludwig Karl von Baden
-						mother=100016015	# Fanny Kirch
-						1838.06.13={birth=yes}
-						1909.07.02={death=yes}
-					}
-					100016021={# 5e) Auguste (Bruchsal 27 Sep 1843-Karlsruhe 26 Apr 1915)
-						name=Auguste
-						female=yes
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016014	# Ludwig Karl von Baden
-						mother=100016015	# Fanny Kirch
-						1843.09.27={birth=yes}
-						1915.04.26={death=yes}
-					}
 				100016022={# 6d) August Wilhelm Christian (Karlsruhe 20 Dec 1801-Mahlberg 7 Jan 1848); m.Diersburg 22 Sep 1836 Karoline Frn Roeder von Diersburg (Braunschweig 20 May 1808-Karlsruhe 30 Nov 1893)
 					name="August Wilhelm"
 					dynasty=100125
@@ -4548,33 +4274,6 @@
 					1836.09.22={add_spouse=100016023}	# FRN Karoline Roeder von Diersburg
 					1848.01.07={death=yes}
 				}
-					100016024={# 1e) Philipp (1837- )
-						name=Philipp
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016022	# August Wilhelm von Baden
-						mother=100016023	# FRN Karoline Roeder von Diersburg
-						1836.01.01={birth=yes}
-						1900.01.01={death=yes}
-					}
-					100016025={# 2e) Wilhelm (1840- )
-						name=Wilhelm
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016022	# August Wilhelm von Baden
-						mother=100016023	# FRN Karoline Roeder von Diersburg
-						1840.01.01={birth=yes}
-						1905.01.01={death=yes}
-					}
-					100016026={# 3e) Karl (Messkirch 28 Aug 1842-Karlsruhe 31 Mar 1854)
-						name=Karl
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016022	# August Wilhelm von Baden
-						mother=100016023	# FRN Karoline Roeder von Diersburg
-						1842.08.28={birth=yes}
-						1854.03.31={death=yes}
-					}
 					100016027={# 4e) Ida (St.Blasien 27 Dec 1839-Berlin 30 Nov 1896); m.Karlsruhe 10 Sep 1863 Karl Le Beau
 						name=Ida
 						dynasty=100125
@@ -4584,16 +4283,6 @@
 						1839.12.27={birth=yes}
 						1863.09.10={add_spouse=100016028}	# Karl Le Beau
 						1896.11.30={death=yes}
-					}
-					100016029={# 5e) Luise (1842- )
-						name=Luise
-						female=yes
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016022	# August Wilhelm von Baden
-						mother=100016023	# FRN Karoline Roeder von Diersburg
-						1841.01.01={birth=yes}
-						1910.01.01={death=yes}
 					}
 				100016030={# 7d) Adolf (Karlsruhe 22 Feb 1802-Winnental 9 Jan 1842); m.Karlsruhe 14 Apr 1832 Marie Berckmüller (Karlsruhe 9 Dec 1813-Karlsruhe 11 Mar 1852)
 					name=Adolf
@@ -4605,15 +4294,6 @@
 					1832.04.14={add_spouse=100016031}	# Marie Berckmüller
 					1842.01.09={death=yes}
 				}
-					100016032={# 1e) Mathilde (Karlsruhe 20 Jun 1834-Achern 15 Feb 1919)
-						name=Mathilde
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016030	# Adolf von Baden
-						mother=100016031	# Marie Berckmüller
-						1834.06.20={birth=yes}
-						1919.02.15={death=yes}
-					}
 					100016033={# 2e) Hermine (Karlsruhe 15 Oct 1835-Mauer 7 Apr 1870); m.Karlsruhe 10 May 1864 Karl Frhr Goeler von Ravensburg (d.1889)
 						name=Hermine
 						female=yes
@@ -4672,15 +4352,6 @@
 							1871.02.05={birth=yes}
 							1950.01.01={death=yes}
 						}
-					100016044={# 2e) Wilhelm (Baden-Baden 27 Jun 1833- )
-						name=Wilhelm
-						dynasty=100125
-						religion=catholic culture=german
-						father=100016036	# Heinrich von Baden
-						mother=100016037	# Anna Marie Mayer
-						1833.06.27={birth=yes}
-						1900.01.01={death=yes}
-					}
 					100016045={# 3e) Charlotte (Gengenbach 4 Jan 1835-Baden-Baden 2 Jun 1927); m.1st Mannheim 23 Nov 1854 Johann Unger Edler von Löwenberg (d.1858); m.2d Gengenbach 19 Mar 1863 Karl Friedrich Brumm (Yverdon 11 Aug 1817-Baden-Baden 19 Jul 1881)
 						name=Charlotte
 						female=yes
@@ -4695,24 +4366,6 @@
 							add_spouse=100016047}	# Karl Friedrich Brumm
 						1927.06.02={death=yes}
 					}
-				100016049={# 9d) Bernhard (Karlsruhe-Mühlburg 17 Feb 1806-Illenau 21 Oct 1842)
-					name=Bernhard
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015943	# Wilhelm Ludwig von Baden
-					mother=100015944	# FRN Auguste von Bothmer
-					1806.02.17={birth=yes}
-					1842.10.21={death=yes}
-				}
-				100016050={# 10d) Rudolf (Karlsruhe-Mühlburg 17 Apr 1807-Illenau 25 Oct 1867)
-					name=Rudolf
-					dynasty=100125
-					religion=catholic culture=german
-					father=100015943	# Wilhelm Ludwig von Baden
-					mother=100015944	# FRN Auguste von Bothmer
-					1807.04.17={birth=yes}
-					1867.10.25={death=yes}
-				}
 			100016051={# 2c) Louise von Seldeneck (Karlsruhe-Mühlburg 31 Oct 1763-Munich 15 Feb 1824); m.Karlsruhe 18 Oct 1784 Frederic Camill, Marquis de Montperny (d.1822)
 				name=Louise
 				female=yes
@@ -4762,12 +4415,12 @@
 }
 
 
-100018136={# Friedrich Karl
+100018136={# Friedrich Karl	v. Württemberg (1652-1698)
 	name="Friedrich Karl"
 	dynasty=12446
 	religion=catholic culture=german
-	1652.01.24={birth=yes}
-	1698.03.12={death=yes}
+	1652.09.12={birth=yes}
+	1698.12.20={death=yes}
 }
 	100017933={# Karl Alexander 					*24. Januar 1684 in Stuttgart; † 12. März 1737 in Ludwigsburg)
 		name="Karl Alexander"
@@ -4777,7 +4430,7 @@
 		1684.01.24={birth=yes}
 		1737.03.12={death=yes}
 	}
-		100017827={# Ludwig Eugen
+		100017827={# Ludwig Eugen	v. Württemberg (1731-1795)
 			name="Ludwig Eugen"
 			dynasty=12446
 			religion=catholic culture=german
@@ -4785,7 +4438,7 @@
 			1731.01.06={birth=yes}
 			1795.05.20={death=yes}
 		}
-			100012302={# Wilhelmine Friederike
+			100012302={# Wilhelmine Friederike of Württemberg	v. Württemberg (1764-1817)
 				name="Wilhelmine Friederike of Württemberg"
 				female=yes
 				dynasty=12446
@@ -4794,7 +4447,7 @@
 				1764.07.03={birth=yes}
 				1817.08.09={death=yes}
 			}
-		100017006={# Auguste Elisabeth
+		100017006={# Auguste Elisabeth	v. Württemberg (1734-1787)
 			name="Auguste Elisabeth"
 			female=yes
 			dynasty=12446
@@ -6225,7 +5878,7 @@
 							father=100017697	# Friedrich Franz v. Mecklenburg
 							mother=100017700	# PSS Marie von Schwarzburg-Rudolstadt
 							1873.10.10={birth=yes}
-							1917.04.24={add_spouse=100012603}	# Viktoria-Feodora Agnes Reuß
+							1917.04.24={add_spouse=100012603}	# Viktoria-Feodora Reuß
 							1924.10.15={add_spouse=100011734}	# Elisabeth zu Stolberg-Stolberg
 							1969.08.05={death=yes}
 						}
@@ -6235,7 +5888,7 @@
 								dynasty=1002013
 								religion=lutheran culture=german
 								father=100017741	# Adolf Friedrich v. Mecklenburg
-								mother=100012603	# Viktoria-Feodora Agnes Reuß
+								mother=100012603	# Viktoria-Feodora Reuß
 								1918.12.17={birth=yes}
 								1993.01.01={death=yes}	# EST.
 							}
@@ -6759,20 +6412,10 @@
 		1744.05.19={birth=yes}
 		1818.11.17={death=yes}
 	}
-	100017799={# 10a) Georg August (Mirow 16 Aug 1748-Tyrnau, Hungary 14 Nov 1785)
-		name="Georg August"
-		dynasty=1002013
-		religion=lutheran culture=german
-		father=100017600	# Karl v. Mecklenburg
-		mother=100017601	# PSS Elisabeth Albertine von Sachsen-Hildburghausen
-		1748.08.16={birth=yes}
-		1785.11.14={death=yes}
-	}
 ### Mecklenburg-Strelitz|1002013|100017600-100010546
 
 
 ### Hessen|1002012|100017400-100017599
-
 100017599={ # Wilhelm
 	name=Wilhelm
 	dynasty=1002012
@@ -7518,15 +7161,6 @@
 				1823.10.30={birth=yes}
 				1889.07.17={death=yes}
 			}
-		100017583={# 2b) Karl Friedrich (Maastricht 8 Mar 1789-Schloß Rumpenheim 10 Sep 1802)
-			name="Karl Friedrich"
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100017520	# Friedrich v. Hessen
-			mother=100017521	# PSS Karoline von Nassau-Usingen
-			1789.03.08={birth=yes}
-			1802.09.10={death=yes}
-		}
 		100017584={# 3b) Friedrich Wilhelm (Maastricht 24 Apr 1790-Schloß Rumpenheim 25 Oct 1876)
 			name="Friedrich Wilhelm"
 			dynasty=1002012
@@ -7535,15 +7169,6 @@
 			mother=100017521	# PSS Karoline von Nassau-Usingen
 			1790.04.24={birth=yes}
 			1876.10.25={death=yes}
-		}
-		100017585={# 4b) Ludwig Karl (Biebrich 12 Nov 1791-Schloß Rumpenheim 12 May 1800)
-			name="Ludwig Karl"
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100017520	# Friedrich v. Hessen
-			mother=100017521	# PSS Karoline von Nassau-Usingen
-			1791.11.12={birth=yes}
-			1800.05.12={death=yes}
 		}
 		100017586={# 5b) Georg Karl (Maastricht 14 Jan 1793-Frankfurt 4 Mar 1881)
 			name="Georg Karl"
@@ -8034,24 +7659,6 @@
 					1871.11.11={add_spouse=100017090}	# Viktoria Edelspacher de Gyoryok
 					1892.02.08={death=yes}
 				}
-					100017091={# 1e) Maximilain Egon (Écska 15 Jun 1872-Vienna 5 Jan 1920)
-						name="Maximilain Egon"
-						dynasty=1002011
-						religion=catholic culture=german
-						father=100017089	# Egon Maximilian v. Thurn und Taxis
-						mother=100017090	# Viktoria Edelspacher de Gyoryok
-						1872.06.15={birth=yes}
-						1920.01.05={death=yes}
-					}
-					100017092={# 2e) Mathilde (Écska 21 Feb 1874-Vienna 7 May 1912)
-						name=Mathilde
-						dynasty=1002011
-						religion=catholic culture=german
-						father=100017089	# Egon Maximilian v. Thurn und Taxis
-						mother=100017090	# Viktoria Edelspacher de Gyoryok
-						1874.02.21={birth=yes}
-						1912.05.07={death=yes}
-					}
 					100017093={# 3e) Viktor (Écska 18 Jan 1876-Vienna 28 Jan 1928); m.Uniontown, Pennsylvania 1 Nov 1911 Lida Eleanor Nicholls
 						name=Viktor
 						dynasty=1002011
@@ -8310,102 +7917,6 @@
 				1805.01.29={birth=yes}
 				1825.09.07={death=yes}
 			}
-		100017134={# 8b) Friedrich Johann Nepomuck (Regensburg 11 Apr 1772-Stuttgart 7 Dec 1805)
-			name="Friedrich Johann"
-			dynasty=1002011
-			religion=catholic culture=german
-			father=100017005	# Karl Anselm v. Thurn und Taxis
-			mother=100017006	# Auguste Elisabeth v. Württemberg
-			1772.04.11={birth=yes}
-			1805.12.07={death=yes}
-		}
-		100017135={# 9b) Nikolaus Joseph Karl August Kranz, cr Herr von Train by the King von Bayern 1 Aug 1814 (Regensburg 17 May 1788-Landshut 12 Apr 1851); m.3 Jul 1815 Maria Anna Josephine Hyazinthe Frn von Schönprunn (3 Apr 1793-Regensburg 29 Mar 1855)
-			name="Nikolaus Joseph"
-			dynasty=1002011
-			religion=catholic culture=german
-			father=100017005	# Karl Anselm v. Thurn und Taxis
-			mother=100017007	# Elisabeth Hildebrand
-			1788.05.17={birth=yes}
-			1815.07.03={add_spouse=100017136}	# FRN Maria Anna von Schönprunn
-			1851.04.12={death=yes}
-		}
-			100017137={# 1c) Joseph Eduard von Train (5 Aug 1816-13 Sep 1879)
-				name="Joseph Eduard"
-				dynasty=1002011
-				religion=catholic culture=german
-				father=100017135	# Nikolaus Joseph v. Thurn und Taxis
-				mother=100017136	# FRN Maria Anna von Schönprunn
-				1816.08.05={birth=yes}
-				1879.09.13={death=yes}
-			}
-			100017138={# 2c) Hermann Joseph von Train (15 Mar 1817- ); m.Amberg 22 Oct 1850 Genovefa Zassner (d.Amberg 28 Feb 1892)
-				name="Hermann Joseph"
-				dynasty=1002011
-				religion=catholic culture=german
-				father=100017135	# Nikolaus Joseph v. Thurn und Taxis
-				mother=100017136	# FRN Maria Anna von Schönprunn
-				1817.03.15={birth=yes}
-				1850.10.22={add_spouse=100017139}	# Genovefa Zassner
-				1900.01.01={death=yes}
-			}
-			100017140={# 3c) Therese Mathilde von Train (13 Jan 1818-Munich 10 May 1873); m.N Kraus
-				name="Therese Mathilde"
-				dynasty=1002011
-				religion=catholic culture=german
-				father=100017135	# Nikolaus Joseph v. Thurn und Taxis
-				mother=100017136	# FRN Maria Anna von Schönprunn
-				1818.01.13={birth=yes}
-				1873.05.10={death=yes}
-			}
-			100017142={# 5c) Wilhelm Karl Johann von Train (12 Oct 1822-murdered in Munich 30 Jul 1879)
-				name="Wilhelm Karl"
-				dynasty=1002011
-				religion=catholic culture=german
-				father=100017135	# Nikolaus Joseph v. Thurn und Taxis
-				mother=100017136	# FRN Maria Anna von Schönprunn
-				1822.10.12={birth=yes}
-				1879.07.30={death=yes}
-			}
-			100017143={# 6c) Anna Karolina von Train (b.Aug 1826)
-				name="Anna Karolina"
-				female=yes
-				dynasty=1002011
-				religion=catholic culture=german
-				father=100017135	# Nikolaus Joseph v. Thurn und Taxis
-				mother=100017136	# FRN Maria Anna von Schönprunn
-				1826.01.01={birth=yes}
-				1900.01.01={death=yes}
-			}
-			100017144={# 7c) Anton von Train (3 Aug 1827-Nördlingen 18 Mar 1915); m.2 Jun 1859 Mathilde Breyer (b.5 Oct 1829, d.1 Jan 1915)
-				name=Anton
-				dynasty=1002011
-				religion=catholic culture=german
-				father=100017135	# Nikolaus Joseph v. Thurn und Taxis
-				mother=100017136	# FRN Maria Anna von Schönprunn
-				1827.08.03={birth=yes}
-				1859.06.02={add_spouse=100017145}	# Mathilde Breyer
-				1915.03.18={death=yes}
-			}
-				100017146={# 1d) Hermann von Train (Falkenstein 25 Feb 1861- ); m.Munich 19 Dec 1878 Marie Rasp
-					name=Hermann
-					dynasty=1002011
-					religion=catholic culture=german
-					father=100017144	# Anton v. Thurn und Taxis
-					mother=100017145	# Mathilde Breyer
-					1861.02.25={birth=yes}
-					1878.12.19={add_spouse=100017147}	# Marie Rasp
-					1930.01.01={death=yes}
-				}
-				100017148={# 2d) Mathilde Josepha Sophia von Train (Falkenstein 16 Mar 1867- ); m.Joseph Fischer
-					name="Mathilde Josepha"
-					female=yes
-					dynasty=1002011
-					religion=catholic culture=german
-					father=100017144	# Anton v. Thurn und Taxis
-					mother=100017145	# Mathilde Breyer
-					1867.03.16={birth=yes}
-					1940.01.01={death=yes}
-				}
 	100017151={# 4a) Friedrich August (b. Brussels 5 Dec 1736, d.Turin 12 Sep 1755)
 		name="Friedrich August"
 		dynasty=1002011
@@ -8989,179 +8500,6 @@
 				1824.02.05={birth=yes}
 				1889.11.26={death=yes}
 			}
-			100017248={# 6c) Rudolf Hugo Maximilian, cr Frhr von Troskow 1894 (Prague 25 Nov 1833-Prague 4 Jul 1904); m.28 Nov 1857 Jenny Ständler (Prague 9 Apr 1830-Graz 28 Sep 1914)
-				name="Rudolf Hugo"
-				dynasty=1002011
-				religion=catholic culture=german
-				father=100017161	# Karl Anselm v. Thurn und Taxis
-				mother=100017162	# GFN Marie Isabelle v.u.zu Eltz gt Faust v.Stromberg
-				1833.11.25={birth=yes}
-				1857.11.28={add_spouse=100017249}	# Jenny Ständler
-				1904.07.04={death=yes}
-			}
-				100017250={# 1d) Johann Frhr von Troskow (Nimeric 29 Jun 1860-Prague 3 Nov 1920); m.1st 1 Jun 1894 Vera Nikojajevna Voskresenska (b. 1877, d.Paris 1 Jun 1950); m.2d 1 Dec 1918 Marie Pitroffova (d. 1 Jan 1938)
-					name=Johann
-					dynasty=1002011
-					religion=catholic culture=german
-					father=100017248	# Rudolf Hugo v. Thurn und Taxis
-					mother=100017249	# Jenny Ständler
-					1860.06.29={birth=yes}
-					1894.06.01={add_spouse=100017251}	# Vera Voskresenski
-					1918.12.01={add_spouse=100017252}	# Marie Pitroffová
-					1920.11.03={death=yes}
-				}
-					100017253={# 1e) Alexander Frhr von Troskow (b. Russia 30 Sep 1895, d. 1 Jan 1918)
-						name=Alexander
-						dynasty=1002011
-						religion=catholic culture=german
-						father=100017250	# Johann v. Thurn und Taxis
-						mother=100017251	# Vera Voskresenski
-						1918.01.01={birth=yes}
-						#YYYY.01.01={death=yes}
-					}
-					100017254={# 2e) Nikolaus Frhr von Troskow (Russia 28 Dec 1896-New York 2 Mar 1941); m. Anna N (d. USA after 1945)
-						name=Nikolaus
-						dynasty=1002011
-						religion=catholic culture=german
-						father=100017250	# Johann v. Thurn und Taxis
-						mother=100017251	# Vera Voskresenski
-						1896.12.28={birth=yes}
-						1941.03.02={death=yes}
-					}
-					100017255={# 3e) Konstantin Frhr von Troskow (Baku 14 Nov 1898-Prague 15 Mar 1964); m.Varna 2 Jan 1934 Miloslava Kralertova (b. Storonetz, Romania 4 Jun 1910)
-						name=Konstantin
-						dynasty=1002011
-						religion=catholic culture=german
-						father=100017250	# Johann v. Thurn und Taxis
-						mother=100017251	# Vera Voskresenski
-						1898.11.14={birth=yes}
-						1934.01.02={add_spouse=100017256}	# Miloslava Kralertová
-						1964.03.15={death=yes}
-					}
-						100017257={# 1f) Vladimir Frhr von Troskow, b. Varna 28 Jul 1934; m.1st Prague 22 Jul 1962 (div 1968) Nadezda Pehrova (b.Prague 18 Dec 1942); m.2d Prague 4 Aug 1971 Anna Ulcova (b. Prague 3 Oct 1945)
-							name=Vladimir
-							dynasty=1002011
-							religion=catholic culture=german
-							father=100017255	# Konstantin v. Thurn und Taxis
-							mother=100017256	# Miloslava Kralertová
-							1934.01.01={birth=yes}
-							1962.07.22={add_spouse=100017258}	# Nadezda Pehrova
-							1971.08.04={add_spouse=100017259}	# Anna Ulcova
-							#YYYY.01.01={death=yes}
-						}
-							100017260={# 1g) Vera Frn von Troskow, b.Prague 30 Apr 1964; m 29 Aug 1985 Milan Dedek (b. 17 Apr 1964)
-								name=Vera
-								female=yes
-								dynasty=1002011
-								religion=catholic culture=german
-								father=100017257	# Vladimir v. Thurn und Taxis
-								mother=100017258	# Nadezda Pehrova
-								1964.04.17={birth=yes}
-								#YYYY.01.01={death=yes}
-							}
-							100017261={# 2g) Georg Frhr von Troskow, b.Prague 2 May 1973; m. 27 Jul 2006 Lucie Tumova (b. 12 Oct 1971)
-								name=Georg
-								dynasty=1002011
-								religion=catholic culture=german
-								father=100017257	# Vladimir v. Thurn und Taxis
-								mother=100017259	# Anna Ulcova
-								1971.10.12={birth=yes}
-								#YYYY.01.01={death=yes}
-							}
-								100017262={# 1h) Anna Frn von Troskow, b. 13 Oct 2006
-									name=Anna
-									female=yes
-									dynasty=1002011
-									religion=catholic culture=german
-									father=100017261	# Georg v. Thurn und Taxis
-									2006.10.13={birth=yes}
-									#YYYY.01.01={death=yes}
-								}
-					100017263={# 4e) Michael Frhr von Troskow (Russia 11 Dec 1900-Russia 1 Jun 1918)
-						name=Michael
-						dynasty=1002011
-						religion=catholic culture=german
-						father=100017250	# Johann v. Thurn und Taxis
-						mother=100017251	# Vera Voskresenski
-						1900.12.11={birth=yes}
-						1918.06.01={death=yes}
-					}
-					100017264={# 5e) Georg Frhr von Troskow (Russia 27 Jun 1903-Russia 1 Jun 1918)
-						name=Georg
-						dynasty=1002011
-						religion=catholic culture=german
-						father=100017250	# Johann v. Thurn und Taxis
-						mother=100017251	# Vera Voskresenski
-						1903.06.27={birth=yes}
-						1918.06.01={death=yes}
-					}
-				100017265={# 2d) Ludmilla Frn von Troskow (18 May 1862-Plovdiv 29 Feb 1888); m.1883 N Vojtasenko
-					name=Ludmilla
-					name=Isabella
-					dynasty=1002011
-					religion=catholic culture=german
-					father=100017248	# Rudolf Hugo v. Thurn und Taxis
-					mother=100017249	# Jenny Ständler
-					1862.05.18={birth=yes}
-					1888.02.29={death=yes}
-				}
-				100017266={# 3d) Isabella Frn von Troskow, b.1863, d.Golkovice
-					name=Isabella
-					female=yes
-					dynasty=1002011
-					religion=catholic culture=german
-					father=100017248	# Rudolf Hugo v. Thurn und Taxis
-					mother=100017249	# Jenny Ständler
-					1863.01.01={birth=yes}
-					1930.01.01={death=yes}
-				}
-				100017267={# 4d) Adelbert Frhr von Troskow (Nimerice 10 Oct 1867-d.after 1933); m.Graz 16 Jun 1902 Theresia Pollak (1878/9- )
-					name=Adelbert
-					dynasty=1002011
-					religion=catholic culture=german
-					father=100017248	# Rudolf Hugo v. Thurn und Taxis
-					mother=100017249	# Jenny Ständler
-					1867.10.10={birth=yes}
-					1902.06.16={add_spouse=100017268}	# Theresia Pollak
-					1935.01.01={death=yes}
-				}
-					100017269={ # 1e) Tereza Frn von Troskow, used sur	name Thurn-Taxis, d.Prague after 1945
-						name=Tereza
-						dynasty=1002011
-						religion=catholic culture=german
-						father=100017267	# Adelbert v. Thurn und Taxis
-						mother=100017268	# Theresia Pollak
-						1900.01.01={birth=yes}
-						1960.01.01={death=yes}
-					}
-				100017270={# 5d) Hedwig Frn von Troskow (b.Golkowitz 16 Jan 1873 - 1 Jan 1953); m.1st N Schmied; m.2d Prof. Arthur Kallus
-					name=Hedwig
-					female=yes
-					dynasty=1002011
-					religion=catholic culture=german
-					father=100017248	# Rudolf Hugo v. Thurn und Taxis
-					mother=100017249	# Jenny Ständler
-					1873.01.16={birth=yes}
-					1953.01.01={death=yes}
-				}
-		100017272={# 2b) August Maria Maximilian (Prague 22 Apr 1794-Munich 24 Jan 1862)
-			name="August Maria"
-			dynasty=1002011
-			religion=catholic culture=german
-			father=100017159	# Maximilian Joseph v. Thurn und Taxis
-			mother=100085325	# Eleonore Lobkowicz
-			1794.04.22={birth=yes}
-			1862.01.24={death=yes}
-		}
-		100017273={# 3b) Joseph (Prague 3 May 1796-Munich 17 Apr 1857)
-			name=Joseph
-			dynasty=1002011
-			religion=catholic culture=german
-			father=100017159	# Maximilian Joseph v. Thurn und Taxis
-			mother=100085325	# Eleonore Lobkowicz
-			1796.05.03={birth=yes}
-			1857.04.17={death=yes}
-		}
 		100017274={# 4b) Karl Theodor (Prague 17 Jul 1797-Munich 21 Jun 1868); m.Schloß Tegernsee 20 Oct 1827 Juliane Gfn von Einsiedel (Munich 20 Dec 1806-Salzburg, bur 1901)
 			name="Karl Theodor"
 			dynasty=1002011
@@ -9658,7 +8996,7 @@
 		female=yes
 		dynasty=528
 		religion=lutheran culture=german
-		father=100016751	# Friedrich August von Wettin
+		father=100016751	# August von Wettin
 		trait=bastard
 		1707.11.01={birth=yes}
 		1769.09.27={death=yes}
@@ -9668,7 +9006,7 @@
 	name="Friedrich August"
 	dynasty=528
 	religion=catholic culture=german
-	father=100016751	# Friedrich August von Wettin
+	father=100016751	# August von Wettin
 	1696.10.17={birth=yes}
 	1719.08.20={add_spouse=100021275}	# Maria Josefa v. Habsburg
 	1763.10.05={death=yes}
