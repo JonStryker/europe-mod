@@ -181,8 +181,8 @@
 	1960.04.28={birth=yes}
 	1989.02.27={death=yes}
 }
-100000758={ # Pr         Konrad                    zu Hohenlohe-Schillingfürst              (1863-1918)     0
-	name="Konrad zu Hohenlohe-Schillingfürst"
+100000758={ # Pr         Konrad                    zu Hohenlohe-Schillingsfürst             (1863-1918)     0
+	name="Konrad zu Hohenlohe-Schillingsfürst"
 	dynasty=0
 	religion=lutheran culture=german
 	1863.12.16={birth=yes}
@@ -308,6 +308,14 @@
 	religion=lutheran culture=german
 	1851.07.06={birth=yes}
 	1882.03.18={death=yes}
+}
+100117463={ # Pr         Chlodwig                  zu Hohenlohe-Waldenburg-Schillingsfürst  (1852-1929)     0
+	name="Chlodwig zu Hohenlohe-Waldenburg-Schillingsfürst"
+	dynasty=0
+	religion=catholic culture=german
+	1852.01.01={birth=yes}
+	1877.01.15={add_spouse=100117462}	# Franziska Mária
+	1929.01.08={death=yes}  # Budapest
 }
 100017171={ # Pss        Marie                     zu Hohenlohe-Waldenburg-Schillingsfürst  (1855-1934)     3
 	name="Marie zu Hohenlohe-Waldenburg-Schillingsfürst"
@@ -2942,7 +2950,7 @@
 	dynasty=0
 	religion=catholic culture=bohemian
 	1879.02.03={birth=yes}
-	1906.06.26={add_spouse=100085746}	# Aloysia Eugenie Kinsky von Wchinitz u.Tettau
+	1906.06.26={add_spouse=100085746}	# Aloysia Evženie Kinsky von Wchinitz u.Tettau
 	1962.03.05={death=yes}
 }
 100021680={ # Gf         Heriprand                 von Thurn u.Valsassina-Como-Vercelli     (1925-1996)     0
@@ -4460,6 +4468,15 @@
 	religion=catholic culture=german
 	1962.03.15={birth=yes}
 	1988.09.25={add_spouse=100116711}	# Natalie Széchenyi de Sárvár-Felsõvidek
+}
+100024886={ # Gf         Caspar Benedikt           von Ledebur-Wicheln                      (1723-1801)  2  0
+	name="Caspar Benedikt von Ledbur-Wicheln"
+	dynasty=0
+	religion=catholic culture=german
+	1723.06.15={birth=yes}
+	1755.01.01={add_spouse=100024885}	# Marie Anna v. Clary u.Aldringen
+	1766.06.11={add_spouse=100024782}	# Maria Josepha v. Clary u.Aldringen
+	1801.02.01={death=yes}
 }
 
 100018404={ # Gf         Emanuel                   von Mensdorff-Pouilly                    (1777-1852)     0
@@ -7208,7 +7225,7 @@
 	dynasty=0
 	religion=catholic culture=german
 	1915.01.08={birth=yes}
-	1939.05.06={add_spouse=100016943}
+	1939.05.06={add_spouse=100016943}	# Elisabeth Maria v. Wittelsbach
 	1942.12.29={death=yes}
 }
 100020076={ # Gf         Hubertus                  von Kageneck                             (1940-    )     0
@@ -8512,7 +8529,7 @@
 	1847.05.22={birth=yes}
 	1925.09.07={death=yes}
 }
-100117053={ # Frn        Agatha                    von Stillfried u. Rattonitz              (1765-1800)     1
+100117053={ # Frn        Agatha                    von Stillfried-Rattonitz                 (1765-1800)     1
 	name="Agatha von Stillfried u. Rattonitz"
 	female=yes
 	dynasty=0
@@ -8964,7 +8981,7 @@
 	dynasty=0
 	religion=catholic culture=bohemian
 	1915.04.11={birth=yes}
-	1942.09.07={add_spouse=100085767}	# Eugenie-Clothilde Kinsky von Wchinitz u.Tettau
+	1942.09.07={add_spouse=100085767}	# Evženie-Clothilde Kinsky von Wchinitz u.Tettau
 	1952.01.01={remove_spouse=100085767}
 	1978.01.02={death=yes}
 }
@@ -9979,6 +9996,7 @@
 	female=yes
 	dynasty=0
 	religion=catholic culture=german
+	father=100024256	# CTE Pieralberto degli Albertini
 	1971.12.31={birth=yes}
 }
 100105536={ # Dss        Luise                     von Alten                                (1832-1911)  2  5
@@ -10488,7 +10506,7 @@
 100111895={ # Duke       Bogislav                  Gryfita                                  (1466-1523)     0
 	name="Bogislav Gryfita"
 	dynasty=177
-	religion=catholic culture=swedish
+	religion=catholic culture=pommeranian
 	1466.01.01={birth=yes}
 	1491.02.02={add_spouse=100111894}	# Anna Jogailaitis
 	1523.10.05={death=yes}
@@ -10497,7 +10515,7 @@
 	name="Klara Gryfita"
 	female=yes
 	dynasty=0
-	religion=lutheran culture=german
+	religion=lutheran culture=pommeranian
 	1574.07.10={birth=yes}  # Franzburg
 	1623.02.19={death=yes}  # Hitzacker
 }
@@ -10548,19 +10566,20 @@
 	1886.08.02={add_spouse=100024020}	# Josepha v. Thun u.Hohenstein
 	1930.07.26={death=yes}
 }
-100021230={ # Duke       William                   von Jülich-Kleve-Berg                    (1516-1592)     0
-	name="William von Jülich-Kleve-Berg"
+100021230={ # Duke       Wilhelm                   von der Mark                             (1516-1592)     0
+	name="Wilhelm von Jülich-Kleve-Berg"
 	dynasty=0
 	religion=catholic culture=german
 	1516.07.08={birth=yes}
 	1546.07.18={add_spouse=100021229}	# Maria v. Habsburg
 	1592.01.05={death=yes}
 }
-100021195={ #            Sibylle                   von Jülich-Kleve-Berg                    (1557-1627)     3
+100021195={ #            Sibylle                   von der Mark                             (1557-1627)     3
 	name="Sibylle von Jülich-Kleve-Berg"
 	female=yes
 	dynasty=0
 	religion=catholic culture=german
+	father=100021230	# DUKE Wilhelm von der Mark
 	1557.08.26={birth=yes}
 	1627.12.16={death=yes}
 }
@@ -10847,19 +10866,19 @@
 	1902.06.03={birth=yes}
 	1967.04.17={death=yes}
 }
-100006311={ # Gf         Edzard                    von Ostfriesland                         (1534-1599)     0
+100006311={ # Gf         Edzard                    Cirksena                                 (1534-1599)     0
 	name="Edzard von Ostfriesland"
 	dynasty=0
-	religion=lutheran culture=german
+	religion=lutheran culture=frisian
 	1534.01.01={birth=yes}
 	1559.10.01={add_spouse=100006310}	# Katharina Vasa
 	1599.03.01={death=yes}
 }
-100014570={ # Gfn        Marie                     von Ostfriesland                         (1582-1616)     1
+100014570={ # Gfn        Marie                     Cirksena                                 (1582-1616)     1
 	name="Marie von Ostfriesland"
 	female=yes
 	dynasty=0
-	religion=lutheran culture=german
+	religion=lutheran culture=frisian
 	1582.04.25={birth=yes}
 	1616.07.09={death=yes}  # Dannenberg
 }
@@ -11819,7 +11838,7 @@
 	dynasty=0
 	religion=catholic culture=italian
 	1909.01.27={birth=yes}
-	1958.11.22={add_spouse=100070543}	# Flavia Maria Borghese
+	1958.11.22={add_spouse=100070543}	# Flavia Borghese
 	1985.01.01={death=yes}  # EST.
 }
 100009882={ # Marquesa   Ana                       de Navahermosa                           (1940-2012)     3
@@ -11932,8 +11951,8 @@
 	1873.10.20={add_spouse=100000884}	# Maria Irene Schönborn
 	1902.11.15={death=yes}
 }
-100111899={ # Duke       Friedrich                 of Liegnitz                              (1490-1547)     0
-	name="Friedrich of Liegnitz"
+100111899={ # Duke       Friedrich                 Piast                                    (1490-1547)     0
+	name="Friedrich Piast"
 	dynasty=0
 	religion=catholic culture=swedish
 	1490.01.01={birth=yes}
@@ -12881,15 +12900,6 @@
 	1671.08.21={birth=yes}
 	1754.10.21={death=yes}
 }
-100024886={ # Gf         Caspar Benedikt           von Ledbur-Wicheln                       (1723-1801)  2  0
-	name="Caspar Benedikt von Ledbur-Wicheln"
-	dynasty=0
-	religion=catholic culture=german
-	1723.06.15={birth=yes}
-	1755.01.01={add_spouse=100024885}	# Marie Anna v. Clary u.Aldringen
-	1766.06.11={add_spouse=100024782}	# Maria Josepha v. Clary u.Aldringen
-	1801.02.01={death=yes}
-}
 100116911={ # Gfn        Franziska                 von Lichtenberg                          (1772-1802)     2
 	name="Franziska von Lichtenberg"
 	female=yes
@@ -13409,7 +13419,7 @@
 	1841.07.23={birth=yes}
 	1894.12.29={death=yes}
 }
-100065585={ # Gf         Ludwig Engelbert          von der Marck                            (1701-1773)     0
+100065585={ # Gf         Ludwig Engelbert          von der Mark                             (1701-1773)     0
 	name="Ludwig Engelbert von der Marck"
 	dynasty=0
 	religion=catholic culture=german
