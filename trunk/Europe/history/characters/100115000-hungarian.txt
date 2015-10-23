@@ -11,7 +11,28 @@
 ##  100117200	Apponyi							1011329
 ##	100117300	Esterhazy						1011003
 ##  100117255	Draskovich						1011471
+##  			Báthory							1011434
 ###########################################################
+
+##  			Báthory					1011434
+100111890={ # King       Stefan                    Báthory                                  (1551-1586)     0
+	name=István
+	dynasty=1011434
+	religion=catholic culture=hungarian
+	1551.01.01={birth=yes}
+	1576.05.01={add_spouse=100111889}	# Anna Jogailaitis
+	1586.12.12={death=yes}
+}
+100021246={ # Pr         Zsigmond                  Báthory                                  (1570-1613)     0
+	name=Zsigmond
+	dynasty=1011434
+	religion=catholic culture=hungarian
+	1572.03.20={birth=yes}
+	1595.08.06={add_spouse=100021245}	# Maria Christina v. Habsburg
+	1599.01.01={remove_spouse=100021245}
+	1613.03.28={death=yes}
+}
+##  			Báthory					1011434
 
 
 ##  100117255	Draskovich						1011471
@@ -1593,7 +1614,7 @@
 			1807.04.26={birth=yes}
 			1869.05.29={death=yes}
 		}
-		100117206={ # György 
+		100117206={
 			name=György
 			dynasty=1011329
 			religion=catholic culture=hungarian
@@ -1602,6 +1623,15 @@
 			1808.01.01={birth=yes}
 			1899.01.01={death=yes}
 		}
+			100110272={	# Gfn     			Georgine            			Apponyi von Nagy Appony
+				name=Georgine
+				female=yes
+				dynasty=1011329
+				religion=catholic culture=polish
+				father=100117206	# György Apponyi de Nagy-Apponyi
+				1841.03.16={birth=yes}
+				1906.05.22={death=yes}
+			}
 			100117207={ # Albert 
 				name=Albert
 				dynasty=1011329

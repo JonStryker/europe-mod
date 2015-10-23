@@ -1,19 +1,3 @@
-100021189={ # Duke			Albrecht 					v. Wittelsbach							 (1521-1579)
-	name="Albrecht v. Wittelsbach"
-	dynasty=0
-	religion=catholic culture=german
-	1521.01.01={birth=yes}
-	1546.07.04={add_spouse=100021188}	# Anna v. Habsburg
-	1579.10.24={death=yes}
-}
-100067650={	# Duke    		Wilhelm             		v. Wittelsbach     
-	name="Wilhelm of Bavaria"
-	dynasty=0
-	religion=catholic culture=frankish
-	1548.09.29={birth=yes}
-	1568.02.22={add_spouse=100067649}	# Renée de Lorraine
-	1626.01.01={death=yes}
-}
 100021241={ # Pss			Maria 						v. Wittelsbach							 (1551-1608)
 	name="Maria v. Wittelsbach"
 	female=yes
@@ -21,63 +5,6 @@
 	religion=catholic culture=german
 	1551.03.21={birth=yes}
 	1608.04.29={death=yes}
-}
-100021250={ # Pss			Maria Anna 					v. Wittelsbach							 (1574-1616)
-	name="Maria Anna v. Wittelsbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1574.12.08={birth=yes}
-	1616.03.08={death=yes}
-}
-100021304={ # 				Maximilian 					v. Wittelsbach							 (1610-1651)
-	name="Maximilian v. Wittelsbach"
-	dynasty=0
-	religion=catholic culture=german
-	1573.04.17={birth=yes}
-	1599.02.05={add_spouse=100067646}	# Elisabeth de Lorraine
-	1635.07.15={add_spouse=100021303}	# Maria Anna v. Habsburg
-	1651.09.27={death=yes}
-}
-100008506={ # Pss			Marie Anne 					v. Wittelsbach							 (1660-1690)
-	name="Marie Anne v. Wittelsbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1660.11.28={birth=yes}
-	1690.04.20={death=yes}
-}
-100021269={ # 				Maximilian 					v. Wittelsbach							 (1660-1726)
-	name="Maximilian v. Wittelsbach"
-	dynasty=0
-	religion=catholic culture=german
-	1660.01.01={birth=yes}
-	1685.07.15={add_spouse=100021268}	# Maria Antonie v. Habsburg
-	1726.02.26={death=yes}
-}
-100021279={ # 				Karl 						v. Wittelsbach							 (1697-1745)
-	name="Karl v. Wittelsbach"
-	dynasty=0
-	religion=catholic culture=german
-	1697.01.01={birth=yes}
-	1722.10.05={add_spouse=100021278}	# Maria Amalia v. Habsburg
-	1745.01.02={death=yes}
-}
-100016601={ # 				Maria Antonia 				v. Wittelsbach							 (1724-1780)
-	name="Maria Antonia v. Wittelsbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1724.07.18={birth=yes}
-	1780.04.23={death=yes}
-}
-100020007={ # 				Marie Josephe 				v. Wittelsbach							 (1739-1767)
-	name="Marie Josephe v. Wittelsbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1739.03.30={birth=yes}
-	1767.05.28={death=yes}
 }
 100006307={	# Pfgf    		Johann Kasimir      		v. Wittelsbach
 	name="Johann Kasimir v. Wittelsbach"
@@ -103,6 +30,309 @@
 	1475.11.14={add_spouse=100111867}	# Jadwiga Jogailaitis
 	1503.12.01={death=yes}
 }
+100015154={	# Elector 		Maximilian Josef    		v. Wittelsbach   
+	name="Maximilian Josef v. Wittelsbach"
+	dynasty=0
+	religion=catholic culture=german
+	1727.01.01={birth=yes}
+	1747.08.09={add_spouse=100015153}	# Marie Anna
+	1777.12.30={death=yes}
+}
+100014188={	# Duke    		Ferdinand          			v. Wittelsbach     
+	name="Ferdinand v. Wittelsbach"
+	dynasty=0
+	religion=catholic culture=german
+	1694.01.01={birth=yes}
+	1719.01.01={add_spouse=100014187}	# Marie Anne v. Wittelsbach
+	1738.12.09={death=yes}
+}
+
+
+### ANG 4
+100014001={	# Albrecht V, Duke of Bavaria (Munich 29 Feb 1528-Munich 24 Oct 1579); m.Regensburg 4 Jul 1546 Archdss Anna of Austria (Prague 7 Jul 1528-16/17 Oct 1590; bur Munich ULFr)
+	name=Albrecht
+	dynasty=217
+	religion=catholic culture=german
+	1528.02.29={birth=yes}  # Munich
+	1546.07.04={add_spouse=100021188}	# Anna of Austria
+	1579.10.24={death=yes}  # Munich
+}
+	100014010={	# 2a) Wilhelm V, Duke of Bavaria (Landshut 29 Sep 1548-Schleissheim 7 Feb 1626; bur Sankt Michael, Munich); m.Munich 22 Feb 1568 Renée of Lorraine (20 Apr 1544-Munich 23 May 1602)
+		name=Wilhelm
+		dynasty=217
+		religion=catholic culture=german
+		father=100014001	# Albrecht
+		mother=100021188	# Anna of Austria
+		1548.09.29={birth=yes}  # Landshut
+		1568.02.22={add_spouse=100067649}	# Renée of Lorraine
+		1626.02.07={death=yes}  # Schleissheim
+	}
+		100014014={	# 3b) Maximilian I, Elector of Bavaria 1623, having been awarded the electorate forfeited by his cousin, Friedrich V Kfst von der Pfalz (Munich 17 Apr 1573-Ingolstadt 27 Sep 1651; bur Sankt Michael, Munich); m.1st Nancy 6 Feb 1595 Elisabeth Renée of Lorraine (Nancy 9 Oct 1574-Ranshofen 4 Jan 1635; bur Sankt Michael, Munich); m.2nd Vienna 15 Jul 1635 Archdss Maria Anna of Austria (Graz 13 Jan 1610-Munich 25 Sep 1665; bur Sankt Michael, Munich)
+			name=Maximilian
+			dynasty=217
+			religion=catholic culture=german
+			father=100014010	# Wilhelm
+			mother=100067649	# Renée of Lorraine
+			1573.04.17={birth=yes}  # Munich
+			1595.02.06={add_spouse=100067646}	# Elisabeth Renée of Lorraine
+			1635.07.15={add_spouse=100021303}	# Maria Anna of Austria
+			1651.09.27={death=yes}  # Ingolstadt
+		}
+			100014019={	# 1c) Ferdinand Maria, Elector of Bavaria (Munich 31 Oct 1636-Schleissheim 26 May 1679); m.Munich 25 Jun 1652 Pss Adelaide Henriette of Savoy (Turin 6 Nov 1636-Munich 18 Mar 1676)
+				name=Ferdinand
+				dynasty=217
+				religion=catholic culture=german
+				father=100014014	# Maximilian
+				mother=100021303	# Maria Anna of Austria
+				1636.10.31={birth=yes}  # Munich
+				1652.06.25={add_spouse=100014023}	# Adelaide Henriette of Savoy
+				1679.05.26={death=yes}  # Schleissheim
+			}
+				100014025={	# 1d) Marie Anna Christine Victoria (Munich 17 Nov 1660-Versailles 20 Apr 1690; bur Sankt Denis); m.Châlons-sur-Marne 7 Mar 1680, Louis, Dauphin of France (d.14 Apr 1711)
+					name="Marie Anna"
+					female=yes
+					dynasty=217
+					religion=catholic culture=german
+					father=100014019	# Ferdinand
+					mother=100014023	# Adelaide Henriette of Savoy
+					1660.11.17={birth=yes}  # Munich
+					1690.04.20={death=yes}  # Versailles
+				}
+				100014030={	# 2d) Maximilian II Emanuel, Elector of Bavaria (Munich 11 Jul 1662-Munich 26 Feb 1726); m.1st Vienna 15 Jul 1685 Archdss Marie Antonie of Austria (Vienna 18 Jan 1669-Vienna 24 Dec 1692; bur Kapuzinergruft, Vienna); m.2nd Wesel 12 Jan 1695 Therese Kunigunde Sobieska Pss of Poland (Warsaw 4 Mar 1676-Venice 10 Mar 1730)
+					name=Maximilian
+					dynasty=217
+					religion=catholic culture=german
+					father=100014019	# Ferdinand
+					mother=100014023	# Adelaide Henriette of Savoy
+					1662.07.11={birth=yes}  # Munich
+					1685.07.15={add_spouse=100021268}	# Marie Antonie of Austria
+					1695.01.12={add_spouse=100014034}	# Therese Kunigunde Sobieska
+					1726.02.26={death=yes}  # Munich
+				}
+					100014036={	# 3e) Joseph Ferdinand Leopold (Vienna 28 Oct 1692-Brussels 6 Feb 1699)
+						name="Joseph Ferdinand"
+						dynasty=217
+						religion=catholic culture=german
+						father=100014030	# Maximilian
+						mother=100021268	# Marie Antonie of Austria
+						1692.10.28={birth=yes}  # Vienna
+						1699.02.06={death=yes}  # Brussels
+					}
+					100014041={	# 5e) Karl Albrecht, Elector of Bavaria (Brussels 6 Aug 1697-Munich 20 Jan 1745); he m.Vienna 5 Oct 1722 Archdss Marie Amalie of Austria (22 Oct 1701-11 Dec 1756)
+						name="Karl Albrecht"
+						dynasty=217
+						religion=catholic culture=frankish
+						father=100014030	# Maximilian
+						mother=100014034	# Therese Kunigunde Sobieska
+						1697.08.06={birth=yes}  # Brussels
+						1722.10.05={add_spouse=100021278}	# Marie Amalie of Austria
+						1745.01.20={death=yes}  # Munich
+					}
+						100014043={	# 2f) Maria Antonia Walburga Symphorosa (Nymphenburg 18 Jul 1724-Dresden 23 Apr 1780; bur Dresden Hofkirche); m.Dresden 20 Jun 1747 Elector Friedrich Christian of Saxony (d.Dresden 17 Dec 1763)
+							name="Maria Antonia"
+							female=yes
+							dynasty=217
+							religion=catholic culture=german
+							father=100014041	# Karl Albrecht
+							mother=100021278	# Marie Amalie of Austria
+							1724.07.18={birth=yes}  # Nymphenburg
+							1780.04.23={death=yes}  # Dresden
+						}
+						100014046={	# 3f) Theresia Benedicta Maria (Munich 6 Dec 1725-Frankfurt 29 Mar 1743; bur Sankt Michael, Munich)
+							name="Theresia Benedicta"
+							female=yes
+							dynasty=217
+							religion=catholic culture=german
+							father=100014041	# Karl Albrecht
+							mother=100021278	# Marie Amalie of Austria
+							1725.12.06={birth=yes}  # Munich
+							1743.03.29={death=yes}  # Frankfurt
+						}
+						100014047={	# 4f) Maximilian III Joseph Karl, Elector of Bavaria (Munich 28 Mar 1727-Munich 30 Dec 1777); m.Munich 9 Jul 1747 Pss Maria Anna of Saxony (Dresden 29 Aug 1728-Munich 17 Feb 1797)
+							name=Maximilian
+							dynasty=217
+							religion=catholic culture=german
+							father=100014041	# Karl Albrecht
+							mother=100021278	# Marie Amalie of Austria
+							1727.03.28={birth=yes}  # Munich
+							1747.07.09={add_spouse=100015153}	# Maria Anna of Saxony
+							1777.12.30={death=yes}  # Munich
+						}
+						100014051={	# 6f) Maria Anna Josepha Augusta (Nymphenburg 7 Aug 1734-Munich 7 May 1776); m.Ettlingen 20 Jul 1755 Ludwig Georg, Mgve of Baden-Baden (d.Rastatt 22 Oct 1761)
+							name="Maria Anna"
+							female=yes
+							dynasty=217
+							religion=catholic culture=german
+							father=100014041	# Karl Albrecht
+							mother=100021278	# Marie Amalie of Austria
+							1734.08.07={birth=yes}  # Nymphenburg
+							1776.05.07={death=yes}  # Munich
+						}
+						100014054={	# 7f) Josepha Maria Antonia Walburga (Munich 30 Mar 1739-Vienna 28 May 1767; bur Kapuzinergruft, Vienna); m.Vienna 22 Jan 1765 Emperor Joseph II (d.Vienna 20 Feb 1790)
+							name=Josepha
+							female=yes
+							dynasty=217
+							religion=catholic culture=german
+							father=100014041	# Karl Albrecht
+							mother=100021278	# Marie Amalie of Austria
+							1739.03.30={birth=yes}  # Munich
+							1767.05.28={death=yes}  # Vienna
+						}
+					100014056={	# 6e) Philipp Moritz Maria, Elekt of Paderborn and Münster 1719 (Brussels 5 Aug 1698-Rome 12 Mar 1719; bur Sta Maria della Vittoria, Rome)
+						name="Philipp Moritz"
+						dynasty=217
+						religion=catholic culture=frankish
+						father=100014030	# Maximilian
+						mother=100014034	# Therese Kunigunde Sobieska
+						1698.08.05={birth=yes}  # Brussels
+						1719.03.12={death=yes}  # Rome
+					}
+					100014057={	# 7e) Ferdinand Maria Innocenz (Brussels 5 Aug 1699-Munich 9 Dec 1738); m.Reichstadt 5 Feb 1719 Anna Maria Pfgfn von Neuburg (Reichstadt 30 Jan 1693-Ahausen 12 Sep 1751; bur Münster Dom)
+						name=Ferdinand
+						dynasty=217
+						religion=catholic culture=frankish
+						father=100014030	# Maximilian
+						mother=100014034	# Therese Kunigunde Sobieska
+						1699.08.05={birth=yes}  # Brussels
+						1719.02.05={add_spouse=100014058}	# Anna von Neuburg
+						1738.12.09={death=yes}  # Munich
+					}
+						100014059={	# 1f) Maximilian Joseph Franz (Munich 11 Apr 1720-Munich 28 Apr 1738)
+							name="Maximilian Joseph"
+							dynasty=217
+							religion=catholic culture=german
+							father=100014057	# Ferdinand
+							mother=100014058	# Anna von Neuburg
+							1720.04.11={birth=yes}  # Munich
+							1738.04.28={death=yes}  # Munich
+						}
+						100014060={	# 2f) Klemens Franz de Paula (Munich 19 Apr 1722-Munich 6 Aug 1770); m.Mannheim 17 Jan 1742 Marie Anna Pfgfn von Sulzbach (Schwetzingen 22 Jun 1722-Munich 25 Apr 1790)
+							name=Klemens
+							dynasty=217
+							religion=catholic culture=german
+							father=100014057	# Ferdinand
+							mother=100014058	# Anna von Neuburg
+							1722.04.19={birth=yes}  # Munich
+							1742.01.17={add_spouse=100014208}	# Marie Anna von Sulzbach
+							1770.08.06={death=yes}  # Munich
+						}
+				100014062={	# 7d) Violante-Beatrix (Munich 23 Jan 1673-Florence 29 May 1731); m.Florence 9 Jan 1689 Ferdinando III de Medici, Prince of Tuscany (d.31 Oct 1713)
+					name=Violante-Beatrix
+					female=yes
+					dynasty=217
+					religion=catholic culture=german
+					father=100014019	# Ferdinand
+					mother=100014023	# Adelaide Henriette of Savoy
+					1673.01.23={birth=yes}  # Munich
+					1731.05.29={death=yes}  # Florence
+				}
+			100014064={	# 2c) Maximilian Philipp Hieronymus, Ldgf von Leuchtenberg (Munich 30 Sep 1638-Türkheim, Swabia 20 Mar 1705; bur Sankt Michael, Munich); m.Château-Thierry 24 Apr 1668 Mauricienne Fébronie de La Tour-d'Auvergne dite Pss d'Evreux (12 Apr 1652-Türkheim 20 Jun 1706; bur Sankt Michael, Munich)
+				name="Maximilian Philipp"
+				dynasty=217
+				religion=catholic culture=german
+				father=100014014	# Maximilian
+				mother=100021303	# Maria Anna of Austria
+				1638.09.30={birth=yes}  # Munich
+				1668.04.24={add_spouse=100014065}	# Mauricienne Fébronie de La Tour-d'Auvergne dite d'Evreux
+				1705.03.20={death=yes}  # Türkheim Swabia
+			}
+		100014066={	# 4b) Maria Anna (Munich 8 Dec 1574-Graz 8 Mar 1616; bur Graz); m.Graz 23 Apr 1600 Emperor Ferdinand II (d.15 Feb 1637)
+			name="Maria Anna"
+			female=yes
+			dynasty=217
+			religion=catholic culture=german
+			father=100014010	# Wilhelm
+			mother=100067649	# Renée of Lorraine
+			1574.12.08={birth=yes}  # Munich
+			1616.03.08={death=yes}  # Graz
+		}
+		100014068={	# 9b) Albrecht VI "der Leuchtenberger" Ldgf von Leuchtenberg (Munich 13 Apr 1584-Munich 5 Jul 1666; bur Altötting); m.Munich 26 Feb 1612 Mecthildis Ldgfn von Leuchtenberg (Pfreimd 24 Oct 1588-Laufen 1 Jun 1634; bur Altötting)
+			name=Albrecht
+			dynasty=217
+			religion=catholic culture=german
+			father=100014010	# Wilhelm
+			mother=100067649	# Renée of Lorraine
+			1584.04.13={birth=yes}  # Munich
+			1612.02.26={add_spouse=100014069}	# Mecthildis von Leuchtenberg
+			1666.07.05={death=yes}  # Munich
+		}
+		100014088={	# 10b) Magdalena (Munich 4 Jul 1587-Neuburg 25 Sep 1628; bur Jesuitenkirche, Neuburg); m.Munich 11 Nov 1613 Wolfgang Wilhelm Pfgf von Neuburg (d.20 Mar 1653)
+			name=Magdalena
+			female=yes
+			dynasty=217
+			religion=catholic culture=german
+			father=100014010	# Wilhelm
+			mother=100067649	# Renée of Lorraine
+			1587.07.04={birth=yes}  # Munich
+			1628.09.25={death=yes}  # Neuburg
+		}
+
+#######
+100014034={	# Pss     			Therese Kunigunde   			Sobieski       
+	name="Therese Kunigunde Sobieska"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1676.03.04={birth=yes}  # Warsaw
+	1730.03.10={death=yes}  # Venice
+}
+100014065={	# Pss     			Mauricienne Fébronie			de La Tour-d'Auvergne dite d'Evreux
+	name="Mauricienne Fébronie de La Tour-d'Auvergne dite d'Evreux"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1652.04.12={birth=yes}
+	1706.06.20={death=yes}  # Türkheim
+}
+100014063={	# Prince  			Ferdinando          			de Medici      
+	name="Ferdinando de Medici"
+	dynasty=0
+	religion=catholic culture=german
+	1664.01.01={birth=yes}
+	1689.01.09={add_spouse=100014062}	# Violante-Beatrix
+	1713.10.01={death=yes}
+}
+100014053={	# Mgve    			Ludwig Georg        			von Baden-Baden 
+	name="Ludwig Georg of Baden-Baden"
+	dynasty=0
+	religion=catholic culture=german
+	1730.01.01={birth=yes}
+	1755.07.20={add_spouse=100014051}	# Maria Anna
+	1761.10.22={death=yes}
+}
+100014023={	# Pss     			Adelaide Henriette  			di Savoia       
+	name="Adelaide Henriette of Savoy"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1636.11.06={birth=yes}  # Turin
+	1676.03.18={death=yes}  # Munich
+}
+100014069={	# Ldgfn   			Mecthildis          			von Leuchtenberg
+	name="Mecthildis von Leuchtenberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1588.10.24={birth=yes}  # Pfreimd
+	1634.06.01={death=yes}  # Laufen
+}
+100014058={	# Pfgfn   			Anna                			v. Wittelsbach
+	name="Anna von Neuburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1693.01.30={birth=yes}  # Reichstadt
+	1751.09.12={death=yes}  # Ahausen
+}
+####### 100014094
+#1558.02.28={holder=100014001} # Albrecht V
+#1579.10.24={holder=100014010} # 2a) Wilhelm V
+#1626.02.07={holder=100014014} # 3b) Maximilian I
+#1651.09.27={holder=100014019} # 1c) Ferdinand Maria
+#1679.05.26={holder=100014030} # 2d) Maximilian II Emanuel
+#1726.02.26={holder=100014041} # 5e) Karl Albrecht
+#1745.01.20={holder=100014047} # 4f) Maximilian III Joseph Karl
+### ANG 4
 
 
 ### SIMMERN 100014070
@@ -367,7 +597,7 @@
 						father=100014081	# Friedrich v. Wittelsbach
 						mother=100014082	# Marie v. Hohenzollern
 						1543.03.07={birth=yes}  # Simmern
-						1570.06.04={add_spouse=100014125}	# Elisabeth von Sachsen
+						1570.06.04={add_spouse=100015124}	# Elisabeth von Sachsen
 						1592.01.16={death=yes}  # Heidelberg
 					}
 						100014126={	# 3f) Dorothea (Kaiserslautern 6 Jan 1581-Sandersleben 18 Sep 1631; bur Dessau Schloßkirche); m.Heidelberg 31 Aug 1595 Johann Georg Fst of Anhalt-Dessau (d.14 May 1618)
@@ -376,7 +606,7 @@
 							dynasty=217
 							religion=catholic culture=german
 							father=100014124	# Johann Kasimir v. Wittelsbach
-							mother=100014125	# Elisabeth von Sachsen
+							mother=100015124	# Elisabeth von Sachsen
 							1581.01.06={birth=yes}  # Kaiserslautern
 							1631.09.18={death=yes}  # Sandersleben
 						}
@@ -549,7 +779,7 @@
 							father=100014159	# Philipp Ludwig v. Wittelsbach
 							mother=100014160	# Anna von Kleve
 							1578.10.25={birth=yes}  # Neuburg
-							1613.11.11={add_spouse=100014164}	# Magdalene v. Wittelsbach
+							1613.11.11={add_spouse=100014088}	# Magdalene v. Wittelsbach
 							1631.11.01={add_spouse=100014246}	# Katharine Charlotte v. Wittelsbach
 							1651.05.06={add_spouse=100014166}	# GFN Marie Franziska von Fürstenberg-Heiligenberg
 							1653.03.20={death=yes}  # Düsseldorf
@@ -559,7 +789,7 @@
 								dynasty=217
 								religion=catholic culture=german
 								father=100014163	# Wolfgang Wilhelm v. Wittelsbach
-								mother=100014164	# Magdalene v. Wittelsbach
+								mother=100014088	# Magdalene v. Wittelsbach
 								1615.11.24={birth=yes}  # Neuburg
 								1642.06.09={add_spouse=100006294}	# Anna Katharina Vasa
 								1653.01.01={add_spouse=100014169}	# Elisabeth Amalie von Hessen-Darmstadt
@@ -1814,22 +2044,6 @@
 	1595.08.31={add_spouse=100014126}	# Dorothea v. Wittelsbach
 	1618.05.14={death=yes}
 }
-100014188={	# Duke    			Ferdinand           			v. Wittelsbach     
-	name="Ferdinand v. Wittelsbach"
-	dynasty=0
-	religion=catholic culture=german
-	1694.01.01={birth=yes}
-	1719.01.01={add_spouse=100014187}	# Marie Anne v. Wittelsbach
-	1738.12.09={death=yes}
-}
-100014209={	# Duke    			Klemens             			v. Wittelsbach     
-	name="Klemens v. Wittelsbach"
-	dynasty=0
-	religion=catholic culture=german
-	1717.01.01={birth=yes}
-	1742.01.17={add_spouse=100014208}	# Marie Anna v. Wittelsbach
-	1770.08.06={death=yes}
-}
 100014278={	# Pss     			Ulrike Eleonore     			v. Oldenburg     
 	name="Ulrike Eleonore of Denmark"
 	female=yes
@@ -2151,14 +2365,6 @@
 	1560.01.01={birth=yes}
 	1585.11.07={add_spouse=100014403}	# Marie Elisabeth v. Wittelsbach
 	1606.11.21={death=yes}  # Darmstadt
-}
-100014234={	# Pr      			Wenzel Eusebius     			von Lobkowitz  
-	name="Wenzel Eusebius von Lobkowitz"
-	dynasty=0
-	religion=catholic culture=german
-	1628.01.01={birth=yes}
-	1653.02.09={add_spouse=100014233}	# Auguste Sophie v. Wittelsbach
-	1677.04.22={death=yes}  # Raudnitz
 }
 100014372={	# Gf      			Friedrich Ludwig    			von Montperny  
 	name="Friedrich Ludwig von Montperny"
@@ -2575,14 +2781,6 @@
 	1492.01.22={birth=yes}
 	1535.04.04={death=yes}
 }
-100014164={	#         			Magdalene           			v. Wittelsbach     
-	name="Magdalene v. Wittelsbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1587.07.04={birth=yes}  # Munich
-	1628.09.25={death=yes}  # Neuburg
-}
 100014117={	#         			Marie Eleonore      			v. Hohenzollern 
 	name="Marie Eleonore of Brandenburg"
 	female=yes
@@ -2710,14 +2908,6 @@
 	religion=catholic culture=german
 	1552.03.01={birth=yes}  # Kleve
 	1632.10.06={death=yes}  # Höchstädt
-}
-100014125={	#         			Elisabeth           			von Sachsen      
-	name="Elisabeth von Sachsen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1552.10.18={birth=yes}
-	1590.04.02={death=yes}
 }
 100014342={	#         			Sophie              			von Klenze       
 	name="Sophie v.Klenze"
