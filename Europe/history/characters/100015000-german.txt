@@ -4953,7 +4953,7 @@
 
 
 #Baden|100125|100015800-100016099
-100085002={ # Margr      Maria Anna               von Baden-Baden                          (1655-1701)
+100085002={ # Margr      Maria Anna                von Baden-Baden                          (1655-1701)
 	name="Maria Anna von Baden"
 	female=yes
 	dynasty=0
@@ -4961,7 +4961,7 @@
 	1655.09.08={birth=yes}
 	1701.08.22={death=yes}
 }
-100006313={	# Mgve    	 Christoph           	  von Baden-Baden      
+100006313={	# Mgve    	 Christoph           	   von Baden-Baden      
 	name="Christoph of Baden"
 	dynasty=0
 	religion=lutheran culture=swedish
@@ -4969,7 +4969,7 @@
 	1564.06.18={add_spouse=100006312}	# Cäcilia Vasa
 	1575.01.01={death=yes}
 }
-100085514={ # Mgve       Ludwig Georg             von Baden-Baden                          (1706-1761)
+100085514={ # Mgve       Ludwig Georg              von Baden-Baden                          (1706-1761)
 	name="Ludwig Georg von Baden-Baden"
 	dynasty=0
 	religion=catholic culture=bohemian
@@ -4977,15 +4977,39 @@
 	1721.03.18={add_spouse=100085513}	# Maria Anna v. Schwarzenberg
 	1761.10.22={death=yes}
 }
+100008619={ # Pss        Auguste                   von Baden-Baden                          (1704-1726)     1
+	name="Auguste von Baden-Baden"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1704.11.10={birth=yes}
+	1726.08.08={death=yes}
+}
+100014053={ # Mgve       Ludwig Georg              von Baden-Baden                          (1730-1761)     0
+	name="Ludwig Georg von Baden-Baden"
+	dynasty=0
+	religion=catholic culture=german
+	1730.01.01={birth=yes}
+	1755.07.20={add_spouse=100014051}	# Maria Anna v. Wittelsbach
+	1761.10.22={death=yes}
+}
+100014079={ #            Beatrix                   von Baden-Hachberg                       (1492-1535)     6
+	name="Beatrix von Baden-Hachberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1492.01.22={birth=yes}
+	1535.04.04={death=yes}
+}
 
-100015827={# Ernst von Baden (1482-1553)
+100015827={# Ernst von Baden-Durlach (1482-1553)
 	name=Ernst
 	dynasty=100125
 	religion=catholic culture=german
 	1482.01.01={birth=yes}
 	1553.01.01={death=yes}
 }
-	100015826={# Karl von Baden (1529-1577)
+	100015826={# Karl II. von Baden-Durlach (1529-1577)
 		name=Karl
 		dynasty=100125
 		religion=catholic culture=german
@@ -4994,7 +5018,7 @@
 		1558.08.01={add_spouse=100014407}	# Anna v. Wittelsbach
 		1577.01.01={death=yes}
 	}
-		100015824={# Georg Friedrich von Baden (1573-1638)
+		100015824={# Georg Friedrich von Baden-Durlach (1573-1638)
 			name="Georg Friedrich"
 			dynasty=100125
 			religion=catholic culture=german
@@ -5003,7 +5027,7 @@
 			1573.01.01={birth=yes}
 			1638.01.01={death=yes}
 		}
-			100015820={# Friedrich V.
+			100015820={# Friedrich V. von Baden-Durlach
 				name=Friedrich
 				dynasty=100125
 				religion=catholic culture=german
@@ -5011,7 +5035,7 @@
 				1594.01.01={birth=yes}
 				1659.01.01={death=yes}
 			}
-				100015817={# Friedrich	von Baden (1617-1677)
+				100015817={# Friedrich VI. von Baden-Durlach (1617-1677)
 					name=Friedrich
 					dynasty=100125
 					religion=catholic culture=german
@@ -5020,7 +5044,7 @@
 					1642.12.10={add_spouse=100014273}	# Christine Magdalene v. Wittelsbach
 					1677.01.31={death=yes}
 				}
-					100015815={# Friedrich VII. Magnus
+					100015815={ # Friedrich VII. Magnus von Baden-Durlach
 						name="Friedrich Magnus"
 						dynasty=100125
 						religion=catholic culture=german
@@ -5038,6 +5062,16 @@
 							1682.07.03={birth=yes}
 							1755.12.22={death=yes}
 						}
+					100014598={ #  Karl Gustav von Baden-Durlach (1652-1703)
+						name="Karl Gustav"
+						dynasty=100125
+						religion=lutheran culture=german
+						father=100015817	# Friedrich von Baden
+						mother=100014273	# Christine Magdalene v. Wittelsbach
+						1652.01.01={birth=yes}
+						1677.09.20={add_spouse=100014597}	# Anna Sophie Welf
+						1703.10.24={death=yes}  # Pforzheim
+					}
 100015800={# KARL III WILHELM, Margrave of Baden-Durlach (Karlsburg 17 Jan 1679-Karlsruhe 12 May 1738); m.Stuttgart 27 Jun 1697 Magdalene Wilhelmine Dss of Württemberg (Stuttgart 7 Nov 1677-Karlsburg 30 Oct 1742); [m.2d 1 Jun 1709 Eberhardine Luise v.u.zu Maddenbach, "Frau v.Wangen" (1690-ca 1722)]
 	name="Karl Wilhelm"
 	dynasty=100125
@@ -5131,7 +5165,7 @@
 					1826.09.25={death=yes}
 				}
 				100015818={# 5d) Marie Elisabeth Wilhelmine (Karlsruhe 7 Sep 1782-Bruchsal 20 Apr 1808); m.Karlsruhe 1 Nov 1802 Wilhelm, Duke of Braunschweig (Braunschweig 9 Oct 1771-k.a.Quatre Bras 16 Jun 1815)
-					name="Marie Elisabeth"
+					name=Marie
 					female=yes
 					dynasty=100125
 					religion=catholic culture=german
