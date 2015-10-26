@@ -138,7 +138,7 @@
 
 ##  1006017  	BELMONTE										100072800
 100072800={	# ORAZIO GIOVAN BATTISTA Ravachieri Fieschi (1590 - 12 Oct 1645); m. 29 May 1621 Anna Maria Caracciolo Pisquizi (28 Jan 1604 - Belmonte 1637)
-	name="Orazio Giovan"
+	name="Orazio Giovan Battista"
 	dynasty=1006017
 	religion=catholic culture=italian
 	1590.01.01={birth=yes}
@@ -1591,7 +1591,7 @@
 
 ##  1006013  	Caracciolo				100072450
 #LINE X
-100072450={	# Gaetano Caracciolo, Pr di Castagneto, etc (Naples 27 Mar 1787-5 Feb 1811); m.9 Jul 1808 Donna Beatrice Caracciolo di Torella (Naples 21 Jun 1878-1 Jun 1872)
+100072450={	# Gaetano Caracciolo, Pr di Castagneto, etc (Naples 27 Mar 1787-5 Feb 1811); m.9 Jul 1808 Donna Beatrice Caracciolo di Torella (Naples 21 Jun 1778-1 Jun 1872)
 	name="Gaetano Caracciolo"
 	dynasty=1006013
 	religion=catholic culture=italian
@@ -3676,18 +3676,18 @@
 							name=Sigieri
 							dynasty=1006011
 							religion=catholic culture=italian
-							father=100072150	# Maria Camilla Rospigliosi
-							mother=100072151	# DUCA Armando Diaz della Vittoria
+							father=100072151	# DUCA Armando Diaz della Vittoria
+							mother=100072150	# Maria Camilla Rospigliosi
 							1969.08.13={birth=yes}
 							1996.06.29={add_spouse=100072153}	# Carlotta Calabresi
 						}
 						100072154={	# 2f) Moroello Diaz della Vittoria, b. Rome 15 Aug 1970
-							name="Moroello Diaz"
+							name=Moroello
 							female=yes
 							dynasty=1006011
 							religion=catholic culture=italian
-							father=100072150	# Maria Camilla Rospigliosi
-							mother=100072151	# DUCA Armando Diaz della Vittoria
+							father=100072151	# DUCA Armando Diaz della Vittoria
+							mother=100072150	# Maria Camilla Rospigliosi
 							1970.08.15={birth=yes}
 						}
 		100072155={	# 7b) Giulio Cesare Francesco, Pr Pallavicini, etc (Rome 23 Feb 1871-Rome 17 Nov 1941)
@@ -4076,7 +4076,6 @@
 							mother=100071664	# DONNA Maria Concetta Pignatelli dei Principi de Monteroduni
 							1938.03.11={birth=yes}
 							1963.01.01={add_spouse=100071668}	# CSSA Eleonora Pignatti Morano di Custoza
-							2015.01.01={death=yes}  # EST.
 						}
 							100071669={	# 1g) Severa (b.19 Dec 1970); m.Rome Jun 2003 Matthew Hunter Hurlock
 								name=Severa
@@ -12547,19 +12546,27 @@
 	1443.01.01={birth=yes}
 	1497.01.01={death=yes}
 }
-100070110={# Carlo
-	name=Carlo
+100070110={
+	name=Charles
 	dynasty=240
 	religion=catholic culture=italian
 	father=100070111	# Filippo de Savoie
 	1486.01.01={birth=yes}
 	1553.01.01={death=yes}
 }
+100070122={
+	name="Emanuele Filiberto"
+	dynasty=240
+	religion=catholic culture=italian
+	father=100070110
+	1528.01.01={birth=yes}
+	1580.01.01={death=yes}
+}
 100070107={# Carlo Emanuele
 	name="Carlo Emanuele"
 	dynasty=240
 	religion=catholic culture=italian
-	father=100070110	# Carlo de Savoie
+	father=100070122	# Carlo de Savoie
 	1562.01.12={birth=yes}
 	1585.03.11={add_spouse=100021118}	# Catalina Micaela v. Habsburg
 	1630.07.26={death=yes}
@@ -13187,10 +13194,27 @@
 
 
 #di Savoia|240|100070000-100070199
+100070119={
+	name="Vittorio Amedeo"
+	dynasty=240
+	religion=catholic culture=italian
+	father=100070107
+	1587.01.01={birth=yes}
+	1637.01.01={death=yes}
+}
+100070116={
+	name="Carlo Emanuele"
+	dynasty=240
+	religion=catholic culture=italian
+	father=100070119
+	1634.01.01={birth=yes}
+	1675.01.01={death=yes}
+}
 100070115={	# VITTORIO AMEDEO II Francesco (Turin 14 May 1666-Moncalieri 31 Oct 1732); m.1st Versailles 10 Apr 1684 Anne Marie d'Orléans (St.Cloud 27 Aug 1669-Turin 26 Aug 1728); m.2nd 12 Oct 1730 Anna Teresa Canalis di Cumiano, Ctsa di Spigno (23 Apr 1680-13 Apr 1769)
 	name="Vittorio Amedeo"
 	dynasty=240
 	religion=catholic culture=italian
+	father=100070116
 	1666.05.14={birth=yes}
 	1684.04.10={add_spouse=100008606}	# Anne Marie d'Orléans
 	1730.10.12={add_spouse=100070117}	# CTSA Anna Teresa Canalis di Cumiano
