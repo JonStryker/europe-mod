@@ -1668,7 +1668,7 @@
 	mother=100017843	# Henriette v. Nassau-Weilburg
 	add_trait=bastard
 	1804.09.09={birth=yes}
-	1835.05.02={add_spouse=100017854}	# GFN Claudine Rhédey von Kis-Rhéde
+	1835.05.02={add_spouse=100017854}	# GFN Claudine Rhédey de Kis-Rhéde
 	1885.07.04={death=yes}
 }
 	100017855={# 1c) Claudine Henriette Marie Agnes Gfn von Hohenstein, cr von Teck (11 Feb 1836-Schloß Reinthal 18 Nov 1894)
@@ -1677,7 +1677,7 @@
 		dynasty=1002022
 		religion=catholic culture=german
 		father=100017853	# Alexander Paul v. Teck
-		mother=100017854	# GFN Claudine Rhédey von Kis-Rhéde
+		mother=100017854	# GFN Claudine Rhédey de Kis-Rhéde
 		1836.02.11={birth=yes}
 		1894.11.18={death=yes}
 	}
@@ -1686,7 +1686,7 @@
 		dynasty=1002022
 		religion=catholic culture=german
 		father=100017853	# Alexander Paul v. Teck
-		mother=100017854	# GFN Claudine Rhédey von Kis-Rhéde
+		mother=100017854	# GFN Claudine Rhédey de Kis-Rhéde
 		1837.08.27={birth=yes}
 		1866.06.12={add_spouse=100105182}	# Mary Welf
 		1900.01.21={death=yes}
@@ -1842,7 +1842,7 @@
 		dynasty=1002022
 		religion=catholic culture=german
 		father=100017853	# Alexander Paul v. Teck
-		mother=100017854	# GFN Claudine Rhédey von Kis-Rhéde
+		mother=100017854	# GFN Claudine Rhédey de Kis-Rhéde
 		1838.11.12={birth=yes}
 		1893.07.20={death=yes}
 	}
@@ -2625,9 +2625,11 @@
 						father=100018436	# Carl Eduard v. Sachsen-Coburg und Gotha
 						mother=100013021	# Viktoria Adelheid v. Schleswig-Holstein-Sonderburg-Glücksburg
 						1918.11.29={birth=yes}
-						1942.01.25={add_spouse=100018515}	# GFN Viktoria Luise zu Solms-Baruth
-						1948.02.14={remove_spouse=100018515	add_spouse=100018516}	# Denyse de Muralt
-						1964.10.30={remove_spouse=100018516	add_spouse=100018517}	# Katrin Bremme
+						1942.01.25={add_spouse=100002211}	# Viktoria-Luise zu Solms-Baruth
+						1948.01.01={remove_spouse=100002211}
+						1948.02.14={add_spouse=100018516}	# Denyse de Muralt
+						1964.01.01={remove_spouse=100018516}
+						1964.10.30={add_spouse=100018517}	# Katrin Bremme
 						1998.01.23={death=yes}
 					}
 						100018518={# 1f) ANDREAS Michael Arnim Siegfried Friedrich Hans Hubertus (b.Casel 21 Mar 1943); m.Hamburg (civ) 18 Jun 1971 (rel) 31 Jul 1971 Carin Dabelstein (b.Hamburg 16 Jul 1946)
@@ -2635,7 +2637,7 @@
 							dynasty=1002015
 							religion=catholic culture=german
 							father=100018514	# Friedrich Josias v. Sachsen-Coburg und Gotha
-							mother=100018515	# GFN Viktoria Luise zu Solms-Baruth
+							mother=100002211	# Viktoria-Luise zu Solms-Baruth
 							1943.03.21={birth=yes}
 							1971.07.31={add_spouse=100018519}	# Carin Dabelstein
 							#YYYY.01.01={death=yes}
@@ -2734,7 +2736,7 @@
 		father=100018400	# Franz v. Sachsen-Coburg und Gotha
 		mother=100018402	# GFN Auguste Reuss zu Ebersdorf
 		1785.03.28={birth=yes}
-		1815.11.30={add_spouse=100018536}	# PSS Antonie von Kohary
+		1815.11.30={add_spouse=100018536}	# PSS Maria Antonie Koháry
 		1851.08.27={death=yes}
 	}
 		## 1b) FERDINAND OF PORTUGAL
@@ -2743,7 +2745,7 @@
 			dynasty=1002015
 			religion=catholic culture=german
 			father=100018535	# Ferdinand v. Sachsen-Coburg und Gotha
-			mother=100018536	# PSS Antonie von Kohary
+			mother=100018536	# PSS Maria Antonie Koháry
 			1818.06.13={birth=yes}
 			1843.04.20={add_spouse=100008748}	# Clémentine d'Orléans
 			1881.07.26={death=yes}
@@ -3035,7 +3037,7 @@
 			dynasty=1002015
 			religion=catholic culture=german
 			father=100018535	# Ferdinand v. Sachsen-Coburg und Gotha
-			mother=100018536	# PSS Antonie von Kohary
+			mother=100018536	# PSS Maria Antonie Koháry
 			1822.02.14={birth=yes}
 			1857.11.10={death=yes}
 		}
@@ -3044,7 +3046,7 @@
 			dynasty=1002015
 			religion=catholic culture=german
 			father=100018535	# Ferdinand v. Sachsen-Coburg und Gotha
-			mother=100018536	# PSS Antonie von Kohary
+			mother=100018536	# PSS Maria Antonie Koháry
 			1824.01.31={birth=yes}
 			1861.04.23={add_spouse=100018596}	# Constanze Geiger
 			1884.05.20={death=yes}
@@ -3200,9 +3202,7 @@
 				mother=100014022	# Elisabeth v. Wittelsbach
 				1901.11.03={birth=yes}
 				1926.11.10={add_spouse=100006158}	# Astrid Bernadotte
-				1941.09.11={
-					remove_spouse=100006158	
-					add_spouse=100018628}	# Mary Lilian Baels
+				1941.09.11={add_spouse=100018628}	# Mary Lilian Baels
 				1983.09.25={death=yes}
 			}
 				100018629={# 1d) Joséphine Charlotte Ingeborg Elisabeth Maria Josepha Margarethe Astrid (Brussels 11 Oct 1927-Fischbach 10 Jan 2005); m.Luxemburg 9 Apr 1953 Jean, Grand Duke of Luxemburg (b.Schloß Berg 5 Jan 1921)
@@ -4867,9 +4867,8 @@
 					mother=100011828	# Adelheid Karoline zur Lippe
 					1901.06.30={birth=yes}
 					1931.04.25={add_spouse=100016199}	# Margot Grössler
-					1948.08.11={
-						remove_spouse=100016199	
-						add_spouse=100016200}	# FRN Vera Schäffer von Bernstein
+					1947.01.01={remove_spouse=100016199}
+					1948.08.11={add_spouse=100016200}	# FRN Vera Schäffer von Bernstein
 					1984.10.04={death=yes}
 				}
 					100016201={# 1e) Feodora Adelheid Mary Luise (b.Schloß Pitzelstettin 27 May 1932); m.Sökking 8 Aug 1967 Burkhard Kippenberg (b.Sökking 8 Aug 1927)
@@ -5354,7 +5353,7 @@
 				father=100015806	# Karl Friedrich von Baden
 				mother=100015808	# Luise Karoline Geyer von Geyersberg
 				1790.08.29={birth=yes}
-				1819.07.25={add_spouse=100006211}	# Sophie v. Oldenburg-Gottorf
+				1819.07.25={add_spouse=100006211}	# Sophie Wilhelmine v. Oldenburg-Gottorf
 				1852.04.24={death=yes}
 			}
 				100015860={# 1d) Alexandrine Luise Amalie Friederike Elisabeth Sophie (Karlsruhe 6 Dec 1820-Schloß Callenberg 20 Dec 1904); m.Karlsruhe 3 May 1842 Duke Ernst II von Sachsen-Coburg-Gotha (Gotha 21 Jun 1818-Rheinhardsbrunn 22 Aug 1893)
@@ -5363,7 +5362,7 @@
 					dynasty=100125
 					religion=catholic culture=german
 					father=100015858	# Leopold von Baden
-					mother=100006211	# Sophie v. Oldenburg-Gottorf
+					mother=100006211	# Sophie Wilhelmine v. Oldenburg-Gottorf
 					1820.12.06={birth=yes}
 					1904.12.20={death=yes}
 				}
@@ -5372,7 +5371,7 @@
 					dynasty=100125
 					religion=catholic culture=german
 					father=100015858	# Leopold von Baden
-					mother=100006211	# Sophie v. Oldenburg-Gottorf
+					mother=100006211	# Sophie Wilhelmine v. Oldenburg-Gottorf
 					1824.08.15={birth=yes}
 					1858.01.22={death=yes}
 				}
@@ -5381,7 +5380,7 @@
 					dynasty=100125
 					religion=catholic culture=german
 					father=100015858	# Leopold von Baden
-					mother=100006211	# Sophie v. Oldenburg-Gottorf
+					mother=100006211	# Sophie Wilhelmine v. Oldenburg-Gottorf
 					1826.09.09={birth=yes}
 					1856.09.20={add_spouse=100019206}	# Luise v. Hohenzollern
 					1907.09.28={death=yes}
@@ -5420,7 +5419,7 @@
 					dynasty=100125
 					religion=catholic culture=german
 					father=100015858	# Leopold von Baden
-					mother=100006211	# Sophie v. Oldenburg-Gottorf
+					mother=100006211	# Sophie Wilhelmine v. Oldenburg-Gottorf
 					1829.12.18={birth=yes}
 					1863.02.11={add_spouse=100067218}	# Maria de Beauharnais
 					1897.04.27={death=yes}
@@ -5585,7 +5584,7 @@
 					dynasty=100125
 					religion=catholic culture=german
 					father=100015858	# Leopold von Baden
-					mother=100006211	# Sophie v. Oldenburg-Gottorf
+					mother=100006211	# Sophie Wilhelmine v. Oldenburg-Gottorf
 					1832.03.09={birth=yes}
 					1871.05.17={add_spouse=100015900}	# FRN Rosalie Luise von Beust
 					1906.12.03={death=yes}
@@ -5605,7 +5604,7 @@
 					dynasty=100125
 					religion=catholic culture=german
 					father=100015858	# Leopold von Baden
-					mother=100006211	# Sophie v. Oldenburg-Gottorf
+					mother=100006211	# Sophie Wilhelmine v. Oldenburg-Gottorf
 					1834.11.20={birth=yes}
 					1899.11.21={death=yes}
 				}
@@ -5615,7 +5614,7 @@
 					dynasty=100125
 					religion=catholic culture=german
 					father=100015858	# Leopold von Baden
-					mother=100006211	# Sophie v. Oldenburg-Gottorf
+					mother=100006211	# Sophie Wilhelmine v. Oldenburg-Gottorf
 					1839.09.20={birth=yes}
 					1891.04.12={death=yes}
 				}
@@ -6040,9 +6039,7 @@
 						mother=100016037	# Anna Marie Mayer
 						1835.01.04={birth=yes}
 						1854.11.23={add_spouse=100016046}	# EDLER Johann Unger von Löwenberg
-						1863.03.19={
-							remove_spouse=100016046	
-							add_spouse=100016047}	# Karl Friedrich Brumm
+						1863.03.19={add_spouse=100016047}	# Karl Friedrich Brumm
 						1927.06.02={death=yes}
 					}
 			100016051={# 2c) Louise von Seldeneck (Karlsruhe-Mühlburg 31 Oct 1763-Munich 15 Feb 1824); m.Karlsruhe 18 Oct 1784 Frederic Camill, Marquis de Montperny (d.1822)
@@ -6163,10 +6160,9 @@
 			father=100017802	# Friedrich v. Württemberg
 			mother=100014623	# Auguste Welf
 			1781.09.27={birth=yes}
-			1808.06.08={add_spouse=100017805}	# Wilhelm v. Württemberg
-			1816.01.24={
-				remove_spouse=100017805
-				add_spouse=100004061}	# Ekaterina Romanov
+			1808.06.08={add_spouse=100016954}	# Karoline v. Wittelsbach
+			1814.01.01={remove_spouse=100016954}
+			1816.01.24={add_spouse=100004061}	# Ekaterina Romanov
 			1820.04.15={add_spouse=100017849}	# Pauline v. Württemberg
 			1864.06.25={death=yes}
 		}
@@ -10947,7 +10943,7 @@
 										name=Anna-Catharina
 										dynasty=528
 										religion=catholic culture=german
-										father=100016678	# Daniel Timo von Wettin
+										father=100016678	# Daniel von Wettin
 										mother=100016679	# Sandra Scherer
 										2013.01.13={birth=yes}
 									}
@@ -10965,7 +10961,7 @@
 										female=yes
 										dynasty=528
 										religion=catholic culture=german
-										father=100016681	# Arne Benjamin von Wettin
+										father=100016681	# Arne von Wettin
 										mother=100101117	# Sarah Schneider
 										2010.03.02={birth=yes}
 									}
@@ -10974,7 +10970,7 @@
 										female=yes
 										dynasty=528
 										religion=catholic culture=german
-										father=100016681	# Arne Benjamin von Wettin
+										father=100016681	# Arne von Wettin
 										mother=100101117	# Sarah Schneider
 										2011.09.16={birth=yes}
 									}
@@ -10991,7 +10987,7 @@
 										name=Moritz
 										dynasty=528
 										religion=catholic culture=german
-										father=100016684	# Nils Sebastian von Wettin
+										father=100016684	# Nils von Wettin
 										mother=100101121	# Jedida Taborek
 										2009.03.21={birth=yes}
 									}
@@ -11000,7 +10996,7 @@
 										female=yes
 										dynasty=528
 										religion=catholic culture=german
-										father=100016684	# Nils Sebastian von Wettin
+										father=100016684	# Nils von Wettin
 										mother=100101121	# Jedida Taborek
 										2010.05.04={birth=yes}
 									}
@@ -11092,9 +11088,7 @@
 					mother=100033047	# Maria Ana de Saxe-Coburgo-Gotha e Bragança
 					1869.07.10={birth=yes}
 					1894.04.05={add_spouse=100018106}	# Isabella v. Württemberg
-					1906.10.30={
-						remove_spouse=100018106
-						add_spouse=100008086}	# Maria Immacolata di Borbone-Due Sicilie
+					1906.10.30={add_spouse=100008086}	# Maria Immacolata di Borbone-Due Sicilie
 					1938.11.24={death=yes}
 				}
 				100016709={# 7d) Maximilian Wilhelm August Albert Karl Gregor Odo (Dresden 17 Nov 1870-Freiburg 12 Jan 1951)
