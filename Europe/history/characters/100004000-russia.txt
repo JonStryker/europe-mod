@@ -2520,8 +2520,8 @@
 															mother=100005864	# Ljubov Boldyrev
 															1877.02.28={birth=yes}
 															1902.01.01={add_spouse=100005866}	# Tamara Nikolaevna Bolotov
-															1902.02.01={add_spouse=100005867}	# Jelisaveta Nikolaevna Lukachevich
 															1907.01.01={remove_spouse=100005866}
+															1908.01.01={add_spouse=100005867}	# Jelisaveta Nikolaevna Lukachevich
 															1948.09.13={death=yes}
 														}
 														100005868={	# 2n) Nikolai (1885-1919); m.1910 Aleksandra Aleksandrovna Logophete (1887)
@@ -2744,12 +2744,12 @@
 												}
 													100005907={	# 1m) Lydia (Moscow 1 Jan 1870); m.St.Petersburg 30 Apr 1889 Baron Mikhail von Knorring (St.Petersburg 26 Jan 1846-Hapsal 10 Aug 1910)
 														name=Lydia
+														female=yes
 														dynasty=1010003
 														religion=orthodox culture=russian
 														father=100005905	# Sergei Gagarin
 														mother=100005906	# Olga Dmitrievna Seleznev
 														1870.01.01={birth=yes}
-														1889.04.30={add_spouse=100005908}	# BARON Mikhail von Knorring
 														1944.01.01={death=yes}  # EST.
 													}
 													100005909={	# 2m) Jewgenia (Moscow 1 Nov 1871-Nice 22 Nov 1952); m. St.Petersburg 8 Jan 1918 Pr Sergei Kropotkin (St.Petersburg  9 Feb 1853-St.Laurent-du-Var 16 Feb 1931)
@@ -3052,6 +3052,7 @@
 											mother=100004440	# Ludmilla Chernov
 											1956.03.25={birth=yes}
 											1980.06.18={add_spouse=100004442}	# Marie Lawrence
+											1992.01.01={remove_spouse=100004442}
 											1992.04.11={add_spouse=100004443}	# April Dawn Gravel
 											1995.01.01={remove_spouse=100004443}
 											1997.06.30={add_spouse=100004444}	# Colleen Powell
@@ -5023,6 +5024,7 @@
 								mother=100004810	# Olga Winberg
 								1901.11.09={birth=yes}
 								1925.09.15={add_spouse=100004817}	# Katharina Euler
+								1946.01.01={remove_spouse=100004817}
 								1946.10.06={add_spouse=100004818}	# Judith Egiazarov
 								1992.09.25={death=yes}
 							}
@@ -7696,6 +7698,7 @@
 	religion=orthodox culture=russian
 	1629.03.20={birth=yes}
 	1648.01.26={add_spouse=100004001}	# Maria Miloslavsky
+	1671.01.01={remove_spouse=100004001}
 	1671.02.01={add_spouse=100004002}	# Natalia Naryshkin
 	1676.02.08={death=yes}
 }
@@ -8190,14 +8193,14 @@
 								1908.11.14={death=yes}
 							}
 								100004115={# 1h) Ct Alexei Belevsky-Zhukovsky (Salzburg 26 Nov 1871, Caucasus 1 Jan 1930); m.1st Ilyinskoye 29 Aug 1894 Pss Maria Trubetskoya (Elezavetino 18 Jun 1872-Paris 20 Mar 1954); m.2d Bss Nathalie Schöpping
-									name="Alexei Belevsky-Zhukovsky"
+									name="Aleksei Belevsky-Zhukovsky"
 									dynasty=100397
 									religion=orthodox culture=russian
 									father=100004114	# Alexei Romanov
 									1871.11.26={birth=yes}
 									1894.08.29={add_spouse=100125210}	# Maria Trubetzkoy
-									1930.01.01={death=yes}	# EST.
-}
+									1932.01.01={death=yes}
+								}
 									100004117={# 1i) Css Elisabeth Belevsky-Zhukovsky (Moscow 8 Sep 1896-Princeton, NJ 30 Jul 1975); m.1st Moscow 1 Jan 1917 Pyotr Perevostchikov (Moscow 8 Mar 1872-Florence 28 Jun 1937); m.2d 1 Jul 1939 Arthur Lourie (St.Petersburg 14 May 1892-Princeton 13 Nov 1966)
 										name="Elisabeth Belevsky-Zhukovsky"
 										female=yes
@@ -8302,31 +8305,32 @@
 									100004143={# 1i) Pavel Romanovsky-Ilyinsky (London 27 Jan 1928-Palm Beach 10 Feb 2004); 
 												# m.1st Honolulu 29 Jul 1949 Mary Evelyn Prince (Memphis 1 Apr 1925); 
 												# m.2d Palm Beach, Florida 1 Oct 1952 Angelica Philippa Kauffmann (Paris 21 Jun 1932-Palm Beach 19 Nov 2011)
-										name="Pavel Romanovsky-Ilyinsky"
+										name=Pavel
 										dynasty=100397
 										religion=orthodox culture=russian
 										father=100004141	# Dimitri Romanov
 										mother=100004142	# Audrey Emery
 										1928.01.27={birth=yes}
 										1949.07.29={add_spouse=100004144}	# Mary Evelyn Prince
+										1952.01.01={remove_spouse=100004144}
 										1952.10.01={add_spouse=100004145}	# Angelica Philippa Kauffmann
 										2004.02.10={death=yes}
 									}
 										100004146={# 1j) Dimitri Romanovsky-Ilyinsky (b.Palm Beach 1 May 1954); m.New Haven, Connecticut 22 Sep 1979 Martha McDowell (b.New Haven, Connecticut 15 Jun 1952)
-											name="Dimitri Romanovsky-Ilyinsky"
+											name=Dimitri
 											dynasty=100397
 											religion=orthodox culture=russian
-											father=100004143	# Pavel Romanovsky-Ilyinsky Romanov
+											father=100004143	# Pavel Romanov
 											mother=100004145	# Angelica Philippa Kauffmann
 											1954.05.01={birth=yes}
 											1979.09.22={add_spouse=100004147}	# Martha McDowell
 										}
 											100004148={# 1k) Pss Ekaterina Adair Romanovsky-Ilyinsky (b.Cincinnati, Ohio 4 Aug 1981); m.25 Jun 2011 Sam Goodyear
-												name="Ekaterina Romanovsky-Ilyinsky"
+												name=Ekaterina
 												female=yes
 												dynasty=100397
 												religion=orthodox culture=russian
-												father=100004146	# Dimitri Romanovsky-Ilyinsky Romanov
+												father=100004146	# Dimitri Romanov
 												mother=100004147	# Martha McDowell
 												1981.08.04={birth=yes}
 											}
@@ -8335,7 +8339,7 @@
 												female=yes
 												dynasty=100397
 												religion=orthodox culture=russian
-												father=100004146	# Dimitri Romanovsky-Ilyinsky Romanov
+												father=100004146	# Dimitri Romanov
 												mother=100004147	# Martha McDowell
 												1984.11.23={birth=yes}
 											}
@@ -8344,7 +8348,7 @@
 												female=yes
 												dynasty=100397
 												religion=orthodox culture=russian
-												father=100004146	# Dimitri Romanovsky-Ilyinsky Romanov
+												father=100004146	# Dimitri Romanov
 												mother=100004147	# Martha McDowell
 												1986.08.26={birth=yes}
 											}
@@ -8353,7 +8357,7 @@
 											female=yes
 											dynasty=100397
 											religion=orthodox culture=russian
-											father=100004143	# Pavel Romanovsky-Ilyinsky Romanov
+											father=100004143	# Pavel Romanov
 											mother=100004145	# Angelica Philippa Kauffmann
 											1956.05.18={birth=yes}
 										}
@@ -8362,7 +8366,7 @@
 											female=yes
 											dynasty=100397
 											religion=orthodox culture=russian
-											father=100004143	# Pavel Romanovsky-Ilyinsky Romanov
+											father=100004143	# Pavel Romanov
 											mother=100004145	# Angelica Philippa Kauffmann
 											1958.10.01={birth=yes}
 										}
@@ -8370,11 +8374,13 @@
 											name="Mihail Romanovsky-Ilyinsky"
 											dynasty=100397
 											religion=orthodox culture=russian
-											father=100004143	# Pavel Romanovsky-Ilyinsky Romanov
+											father=100004143	# Pavel Romanov
 											mother=100004145	# Angelica Philippa Kauffmann
 											1959.11.03={birth=yes}
 											1989.11.07={add_spouse=100004158}	# Paula Maier
+											1996.01.01={remove_spouse=100004158}
 											1999.05.21={add_spouse=100004159}	# Lisa Marie Schiesler
+											2001.01.01={remove_spouse=100004159}
 											2010.05.13={add_spouse=100004160}	# Debra Lewis
 										}
 											100004161={# 1k) Pss Alexis Taylor Romanovsky-Ilyinsky (b.1 Mar 1994)
@@ -8594,7 +8600,9 @@
 										mother=100043030	# Jelena Karaðorðevic
 										1914.01.20={birth=yes}
 										1939.05.31={add_spouse=100004207}	# LADY Mary Lygon
+										1956.01.01={remove_spouse=100004207}
 										1956.03.28={add_spouse=100004208}	# Emilia de Gosztonyi
+										1961.01.01={remove_spouse=100004208}
 										1961.06.08={add_spouse=100004209}	# Valli Knust
 										1973.06.18={death=yes}
 									}
@@ -8901,6 +8909,7 @@
 									mother=100045057	# Maria v. Schleswig-Holstein-Sonderburg-Glücksburg
 									1903.08.22={birth=yes}
 									1921.10.09={add_spouse=100004268}	# William Bateman Leeds
+									1930.01.01={remove_spouse=100004268}
 									1946.08.10={add_spouse=100004269}	# Herman Jud
 									1965.09.17={death=yes}
 								}
@@ -8954,6 +8963,7 @@
 										mother=100004275	# DONNA Elisabetha Ruffo
 										1920.11.15={birth=yes}
 										1953.02.24={add_spouse=100004281}	# Esther Murphy
+										1954.01.01={remove_spouse=100004281}
 										1954.07.23={add_spouse=100004282}	# Shirley Crammond
 										1993.07.14={add_spouse=100004283}	# Giulia Gemma Crespi
 										2008.09.21={death=yes}
@@ -8966,6 +8976,7 @@
 										mother=100004275	# DONNA Elisabetha Ruffo
 										1923.01.21={birth=yes}
 										1951.09.09={add_spouse=100004285}	# Elena Durneva
+										1961.01.01={remove_spouse=100004285}
 										1961.03.21={add_spouse=100004286}	# Kathleen Norris
 										1998.01.01={death=yes}	# EST.
 }
@@ -9022,6 +9033,7 @@
 									mother=100004085	# Xenia Romanov
 									1898.12.23={birth=yes}
 									1923.05.21={add_spouse=100004163}	# Irina Paley Romanov
+									1950.01.01={remove_spouse=100004163}
 									1968.11.30={death=yes}
 								}
 									100004298={# 1i) Pr Mihail Romanov (Paris 4 May 1924-Paris 22 Sep 2008); m.1st Paris 15 Oct 1958 (div 1992) Helga Staufenberger (b.Vienna 22 Aug 1926); m.2d Josse 15 Jan 1994 Maria de las Mercedes Ustrell-Cabani (b.Hospitalet, Spain 26 Aug 1960)
@@ -9032,6 +9044,7 @@
 										mother=100004163	# Irina Paley Romanov
 										1924.05.04={birth=yes}
 										1958.10.15={add_spouse=100004299}	# Helga Staufenberger
+										1994.01.01={remove_spouse=100004299}
 										1994.01.15={add_spouse=100004300}	# Maria de las Mercedes Ustrell-Cabani
 										2008.09.22={death=yes}
 									}
@@ -9109,6 +9122,7 @@
 									mother=100004085	# Xenia Romanov
 									1901.08.15={birth=yes}
 									1931.10.25={add_spouse=100004314}	# CSS Marina Golenishtchev-Kutusov
+									1954.01.01={remove_spouse=100004314}
 									1954.10.20={add_spouse=100004315}	# Margaret Sheila MacKellar Chisholm
 									1980.07.07={death=yes}
 								}
@@ -9130,7 +9144,9 @@
 									mother=100004085	# Xenia Romanov
 									1902.11.24={birth=yes}
 									1928.09.01={add_spouse=100004320}	# PSS Alexandra Golitsyn
+									1944.01.01={remove_spouse=100004320}
 									1944.11.24={add_spouse=100004321}	# Alice Eilken
+									1954.01.01={remove_spouse=100004321}
 									1954.11.19={add_spouse=100004322}	# Hedwig von Chappuis
 									1978.07.31={death=yes}
 								}
