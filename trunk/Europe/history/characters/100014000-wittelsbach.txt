@@ -6,22 +6,6 @@
 	1551.03.21={birth=yes}
 	1608.04.29={death=yes}
 }
-100006307={	# Pfgf    		Johann Kasimir      		v. Wittelsbach
-	name="Johann Kasimir v. Wittelsbach"
-	dynasty=0
-	religion=lutheran culture=german
-	1589.04.20={birth=yes}
-	1615.06.11={add_spouse=100101792}	# Katharina Vasa
-	1652.06.18={death=yes}
-}
-100006315={	# Pfgf    		Georg Johann        		v. Wittelsbach    
-	name="Georg Johann v. Wittelsbach"
-	dynasty=0
-	religion=lutheran culture=german
-	1537.01.01={birth=yes}
-	1562.12.20={add_spouse=100006314}	# Anna Vasa
-	1592.01.01={death=yes}
-}
 100111868={	# Duke    		Georg               		v. Wittelsbach
 	name="Georg of Bavaria-Landshut"
 	dynasty=0
@@ -29,22 +13,6 @@
 	1450.01.01={birth=yes}
 	1475.11.14={add_spouse=100111867}	# Jadwiga Jogailaitis
 	1503.12.01={death=yes}
-}
-100015154={	# Elector 		Maximilian Josef    		v. Wittelsbach   
-	name="Maximilian Josef v. Wittelsbach"
-	dynasty=0
-	religion=catholic culture=german
-	1727.01.01={birth=yes}
-	1747.08.09={add_spouse=100015153}	# Marie Anna von Wettin
-	1777.12.30={death=yes}
-}
-100014188={	# Duke    		Ferdinand          			v. Wittelsbach     
-	name="Ferdinand v. Wittelsbach"
-	dynasty=0
-	religion=catholic culture=german
-	1694.01.01={birth=yes}
-	1719.01.01={add_spouse=100014187}	# Marie Anne v. Wittelsbach
-	1738.12.09={death=yes}
 }
 
 
@@ -1160,7 +1128,8 @@
 								mother=100014260	# PSS Amalie von Oranje-Nassau
 								1619.10.27={birth=yes}  # Heidelberg
 								1645.11.17={add_spouse=100014257}	# Juliane Magdalene v. Wittelsbach
-								1672.01.01={add_spouse=100014263}	# Anna Hepp
+								1671.11.01={remove_spouse=100014257}
+								1672.07.01={add_spouse=100014263}	# Anna Hepp
 								1681.04.11={death=yes}  # Landsberg
 							}
 								100014264={	# 2h) Wilhelm Ludwig (Landsberg 23 Feb 1648-Meisenheim 31 Aug 1675; bur Meisenheim Stadtkirche); m.Meisenheim 14 Nov 1672 Charlotte Friederike Pfgfn von Zweibrücken (1653-1712)
@@ -1706,7 +1675,7 @@
 					father=100014405	# Ruprecht v. Wittelsbach
 					mother=100014406	# WILDGFN Ursula zu Salm-Kyrburg
 					1543.04.11={birth=yes}
-					1563.12.20={add_spouse=100006314}	# Anna Vasa
+					1562.12.20={add_spouse=100006314}	# Anna Vasa
 					1592.04.18={death=yes}  # Lützelstein
 				}
 					100014411={	# 1e) Georg Gustav Pfgf von Veldenz (Remigiusburg 6 Feb 1564-3 Jun 1634, bur Remigiusburg); m.1st Stuttgart 30 Oct 1586 Dss Elisabeth of Württemberg (Basel 3 Mar 1548-Schloß Karlsburg 28 Feb 1592; bur Stuttgart Stiftskirche); m.2nd Zweibrücken 17 May 1601 Marie Elisabeth Pfgfn von Zweibrücken (1581-1637)
@@ -2196,7 +2165,6 @@
 							father=100016820	# Albrecht v. Wittelsbach
 							mother=100117947	# Mária Draskovich de Trakostyán
 							1933.07.14={birth=yes}
-							#YYYY.01.01={death=yes}
 						}
 						100016826={# 4f) Max Emanuel Ludwig Maria, Duke in Bayern [by adoption by Duke Ludwig Wilhelm in Bayern], b.Munich 21 Jan 1937; 
 								   # m.Munich 24 Jan 1967 Elizabeth Gfn Douglas (b.Stockholm 31 Dec 1940)
@@ -2482,7 +2450,6 @@
 							father=100016865	# Rasso v. Wittelsbach
 							mother=100020965	# Theresa v. Habsburg-Lothringen
 							1957.09.21={birth=yes}
-							#YYYY.01.01={death=yes}
 						}
 						100016869={# 3f) Elisabeth Maria Immaculata Anastasia, b.Leutstetten 22 Jan 1959; m.(civ) Horn, Lower Austria 9 May 1986 (rel) Eberau 24 May 1986 Andreas Gf von Kuefstein (b.Vienna 9 Aug 1954)
 							name="Elisabeth Maria"
@@ -2500,7 +2467,6 @@
 							father=100016865	# Rasso v. Wittelsbach
 							mother=100020965	# Theresa v. Habsburg-Lothringen
 							1960.01.01={birth=yes}
-							#YYYY.01.01={death=yes}
 						}
 							100016871={# 1g) Tassilo Maria Georg Eugen Heinrich Rasso, b.Ravensburg 19 Jun 1992
 								name="Tassilo Maria"
@@ -2508,7 +2474,6 @@
 								religion=catholic culture=german
 								father=100016870	# Wolfgang Rupprecht v. Wittelsbach
 								1992.06.19={birth=yes}
-								#YYYY.01.01={death=yes}
 							}
 							100016872={# 2g) Richard Maria Philipp Stephan Maximilian, b.Munich 19 Nov 1993
 								name="Richard Maria"
@@ -2516,7 +2481,6 @@
 								religion=catholic culture=german
 								father=100016870	# Wolfgang Rupprecht v. Wittelsbach
 								1993.11.19={birth=yes}
-								#YYYY.01.01={death=yes}
 							}
 							100016873={# 3g) Philipp Maria Max Emanuel Rupprecht Zeno, b.Munich 25 May 1996
 								name="Philipp Maria"
@@ -2524,7 +2488,6 @@
 								religion=catholic culture=german
 								father=100016870	# Wolfgang Rupprecht v. Wittelsbach
 								1996.05.25={birth=yes}
-								#YYYY.01.01={death=yes}
 							}
 						100016874={# 5f) Benedikta Maria Gabrielle, b.Starnberg 13 Mar 1961; m.(civ) Schloß Haldenwang 4 Jun 1989 (rel) Wettenhausen 11 Jun 1989 Rudolf Frhr von Freyberg-Eisenberg-Allmendingen (b.Munich 7 Feb 1958)
 							name="Benedikta Maria"
@@ -2533,7 +2496,6 @@
 							father=100016865	# Rasso v. Wittelsbach
 							mother=100020965	# Theresa v. Habsburg-Lothringen
 							1961.01.01={birth=yes}
-							#YYYY.01.01={death=yes}
 						}
 						100016875={# 6f) Christoph Ludwig Maria, b.Leutstetten 5 May 1962; m.(civ) Munich 18 Aug 1994 (rel) Lenhausen 20 Aug 1994 Gudila Gfn von Plettenberg (b.Lenhausen 14 Oct 1962)
 							name="Christoph Ludwig"
@@ -2542,7 +2504,6 @@
 							father=100016865	# Rasso v. Wittelsbach
 							mother=100020965	# Theresa v. Habsburg-Lothringen
 							1962.01.01={birth=yes}
-							#YYYY.01.01={death=yes}
 						}
 							100016876={# 1g) Corbinian Maria Hunold Rasso Nikolaus, b.Starnberg 9 Jan 1996
 								name="Corbinian Maria"
@@ -2821,6 +2782,7 @@
 						mother=100016922	# GFN Augusta von Seefried auf Buttenheim
 						1920.08.15={birth=yes}
 						1942.08.31={add_spouse=100019620}	# Maria Adelgunde v. Hohenzollern-Sigmaringen
+						1950.01.01={remove_spouse=100019620}
 						1953.08.14={add_spouse=100016924}	# Helene v. Khevenhüller-Metsch
 						1969.07.30={death=yes}
 					}
@@ -2896,7 +2858,6 @@
 								father=100016933	# Adalbert Friedrich v. Wittelsbach
 								mother=100016934	# Sandra Burckhardt
 								1986.06.27={birth=yes}
-								#YYYY.01.01={death=yes}
 							}
 							100016936={# 2g) Hubertus Florian Konstantin Clemens (b.Munich 29 Aug 1989)
 								name="Hubertus Florian"
@@ -2905,7 +2866,6 @@
 								father=100016933	# Adalbert Friedrich v. Wittelsbach
 								mother=100016934	# Sandra Burckhardt
 								1989.08.29={birth=yes}
-								#YYYY.01.01={death=yes}
 							}
 						100016937={# 3f) Ysabel Helene Anna Augusta Maria de la Paz Ludovica-Fernanda, b.Munich 20 Jul 1954; m. Munich 30 May 1976 Alfred Gf Hoyos, Frhr zu Stichsenstein (b.Salzburg 17 Jul 1951)
 							name="Ysabel Helene"
@@ -2915,7 +2875,6 @@
 							father=100016923	# Konstantin v. Wittelsbach
 							mother=100019620	# Maria Adelgunde v. Hohenzollern-Sigmaringen
 							1951.07.17={birth=yes}
-							#YYYY.01.01={death=yes}
 						}
 					100016938={# 2e) Alexander Alfons Eugen Viktor Ludwig Adalbert Michael Antonius et omnes sancti (Munich 12 Jun 1923-Munich 6 May 2001)
 						name="Alexander Alfons"

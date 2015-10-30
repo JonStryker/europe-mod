@@ -625,14 +625,6 @@
 	1829.04.09={birth=yes}
 	1906.12.20={death=yes}
 }
-100110453={ # Ct         Jan                       Tarnowski                                (1838-1894)     0
-	name="Jan Tarnowski"
-	dynasty=0
-	religion=catholic culture=polish
-	1838.01.11={birth=yes}
-	1861.07.15={add_spouse=100110452}	# Zofia Zamoyski
-	1894.05.11={death=yes}
-}
 	
 100111944={# Józef Mateusz Amor (1707-1744)
 	name="Józef Mateusz Amor"
@@ -702,7 +694,7 @@
 				1894.05.11={death=yes}  # Dzików
 			}
 				100111945={	# 1d) Zdislaw Jan (Warsaw 5 Jun 1862-Dzików 24 Nov 1937); m.Krzeszowice 5 Aug 1897 Css Zofia Potocka (Krzeszowice 21 Apr 1879-Dzików 16 Nov 1933)
-					name="Zdislaw Jan"
+					name=Zdislaw
 					dynasty=1012008
 					religion=catholic culture=polish
 					father=100111943	# Jan-Dzierzyslaw Tarnowski
@@ -1042,11 +1034,10 @@
 							mother=100112007	# CSS Maria Wielopolska
 							1929.09.21={birth=yes}  # Konskie
 							1953.04.06={add_spouse=100112009}	# Helena Poninski
-							1985.11.01={remove_spouse=100112009}
+							1961.11.01={remove_spouse=100112009}
 							1962.01.01={add_spouse=100112010}	# Halina Bobinska
 							1975.01.01={remove_spouse=100112010}
 							1976.03.19={add_spouse=100112011}	# Maria Nowacka
-							2006.01.01={death=yes}  # EST.
 						}
 							100112012={	# 1g) Wladislaw Edward Maria Tarnowski-Lazarski (b.Cracow 7 Jan 1954); m.Tyniec 21 Jun 1980 Hanna Leskiewicz (b.Zakopane 1 Jul 1954)
 								name="Wladislaw Edward"
@@ -3273,7 +3264,7 @@
 		1862.10.20={death=yes}  # Paris
 	}
 	100114079={	# 6a) Constanze (Tulczyn 1781-Marseille 24 Dec 1852); m.1st Ct Jan Potocki (8 Mar 1761-20 Nov 1815); m.2nd 1817 Ct Eduard Raczynski (Posen 2 Apr 1786-Zaniemysl 20 Jan 1845)
-		name=Constanze
+		name=Konstancja
 		female=yes
 		dynasty=1012006
 		religion=catholic culture=polish
@@ -3836,6 +3827,7 @@
 			mother=100114185	# PSS Maria Sapieha-Kodenski
 			1863.01.01={birth=yes}  # Brzezany
 			1899.03.08={add_spouse=100110386}	# Tereza Zamoyski
+			1912.01.01={remove_spouse=100110386}
 			1934.09.28={death=yes}  # Helenow
 		}
 		100114188={	# 2b) Izabella (Brzezany 2 Oct 1864-Vienna 21 Mar 1883); m.Warsaw 21 Nov 1882 Ct Roman Potocki (1852-1915)
@@ -3943,6 +3935,7 @@
 			mother=100111655	# Ludwika Lubomirski
 			1780.06.17={birth=yes}
 			1805.01.01={add_spouse=100114076}	# Roza Potocki
+			1811.01.01={remove_spouse=100114076}
 			1850.10.18={death=yes}
 		}
 			100114214={	# 1c) Roza (16 Jun 1802-Warsaw 27 Oct 1862); m.Lubowla 16 Sep 1824 Ct Andrzej Zamoyski (Vienna 1800-Cracow 29 Oct 1874)
@@ -4829,16 +4822,6 @@
 					1845.01.01={birth=yes}
 					1918.01.01={death=yes}  # EST.
 				}
-			100114403={	# 4c) Amelia (d.1859)
-				name=Amelia
-				female=yes
-				dynasty=1012006
-				religion=catholic culture=polish
-				father=100114211	# Antoni Potocki
-				mother=100114076	# Roza Potocki
-				1809.01.01={birth=yes}
-				1859.01.01={death=yes}
-			}
 			100114404={	# 5c) Maria; m.1840 Wladimir Siemiatowski
 				name=Maria
 				female=yes
@@ -6095,7 +6078,7 @@
 
 
 ##  100111900	Raczynski				1012007
-100111912={	#         			Michal Kazimierz Raczynski			z Malyszyna    
+100111912={	#         					Michal Kazimierz 				Raczynski z Malyszyna    
 	name="Michal Kazimierz" #  /en/name/1246071/michal-kazimierz-raczynski-z-malyszyna/
 	dynasty=1012007
 	religion=catholic culture=polish
@@ -6121,7 +6104,7 @@
 			1768.01.01={birth=yes}
 			1790.01.01={death=yes}
 		}
-	100111914={	#         			Leon Raczynski      			z Malyszyna    
+	100111914={	#         				Leon       						Raczynski z Malyszyna    
 		name=Leon #  /en/name/1246069/leon-raczynski-z-malyszyna/
 		dynasty=1012007
 		religion=catholic culture=polish
@@ -6131,7 +6114,7 @@
 		1723.01.01={add_spouse=100111913}	# Wirydianna Bninski z Bnina
 		1750.01.01={death=yes}
 	}
-		100111911={	#         			Filip Nereusz Raczynski			z Malyszyna    
+		100111911={	#         			Filip Nereusz 					Raczynski z Malyszyna    
 			name="Filip Nereusz" #  /en/name/1246067/filip-nereusz-raczynski-z-malyszyna/
 			dynasty=1012007
 			religion=catholic culture=polish
@@ -6141,17 +6124,17 @@
 			1772.01.01={add_spouse=100111915}	# Michalina Raczynski
 			1804.01.01={death=yes}
 		}
-			100111908={	#         			Eduard              			Raczynski      
+			100111908={	#         		Eduard              			Raczynski      
 				name=Eduard #  /en/name/1825999/eduard-raczynski/
 				dynasty=1012007
 				religion=catholic culture=polish
 				father=100111911	# Filip Nereusz Raczynski Raczynski
 				mother=100111915	# Michalina Raczynski
 				1786.04.02={birth=yes}
-				1811.01.01={add_spouse=100114079}	# Constanze Potocki
+				1817.01.01={add_spouse=100114079}	# Constanze Potocki
 				1845.01.20={death=yes}
 			}
-				100111905={	#         			Roger Moritz Stanislaus			Raczynski      
+				100111905={	#         	Roger Moritz Stanislaus			Raczynski      
 					name="Roger Moritz Stanislaus" #  /en/name/1826001/roger-moritz-stanislaus-raczynski-count-nalecz-von-malyszyn-und-raczyn/
 					dynasty=1012007
 					religion=catholic culture=polish
@@ -6161,7 +6144,7 @@
 					1845.01.01={add_spouse=100111903}	# Constantia Lachmann
 					1864.02.24={death=yes}
 				}
-					100111563={ # Ct         Eduard                    Raczynski                                (1847-1926)     0
+					100111563={ # Ct Eduard Raczynski (1847-1926)
 						name=Eduard
 						dynasty=1012007
 						religion=catholic culture=polish
@@ -6171,7 +6154,7 @@
 						1886.06.30={add_spouse=100111561}	# Roza Potocki
 						1926.05.06={death=yes}
 					}
-			100111918={	# count   			Atanazy             			Raczynski      
+			100111918={	# count   		Atanazy             			Raczynski      
 				name=Atanazy #  /en/name/1172261/atanazy-graf-raczynski/
 				dynasty=1012007
 				religion=catholic culture=polish
@@ -6181,17 +6164,17 @@
 				1816.11.03={add_spouse=100110851}	# Anna Radziwill
 				1874.08.21={death=yes}
 			}
-				100111907={	# count   			Carl Eduard         			Raczynski      
+				100111907={	# count   	Carl Eduard         			Raczynski      
 					name="Carl Eduard" #  /en/name/1826004/carl-eduard-count-raczynski/
 					dynasty=1012007
 					religion=catholic culture=polish
 					father=100111918	# COUNT Atanazy Raczynski
 					mother=100110851	# Anna Radziwill
 					1817.08.19={birth=yes}
-					1842.01.01={add_spouse=100012317}	# Karoline Wilhelmine zu Oettingen-Wallerstein
-					1889.01.01={death=yes}  # EST.
+					1854.06.07={add_spouse=100012317}	# Karoline Wilhelmine zu Oettingen-Wallerstein
+					1899.03.13={death=yes}
 				}
-				100111900={	# countess			Wanda               			Raczynska      
+				100111900={	# countess	Wanda               			Raczynska      
 					name=Wanda #  /en/name/223808/wanda-countess-raczynska/
 					female=yes
 					dynasty=1012007
@@ -6201,7 +6184,7 @@
 					1819.01.21={birth=yes}
 					1845.05.16={death=yes}
 				}
-				100111906={	#         			Therese             			Raczynska      
+				100111906={	#         	Therese             			Raczynska      
 					name=Therese #  /en/name/1826005/therese-raczynska/
 					female=yes
 					dynasty=1012007
@@ -8554,6 +8537,7 @@
 				mother=100110661	# Alexandra Babicze-Belchacki
 				1736.11.13={birth=yes}
 				1761.01.01={add_spouse=100110666}	# CSS Aniela Miaczynski
+				1781.11.01={remove_spouse=100110666}
 				1782.01.01={add_spouse=100110667}	# CSS Victoria Ostrorog
 				1813.01.01={death=yes}
 			}
@@ -8963,7 +8947,9 @@
 								mother=100110755	# PSS Pelagia Sapieha
 								1870.02.08={birth=yes}
 								1898.09.02={add_spouse=100110758}	# Maria de Barnardakya
+								1916.01.01={remove_spouse=100110758}
 								1916.11.15={add_spouse=100110759}	# Joaquina Martinez de Medinilla
+								1938.01.01={remove_spouse=100110759}
 								1938.05.23={add_spouse=100110760}	# Harriet McNab
 								1955.10.06={death=yes}
 							}
@@ -9206,6 +9192,7 @@
 									mother=100111301	# Anna Jadwiga Lubomirski
 									1914.07.21={birth=yes}
 									1940.04.10={add_spouse=100110806}	# CSS Rose de Monléon
+									1946.01.01={remove_spouse=100110806}
 									1946.05.02={add_spouse=100110807}	# Grace Kolin
 									1958.01.01={remove_spouse=100110807}
 									1959.03.19={add_spouse=100110808}	# Caroline Lee Bouvier
@@ -10520,15 +10507,16 @@
 									mother=100111044	# Lida Lacey Bloodgood
 									1959.08.29={birth=yes}
 								}
-							100111055={# 3g) Karol-Hieronim Coelestin Maria Constantin Stanislaus (Berlin 3 May 1912-Buenos Aires 27 Nov 2005); m.1st  Buenos Aires 21 Mar 1949 Maria Luisa de Alvear Quirno (Buenos Aires 11 Jul 1913-Buenos Aires 30 Apr 1989); m.2nd Teresa Soto
+							100111055={# 3g) Karol-Hieronim Coelestin Maria Constantin Stanislaus (Berlin 3 May 1912-Buenos Aires 27 Nov 2005); m.1st Buenos Aires 21 Mar 1949 Maria Luisa de Alvear Quirno (Buenos Aires 11 Jul 1913-Buenos Aires 30 Apr 1989); m.2nd Teresa Soto
 								name=Karol-Hieronim
 								dynasty=1012003
 								religion=catholic culture=polish
 								father=100111038	# Hieronim Radziwill
 								mother=100020263	# Renata Maria v. Habsburg-Lothringen
 								1912.05.03={birth=yes}
-								1937.01.01={add_spouse=100111057}	# Teresa Soto
 								1949.03.21={add_spouse=100111056}	# Maria Luisa de Alvear Quirno
+								1949.01.01={remove_spouse=100111056}
+								1950.01.01={add_spouse=100111057}	# Teresa Soto
 								2005.11.27={death=yes}
 							}
 							100111058={# 4g) Albrecht-Hieronim Maria Karl Isidor Stanislaus (Balice 10 May 1914-Davos, Switzerland 23 Jun 1932)
@@ -10610,6 +10598,7 @@
 				mother=100111073	# Eleonore Kamienski
 				1752.01.01={birth=yes}
 				1780.01.01={add_spouse=100111075}	# Cecilia Zakrzewski
+				1812.11.01={remove_spouse=100111075}
 				1813.01.01={add_spouse=100111117}	# Julia Radziwill
 				1818.01.01={death=yes}
 			}
@@ -10680,6 +10669,7 @@
 				mother=100111082	# Anna Chalecki
 				1758.01.01={birth=yes}
 				1778.01.01={add_spouse=100111091}	# Constancia Czapski
+				1782.11.01={remove_spouse=100111091}
 				1783.01.01={add_spouse=100111092}	# Caroline Radziminski
 				1798.01.01={death=yes}
 			}
