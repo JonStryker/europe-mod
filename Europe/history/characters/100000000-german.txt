@@ -1,13 +1,90 @@
 ###########################################################
-##  100000000	Löwenstein-Wertheim 		1002039
-##  100000200	Arenberg			 		1002040
-##  100000350	Sayn				 		1002041
-##  100000600	Putbus				 		1002042
-##  100000700	Schönborn			 		1002043
-##  100001150	Croÿ			 			1002044
-##  100001600	Salm-Salm			 		1002045
-##  			Montenuovo					1002048
+##  100000000	Löwenstein-Wertheim 				1002039
+##  100000200	Arenberg			 				1002040
+##  100000350	Sayn				 				1002041
+##  100000600	Putbus				 				1002042
+##  100000700	Schönborn			 				1002043
+##  100001150	Croÿ			 					1002044
+##  100001600	Salm-Salm			 				1002045
+##  			Montenuovo							1002048
+##  			Pilati von Thassul zu Daxberg		1002055
 ###########################################################
+
+
+##  			Pilati von Thassul zu Daxberg		1002055
+100015021={ # Gf Gotthard Pilati von Thassul zu Daxberg (1906-1969)     3
+	name=Gotthard
+	dynasty=1002055
+	religion=catholic culture=german
+	1906.07.19={birth=yes}
+	1939.05.15={add_spouse=100015020}	# Maria Anna v. Khevenhüller-Metsch
+	1969.09.22={death=yes}
+}
+	100015022={# 1e) Gabrielle Gfn Pilati von Thassul zu Daxberg, b.Sagan 1 Jan 1941; m.Mariazell 1 Jan 1959 (div 1982) Zsigmond Gellerdi Vargha (b.Budapest 1 Jan 1936)
+		name=Gabrielle
+		female=yes
+		dynasty=1002055
+		religion=catholic culture=german
+		father=100015021	# Gotthard Pilati von Thassul zu Daxberg
+		mother=100015020	# Maria Anna v. Khevenhüller-Metsch
+		1941.01.01={birth=yes}
+	}
+		100015024={# 1f) Zsigmond Gellerdi Vargha (1960-1983)
+			name=Zsigmond
+			dynasty=1002055
+			religion=catholic culture=hungarian
+			father=100015023	# Zsigmond Gellerdi Vargha
+			mother=100015022	# Gabrielle Pilati von Thassul zu Daxberg
+			1960.02.01={birth=yes}
+			1983.02.01={death=yes}
+		}
+		100015025={# 2f) Christiana Gellerdi Vargha, b.1961
+			name=Christiana
+			dynasty=1002055
+			religion=catholic culture=hungarian
+			father=100015023	# Zsigmond Gellerdi Vargha
+			mother=100015022	# Gabrielle Pilati von Thassul zu Daxberg
+			1961.02.01={birth=yes}
+		}
+	100015026={# 2e) Beatrix Gfn Pilati von Thassul zu Daxberg (1942-1975)
+		name=Beatrix
+		female=yes
+		dynasty=1002055
+		religion=catholic culture=german
+		father=100015021	# Gotthard Pilati von Thassul zu Daxberg
+		mother=100015020	# Maria Anna v. Khevenhüller-Metsch
+		1942.02.01={birth=yes}
+		1975.02.01={death=yes}
+	}
+	100015027={# 3e) Gotthard Gf Pilati von Thassul zu Daxberg, b.Salzburg 1 Jan 1945; m.1st Rottach 1 Jan 1972 (div 1979) Kristina Paul (b.Eisenach 1 Jan 1948); m.2d Mespelbrunn 1 Jan 1986 Francesca Filo di Torre Santa Susanna (b.Naples 1 Jan 1946)
+		name=Gotthard
+		dynasty=1002055
+		religion=catholic culture=german
+		father=100015021	# Gotthard Pilati von Thassul zu Daxberg
+		mother=100015020	# Maria Anna v. Khevenhüller-Metsch
+		1945.01.01={birth=yes}
+		1971.01.01={add_spouse=100015028}	# Kristina Paul
+		1979.01.01={remove_spouse=100015028}
+		1986.01.01={add_spouse=100015029}	# Francesca Filo di Torre Santa Susanna
+	}
+		100015030={# 1f) Tassilo Gf Pilati von Thassul zu Daxberg, b.Munich 1 Jan 1973
+			name=Tassilo
+			dynasty=1002055
+			religion=catholic culture=german
+			father=100015027	# Gotthard Pilati von Thassul zu Daxberg
+			mother=100015028	# Kristina Paul
+			1973.01.01={birth=yes}
+		}
+		100015031={# 2f) Octavian Gf Pilati von Thassul zu Daxberg, b.Vienna 1 Jan 1989
+			name=Octavian
+			dynasty=1002055
+			religion=catholic culture=german
+			father=100015027	# Gotthard Pilati von Thassul zu Daxberg
+			mother=100015029	# Francesca Filo di Torre Santa Susanna
+			1989.01.01={birth=yes}
+		}
+##  			Pilati von Thassul zu Daxberg		1002055
+
 
 ##  			Montenuovo					1002048
 100020028={ # Gf Adam Adalbert von Neipperg (1775-1829)
@@ -826,6 +903,14 @@
 
 
 ##  100001150	Croÿ			 			1002044
+100014148={ # Css        Johanna                   de Croÿ                                  (1434-1504)  0  0
+	name="Johanna de Croÿ"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1434.01.01={birth=yes}
+	1504.06.18={death=yes}
+}
 100001352={ # Pss        Constance                 de Croÿ-Solre                            (1789-1869)     4
 	name="Constance de Croÿ-Solre"
 	female=yes
@@ -5824,7 +5909,7 @@
 							father=100000428	# Johann Stanislaus Sayn-Wittgenstein-Berleburg
 							mother=100000429	# Almut Leonhards
 							1978.11.27={birth=yes}
-							2012.06.08={add_spouse=100000438}	# FREIIN Alimée von Gersdorff
+							2012.06.08={add_spouse=100000438}	# FRN Alimée von Gersdorff
 						}
 					100000439={	# 4e) Ludwig-Ferdinand Friedrich Hans Rudolf Winrich Klaus (b.Osterwick 25 Jan 1942); m.Bärbo, Sweden 6 Sep 1975 Yvonne Gfn Wachtmeister af Johannishus (b.Bärbo 4 Apr 1951)
 						name=Ludwig-Ferdinand
