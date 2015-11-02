@@ -8,7 +8,7 @@
 #############################################################
 
 
-100013101={ # Frederika Amalia von Oldenburg (1649-1704)
+100013101={ # 			 Frederika Amalia 			von Oldenburg 							  (1649-1704)
 	name="Frederika Amalia von Oldenburg"
 	female=yes
 	dynasty=0
@@ -16,7 +16,7 @@
 	1649.04.11={birth=yes}
 	1704.10.30={death=yes}
 }
-100012931={	# Gfn     			Klara               			von Oldenburg  
+100012931={	# Gfn     	 Klara               	 	von Oldenburg  
 	name="Klara von Oldenburg"
 	female=yes
 	dynasty=0
@@ -24,7 +24,7 @@
 	1606.04.19={birth=yes}
 	1647.01.15={death=yes}  # Beck
 }
-100012932={	# Gfn     			Sidonie             			von Oldenburg  
+100012932={	# Gfn     	 Sidonie             		von Oldenburg  
 	name="Sidonie von Oldenburg"
 	female=yes
 	dynasty=0
@@ -32,13 +32,29 @@
 	1611.06.10={birth=yes}
 	1650.04.23={death=yes}  # Beck
 }
-100014576={	# Gf      			Anton               			von Oldenburg    
+100014576={	# Gf      	 Anton               		von Oldenburg    
 	name="Anton von Oldenburg"
 	dynasty=0
 	religion=lutheran culture=german
 	1575.01.01={birth=yes}
 	1600.08.31={add_spouse=100014575}	# Sibylle Elisabeth Welf
 	1619.10.25={death=yes}
+}
+100014099={ #            Wilhelmine Ernestine      	von Oldenburg                             (1650-1706)     0
+	name="Wilhelmine Ernestine v. Oldenburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1650.06.21={birth=yes}  # Copenhagen
+	1706.04.22={death=yes}  # Lichtenberg
+}
+100014278={ # Pss        Ulrike Eleonore           	von Oldenburg                             (1656-1693)     2
+	name="Ulrike Eleonore v. Oldenburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1656.09.11={birth=yes}  # Copenhagen
+	1693.07.26={death=yes}  # Schloß Karlberg
 }
 
 
@@ -702,6 +718,15 @@
 	1426.02.01={birth=yes}
 	1481.05.21={death=yes}
 }
+	100100672={# Margaret v. Oldenburg (1456-1486)
+		name=Margaret
+		dynasty=224
+		religion=catholic culture=danish
+		female=yes
+		father=100101692	# Christian v. Oldenburg
+		1456.06.23={birth=yes}
+		1486.07.14={death=yes}
+	}
 	100101693={ # Hans
 		name=Hans
 		dynasty=224
@@ -729,7 +754,7 @@
 				1521.01.01={birth=yes}
 				1590.09.10={death=yes}  # Tortona
 			}
-	100101695={# Frederik	v. Oldenburg (1471-1533)
+	100101695={ # Frederik	v. Oldenburg (1471-1533)
 		name=Frederik
 		dynasty=224
 		religion=catholic culture=danish
@@ -762,6 +787,15 @@
 				1534.07.01={birth=yes}
 				1588.04.04={death=yes}
 			}
+				100100379={ # Anna v. Oldenburg (1574-1619)
+					name=Anna
+					dynasty=224
+					female=yes
+					religion=lutheran culture=danish
+					father=100101697	# Frederik v. Oldenburg
+					1574.12.12={birth=yes}
+					1619.03.02={death=yes}
+				}
 				100015129={	# Pss Hedwig v. Oldenburg     
 					name=Hedwig
 					female=yes
@@ -817,6 +851,15 @@
 							1683.07.28={add_spouse=100100031}	# Anne Stuart
 							1708.10.28={death=yes}
 						}
+							100100415={# William v. Oldenburg (1689-1700)
+								name=William
+								dynasty=224
+								religion=lutheran culture=english
+								father=100100414	# Jørgen v. Oldenburg
+								mother=100100031	# Anne Stuart
+								1689.07.24={birth=yes}
+								1700.07.30={death=yes}
+							}
 						100101700={ # Christian V
 							name=Christian
 							dynasty=224

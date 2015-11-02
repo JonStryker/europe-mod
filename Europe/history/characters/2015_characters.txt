@@ -535,8 +535,8 @@
 	1339.04.04={birth=yes}
 	1362.04.10={death=yes}
 }
-100100152={# William von Wittelsbach (1330-1389)
-	name=William
+100100152={# Wilhelm von Wittelsbach (1330-1389)
+	name=Wilhelm
 	dynasty=10045
 	religion=catholic culture=german
 	1330.05.12={birth=yes}
@@ -563,12 +563,22 @@
 	1253.11.25={birth=yes}
 	1257.05.03={death=yes}
 }
+100100161={# Henry de Montbelliard (1259-1302)
+	name=Henry
+	dynasty=10046
+	religion=catholic culture=frankish
+	1259.01.01={birth=yes}
+	1293.09.20={add_spouse=455764}	# Eleanor Plantagenet
+	1302.09.01={death=yes}
+}
+
+### PLANTAGENET
 100100156={# Katherine	Plantagenet (1264-1264)
 	name=Katherine
 	dynasty=106
 	female=yes
 	religion=catholic culture=english
-	father=9
+	father=454520
 	mother=457642	# Leonor d'Ivrée
 	1264.06.17={birth=yes}
 	1264.09.05={death=yes}
@@ -578,43 +588,27 @@
 	dynasty=106
 	female=yes
 	religion=catholic culture=english
-	father=9
+	father=454520
 	mother=457642	# Leonor d'Ivrée
 	1265.01.01={birth=yes}
 	1265.09.07={death=yes}
-}
-100100161={# Henry de Montbelliard (1259-1302)
-	name=Henry
-	dynasty=10046
-	religion=catholic culture=frankish
-	1259.01.01={birth=yes}
-	1293.09.20={add_spouse=455764}	# Eleanor Plantagenet
-	1302.09.01={death=yes}
 }
 100100162={# Juliana	Plantagenet (1271-1271)
 	name=Juliana
 	dynasty=106
 	female=yes
 	religion=catholic culture=english
-	father=9
+	father=454520
 	mother=457642	# Leonor d'Ivrée
 	1271.05.01={birth=yes}
 	1271.09.05={death=yes}
-}
-100100165={# Ralph van Reginar (1270-1325)
-	name=Ralph
-	dynasty=10048
-	religion=catholic culture=english
-	1270.01.01={birth=yes}
-	1297.01.01={add_spouse=454605}	# Joan Plantagenet
-	1325.04.05={death=yes}
 }
 100100170={# Berengaria	Plantagenet (1276-1278)
 	name=Berengaria
 	dynasty=106
 	female=yes
 	religion=catholic culture=english
-	father=9
+	father=454520
 	mother=457642	# Leonor d'Ivrée
 	1276.05.01={birth=yes}
 	1278.06.07={death=yes}
@@ -624,11 +618,21 @@
 	dynasty=106
 	female=yes
 	religion=catholic culture=english
-	father=9
+	father=454520
 	mother=457642	# Leonor d'Ivrée
 	trait=nun
 	1278.01.01={birth=yes}
 	1332.01.01={death=yes}
+}
+### PLANTAGENET
+
+100100165={# Ralph van Reginar (1270-1325)
+	name=Ralph
+	dynasty=10048
+	religion=catholic culture=english
+	1270.01.01={birth=yes}
+	1297.01.01={add_spouse=454605}	# Joan Plantagenet
+	1325.04.05={death=yes}
 }
 100100173={# John van Holland (1284-1299)
 	name=John
@@ -646,25 +650,7 @@
 	1302.01.01={add_spouse=454516}	# Elizabeth Plantagenet
 	1322.03.16={death=yes}
 }
-100100176={# Thomas	Plantagenet (1300-1338)
-	name=Thomas
-	dynasty=106
-	religion=catholic culture=english
-	father=9
-	mother=455527	# Marguerite Capet
-	1300.06.01={birth=yes}
-	1324.01.08={add_spouse=100100177}	# Alice de Hales
-	1336.04.04={add_spouse=100100178}	# Mary
-	1338.08.01={death=yes}
-}
-100100177={# Alice de Hales (1305-1330)
-	name=Alice
-	dynasty=10050
-	female=yes
-	religion=catholic culture=english
-	1305.01.01={birth=yes}
-	1330.10.12={death=yes}
-}
+
 100100178={# Mary (1305-1362)
 	name=Mary
 	dynasty=10051
@@ -677,8 +663,8 @@
 	name=Edward
 	dynasty=106
 	religion=catholic culture=english
-	father=100100176	# Thomas Plantagenet
-	mother=100100177	# Alice de Hales
+	father=454550	# Thomas Plantagenet
+	mother=454551	# Alice de Hales
 	1320.01.01={birth=yes}
 	1334.08.09={death=yes}
 }
@@ -687,8 +673,8 @@
 	dynasty=106
 	female=yes
 	religion=catholic culture=english
-	father=100100176	# Thomas Plantagenet
-	mother=100100177	# Alice de Hales
+	father=454550	# Thomas Plantagenet
+	mother=454551	# Alice de Hales
 	1320.01.01={birth=yes}
 	1399.03.24={death=yes}
 }
@@ -697,21 +683,50 @@
 	dynasty=106
 	female=yes
 	religion=catholic culture=english
-	father=100100176	# Thomas Plantagenet
-	mother=100100177	# Alice de Hales
+	father=454550	# Thomas Plantagenet
+	mother=454551	# Alice de Hales
 	1325.01.01={birth=yes}
 	1352.01.30={death=yes}
 }
+
 100100182={# Edmund	Plantagenet (1301-1330)
 	name=Edmund
 	dynasty=106
 	religion=catholic culture=english
-	father=9
+	father=454520
 	mother=455527	# Marguerite Capet
 	1301.08.05={birth=yes}
 	1325.01.01={add_spouse=100100183}	# Margaret von Diepholz
 	1330.03.19={death=yes}
 }
+	100100184={# Edmund	Plantagenet (1326-1331)
+		name=Edmund
+		dynasty=106
+		religion=catholic culture=english
+		father=100100182	# Edmund Plantagenet
+		mother=100100183	# Margaret von Diepholz
+		1326.01.01={birth=yes}
+		1331.10.05={death=yes}
+	}
+	100100185={# Joan	Plantagenet (1326-1385)
+		name=Joan
+		dynasty=106
+		female=yes
+		religion=catholic culture=english
+		father=100100182	# Edmund Plantagenet
+		mother=100100183	# Margaret von Diepholz
+		1326.09.29={birth=yes}
+		1385.08.07={death=yes}
+	}
+	100100186={# John	Plantagenet (1330-1352)
+		name=John
+		dynasty=106
+		religion=catholic culture=english
+		father=100100182	# Edmund Plantagenet
+		mother=100100183	# Margaret von Diepholz
+		1330.04.07={birth=yes}
+		1352.12.26={death=yes}
+	}
 100100183={# Margaret von Diepholz (1297-1349)
 	name=Margaret
 	dynasty=52
@@ -719,34 +734,6 @@
 	religion=catholic culture=english
 	1297.01.01={birth=yes}
 	1349.09.19={death=yes}
-}
-100100184={# Edmund	Plantagenet (1326-1331)
-	name=Edmund
-	dynasty=106
-	religion=catholic culture=english
-	father=100100182	# Edmund Plantagenet
-	mother=100100183	# Margaret von Diepholz
-	1326.01.01={birth=yes}
-	1331.10.05={death=yes}
-}
-100100185={# Joan	Plantagenet (1326-1385)
-	name=Joan
-	dynasty=106
-	female=yes
-	religion=catholic culture=english
-	father=100100182	# Edmund Plantagenet
-	mother=100100183	# Margaret von Diepholz
-	1326.09.29={birth=yes}
-	1385.08.07={death=yes}
-}
-100100186={# John	Plantagenet (1330-1352)
-	name=John
-	dynasty=106
-	religion=catholic culture=english
-	father=100100182	# Edmund Plantagenet
-	mother=100100183	# Margaret von Diepholz
-	1330.04.07={birth=yes}
-	1352.12.26={death=yes}
 }
 100100187={# Eleanor	Plantagenet (1306-1310)
 	name=Eleanor
@@ -1318,8 +1305,8 @@
 }
 100100253={# Eleanor Neville (1447-1482)
 	name=Eleanor
-	dynasty=10058
 	female=yes
+	dynasty=10058
 	religion=catholic culture=english
 	father=100100251	# Richard Neville
 	mother=100100252	# Alice Montacute
@@ -2464,15 +2451,6 @@
 	1542.12.08={birth=yes}
 	1587.02.08={death=yes}
 }
-100100379={# Anna v. Oldenburg (1574-1619)
-	name=Anna
-	dynasty=224
-	female=yes
-	religion=lutheran culture=danish
-	father=100101697	# Frederik v. Oldenburg
-	1574.12.12={birth=yes}
-	1619.03.02={death=yes}
-}
 100100380={# Henry Stuart (1594-1612)
 	name=Henry
 	dynasty=10008
@@ -2745,15 +2723,6 @@
 	mother=100100411	# Maria Sobieski
 	1725.03.06={birth=yes}
 	1807.07.13={death=yes}
-}
-100100415={# William v. Oldenburg (1689-1700)
-	name=William
-	dynasty=224
-	religion=lutheran culture=english
-	father=100100414	# Jørgen v. Oldenburg
-	mother=100100031	# Anne Stuart
-	1689.07.24={birth=yes}
-	1700.07.30={death=yes}
 }
 100100419={# Frederick Welf (1661-1691)
 	name=Frederick
@@ -3237,15 +3206,6 @@
 	1451.07.10={birth=yes}
 	1469.07.01={add_spouse=100100672}	# Margaret v. Oldenburg
 	1488.06.11={death=yes}
-}
-100100672={# Margaret v. Oldenburg (1456-1486)
-	name=Margaret
-	dynasty=224
-	religion=catholic culture=danish
-	female=yes
-	father=100101692	# Christian v. Oldenburg
-	1456.06.23={birth=yes}
-	1486.07.14={death=yes}
 }
 100100673={# James Stuart (1476-1504)
 	name=James
