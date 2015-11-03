@@ -1,20 +1,20 @@
 #############################################################################
 ##  240			di Savoia										100070000*	
-##  1006003		Ruffo di Calabria								100070200*	
+##  1006003		Ruffo di Calabria								100070200*	d_calabria
 ##  1006004		Lucchese Palli									100070300*
 ##  1006005		Borghese										100070450*
 ##  1006006		Colonna											100070750**
 ##  1006007		Odescalchi										100071150
 ##  1006008		del Drago										100071350*
-##  1006009		VISCONTI di MODRONE								100071450
-##  1006010		Imperiali										100071600
-##  1006011		ROSPIGLIOSI										100072050*
+##  1006009		VISCONTI di MODRONE								100071450*	d_lombardia
+##  1006010		Imperiali										100071600*	d_genoa			->	Napoli
+##  1006011		ROSPIGLIOSI										100072050*	c_livorno
 ##  1006012		del Balzo										100072200*
-##  1006013  	Caracciolo										100072450
+##  1006013  	Caracciolo										100072450*	c_abruzzo
 ##  1006014  	Pironti											100072550
-##  1006015  	Lante Montefeltro della Rovere					100072600
+##  1006015  	Lante Montefeltro della Rovere					100072600*	c_lucca			-> Pisa, Rome
 ##  1006016  	Pallavicini										100072700
-##  1006017  	BELMONTE										100072800
+##  1006017  	BELMONTE										100072800*	c_reggio		-> Belmonte (~Catanzaro)
 ##  1006018		Malfatti
 ##  10089		d'Este
 ##  1006019		Massimo											100072900
@@ -5244,7 +5244,7 @@
 						1963.03.02={death=yes}
 					}
 				100071689={	# 2d) Conte Maria Filippo Imperiali (Naples 19 Jun 1877-Naples 14 Nov 1956); m.Naples 26 Apr 1903 Donna Giustina Sanfelice dei Duchi di Bagnoli (Naples 8 Sep 1882-Naples 1 Jun 1957)
-					name=Conte
+					name=Filippo
 					dynasty=1006010
 					religion=catholic culture=italian
 					father=100071613	# Emanuele Imperiali
@@ -6976,20 +6976,20 @@
 ##  1006009		VISCONTI di MODRONE		100071450
 100071450={	# Don GUIDO Duca Visconti di Modrone, Marchese di Vimodrone, Cte di Lonate Pozzolo, Patrician of Milan, etc (Milan 19 Jul 1838-Milan 5 Feb 1902); m.Bologna 7 May 1870 Ida Renzi (Verona 6 Oct 1850-Milan 28 Dec 1915)
 	name=Guido
-	female=yes
 	dynasty=1006009
 	religion=catholic culture=italian
 	1838.07.19={birth=yes}
+	1870.05.07={add_spouse=100071451}
 	1902.02.05={death=yes}
 }
 	100071452={	# 1a) UBERTO Duca Visconti di Modrone (Milan 23 Feb 1871-Milan 13 Jan 1923); m.Genoa 8 Feb 1893 Marianna dei Marchesi Gropallo (Genoa 22 Jan 1869-Milan 29 Jan 1941)
-		name="Uberto"
-		female=yes
+		name=Uberto
 		dynasty=1006009
 		religion=catholic culture=italian
-		father=100071451	# Ida Renzi
-		mother=100071450	# Guido Visconti
+		father=100071450	# Guido Visconti
+		mother=100071451	# Ida Renzi
 		1871.02.23={birth=yes}
+		1893.02.08={add_spouse=100071453}
 		1923.01.13={death=yes}
 	}
 		100071454={	# 1b) Ida (Milan 2 Dec 1893-Milan 6 May 1958); m.Macherio 9 Sep 1914 Alfonso Corti Marchese di Santo Stefano Belbo (Corvino 19 Aug 1891-Milan 1 Jun 1977)
@@ -6997,8 +6997,8 @@
 			female=yes
 			dynasty=1006009
 			religion=catholic culture=italian
-			father=100071453	# Marianna dei Marchesi Gropallo
-			mother=100071452	# Uberto Visconti
+			father=100071452	# Uberto Visconti
+			mother=100071453	# Marianna dei Marchesi Gropallo
 			1893.12.02={birth=yes}
 			1958.05.06={death=yes}
 		}
@@ -7007,39 +7007,39 @@
 			female=yes
 			dynasty=1006009
 			religion=catholic culture=italian
-			father=100071453	# Marianna dei Marchesi Gropallo
-			mother=100071452	# Uberto Visconti
+			father=100071452	# Uberto Visconti
+			mother=100071453	# Marianna dei Marchesi Gropallo
 			1896.10.04={birth=yes}
 			1981.01.29={death=yes}
 		}
 		100071458={	# 4b) MARCELLO Duca Visconti di Modrone (Macherio 18 Dec 1898-Crans-sur-Sierre 5 Aug 1964); m.Rome 1 Oct 1924 Xenia Berlingieri (Naples 2 Oct 1901-Milan 1 Aug 1973)
-			name="Marcello"
-			female=yes
+			name=Marcello
 			dynasty=1006009
 			religion=catholic culture=italian
-			father=100071453	# Marianna dei Marchesi Gropallo
-			mother=100071452	# Uberto Visconti
+			father=100071452	# Uberto Visconti
+			mother=100071453	# Marianna dei Marchesi Gropallo
 			1898.12.18={birth=yes}
+			1924.10.01={add_spouse=100071459}
 			1964.08.05={death=yes}
 		}
 			100071460={	# 1c) Maria Anna (b.Milan 5 Aug 1925); m.Macherio 30 Jun 1952 Andrea dei Marchesi Doria (Genoa 15 Nov 1919-Milan 27 May 2003)
 				name="Maria Anna"
-				dynasty=1006009
-				religion=catholic culture=italian
-				father=100071459	# Xenia Berlingieri
-				mother=100071458	# Marcello Visconti
-				1925.08.05={birth=yes}
-				1952.06.30={add_spouse=100071461}	# Andrea dei Marchesi Doria
-				2002.01.01={death=yes}  # EST.
-			}
-			100071462={	# 2c) UBERTO Duca Visconti di Modrone (Milan 25 Dec 1927-Santa Lucia 29 Dec 2001); m.Rome 14 Mar 1974 Antonella Bechi Piaggio (Rome 2 Nov 1938-New York 22 Apr 1999)
-				name="Uberto"
 				female=yes
 				dynasty=1006009
 				religion=catholic culture=italian
-				father=100071459	# Xenia Berlingieri
-				mother=100071458	# Marcello Visconti
+				father=100071458	# Marcello Visconti
+				mother=100071459	# Xenia Berlingieri
+				1925.08.05={birth=yes}
+				2002.01.01={death=yes}  # EST.
+			}
+			100071462={	# 2c) UBERTO Duca Visconti di Modrone (Milan 25 Dec 1927-Santa Lucia 29 Dec 2001); m.Rome 14 Mar 1974 Antonella Bechi Piaggio (Rome 2 Nov 1938-New York 22 Apr 1999)
+				name=Uberto
+				dynasty=1006009
+				religion=catholic culture=italian
+				father=100071458	# Marcello Visconti
+				mother=100071459	# Xenia Berlingieri
 				1927.12.25={birth=yes}
+				1974.03.14={add_spouse=100071463}
 				2001.12.29={death=yes}
 			}
 				100071464={	# 1d) Chiara (b.Atlanta 11 Oct 1977); m.Varramista 9 Sep 2007 Angelos Parvenas
@@ -7047,8 +7047,8 @@
 					female=yes
 					dynasty=1006009
 					religion=catholic culture=italian
-					father=100071463	# Antonella Bechi Piaggio
-					mother=100071462	# Uberto Visconti
+					father=100071462	# Uberto Visconti
+					mother=100071463	# Antonella Bechi Piaggio
 					1977.10.11={birth=yes}
 				}
 		100071466={	# 5b) Valentina (Macherio 1 Nov 1901-Milan 28 Jun 1951); m.Macherio 12 Oct 1921 Luigi Perego di Cremnago (Cremnago 18 Apr 1898-Milan 21 Jan 1993)
@@ -7056,8 +7056,8 @@
 			female=yes
 			dynasty=1006009
 			religion=catholic culture=italian
-			father=100071453	# Marianna dei Marchesi Gropallo
-			mother=100071452	# Uberto Visconti
+			father=100071452	# Uberto Visconti
+			mother=100071453	# Marianna dei Marchesi Gropallo
 			1901.11.01={birth=yes}
 			1951.06.28={death=yes}
 		}
@@ -7065,8 +7065,8 @@
 		name=Giovanni
 		dynasty=1006009
 		religion=catholic culture=italian
-		father=100071451	# Ida Renzi
-		mother=100071450	# Guido Visconti
+		father=100071450	# Guido Visconti
+		mother=100071451	# Ida Renzi
 		1873.10.10={birth=yes}
 		1900.08.20={add_spouse=100071469}	# Edoarda Simonetta Castelbarco Visconti dei Marchesi di Cislago
 		1931.08.14={death=yes}
@@ -7119,7 +7119,6 @@
 				father=100071476	# Ruggero Visconti
 				mother=100071477	# Anna Fairbanks
 				1936.03.28={birth=yes}
-				2013.01.01={death=yes}  # EST.
 			}
 		100071480={	# 5b) Emanuele (Milan 10 Oct 1907-2 May 1945)
 			name=Emanuele
@@ -7173,8 +7172,8 @@
 		name=Giuseppe
 		dynasty=1006009
 		religion=catholic culture=italian
-		father=100071451	# Ida Renzi
-		mother=100071450	# Guido Visconti
+		father=100071450	# Guido Visconti
+		mother=100071451	# Ida Renzi
 		1879.11.10={birth=yes}
 		1900.11.10={add_spouse=100071488}	# Carla Erba
 		1941.12.16={death=yes}
@@ -7262,7 +7261,6 @@
 					}
 					100071506={	# 3e) Uberto (b.Rome 21 Dec 1995)
 						name=Uberto
-						female=yes
 						dynasty=1006009
 						religion=catholic culture=italian
 						father=100071502	# Gian Galeazzo Visconti
@@ -7412,8 +7410,8 @@
 		name="Guido Carlo"
 		dynasty=1006009
 		religion=catholic culture=italian
-		father=100071451	# Ida Renzi
-		mother=100071450	# Guido Visconti
+		father=100071450	# Guido Visconti
+		mother=100071451	# Ida Renzi
 		1881.07.13={birth=yes}
 		1906.07.26={add_spouse=100071534}	# Matilde dei Conti Marescalchi
 		1967.07.19={death=yes}
@@ -9362,6 +9360,7 @@
 			}
 			100070983={	# 11c) Lucia (Naples 18 Dec 1882-24 Feb 1929)
 				name=Lucia
+				female=yes
 				dynasty=1006006
 				religion=catholic culture=italian
 				father=100070953	# Landolfo Colonna
