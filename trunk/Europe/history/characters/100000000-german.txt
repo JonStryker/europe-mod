@@ -8,8 +8,68 @@
 ##  100001600	Salm-Salm			 				1002045
 ##  			Montenuovo							1002048
 ##  			Pilati von Thassul zu Daxberg		1002055
-##  100001751  Eltz								1002059
+##  100001751   Eltz								1002059
+## 				von der Mark						1002061
 ###########################################################
+
+
+## 				von der Mark						1002061
+100021234={# Johann (1490-1539)
+	name=Johann
+	dynasty=1002061
+	religion=catholic culture=german
+	1490.01.01={birth=yes}
+	1539.01.01={death=yes}
+}
+	100017426={ # Pss        Sibylle                   von der Mark                             (1512-1554)     2
+		name=Sibylle
+		female=yes
+		dynasty=0
+		religion=catholic culture=german
+		father=100021234
+		1512.07.17={birth=yes}  # Düsseldorf
+		1554.02.21={death=yes}  # Weimar
+	}
+	100021230={ # Duke       Wilhelm                   von der Mark                             (1516-1592)     1
+		name=Wilhelm
+		dynasty=1002061
+		religion=catholic culture=german
+		father=100021234
+		1516.07.08={birth=yes}
+		1546.07.18={add_spouse=100021229}	# Maria v. Habsburg
+		1592.01.05={death=yes}
+	}
+		100014160={ #        Anna                      von der Mark                             (1552-1632)     4
+			name=Anna
+			female=yes
+			dynasty=1002061
+			religion=catholic culture=german
+			father=100021230	# Wilhelm von der Mark
+			mother=100021229	# Maria v. Habsburg
+			1552.03.01={birth=yes}  # Kleve
+			1632.10.06={death=yes}  # Höchstädt
+		}
+		100014238={ #        Magdalene                 von der Mark				                (1553-1633)     5
+			name=Magdalene
+			female=yes
+			dynasty=1002061
+			religion=catholic culture=german
+			father=100021230	# Wilhelm von der Mark
+			mother=100021229	# Maria v. Habsburg
+			1553.11.02={birth=yes}  # Kleve
+			1633.07.30={death=yes}  # Meisenheim
+		}
+		100021195={ #        Sibylle                   von der Mark                             (1557-1627)     3
+			name=Sibylle
+			female=yes
+			dynasty=1002061
+			religion=catholic culture=german
+			father=100021230	# Wilhelm von der Mark
+			mother=100021229	# Maria v. Habsburg
+			1557.08.26={birth=yes}
+			1627.12.16={death=yes}
+		}
+## 				von der Mark						1002061
 
 
 ##  100001750	Eltz								1002059
@@ -18,18 +78,18 @@
 	dynasty=1002059
 	religion=catholic culture=german
 	1742.02.01={birth=yes}  # Mainz
-	1763.11.06={add_spouse=100001762}	# Sophie von Boos zu Waldeck und Montfort
+	1763.11.06={add_spouse=100001762}	# FRN Sophie von Boos zu Waldeck und Montfort
 	1818.11.20={death=yes}  # Koblenz
 }
 	100001772={	# 1a) Emmerich Joseph Philipp Johann Nepomuk (Mainz 22 Mar 1765-Vienna 21 Dec 1844); m.1st Vienna 24 Feb 1794 Henriette Gfn von Colloredo-Mannsfeld (Vienna 3 Sep 1773-Vukovár 8 Mar 1814); m.2nd Vienna 3 May 1821 Maria Gfn Somogyi von Medgyes (16 Jul 1796-Vienna 9 Mar 1864)
 		name=Emmerich
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1765.03.22={birth=yes}  # Mainz
-		1794.02.24={add_spouse=100001806}	# Henriette von Colloredo-Mannsfeld
-		1821.05.03={add_spouse=100001807}	# Maria Somogyi von Medgyes
+		1794.02.24={add_spouse=100001806}	# GFN Henriette von Colloredo-Mannsfeld
+		1821.05.03={add_spouse=100001807}	# GFN Maria Somogyi de Medgyes
 		1844.12.21={death=yes}  # Vienna
 	}
 		100001808={	# 1b) Maria Isabella Sophie (Dresden 10 Feb 1795-Prague 12 Mar 1859); m.Dobrschisch 4 Jul 1815 Karl Pr von Thurn und Taxis (Prague 18 Jun 1792-Teplitz 25 Aug 1844)
@@ -37,8 +97,8 @@
 			female=yes
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001772	# Emmerich
-			mother=100001806	# Henriette von Colloredo-Mannsfeld
+			father=100001772	# Emmerich v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001806	# GFN Henriette von Colloredo-Mannsfeld
 			1795.02.10={birth=yes}  # Dresden
 			1859.03.12={death=yes}  # Prague
 		}
@@ -47,8 +107,8 @@
 			female=yes
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001772	# Emmerich
-			mother=100001806	# Henriette von Colloredo-Mannsfeld
+			father=100001772	# Emmerich v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001806	# GFN Henriette von Colloredo-Mannsfeld
 			1796.03.12={birth=yes}  # Dresden
 			1821.09.04={death=yes}  # Prague
 		}
@@ -57,8 +117,8 @@
 			female=yes
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001772	# Emmerich
-			mother=100001806	# Henriette von Colloredo-Mannsfeld
+			father=100001772	# Emmerich v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001806	# GFN Henriette von Colloredo-Mannsfeld
 			1800.03.07={birth=yes}  # Dresden
 			1874.12.25={death=yes}  # Vienna
 		}
@@ -67,8 +127,8 @@
 			female=yes
 			dynasty=1002059
 			religion=catholic culture=castillan
-			father=100001772	# Emmerich
-			mother=100001806	# Henriette von Colloredo-Mannsfeld
+			father=100001772	# Emmerich v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001806	# GFN Henriette von Colloredo-Mannsfeld
 			1804.07.12={birth=yes}  # Madrid
 			1862.08.23={death=yes}  # Prague
 		}
@@ -76,8 +136,8 @@
 			name=Franz
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001772	# Emmerich
-			mother=100001807	# Maria Somogyi von Medgyes
+			father=100001772	# Emmerich v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001807	# GFN Maria Somogyi de Medgyes
 			1822.04.13={birth=yes}  # Vienna
 			1841.05.31={death=yes}  # Vienna
 		}
@@ -86,8 +146,8 @@
 		female=yes
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1767.04.20={birth=yes}  # Mainz
 		1818.02.20={death=yes}  # Aschaffenburg
 	}
@@ -96,8 +156,8 @@
 		female=yes
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1768.09.11={birth=yes}  # Mainz
 		1863.09.25={death=yes}  # Mainz
 	}
@@ -105,8 +165,8 @@
 		name=Klemens
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1770.03.06={birth=yes}  # Mainz
 		1849.10.12={death=yes}  # Eltville
 	}
@@ -114,8 +174,8 @@
 		name=Hugo
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1772.03.28={birth=yes}  # Mainz
 		1833.01.21={death=yes}  # Posega Slavonia
 	}
@@ -124,8 +184,8 @@
 		female=yes
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1773.11.02={birth=yes}  # Mainz
 		1829.05.04={death=yes}  # Mainz
 	}
@@ -134,8 +194,8 @@
 		female=yes
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1775.08.25={birth=yes}  # Mainz
 		1844.06.08={death=yes}  # Mainz
 	}
@@ -143,10 +203,10 @@
 		name=Johann
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1779.05.05={birth=yes}  # Mainz
-		1813.05.20={add_spouse=100001826}	# Maria Anna Wambolt von Umstadt
+		1813.05.20={add_spouse=100001826}	# FRN Maria Anna Wambolt von Umstadt
 		1844.04.22={death=yes}  # Pest
 	}
 		100001827={	# 1b) Sophie Eleonore Walpurga Thecla (20 Feb 1814-Wiesentheid 24 Dec 1902); m.Eltville 1 May 1839 Erwein Gf von Schönborn-Wiesentheid (Gaibach 25 May 1805-Munich 29 Apr 1865)
@@ -154,8 +214,8 @@
 			female=yes
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001825	# Johann
-			mother=100001826	# Maria Anna Wambolt von Umstadt
+			father=100001825	# Johann v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001826	# FRN Maria Anna Wambolt von Umstadt
 			1814.02.20={birth=yes}
 			1902.12.24={death=yes}  # Wiesentheid
 		}
@@ -164,8 +224,8 @@
 			female=yes
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001825	# Johann
-			mother=100001826	# Maria Anna Wambolt von Umstadt
+			father=100001825	# Johann v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001826	# FRN Maria Anna Wambolt von Umstadt
 			1815.08.28={birth=yes}  # Aschaffenburg
 			1895.11.30={death=yes}  # Linz_an_der_Donau
 		}
@@ -173,10 +233,10 @@
 			name=Hugo
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001825	# Johann
-			mother=100001826	# Maria Anna Wambolt von Umstadt
+			father=100001825	# Johann v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001826	# FRN Maria Anna Wambolt von Umstadt
 			1817.08.19={birth=yes}  # Aschaffenburg
-			1846.02.01={add_spouse=100001832}	# Ludvine Pejácsevich v.Veröcze
+			1846.02.01={add_spouse=100001832}	# GFN Ludvine Pejácsevich de Verõcze
 			1848.10.26={death=yes}
 		}
 			100001833={	# 1c) Hugoline Sophie Franziska Walpurga Thecla (Munich 20 Apr 1849-Münster 27 Feb 1935); m.Eltville 4 May 1869 Juno Frhr von und zu Eltz-Rübenach (Wahn 9 Apr 1832-Heidelberg 29 Oct 1889)
@@ -184,8 +244,8 @@
 				female=yes
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001831	# Hugo
-				mother=100001832	# Ludvine Pejácsevich v.Veröcze
+				father=100001831	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001832	# GFN Ludvine Pejácsevich de Verõcze
 				1849.04.20={birth=yes}  # Munich
 				1935.02.27={death=yes}  # Münster
 			}
@@ -193,10 +253,10 @@
 			name=Friedrich
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001825	# Johann
-			mother=100001826	# Maria Anna Wambolt von Umstadt
+			father=100001825	# Johann v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001826	# FRN Maria Anna Wambolt von Umstadt
 			1823.01.29={birth=yes}  # Aschaffenburg
-			1853.10.15={add_spouse=100001832}	# Ludvine Pejácsevich v.Veröcze
+			1853.10.15={add_spouse=100001832}	# GFN Ludvine Pejácsevich de Verõcze
 			1900.05.26={death=yes}  # Vukovár
 		}
 			100001837={	# 1c) Sophie Agathe Walpurga Thecla (Bogdanovce 7 Aug 1854-Müddersheim 11 Aug 1910); m.Eltville 24 Aug 1876 Friedrich Frhr Geyr von Schweppenburg (Müddersheim 25 Oct 1831-Müddersheim 10 Aug 1904)
@@ -204,8 +264,8 @@
 				female=yes
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001835	# Friedrich
-				mother=100001832	# Ludvine Pejácsevich v.Veröcze
+				father=100001835	# Friedrich v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001832	# GFN Ludvine Pejácsevich de Verõcze
 				1854.08.07={birth=yes}  # Bogdanovce
 				1910.08.11={death=yes}  # Müddersheim
 			}
@@ -214,8 +274,8 @@
 				female=yes
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001835	# Friedrich
-				mother=100001832	# Ludvine Pejácsevich v.Veröcze
+				father=100001835	# Friedrich v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001832	# GFN Ludvine Pejácsevich de Verõcze
 				1856.04.21={birth=yes}  # Vukovár
 				1941.01.18={death=yes}  # Schönburg im Rottal
 			}
@@ -224,8 +284,8 @@
 				female=yes
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001835	# Friedrich
-				mother=100001832	# Ludvine Pejácsevich v.Veröcze
+				father=100001835	# Friedrich v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001832	# GFN Ludvine Pejácsevich de Verõcze
 				1858.04.12={birth=yes}  # Vukovár
 				1949.01.25={death=yes}  # Schönburg im Rottal
 			}
@@ -233,10 +293,10 @@
 				name=Jacob
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001835	# Friedrich
-				mother=100001832	# Ludvine Pejácsevich v.Veröcze
+				father=100001835	# Friedrich v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001832	# GFN Ludvine Pejácsevich de Verõcze
 				1860.02.13={birth=yes}  # Vukovár
-				1891.08.04={add_spouse=100085346}	# Marie von Lobkowicz
+				1891.08.04={add_spouse=100085346}	# Marie Lobkowicz
 				1906.06.22={death=yes}  # Vukovár
 			}
 				100001844={	# 1d) Marie Lidwine Anna Antonie Andrea Walpurga Thekla (Eltville 15 Aug 1894-Venice 4 Apr 1984); m.Eltville 5 Jan 1916 Alfons Fst von Clary und Aldringen (Dresden 12 Mar 1887-Venice 6 Oct 1978)
@@ -244,8 +304,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001842	# Johann
-					mother=100085346	# Marie von Lobkowicz
+					father=100001842	# Jacob v.u.zu Eltz gt Faust v.Stromberg
+					mother=100085346	# Marie Lobkowicz
 					1894.08.15={birth=yes}  # Eltville
 					1984.04.04={death=yes}  # Venice
 				}
@@ -253,10 +313,10 @@
 					name=Karl
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001842	# Johann
-					mother=100085346	# Marie von Lobkowicz
+					father=100001842	# Jacob v.u.zu Eltz gt Faust v.Stromberg
+					mother=100085346	# Marie Lobkowicz
 					1896.07.17={birth=yes}  # Eltville
-					1919.08.21={add_spouse=100000025}	# Sophie zu Löwenstein-Wertheim-Rosenberg
+					1919.08.21={add_spouse=100000025}	# Sophie v. Löwenstein-Wertheim
 					1922.08.21={death=yes}  # Hoppingen
 				}
 					100001848={	# 1e) Maria Josephine Karoline Angela Eva Susanna Rosalia Antonia Walpurga Thekla (Haid 2 Sep 1920-Salzburg 13 Dec 1999); m.Munich 1 Feb 1942 Ernst Gf von Moÿ de Sons (Munich 1 Feb 1917-Stepperg 2 Oct 1988)
@@ -264,8 +324,8 @@
 						female=yes
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001846	# Maria
-						mother=100000025	# Sophie zu Löwenstein-Wertheim-Rosenberg
+						father=100001846	# Karl v.u.zu Eltz gt Faust v.Stromberg
+						mother=100000025	# Sophie v. Löwenstein-Wertheim
 						1920.09.02={birth=yes}  # Haid
 						1999.12.13={death=yes}  # Salzburg
 					}
@@ -273,10 +333,10 @@
 						name=Jakob
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001846	# Maria
-						mother=100000025	# Sophie zu Löwenstein-Wertheim-Rosenberg
+						father=100001846	# Karl v.u.zu Eltz gt Faust v.Stromberg
+						mother=100000025	# Sophie v. Löwenstein-Wertheim
 						1921.09.22={birth=yes}  # Kleinheubach
-						1946.07.25={add_spouse=100001851}	# Ladislaja Mayr von Menhof
+						1946.07.25={add_spouse=100001851}	# FRN Ladislaja Mayr v.Melnhof
 						2006.02.10={death=yes}  # Eltville
 					}
 						100001852={	# 1f) Lidvine Sophie Anna Walpurga Thekla (b.Glanegg 12 May 1947); m.(civ) Munich 27 Feb 1969 (rel) Eltville 21 Jun 1969 Johann Christoph Gf von Preysing-Lichtenegg-Moos (b.Teplitz-Schönau 24 Mar 1937)
@@ -284,59 +344,59 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1947.05.12={birth=yes}
 						}
 						100001854={	# 2f) Karl Johannes von Nepomuk Friedrich Sebastianus Philipp Jakob (b.Eltville 1 May 1948); m.Burg Eltz 21 Sep 1974 Sophie Gfn Schaffgotsch gen.Semperfrei v.u.zu Kynast u.Greiffenstein (b.Rio de Janeiro 19 Jul 1952)
 							name="Karl Johannes"
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1948.05.01={birth=yes}
-							1974.09.21={add_spouse=100001855}	# Sophie Schaffgotsch gen.Semperfrei v.u.zu Kynast u.Greiffenstein
+							1974.09.21={add_spouse=100001855}	# GFN Sophie Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 						}
 							100001856={	# 1g) Maria Antoinette Franziska Henriette Ladislaja Sidonie (b.Hamburg 3 Aug 1976)
 								name=Antoinette
 								female=yes
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001854	# Karl Johannes
-								mother=100001855	# Sophie Schaffgotsch gen.Semperfrei v.u.zu Kynast u.Greiffenstein
+								father=100001854	# Karl Johannes v.u.zu Eltz gt Faust v.Stromberg
+								mother=100001855	# GFN Sophie Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 								1976.08.03={birth=yes}
 							}
 							100001857={	# 2g) Johann Jakob Ulrich Martin Felix (b.Frankfurt 30 Nov 1979)
 								name=Johann
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001854	# Karl Johannes
-								mother=100001855	# Sophie Schaffgotsch gen.Semperfrei v.u.zu Kynast u.Greiffenstein
+								father=100001854	# Karl Johannes v.u.zu Eltz gt Faust v.Stromberg
+								mother=100001855	# GFN Sophie Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 								1979.11.30={birth=yes}
 							}
 							100001858={	# 3g) Anselm Kasimir Hans Ulrich Heinrich Gabriel (b.Frankfurt 9 Dec 1981); m.Salzburg-Aigen 19 Oct 2013 Elisabeth Gfn von Goëß (b.Munich 2 Apr 1982)
 								name=Anselm
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001854	# Karl Johannes
-								mother=100001855	# Sophie Schaffgotsch gen.Semperfrei v.u.zu Kynast u.Greiffenstein
+								father=100001854	# Karl Johannes v.u.zu Eltz gt Faust v.Stromberg
+								mother=100001855	# GFN Sophie Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 								1981.12.09={birth=yes}
-								2013.10.19={add_spouse=100001859}	# Elisabeth von Goëß
+								2013.10.19={add_spouse=100001859}	# GFN Elisabeth von Goëß
 							}
 							100001860={	# 4g) Philipp Carl Georg Desiderius Conradin Johannes von Nepomuk (b.Frankfurt 20 May 1991)
 								name=Philipp
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001854	# Karl Johannes
-								mother=100001855	# Sophie Schaffgotsch gen.Semperfrei v.u.zu Kynast u.Greiffenstein
+								father=100001854	# Karl Johannes v.u.zu Eltz gt Faust v.Stromberg
+								mother=100001855	# GFN Sophie Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 								1991.05.20={birth=yes}
 							}
 						100001861={	# 3f) Michael Friedrich Paulinus Sebastianus Johannes von Nepomuk (b.Eltville 22 Jun 1949)
 							name=Michael
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1949.06.22={birth=yes}
 						}
 						100001862={	# 4f) Maria Assunta Sophie Ladislaja Thekla Walpurga (b.Eltville 9 Nov 1950); m.Eltville 12 Feb 1972 Emanuel Gf von Mensdorff-Pouilly (b.Ulm 16 Jan 1934)
@@ -344,8 +404,8 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1950.11.09={birth=yes}
 						}
 						100001864={	# 5f) Christiane Josefine Thekla Walpurga Barbara (b.Eltville 27 Nov 1951); m.1st Eltville 14 Feb 1971 (div 1977) Georg Enoch Frhr von und zu Guttenberg (b.Guttenberg 29 Jul 1946); m.2nd Burg Eltz 13 Apr 1985 Adolf von Ribbentrop (b.Berlin 2 Sep 1935)
@@ -353,8 +413,8 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1951.11.27={birth=yes}
 						}
 						100001867={	# 6f) Johanna Franziska Thekla Walpurga (b.Eltville 18 Apr 1954); m.1st Wiesbaden 27 Jul 1986 (div 2000) Haralampi Gavriloff-Oroschakoff (b.Sofia 23 May 1955); m.2nd Hamburg 15 Feb 2002 Wolfgang Friedrichsen (Hamburg 20 Aug 1940-Hamburg 22 Jun 2004)
@@ -362,16 +422,16 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1954.04.18={birth=yes}
 						}
 						100001870={	# 7f) Georg Cyprian Johannes von Nepomuk (b.Eltville 26 Sep 1956); m.Kraubath 28 Aug 2004 (rel) Vienna 1 Oct 2004 Anna Venetia Squire (b.Vienna 6 Dec 1972)
 							name=Georg
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1956.09.26={birth=yes}
 							2004.08.28={add_spouse=100001871}	# Anna Venetia Squire
 						}
@@ -380,7 +440,7 @@
 								female=yes
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001870	# Georg
+								father=100001870	# Georg v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001871	# Anna Venetia Squire
 								2006.02.01={birth=yes}
 							}
@@ -389,7 +449,7 @@
 								female=yes
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001870	# Georg
+								father=100001870	# Georg v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001871	# Anna Venetia Squire
 								2007.11.30={birth=yes}
 							}
@@ -397,8 +457,8 @@
 							name=Johannes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1957.10.02={birth=yes}
 						}
 						100001875={	# 9f) Maria Benedikta Walpurga Thekla (b.Eltville 26 Aug 1960); m.Eltville 22 Jul 1989 Carl Gustav Lagervret (b.Eskilstuna, Sweden 20 Mar 1955)
@@ -406,8 +466,8 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001850	# Johannes
-							mother=100001851	# Ladislaja Mayr von Menhof
+							father=100001850	# Jakob v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001851	# FRN Ladislaja Mayr v.Melnhof
 							1960.08.26={birth=yes}
 						}
 				100001877={	# 3d) Maria Anna Franziska de Paula Antonia Martina Andräa Walpurga Thekla (Vukovár 10 Nov 1897-Heidelberg 3 Aug 1933); m.Vukovár 11 Jan 1921 Karl Gf Khuen von Belasi (Vukovár 1892-Innsbruck 17 Aug 1989)
@@ -415,8 +475,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001842	# Johann
-					mother=100085346	# Marie von Lobkowicz
+					father=100001842	# Jacob v.u.zu Eltz gt Faust v.Stromberg
+					mother=100085346	# Marie Lobkowicz
 					1897.11.10={birth=yes}  # Vukovár
 					1933.08.03={death=yes}  # Heidelberg
 				}
@@ -425,8 +485,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001842	# Johann
-					mother=100085346	# Marie von Lobkowicz
+					father=100001842	# Jacob v.u.zu Eltz gt Faust v.Stromberg
+					mother=100085346	# Marie Lobkowicz
 					1899.05.17={birth=yes}  # Vukovár
 					1989.04.16={death=yes}  # Eltville
 				}
@@ -435,8 +495,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001842	# Johann
-					mother=100085346	# Marie von Lobkowicz
+					father=100001842	# Jacob v.u.zu Eltz gt Faust v.Stromberg
+					mother=100085346	# Marie Lobkowicz
 					1905.04.02={birth=yes}  # Vienna
 					1997.10.17={death=yes}  # Klagenfurt
 				}
@@ -445,8 +505,8 @@
 				female=yes
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001835	# Friedrich
-				mother=100001832	# Ludvine Pejácsevich v.Veröcze
+				father=100001835	# Friedrich v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001832	# GFN Ludvine Pejácsevich de Verõcze
 				1861.10.09={birth=yes}  # Vukovár
 				1907.06.12={death=yes}  # Nustar
 			}
@@ -454,18 +514,18 @@
 				name=Erwein
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001835	# Friedrich
-				mother=100001832	# Ludvine Pejácsevich v.Veröcze
+				father=100001835	# Friedrich v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001832	# GFN Ludvine Pejácsevich de Verõcze
 				1863.10.12={birth=yes}  # Vukovár
-				1908.12.03={add_spouse=100000840}	# Johanna von Schönborn-Wiesentheid
+				1908.12.03={add_spouse=100000840}	# Johanna v. Schönborn
 				1936.04.23={death=yes}  # Nustar
 			}
 				100001887={	# 1d) Johannes Nepomuk Arthur Jakob Stephan Simon (Vienna 28 Oct 1909-Salzburg 28 Dec 1999)
 					name=Johannes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001885	# Erwein
-					mother=100000840	# Johanna von Schönborn-Wiesentheid
+					father=100001885	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+					mother=100000840	# Johanna v. Schönborn
 					1909.10.28={birth=yes}  # Vienna
 					1999.12.28={death=yes}  # Salzburg
 				}
@@ -473,18 +533,18 @@
 					name=Peter
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001885	# Erwein
-					mother=100000840	# Johanna von Schönborn-Wiesentheid
+					father=100001885	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+					mother=100000840	# Johanna v. Schönborn
 					1909.10.28={birth=yes}  # Vienna
-					1943.08.23={add_spouse=100022817}	# Henriette von und zu Liechtenstein
+					1943.08.23={add_spouse=100022817}	# Henriette v. Liechtenstein
 					1992.02.28={death=yes}  # Vienna
 				}
 					100001890={	# 1e) Johannes Erwein Maria Aloys Josef Thaddäus (b.Zürich 22 Aug 1946); m.Vienna 22 Oct 1983 Felicitas Urbanski v.Ostrymiecz (b.Vienna 5 Nov 1950)
 						name=Johannes
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001888	# Peter
-						mother=100022817	# Henriette von und zu Liechtenstein
+						father=100001888	# Peter v.u.zu Eltz gt Faust v.Stromberg
+						mother=100022817	# Henriette v. Liechtenstein
 						1946.08.22={birth=yes}
 						1983.10.22={add_spouse=100001891}	# Felicitas Urbanski v.Ostrymiecz
 					}
@@ -492,7 +552,7 @@
 							name=Konrad
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001890	# Johannes
+							father=100001890	# Johannes v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001891	# Felicitas Urbanski v.Ostrymiecz
 							1989.11.23={birth=yes}
 						}
@@ -500,8 +560,8 @@
 						name=Alexander
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001888	# Peter
-						mother=100022817	# Henriette von und zu Liechtenstein
+						father=100001888	# Peter v.u.zu Eltz gt Faust v.Stromberg
+						mother=100022817	# Henriette v. Liechtenstein
 						1947.10.09={birth=yes}
 						1981.09.26={add_spouse=100001894}	# Maija Caroline Spann
 					}
@@ -510,7 +570,7 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001893	# Alexander
+							father=100001893	# Alexander v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001894	# Maija Caroline Spann
 							1982.06.25={birth=yes}
 						}
@@ -519,7 +579,7 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001893	# Alexander
+							father=100001893	# Alexander v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001894	# Maija Caroline Spann
 							1984.11.25={birth=yes}
 						}
@@ -527,7 +587,7 @@
 							name=Anselm
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001893	# Alexander
+							father=100001893	# Alexander v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001894	# Maija Caroline Spann
 							1986.09.08={birth=yes}
 						}
@@ -535,8 +595,8 @@
 						name=Franz
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001888	# Peter
-						mother=100022817	# Henriette von und zu Liechtenstein
+						father=100001888	# Peter v.u.zu Eltz gt Faust v.Stromberg
+						mother=100022817	# Henriette v. Liechtenstein
 						1950.08.06={birth=yes}  # Gmunden
 						1979.06.16={add_spouse=100001900}	# Katherine O'Donoghue
 						1995.01.01={remove_spouse=100001900}
@@ -546,7 +606,7 @@
 							name=Philipp
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001899	# Franz
+							father=100001899	# Franz v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001900	# Katherine O'Donoghue
 							1980.06.16={birth=yes}
 						}
@@ -555,7 +615,7 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001899	# Franz
+							father=100001899	# Franz v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001900	# Katherine O'Donoghue
 							1983.06.12={birth=yes}
 						}
@@ -563,36 +623,36 @@
 					name=Alexander
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001885	# Erwein
-					mother=100000840	# Johanna von Schönborn-Wiesentheid
+					father=100001885	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+					mother=100000840	# Johanna v. Schönborn
 					1911.03.02={birth=yes}  # Vienna
-					1946.05.23={add_spouse=100116405}	# Ferdinande Széchényi de Sárvár-Felsövidék
+					1946.05.23={add_spouse=100116405}	# Ferdinandine Széchenyi de Sárvár-Felsõvidek
 					1977.06.25={death=yes}  # Anif_bei_Salzburg
 				}
 					100001905={	# 1e) Peter Ladislaus Erwein Engelbert Alexander Maria Johann Nepomuk (b.Zurich 7 Nov 1948); m.Isny (civ) 5 Sep 1985 (rel) 7 Sep 1985 1985 Gina Gfn von Quadt zu Wykradt und Isny (b.Friedrichshafen 28 Dec 1962)
 						name=Peter
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001903	# Alexander
-						mother=100116405	# Ferdinande Széchényi de Sárvár-Felsövidék
+						father=100001903	# Alexander v.u.zu Eltz gt Faust v.Stromberg
+						mother=100116405	# Ferdinandine Széchenyi de Sárvár-Felsõvidek
 						1948.11.07={birth=yes}
-						1985.01.01={add_spouse=100001906}	# Gina von Quadt zu Wykradt und Isny
+						1985.01.01={add_spouse=100001906}	# GFN Gina von Quadt zu Wykradt und Isny
 					}
 						100001907={	# 1f) Alexandra Ferdinandine Marie-Charlotte Hieronyma Ghislaine Walpurga Thekla (b.Hamburg 30 Sep 1986)
 							name=Alexandra
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001905	# Peter
-							mother=100001906	# Gina von Quadt zu Wykradt und Isny
+							father=100001905	# Peter v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001906	# GFN Gina von Quadt zu Wykradt und Isny
 							1986.09.30={birth=yes}
 						}
 						100001908={	# 2f) Albrecht Paul Alexander Viktor Maria Johann Nepomuk (b.Munich 10 Oct 1988)
 							name=Albrecht
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001905	# Peter
-							mother=100001906	# Gina von Quadt zu Wykradt und Isny
+							father=100001905	# Peter v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001906	# GFN Gina von Quadt zu Wykradt und Isny
 							1988.10.10={birth=yes}
 						}
 						100001909={	# 3f) Marie Ghislaine Simonetta Walpurga Thekla (b.Munich 28 Oct 1991)
@@ -600,16 +660,16 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001905	# Peter
-							mother=100001906	# Gina von Quadt zu Wykradt und Isny
+							father=100001905	# Peter v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001906	# GFN Gina von Quadt zu Wykradt und Isny
 							1991.10.28={birth=yes}
 						}
 					100001910={	# 2e) Nikolaus Erwein Karl Maria Dionysius Pötschen Johann Nepomuk (b.Zürich 9 Oct 1950); m.Anif 17 Jan 1976 Michèle Landry (b.Munich 1 May 1953)
 						name=Nikolaus
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001903	# Alexander
-						mother=100116405	# Ferdinande Széchényi de Sárvár-Felsövidék
+						father=100001903	# Alexander v.u.zu Eltz gt Faust v.Stromberg
+						mother=100116405	# Ferdinandine Széchenyi de Sárvár-Felsõvidek
 						1950.10.09={birth=yes}
 						1976.01.17={add_spouse=100001911}	# Michèle Landry
 					}
@@ -618,7 +678,7 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001910	# Nikolaus
+							father=100001910	# Nikolaus v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001911	# Michèle Landry
 							1976.01.01={birth=yes}
 						}
@@ -627,7 +687,7 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001910	# Nikolaus
+							father=100001910	# Nikolaus v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001911	# Michèle Landry
 							1978.01.01={birth=yes}
 						}
@@ -635,18 +695,18 @@
 					name=Erwein
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001885	# Erwein
-					mother=100000840	# Johanna von Schönborn-Wiesentheid
+					father=100001885	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+					mother=100000840	# Johanna v. Schönborn
 					1912.10.18={birth=yes}  # Haidbachgraben_am_Semmering Lower Austria
-					1940.01.02={add_spouse=100001916}	# Theresia von Wilczek
+					1940.01.02={add_spouse=100001916}	# GFN Theresia von Wilczek
 					1975.06.23={death=yes}  # Salzburg
 				}
 					100001917={	# 1e) Erwein Johann Nepomuk Maria Joseph (b.Vienna 5 Feb 1941); m.1st Salzburg 30 Jun 1973 (div 1985) Sibylle Eisenburger (b.Wels 17 Jan 1949); m.2nd Kiefersfelden 19 Sep 1992 Johanna Gruber (b.Kiefersfelden 6 Apr 1959)
 						name=Erwein
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001915	# Erwein
-						mother=100001916	# Theresia von Wilczek
+						father=100001915	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+						mother=100001916	# GFN Theresia von Wilczek
 						1941.02.05={birth=yes}
 						1973.06.30={add_spouse=100001918}	# Sibylle Eisenburger
 						1985.01.01={remove_spouse=100001918}
@@ -657,16 +717,16 @@
 						female=yes
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001915	# Erwein
-						mother=100001916	# Theresia von Wilczek
+						father=100001915	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+						mother=100001916	# GFN Theresia von Wilczek
 						1942.05.25={birth=yes}
 					}
 				100001923={	# 5d) Albert Moritz Johann Nepomuk Karl Maria (Semmering 20 Jan 1915-Vienna 22 Apr 1998)
 					name=Albert
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001885	# Erwein
-					mother=100000840	# Johanna von Schönborn-Wiesentheid
+					father=100001885	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+					mother=100000840	# Johanna v. Schönborn
 					1915.01.20={birth=yes}  # Semmering
 					1998.04.22={death=yes}  # Vienna
 				}
@@ -674,8 +734,8 @@
 					name=Franz
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001885	# Erwein
-					mother=100000840	# Johanna von Schönborn-Wiesentheid
+					father=100001885	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+					mother=100000840	# Johanna v. Schönborn
 					1917.09.30={birth=yes}  # Altaussee
 					1943.09.01={death=yes}
 				}
@@ -684,8 +744,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001885	# Erwein
-					mother=100000840	# Johanna von Schönborn-Wiesentheid
+					father=100001885	# Erwein v.u.zu Eltz gt Faust v.Stromberg
+					mother=100000840	# Johanna v. Schönborn
 					1917.09.30={birth=yes}  # Altaussee
 					2011.07.22={death=yes}
 				}
@@ -694,8 +754,8 @@
 				female=yes
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001835	# Friedrich
-				mother=100001832	# Ludvine Pejácsevich v.Veröcze
+				father=100001835	# Friedrich v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001832	# GFN Ludvine Pejácsevich de Verõcze
 				1866.10.02={birth=yes}  # Eltville
 				1954.11.28={death=yes}  # Eltville
 			}
@@ -704,8 +764,8 @@
 		female=yes
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1780.07.15={birth=yes}  # Mainz
 		1854.09.29={death=yes}  # Prague
 	}
@@ -713,8 +773,8 @@
 		name=Lothar
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1782.08.17={birth=yes}  # Mainz
 		1849.09.12={death=yes}  # Almás Hungary
 	}
@@ -722,30 +782,30 @@
 		name=August
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1783.11.27={birth=yes}  # Mainz
-		1822.04.18={add_spouse=100001932}	# Rosa von Brentano di Cimaroli
+		1822.04.18={add_spouse=100001932}	# FRN Rosa von Brentano di Cimaroli
 		1858.10.25={death=yes}  # Verona
 	}
 		100001933={	# 1b) Franz (Pavia 15 Mar 1823-Linz an der Donau 16 Sep 1891); m.Tillysburg 23 May 1865 Ida Gfn O'Hagerty (Tillysburg, Upper Austria 24 Jan 1844-St.Florian, Upper Austria 5 Sep 1927)
 			name=Franz
 			dynasty=1002059
 			religion=catholic culture=german
-			father=100001931	# August
-			mother=100001932	# Rosa von Brentano di Cimaroli
+			father=100001931	# August v.u.zu Eltz gt Faust v.Stromberg
+			mother=100001932	# FRN Rosa von Brentano di Cimaroli
 			1823.03.15={birth=yes}  # Pavia
-			1865.05.23={add_spouse=100001934}	# Ida O'Hagerty
+			1865.05.23={add_spouse=100001934}	# GFN Ida O'Hagerty
 			1891.09.16={death=yes}  # Linz_an_der_Donau
 		}
 			100001935={	# 1c) August Carl Franz Maria (Linz 29 Mar 1866-Tillysburg 10 Sep 1921); m.Traunegg 16 Jul 1891 Margarethe Frn von und zu Franckenstein (Ort am Traunsee 6 Jul 1869-Linz 30 Mar 1938)
 				name=August
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001933	# Franz
-				mother=100001934	# Ida O'Hagerty
+				father=100001933	# Franz v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001934	# GFN Ida O'Hagerty
 				1866.03.29={birth=yes}  # Linz
-				1891.07.16={add_spouse=100001936}	# Margarethe von und zu Franckenstein
+				1891.07.16={add_spouse=100001936}	# FRN Margarethe von und zu Franckenstein
 				1921.09.10={death=yes}  # Tillysburg
 			}
 				100001937={	# 1d) Helene (Enns 3 May 1892-Lisbon 14 Feb 1943); m.Tillysburg 24 May 1919 Jose-Luiz de Saldanha da Gama, Cde de Saldanha da Gama (Torres Novas 3 Jan 1893-Lisbon 5 May 1958)
@@ -753,8 +813,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1892.05.03={birth=yes}  # Enns
 					1943.02.14={death=yes}  # Lisbon
 				}
@@ -762,18 +822,18 @@
 					name=Franz
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1893.09.06={birth=yes}  # Traunegg
-					1923.08.18={add_spouse=100001940}	# Franziska von und zu Clam-Martinic
+					1923.08.18={add_spouse=100001940}	# GFN Franziska von Clam-Martinic
 					1941.10.03={death=yes}  # Linz
 				}
 					100001941={	# 1e) August Gottfried Maria Franz Heinrich Joseph Judas Thaddäus (Tillysburg 15 Jul 1924-Linz 1 Aug 1990)
 						name=August
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001939	# Franz
-						mother=100001940	# Franziska von und zu Clam-Martinic
+						father=100001939	# Franz v.u.zu Eltz gt Faust v.Stromberg
+						mother=100001940	# GFN Franziska von Clam-Martinic
 						1924.07.15={birth=yes}  # Tillysburg
 						1990.08.01={death=yes}  # Linz
 					}
@@ -782,8 +842,8 @@
 						female=yes
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001939	# Franz
-						mother=100001940	# Franziska von und zu Clam-Martinic
+						father=100001939	# Franz v.u.zu Eltz gt Faust v.Stromberg
+						mother=100001940	# GFN Franziska von Clam-Martinic
 						1925.08.31={birth=yes}  # Tillysburg
 						2000.05.29={death=yes}  # Vienna
 					}
@@ -791,18 +851,18 @@
 						name=Heinrich
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001939	# Franz
-						mother=100001940	# Franziska von und zu Clam-Martinic
+						father=100001939	# Franz v.u.zu Eltz gt Faust v.Stromberg
+						mother=100001940	# GFN Franziska von Clam-Martinic
 						1926.11.15={birth=yes}  # Tillysburg
-						1963.04.27={add_spouse=100001945}	# Martijne Clara Snouckaert
+						1963.04.27={add_spouse=100001945}	# BSS Martijne Clara Snouckaert
 						2013.06.04={death=yes}
 					}
 				100001946={	# 3d) Heinrich Konrad Maria Paul August Aloysius Leopold Timotheus Balthasar (Olmütz 24 Jan 1896-Augsburg 19 Jan 1977); m.Montreal, Quebec 17 Dec 1955 Janet Stevenson (Bathgate, Scotland 30 Sep 1910-Ehreshoven 5 Oct 2002)
 					name=Heinrich
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1896.01.24={birth=yes}  # Olmütz
 					1955.12.17={add_spouse=100001947}	# Janet Stevenson
 					1977.01.19={death=yes}  # Augsburg
@@ -811,8 +871,8 @@
 					name=Karl-August
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1897.07.21={birth=yes}  # Tillysburg
 					1923.06.02={add_spouse=100001949}	# Paula Szögyeny-Marich
 					1970.08.17={death=yes}  # Budapest
@@ -821,7 +881,7 @@
 						name=Franz
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001948	# Karl-August
+						father=100001948	# Karl-August v.u.zu Eltz gt Faust v.Stromberg
 						mother=100001949	# Paula Szögyeny-Marich
 						1924.04.02={birth=yes}  # Steinamanger
 						1951.04.29={add_spouse=100001951}	# Johanna Urban de Monyoró
@@ -836,7 +896,7 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001950	# Franz
+							father=100001950	# Franz v.u.zu Eltz gt Faust v.Stromberg
 							mother=100001951	# Johanna Urban de Monyoró
 							1953.08.09={birth=yes}
 						}
@@ -845,7 +905,7 @@
 						female=yes
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001948	# Karl-August
+						father=100001948	# Karl-August v.u.zu Eltz gt Faust v.Stromberg
 						mother=100001949	# Paula Szögyeny-Marich
 						1925.08.11={birth=yes}
 						1993.09.24={death=yes}  # Vienna
@@ -855,8 +915,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1898.11.14={birth=yes}  # Tillysburg
 					1943.06.10={death=yes}  # Friedrichshafen
 				}
@@ -865,8 +925,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1899.12.15={birth=yes}  # Tillysburg
 					1978.12.29={death=yes}  # Gmunden
 				}
@@ -875,8 +935,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1901.09.10={birth=yes}  # Tillysburg
 					1990.07.20={death=yes}  # Altmünster
 				}
@@ -884,30 +944,30 @@
 					name=Maximilian
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1903.01.22={birth=yes}  # Tillysburg
 					1929.07.02={add_spouse=100001965}	# Elisabeth von Coulon
 					1939.01.01={remove_spouse=100001965}
-					1939.05.10={add_spouse=100001966}	# Marie Helene von Poschinger
+					1939.05.10={add_spouse=100001966}	# EDLE Marie Helene von Poschinger
 					1954.07.07={death=yes}  # Viechtach
 				}
 					100001967={	# 1e) Hubertus (Valdivia, Chile 8 Sep 1930-Herrsching 30 May 1978); m.Brudersdorf 21 Aug 1965 Dorothy Edle Dame von Scheibler (b.Brudersdorf 15 Jan 1946)
 						name=Hubertus
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001964	# Maximilian
+						father=100001964	# Maximilian v.u.zu Eltz gt Faust v.Stromberg
 						mother=100001965	# Elisabeth von Coulon
 						1930.09.08={birth=yes}  # Valdivia Chile
-						1965.08.21={add_spouse=100001968}	# Dorothy von Scheibler
+						1965.08.21={add_spouse=100001968}	# EDLE Dorothy von Scheibler
 						1978.05.30={death=yes}  # Herrsching
 					}
 						100001969={	# 1f) Carl (b.Nabburg 27 Jul 1966); m.Wolfring 5 May 1990 Birgitta Müller (b.Schwandorf 12 Dec 1966)
 							name=Carl
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001967	# Hubertus
-							mother=100001968	# Dorothy von Scheibler
+							father=100001967	# Hubertus v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001968	# EDLE Dorothy von Scheibler
 							1966.07.27={birth=yes}
 							1990.05.05={add_spouse=100001970}	# Birgitta Müller
 						}
@@ -915,7 +975,7 @@
 								name=Hubertus
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001969	# Carl
+								father=100001969	# Carl v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001970	# Birgitta Müller
 								1991.03.27={birth=yes}
 							}
@@ -923,7 +983,7 @@
 								name=Maximilian
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001969	# Carl
+								father=100001969	# Carl v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001970	# Birgitta Müller
 								1992.12.21={birth=yes}
 							}
@@ -931,7 +991,7 @@
 								name=Ferdinand
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001969	# Carl
+								father=100001969	# Carl v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001970	# Birgitta Müller
 								1997.02.20={birth=yes}
 							}
@@ -939,8 +999,8 @@
 							name=Maximilian
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001967	# Hubertus
-							mother=100001968	# Dorothy von Scheibler
+							father=100001967	# Hubertus v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001968	# EDLE Dorothy von Scheibler
 							1967.08.22={birth=yes}
 							1995.05.20={add_spouse=100001975}	# Christina von Beckedorff
 						}
@@ -949,7 +1009,7 @@
 								female=yes
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001974	# Maximilian
+								father=100001974	# Maximilian v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001975	# Christina von Beckedorff
 								1996.03.24={birth=yes}
 							}
@@ -957,7 +1017,7 @@
 								name=Vinzenz
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001974	# Maximilian
+								father=100001974	# Maximilian v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001975	# Christina von Beckedorff
 								1998.08.26={birth=yes}
 							}
@@ -965,8 +1025,8 @@
 							name=Johannes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001967	# Hubertus
-							mother=100001968	# Dorothy von Scheibler
+							father=100001967	# Hubertus v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001968	# EDLE Dorothy von Scheibler
 							1968.09.28={birth=yes}
 							1999.10.16={add_spouse=100001979}	# Moneshia Puri
 						}
@@ -975,7 +1035,7 @@
 								female=yes
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001978	# Johannes
+								father=100001978	# Johannes v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001979	# Moneshia Puri
 								2003.03.23={birth=yes}
 							}
@@ -984,7 +1044,7 @@
 								female=yes
 								dynasty=1002059
 								religion=catholic culture=german
-								father=100001978	# Johannes
+								father=100001978	# Johannes v.u.zu Eltz gt Faust v.Stromberg
 								mother=100001979	# Moneshia Puri
 								2005.07.31={birth=yes}
 							}
@@ -993,8 +1053,8 @@
 							female=yes
 							dynasty=1002059
 							religion=catholic culture=german
-							father=100001967	# Hubertus
-							mother=100001968	# Dorothy von Scheibler
+							father=100001967	# Hubertus v.u.zu Eltz gt Faust v.Stromberg
+							mother=100001968	# EDLE Dorothy von Scheibler
 							1970.03.05={birth=yes}
 						}
 					100001984={	# 2e) Marie Lise (Amberg 8 Sep 1932-Schwandorf 3 May 2008); m.Wolfring 26 Jul 1961 Martin Lautenschlager (b.Siegenthan 9 Mar 1925)
@@ -1002,7 +1062,7 @@
 						female=yes
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001964	# Maximilian
+						father=100001964	# Maximilian v.u.zu Eltz gt Faust v.Stromberg
 						mother=100001965	# Elisabeth von Coulon
 						1932.09.08={birth=yes}  # Amberg
 						2008.05.03={death=yes}  # Schwandorf
@@ -1012,8 +1072,8 @@
 						female=yes
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100001964	# Maximilian
-						mother=100001966	# Marie Helene von Poschinger
+						father=100001964	# Maximilian v.u.zu Eltz gt Faust v.Stromberg
+						mother=100001966	# EDLE Marie Helene von Poschinger
 						1942.01.14={birth=yes}  # Munich
 						2007.03.18={death=yes}  # San Salvador de_Jujuy Argentina
 					}
@@ -1022,8 +1082,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001935	# August
-					mother=100001936	# Margarethe von und zu Franckenstein
+					father=100001935	# August v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001936	# FRN Margarethe von und zu Franckenstein
 					1906.02.06={birth=yes}  # Tillysburg
 					1975.01.31={death=yes}  # Altenhof
 				}
@@ -1031,10 +1091,10 @@
 				name=Carl
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001933	# Franz
-				mother=100001934	# Ida O'Hagerty
+				father=100001933	# Franz v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001934	# GFN Ida O'Hagerty
 				1867.05.13={birth=yes}  # Linz
-				1895.10.02={add_spouse=100001992}	# Christine von Gudenus
+				1895.10.02={add_spouse=100001992}	# FRN Christine von Gudenus
 				1940.02.01={death=yes}  # Schwarzenraben
 			}
 				100001993={	# 1d) Maria Ida Christine Margareta Ignatia Josepha Antonia (Klagenfurt 20 Jul 1896-Rome 7 Apr 1954)
@@ -1042,8 +1102,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001991	# Carl
-					mother=100001992	# Christine von Gudenus
+					father=100001991	# Carl v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001992	# FRN Christine von Gudenus
 					1896.07.20={birth=yes}  # Klagenfurt
 					1954.04.07={death=yes}  # Rome
 				}
@@ -1051,8 +1111,8 @@
 					name=Maria
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001991	# Carl
-					mother=100001992	# Christine von Gudenus
+					father=100001991	# Carl v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001992	# FRN Christine von Gudenus
 					1898.11.15={birth=yes}  # Klagenfurt
 					1926.08.31={death=yes}  # Gleiwitz Silesia
 				}
@@ -1061,8 +1121,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001991	# Carl
-					mother=100001992	# Christine von Gudenus
+					father=100001991	# Carl v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001992	# FRN Christine von Gudenus
 					1900.06.11={birth=yes}  # Klagenfurt
 					1994.02.12={death=yes}  # Graz
 				}
@@ -1071,8 +1131,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001991	# Carl
-					mother=100001992	# Christine von Gudenus
+					father=100001991	# Carl v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001992	# FRN Christine von Gudenus
 					1902.11.08={birth=yes}  # Vienna
 					1983.08.11={death=yes}  # Vienna
 				}
@@ -1081,8 +1141,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100001991	# Carl
-					mother=100001992	# Christine von Gudenus
+					father=100001991	# Carl v.u.zu Eltz gt Faust v.Stromberg
+					mother=100001992	# FRN Christine von Gudenus
 					1907.09.05={birth=yes}  # Vienna
 					1994.05.28={death=yes}  # Erwitte
 				}
@@ -1090,10 +1150,10 @@
 				name=Franz
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001933	# Franz
-				mother=100001934	# Ida O'Hagerty
+				father=100001933	# Franz v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001934	# GFN Ida O'Hagerty
 				1868.07.25={birth=yes}  # Linz
-				1896.11.21={add_spouse=100002042}	# Anna Blome
+				1896.11.21={add_spouse=100002042}	# GFN Anna Blome
 				1921.06.26={death=yes}  # Marienbad Bohemia
 			}
 				100002050={	# 1d) Josephine Maria Franziska Anna Ida (Olmütz 13 Oct 1897-Linz 23 Dec 1975); m.Mühllacken, Upper Austria 11 Feb 1919 (div 1923) Franz Frhr von Seyffertitz (Rovereto 3 Dec 1894-Rothenau an der Traisen, Lower Austria 31 Mar 1958)
@@ -1101,8 +1161,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100002000	# Franz
-					mother=100002042	# Anna Blome
+					father=100002000	# Franz v.u.zu Eltz gt Faust v.Stromberg
+					mother=100002042	# GFN Anna Blome
 					1897.10.13={birth=yes}  # Olmütz
 					1975.12.23={death=yes}  # Linz
 				}
@@ -1110,8 +1170,8 @@
 					name=Franz
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100002000	# Franz
-					mother=100002042	# Anna Blome
+					father=100002000	# Franz v.u.zu Eltz gt Faust v.Stromberg
+					mother=100002042	# GFN Anna Blome
 					1900.02.06={birth=yes}  # Pesenbach
 					1923.02.08={add_spouse=100002081}	# Josephine Schramm
 					1927.01.01={remove_spouse=100002081}
@@ -1124,7 +1184,7 @@
 						female=yes
 						dynasty=1002059
 						religion=catholic culture=german
-						father=100002077	# Franz
+						father=100002077	# Franz v.u.zu Eltz gt Faust v.Stromberg
 						mother=100002092	# Hilde Batson
 						1932.12.17={birth=yes}
 						2009.01.01={death=yes}  # EST.
@@ -1134,8 +1194,8 @@
 					female=yes
 					dynasty=1002059
 					religion=catholic culture=german
-					father=100002000	# Franz
-					mother=100002042	# Anna Blome
+					father=100002000	# Franz v.u.zu Eltz gt Faust v.Stromberg
+					mother=100002042	# GFN Anna Blome
 					1902.02.20={birth=yes}  # Pesenbach
 					1977.07.18={death=yes}  # Wartenburg
 				}
@@ -1144,8 +1204,8 @@
 				female=yes
 				dynasty=1002059
 				religion=catholic culture=german
-				father=100001933	# Franz
-				mother=100001934	# Ida O'Hagerty
+				father=100001933	# Franz v.u.zu Eltz gt Faust v.Stromberg
+				mother=100001934	# GFN Ida O'Hagerty
 				1870.08.07={birth=yes}  # Linz
 				1907.04.21={death=yes}  # Linz
 			}
@@ -1154,8 +1214,8 @@
 		female=yes
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1785.01.22={birth=yes}  # Mainz
 		1824.04.19={death=yes}  # Vienna
 	}
@@ -1163,589 +1223,12 @@
 		name=Franz
 		dynasty=1002059
 		religion=catholic culture=german
-		father=100001760	# Hugo
-		mother=100001762	# Sophie von Boos zu Waldeck und Montfort
+		father=100001760	# Hugo v.u.zu Eltz gt Faust v.Stromberg
+		mother=100001762	# FRN Sophie von Boos zu Waldeck und Montfort
 		1786.05.28={birth=yes}  # Mainz
-		1824.10.26={add_spouse=100002295}	# Antonia zu Lodron-Laterano und Castelromano
+		1824.10.26={add_spouse=100002295}	# GFN Antonia zu Lodron-Laterano u.Castelromano
 		1873.05.27={death=yes}  # Vienna
 	}
-
-#######
-100002042={	# Gfn     			Anna                			Blome          
-	name="Anna Blome"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1871.02.11={birth=yes}  # Geneva
-	1960.01.09={death=yes}  # Salzburg
-}
-100001816={	# Gf      			Heinrich            			Chotek v.Chotkowa u.Wognin
-	name="Heinrich Chotek v.Chotkowa u.Wognin"
-	dynasty=0
-	religion=catholic culture=bohemian
-	1802.05.26={birth=yes}  # Prague
-	1831.07.12={add_spouse=100001815}	# Charlotte
-	1864.12.24={death=yes}  # Prague
-}
-100001838={	# Frhr    			Friedrich           			Geyr von Schweppenburg
-	name="Friedrich Geyr von Schweppenburg"
-	dynasty=0
-	religion=catholic culture=german
-	1831.10.25={birth=yes}  # Müddersheim
-	1876.08.24={add_spouse=100001837}	# Sophie
-	1904.08.10={death=yes}  # Müddersheim
-}
-100001882={	# Gf      			Lazarus             			Henckel von Donnersmarck
-	name="Lazarus Henckel von Donnersmarck"
-	dynasty=0
-	religion=catholic culture=german
-	1902.01.19={birth=yes}  # Dresden
-	1927.10.20={add_spouse=100001881}	# Maria
-	1991.10.10={death=yes}  # Luzern
-}
-100001878={	# Gf      			Karl                			Khuen von Belasi
-	name="Karl Khuen von Belasi"
-	dynasty=0
-	religion=catholic culture=german
-	1892.01.01={birth=yes}  # Vukovár
-	1921.01.11={add_spouse=100001877}	# Maria
-	1989.08.17={death=yes}  # Innsbruck
-}
-100001884={	# Gf      			Heinrich            			Khuen von Belasi
-	name="Heinrich Khuen von Belasi"
-	dynasty=0
-	religion=catholic culture=german
-	1860.11.17={birth=yes}  # Nustar
-	1890.10.22={add_spouse=100001883}	# Johanna
-	1928.04.23={death=yes}  # Nustar
-}
-100001934={	# Gfn     			Ida                 			O'Hagerty      
-	name="Ida O'Hagerty"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1844.01.24={birth=yes}  # Tillysburg Upper Austria
-	1927.09.05={death=yes}  # St.Florian Upper Austria
-}
-100001855={	# Gfn     			Sophie              			Schaffgotsch gen.Semperfrei v.u.zu Kynast u.Greiffenstein
-	name="Sophie Schaffgotsch gen.Semperfrei v.u.zu Kynast u.Greiffenstein"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1952.07.19={birth=yes}
-}
-100001945={	# Bss     			Martijne Clara      			Snouckaert     
-	name="Martijne Clara Snouckaert"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1933.09.19={birth=yes}  # The Hague
-	2010.12.07={death=yes}
-}
-100001826={	# Frn     			Maria Anna          			Wambolt von Umstadt
-	name="Maria Anna Wambolt von Umstadt"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1796.06.13={birth=yes}  # Würzburg
-	1852.09.13={death=yes}  # Pommersfelden
-}
-100001841={	# Frhr    			Philipp             			Wambolt von Umstadt
-	name="Philipp Wambolt von Umstadt"
-	dynasty=0
-	religion=catholic culture=german
-	1860.06.20={birth=yes}  # Darmstadt
-	1887.06.08={add_spouse=100001840}	# Antonie
-	1924.07.08={death=yes}  # Heidelberg
-}
-100001938={	# Cde     			Jose-Luiz           			de Saldanha da Gama
-	name="Jose-Luiz de Saldanha da Gama"
-	dynasty=0
-	religion=catholic culture=german
-	1893.01.03={birth=yes}  # Torres Novas
-	1919.05.24={add_spouse=100001937}	# Helene
-	1958.05.05={death=yes}  # Lisbon
-}
-100001762={	# Frn     			Sophie              			von Boos zu Waldeck und Montfort
-	name="Sophie von Boos zu Waldeck und Montfort"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1744.05.01={birth=yes}  # bap Mainz
-	1834.05.02={death=yes}
-}
-100001932={	# Frn     			Rosa                			von Brentano di Cimaroli
-	name="Rosa von Brentano di Cimaroli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1803.08.30={birth=yes}  # Pavia
-	1878.06.06={death=yes}  # Verona
-}
-100001806={	# Gfn     			Henriette           			von Colloredo-Mannsfeld
-	name="Henriette von Colloredo-Mannsfeld"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1773.09.03={birth=yes}  # Vienna
-	1814.03.08={death=yes}  # Vukovár
-}
-100001819={	# Frhr    			Joseph Franz        			von Fechenbach 
-	name="Joseph Franz von Fechenbach"
-	dynasty=0
-	religion=catholic culture=german
-	1761.10.10={birth=yes}
-	1786.11.05={add_spouse=100001818}	# Johanna
-	1830.07.19={death=yes}
-}
-100001859={	# Gfn     			Elisabeth           			von Goëß       
-	name="Elisabeth von Goëß"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1982.04.02={birth=yes}
-}
-100001992={	# Frn     			Christine           			von Gudenus    
-	name="Christine von Gudenus"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1870.08.16={birth=yes}  # Lukawitz Bohemia
-	1959.01.19={death=yes}  # Schwarzenraben
-}
-100001926={	# Gf      			Johann              			von Harrach zu Rohrau u.Thannhausen
-	name="Johann von Harrach zu Rohrau u.Thannhausen"
-	dynasty=0
-	religion=catholic culture=german
-	1904.09.25={birth=yes}  # Prugg_an_der_Leitha
-	1940.10.16={add_spouse=100001925}	# Stephanie
-	1945.05.12={death=yes}  # Bad Kreuznach
-}
-100001959={	# Frhr    			Franz               			von Hornstein  
-	name="Franz von Hornstein"
-	dynasty=0
-	religion=catholic culture=german
-	1884.04.25={birth=yes}  # Binningen
-	1940.06.01={add_spouse=100001958}	# Marie
-	1979.02.10={death=yes}  # Salem
-}
-100001999={	# Frhr    			Wilderich           			von Ketteler   
-	name="Wilderich von Ketteler"
-	dynasty=0
-	religion=catholic culture=german
-	1901.03.27={birth=yes}  # Störmede
-	1933.05.03={add_spouse=100001998}	# Maria
-	1957.08.03={death=yes}  # Münster
-}
-100001830={	# Gf      			Rudolf              			von Lützow     
-	name="Rudolf von Lützow"
-	dynasty=0
-	religion=catholic culture=german
-	1813.09.23={birth=yes}
-	1845.06.01={add_spouse=100001829}	# Bernhardine
-	1879.09.19={death=yes}  # Linz
-}
-100001928={	# Gf      			Wilhelm             			von Magnis     
-	name="Wilhelm von Magnis"
-	dynasty=0
-	religion=catholic culture=german
-	1866.01.28={birth=yes}  # Eckersdorf Lower Silesia
-	1899.01.18={add_spouse=100001927}	# Franziska
-	1940.12.22={death=yes}  # Habelschwerdt
-}
-100001863={	# Gf      			Emanuel             			von Mensdorff-Pouilly
-	name="Emanuel von Mensdorff-Pouilly"
-	dynasty=0
-	religion=catholic culture=german
-	1934.01.16={birth=yes}
-	1972.02.12={add_spouse=100001862}	# Maria
-	2011.01.01={death=yes}  # EST.
-}
-100001849={	# Gf      			Ernst               			von Moÿ de Sons
-	name="Ernst von Moÿ de Sons"
-	dynasty=0
-	religion=catholic culture=german
-	1917.02.01={birth=yes}  # Munich
-	1942.02.01={add_spouse=100001848}	# Maria
-	1988.10.02={death=yes}  # Stepperg
-}
-100001966={	# Edle    			Marie Helene        			von Poschinger 
-	name="Marie Helene von Poschinger"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1903.01.19={birth=yes}  # Munich
-	1981.05.05={death=yes}  # Zwiesel
-}
-100001961={	# Frhr    			Johann              			von Pranckh    
-	name="Johann von Pranckh"
-	dynasty=0
-	religion=catholic culture=german
-	1888.04.23={birth=yes}  # Reichenhall
-	1922.05.04={add_spouse=100001960}	# Franziska
-	1945.01.24={death=yes}
-}
-100001853={	# Gf      			Johann Christoph    			von Preysing-Lichtenegg-Moos
-	name="Johann Christoph von Preysing-Lichtenegg-Moos"
-	dynasty=0
-	religion=catholic culture=german
-	1937.03.24={birth=yes}
-	1969.02.27={add_spouse=100001852}	# Lidvine
-	2014.01.01={death=yes}  # EST.
-}
-100001906={	# Gfn     			Gina                			von Quadt zu Wykradt und Isny
-	name="Gina von Quadt zu Wykradt und Isny"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1962.12.28={birth=yes}
-}
-100002155={	# Gf      			Albert              			von Saint Julien-Wallsee
-	name="Albert von Saint Julien-Wallsee"
-	dynasty=0
-	religion=catholic culture=german
-	1889.06.26={birth=yes}  # Bregenz
-	1924.10.25={add_spouse=100002149}	# Rosa
-	1936.12.15={death=yes}  # Vienna
-}
-100001990={	# Gf      			Heinrich            			von Salburg    
-	name="Heinrich von Salburg"
-	dynasty=0
-	religion=catholic culture=german
-	1905.08.04={birth=yes}  # Leonstein
-	1935.05.28={add_spouse=100001989}	# Sophie
-	1972.06.26={death=yes}  # Altenhof
-}
-100001968={	# Edle    			Dorothy             			von Scheibler  
-	name="Dorothy von Scheibler"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1946.01.15={birth=yes}
-}
-100001811={	# Gf      			Franz               			von Schlik zu Bassano u.Weißkirchen
-	name="Franz von Schlik zu Bassano u.Weißkirchen"
-	dynasty=0
-	religion=catholic culture=german
-	1789.05.23={birth=yes}  # Prague
-	1817.04.24={add_spouse=100001810}	# Maria
-	1862.03.17={death=yes}  # Vienna
-}
-100002071={	# Frhr    			Franz               			von Seyffertitz
-	name="Franz von Seyffertitz"
-	dynasty=0
-	religion=catholic culture=german
-	1894.12.03={birth=yes}  # Rovereto
-	1919.02.11={add_spouse=100002050}	# Josephine
-	1923.01.01={remove_spouse=100002050}
-	1958.03.31={death=yes}  # Rothenau_an_der_Traisen Lower Austria
-}
-100001916={	# Gfn     			Theresia            			von Wilczek    
-	name="Theresia von Wilczek"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1920.06.01={birth=yes}  # Mieschiz Bohemia
-	1999.12.14={death=yes}  # Berchtesgaden
-}
-100001940={	# Gfn     			Franziska           			von und zu Clam-Martinic
-	name="Franziska von und zu Clam-Martinic"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1897.07.30={birth=yes}  # Eßling
-	1983.10.30={death=yes}  # Vienna
-}
-100001936={	# Frn     			Margarethe          			von und zu Franckenstein
-	name="Margarethe von und zu Franckenstein"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1869.07.06={birth=yes}  # Ort_am_Traunsee
-	1938.03.30={death=yes}  # Linz
-}
-100001865={	# Frhr    			Georg Enoch         			von und zu Guttenberg
-	name="Georg Enoch von und zu Guttenberg"
-	dynasty=0
-	religion=catholic culture=german
-	1946.07.29={birth=yes}
-	1971.02.14={add_spouse=100001864}	# Christiane
-	1977.01.01={remove_spouse=100001864}
-}
-100001963={	# Gf      			Franz               			von und zu Lerchenfeld
-	name="Franz von und zu Lerchenfeld"
-	dynasty=0
-	religion=catholic culture=german
-	1890.06.02={birth=yes}  # St.Gilla
-	1923.05.28={add_spouse=100001962}	# Christiane
-	1975.09.13={death=yes}  # Sünching
-}
-100002295={	# Gfn     			Antonia             			zu Lodron-Laterano und Castelromano
-	name="Antonia zu Lodron-Laterano und Castelromano"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1792.11.26={birth=yes}
-	1874.04.03={death=yes}  # Vienna
-}
-100002128={	#         			Johannes            			Baar von Baarenfels
-	name="Johannes Baar von Baarenfels"
-	dynasty=0
-	religion=catholic culture=german
-	1925.12.18={birth=yes}
-	1960.07.14={add_spouse=100002101}	# Anita
-	2002.01.01={death=yes}  # EST.
-}
-100002092={	#         			Hilde               			Batson         
-	name="Hilde Batson"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1896.12.24={birth=yes}
-	1961.05.10={death=yes}  # Salzburg
-}
-100001918={	#         			Sibylle             			Eisenburger    
-	name="Sibylle Eisenburger"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1949.01.17={birth=yes}
-}
-100001953={	#         			Elisabeth           			Fisli          
-	name="Elisabeth Fisli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1930.11.22={birth=yes}
-	2007.01.01={death=yes}  # EST.
-}
-100001869={	#         			Wolfgang            			Friedrichsen   
-	name="Wolfgang Friedrichsen"
-	dynasty=0
-	religion=catholic culture=german
-	1940.08.20={birth=yes}  # Hamburg
-	2002.02.15={add_spouse=100001867}	# Johanna
-	2004.06.22={death=yes}  # Hamburg
-}
-100001868={	#         			Haralampi           			Gavriloff-Oroschakoff
-	name="Haralampi Gavriloff-Oroschakoff"
-	dynasty=0
-	religion=catholic culture=german
-	1955.05.23={birth=yes}
-	1986.07.27={add_spouse=100001867}	# Johanna
-	2000.01.01={remove_spouse=100001867}
-}
-100001919={	#         			Johanna             			Gruber         
-	name="Johanna Gruber"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1959.04.06={birth=yes}
-}
-100001983={	#         			Ernst               			Horsch         
-	name="Ernst Horsch"
-	dynasty=0
-	religion=catholic culture=german
-	1970.07.09={birth=yes}
-	2000.10.20={add_spouse=100001982}	# Beatrice
-}
-100001952={	#         			Marianne            			Hubay de Hubo  
-	name="Marianne Hubay de Hubo"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1933.12.30={birth=yes}  # Budapest
-	2006.02.15={death=yes}  # Budapest
-}
-100001922={	#         			Mattias             			Kaindtl        
-	name="Mattias Kaindtl"
-	dynasty=0
-	religion=catholic culture=german
-	1927.05.31={birth=yes}
-	1990.07.07={add_spouse=100001920}	# Elisabeth
-	2004.01.01={death=yes}  # EST.
-}
-100001987={	#         			Jürgen              			Kammer         
-	name="Jürgen Kammer"
-	dynasty=0
-	religion=catholic culture=german
-	1939.01.09={birth=yes}
-	1965.10.22={add_spouse=100001986}	# Diana
-	1970.01.01={remove_spouse=100001986}
-}
-100001876={	#         			Carl Gustav         			Lagervret      
-	name="Carl Gustav Lagervret"
-	dynasty=0
-	religion=catholic culture=german
-	1955.03.20={birth=yes}
-	1989.07.22={add_spouse=100001875}	# Maria
-}
-100001911={	#         			Michèle             			Landry         
-	name="Michèle Landry"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1953.05.01={birth=yes}
-}
-100001985={	#         			Martin              			Lautenschlager 
-	name="Martin Lautenschlager"
-	dynasty=0
-	religion=catholic culture=german
-	1925.03.09={birth=yes}
-	1961.07.26={add_spouse=100001984}	# Marie Lise
-	2002.01.01={death=yes}  # EST.
-}
-100001943={	#         			Kálmán              			Lónyay-Jasztrabszky de Nagy-Lónya et Vásáros-Namény
-	name="Kálmán Lónyay-Jasztrabszky de Nagy-Lónya et Vásáros-Namény"
-	dynasty=0
-	religion=catholic culture=german
-	1925.04.21={birth=yes}
-	1963.06.03={add_spouse=100001942}	# Sophie
-	2002.01.01={death=yes}  # EST.
-}
-100001955={	#         			David Maxwell       			McBride        
-	name="David Maxwell McBride"
-	dynasty=0
-	religion=catholic culture=german
-	1949.12.15={birth=yes}
-	1979.04.23={add_spouse=100001954}	# Johanna
-}
-100001914={	#         			Garvey Anthony      			McIntosh       
-	name="Garvey Anthony McIntosh"
-	dynasty=0
-	religion=catholic culture=german
-	1969.01.01={birth=yes}
-	2009.05.02={add_spouse=100001913}	# Melanie Anne
-}
-100001970={	#         			Birgitta            			Müller         
-	name="Birgitta Müller"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1966.12.12={birth=yes}
-}
-100001900={	#         			Katherine           			O'Donoghue     
-	name="Katherine O'Donoghue"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1952.01.20={birth=yes}
-}
-100001979={	#         			Moneshia            			Puri           
-	name="Moneshia Puri"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1972.10.07={birth=yes}
-}
-100002094={	#         			Ingeborg            			Schandl        
-	name="Ingeborg Schandl"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1913.05.22={birth=yes}  # Vienna
-	1983.06.02={death=yes}  # Altmünster
-}
-100002081={	#         			Josephine           			Schramm        
-	name="Josephine Schramm"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1897.01.01={birth=yes}
-	1972.01.01={death=yes}  # EST.
-}
-100001814={	#         			Johann Nepomuk      			Sieß           
-	name="Johann Nepomuk Sieß"
-	dynasty=0
-	religion=catholic culture=german
-	1806.03.12={birth=yes}
-	1840.09.01={add_spouse=100001813}	# Marie
-	1874.01.01={death=yes}
-}
-100001894={	#         			Maija Caroline      			Spann          
-	name="Maija Caroline Spann"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1958.07.07={birth=yes}
-}
-100001947={	#         			Janet               			Stevenson      
-	name="Janet Stevenson"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1910.09.30={birth=yes}  # Bathgate Scotland
-	2002.10.05={death=yes}  # Ehreshoven
-}
-100001949={	#         			Paula               			Szögyeny-Marich
-	name="Paula Szögyeny-Marich"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1897.02.15={birth=yes}  # Cell-Dömölk
-	1992.07.27={death=yes}  # Vienna
-}
-100001951={	#         			Johanna             			Urban de Monyoró
-	name="Johanna Urban de Monyoró"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1923.06.11={birth=yes}
-	1999.01.01={death=yes}  # EST.
-}
-100001891={	#         			Felicitas           			Urbanski v.Ostrymiecz
-	name="Felicitas Urbanski v.Ostrymiecz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1950.11.05={birth=yes}
-}
-100001871={	#         			Anna                			Venetia Squire 
-	name="Anna Venetia Squire"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1972.12.06={birth=yes}
-}
-100001975={	#         			Christina           			von Beckedorff 
-	name="Christina von Beckedorff"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1964.06.22={birth=yes}
-}
-100001965={	#         			Elisabeth           			von Coulon     
-	name="Elisabeth von Coulon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1905.12.22={birth=yes}  # Munich
-	2000.06.16={death=yes}  # Fensterbach
-}
-100001988={	#         			Georg-Sigismund     			von Oppen      
-	name="Georg-Sigismund von Oppen"
-	dynasty=0
-	religion=catholic culture=german
-	1923.01.27={birth=yes}  # Potsdam
-	1976.04.27={add_spouse=100001986}	# Diana
-	2008.02.22={death=yes}  # Farm Santa Barbara nr Gualeguaychu Argentina
-}
-100001957={	#         			Antal               			von Rainprecht 
-	name="Antal von Rainprecht"
-	dynasty=0
-	religion=catholic culture=german
-	1908.03.15={birth=yes}  # Veszprim
-	1959.01.24={add_spouse=100001956}	# Maria
-	1986.12.22={death=yes}  # Vienna
-}
-100001866={	#         			Adolf               			von Ribbentrop 
-	name="Adolf von Ribbentrop"
-	dynasty=0
-	religion=catholic culture=german
-	1935.09.02={birth=yes}
-	1985.04.13={add_spouse=100001864}	# Christiane
-	2012.01.01={death=yes}  # EST.
-}
 ####### 100002295
 #1772.02.01={holder=100001760} # Hugo Philipp Carl Ludwig Johann Nepomuk
 #1818.11.20={holder=100001772} # 1a) Emmerich Joseph Philipp Johann Nepomuk 
@@ -4987,7 +4470,6 @@
 			father=100000710	# Melchior Friedrich v. Schönborn
 			mother=100000711	# FRN Maria Anna von Boineburg und Lengsfeld
 			1670.09.11={birth=yes}
-			1687.02.16={add_spouse=100000715}	# GF Johann Karl von der Leyen
 			1742.09.16={death=yes}
 		}
 		100000716={	# 3b) Anna Karolina Maria (3 Oct 1671-7 Feb 1716); m.12 Jan 1687 Johann Franz Sebastian Gf von Ostein (d.24 Jun 1718)
@@ -5034,7 +4516,7 @@
 			father=100000710	# Melchior Friedrich v. Schönborn
 			mother=100000711	# FRN Maria Anna von Boineburg und Lengsfeld
 			1677.10.28={birth=yes}
-			1701.11.14={add_spouse=100000722}	# GFN Marie Eleonore von Hatzfeldt u. Gleichen
+			1701.11.14={add_spouse=100000722}	# GFN Marie Eleonore von Hatzfeldt u.Gleichen
 			1754.09.22={death=yes}
 		}
 			100000723={	# 1c) Anna Katharina Maria Sophie Karoline (3 Jul 1702-25 Nov 1760); m.30 Nov 1720 Franz Gf von Hoensbroech (d.22 Aug 1759)
@@ -5042,7 +4524,7 @@
 				dynasty=1002043
 				religion=lutheran culture=german
 				father=100000721	# Rudolf Franz v. Schönborn
-				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u. Gleichen
+				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u.Gleichen
 				1702.07.03={birth=yes}
 				1760.11.25={death=yes}
 			}
@@ -5051,7 +4533,7 @@
 				dynasty=1002043
 				religion=lutheran culture=german
 				father=100000721	# Rudolf Franz v. Schönborn
-				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u. Gleichen
+				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u.Gleichen
 				1703.08.25={birth=yes}
 				1743.06.11={death=yes}
 			}
@@ -5061,7 +4543,7 @@
 				dynasty=1002043
 				religion=lutheran culture=german
 				father=100000721	# Rudolf Franz v. Schönborn
-				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u. Gleichen
+				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u.Gleichen
 				1705.10.24={birth=yes}
 				1739.08.30={death=yes}
 			}
@@ -5071,7 +4553,7 @@
 				dynasty=1002043
 				religion=lutheran culture=german
 				father=100000721	# Rudolf Franz v. Schönborn
-				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u. Gleichen
+				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u.Gleichen
 				1707.03.04={birth=yes}
 				1794.11.14={death=yes}
 			}
@@ -5080,7 +4562,7 @@
 				dynasty=1002043
 				religion=lutheran culture=german
 				father=100000721	# Rudolf Franz v. Schönborn
-				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u. Gleichen
+				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u.Gleichen
 				1708.07.08={birth=yes}
 				1736.08.30={add_spouse=100000729}	# GFN Bernhardina Maria von Plettenberg
 				1772.01.27={death=yes}
@@ -5310,7 +4792,7 @@
 											father=100000766	# Georg v. Schönborn
 											mother=100000767	# GFN Elisabeth Orssich de Slavetich
 											1932.04.18={birth=yes}
-											1965.06.12={add_spouse=100001920}	# GFN Elisabeth v.u.zu Eltz gt Faust v.Stromberg
+											1965.06.12={add_spouse=100001920}	# Elisabeth v.u.zu Eltz gt Faust v.Stromberg
 											1973.02.03={death=yes}
 										}
 										100000771={	# 2j) Elisabeth Helene Maria (Beregvár 14 Mar 1934-Hollabrunn 10 Jul 2014); m.(civ) New York 28 Oct 1965 (rel) Schönborn 1 Nov 1965 Roel Karamat (b.Paramaribo, Surinam 16 Oct 1936)
@@ -5590,7 +5072,7 @@
 							father=100000822	# Franz v. Schönborn
 							mother=100000823	# GFN Ferdinanda Isabella von Westphalen zu Fürstenberg
 							1805.05.25={birth=yes}
-							1833.05.01={add_spouse=100001827}	# GFN Sophie v.u.zu Eltz gt Faust v.Stromberg
+							1833.05.01={add_spouse=100001827}	# Sophie v.u.zu Eltz gt Faust v.Stromberg
 							1865.04.29={death=yes}
 						}
 						100000826={	# 2f) Maria Anna (31 Jan 1809-26 Jun 1856); m.15 Jan 1840 Maximilian Frhr von Loë (d.5 May 1850)
@@ -5732,12 +5214,12 @@
 										}
 										100000852={	# 3j) Maria Johanna Gabriela (b.Würzburg 28 Jul 1958); m.Quinta da Bela Vista à Piedade, Sintra 1 Jun 1983 Johann-Friedrich Fst zu Castell-Rüdenhausen (Rüdenhausen 27 Jan 1948-30 Oct 2014)
 											name="Maria Johanna"
+											female=yes
 											dynasty=1002043
 											religion=lutheran culture=german
 											father=100000845	# Karl v. Schönborn
 											mother=100033420	# Graziella Álvares Pereira de Melo
 											1958.07.28={birth=yes}
-											1983.06.01={add_spouse=100000853}	# FST Johann-Friedrich zu Castell-Rüdenhausen
 										}
 										100000854={	# 4j) PAUL Anton Gf von Schönborn-Wiesentheid (b.Lisbon 15 May 1962); m.Venice (civ) 17 Apr 1989 (rel) 22 Apr 1989 Ctsa Damiana Lovatelli (b.Lima, Peru 31 Mar 1961)
 											name=Paul
@@ -6337,7 +5819,7 @@
 									father=100000930	# Karl v. Schönborn
 									mother=100085177	# Johanna Lobkowicz
 									1865.10.04={birth=yes}
-									1898.05.21={add_spouse=100000972}	# PSS Sofie Cantacuzene
+									1898.05.21={add_spouse=100000972}	# PSS Sofie Cantacuzène
 									1919.08.23={death=yes}
 								}
 									100000974={	# 2i) Maria Paul Franz von Paula Perceval Christinus Anton Demetrius Alois Joseph Theodosius (Egern 29 May 1900-Correze 2 Jan 1984)
@@ -6345,7 +5827,7 @@
 										dynasty=1002043
 										religion=lutheran culture=german
 										father=100000971	# Friedrich v. Schönborn
-										mother=100000972	# PSS Sofie Cantacuzene
+										mother=100000972	# PSS Sofie Cantacuzène
 										1900.05.29={birth=yes}
 										1984.01.02={death=yes}
 									}
@@ -6925,7 +6407,7 @@
 		father=100000700	# Philipp Erwein v. Schönborn
 		mother=100000701	# Maria Ursula Greiffenclau von Vollrads
 		1652.05.01={birth=yes}
-		1670.11.25={add_spouse=100001096}	# GF Heinrich von Hatzfeldt u. Gleichen
+		1670.11.25={add_spouse=100001096}	# GF Heinrich von Hatzfeldt u.Gleichen
 		1707.01.01={death=yes}
 	}
 	100001098={	# 15a) Johann Erwein, 1701 Gf von Schönborn (13 Jul 1654-29 Nov 1705); m.1st 15 Aug 1675 Maria Anna Frn Waldbott von Bassenheim (d.1702); m.2nd 1702 Anna Magdalena Frn Waldbott von Bassenheim (d.5 Mar 1719)
@@ -7223,7 +6705,7 @@
 	dynasty=1002041
 	religion=catholic culture=german
 	1753.12.12={birth=yes}
-	1775.04.17={add_spouse=100000351}	# GFN Charlotte Friederike zu Leiningen-Westerburg
+	1775.04.17={add_spouse=100000351}	# GFN Charlotte Friederike von Leiningen-Westerburg
 	1800.10.04={death=yes}
 }
 	100000353={	# 2a) Friedrich ALBRECHT Ludwig Ferdinand Fst zu Sayn-Wittgenstein-Berleburg (Berleburg 12 May 1777-Berleburg 11 Nov 1851); m.Ortenburg 18 Aug 1830 Charlotte Gfn zu Ortenburg (Ortenburg 18 Aug 1802-Oct 1854)
@@ -7231,7 +6713,7 @@
 		dynasty=1002041
 		religion=catholic culture=german
 		father=100000350	# Christian Heinrich Sayn-Wittgenstein-Berleburg
-		mother=100000351	# GFN Charlotte Friederike zu Leiningen-Westerburg
+		mother=100000351	# GFN Charlotte Friederike von Leiningen-Westerburg
 		1777.05.12={birth=yes}
 		1830.08.18={add_spouse=100000354}	# GFN Charlotte zu Ortenburg
 		1851.11.11={death=yes}
@@ -7848,59 +7330,12 @@
 			1839.06.12={birth=yes}
 			1887.03.29={death=yes}
 		}
-	100000472={	# 3a) Franz August Wilhelm (11 Aug 1778-14 Jul 1854)
-		name="Franz August"
-		dynasty=1002041
-		religion=catholic culture=german
-		father=100000350	# Christian Heinrich Sayn-Wittgenstein-Berleburg
-		mother=100000351	# GFN Charlotte Friederike zu Leiningen-Westerburg
-		1778.08.11={birth=yes}
-		1854.07.14={death=yes}
-	}
-	100000474={	# 5a) Georg Heinrich Ludwig (17 Sep 1780-31 Dec 1832)
-		name="Georg Heinrich"
-		dynasty=1002041
-		religion=catholic culture=german
-		father=100000350	# Christian Heinrich Sayn-Wittgenstein-Berleburg
-		mother=100000351	# GFN Charlotte Friederike zu Leiningen-Westerburg
-		1780.09.17={birth=yes}
-		1832.12.31={death=yes}
-	}
-	100000475={	# 6a) Karl Ludwig Alexander (7 Nov 1781-8 Feb 1865)
-		name="Karl Ludwig"
-		dynasty=1002041
-		religion=catholic culture=german
-		father=100000350	# Christian Heinrich Sayn-Wittgenstein-Berleburg
-		mother=100000351	# GFN Charlotte Friederike zu Leiningen-Westerburg
-		1781.11.07={birth=yes}
-		1865.02.08={death=yes}
-	}
-	100000477={	# 8a) Karoline Friederike Jakobe Luise (1 Feb 1785-2 Sep 1834)
-		name="Karoline Friederike"
-		female=yes
-		dynasty=1002041
-		religion=catholic culture=german
-		father=100000350	# Christian Heinrich Sayn-Wittgenstein-Berleburg
-		mother=100000351	# GFN Charlotte Friederike zu Leiningen-Westerburg
-		1785.02.01={birth=yes}
-		1834.09.02={death=yes}
-	}
-	100000478={	# 9a) Johann Ludwig Karl (29 Jun 1786-7 Oct 1866); m.24 Jun 1828 Marie Carstens (4 Sep 1810-4 May 1905)
-		name="Johann Ludwig"
-		dynasty=1002041
-		religion=catholic culture=german
-		father=100000350	# Christian Heinrich Sayn-Wittgenstein-Berleburg
-		mother=100000351	# GFN Charlotte Friederike zu Leiningen-Westerburg
-		1786.06.29={birth=yes}
-		1828.06.24={add_spouse=100000479}	# Marie Carstens
-		1866.10.07={death=yes}
-	}
 	100000480={	# 10a) August Ludwig (Berleburg 6 Mar 1788-Berleburg 6 Jan 1874); m.Frankfurt 7 Apr 1823 Franziska Marie Fortunata Allesina gen. von Schweitzer (Geneva 27 Oct 1802-Weimar 30 Nov 1878)
 		name="August Ludwig"
 		dynasty=1002041
 		religion=catholic culture=german
 		father=100000350	# Christian Heinrich Sayn-Wittgenstein-Berleburg
-		mother=100000351	# GFN Charlotte Friederike zu Leiningen-Westerburg
+		mother=100000351	# GFN Charlotte Friederike von Leiningen-Westerburg
 		1788.03.06={birth=yes}
 		1823.04.07={add_spouse=100000481}	# Franziska von Schweitzer
 		1874.01.06={death=yes}
@@ -7993,15 +7428,6 @@
 				1875.11.24={birth=yes}
 				1950.01.01={death=yes}  # EST.
 			}
-		100000499={	# 4b) Philipp Karl Emil Georg (6 Jul 1836-    )
-			name="Philipp Karl"
-			dynasty=1002041
-			religion=catholic culture=german
-			father=100000480	# August Ludwig Sayn-Wittgenstein-Berleburg
-			mother=100000481	# Franziska von Schweitzer
-			1836.07.06={birth=yes}
-			1909.01.01={death=yes}  # EST.
-		}
 		100000500={	# 5b) Franz Emil Luitpold (Darmstadt 23 Nov 1842-Munich 4 Apr 1909); m.Heidelberg 16 Jun 1877 Julia Cavalcanti de Albuquerque de Villeneuve (Neuilly 14 May 1859-Rottach-Egern 27 Aug 1930)
 			name="Franz Emil"
 			dynasty=1002041
@@ -8126,7 +7552,7 @@
 						father=100000508	# Casimir-Johannes Sayn-Wittgenstein-Berleburg
 						mother=100000510	# Iris Ryle
 						1952.03.21={birth=yes}
-						1980.09.06={add_spouse=100000525}	# GFN Louise Batthyány de Német-Ujvár
+						1980.09.06={add_spouse=100000525}	# GFN Louise Batthyány de Német-Újvár
 						1989.01.01={remove_spouse=100000525}
 						1994.06.20={add_spouse=100000526}	# Anne-Marie Reger
 						2010.08.19={death=yes}
@@ -8136,7 +7562,7 @@
 							dynasty=1002041
 							religion=catholic culture=german
 							father=100000524	# Richard Sayn-Wittgenstein-Berleburg
-							mother=100000525	# GFN Louise Batthyány de Német-Ujvár
+							mother=100000525	# GFN Louise Batthyány de Német-Újvár
 							1982.10.17={birth=yes}
 						}
 						100000528={	# 2f) Ariana Maria-Gobertina (b.Leawood, Kansas 23 Aug 1985); m.Charleston, South Carolina 27 Jun 2014 Zachary B Wendkos
@@ -8144,7 +7570,7 @@
 							dynasty=1002041
 							religion=catholic culture=german
 							father=100000524	# Richard Sayn-Wittgenstein-Berleburg
-							mother=100000525	# GFN Louise Batthyány de Német-Ujvár
+							mother=100000525	# GFN Louise Batthyány de Német-Újvár
 							1985.08.23={birth=yes}
 							2014.06.27={add_spouse=100000529}	# B Wendkos
 						}
@@ -9316,7 +8742,7 @@
 								father=100000049	# Aloys-Konstantin v. Löwenstein-Wertheim
 								mother=100019095	# Anastasia v. Hohenzollern
 								1983.03.07={birth=yes}
-								2012.09.22={add_spouse=100000062}	# GFN Olga zu Castell-Rüdenhausen
+								2012.09.22={add_spouse=100011073}	# Olga  Graziella zu Castell-Rüdenhausen
 							}
 						100000063={	# 6f) Elisabeth-Alexandra Ninfa Paula Nicoletta Franziska Anastasia Carla Johanna Benedicta Conrada Rita Consolata Maria (b.Würzburg 2 May 1944); m.Bronnbach 9 Jul 1973 (rel) 25 Jul 1973 José Maria Trénor y Suarez de Lezo (b.Valencia 25 Jul 1939)
 							name=Elisabeth-Alexandra
