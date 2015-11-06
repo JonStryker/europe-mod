@@ -1480,7 +1480,7 @@
 						2006.04.04={death=yes}  # Warsaw
 					}
 						100112093={	# 1f) Andrzej Jan Emeryk Stanislaw (b.Geneva 18 Sep 1940); m.1st Rome 16 Jun 1972 Ysabel Geraldine Trujillo (b.Chicago 28 Sep 1945); m.2nd Nicosia 20 Dec 1985 Wafa Stephan (b.Jounie, Lebanon 20 Aug 1956)
-							name="Andrzej Jan"
+							name=Andrzej
 							dynasty=1012008
 							religion=catholic culture=polish
 							father=100112090	# Stanislaw-Kostka Tarnowski
@@ -1495,7 +1495,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=italian
-								father=100112093	# Andrzej Jan Tarnowski
+								father=100112093	# Andrzej Tarnowski
 								mother=100112094	# Ysabel Geraldine Trujillo
 								1972.11.29={birth=yes}  # Rome
 							}
@@ -1503,7 +1503,7 @@
 								name="Jan Marcos"
 								dynasty=1012008
 								religion=catholic culture=polish
-								father=100112093	# Andrzej Jan Tarnowski
+								father=100112093	# Andrzej Tarnowski
 								mother=100112094	# Ysabel Geraldine Trujillo
 								1976.12.02={birth=yes}  # Buenos Aires
 								2003.07.02={add_spouse=100112100}	# Valentina Alejandra Munoz
@@ -1530,7 +1530,7 @@
 								female=yes
 								dynasty=1012008
 								religion=catholic culture=english
-								father=100112093	# Andrzej Jan Tarnowski
+								father=100112093	# Andrzej Tarnowski
 								mother=100112095	# Wafa Stephan
 								1986.10.13={birth=yes}  # London
 							}
@@ -1538,7 +1538,7 @@
 								name="Jan Stefan"
 								dynasty=1012008
 								religion=catholic culture=english
-								father=100112093	# Andrzej Jan Tarnowski
+								father=100112093	# Andrzej Tarnowski
 								mother=100112095	# Wafa Stephan
 								1987.10.11={birth=yes}  # London
 							}
@@ -5009,16 +5009,6 @@
 			1782.01.01={birth=yes}
 			1857.02.13={death=yes}  # Wiesbaden
 		}
-		100114444={	# 5b) Ludwika; m.1810 Ignacy Skarbek (d.Lvov 30 Oct 1842)
-			name=Ludwika
-			female=yes
-			dynasty=1012006
-			religion=catholic culture=polish
-			father=100114407	# Dominyk Potocki
-			mother=100114408	# Anna Czosnowski
-			1784.01.01={birth=yes}
-			1855.01.01={death=yes}  # EST.
-		}
 	100114446={	# 4a) Piotr (1745-Bialolowka 15 Jan 1829); m.Css Krystyna Potocki (1753-1789)
 		name=Piotr
 		dynasty=1012006
@@ -6164,8 +6154,8 @@
 					1820.04.23={birth=yes}
 					1909.01.14={death=yes}
 				}
-		100111910={	#         			Magdalena           			Raczynska      
-			name=Magdalena #  /en/name/1825997/magdalena-raczynska/
+		100111910={	#         			Ludwika Magdalena           	Raczynska      
+			name="Ludwika Magdalena" #  /en/name/1825997/magdalena-raczynska/
 			female=yes
 			dynasty=1012007
 			religion=catholic culture=polish
@@ -6272,7 +6262,7 @@
 			father=100111857	# Kazimierz Jogailaitis
 			mother=100111858	# Elisabeth v. Habsburg
 			1461.08.05={birth=yes}
-			1495.02.15={add_spouse=100111872}	# PSS Jelena of Moscow
+			1495.02.15={add_spouse=100111872}	# PSS Jelena Rurikovic
 			1506.08.19={death=yes}
 		}
 		100111873={	# 6d) Sofia (6 May 1464-5 Oct 1512); m.14 Feb 1479 Mkgf Friedrich of Brandenburg-Ansbach (d.4 Apr 1536)
@@ -6324,7 +6314,7 @@
 				mother=100111878	# PSS Bona Sforza
 				1520.08.01={birth=yes}
 				1543.05.05={add_spouse=100021162}	# Elisabeth v. Habsburg
-				1547.01.01={add_spouse=100111885}	# PSS Barbara Radziwill
+				1547.01.01={add_spouse=100111885}	# Barbara Radziwill
 				1553.01.01={remove_spouse=100111885}
 				1553.02.01={add_spouse=100021232}	# Katharina v. Habsburg
 				1572.07.07={death=yes}
@@ -6941,10 +6931,27 @@
 	name="Michal Lubomirski"
 	dynasty=0
 	religion=catholic culture=polish
-	1761.01.01={birth=yes}
-	1786.01.01={add_spouse=100111910}	# Magdalena Raczynski
-	1831.01.01={death=yes}  # EST.
+	1752.01.01={birth=yes}
+	1786.01.01={add_spouse=100111910}	# Ludwika Magdalena Raczynski
+	1825.01.01={death=yes}
 }
+100014177={ # Pss        Therese                   Lubomirski                               (1685-1712)     0
+	name="Therese Lubomirski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1685.01.01={birth=yes}
+	1712.01.16={death=yes}  # Innsbruck
+}
+100015185={ # Pss        Ludwika Amelia            Lubomirski                               (1722-1778)     0
+	name="Ludwika Amelia Lubomirski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1722.05.03={birth=yes}
+	1778.07.27={death=yes}
+}
+
 
 100111806={# Jerzy Sebastian	Lubomirski (1616-1667)
 	name="Jerzy Sebastian"
@@ -7052,7 +7059,7 @@
 					1812.01.01={birth=yes}
 					1873.01.01={death=yes}
 				}
-					100111236={ # Pss Wanda Lubomirski 1841-1910)
+					100111236={ # Pss Wanda Lubomirski (1841-1910)
 						name="Wanda Lubomirski"
 						female=yes
 						dynasty=1012004
@@ -8440,6 +8447,14 @@
 	1667.02.27={birth=yes}  # Königsberg
 	1695.03.23={death=yes}  # Brieg
 }
+100111885={ # Pss Barbara Radziwill (1523-1571)     0
+	name="Barbara Radziwill"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1523.12.06={birth=yes}
+	1571.05.08={death=yes}
+}
 
 100110678={# Aleksander Ludwik	Radziwill (1594-1654)
 	name="Aleksander Ludwik"
@@ -9355,7 +9370,7 @@
 							father=100110840	# Karol Radziwill
 							mother=100110841	# Jadwiga Sobanski
 							1853.05.17={birth=yes}
-							1879.09.08={add_spouse=100110843}	# Maria Ev Kiezgajlo-Zawiski
+							1879.09.08={add_spouse=100110843}	# Maria Eva Kiezgajlo-Zawiski
 							1903.09.17={death=yes}
 						}
 					100110844={# 3e) Zygmunt (Warsaw 2 Mar 1822-Ermenonville 7 Jul 1892)
@@ -10850,7 +10865,7 @@
 ##  100110650	Radziwill				1012003
 
 
-##  100110600	Zamoyski2				1012002
+##  100110600	Zamoyski 				1012002
 100110600={# Józef Saryusz, Ct Zamoyski (17 Mar 1797-Brestovan, Hungary 3 Jan 1882); m.15 Oct 1824 Eleonore Gfn von Abensperg u.Traun (18 Mar 1803-Ober-St.Beit, nr Vienna 2 Jun 1882)
 	name=Józef
 	dynasty=1012002
@@ -11021,26 +11036,41 @@
 			1903.08.19={birth=yes}
 			1927.02.26={death=yes}
 		}
-##  100110600	Zamoyski2				1012002
 
-
-##  100110300	Zamoyski				1012001	
-100110301={# Andrzej	Zamoyski (1716-1792)
-	name=Andrzej
+100110310={# Michal Zdzislaw	Zamoyski (1679-1735)
+	name="Michal Zdzislaw"
 	dynasty=1012001
 	religion=catholic culture=polish
-	1716.02.12={birth=yes}
-	1792.02.10={death=yes}
+	1679.01.01={birth=yes}
+	1735.03.07={death=yes}
 }
-	100111403={ # Pss        Anna                      Zamoyski                                 (1772-1859)     3
-		name=Anna
+	100114016={# Helena	Zamoyski (1713-1761)
+		name=Helena
 		female=yes
 		dynasty=1012001
 		religion=catholic culture=polish
-		father=100110301	# Andrzej Zamoyski
-		1772.08.01={birth=yes}
-		1859.11.26={death=yes}
+		father=100110310	# Michal Zdzislaw Zamoyski
+		1713.01.01={birth=yes}
+		1761.01.01={death=yes}
 	}
+	100110301={# Andrzej	Zamoyski (1716-1792)
+		name=Andrzej
+		dynasty=1012001
+		religion=catholic culture=polish
+		father=100110310	# Michal Zdzislaw Zamoyski
+		1716.02.12={birth=yes}
+		1792.02.10={death=yes}
+	}
+		100111403={ # Pss        Anna                      Zamoyski                                 (1772-1859)     3
+			name=Anna
+			female=yes
+			dynasty=1012001
+			religion=catholic culture=polish
+			father=100110301	# Andrzej Zamoyski
+			1772.08.01={birth=yes}
+			1859.11.26={death=yes}
+		}
+
 100110300={# Stanislaw Kostka Saryusz Ct Zamosc Zamoyski (Warsaw 13 Jan 1775-Vienna 2 Apr 1856); m.Pulawy 20 May 1798 Pss Sophie Czartoryski (Warsaw 15 Sep 1778-Florence 27 Feb 1837)
 	name="Stanislaw Kostka"
 	dynasty=1012001
