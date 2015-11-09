@@ -3,11 +3,502 @@
 ##### Schwarzenberg		1013000		100085500
 ##### Kinsky			1013001		100085700
 ##### Czernin			1013002		100086200
-##### Pod.-Licht.		1013003		100086700
+##### Pod.-Licht.		1013003		
+##### Chotek			1013004		100086700
 #######################################################
 
 
-##### Pod.-Licht.		1013003		100086700
+
+##### Chotek			1013004		100086700
+100086701={	# Karel Chotek z Chotkova a Vojnína, +1638; m.Alžbeta Charvítová z Barštejna
+	name=Karel
+	dynasty=1013004
+	religion=catholic culture=german
+	1590.1.1={birth=yes}
+	1620.01.01={add_spouse=100086702}	# Alžbeta Charvítová z Barštejna
+	1638.01.01={death=yes}
+}
+	100086703={	# A2. Jirí Rudolf, *1628, +30.4.1673
+		name="Jirí Rudolf"
+		dynasty=1013004
+		religion=catholic culture=german
+		father=100086701	# Karel
+		mother=100086702	# Alžbeta Charvítová z Barštejna
+		1628.01.01={birth=yes}
+		1673.04.30={death=yes}
+	}
+	100086704={	# A3. Vilém, *after 1628, +1674; 1m: Polyxena Dorota Eleonora Feldhofer von Feldhoffen (+1670); 2m: 21.7.1672 Johanna Sabina Proy von Gaiselberg und Fildtelstein (*1650 +1692)
+		name=Vilém
+		dynasty=1013004
+		religion=catholic culture=german
+		father=100086701	# Karel
+		mother=100086702	# Alžbeta Charvítová z Barštejna
+		1629.01.01={birth=yes}
+		1654.01.01={add_spouse=100086705}	# Polyxena Dorota Feldhofer von Feldhoffen
+		1672.07.21={add_spouse=100086706}	# Johanna Sabina Proy von Gaiselberg und Fildtelstein
+		1674.01.01={death=yes}
+	}
+		100086708={	# B2. Alžbeta Polyxena, *1670, +1731; m.Václav Ignác Cukr z Talmfeldu
+			name="Alžbeta Polyxena"
+			female=yes
+			dynasty=1013004
+			religion=catholic culture=german
+			father=100086704	# Vilém
+			mother=100086705	# Polyxena Dorota Feldhofer von Feldhoffen
+			1670.01.01={birth=yes}
+			1731.01.01={death=yes}
+		}
+		100086710={	# B3. Václav Antonín, cr Freiherr 6.2.1702, cr Graf in Bohemia 13.5.1723, cr Reichsgraf 4.10.1745, *26.2.1674, +2.5.1754; m.Praha 28.12.1698 Maria Theresia Ludmilla Scheidler von Scheidlern (*1684 +1709)
+			name="Václav Antonín"
+			dynasty=1013004
+			religion=catholic culture=german
+			father=100086704	# Vilém
+			mother=100086706	# Johanna Sabina Proy von Gaiselberg und Fildtelstein
+			1674.02.26={birth=yes}
+			1698.12.28={add_spouse=100086711}	# Maria Theresia Scheidler von Scheidlern
+			1754.05.02={death=yes}
+		}
+			100086712={	# C2. Jan Karel, *Praha 29.10.1704, +Wien 8.11.1787; m.Wien 25.5.1740 Gfn Anna Maria Theresie Kottulinsky von Kotulin (*Wien 17.6.1711, +Wien 26.3.1798)
+				name="Jan Karel"
+				dynasty=1013004
+				religion=catholic culture=german
+				father=100086710	# Václav Antonín
+				mother=100086711	# Maria Theresia Scheidler von Scheidlern
+				1704.10.29={birth=yes}  # Praha
+				1740.05.25={add_spouse=100086713}	# Anna Theresie Kottulinsky von Kotulin
+				1787.11.08={death=yes}  # Wien
+			}
+				100086714={	# D1. Jan Nepomuk Rudolf, *Wien 17.5.1749, +Wien 26.8.1824; m.Wien 15.2.1772 Gfn Maria Sidonia Clary-Aldringen (*Praha 10.11.1748, +Wien 16.2.1824)
+					name="Jan Rudolf"
+					dynasty=1013004
+					religion=catholic culture=german
+					father=100086712	# Jan Karel
+					mother=100086713	# Anna Theresie Kottulinsky von Kotulin
+					1749.05.17={birth=yes}  # Wien
+					1772.02.15={add_spouse=100024784}	# Maria Sidonia Clary-Aldringen
+					1824.08.26={death=yes}  # Wien
+				}
+					100086716={	# E1. Jan Nepomuk Josef, Imperial Chamberlain, *Wien 24.2.1773, +Wien 8.4.1824; m.Wien 12.10.1799 Maria Isabella von Rottenhan (*Praha 6.7.1774, +Praha 14.12.1817)
+						name=Jan
+						dynasty=1013004
+						religion=catholic culture=german
+						father=100086714	# Jan
+						mother=100024784	# Maria Sidonia Clary-Aldringen
+						1773.02.24={birth=yes}  # Wien
+						1799.10.12={add_spouse=100086717}	# Maria Isabella von Rottenhan
+						1824.04.08={death=yes}  # Wien
+					}
+						100086718={	# F1. Jindrich, *Praha 26.5.1802, +Praha 24.12.1864; m.Praha 12.7.1831 Gfn Karolina Aloisie von und zu Eltz gen.Faust von Stromberg (*12.7.1810 +23.8.1862)
+							name=Jindrich
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086716	# Jan
+							mother=100086717	# Maria Isabella von Rottenhan
+							1802.05.26={birth=yes}  # Praha
+							1831.07.12={add_spouse=100001815}	# Karolina Aloisie von und zu Eltz gen.Faust von Stromberg
+							1864.12.24={death=yes}  # Praha
+						}
+							100086720={	# G1. Rudolf Karel, *Praha 23.6.1832, +Gáad 1.10.1894; 1m: Praha 26.10.1858 Pss Maria Theresia von Auersperg (*13.6.1837 +1.2.1888); 2m: Budapest 30.4.1894 Frn Klaudine von Gudenus (*25.4.1871 +10.5.1949)
+								name="Rudolf Karel"
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086718	# Jindrich
+								mother=100001815	# Karolina Aloisie von und zu Eltz gen.Faust von Stromberg
+								1832.06.23={birth=yes}  # Praha
+								1858.10.26={add_spouse=100021839}	# Maria Theresia von Auersperg
+								1894.04.30={add_spouse=100086722}	# Klaudine von Gudenus
+								1894.10.01={death=yes}  # Gáad
+							}
+								100086723={	# H1. Jan Rudolf, *Praha 3.7.1865, +Praha 25.11.1884
+									name="Jan Rudolf"
+									dynasty=1013004
+									religion=catholic culture=german
+									father=100086720	# Rudolf Karel
+									mother=100021839	# Maria Theresia von Auersperg
+									1865.07.03={birth=yes}  # Praha
+									1884.11.25={death=yes}  # Praha
+								}
+							100086724={	# G2. Emerich, *Praha 3.12.1833, +Volšovy 12.4.1911; m.Trento 15.1.1869 Gfn Julie Henrietta von Thun-Hohenstein (*21.3.1848 +12.3.1889)
+								name=Emerich
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086718	# Jindrich
+								mother=100001815	# Karolina Aloisie von und zu Eltz gen.Faust von Stromberg
+								1833.12.03={birth=yes}  # Praha
+								1869.01.15={add_spouse=100024244}	# Julie Henrietta von Thun-Hohenstein
+								1911.04.12={death=yes}  # Volšovy
+							}
+							100086726={	# G3. Ferdinand, *Veltrusy 25.7.1838, +Volšovy 7.7.1913; m.Praha 25.5.1869 Gfn Josefina Swéerts-Sporck (*Liberec 10.12.1848, +Kacina 14.3.1924)
+								name=Ferdinand
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086718	# Jindrich
+								mother=100001815	# Karolina Aloisie von und zu Eltz gen.Faust von Stromberg
+								1838.07.25={birth=yes}  # Veltrusy
+								1869.05.25={add_spouse=100086727}	# Josefina Swéerts-Sporck
+								1913.07.07={death=yes}  # Volšovy
+							}
+							100086728={	# G5. Arnošt, *Praha 13.3.1844, +Veltrusy 24.1.1927
+								name=Arnošt
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086718	# Jindrich
+								mother=100001815	# Karolina Aloisie von und zu Eltz gen.Faust von Stromberg
+								1844.03.13={birth=yes}  # Praha
+								1927.01.24={death=yes}  # Veltrusy
+							}
+							100086729={	# G6. Karolina, *Kacina 4.10.1846, +Tulln 26.8.1933; m.Kacina 5.10.1867 Gf Emanuel Maria von Thun-Hohenstein (*17.12.1836 +30.1.1888)
+								name=Karolina
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086718	# Jindrich
+								mother=100001815	# Karolina Aloisie von und zu Eltz gen.Faust von Stromberg
+								1846.10.04={birth=yes}  # Kacina
+								1933.08.26={death=yes}  # Tulln
+							}
+						100086731={	# F2. Sidonie, *21.8.1805 , +Praha 2.2.1890; m.Praha 16.7.1832 Gf Friedrich Dominik von und zu Fünfkirchen (*29.5.1805, +Friedstein 13.8.1867)
+							name=Sidonie
+							female=yes
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086716	# Jan
+							mother=100086717	# Maria Isabella von Rottenhan
+							1805.08.21={birth=yes}
+							1890.02.02={death=yes}
+						}
+					100086733={	# E3. Josef, *19.3.1776, +Wagram 6.7.1809; m.6.10.1802 Gfn Maria Sophia von Auersperg (*7.9.1780, +7.12.1865)
+						name=Josef
+						dynasty=1013004
+						religion=catholic culture=german
+						father=100086714	# Jan
+						mother=100024784	# Maria Sidonia Clary-Aldringen
+						1776.03.19={birth=yes}
+						1802.10.06={add_spouse=100021426}	# Maria Sophia von Auersperg
+						1809.07.06={death=yes}  # Wagram
+					}
+						100086735={	# F1. Vilém, *17.9.1803, +10.2.1850; m.Kromeríž 7.6.1836 Gfn Aloisie Ugarte (*16.3.1813, +Torre del Greco nr Naples 30.6.1887)
+							name=Vilém
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086733	# Josef
+							mother=100021426	# Maria Sophia von Auersperg
+							1803.09.17={birth=yes}
+							1836.06.07={add_spouse=100086736}	# Aloisie Ugarte
+							1850.02.10={death=yes}
+						}
+							100086737={	# G1. Karolina Marie, *28.7.1837, +Kravsko 24.2.1901; m.Venezia 27.8.1858 Gf Karl von Lützow (*Venezia 24.9.1830, +Venezia 5.1.1892)
+								name=Karolina
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086735	# Vilém
+								mother=100086736	# Aloisie Ugarte
+								1837.07.28={birth=yes}
+								1901.02.24={death=yes}  # Kravsko
+							}
+							100086739={	# G2. Aloisia Ernestina, *Brno 19.12.1840, +Roma 6.6.1898; m.Kravsko 4.11.1857 Gf Ernst Dentice di Fresso e San Vito (*10.10.1825, +23.10.1886)
+								name="Aloisia Ernestina"
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086735	# Vilém
+								mother=100086736	# Aloisie Ugarte
+								1840.12.19={birth=yes}  # Brno
+								1898.06.06={death=yes}  # Roma
+							}
+						100086741={	# F2. Karel, *29.4.1805, +Vysocany u Chomutova 31.1.1832
+							name=Karel
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086733	# Josef
+							mother=100021426	# Maria Sophia von Auersperg
+							1805.04.29={birth=yes}
+							1832.01.31={death=yes}  # Vysocany_u_Chomutova
+						}
+					100086742={	# E4. Maria Aloisia, *Neuhof 21.6.1777, +Teplice 8.3.1864; m.Neuhof 26.10.1802 Fst Carl Joseph Clary-Aldringen (*Wien 12.12.1777, +Wien 31.5.1831)
+						name="Maria Aloisia"
+						female=yes
+						dynasty=1013004
+						religion=catholic culture=german
+						father=100086714	# Jan
+						mother=100024784	# Maria Sidonia Clary-Aldringen
+						1777.06.21={birth=yes}  # Neuhof
+						1864.03.08={death=yes}  # Teplice
+					}
+					100086744={	# E5. Václav František, *23.7.1778, +1.8.1807
+						name="Václav František"
+						dynasty=1013004
+						religion=catholic culture=german
+						father=100086714	# Jan
+						mother=100024784	# Maria Sidonia Clary-Aldringen
+						1778.07.23={birth=yes}
+						1807.08.01={death=yes}
+					}
+					100086745={	# E8. Karel, *Wien 23.7.1783, +Wien 28.12.1868, bur Valtírov; m.Wien 9.6.1817 Gfn Maria Sophia Berchtoldová z Uhercic (*21.1.1794 +18.2.1878)
+						name="Karel _írov"
+						dynasty=1013004
+						religion=catholic culture=german
+						father=100086714	# Jan
+						mother=100024784	# Maria Sidonia Clary-Aldringen
+						1783.07.23={birth=yes}  # Wien
+						1817.06.09={add_spouse=100086746}	# Maria Sophia Berchtoldová z Uhercic
+						1868.12.28={death=yes}  # Wien
+					}
+						100086747={	# F3. Antonín, *Innsbruck 27.3.1822, +Velké Brezno 1.6.1883; m.Ortenberg 15.7.1851 Olga Gfn von Moltke (*Karlsruhe 24.5.1832, +Graz 25.8.1906)
+							name=Antonín
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086745	# Karel _írov
+							mother=100086746	# Maria Sophia Berchtoldová z Uhercic
+							1822.03.27={birth=yes}  # Innsbruck
+							1851.07.15={add_spouse=100086748}	# Olga von Moltke
+							1883.06.01={death=yes}  # Velké Brezno
+						}
+							100086749={	# G1. Karel Maria Pavel Antonín Bohuslav, *Velké Brezno 29.8.1853, +Velké Brezno 11.8.1926; m.Praha 14.10.1885 Pss Adelheid Marie Therese zu Hohenlohe-Langenburg (*3.11.1864 +10.2.1937)
+								name=Karel
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086747	# Antonín
+								mother=100086748	# Olga von Moltke
+								1853.08.29={birth=yes}  # Velké Brezno
+								1885.10.14={add_spouse=100009916}	# Adelheid zu Hohenlohe-Langenburg
+								1926.08.11={death=yes}  # Velké Brezno
+							}
+								100086751={	# H1. Karel Maria Ladislav Antonín Jan Josef Pascal, *Velké Brezno 10.4.1887, +Blumenthal 23.1.1970; m.Zavar 17.3.1921 Gfn Livia Clara Mailáth de Székhely (*14.7.1888 +30.1.1970)
+									name=Karel
+									dynasty=1013004
+									religion=catholic culture=german
+									father=100086749	# Karel
+									mother=100009916	# Adelheid zu Hohenlohe-Langenburg
+									1887.04.10={birth=yes}  # Velké Brezno
+									1921.03.17={add_spouse=100086752}	# Livia Clara Mailáth de Székhely
+									1970.01.23={death=yes}  # Blumenthal
+								}
+								100086753={	# H2. Antoinett, *Velké Brezno 19.9.1888, +Dresden 11.10.1910
+									name=Antoinett
+									female=yes
+									dynasty=1013004
+									religion=catholic culture=german
+									father=100086749	# Karel
+									mother=100009916	# Adelheid zu Hohenlohe-Langenburg
+									1888.09.19={birth=yes}  # Velké Brezno
+									1910.10.11={death=yes}  # Dresden
+								}
+							100086754={	# G2. Marie Sophie Olga Karoline Antonie, *Velké Brezno 24.8.1855, +Velké Brezno 22.12.1941; m.Praha 15.2.1885 Gf Heinrich Maria von Nostitz-Rieneck (*8.7.1854 +21.8.1895)
+								name=Marie
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086747	# Antonín
+								mother=100086748	# Olga von Moltke
+								1855.08.24={birth=yes}  # Velké Brezno
+								1941.12.22={death=yes}  # Velké Brezno
+							}
+						100086756={	# F4. Emanuel, *19.9.1823, +Praha 15.1.1843
+							name=Emanuel
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086745	# Karel _írov
+							mother=100086746	# Maria Sophia Berchtoldová z Uhercic
+							1823.09.19={birth=yes}
+							1843.01.15={death=yes}  # Praha
+						}
+						100086757={	# F6. Bohuslav, Privy counsellor, envoy, *Praha 3.7.1829, +Görlitz 11.10.1896; m.Kostelec nad Orlicí 30.10.1859 Gfn Vilemína Kinská z Vchynic a Tetova (*19.7.1838 +5.3.1886)
+							name=Bohuslav
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086745	# Karel _írov
+							mother=100086746	# Maria Sophia Berchtoldová z Uhercic
+							1829.07.03={birth=yes}  # Praha
+							1859.10.30={add_spouse=100086126}	# Vilemína Kinská z Vchynic Tetova
+							1896.10.11={death=yes}  # Görlitz
+						}
+							100086759={	# G1. Wolfgang Karel Vilém Bohuslav Josef, *Berlin 15.8.1860, +Linz 10.12.1926; m.Wien 24.11.1896 Anna Elisabeth von Künell (Lienz 12.4.1871-Linz 26.12.1922)
+								name=Wolfgang
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086757	# Bohuslav
+								mother=100086126	# Vilemína Kinská z Vchynic Tetova
+								1860.08.15={birth=yes}  # Berlin
+								1896.11.24={add_spouse=100086760}	# Anna Elisabeth von Künell
+								1926.12.10={death=yes}  # Linz
+							}
+							100086761={	# G3. Maria Pia, *Berlin 11.7.1863, +Jílové u Decína 21.6.1935; m.Praha 6.6.1887 Fst Jaroslav von Thun-Hohenstein (*23.5.1864 +5.3.1926)
+								name="Maria Pia"
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086757	# Bohuslav
+								mother=100086126	# Vilemína Kinská z Vchynic Tetova
+								1863.07.11={birth=yes}  # Berlin
+								1935.06.21={death=yes}  # Jílové_u_Decína
+							}
+							100086763={	# G4. Karolina, *Berlin 19.11.1865, +Chlumek u Sokolova 29.11.1919; m.Praha 2.10.1886 Gf Leopold Abraham von Nostitz-Rieneck (*8.7.1865 +5.10.1945)
+								name=Karolina
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086757	# Bohuslav
+								mother=100086126	# Vilemína Kinská z Vchynic Tetova
+								1865.11.19={birth=yes}  # Berlin
+								1919.11.29={death=yes}  # Chlumek_u_Sokolova
+							}
+							100020062={	# G5. Sofia Maria Josefína Albína, cr Herzogin von Hohenberg 4.10.1900, *Stuttgart 1.3.1868, +Sarajevo 28.6.1914; m.Zákupy 1.7.1900 Franz Ferdinand von Habsburg-Lothringen-d'Este (*18.12.1863, +28.6.1914)
+								name=Sofia
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086757	# Bohuslav
+								mother=100086126	# Vilemína Kinská z Vchynic Tetova
+								1868.03.01={birth=yes}  # Stuttgart
+								1900.10.04={dynasty=1002050}
+								1914.06.28={death=yes}  # Sarajevo
+							}
+							100086767={	# G7. Oktavia Maria Josefína Karolína, *Bruxelles 5.5.1873, +Waldsee, Württemberg 29.11.1946; m.Praha 1.10.1898 Gf Joachim von Schönburg-Glauchau-Waldenburg (*20.7.1873, +3.7.1943)
+								name=Oktavia
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=frankish
+								father=100086757	# Bohuslav
+								mother=100086126	# Vilemína Kinská z Vchynic Tetova
+								1873.05.05={birth=yes}  # Bruxelles
+								1946.11.29={death=yes}  # Waldsee Württemberg
+							}
+							100086769={	# G8. Maria Antonia Josefa Karolína Žofie Bonifácia Nepomucena, *Kostelec nad Orlicí 12.5.1874, +Hohenthurm 13.6.1930; m.Velké Brezno 27.9.1893 Carl Adam Ludwig Johann Traugott von Wuthenau-Hohenturm (*Dresden 26.6.1863, +Halle an der Saale 13.11.1946)
+								name=Maria
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086757	# Bohuslav
+								mother=100086126	# Vilemína Kinská z Vchynic Tetova
+								1874.05.12={birth=yes}  # Kostelec nad Orlicí
+								1930.06.13={death=yes}  # Hohenthurm
+							}
+							100086771={	# G9. Marie Henriette Leopoldina, *Kostelec 9.7.1880, +Gutenberg 19.3.1964; m.Chlum nad Ohrí 1.3.1921 Gf Leopold Abraham von Nostitz-Rieneck (*8.7.1865 +5.10.1945)
+								name=Marie
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086757	# Bohuslav
+								mother=100086126	# Vilemína Kinská z Vchynic Tetova
+								1880.07.09={birth=yes}  # Kostelec
+								1964.03.19={death=yes}  # Gutenberg
+							}
+					100086773={	# E9. Terezie, *12.6.1785, +Praha 20.12.1872
+						name=Terezie
+						female=yes
+						dynasty=1013004
+						religion=catholic culture=german
+						father=100086714	# Jan
+						mother=100024784	# Maria Sidonia Clary-Aldringen
+						1785.06.12={birth=yes}
+						1872.12.20={death=yes}  # Praha
+					}
+					100086774={	# E10. Herman, *Wien 28.6.1786, +Milano 25.4.1822; m.22.1.1813 Henrietta Brunsvick de Korompa (*Ofen, Budapest 12.10.1789, +Wien 27.1.1857)
+						name=Herman
+						dynasty=1013004
+						religion=catholic culture=german
+						father=100086714	# Jan
+						mother=100024784	# Maria Sidonia Clary-Aldringen
+						1786.06.28={birth=yes}  # Wien
+						1813.01.22={add_spouse=100086775}	# Henrietta Brunsvick de Korompa
+						1822.04.25={death=yes}  # Milano
+					}
+						100086776={	# F1. Hermína, *Budapest 14.3.1815, +Wien 3.4.1882; m.Dolná Krupá 14.5.1844 Franz Maria Johann Folliot de Crenneville-Poutet (*Sopron 22.3.1815, +Gmunden 22.6.1888)
+							name=Hermína
+							female=yes
+							dynasty=1013004
+							religion=catholic culture=hungarian
+							father=100086774	# Herman
+							mother=100086775	# Henrietta Brunsvick de Korompa
+							1815.03.14={birth=yes}  # Budapest
+							1882.04.03={death=yes}  # Wien
+						}
+						100086778={	# F2. Otto Ferdinand, *14.5.1816, +Wien 23.11.1889
+							name="Otto Ferdinand"
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086774	# Herman
+							mother=100086775	# Henrietta Brunsvick de Korompa
+							1816.05.14={birth=yes}
+							1889.11.23={death=yes}  # Wien
+						}
+						100086779={	# F3. Rudolf, *Milano 12.2.1822, +Futtak 3.12.1923; m.Wien 28.6.1862 Gfn Maria Antonie von Khevenhüller-Metsch (*Komorní Hrádek 17.10.1838, +Wien 31.10.1892)
+							name=Rudolf
+							dynasty=1013004
+							religion=catholic culture=german
+							father=100086774	# Herman
+							mother=100086775	# Henrietta Brunsvick de Korompa
+							1822.02.12={birth=yes}  # Milano
+							1862.06.28={add_spouse=100015012}	# Maria Antonie von Khevenhüller-Metsch
+							1923.12.03={death=yes}  # Futtak
+						}
+							100086781={	# G1. Henrieta Hermína Rudolfína Ferdinanda Marie Antonie Anna, *Dolná Krupá 24.11.1863, +Dolná Krupá 13.2.1946
+								name=Henrieta
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086779	# Rudolf
+								mother=100015012	# Maria Antonie von Khevenhüller-Metsch
+								1863.11.24={birth=yes}  # Dolná Krupá
+								1946.02.13={death=yes}  # Dolná Krupá
+							}
+							100086782={	# G3. Gabriela, *Dolná Krupá 11.3.1868, +Dolná Krupá 18.12.1933; m.Dolná Krupá 15.4.1896 Gf Maria Franz von Schönborn (*Malesice 4.8.1870, +Burg Schleinitz 17.9.1942)
+								name=Gabriela
+								female=yes
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086779	# Rudolf
+								mother=100015012	# Maria Antonie von Khevenhüller-Metsch
+								1868.03.11={birth=yes}  # Dolná Krupá
+								1933.12.18={death=yes}  # Dolná Krupá
+							}
+							100086784={	# G4. Rudolf Otto Herman Josef Maria, Privy counsellor, *Dolná Krupá 17.4.1870, +Dolná Krupá 10.10.1921; m.Budapest 25.9.1895 Irma Marie Gfn Ráday de Ráda (*Iklada 2.3.1871, +Aspang a.W. 18.9.1945)
+								name=Rudolf
+								dynasty=1013004
+								religion=catholic culture=german
+								father=100086779	# Rudolf
+								mother=100015012	# Maria Antonie von Khevenhüller-Metsch
+								1870.04.17={birth=yes}  # Dolná Krupá
+								1895.09.25={add_spouse=100086785}	# Irma Ráday de Ráda
+								1921.10.10={death=yes}  # Dolná Krupá
+							}
+			100086786={	# C3. Rudolf, *Jevineves 24.1.1706, +Wien 7.7.1771, bur Veltrusy; m.1.1.1737 Gfn Marie Aloisie Kinská z Vchynic a Tetova (*26.12.1707 +21.8.1786)
+				name=Rudolf
+				dynasty=1013004
+				religion=catholic culture=german
+				father=100086710	# Václav Antonín
+				mother=100086711	# Maria Theresia Scheidler von Scheidlern
+				1706.01.24={birth=yes}  # Jevineves
+				1737.01.01={add_spouse=100086171}	# Marie Aloisie Kinská z Vchynic Tetova
+				1771.07.07={death=yes}  # Wien
+			}
+				100086788={	# D1. Marie Quidobaldina Brigita; 1m: Gf Johann Philipp Taaffe (*1733 +1765); 2m: Josef Emanuel Canal de Malabaila
+					name=Marie
+					female=yes
+					dynasty=1013004
+					religion=catholic culture=german
+					father=100086786	# Rudolf
+					mother=100086171	# Marie Aloisie Kinská z Vchynic Tetova
+					1739.01.01={birth=yes}
+					1808.01.01={death=yes}  # EST.
+				}
+#1.1.1={holder=100086701} # Karel Chotek z Chotkova a Vojnína
+#1638.01.01={holder=100086703} # A2. Jirí Rudolf
+#1673.04.30={holder=100086704} # A3. Vilém
+#1674.01.01={holder=100086707} # B1. Ignác Rudolf
+#1684.01.01={holder=100086710} # B3. Václav Antonín
+#1754.05.02={holder=100086712} # C2. Jan Karel
+#1787.11.08={holder=100086714} # D1. Jan Nepomuk Rudolf
+#1824.08.26={holder=100086745} # E8. Karel
+#1868.12.28={holder=100086747} # F3. Antonín
+#1883.06.01={holder=100086749} # G1. Karel Maria Pavel Antonín Bohuslav
+#1926.08.11={holder=100086751} # H1. Karel Maria Ladislav Antonín Jan Josef Pascal
+##### Chotek			1013004		100086700
+
+
+##### Pod.-Licht.		1013003		
 100024903={ # Gf Leopold Franz Podstatzky-Lichtenstein (1801-1848)
 	name="Leopold Franz"
 	dynasty=1013003
@@ -79,7 +570,7 @@
 					mother=100085816	# Marie Margarete Kinsky von Wchinitz u.Tettau
 					1935.05.22={birth=yes}
 				}
-##### Pod.-Licht.		1013003		100086700
+##### Pod.-Licht.		1013003		
 
 
 ##### Czernin			1013002		100086200-xxx
