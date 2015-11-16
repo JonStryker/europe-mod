@@ -26,7 +26,7 @@
 		female=yes
 		dynasty=1002061
 		religion=catholic culture=german
-		father=100021234
+		father=100021234	# Johann von der Mark
 		1512.07.17={birth=yes}  # Düsseldorf
 		1554.02.21={death=yes}  # Weimar
 	}
@@ -34,7 +34,7 @@
 		name=Wilhelm
 		dynasty=1002061
 		religion=catholic culture=german
-		father=100021234
+		father=100021234	# Johann von der Mark
 		1516.07.08={birth=yes}
 		1546.07.18={add_spouse=100021229}	# Maria v. Habsburg
 		1592.01.05={death=yes}
@@ -2137,23 +2137,6 @@
 
 
 ##  100001150	Croÿ			 			1002044
-100014148={ # Css        Johanna                   de Croÿ                                  (1434-1504)  0  0
-	name="Johanna de Croÿ"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1434.01.01={birth=yes}
-	1504.06.18={death=yes}
-}
-100001352={ # Pss        Constance                 de Croÿ-Solre                            (1789-1869)     4
-	name="Constance de Croÿ-Solre"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1789.08.19={birth=yes}
-	1869.12.02={death=yes}
-}
-
 100001150={	# AUGUSTE Philippe Louis Emanuel, Duke von Croÿ, Hr zu Dülmen, etc (Paris 3 Nov 1765-Hermitage sur l'Escaut, nr Condé 19 Oct 1822); m.1st Paris 10 Jan 1789 Anne-Victurnienne de Rochechouart-Mortemart (Paris 7 May 1773-Dülmen 10 Jul 1806); m.2nd Paris 5 Nov 1821 Marie-Anne Dillon (10 Mar 1796-Paris 7 Mar 1827)
 	name=Auguste
 	dynasty=1002044
@@ -3250,7 +3233,7 @@
 		father=100001150	# Auguste de Croÿ
 		mother=100001151	# Anne-Victurnienne de Rochechouart-Mortemart
 		1791.10.31={birth=yes}
-		1810.09.03={add_spouse=100001352}	# Constance de Croÿ-Solre
+		1810.09.03={add_spouse=100001352}	# PSS Constance de Croÿ-Solre
 		1865.09.04={death=yes}
 	}
 		100001353={	# 1b) Emanuel Pr de Croÿ et de Solre (Brussels 13 Dec 1811-Le Roeulx 16 Jan 1865); m.Dülmen 14 Jul 1841 Leopoldine Pss von Croÿ (Dülmen 9 Aug 1821-Florence 26 May 1907)
@@ -3258,7 +3241,7 @@
 			dynasty=1002044
 			religion=catholic culture=german
 			father=100001351	# Ferdinand Victor de Croÿ
-			mother=100001352	# Constance de Croÿ-Solre
+			mother=100001352	# PSS Constance de Croÿ-Solre
 			1811.12.13={birth=yes}
 			1841.07.14={add_spouse=100001155}	# Léopoldine de Croÿ
 			1865.01.16={death=yes}
@@ -3561,7 +3544,6 @@
 							1998.10.24={add_spouse=100001405}	# Bérengère de Nattes
 							2013.11.25={death=yes}
 						}
-
 							100001406={	# 1g) Olivier Etienne Joseph Rodolphe Antoine Marie (b.Neuilly-sur-Seine 1 Jun 1948); m.Biereek 6 Jul 1981 Isabelle Bochholtz (b.Orp 25 May 1954)
 								name="Olivier Etienne"
 								dynasty=1002044
@@ -3701,7 +3683,7 @@
 			dynasty=1002044
 			religion=catholic culture=german
 			father=100001351	# Ferdinand Victor de Croÿ
-			mother=100001352	# Constance de Croÿ-Solre
+			mother=100001352	# PSS Constance de Croÿ-Solre
 			1815.08.07={birth=yes}
 			1886.03.10={death=yes}
 		}
@@ -3710,7 +3692,7 @@
 			dynasty=1002044
 			religion=catholic culture=german
 			father=100001351	# Ferdinand Victor de Croÿ
-			mother=100001352	# Constance de Croÿ-Solre
+			mother=100001352	# PSS Constance de Croÿ-Solre
 			1821.01.21={birth=yes}
 			1865.10.13={death=yes}
 		}
@@ -3719,7 +3701,7 @@
 			dynasty=1002044
 			religion=catholic culture=german
 			father=100001351	# Ferdinand Victor de Croÿ
-			mother=100001352	# Constance de Croÿ-Solre
+			mother=100001352	# PSS Constance de Croÿ-Solre
 			1824.02.19={birth=yes}
 			1854.09.28={add_spouse=100062225}	# Marie d’Ursel
 			1908.12.07={death=yes}
@@ -4549,16 +4531,6 @@
 				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u.Gleichen
 				1705.10.24={birth=yes}
 				1739.08.30={death=yes}
-			}
-			100000727={	# 5c) Eva Theresia Amalia Philippine Isabelle, Abbess of St.Anna in Würzburg (4 Mar 1707-14 Nov 1794)
-				name="Eva Theresia"
-				female=yes
-				dynasty=1002043
-				religion=lutheran culture=german
-				father=100000721	# Rudolf Franz v. Schönborn
-				mother=100000722	# GFN Marie Eleonore von Hatzfeldt u.Gleichen
-				1707.03.04={birth=yes}
-				1794.11.14={death=yes}
 			}
 			100000728={	# 6c) Joseph Franz Bonaventura Kilian (8 Jul 1708-27 Jan 1772); m.30 Aug 1736 Bernhardina Maria Sophie Theresia Gfn von Plettenberg (6 Sep 1719-13 Apr 1769)
 				name="Joseph Franz"
@@ -5850,7 +5822,7 @@
 									father=100000930	# Karl v. Schönborn
 									mother=100085177	# Johanna Lobkowicz
 									1870.08.04={birth=yes}
-									1896.04.15={add_spouse=100086782}	# Gabriela Chotek z Chotkova a Vojnína
+									1896.04.15={add_spouse=100086782}	# Gabriela z Chotkova a Vojnína
 									1937.10.30={add_spouse=100000978}	# Friederike von Schlözer
 									1942.09.17={death=yes}
 								}
@@ -5860,7 +5832,7 @@
 										dynasty=1002043
 										religion=lutheran culture=german
 										father=100000976	# Franz v. Schönborn
-										mother=100086782	# Gabriela Chotek z Chotkova a Vojnína
+										mother=100086782	# Gabriela z Chotkova a Vojnína
 										1897.01.02={birth=yes}
 										1992.08.16={death=yes}
 									}
@@ -5870,7 +5842,7 @@
 										dynasty=1002043
 										religion=lutheran culture=german
 										father=100000976	# Franz v. Schönborn
-										mother=100086782	# Gabriela Chotek z Chotkova a Vojnína
+										mother=100086782	# Gabriela z Chotkova a Vojnína
 										1899.09.15={birth=yes}
 										1992.10.09={death=yes}
 									}
@@ -6291,17 +6263,6 @@
 					mother=100001066	# PSS Marie Elisabeth zu Salm-Salm
 					1758.06.07={birth=yes}
 					1838.02.23={death=yes}
-				}
-				100001073={	# 5d) Marie Elisabeth Franziska Xaviera, a nun at Thorn (7 Jun 1759-18 Feb 1813)
-					name="Marie Elisabeth"
-					female=yes
-					dynasty=1002043
-					religion=lutheran culture=german
-					father=100001065	# Egon Erwein v. Schönborn
-					mother=100001066	# PSS Marie Elisabeth zu Salm-Salm
-					add_trait=nun
-					1759.06.07={birth=yes}
-					1813.02.18={death=yes}
 				}
 				100001074={	# 6d) Maria Franziska Sophia Elisabeth Josepha Karolina Katharina (28 Jul 1763-20 Oct 1825); m.23 Sep 1787 Franz Joseph Gf von Sternberg-Manderscheid (d.5 Apr 1830)
 					name="Maria Franziska"
@@ -7335,7 +7296,7 @@
 			1878.09.16={death=yes}
 		}
 			100000485={	# 1c) Lucia Franziska Euphrosyne Anna Alexandrine Georgine (Darmstadt 18 Mar 1859-Dresden 24 Sep 1903); m.Munich 22 Apr 1880 Victor Erbpr von Schönburg-Waldenburg (Nice 1 May 1856-Potsdam 18 Nov 1888)
-				name="Lucia Franziska"
+				name=Lucia
 				female=yes
 				dynasty=1002041
 				religion=catholic culture=german
