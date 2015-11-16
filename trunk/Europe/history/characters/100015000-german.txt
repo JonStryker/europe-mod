@@ -3987,8 +3987,8 @@
 
 ######## LEFTOVERS ########
 100017881={# Sir Henry Abel Smith (London 8 Mar 1900-24 Jan 1993)
-	name="Henry Abel Smith"
-	dynasty=0
+	name=Henry
+	dynasty=1009203
 	religion=catholic culture=german
 	1900.03.08={birth=yes}
 	1931.10.24={add_spouse=100017880}	# May Helen v. Teck
@@ -4000,21 +4000,29 @@
 		dynasty=0
 		religion=catholic culture=german
 		father=100017881	# Henry Abel Smith
+		mother=100017880
 		1932.07.28={birth=yes}
 		1957.12.14={add_spouse=100017883}	# David Liddell-Grainger
 	}
+	100017883={ # David Liddell-Grainger (1930-2007) 5
+		name=David
+		dynasty=1009204
+		religion=catholic culture=english
+		1930.01.26={birth=yes}
+		2007.03.12={death=yes}
+	}
 		100017884={# 1g) Ian Richard Peregrine Liddell-Grainger, b.Edinburgh 23 Feb 1959; m.London 31 Oct 1985 Jill Nesbit (b.Berwick-upon-Tweed 9 Mar 1956)
 			name="Ian Richard"
-			dynasty=0
+			dynasty=1009204
 			religion=catholic culture=german
-			mother=100017882	# Anne Mary
 			father=100017883	# David Liddell-Grainger
+			mother=100017882	# Anne Mary
 			1959.02.23={birth=yes}
 			1985.10.31={add_spouse=100017885}	# Jill Nesbit
 		}
 			100017886={# 1h) Peter Richard Liddell-Grainger, b.Hexham, Northumberland 6 May 1987
-				name="Peter Richard Liddell-Grainger"
-				dynasty=0
+				name=Peter Richard
+				dynasty=1009204
 				religion=catholic culture=german
 				father=100017884	# Ian Richard
 				mother=100017885	# Jill Nesbit
@@ -4022,7 +4030,7 @@
 			}
 			100017887={# 2h) Sophy Victoria Liddell-Grainger, b.Hexham 27 Dec 1988
 				name="Sophy Victoria"
-				dynasty=0
+				dynasty=1009204
 				religion=catholic culture=german
 				father=100017884	# Ian Richard
 				mother=100017885	# Jill Nesbit
@@ -4031,7 +4039,7 @@
 			100017888={# 3h) May Alexandra Liddell-Grainger, b.Hexham 9 Sep 1992
 				name="May Alexandra"
 				female=yes
-				dynasty=0
+				dynasty=1009204
 				religion=catholic culture=german
 				father=100017884	# Ian Richard
 				mother=100017885	# Jill Nesbit
@@ -4039,7 +4047,7 @@
 			}
 		100017889={# 2g) Charles Montagu Liddell-Grainger, b.Edinburgh 28 Jul 1960; m.1st Chapel Royal, St.James' Palace 23 Jan 1992 (div 1999) Karen Humphreys (b.Lagos 8 May 1956); m.2d London 20 Oct 2008 Martha Margaretha de Klerk
 			name="Charles Montagu"
-			dynasty=0
+			dynasty=1009204
 			religion=catholic culture=german
 			father=100017883	# David Liddell-Grainger
 			mother=100017882	# Anne Mary
@@ -4050,7 +4058,7 @@
 		}
 		100017892={# 3g) Simon Rupert Liddell-Grainger, b.Edinburgh 27 Dec 1963; m.1st Montreal 26 Jan 1984 (div 1999) Romana Maria Rogoshewska (b.Hutturm 17 Sep 1945); m.2d Canada 4 Feb 2000 Natalie Judith Poulard (b.Montreal 29 Sep 1970)
 			name="Simon Rupert"
-			dynasty=0
+			dynasty=1009204
 			religion=catholic culture=german
 			father=100017883	# David Liddell-Grainger
 			mother=100017882	# Anne Mary
@@ -4061,15 +4069,15 @@
 		}
 			100017895={# 1h) Simon Alexander Liddell-Grainger, b.27 Jun 2000
 				name="Simon Alexander"
-				dynasty=0
+				dynasty=1009204
 				religion=catholic culture=german
 				father=100017892	# Simon Rupert
 				mother=100017894	# Natalie Judith Poulard
 				2000.06.27={birth=yes}
 			}
-			100017896={# 2h) Matthew Willis Liddel-Grainger, b.Montreal 8 Oct 2003
+			100017896={# 2h) Matthew Willis Liddell-Grainger, b.Montreal 8 Oct 2003
 				name="Matthew Willis"
-				dynasty=0
+				dynasty=1009204
 				religion=catholic culture=german
 				father=100017892	# Simon Rupert
 				mother=100017894	# Natalie Judith Poulard
@@ -4078,24 +4086,24 @@
 		100017897={# 4g) Alice Mary Liddell-Grainger, b.Edinburgh 2 Mar 1965; m.Naples 13 Aug 1990 Pietro Panaggio (b.Castelvetere 5 Mar 1963)
 			name="Alice Mary"
 			female=yes
-			dynasty=0
+			dynasty=1009204
 			religion=catholic culture=german
-			mother=100017882	# Anne Mary
 			father=100017883	# David Liddell-Grainger
+			mother=100017882	# Anne Mary
 			1965.03.02={birth=yes}
 		}
 		100017901={# 5g) Malcolm Henry Liddell-Grainger, b.Edinburgh 16 Dec 1967; m.London 1 Aug 1994 Helen Bright (b.Headington 25 Jan 1971)
 			name="Malcolm Henry"
-			dynasty=0
+			dynasty=1009204
 			religion=catholic culture=german
-			mother=100017882	# Anne Mary
 			father=100017883	# David Liddell-Grainger
+			mother=100017882	# Anne Mary
 			1967.12.16={birth=yes}
 			1994.08.01={add_spouse=100017902}	# Helen Bright
 		}
 			100017903={# 1h) Cameron Henry Liddell-Grainger, b.London 14 Apr 1997
 				name="Cameron Henry"
-				dynasty=0
+				dynasty=1009204
 				religion=catholic culture=german
 				father=100017901	# Malcolm Henry
 				mother=100017902	# Helen Bright
@@ -4103,9 +4111,10 @@
 			}
 	100017904={# 2f) Richard Francis Abel Smith (Kensington Palace 11 Oct 1933-23 Dec 2004); m.London 28 Apr 1960 Marcia Kendrew (b.Fulmer, Bucks 27 Mar 1940)
 		name="Richard Francis"
-		dynasty=0
+		dynasty=1009203
 		religion=catholic culture=german
 		father=100017881	# Henry Abel Smith
+		mother=100017880
 		1933.10.11={birth=yes}
 		1960.04.28={add_spouse=100017905}	# Marcia Kendrew
 		2004.12.23={death=yes}
@@ -4113,7 +4122,7 @@
 		100017906={# 1g) Katherine Emma Abel Smith, b.Windsor 11 Mar 1961; m.London 16 Oct 1980 Hon.Hubert Wentworth Beaumont (b.Hong Kong 13 Apr 1956)
 			name="Katherine Emma"
 			female=yes
-			dynasty=0
+			dynasty=1009203
 			religion=catholic culture=german
 			father=100017904	# Richard Francis
 			mother=100017905	# Marcia Kendrew
@@ -4156,18 +4165,12 @@
 	100017913={# 3f) Elizabeth Alice Abel Smith, b.Kensington Palace 5 Sep 1936; m.London 29 Apr 1965 (div 1975) Peter Wise (b.London 29 Dec 1929)
 		name="Elizabeth Alice"
 		female=yes
-		dynasty=0
+		dynasty=1009203
 		religion=catholic culture=german
 		father=100017881	# Henry Abel Smith
+		mother=100017880
 		1936.09.05={birth=yes}
 	}
-100017891={# Martha Margaretha de Klerk
-	name="Martha de Klerk"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1975.01.01={birth=yes}
-}
 100017898={# Pietro Panaggio (b.Castelvetere 5 Mar 1963)
 	name="Pietro Panaggio"
 	dynasty=0
