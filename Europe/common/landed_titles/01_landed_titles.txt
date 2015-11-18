@@ -22265,7 +22265,7 @@ k_bulgaria = {
 			}
 		}
 	}
-	d_plovdiv = {
+	d_turnovo = {
 		color={ 230 43 155 }
 		color2={ 255 255 255 }
 		
@@ -22276,6 +22276,7 @@ k_bulgaria = {
 			}
 		}
 		capital = 1096 # c_plovdiv
+		bulgarian=Plovdiv
 		
 		c_plovdiv = { # 1096
 			color={ 240 33 160 }
@@ -22771,7 +22772,7 @@ k_chad = {
 	color2={ 255 255 255 }
 	
 	capital = 1128 # c_massenya
-	culture = german
+	culture = chadian
 	
 	d_waddai = {
 		color={ 118 170 203 }
@@ -22892,7 +22893,7 @@ k_cote_divoire = {
 	color2={ 255 255 255 }
 	
 	capital = 1201 # c_grand_lahou
-	culture = frankish
+	culture = akan
 	
 	d_cote_divoire = {
 		color={ 22 201 202 }
@@ -26008,37 +26009,17 @@ k_sudan = {
 		}
 	}
 	d_dongola = {
-		color={ 230 154 28 }
+		color={ 198 154 91 }
 		color2={ 255 255 255 }
 		
 		allow = {
 			OR = {
 				lower_tier_than = KING
-				any_demesne_province = { OR = { province_id = 945 province_id = 946 province_id = 947 province_id = 948 province_id = 949 province_id = 950 } }
+				any_demesne_province = { OR = { province_id = 948 province_id = 950 } }
 			}
 		}
-		capital = 945 # c_halaib
+		capital = 948 # c_dongola
 		
-		c_halaib = { # 945
-			color={ 240 144 33 }
-			color2={ 255 255 255 }
-			
-			b_halaib = {
-			}
-			b_marsa_shab = {
-			}
-		}
-		c_atbara = { # 949
-			color={ 240 17 160 }
-			color2={ 255 255 255 }
-			
-			b_atbara = {
-			}
-			b_ed_damer = {
-			}
-			b_el_karaba = {
-			}
-		}
 		c_dongola = { # 948
 			color={ 208 144 96 }
 			color2={ 255 255 255 }
@@ -26048,31 +26029,11 @@ k_sudan = {
 			b_timinar = {
 			}
 		}
-		c_hayya = { # 946
-			color={ 112 17 160 }
-			color2={ 255 255 255 }
-			
-			b_hayya = {
-			}
-		}
 		c_salima = { # 950
 			color={ 177 165 165 }
 			color2={ 255 255 255 }
 			
 			b_salima = {
-			}
-		}
-		c_suakin = { # 947
-			color={ 0 126 0 }
-			color2={ 255 255 255 }
-			
-			b_suakin = {
-			}
-			b_port_sudan = {
-			}
-			b_handub = {
-			}
-			b_trinkitat = {
 			}
 		}
 	}
@@ -26113,6 +26074,59 @@ k_sudan = {
 			b_umm_ruwada = {
 			}
 			b_abu_tineitin = {
+			}
+		}
+	}
+	d_red_sea = {
+		color={ 10 116 5 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 945 province_id = 946 province_id = 947 province_id = 949 } }
+			}
+		}
+		capital = 947 # c_suakin
+		
+		c_suakin = { # 947
+			color={ 0 126 0 }
+			color2={ 255 255 255 }
+			
+			b_suakin = {
+			}
+			b_port_sudan = {
+			}
+			b_handub = {
+			}
+			b_trinkitat = {
+			}
+		}
+		c_atbara = { # 949
+			color={ 240 17 160 }
+			color2={ 255 255 255 }
+			
+			b_atbara = {
+			}
+			b_ed_damer = {
+			}
+			b_el_karaba = {
+			}
+		}
+		c_halaib = { # 945
+			color={ 240 144 33 }
+			color2={ 255 255 255 }
+			
+			b_halaib = {
+			}
+			b_marsa_shab = {
+			}
+		}
+		c_hayya = { # 946
+			color={ 112 17 160 }
+			color2={ 255 255 255 }
+			
+			b_hayya = {
 			}
 		}
 	}
