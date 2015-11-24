@@ -8,7 +8,7 @@
 ##  100116800	Festetics						1011007
 ##  100116900	Erdödy							1011008
 ##  100117150	Andrássy						1011322
-##  100117200	Apponyi							1011329
+##  100117212	Apponyi							1011329
 ##	100117300	Esterhazy						1011003
 ##  100117255	Draskovich						1011471
 ##  			Báthory							1011434
@@ -304,8 +304,8 @@
 							father=100117257	# Iván Draskovich de Trakostyán
 							mother=100092613	# GFN Nora von Lützow
 							1916.04.02={birth=yes}  # Sellye
-							1948.01.08={add_spouse=100024671}	# Gabriella Apponyi de Nagy-Apponyi
-							1951.01.01={remove_spouse=100024671}
+							1948.01.08={add_spouse=100117231}	# Gabriella Apponyi de Nagy-Apponyi
+							1951.01.01={remove_spouse=100117231}
 							1951.06.12={add_spouse=100015070}	# Melanie v. Khevenhüller-Metsch
 							1993.12.09={death=yes}  # Wien
 						}
@@ -642,7 +642,7 @@
 	dynasty=1011003
 	religion=catholic culture=hungarian
 	1532.01.01={birth=yes}
-	1566.01.01={add_spouse=100085437}	# Zsofia Illeshazy de Illeshaza
+	1566.01.01={add_spouse=100085437}	# Zsofia Illesházy de Illeshaza
 	1604.01.01={death=yes}  # Galántha
 }
 	100117302={	# 1a) Miklós, cr 1626 Graf Esterházy de Galántha (1583-1645); m.1st 1612 Orsolya Bss Dersfy de Zerdahely (1583-1619); m.2nd 1624 Krisztina Bss Nyary de Bedegh (1604-1641)
@@ -650,7 +650,7 @@
 		dynasty=1011003
 		religion=catholic culture=hungarian
 		father=100117300	# Ferenc Esterházy de Galántha
-		mother=100085437	# Zsofia Illeshazy de Illeshaza
+		mother=100085437	# Zsofia Illesházy de Illeshaza
 		1583.01.01={birth=yes}
 		1612.01.01={add_spouse=100083239}	# BSS Orsolya Dersfy de Zerdahely
 		1624.01.01={add_spouse=100088566}	# BSS Krisztina Nyary de Bedegh
@@ -686,7 +686,7 @@
 			father=100117302	# Miklós Esterházy de Galántha
 			mother=100088566	# BSS Krisztina Nyary de Bedegh
 			1641.01.01={birth=yes}
-			1661.01.01={add_spouse=100085436}	# GFN Ilona Illeshazy
+			1661.01.01={add_spouse=100085436}	# GFN Ilona Illesházy
 			1670.01.01={add_spouse=100090975}	# Katalin Thököly de Késmárk
 			1683.01.01={death=yes}
 		}
@@ -746,7 +746,7 @@
 		dynasty=1011003
 		religion=catholic culture=hungarian
 		father=100117300	# Ferenc Esterházy de Galántha
-		mother=100085437	# Zsofia Illeshazy de Illeshaza
+		mother=100085437	# Zsofia Illesházy de Illeshaza
 		1585.01.01={birth=yes}
 		1623.01.01={add_spouse=100089741}	# Judit Rumy de Rum et Raba-Doroszlo
 		1654.01.01={death=yes}
@@ -828,7 +828,7 @@
 		dynasty=1011003
 		religion=catholic culture=hungarian
 		father=100117300	# Ferenc Esterházy de Galántha
-		mother=100085437	# Zsofia Illeshazy de Illeshaza
+		mother=100085437	# Zsofia Illesházy de Illeshaza
 		1587.01.01={birth=yes}
 		1614.01.01={add_spouse=100094796}	# Zsuszanna Károlyi de Nagykároly
 		1625.01.01={add_spouse=100091445}	# BSS Eva Viczay de Loos
@@ -1537,168 +1537,613 @@
 ##	100117300	Esterhazy						1011003
 
 
-##  100117200	Apponyi							1011329
-100117201={ # Antal György
+##  100117212	Apponyi							1011329
+100117208={	# Graf Antal György Apponyi de Nagy-Appony, *Bratislava 4.12.1755, +Wien 17.3.1817; m.19.9.1779 Caroline Gfn zu Lodron-Laterano (*Klagenfurt 25.4.1756, +29.5.1825)
 	name="Antal György"
 	dynasty=1011329
 	religion=catholic culture=hungarian
-	1755.01.01={birth=yes}
-	1817.01.01={death=yes}
+	1755.12.04={birth=yes}  # Bratislava
+	1779.09.19={add_spouse=100117209}	# GFN Caroline zu Lodron-Laterano
+	1817.03.17={death=yes}  # Wien
 }
-	100115627={ # Gf György Apponyi de Nagy-Apponyi (1780-1849)
-		name=György
+	100117210={	# A1. Georg, *Bratislava 3.7.1780, +3.8.1849; m.15.11.1802 Gfn Anna Zichy de Zich (*24.1.1780 +28.11.1866)
+		name=Georg
 		dynasty=1011329
 		religion=catholic culture=hungarian
-		father=100117201	# Antal György Apponyi de Nagy-Apponyi
-		1780.07.03={birth=yes}
+		father=100117208	# Antal György Apponyi de Nagy-Apponyi
+		mother=100117209	# GFN Caroline zu Lodron-Laterano
+		1780.07.03={birth=yes}  # Bratislava
 		1802.11.15={add_spouse=100115626}	# Anna Zichy de Zich et Vásonykõ
 		1849.08.03={death=yes}
 	}
-		100117200={ # Karoly Antal
+		100117212={	# B1. Karl, *Bratislava 26.12.1805, +Wien 30.12.1890; m.29.7.1847 Leopoldine Gfn von Klebelsberg (*28.9.1817, +Wien 1909)
 			name="Karoly Antal"
 			dynasty=1011329
 			religion=catholic culture=hungarian
-			father=100115627	# György Apponyi de Nagy-Apponyi
+			father=100117210	# Georg Apponyi de Nagy-Apponyi
 			mother=100115626	# Anna Zichy de Zich et Vásonykõ
-			1805.01.01={birth=yes}
-			1890.01.01={death=yes}
+			1805.12.26={birth=yes}  # Bratislava
+			1847.07.29={add_spouse=100117213}	# GFN Leopoldine von Klebelsberg
+			1890.12.30={death=yes}  # Wien
 		}
-			100116501={ # Gf Géza Apponyi de Nagy-Apponyi (1853-1927)
+			100117214={	# C1. Géza, *Wien 13.2.1853, +Högyész 29.2.1927; m.Wien 24.4.1876 Paula Gfn Széchényi (*23.3.1854, +Högyész 20.2.1928)
 				name=Géza
 				dynasty=1011329
-				religion=catholic culture=hungarian
-				father=100117200	# Karoly Antal Apponyi de Nagy-Apponyi
-				1853.02.13={birth=yes}
+				religion=catholic culture=german
+				father=100117212	# Karoly Antal Apponyi de Nagy-Apponyi
+				mother=100117213	# GFN Leopoldine von Klebelsberg
+				1853.02.13={birth=yes}  # Wien
 				1876.04.24={add_spouse=100116500}	# Paula Széchenyi de Sárvár-Felsõvidek
-				1927.02.19={death=yes}
+				1927.02.28={death=yes}  # Högyész
 			}
-				100022979={ # Gfn Maria Apponyi de Nagy-Apponyi (1877-1956)
-					name=Maria
-					female=yes
-					dynasty=1011329
-					religion=catholic culture=hungarian
-					father=100116501	# Géza Apponyi de Nagy-Apponyi
-					mother=100116500	# Paula Széchenyi de Sárvár-Felsõvidek
-					1877.05.24={birth=yes}
-					1956.11.24={death=yes}
-				}
-				100022528={ # Gf Karoly Apponyi de Nagy-Apponyi (1878-1959)
+				100117216={	# D1. Karl, *Högyész 28.8.1878, +Pálfa 3.4.1959; m.Vienna 25.1.1908 Pss Aglaë zu Windisch-Grätz (*11.1.1887 +24.4.1961)
 					name=Karoly
 					dynasty=1011329
 					religion=catholic culture=hungarian
-					father=100116501	# Géza Apponyi de Nagy-Apponyi
+					father=100117214	# Géza Apponyi de Nagy-Apponyi
 					mother=100116500	# Paula Széchenyi de Sárvár-Felsõvidek
-					1878.08.28={birth=yes}
-					1908.01.25={add_spouse=100022527}	# Maria-Aglaë v. Windisch-Graetz
-					1959.04.03={death=yes}
+					1878.08.28={birth=yes}  # Högyész
+					1908.01.25={add_spouse=100022527}	# Aglaë v. Windisch-Graetz
+					1959.04.03={death=yes}  # Pálfa
 				}
-					100024671={ # Gfn Gabriella Apponyi de Nagy-Apponyi (1910-1986)
+					100117218={	# E1. Geza, *Bratislava 27.10.1908, +in Russian POW camp at Sverdlovsk 5.5.1946; m.Budapest 16.2.1937 Erzsebet Májó (*Pitvaros 9.9.1908)
+						name=Geza
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117216	# Karoly Apponyi de Nagy-Apponyi
+						mother=100022527	# Aglaë v. Windisch-Graetz
+						1908.10.27={birth=yes}  # Bratislava
+						1937.02.16={add_spouse=100117219}	# Erzsebet Májó
+						1946.05.05={death=yes}  # in Russian POW camp at Sverdlovsk
+					}
+					100117220={	# E2. Alfred, *Hõgyész 17.10.1911, +Wien 12.1.1989; m.Budapest 28.2.1938 Css Zenaide Mailáth de Székhely (*29.3.1914)
+						name=Alfred
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117216	# Karoly Apponyi de Nagy-Apponyi
+						mother=100022527	# Aglaë v. Windisch-Graetz
+						1911.10.17={birth=yes}
+						1938.02.28={add_spouse=100117221}	# CSS Zenaide Mailáth de Székhely
+						1989.01.12={death=yes}
+					}
+						100117222={	# F1. Rudolf, *Karlsbad 24.8.1940; m.St.Martin im Innkreis, Austria 15.9.1974 Gfn Wilhelmine von Arco auf Valley (*3.12.1935, +25.9.1987)
+							name=Rudolf
+							dynasty=1011329
+							religion=catholic culture=hungarian
+							father=100117220	# Alfred Apponyi de Nagy-Apponyi
+							mother=100117221	# CSS Zenaide Mailáth de Székhely
+							1940.08.24={birth=yes}
+							1974.09.15={add_spouse=100117223}	# GFN Wilhelmine von Arco auf Valley
+						}
+						100117224={	# F2. Alfred, *Prague 15.11.1941; m.Vienna 1969 Monika Luger (*Goisern, Upper Austria 1945)
+							name=Alfred
+							dynasty=1011329
+							religion=catholic culture=hungarian
+							father=100117220	# Alfred Apponyi de Nagy-Apponyi
+							mother=100117221	# CSS Zenaide Mailáth de Székhely
+							1941.11.15={birth=yes}
+							1969.01.01={add_spouse=100117225}	# Monika Luger
+						}
+							100117226={	# G1. Alexander, *Frankfurt a.M. 2.10.1971; m.Rosslyn Chapel nr Edinburgh 29.6.2002 Tiggy (Camilla) Anderson
+								name=Alexander
+								dynasty=1011329
+								religion=catholic culture=hungarian
+								father=100117224	# Alfred Apponyi de Nagy-Apponyi
+								mother=100117225	# Monika Luger
+								1971.10.02={birth=yes}
+								2002.06.29={add_spouse=100117227}	# Camilla Anderson
+							}
+							100117228={	# G3. Geraldine, *Frankfurt a.M. 27.3.1983
+								name=Geraldine
+								female=yes
+								dynasty=1011329
+								religion=catholic culture=hungarian
+								father=100117224	# Alfred Apponyi de Nagy-Apponyi
+								mother=100117225	# Monika Luger
+								1983.03.27={birth=yes}
+							}
+					100117229={	# E3. Alexander, *Tachov (Tachau) 30.9.1919, +3.10.1944; m.Megyefa 2.8.1944 Julia Emilia Jeszenszky de Kis-Jeszen et Megyefa (*Megyefa 26.2.1923)
+						name=Alexander
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117216	# Karoly Apponyi de Nagy-Apponyi
+						mother=100022527	# Aglaë v. Windisch-Graetz
+						1919.09.30={birth=yes}  # Tachau )
+						1944.08.02={add_spouse=100117230}	# Julia Emilia Jeszenszky de Kis-Jeszen et Megyefa
+						1944.10.03={death=yes}
+					}
+					100117231={	# E4. Gabriella, *Lieszko 25.4.1910, +Munich 16.2.1986; 1m: Budapest 22.10.1935 Pr Anton Esterházy von Galántha (*Leka 22.7.1903, +Sárisáp 31.12.1944); 2m: Budapest 8.1.1948 (div) Ct Peter Draskovich von Trakostjan (*Sellye 2.4.1916, +Vienna 9.12.1993); 3m: Vienna 15.2.1948 (div 1950) Gf Wladimir Mittrowsky z Mitrowicz (*18.2.1901 +26.9.1976)
 						name=Gabriella
 						female=yes
 						dynasty=1011329
 						religion=catholic culture=hungarian
-						father=100022528	# Karoly Apponyi de Nagy-Apponyi
-						mother=100022527	# Maria-Aglaë v. Windisch-Graetz
-						1910.04.24={birth=yes}
-						1986.02.16={death=yes}
+						father=100117216	# Karoly Apponyi de Nagy-Apponyi
+						mother=100022527	# Aglaë v. Windisch-Graetz
+						1910.04.25={birth=yes}  # Lieszko
+						1986.02.16={death=yes}  # Munich
 					}
-		100115630={ # Gfn Franziska Apponyi de Nagy-Apponyi (1807-1869)
-			name="Franziska Apponyi de Nagy-Apponyi"
-			female=yes
-			dynasty=1011329
-			religion=catholic culture=hungarian
-			father=100115627	# György Apponyi de Nagy-Apponyi
-			mother=100115626	# Anna Zichy de Zich et Vásonykõ
-			1807.04.26={birth=yes}
-			1869.05.29={death=yes}
-		}
-		100117206={# György	Apponyi de Nagy-Apponyi (1808-1899)
+					100117235={	# E5. Paula, *Tachov (Tachau) 11.1.1921, +12.9.1998; m.Palfa 15.4.1943 Laszlo Béry (*Olsnitz 19.10.1898, +Munich 15.12.1971)
+						name=Paula
+						female=yes
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117216	# Karoly Apponyi de Nagy-Apponyi
+						mother=100022527	# Aglaë v. Windisch-Graetz
+						1921.01.11={birth=yes}  # Tachau )
+						1998.09.12={death=yes}
+					}
+				100117237={	# D2. Rudolf, *Hõgyész 12.3.1882, +Kapolnapuszta 19.7.1939; 1m: 16.1.1915 Franziska Frn von Holz (*Wien 11.9.1884, +Budapest 29.3.1936); 2m: Budapest 21.9.1931 Ida Frn von Sommaruga (*Wien 25.9.1906)
+					name=Rudolf
+					dynasty=1011329
+					religion=catholic culture=hungarian
+					father=100117214	# Géza Apponyi de Nagy-Apponyi
+					mother=100116500	# Paula Széchenyi de Sárvár-Felsõvidek
+					1882.03.12={birth=yes}
+					1915.01.16={add_spouse=100117238}	# FRN Franziska von Holz
+					1931.01.01={remove_spouse=100117238}
+					1931.09.21={add_spouse=100117239}	# FRN Ida von Sommaruga
+					1939.07.19={death=yes}
+				}
+				100117240={	# D3. Maria, *Wien 24.5.1877, +Rosegg 14.11.1956; m.Wien 14.10.1897 Friedrich Pr von und zu Liechtenstein (*12.9.1871 +10.10.1959)
+					name=Maria
+					female=yes
+					dynasty=1011329
+					religion=catholic culture=german
+					father=100117214	# Géza Apponyi de Nagy-Apponyi
+					mother=100116500	# Paula Széchenyi de Sárvár-Felsõvidek
+					1877.05.24={birth=yes}  # Wien
+					1956.11.14={death=yes}  # Rosegg
+				}
+				100117242={	# D4. Alice, *Hõgyész 8.8.1879, +Bozen 20.2.1967; m.Hõgyész 1901 Paul Gf Forni (*Modena 5.9.1849, +Bozen 19.3.1926)
+					name=Alice
+					female=yes
+					dynasty=1011329
+					religion=catholic culture=hungarian
+					father=100117214	# Géza Apponyi de Nagy-Apponyi
+					mother=100116500	# Paula Széchenyi de Sárvár-Felsõvidek
+					1879.08.08={birth=yes}
+					1967.02.20={death=yes}
+				}
+				100117244={	# D5. Gisela, *Bad Aussee 15.7.1886, +Budapest 15.10.1918; m.Hõgyész 20.11.1916 Ivan Baron Rubido-Zichy-Zagorja-Zich (*Graz 17.6.1874, +Graz 16.5.1964)
+					name=Gisela
+					female=yes
+					dynasty=1011329
+					religion=catholic culture=hungarian
+					father=100117214	# Géza Apponyi de Nagy-Apponyi
+					mother=100116500	# Paula Széchenyi de Sárvár-Felsõvidek
+					1886.07.15={birth=yes}  # Bad Aussee
+					1918.10.15={death=yes}  # Budapest
+				}
+		100117246={	# B2. Georg, *Bratislava 29.12.1808, +Eberhard 28.2.1899; m.Bratislava 23.4.1840 Gfn Julie Sztáray de Nagymihály (*20.3.1820 +12.1.1871)
 			name=György
 			dynasty=1011329
 			religion=catholic culture=hungarian
-			father=100115627	# György Apponyi de Nagy-Apponyi
+			father=100117210	# Georg Apponyi de Nagy-Apponyi
 			mother=100115626	# Anna Zichy de Zich et Vásonykõ
-			1808.01.01={birth=yes}
-			1899.01.01={death=yes}
+			1808.12.29={birth=yes}  # Bratislava
+			1840.04.23={add_spouse=100117247}	# GFN Julie Sztáray de Nagy-Mihály
+			1899.02.28={death=yes}  # Eberhard
 		}
-			100110272={	# Gfn     			Georgine            			Apponyi von Nagy Appony
-				name=Georgine
-				female=yes
-				dynasty=1011329
-				religion=catholic culture=polish
-				father=100117206	# György Apponyi de Nagy-Apponyi
-				1841.03.16={birth=yes}
-				1906.05.22={death=yes}
-			}
-			100117207={ # Albert 
+			100117248={	# C1. Albert Georg, *Wien 29.5.1846, +Genf 7.2.1933; m.Wien 1.3.1897 Gfn Clothilde von Mensdorff-Pouilly (*23.12.1867 +1.9.1942)
 				name=Albert
 				dynasty=1011329
-				religion=catholic culture=hungarian
-				father=100117206	# György Apponyi de Nagy-Apponyi
-				1846.01.01={birth=yes}
-				1933.01.01={death=yes}
+				religion=catholic culture=german
+				father=100117246	# György Apponyi de Nagy-Apponyi
+				mother=100117247	# GFN Julie Sztáray de Nagy-Mihály
+				1846.05.29={birth=yes}  # Wien
+				1897.03.01={add_spouse=100117249}	# GFN Clothilde von Mensdorff-Pouilly
+				1933.02.07={death=yes}  # Genf
 			}
-				100071275={ # Gf György Apponyi de Nagy-Apponyi (1898-1970)
+				100117259={	# D1. Georg Alexander, *Eberhard 30.6.1898, +Saarbrücken 7.8.1970; m.Budapest 17.5.1923 (div 1934) Pss Margit Odescalchi (*Tuzsér 8.12.1903, +Eisenstadt 4.3.1982)
 					name=György
 					dynasty=1011329
 					religion=catholic culture=hungarian
-					father=100117207	# Albert Apponyi de Nagy-Apponyi
-					1898.06.30={birth=yes}
+					father=100117248	# Albert Apponyi de Nagy-Apponyi
+					mother=100117249	# GFN Clothilde von Mensdorff-Pouilly
+					1898.06.30={birth=yes}  # Eberhard
 					1923.05.17={add_spouse=100071274}	# Margit Odescalchi
 					1934.01.01={remove_spouse=100071274}
-					1970.08.07={death=yes}
+					1970.08.07={death=yes}  # Saarbrücken
 				}
-	100117202={ # Antal
-		name=Antal
+					100117261={	# E1. Albert, *Budapest 13.4.1926
+						name=Albert
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117259	# György Apponyi de Nagy-Apponyi
+						mother=100071274	# Margit Odescalchi
+						1926.04.13={birth=yes}
+						2003.01.01={death=yes}  # EST.
+					}
+					100117262={	# E2. Eva Maria, *15.5.1928; 1m: 1946 (div 1952) Sandor Bertok (*1923); 2m: 1953 Paul Szabo (*Banlak 21.9.1919)
+						name=Eva
+						female=yes
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117259	# György Apponyi de Nagy-Apponyi
+						mother=100071274	# Margit Odescalchi
+						1928.05.15={birth=yes}
+						2005.01.01={death=yes}  # EST.
+					}
+				100117265={	# D2. Maria Alexandrina, *Eberhard 29.5.1899, +Salzburg 3.6.1967; m.Budapest 29.6.1933 Pr Karl de Rohan (*9.1.1898 +17.3.1975)
+					name="Maria Alexandrina"
+					female=yes
+					dynasty=1011329
+					religion=catholic culture=hungarian
+					father=100117248	# Albert Apponyi de Nagy-Apponyi
+					mother=100117249	# GFN Clothilde von Mensdorff-Pouilly
+					1899.05.29={birth=yes}  # Eberhard
+					1967.06.03={death=yes}  # Salzburg
+				}
+				100117267={	# D3. Juliana, *Budapest 9.11.1903, +Paris 14.1.1994; 1m: 1924 (div 1934) Franz Gf Palffy (*30.8.1898); 2m: 1943 (div 1947) Elemer Klobusiczky (*Debrecen 20.8.1899, +Budapest 25.2.1986)
+					name=Juliana
+					female=yes
+					dynasty=1011329
+					religion=catholic culture=hungarian
+					father=100117248	# Albert Apponyi de Nagy-Apponyi
+					mother=100117249	# GFN Clothilde von Mensdorff-Pouilly
+					1903.11.09={birth=yes}  # Budapest
+					1994.01.14={death=yes}  # Paris
+				}
+			100117270={	# C2. Georgine, *Budapest 16.3.1841, +Gries nr Bozen 22.5.1906; m.Eberhard 18.6.1863 Albert Gf Marzani (*Villa Lagarina 10.5.1845, +Gries 6.10.1921)
+				name=Georgine
+				female=yes
+				dynasty=1011329
+				religion=catholic culture=hungarian
+				father=100117246	# György Apponyi de Nagy-Apponyi
+				mother=100117247	# GFN Julie Sztáray de Nagy-Mihály
+				1841.03.16={birth=yes}  # Budapest
+				1906.05.22={death=yes}  # Gries nr Bozen
+			}
+		100117272={	# B3. Leopoldine, *1804, +1870; m.1824 Karl Frhr von Franckenstein (*1798 +1845)
+			name=Leopoldine
+			female=yes
+			dynasty=1011329
+			religion=catholic culture=hungarian
+			father=100117210	# Georg Apponyi de Nagy-Apponyi
+			mother=100115626	# Anna Zichy de Zich et Vásonykõ
+			1804.01.01={birth=yes}
+			1870.01.01={death=yes}
+		}
+		100115630={	# B4. Franziska, *26.4.1807 +29.5.1869; 1m: 1827 Alexander Gf Szapary (*1801 +1840); 2m: 28.6.1842 Gf Károly Zichy de Zich et Vásonkeö (*11.10.1785 +1.6.1876)
+			name=Franziska
+			female=yes
+			dynasty=1011329
+			religion=catholic culture=hungarian
+			father=100117210	# Georg Apponyi de Nagy-Apponyi
+			mother=100115626	# Anna Zichy de Zich et Vásonykõ
+			1869.05.29={birth=yes}
+			1943.01.01={death=yes}  # EST.
+		}
+	100117277={	# A2. Anton, *Bratislava 7.9.1782, +17.10.1852; m.Wien 17.8.1808 Therese Gfn Nogarola (*München 5.2.1790, +Bratislava 19.3.1874)
+		name=Anton
 		dynasty=1011329
 		religion=catholic culture=hungarian
-		father=100117201	# Antal György Apponyi de Nagy-Apponyi
-		1782.01.01={birth=yes}
-		1852.01.01={death=yes}
+		father=100117208	# Antal György Apponyi de Nagy-Apponyi
+		mother=100117209	# GFN Caroline zu Lodron-Laterano
+		1782.09.07={birth=yes}  # Bratislava
+		1808.08.17={add_spouse=100117278}	# GFN Therese Nogarola
+		1852.10.17={death=yes}
 	}
-		100117203={ # Rudolf
+		100117279={	# B1. Rudolf, austrian ambassador, *1.8.1812, +31.5.1876; m.10.5.1840 Anna Gfn von Benckendorff (*11.9.1818 +1900)
 			name=Rudolf
 			dynasty=1011329
 			religion=catholic culture=hungarian
-			father=100117202	# Antal Apponyi de Nagy-Apponyi
-			1812.01.01={birth=yes}
-			1860.01.01={death=yes}
+			father=100117277	# Anton Apponyi de Nagy-Apponyi
+			mother=100117278	# GFN Therese Nogarola
+			1812.08.01={birth=yes}
+			1840.05.10={add_spouse=100117280}	# GFN Anna von Benckendorff
+			1876.05.31={death=yes}
 		}
-			100070462={ # Gfn Ilona Apponyi de Nagy-Apponyi (1848-1914)
+			100117281={	# C1. Alexander, *Paris 19.1.1844, +1925; m.Bratislava 27.4.1878 Alexandrine Gfn Esterhazy (*18.1.1856 +1930)
+				name=Alexander
+				dynasty=1011329
+				religion=catholic culture=frankish
+				father=100117279	# Rudolf Apponyi de Nagy-Apponyi
+				mother=100117280	# GFN Anna von Benckendorff
+				1844.01.19={birth=yes}  # Paris
+				1878.04.27={add_spouse=100117282}	# GFN Alexandrine Esterhazy
+				1925.01.01={death=yes}
+			}
+			100070462={	# C2. Ilona (Helena), *15.11.1848, +Venezia 29.11.1914; m.Schloss Nagy-Appony 2.12.1866 Pr Paolo Borghese (*Roma 13.9.1845, +Venezia 18.11.1920)
 				name=Ilona
 				female=yes
 				dynasty=1011329
 				religion=catholic culture=hungarian
-				father=100117203	# Rudolf Apponyi de Nagy-Apponyi
-				1848.11.15={birth=yes}
-				1914.10.29={death=yes}
+				father=100117279	# Rudolf Apponyi de Nagy-Apponyi
+				mother=100117280	# GFN Anna von Benckendorff
+				1848.11.15={birth=yes}  # Helena ) (
+				1914.11.29={death=yes}  # Venezia
 			}
-		100117204={ # Gyula
-			name=Gyula
+		100117285={	# B2. Julius, *Florence 5.7.1816, +Wien 7.2.1857; m.19.2.1844 Gfn Sophie Sztaray (*7.6.1822 +14.9.1897)
+			name=Julius
 			dynasty=1011329
-			religion=catholic culture=hungarian
-			father=100117202	# Antal Apponyi de Nagy-Apponyi
-			1816.01.01={birth=yes}
-			1857.01.01={death=yes}
+			religion=catholic culture=italian
+			father=100117277	# Anton Apponyi de Nagy-Apponyi
+			mother=100117278	# GFN Therese Nogarola
+			1816.07.05={birth=yes}  # Florence
+			1844.02.19={add_spouse=100117286}	# GFN Sophie Sztaray
+			1857.02.07={death=yes}  # Wien
 		}
-			100117205={ # Lajos Antal Albert
-				name="Lajos Antal Albert"
+			100117287={	# C1. Ludwig, *Baden bei Wien 3.5.1849, +Budapest 11.12.1909; m.Dobrau 23.5.1871 Margarete Gfn von Seherr-Thoss (*Krüben, Schlesien 23.12.1848, +Nagyappony 18.6.1931)
+				name=Lajos
 				dynasty=1011329
 				religion=catholic culture=hungarian
-				father=100117204	# Gyula Apponyi de Nagy-Apponyi
-				1849.01.01={birth=yes}
-				1909.01.01={death=yes}
+				father=100117285	# Julius Apponyi de Nagy-Apponyi
+				mother=100117286	# GFN Sophie Sztaray
+				1849.05.03={birth=yes}
+				1871.05.23={add_spouse=100117288}	# GFN Margarete von Seherr-Thoss
+				1909.12.11={death=yes}
 			}
-				100116114={ # Gfn Franziska Apponyi de Nagy-Apponyi (1879-1958)
-					name="Franziska Apponyi de Nagy-Apponyi"
+				100117289={	# D1. Julius, *Nagy-Apponyi 15.8.1873, +Budapest 27.5.1924; m.1914 Gladys Virginia Stuart (*New York 18.7.1891, +Aix 19.11.1947)
+					name=Julius
+					dynasty=1011329
+					religion=catholic culture=hungarian
+					father=100117287	# Lajos Apponyi de Nagy-Apponyi
+					mother=100117288	# GFN Margarete von Seherr-Thoss
+					1873.08.15={birth=yes}
+					1914.01.01={add_spouse=100117290}	# Gladys Virginia Stuart
+					1924.05.27={death=yes}
+				}
+					100117291={	# E1. Geraldine, *Budapest 6.8.1915, +Tirana, Albania 22.10.2002; m.Tirana 27.4.1938 King Zog I of Albania (*8.10.1895, +9.4.1961)
+						name=Geraldine
+						female=yes
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117289	# Julius Apponyi de Nagy-Apponyi
+						mother=100117290	# Gladys Virginia Stuart
+						1915.08.06={birth=yes}  # Budapest
+						2002.10.22={death=yes}  # Tirana Albania
+					}
+					100117293={	# E2. Virginia, *Budapest 26.12.1916, +Budapest 5.11.2002; 1m: Andras Baghy de Szecserry (*14.2.1910 +25.10.1941); 2m: Joseph Bulkney Blackburn (*21.6.1921 +New York 17.3.1962); 3m: 1971 Joseph Markus Mariassy (*7.2.1914)
+						name=Virginia
+						female=yes
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117289	# Julius Apponyi de Nagy-Apponyi
+						mother=100117290	# Gladys Virginia Stuart
+						1916.12.26={birth=yes}  # Budapest
+						2002.11.05={death=yes}  # Budapest
+					}
+					100117297={	# E3. Julius, *Budapest 28.12.1923, +Aix 1946
+						name=Julius
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117289	# Julius Apponyi de Nagy-Apponyi
+						mother=100117290	# Gladys Virginia Stuart
+						1923.12.28={birth=yes}  # Budapest
+						1946.01.01={death=yes}  # Aix
+					}
+				100117298={	# D2. Anton, *Wien 23.4.1877, +Ujfeherto 6.6.1952; 1m: 1910 Eugenie Lindes (*1888, +Wien 19.4.1931); 2m: 1938 Madeleine Forrest (*New York 1.1.1889)
+					name=Anton
+					dynasty=1011329
+					religion=catholic culture=german
+					father=100117287	# Lajos Apponyi de Nagy-Apponyi
+					mother=100117288	# GFN Margarete von Seherr-Thoss
+					1877.04.23={birth=yes}  # Wien
+					1910.01.01={add_spouse=100117299}	# Eugenie Lindes
+					1938.01.01={add_spouse=100117301}	# Madeleine Forrest
+					1952.06.06={death=yes}  # Ujfeherto
+				}
+					100117303={	# E1. Theresa, *Brussels 4.2.1913, +Budapest 16.9.1944
+						name=Theresa
+						female=yes
+						dynasty=1011329
+						religion=catholic culture=frankish
+						father=100117298	# Anton Apponyi de Nagy-Apponyi
+						mother=100117299	# Eugenie Lindes
+						1913.02.04={birth=yes}  # Brussels
+						1944.09.16={death=yes}  # Budapest
+					}
+				100117304={	# D3. Heinrich, *Nagy-Apponyi 1.1.1895
+					name=Heinrich
+					dynasty=1011329
+					religion=catholic culture=hungarian
+					father=100117287	# Lajos Apponyi de Nagy-Apponyi
+					mother=100117288	# GFN Margarete von Seherr-Thoss
+					1895.01.01={birth=yes}
+					1970.01.01={death=yes}  # EST.
+				}
+				100117306={	# D4. Theresa, *Wien 11.10.1874, +Budapest 2.11.1928; m.Budapest 18.11.1908 Baron Joseph Inkey von Pallin (*Pest 15.5.1871, +Iharosberény 16.3.1945)
+					name=Theresa
+					female=yes
+					dynasty=1011329
+					religion=catholic culture=german
+					father=100117287	# Lajos Apponyi de Nagy-Apponyi
+					mother=100117288	# GFN Margarete von Seherr-Thoss
+					1874.10.11={birth=yes}  # Wien
+					1928.11.02={death=yes}  # Budapest
+				}
+				100117309={	# D5. Adela, *Wien 11.1.1876, +1945
+					name=Adela
+					female=yes
+					dynasty=1011329
+					religion=catholic culture=german
+					father=100117287	# Lajos Apponyi de Nagy-Apponyi
+					mother=100117288	# GFN Margarete von Seherr-Thoss
+					1876.01.11={birth=yes}  # Wien
+					1945.01.01={death=yes}
+				}
+				100116114={	# D6. Franziska, *Wien 16.4.1879, +28.7.1958; m.Nagy-Apponyi 17.8.1897 Ladislas Gf Károlyi de Nagy-Kálolyi (*12.6.1859 +26.10.1936)
+					name=Franziska
+					female=yes
+					dynasty=1011329
+					religion=catholic culture=german
+					father=100117287	# Lajos Apponyi de Nagy-Apponyi
+					mother=100117288	# GFN Margarete von Seherr-Thoss
+					1879.04.16={birth=yes}  # Wien
+					1958.07.28={death=yes}
+				}
+			100117313={	# C2. Stephan, *and +1851
+				name=Stephan
+				dynasty=1011329
+				religion=catholic culture=hungarian
+				father=100117285	# Julius Apponyi de Nagy-Apponyi
+				mother=100117286	# GFN Sophie Sztaray
+				1851.01.01={birth=yes}
+				1925.01.01={death=yes}  # EST.
+			}
+			100117314={	# C3. Antal, *Wien 21.12.1852, +Bad Ischl 4.2.1920; m.Wien 23.5.1878 Pss Marie von Montenuovo (*Wien 10.9.1859, +Wien 2.3.1911)
+				name=Antal
+				dynasty=1011329
+				religion=catholic culture=german
+				father=100117285	# Julius Apponyi de Nagy-Apponyi
+				mother=100117286	# GFN Sophie Sztaray
+				1852.12.21={birth=yes}  # Wien
+				1878.05.23={add_spouse=100117316}	# PSS Marie von Montenuovo
+				1920.02.04={death=yes}  # Bad Ischl
+			}
+				100117318={	# D1. Antal, *Marchegg 8.1.1883, +Lausanne 8.8.1954; m.London 3.6.1912 Kate Nelke (*Englefield Green 27.7.1893, +Lausanne 1.2.1977)
+					name=Antal
+					dynasty=1011329
+					religion=catholic culture=hungarian
+					father=100117314	# Antal Apponyi de Nagy-Apponyi
+					mother=100117316	# PSS Marie von Montenuovo
+					1883.01.08={birth=yes}  # Marchegg
+					1912.06.03={add_spouse=100117320}	# Kate Nelke
+					1954.08.08={death=yes}  # Lausanne
+				}
+					100117321={	# E1. Css Marie, *London 23.3.1913, +London 1.4.1952; m.St.Wolfgang, Salzburg 20.9.1934 Anthony Paul Irby (*London 21.3.1908)
+						name=Marie
+						female=yes
+						dynasty=1011329
+						religion=catholic culture=english
+						father=100117318	# Antal Apponyi de Nagy-Apponyi
+						mother=100117320	# Kate Nelke
+						1913.03.23={birth=yes}  # London
+						1952.04.01={death=yes}  # London
+					}
+					100117324={	# E2. Antal, *Jablonicz 16.3.1915, +England 29.3.2003; m.London 1941 Bertha Florence Brooks (*London 23.11.1911, +12.6.1991)
+						name=Antal
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117318	# Antal Apponyi de Nagy-Apponyi
+						mother=100117320	# Kate Nelke
+						1915.03.16={birth=yes}  # Jablonicz
+						1941.01.01={add_spouse=100117326}	# Bertha Florence Brooks
+						2003.03.29={death=yes}  # England
+					}
+						100117328={	# F1. Antal, *Hampton Court 8.12.1942; m.Amanda N
+							name=Antal
+							dynasty=1011329
+							religion=catholic culture=hungarian
+							father=100117324	# Antal Apponyi de Nagy-Apponyi
+							mother=100117326	# Bertha Florence Brooks
+							1942.12.08={birth=yes}
+						}
+							100117331={	# G1. Rose Elisabeth, *London 7.8.1980
+								name="Rose Elisabeth"
+								female=yes
+								dynasty=1011329
+								religion=catholic culture=hungarian
+								father=100117328	# Antal Apponyi de Nagy-Apponyi
+								1980.08.07={birth=yes}
+							}
+							100117333={	# G2. Laura, *London 6.3.1982
+								name=Laura
+								female=yes
+								dynasty=1011329
+								religion=catholic culture=hungarian
+								father=100117328	# Antal Apponyi de Nagy-Apponyi
+								1982.03.06={birth=yes}
+							}
+					100117335={	# E3. Alexandra, *Ouchy 10.10.1919; 1m: Edinburgh 20.10.1939 (div 1942) Julius Lánczy (*Budapest 1885); 2m: London 17.11.1945 (div 1951) John Russell (*Fleet, Hants 22.1.1919); 3m: London 2.8.1955 Andreas Mayor (*London 24.5.1918, +Milan 29.1.1975)
+						name=Alexandra
+						female=yes
+						dynasty=1011329
+						religion=catholic culture=hungarian
+						father=100117318	# Antal Apponyi de Nagy-Apponyi
+						mother=100117320	# Kate Nelke
+						1919.10.10={birth=yes}
+						1995.01.01={death=yes}  # EST.
+					}
+				100117342={	# D2. Julie, *Kis-Appony 13.9.1879, +1954; m.Jablonicz 31.10.1903 Heinrich Gf von Herberstein (*Gross-Opatowitz 17.1.1874)
+					name=Julie
 					female=yes
 					dynasty=1011329
 					religion=catholic culture=hungarian
-					father=100117205	# Lajos Antal Albert Apponyi de Nagy-Apponyi
-					1879.04.16={birth=yes}
-					1958.07.28={death=yes}
+					father=100117314	# Antal Apponyi de Nagy-Apponyi
+					mother=100117316	# PSS Marie von Montenuovo
+					1879.09.13={birth=yes}
+					1954.01.01={death=yes}
 				}
-##  100117200	Apponyi							1011329
+		100117346={	# B3. Marie, *3.9.1821, +Bratislava 29.3.1883; 1m: 1843 Albert Gf Esterhazy (*1813 +1845); 2m: 1852 Viktor Frhr von Wenckheim (*5.6.1815 +1900)
+			name=Marie
+			female=yes
+			dynasty=1011329
+			religion=catholic culture=hungarian
+			father=100117277	# Anton Apponyi de Nagy-Apponyi
+			mother=100117278	# GFN Therese Nogarola
+			1821.09.03={birth=yes}
+			1883.03.29={death=yes}  # Bratislava
+		}
+	100117351={	# A3. József, *20.9.1784, +11.3.1863; m.12.9.1813 Gfn Therese Pejácsevich de Verõcze (*11.2.1799 +25.2.1877)
+		name=József
+		dynasty=1011329
+		religion=catholic culture=hungarian
+		father=100117208	# Antal György Apponyi de Nagy-Apponyi
+		mother=100117209	# GFN Caroline zu Lodron-Laterano
+		1784.09.20={birth=yes}
+		1813.09.12={add_spouse=100117352}	# GFN Therese Pejácsevich de Verõcze
+		1863.03.11={death=yes}
+	}
+		100117354={	# B1. Caroline, *18.7.1814, +1886; m.1834 Eduard Fst von Collalto und San Salvatore (*17.10.1810 +24.3.1862)
+			name=Caroline
+			female=yes
+			dynasty=1011329
+			religion=catholic culture=hungarian
+			father=100117351	# József Apponyi de Nagy-Apponyi
+			mother=100117352	# GFN Therese Pejácsevich de Verõcze
+			1814.07.18={birth=yes}
+			1886.01.01={death=yes}
+		}
+	100117358={	# A4. Anna, *1781, +1852; m.1815 Alexander Mkgf Piatti (+1831)
+		name=Anna
+		female=yes
+		dynasty=1011329
+		religion=catholic culture=hungarian
+		father=100117208	# Antal György Apponyi de Nagy-Apponyi
+		mother=100117209	# GFN Caroline zu Lodron-Laterano
+		1781.01.01={birth=yes}
+		1852.01.01={death=yes}
+	}
+	100117362={	# A5. Caroline, *31.8.1789, +1872; m.1810 Anton Fst von Collalto u.San Salvatore (*Venice 5.8.1784, +Pirnitz 23.11.1854)
+		name=Caroline
+		female=yes
+		dynasty=1011329
+		religion=catholic culture=hungarian
+		father=100117208	# Antal György Apponyi de Nagy-Apponyi
+		mother=100117209	# GFN Caroline zu Lodron-Laterano
+		1789.08.31={birth=yes}
+		1872.01.01={death=yes}
+	}
+	100117369={	# A6. Maria Barbara, *1791, +1844; m.1811 Leopold Frhr von Hackelberg
+		name="Maria Barbara"
+		female=yes
+		dynasty=1011329
+		religion=catholic culture=hungarian
+		father=100117208	# Antal György Apponyi de Nagy-Apponyi
+		mother=100117209	# GFN Caroline zu Lodron-Laterano
+		1791.01.01={birth=yes}
+		1844.01.01={death=yes}
+	}
+	100117374={	# A7. Franziska, *1793, +1863; m.1817 Joseph Gf von Tige (*1788 +1870)
+		name=Franziska
+		female=yes
+		dynasty=1011329
+		religion=catholic culture=hungarian
+		father=100117208	# Antal György Apponyi de Nagy-Apponyi
+		mother=100117209	# GFN Caroline zu Lodron-Laterano
+		1793.01.01={birth=yes}
+		1863.01.01={death=yes}
+	}
+#1785.12.04={holder=100117208} # Graf Antal Görgy Apponyi de Nagy-Appony
+#1817.03.17={holder=100117210} # A1. Georg
+#1849.08.03={holder=100117212} # B1. Karl
+#1890.12.30={holder=100117214} # C1. Géza
+#1927.02.28={holder=100117216} # D1. Karl
+#1959.04.03={holder=100117220} # E2. Alfred
+#1989.01.12={holder=100117222} # F1. Rudolf				
+##  100117212	Apponyi							1011329
 
 
 ##  100117150	Andrássy						1011322
@@ -3136,7 +3581,7 @@
 					religion=catholic culture=hungarian
 					father=100116838	# György Festetics de Tolna
 					1785.06.15={birth=yes}
-					1811.08.31={add_spouse=100092301}	# PSS Josephine von Hohenzollern-Hechingen
+					1811.08.31={add_spouse=100092301}	# Josephine von Hohenzollern-Hechingen
 					1846.05.12={death=yes}
 				}
 					100116802={	# 1a) Helene (Vienna 1 Jun 1812-Chambéry 11 May 1886); m.1st Keszthely 3 Jul 1832 Sándor Gf von Württemberg (Copenhagen 5 Nov 1801-Wildbad 7 Jul 1844); m.2d 1845 François de Bourget, Baron Challet de Bourget
@@ -3145,7 +3590,7 @@
 						dynasty=1011007
 						religion=catholic culture=hungarian
 						father=100116800	# László Festetics de Tolna
-						mother=100092301	# PSS Josephine von Hohenzollern-Hechingen
+						mother=100092301	# Josephine von Hohenzollern-Hechingen
 						1812.06.01={birth=yes}
 						1886.05.11={death=yes}
 					}
@@ -3154,7 +3599,7 @@
 						dynasty=1011007
 						religion=catholic culture=hungarian
 						father=100116800	# László Festetics de Tolna
-						mother=100092301	# PSS Josephine von Hohenzollern-Hechingen
+						mother=100092301	# Josephine von Hohenzollern-Hechingen
 						1813.01.01={birth=yes}
 						1883.01.01={death=yes}
 					}
@@ -3163,7 +3608,7 @@
 						dynasty=1011007
 						religion=catholic culture=hungarian
 						father=100116800	# László Festetics de Tolna
-						mother=100092301	# PSS Josephine von Hohenzollern-Hechingen
+						mother=100092301	# Josephine von Hohenzollern-Hechingen
 						1815.03.23={birth=yes}
 						1849.02.17={add_spouse=100116921}	# Eugenie Erdõdy de Monyorókerék et Monoszló
 						1883.02.12={death=yes}
@@ -3298,7 +3743,7 @@
 						dynasty=1011007
 						religion=catholic culture=hungarian
 						father=100116800	# László Festetics de Tolna
-						mother=100092301	# PSS Josephine von Hohenzollern-Hechingen
+						mother=100092301	# Josephine von Hohenzollern-Hechingen
 						1823.06.25={birth=yes}
 						1867.10.23={add_spouse=100092466}	# Luise von Kotzebue
 						1889.06.16={death=yes}
@@ -6092,7 +6537,7 @@
 				father=100116109	# Ede Károlyi de Nagykároly
 				mother=100086940	# GFN Clarissa Kornis de Göncz-Ruszka
 				1859.06.12={birth=yes}
-				1897.08.17={add_spouse=100116114}	# Franziska Apponyi de Nagy-Apponyi Apponyi de Nagy-Apponyi
+				1897.08.17={add_spouse=100116114}	# Franziska Apponyi de Nagy-Apponyi
 				1936.10.26={death=yes}
 			}
 				100116115={	# 1d) István (Fóth 9 Dec 1898-Villa Gesell, Argentina 2 Jun 1967); m.Sárospatak 8 Jul 1930 Marie Magdalene Pss zu Windisch-Grätz (Sárospatak 26 Sep 1911-2005)
@@ -6100,7 +6545,7 @@
 					dynasty=1011005
 					religion=catholic culture=hungarian
 					father=100116113	# László Károlyi de Nagykároly
-					mother=100116114	# Franziska Apponyi de Nagy-Apponyi Apponyi de Nagy-Apponyi
+					mother=100116114	# Franziska Apponyi de Nagy-Apponyi
 					1898.12.09={birth=yes}
 					1930.07.08={add_spouse=100022555}	# Maria Magdalene v. Windisch-Graetz
 					1967.06.02={death=yes}
@@ -6188,7 +6633,7 @@
 					dynasty=1011005
 					religion=catholic culture=hungarian
 					father=100116113	# László Károlyi de Nagykároly
-					mother=100116114	# Franziska Apponyi de Nagy-Apponyi Apponyi de Nagy-Apponyi
+					mother=100116114	# Franziska Apponyi de Nagy-Apponyi
 					1899.11.11={birth=yes}
 					1993.03.20={death=yes}
 				}
@@ -6198,7 +6643,7 @@
 					dynasty=1011005
 					religion=catholic culture=hungarian
 					father=100116113	# László Károlyi de Nagykároly
-					mother=100116114	# Franziska Apponyi de Nagy-Apponyi Apponyi de Nagy-Apponyi
+					mother=100116114	# Franziska Apponyi de Nagy-Apponyi
 					1903.09.27={birth=yes}
 					1993.09.23={death=yes}
 				}
@@ -8682,7 +9127,7 @@
 				mother=100092448	# GFN Maria Anna von Kolowrat-Krakowský
 				1785.10.11={birth=yes}
 				1807.01.20={add_spouse=100080445}	# GFN Antonie Batthyány
-				1842.06.28={add_spouse=100115630}	# Franziska Apponyi de Nagy-Apponyi Apponyi de Nagy-Apponyi
+				1842.06.28={add_spouse=100115630}	# Franziska Apponyi de Nagy-Apponyi
 				1876.06.01={death=yes}
 			}
 				100115631={	# 1d) Anna (18 Oct 1808-Preßburg 18 Mar 1900); m.Preßburg 18 Nov 1827 Augusto Pr Odescalchi (1 Jan 1808-Preßburg 18 Mar 1848)
