@@ -19,8 +19,403 @@
 ##  10089		d'Este
 ##  1006019		Massimo											100072900
 ##  10229		Farnese											
-##  1006020		xxx												100073050											
+##  1006021		Collalto										100073050											
 #############################################################################
+
+
+##  1006021		Collalto										100073050		
+100073051={	# Cte Eduardo II di Collalto, m. Anna Maria di Collalto
+	name=Eduardo
+	dynasty=1006021
+	religion=catholic culture=italian
+	1682.1.1={birth=yes}
+	1710.01.01={add_spouse=100073052}	# Anna di Collalto
+	1749.1.1={death=yes}
+}
+	100073053={	# 1a) Antonio Octavio, d.1793; m.Laura Nani
+		name="Antonio _Octavio"
+		dynasty=1006021
+		religion=catholic culture=italian
+		father=100073051	# Eduardo v. Collalto u.San Salvatore
+		mother=100073052	# Anna di Collalto
+		1719.01.01={birth=yes}
+		1746.01.01={add_spouse=100073054}	# Laura Nani
+		1793.01.01={death=yes}
+	}
+		100073055={	# 1b) EDUARD, cr 1822 Fürst von Collalto u.San Salvatore (28 Apr 1748-5 Feb 1833); m.27 Oct 1782 Cecilia Ctsa Gradenigo (12 Feb 1762-24 Jan 1827)
+			name=Odoardo
+			dynasty=1006021
+			religion=catholic culture=italian
+			father=100073053	# Antonio  Octavio v. Collalto u.San Salvatore
+			mother=100073054	# Laura Nani
+			1748.04.28={birth=yes}
+			1782.10.27={add_spouse=100073056}	# CTSA Cecilia Gradenigo
+			1833.02.05={death=yes}
+		}
+			100073057={	# 1c) ANTON Oktavian Fst von Collalto u.San Salvatore (6 Aug 1784-23 Nov 1854); m.7 Jan 1810 Caroline Gfn Apponyi von Nagy-Appony (31 Aug 1790-20 Apr 1872)
+				name=Anton
+				dynasty=1006021
+				religion=catholic culture=italian
+				father=100073055	# Odoardo v. Collalto u.San Salvatore
+				mother=100073056	# CTSA Cecilia Gradenigo
+				1784.08.06={birth=yes}
+				1810.01.07={add_spouse=100117362}	# Caroline Apponyi de Nagy-Apponyi
+				1854.11.23={death=yes}
+			}
+				100073059={	# 1d) EDUARD Fst von Collalto u.San Salvatore (17 Oct 1810-24 Mar 1862); m.4 Nov 1834 Caroline Gfn Apponyi von Nagy Appony (18 Jul 1814-23 Jun 1886)
+					name=Odoardo
+					dynasty=1006021
+					religion=catholic culture=italian
+					father=100073057	# Anton v. Collalto u.San Salvatore
+					mother=100117362	# Caroline Apponyi de Nagy-Apponyi
+					1810.10.17={birth=yes}
+					1834.11.04={add_spouse=100117354}	# Caroline Apponyi de Nagy-Apponyi
+					1862.03.24={death=yes}
+				}
+					100073061={	# 2e) Julie Caroline Therese (Pirnitz, Moravia 5 Mar 1838-Klafterbrunn 3 Apr 1922); m.Vienna 8 Apr 1861 Eduard Gf von Walderdorff (Molsberg 29 Jan 1833-Klafterbrunn 1 Oct 1887)
+						name=Julie
+						female=yes
+						dynasty=1006021
+						religion=catholic culture=italian
+						father=100073059	# Odoardo v. Collalto u.San Salvatore
+						mother=100117354	# Caroline Apponyi de Nagy-Apponyi
+						1838.03.05={birth=yes}  # Pirnitz Moravia
+						1922.04.03={death=yes}  # Klafterbrunn
+					}
+					100073063={	# 3e) EMANUEL Joseph Anton Fst von Collalto u.San Salvatore (24 Dec 1854-11 Dec 1924)
+						name=Emanuel
+						dynasty=1006021
+						religion=catholic culture=italian
+						father=100073059	# Odoardo v. Collalto u.San Salvatore
+						mother=100117354	# Caroline Apponyi de Nagy-Apponyi
+						1854.12.24={birth=yes}
+						1924.12.11={death=yes}
+					}
+				100073064={	# 2d) Cecilia (30 Apr 1812-7 Oct 1890); m.1 Jul 1830 Friedrich August Mkgf Piatti (1 Jul 1803-24 Nov 1872)
+					name=Cecilia
+					female=yes
+					dynasty=1006021
+					religion=catholic culture=italian
+					father=100073057	# Anton v. Collalto u.San Salvatore
+					mother=100117362	# Caroline Apponyi de Nagy-Apponyi
+					1812.04.30={birth=yes}
+					1890.10.07={death=yes}
+				}
+				100073066={	# 3d) Alfons (19 Jul 1814-28 Jun 1890); m.10 May 1840 Ida Gfn von Colloredo-Mansfeld (13 Feb 1816-5 Jun 1857)
+					name=Alfons
+					dynasty=1006021
+					religion=catholic culture=italian
+					father=100073057	# Anton v. Collalto u.San Salvatore
+					mother=100117362	# Caroline Apponyi de Nagy-Apponyi
+					1814.07.19={birth=yes}
+					1840.05.10={add_spouse=100073067}	# GFN Ida von Colloredo-Mansfeld
+					1890.06.28={death=yes}
+				}
+					100073068={	# 1e) Margarete Juliane (29 May 1841-18 Aug 1918); m.1 Jul 1860 Ferdinand Gf Piatti (18 Aug 1833-26 Feb 1908)
+						name="Margarete Juliane"
+						female=yes
+						dynasty=1006021
+						religion=catholic culture=italian
+						father=100073066	# Alfons v. Collalto u.San Salvatore
+						mother=100073067	# GFN Ida von Colloredo-Mansfeld
+						1841.05.29={birth=yes}
+						1918.08.18={death=yes}
+					}
+					100073070={	# 2e) Oktavian Anton Salvator (Pirnitz 5 May 1842-San Salvatore 28 May 1912); m.Lich 31 Jan 1865 Anna Pss zu Solms-Hohensolms-Lich (Pirnitz 2 Jun 1844-Graz 7 May 1904)
+						name=Oktavian
+						dynasty=1006021
+						religion=catholic culture=italian
+						father=100073066	# Alfons v. Collalto u.San Salvatore
+						mother=100073067	# GFN Ida von Colloredo-Mansfeld
+						1842.05.05={birth=yes}  # Pirnitz
+						1865.01.31={add_spouse=100002160}	# Anna zu Solms-Hohensolms-Lich
+						1912.05.28={death=yes}  # San Salvatore
+					}
+						100073072={	# 1f) Maria Theresa Ida Caroline Cecilia Juliane (22 Dec 1866-16 Sep 1940)
+							name=Maria
+							female=yes
+							dynasty=1006021
+							religion=catholic culture=italian
+							father=100073070	# Oktavian v. Collalto u.San Salvatore
+							mother=100002160	# Anna zu Solms-Hohensolms-Lich
+							1866.12.22={birth=yes}
+							1940.09.16={death=yes}
+						}
+						100073073={	# 2f) Rambald Alfons Ferdinand Ludwig Hermann (Lich 10 Feb 1858-San Salvatore 26 Dec 1913); m.Vienna 9 Oct 1892 Gabriele Gfn von Abensperg u.Traun (Petronell 25 Apr 1878-13 May 1964)
+							name=Rambald
+							dynasty=1006021
+							religion=catholic culture=italian
+							father=100073070	# Oktavian v. Collalto u.San Salvatore
+							mother=100002160	# Anna zu Solms-Hohensolms-Lich
+							1858.02.10={birth=yes}  # Lich
+							1892.10.09={add_spouse=100073074}	# GFN Gabriele von Abensperg u.Traun
+							1913.12.26={death=yes}  # San Salvatore
+						}
+						100073075={	# 3f) MANFRED Eduard Fst von Collalto u.San Salvatore (San Salvatore 18 Jan 1870- Ungarschitz, Moravia 22 Jul 1940); m.Büdingen 1901 Thekla Pss zu Isenburg u.Büdingen in Büdingen (Büdingen 16 Oct 1878-Mistelbach, Lower Austria 22 Feb 1950)
+							name=Manfred
+							dynasty=1006021
+							religion=catholic culture=italian
+							father=100073070	# Oktavian v. Collalto u.San Salvatore
+							mother=100002160	# Anna zu Solms-Hohensolms-Lich
+							1870.01.18={birth=yes}  # San Salvatore
+							1901.01.01={add_spouse=100013618}	# Thekla v. Isenburg
+							1940.07.22={death=yes}  # Ungarschitz Moravia
+						}
+							100073077={	# 1g) Giselda Anna Bertha Gabriele Marie Hedwig Elisabeth Emma Mathilde Juliane (Teschendorf, Mecklenburg 21 Sep 1902-Horn, Lower Austria 27 Nov 1983); m.Staatz 23 Aug 1922 Eduard Gf von Mensdorff-Pouilly (Boskowitz 25 Mar 1900-Greillenstein, Lower Austria 11 Apr 1966)
+								name=Giselda
+								female=yes
+								dynasty=1006021
+								religion=catholic culture=italian
+								father=100073075	# Manfred v. Collalto u.San Salvatore
+								mother=100013618	# Thekla v. Isenburg
+								1902.09.21={birth=yes}  # Teschendorf Mecklenburg
+								1983.11.27={death=yes}  # Horn Lower Austria
+							}
+							100073079={	# 2g) Anna Gabriele Therese Bertha Irmgard Emma Marie Mathilde Agnes Luitgard Juliane (Teschendorf 7 May 1904-Vienna 24 Feb 1994); m.Staatz 23 Aug 1922 Ferdinand Mkgf Piatti (Loosdorf 4 Jul 1899-Vienna 18 Mar 1980)
+								name=Anna
+								female=yes
+								dynasty=1006021
+								religion=catholic culture=italian
+								father=100073075	# Manfred v. Collalto u.San Salvatore
+								mother=100013618	# Thekla v. Isenburg
+								1904.05.07={birth=yes}  # Teschendorf
+								1994.02.24={death=yes}  # Vienna
+							}
+							100073081={	# 3g) Polyxena Therese Bertha Hertha Helene Marie Adelheid Emma Gisela Juliane (Teschendorf 16 Oct 1905-Conegliano 11 Aug 1984); m.Ungarschitz 24 Jun 1928 Alfred Pr von und zu Liechtenstein (Preßburg 6 Jun 1900-Klagenfurt 29 Mar 1972)
+								name=Polyxena
+								female=yes
+								dynasty=1006021
+								religion=catholic culture=italian
+								father=100073075	# Manfred v. Collalto u.San Salvatore
+								mother=100013618	# Thekla v. Isenburg
+								1905.10.16={birth=yes}  # Teschendorf
+								1984.08.11={death=yes}  # Conegliano
+							}
+							100073083={	# 4g) OKTAVIAN Bruno Rambald Kuno Rudolf Eilert Fst von Collalto u.San Salvatore (Teschendorf 12 Oct 1906-Venice 13 Oct 1973); m.Vienna 23 Jul 1928 Maria Camilla Pss zu Windisch-Grätz (Keszthely 18 Sep 1907-Venice 10 Jan 1991)
+								name=Oktavian
+								dynasty=1006021
+								religion=catholic culture=italian
+								father=100073075	# Manfred v. Collalto u.San Salvatore
+								mother=100013618	# Thekla v. Isenburg
+								1906.10.12={birth=yes}  # Teschendorf
+								1928.07.23={add_spouse=100022680}	# Marie Camilla v. Windisch-Graetz
+								1973.10.13={death=yes}  # Venice
+							}
+								100073085={	# 1h) Alexandra Thekla Giselda Marie Bianca Polissena Antonia Juliane (Vienna 30 Mar 1930-Milan 10 Jan 1996); m.San Salvatore 31 Jan 1955 Rinaldo dei Baroni Casana (Turin 20 Jun 1917-Milan 12 Jul 1975)
+									name=Alexandra
+									female=yes
+									dynasty=1006021
+									religion=catholic culture=german
+									father=100073083	# Oktavian v. Collalto u.San Salvatore
+									mother=100022680	# Marie Camilla v. Windisch-Graetz
+									1930.03.30={birth=yes}  # Vienna
+									1996.01.10={death=yes}  # Milan
+								}
+								100073087={	# 2h) MANFRED Karl Erwin Rambald Antonius Fst von Collalto u.San Salvatore (Vienna 26 Sep 1932-San Salvatore 21 Jul 2004); m.Pesadilla, Spain 24 Jun 1959 Maria de la Trinidad Castillo y Moreno (b.Tangier 13 May 1937)
+									name=Manfred
+									dynasty=1006021
+									religion=catholic culture=german
+									father=100073083	# Oktavian v. Collalto u.San Salvatore
+									mother=100022680	# Marie Camilla v. Windisch-Graetz
+									1932.09.26={birth=yes}  # Vienna
+									1959.06.24={add_spouse=100073088}	# Maria de la Trinidad Castillo y Moreno
+									2004.07.21={death=yes}  # San Salvatore
+								}
+									100073089={	# 1i) Isabella Maria Aurora Alessandra Giselda Giuliana Marcellina (b.Frankfurt 26 Apr 1960); m.Venice 16 Dec 1989 Guillaume Pr de Croy (b.Rumillies 10 Apr 1950)
+										name=Isabella
+										female=yes
+										dynasty=1006021
+										religion=catholic culture=italian
+										father=100073087	# Manfred v. Collalto u.San Salvatore
+										mother=100073088	# Maria de la Trinidad Castillo y Moreno
+										1960.04.26={birth=yes}
+									}
+									100073091={	# 2i) Giuliana Maria de la Trinidad Tecla Anna Cecilia (b.Frankfurt 7 Mar 1961); m.San Salvatore 9 Jul 1988 Filippo Maria Ferne (b.Rome 17 Oct 1955)
+										name=Giuliana
+										female=yes
+										dynasty=1006021
+										religion=catholic culture=italian
+										father=100073087	# Manfred v. Collalto u.San Salvatore
+										mother=100073088	# Maria de la Trinidad Castillo y Moreno
+										1961.03.07={birth=yes}
+									}
+									100073093={	# 3i) Alessandra Fernanda Maria de la Trinidad Aurora Polissena Giuliana (b.Munich 26 Mar 1962); m.San Salvatore 8 Jun 1991 Vincenzo Campagna (Florence 31 Mar 1963-Florence 28 Jan 2012)
+										name=Alessandra
+										female=yes
+										dynasty=1006021
+										religion=catholic culture=italian
+										father=100073087	# Manfred v. Collalto u.San Salvatore
+										mother=100073088	# Maria de la Trinidad Castillo y Moreno
+										1962.03.26={birth=yes}
+									}
+									100073095={	# 4i) Maria de la Trinidad Polissena Fernanda Giuliana (b.Munich 18 Mar 1964); m.Venice 12 Sep 1987 Giovanni Cte Facchinetti Pulazzini (b.Citta di Castello 30 Mar 1956)
+										name=Maria
+										female=yes
+										dynasty=1006021
+										religion=catholic culture=italian
+										father=100073087	# Manfred v. Collalto u.San Salvatore
+										mother=100073088	# Maria de la Trinidad Castillo y Moreno
+										1964.03.18={birth=yes}
+									}
+									100073097={	# 5i) Caterina Cecilia Maria Aurora Giuliana (b.Venice 13 Mar 1970); m.San Salvatore 29 Jun 1996 Lodovico Giustiniani (b.Beirut 16 Feb 1967)
+										name=Caterina
+										female=yes
+										dynasty=1006021
+										religion=catholic culture=italian
+										father=100073087	# Manfred v. Collalto u.San Salvatore
+										mother=100073088	# Maria de la Trinidad Castillo y Moreno
+										1970.03.13={birth=yes}
+									}
+								100073099={	# 3h) Cecilie Marie-Therese Anna Gabriele Mathilde Juliane (Vienna 15 Sep 1941-Milan 14 Jul 2015); m.Venice 18 Jun 1969 Alberto Falck (Mandello 19 Jun 1938-Milan 3 Nov 2003)
+									name=Cecilie
+									female=yes
+									dynasty=1006021
+									religion=catholic culture=german
+									father=100073083	# Oktavian v. Collalto u.San Salvatore
+									mother=100022680	# Marie Camilla v. Windisch-Graetz
+									1941.09.15={birth=yes}  # Vienna
+									2015.07.14={death=yes}  # Milan
+								}
+							100073101={	# 5g) Rambald Heinrich Ludwig (Teschendorf 27 Jul 1908-San Salvatore 15 Feb 1992); m.Venice 11 Sep 1929 Cecile Gfn Zeno (Treviso 16 May 1905-San Salvatore 17 Jan 1982)
+								name=Rambald
+								dynasty=1006021
+								religion=catholic culture=italian
+								father=100073075	# Manfred v. Collalto u.San Salvatore
+								mother=100013618	# Thekla v. Isenburg
+								1908.07.27={birth=yes}  # Teschendorf
+								1929.09.11={add_spouse=100073102}	# GFN Cecile Zeno
+								1992.02.15={death=yes}  # San Salvatore
+							}
+						100073103={	# 4f) Matilda (28 Jan 1873-6 Apr 1951); m.27 Feb 1897 Heinrich Gf von Fünfkirchen (16 Feb 1865-25 Feb 1957)
+							name=Matilda
+							female=yes
+							dynasty=1006021
+							religion=catholic culture=italian
+							father=100073070	# Oktavian v. Collalto u.San Salvatore
+							mother=100002160	# Anna zu Solms-Hohensolms-Lich
+							1873.01.28={birth=yes}
+							1951.04.06={death=yes}
+						}
+				100073105={	# 4d) Karoline (Vienna 18 Jan 1818-Lich 27 Nov 1855); m.Pirnitz 18 Jan 1836 Ferdinand Pr zu Solms-Hohensolms-Lich (Lich 28 Jul 1806-Lich 14/15 Aug 1876)
+					name=Karoline
+					female=yes
+					dynasty=1006021
+					religion=catholic culture=german
+					father=100073057	# Anton v. Collalto u.San Salvatore
+					mother=100117362	# Caroline Apponyi de Nagy-Apponyi
+					1818.01.18={birth=yes}  # Vienna
+					1855.11.27={death=yes}  # Lich
+				}
+			100073107={	# 2c) Johann (27 Sep 1789-27 Oct 1860)
+				name=Johann
+				dynasty=1006021
+				religion=catholic culture=italian
+				father=100073055	# Odoardo v. Collalto u.San Salvatore
+				mother=100073056	# CTSA Cecilia Gradenigo
+				1789.09.27={birth=yes}
+				1860.10.27={death=yes}
+			}
+	100073114={	# 7a) Maria Laura, b.1723; m.1st 1739 Franz Xaver Ludwig Gf von Dietrichstein (1715-1765); m.2nd Peter de Ponce de Leon
+		name="Maria Laura"
+		female=yes
+		dynasty=1006021
+		religion=catholic culture=italian
+		father=100073051	# Eduardo v. Collalto u.San Salvatore
+		mother=100073052	# Anna di Collalto
+		0015.01.01={birth=yes}
+		0015.01.01={death=yes}  # EST.
+	}
+	100073117={	# 8a) Leonora Anna; m.Pietro Antonio Capello
+		name="Leonora Anna"
+		female=yes
+		dynasty=1006021
+		religion=catholic culture=italian
+		father=100073051	# Eduardo v. Collalto u.San Salvatore
+		mother=100073052	# Anna di Collalto
+		0017.01.01={birth=yes}
+		0017.01.01={death=yes}  # EST.
+	}
+
+#######
+100073094={	#         			Vincenzo            			Campagna       
+	name="Vincenzo Campagna"
+	dynasty=0
+	religion=catholic culture=italian
+	1963.03.31={birth=yes}  # Florence
+	1991.06.08={add_spouse=100073093}	# Alessandra v. Collalto u.San Salvatore
+	2012.01.28={death=yes}  # Florence
+}
+100073118={	#         			Pietro Antonio      			Capello        
+	name="Pietro Antonio Capello"
+	dynasty=0
+	religion=catholic culture=italian
+	0017.01.01={birth=yes}
+	0001.01.01={add_spouse=100073117}	# Leonora Anna v. Collalto u.San Salvatore
+	0017.01.01={death=yes}  # EST.
+}
+100073100={	#         			Alberto             			Falck          
+	name="Alberto Falck"
+	dynasty=0
+	religion=catholic culture=italian
+	1938.06.19={birth=yes}  # Mandello
+	1969.06.18={add_spouse=100073099}	# Cecilie v. Collalto u.San Salvatore
+	2003.11.03={death=yes}  # Milan
+}
+100073092={	#         			Filippo             			Ferne          
+	name="Filippo Ferne"
+	dynasty=0
+	religion=catholic culture=italian
+	1955.10.17={birth=yes}
+	1988.07.09={add_spouse=100073091}	# Giuliana v. Collalto u.San Salvatore
+}
+100073098={	#         			Lodovico            			Giustiniani    
+	name="Lodovico Giustiniani"
+	dynasty=0
+	religion=catholic culture=italian
+	1967.02.16={birth=yes}
+	1996.06.29={add_spouse=100073097}	# Caterina v. Collalto u.San Salvatore
+}
+100073054={	#         			Laura               			Nani           
+	name="Laura Nani"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	0003.01.01={birth=yes}
+	0003.01.01={death=yes}  # EST.
+}
+100073116={	#         			Peter               			de Ponce de Leon
+	name="Peter de Ponce de Leon"
+	dynasty=0
+	religion=catholic culture=castillan
+	0015.01.01={birth=yes}
+	0001.01.01={add_spouse=100073114}	# Maria Laura v. Collalto u.San Salvatore
+	0015.01.01={death=yes}  # EST.
+}
+100073088={	#         			Maria de la Trinidad 			Castillo y Moreno
+	name="Maria de la Trinidad Castillo y Moreno"
+	female=yes
+	dynasty=0
+	religion=catholic culture=castillan
+	1937.05.13={birth=yes}
+	2014.01.01={death=yes}  # EST.
+}
+100073086={	#         			Rinaldo             			dei Baroni Casana
+	name="Rinaldo dei Baroni Casana"
+	dynasty=0
+	religion=catholic culture=italian
+	1917.06.20={birth=yes}  # Turin
+	1955.01.31={add_spouse=100073085}	# Alexandra v. Collalto u.San Salvatore
+	1975.07.12={death=yes}  # Milan
+}
+100073052={	#         			Anna                			di Collalto    
+	name="Anna di Collalto"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	#XXXX.1.1={birth=yes}
+	#YYYY.1.1={death=yes}
+}
+##  1006021		Collalto										100073050		
 
 
 ##  10229		Farnese		
