@@ -368,69 +368,7 @@
 						1516.01.01={birth=yes}
 						1576.01.01={death=yes}
 					}
-
-							100015690={# Johann Sigismund von Hohenzollern (1572-1620)
-								name="Johann Sigismund"
-								dynasty=12476
-								religion=lutheran culture=german
-								father=100019207	# Joachim Friedrich v. Hohenzollern
-								1572.01.01={birth=yes}
-								1620.01.01={death=yes}
-							}
-								100015700={# Georg Wilhelm von Hohenzollern (1595-1640)
-									name="Georg Wilhelm"
-									dynasty=12476
-									religion=catholic culture=german
-									father=100015690	# Johann Sigismund v. Hohenzollern
-									1595.01.01={birth=yes}
-									1616.07.14={add_spouse=100014114}	# Elisabeth Charlotte v. Wittelsbach
-									1640.01.01={death=yes}
-								}
-									100015710={# Friedrich Wilhelm von Hohenzollern (1620-1688)
-										name="Friedrich Wilhelm"
-										dynasty=12476
-										religion=catholic culture=german
-										father=100015700	# Georg Wilhelm v. Hohenzollern
-										mother=100014114	# Elisabeth Charlotte v. Wittelsbach
-										1620.01.01={birth=yes}
-										1688.01.01={death=yes}
-									}
-							100019133={	#  Marie Eleonore von Brandenburg 
-								name="Marie Eleonore"
-								female=yes
-								dynasty=12476
-								religion=lutheran culture=german
-								father=100019207	# Joachim Friedrich v. Hohenzollern
-								1599.11.11={birth=yes}
-								1655.03.18={death=yes}
-							}
-					100019134={# Elisabeth Magdalene	v. Hohenzollern (1537-1595)
-						name="Elisabeth Magdalene"
-						female=yes
-						dynasty=12476
-						religion=lutheran culture=german
-						father=100019193	# Joachim Hector v. Hohenzollern
-						1537.11.06={birth=yes}  # Berlin
-						1595.08.22={death=yes}  # Berlin
-					}
-				100014669={	# Mgve    	 Georg Friedrich     	   von Brandenburg-Ansbach
-					name="Georg Friedrich"
-					dynasty=12476
-					religion=lutheran culture=german
-					father=100111875	# Georg v. Hohenzollern
-					1539.04.05={birth=yes}
-					1603.04.26={death=yes}
-				}
-		100111860={ #  Barbara von Brandenburg (1464-1515)
-			name=Barbara
-			female=yes
-			dynasty=12476
-			religion=catholic culture=german
-			father=100019226	# Albrecht Achilles v. Hohenzollern
-			1464.05.29={birth=yes}
-			1515.09.04={death=yes}
-		}
-
+		
 		
 ### BAYREUTH & SCHWEDT etc
 100019255={ #                                                                                     Kurfürst            Friedrich                       von Hohenzollern
@@ -449,7 +387,7 @@
         father=100019255 # Friedrich
         mother=100019242 # Elisabeth
         1414.11.24={birth=yes}
-        0001.01.01={add_spouse=100019209}
+        1449.01.01={add_spouse=100019209}
         1458.11.12={add_spouse=100019244}
         1486.03.11={death=yes}
     }
@@ -457,7 +395,7 @@
             name="Johann Cicero" # /de/name/136948/johann-cicero-kurfuerst-von-brandenburg/
             dynasty=12476
             religion=catholic culture=german
-            father=100019226 # Albrecht Achilles
+			father=100019226 # Albrecht Achilles
             mother=100019209 # Margarethe
             1455.08.02={birth=yes}
             1473.01.01={add_spouse=100019268}
@@ -488,7 +426,7 @@
                         name="Johann Georg" # /de/name/2906/johann-georg-kurfuerst-von-brandenburg/
                         dynasty=12476
                         religion=catholic culture=german
-                        father=100019193 # Joachim Hektor
+						father=100019193 # Joachim Hektor
                         mother=100015067 # Magdalene
                         1525.09.11={birth=yes}
                         1550.01.01={add_spouse=100019196}
@@ -505,11 +443,11 @@
                             1570.01.08={add_spouse=100019163}
                             1608.07.28={death=yes}
                         }
-                            100019224={ #                                                         Kurfürst            Johann Sigismund                von Brandenburg
+							100019224={ #                                                         Kurfürst            Johann Sigismund                von Brandenburg
                                 name="Johann Sigismund" # /de/name/3464/johann-sigismund-kurfuerst-von-brandenburg/
                                 dynasty=12476
                                 religion=catholic culture=german
-                                father=100019207 # Joachim Friedrich
+								father=100019207 # Joachim Friedrich
                                 mother=100019163 # Katharina
                                 1572.11.08={birth=yes}
                                 1594.01.01={add_spouse=100019232}
@@ -583,7 +521,17 @@
                                                     1750.09.24={birth=yes}
                                                     1811.12.21={death=yes}
                                                 }
-                        100019259={ #                                                             Markgraf            Christian                       von Brandenburg-Bayreuth
+							100019133={	#  																			  Marie Eleonore 				  von Brandenburg-Schwedt
+								name="Marie Eleonore"
+								female=yes
+								dynasty=12476
+								religion=lutheran culture=german
+								father=100019207	# Joachim Friedrich v. Hohenzollern
+								mother=100019163
+								1599.11.11={birth=yes}
+								1655.03.18={death=yes}
+							}
+						100019259={ #                                                             Markgraf            Christian                       von Brandenburg-Bayreuth
                             name=Christian   # /de/name/3554/christian-markgraf-von-brandenburg-bayreuth/
                             dynasty=12476
                             religion=catholic culture=german
@@ -657,8 +605,9 @@
                                 father=100019259 # Christian
                                 mother=100019239 # Maria
                                 1619.01.01={birth=yes}
-                                0001.01.01={add_spouse=100019247}
-                                1666.01.01={death=yes}
+                                1652.01.01={add_spouse=100019246}
+                                1666.01.01={add_spouse=100019247}
+                                1666.12.31={death=yes}
                             }
                                 100019009={ #                                                     Markgraf            Christian Heinrich              von Brandenburg-Kulmbach
                                     name="Christian Heinrich" # /de/name/4364/christian-heinrich-markgraf-von-brandenburg-kulmbach/
@@ -702,7 +651,8 @@
                                         }
                                         100019200={ #                                             Markgräfin          Sophie Charlotte Albertina      von Brandenburg-Bayreuth
                                             name="Sophie Charlotte Albertina" # /de/name/4957/sophie-charlotte-albertina-markgraefin-von-brandenburg-bayreuth/
-                                            dynasty=12476
+                                            female=yes
+											dynasty=12476
                                             religion=catholic culture=german
                                             father=100019205 # Georg Friedrich Karl
                                             mother=100012950 # Dorothea
@@ -711,7 +661,8 @@
                                         }
                                     100019261={ #                                                 Markgräfin          Sophie Magdalene                von Brandenburg-Kulmbach
                                         name="Sophie Magdalene" # /de/name/4838/sophie-magdalene-markgraefin-von-brandenburg-kulmbach/
-                                        dynasty=12476
+                                        female=yes
+										dynasty=12476
                                         religion=catholic culture=german
                                         father=100019009 # Christian Heinrich
                                         mother=100019230 # Sophie Christiane
@@ -779,7 +730,8 @@
                                 }
                                     100019127={ #                                                 Markgräfin          Caroline                        von Brandenburg-Ansbach
                                         name=Caroline    # /de/name/4647/caroline-markgraefin-von-brandenburg-ansbach/
-                                        dynasty=12476
+                                        female=yes
+										dynasty=12476
                                         religion=catholic culture=german
                                         father=100019241 # Johann Friedrich
                                         mother=100017544 # Eleanore Erdmute Luise
@@ -815,11 +767,20 @@
                                     1661.11.28={birth=yes}
                                     1705.11.15={death=yes}
                                 }
+					100019134={# 																					  Elisabeth Magdalene			  von Brandenburg-Ansbach
+						name="Elisabeth Magdalene"
+						female=yes
+						dynasty=12476
+						religion=lutheran culture=german
+						father=100019193	# Joachim Hector v. Hohenzollern
+						1537.11.06={birth=yes}  # Berlin
+						1595.08.22={death=yes}  # Berlin
+					}
         100111874={ #                                                                             Markgraf            Friedrich                       von Brandenburg-Ansbach
             name=Friedrich   # /de/name/136952/friedrich-v-markgraf-von-brandenburg-ansbach/
             dynasty=12476
             religion=catholic culture=german
-            father=100019226 # Albrecht Achilles
+			father=100019226 # Albrecht Achilles
             mother=100019244 # Anna
             1460.05.08={birth=yes}
             1485.01.01={add_spouse=100111873}
@@ -837,6 +798,7 @@
             }
                 100019266={ #                                                                                         Maria                           von Brandenburg-Kulmbach
                     name=Maria       # /de/name/2806/maria-von-brandenburg-kulmbach/
+					female=yes
                     dynasty=12476
                     religion=catholic culture=german
                     father=100019216 # Kasimir
@@ -853,6 +815,25 @@
                 1484.03.04={birth=yes}
                 1543.12.27={death=yes}
             }
+				100014669={	# 																	  Markgraf			  Georg Friedrich     	   		  von Brandenburg-Ansbach
+					name="Georg Friedrich"
+					dynasty=12476
+					religion=lutheran culture=german
+					father=100111875	# Georg v. Hohenzollern
+					1539.04.05={birth=yes}
+					1603.04.26={death=yes}
+				}
+		100111860={ #  Barbara von Brandenburg (1464-1515)
+			name=Barbara
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100019226	# Albrecht Achilles v. Hohenzollern
+			mother=100019244 	# Anna
+			1464.05.29={birth=yes}
+			1515.09.04={death=yes}
+		}
+		
 ####################
 100019222={	# prinsesse			Elisabeth           			til Danmark    
 	name="Elisabeth til Danmark" # /de/name/2440/elisabeth-prinzessin-von-daenemark/
@@ -2248,7 +2229,7 @@
 	name=Friedrich
 	dynasty=12476
 	religion=lutheran culture=german
-	father=100015710	# Friedrich Wilhelm v. Hohenzollern
+	father=100019178	# Friedrich Wilhelm v. Hohenzollern
 	1657.07.11={birth=yes}
 	1679.08.23={add_spouse=100019001}	# Elisabeth Henriette v. Hessen
 	1684.10.08={add_spouse=100014702}	# Sophie Charlotte Welf
@@ -2488,14 +2469,12 @@
 												father=100019055	# Friedrich Wilhelm v. Hohenzollern
 												mother=100084012	# Waltraut Freydag
 												1968.04.23={birth=yes}
-												1994.07.02={add_spouse=100019060}	# Franz Anton v. Hohenzollern-Sigmaringen
 											}
 												100019061={# 1l) Paul Wilhelm Philipp Friedrich Alois Johannes Mose (b.Eutin 4 Oct 1995)
 													name="Paul Wilhelm"
 													dynasty=12476
 													religion=lutheran culture=german
 													father=100019059	# Friedrich Wilhelm v. Hohenzollern
-													mother=100019060	# Franz Anton v. Hohenzollern-Sigmaringen
 													1995.10.04={birth=yes}
 												}
 												100019062={# 2l) Maria Luise Anna Philippa Helene Julie Margarethe Elisabeth (b.Eutin 12 Mar 1997)
@@ -2504,7 +2483,6 @@
 													dynasty=12476
 													religion=lutheran culture=german
 													father=100019059	# Friedrich Wilhelm v. Hohenzollern
-													mother=100019060	# Franz Anton v. Hohenzollern-Sigmaringen
 													1997.03.12={birth=yes}
 												}
 												100019063={# 3l) Elisabeth Christine Philine Cécilie Annegret Salome Maria (b.Eutin 16 Dec 1998)
@@ -2513,7 +2491,6 @@
 													dynasty=12476
 													religion=lutheran culture=german
 													father=100019059	# Friedrich Wilhelm v. Hohenzollern
-													mother=100019060	# Franz Anton v. Hohenzollern-Sigmaringen
 													1998.12.16={birth=yes}
 												}
 												100019064={# 4l) Anna Sophie Phila Wilhelmine Amelie Elisabeth Maria (b.Eutin 26 Mar 2001)
@@ -2522,7 +2499,6 @@
 													dynasty=12476
 													religion=lutheran culture=german
 													father=100019059	# Friedrich Wilhelm v. Hohenzollern
-													mother=100019060	# Franz Anton v. Hohenzollern-Sigmaringen
 													2001.03.26={birth=yes}
 												}
 												100019065={# 5l) Johanna Amalie Kira Philippa Rose Elisabeth Maria (b.Eutin 10 Sep 2002)
@@ -2531,7 +2507,6 @@
 													dynasty=12476
 													religion=lutheran culture=german
 													father=100019059	# Friedrich Wilhelm v. Hohenzollern
-													mother=100019060	# Franz Anton v. Hohenzollern-Sigmaringen
 													2002.09.10={birth=yes}
 												}
 												100019066={# 6l) Timotheus Friedrich (b.Wilhelmsruh, Plön 9 Jun 2005)
@@ -2539,7 +2514,6 @@
 													dynasty=12476
 													religion=lutheran culture=german
 													father=100019059	# Friedrich Wilhelm v. Hohenzollern
-													mother=100019060	# Franz Anton v. Hohenzollern-Sigmaringen
 													2005.06.09={birth=yes}
 												}
 											100019067={# 2k) Friedrich Wilhelm Louis Ferdinand Kyrill (b.Berlin 16 Aug 1979) ; m.(civ) Wiesbaden 30 Apr 2009 Anna Catharina Frn v.Salza u.Lichtenau (b.Frankfurt 17 Aug 1981)

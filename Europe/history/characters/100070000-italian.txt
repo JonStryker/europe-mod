@@ -28,18 +28,17 @@
 	name=Eduardo
 	dynasty=1006021
 	religion=catholic culture=italian
-	1682.1.1={birth=yes}
+	1682.01.01={birth=yes}
 	1710.01.01={add_spouse=100073052}	# Anna di Collalto
-	1749.1.1={death=yes}
+	1749.01.01={death=yes}
 }
 	100073053={	# 1a) Antonio Octavio, d.1793; m.Laura Nani
-		name="Antonio _Octavio"
+		name="Antonio Octavio"
 		dynasty=1006021
 		religion=catholic culture=italian
 		father=100073051	# Eduardo v. Collalto u.San Salvatore
 		mother=100073052	# Anna di Collalto
 		1719.01.01={birth=yes}
-		1746.01.01={add_spouse=100073054}	# Laura Nani
 		1793.01.01={death=yes}
 	}
 		100073055={	# 1b) EDUARD, cr 1822 Fürst von Collalto u.San Salvatore (28 Apr 1748-5 Feb 1833); m.27 Oct 1782 Cecilia Ctsa Gradenigo (12 Feb 1762-24 Jan 1827)
@@ -47,7 +46,6 @@
 			dynasty=1006021
 			religion=catholic culture=italian
 			father=100073053	# Antonio  Octavio v. Collalto u.San Salvatore
-			mother=100073054	# Laura Nani
 			1748.04.28={birth=yes}
 			1782.10.27={add_spouse=100073056}	# CTSA Cecilia Gradenigo
 			1833.02.05={death=yes}
@@ -322,8 +320,8 @@
 		religion=catholic culture=italian
 		father=100073051	# Eduardo v. Collalto u.San Salvatore
 		mother=100073052	# Anna di Collalto
-		0015.01.01={birth=yes}
-		0015.01.01={death=yes}  # EST.
+		1721.01.01={birth=yes}
+		1780.01.01={death=yes}  # EST.
 	}
 	100073117={	# 8a) Leonora Anna; m.Pietro Antonio Capello
 		name="Leonora Anna"
@@ -332,8 +330,8 @@
 		religion=catholic culture=italian
 		father=100073051	# Eduardo v. Collalto u.San Salvatore
 		mother=100073052	# Anna di Collalto
-		0017.01.01={birth=yes}
-		0017.01.01={death=yes}  # EST.
+		1723.01.01={birth=yes}
+		1800.01.01={death=yes}  # EST.
 	}
 
 #######
@@ -349,9 +347,9 @@
 	name="Pietro Antonio Capello"
 	dynasty=0
 	religion=catholic culture=italian
-	0017.01.01={birth=yes}
-	0001.01.01={add_spouse=100073117}	# Leonora Anna v. Collalto u.San Salvatore
-	0017.01.01={death=yes}  # EST.
+	1720.01.01={birth=yes}
+	1745.01.01={add_spouse=100073117}	# Leonora Anna v. Collalto u.San Salvatore
+	1780.01.01={death=yes}  # EST.
 }
 100073100={	#         			Alberto             			Falck          
 	name="Alberto Falck"
@@ -375,21 +373,13 @@
 	1967.02.16={birth=yes}
 	1996.06.29={add_spouse=100073097}	# Caterina v. Collalto u.San Salvatore
 }
-100073054={	#         			Laura               			Nani           
-	name="Laura Nani"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	0003.01.01={birth=yes}
-	0003.01.01={death=yes}  # EST.
-}
 100073116={	#         			Peter               			de Ponce de Leon
 	name="Peter de Ponce de Leon"
 	dynasty=0
 	religion=catholic culture=castillan
-	0015.01.01={birth=yes}
-	0001.01.01={add_spouse=100073114}	# Maria Laura v. Collalto u.San Salvatore
-	0015.01.01={death=yes}  # EST.
+	1715.01.01={birth=yes}
+	1745.01.01={add_spouse=100073114}	# Maria Laura v. Collalto u.San Salvatore
+	1790.01.01={death=yes}  # EST.
 }
 100073088={	#         			Maria de la Trinidad 			Castillo y Moreno
 	name="Maria de la Trinidad Castillo y Moreno"
@@ -1676,8 +1666,8 @@
 			religion=catholic culture=italian
 			father=100090483	# Cosimo Squarciafico Pinelli
 			mother=100072805	# Anna Pignatelli
-			1659.01.01={birth=yes}
-			1620.01.01={add_spouse=100089034}	# PSS Giustiniana Pignatelli
+			1655.01.01={birth=yes}
+			1675.01.01={add_spouse=100089034}	# PSS Giustiniana Pignatelli
 			1711.01.01={death=yes}
 		}
 		100072809={	# 2b) ORONZO Ravaschieri Fieschi Pinelli (18 Jan 1661 - 25 Mar 1722); m. 5 May 1701 Pss Violante di Sangro
@@ -10407,7 +10397,7 @@
 }
 
 100070750={	# Don ASPRENO Colonna-Doria del Caretto, Pr di Paliano, Duca di Tagliacozzo, Pr di Castiglione, Duca d'Avella, etc (Rome 10 Sep 1787-Rome 3 Feb 1847); m.Rome 20 Mar 1819 Donna Maria Giovanna Cattaneo della Volta (Naples 2 Nov 1790-Rome 15 Feb 1876)
-	name="Aspreno Colonna-Doria"
+	name=Aspreno
 	dynasty=1006006
 	religion=catholic culture=italian
 	father=100071104	# Fabrizio Colonna
@@ -10416,17 +10406,17 @@
 	1847.02.03={death=yes}
 }
 	100070752={	# 1a) GIOVANNI Andrea Pr Colonna, Pr di Paliano, etc (Naples 27 Jan 1820-Rome 12 Mar 1894); m.29 Feb 1943 Isabella Alvarez de Toledo (7 Jul 1823-Genzano 9 Aug 1867)
-		name="Giovanni Colonna"
+		name=Giovanni
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070750	# Aspreno Colonna-Doria Colonna
 		mother=100081323	# DONNA Maria Giovanna Cattaneo della Volta
 		1820.01.27={birth=yes}
-		1943.02.28={add_spouse=100080125}	# Isabella Alvarez de Toledo
+		1843.02.28={add_spouse=100080125}	# Isabella Alvarez de Toledo
 		1894.03.12={death=yes}
 	}
 		100070754={	# 1b) MARCANTONIO Pr Colonna, Pr di Paliano, etc (Naples 8 Apr 1844-Rome 29 Jan 1912); m.Rome 8 May 1875 Donna Teresa Carraciolo, Duchesa di San Theodoro e di Parete, etc (Naples 5 Nov 1855-Rome 28 Jul 1935)
-			name="Marcantonio Colonna"
+			name=Marcantonio
 			dynasty=1006006
 			religion=catholic culture=italian
 			father=100070752	# Giovanni Colonna Colonna
@@ -13820,7 +13810,6 @@
 					father=100070269	# Antonello Ruffo di Calabria
 					mother=100087873	# Rosa Maria Mastrogiovanni Tasca
 					1965.05.09={birth=yes}
-					1990.07.16={add_spouse=100083095}	# Giovanni dei Baroni Porcari Li Destri
 				}
 				100070275={# 4d) Claudia (b.Rome 30 Aug 1969); m.Anagni 27 May 1989 Marcello Salom (b.Lucca 11 Sep 1957)
 					name=Claudia
