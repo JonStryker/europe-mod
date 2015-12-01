@@ -2,7 +2,7 @@
 ###		Trauttmansdorff		1004004			100023200
 ###		Thun				1004005			100023550
 ###		Orsini-RB			1004006			100024400
-###		Auersperg			1004007			100021400
+###		Auersperg			1004007			100021418
 ###		Esterhazy			1004008			100024650
 ###		CLARY u.ALDRINGEN	1004009			100024750
 ##################################################################
@@ -95,15 +95,6 @@
 						1731.01.01={birth=yes}
 						1774.01.01={death=yes}
 					}
-					100024767={	# 4e) Philipp Johann (1732-1767)
-						name="Philipp Johann"
-						dynasty=1004009
-						religion=catholic culture=german
-						father=100024759	# Joseph Sebastian v. Clary u.Aldringen
-						mother=100087120	# GFN Maria Louisa Künigl
-						1732.01.01={birth=yes}
-						1767.01.01={death=yes}
-					}
 					100024768={	# 5e) Wenzel Philipp (23 Aug 1736-1 Jan 1812)
 						name="Wenzel Philipp"
 						dynasty=1004009
@@ -143,15 +134,6 @@
 						1773.12.26={add_spouse=100089949}	# GFN Barbara Schaffgotsch
 						1795.07.13={death=yes}
 					}
-						100024775={	# 1f) Franz Xaver (1774-1803)
-							name="Franz Xaver"
-							dynasty=1004009
-							religion=catholic culture=german
-							father=100024773	# Philipp v. Clary u.Aldringen
-							mother=100089949	# GFN Barbara Schaffgotsch
-							1774.01.01={birth=yes}
-							1803.01.01={death=yes}
-						}
 						100024776={	# 2f) Wilhelmine (12 Jan 1776-1805); m.3 Oct 1792 János Peter Gf Szapary (1757-Buda 2 Mar 1815)
 							name=Wilhelmine
 							female=yes
@@ -787,15 +769,6 @@
 							1758.12.13={birth=yes}
 							1820.03.23={death=yes}
 						}
-						100024894={	# 2f) Leopold (1766-1788)
-							name=Leopold
-							dynasty=1004009
-							religion=catholic culture=german
-							father=100024889	# Leopold Kaspar v. Clary u.Aldringen
-							mother=100024119	# Marie Walpurgis v. Thun u.Hohenstein
-							1766.01.01={birth=yes}
-							1788.01.01={death=yes}
-						}
 						100024895={	# 3f) Karl Franz (19 Jan 1774-29 Jul 1840); m.1st Johanne Frn Wetzlar von Planckenstern; m.2nd 26 Oct 1819 Marianne Gfn von Dietrichstein-Hollenburg (27 Aug 1788-16 Feb 1835)
 							name="Karl Franz"
 							dynasty=1004009
@@ -1166,28 +1139,206 @@
 ###		Esterhazy			1004008			100024650
 
 
-###		Auersperg			1004007			100021400
-100094448={ # Gf         Georg Siegmund            von Auersperg                            (1680-1734)     0
-	name="Georg Siegmund von Auersperg"
+###		Auersperg			1004007			100021418
+100001916={ # Gfn        Maria Anna                von Auersperg                            (1719-1743)     0
+	name="Maria Anna von Auersperg"
+	female=yes
 	dynasty=0
-	religion=catholic culture=german
-	1680.01.01={birth=yes}
-	1705.02.24={add_spouse=100021404}	# Maria Theresia v. Auersperg
-	1734.01.01={death=yes}
+	religion=lutheran culture=german
+	1719.02.07={birth=yes}
+	1743.04.11={death=yes}
 }
-100085679={ # Gf         Franz                     von Auersperg                            (1752-1803)     0
-	name="Franz von Auersperg"
+100021455={ # Gfn        Maria Theresia            von Auersperg                            (1781-1849)
+	name="Maria Theresia von Auersperg" # /de/name/482688/maria-theresia-graefin-von-auersperg/
+	female=yes
 	dynasty=0
 	religion=catholic culture=german
-	1752.10.18={birth=yes}
-	1778.06.25={add_spouse=100085678}	# Marie Ernestine v. Schwarzenberg
-	1803.06.09={death=yes}
+	1781.10.08={birth=yes}
+	1849.01.30={death=yes}
+}
+100021434={ # Gfn        Herminie Bertha Luise     von Auersperg                            (1820-1893)
+	name="Herminie Bertha Luise von Auersperg" # /de/name/482686/herminie-bertha-luise-graefin-von-auersperg/
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1820.03.12={birth=yes}
+	1893.04.19={death=yes}
 }
 
-100021400={	# JOHANN WEIKHARD Graf von Auersperg, cr 1653 Fürst von Auersperg, Graf von Wels, Herzog von Münsterberg und Frankenstein, etc. (11 Mar 1615-11 Nov 1677); m.31 Jan 1654 Marie Katharine Gfn von Losenstein (1635-1691)
+100021442={ #                    	Frhr   		Christof                  von Auersperg                            (1550-1592)
+	name=Christof    # /de/name/3197/christof-ii-freiherr-von-auersperg/
+	dynasty=1004007
+	religion=catholic culture=german
+	1550.10.27={birth=yes}
+	1573.10.04={add_spouse=100021499}
+	1592.05.14={death=yes}
+}
+	100021466={ #               	            Herbard                   von Auersperg                            (1574-1618)
+		name=Herbard     # /de/name/398756/herbard-xii-von-auersperg/
+		dynasty=1004007
+		religion=catholic culture=german
+		father=100021442 # Christof
+		mother=100021499 # Anna
+		1574.10.20={birth=yes}
+		1609.01.01={add_spouse=100021407}
+		1618.03.24={death=yes}
+	}
+		100021422={ #            	Gf       	Johann Andreas            von Auersperg                            (1615-1664)
+			name="Johann Andreas" # /de/name/482679/johann-andreas-ii-graf-von-auersperg/
+			dynasty=1004007
+			religion=catholic culture=german
+			father=100021466 # Herbard
+			mother=100021407 # Felizitas
+			1615.07.16={birth=yes}
+			1640.01.01={add_spouse=100021446}
+			1664.10.08={death=yes}
+		}
+			100021448={ #        	Gf       	Wolfgang Engelbert        von Auersperg                            (1641-1696)
+				name="Wolfgang Engelbert" # /de/name/482695/wolfgang-engelbert-graf-von-auersperg/
+				dynasty=1004007
+				religion=catholic culture=german
+				father=100021422 # Johann Andreas
+				mother=100021446 # Anna Elisabeth
+				1641.11.08={birth=yes}
+				1669.01.01={add_spouse=100021460}
+				1696.11.05={death=yes}
+			}
+				100021450={ #     	Gf      	Achaz Adam                von Auersperg                            (1676-1739)
+					name=Achaz       # /de/name/482693/achaz-adam-graf-von-auersperg/
+					dynasty=1004007
+					religion=catholic culture=german
+					father=100021448 # Wolfgang Engelbert
+					mother=100021460 # Anne Katharine Elisabeth
+					1676.09.15={birth=yes}
+					1709.01.01={add_spouse=100021416}
+					1725.10.12={add_spouse=100021411}
+					1739.10.28={death=yes}
+				}
+					100021424={ # 	Gf        	Maximilian Joseph         von Auersperg                            (1723-1805)
+						name="Maximilian Joseph" # /de/name/1246051/maximilian-joseph-i-graf-von-auersperg/
+						dynasty=1004007
+						religion=catholic culture=german
+						father=100021450 # Achaz
+						mother=100021416 # Maria Anna
+						1723.10.28={birth=yes}
+						1748.01.01={add_spouse=100021430}
+						1805.01.01={death=yes}
+					}
+						100021413={ # Gf    	Franz Xaver Joseph        von Auersperg                            (1756-1803)
+							name="Franz Xaver Joseph" # /de/name/1677833/franz-xaver-joseph-count-of-auersperg/
+							dynasty=1004007
+							religion=catholic culture=german
+							father=100021424 # Maximilian Joseph
+							mother=100021430 # Maria Josepha Rosina
+							1756.04.06={birth=yes}
+							1778.06.25={add_spouse=100085678}	# Marie Ernestine v. Schwarzenberg
+							1803.06.09={death=yes}
+						}
+					100021453={ # 	Graf      	Johann Paul Alois         von Auersperg                            (1729-1810)
+						name="Johann Paul Alois" # /de/name/482689/johann-paul-alois-graf-von-auersperg/
+						dynasty=1004007
+						religion=catholic culture=german
+						father=100021450 # Achaz
+						mother=100021411 # Marie Anne
+						1729.07.03={birth=yes}
+						1771.05.16={add_spouse=100021452}
+						1810.06.05={death=yes}
+					}
+						100021432={ #       	Johann Weikhard           von Auersperg                            (1773-1833)
+							name=Johann      # /de/name/482687/johann-weikhard-graf-von-auersperg/
+							dynasty=1004007
+							religion=catholic culture=german
+							father=100021453 # Johann Paul Alois
+							mother=100021452 # Marie Kajetana
+							1773.03.21={birth=yes}
+							1804.06.26={add_spouse=100021455}
+							1833.06.19={death=yes}
+						}
+							100021436={ # Gf       			Johann Joseph             		von Auersperg    	   (1812-1883)
+								name="Johann Joseph" # /de/name/482685/johann-joseph-graf-von-auersperg/
+								dynasty=1004007
+								religion=catholic culture=german
+								father=100021432 # Johann
+								mother=100021455 # Maria Theresia
+								1812.03.14={birth=yes}
+								1837.06.21={add_spouse=100021434}
+								1883.10.12={death=yes}
+							}
+								100021440={ # Gf       		Leo Maria Joseph Gustav   		von Auersperg    	   (1844-1915)
+									name="Leo Maria Joseph Gustav" # /de/name/482683/leo-maria-joseph-gustav-graf-von-auersperg/
+									dynasty=1004007
+									religion=catholic culture=german
+									father=100021436 # Johann Joseph
+									mother=100021434 # Herminie Bertha Luise
+									1844.01.24={birth=yes}
+									1874.11.04={add_spouse=100021438}
+									1915.12.18={death=yes}
+								}
+									100021443={ # Gf       	Rudolf Maria Joseph Anton 		von Auersperg   	   (1879-1945)
+										name="Rudolf Maria Joseph Anton" # /de/name/482681/rudolf-maria-joseph-anton-graf-von-auersperg/
+										dynasty=1004007
+										religion=catholic culture=german
+										father=100021440 # Leo Maria Joseph Gustav
+										mother=100021438 # Antonia
+										1879.03.07={birth=yes}
+										1904.01.01={add_spouse=100021441}
+										1945.12.16={death=yes}
+									}
+										100021410={ # Gf      Hanno                     	von Auersperg    	   (1917-1992)
+											name=Hanno       # /de/name/48908/hanno-graf-von-auersperg/
+											dynasty=1004007
+											religion=catholic culture=german
+											father=100021443 # Rudolf Maria Joseph Anton
+											mother=100021441 # Gabriele
+											1917.04.26={birth=yes}
+											1942.01.01={add_spouse=100021468}
+											1992.01.01={death=yes}
+										}
+											100021414={ # Gf   Felizitas                 	von Auersperg    	   (1944-    )
+												name=Felizitas   # /de/name/161051/felizitas-countess-of-auersperg/
+												dynasty=1004007
+												religion=catholic culture=german
+												father=100021410 # Hanno
+												mother=100021468 # Klothilde
+												1944.09.20={birth=yes}
+											}
+			100021427={ #                   	Johann Herward            von Auersperg                            (1643-1701)
+				name="Johann Herward" # /de/name/482675/johann-herward-von-auersperg/
+				dynasty=1004007
+				religion=catholic culture=german
+				father=100021422 # Johann Andreas
+				mother=100021446 # Anna Elisabeth
+				1643.09.18={birth=yes}
+				1670.04.29={add_spouse=100021425}
+				1701.08.31={death=yes}
+			}
+				100021429={ #    	Gf       	Georg Siegmund            von Auersperg in Kichberg                (1678-1753)
+					name="Georg Siegmund" # /de/name/482673/georg-siegmund-count-of-auersperg-in-kichberg/
+					dynasty=1004007
+					religion=catholic culture=german
+					father=100021427 # Johann Herward
+					mother=100021425 # Maria Konstanzia
+					1678.05.02={birth=yes}
+					1705.02.24={add_spouse=100021404}	# Maria Theresia v. Auersperg
+					1734.01.01={death=yes}
+				}
+	100021489={ #                	Gf       	Dietrich                  von Auersperg                            (1578-1634)
+		name=Dietrich    # /de/name/3511/dietrich-ii-graf-von-auersperg/
+		dynasty=1004007
+		religion=catholic culture=german
+		father=100021442 # Christof
+		mother=100021499 # Anna
+		1578.06.02={birth=yes}
+		1609.04.08={add_spouse=100021419}
+		1634.08.25={death=yes}
+	}
+
+100021418={	# JOHANN WEIKHARD Graf von Auersperg, cr 1653 Fürst von Auersperg, Graf von Wels, Herzog von Münsterberg und Frankenstein, etc. (11 Mar 1615-11 Nov 1677); m.31 Jan 1654 Marie Katharine Gfn von Losenstein (1635-1691)
 	name="Johann Weikhard"
 	dynasty=1004007
 	religion=catholic culture=german
+	father=100021489 # Dietrich
+	mother=100021419 # Sidonia
 	1615.03.11={birth=yes}
 	1654.01.31={add_spouse=100092580}	# GFN Marie Katharine von Losenstein
 	1677.11.11={death=yes}
@@ -1196,7 +1347,7 @@
 		name="Johann Ferdinand"
 		dynasty=1004007
 		religion=catholic culture=german
-		father=100021400	# Johann Weikhard v. Auersperg
+		father=100021418	# Johann Weikhard v. Auersperg
 		mother=100092580	# GFN Marie Katharine von Losenstein
 		1655.09.29={birth=yes}
 		1678.01.01={add_spouse=100092197}	# GFN Maria Anna von Herberstein
@@ -1216,7 +1367,7 @@
 		name="Franz Karl"
 		dynasty=1004007
 		religion=catholic culture=german
-		father=100021400	# Johann Weikhard v. Auersperg
+		father=100021418	# Johann Weikhard v. Auersperg
 		mother=100092580	# GFN Marie Katharine von Losenstein
 		1660.11.22={birth=yes}
 		1685.02.26={add_spouse=100092914}	# Marie Therese von Rappach
@@ -1224,12 +1375,12 @@
 	}
 		100021409={	# 4b) Maria Franziska (4 Oct 1691-6 Jul 1725); m.18 May 1721 Johann Joseph Gf von Breunner (d.1762)
 			name="Maria Franziska"
+			female=yes
 			dynasty=1004007
 			religion=catholic culture=german
 			father=100021406	# Franz Karl v. Auersperg
 			mother=100092914	# Marie Therese von Rappach
 			1691.10.04={birth=yes}
-			1721.05.18={add_spouse=100091713}	# GF Johann Joseph von Breunner
 			1725.07.06={death=yes}
 		}
 		100021412={	# 6b) HEINRICH Fst von Auersperg (24 Jun 1697-9 Feb 1783); m.1st 21 May 1719 Marie Dominika Pss von und zu Leichtenstein (5 Aug 1698-2 Jun 1724); m.2nd 7 May 1726 Marie Franziska Trautson Gfn von Falkenstein (11 Aug 1708-2 Apr 1761)
@@ -1285,7 +1436,7 @@
 						1810.02.15={add_spouse=100084599}	# Johann Göthen
 						1811.07.13={death=yes}
 					}
-					100021426={	# 3e) Marie Sophie (7 Sep 1780-7 Dec 1865); m.6 Oct 1802 Joseph Gf Chotek v.Chotkowa u/Wognin (2 Mar 1776-k.a.6 Jul 1809)
+					100021426={	# 3e) Marie Sophie (7 Sep 1780-7 Dec 1865); m.6 Oct 1802 Joseph Gf Chotek v.Chotkowa u.Wognin (2 Mar 1776-k.a.6 Jul 1809)
 						name="Marie Sophie"
 						female=yes
 						dynasty=1004007
@@ -3515,7 +3666,7 @@
 		name=Leopold
 		dynasty=1004007
 		religion=catholic culture=german
-		father=100021400	# Johann Weikhard v. Auersperg
+		father=100021418	# Johann Weikhard v. Auersperg
 		mother=100092580	# GFN Marie Katharine von Losenstein
 		1662.06.30={birth=yes}
 		1703.02.20={add_spouse=100092645}	# GFN Susanne von Martinitz
@@ -3525,13 +3676,13 @@
 		name="Maria Franziska"
 		dynasty=1004007
 		religion=catholic culture=german
-		father=100021400	# Johann Weikhard v. Auersperg
+		father=100021418	# Johann Weikhard v. Auersperg
 		mother=100092580	# GFN Marie Katharine von Losenstein
 		1664.01.01={birth=yes}
 		1693.11.16={add_spouse=100092638}	# GF Heinrich Franz von Mansfeld
 		1739.09.05={death=yes}
 	}
-###		Auersperg			1004007			100021400
+###		Auersperg			1004007			100021418
 
 
 ###		Orsini-RB			1004006			100024400
@@ -3700,15 +3851,6 @@
 					mother=100092267	# GFN Marie Eleonore von Hohenfeld
 					1732.05.09={birth=yes}
 					1779.09.09={death=yes}
-				}
-				100024432={	# 5d) Wolf Philipp (4 Jun 1734-    )
-					name="Wolf Philipp"
-					dynasty=1004006
-					religion=catholic culture=german
-					father=100024426	# Wolf Sigmund v. Orsini u.Rosenberg
-					mother=100092267	# GFN Marie Eleonore von Hohenfeld
-					1734.06.04={birth=yes}
-					1814.01.01={death=yes}	# EST.
 				}
 		100024433={	# 2b) Franz Andreas (22 Mar 1653-28 Mar 1698); m.16 Aug 1682 Amalia Theresia Gfn zu Löwenstein-Wertheim-Rosenberg (19 Jan 1659-5 Feb 1701)
 			name="Franz Andreas"
@@ -4507,7 +4649,7 @@
 							1873.05.24={add_spouse=100092376}	# FRHR Franz von John
 							1917.11.26={death=yes}
 						}
-						100024579={	# 3f) Maximilian (Graz 17 Mar 1846-Baden bei Vienna 27 Aug 1922); m.Prague 24 Sep 1890 Maria-Anna Gfn zu Herberstein (Graz 3 Dec 1851-Baden bei Vienna 2 Aug 1921)
+						100024579={	# 3f) Maximilian (Graz 17 Mar 1846-Baden bei Wien 27 Aug 1922); m.Prague 24 Sep 1890 Maria-Anna Gfn zu Herberstein (Graz 3 Dec 1851-Baden bei Wien 2 Aug 1921)
 							name=Maximilian
 							dynasty=1004006
 							religion=catholic culture=german
@@ -4517,7 +4659,7 @@
 							1890.09.24={add_spouse=100094134}	# GFN Maria Anna zu Herberstein
 							1922.08.27={death=yes}
 						}
-							100024581={	# 1g) Ida (Prague 25 Sep 1891-Weilheim, Upper Bavaria 23 Sep 1955); m.Baden bei Vienna 27 Sep 1916 Christoph Gf zu Stolberg-Stolberg (Westheim 22 Jan 1888-Arnsberg 3 Jul 1968)
+							100024581={	# 1g) Ida (Prague 25 Sep 1891-Weilheim, Upper Bavaria 23 Sep 1955); m.Baden bei Wien 27 Sep 1916 Christoph Gf zu Stolberg-Stolberg (Westheim 22 Jan 1888-Arnsberg 3 Jul 1968)
 								name=Ida
 								female=yes
 								dynasty=1004006
@@ -5123,16 +5265,6 @@
 			1890.05.18={birth=yes}
 			1970.01.01={death=yes}	# EST.
 		}
-		100023657={	# 5b) Caroline (14 Jun 1892-1___)
-			name=Caroline
-			female=yes
-			dynasty=1004005
-			religion=catholic culture=german
-			father=100023613	# Leopold Franz v. Thun u.Hohenstein
-			mother=100084338	# CTSA Giulia Gori-Pannilini
-			1892.06.14={birth=yes}
-			1972.01.01={death=yes}	# EST.
-		}
 	100023658={	# 4a) Antonia (3 Jun 1849-1914); m.Mar 1885 Roberto Bassetti
 		name=Antonia
 		female=yes
@@ -5222,13 +5354,13 @@
 				1868.09.24={death=yes}
 			}
 				100023680={	# 1d) Joseph Oswald (Sehuschitz 21 Dec 1817-Klösterle 6 Jan 1883); m.Prague 10 Sep 1846 Johanna Altgfn zu Salm-Reifferscheidt (Prague 16 May 1834-Innsbruck 8 May 1915)
-					name="Joseph Oswald"
+					name=Oswald
 					dynasty=1004005
 					religion=catholic culture=german
 					father=100023678	# Joseph Matthias v. Thun u.Hohenstein
 					mother=100024135	# Franziska v. Thun u.Hohenstein
 					1817.12.21={birth=yes}
-					1846.09.10={add_spouse=100001940}	# ALTGFN Johanna zu Salm-Reifferscheidt
+					1846.09.10={add_spouse=100001940}	# Johanna zu Salm-Reifferscheidt
 					1883.01.06={death=yes}
 				}
 					100023682={	# 1e) Rosina (Klösterle 29 Apr 1848-Schloß Söllheim 27 Sep 1931); m.Prague 14 Aug 1873 Viktor Gf Dubsky, Frhr von Trebomyslic (Vienna 6 Mar 1834-Ziadlowitz 16 Jul 1915)
@@ -5237,7 +5369,7 @@
 						dynasty=1004005
 						religion=catholic culture=german
 						father=100023680	# Joseph Oswald v. Thun u.Hohenstein
-						mother=100001940	# ALTGFN Johanna zu Salm-Reifferscheidt
+						mother=100001940	# Johanna zu Salm-Reifferscheidt
 						1848.04.29={birth=yes}
 						1931.09.27={death=yes}
 					}
@@ -5246,7 +5378,7 @@
 						dynasty=1004005
 						religion=catholic culture=german
 						father=100023680	# Joseph Oswald v. Thun u.Hohenstein
-						mother=100001940	# ALTGFN Johanna zu Salm-Reifferscheidt
+						mother=100001940	# Johanna zu Salm-Reifferscheidt
 						1849.12.14={birth=yes}
 						1878.03.03={add_spouse=100093373}	# GFN Christiana von Waldstein
 						1913.10.21={death=yes}
@@ -5495,7 +5627,7 @@
 						dynasty=1004005
 						religion=catholic culture=german
 						father=100023680	# Joseph Oswald v. Thun u.Hohenstein
-						mother=100001940	# ALTGFN Johanna zu Salm-Reifferscheidt
+						mother=100001940	# Johanna zu Salm-Reifferscheidt
 						1852.08.03={birth=yes}
 						1873.05.18={add_spouse=100093374}	# GF Ernst Karl von Waldstein
 						1894.07.21={death=yes}
@@ -5506,7 +5638,7 @@
 						dynasty=1004005
 						religion=catholic culture=german
 						father=100023680	# Joseph Oswald v. Thun u.Hohenstein
-						mother=100001940	# ALTGFN Johanna zu Salm-Reifferscheidt
+						mother=100001940	# Johanna zu Salm-Reifferscheidt
 						1854.01.05={birth=yes}
 						1934.09.16={death=yes}
 					}
@@ -5515,7 +5647,7 @@
 						dynasty=1004005
 						religion=catholic culture=german
 						father=100023680	# Joseph Oswald v. Thun u.Hohenstein
-						mother=100001940	# ALTGFN Johanna zu Salm-Reifferscheidt
+						mother=100001940	# Johanna zu Salm-Reifferscheidt
 						1857.07.24={birth=yes}
 						1886.05.06={add_spouse=100085085}	# Gabrielle Lobkowicz
 						1950.08.01={death=yes}
@@ -5525,7 +5657,7 @@
 							female=yes
 							dynasty=1004005
 							religion=catholic culture=german
-							father=100023731	# Maximilian Theodor v. Thun u.Hohenstein
+							father=100023731	# Maximilian v. Thun u.Hohenstein
 							mother=100085085	# Gabrielle Lobkowicz
 							1887.01.20={birth=yes}
 							1967.01.01={death=yes}	# EST.
@@ -5534,7 +5666,7 @@
 							name="Maximilian Maria"
 							dynasty=1004005
 							religion=catholic culture=german
-							father=100023731	# Maximilian Theodor v. Thun u.Hohenstein
+							father=100023731	# Maximilian v. Thun u.Hohenstein
 							mother=100085085	# Gabrielle Lobkowicz
 							1887.12.14={birth=yes}
 							1920.04.12={add_spouse=100088575}	# FRN Sidonia Nádherný v.Borutin
@@ -5545,7 +5677,7 @@
 							name=Maria-Anna
 							dynasty=1004005
 							religion=catholic culture=german
-							father=100023731	# Maximilian Theodor v. Thun u.Hohenstein
+							father=100023731	# Maximilian v. Thun u.Hohenstein
 							mother=100085085	# Gabrielle Lobkowicz
 							1889.07.29={birth=yes}
 							1920.07.08={add_spouse=100092446}	# GF Zdenko von Kolowrat-Krakowský
@@ -5556,7 +5688,7 @@
 							name="Felix Oswald"
 							dynasty=1004005
 							religion=catholic culture=german
-							father=100023731	# Maximilian Theodor v. Thun u.Hohenstein
+							father=100023731	# Maximilian v. Thun u.Hohenstein
 							mother=100085085	# Gabrielle Lobkowicz
 							1891.04.23={birth=yes}
 							1918.04.17={add_spouse=100024284}	# Maria Josepha v. Thun u.Hohenstein
@@ -5579,7 +5711,7 @@
 						dynasty=1004005
 						religion=catholic culture=german
 						father=100023680	# Joseph Oswald v. Thun u.Hohenstein
-						mother=100001940	# ALTGFN Johanna zu Salm-Reifferscheidt
+						mother=100001940	# Johanna zu Salm-Reifferscheidt
 						1858.11.24={birth=yes}
 						1948.05.13={death=yes}
 					}
@@ -5588,7 +5720,7 @@
 						dynasty=1004005
 						religion=catholic culture=german
 						father=100023680	# Joseph Oswald v. Thun u.Hohenstein
-						mother=100001940	# ALTGFN Johanna zu Salm-Reifferscheidt
+						mother=100001940	# Johanna zu Salm-Reifferscheidt
 						1861.05.04={birth=yes}
 						1890.10.11={add_spouse=100094450}	# Johann Baptist von dem Broel-Plater
 						1939.04.14={death=yes}
@@ -8860,6 +8992,14 @@
 	religion=catholic culture=german
 	1966.04.13={birth=yes}
 }
+100021425={ # Gfn        Maria Konstanzia          von Trauttmansdorff                      (1651-1722)
+	name="Maria Konstanzia von Trauttmansdorff" # /de/name/482676/maria-konstanzia-graefin-von-trauttmansdorff/
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1651.05.12={birth=yes}
+	1722.01.01={death=yes}
+}
 
 100023286={# Maximilian
 	name=Maximilian
@@ -10030,7 +10170,7 @@
 			1804.10.08={birth=yes}
 			1834.04.19={death=yes}
 		}
-		100023407={# 3b) Maria Anna (Vienna 9 Jul 1806-Prague 12 Nov 1885); m.Baden bei Vienna 8 Sep 1830 Friedrich Kraft Fst zu Oettingen-Oettingen u.Oettingen-Wallerstein (Wallerstein 16 Oct 1793-Wallerstein 15 Nov 1842)
+		100023407={# 3b) Maria Anna (Vienna 9 Jul 1806-Prague 12 Nov 1885); m.Baden bei Wien 8 Sep 1830 Friedrich Kraft Fst zu Oettingen-Oettingen u.Oettingen-Wallerstein (Wallerstein 16 Oct 1793-Wallerstein 15 Nov 1842)
 			name="Maria Anna"
 			female=yes
 			dynasty=1004004
@@ -10631,7 +10771,7 @@
 			1871.06.17={add_spouse=100091765}	# GFN Eduardine von Clam u.Gallas
 			1905.09.11={death=yes}
 		}
-		100015016={# 4b) Sigmund Maria (Vienna 31 May 1841-Graz 10 Jul 1879); m.Vienna 5 Oct 1872 Maria Anna Gfn zu Herberstein (Graz 8 Dec 1851-Baden bei Vienna 2 Aug 1921)
+		100015016={# 4b) Sigmund Maria (Vienna 31 May 1841-Graz 10 Jul 1879); m.Vienna 5 Oct 1872 Maria Anna Gfn zu Herberstein (Graz 8 Dec 1851-Baden bei Wien 2 Aug 1921)
 			name=Sigmund
 			dynasty=1004003
 			religion=catholic culture=german
@@ -10736,7 +10876,7 @@
 						mother=100015042	# Gabrielle v. Khevenhüller-Metsch
 						1965.01.01={birth=yes}
 					}
-			100015046={# 2c) Gabriele (Fronsburg 15 Nov 1874-Baden bei Vienna 12 Sep 1896); m.Vienna 29 May 1895 Franz Gf von Harrach (Traunkirchen 26 Jul 1870-Iglau, Moravia 14 May 1937)
+			100015046={# 2c) Gabriele (Fronsburg 15 Nov 1874-Baden bei Wien 12 Sep 1896); m.Vienna 29 May 1895 Franz Gf von Harrach (Traunkirchen 26 Jul 1870-Iglau, Moravia 14 May 1937)
 				name=Gabriele
 				female=yes
 				dynasty=1004003
@@ -10746,7 +10886,7 @@
 				1874.11.15={birth=yes}
 				1896.09.12={death=yes}
 			}
-			100015048={# 3c) Maria Theresia Gabrielle Leontine (Graz 29 Dec 1877-Paris 8 Aug 1968); m.Baden bei Vienna 3 Jul 1900 Karl Gf von Rumerskirch (Vienna 19 Nov 1867-Kitzbühel 24 May 1947)
+			100015048={# 3c) Maria Theresia Gabrielle Leontine (Graz 29 Dec 1877-Paris 8 Aug 1968); m.Baden bei Wien 3 Jul 1900 Karl Gf von Rumerskirch (Vienna 19 Nov 1867-Kitzbühel 24 May 1947)
 				name="Maria Theresia"
 				female=yes
 				dynasty=1004003
@@ -10756,7 +10896,7 @@
 				1877.12.29={birth=yes}
 				1968.08.08={death=yes}
 			}
-			100015050={# 4c) Edina Antonia Maria Anna Josepha (Graz 13 Mar 1879-Vienna 23 Jun 1958); m.1st Baden bei Vienna 18 Sep 1902 Rudolf Gf Grundemann von Falkenberg (Haindorf 11 Apr 1874-Vienna 19 May 1908); m.2d Vienna 6 Aug 1910 Kasimir Tarnoczy von Alsó-Lelócz u.Jezernicze (d.Lelocz, Slovakia 31 Aug 1944)
+			100015050={# 4c) Edina Antonia Maria Anna Josepha (Graz 13 Mar 1879-Vienna 23 Jun 1958); m.1st Baden bei Wien 18 Sep 1902 Rudolf Gf Grundemann von Falkenberg (Haindorf 11 Apr 1874-Vienna 19 May 1908); m.2d Vienna 6 Aug 1910 Kasimir Tarnoczy von Alsó-Lelócz u.Jezernicze (d.Lelocz, Slovakia 31 Aug 1944)
 				name=Edina
 				female=yes
 				dynasty=1004003
@@ -11087,7 +11227,7 @@
 				1897.04.06={birth=yes}
 				1986.04.22={death=yes}
 			}
-		100015109={# 3b) Karl Emmanuel Johann Maria (St.Pölten 5 Jan 1854-Genoa 5 Mar 1910); m.Corfu 14 Sep 1893 Maria Botti-Vrachliotti (Corfu 3 Jan 1873-Baden bei Vienna 4 Jul 1961)
+		100015109={# 3b) Karl Emmanuel Johann Maria (St.Pölten 5 Jan 1854-Genoa 5 Mar 1910); m.Corfu 14 Sep 1893 Maria Botti-Vrachliotti (Corfu 3 Jan 1873-Baden bei Wien 4 Jul 1961)
 			name=Karl
 			dynasty=1004003
 			religion=catholic culture=german
@@ -11120,6 +11260,15 @@
 
 
 #Liechtenstein|1004002|100022700-100023199
+100001750={ # Pss        Maria Anna                von Liechtenstein                        (1694-1735)     1
+	name="Maria Anna von Liechtenstein"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=german
+	1694.08.21={birth=yes}
+	1735.07.16={death=yes}
+}
+
 100102055={ # Hartmann
 	name=Hartmann
 	dynasty=1004002
@@ -11168,19 +11317,21 @@
 		1580.01.30={birth=yes}
 		1658.08.05={death=yes}
 	}
-		100102060={# Hartmann
+		100002292={# Hartmann
 			name=Hartmann
 			dynasty=1004002
 			religion=catholic culture=german
 			father=100102059	# Gundakar v. Liechtenstein
 			1613.02.09={birth=yes}
+			1640.10.27={add_spouse=100002289}	# Sidonia Elisabeth
 			1686.02.11={death=yes}
 		}
 			100102061={# Anton Florian
 				name="Anton Florian"
 				dynasty=1004002
 				religion=catholic culture=german
-				father=100102060	# Hartmann v. Liechtenstein
+				father=100002292	# Hartmann v. Liechtenstein
+				mother=100002289
 				1656.05.28={birth=yes}
 				1721.10.11={death=yes}
 			}
@@ -11214,7 +11365,8 @@
 				female=yes
 				dynasty=1004002
 				religion=catholic culture=german
-				father=100102060	# Hartmann v. Liechtenstein
+				father=100002292	# Hartmann v. Liechtenstein
+				mother=100002289
 				1659.08.14={birth=yes}
 				1687.06.17={death=yes}
 			}
@@ -11222,7 +11374,8 @@
 				name="Philip Erasmus"
 				dynasty=1004002
 				religion=catholic culture=german
-				father=100102060	# Hartmann v. Liechtenstein
+				father=100002292	# Hartmann v. Liechtenstein
+				mother=100002289
 				1664.09.11={birth=yes}
 				1704.01.15={death=yes}
 			}
