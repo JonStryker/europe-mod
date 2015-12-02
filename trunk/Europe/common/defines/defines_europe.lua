@@ -2,7 +2,7 @@
 --
 -- NDefines.NDiplomacy.DEMESNE_BASE_MAX_SIZE = 2.0
 
-NDefines.NTechnology.DONT_EXECUTE_TECH_BEFORE = 2000
+NDefines.NTechnology.DONT_EXECUTE_TECH_BEFORE = 1890
 NDefines.NCharacter.NATURAL_DEATH_CHANCE_AGE_0 = 5					-- Natural deaths per decade out of 10000 people: Age 0-9
 NDefines.NCharacter.NATURAL_DEATH_CHANCE_AGE_10 = 1					-- Natural deaths per decade out of 10000 people: Age 10-19
 NDefines.NCharacter.NATURAL_DEATH_CHANCE_AGE_20 = 15				-- Natural deaths per decade out of 10000 people: Age 20-29
