@@ -12,7 +12,87 @@
 ##	100117300	Esterhazy						1011003
 ##  100117255	Draskovich						1011471
 ##  			Báthory							1011434
+##  			Khuen-Héderváry 				1011580
 ###########################################################
+
+
+##  			Khuen-Héderváry 				1011580
+100079998={
+	name=Antal
+	dynasty=1011580
+	religion=catholic culture=hungarian
+	1817.02.25={birth=yes}
+	1886.05.21={death=yes}
+}
+	100079999={
+		name=Károly
+		dynasty=1011580
+		religion=catholic culture=hungarian
+		father=100079998
+		1849.05.23={birth=yes}
+		1918.02.16={death=yes}
+	}
+	100086802={ # Gfn        	Alice                     Khuen von Belasi                         (1850-1879)     1
+		name=Alice
+		female=yes
+		dynasty=1011580
+		religion=catholic culture=german
+		father=100079998
+		1850.11.05={birth=yes}
+		1879.01.14={death=yes}
+	}
+	100086795={ # Gf         	Henrik                    Khuen von Belasi                         (1860-1928)     0
+		name=Henrik
+		dynasty=1011580
+		religion=catholic culture=german
+		father=100079998
+		1860.11.17={birth=yes}  # Nustar
+		1890.10.22={add_spouse=100001883}	# Johanna v.u.zu Eltz gt Faust v.Stromberg
+		1928.04.23={death=yes}  # Nustar
+	}
+		100086794={ # Gf        Karl                      Khuen von Belasi                         (1892-1989)     0
+			name="Karl Heinrich"
+			dynasty=1011580
+			religion=catholic culture=hungarian
+			father=100086795
+			mother=100001883
+			1892.12.12={birth=yes}  # Vukovár
+			1921.01.11={add_spouse=100001877}	# Maria v.u.zu Eltz gt Faust v.Stromberg
+			1989.08.17={death=yes}  # Innsbruck
+		}
+		100085227={ # Gf     	Henrik                    Khuen von Belasi                         (1894-1978)     0
+			name=Henrik
+			dynasty=1011580
+			religion=catholic culture=hungarian
+			father=100086795
+			mother=100001883
+			1894.11.16={birth=yes}
+			1925.10.22={add_spouse=100085226}	# Ida Lobkowicz
+			1978.12.08={death=yes}
+		}
+			100002881={ # Gfn   Ida                       Khuen von Belasi                         (1928-1987)     6
+				name=Ida
+				female=yes
+				dynasty=1011580
+				religion=catholic culture=bohemian
+				father=100085227
+				mother=100085226
+				1928.05.01={birth=yes}  # Prague
+				1987.06.06={death=yes}  # Wolfegg
+			}
+			100086796={ # Gf 	Mathias                   Khuen von Belasi                         (1933-2013)     0
+				name=Mathias
+				dynasty=1011580
+				religion=catholic culture=german
+				father=100085227
+				mother=100085226
+				1933.08.26={birth=yes}
+				1966.09.03={add_spouse=100009900}	# Marie Charlotte v. Hohenlohe-Langenburg
+				2013.07.17={death=yes}
+			}
+
+##  			Khuen-Héderváry 				1011580
+
 
 ##  			Báthory					1011434
 100111890={ # King       Stefan                    Báthory                                  (1551-1586)     0
@@ -2936,8 +3016,8 @@
 				1796.06.06={add_spouse=100088489}	# GFN Anna Niczky
 				1837.03.17={death=yes}
 			}
-				100117020={	# 1d) Sigismund (1797)
-					name=Sigismund
+				100117020={	# 1d) Zsigmond (1797)
+					name=Zsigmond
 					dynasty=1011008
 					religion=catholic culture=hungarian
 					father=100117018	# Peter Erdõdy de Monyorókerék et Monoszló
@@ -2984,8 +3064,8 @@
 					1800.01.01={birth=yes}
 					1872.01.01={death=yes}  # EST.
 				}
-			100117028={	# 5c) Sigismund (9 Feb 1775-1815); m.4 Nov 1801 Marie Gfn Festetics v.Tolna (d.20 Jan 1839)
-				name=Sigismund
+			100117028={	# 5c) Zsigmond (9 Feb 1775-1815); m.4 Nov 1801 Marie Gfn Festetics v.Tolna (d.20 Jan 1839)
+				name=Zsigmond
 				dynasty=1011008
 				religion=catholic culture=hungarian
 				father=100116975	# Johann Nepomuck Erdõdy de Monyorókerék et Monoszló
@@ -2998,7 +3078,7 @@
 					name=Sándor-Lajos
 					dynasty=1011008
 					religion=catholic culture=hungarian
-					father=100117028	# Sigismund Erdõdy de Monyorókerék et Monoszló
+					father=100117028	# Zsigmond Erdõdy de Monyorókerék et Monoszló
 					mother=100094795	# Marie Festetics von Tolna
 					1802.08.10={birth=yes}
 					1843.08.07={add_spouse=100115001}	# Leopoldine Batthyány-Strattmann
@@ -3009,7 +3089,7 @@
 					female=yes
 					dynasty=1011008
 					religion=catholic culture=hungarian
-					father=100117028	# Sigismund Erdõdy de Monyorókerék et Monoszló
+					father=100117028	# Zsigmond Erdõdy de Monyorókerék et Monoszló
 					mother=100094795	# Marie Festetics von Tolna
 					1804.04.27={birth=yes}
 					1845.12.26={death=yes}
@@ -3019,7 +3099,7 @@
 					female=yes
 					dynasty=1011008
 					religion=catholic culture=hungarian
-					father=100117028	# Sigismund Erdõdy de Monyorókerék et Monoszló
+					father=100117028	# Zsigmond Erdõdy de Monyorókerék et Monoszló
 					mother=100094795	# Marie Festetics von Tolna
 					1801.11.11={birth=yes}
 					1896.11.30={death=yes}
@@ -3029,7 +3109,7 @@
 					female=yes
 					dynasty=1011008
 					religion=catholic culture=hungarian
-					father=100117028	# Sigismund Erdõdy de Monyorókerék et Monoszló
+					father=100117028	# Zsigmond Erdõdy de Monyorókerék et Monoszló
 					mother=100094795	# Marie Festetics von Tolna
 					1813.07.02={birth=yes}
 					1888.01.01={death=yes}
@@ -3147,7 +3227,7 @@
 					1835.01.15={add_spouse=100092723}	# BSS Justine von Müller
 					1896.02.01={death=yes}
 				}
-					100117062={	# 1e) Johanna Nepomucena (24 Nov 1835-3 Dec 1915); m.1st 28 Dec 1853 Sigismund Gf Batthyány (27 May 1829-12 Jan 1906); m.2nd 1907 Theodor Gf Széchényi v.Sárvár-Felsövidék (12 Mar 1837-17 Jun 1912)
+					100117062={	# 1e) Johanna Nepomucena (24 Nov 1835-3 Dec 1915); m.1st 28 Dec 1853 Zsigmond Gf Batthyány (27 May 1829-12 Jan 1906); m.2nd 1907 Theodor Gf Széchényi v.Sárvár-Felsövidék (12 Mar 1837-17 Jun 1912)
 						name=Johanna
 						female=yes
 						dynasty=1011008
@@ -5416,8 +5496,8 @@
 						1898.06.02={birth=yes}
 						1984.02.20={death=yes}
 					}
-					100116590={	# 3e) Ferenc Josef (Budapest 9 Feb 1901-Asheville, North Carolina 29 Jul 1963); m.Puszta-Nagy-Szent-Tamás 8 Aug 1924 Maria Gfn Almásy de Zsadány et Török-Szent-Miklós (Szent-Tamás 1 Feb 1902-Asheville 31 Oct 1986)
-						name="Ferenc Josef"
+					100116590={	# 3e) Ferenc József (Budapest 9 Feb 1901-Asheville, North Carolina 29 Jul 1963); m.Puszta-Nagy-Szent-Tamás 8 Aug 1924 Maria Gfn Almásy de Zsadány et Török-Szent-Miklós (Szent-Tamás 1 Feb 1902-Asheville 31 Oct 1986)
+						name="Ferenc József"
 						dynasty=1011006
 						religion=catholic culture=hungarian
 						father=100116584	# Antal Széchenyi de Sárvár-Felsõvidek
@@ -5833,8 +5913,8 @@
 						1905.10.28={birth=yes}
 						1983.02.27={death=yes}
 					}
-					100116663={	# 3e) Miklós Josef Maria Gobert Gf Széchényi-Erdödy (Rábasebes 15 Nov 1906-Budapest 23 Dec 1944); m.1st Budapest 17 Oct 1928 (div 1932) Eva-Maria Bss Gutmann de Gelse et Belicse (b.Budapest 2 Mar 1908); m.2d Ujpest 11 Sep 1939 Gabrielle Gfn Keglevich de Buzin (b.Egreskáta 21 Jan 1914)
-						name="Miklós Josef"
+					100116663={	# 3e) Miklós József Maria Gobert Gf Széchényi-Erdödy (Rábasebes 15 Nov 1906-Budapest 23 Dec 1944); m.1st Budapest 17 Oct 1928 (div 1932) Eva-Maria Bss Gutmann de Gelse et Belicse (b.Budapest 2 Mar 1908); m.2d Ujpest 11 Sep 1939 Gabrielle Gfn Keglevich de Buzin (b.Egreskáta 21 Jan 1914)
+						name="Miklós József"
 						dynasty=1011006
 						religion=catholic culture=hungarian
 						father=100116656	# Jenõ Széchenyi de Sárvár-Felsõvidek
@@ -6106,7 +6186,7 @@
 								1980.12.07={birth=yes}
 							}
 						100116722={	# 5f) Benedek Maria Josef Aloysius István (b.Káloz 23 Dec 1926)
-							name="Benedek"
+							name=Benedek
 							dynasty=1011006
 							religion=catholic culture=hungarian
 							father=100116706	# György Széchenyi de Sárvár-Felsõvidek
@@ -8042,8 +8122,8 @@
 					1816.08.10={birth=yes}
 					1877.05.30={death=yes}
 				}
-		100115406={	# 5b) Sigismund (1741-Vienna 11 Feb 1802); m.Amelia Gfn Raab zu Rauenheim
-			name=Sigismund
+		100115406={	# 5b) Zsigmond (1741-Vienna 11 Feb 1802); m.Amelia Gfn Raab zu Rauenheim
+			name=Zsigmond
 			dynasty=1011004
 			religion=catholic culture=hungarian
 			father=100115302	# János Nepomuk Zichy de Zich et Vásonykõ
@@ -8056,14 +8136,14 @@
 				name=Franz
 				dynasty=1011004
 				religion=catholic culture=hungarian
-				father=100115406	# Sigismund Zichy de Zich et Vásonykõ
+				father=100115406	# Zsigmond Zichy de Zich et Vásonykõ
 				mother=100089332	# GFN Amelia Raab zu Rauenheim
 				1769.02.10={birth=yes}
 				1794.01.01={add_spouse=100092618}	# Maria Ludovica von Malien
 				1823.06.20={death=yes}
 			}
-				100115410={	# 1d) Sigismund (Linz 6 Jan 1800-Hainburg, Lower Austria 10 Mar 1887); m.Vienna 14 Sep 1843 Valerie Gfn von Kolowrat-Krakowsky (Vienna 23 Apr 1821-Hainburg 25 Dec 1913)
-					name=Sigismund
+				100115410={	# 1d) Zsigmond (Linz 6 Jan 1800-Hainburg, Lower Austria 10 Mar 1887); m.Vienna 14 Sep 1843 Valerie Gfn von Kolowrat-Krakowsky (Vienna 23 Apr 1821-Hainburg 25 Dec 1913)
+					name=Zsigmond
 					dynasty=1011004
 					religion=catholic culture=hungarian
 					father=100115408	# Franz Zichy de Zich et Vásonykõ
@@ -8076,27 +8156,27 @@
 						name=Julius
 						dynasty=1011004
 						religion=catholic culture=hungarian
-						father=100115410	# Sigismund Zichy de Zich et Vásonykõ
+						father=100115410	# Zsigmond Zichy de Zich et Vásonykõ
 						mother=100092447	# GFN Valerie von Kolowrat-Krakowský
 						1844.10.23={birth=yes}
 						1866.07.01={death=yes}
 					}
-					100115413={	# 2e) Sigismund Johann Baptist Maria (Venice 5 Jan 1846-Reichenhall 7 Aug 1899); m.Hédervár 9 Jan 1877 Alice Gfn Khuen von Belasi (Nustar, Slavonia 5 Nov 1850-Görbersdorf, Silesia 14 Jan 1879)
-						name="Sigismund Johann"
+					100115413={	# 2e) Zsigmond Johann Baptist Maria (Venice 5 Jan 1846-Reichenhall 7 Aug 1899); m.Hédervár 9 Jan 1877 Alice Gfn Khuen von Belasi (Nustar, Slavonia 5 Nov 1850-Görbersdorf, Silesia 14 Jan 1879)
+						name=Zsigmond
 						dynasty=1011004
 						religion=catholic culture=hungarian
-						father=100115410	# Sigismund Zichy de Zich et Vásonykõ
+						father=100115410	# Zsigmond Zichy de Zich et Vásonykõ
 						mother=100092447	# GFN Valerie von Kolowrat-Krakowský
 						1846.01.05={birth=yes}
 						1877.01.09={add_spouse=100086802}	# GFN Alice Khuen von Belasi
 						1899.08.07={death=yes}
 					}
 						100115415={	# 1f) Angelika Barbara Maria (Gyöngyös 4 Dec 1877-Matzleinsdorf bei Melk 22 Aug 1964); m.Hédervár 16 Jul 1904 Ödön Frhr Solymosy de Loós et Egervár (Balf 13 Jun 1866-Semmering 19 May 1915)
-							name="Angelika Barbara"
+							name=Angelika
 							female=yes
 							dynasty=1011004
 							religion=catholic culture=hungarian
-							father=100115413	# Sigismund Johann Zichy de Zich et Vásonykõ
+							father=100115413	# Zsigmond Johann Zichy de Zich et Vásonykõ
 							mother=100086802	# GFN Alice Khuen von Belasi
 							1877.12.04={birth=yes}
 							1964.08.22={death=yes}
@@ -8106,7 +8186,7 @@
 						female=yes
 						dynasty=1011004
 						religion=catholic culture=hungarian
-						father=100115410	# Sigismund Zichy de Zich et Vásonykõ
+						father=100115410	# Zsigmond Zichy de Zich et Vásonykõ
 						mother=100092447	# GFN Valerie von Kolowrat-Krakowský
 						1849.09.23={birth=yes}
 						1935.08.08={death=yes}
@@ -8115,7 +8195,7 @@
 						name=Heinrich
 						dynasty=1011004
 						religion=catholic culture=hungarian
-						father=100115410	# Sigismund Zichy de Zich et Vásonykõ
+						father=100115410	# Zsigmond Zichy de Zich et Vásonykõ
 						mother=100092447	# GFN Valerie von Kolowrat-Krakowský
 						1851.10.04={birth=yes}
 						1933.09.13={death=yes}
@@ -8124,14 +8204,16 @@
 						name=István
 						dynasty=1011004
 						religion=catholic culture=hungarian
-						father=100115410	# Sigismund Zichy de Zich et Vásonykõ
+						father=100115410	# Zsigmond Zichy de Zich et Vásonykõ
 						mother=100092447	# GFN Valerie von Kolowrat-Krakowský
 						1853.08.17={birth=yes}
 						1878.03.24={add_spouse=100090802}	# Marie Szögyény de Magyar-Szögyény
 						1895.08.14={death=yes}
 					}
-						100115422={	# 1f) István Theodor László Mária (Bábalona 31 Mar 1879-Aba 12 Jan 1951); m.1st Budapest 16 Jan 1911 (div 1921) Maria Takács de Teth (Budapest 12 Mar 1891-19__); m.2d Budapest 22 Mar 1921 Lucie Krempp (Colmar, Alsace 10 Nov 1889-Aba 31 Dec 1947)
-							name="István Theodor"
+						100115422={	# 1f) István Theodor László Mária (Bábalona 31 Mar 1879-Aba 12 Jan 1951); 
+									# m.1st Budapest 16 Jan 1911 (div 1921) Maria Takács de Teth (Budapest 12 Mar 1891-19__); 
+									# m.2nd Budapest 22 Mar 1921 Lucie Krempp (Colmar, Alsace 10 Nov 1889-Aba 31 Dec 1947)
+							name=István
 							dynasty=1011004
 							religion=catholic culture=hungarian
 							father=100115420	# István Zichy de Zich et Vásonykõ
@@ -8143,7 +8225,7 @@
 							1951.01.12={death=yes}
 						}
 							100115425={	# 1g) Lucie Mária Valéria Jeanne (Budapest 13 Feb 1922-6 Nov 2000); m.1st Felsöörs 31 Aug 1941 (div 1945) Marcel Hofer (b.Budapest 13 Nov 1917); m.2d Duala, Cameroon 16 May 1949 Ivan Siklosy (Budapest 30 Sep 1917-Duala 29 Oct 1950); m.3d Paris 5 Jul 1958 Viktor Sztankovich de Kiscsejth et Nemespann (Nemespann 8 Apr 1908-Paris 9 Jul 1988)
-								name="Lucie Mária"
+								name=Lucie
 								female=yes
 								dynasty=1011004
 								religion=catholic culture=hungarian
@@ -8153,7 +8235,7 @@
 								2000.11.06={death=yes}
 							}
 							100115429={	# 2g) Katharina Julie Gabrielle Marie (b.Budapest 21 Oct 1925); m.Innsbruck 26 Jan 1952 Josef Gf Pálffy v.Erdöd (Görz 3 Mar 1904-Vienna 11 Jul 1988)
-								name="Katharina Julie"
+								name=Katharina
 								female=yes
 								dynasty=1011004
 								religion=catholic culture=hungarian
@@ -8162,8 +8244,8 @@
 								1925.10.21={birth=yes}
 								2002.01.01={death=yes}  # EST.
 							}
-							100115431={	# 3g) Sigismund István Mária (Budapest 8 Mar 1927-k.in auto accident at Münchendorf, Burgenland 10 Jun 1959)
-								name="Sigismund István"
+							100115431={	# 3g) Zsigmond István Mária (Budapest 8 Mar 1927-k.in auto accident at Münchendorf, Burgenland 10 Jun 1959)
+								name=Zsigmond
 								dynasty=1011004
 								religion=catholic culture=hungarian
 								father=100115422	# István Theodor Zichy de Zich et Vásonykõ
@@ -8172,11 +8254,11 @@
 								1959.06.10={death=yes}
 							}
 					100115432={	# 6e) Valeria Franziska Xaveria Maria (Angern 6 Jun 1855-Sopron Mar 1945); m.Hainburg 14 May 1885 Thaddäus Gf Alberti de Poja (Kocs 13 Sep 1848-Ischl 5 Jul 1899)
-						name="Valeria Franziska"
+						name=Valeria
 						female=yes
 						dynasty=1011004
 						religion=catholic culture=hungarian
-						father=100115410	# Sigismund Zichy de Zich et Vásonykõ
+						father=100115410	# Zsigmond Zichy de Zich et Vásonykõ
 						mother=100092447	# GFN Valerie von Kolowrat-Krakowský
 						1855.06.06={birth=yes}
 						1945.03.01={death=yes}
@@ -8216,7 +8298,7 @@
 				female=yes
 				dynasty=1011004
 				religion=catholic culture=hungarian
-				father=100115406	# Sigismund Zichy de Zich et Vásonykõ
+				father=100115406	# Zsigmond Zichy de Zich et Vásonykõ
 				mother=100089332	# GFN Amelia Raab zu Rauenheim
 				1772.01.01={birth=yes}
 				1842.01.01={death=yes}  # EST.
@@ -12124,8 +12206,8 @@
 		1661.01.01={add_spouse=100085439}	# GFN Katharina Illesházy
 		1674.02.01={death=yes}
 	}
-		100115072={# 1b) Sigismund (d.1728); m.1695 Elisabeth Rosina Gfn von Gallenberg (1670-1731)
-			name=Sigismund
+		100115072={# 1b) Zsigmond (d.1728); m.1695 Elisabeth Rosina Gfn von Gallenberg (1670-1731)
+			name=Zsigmond
 			dynasty=1011001
 			religion=catholic culture=hungarian
 			father=100115070	# Paul Batthyány de Német-Ujvar
@@ -12138,7 +12220,7 @@
 				name=Emmerich
 				dynasty=1011001
 				religion=catholic culture=hungarian
-				father=100115072	# Sigismund Batthyány de Német-Ujvar
+				father=100115072	# Zsigmond Batthyány de Német-Ujvar
 				mother=100092011	# GFN Elisabeth Rosina von Gallenberg
 				1707.02.01={birth=yes}
 				1737.01.01={add_spouse=100089918}	# GFN Maria Anna Viktoria Sauer von Ankenstein
