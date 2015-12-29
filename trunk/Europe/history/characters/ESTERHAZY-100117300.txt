@@ -1,78 +1,4 @@
-100083720={ # Gfn        Orsolya                   Esterházy de Galántha                    (1632-1697)     0
-	name="Orsolya Esterházy de Galántha"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1632.01.01={birth=yes}
-	1697.01.01={death=yes}  # EST.
-}
-100083721={ # Gfn        Maria Magdolna            Esterházy de Galántha                    (1668-1720)     1
-	name="Maria Magdolna Esterházy de Galántha"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1668.01.01={birth=yes}
-	1720.01.01={death=yes}
-}
-100083714={ # Gfn        Philippine                Esterházy de Galántha                    (1734-1811)     2
-	name="Philippine Esterházy de Galántha"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1734.01.08={birth=yes}
-	1811.04.04={death=yes}
-}
-100083717={ # Gfn        Amelie                    Esterházy de Galántha                    (1776-1817)     8
-	name="Amelie Esterházy de Galántha"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1776.01.29={birth=yes}
-	1817.07.30={death=yes}
-}
-100083722={ # Gfn        Maria Jozefa              Esterházy de Galántha                    (1777-1843)     0
-	name="Maria Jozefa Esterházy de Galántha"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1777.01.01={birth=yes}
-	1843.01.01={death=yes}
-}
-100083727={ # Gf         Vincenz                   Esterházy de Galántha                    (1787-1835)     0
-	name="Vincenz Esterházy de Galántha"
-	dynasty=0
-	religion=catholic culture=hungarian
-	1787.10.25={birth=yes}
-	1817.08.04={add_spouse=100022736}	# Maria Sophie v. Liechtenstein
-	1835.10.19={death=yes}
-}
-100083713={ # Gfn        Marie                     Esterházy de Galántha                    (1791-1830)     3
-	name="Marie Esterházy de Galántha"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1791.03.02={birth=yes}
-	1830.03.31={death=yes}
-}
-100117347={ # Gf         Albert                    Esterházy de Galántha                    (1813-1845)     0
-	name="Albert Esterházy de Galántha"
-	dynasty=0
-	religion=catholic culture=hungarian
-	1813.01.01={birth=yes}
-	1843.01.01={add_spouse=100117346}	# Marie Apponyi de Nagy-Apponyi
-	1845.01.01={death=yes}
-}
-100001761={ # Gfn        Maria Franziska           Esterházy de Galántha                    (1702-1778)     3
-	name="Maria Franziska Esterházy de Galántha"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1702.11.20={birth=yes}
-	1778.02.01={death=yes}
-}
-
-
-##	100117300	Esterhazy						1011003
+##	EARLY
 100117300={	# Ferenc (ca 1532-Galántha 1604); m.ca 1566 Zsofia Illeshazy de Illeshaza (1547-Galántha 1599)
 	name=Ferenc
 	dynasty=1011003
@@ -82,28 +8,66 @@
 	1604.01.01={death=yes}  # Galántha
 }
 	100117302={	# 1a) Miklós, cr 1626 Graf Esterházy de Galántha (1583-1645); m.1st 1612 Orsolya Bss Dersfy de Zerdahely (1583-1619); m.2nd 1624 Krisztina Bss Nyary de Bedegh (1604-1641)
-		name=Miklós
+		name=Miklós				# 508175/miklos-count-esterhazy-de-galantha/
 		dynasty=1011003
 		religion=catholic culture=hungarian
-		father=100117300	# Ferenc Esterházy de Galántha
-		mother=100085437	# Zsofia Illesházy de Illeshaza
-		1583.01.01={birth=yes}
+		father=100117300		# Ferenc Esterházy de Galántha
+		mother=100085437		# Zsofia Illesházy de Illeshaza
+		1583.04.08={birth=yes}	# Galánta
 		1612.01.01={add_spouse=100083239}	# BSS Orsolya Dersfy de Zerdahely
 		1624.01.01={add_spouse=100088566}	# BSS Krisztina Nyary de Bedegh
-		1645.01.01={death=yes}
+		1645.09.11={death=yes}	# Nagy Hefleny
 	}
+		100118552={ #     Graf       István                    Esterházy de Galántha                    (1616-1641)
+			name=István      # 543557/istvan-graf-esterhazy-de-galantha/
+			dynasty=1011003
+			religion=catholic culture=german
+			father=100117302 # Miklos
+			mother=100083239 # Orsolya
+			1616.02.27={birth=yes}
+			1641.07.04={death=yes}
+		}
+			100083720={ # Gfn        Orsolya                   Esterházy de Galántha                    (1632-1697)
+				name=Orsolya
+				female=yes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=100118552
+				1641.03.07={birth=yes}
+				1682.03.31={death=yes}
+			}
 		100117305={	# 1b) Pál, cr 1687 Fürst Esterházy von Galántha, Palatine of Hungary (1635-1713); m.1st 1652 his niece Orsolya Gfn Esterházy von Galántha; m.2d 1682 Eva Gfn Thököly de Kesmark (1659-1716)
 			name=Pál
 			dynasty=1011003
 			religion=catholic culture=hungarian
 			father=100117302	# Miklós Esterházy de Galántha
 			mother=100088566	# BSS Krisztina Nyary de Bedegh
-			1635.01.01={birth=yes}
+			1635.09.08={birth=yes}
 			1652.01.01={add_spouse=100083720}	# Orsolya Esterházy de Galántha
 			1682.01.01={remove_spouse=100083720}
 			1682.02.01={add_spouse=100090974}	# GFN Eva Thököly de Késmárk
-			1713.01.01={death=yes}
+			1713.03.26={death=yes}
 		}
+			100118550={ #  	  Gf		 Gábor                     Esterházy de Galántha                    (1673-1704)
+				name=Gábor       # /de/name/543549/gabor-esterhazy-de-galantha/
+				dynasty=1011003
+				religion=catholic culture=german
+				father=100117305 # Pal
+				mother=100083720 # Orsolya
+				1673.04.15={birth=yes}
+				1698.01.01={add_spouse=100118551}
+				1704.12.13={death=yes}
+			}
+				100001761={ # Gfn        Maria Franziska           Esterházy de Galántha                    (1702-1778)
+					name="Maria Franziska Esterházy de Galántha"
+					female=yes
+					dynasty=1011003
+					religion=lutheran culture=german
+					father=100118550
+					mother=100118551
+					1702.11.20={birth=yes}
+					1778.02.01={death=yes}
+				}
 			100117308={	# 1c) Fst Joszef Antal (1688-1721); m.1707 Maria Octavia Frn von Gilleis (1688-1762)
 				name="Joszef Antal"
 				dynasty=1011003
@@ -133,7 +97,7 @@
 				father=100117312	# Ferenc Esterházy de Galántha
 				mother=100090975	# Katalin Thököly de Késmárk
 				1683.01.01={birth=yes}
-				1710.01.01={add_spouse=100088770}	# GFN Maria Szidonia Pálffy
+				1710.01.01={add_spouse=100118426}	# GFN Maria Szidonia Pálffy
 				1754.01.01={death=yes}
 			}
 				100117317={	# 1d) Miklós (1711-1764); m.Warsaw 1744 Maria Susanna Anna Christ Pss Lubomirska (Cracow 1722-Vienna 1771)
@@ -141,7 +105,7 @@
 					dynasty=1011003
 					religion=catholic culture=hungarian
 					father=100117315	# Ferenc Esterházy de Galántha
-					mother=100088770	# GFN Maria Szidonia Pálffy
+					mother=100118426	# GFN Maria Szidonia Pálffy
 					1711.01.01={birth=yes}
 					1744.01.01={add_spouse=100087557}	# Maria Susanna Christ Lubomirski
 					1764.01.01={death=yes}
@@ -153,21 +117,41 @@
 						father=100117317	# Miklós Esterházy de Galántha
 						mother=100087557	# Maria Susanna Christ Lubomirski
 						1748.01.01={birth=yes}
-						1771.01.01={add_spouse=100088771}	# GFN Maria Anna Pálffy
+						1771.01.01={add_spouse=100118472}	# GFN Maria Anna Pálffy
 						1800.01.01={death=yes}
 					}
 						# 1f) Miklós Janos (1775-1856); m.1799 Marie Francoise de Roisin (1778-1845); for his issue see Section 2
+						100083722={ # Gfn        Maria Jozefa              Esterházy de Galántha                    (1777-1843)
+							name="Maria Jozefa"
+							female=yes
+							dynasty=1011003
+							religion=catholic culture=hungarian
+							father=100117319
+							mother=100118472
+							1777.01.01={birth=yes}
+							1843.01.01={death=yes}
+						}
 				100117323={	# 2d) Ferenc (1715-1785); m.1756 Antonia Franziska Nicoletta Richard (1726-1801)
 					name=Ferenc
 					dynasty=1011003
 					religion=catholic culture=hungarian
 					father=100117315	# Ferenc Esterházy de Galántha
-					mother=100088770	# GFN Maria Szidonia Pálffy
+					mother=100118426	# GFN Maria Szidonia Pálffy
 					1715.01.01={birth=yes}
 					1756.01.01={add_spouse=100089509}	# Antonia Franziska Richard
 					1785.01.01={death=yes}
 				}
 					# 1e) Ferenc (1758-1815); m.1783 Erzsebet Grassalkovich de Gyarak (1767-1823); for his issue see Section 3
+				100083714={ # Gfn        Philippine                Esterházy de Galántha                    (1734-1811)     2
+					name=Philippine
+					female=yes
+					dynasty=1011003
+					religion=catholic culture=hungarian
+					father=100117315	# Ferenc Esterházy de Galántha
+					mother=100118426	# GFN Maria Szidonia Pálffy
+					1734.01.08={birth=yes}
+					1811.04.04={death=yes}
+				}
 	100117327={	# 2a) Daniel, cr 1619 Frhr Esterházy von Galántha (1585-1654); m.1623 Judit Rumy de Rum et Raba-Doroszlo (1606-1663)
 		name=Daniel
 		dynasty=1011003
@@ -178,6 +162,24 @@
 		1623.01.01={add_spouse=100089741}	# Judit Rumy de Rum et Raba-Doroszlo
 		1654.01.01={death=yes}
 	}
+		100118568={ #                                                baron      János                     Esterházy de Galántha                    (1625-1692)  0  3
+			name=János       	# 543709/janos-baron-esterhazy-de-galantha/
+			dynasty=1011003
+			religion=catholic culture=german
+			father=100117327	# Daniel Esterházy de Galántha
+			mother=100089741	# Judit Rumy de Rum et Raba-Doroszlo
+			1625.12.20={birth=yes}
+			1692.06.22={death=yes}
+		}
+			100083721={ # Gfn        Mária Magdolna            Esterházy de Galántha                    (1668-1720)     1
+				name="Mária Magdolna"
+				female=yes
+				dynasty=1011003
+				religion=catholic culture=hungarian
+				father=100118568
+				1665.01.01={birth=yes}
+				1720.01.21={death=yes}
+			}
 		100117329={	# 1b) Mihaly, b.1629, k.a.Buda 1686; m.1st ca 1664 Maria Darabos de Nadasd (d.1667); m.2nd 1668 Katalin Bss de Heölgy (d.1675); m.3rd 1676 Borbala Bss Perenyi (d.1693)
 			name=Mihaly
 			dynasty=1011003
@@ -280,9 +282,9 @@
 						religion=catholic culture=hungarian
 						father=100117353	# János Esterházy de Galántha
 						mother=100092262	# Marie Therese von Hofer
-						1723.01.01={birth=yes}
+						1723.12.03={birth=yes}
 						1748.01.01={add_spouse=100094797}	# Maria Amalia von Limburg-Gehmen
-						1757.01.01={death=yes}
+						1757.06.04={death=yes}
 					}
 						100117357={	# 1f) Kazmer (1749-1802); m.1773 Barbara Gfn Castiglione (1755-1842)
 							name=Kazmer
@@ -295,6 +297,16 @@
 							1802.01.01={death=yes}
 						}
 							# 1g) János Kazmer (1775-1829); m.1801 Maria Jozefa Gfn Esterházy von Galántha (1777-1843); for his issue see Section 6
+							100083717={ # Gfn        Amalie                    Esterházy de Galántha                    (1776-1817)     8
+								name=Amalie
+								female=yes
+								dynasty=1011003
+								religion=catholic culture=hungarian
+								father=100117357
+								mother=100081315
+								1776.01.29={birth=yes}
+								1817.07.30={death=yes}
+							}
 						100117338={ #          Graf       János Nepomuk             Esterházy de Galántha                    (1750-1825)
 							name="János Nepomuk" # /de/name/171075/janos-nepomuk-graf-esterhazy-de-galantha/
 							dynasty=1011003
@@ -322,13 +334,45 @@
 									father=100117654	# Janos Karoly Esterházy de Galántha
 									mother=100117649	# COUNTESS Róza Festetics de Tolna
 									1813.01.01={birth=yes}
+									1843.01.01={add_spouse=100117346}	# Marie Apponyi de Nagy-Apponyi
 									1845.12.27={death=yes}
 								}
+						100118258={ #          Graf       Károly                    Esterházy de Galántha                    (1756-1828)
+							name=Károly      # /de/name/141241/karoly-graf-esterhazy-de-galantha/
+							dynasty=1011003
+							religion=catholic culture=german
+							father=100117355 # János Károly
+							mother=100094797 # Maria Amalie
+							1756.01.01={birth=yes}
+							1781.01.01={add_spouse=100118572}
+							1828.07.09={death=yes}
+						}
+							100083727={ # Gf         Vincenz                   Esterházy de Galántha                    (1787-1835)     0
+								name=Vincenz
+								dynasty=1011003
+								religion=catholic culture=hungarian
+								father=100118258
+								mother=100118572
+								1787.10.25={birth=yes}
+								1817.08.04={add_spouse=100022736}	# Maria Sophie v. Liechtenstein
+								1835.10.19={death=yes}
+							}
+							100083713={ # Gfn        Marie                     Esterházy de Galántha                    (1791-1830)     3
+								name=Marie
+								female=yes
+								dynasty=1011003
+								religion=catholic culture=hungarian
+								father=100118258
+								mother=100118572
+								1791.03.02={birth=yes}
+								1830.03.31={death=yes}
+							}
 #1562.01.01={holder=100117300} # Ferenc 
 #1604.01.01={holder=100117302} # 1a) Miklós
 #1645.01.01={holder=100117305} # 1b) Pál
 #1713.01.01={holder=100117308} # 1c) Fst Joszef Antal 
 #1721.01.01={holder=100024650} # 1d) Fst Miklós Jozsef 
+##	EARLY
 
 
 ## I
@@ -652,7 +696,7 @@
 	dynasty=1011003
 	religion=catholic culture=hungarian
 	father=100117319	# Janos Esterházy de Galántha
-	mother=100088771	# GFN Maria Anna Pálffy
+	mother=100118472	# GFN Maria Anna Pálffy
 	1775.06.01={birth=yes}  # Vienna
 	1799.06.01={add_spouse=100082862}	# Marie Francoise de Roisin
 	1856.02.18={death=yes}  # Vienna
@@ -756,7 +800,7 @@
 				1915.06.26={death=yes}  # a.Dziewietmiki
 			}
 			100117379={	# 3c) Mária Franciska Romana (Pápa 15 Mar 1890-London 12 Nov 1935); m.1st Budapest 25 Sep 1915 (div 1920) Ferenc Gf Pálffy de Erdöd (d.Munich 11 Oct 1968); m.2nd 1924 Béla Pr Odescalchi (d.USA 1954)
-				name="Mária Franciska Romana"
+				name=Franciska
 				female=yes
 				dynasty=1011003
 				religion=catholic culture=hungarian
@@ -3026,8 +3070,6 @@
 		1807.04.16={birth=yes}  # Pozsony
 		1875.09.12={death=yes}  # Vienna
 	}
-
-#######
 #1805.02.16={holder=100117359} # János Kazmer Gf Esterházy
 #1829.08.17={holder=100117546} # 1a) Kazmer Miklós 
 #1870.05.13={holder=100117626} # 4b) Dániel Péter Kazmer János Nepomuk Jozsef Antal Eustachius 
