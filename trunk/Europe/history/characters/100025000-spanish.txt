@@ -1,14 +1,16 @@
 ###########################################################
-##  100025000	Bourbon				100146	
-##  100025500	Fitz-James			1009003	
-##  100025600	Arion				1001500	
-##  100025900	Baena				1001501
-##  100025950	Franco				1001502
-##  100026000	ALBURQUERQUE		1001503
-##  100026050	OSORIO de MOSCOSO	1001504
+##  100025000	Bourbon				100146		e_espana
+##  100025500	Fitz-James			1009003		d_la_mancha
+##  100025600	Fernandez de Cord.	1001500		d_castilla, d_leon	
+##  100025900	Baena				1001501		d_sevilla
+##  100025950	Franco				1001502		c_toledo
+##  100026000	ALBURQUERQUE		1001503		d_extremadura
+##  100026050	OSORIO de MOSCOSO	1001504		d_granada
 ##  100026100	Osuna				1001505	
-##  100026500	de Suelves			1001507	
+##  100026500	de Suelves			1001507		d_valencia
+##				Larios		     	1001508		c_la_rioja
 ###########################################################
+
 
 100100896={ # Queen Juana of Castile     
 	name=Juana
@@ -20,6 +22,147 @@
 	1479.11.06={birth=yes}
 	1555.04.12={death=yes}
 }
+
+
+##				Larios		    	1001508
+100087198={ # José Larias y Fernandez-Villavicencio, Marques de Larios, Marques de Marzales (1910-1997)
+	name=José
+	dynasty=1001508
+	religion=catholic culture=castillan
+	1910.03.25={birth=yes}
+	1938.10.19={add_spouse=100025642}	# María Arion
+	1997.04.24={death=yes}
+}
+	100025644={	# 1g) Clara Larios y Fernández de Córdoba (b.San Sebástian 12 Aug 1940)
+		name=Clara
+		female=yes
+		dynasty=1001508
+		religion=catholic culture=castillan
+		father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
+		mother=100025642	# María Arion
+		1940.08.12={birth=yes}
+	}
+	100025645={	# 2g) Fernando Larios y Fernández de Córdoba, Duque de Lerma, Marqués de Marzales, (b.San Sebástian 6 Apr 1943); m.Pizarra, Malaga 5 Sep 1967 Monica de Soto y Bertran de Lis (b.Madrid 18 Ma y 1947)
+		name=Fernando
+		dynasty=1001508
+		religion=catholic culture=castillan
+		father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
+		mother=100025642	# María Arion
+		1943.04.06={birth=yes}
+		1967.09.05={add_spouse=100082944}	# Monica de Soto y Bertran de Lis
+	}
+		100025647={	# 1h) Ana Larios y de Soto (b.Madrid 11 Nov 1968); m.1992 Miguel Gutierrez-Ambrossi y Robles
+			name=Ana
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025645	# Fernando Larios y Fernández Arion
+			mother=100082944	# Monica de Soto y Bertran de Lis
+			1968.11.11={birth=yes}
+			1992.01.01={add_spouse=100084570}	# Miguel Gutierrez-Ambrossi y Robles
+		}
+		100025649={	# 2h) Pablo Larios y de Soto (b.Madrid 13 Jan 1971)
+			name=Pablo
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025645	# Fernando Larios y Fernández Arion
+			mother=100082944	# Monica de Soto y Bertran de Lis
+			1971.01.13={birth=yes}
+		}
+		100025650={	# 3h) Luis Larios y de Soto (b.Madrid 18 Nov 1971)
+			name=Luis
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025645	# Fernando Larios y Fernández Arion
+			mother=100082944	# Monica de Soto y Bertran de Lis
+			1971.11.18={birth=yes}
+		}
+		100025651={	# 4h) Monica Larios y de Soto (b.Madrid 27 Jul 1976)
+			name=Monica
+			female=yes
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025645	# Fernando Larios y Fernández Arion
+			mother=100082944	# Monica de Soto y Bertran de Lis
+			1976.07.27={birth=yes}
+		}
+		100025652={	# 5h) Fernando Larios y de Soto (b.Madrid 17 Jul 1977)
+			name=Fernando
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025645	# Fernando Larios y Fernández Arion
+			mother=100082944	# Monica de Soto y Bertran de Lis
+			1977.07.17={birth=yes}
+		}
+		100025653={	# 6h) María Luisa Larios y de Soto (b.Madrid 26 Sep 1979); m.Santa Barbara, Parroquia de Santa Barbara 8 Sep 2011 Alfonso de Rato Velarde (b.27 Jul 1978)
+			name="María Luisa"
+			female=yes
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025645	# Fernando Larios y Fernández Arion
+			mother=100082944	# Monica de Soto y Bertran de Lis
+			1979.09.26={birth=yes}
+		}
+		100025655={	# 7h) María Villas Larios y de Soto (b.Madrid 2 Feb 1981)
+			name="María Villas"
+			female=yes
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025645	# Fernando Larios y Fernández Arion
+			mother=100082944	# Monica de Soto y Bertran de Lis
+			1981.02.02={birth=yes}
+		}
+	100025656={	# 3g) Miguel Larios y Fernández de Córdoba (b.Madrid 19 Dec 1944); m.1968 María de la Concepción Gamero del Castillo (b.18 Ma y 1946)
+		name=Miguel
+		dynasty=1001508
+		religion=catholic culture=castillan
+		father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
+		mother=100025642	# María Arion
+		1944.12.19={birth=yes}
+		1968.01.01={add_spouse=100084099}	# Maria de la Concepción Gamero del Castillo
+	}
+		100025658={	# 1h) María Larios y Gamero del Castillo (b.21 Nov 1968)
+			name=María
+			female=yes
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025656	# Miguel Larios y Fernández Arion
+			mother=100084099	# Maria de la Concepción Gamero del Castillo
+			1968.11.21={birth=yes}
+		}
+		100025659={	# 2h) Miguel Larios y Gamero del Castillo (b.2 Oct 1971)
+			name=Miguel
+			dynasty=1001508
+			religion=catholic culture=castillan
+			father=100025656	# Miguel Larios y Fernández Arion
+			mother=100084099	# Maria de la Concepción Gamero del Castillo
+			1971.10.02={birth=yes}
+		}
+	100025660={	# 4g) Lorenzo Larios y Fernández de Córdoba (b.Madrid 6 Mar 1948)
+		name=Lorenzo
+		dynasty=1001508
+		religion=catholic culture=castillan
+		father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
+		mother=100025642	# María Arion
+		1948.03.06={birth=yes}
+	}
+	100025661={	# 5g) Cristina Larios y Fernández de Córdoba (b.Madrid 28 Apr 1951)
+		name=Cristina
+		female=yes
+		dynasty=1001508
+		religion=catholic culture=castillan
+		father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
+		mother=100025642	# María Arion
+		1951.04.28={birth=yes}
+	}
+	100025662={	# 6g) Luís Larios y Fernández de Córdoba (b.Madrid 21 Mar 1955)
+		name=Luís
+		dynasty=1001508
+		religion=catholic culture=castillan
+		father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
+		mother=100025642	# María Arion
+		1955.03.21={birth=yes}
+	}
+##				Larios				1001508
 
 
 ##  100026500	de Suelves			1001507	
@@ -79,8 +222,8 @@
 					mother=100026020	# María Osorio
 					1981.01.01={birth=yes}
 				}
-				100026554={ #                            Juan-José                 de Suelves y Osorio                      (1988-    )
-					name=Juan-José   # /de/name/367819/juan-jose-de-suelves-y-osorio/
+				100026554={ #                            Juan José                 de Suelves y Osorio                      (1988-    )
+					name="Juan José"   # /de/name/367819/juan-jose-de-suelves-y-osorio/
 					dynasty=1001507
 					religion=catholic culture=castillan
 					father=100026570	# Juan José de Suelves
@@ -180,94 +323,6 @@
 			1929.01.01={birth=yes}
 			2001.11.12={death=yes}
 		}
-####################
-100095891={ #            María de las Mercedes     Ponsich y Sarriera                       (1866-1941)
-	name="María de las Mercedes Ponsich y Sarriera" # /de/name/279686/maria-de-las-mercedes-ponsich-y-sarriera/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1866.01.01={birth=yes}
-	1941.01.01={death=yes}
-}
-100095899={ #            Zenaida                   Piñeyro y de Queralt                     (1895-1970)
-	name="Zenaida Piñeyro y de Queralt" # /de/name/1113044/zenaida-pineyro-y-de-queralt-marquise-von-bonanaro/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1895.12.24={birth=yes}
-	1970.01.01={death=yes}
-}
-100095892={ #            Francisco                 Carretero Herranz                        (1927-    )
-	name="Francisco Carretero Herranz" # /de/name/1618067/francisco-carretero-herranz/
-	dynasty=0
-	religion=catholic culture=castillan
-	1927.01.01={birth=yes}
-	1952.01.01={add_spouse=100026513}	# María Luisa de Suelves
-	2004.01.01={death=yes}  # EST.
-}
-100095893={ #            María                     de Goyeneche y de La Puente              (1862-1937)
-	name="María de Goyeneche y de La Puente" # /de/name/279688/maria-de-goyeneche-y-de-la-puente/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1862.03.17={birth=yes}
-	1937.01.01={death=yes}
-}
-100095900={ #            Honorio                   Maura y Andreu                           (1961-    )
-	name="Honorio Maura y Andreu" # /de/name/164814/honorio-maura-y-andreu/
-	dynasty=0
-	religion=catholic culture=castillan
-	1961.01.01={birth=yes}
-	1986.01.01={add_spouse=100026541}	# Cristina de Suelves
-}
-100095901={ #            Antonio                   Sainz y Cenamor                          (1959-    )
-	name="Antonio Sainz y Cenamor" # /de/name/164813/antonio-sainz-y-cenamor/
-	dynasty=0
-	religion=catholic culture=castillan
-	1959.01.01={birth=yes}
-	1984.01.01={add_spouse=100026572}	# Vitoria de Suelves
-}
-	100095898={ #        Antonio                   Sainz y de Suelves                       (1987-    )
-		name=Antonio     # /de/name/360250/antonio-sainz-y-de-suelves/
-		dynasty=0
-		religion=catholic culture=castillan
-		father=100095901	# Antonio Sainz y Cenamor
-		mother=100026572	# Vitoria de Suelves
-		1987.05.03={birth=yes}
-	}
-	100095894={ #        María                     Sainz y de Suelves                       (1990-    )
-		name=María       # /de/name/371987/maria-sainz-y-de-suelves/
-		female=yes
-		dynasty=0
-		religion=catholic culture=castillan
-		father=100095901	# Antonio Sainz y Cenamor
-		mother=100026572	# Vitoria de Suelves
-		1990.01.01={birth=yes}
-	}
-100095895={ #            José                      de Salamanca y Laffitte                  (1923-    )
-	name="José de Salamanca y Laffitte" # /de/name/255277/jose-de-salamanca-y-laffitte-4-graf-von-lugar-nuevo/
-	dynasty=0
-	religion=catholic culture=castillan
-	1923.10.30={birth=yes}
-	1948.01.01={add_spouse=100026531}	# María de Suelves
-	1999.01.01={death=yes}  # EST.
-}
-100095896={ #            Gonzalo Maria             de Ulloa y Ramírez de Haro               (1925-1979)
-	name="Gonzalo Maria de Ulloa y Ramírez de Haro" # /de/name/69424/gonzalo-maria-de-ulloa-y-ramirez-de-haro-10-marquis-von-castro-serna/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1925.01.01={birth=yes}
-	1979.08.12={death=yes}
-}
-100095897={ #            Victoria Eugenia          de Figueroa y Borbón                     (1928-    )
-	name="Victoria Eugenia de Figueroa y Borbón" # /de/name/72639/victoria-eugenia-de-figueroa-y-borbon/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1928.01.01={birth=yes}
-	2005.01.01={death=yes}  # EST.
-}
 ##  100026500	de Suelves			1001507	
 
 
@@ -2487,1079 +2542,6 @@
 		1432.01.01={birth=yes}
 		1489.01.01={death=yes}  # EST.
 	}
-
-####################
-100082441={	#         			Beltran             			de La_Cueva    
-	name="Beltran de La Cueva" #  /en/name/196639/beltran-de-la-cueva-3rd-duke-of-alburquerque/
-	dynasty=0
-	religion=catholic culture=castillan
-	1500.1.1={birth=yes}
-	1525.01.01={add_spouse=100026103}	# Isabel Téllez-Girón
-	1560.01.01={death=yes}
-}
-100082756={	#         			Felipe              			de Palafox y Croÿ de Havre
-	name="Felipe de Palafox y Croÿ de Havre" #  /en/name/5161/felipe-de-palafox-y-	name="Felipe de Palafox y Croÿ de Havre" #  /en/name/5161/felipe-de-palafox-y-croy-de-havre/roÿ-de-havre/
-	dynasty=0
-	religion=catholic culture=castillan
-	1754.01.01={birth=yes}
-	1768.11.08={add_spouse=100026324}	# María Francisca de Sales Téllez-Girón
-	1790.10.24={death=yes}
-}
-100082913={	#         			Manuel              			de Sarmiento de Mendoza y Luna
-	name="Manuel de Sarmiento de Mendoza y Luna" #  /en/name/147524/manuel-de-sarmiento-de-mendoza-y-luna-9th-count-of-ribadavia/
-	dynasty=0
-	religion=catholic culture=castillan
-	1620.1.1={birth=yes}
-	1650.01.01={add_spouse=100026283}	# Isabel Téllez-Girón
-	1680.1.1={death=yes}
-}
-100089583={	#         			Luis Manuel 					Roca de Togores y Roca de Togores Carrasco y Albuquerque
-	name="Luis Manuel Roca de Togores y Roca de Togores Carrasco y Albuquerque" #  /en/name/198739/luis-manuel-roca-de-togores-y-roca-de-togores-carrasco-y-albuquerque-1st-marquess-of-asprillas/
-	dynasty=0
-	religion=catholic culture=castillan
-	1837.12.15={birth=yes}
-	1862.01.01={add_spouse=100026107}	# María Téllez-Girón
-	1901.12.19={death=yes}
-}
-100082433={	#         			Luis Francisco      			de La_Cerda y Aragon
-	name="Luis Francisco de La Cerda y Aragon" #  /en/name/182369/luis-francisco-de-la-cerda-y-aragon-10th-duke-of-cardona/
-	dynasty=0
-	religion=catholic culture=castillan
-	1654.01.01={birth=yes}
-	1679.01.01={add_spouse=100026109}	# María Téllez-Girón
-	1711.01.26={death=yes}
-}
-100082380={	#         			Felipe              			de Guzman y Aragon
-	name="Felipe de Guzman y Aragon" #  /en/name/47207/felipe-de-guzman-y-aragon/
-	dynasty=0
-	religion=catholic culture=castillan
-	1570.01.01={birth=yes}
-	1595.01.01={add_spouse=100026290}	# Antonia Téllez-Girón
-	1632.01.01={death=yes}  # EST.
-}
-100082125={	#         			Iván                			de Bustos y Ruiz de Arana
-	name="Iván de Bustos y Ruiz de Arana" #  /en/name/547943/ivan-de-bustos-y-ruiz-de-arana-2nd-duke-of-estremera/
-	dynasty=0
-	religion=catholic culture=castillan
-	1892.05.23={birth=yes}
-	1920.01.01={add_spouse=100026316}	# María Teresa Téllez-Girón
-	1963.05.30={death=yes}
-}
-100082511={	#         			Jorge               			de Lancastre   
-	name="Jorge de Lancastre" #  /en/name/3186/jorge-de-lancastre-2nd-duke-of-aveiro/
-	dynasty=0
-	religion=catholic culture=castillan
-	1548.01.01={birth=yes}
-	1578.08.04={death=yes}
-}
-100080111={	#         			Juan                			Alonso de Aragón y de Gurrea
-	name="Juan Alonso de Aragón y de Gurrea" #  /en/name/1586275/juan-alonso-de-aragon-y-de-gurrea-count-of-ribagorza/
-	dynasty=0
-	religion=catholic culture=castillan
-	1543.01.26={birth=yes}
-	1568.01.01={add_spouse=100026167}	# Luisa Téllez-Girón
-	1573.01.01={death=yes}
-}
-100082445={	#         			Isabel              			de la_Cueva y Castilla
-	name="Isabel de la Cueva y Castilla" #  /en/name/1593491/isabel-de-la-cueva-y-castilla/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1537.01.01={birth=yes}
-	1619.01.01={death=yes}
-}
-100082647={	#         			Inés                			de Meneses     
-	name="Inés de Meneses" #  /en/name/1609867/ines-de-meneses/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1430.01.01={birth=yes}
-	1487.01.01={death=yes}  # EST.
-}
-100082578={	#         			Juana               			de Luna        
-	name="Juana de Luna" #  /en/name/1609863/juana-de-luna/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1420.1.1={birth=yes}
-	1480.1.1={death=yes}
-}
-100080123={	#         			Fernando            			Alvarez de Toledo
-	name="Fernando Alvarez de Toledo" #  /en/name/109734/fernando-alvarez-de-toledo-2nd-count-of-oropesa/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1460.01.01={birth=yes}
-	1518.01.01={death=yes}  # EST.
-}
-100082177={	#         			Francisco           			de Castro y Portugal
-	name="Francisco de Castro y Portugal" #  /en/name/276655/francisco-de-castro-y-portugal-12nd-count-of-lemos/
-	dynasty=0
-	religion=catholic culture=castillan
-	1600.1.1={birth=yes}
-	1629.01.01={add_spouse=100026133}	# Antonia Téllez-Girón
-	1662.12.06={death=yes}
-}
-100082967={	#         			Isidro              			de Sylva y Portugal
-	name="Isidro de Sylva y Portugal" #  /en/name/49336/isidro-de-sylva-y-portugal-7th-duke-of-hijar/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1690.07.08={birth=yes}
-	1757.01.01={death=yes}  # EST.
-}
-100082446={	#         			María               			de la_Cueva y Cordova
-	name="María de la Cueva y Cordova" #  /en/name/1593505/maria-de-la-cueva-y-cordova/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1570.1.1={birth=yes}
-	1630.1.1={death=yes}
-}
-100082394={	#         			Blanca              			de Herrera     
-	name="Blanca de Herrera" #  /en/name/1609891/blanca-de-herrera/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1450.01.01={birth=yes}
-	1508.01.01={death=yes}  # EST.
-}
-100087989={	#         			Luis                			Mendes de Haro y Sotomayor
-	name="Luis Mendes de Haro y Sotomayor" #  /en/name/111807/luis-mendes-de-haro-y-sotomayor-8th-lord-of-el-carpio/
-	dynasty=0
-	religion=catholic culture=castillan
-	1500.01.01={birth=yes}
-	1525.01.01={add_spouse=100026327}	# Beatriz Téllez-Girón
-	1560.01.01={death=yes}  # EST.
-}
-100082946={	#         			Juan                			de Sotomayor   
-	name="Juan de Sotomayor" #  /en/name/1935582/juan-de-sotomayor-lord-of-alconchel/
-	dynasty=0
-	religion=catholic culture=castillan
-	1500.1.1={birth=yes}
-	1525.01.01={add_spouse=100026139}	# Francisca Téllez-Girón
-	1560.1.1={death=yes}
-}
-100083831={	#         			Bernardina 						Fernández de Velasco Pacheco y Roca de Togores
-	name="Bernardina María de la_Visitación Fernández de Velasco Pacheco y Roca de Togores" #  /en/name/177358/bernardina-maria-de-la-visitacion-fernandez-de-velasco-pacheco-y-roca-de-togores-19-duchess-of-escalona/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1815.09.13={birth=yes}
-	1869.09.05={death=yes}
-}
-100081994={	#         			Enrique             			de Acuña       
-	name="Enrique de Acuña" #  /en/name/113868/enrique-de-acuna-4th-count-of-valencia-de-don-juan/
-	dynasty=0
-	religion=catholic culture=castillan
-	1500.1.1={birth=yes}
-	1526.01.01={add_spouse=100026322}	# Mencía Téllez-Girón
-	1532.01.29={death=yes}
-}
-100083526={	#         			Petra               			Duque de Estrada y Moreno
-	name="Petra Duque de Estrada y Moreno" #  /en/name/177362/petra-duque-de-estrada-y-moreno/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1900.11.09={birth=yes}
-	1976.01.01={death=yes}  # EST.
-}
-100083682={	#         			Fernando de Prado   			Enríquez y Bravo de Acuña
-	name="Fernando de Prado Enríquez y Bravo de Acuña" #  /en/name/299219/fernando-de-prado-enriquez-y-bravo-de-acuna-1st-marquess-of-prado/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1659.01.01={birth=yes}
-	1688.04.14={death=yes}
-}
-100083821={	#         			Iñigo               			Fernandez de Velasco
-	name="Iñigo Fernandez de Velasco" #  /en/name/17626/inigo-fernandez-de-velasco-4th-duke-of-frias/
-	dynasty=0
-	religion=catholic culture=castillan
-	1530.01.01={birth=yes}
-	1550.01.01={add_spouse=100026334}	# María Téllez-Girón
-	1585.01.01={death=yes}
-}
-100083834={	# marqués			Antonio 						Fernández-Manrique de la Cueva y Zúñiga
-	name="Antonio Fernández-Manrique de la_Cueva y Zúñiga marqués de Aguilar de Campóo" #  /en/name/1593542/antonio-fernandez-manrique-de-la-cueva-y-zuniga-marques-de-aguilar-de-campoo-la-liseda-y-de-flores-davila-count-of-castaneda-y-de-buelna/
-	dynasty=0
-	religion=catholic culture=castillan
-	1654.10.11={birth=yes}
-	1679.01.01={add_spouse=100026211}	# Catalina María Téllez-Girón
-	1709.11.01={death=yes}
-}
-100083678={	#         			Fernando            			Enriquez de Ribera
-	name="Fernando Enriquez de Ribera" #  /en/name/17632/fernando-enriquez-de-ribera/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1450.01.01={birth=yes}
-	1508.01.01={death=yes}  # EST.
-}
-100082266={	#         			Juana               			de Cárdenas    
-	name="Juana de Cárdenas" #  /en/name/17636/juana-de-cardenas-2-lady-of-la-puebla-del-maestre/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1455.01.01={birth=yes}
-	1519.01.01={death=yes}
-}
-100083706={	#         			Edeva               			Escudero       
-	name="Edeva Escudero" #  /en/name/2302155/edeva-escudero/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1455.01.01={birth=yes}
-	1513.01.01={death=yes}  # EST.
-}
-100087855={	#         			Joana Francisca     			Mascarenhas    
-	name="Joana Francisca Mascarenhas" #  /en/name/47336/joana-francisca-mascarenhas-countess-of-obidos/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1630.01.01={birth=yes}
-	1695.01.01={death=yes}  # EST.
-}
-100082432={	#         			José María          			de la Cerda    
-	name="José María de la Cerda" #  /en/name/115951/jose-maria-de-la-cerda-marquess-of-la-laguna-de-camero/
-	dynasty=0
-	religion=catholic culture=castillan
-	1683.07.05={birth=yes}
-	1703.01.01={add_spouse=100026348}	# Manuela María Josefa Téllez-Girón
-	1728.01.21={death=yes}
-}
-100081301={	#         			Isabel de Las       			Casas y Fernandez Hurtado
-	name="Isabel de Las Casas y Fernandez Hurtado" #  /en/name/17648/isabel-de-las-casas-y-fernandez-hurtado/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1430.01.01={birth=yes}
-	1487.01.01={death=yes}  # EST.
-}
-100082497={	#         			Leonor              			de La_Vega y Velasco
-	name="Leonor de La Vega y Velasco" #  /en/name/17655/leonor-de-la-vega-y-velasco/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1450.01.01={birth=yes}
-	1522.12.01={death=yes}
-}
-100082908={	#         			Felisa              			de Sandoval    
-	name="Felisa de Sandoval" #  /en/name/182523/felisa-de-sandoval-3-duchess-of-uceda/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1633.01.01={birth=yes}
-	1671.10.07={death=yes}
-}
-100082443={	#         			María               			de La_Cueva y Alvarez de Toledo
-	name="María de La Cueva y Alvarez de Toledo" #  /en/name/17659/maria-de-la-cueva-y-alvarez-de-toledo/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1490.01.01={birth=yes}
-	1566.04.19={death=yes}
-}
-100088928={	#         			Leonor              			Perez de Guzman
-	name="Leonor Perez de Guzman" #  /en/name/17661/leonor-perez-de-guzman/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1537.01.01={birth=yes}
-	1573.11.23={death=yes}
-}
-100082268={	#         			Elvira              			de Cárdenas y Alvarez de Toledo
-	name="Elvira de Cárdenas y Alvarez de Toledo" #  /en/name/182524/elvira-de-cardenas-y-alvarez-de-toledo-lady-of-lobon/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1550.01.01={birth=yes}
-	1612.01.01={death=yes}  # EST.
-}
-100081348={	#         			María Luisa         			Centurión y Velasco
-	name="María Luisa Centurión y Velasco" #  /en/name/459013/maria-luisa-centurion-y-velasco-8-marquise-of-estepa/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1716.01.01={birth=yes}
-	1799.01.22={death=yes}
-}
-100082382={	#         			Francisco           			de Guzman y Zuñiga
-	name="Francisco de Guzman y Zuñiga" #  /en/name/3340/francisco-de-guzman-y-zuniga-2nd-marquess-of-villa-manrique/
-	dynasty=0
-	religion=catholic culture=castillan
-	1560.01.01={birth=yes}
-	1585.01.01={add_spouse=100026296}	# Ana Téllez-Girón
-	1622.01.01={death=yes}  # EST.
-}
-100094464={	#         			Antonio Melchor 		 		Fernández de Córdova-Figueroa y Fernández de Córdoba
-	name="Antonio Melchor Baltasar Gaspar de los Reyes Fernández de Córdova-Figueroa y Fernández de Córdoba" #  /en/name/17686/antonio-melchor-baltasar-gaspar-de-los-reyes-fernandez-de-cordova-figueroa-y-fernandez-de-cordoba/
-	dynasty=0
-	religion=catholic culture=castillan
-	1655.01.05={birth=yes}
-	1680.01.01={add_spouse=100026417}	# Catalina Téllez-Girón
-	1727.07.04={death=yes}
-}
-	100094462={	#         		María Dominga       			Fernandez de Cordoba y Portocarrero
-		name="María Dominga Fernandez de Cordoba y Portocarrero" #  /en/name/4835/maria-dominga-fernandez-de-cordoba-y-portocarrero/
-		female=yes
-		dynasty=0
-		religion=catholic culture=castillan
-		father=100094464	# Antonio Melchor Baltasar Gaspar de los Reyes Fernández de Córdova-Figueroa y Fernández de Córdoba
-		mother=100026417	# Catalina Téllez-Girón
-		1693.03.09={birth=yes}
-		1747.01.01={death=yes}
-	}
-100081351={	#         			Ana                 			Cervatón       
-	name="Ana Cervatón" #  /en/name/163104/ana-cervaton-baroness-of-antella/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1490.01.01={birth=yes}
-	1549.01.01={death=yes}  # EST.
-}
-100083676={	#         			Juana               			Enriquez       
-	name="Juana Enriquez" #  /en/name/138538/juana-enriquez/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1456.01.01={birth=yes}
-	1530.04.06={death=yes}
-}
-100082579={	#         			María Juana         			de Luna        
-	name="María Juana de Luna" #  /en/name/1603880/maria-juana-de-luna-countess-of-santisteban-de-gormaz/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1456.01.01={birth=yes}
-	1480.01.01={death=yes}
-}
-100082006={	#         			Francisco           			de Arrese y Narvaez
-	name="Francisco de Arrese y Narvaez" #  /en/name/1618268/francisco-de-arrese-y-narvaez/
-	dynasty=0
-	religion=catholic culture=castillan
-	1570.1.1={birth=yes}
-	1602.01.01={add_spouse=100026188}	# Ana Téllez-Girón
-	1630.1.1={death=yes}
-}
-100083071={	#         			Pedro               			de Zuñiga      
-	name="Pedro de Zuñiga" #  /en/name/31045/pedro-de-zuniga-5th-count-of-miranda/
-	dynasty=0
-	religion=catholic culture=castillan
-	1540.01.01={birth=yes}
-	1565.01.01={add_spouse=100026259}	# Juana Téllez-Girón
-	1574.10.05={death=yes}
-}
-100083829={	#         			Alfonso             			Fernández de Córdova
-	name="Alfonso Fernández de Córdova" #  /en/name/138564/alfonso-fernandez-de-cordova-6th-lord-of-aguilar-de-la-frontera-y-de-priego/
-	dynasty=0
-	religion=catholic culture=castillan
-	1450.01.01={birth=yes}
-	1475.01.01={add_spouse=100026363}	# Catalina Téllez-Girón
-	1501.03.16={death=yes}
-}
-100082998={	#         			María               			de Torres      
-	name="María de Torres" #  /en/name/1618258/maria-de-torres/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1557.01.01={birth=yes}
-	1619.01.01={death=yes}  # EST.
-}
-100090144={	#         			D.                  			Serafina de Bragança
-	name="D. Serafina de Bragança" #  /en/name/3402/d-serafina-de-braganca/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1566.05.20={birth=yes}
-	1604.01.06={death=yes}
-}
-100087509={	#         			María Josefa Marcos 			Lopez de Zuñiga y Pacheco
-	name="María Josefa Marcos Lopez de Zuñiga y Pacheco" #  /en/name/17752/maria-josefa-marcos-lopez-de-zuniga-y-pacheco-6-viscountess-of-la-calzada/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1733.04.25={birth=yes}
-	1796.02.07={death=yes}
-}
-100082755={	#         			Juan                			de Palafox     
-	name="Juan de Palafox" #  /en/name/1618296/juan-de-palafox/
-	dynasty=0
-	religion=catholic culture=castillan
-	1685.01.01={birth=yes}
-	1726.01.01={add_spouse=100026212}	# María Ignacia Téllez-Girón
-	1740.01.01={death=yes}  # EST.
-}
-100080582={	#         			José Francisco 					Bermúdez de Castro y Azlor
-	name="José Francisco Xavier Juan Miguel Bermúdez de Castro y Azlor" #  /en/name/1618297/jose-francisco-xavier-juan-miguel-bermudez-de-castro-y-azlor-marquess-of-castro-pinos/
-	dynasty=0
-	religion=catholic culture=castillan
-	1701.01.01={birth=yes}
-	1746.01.01={add_spouse=100026212}	# María Ignacia Téllez-Girón
-	1769.01.01={death=yes}  # EST.
-}
-100082820={	#         			Alfonso             			de Revenga Proano
-	name="Alfonso de Revenga Proano" #  /en/name/1618280/alfonso-de-revenga-proano/
-	dynasty=0
-	religion=catholic culture=castillan
-	1600.1.1={birth=yes}
-	1630.01.01={add_spouse=100026223}	# Ana María Téllez-Girón
-	1660.1.1={death=yes}
-}
-100082452={	#         			Elena               			de la_Gambe    
-	name="Elena de la Gambe" #  /en/name/1618272/elena-de-la-gambe/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1579.01.01={birth=yes}
-	1642.01.01={death=yes}  # EST.
-}
-100082135={	#         			Luisa               			de Cabrera     
-	name="Luisa de Cabrera" #  /en/name/138627/luisa-de-cabrera-3-marquise-of-moya/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1474.01.01={birth=yes}
-	1556.03.04={death=yes}
-}
-100082383={	#         			Luis Francisco Ramirez			de Guzmán y Fernández de Cordoba
-	name="Luis Francisco Ramirez de Guzmán y Fernández de Cordoba" #  /en/name/4482/luis-francisco-ramirez-de-guzman-y-fernandez-de-cordoba-4th-marquess-of-la-algaba/
-	dynasty=0
-	religion=catholic culture=castillan
-	1620.01.01={birth=yes}
-	1635.01.01={add_spouse=100026304}	# Antonia Téllez-Girón
-	1684.01.01={death=yes}  # EST.
-}
-100089172={	#         			Luis                			Portocarrero   
-	name="Luis Portocarrero" #  /en/name/41354/luis-portocarrero-1st-count-of-palma-del-rio/
-	dynasty=0
-	religion=catholic culture=castillan
-	1470.01.01={birth=yes}
-	1500.01.01={add_spouse=100026155}	# Leonor Téllez-Girón
-	1528.01.01={death=yes}
-}
-100082267={	#         			Lorenzo             			de Cárdenas    
-	name="Lorenzo de Cárdenas" #  /en/name/617886/lorenzo-de-cardenas-4th-marquess-of-bacares/
-	dynasty=0
-	religion=catholic culture=castillan
-	1662.01.01={birth=yes}
-	1685.01.01={add_spouse=100026475}	# Francisca Téllez-Girón
-	1706.06.10={death=yes}
-}
-100082369={	#         			María               			de Guevara     
-	name="María de Guevara" #  /en/name/138648/maria-de-guevara/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1455.01.01={birth=yes}
-	1513.01.01={death=yes}  # EST.
-}
-100089053={	#         			Rodrigo Afonso      			Pimentel       
-	name="Rodrigo Afonso Pimentel" #  /en/name/138662/rodrigo-afonso-pimentel-4th-count-and-1st-duke-of-benavente/
-	dynasty=0
-	religion=catholic culture=castillan
-	1440.1.1={birth=yes}
-	1466.01.01={add_spouse=100026362}	# María Téllez-Girón
-	1499.09.04={death=yes}
-}
-100083827={	#         			Diego               			Fernández de Cabrera y Bobadilla
-	name="Diego Fernández de Cabrera y Bobadilla" #  /en/name/636344/diego-fernandez-de-cabrera-y-bobadilla-3rd-count-of-chinchon/
-	dynasty=0
-	religion=catholic culture=castillan
-	1537.01.01={birth=yes}
-	1562.01.01={add_spouse=100026380}	# Inés Téllez-Girón
-	1598.01.01={death=yes}  # EST.
-}
-	100094465={	#         		Mencia              			Cabrera y Bobadilla
-		name="Mencia Cabrera y Bobadilla" #  /en/name/642702/mencia-cabrera-y-bobadilla/
-		female=yes
-		dynasty=0
-		religion=catholic culture=castillan
-		father=100083827	# Diego Fernández de Cabrera y Bobadilla
-		mother=100026380	# Inés Téllez-Girón
-		1565.01.01={birth=yes}
-		1627.01.01={death=yes}  # EST.
-	}
-100087776={	#         			Manuel              			Manrique de Lara
-	name="Manuel Manrique de Lara" #  /en/name/114104/manuel-manrique-de-lara-4th-duke-of-najera/
-	dynasty=0
-	religion=catholic culture=castillan
-	1533.04.10={birth=yes}
-	1554.01.01={add_spouse=100026434}	# María Téllez-Girón
-	1600.06.05={death=yes}
-}
-100082942={	#         			Pedro               			de Solís-Beaumont y Lasso de La_Vega
-	name="Pedro de Solís-Beaumont y Lasso de La Vega" #  /en/name/177610/pedro-de-solis-beaumont-y-lasso-de-la-vega/
-	dynasty=0
-	religion=catholic culture=castillan
-	1916.01.01={birth=yes}
-	1946.10.26={add_spouse=100026302}	# Ángela María Téllez-Girón
-	1959.02.02={death=yes}
-}
-100089126={	#         			Rodrigo             			Ponce de Leon  
-	name="Rodrigo Ponce de Leon" #  /en/name/114120/rodrigo-ponce-de-leon-3rd-count-of-arcos/
-	dynasty=0
-	religion=catholic culture=castillan
-	1430.01.01={birth=yes}
-	1471.01.01={add_spouse=100026373}	# Beatriz Téllez-Girón
-	1487.01.01={death=yes}  # EST.
-}
-100083832={	#         			María               			Fernández de Velasco y Mendoza
-	name="María Fernández de Velasco y Mendoza" #  /en/name/135627/maria-fernandez-de-velasco-y-mendoza-1-duchess-of-roa/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1450.01.01={birth=yes}
-	1508.01.01={death=yes}  # EST.
-}
-100089173={	#         			María               			Portocarrero   
-	name="María Portocarrero" #  /en/name/135629/maria-portocarrero-6-lady-of-moguer/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1430.01.01={birth=yes}
-	1470.01.01={death=yes}
-}
-100082381={	#         			Inês                			de Guzman y Fernandez de Cordoba
-	name="Inês de Guzman y Fernandez de Cordoba" #  /en/name/3535/ines-de-guzman-y-fernandez-de-cordoba-7-marquise-of-la-algaba/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1625.01.01={birth=yes}
-	1690.01.01={death=yes}  # EST.
-}
-100082577={	#         			Estanislao          			de Lugo y Molina
-	name="Estanislao de Lugo y Molina" #  /en/name/1166785/estanislao-de-lugo-y-molina/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1753.06.20={birth=yes}
-	1833.08.26={death=yes}
-}
-100088706={	#         			María               			Osorio         
-	name="María Osorio" #  /en/name/198100/maria-osorio/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1475.01.01={birth=yes}
-	1526.01.01={death=yes}
-}
-100087508={	#         			Íñigo               			Lopez de Mendoza
-	name="Íñigo Lopez de Mendoza" #  /en/name/61921/inigo-lopez-de-mendoza-el-gran-tendilla-1st-marquess-of-mondejar/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1440.01.01={birth=yes}
-	1497.01.01={death=yes}  # EST.
-}
-100087778={	#         			Alberto             			Manso de Velasco y Chaves
-	name="Alberto Manso de Velasco y Chaves" #  /en/name/1606131/alberto-manso-de-velasco-y-chaves-6th-count-of-superunda-5th-marquess-of-rivas-de-jarama/
-	dynasty=0
-	religion=catholic culture=castillan
-	1834.08.07={birth=yes}
-	1859.01.01={add_spouse=100026226}	# María Téllez-Girón
-	1922.03.10={death=yes}
-}
-100083187={	#         			Juan                			Delgadillo de Avellaneda
-	name="Juan Delgadillo de Avellaneda" #  /en/name/1593828/juan-delgadillo-de-avellaneda/
-	dynasty=0
-	religion=catholic culture=castillan
-	1550.1.1={birth=yes}
-	1575.01.01={add_spouse=100026150}	# Inés Téllez-Girón
-	1610.1.1={death=yes}
-}
-100082442={	#         			María Francisca     			de la Cueva y Acuña
-	name="María Francisca de la Cueva y Acuña" #  /en/name/617972/maria-francisca-de-la-cueva-y-acuna-6-marquise-of-bedmar/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1700.01.01={birth=yes}
-	1754.10.25={death=yes}
-}
-100082444={	#         			Francisco           			de la Cueva y Ayala
-	name="Francisco de La Cueva y Ayala" #  /en/name/203269/francisco-de-la-cueva-y-ayala-3rd-lord-of-la-adrada/
-	dynasty=0
-	religion=catholic culture=castillan
-	1504.01.01={birth=yes}
-	1529.01.01={add_spouse=100026245}	# Juana Téllez-Girón
-	1564.01.01={death=yes}  # EST.
-}
-100083830={	#         			María del Rosario   			Fernández de Santillán y Valdivia
-	name="María del Rosario Fernández de Santillán y Valdivia" #  /en/name/114205/maria-del-rosario-fernandez-de-santillan-y-valdivia/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1795.10.20={birth=yes}
-	1857.07.21={death=yes}
-}
-100084953={	#         			Agostino            			Homodei        
-	name="Agostino Homodei" #  /en/name/61988/agostino-homodei-3-marchese-di-piovera/
-	dynasty=0
-	religion=catholic culture=castillan
-	1600.01.01={birth=yes}
-	1630.01.01={add_spouse=100026412}	# María Téllez-Girón
-	1657.01.01={death=yes}
-}
-100080124={	#         			Juana               			Alvarez de Toledo
-	name="Juana Alvarez de Toledo" #  /en/name/138835/juana-alvarez-de-toledo/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1532.01.01={birth=yes}
-	1595.02.17={death=yes}
-}
-100083032={	#         			Pedro Manuel        			de Villena     
-	name="Pedro Manuel de Villena" #  /en/name/159317/pedro-manuel-de-villena-5th-lord-of-cheles/
-	dynasty=0
-	religion=catholic culture=castillan
-	1496.01.01={birth=yes}
-	1521.01.01={add_spouse=100026298}	# Leonor Téllez-Girón
-	1555.01.01={death=yes}  # EST.
-}
-100082049={	#         			María Josefa        			de Benavides Manrique y Silva
-	name="María Josefa de Benavides Manrique y Silva" #  /en/name/138837/maria-josefa-de-benavides-manrique-y-silva/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1662.01.01={birth=yes}
-	1692.03.12={death=yes}
-}
-100083765={	#         			Pedro               			Fajardo y Fernandez de Córdoba
-	name="Pedro Fajardo y Fernandez de Córdoba" #  /en/name/69213/pedro-fajardo-y-fernandez-de-cordoba-3rd-marquess-of-los-velez/
-	dynasty=0
-	religion=catholic culture=castillan
-	1530.01.01={birth=yes}
-	1555.01.01={add_spouse=100026286}	# Leonor Téllez-Girón
-	1579.02.12={death=yes}
-}
-100090889={	#         			Francisco Pacheco   			Tellez Giron   
-	name="Francisco Pacheco Tellez Giron" #  /en/name/138850/francisco-pacheco-tellez-giron-5th-count-of-puebla-de-montalban/
-	dynasty=0
-	religion=catholic culture=castillan
-	1649.06.08={birth=yes}
-	1677.07.16={add_spouse=100026404}	# Isabel Téllez-Girón
-	1718.08.25={death=yes}
-}
-100088750={	#         			María               			Pacheco        
-	name="María Pacheco" #  /en/name/1645/maria-pacheco-lady-of-belmonte/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1400.01.01={birth=yes}
-	1456.01.01={death=yes}  # EST.
-}
-100082628={	#         			Ricardo             			de Martorell y de Fivaller
-	name="Ricardo de Martorell y de Fivaller" #  /en/name/138869/ricardo-de-martorell-y-de-fivaller-5th-duke-of-almenara-alta/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1854.04.09={birth=yes}
-	1907.03.12={death=yes}
-}
-100089887={	#         			Rafael              			Santos de Zúñiga y Girón
-	name="Rafael Santos de Zúñiga y Girón" #  /en/name/69242/rafael-santos-de-zuniga-y-giron-marquess-of-baneza/
-	dynasty=0
-	religion=catholic culture=castillan
-	1725.01.01={birth=yes}
-	1750.01.01={add_spouse=100026408}	# María Francisca Téllez-Girón
-	1776.05.20={death=yes}
-}
-100082276={	#         			Julia Fernanda      			de Dominéy Desmaissieres
-	name="Julia Fernanda de Dominé y Desmaissieres" #  /en/name/158339/julia-fernanda-de-domine-y-desmaissieres/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1842.01.07={birth=yes}
-	1901.12.15={death=yes}
-}
-100080608={	#         			Emilio              			Bessiers y Ramírez de Arellano
-	name="Emilio Bessiers y Ramírez de Arellano" #  /en/name/642698/emilio-bessiers-y-ramirez-de-arellano-marquess-of-lombay/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1859.04.05={birth=yes}
-	1933.01.01={death=yes}  # EST.
-}
-100082434={	#         			Ursula              			de La_Cerda y Leyva
-	name="Ursula de La Cerda y Leyva" #  /en/name/3717/ursula-de-la-cerda-y-leyva/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1643.10.15={birth=yes}
-	1683.01.25={death=yes}
-}
-100082101={	#         			Baltasar Manuel     			de Bracamonte y Guzmán
-	name="Baltasar Manuel de Bracamonte y Guzmán" #  /en/name/559785/baltasar-manuel-de-bracamonte-y-guzman-2nd-count-of-penaranda/
-	dynasty=0
-	religion=catholic culture=castillan
-	1599.01.01={birth=yes}
-	1624.01.01={add_spouse=100026256}	# María Téllez-Girón
-	1662.01.01={death=yes}  # EST.
-}
-100083031={	#         			María Manuel        			de Villena     
-	name="María Manuel de Villena" #  /en/name/29376/maria-manuel-de-villena/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1520.01.01={birth=yes}
-	1580.01.01={death=yes}  # EST.
-}
-100082205={	#         			Victorin            			de Chaves y Cistué
-	name="Victorin de Chaves y Cistué" #  /en/name/550617/victorin-de-chaves-y-cistue-count-of-cobatillas/
-	dynasty=0
-	religion=catholic culture=castillan
-	1872.01.01={birth=yes}
-	1897.01.01={add_spouse=100026285}	# María del Rosario Téllez-Girón
-	1913.05.02={death=yes}
-}
-100082206={	#         			Domingo             			de Chaves y Cistué
-	name="Domingo de Chaves y Cistué" #  /en/name/550618/domingo-de-chaves-y-cistue-marquess-of-belagomez/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1872.01.01={birth=yes}
-	1946.01.01={death=yes}  # EST.
-}
-100083679={	#         			Catalina            			Enriquez de Ribera y Cortes
-	name="Catalina Enriquez de Ribera y Cortes" #  /en/name/115410/catalina-enriquez-de-ribera-y-cortes/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1579.01.01={birth=yes}
-	1635.11.30={death=yes}
-}
-100082289={	#         			Luiz                			de Eizmendi y Ulloa
-	name="Luiz de Eizmendi y Ulloa" #  /en/name/550619/luiz-de-eizmendi-y-ulloa/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1873.01.01={birth=yes}
-	1913.04.21={death=yes}
-}
-100089604={	#         			Manuel              			Rodríguez de Acuña y Dorta
-	name="Manuel Rodríguez de Acuña y Dorta" #  /en/name/550620/manuel-rodriguez-de-acuna-y-dorta/
-	dynasty=0
-	religion=catholic culture=castillan
-	1873.01.01={birth=yes}
-	1898.01.01={add_spouse=100026428}	# Bernardina Téllez-Girón
-	1947.01.01={death=yes}  # EST.
-}
-100082909={	#         			Isabel Raimunda     			de Sandoval y Padilla
-	name="Isabel Raimunda de Sandoval y Padilla" #  /en/name/115413/isabel-raimunda-de-sandoval-y-padilla/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1599.01.01={birth=yes}
-	1658.01.01={death=yes}
-}
-100082051={	#         			Ana Antonia         			de Benavides y Ponce de Leon
-	name="Ana Antonia de Benavides y Ponce de Leon" #  /en/name/115414/ana-antonia-de-benavides-y-ponce-de-leon-6th-marquise-of-fromista/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1653.04.14={birth=yes}
-	1707.12.04={death=yes}
-}
-100083822={	#         			María del Pilar     			Fernandez de Velasco y Benavides
-	name="María del Pilar Fernandez de Velasco y Benavides" #  /en/name/115416/maria-del-pilar-fernandez-de-velasco-y-benavides-9th-duchess-of-frias/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1678.01.01={birth=yes}
-	1734.11.30={death=yes}
-}
-100088752={	#         			Francisco Javier    			Pacheco Tellez-Girón
-	name="Francisco Javier Pacheco Tellez-Girón" #  /en/name/115418/francisco-javier-pacheco-tellez-giron-6th-duke-of-uceda/
-	dynasty=0
-	religion=catholic culture=castillan
-	1704.02.16={birth=yes}
-	1729.01.01={add_spouse=100026271}	# María Lucia Téllez-Girón
-	1750.01.02={death=yes}
-}
-	100094461={	#         		María Vicenta       			Pacheco Tellez-Girón
-		name="María Vicenta Pacheco Tellez-Girón" #  /en/name/115419/maria-vicenta-pacheco-tellez-giron/
-		female=yes
-		dynasty=0
-		religion=catholic culture=castillan
-		father=100088752	# Francisco Javier Pacheco Tellez-Girón
-		mother=100026271	# María Lucia Téllez-Girón
-		1735.07.28={birth=yes}
-		1801.07.30={death=yes}
-	}
-100083639={	#         			Francisca Bibiana María Pérez de Guzmán			el Bueno y Silva
-	name="Francisca Bibiana María Pérez de Guzmán el Bueno y Silva" #  /en/name/115421/francisca-bibiana-maria-perez-de-guzman-el-bueno-y-silva/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1699.06.13={birth=yes}
-	1748.09.29={death=yes}
-}
-100094463={	#         			Francisco de Borja Afonso		Pimentel y Borja
-	name="Francisco de Borja Afonso Pimentel y Borja" #  /en/name/4836/francisco-de-borja-afonso-pimentel-y-borja-14th-count-and-11st-de-benavente-3rd-duke-of-arion/
-	dynasty=0
-	religion=catholic culture=castillan
-	1706.03.17={birth=yes}
-	1738.07.20={add_spouse=100026303}	# María Faustina Tellez Téllez-Girón
-	1763.02.09={death=yes}
-}
-100082580={	#         			Ana                 			de Luna Henriquez
-	name="Ana de Luna Henriquez" #  /en/name/29425/ana-de-luna-henriquez-2-countess-of-fuenteduena/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1598.01.01={birth=yes}
-	1640.12.19={death=yes}
-}
-100082581={	#         			Antonia             			de Luna y Enríquez
-	name="Antonia de Luna y Enríquez" #  /en/name/29426/antonia-de-luna-y-enriquez/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1558.01.01={birth=yes}
-	1620.01.01={death=yes}  # EST.
-}
-100089127={	#         			Rodrigo             			Ponce de Leon  
-	name="Rodrigo Ponce de Leon" #  /en/name/112385/rodrigo-ponce-de-leon-1st-duke-of-arcos/
-	dynasty=0
-	religion=catholic culture=castillan
-	1488.01.01={birth=yes}
-	1513.01.01={add_spouse=100026435}	# Juana Téllez-Girón
-	1547.01.01={death=yes}  # EST.
-}
-100082378={	#         			Mencia              			de Guzman      
-	name="Mencia de Guzman" #  /en/name/112388/mencia-de-guzman/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1480.01.01={birth=yes}
-	1540.09.02={death=yes}
-}
-100084057={	#         			María Regalado      			Funes de Villalpando y Monroy
-	name="María Regalado Funes de Villalpando y Monroy" #  /en/name/16133/maria-regalado-funes-de-villalpando-y-monroy-4-marquise-of-osera/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1670.05.16={birth=yes}
-	1738.05.14={death=yes}
-}
-100082699={	#         			María               			de Morales     
-	name="María de Morales" #  /en/name/642831/maria-de-morales/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1520.1.1={birth=yes}
-	1580.1.1={death=yes}
-}
-100082028={	#         			María Francisca     			de Beaufort y Alvarez de Toledo
-	name="María Francisca de Beaufort y Alvarez de Toledo" #  /en/name/114473/maria-francisca-de-beaufort-y-alvarez-de-toledo-countess-of-beaufort-spontin/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1785.03.07={birth=yes}
-	1830.01.28={death=yes}
-}
-100082931={	#         			José Gabriel        			de Silva y Bazan
-	name="José Gabriel de Silva y Bazan" #  /en/name/168749/jose-gabriel-de-silva-y-bazan-11st-marquess-of-santa-cruz/
-	dynasty=0
-	religion=catholic culture=castillan
-	1782.03.18={birth=yes}
-	1801.06.11={add_spouse=100026108}	# Joaquina Téllez-Girón
-	1839.11.07={death=yes}
-}
-100082265={	#         			Diego               			de Cárdenas    
-	name="Diego de Cárdenas" #  /en/name/135988/diego-de-cardenas-1st-duke-of-maqueda/
-	dynasty=0
-	religion=catholic culture=castillan
-	1442.01.01={birth=yes}
-	1467.01.01={add_spouse=100026288}	# Mencia Téllez-Girón
-	1542.01.01={death=yes}
-}
-100083073={	#         			Catalina            			de Zuñiga y Sandoval
-	name="Catalina de Zuñiga y Sandoval" #  /en/name/168780/catalina-de-zuniga-y-sandoval/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1600.01.01={birth=yes}
-	1664.01.01={death=yes}  # EST.
-}
-100087775={	#         			María               			Manrique       
-	name="María Manrique" #  /en/name/642909/maria-manrique/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1550.01.01={birth=yes}
-	1610.05.08={death=yes}
-}
-100082570={	#         			Joaquín María Gayoso 			de los_Cobos y Bermúdez de Castro
-	name="Joaquín María Gayoso de los Cobos y Bermúdez de Castro" #  /en/name/310099/joaquin-maria-gayoso-de-los-cobos-y-bermudez-de-castro-11st-marquess-of-camarasa/
-	dynasty=0
-	religion=catholic culture=castillan
-	1778.01.01={birth=yes}
-	1800.12.21={add_spouse=100026291}	# Josefa Manuela Téllez-Girón
-	1849.05.06={death=yes}
-}
-100082004={	#         			Alonso              			de Arellano    
-	name="Alonso de Arellano" #  /en/name/642919/alonso-de-arellano/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1500.01.01={birth=yes}
-	1560.01.01={death=yes}  # EST.
-}
-100088751={	#         			Teresa de Sotomayor 			Pacheco Meneses y Barba
-	name="Teresa de Sotomayor Pacheco Meneses y Barba" #  /en/name/642937/teresa-de-sotomayor-pacheco-meneses-y-barba-4-countess-of-castrofuerte-viscountess-of-castildefalle/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1671.12.23={birth=yes}
-	1715.11.23={death=yes}
-}
-100082704={	#         			María Catalina Teresa			de Moscoso Osorio y Benavides
-	name="María Catalina Teresa de Moscoso Osorio y Benavides" #  /en/name/15220/maria-catalina-teresa-de-moscoso-osorio-y-benavides/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1674.01.01={birth=yes}
-	1726.01.19={death=yes}
-}
-100083072={	#         			Juana               			de Zuñiga y Mendoza
-	name="Juana de Zuñiga y Mendoza" #  /en/name/15252/juana-de-zuniga-y-mendoza/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1600.01.01={birth=yes}
-	1652.02.17={death=yes}
-}
-100082993={	#         			Victoria            			de Toledo      
-	name="Victoria de Toledo" #  /en/name/642973/victoria-de-toledo/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1638.01.01={birth=yes}
-	1703.01.01={death=yes}  # EST.
-}
-100082005={	#         			Alonso              			de Arellano    
-	name="Alonso de Arellano" #  /en/name/642966/alonso-de-arellano/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1600.01.01={birth=yes}
-	1664.01.01={death=yes}  # EST.
-}
-100083677={	#         			Fernando            			Enriquez       
-	name="Fernando Enriquez" #  /en/name/147362/fernando-enriquez-4th-marquess-of-tarifa/
-	dynasty=0
-	religion=catholic culture=castillan
-	1475.01.01={birth=yes}
-	1499.01.01={add_spouse=100026252}	# Ana Téllez-Girón
-	1539.01.01={death=yes}
-}
-	100094460={	#         		Pedro Giron         			Enriquez de Ribera
-		name="Pedro Giron Enriquez de Ribera" #  /en/name/182525/pedro-giron-enriquez-de-ribera/
-		dynasty=0
-		religion=catholic culture=castillan
-		father=100083677	# Fernando Enriquez
-		mother=100026252	# Ana Téllez-Girón
-		1500.01.01={birth=yes}
-		1525.01.01={add_spouse=100026290}	# Antonia Téllez-Girón
-		1560.01.01={death=yes}  # EST.
-	}
-100082995={	#         			María de la Encarnación			de Toledo Sarmiento y Eraso
-	name="María de la Encarnación de Toledo Sarmiento y Eraso" #  /en/name/642984/maria-de-la-encarnacion-de-toledo-sarmiento-y-eraso-4-marquise-of-mancera-y-montalvo/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1693.01.01={birth=yes}
-	1748.01.01={death=yes}
-}
-100083681={	#         			Juan                			Enríquez de Guzmán
-	name="Juan Enríquez de Guzmán" #  /en/name/251814/juan-enriquez-de-guzman-12nd-count-of-alba-de-liste/
-	dynasty=0
-	religion=catholic culture=castillan
-	1640.01.01={birth=yes}
-	1660.01.01={add_spouse=100026206}	# María Téllez-Girón
-	1710.01.12={death=yes}
-}
-100083680={	#         			Francisca           			Enríquez       
-	name="Francisca Enríquez" #  /en/name/147365/francisca-enriquez-lady-of-orce/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1550.01.01={birth=yes}
-	1612.01.01={death=yes}  # EST.
-}
-100080122={	#         			Elvira de Figueroa  			Alvarez de Toledo
-	name="Elvira de Figueroa Alvarez de Toledo" #  /en/name/164786/elvira-de-figueroa-alvarez-de-toledo/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1500.01.01={birth=yes}
-	1560.01.01={death=yes}  # EST.
-}
-100082154={	#         			Angel María         			de Carvajal y Fernández de Córdoba
-	name="Angel María de Carvajal y Fernández de Córdoba" #  /en/name/69558/angel-maria-de-carvajal-y-fernandez-de-cordoba-8th-duke-of-abrantes/
-	dynasty=0
-	religion=catholic culture=castillan
-	1793.09.17={birth=yes}
-	1818.01.01={add_spouse=100026312}	# María Manuela Isidra Téllez-Girón
-	1839.04.20={death=yes}
-}
-100083828={	#         			Diego               			Fernández de Córdova
-	name="Diego Fernández de Córdova" #  /en/name/138175/diego-fernandez-de-cordova-1st-marquess-of-comares/
-	dynasty=0
-	religion=catholic culture=castillan
-	1450.01.01={birth=yes}
-	1475.01.01={add_spouse=100026307}	# Juana Téllez-Girón
-	1508.01.01={death=yes}  # EST.
-}
-100083675={	#         			Fernando            			Enriquez       
-	name="Fernando Enriquez" #  /en/name/138177/fernando-enriquez-1st-duke-of-medina-de-rioseco/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1465.01.01={birth=yes}
-	1523.01.01={death=yes}  # EST.
-}
-100082966={	#         			Petronilla Antónia  			de Sylva       
-	name="Petronilla Antónia de Sylva" #  /en/name/15305/petronilla-antonia-de-sylva/
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1677.09.21={birth=yes}
-	1699.01.01={death=yes}
-}
-100089174={	#         			Juan                			Portocarrero   
-	name="Juan Portocarrero" #  /en/name/145362/juan-portocarrero-3rd-count-of-medellin/
-	dynasty=0
-	religion=catholic culture=castillan
-	1506.01.01={birth=yes}
-	1531.01.01={add_spouse=100026287}	# María Téllez-Girón
-	1566.01.01={death=yes}  # EST.
-}
-100082377={	#         			Enrique             			de Guzman      
-	name="Enrique de Guzman" #  /en/name/54234/enrique-de-guzman-4th-duke-of-medina-sidonia/
-	dynasty=0
-	religion=catholic culture=castillan
-	1494.11.04={birth=yes}
-	1509.01.01={add_spouse=100026435}	# Juana Téllez-Girón
-	1513.01.01={death=yes}
-}
-100083833={	#         			José                			Fernández de Velasco y Tovar
-	name="José Fernández de Velasco y Tovar" #  /en/name/141294/jose-fernandez-de-velasco-y-tovar-8th-duke-of-frias/
-	dynasty=0
-	religion=catholic culture=castillan
-	1687.01.01={birth=yes}
-	1705.01.01={add_spouse=100026370}	# Ana María Téllez-Girón
-	1713.01.09={death=yes}
-}
-100082527={	#         			José María          			de Latorre y Montalvo
-	name="José María de Latorre y Montalvo" #  /en/name/177140/jose-maria-de-latorre-y-montalvo-8th-marquess-of-montemuzo/
-	dynasty=0
-	religion=catholic culture=castillan
-	1925.01.01={birth=yes}
-	1963.12.06={add_spouse=100026302}	# Ángela María Téllez-Girón
-	1991.07.31={death=yes}
-}
 ##  100026100	Osuna				1001505
 	
 
@@ -3700,6 +2682,7 @@
 				}
 					100026074={	# 1e) Tatiana Duquesa de Montemar (b.Madrid 31 Jul 1972)
 						name=Tatiana
+						female=yes
 						dynasty=1001504
 						religion=catholic culture=castillan
 						father=100026072	# Pedro Osorio de Moscoso
@@ -3962,10 +2945,10 @@
 		1897.06.16={birth=yes}  # Madrid
 		1975.01.26={death=yes}  # Madrid
 	}
-#1884.08.21={holder=100026000} # José Ramon Osorio y Heredia Cde de la Corzana 
-#1919.01.01={holder=100026005} # 2a) MIGUEL
-#1942.05.03={holder=100026009} # 2b) BELTRAN Alfonso
-#1994.02.18={holder=100026012} # 1c) JUAN Miguel
+#1884.08.21={holder=100026000} # José Ramon
+#1919.01.01={holder=100026005} # MIGUEL
+#1942.05.03={holder=100026009} # BELTRAN
+#1994.02.18={holder=100026012} # JUAN
 ##  100026000	ALBURQUERQUE	1001503
 
 
@@ -3986,7 +2969,6 @@
 		father=100025950	# Francisco Paulino Franco
 		mother=100089118	# Carmen Polo y Martínez-Valdès
 		1926.02.14={birth=yes}
-		2003.01.01={death=yes}  # EST.
 	}
 		100025954={	# 1b) María del Carmen (b.El Pardo 26 Feb 1951); 
 					# m.1st Madrid 8 Mar 1972 (div 1982) Don Alfonso de Borbón y Dampierre, Duque de Cadiz, Duc d'Anjou (Rome 20 Apr 1936-Beaver Creek, Colorado 30 Jan 1989); 
@@ -4450,7 +3432,7 @@
 				1868.07.04={death=yes}
 			}
 			100025609={	# 2c) María de Africa Josefa (14 Sep 1812-1866); m.10 Feb 1840 Angel María de Carvajal Duque de Abrantes
-				name=María
+				name=Josefa
 				female=yes
 				dynasty=1001500
 				religion=catholic culture=castillan
@@ -4501,7 +3483,7 @@
 						1956.07.13={death=yes}
 					}
 						100025621={	# 1f) María VICTORIA-EUGENIA, 18th Duquesa de Medina-Celi, Duquesa d'Alcala de los Gazules, etc (b.Madrid 16 Apr 1917); m.Seville 12 Jan 1938 Rafael de Medina y Villalonga (Bilbao 1905-Seville 28 Jul 1992)
-							name="Victoria-Eugenia"
+							name=Victoria-Eugenia
 							female=yes
 							dynasty=1001500
 							religion=catholic culture=castillan
@@ -4513,15 +3495,16 @@
 							100025623={	# 1g) Ana de Medina y Fernández de Córdoba, Cdsa d'Ofalia, Marquesa de Navahermosa (b.Seville 2 Ma y 1940); m.1st Seville 3 Jun 1961 (div 1985) Max-Emanuel Pr zu Hohenlohe-Langenburg (Vienna 6 Oct 1931-Marbella 1 Dec 1994); m.2nd Madrid 14 Oct 1985 Jaime de Urzaiz y Fernández del Castillo (b.Madrid 20 Feb 1929)
 								name=Ana
 								female=yes
-								dynasty=1001500
+								dynasty=1001509
 								religion=catholic culture=castillan
 								father=100082638	# Rafael de Medina y Villalonga
 								mother=100025621	# Victoria-Eugenia Arion
 								1940.05.02={birth=yes}
+								2012.03.07={death=yes}
 							}
 							100025626={	# 2g) Luis de Medina y Fernández de Córdoba, Marques de Cogolludo, Duque de Santiesteban del Puerto, Marques de Solera (Seville 2 Jul 1941-Seville 9 Feb 2011); m.Seville 1 Dec 1985 Mercedes Conradi y Ramirez (b.1955)
 								name=Luis
-								dynasty=1001500
+								dynasty=1001509
 								religion=catholic culture=castillan
 								father=100082638	# Rafael de Medina y Villalonga
 								mother=100025621	# Victoria-Eugenia Arion
@@ -4532,7 +3515,7 @@
 								100025628={	# 1h) Victoria de Medina y Conradi, Duquesa de Santiesteban del Puerto (b.4 Oct 1986)
 									name=Victoria
 									female=yes
-									dynasty=1001500
+									dynasty=1001509
 									religion=catholic culture=castillan
 									father=100025626	# Luis Arion
 									mother=100081601	# Mercedes Conradi y Ramirez
@@ -4541,7 +3524,7 @@
 								100025629={	# 2h) Casilda de Medina y Conradi (b.Seville 16 Ma y 1989)
 									name=Casilda
 									female=yes
-									dynasty=1001500
+									dynasty=1001509
 									religion=catholic culture=castillan
 									father=100025626	# Luis Arion
 									mother=100081601	# Mercedes Conradi y Ramirez
@@ -4549,7 +3532,7 @@
 								}
 							100025630={	# 3g) Rafael de Medina y Fernández de Córdoba, Duque de Feria, Marques de Villalba (Seville 10 Aug 1942-Seville 6 Aug 2001); m.Almonte 14 Jul 1977 Natividad Abascal y Romero-Toro (b.Seville 2 Apr 1943)
 								name=Rafael
-								dynasty=1001500
+								dynasty=1001509
 								religion=catholic culture=castillan
 								father=100082638	# Rafael de Medina y Villalonga
 								mother=100025621	# Victoria-Eugenia Arion
@@ -4559,7 +3542,7 @@
 							}
 								100025632={	# 1h) Rafael de Medina y Abascal, Duque de Feria (b.23 Sep 1978); m.Toledo 16 Oct 2010 Laura Vecino Acha (b.Neguiri 1979)
 									name=Rafael
-									dynasty=1001500
+									dynasty=1001509
 									religion=catholic culture=castillan
 									father=100025630	# Rafael Arion
 									mother=100080004	# Natividad Abascal y Romero-Toro
@@ -4568,7 +3551,7 @@
 								}
 									100025634={	# 1i) Rafael de Medina y Vecino (b.Madrid 26 Nov 2012)
 										name=Rafael
-										dynasty=1001500
+										dynasty=1001509
 										religion=catholic culture=castillan
 										father=100025632	# Rafael Arion
 										mother=100091404	# Laura Vecino Acha
@@ -4577,7 +3560,7 @@
 									100025635={	# 2i) Laura de Medina y Vecino (b.Madrid 26 Nov 2012)
 										name=Laura
 										female=yes
-										dynasty=1001500
+										dynasty=1001509
 										religion=catholic culture=castillan
 										father=100025632	# Rafael Arion
 										mother=100091404	# Laura Vecino Acha
@@ -4585,7 +3568,7 @@
 									}
 								100025636={	# 2h) Luis de Medina y Abascal (b.31 Aug 1980)
 									name=Luis
-									dynasty=1001500
+									dynasty=1001509
 									religion=catholic culture=castillan
 									father=100025630	# Rafael Arion
 									mother=100080004	# Natividad Abascal y Romero-Toro
@@ -4595,7 +3578,7 @@
 									    # m.1st 1976 (div 1984) Mercedes Maier y Allende; 
 										# m.2nd Seville 24 Oct 1985 María da Gloria Pss of Orléans-Braganza (b.Petrópolis 13 Dec 1946)
 								name=Ignacio
-								dynasty=1001500
+								dynasty=1001509
 								religion=catholic culture=castillan
 								father=100082638	# Rafael de Medina y Villalonga
 								mother=100025621	# Victoria-Eugenia Arion
@@ -4607,7 +3590,7 @@
 								100025640={	# 1h) María de la Blanca de Medina y Orléans-Braganza (b.New York 8 Aug 1986)
 									name=María
 									female=yes
-									dynasty=1001500
+									dynasty=1001509
 									religion=catholic culture=castillan
 									father=100025637	# Ignacio Arion
 									mother=100033527	# Maria da Glória de Orleães-Bragança
@@ -4616,7 +3599,7 @@
 								100025641={	# 2h) Luna de Medina y Orléans-Braganza (b.New York 4 Ma y 1988)
 									name=Luna
 									female=yes
-									dynasty=1001500
+									dynasty=1001509
 									religion=catholic culture=castillan
 									father=100025637	# Ignacio Arion
 									mother=100033527	# Maria da Glória de Orleães-Bragança
@@ -4632,135 +3615,6 @@
 							1919.01.22={birth=yes}
 							1998.10.03={death=yes}
 						}
-							100025644={	# 1g) Clara Larios y Fernández de Córdoba (b.San Sebástian 12 Aug 1940)
-								name="Clara Larios y Fernández"
-								female=yes
-								dynasty=1001500
-								religion=catholic culture=castillan
-								father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
-								mother=100025642	# María Arion
-								1940.08.12={birth=yes}
-							}
-							100025645={	# 2g) Fernando Larios y Fernández de Córdoba, Duque de Lerma, Marqués de Marzales, (b.San Sebástian 6 Apr 1943); m.Pizarra, Malaga 5 Sep 1967 Monica de Soto y Bertran de Lis (b.Madrid 18 Ma y 1947)
-								name="Fernando Larios y Fernández"
-								dynasty=1001500
-								religion=catholic culture=castillan
-								father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
-								mother=100025642	# María Arion
-								1943.04.06={birth=yes}
-								1967.09.05={add_spouse=100082944}	# Monica de Soto y Bertran de Lis
-							}
-								100025647={	# 1h) Ana Larios y de Soto (b.Madrid 11 Nov 1968); m.1992 Miguel Gutierrez-Ambrossi y Robles
-									name="Ana Larios y de Soto"
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025645	# Fernando Larios y Fernández Arion
-									mother=100082944	# Monica de Soto y Bertran de Lis
-									1968.11.11={birth=yes}
-									1992.01.01={add_spouse=100084570}	# Miguel Gutierrez-Ambrossi y Robles
-								}
-								100025649={	# 2h) Pablo Larios y de Soto (b.Madrid 13 Jan 1971)
-									name="Pablo Larios y de Soto"
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025645	# Fernando Larios y Fernández Arion
-									mother=100082944	# Monica de Soto y Bertran de Lis
-									1971.01.13={birth=yes}
-								}
-								100025650={	# 3h) Luis Larios y de Soto (b.Madrid 18 Nov 1971)
-									name="Luis Larios y de Soto"
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025645	# Fernando Larios y Fernández Arion
-									mother=100082944	# Monica de Soto y Bertran de Lis
-									1971.11.18={birth=yes}
-								}
-								100025651={	# 4h) Monica Larios y de Soto (b.Madrid 27 Jul 1976)
-									name="Monica Larios y de Soto"
-									female=yes
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025645	# Fernando Larios y Fernández Arion
-									mother=100082944	# Monica de Soto y Bertran de Lis
-									1976.07.27={birth=yes}
-								}
-								100025652={	# 5h) Fernando Larios y de Soto (b.Madrid 17 Jul 1977)
-									name="Fernando Larios y de Soto"
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025645	# Fernando Larios y Fernández Arion
-									mother=100082944	# Monica de Soto y Bertran de Lis
-									1977.07.17={birth=yes}
-								}
-								100025653={	# 6h) María Luisa Larios y de Soto (b.Madrid 26 Sep 1979); m.Santa Barbara, Parroquia de Santa Barbara 8 Sep 2011 Alfonso de Rato Velarde (b.27 Jul 1978)
-									name="María Luisa"
-									female=yes
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025645	# Fernando Larios y Fernández Arion
-									mother=100082944	# Monica de Soto y Bertran de Lis
-									1979.09.26={birth=yes}
-								}
-								100025655={	# 7h) María Villas Larios y de Soto (b.Madrid 2 Feb 1981)
-									name="María Villas"
-									female=yes
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025645	# Fernando Larios y Fernández Arion
-									mother=100082944	# Monica de Soto y Bertran de Lis
-									1981.02.02={birth=yes}
-								}
-							100025656={	# 3g) Miguel Larios y Fernández de Córdoba (b.Madrid 19 Dec 1944); m.1968 María de la Concepción Gamero del Castillo (b.18 Ma y 1946)
-								name="Miguel Larios y Fernández"
-								dynasty=1001500
-								religion=catholic culture=castillan
-								father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
-								mother=100025642	# María Arion
-								1944.12.19={birth=yes}
-								1968.01.01={add_spouse=100084099}	# Maria de la Concepción Gamero del Castillo
-							}
-								100025658={	# 1h) María Larios y Gamero del Castillo (b.21 Nov 1968)
-									name="María Larios y Gamero"
-									female=yes
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025656	# Miguel Larios y Fernández Arion
-									mother=100084099	# Maria de la Concepción Gamero del Castillo
-									1968.11.21={birth=yes}
-								}
-								100025659={	# 2h) Miguel Larios y Gamero del Castillo (b.2 Oct 1971)
-									name="Miguel Larios y Gamero"
-									dynasty=1001500
-									religion=catholic culture=castillan
-									father=100025656	# Miguel Larios y Fernández Arion
-									mother=100084099	# Maria de la Concepción Gamero del Castillo
-									1971.10.02={birth=yes}
-								}
-							100025660={	# 4g) Lorenzo Larios y Fernández de Córdoba (b.Madrid 6 Mar 1948)
-								name="Lorenzo Larios y Fernández"
-								dynasty=1001500
-								religion=catholic culture=castillan
-								father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
-								mother=100025642	# María Arion
-								1948.03.06={birth=yes}
-							}
-							100025661={	# 5g) Cristina Larios y Fernández de Córdoba (b.Madrid 28 Apr 1951)
-								name="Cristina Larios y Fernández"
-								female=yes
-								dynasty=1001500
-								religion=catholic culture=castillan
-								father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
-								mother=100025642	# María Arion
-								1951.04.28={birth=yes}
-							}
-							100025662={	# 6g) Luís Larios y Fernández de Córdoba (b.Madrid 21 Mar 1955)
-								name="Luís Larios y Fernández"
-								dynasty=1001500
-								religion=catholic culture=castillan
-								father=100087198	# MARQUES José Larias y Fernandez-Villavicencio
-								mother=100025642	# María Arion
-								1955.03.21={birth=yes}
-							}
 						100025663={	# 3f) Casilda, Duquesa de Cardona (Madrid 1941-Cordova 19 Apr 1998); m.1st Alfonso Castillejo y de Ussia, Marques d'Aldama, Cde d'Armildez de Toledo (d.Madrid 23 Dec 1977); m.2nd Antonio Guerrero Burgos (d.Gstaad 2 Feb 1984)
 							name=Casilda
 							female=yes
@@ -4774,9 +3628,9 @@
 							100025666={	# 1g) Casilda-Ghislaine Guerrero y Fernández de Córdoba, Duquesa de Cardona (b.1982)
 								name="Casilda-Ghislaine Guerrero y Fernández"
 								female=yes
-								dynasty=1001500
+								dynasty=0
 								religion=catholic culture=castillan
-								father=100081316	# MARQUES Alfonso Castillejo y de Ussia
+								father=100084524	# MARQUES Alfonso Castillejo y de Ussia
 								mother=100025663	# Casilda Arion
 								1982.01.01={birth=yes}
 							}
@@ -4975,13 +3829,13 @@
 									1963.11.04={birth=yes}
 								}
 						100025708={	# 2f) Hilda Joaquina de la Luz Antonia Fernanda Blanca Rosa de Lima Manuela María del Rosario Fidela Leoncia Honoria, Marquesa de Mirabel, Cdsa de Santa Isabel (Madrid 24 Apr 1908-Madrid 1 Jul 1998); m.Madrid 16 Jul 1928 Manuel Falco y Escandon, Duque de Montellano (Paris 2 Sep 1892-Madrid 28 Jul 1975)
-							name="Hilda Joaquina"
+							name=Hilda
+							female=yes
 							dynasty=1001500
 							religion=catholic culture=castillan
 							father=100025694	# Joaquin Fernando Arion
 							mother=100087805	# Maria de la Luz Mariategui y Perez de Barradas
 							1908.04.24={birth=yes}
-							1928.07.16={add_spouse=100083769}	# DUQUE Manuel Falco y Escandon
 							1998.07.01={death=yes}
 						}
 						100025710={	# 3f) Jaime Luis Joaquin María de la Luz Fernando Blanca María del Rosario Sebastián Juan, Marques de La Puente y Sotomayor, Marques de La Puente (San Sebastian 25 Aug 1909-Madrid 18 Dec 1994); m. Bilbao 13 Jun 1959, Pilar de Aznar y Coste (Bilbao 14 Jun 1921-San Martín de Puma, Toledo 23 Sep 2002)
@@ -5570,7 +4424,7 @@
 					1886.01.07={birth=yes}
 					1961.01.01={death=yes}  # EST.
 				}
-		100025852={	# 4b) Manuel (23 Ma y 1790-8 Feb 1828)
+		100025852={	# 4b) Manuel (23 May 1790-8 Feb 1828)
 			name=Manuel
 			dynasty=1001500
 			religion=catholic culture=castillan
@@ -5777,6 +4631,7 @@
 						}
 							100025521={# 1l) Sol Martinez de Irujo y Domecq (b.2011)
 								name=Sol
+								female=yes
 								dynasty=1009003
 								religion=catholic culture=castillan
 								father=100025519	# Javier Fitz-James Stuart
@@ -5821,6 +4676,7 @@
 							}
 						100025529={# 2k) Brianda Eugenia Martinez de Irujo y Fernandez de Castro (b.Madrid 11 Apr 1984)
 							name=Brianda
+							female=yes
 							dynasty=1009003
 							religion=catholic culture=castillan
 							father=100025523	# Jacobo Fitz-James Stuart
@@ -5862,6 +4718,7 @@
 						}
 					100025535={# 6j) Eugenia Martinez de Irujo y Fitzjames-Stuart, Duquesa de Montoro (b.26 Nov 1968); m.Seville 23 Oct 1998 (div 2005) Francisco Rivera Ordonez (b.Madrid 3 Jan 1974)
 						name=Eugenia
+						female=yes
 						dynasty=1009003
 						religion=catholic culture=castillan
 						mother=100025508	# Cayetana Fitz-James Stuart
@@ -5872,6 +4729,7 @@
 					}
 						100025537={# 1k) Cayetana Rivera y Martinez de Irujo (b.Seville 16 Oct 1999)
 							name=Cayetana
+							female=yes
 							dynasty=1009003
 							religion=catholic culture=castillan
 							father=100025535	# Eugenia Fitz-James Stuart
@@ -8159,3 +7017,15 @@
 		1975.09.16={birth=yes}
 	}
 ##### MINOR BOURBONS
+
+
+#### OTHER
+100082638={ #            Rafael                    de Medina y Villalonga                   (1905-1992)     4
+	name=Rafael
+	dynasty=1001509
+	religion=catholic culture=castillan
+	1905.01.01={birth=yes}
+	1938.01.12={add_spouse=100025621}	# Victoria-Eugenia Arion
+	1992.07.28={death=yes}
+}
+#### OTHER
