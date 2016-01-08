@@ -3905,27 +3905,101 @@
 
 
 ## 100010200	Waldeck			1002023
-100010207={ # Karl August Friedrich
-	name="Karl August Friedrich"
-	dynasty=1002023
-	religion=lutheran culture=german
-	1704.01.01={birth=yes}
-	1763.09.09={death=yes}
+100093355={ # Gf         Johann                    von Waldeck-Landau                       (1623-1668)     0
+	name="Johann von Waldeck"
+	dynasty=0
+	religion=catholic culture=german
+	1623.11.07={birth=yes}
+	1667.11.10={add_spouse=100010748}	# Henriette Dorothea v. Hessen
+	1668.10.10={death=yes}
 }
-	100010320={ # Pss        Karoline                  zu Waldeck u. Pyrmont                    (1748-1782)
-		name=Karoline
-		female=yes
+100093359={ # Gfn        Sophie                    von Waldeck                              (1662-1702)     2
+	name="Sophie von Waldeck"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1662.08.03={birth=yes}  # Arolsen
+	1702.10.15={death=yes}  # Erbach
+}
+
+100193358={
+	name=Philipp
+	dynasty=1002023
+	religion=catholic culture=german
+	1613.11.25={birth=yes}
+	1645.02.24={death=yes}
+}
+	100193357={
+		name="Christian Ludwig"
 		dynasty=1002023
-		religion=lutheran culture=german
-		father=100010207	# Karl August Friedrich zu Waldeck u.Pyrmont
-		1748.08.14={birth=yes}
-		1782.08.18={death=yes}
+		religion=catholic culture=german
+		father=100193358
+		1635.07.29={birth=yes}
+		1706.12.12={death=yes}
 	}
+		100093357={ # 			Fst        Anton Ulrich              von Waldeck                              (1675-1728)     0
+			name="Anton Ulrich"
+			dynasty=1002023
+			religion=catholic culture=german
+			father=100193357
+			1676.11.27={birth=yes}
+			1700.10.21={add_spouse=100014377}	# Luise v. Wittelsbach
+			1728.01.01={death=yes}
+		}
+			100010207={ # 				   Karl August Friedrich	 von Waldeck
+				name=Karl
+				dynasty=1002023
+				religion=lutheran culture=german
+				father=100093357
+				mother=100014377
+				1704.09.24={birth=yes}
+				1741.08.19={add_spouse=100014375}	# Christiane Henriette v. Wittelsbach
+				1763.08.29={death=yes}
+			}
+				100010320={ # 	Pss        Karoline                  zu Waldeck u. Pyrmont                    (1748-1782)
+					name=Karoline
+					female=yes
+					dynasty=1002023
+					religion=lutheran culture=german
+					father=100010207	# Karl August Friedrich zu Waldeck u.Pyrmont
+					mother=100014375
+					1748.08.14={birth=yes}
+					1782.08.18={death=yes}
+				}
+			100093358={ # 		Pss        Ernestine Luise           von Waldeck                              (1705-1782)     0
+				name="Ernestine Luise"
+				female=yes
+				dynasty=1002023
+				religion=catholic culture=german
+				father=100093357
+				mother=100014377
+				1705.11.06={birth=yes}  # Kleinern
+				1782.05.26={death=yes}  # Gelnhausen
+			}
+	100193359={
+		name=Josias
+		dynasty=1002023
+		religion=catholic culture=german
+		father=100193358
+		1636.07.31={birth=yes}
+		1669.07.16={death=yes}
+	}
+		100093360={ # 			Gfn        Charlotte Johanna         von Waldeck                              (1664-1699)     1
+			name="Charlotte Johanna"
+			female=yes
+			dynasty=1002023
+			religion=catholic culture=german
+			father=100193359
+			1664.12.13={birth=yes}  # Arolsen
+			1699.02.01={death=yes}  # Hildburghausen
+		}
+	
 100010200={# GEORG Fürst zu Waldeck u.Pyrmont 24 Sep 1812 (Arolsen 6 May 1747-Pyrmont 9 Sep 1813); m.Otterwisch 12 Sep 1784 Auguste von Schwarzburg-Sondershausen (Sondershausen 1 Feb 1768-Arolsen 26 Dec 1849)
 	name=Georg
 	dynasty=1002023
 	religion=lutheran culture=german
 	father=100010207	# Karl August Friedrich zu Waldeck u.Pyrmont
+	mother=100014375
 	1747.05.06={birth=yes}
 	1784.09.12={add_spouse=100093090}	# PSS Auguste von Schwarzburg-Sondershausen
 	1813.09.09={death=yes}

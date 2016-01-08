@@ -355,7 +355,7 @@
 								1946.11.29={death=yes}  # Waldsee Württemberg
 							}
 							100086769={	# G8. Maria Antonia Josefa Karolína Žofie Bonifácia Nepomucena, *Kostelec nad Orlicí 12.5.1874, +Hohenthurm 13.6.1930; m.Velké Brezno 27.9.1893 Carl Adam Ludwig Johann Traugott von Wuthenau-Hohenturm (*Dresden 26.6.1863, +Halle an der Saale 13.11.1946)
-								name=Maria
+								name=Antonia
 								female=yes
 								dynasty=1013004
 								religion=catholic culture=german
@@ -365,7 +365,7 @@
 								1930.06.13={death=yes}  # Hohenthurm
 							}
 							100086771={	# G9. Marie Henriette Leopoldina, *Kostelec 9.7.1880, +Gutenberg 19.3.1964; m.Chlum nad Ohrí 1.3.1921 Gf Leopold Abraham von Nostitz-Rieneck (*8.7.1865 +5.10.1945)
-								name=Marie
+								name=Henriette
 								female=yes
 								dynasty=1013004
 								religion=catholic culture=german
@@ -413,7 +413,7 @@
 							1816.05.14={birth=yes}
 							1889.11.23={death=yes}  # Wien
 						}
-						100086779={	# F3. Rudolf, *Milano 12.2.1822, +Futtak 3.12.1923; m.Wien 28.6.1862 Gfn Maria Antonie von Khevenhüller-Metsch (*Komorní Hrádek 17.10.1838, +Wien 31.10.1892)
+						100086779={	# F3. Rudolf, *Milano 12.2.1822, +Futtak 3.12.1903; m.Wien 28.6.1862 Gfn Maria Antonie von Khevenhüller-Metsch (*Komorní Hrádek 17.10.1838, +Wien 31.10.1892)
 							name=Rudolf
 							dynasty=1013004
 							religion=catholic culture=german
@@ -421,7 +421,7 @@
 							mother=100086775	# Henrietta Brunsvick de Korompa
 							1822.02.12={birth=yes}  # Milano
 							1862.06.28={add_spouse=100015012}	# Maria Antonie v. Khevenhüller-Metsch
-							1923.12.03={death=yes}  # Futtak
+							1903.12.03={death=yes}  # Futtak
 						}
 							100086781={	# G1. Henrieta Hermína Rudolfína Ferdinanda Marie Antonie Anna, *Dolná Krupá 24.11.1863, +Dolná Krupá 13.2.1946
 								name=Henrieta
@@ -473,30 +473,10 @@
 					1739.01.01={birth=yes}
 					1808.01.01={death=yes}  # EST.
 				}
-#1.1.1={holder=100086701} # Karel Chotek z Chotkova a Vojnína
-#1638.01.01={holder=100086703} # A2. Jirí Rudolf
-#1673.04.30={holder=100086704} # A3. Vilém
-#1674.01.01={holder=100086707} # B1. Ignác Rudolf
-#1684.01.01={holder=100086710} # B3. Václav Antonín
-#1754.05.02={holder=100086712} # C2. Jan Karel
-#1787.11.08={holder=100086714} # D1. Jan Nepomuk Rudolf
-#1824.08.26={holder=100086745} # E8. Karel
-#1868.12.28={holder=100086747} # F3. Antonín
-#1883.06.01={holder=100086749} # G1. Karel Maria Pavel Antonín Bohuslav
-#1926.08.11={holder=100086751} # H1. Karel Maria Ladislav Antonín Jan Josef Pascal
 ##### Chotek			1013004		100086700
 
 
 ##### Pod.-Licht.		1013003
-100095986={ # Gf         Franz Karl                von Podstatzky-Lichtenstein              (1933-2010)     0
-	name="Franz Karl von Podstatzky-Lichtenstein"
-	dynasty=0
-	religion=catholic culture=german
-	1933.10.26={birth=yes}
-	1961.05.25={add_spouse=100118576}	# Anita Mailáth de Székhely
-	2010.01.01={death=yes}  # EST.
-}
-		
 100024903={ # Gf Leopold Franz Podstatzky-Lichtenstein (1801-1848)
 	name="Leopold Franz"
 	dynasty=1013003
@@ -568,6 +548,23 @@
 					mother=100085816	# Marie Margarete Kinsky von Wchinitz u.Tettau
 					1935.05.22={birth=yes}
 				}
+			100185817={ # Gf Leopold Podstatzky-Lichtenstein (1903-1979)
+				name=Alois
+				dynasty=1013003
+				religion=catholic culture=bohemian
+				father=100024161	# Aloys v. Podstatzky-Lichtenstein
+				mother=100024160	# Leopoldine Elisabeth v. Thun u.Hohenstein
+				1905.09.05={birth=yes}
+				1982.02.18={death=yes}
+			}
+				100095986={ # Gf         Franz Karl                von Podstatzky-Lichtenstein              (1933-2010)     0
+					name="Franz Karl"
+					dynasty=0
+					religion=catholic culture=bohemian
+					father=100185817
+					1933.10.26={birth=yes}
+					1961.05.25={add_spouse=100118576}	# Anita Mailáth de Székhely
+				}
 ##### Pod.-Licht.		1013003		
 
 
@@ -575,15 +572,15 @@
 100024123={ # Gf Jan Vojtech Czernin (1746-1816)
 	name="Jan Vojtech"
 	dynasty=1013002
-	religion=catholic culture=german
+	religion=catholic culture=bohemian
 	1746.04.10={birth=yes}
 	1770.02.03={add_spouse=100024122}	# Maria Theresa v. Thun u.Hohenstein
 	1816.06.02={death=yes}
 }
-100095904={ # Gf         Franz Anton               Czernin v.u.zu Chudenitz                 (1710-1739)
+100095904={ # Gf Franz Anton Czernin v.u.zu Chudenitz (1710-1739)
 	name="Franz Anton Czernin v.u.zu Chudenitz"
 	dynasty=0
-	religion=catholic culture=frankish
+	religion=catholic culture=bohemian
 	1710.01.01={birth=yes}
 	1735.03.31={add_spouse=100065950}	# Isabella de Merode
 	1739.01.01={death=yes}

@@ -336,13 +336,31 @@
 
 #######
 100085679={	#         			Vincenzo            			Campagna       
-	name="Vincenzo Campagna"
-	dynasty=0
+	name=Vincenzo
+	dynasty=1000002
 	religion=catholic culture=italian
 	1963.03.31={birth=yes}  # Florence
 	1991.06.08={add_spouse=100073093}	# Alessandra v. Collalto u.San Salvatore
 	2012.01.28={death=yes}  # Florence
 }
+	100185679={
+		name=Caterina
+		female=yes
+		dynasty=1000002
+		religion=catholic culture=italian
+		father=100085679
+		mother=100073093
+		1993.09.02={birth=yes}
+	}
+	100185680={
+		name=Matilde
+		female=yes
+		dynasty=1000002
+		religion=catholic culture=italian
+		father=100085679
+		mother=100073093
+		1993.12.25={birth=yes}
+	}
 100085897={	#         			Pietro Antonio      			Capello        
 	name="Pietro Antonio Capello"
 	dynasty=0
@@ -1969,27 +1987,140 @@
 
 
 ##  1006016  	Pallavicini										100072700
-100072702={ # Alexander Oswald	Pallavicini (1853-1933)
-	name="Alexander Oswald" #  /en/name/163648/alexander-oswald-margrave-pallavicini/
+100088780={ # Mkgf       Hippolyt                  Pallavicini                              (1813-1892)     0
+	name="Hippolyt Pallavicini"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1813.01.21={birth=yes}
+	1847.05.22={add_spouse=100116919}	# Karoline Erdõdy de Monyorókerék et Monoszló
+	1892.02.04={death=yes}
+}
+100088779={ # Gf         Oswald                    Pallavicini                              (1817-1877)     0
+	name="Oswald Pallavicini"
+	dynasty=0
+	religion=catholic culture=italian
+	1817.01.01={birth=yes}
+	1856.01.01={add_spouse=100115961}	# Helena Zichy de Zich et Vásonykõ
+	1877.01.01={death=yes}
+}
+100088776={ # Mkgfn      Josephine                 Pallavicini                              (1849-1923)     5
+	name="Josephine Pallavicini"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1849.01.22={birth=yes}
+	1923.07.14={death=yes}
+}
+100088773={ # Mkgfn      Julia                     Pallavicini                              (1857-1932)     0
+	name="Julia Pallavicini"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=german
+	1857.05.10={birth=yes}
+	1932.12.15={death=yes}
+}
+100088775={ # Mkgfn      Amalia                    Pallavicini                              (1862-1925)     3
+	name="Amalia Pallavicini"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=german
+	1862.04.29={birth=yes}
+	1925.11.06={death=yes}
+}
+100088778={ # Mkgfn      Eduardine                 Pallavicini                              (1877-1964)     5
+	name="Eduardine Pallavicini"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1877.04.24={birth=yes}
+	1964.02.15={death=yes}
+}
+100088777={ # Mkgf       Felix                     Pallavicini                              (1920-1996)     0
+	name="Felix Pallavicini"
+	dynasty=0
+	religion=catholic culture=italian
+	1920.11.03={birth=yes}
+	1951.12.28={add_spouse=100111716}	# Anna Therese Lubomirski
+	1996.01.01={death=yes}  # EST.
+}
+100088782={ #            Leontina                  Pallavicini                              (1964-    )     2
+	name="Leontina Pallavicino-Pallavicini"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1964.05.08={birth=yes}
+}
+100088781={ # Mkgf       Karl                      Pallavicini Centurioni                   (1756-1789)     0
+	name="Karl Pallavicini Centurioni"
+	dynasty=0
+	religion=catholic culture=italian
+	1756.01.24={birth=yes}
+	1786.01.01={add_spouse=100115301}	# Leopoldine Zichy de Zich et Vásonykõ
+	1789.03.03={death=yes}
+}
+
+100188775={
+	name=Rolando
+	dynasty=1006022
+	religion=catholic culture=bohemian
+	1865.01.01={birth=yes}
+	1906.01.01={death=yes}
+}
+	100088774={ # Mkgf       Alessandro                Pallavicini                              (1898-1965)     0
+		name=Alessandro
+		dynasty=1006022
+		religion=catholic culture=bohemian
+		father=100188775
+		1898.07.02={birth=yes}
+		1924.05.31={add_spouse=100000979}	# Marie Henriette v. Schönborn
+		1965.12.07={death=yes}
+	}
+		100188774={
+			name=Alessandro
+			dynasty=1006022
+			religion=catholic culture=bohemian
+			father=100088774
+			mother=100000979
+			1936.11.08={birth=yes}
+		}
+
+100072704={
+	name=Odoardo 
 	dynasty=1006016
 	religion=catholic culture=italian
+	1787.03.09={birth=yes}
+	1839.04.20={death=yes}
+}		
+100072703={
+	name=Alfons 
+	dynasty=1006016
+	religion=catholic culture=german
+	father=100072704
+	1807.03.07={birth=yes}
+	1887.01.01={death=yes}
+}	
+100072702={ # Alexander Oswald	Pallavicini (1853-1933)
+	name="Alexander Oswald" #  163648/alexander-oswald-margrave-pallavicini/
+	dynasty=1006016
+	religion=catholic culture=german
+	father=100072703
 	1853.05.06={birth=yes}
 	1876.06.20={add_spouse=100116502}	# Marie Caroline Széchenyi de Sárvár-Felsõvidek
 	1933.04.14={death=yes}
 }
 	100072721={# Carl	Pallavicini (1877-1900)
-		name=Carl #  /en/name/423038/carl-alfons-maria-margrave-pallavicini/
+		name=Carl #  423038/carl-alfons-maria-margrave-pallavicini/
 		dynasty=1006016
-		religion=catholic culture=italian
+		religion=catholic culture=german
 		father=100072702	# Alexander Oswald Pallavicini
 		mother=100116502	# Marie Caroline Széchenyi de Sárvár-Felsõvidek
 		1877.03.21={birth=yes}
 		1900.01.15={death=yes}
 	}
 	100072717={# Alfons Karl Maria	Pallavicini (1883-1958)
-		name="Alfons Karl Maria" #  /en/name/152684/alfons-karl-maria-margrave-pallavicini/
+		name="Alfons Karl Maria" #  152684/alfons-karl-maria-margrave-pallavicini/
 		dynasty=1006016
-		religion=catholic culture=italian
+		religion=catholic culture=german
 		father=100072702	# Alexander Oswald Pallavicini
 		mother=100116502	# Marie Caroline Széchenyi de Sárvár-Felsõvidek
 		1883.11.10={birth=yes}
@@ -1997,7 +2128,7 @@
 		1958.01.18={death=yes}
 	}
 		100072718={# Carl Alexander Maria	Pallavicini (1923-1999)
-			name="Carl Alexander Maria" #  /en/name/152685/carl-alexander-maria-margrave-pallavicini/
+			name="Carl Alexander Maria" #  152685/carl-alexander-maria-margrave-pallavicini/
 			dynasty=1006016
 			religion=catholic culture=italian
 			father=100072717	# Alfons Karl Maria Pallavicini
@@ -2007,7 +2138,7 @@
 			1999.01.01={death=yes}  # EST.
 		}
 			100072714={# Alfonso	Pallavicini (1964-    )
-				name=Alfonso #  /en/name/389413/alfonso-marquess-pallavicini/
+				name=Alfonso #  389413/alfonso-marquess-pallavicini/
 				dynasty=1006016
 				religion=catholic culture=italian
 				father=100072718	# Carl Alexander Maria Pallavicini
@@ -2016,7 +2147,7 @@
 				2006.07.20={add_spouse=100081895}	# Élisabeth d'Udekem d'Acoz
 			}
 				100072710={# Olympia Edoarda	Pallavicini (2008-    )
-					name="Olympia Edoarda"	#  /en/name/1080924/olympia-edoarda-matilde-marquise-pallavicini/
+					name="Olympia Edoarda"	#  1080924/olympia-edoarda-matilde-marquise-pallavicini/
 					female=yes
 					dynasty=1006016
 					religion=catholic culture=italian
@@ -2025,7 +2156,7 @@
 					2008.06.08={birth=yes}
 				}
 				100072711={# Adalberto Domenico Carlo	Pallavicini (2009-    )
-					name="Adalberto Domenico Carlo" #  /en/name/2034637/adalberto-domenico-carlo-patrizio-maria-marquess-pallavicini/
+					name="Adalberto Domenico Carlo" #  2034637/adalberto-domenico-carlo-patrizio-maria-marquess-pallavicini/
 					dynasty=1006016
 					religion=catholic culture=italian
 					father=100072714	# Alfonso Pallavicini
@@ -2033,7 +2164,7 @@
 					2009.12.05={birth=yes}
 				}
 			100072716={	# Edoardo	Pallavicini (1965-    )
-				name=Edoardo #  /en/name/152686/edoardo-marquess-pallavicini/
+				name=Edoardo #  152686/edoardo-marquess-pallavicini/
 				dynasty=1006016
 				religion=catholic culture=italian
 				father=100072718	# Carl Alexander Maria Pallavicini
@@ -2042,7 +2173,7 @@
 				1999.06.06={add_spouse=100071539}	# Francesca Visconti
 			}
 				100072708={# Violante	Pallavicini (2002-    )
-					name=Violante #  /en/name/2134378/violante-pallavicini/
+					name=Violante #  2134378/violante-pallavicini/
 					female=yes
 					dynasty=1006016
 					religion=catholic culture=italian
@@ -2051,7 +2182,7 @@
 					2002.05.03={birth=yes}
 				}
 				100072709={# Carlo Alfonso Alexander	Pallavicini (2008-    )
-					name="Carlo Alfonso Alexander" #  /en/name/2134379/carlo-alfonso-alexander-franco-pallavicini/
+					name="Carlo Alfonso Alexander" #  2134379/carlo-alfonso-alexander-franco-pallavicini/
 					dynasty=1006016
 					religion=catholic culture=italian
 					father=100072716	# Edoardo Pallavicini
@@ -2071,7 +2202,7 @@
 			2004.01.01={death=yes}	# EST.
 		}
 		100072719={# Alexander	Pallavicini (1929-1983)
-			name=Alexander #  /en/name/152689/alexander-margrave-pallavicini/
+			name=Alexander #  152689/alexander-margrave-pallavicini/
 			dynasty=1006016
 			religion=catholic culture=italian
 			father=100072717	# Alfons Karl Maria Pallavicini
@@ -2081,7 +2212,7 @@
 			1983.04.16={death=yes}
 		}
 		100072712={# Elisabeth	Pallavicini (1933-2010)
-			name=Elisabeth #  /en/name/169365/elisabeth-marquise-pallavicini/
+			name=Elisabeth #  169365/elisabeth-marquise-pallavicini/
 			female=yes
 			dynasty=1006016
 			religion=catholic culture=italian
@@ -2091,7 +2222,7 @@
 			2010.01.01={death=yes}  # EST.
 		}
 	100072705={# Alexander Koloman	Pallavicini (1890-1941)
-		name="Alexander Koloman" #  /en/name/423040/alexander-koloman-margrave-pallavicini/
+		name="Alexander Koloman" #  423040/alexander-koloman-margrave-pallavicini/
 		dynasty=1006016
 		religion=catholic culture=italian
 		father=100072702	# Alexander Oswald Pallavicini
@@ -8284,7 +8415,7 @@
 			1833.09.24={death=yes}
 		}
 			100071157={	# 4c) Livio Ladislaus Giovanni Nepomuk Ignacio, Pr Odescalchi, etc (Vienna 20 Sep 1805-Rome 11 Nov 1885); m.11 Jul 1841 Css Sophie Katharina Rosa Branicka (Blatocerkiew 2 Sep 1821-Rome 18 Aug 1886)
-				name="Livio Ladislaus"
+				name=Livio
 				dynasty=1006007
 				religion=catholic culture=italian
 				father=100071154	# Innocenzo Odescalchi
@@ -8294,7 +8425,7 @@
 				1885.11.11={death=yes}
 			}
 				100071159={	# 1d) Baldassare Ladislao Constantino Carlo Ignazio Giovanni, Pr Odescalchi, etc (Rome 24 Jun 1844-Civitavecchia 5 Sep 1909); m.Florence 14 Jul 1881 Emilia dei Conti Rucellai (Florence 8 Dec 1857-Rome 29 Feb 1940)
-					name="Baldassare Ladislao"
+					name=Baldassare
 					dynasty=1006007
 					religion=catholic culture=italian
 					father=100071157	# Livio Ladislaus Odescalchi
@@ -8324,7 +8455,7 @@
 						1953.02.14={death=yes}
 					}
 						100071166={	# 1f) Livio Maria Baldassare Ladislao Camillo, Pr Odescalchi, etc (Rome 22 Nov 1913-Rome 14 Dec 1981); m.Rome 29 Oct 1955 Anna Maria Vagnarelli (Rome 22 Oct 1929-2014)
-							name="Livio Maria"
+							name=Livio
 							dynasty=1006007
 							religion=catholic culture=italian
 							father=100071164	# Innocenzo Maria Odescalchi
@@ -8400,7 +8531,7 @@
 							1989.05.01={death=yes}
 						}
 							100071179={	# 1g) Carlo, Pr Odescalchi, etc, b.Rome 7 Dec 1954; m.1989 Lucia Nalli
-								name="Carlo Odescalchi"
+								name=Carlo
 								dynasty=1006007
 								religion=catholic culture=italian
 								father=100071177	# Alessandro Maria Odescalchi
@@ -8580,7 +8711,7 @@
 			100071207={	# 5c) Augusto (1 Jan 1808-Preßburg 15 Oct 1848); m.Preßburg 18 Nov 1827 Anna Gfn Zichy zu Zich und Vasonykeö (28 Oct 1807-Preßburg 18 Mar 1900)
 				name=Augusto
 				dynasty=1006007
-				religion=catholic culture=italian
+				religion=catholic culture=hungarian
 				father=100071154	# Innocenzo Odescalchi
 				mother=100086661	# GFN Anna Luisa Keglevich de Buzin
 				1808.01.01={birth=yes}
@@ -8590,7 +8721,7 @@
 				100071209={	# 1d) Gyula (26 Nov 1828-28 Sep 1895); m.3 Sep 1855 Anna Gfn von Degenfeld-Schonburg (Tarkany 1 Sep 1836-Sajo Vamos 13 Jul 1925)
 					name=Gyula
 					dynasty=1006007
-					religion=catholic culture=italian
+					religion=catholic culture=hungarian
 					father=100071207	# Augusto Odescalchi
 					mother=100115631	# Anna Zichy de Zich et Vásonykõ
 					1828.11.26={birth=yes}
@@ -8601,16 +8732,16 @@
 						name="Pauline Anna"
 						female=yes
 						dynasty=1006007
-						religion=catholic culture=italian
+						religion=catholic culture=hungarian
 						father=100071209	# Gyula Odescalchi
 						mother=100091816	# GFN Anna von Degenfeld-Schonburg
 						1856.06.15={birth=yes}
 						1923.09.20={death=yes}
 					}
 					100071213={	# 2e) Géza August Imre Gyula Livius Paul (Budapest 9 Feb 1858-22 Aug 1937); m.Budapest 29 Apr 1882 Etelka Gfn Andrassy von Csik-Szent-Kiraly and Kraszna-Horka (27 Aug 1861-8 Nov 1927)
-						name="Géza August"
+						name=Géza
 						dynasty=1006007
-						religion=catholic culture=italian
+						religion=catholic culture=hungarian
 						father=100071209	# Gyula Odescalchi
 						mother=100091816	# GFN Anna von Degenfeld-Schonburg
 						1858.02.09={birth=yes}
@@ -8621,7 +8752,7 @@
 							name=Ilona
 							female=yes
 							dynasty=1006007
-							religion=catholic culture=italian
+							religion=catholic culture=hungarian
 							father=100071213	# Géza August Odescalchi
 							mother=100115913	# Etelka Andrássy de Czik-Szent-Király et Kraszna-Horka Andrássy de Csíkszentkirály
 							1888.02.19={birth=yes}
@@ -8630,7 +8761,7 @@
 						100071217={	# 3f) Béla Mano Gyula Géza Imre Balthazar (Budapest 6 Oct 1890-Poughkeepsie, New York 7 Apr 1953); m.1st Budapest 17 Dec 1924 Marie Franziska Romana Mathilde Paula Helene Josepha Gfn Esterházy von Galántha (Pápa 15 Mar 1890-London 12 Nov 1935); m.2nd Budapest 28 May 1938 Sarolta Bay de Bába (Tet 6 Aug 1905-Poughkeepsie 27 Sep 2001)
 							name=Béla
 							dynasty=1006007
-							religion=catholic culture=italian
+							religion=catholic culture=hungarian
 							father=100071213	# Géza August Odescalchi
 							mother=100115913	# Etelka Andrássy de Czik-Szent-Király et Kraszna-Horka Andrássy de Csíkszentkirály
 							1890.10.06={birth=yes}
@@ -8638,20 +8769,19 @@
 							1938.05.28={add_spouse=100080478}	# Sarolta Bay de Bába
 							1953.04.07={death=yes}
 						}
-							100071220={	# 1g) Edmond Péry Odescalchi  (b. Budapest 11 Oct 1928); m. New York 30  Sep 1961 Eszter Kando de Egerfarmos (b.Budapest 30 Sep 1938)
+							100071220={	# 1g) Edmond Péry Odescalchi  (b.Budapest 11 Oct 1928); m. New York 30  Sep 1961 Eszter Kando de Egerfarmos (b.Budapest 30 Sep 1938)
 								name="Edmond Péry"
 								dynasty=1006007
-								religion=catholic culture=italian
+								religion=catholic culture=hungarian
 								father=100071217	# Béla Odescalchi
 								mother=100117379	# Franciska Esterházy de Galántha
 								1928.10.11={birth=yes}
 								1961.09.30={add_spouse=100086409}	# Eszter Kando de Egerfarmos
-								2005.01.01={death=yes}  # EST.
 							}
 								100071222={	# 1h) Daniel Nicholas, b. Poughkeepsie 24 Aug 1962; m.Hopewell Junction 9 Sep 2000 Lee Wesson
 									name="Daniel Nicholas"
 									dynasty=1006007
-									religion=catholic culture=italian
+									religion=catholic culture=hungarian
 									father=100071220	# Edmond Péry Odescalchi
 									mother=100086409	# Eszter Kando de Egerfarmos
 									1962.08.24={birth=yes}
@@ -8660,7 +8790,7 @@
 								100071224={	# 2h) Dominic Kando, b. Poughkeepsie 24 Jun 1967; m.Hopewell Junction 29 Apr 1995 Vida Ariaey-Nejad
 									name="Dominic Kando"
 									dynasty=1006007
-									religion=catholic culture=italian
+									religion=catholic culture=hungarian
 									father=100071220	# Edmond Péry Odescalchi
 									mother=100086409	# Eszter Kando de Egerfarmos
 									1967.06.24={birth=yes}
@@ -8669,7 +8799,7 @@
 									100071226={	# 1i) Alexander, b. Poughkeepsie 25 Apr 2000
 										name=Alexander
 										dynasty=1006007
-										religion=catholic culture=italian
+										religion=catholic culture=hungarian
 										father=100071224	# Dominic Kando Odescalchi
 										mother=100080218	# Vida Ariaey-Nejad
 										2000.04.25={birth=yes}
@@ -8678,15 +8808,15 @@
 										name=Victoria
 										female=yes
 										dynasty=1006007
-										religion=catholic culture=italian
+										religion=catholic culture=hungarian
 										father=100071224	# Dominic Kando Odescalchi
 										mother=100080218	# Vida Ariaey-Nejad
 										2002.04.22={birth=yes}
 									}
 						100071228={	# 4f) László Géza Gyula Imre Balthazar August Karl (Zerdahely 7 Aug 1893-30 Dec 1967); m.19 Oct 1949 Aloisia Fink (20 Jan 1887-13 Mar 1962)
-							name="László Géza"
+							name=László
 							dynasty=1006007
-							religion=catholic culture=italian
+							religion=catholic culture=hungarian
 							father=100071213	# Géza August Odescalchi
 							mother=100115913	# Etelka Andrássy de Czik-Szent-Király et Kraszna-Horka Andrássy de Csíkszentkirály
 							1893.08.07={birth=yes}
@@ -8697,39 +8827,29 @@
 						name=Ilona
 						female=yes
 						dynasty=1006007
-						religion=catholic culture=italian
+						religion=catholic culture=hungarian
 						father=100071209	# Gyula Odescalchi
 						mother=100091816	# GFN Anna von Degenfeld-Schonburg
 						1859.05.11={birth=yes}
 						1932.07.29={death=yes}
 					}
 					100071233={	# 4e) Irma Paulina Anna (Nyirbakta 11 Jan 1863-Budapest 7 May 1924); m.Budapest 11 Sep 1886 Lipót Gf Edelsheim-Gyulai v.Marosnémeth u.Nádaska (Salzburg 1 Nov 1863-Budapest 1 Aug 1928)
-						name="Irma Paulina"
+						name=Irma
 						female=yes
 						dynasty=1006007
-						religion=catholic culture=italian
+						religion=catholic culture=hungarian
 						father=100071209	# Gyula Odescalchi
 						mother=100091816	# GFN Anna von Degenfeld-Schonburg
 						1863.01.11={birth=yes}
 						1924.05.07={death=yes}
 					}
-				100071235={	# 2d) Antonietta (16 Dec 1830-ca 1845)
-					name=Antonietta
-					female=yes
-					dynasty=1006007
-					religion=catholic culture=italian
-					father=100071207	# Augusto Odescalchi
-					mother=100115631	# Anna Zichy de Zich et Vásonykõ
-					1830.12.16={birth=yes}
-					1845.01.01={death=yes}
-				}
 				100071236={	# 3d) Arturo (21 Jul 1836-Kremnitz 9 Jan 1924); 
 							# m.1st Preßburg 27 Aug 1862 Eugenie Frn Lo Presti di Fontana d'Angioli (1 Dec 1845-23 Jun 1866); 
 							# m.2nd Novimarov 25 Oct 1870 (div 1875) Valerie Gfn Erdödy von Monyorokerek and Monoszlo (17 Sep 1850-16 Jun 1933); 
 							# m.3rd 10 Jan 1876 Julie Gfn Zichy (23 Sep 1849-8 Aug 1935)
 					name=Arturo
 					dynasty=1006007
-					religion=catholic culture=italian
+					religion=catholic culture=hungarian
 					father=100071207	# Augusto Odescalchi
 					mother=100115631	# Anna Zichy de Zich et Vásonykõ
 					1836.07.21={birth=yes}
@@ -8743,7 +8863,7 @@
 					100071240={	# 1e) Livio (Szolcsany 25 Apr 1863-Szolcsany Aug 1938); m.1st Klausenburg 14 May 1887 Ilona Bss Zeyk de Zeykfalva (Kolosvar 6 Oct 1865-Czisser 24 Jan 1920)
 						name=Livio
 						dynasty=1006007
-						religion=catholic culture=italian
+						religion=catholic culture=hungarian
 						father=100071236	# Arturo Odescalchi
 						mother=100087467	# FRN Eugenie Lo Presti di Fontana d'Angioli
 						1863.04.25={birth=yes}
@@ -8754,7 +8874,7 @@
 							name="Anna Eugenie"
 							female=yes
 							dynasty=1006007
-							religion=catholic culture=italian
+							religion=catholic culture=hungarian
 							father=100071240	# Livio Odescalchi
 							mother=100094021	# BSS Ilona Zeyk de Zeykfalva
 							1889.02.07={birth=yes}
@@ -8763,7 +8883,7 @@
 						100071245={	# 2f) Karl Borromäus (19 Sep 1896-Worcestershire 10 Apr 1987); m.1st 5 Oct 1921 (div 1950) Clara Gfn Andrassy (18 Jan 1898-12 Apr 1941); m.2nd 1951 (div 1960) Claudine Pechy de Pechnifalu; m.3rd London 1961 Mrs Eleni Ruth Dent (5 Aug 1924-Worcestershire 2 Feb 1995)
 							name="Karl Borromäus"
 							dynasty=1006007
-							religion=catholic culture=italian
+							religion=catholic culture=hungarian
 							father=100071240	# Livio Odescalchi
 							mother=100094021	# BSS Ilona Zeyk de Zeykfalva
 							1896.09.19={birth=yes}
@@ -8777,7 +8897,7 @@
 							100071249={	# 1g) Paul Ottone (Budapest 28 Sep 1923-Arles 17 Apr 2014); m.1st 1948 (div 1960) Zsuzsana Tamassy de Fogaras (26 Mar 1924-3 Jul 2001); m.2nd London 1963 Antonina Horne
 								name="Paul Ottone"
 								dynasty=1006007
-								religion=catholic culture=italian
+								religion=catholic culture=hungarian
 								father=100071245	# Karl Borromäus Odescalchi
 								mother=100115915	# Clara Andrássy de Csíkszentkirály et Krasznahorka  Andrássy de Csíkszentkirály
 								1923.09.28={birth=yes}
@@ -8789,7 +8909,7 @@
 								100071252={	# 1h) Carlo Mark, b.Liverpool 30 Sep 1948; m.Bilbao 15 Aug 1973 Maria del Rosario Caridad Reixa Vizoso (b.Bilbao 15 Jan 1948)
 									name="Carlo Mark"
 									dynasty=1006007
-									religion=catholic culture=italian
+									religion=catholic culture=hungarian
 									father=100071249	# Paul Ottone Odescalchi
 									mother=100090835	# Zsuzsana Tamassy de Fogaras
 									1948.01.15={birth=yes}
@@ -8798,14 +8918,14 @@
 										name="Natalia Ilona"
 										female=yes
 										dynasty=1006007
-										religion=catholic culture=italian
+										religion=catholic culture=hungarian
 										father=100071252	# Carlo Mark Odescalchi
 										1975.05.13={birth=yes}
 									}
 									100071254={	# 2i) Paul Eduardo (b.1978)
 										name="Paul Eduardo"
 										dynasty=1006007
-										religion=catholic culture=italian
+										religion=catholic culture=hungarian
 										father=100071252	# Carlo Mark Odescalchi
 										1978.01.01={birth=yes}
 									}
@@ -8813,7 +8933,7 @@
 									name="Cristina Gabriella"
 									female=yes
 									dynasty=1006007
-									religion=catholic culture=italian
+									religion=catholic culture=hungarian
 									father=100071249	# Paul Ottone Odescalchi
 									mother=100084977	# Antonina Horne
 									1964.06.07={birth=yes}
@@ -8822,11 +8942,11 @@
 							name=Eugenia
 							female=yes
 							dynasty=1006007
-							religion=catholic culture=italian
+							religion=catholic culture=hungarian
 							father=100071240	# Livio Odescalchi
 							mother=100094021	# BSS Ilona Zeyk de Zeykfalva
 							1898.10.16={birth=yes}
-							1973.01.01={death=yes}  # EST.
+							1950.01.01={death=yes}  # EST.
 						}
 					100071260={	# 2e) Loránt Carolus Arthur August Innozenz Franziskus Gobertus (12 Sep 1874-Vienna 19 Jul 1959); m.Budapest 10 Mar 1921 Angele von Sebastiani de Remete, Poganjest et Porta (Nagy-Kürtös 7 Apr 1896-    )
 						name="Loránt Carolus"
