@@ -1,32 +1,91 @@
+## SCHWEIZ
+100075073={
+	name="Johann Schneider-Ammann"
+	dynasty=0
+	religion=catholic culture=german
+	1951.01.01={birth=yes}
+}
+100075074={
+	name="Walter Hauser"
+	dynasty=0
+	religion=catholic culture=german
+	1837.01.01={birth=yes}
+	1902.01.01={death=yes}
+}
+## SCHWEIZ
+
+
+## SALZBURG
+100075072={
+	name="Johannes Evangelist"
+	dynasty=1000001
+	religion=catholic culture=german
+	1825.04.30={birth=yes}
+	1900.05.05={death=yes}
+}
+100075071={
+	name="Johannes Baptist"
+	dynasty=1000000
+	religion=catholic culture=german
+	1832.05.29={birth=yes}
+	1914.02.27={death=yes}
+}
+## SALZBURG
+
+
 ## BOSNIA
-100075070={# Alija	Izetbegovic (1925-2003)
-	name=Alija
+100075067={
+	name=Mustafa 
 	dynasty=10281
 	religion=sunni culture=bosniak
-	1925.08.08={birth=yes}
-	2003.10.19={death=yes}
+	1900.01.01={birth=yes}
+	1950.01.01={death=yes}
 }
-	100101920={# Bakir Izetbegovic (1956-    )
-		name=Bakir
+	100075070={# Alija	Izetbegovic (1925-2003)
+		name=Alija
 		dynasty=10281
 		religion=sunni culture=bosniak
-		father=100075070	# Alija Izetbegovic
-		1956.06.28={birth=yes}
-		1980.01.01={add_spouse=100101921}	# Sebija Izetbegovic
+		father=100075067
+		1925.08.08={birth=yes}
+		2003.10.19={death=yes}
 	}
-		100101922={# Jasmina Izetbegovic (1985-    )
-			name=Jasmina
+		100101920={# Bakir Izetbegovic (1956-    )
+			name=Bakir
+			dynasty=10281
+			religion=sunni culture=bosniak
+			father=100075070	# Alija Izetbegovic
+			1956.06.28={birth=yes}
+			1980.01.01={add_spouse=100101921}	# Sebija Izetbegovic
+		}
+			100101922={# Jasmina Izetbegovic (1985-    )
+				name=Jasmina
+				female=yes
+				dynasty=10281
+				religion=sunni culture=bosniak
+				father=100101920	# Bakir Izetbegovic
+				mother=100101921	# Sebija Izetbegovic
+				1985.01.01={birth=yes}
+			}
+		100075065={
+			name="Leila Aksami"
 			female=yes
 			dynasty=10281
 			religion=sunni culture=bosniak
-			father=100101920	# Bakir Izetbegovic
-			mother=100101921	# Sebija Izetbegovic
-			1985.01.01={birth=yes}
+			father=100075070	# Alija Izetbegovic
+			1960.01.01={birth=yes}
+		}
+		100075066={
+			name=Sabina
+			female=yes
+			dynasty=10281
+			religion=sunni culture=bosniak
+			father=100075070	# Alija Izetbegovic
+			1965.01.01={birth=yes}
 		}
 
-100101921={# Sebija Izetbegovic (1957-    )
+100101921={
 	name=Sebija
-	dynasty=10282
+	dynasty=0
 	religion=sunni culture=bosniak
 	female=yes
 	1957.01.01={birth=yes}
@@ -124,8 +183,8 @@
 	2030.01.01={death=yes}
 }
 100075031={ # Evelin
-	name=Evelin
-	dynasty=10327
+	name="Evelin Int"
+	dynasty=0
 	religion=lutheran culture=ugricbaltic
 	female=yes
 	1968.04.20={birth=yes}
