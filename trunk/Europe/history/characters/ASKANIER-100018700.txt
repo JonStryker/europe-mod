@@ -261,7 +261,7 @@
 			father=100018841	# Siegfried von Anhalt
 			mother=100088629	# Katharina of Sweden
 			1260.01.01={birth=yes}
-			1280.01.01={add_spouse=100088625}	# Liutgard of Holstein
+			1280.01.01={add_spouse=100088625}	# Liutgard von Holstein
 			1300.01.01={add_spouse=100091682}	# Agnes von Brandenburg
 			1316.01.01={death=yes}
 		}
@@ -591,7 +591,7 @@
 			religion=catholic culture=german
 			father=100018833	# Georg von Anhalt
 			mother=100092573	# Anna von Lindau-Ruppin
-			1454.06.01={birth=yes}
+			1454.01.01={birth=yes}
 			1494.01.20={add_spouse=100092726}	# Margarete von Münsterberg
 			1516.06.12={death=yes}
 		}
@@ -602,7 +602,7 @@
 				father=100018920	# Ernst von Anhalt
 				mother=100092726	# Margarete von Münsterberg
 				1504.09.04={birth=yes}  # Dessau
-				1534.02.15={add_spouse=100091683}	# Margarete von Brandenburg
+				1534.02.15={add_spouse=100091683}	# PSS Margarete von Brandenburg
 				1551.02.04={death=yes}  # Zerbst
 			}
 				100018924={	# D1. Karl, *Dessau 17.11.1534, +Zerbst 4.5.1561; m.Zerbst 16.5.1557 Anna von Pommern-Stettin (*5.2.1531 +13.10.1592)
@@ -610,7 +610,7 @@
 					dynasty=1002014
 					religion=catholic culture=german
 					father=100018922	# Johann von Anhalt
-					mother=100091683	# Margarete von Brandenburg
+					mother=100091683	# PSS Margarete von Brandenburg
 					1534.11.17={birth=yes}  # Dessau
 					1557.05.16={add_spouse=100084503}	# Anna Gryfita
 					1561.05.04={death=yes}  # Zerbst
@@ -620,10 +620,10 @@
 					dynasty=1002014
 					religion=catholic culture=german
 					father=100018922	# Johann von Anhalt
-					mother=100091683	# Margarete von Brandenburg
+					mother=100091683	# PSS Margarete von Brandenburg
 					1536.10.21={birth=yes}  # Dessau
 					1560.03.03={add_spouse=100091599}	# GFN Agnes von Barby
-					1571.01.09={add_spouse=100017914}	# Eleonore v. Württemberg
+					1571.01.09={add_spouse=100017914}	# Eleanore v. Württemberg
 					1586.12.06={death=yes}  # Dessau
 				}
 					100018929={	# E1. Johann Georg I, *Harzgerode 9.5.1567, +Dessau 24.5.1618; 1m: Hedersleben 22.2.1588 Gfn Dorothea von Mansfeld-Arnstein (*23.3.1561 +23.2.1594); 2m: Heidelberg 21.2.1595 Dorothea von der Pfalz, Pfgfn von Simmern (*Kaiserslautern 6.1.1581, +Sandersleben 18.9.1631)
@@ -637,6 +637,47 @@
 						1595.02.21={add_spouse=100014126}	# Dorothea v. Wittelsbach
 						1618.05.24={death=yes}  # Dessau
 					}
+						100018742={ # Johann Kasimir (Dessau 7 Dec 1596-Dessau 15 Sep 1660); m.1st Cassel 23 Feb 1623 Agnes von Hessen-Kassel (Kassel 14 Mar 1606-Dessau 28 May 1650); m.2nd 14 Jul 1651 ?
+							name="Johann Kasimir" # 3669/johann-kasimir-fuerst-von-anhalt-dessau/
+							dynasty=1002014
+							religion=catholic culture=german
+							father=100018929
+							mother=100014126
+							1596.12.07={birth=yes}	#Dessau
+							1623.02.23={add_spouse=100018735}
+							1660.09.15={death=yes}
+						}
+							100018730={ # Johann Georg (Dessau 7 Nov 1627-Berlin, Berlin 17 Aug 1693); m.Coringe, Holanda 9 Jul 1659 Henriette Katharina von Nassau (Südholland, Den Haag 31 Jan 1637-Castelo de Oranienbaum 4 Nov 1708)
+								name="Johann Georg" # 3970/johann-georg-ii-fuerst-von-anhalt-dessau/
+								dynasty=1002014
+								religion=catholic culture=german
+								father=100018742 # Johann Kasimir
+								mother=100018735 # Agnes
+								1627.11.07={birth=yes}	#Dessau
+								1659.07.09={add_spouse=100018733}
+								1693.08.17={death=yes}
+							}
+								100018729={ # Leopold (Dessau 3 Jul 1676-Dessau 9 Apr 1747); m.15 Sep 1698 Anna Luise Föse (22 Mar 1677-5 Feb 1745)
+									name=Leopold     # 4544/leopold-i-fuerst-von-anhalt-dessau/
+									dynasty=1002014
+									religion=catholic culture=german
+									father=100018730 # Johann Georg
+									mother=100018733 # Henriette Katharina
+									1676.07.03={birth=yes}	#Dessau
+									1698.09.15={add_spouse=100018740}
+									1747.04.09={death=yes}
+								}
+									100018738={ # Leopold (Dessau 25 Dec 1700-Dessau 16 Dec 1751); m.Bernburg 25 May 1737 Gisela Agnes von Anhalt-Köthen (Köthen 21 Sep 1722-Dessau 20 Apr 1751)
+										name=Leopold     # 4817/leopold-ii-fuerst-von-anhalt-dessau/
+										dynasty=1002014
+										religion=catholic culture=german
+										father=100018729 # Leopold
+										mother=100018740 # Anna Luise
+										1700.12.25={birth=yes}	#Dessau
+										1737.05.25={add_spouse=100018732}
+										1751.12.16={death=yes}
+									}
+										# Leopold (Dessau 10 Aug 1740-Dessau 9 Aug 1817); m.Charlottenburg 25 Jul 1767 ?
 					100018932={	# E2. Christian I, *Bernburg 11.5.1568, +Bernburg 17.4.1630; m.Lorbach 2.7.1595 Gfn Anna von Bentheim-Tecklenburg (*Tecklenburg 4.1.1579, +Bernburg 9.12.1624)
 						name=Christian
 						dynasty=1002014
@@ -652,7 +693,7 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1571.09.25={birth=yes}  # Dessau
 						1596.11.24={death=yes}  # Klosterhof_bei_Tyrnau
 					}
@@ -661,9 +702,9 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1575.07.14={birth=yes}  # Dessau
-						1618.01.25={add_spouse=100094441}	# Sibylle zu Solms-Laubach
+						1618.01.25={add_spouse=100094441}	# GFN Sibylle zu Solms-Laubach
 						1653.08.22={death=yes}  # Plötzkau
 					}
 					100018937={	# E5. Rudolf I, *Harzgerode 28.10.1576, +Zerbst 30.7.1621; 1m: Wolfenbüttel 29.12.1605 Dss Dorothea Hedwig von Braunschweig-Wolfenbüttel (*Wolfenbüttel 3.2.1587, +Zerbst 16.10.1609); 2m: 31.8.1612 Gfn Magdalene von Oldenburg (*Oldenburg 6.10.1585, +Coswig 14.4.1657)
@@ -671,10 +712,10 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1576.10.28={birth=yes}  # Harzgerode
 						1605.12.29={add_spouse=100091706}	# DSS Dorothea Hedwig von Braunschweig-Wolfenbüttel
-						1612.08.31={add_spouse=100092801}	# Magdalene von Oldenburg
+						1612.08.31={add_spouse=100092801}	# GFN Magdalene von Oldenburg
 						1621.07.30={death=yes}  # Zerbst
 					}
 					100018940={	# E6. Johann Ernst, *Dessau 1.5.1578, +Wien 22.12.1601
@@ -682,7 +723,7 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1578.05.01={birth=yes}  # Dessau
 						1601.12.22={death=yes}  # Wien
 					}
@@ -691,7 +732,7 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1579.06.17={birth=yes}  # Dessau
 						1606.10.31={add_spouse=100091625}	# GFN Amoena Amalie zu Bentheim-Tecklenburg-Steinfurt
 						1626.09.12={add_spouse=100094335}	# GFN Sofie zur Lippe
@@ -762,7 +803,7 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1573.03.12={birth=yes}  # Dessau
 						1616.11.03={death=yes}  # Sonderburg
 					}
@@ -772,7 +813,7 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1574.07.02={birth=yes}  # Dessau
 						1617.07.18={death=yes}  # Weimar
 					}
@@ -782,7 +823,7 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1580.11.07={birth=yes}  # Dessau
 						1599.03.28={death=yes}  # Darmstadt
 					}
@@ -792,7 +833,7 @@
 						dynasty=1002014
 						religion=catholic culture=german
 						father=100018926	# Joachim Ernst von Anhalt
-						mother=100017914	# Eleonore v. Württemberg
+						mother=100017914	# Eleanore v. Württemberg
 						1584.06.15={birth=yes}  # Dessau
 						1652.06.09={death=yes}  # Oberkranichfeld
 					}
@@ -801,7 +842,7 @@
 					dynasty=1002014
 					religion=catholic culture=german
 					father=100018922	# Johann von Anhalt
-					mother=100091683	# Margarete von Brandenburg
+					mother=100091683	# PSS Margarete von Brandenburg
 					1540.03.17={birth=yes}  # Dessau
 					1565.05.28={add_spouse=100091704}	# DSS Klara von Braunschweig-Lüneburg
 					1570.03.01={death=yes}  # Dessau
@@ -812,7 +853,7 @@
 					dynasty=1002014
 					religion=catholic culture=german
 					father=100018922	# Johann von Anhalt
-					mother=100091683	# Margarete von Brandenburg
+					mother=100091683	# PSS Margarete von Brandenburg
 					1538.12.01={birth=yes}  # Dessau
 					1563.04.25={death=yes}  # Rosslau
 				}
@@ -822,7 +863,7 @@
 					dynasty=1002014
 					religion=catholic culture=german
 					father=100018922	# Johann von Anhalt
-					mother=100091683	# Margarete von Brandenburg
+					mother=100091683	# PSS Margarete von Brandenburg
 					1545.10.15={birth=yes}  # Dessau
 					1574.09.26={death=yes}  # Barby
 				}
@@ -957,7 +998,7 @@
 		female=yes
 		dynasty=1002076
 		religion=orthodox culture=german
-		father=100091552	# Christian August von Anhalt-Zerbst
+		father=100091552	# FST Christian August von Anhalt-Zerbst
 		mother=100013123	# Johanna v. Oldenburg-Gottorf
 		1729.05.02={birth=yes}
 		1762.01.01={name=Ekaterina}
@@ -966,14 +1007,16 @@
 ## ANHALT-ZERBST
 
 
-### Askanier|1002014|100018700-100018999
-100018700={# LEOPOLD III Friedrich Franz, Fst von Anhalt-Dessau, Duke of Anhalt-Dessau 1807 (Dessau 10 Aug 1740- Luisium bei Dessau 9 Aug 1817)
+### Askanier|1002014|100018746-100018999
+100018746={# LEOPOLD III Friedrich Franz, Fst von Anhalt-Dessau, Duke of Anhalt-Dessau 1807 (Dessau 10 Aug 1740- Luisium bei Dessau 9 Aug 1817)
 			# m.Charlottenburg 25 Jul 1767 Luise Henriette Wilhelmine Margravine of Brandenburg-Schwedt (Stolzenberg 24 Sep 1750-Dessau 21 Dec 1811)
-	name=Leopold
+	name=Leopold     # 5149/leopold-iii-fuerst-von-anhalt-dessau/
 	dynasty=1002014
 	religion=lutheran culture=german
+	father=100018738 # Leopold
+	mother=100018732 # Gisela Agnes
 	1740.08.10={birth=yes}
-	1767.07.25={add_spouse=100094439}	# Luise Henriette von Brandenburg-Schwedt
+	1767.07.25={add_spouse=100094439}	# MKGFN Luise Henriette von Brandenburg-Schwedt
 	1817.08.09={death=yes}
 }
 	100018702={# 1a) Friedrich (Dessau 27 Dec 1769-Dessau 27 May 1814)
@@ -981,8 +1024,8 @@
 		name=Friedrich
 		dynasty=1002014
 		religion=lutheran culture=german
-		father=100018700	# Leopold von Anhalt
-		mother=100094439	# Luise Henriette von Brandenburg-Schwedt
+		father=100018746	# Leopold von Anhalt
+		mother=100094439	# MKGFN Luise Henriette von Brandenburg-Schwedt
 		1769.12.27={birth=yes}
 		1792.06.12={add_spouse=100018703}	# PSS Amalie v. Hessen
 		1814.05.27={death=yes}
@@ -1377,4 +1420,4 @@
 			1840.07.09={add_spouse=100086846}	# Emilie Klausnitzer
 			1864.10.08={death=yes}
 		}
-## Askanier|1002014|100018700-100018999
+## Askanier|1002014|100018746-100018999
