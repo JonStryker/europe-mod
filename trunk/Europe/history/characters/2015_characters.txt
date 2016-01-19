@@ -9504,26 +9504,11 @@
 	father=100103509	# Assad Al Said
 	1973.01.01={birth=yes}
 }
-100103513={# Muhammad Ali Muhammad Ali (1769-1849)
-	name="Muhammad Ali"
-	dynasty=10377
-	religion=sunni culture=egyptian_arabic
-	1769.03.04={birth=yes}
-	1849.08.02={death=yes}
-}
-100103514={# Ibrahim Muhammad Ali (1789-1848)
-	name=Ibrahim
-	dynasty=10377
-	religion=sunni culture=egyptian_arabic
-	father=100103513	# Muhammad Ali Muhammad Ali
-	1789.01.01={birth=yes}
-	1848.11.10={death=yes}
-}
 100103515={# Tusun Muhammad Ali (1794-1816)
 	name=Tusun
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103513	# Muhammad Ali Muhammad Ali
+	father=100145282	# Muhammad Ali Muhammad Ali
 	1794.01.01={birth=yes}
 	1816.01.01={death=yes}
 }
@@ -9539,31 +9524,23 @@
 	name=Said
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103513	# Muhammad Ali Muhammad Ali
+	father=100145282	# Muhammad Ali Muhammad Ali
 	1822.03.17={birth=yes}
 	1863.01.18={death=yes}
 }
-100103518={# Ismail Muhammad Ali (1830-1895)
-	name=Ismail
-	dynasty=10377
-	religion=sunni culture=egyptian_arabic
-	father=100103514	# Ibrahim Muhammad Ali
-	1830.12.31={birth=yes}
-	1895.03.02={death=yes}
-}
-100103519={# Tewfik Muhammad Ali (1853-1892)
+100145280={# Tewfik Muhammad Ali (1853-1892)
 	name=Tewfik
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103518	# Ismail Muhammad Ali
+	father=100145262	# Ismail Muhammad Ali
 	1853.11.15={birth=yes}
 	1892.01.07={death=yes}
 }
-100103520={# Abbas Muhammad Ali (1874-1944)
+100145286={# Abbas Muhammad Ali (1874-1944)
 	name=Abbas
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103519	# Tewfik Muhammad Ali
+	father=100145280	# Tewfik Muhammad Ali
 	1874.07.14={birth=yes}
 	1944.12.19={death=yes}
 }
@@ -9571,63 +9548,57 @@
 	name=Hussein
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103518	# Ismail Muhammad Ali
+	father=100145262	# Ismail Muhammad Ali
 	1853.11.21={birth=yes}
 	1917.10.09={death=yes}
 }
-100103522={# Fuad Muhammad Ali (1868-1936)
+100145106={# Fuad Muhammad Ali (1868-1936)
 	name=Fuad
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103518	# Ismail Muhammad Ali
+	father=100145262	# Ismail Muhammad Ali
 	1868.03.26={birth=yes}
 	1936.04.28={death=yes}
 }
-100103523={# Farouk Muhammad Ali (1920-1965)
+100145101={# Farouk Muhammad Ali (1920-1965)
 	name=Farouk
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103522	# Fuad Muhammad Ali
+	father=100145106	# Fuad Muhammad Ali
 	1920.02.11={birth=yes}
 	1965.03.18={death=yes}
 }
-100103524={# Fuad Muhammad Ali (1952-    )
+100145114={# Fuad Muhammad Ali (1952-    )
 	name=Fuad
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103523	# Farouk Muhammad Ali
+	father=100145101	# Farouk Muhammad Ali
 	1952.01.16={birth=yes}
 	1952.07.26={add_claim=k_sudan
 		add_claim=k_south_sudan
 	}
 }
-100103525={# Muhammad Ali Muhammad Ali (1979-    )
+100145242={# Muhammad Ali Muhammad Ali (1979-    )
 	name="Muhammad Ali"
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103524	# Fuad Muhammad Ali
+	father=100145114	# Fuad Muhammad Ali
 	1979.02.05={birth=yes}
-	2013.08.30={add_spouse=100094765}	# Noal
+	2013.08.30={add_spouse=100145197}	# Noal
 }
-100094765={# Noal (1978-    )
-	name=Noal
-	religion=sunni culture=egyptian_arabic
-	female=yes
-	1978.01.01={birth=yes}
-}
-100103527={# Fawzia-Latifa Muhammad Ali (1982-    )
+100145253={# Fawzia-Latifa Muhammad Ali (1982-    )
 	name="Fawzia-Latifa"
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103524	# Fuad Muhammad Ali
+	father=100145114	# Fuad Muhammad Ali
 	female=yes
 	1982.02.12={birth=yes}
 }
-100103528={# Fakhruddin Muhammad Ali (1987-    )
+100145251={# Fakhruddin Muhammad Ali (1987-    )
 	name=Fakhruddin
 	dynasty=10377
 	religion=sunni culture=egyptian_arabic
-	father=100103524	# Fuad Muhammad Ali
+	father=100145114	# Fuad Muhammad Ali
 	1987.08.25={birth=yes}
 }
 100103531={# Salva Kiir Mayardit (1951-    )
@@ -9973,19 +9944,23 @@
 	1878.03.15={birth=yes}
 	1944.07.26={death=yes}
 }
-100103600={# Muhammad Reza Pahlavi (1919-1980)
+100145104={# Muhammad Reza Pahlavi (1919-1980)
 	name="Muhammad Reza"
 	dynasty=10394
 	religion=shiite culture=persian
-	father=100103599	# Reza Pahlavi
-	1919.10.26={birth=yes}
+	father=100103599		# Reza Pahlavi
+	1919.10.26={birth=yes}	# Iran
+	1939.03.16={add_spouse=100145105}
+	1948.11.17={remove_spouse=100145105}
+	1951.02.12={add_spouse=100145186}
+	1959.12.21={add_spouse=100145194}
 	1980.07.27={death=yes}
 }
 100103601={# Reza Pahlavi (1960-    )
 	name=Reza
 	dynasty=10394
 	religion=shiite culture=persian
-	father=100103600	# Muhammad Reza Pahlavi
+	father=100145104	# Muhammad Reza Pahlavi
 	1960.10.31={birth=yes}
 	1986.06.12={add_spouse=100094770}	# Yasmine
 }
@@ -10026,7 +10001,7 @@
 	name="Ali Reza"
 	dynasty=10394
 	religion=shiite culture=persian
-	father=100103600	# Muhammad Reza Pahlavi
+	father=100145104	# Muhammad Reza Pahlavi
 	1966.04.28={birth=yes}
 	2011.01.04={death=yes}
 }
