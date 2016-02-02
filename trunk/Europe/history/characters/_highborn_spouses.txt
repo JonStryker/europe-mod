@@ -46,7 +46,7 @@
 	1543.06.29={birth=yes}
 	1604.05.13={death=yes}
 }
-100092211={ #            Anna Eleonore             von Hessen-Darmstadt                     (1601-1659)     5
+100083420={ #            Anna Eleonore             von Hessen-Darmstadt                     (1601-1659)     5
 	name="Anna Eleonore von Hessen-Darmstadt"
 	female=yes
 	dynasty=0
@@ -1175,6 +1175,14 @@
 	1909.03.28={death=yes}
 }
 
+100092817={ # Gf         Hermann                   von Anhalt                               (1300-1372)     0
+	name="Hermann von Anhalt"
+	dynasty=0
+	religion=catholic culture=german
+	1300.01.01={birth=yes}
+	1330.01.01={add_spouse=100018722}	# Katharina von Anhalt
+	1372.01.01={death=yes}
+}
 100091531={ #            Katharina                 von Anhalt                               (1396-1449)     2
 	name="Katharina von Anhalt"
 	female=yes
@@ -2430,14 +2438,6 @@
 	1836.01.14={add_spouse=100021803}	# Caroline v. Auersperg
 	1879.01.01={death=yes}
 }
-100094124={ # Ldgf       Joseph Ernst              zu Fürstenberg                           (1818-1892)     0
-	name="Joseph Ernst zu Fürstenberg"
-	dynasty=0
-	religion=catholic culture=german
-	1818.01.01={birth=yes}
-	1843.08.29={add_spouse=100012352}	# Marie Ernestine zu Oettingen-Wallerstein
-	1892.03.06={death=yes}
-}
 100085666={ # Ldgf       Friedrich Egon            zu Fürstenberg-Weitra                    (1774-1856)     0
 	name="Friedrich Egon zu Fürstenberg-Weitra"
 	dynasty=0
@@ -2445,6 +2445,16 @@
 	1774.01.26={birth=yes}
 	1801.05.25={add_spouse=100085665}	# Maria Terezie v. Schwarzenberg
 	1856.02.04={death=yes}
+}
+100094124={ # Ldgf       Joseph Ernst              zu Fürstenberg-Weitra                    (1808-1892)     0
+	name="Joseph Ernst zu Fürstenberg"
+	dynasty=0
+	religion=catholic culture=german
+	father=100085666
+	mother=100085665
+	1808.02.22={birth=yes}
+	1843.08.29={add_spouse=100012352}	# Marie Ernestine zu Oettingen-Wallerstein
+	1892.03.06={death=yes}
 }
 100094128={ # Landgfn    Josephine Sophie          zu Fürstenberg-Weitra                    (1776-1848)    12
 	name="Josephine Sophie zu Fürstenberg-Weitra"
@@ -5935,6 +5945,14 @@
 	religion=lutheran culture=german
 	1956.08.23={birth=yes}
 }
+100003843={ # Gfn        Marie-Gabrielle  		   von Goëss                                (1893-1967)  0  3
+	name="Marie-Gabrielle Anna Josepha von Goess" # 172107/marie-gabrielle-anna-josepha-graefin-von-goess/
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1893.07.19={birth=yes}	#Ebenthal, Kärnten
+	1967.10.23={death=yes}
+}
 
 100092198={ # Gfn        Marie                     von Herberstein                          (1624-1701)     6
 	name="Marie von Herberstein"
@@ -8128,6 +8146,14 @@
 	1954.10.02={birth=yes}
 	1982.08.28={add_spouse=100023167}	# Elisabeth v. Windisch-Graetz
 }
+100003847={ # Gfn        Maria Anna 			   von Attems                               (1862-1938)  0  3
+	name="Maria Anna Thekla Theresia Aloysia Friederike von Attems" # 1739086/maria-anna-thekla-theresia-aloysia-friederike-graefin-von-attems/
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1862.11.15={birth=yes}	#Graz
+	1938.12.26={death=yes}
+}
 
 100095873={ # Gfn        Maria Anna                von Auersperg                            (1719-1743)     0
 	name="Maria Anna von Auersperg"
@@ -9004,60 +9030,6 @@
 	1947.04.11={death=yes}
 }
 
-100092156={ # Frhr       Gottlieb Albert           von Hardenberg                           (1787-1813)     0
-	name="Gottlieb Albert von Hardenberg"
-	dynasty=0
-	religion=lutheran culture=german
-	1787.01.01={birth=yes}
-	1812.01.01={add_spouse=100011329}	# Henriette Luise zu Stolberg-Stolberg
-	1813.01.01={death=yes}
-}
-100096179={ # Gfn        Laura                     von Hardenberg                           (1812-1857)     5
-	name="Laura von Hardenberg"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1812.09.08={birth=yes}  # Berlin
-	1857.12.24={death=yes}  # Wolfsberg
-}
-100092155={ # Gfn        Marie-Erika               von Hardenberg                           (1903-1964)     1
-	name="Marie-Erika von Hardenberg"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1903.02.10={birth=yes}
-	1964.07.15={death=yes}
-}
-100092154={ # Gf         Günther                   von Hardenberg                           (1918-1985)     3
-	name="Günther von Hardenberg"
-	dynasty=0
-	religion=catholic culture=german
-	1918.02.14={birth=yes}
-	1943.02.27={add_spouse=100010029}	# Maria Josepha v. Fürstenberg
-	1985.01.19={death=yes}
-}
-100092157={ # Frn        Marion                    von Hardenberg                           (1950-    )     1
-	name="Marion von Hardenberg"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1950.11.29={birth=yes}
-}
-100092158={ # Gfn        Katharina                 von Hardenberg                           (1968-    )     3
-	name="Katharina von Hardenberg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1968.04.21={birth=yes}
-}
-100086356={ # Gfn        Tatjana Gustava           von Hardenberg                           (1976-    )     2
-	name="Tatjana Gustava von Hardenberg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=bohemian
-	1976.09.01={birth=yes}
-}
-
 100095594={ # Gf         Johann Friedrich          von Kageneck                             (1753-1800)     0
 	name="Johann Friedrich von Kageneck"
 	dynasty=0
@@ -9109,61 +9081,6 @@
 	religion=lutheran culture=german
 	1951.08.25={birth=yes}
 	1991.08.31={add_spouse=100012838}	# Anne Reuß
-}
-
-100096400={ # Frn        Martha                    Matz von Spiegelfeld                     (1859-1934)     4
-	name="Martha Matz von Spiegelfeld"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1859.06.22={birth=yes}  # Innsbruck
-	1934.06.10={death=yes}  # Hagenberg
-}
-100085829={ # Gf         Karl                      Matz von Spiegelfeld                     (1880-1964)     0
-	name="Karl Matz von Spiegelfeld"
-	dynasty=0
-	religion=catholic culture=bohemian
-	1880.05.06={birth=yes}
-	1912.07.27={add_spouse=100085828}	# Therese Marie Kinsky von Wchinitz u.Tettau
-	1964.04.20={death=yes}
-}
-100093171={ # Gfn        Martha                    Matz von Spiegelfeld                     (1889-1970)     1
-	name="Martha Matz von Spiegelfeld"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1889.12.01={birth=yes}
-	1970.08.21={death=yes}
-}
-100096401={ # Frn        Henriette                 Matz von Spiegelfeld                     (1895-1969)     2
-	name="Henriette Matz von Spiegelfeld"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1895.08.30={birth=yes}  # Linz_an_der_Donau
-	1969.09.28={death=yes}  # Vöcklabruck Upper Austria
-}
-100085871={ # Gf         Alexander                 Matz von Spiegelfeld                     (1925-2002)     0
-	name="Alexander Matz von Spiegelfeld"
-	dynasty=0
-	religion=catholic culture=german
-	1925.11.02={birth=yes}
-	1951.05.14={add_spouse=100023027}	# Sophie v. Starhemberg
-	2002.01.01={death=yes}  # EST.
-}
-100093170={ # Gf         Franz Xaver               Matz von Spiegelfeld                     (1953-    )     0
-	name="Franz Xaver Matz von Spiegelfeld"
-	dynasty=0
-	religion=catholic culture=german
-	1953.05.26={birth=yes}
-	1981.03.14={add_spouse=100020445}	# Johanna Maria v. Meran
-}
-100095071={ # Gf         Matthias                  Matz von Spiegelfeld                     (1960-    )     0
-	name="Matthias Matz von Spiegelfeld"
-	dynasty=0
-	religion=catholic culture=german
-	1960.12.27={birth=yes}
-	1988.07.16={add_spouse=100002983}	# Ludmilla v. Waldburg zu Wolfegg u.Waldsee
 }
 
 100090283={ # Gfn        Bianca                    von Pückler                              (1792-1834)     1
@@ -9334,6 +9251,14 @@
 	religion=catholic culture=german
 	1966.03.24={birth=yes}
 	1995.08.11={add_spouse=100017332}	# Eleonore Melanie v. Thurn und Taxis
+}
+100091861={ #            Klara                     von der Schulenburg                      (1849-1936)     0
+	name="Klara von der Schulenburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1849.12.16={birth=yes}  # Propstei Salzwedel
+	1936.05.08={death=yes}  # Kloster Drübeck
 }
 
 100085929={ # Gfn        Elisabeth                 Wolff-Metternich zur Gracht              (1874-1909)     0
@@ -15375,6 +15300,14 @@
 	1819.01.01={birth=yes}
 	1880.03.26={death=yes}
 }
+100095151={ # Css        Ekaterina Pavlovna        von der Pahlen                           (1830-    )
+	name="Ekaterina Pavlovna Pahlen"
+	female=yes
+	dynasty=0
+	religion=orthodox culture=russian
+	1830.01.01={birth=yes}
+	1903.01.01={death=yes}  # EST.
+}
 100091853={ # Gfn        Vera                      von der Pahlen                           (1835-1923)     0
 	name="Vera von der Pahlen"
 	female=yes
@@ -15388,7 +15321,7 @@
 	female=yes
 	dynasty=0
 	religion=catholic culture=german
-	1948.12.31={birth=yes}
+	1948.12.31={birth=yes}	# Linnich
 }
 100092835={ # Gfn        Marie Elisabeth           von Pergen                               (1755-1815)     3
 	name="Marie Elisabeth von Pergen"
@@ -17075,14 +17008,6 @@
 	1917.01.04={add_spouse=100012180}	# Marie Thusnelda zur Lippe
 	1934.03.27={death=yes}
 }
-100091762={ # Gfn        Anna                      von Cilli                                (1380-1416)     0
-	name="Anna von Cilli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1380.01.01={birth=yes}
-	1416.03.20={death=yes}
-}
 100095458={ # Gf         Karl Johann               von Cobentzl                             (1712-1770)     0
 	name="Karl Johann von Cobentzl"
 	dynasty=0
@@ -17471,14 +17396,6 @@
 	1820.06.14={birth=yes}
 	1852.11.10={add_spouse=100012125}	# Sophie zur Lippe
 	1873.03.01={death=yes}
-}
-100092817={ # Gf         Hermann                   von Orlamünde                            (1300-1372)     0
-	name="Hermann von Orlamünde"
-	dynasty=0
-	religion=catholic culture=german
-	1300.01.01={birth=yes}
-	1330.01.01={add_spouse=100018722}	# Katharina von Anhalt
-	1372.01.01={death=yes}
 }
 100092819={ # Gf         Johann Franz              von Ostein                               (1662-1718)     0
 	name="Johann Franz von Ostein"
@@ -17927,4 +17844,80 @@
 	1837.09.19={birth=yes}  # Innsbruck
 	1864.09.12={death=yes}  # Graz
 }
-
+100003898={ # Gfn        Marie                     Bussy de Mignot                          (1831-1902)  0  4
+	name="Marie Bussy de Mignot" # 1850540/marie-graefin-bussy-de-mignot/
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1831.08.24={birth=yes}	#Ebreichsdorf, Niederösterreich
+	1902.11.21={death=yes}
+}
+100085829={ # Gf         Karl                      Matz von Spiegelfeld                     (1880-1964)     0
+	name=Karl
+	dynasty=1002083
+	religion=catholic culture=bohemian
+	1880.05.06={birth=yes}
+	1912.07.27={add_spouse=100085828}	# Therese Marie Kinsky von Wchinitz u.Tettau
+	1964.04.20={death=yes}
+}
+100093171={ # Gfn        Martha                    Matz von Spiegelfeld                     (1889-1970)     1
+	name=Martha
+	female=yes
+	dynasty=1002083
+	religion=catholic culture=german
+	1889.12.01={birth=yes}
+	1970.08.21={death=yes}
+}
+100096401={ # Frn        Henriette                 Matz von Spiegelfeld                     (1895-1969)     2
+	name=Henriette
+	female=yes
+	dynasty=1002083
+	religion=lutheran culture=german
+	1895.08.30={birth=yes}  # Linz_an_der_Donau
+	1969.09.28={death=yes}  # Vöcklabruck Upper Austria
+}
+100092156={ # Frhr       Gottlieb Albert           von Hardenberg                           (1787-1813)     0
+	name="Gottlieb Albert"
+	dynasty=1002082
+	religion=lutheran culture=german
+	1787.01.01={birth=yes}
+	1812.01.01={add_spouse=100011329}	# Henriette Luise zu Stolberg-Stolberg
+	1813.01.01={death=yes}
+}
+100096179={ # Gfn        Laura                     von Hardenberg                           (1812-1857)     5
+	name=Laura
+	female=yes
+	dynasty=1002082
+	religion=lutheran culture=german
+	1812.09.08={birth=yes}  # Berlin
+	1857.12.24={death=yes}  # Wolfsberg
+}
+100092155={ # Gfn        Marie-Erika               von Hardenberg                           (1903-1964)     1
+	name=Marie-Erika
+	female=yes
+	dynasty=1002082
+	religion=lutheran culture=german
+	1903.02.10={birth=yes}
+	1964.07.15={death=yes}
+}
+100092157={ # Frn        Marion                    von Hardenberg                           (1950-    )     1
+	name=Marion
+	female=yes
+	dynasty=1002082
+	religion=lutheran culture=german
+	1950.11.29={birth=yes}
+}
+100092158={ # Gfn        Katharina                 von Hardenberg                           (1968-    )     3
+	name=Katharina
+	female=yes
+	dynasty=1002082
+	religion=catholic culture=german
+	1968.04.21={birth=yes}
+}
+100086356={ # Gfn        Tatjana Gustava           von Hardenberg                           (1976-    )     2
+	name="Tatjana Gustava"
+	female=yes
+	dynasty=1002082
+	religion=catholic culture=bohemian
+	1976.09.01={birth=yes}
+}

@@ -1,4 +1,117 @@
-100081238={ # Donna      Emanuela                  Caracciolo                               (1809-1861)     7
+100101563={ #            Cosimo                    de' Medici                               (1519-1574)  0  1
+	name="Cosimo de' Medici"
+	dynasty=10223
+	religion=catholic culture=italian
+	1519.06.12={birth=yes}
+	1574.04.21={death=yes}
+}
+100021334={ # Duke       Francesco                 de' Medici                               (1541-1587)     0
+	name="Francesco de' Medici"
+	dynasty=10223
+	religion=catholic culture=italian
+	1541.03.25={birth=yes}
+	1565.12.18={add_spouse=100021333}	# Johanna v. Habsburg
+	1587.10.19={death=yes}
+}
+100101565={ # Duke       Ferdinando                de' Medici                               (1549-1609)     1
+	name="Ferdinando de' Medici"
+	dynasty=10223
+	religion=catholic culture=italian
+	father=100101563	# Cosimo de' Medici
+	1549.07.30={birth=yes}
+	1589.04.30={add_spouse=100067612}	# Christine de Lorraine
+	1609.02.17={death=yes}
+}
+100021329={ # Duke       Cosimo                    de' Medici                               (1590-1621)     1
+	name="Cosimo de' Medici"
+	dynasty=10223
+	religion=catholic culture=italian
+	father=100101565	# DUKE Ferdinando de' Medici
+	1590.05.12={birth=yes}
+	1608.10.19={add_spouse=100021328}	# Maria Magdalena v. Habsburg
+	1621.02.28={death=yes}
+}
+100023231={ #            Claudia                   de' Medici                               (1604-1648)     4
+	name="Claudia de' Medici"
+	female=yes
+	dynasty=10223
+	religion=catholic culture=italian
+	1604.06.04={birth=yes}
+	1648.12.25={death=yes}
+}
+100101567={ #            Ferdinando                de' Medici                               (1610-1670)  0  1
+	name="Ferdinando de' Medici"
+	dynasty=10223
+	religion=catholic culture=italian
+	father=100021329	# DUKE Cosimo de' Medici
+	1610.07.14={birth=yes}
+	1670.05.23={death=yes}
+}
+100023235={ #            Anna                      de' Medici                               (1616-1676)     2
+	name="Anna de' Medici"
+	female=yes
+	dynasty=10223
+	religion=catholic culture=italian
+	1616.07.21={birth=yes}
+	1676.09.11={death=yes}
+}
+100101568={ #            Cosimo                    de' Medici                               (1642-1723)  0  2
+	name="Cosimo de' Medici"
+	dynasty=10223
+	religion=catholic culture=italian
+	father=100101567	# Ferdinando de' Medici
+	1642.08.14={birth=yes}
+	1723.10.31={death=yes}
+}
+100101569={ #            Ferdinando                de' Medici                               (1663-1713)  0  0
+	name="Ferdinando de' Medici"
+	dynasty=10223
+	religion=catholic culture=italian
+	father=100101568	# Cosimo de' Medici
+	1663.08.09={birth=yes}
+	1713.10.31={death=yes}
+}
+100081989={ # Pr         Ferdinando                de' Medici                               (1664-1713)     0
+	name="Ferdinando de' Medici"
+	dynasty=0
+	religion=catholic culture=italian
+	1664.01.01={birth=yes}
+	1689.01.09={add_spouse=100014062}	# Violante-Beatrix v. Wittelsbach
+	1713.10.01={death=yes}
+}
+100081990={ #            Maria Anna                de' Medici                               (1667-1743)     0
+	name="Maria Anna de' Medici"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1667.08.11={birth=yes}  # Florence
+	1743.02.18={death=yes}  # Florence
+}
+100101570={ #            Gian Gastone              de' Medici                               (1671-1737)  0  0
+	name="Gian Gastone de' Medici"
+	dynasty=10223
+	religion=catholic culture=italian
+	father=100101568	# Cosimo de' Medici
+	1671.05.24={birth=yes}
+	1737.07.09={death=yes}
+}
+100023229={ #            Francesco                 de' Medici                               (1968-    )     0
+	name="Francesco de' Medici"
+	female=yes
+	dynasty=10223
+	religion=catholic culture=italian
+	1968.09.17={birth=yes}
+}
+100083150={ #            Elvina                    dei Marchesi Medici del Vascello         (1914-2004)     1
+	name="Elvina dei Marchesi Medici del Vascello"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1914.01.22={birth=yes}
+	2004.08.29={death=yes}
+}
+
+100081238={ # Donna      Emanuela                  Caracciolo                               (1809-1861)     6
 	name="Emanuela Caracciolo"
 	female=yes
 	dynasty=0
@@ -21,6 +134,14 @@
 	1853.01.01={birth=yes}
 	1879.06.07={add_spouse=100072514}	# Maria Caracciolo
 	1927.01.01={death=yes}  # EST.
+}
+100081247={ #            Anna                      Caracciolo Pisquizi                      (1604-1637)     2
+	name="Anna Caracciolo Pisquizi"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1604.01.28={birth=yes}
+	1637.01.01={death=yes}  # Belmonte
 }
 100081240={ # Donna      Maria Alicia              Caracciolo dei Duchi Di Loreto           (1854-1928)     4
 	name="Maria Alicia Caracciolo dei Duchi Di Loreto"
@@ -95,87 +216,6 @@
 	1930.01.01={death=yes}
 }
 
-100084305={ # Duke       Francesco                 Gonzaga                                  (1500-1550)     0
-	name="Francesco Gonzaga"
-	dynasty=0
-	religion=catholic culture=italian
-	1500.01.01={birth=yes}
-	1549.10.22={add_spouse=100021232}	# Katharina v. Habsburg
-	1550.02.22={death=yes}
-}
-100084306={ # Duke       Guglielmo                 Gonzaga                                  (1536-1587)     0
-	name="Guglielmo Gonzaga"
-	dynasty=0
-	religion=catholic culture=italian
-	1536.01.01={birth=yes}
-	1561.04.27={add_spouse=100021235}	# Eleonora v. Habsburg
-	1587.08.14={death=yes}
-}
-100084304={ #            Anna Caterina             Gonzaga                                  (1566-1621)     2
-	name="Anna Caterina Gonzaga"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1566.01.17={birth=yes}
-	1621.08.03={death=yes}
-}
-100084310={ #            Margherita                Gonzaga                                  (1591-1632)     2
-	name="Margherita Gonzaga"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1591.10.02={birth=yes}
-	1632.02.06={death=yes}
-}
-100084307={ #            Eleonora                  Gonzaga                                  (1598-1655)     0
-	name="Eleonora Gonzaga"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1598.09.23={birth=yes}
-	1655.06.27={death=yes}
-}
-100084301={ #            Louisa                    Gonzaga                                  (1611-1667)     0
-	name="Louisa Gonzaga"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=swedish
-	1611.08.18={birth=yes}
-	1667.05.10={death=yes}
-}
-100084303={ #            Anna                      Gonzaga                                  (1616-1684)     3
-	name="Anna Gonzaga"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1616.01.01={birth=yes}
-	1684.07.06={death=yes}  # Paris
-}
-100084309={ # Duke       Carlo                     Gonzaga                                  (1624-1665)     0
-	name="Carlo Gonzaga"
-	dynasty=0
-	religion=catholic culture=italian
-	1624.01.01={birth=yes}
-	1649.11.07={add_spouse=100021321}	# Isabella Klara v. Habsburg
-	1665.08.14={death=yes}
-}
-100084308={ #            Eleonora                  Gonzaga                                  (1630-1686)     2
-	name="Eleonora Gonzaga"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1630.11.18={birth=yes}
-	1686.12.06={death=yes}
-}
-100084311={ # Donna      Maria Francesca           Gonzaga dei Principi di Castiglione      (1727-1757)     1
-	name="Maria Francesca Gonzaga dei Principi di Castiglione"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1727.01.01={birth=yes}
-	1757.05.03={death=yes}
-}
-
 100089034={ # Pss        Giustiniana               Pignatelli                               (1595-1624)     0
 	name="Giustiniana Pignatelli"
 	female=yes
@@ -247,6 +287,13 @@
 	1940.04.06={birth=yes}
 	1999.12.22={death=yes}
 }
+100089041={ # Don        Fabrizio                  Pignatelli della Leonessa dei Principi di Monteroduni (1952-    )     0
+	name="Fabrizio Pignatelli della Leonessa dei Principi di Monteroduni"
+	dynasty=0
+	religion=catholic culture=italian
+	1952.08.02={birth=yes}
+	1977.04.02={add_spouse=100025883}	# Anna-Luisa von Schönburg
+}
 100089042={ # Pr         Antonio                   Pignatelli y Aymerich                    (1685-1771)     1
 	name="Antonio Pignatelli y Aymerich"
 	dynasty=0
@@ -254,6 +301,174 @@
 	1685.08.04={birth=yes}
 	1721.05.26={add_spouse=100072811}	# Anna Francesca Pignatelli
 	1771.01.26={death=yes}
+}
+100095178={ # Pss        Teresa                    Pignatelli-Bisaccia-Monteleone           (1682-1718)     1
+	name="Teresa Pignatelli-Bisaccia-Monteleone"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1682.08.24={birth=yes}
+	1718.08.09={death=yes}  # Brussels
+}
+
+100084305={ # Duke       Francesco                 Gonzaga                                  (1500-1550)     0
+	name="Francesco Gonzaga"
+	dynasty=0
+	religion=catholic culture=italian
+	1500.01.01={birth=yes}
+	1549.10.22={add_spouse=100021232}	# Katharina v. Habsburg
+	1550.02.22={death=yes}
+}
+100084306={ # Duke       Guglielmo                 Gonzaga                                  (1536-1587)     0
+	name="Guglielmo Gonzaga"
+	dynasty=0
+	religion=catholic culture=italian
+	1536.01.01={birth=yes}
+	1561.04.27={add_spouse=100021235}	# Eleonora v. Habsburg
+	1587.08.14={death=yes}
+}
+100084304={ #            Anna Caterina             Gonzaga                                  (1566-1621)     1
+	name="Anna Caterina Gonzaga"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1566.01.17={birth=yes}
+	1621.08.03={death=yes}
+}
+100084310={ #            Margherita                Gonzaga                                  (1591-1632)     2
+	name="Margherita Gonzaga"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1591.10.02={birth=yes}
+	1632.02.06={death=yes}
+}
+100084307={ #            Eleonora                  Gonzaga                                  (1598-1655)     0
+	name="Eleonora Gonzaga"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1598.09.23={birth=yes}
+	1655.06.27={death=yes}
+}
+100084301={ #            Louisa                    Gonzaga                                  (1611-1667)     0
+	name="Louisa Gonzaga"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1611.08.18={birth=yes}
+	1667.05.10={death=yes}
+}
+100084303={ #            Anna                      Gonzaga                                  (1616-1684)     3
+	name="Anna Gonzaga"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1616.01.01={birth=yes}
+	1684.07.06={death=yes}  # Paris
+}
+100084309={ # Duke       Carlo                     Gonzaga                                  (1624-1665)     0
+	name="Carlo Gonzaga"
+	dynasty=0
+	religion=catholic culture=italian
+	1624.01.01={birth=yes}
+	1649.11.07={add_spouse=100021321}	# Isabella Klara v. Habsburg
+	1665.08.14={death=yes}
+}
+100084308={ #            Eleonora                  Gonzaga                                  (1630-1686)     2
+	name="Eleonora Gonzaga"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1630.11.18={birth=yes}
+	1686.12.06={death=yes}
+}
+100084302={ # Duke       Anton Ferdinand           Gonzaga                                  (1687-1729)     0
+	name="Anton Ferdinand Gonzaga"
+	dynasty=0
+	religion=catholic culture=italian
+	1687.01.01={birth=yes}
+	1727.02.28={add_spouse=100010564}	# Theodora v. Hessen
+	1729.04.21={death=yes}
+}
+100084311={ # Donna      Maria Francesca           Gonzaga dei Principi di Castiglione      (1727-1757)     1
+	name="Maria Francesca Gonzaga dei Principi di Castiglione"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1727.01.01={birth=yes}
+	1757.05.03={death=yes}
+}
+
+100095230={ # Don        Alessandro                Ruspoli                                  (1780-1842)     0
+	name="Alessandro Ruspoli"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1780.01.01={birth=yes}
+	1805.06.04={add_spouse=100117589}	# Marianna Esterházy de Galántha
+	1842.10.01={death=yes}
+}
+100089748={ # Pr         Giovanni                  Ruspoli                                  (1807-1876)     0
+	name="Giovanni Ruspoli"
+	dynasty=0
+	religion=catholic culture=italian
+	1807.06.28={birth=yes}
+	1832.05.16={add_spouse=100072981}	# Barbara Massimo-Lancellotti
+	1876.11.06={death=yes}  # Rome
+}
+100095229={ # Pr         Augusto                   Ruspoli                                  (1821-1882)     0
+	name="Augusto Ruspoli"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1821.01.01={birth=yes}
+	1846.06.06={add_spouse=100117558}	# Agnes Esterházy de Galántha
+	1882.07.02={death=yes}
+}
+100089747={ # Don        Alessandro                Ruspoli                                  (1869-1952)     0
+	name="Alessandro Ruspoli"
+	dynasty=0
+	religion=catholic culture=italian
+	1869.01.14={birth=yes}  # Rome
+	1897.07.05={add_spouse=100072692}	# Marianita Lante Montefeltro della Rovere
+	1952.09.28={death=yes}  # Rome
+}
+100089746={ # Donna      Maria                     Ruspoli                                  (1888-1976)     2
+	name="Maria Ruspoli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1888.05.18={birth=yes}
+	1976.08.01={death=yes}
+}
+100089749={ # Donna      Francesca Patrizia        Ruspoli dei Principi de Poggio Suasa     (1940-    )     2
+	name="Francesca Patrizia Ruspoli dei Principi de Poggio Suasa"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1940.07.17={birth=yes}
+}
+100089750={ # Donna      Ginevra                   Ruspoli dei Principi di Poggia Suasa     (1962-    )     3
+	name="Ginevra Ruspoli dei Principi di Poggia Suasa"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1962.09.15={birth=yes}
+}
+100083166={ #            Maria Cristina            dei Principi Ruspoli                     (1842-1907)     2
+	name="Maria Cristina dei Principi Ruspoli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1842.07.25={birth=yes}
+	1907.02.12={death=yes}
+}
+100083167={ #            Giacinta                  dei Principi Ruspoli                     (1898-1982)     5
+	name="Giacinta dei Principi Ruspoli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1898.04.11={birth=yes}
+	1982.09.04={death=yes}
 }
 
 100089723={ #            Lucrezia                  Ruffo                                    (1841-1931)     7
@@ -362,7 +577,7 @@
 	1996.07.18={death=yes}
 }
 100089871={ # Don        Giorgio                   Sanfelice dei Duchi di Bagnoli           (1944-    )     0
-	name="Giorgio Sanfelice dei duchi di Bagnoli"
+	name="Giorgio Sanfelice dei Duchi di Bagnoli"
 	dynasty=0
 	religion=catholic culture=italian
 	1944.02.13={birth=yes}
@@ -384,119 +599,14 @@
 	1943.02.09={birth=yes}
 }
 
-100021334={ # Duke       Francesco                 de' Medici                               (1541-1587)     0
-	name="Francesco de' Medici"
-	dynasty=10223
-	religion=catholic culture=italian
-	1541.03.25={birth=yes}
-	1565.12.18={add_spouse=100021333}	# Johanna v. Habsburg
-	1587.10.19={death=yes}
-}
-100101565={ # Duke       Ferdinando                de' Medici                               (1549-1609)     1
-	name="Ferdinando de' Medici"
-	dynasty=10223
-	religion=catholic culture=italian
-	father=100101563	# Cosimo de' Medici
-	1549.07.30={birth=yes}
-	1589.04.30={add_spouse=100067612}	# Christine de Lorraine
-	1609.02.17={death=yes}
-}
-100021329={ # Duke       Cosimo                    de' Medici                               (1590-1621)     1
-	name="Cosimo de' Medici"
-	dynasty=10223
-	religion=catholic culture=italian
-	father=100101565	# DUKE Ferdinando de' Medici
-	1590.05.12={birth=yes}
-	1608.10.19={add_spouse=100021328}	# Maria Magdalena v. Habsburg
-	1621.02.28={death=yes}
-}
-100023231={ #            Claudia                   de' Medici                               (1604-1648)     4
-	name="Claudia de' Medici"
-	female=yes
-	dynasty=10223
-	religion=catholic culture=italian
-	1604.06.04={birth=yes}
-	1648.12.25={death=yes}
-}
-100023235={ #            Anna                      de' Medici                               (1616-1676)     2
-	name="Anna de' Medici"
-	female=yes
-	dynasty=10223
-	religion=catholic culture=italian
-	1616.07.21={birth=yes}
-	1676.09.11={death=yes}
-}
-100023229={ #            Francesco                 de' Medici                               (1968-    )     0
-	name="Francesco de' Medici"
-	female=yes
-	dynasty=10223
-	religion=catholic culture=italian
-	1968.09.17={birth=yes}
-}
-100081989={ # Pr         Ferdinando                de' Medici                               (1664-1713)     0
-	name="Ferdinando de Medici"
-	dynasty=0
-	religion=catholic culture=italian
-	1664.01.01={birth=yes}
-	1689.01.09={add_spouse=100014062}	# Violante-Beatrix v. Wittelsbach
-	1713.10.01={death=yes}
-}
-100081990={ #            Maria Anna                de' Medici                               (1667-1743)     0
-	name="Maria Anna de Medici"
+100082211={ #            Carmela                   De Chiaro                                (1803-1881)     1
+	name="Carmela De Chiaro"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1667.08.11={birth=yes}  # Florence
-	1743.02.18={death=yes}  # Florence
+	1803.01.01={birth=yes}
+	1881.01.01={death=yes}
 }
-100101563={ #  			 Cosimo 				   de' Medici								(1519-1574)
-	name=Cosimo
-	dynasty=10223
-	religion=catholic culture=italian
-	1519.06.12={birth=yes}
-	1574.04.21={death=yes}
-}
-100101567={ #  			 Ferdinando 			   de' Medici								(1610-1670)
-	name=Ferdinando
-	dynasty=10223
-	religion=catholic culture=italian
-	father=100021329	# DUKE Cosimo de' Medici
-	1610.07.14={birth=yes}
-	1670.05.23={death=yes}
-}
-100101568={ #  			 Cosimo 				   de' Medici								(1642-1723)
-	name=Cosimo
-	dynasty=10223
-	religion=catholic culture=italian
-	father=100101567	# Ferdinando de' Medici
-	1642.08.14={birth=yes}
-	1723.10.31={death=yes}
-}
-100101569={ #  			 Ferdinando				   de' Medici								(1663-1713)
-	name=Ferdinando
-	dynasty=10223
-	religion=catholic culture=italian
-	father=100101568	# Cosimo de' Medici
-	1663.08.09={birth=yes}
-	1713.10.31={death=yes}
-}
-100101570={ #  			 Gian Gastone			   de' Medici								(1671-1737)
-	name="Gian Gastone"
-	dynasty=10223
-	religion=catholic culture=italian
-	father=100101568	# Cosimo de' Medici
-	1671.05.24={birth=yes}
-	1737.07.09={death=yes}
-}
-100083150={ #            Elvina                    dei Marchesi Medici del Vascello         (1914-2004)     1
-	name="Elvina dei Marchesi Medici del Vascello"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1914.01.22={birth=yes}
-	2004.08.29={death=yes}
-}
-
 100082223={ #            Guglielmo                 De Clario dei Baroni Di Finocchio        (1874-1948)     0
 	name="Guglielmo De Clario dei Baroni Di Finocchio"
 	dynasty=0
@@ -543,6 +653,53 @@
 	dynasty=0
 	religion=catholic culture=italian
 	1951.01.01={birth=yes}
+}
+
+100095177={ # Mkgf       Alexander                 Piatti                                   (1790-1831)     0
+	name="Alexander Piatti"
+	dynasty=0
+	religion=catholic culture=italian
+	1790.01.01={birth=yes}
+	1815.01.01={add_spouse=100117358}	# Anna Apponyi de Nagy-Apponyi
+	1831.01.01={death=yes}
+}
+100095174={ # Mkgf       Friedrich August          Piatti                                   (1803-1872)     0
+	name="Friedrich August Piatti"
+	dynasty=0
+	religion=catholic culture=italian
+	1803.07.01={birth=yes}
+	1830.07.01={add_spouse=100073064}	# Cecilia v. Collalto u.San Salvatore
+	1872.11.24={death=yes}
+}
+100095175={ # Gf         Ferdinand                 Piatti                                   (1833-1908)     0
+	name="Ferdinand Piatti"
+	dynasty=0
+	religion=catholic culture=italian
+	1833.08.18={birth=yes}
+	1860.07.01={add_spouse=100073068}	# Margarete Juliane v. Collalto u.San Salvatore
+	1908.02.26={death=yes}
+}
+100095176={ # Mkgf       Ferdinand                 Piatti                                   (1899-1980)     0
+	name="Ferdinand Piatti"
+	dynasty=0
+	religion=catholic culture=italian
+	1899.07.04={birth=yes}  # Loosdorf
+	1922.08.23={add_spouse=100073079}	# Anna v. Collalto u.San Salvatore
+	1980.03.18={death=yes}  # Vienna
+}
+100089010={ # Gf         Manfred                   Piatti                                   (1924-    )     0
+	name="Manfred Piatti"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1924.07.22={birth=yes}
+}
+100092843={ # Gf         Benedikt                  von Piatti                               (1966-    )     0
+	name="Benedikt von Piatti"
+	dynasty=0
+	religion=catholic culture=italian
+	1966.03.21={birth=yes}
+	1998.04.18={add_spouse=100020406}	# Margherita Anastasia v. Habsburg-Lothringen
 }
 
 100081202={ # Cte        Paolo                     Campello della Spina                     (1829-1917)     0
@@ -626,60 +783,45 @@
 	1985.06.22={death=yes}
 }
 
-100095229={ # Pr         Augusto                   Ruspoli                                  (1821-1882)     0
-	name="Augusto Ruspoli"
+100089663={ # Baronne    Flaminia                  Rossi                                    (1795-1840)     3
+	name="Flaminia Rossi"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1795.07.21={birth=yes}
+	1840.12.20={death=yes}
+}
+100089664={ # Cte        Francesco                 Rossi                                    (1797-1856)     0
+	name="Francesco Rossi"
+	dynasty=0
+	religion=catholic culture=italian
+	1797.12.05={birth=yes}
+	1849.07.22={add_spouse=100008449}	# Maria Luisa di Borbone-Parma
+	1855.01.01={remove_spouse=100008449}
+	1856.09.30={death=yes}
+}
+100095223={ #            Therese                   Rossi                                    (1805-1880)     4
+	name="Therese Rossi"
+	female=yes
 	dynasty=0
 	religion=catholic culture=hungarian
-	1821.01.01={birth=yes}
-	1846.06.06={add_spouse=100117558}	# Agnes Esterházy de Galántha
-	1882.07.02={death=yes}
+	1805.04.23={birth=yes}
+	1880.01.01={death=yes}
 }
-100095230={ # Don        Alessandro                Ruspoli                                  (1780-1842)     0
-	name="Alessandro Ruspoli"
-	dynasty=0
-	religion=catholic culture=hungarian
-	1780.01.01={birth=yes}
-	1805.06.04={add_spouse=100117589}	# Marianna Esterházy de Galántha
-	1842.10.01={death=yes}
-}
-100089748={ # Pr         Giovanni                  Ruspoli                                  (1807-1876)     0
-	name="Giovanni Ruspoli"
-	dynasty=0
-	religion=catholic culture=italian
-	1807.06.28={birth=yes}
-	1832.05.16={add_spouse=100072981}	# Barbara Massimo-Lancellotti
-	1876.11.06={death=yes}  # Rome
-}
-100089747={ # Don        Alessandro                Ruspoli                                  (1869-1952)     0
-	name="Alessandro Ruspoli"
-	dynasty=0
-	religion=catholic culture=italian
-	1869.01.14={birth=yes}  # Rome
-	1897.07.05={add_spouse=100072692}	# Marianita Lante Montefeltro della Rovere
-	1952.09.28={death=yes}  # Rome
-}
-100089749={ # Donna      Francesca Patrizia        Ruspoli dei Principi de Poggio Suasa     (1940-    )     2
-	name="Francesca Patrizia Ruspoli dei Principi de Poggio Suasa"
+100095222={ # Ctsa       Alessandrina              Rossi                                    (1844-1919)     5
+	name="Alessandrina Rossi"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1940.07.17={birth=yes}
+	1844.06.10={birth=yes}  # Berlin
+	1919.04.16={death=yes}  # Vienna
 }
-100083166={ #            Maria Cristina            dei Principi Ruspoli                     (1842-1907)     2
-	name="Maria Cristina dei Principi Ruspoli"
+100089667={ #            Lidia                     Rossi di Montelara                       (1963-    )     5
+	name="Lidia Rossi di Montelara"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1842.07.25={birth=yes}
-	1907.02.12={death=yes}
-}
-100083167={ #            Giacinta                  dei Principi Ruspoli                     (1898-1982)     5
-	name="Giacinta dei Principi Ruspoli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1898.04.11={birth=yes}
-	1982.09.04={death=yes}
+	1963.08.30={birth=yes}
 }
 
 100091028={ # Duca       Leopoldo                  Torlonia                                 (1853-1918)     0
@@ -721,6 +863,122 @@
 	1911.12.07={birth=yes}
 	1935.01.14={add_spouse=100025071}	# Beatriz de Bourbon
 	1986.05.12={death=yes}
+}
+
+100083383={ # Donna      Giovanna                  Doria dei Principi d'Angri               (1790-1817)     2
+	name="Giovanna Doria dei Principi d'Angri"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1790.02.07={birth=yes}
+	1817.08.31={death=yes}
+}
+100083384={ # Donna      Anna                      Doria dei Principi d'Angri               (1792-1882)     1
+	name="Anna Doria dei Principi d'Angri"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1792.08.29={birth=yes}
+	1882.04.05={death=yes}
+}
+100083386={ # Donna      Olimpia                   Doria-Pamphilj-Landi                     (1854-1929)     4
+	name="Olimpia Doria-Pamphilj-Landi"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1854.10.21={birth=yes}
+	1929.09.07={death=yes}
+}
+100083146={ #            Andrea                    dei Marchesi Doria                       (1919-2003)     0
+	name="Andrea dei Marchesi Doria"
+	dynasty=0
+	religion=catholic culture=italian
+	1919.11.15={birth=yes}
+	1952.06.30={add_spouse=100071460}	# Maria Anna Visconti
+	2003.05.27={death=yes}
+}
+100094325={ #            Marco                     dei Marchesi Doria Lamba                 (1881-1935)     0
+	name="Marco dei Marchesi Doria Lamba"
+	dynasty=0
+	religion=catholic culture=italian
+	1881.05.17={birth=yes}  # Turin
+	1911.01.31={add_spouse=100066337}	# Elisabeth de Merode
+	1935.08.24={death=yes}  # Turin
+}
+
+100087465={ #            Massimo                   Lo Cicero                                (1938-2015)     0
+	name="Massimo Lo Cicero"
+	dynasty=0
+	religion=catholic culture=italian
+	1938.01.01={birth=yes}
+	1963.01.01={add_spouse=100070876}	# Patrizia Colonna
+	2015.01.01={death=yes}  # EST.
+}
+100095044={ # Baron      Lajos Almos               Lo Presti di Fontana d'Anglioli          (1818-1878)     0
+	name="Lajos Almos Lo Presti di Fontana d'Anglioli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1818.01.01={birth=yes}
+	1843.12.12={add_spouse=100117561}	# Szerafin Esterházy de Galántha
+	1878.04.01={death=yes}
+}
+100087467={ # Frn        Eugenie                   Lo Presti di Fontana d'Anglioli          (1845-1866)     1
+	name="Eugenie Lo Presti di Fontana d'Anglioli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1845.12.01={birth=yes}
+	1866.06.23={death=yes}
+}
+100087466={ # Frn        Helene                    Lo Presti di Fontana d'Anglioli          (1847-1901)     1
+	name="Helene Lo Presti di Fontana d'Anglioli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1847.06.07={birth=yes}
+	1901.04.01={death=yes}
+}
+100087468={ # Bss        Ludovica                  Lo Prosti di Fontana d'Anglioli          (1817-1898)     3
+	name="Ludovica Lo Prosti di Fontana d'Anglioli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1817.01.01={birth=yes}
+	1898.03.26={death=yes}
+}
+
+100080117={ # Donna      Maria Virginia            Altieri                                  (1705-1773)     0
+	name="Maria Virginia Altieri"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1705.05.06={birth=yes}  # Rome
+	1773.01.01={death=yes}  # EST.
+}
+100080115={ # Pr         Paluzzo                   Altieri                                  (1760-1834)     0
+	name="Paluzzo Altieri"
+	dynasty=0
+	religion=catholic culture=italian
+	1760.01.01={birth=yes}  # Rome
+	1793.10.15={add_spouse=100015160}	# Maria Anna von Wettin
+	1834.01.10={death=yes}  # Rome
+}
+100096123={ # Pr         Lorenzo                   Altieri                                  (1829-1899)     0
+	name="Lorenzo Altieri"
+	dynasty=0
+	religion=orthodox culture=italian
+	1829.03.28={birth=yes}  # Rome
+	1876.12.02={add_spouse=100030107}	# Olga Cantacuzino
+	1899.01.31={death=yes}  # Gattaiola
+}
+100080116={ # Pr         Paolo Altieri             Altieri                                  (1849-1901)     0
+	name="Paolo Altieri Altieri"
+	dynasty=0
+	religion=catholic culture=italian
+	1849.11.17={birth=yes}
+	1874.02.02={add_spouse=100017975}	# Mathilde Auguste v. Urach
+	1901.01.04={death=yes}
 }
 
 100081580={ # Pssa       Margherita                Colonna Gioeni                           (1786-1864)     2
@@ -821,39 +1079,6 @@
 	1960.10.06={death=yes}
 }
 
-100083383={ # Donna      Giovanna                  Doria dei Principi d'Angri               (1790-1817)     2
-	name="Giovanna Doria dei Principi d'Angri"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1790.02.07={birth=yes}
-	1817.08.31={death=yes}
-}
-100083384={ # Donna      Anna                      Doria dei Principi d'Angri               (1792-1882)     1
-	name="Anna Doria dei Principi d'Angri"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1792.08.29={birth=yes}
-	1882.04.05={death=yes}
-}
-100083386={ # Donna      Olimpia                   Doria-Pamphilj-Landi                     (1854-1929)     4
-	name="Olimpia Doria-Pamphilj-Landi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1854.10.21={birth=yes}
-	1929.09.07={death=yes}
-}
-100083146={ #            Andrea                    dei Marchesi Doria                       (1919-2003)     0
-	name="Andrea dei Marchesi Doria"
-	dynasty=0
-	religion=catholic culture=italian
-	1919.11.15={birth=yes}
-	1952.06.30={add_spouse=100071460}	# Maria Anna Visconti
-	2003.05.27={death=yes}
-}
-
 100083837={ # Conte      Luigi                     Ferrari                                  (1850-1879)     0
 	name="Luigi Ferrari"
 	dynasty=0
@@ -887,7 +1112,40 @@
 	1938.01.01={death=yes}  # EST.
 }
 
-100090163={ # Pss        Blanca Maria              Sforza                                   (1472-1510)  0  0
+100083293={ #            Jeanne                    di Savoia                                (1532-1568)     3
+	name="Jeanne di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1532.01.01={birth=yes}  # Annecy
+	1568.07.04={death=yes}  # château de_Nomeny
+}
+100083292={ # Pss        Adelaide Henriette        di Savoia                                (1636-1676)     3
+	name="Adelaide Henriette di Savoia"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1636.11.06={birth=yes}  # Turin
+	1676.03.18={death=yes}  # Munich
+}
+100083294={ # Pss        Anna Vittoria             di Savoia-Carignano                      (1683-1763)     0
+	name="Anna Vittoria di Savoia-Carignano"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1683.09.11={birth=yes}  # Paris
+	1763.10.11={death=yes}  # Turin
+}
+100083295={ #            Maria Gabriella           di Savoia-Villafranca                    (1811-1837)     1
+	name="Maria Gabriella di Savoia-Villafranca"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1811.09.18={birth=yes}
+	1837.09.10={death=yes}
+}
+
+100090163={ # Pss        Blanca Maria              Sforza                                   (1472-1510)     0
 	name="Blanca Maria Sforza"
 	female=yes
 	dynasty=0
@@ -895,7 +1153,7 @@
 	1472.04.05={birth=yes}
 	1510.12.31={death=yes}
 }
-100090165={ # Pss        Bona                      Sforza                                   (1494-1557)  0  5
+100090165={ # Pss        Bona                      Sforza                                   (1494-1557)     5
 	name="Bona Sforza"
 	female=yes
 	dynasty=0
@@ -1084,31 +1342,6 @@
 	1929.07.13={death=yes}
 }
 
-100081322={ #            Maria Antonia             Cattaneo dei Principi di San Nicandro    (1763-1814)     7
-	name="Maria Antonia Cattaneo dei Principi di San Nicandro"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1763.04.16={birth=yes}
-	1814.06.09={death=yes}
-}
-100081323={ # Donna      Maria Giovanna            Cattaneo della Volta                     (1790-1876)     4
-	name="Maria Giovanna Cattaneo della Volta"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1790.11.02={birth=yes}
-	1876.02.15={death=yes}
-}
-100081324={ #            Luigi                     Cattaneo della Volta dei Principi di San Nicandro (1903-1984)     0
-	name="Luigi Cattaneo della Volta dei Principi di San Nicandro"
-	dynasty=0
-	religion=catholic culture=italian
-	1903.05.04={birth=yes}
-	1953.02.11={add_spouse=100071081}	# Anna Pia Colonna
-	1984.01.03={death=yes}
-}
-
 100081355={ # Gf         Alois                     Ceschi a Santa Croce                     (1825-1905)     0
 	name="Alois Ceschi a Santa Croce"
 	dynasty=0
@@ -1132,6 +1365,31 @@
 	religion=catholic culture=italian
 	1914.04.08={birth=yes}
 	1996.01.01={death=yes}
+}
+
+100081602={ # Cte        Ferdinando                Consolati                                (1833-1876)     0
+	name="Ferdinando Consolati"
+	dynasty=0
+	religion=catholic culture=italian
+	1833.01.07={birth=yes}
+	1857.06.30={add_spouse=100024223}	# Bianca Maria v. Thun u.Hohenstein
+	1876.05.03={death=yes}
+}
+100081603={ # Gfn        Marie Anne                Consolati                                (1858-1930)     4
+	name="Marie Anne Consolati"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1858.06.13={birth=yes}
+	1930.03.29={death=yes}
+}
+100081604={ # Gf         Guidobald                 Consolati                                (1870-1935)     0
+	name="Guidobald Consolati"
+	dynasty=0
+	religion=catholic culture=italian
+	1870.02.19={birth=yes}
+	1899.04.15={add_spouse=100024542}	# Hedwig v. Orsini u.Rosenberg
+	1935.07.21={death=yes}
 }
 
 100083171={ # Marchese   Ugo                       Del Castillo                             (1849-1922)     0
@@ -1182,31 +1440,6 @@
 	religion=catholic culture=italian
 	1699.01.01={birth=yes}
 	1766.01.01={death=yes}  # EST.
-}
-
-100083163={ #            Caterina                  dei Principi Giustiniani                 (1761-1813)     9
-	name="Caterina dei Principi Giustiniani"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1761.01.01={birth=yes}
-	1813.11.23={death=yes}
-}
-100083164={ #            Elena                     dei Principi Giustiniani Bandini         (1853-1950)    10
-	name="Elena dei Principi Giustiniani Bandini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1853.06.08={birth=yes}
-	1950.05.01={death=yes}
-}
-100083165={ # Donna      Maria                     dei Principi Giustiniani-Bandini         (1867-1963)     5
-	name="Maria dei Principi Giustiniani-Bandini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1867.04.17={birth=yes}
-	1963.01.20={death=yes}
 }
 
 100087189={ # Pss        Sofia                     Lanza Branciforte                        (1896-1984)     8
@@ -1260,6 +1493,30 @@
 	2004.01.01={death=yes}  # EST.
 }
 
+100088201={ # Gf         Albert                    Montecuccoli-Laderchi                    (1803-1852)     0
+	name="Albert Montecuccoli-Laderchi"
+	dynasty=0
+	religion=catholic culture=italian
+	1803.01.01={birth=yes}
+	1828.06.14={add_spouse=100012357}	# Charlotte WIlhelmine zu Oettingen-Wallerstein
+	1852.08.19={death=yes}
+}
+100088200={ # Gfn        Elisabeth                 Montecuccoli-Laderchi                    (1962-    )     9
+	name="Elisabeth Montecuccoli-Laderchi"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=italian
+	1962.09.15={birth=yes}
+}
+100092706={ # Pss        Ernestine                 von Montecuccoli                         (1663-1701)     3
+	name="Ernestine von Montecuccoli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1663.05.25={birth=yes}
+	1701.05.06={death=yes}
+}
+
 100088845={ # Marchesa   Silvia                    Paterno di Spedalotto                    (1953-    )     0
 	name="Silvia Paterno di Spedalotto"
 	female=yes
@@ -1282,6 +1539,31 @@
 	religion=catholic culture=italian
 	1892.12.09={birth=yes}
 	1948.05.06={death=yes}
+}
+
+100088851={ # Marchese   Patrizio                  Patrizi Montoro                          (1888-1968)     0
+	name="Patrizio Patrizi Montoro"
+	dynasty=0
+	religion=catholic culture=italian
+	1888.01.30={birth=yes}
+	1911.10.16={add_spouse=100071202}	# Sofia Odescalchi
+	1968.02.14={death=yes}
+}
+100088852={ # Marchese   Giovanni                  Patrizi Naro Montoro                     (1775-1818)     0
+	name="Giovanni Patrizi Naro Montoro"
+	dynasty=0
+	religion=catholic culture=italian
+	1775.01.01={birth=yes}  # Rome
+	1795.01.01={add_spouse=100015164}	# Kunigunde Anna von Wettin
+	1818.01.18={death=yes}  # Rome
+}
+100088853={ # Marchese   Giulio                    Patrizi Naro Montoro                     (1934-2010)     0
+	name="Giulio Patrizi Naro Montoro"
+	dynasty=0
+	religion=catholic culture=italian
+	1934.10.19={birth=yes}
+	1961.07.10={add_spouse=100071665}	# Agata Imperiali
+	2010.04.16={death=yes}
 }
 
 100083110={ #            Giacinta                  dei Conti della Porta Rodiani            (1821-1898)     2
@@ -1309,14 +1591,6 @@
 	1972.01.01={death=yes}  # EST.
 }
 
-100089596={ # Nobile     Marino                    Rodinò Di Miglione                       (1884-1960)     0
-	name="Marino Rodino' Di Miglione"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1884.12.18={birth=yes}
-	1960.04.11={death=yes}
-}
 100089598={ # Nobile     Antonio                   Rodinò Di Miglione                       (1857-1931)     0
 	name="Antonio Rodinò Di Miglione"
 	dynasty=0
@@ -1324,6 +1598,14 @@
 	1857.01.01={birth=yes}
 	1882.01.01={add_spouse=100071912}	# Giulia Imperiali
 	1931.01.01={death=yes}  # EST.
+}
+100089596={ # Nobile     Marino                    Rodinò Di Miglione                       (1884-1960)     0
+	name="Marino Rodinò Di Miglione"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1884.12.18={birth=yes}
+	1960.04.11={death=yes}
 }
 100089597={ #            Diego                     Rodinò Di Miglione                       (1979-    )     0
 	name="Diego Rodinò Di Miglione"
@@ -1333,14 +1615,6 @@
 	2006.09.26={add_spouse=100071555}	# Elena Visconti
 }
 
-100081991={ # Pr         Gianandrea                de' Sangro                               (1851-1890)     0
-	name="Gianandrea de' Sangro"
-	dynasty=0
-	religion=catholic culture=italian
-	1851.05.14={birth=yes}
-	1874.09.21={add_spouse=100070790}	# Bianca Colonna
-	1890.10.19={death=yes}
-}
 100082910={ # Donna      Ginevra                   de Sangro dei Principi di Fondi          (1910-1986)     2
 	name="Ginevra de Sangro dei Principi di Fondi"
 	female=yes
@@ -1348,6 +1622,14 @@
 	religion=catholic culture=italian
 	1910.01.17={birth=yes}
 	1986.12.31={death=yes}
+}
+100081991={ # Pr         Gianandrea                de' Sangro                               (1851-1890)     0
+	name="Gianandrea de' Sangro"
+	dynasty=0
+	religion=catholic culture=italian
+	1851.05.14={birth=yes}
+	1874.09.21={add_spouse=100070790}	# Bianca Colonna
+	1890.10.19={death=yes}
 }
 100083291={ # Pss        Violante                  di Sangro                                (1681-1748)     1
 	name="Violante di Sangro"
@@ -1374,13 +1656,63 @@
 	1895.06.16={add_spouse=100070356}	# Gabriella Lucchesi Palli
 	1939.07.28={death=yes}
 }
-100089882={ #            Giulia                    Sanseverino dei Principi di Bisignano    (1800-1881)     6
+100089882={ #            Giulia                    Sanseverino dei Principi di Bisignano    (1809-1881)     6
 	name="Giulia Sanseverino dei Principi di Bisignano"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
 	1809.03.19={birth=yes}
 	1881.11.26={death=yes}
+}
+
+100081322={ #            Maria Antonia             Cattaneo dei Principi di San Nicandro    (1763-1814)     7
+	name="Maria Antonia Cattaneo dei Principi di San Nicandro"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1763.04.16={birth=yes}
+	1814.06.09={death=yes}
+}
+100081323={ # Donna      Maria Giovanna            Cattaneo della Volta                     (1790-1876)     4
+	name="Maria Giovanna Cattaneo della Volta"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1790.11.02={birth=yes}
+	1876.02.15={death=yes}
+}
+100081324={ #            Luigi                     Cattaneo della Volta dei Principi di San Nicandro (1903-1984)     0
+	name="Luigi Cattaneo della Volta dei Principi di San Nicandro"
+	dynasty=0
+	religion=catholic culture=italian
+	1903.05.04={birth=yes}
+	1953.02.11={add_spouse=100071081}	# Anna Pia Colonna
+	1984.01.03={death=yes}
+}
+
+100083163={ #            Caterina                  dei Principi Giustiniani                 (1761-1813)     9
+	name="Caterina dei Principi Giustiniani"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1761.01.01={birth=yes}
+	1813.11.23={death=yes}
+}
+100083164={ #            Elena                     dei Principi Giustiniani Bandini         (1853-1950)    10
+	name="Elena dei Principi Giustiniani Bandini"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1853.06.08={birth=yes}
+	1950.05.01={death=yes}
+}
+100083165={ # Donna      Maria                     dei Principi Giustiniani-Bandini         (1867-1963)     5
+	name="Maria dei Principi Giustiniani-Bandini"
+	female=yes
+	dynasty=0
+	religion=catholic culture=english
+	1867.04.17={birth=yes}
+	1963.01.20={death=yes}
 }
 
 100080019={ # Duca       Giangirolamo              Acquaviva d'Aragona                      (1786-1818)     0
@@ -1415,37 +1747,27 @@
 	father=100083084	# CTE Pieralberto degli Albertini
 	1971.12.31={birth=yes}
 }
-100080117={ # Donna      Maria Virginia            Altieri                                  (1705-1773)     0
-	name="Maria Virginia Altieri"
+100083161={ # Don        Carlo Massimo             dei Principi di Arsoli                   (1942-    )     0
+	name="Carlo Massimo dei Principi di Arsoli"
+	dynasty=0
+	religion=catholic culture=italian
+	1942.07.03={birth=yes}  # Rome
+	1989.10.08={add_spouse=100026080}	# Elisa Osorio de Moscoso
+}
+100083162={ #            Barbara Massimo           dei Principi di Arsoli                   (1965-    )     0
+	name="Barbara Massimo dei Principi di Arsoli"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1705.05.06={birth=yes}  # Rome
-	1773.01.01={death=yes}  # EST.
+	1965.06.04={birth=yes}
 }
-100080116={ # Pr         Paolo Altieri             Altieri                                  (1849-1901)     0
-	name="Paolo Altieri Altieri"
-	dynasty=0
-	religion=catholic culture=italian
-	1849.11.17={birth=yes}
-	1874.02.02={add_spouse=100017975}	# Mathilde Auguste v. Urach
-	1901.01.04={death=yes}
-}
-100080281={ # Donna      Eleonora                  Avati dei Duchi di San Pietro            (1915-1985)     6
-	name="Eleonora Avati dei Duchi di San Pietro"
+100081838={ # Pss        Maria Caterina            d'Ayala Valva                            (1850-1930)     3
+	name="Maria Caterina d'Ayala Valva"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1915.03.04={birth=yes}
-	1985.05.01={death=yes}
-}
-100083139={ #            Luciana                   dei Marchesi Avati                       (1936-2013)     2
-	name="Luciana dei Marchesi Avati"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1936.04.27={birth=yes}
-	2013.01.01={death=yes}  # EST.
+	1850.08.21={birth=yes}
+	1930.09.12={death=yes}
 }
 100081839={ #            Alessandro                d'Ayala-Godoy                            (1835-1899)     0
 	name="Alessandro d'Ayala-Godoy"
@@ -1455,13 +1777,21 @@
 	1860.12.08={add_spouse=100071036}	# Vittoria Colonna
 	1899.11.07={death=yes}
 }
-100081838={ # Pss        Maria Caterina            d'Ayala Valva                            (1850-1930)     3
-	name="Maria Caterina d’Ayala Valva"
-	female=yes
+100080457={ # Cte        Giovanni                  Battista                                 (1838-1903)     0
+	name="Giovanni Battista"
+	dynasty=0
+	religion=catholic culture=sicilian
+	1838.03.23={birth=yes}
+	1865.11.04={add_spouse=100070313}	# Isabella Lucchesi Palli
+	1903.03.22={death=yes}
+}
+100080458={ #            Gabriele                  Battista                                 (1907-1983)     0
+	name="Gabriele Battista"
 	dynasty=0
 	religion=catholic culture=italian
-	1850.08.21={birth=yes}
-	1930.09.12={death=yes}
+	1907.01.01={birth=yes}
+	1927.01.01={add_spouse=100072242}	# Stefania del Balzo
+	1983.01.01={death=yes}  # EST.
 }
 100085789={ # Duca       Ferdinand                 Bianchi                                  (1810-1864)     0
 	name="Ferdinand Bianchi"
@@ -1478,22 +1808,6 @@
 	religion=catholic culture=italian
 	1952.01.01={birth=yes}
 }
-100080704={ # Barone     Giulio                    Blanc                                    (1891-1978)     0
-	name="Giulio Blanc"
-	dynasty=0
-	religion=catholic culture=frankish
-	1891.05.07={birth=yes}  # Paris
-	1924.10.24={add_spouse=100072689}	# Lavinia Lante Montefeltro della Rovere
-	1978.10.21={death=yes}  # Rome
-}
-100080703={ #            Antoinette                Blanc                                    (1920-2000)     2
-	name="Antoinette Blanc"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1920.09.08={birth=yes}
-	2000.05.21={death=yes}
-}
 100080850={ # Pr         Ranieri                   Bourbon del Monte                        (1843-1892)     0
 	name="Ranieri Bourbon del Monte"
 	dynasty=0
@@ -1509,22 +1823,6 @@
 	1808.08.24={birth=yes}
 	1829.08.11={add_spouse=100010657}	# Luise v. Hessen
 	1888.01.01={death=yes}	# EST.
-}
-100081014={ # Donna      Maria                     Brunas Serra dei Duchi di Cardinale      (1844-1905)     8
-	name="Maria Brunas Serra dei Duchi di Cardinale"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1844.05.01={birth=yes}
-	1905.07.24={death=yes}
-}
-100081015={ # Donna      Agata                     Brunas Serra dei Duchi di Cardinale      (1848-1925)     2
-	name="Agata Brunas Serra dei Duchi di Cardinale"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1848.03.17={birth=yes}
-	1925.05.23={death=yes}
 }
 100081149={ # Duca       Leone                     Caetani                                  (1869-1935)     0
 	name="Leone Caetani"
@@ -1653,22 +1951,6 @@
 	1840.07.16={add_spouse=100070852}	# Teresa Colonna
 	1886.02.07={death=yes}
 }
-100085757={ #            Anna Maria                dei Conti dal Borgo-Netolicky            (1925-1980)     2
-	name="Anna Maria dei Conti dal Borgo-Netolicky"
-	female=yes
-	dynasty=0
-	religion=catholic culture=bohemian
-	1925.07.04={birth=yes}
-	1980.01.18={death=yes}
-}
-100080457={ # Cte        Giovanni                  Battista                                 (1838-1903)     0
-	name="Giovanni di Conti"
-	dynasty=0
-	religion=catholic culture=sicilian
-	1838.03.23={birth=yes}
-	1865.11.04={add_spouse=100070313}	# Isabella Lucchesi Palli
-	1903.03.22={death=yes}
-}
 100081631={ # Conte      Antonio Mario             Coppola                                  (1825-1888)     0
 	name="Antonio Mario Coppola"
 	dynasty=0
@@ -1717,6 +1999,22 @@
 	1909.03.20={birth=yes}  # Naples
 	1999.07.16={death=yes}  # Rome
 }
+100081845={ #            Beatrice                  d'Este                                   (1332-1387)     0
+	name="Beatrice d'Este"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1332.01.01={birth=yes}
+	1387.01.01={death=yes}
+}
+100081844={ # Pss        Henriette                 d'Este                                   (1702-1777)     0
+	name="Henriette d'Este"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1702.05.27={birth=yes}
+	1777.01.30={death=yes}
+}
 100083767={ #            Emanuele                  Falco                                    (1929-2006)     0
 	name="Emanuele Falco"
 	female=yes
@@ -1749,6 +2047,22 @@
 	1882.01.01={birth=yes}
 	1956.01.28={death=yes}
 }
+100084064={ # Pr         Mario                     Gabrielli                                (1773-1841)     0
+	name="Mario Gabrielli"
+	dynasty=0
+	religion=catholic culture=italian
+	1773.12.06={birth=yes}
+	1815.12.27={add_spouse=100065215}	# Charlotte Bonaparte
+	1841.09.18={death=yes}
+}
+100084065={ # Pr         Placido                   Gabrielli                                (1832-1911)     0
+	name="Placido Gabrielli"
+	dynasty=0
+	religion=catholic culture=italian
+	1832.11.09={birth=yes}
+	1856.01.01={add_spouse=100065233}	# Augusta Bonaparte
+	1911.09.03={death=yes}
+}
 100083174={ # Marchese   Francesco                 del Gallo                                (1919-2009)     0
 	name="Francesco del Gallo"
 	dynasty=0
@@ -1765,6 +2079,14 @@
 	1847.08.30={add_spouse=100065226}	# Julie Bonaparte
 	1892.11.30={death=yes}
 }
+100084092={ #            Luisa                     Gallone dei Principi di Tricase Moliterno (1835-1908)     2
+	name="Luisa Gallone dei Principi di Tricase Moliterno"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1835.01.01={birth=yes}
+	1908.01.01={death=yes}  # EST.
+}
 100084091={ # Pss        Emanuela                  Gallone dei Principi di Tricase Moliterno (1854-1936)  2  3
 	name="Emanuela Gallone dei Principi di Tricase Moliterno"
 	female=yes
@@ -1772,14 +2094,6 @@
 	religion=catholic culture=neapolitan
 	1854.02.19={birth=yes}  # Naples
 	1936.03.26={death=yes}  # Naples
-}
-100084092={ #            Luisa                     Gallone dei Principi di Tricase Moliterno (1835-1908)     2
-	name="Luisa Gallone dei Principi di Trifase e Moliterno"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1835.01.01={birth=yes}
-	1908.01.01={death=yes}  # EST.
 }
 100084410={ # Duca       Pio                       Grazioli                                 (1886-1954)     0
 	name="Pio Grazioli"
@@ -1829,6 +2143,23 @@
 	1921.11.24={add_spouse=100070393}	# Giovanna Lucchesi Palli
 	1952.12.25={death=yes}
 }
+100084842={ # Pr         Astorre                   Hercolani                                (1877-1944)     0
+	name="Astorre Hercolani"
+	dynasty=0
+	religion=catholic culture=italian
+	1877.08.07={birth=yes}
+	1925.07.04={add_spouse=100070469}	# Santa Laudomia Borghese
+	1944.01.18={death=yes}
+}
+100084843={ # Cte        Andrea Angelo             Hercolani                                (1926-2003)     0
+	name="Andrea Angelo Hercolani"
+	dynasty=0
+	religion=catholic culture=italian
+	1926.04.21={birth=yes}
+	1952.11.29={add_spouse=100071360}	# Maria Laudomia del Drago
+	1975.01.01={remove_spouse=100071360}
+	2003.01.01={death=yes}  # EST.
+}
 100087497={ #            Liliana                   Lombardo                                 (1958-    )     2
 	name="Liliana Lombardo"
 	female=yes
@@ -1842,6 +2173,20 @@
 	religion=catholic culture=italian
 	1968.01.31={birth=yes}
 	2001.04.27={add_spouse=100070058}	# Mafalda de Savoie
+}
+100087543={ # Cte        Francesco                 Lovatelli                                (1946-    )     0
+	name="Francesco Lovatelli"
+	dynasty=0
+	religion=catholic culture=italian
+	1946.10.27={birth=yes}
+	1971.06.21={add_spouse=100071382}	# Beatrice del Drago
+}
+100087542={ # Ctsa       Damiana                   Lovatelli                                (1961-    )     6
+	name="Damiana Lovatelli"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=italian
+	1961.03.31={birth=yes}
 }
 100082574={ # Marchese   Orazio                    de Luca                                  (1879-1938)     0
 	name="Orazio de Luca"
@@ -1874,6 +2219,22 @@
 	religion=catholic culture=italian
 	1926.10.16={birth=yes}
 	1982.12.04={death=yes}
+}
+100087797={ # Gfn        Maria                     Marenzi von Tagliuno u.Talgate           (1852-1936)     0
+	name="Maria Marenzi von Tagliuno u.Talgate"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1852.10.01={birth=yes}
+	1936.10.10={death=yes}
+}
+100087798={ # Gf         Ludwig                    Marenzi von Tagliuno u.Talgate           (1894-1983)     0
+	name="Ludwig Marenzi von Tagliuno u.Talgate"
+	dynasty=0
+	religion=catholic culture=italian
+	1894.10.16={birth=yes}  # Vienna
+	1930.12.10={add_spouse=100026524}	# Ernestine von Schönburg
+	1983.05.11={death=yes}  # Vienna
 }
 100087799={ #            Federico                  Maresca                                  (1884-1918)     0
 	name="Federico Maresca"
@@ -1972,22 +2333,6 @@
 	1917.01.24={add_spouse=100070641}	# Caterina Borghese
 	1963.11.19={death=yes}
 }
-100088851={ # Marchese   Patrizio                  Patrizi Montoro                          (1888-1968)     0
-	name="Patrizio Patrizi Montoro"
-	dynasty=0
-	religion=catholic culture=italian
-	1888.01.30={birth=yes}
-	1911.10.16={add_spouse=100071202}	# Sofia Odescalchi
-	1968.02.14={death=yes}
-}
-100088853={ # Marchese   Giulio                    Patrizi Naro Montoro                     (1934-2010)     0
-	name="Giulio Patrizi Naro Montoro"
-	dynasty=0
-	religion=catholic culture=italian
-	1934.10.19={birth=yes}
-	1961.07.10={add_spouse=100071665}	# Agata Imperiali
-	2010.04.16={death=yes}
-}
 100088916={ # Marchese   Guido Taddeo              Pepoli                                   (1789-1852)     0
 	name="Guido Taddeo Pepoli"
 	dynasty=0
@@ -2004,22 +2349,6 @@
 	1844.12.05={add_spouse=100019714}	# Friederike v. Hohenzollern-Sigmaringen
 	1881.03.26={death=yes}
 }
-100088940={ # Donna      Anna                      Perrelli-Tomacelli-Filomarino Principessa di Cassano (1908-2001)     2
-	name="Anna Perrelli-Tomacelli-Filomarino Principessa di Cassano"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1908.02.26={birth=yes}
-	2001.06.05={death=yes}
-}
-100088939={ # Donna      Anna                      Perrelli-Tomacelli-Filomarino dei Principi di Boiano (1883-1957)     5
-	name="Anna Perrelli-Tomacelli-Filomarino dei Principi di Boiano"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1883.12.18={birth=yes}
-	1957.10.09={death=yes}
-}
 100089563={ # Cte        Giovanni                  Rizzardi                                 (1941-    )     0
 	name="Giovanni Rizzardi"
 	dynasty=0
@@ -2033,22 +2362,6 @@
 	dynasty=0
 	religion=catholic culture=italian
 	1993.01.01={birth=yes}
-}
-100089664={ # Cte        Francesco                 Rossi                                    (1797-1856)     0
-	name="Francesco Rossi"
-	dynasty=0
-	religion=catholic culture=italian
-	1797.12.05={birth=yes}
-	1849.07.22={add_spouse=100008449}	# Maria Luisa di Borbone-Parma
-	1855.01.01={remove_spouse=100008449}
-	1856.09.30={death=yes}
-}
-100089667={ #            Lidia                     Rossi di Montelara                       (1963-    )     5
-	name="Lidia Rossi di Montelara"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1963.08.30={birth=yes}
 }
 100089799={ # Don        Giovanni Battista         Sacchetti                                (1893-1974)     0
 	name="Giovanni Battista Sacchetti"
@@ -2065,6 +2378,22 @@
 	religion=catholic culture=italian
 	1923.06.10={birth=yes}
 	1999.01.01={death=yes}  # EST.
+}
+100089852={ # Marchese   Casimiro                  San Martino d'Agliè                      (1903-1988)     0
+	name="Casimiro San Martino d'Agliè"
+	dynasty=0
+	religion=catholic culture=sicilian
+	1903.08.05={birth=yes}
+	1940.06.11={add_spouse=100070243}	# Maria-Cristina Ruffo di Calabria
+	1988.12.08={death=yes}
+}
+100089853={ #            Margherita                San Mauro                                (1926-2003)     0
+	name="Margherita San Mauro"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1926.01.01={birth=yes}
+	2003.01.01={death=yes}  # EST.
 }
 100089884={ # Marchese   N                         Santasilia                               (1800-1872)     0
 	name="N Santasilia"
@@ -2129,6 +2458,37 @@
 	1917.09.14={birth=yes}
 	1993.04.15={death=yes}
 }
+100091236={ # Conte      Domenico                  Valentini Malavolti                      (1924-2000)     0
+	name="Domenico Valentini Malavolti"
+	dynasty=0
+	religion=catholic culture=italian
+	1924.07.14={birth=yes}
+	1980.01.21={add_spouse=100071702}	# Gloria Imperiali
+	2000.01.01={death=yes}  # EST.
+}
+100091235={ # Cte        Vincenzo                  Valentini di Laviano                     (1808-1858)     0
+	name="Vincenzo Valentini di Laviano"
+	dynasty=0
+	religion=catholic culture=frankish
+	1808.04.05={birth=yes}
+	1836.07.29={add_spouse=100065268}	# Marie Alexandrine Bonaparte
+	1858.07.13={death=yes}
+}
+100091467={ # Pss        Viridis                   Visconti                                 (1350-1425)     2
+	name="Viridis Visconti"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1350.01.01={birth=yes}
+	1425.01.01={death=yes}
+}
+100091468={ #            Maria Consolata           Visconti                                 (1989-    )     0
+	name="Maria Consolata Visconti"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1989.01.01={birth=yes}
+}
 100083045={ # Cte        Massimo                   de Vito Piscicelli di Collesano          (1943-    )     0
 	name="Massimo de Vito Piscicelli di Collesano"
 	female=yes
@@ -2143,85 +2503,6 @@
 	religion=catholic culture=italian
 	1913.03.14={birth=yes}
 	1943.04.12={death=yes}
-}
-100093835={ # Barone     Ricardo                   Winspeare-Guicciardi                     (1912-2002)     0
-	name="Ricardo Winspeare-Guicciardi"
-	dynasty=0
-	religion=catholic culture=italian
-	1912.10.17={birth=yes}
-	1964.10.31={add_spouse=100023012}	# Elisabeth v. Liechtenstein
-	2002.01.15={death=yes}
-}
-100083096={ #            Carlo                     dei Baroni Winspeare-Guicciardi          (1917-2009)     0
-	name="Carlo dei Baroni Winspeare-Guicciardi"
-	dynasty=0
-	religion=catholic culture=italian
-	1917.03.13={birth=yes}
-	1945.07.11={add_spouse=100070972}	# Maria Vittoria Colonna
-	2009.11.07={death=yes}
-}
-100081505={ #            Enrichetta                Ciccarelli                               (1859-1936)     1
-	name="Enrichetta Ciccarelli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1859.02.20={birth=yes}
-	1936.01.01={death=yes}
-}
-100081506={ #            Beatrice                  Ciccarelli                               (1864-1892)     2
-	name="Beatrice Ciccarelli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=neapolitan
-	1864.01.11={birth=yes}  # Naples
-	1892.10.14={death=yes}  # Bagnaia
-}
-100089586={ #            Maria Clotilde            Rocca                                    (1862-1885)     2
-	name="Maria Clotilde Rocca"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1862.01.01={birth=yes}
-	1885.04.24={death=yes}
-}
-100083198={ #            Ferdinando                della Rocca                              (1864-1938)     0
-	name="Ferdinando della Rocca"
-	dynasty=0
-	religion=catholic culture=italian
-	1864.01.01={birth=yes}
-	1889.07.22={add_spouse=100071024}	# Giuseppina Colonna
-	1938.01.01={death=yes}  # EST.
-}
-100087485={ #            Aldobrando                Lodoli                                   (1908-1984)     0
-	name="Aldobrando Lodoli"
-	dynasty=0
-	religion=catholic culture=italian
-	1908.05.05={birth=yes}
-	1939.12.02={add_spouse=100071687}	# Marina Imperiali
-	1984.01.01={death=yes}  # EST.
-}
-100087486={ #            Maria Antonietta          Lodoli                                   (1953-    )     0
-	name="Maria Antonietta Lodoli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1953.01.01={birth=yes}
-}
-100089877={ #            Virginia                  Sanjust dei Baroni di Teulada            (1928-2014)     0
-	name="Virginia Sanjust dei Baroni di Teulada"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1928.03.24={birth=yes}
-	2014.12.01={death=yes}
-}
-100089876={ #            Maria Carla               Sanjust dei Baroni di Teulada            (1932-2009)     4
-	name="Maria Carla Sanjust dei Baroni di Teulada"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1932.05.06={birth=yes}
-	2009.01.01={death=yes}  # EST.
 }
 100080045={ #            Giovanni                  Agnelli                                  (1921-2003)     0
 	name="Giovanni Agnelli"
@@ -2239,6 +2520,71 @@
 	1970.01.01={add_spouse=100072502}	# Allegra Caracciolo
 	2004.05.27={death=yes}
 }
+100080281={ # Donna      Eleonora                  Avati dei Duchi di San Pietro            (1915-1985)     6
+	name="Eleonora Avati dei Duchi di San Pietro"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1915.03.04={birth=yes}
+	1985.05.01={death=yes}
+}
+100083139={ #            Luciana                   dei Marchesi Avati                       (1936-2013)     2
+	name="Luciana dei Marchesi Avati"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1936.04.27={birth=yes}
+	2013.01.01={death=yes}  # EST.
+}
+100080574={ #            Maria Luisa               Bergozzi                                 (1921-1997)     2
+	name="Maria Luisa Bergozzi"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1921.10.11={birth=yes}
+	1997.01.01={death=yes}  # EST.
+}
+100080575={ #            N                         Bergozzi                                 (1932-2009)     0
+	name="N Bergozzi"
+	dynasty=0
+	religion=catholic culture=italian
+	1932.01.01={birth=yes}
+	1957.01.01={add_spouse=100070825}	# Livia Colonna
+	1992.01.01={remove_spouse=100070825}
+	2009.01.01={death=yes}  # EST.
+}
+100080704={ # Barone     Giulio                    Blanc                                    (1891-1978)     0
+	name="Giulio Blanc"
+	dynasty=0
+	religion=catholic culture=frankish
+	1891.05.07={birth=yes}  # Paris
+	1924.10.24={add_spouse=100072689}	# Lavinia Lante Montefeltro della Rovere
+	1978.10.21={death=yes}  # Rome
+}
+100080703={ #            Antoinette                Blanc                                    (1920-2000)     2
+	name="Antoinette Blanc"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1920.09.08={birth=yes}
+	2000.05.21={death=yes}
+}
+100081014={ # Donna      Maria                     Brunas Serra dei Duchi di Cardinale      (1844-1905)     8
+	name="Maria Brunas Serra dei Duchi di Cardinale"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1844.05.01={birth=yes}
+	1905.07.24={death=yes}
+}
+100081015={ # Donna      Agata                     Brunas Serra dei Duchi di Cardinale      (1848-1925)     2
+	name="Agata Brunas Serra dei Duchi di Cardinale"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1848.03.17={birth=yes}
+	1925.05.23={death=yes}
+}
 100081176={ #            Emanuela                  Calvi                                    (1950-    )     2
 	name="Emanuela Calvi"
 	female=yes
@@ -2253,6 +2599,22 @@
 	religion=lutheran culture=italian
 	1885.09.17={birth=yes}
 	1949.10.16={death=yes}
+}
+100081505={ #            Enrichetta                Ciccarelli                               (1859-1936)     1
+	name="Enrichetta Ciccarelli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1859.02.20={birth=yes}
+	1936.01.01={death=yes}
+}
+100081506={ #            Beatrice                  Ciccarelli                               (1864-1892)     2
+	name="Beatrice Ciccarelli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=neapolitan
+	1864.01.11={birth=yes}  # Naples
+	1892.10.14={death=yes}  # Bagnaia
 }
 100081593={ #            Emilia                    Compagna                                 (1855-1916)     5
 	name="Emilia Compagna"
@@ -2269,6 +2631,99 @@
 	religion=catholic culture=neapolitan
 	1891.08.18={birth=yes}  # Naples
 	1966.01.01={death=yes}  # EST.
+}
+100083798={ #            Laura                     Federici                                 (1939-1994)     3
+	name="Laura Federici"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1939.01.01={birth=yes}
+	1994.04.18={death=yes}
+}
+100083115={ #            Elena                     dei Conti Federici di Abriola            (1913-2005)     3
+	name="Elena dei Conti Federici di Abriola"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1913.11.08={birth=yes}
+	2005.10.18={death=yes}
+}
+100083916={ #            Igieai Costanza           Florio                                   (1900-1974)     5
+	name="Igieai Costanza Florio"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1900.06.04={birth=yes}
+	1974.02.04={death=yes}
+}
+100083917={ #            Mario                     Florio                                   (1922-1998)     0
+	name="Mario Florio"
+	dynasty=0
+	religion=catholic culture=italian
+	1922.01.01={birth=yes}
+	1947.01.30={add_spouse=100072558}	# Ofelia Pironti
+	1998.01.01={death=yes}  # EST.
+}
+100087337={ #            Maria Vittoria            Lepri                                    (1970-    )     3
+	name="Maria Vittoria Lepri"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1970.02.22={birth=yes}
+}
+100094326={ #            Stanislao                 dei Marchesi Lepri                       (1973-    )     0
+	name="Stanislao dei Marchesi Lepri"
+	dynasty=0
+	religion=catholic culture=italian
+	1973.09.10={birth=yes}
+	2006.10.14={add_spouse=100003017}	# Anna v. Waldburg zu Wolfegg u.Waldsee
+}
+100087395={ #            Achille                   Libertini                                (1914-1990)     0
+	name="Achille Libertini"
+	dynasty=0
+	religion=catholic culture=italian
+	1914.01.01={birth=yes}
+	1939.12.02={add_spouse=100072878}	# Anna Pignatelli
+	1990.01.01={death=yes}  # EST.
+}
+100087394={ #            Anna                      Libertini                                (1920-1996)     0
+	name="Anna Libertini"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1920.01.01={birth=yes}
+	1996.01.01={death=yes}  # EST.
+}
+100087485={ #            Aldobrando                Lodoli                                   (1908-1984)     0
+	name="Aldobrando Lodoli"
+	dynasty=0
+	religion=catholic culture=italian
+	1908.05.05={birth=yes}
+	1939.12.02={add_spouse=100071687}	# Marina Imperiali
+	1984.01.01={death=yes}  # EST.
+}
+100087486={ #            Maria Antonietta          Lodoli                                   (1953-    )     0
+	name="Maria Antonietta Lodoli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1953.01.01={birth=yes}
+}
+100082636={ #            Varlo                     de Mauro                                 (1791-1862)     0
+	name="Varlo de Mauro"
+	dynasty=0
+	religion=catholic culture=italian
+	1791.01.01={birth=yes}
+	1816.11.24={add_spouse=100072202}	# Margherita del Balzo
+	1862.01.01={death=yes}  # EST.
+}
+100083288={ #            Ugo                       di Mauro                                 (1896-1971)     0
+	name="Ugo di Mauro"
+	dynasty=0
+	religion=catholic culture=italian
+	1896.01.01={birth=yes}
+	1921.01.01={add_spouse=100072294}	# Maria del Rosario del Balzo
+	1971.01.01={death=yes}  # EST.
 }
 100088207={ #            Monica                    Monticelli                               (1954-    )     1
 	name="Monica Monticelli"
@@ -2301,6 +2756,22 @@
 	1956.01.01={birth=yes}
 	2009.08.01={death=yes}
 }
+100088940={ # Donna      Anna                      Perrelli-Tomacelli-Filomarino Principessa di Cassano (1908-2001)     2
+	name="Anna Perrelli-Tomacelli-Filomarino Principessa di Cassano"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1908.02.26={birth=yes}
+	2001.06.05={death=yes}
+}
+100088939={ # Donna      Anna                      Perrelli-Tomacelli-Filomarino dei Principi di Boiano (1883-1957)     5
+	name="Anna Perrelli-Tomacelli-Filomarino dei Principi di Boiano"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1883.12.18={birth=yes}
+	1957.10.09={death=yes}
+}
 100088971={ #            Raffaele Pio              Petrilli                                 (1901-1977)     0
 	name="Raffaele Pio Petrilli"
 	dynasty=0
@@ -2317,53 +2788,66 @@
 	1954.07.27={add_spouse=100070940}	# Cecilia Eusebia Colonna
 	2006.01.01={death=yes}  # EST.
 }
-100083916={ #            Igieai Costanza           Florio                                   (1900-1974)     5
-	name="Igieai Costanza Florio"
+100089376={ #            Cosimo                    Ranieri                                  (1978-    )     0
+	name="Cosimo Ranieri"
+	dynasty=0
+	religion=catholic culture=italian
+	1978.01.01={birth=yes}
+	2003.07.19={add_spouse=100071009}	# Ottavia Colonna
+}
+100089377={ #            Gianfilippo               Ranieri Bourbon del Monte dei marchesi di Sorbello (1969-    )     0
+	name="Gianfilippo Ranieri Bourbon del Monte dei marchesi di Sorbello"
+	dynasty=0
+	religion=catholic culture=italian
+	1969.01.01={birth=yes}
+	2002.10.01={add_spouse=100071553}	# Beatrice Orsina Visconti
+}
+100089586={ #            Maria Clotilde            Rocca                                    (1862-1885)     2
+	name="Maria Clotilde Rocca"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1900.06.04={birth=yes}
-	1974.02.04={death=yes}
+	1862.01.01={birth=yes}
+	1885.04.24={death=yes}
 }
-100083917={ #            Mario                     Florio                                   (1922-1998)     0
-	name="Mario Florio"
+100083198={ #            Ferdinando                della Rocca                              (1864-1938)     0
+	name="Ferdinando della Rocca"
 	dynasty=0
 	religion=catholic culture=italian
-	1922.01.01={birth=yes}
-	1947.01.30={add_spouse=100072558}	# Ofelia Pironti
-	1998.01.01={death=yes}  # EST.
+	1864.01.01={birth=yes}
+	1889.07.22={add_spouse=100071024}	# Giuseppina Colonna
+	1938.01.01={death=yes}  # EST.
 }
-100083798={ #            Laura                     Federici                                 (1939-1994)     3
-	name="Laura Federici"
+100089877={ #            Virginia                  Sanjust dei Baroni di Teulada            (1928-2014)     0
+	name="Virginia Sanjust dei Baroni di Teulada"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1939.01.01={birth=yes}
-	1994.04.18={death=yes}
+	1928.03.24={birth=yes}
+	2014.12.01={death=yes}
 }
-100083115={ #            Elena                     dei Conti Federici di Abriola            (1913-2005)     3
-	name="Elena dei Conti Federici di Abriola"
+100089876={ #            Maria Carla               Sanjust dei Baroni di Teulada            (1932-2009)     4
+	name="Maria Carla Sanjust dei Baroni di Teulada"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1913.11.08={birth=yes}
-	2005.10.18={death=yes}
+	1932.05.06={birth=yes}
+	2009.01.01={death=yes}  # EST.
 }
-100082636={ #            Varlo                     de Mauro                                 (1791-1862)     0
-	name="Varlo de Mauro"
+100089928={ #            Vincenzo                  Savino dei Marchesi di Auletta           (1962-    )     0
+	name="Vincenzo Savino dei Marchesi di Auletta"
 	dynasty=0
 	religion=catholic culture=italian
-	1791.01.01={birth=yes}
-	1816.11.24={add_spouse=100072202}	# Margherita del Balzo
-	1862.01.01={death=yes}  # EST.
+	1962.12.20={birth=yes}
+	1993.06.24={add_spouse=100071641}	# Maria Adelaide Imperiali
 }
-100083288={ #            Ugo                       di Mauro                                 (1896-1971)     0
-	name="Ugo di Mauro"
+100089929={ #            Alberto                   Savino di Auletta e San Angelo Le Fratte (1934-2009)     0
+	name="Alberto Savino di Auletta e San Angelo Le Fratte"
 	dynasty=0
 	religion=catholic culture=italian
-	1896.01.01={birth=yes}
-	1921.01.01={add_spouse=100072294}	# Maria del Rosario del Balzo
-	1971.01.01={death=yes}  # EST.
+	1934.04.23={birth=yes}
+	1962.03.03={add_spouse=100070637}	# Maria José Borghese
+	2009.05.25={death=yes}
 }
 100091471={ #            Alberto                   Visocchi                                 (1901-1970)     0
 	name="Alberto Visocchi"
@@ -2381,51 +2865,21 @@
 	1927.01.01={birth=yes}
 	2004.01.01={death=yes}  # EST.
 }
-100089928={ #            Vincenzo                  Savino dei Marchesi di Auletta           (1962-    )     0
-	name="Vincenzo Savino dei Marchesi di Auletta"
+100093835={ # Barone     Ricardo                   Winspeare-Guicciardi                     (1912-2002)     0
+	name="Ricardo Winspeare-Guicciardi"
 	dynasty=0
 	religion=catholic culture=italian
-	1962.12.20={birth=yes}
-	1993.06.24={add_spouse=100071641}	# Maria Adelaide Imperiali
+	1912.10.17={birth=yes}
+	1964.10.31={add_spouse=100023012}	# Elisabeth v. Liechtenstein
+	2002.01.15={death=yes}
 }
-100089929={ #            Alberto                   Savino di Auletta e San Angelo Le Fratte (1934-2009)     0
-	name="Alberto Savino di Auletta e San Angelo Le Fratte"
+100083096={ #            Carlo                     dei Baroni Winspeare-Guicciardi          (1917-2009)     0
+	name="Carlo dei Baroni Winspeare-Guicciardi"
 	dynasty=0
 	religion=catholic culture=italian
-	1934.04.23={birth=yes}
-	1962.03.03={add_spouse=100070637}	# Maria José Borghese
-	2009.05.25={death=yes}
-}
-100080574={ #            Maria Luisa               Bergozzi                                 (1921-1997)     2
-	name="Maria Luisa Bergozzi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1921.10.11={birth=yes}
-	1997.01.01={death=yes}  # EST.
-}
-100080575={ #            N                         Bergozzi                                 (1932-2009)     0
-	name="N Bergozzi"
-	dynasty=0
-	religion=catholic culture=italian
-	1932.01.01={birth=yes}
-	1957.01.01={add_spouse=100070825}	# Livia Colonna
-	1992.01.01={remove_spouse=100070825}
-	2009.01.01={death=yes}  # EST.
-}
-100089376={ #            Cosimo                    Ranieri                                  (1978-    )     0
-	name="Cosimo Ranieri"
-	dynasty=0
-	religion=catholic culture=italian
-	1978.01.01={birth=yes}
-	2003.07.19={add_spouse=100071009}	# Ottavia Colonna
-}
-100089377={ #            Gianfilippo               Ranieri Bourbon del Monte dei marchesi di Sorbello (1969-    )     0
-	name="Gianfilippo Ranieri Bourbon del Monte dei marchesi di Sorbello"
-	dynasty=0
-	religion=catholic culture=italian
-	1969.01.01={birth=yes}
-	2002.10.01={add_spouse=100071553}	# Beatrice Orsina Visconti
+	1917.03.13={birth=yes}
+	1945.07.11={add_spouse=100070972}	# Maria Vittoria Colonna
+	2009.11.07={death=yes}
 }
 100080022={ # Pr         Ferdinando                Acton di Spezzano e Conte di Picerno     (1908-1979)     0
 	name="Ferdinando Acton di Spezzano e Conte di Picerno"
@@ -2443,6 +2897,13 @@
 	1968.06.27={add_spouse=100072984}	# Maria Immacolata Massimo-Lancellotti
 	2008.04.13={death=yes}  # Sombreno di_Paladina
 }
+100080572={ # Css        Drusilla                  Alighieri de Serego                      (1944-    )     2
+	name="Drusilla Alighieri de Serego"
+	female=yes
+	dynasty=0
+	religion=orthodox culture=italian
+	1944.07.15={birth=yes}
+}
 100080181={ # Duchesa    Maria                     Antinori                                 (1870-1933)     2
 	name="Maria Antinori"
 	female=yes
@@ -2450,6 +2911,14 @@
 	religion=catholic culture=italian
 	1870.01.06={birth=yes}
 	1933.12.15={death=yes}
+}
+100080206={ # Duchesa    Ernestina                 Arborio di Gattinara                     (1866-1934)     0
+	name="Ernestina Arborio di Gattinara"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1866.02.09={birth=yes}  # Turin
+	1934.01.29={death=yes}
 }
 100080210={ # Nobile     Federico                  Arcelli                                  (1970-    )     0
 	name="Federico Arcelli"
@@ -2465,6 +2934,14 @@
 	1963.09.24={birth=yes}
 	1999.07.03={add_spouse=100072098}	# Maria Lucrezia Rospigliosi
 }
+100080280={ # Duca       Giuseppe                  Avarna                                   (1843-1916)     0
+	name="Giuseppe Avarna"
+	dynasty=0
+	religion=catholic culture=italian
+	1843.03.17={birth=yes}  # Palermo
+	1890.01.01={add_spouse=100126787}	# Maria Dolgorukov
+	1916.04.01={death=yes}  # Rome
+}
 100080347={ # Marchesa   Vittoria                  Balbi Senarega                           (1888-1965)     6
 	name="Vittoria Balbi Senarega"
 	female=yes
@@ -2472,6 +2949,14 @@
 	religion=catholic culture=italian
 	1888.12.18={birth=yes}
 	1965.01.21={death=yes}
+}
+100080386={ # Ctsa       Luciana                   Bargagli-Stoffi                          (1921-1984)     3
+	name="Luciana Bargagli-Stoffi"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1921.01.17={birth=yes}  # Bologna
+	1984.03.26={death=yes}  # Siena
 }
 100080555={ # Earl       Richard                   Bentick Boyle                            (1924-2000)     0
 	name="Richard Bentick Boyle"
@@ -2497,6 +2982,14 @@
 	1908.01.31={birth=yes}
 	1945.10.01={add_spouse=100071515}	# Ida Visconti
 	1990.10.30={death=yes}
+}
+100080816={ # Ctsa       Beatrice Dorothy          Bordessa                                 (1880-1963)     0
+	name="Beatrice Dorothy Bordessa"
+	female=yes
+	dynasty=0
+	religion=catholic culture=sicilian
+	1880.12.29={birth=yes}
+	1963.08.20={death=yes}
 }
 100080833={ # Cts        Maria José                Bossi-Fedrigotti                         (1951-    )     3
 	name="Maria José Bossi-Fedrigotti"
@@ -2592,6 +3085,14 @@
 	1945.12.30={birth=yes}
 	1974.04.27={add_spouse=100073013}	# Elisabetta Massimo-Lancellotti
 }
+100081648={ # Cte        Giambattista              Corniani                                 (1831-1876)     0
+	name="Giambattista Corniani"
+	dynasty=0
+	religion=orthodox culture=italian
+	1831.01.01={birth=yes}
+	1856.01.01={add_spouse=100126227}	# Leonilla Golizyn
+	1876.04.08={death=yes}
+}
 100081653={ # Cte        Francesco Maria           Correale                                 (1800-1872)     0
 	name="Francesco Maria Correale"
 	dynasty=0
@@ -2639,6 +3140,13 @@
 	1627.01.01={birth=yes}
 	1692.01.01={death=yes}  # EST.
 }
+100094841={ # Cte        Giovanni                  Facchinetti Pulazzini                    (1956-    )     0
+	name="Giovanni Facchinetti Pulazzini"
+	dynasty=0
+	religion=catholic culture=italian
+	1956.03.30={birth=yes}
+	1987.09.12={add_spouse=100073095}	# Maria v. Collalto u.San Salvatore
+}
 100083781={ # Marchese   Ruggero                   Farace di Villaforesta                   (1909-1970)     0
 	name="Ruggero Farace di Villaforesta"
 	dynasty=0
@@ -2653,6 +3161,21 @@
 	religion=catholic culture=castillan
 	1692.10.25={birth=yes}
 	1766.07.11={death=yes}
+}
+100083841={ # Pss        Luisa Vittoria            Ferrero-Fieschi                          (1779-1847)     3
+	name="Luisa Vittoria Ferrero-Fieschi"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1779.12.23={birth=yes}
+	1847.01.18={death=yes}
+}
+100083842={ # Cte        Fabio Maria               Ferretti di Castelferretto               (1968-    )     0
+	name="Fabio Maria Ferretti di Castelferretto"
+	dynasty=0
+	religion=catholic culture=frankish
+	1968.08.26={birth=yes}
+	1995.03.18={add_spouse=100062405}	# Stéphanie Ghislaine d’Ursel
 }
 100083843={ # Cte        Francesco                 Ferri                                    (1825-1887)     0
 	name="Francesco Ferri"
@@ -2693,6 +3216,14 @@
 	1903.12.27={birth=yes}
 	1946.12.27={add_spouse=100085201}	# Ida Lobkowicz
 	1983.10.29={death=yes}
+}
+100084067={ # Cte        Luigi                     Gaetani dell'Aquila d'Aragona dei Principi de Piedmonte (1877-1945)     0
+	name="Luigi Gaetani dell'Aquila d'Aragona dei Principi de Piedmonte"
+	dynasty=0
+	religion=catholic culture=neapolitan
+	1877.12.17={birth=yes}  # Naples
+	1901.02.09={add_spouse=100002027}	# Maria Franziska zu Solms-Braunfels
+	1945.04.12={death=yes}  # Bellavista
 }
 100084076={ # Conte      Giuseppe                  Galanti                                  (1896-1971)     0
 	name="Giuseppe Galanti"
@@ -2749,13 +3280,21 @@
 	religion=catholic culture=italian
 	1943.03.14={birth=yes}
 }
-100084338={ # Ctsa       Giulia                    Gori-Pannilini                           (1862-1935)     5
+100084338={ # Ctsa       Giulia                    Gori-Pannilini                           (1862-1935)     4
 	name="Giulia Gori-Pannilini"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
 	1862.04.24={birth=yes}
 	1935.05.24={death=yes}
+}
+100094900={ # Ctsa       Cecilia                   Gradenigo                                (1762-1827)     2
+	name="Cecilia Gradenigo"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1762.02.12={birth=yes}
+	1827.01.24={death=yes}
 }
 100084390={ # Marchese   Aslan                     Granafei                                 (1876-1947)     0
 	name="Aslan Granafei"
@@ -2789,11 +3328,11 @@
 	1896.04.03={birth=yes}
 	1974.02.09={death=yes}
 }
-100084471={ # Marchese   Melchior                  Gromis di Trana                          (1896-1970)     0
-	name="Melchior Gromis di Trana"
+100084471={ # Marchese   Melchior                  Gromis di Trana                          (1895-1970)     0
+	name="Melchior  Gromis di Trana"
 	dynasty=0
 	religion=catholic culture=italian
-	1896.12.31={birth=yes}
+	1895.12.31={birth=yes}
 	1925.07.09={add_spouse=100070079}	# Vittoria Guerrieri de Savoie
 	1970.01.01={death=yes}	# EST.
 }
@@ -2813,23 +3352,6 @@
 	religion=catholic culture=sicilian
 	1900.09.17={birth=yes}
 	1995.05.25={death=yes}
-}
-100084843={ # Cte        Andrea Angelo             Hercolani                                (1926-2003)     0
-	name="Andrea Angelo Hercolani"
-	dynasty=0
-	religion=catholic culture=italian
-	1926.04.21={birth=yes}
-	1952.11.29={add_spouse=100071360}	# Maria Laudomia del Drago
-	1975.01.01={remove_spouse=100071360}
-	2003.01.01={death=yes}  # EST.
-}
-100084842={ # Pr         Astorre                   Hercolani                                (1877-1944)     0
-	name="Astorre Hercolani"
-	dynasty=0
-	religion=catholic culture=italian
-	1877.08.07={birth=yes}
-	1925.07.04={add_spouse=100070469}	# Santa Laudomia Borghese
-	1944.01.18={death=yes}
 }
 100084955={ # Marchese   Honorato                  Honorati                                 (1800-1856)     0
 	name="Honorato Honorati"
@@ -2894,13 +3416,6 @@
 	1820.01.01={add_spouse=100071303}	# Cecilia Odescalchi
 	1866.01.01={death=yes}  # EST.
 }
-100087543={ # Cte        Francesco                 Lovatelli                                (1946-    )     0
-	name="Francesco Lovatelli"
-	dynasty=0
-	religion=catholic culture=italian
-	1946.10.27={birth=yes}
-	1971.06.21={add_spouse=100071382}	# Beatrice del Drago
-}
 100087792={ # Nobile     Elvira                    Marciani                                 (1903-1990)     2
 	name="Elvira Marciani"
 	female=yes
@@ -2932,6 +3447,14 @@
 	1814.01.01={birth=yes}
 	1858.04.19={add_spouse=100071389}	# Teresa del Drago
 	1887.01.01={death=yes}
+}
+100087992={ # Cte        Pio                       Meniconi                                 (1875-1956)     0
+	name="Pio Meniconi"
+	dynasty=0
+	religion=orthodox culture=italian
+	1875.01.01={birth=yes}
+	1900.01.01={add_spouse=100126802}	# Vera Dolgorukov
+	1956.09.23={death=yes}
 }
 100088078={ # Duchessa   Lucia                     Migliaccio di Floridia                   (1770-1826)     0
 	name="Lucia Migliaccio di Floridia"
@@ -2973,6 +3496,14 @@
 	1876.10.07={add_spouse=100022596}	# Olga v. Windisch-Graetz
 	1878.06.26={death=yes}
 }
+100095094={ # Ctsa       Amalia                    Mosconi-Fogaroli                         (1854-1891)     1
+	name="Amalia Mosconi-Fogaroli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1854.04.12={birth=yes}  # Verona
+	1891.11.17={death=yes}
+}
 100088371={ # Marchese   Giovanni                  Nagliatti                                (1819-1891)     0
 	name="Giovanni Nagliatti"
 	dynasty=0
@@ -2988,6 +3519,29 @@
 	1876.02.28={birth=yes}
 	1909.10.24={add_spouse=100070787}	# Marozia Colonna
 	1967.06.01={death=yes}
+}
+100088440={ # Nobile     Inigo                     Neri Serneri                             (1891-1950)     0
+	name="Inigo Neri Serneri"
+	dynasty=0
+	religion=catholic culture=italian
+	1891.07.22={birth=yes}
+	1932.07.14={add_spouse=100020837}	# Maria Immakulata v. Habsburg-Lothringen
+	1950.05.01={death=yes}
+}
+100088670={ # Duca       Guido                     Orazio Borea d'Olmo                      (1925-2009)     0
+	name="Guido Orazio Borea d'Olmo"
+	dynasty=0
+	religion=catholic culture=italian
+	1925.04.25={birth=yes}
+	1958.10.08={add_spouse=100000265}	# Marie-Elisabeth v. Arenberg
+	2009.12.30={death=yes}
+}
+100095144={ # Pr         Raimondo Umberto          Orsini                                   (1931-    )     0
+	name="Raimondo Umberto Orsini"
+	dynasty=0
+	religion=orthodox culture=georgian
+	1931.11.18={birth=yes}
+	1978.06.05={add_spouse=100050207}	# Kethevan Bagrationi-Muchraneli
 }
 100088727={ # Nobile     Olga                      Ourezoff                                 (1857-1931)     0
 	name="Olga Ourezoff"
@@ -3013,6 +3567,21 @@
 	1901.01.01={add_spouse=100071939}	# Maria Imperiali
 	1922.01.02={death=yes}
 }
+100095157={ # Nobile     Sophie Elisabeth          Pasquali                                 (1980-    )     2
+	name="Sophie Elisabeth Pasquali"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1980.05.01={birth=yes}
+}
+100095158={ # Css        Maria Antonietta          Pasquini                                 (1911-1944)     1
+	name="Maria Antonietta Pasquini"
+	female=yes
+	dynasty=0
+	religion=orthodox culture=georgian
+	1911.04.26={birth=yes}
+	1944.02.22={death=yes}
+}
 100088865={ # Marchese   Alessandro                Paulucci                                 (1822-1902)     0
 	name="Alessandro Paulucci"
 	dynasty=0
@@ -3035,6 +3604,14 @@
 	1894.01.01={birth=yes}
 	1919.01.01={add_spouse=100071981}	# Alfonsa Imperiali
 	1969.01.01={death=yes}  # EST.
+}
+100089029={ # Cte        Vittorio Giuseppe         Pietrasanta                              (1900-1946)     0
+	name="Vittorio Giuseppe Pietrasanta"
+	dynasty=0
+	religion=orthodox culture=italian
+	1900.01.09={birth=yes}
+	1935.04.27={add_spouse=100125332}	# Aleksandra Trubetzkoy
+	1946.08.09={death=yes}
 }
 100089043={ # Cssa       Eleonora                  Pignatti Morano di Custoza               (1947-2006)     4
 	name="Eleonora Pignatti Morano di Custoza"
@@ -3068,6 +3645,14 @@
 	1932.08.01={add_spouse=100072367}	# Maria del Rosario del Balzo
 	1951.12.25={death=yes}
 }
+100095197={ # Marchese   Roberto                   Pucci                                    (1823-1891)     0
+	name="Roberto Pucci"
+	dynasty=0
+	religion=orthodox culture=italian
+	1823.01.01={birth=yes}
+	1848.09.23={add_spouse=100004611}	# Lidia Bobrinsky
+	1891.01.01={death=yes}
+}
 100089282={ # Nobile     Carolina                  Pugnetti                                 (1868-1941)    15
 	name="Carolina Pugnetti"
 	female=yes
@@ -3092,6 +3677,14 @@
 	1734.01.01={birth=yes}
 	1756.01.01={death=yes}
 }
+100089498={ # Don        Raffaele                  Riario-Sforza                            (1767-1797)     0
+	name="Raffaele Riario-Sforza"
+	dynasty=0
+	religion=catholic culture=italian
+	1767.01.01={birth=yes}  # Cava dei_Tirreni
+	1794.02.18={add_spouse=100015162}	# Beatrix von Wettin
+	1797.12.24={death=yes}  # Dresden
+}
 100089806={ # Cte        Alvise                    Sagramoso                                (1924-1979)  2  0
 	name="Alvise Sagramoso"
 	dynasty=0
@@ -3109,14 +3702,6 @@
 	religion=catholic culture=italian
 	1894.01.01={birth=yes}
 	1969.01.01={death=yes}  # EST.
-}
-100089852={ # Marchese   Casimiro                  San Martino d'Agliè                      (1903-1988)     0
-	name="Casimiro San Martino d'Agliè"
-	dynasty=0
-	religion=catholic culture=sicilian
-	1903.08.05={birth=yes}
-	1940.06.11={add_spouse=100070243}	# Maria-Cristina Ruffo di Calabria
-	1988.12.08={death=yes}
 }
 100090108={ # Conte      Dino                      Secco Suardo                             (1889-1964)     0
 	name="Dino Secco Suardo"
@@ -3158,6 +3743,14 @@
 	1744.01.08={birth=yes}
 	1823.02.18={death=yes}
 }
+100090474={ # Ctsa       Clara                     Spinucci                                 (1741-1792)     6
+	name="Clara Spinucci"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1741.08.30={birth=yes}
+	1792.11.23={death=yes}
+}
 100090723={ # Nobile     Giulio                    Superti Furga                            (1962-    )     0
 	name="Giulio Superti Furga"
 	dynasty=0
@@ -3188,13 +3781,21 @@
 	1869.04.28={add_spouse=100070234}	# Maria Felice Ruffo di Calabria
 	1911.09.29={death=yes}
 }
-100091236={ # Conte      Domenico                  Valentini Malavolti                      (1924-2000)     0
-	name="Domenico Valentini Malavolti"
+100091091={ # Css        Ippolita                  Trivulzio                                (1602-1638)     1
+	name="Ippolita Trivulzio"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1602.01.01={birth=yes}
+	1638.01.01={death=yes}
+}
+100091229={ # nobile     Gianfranco                Vailati                                  (1937-2014)     0
+	name="Gianfranco Vailati"
 	dynasty=0
 	religion=catholic culture=italian
-	1924.07.14={birth=yes}
-	1980.01.21={add_spouse=100071702}	# Gloria Imperiali
-	2000.01.01={death=yes}  # EST.
+	1937.10.17={birth=yes}
+	1976.10.26={add_spouse=100025879}	# Grazia von Schönburg
+	2014.01.01={death=yes}  # EST.
 }
 100091239={ # Duca       Giovanni Battista         Valiante d'Avena                         (1931-2008)     0
 	name="Giovanni Battista Valiante d'Avena"
@@ -3211,6 +3812,14 @@
 	1928.03.24={birth=yes}
 	1971.06.30={add_spouse=100072310}	# Sveva del Balzo
 	2005.01.01={death=yes}  # EST.
+}
+100095409={ # marchesa   Anita                     Villani-Crivelli                         (1836-1911)     3
+	name="Anita Villani-Crivelli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1836.01.01={birth=yes}
+	1911.01.01={death=yes}
 }
 100091462={ # Cte        Roberto                   Vimercati Sanseverino                    (1872-1945)     0
 	name="Roberto Vimercati Sanseverino"
@@ -3253,7 +3862,7 @@
 	1944.09.27={death=yes}
 }
 100082932={ # Marchese   Charles Emanuel           de Simiane                               (1634-1699)     0
-	name="Charles Emanuel de Simiane di Montafia"
+	name="Charles Emanuel de Simiane"
 	dynasty=0
 	religion=catholic culture=italian
 	1634.01.01={birth=yes}
@@ -3328,13 +3937,21 @@
 	1897.02.27={add_spouse=100072461}	# Maria Beatrice Caracciolo
 	1937.02.21={death=yes}
 }
-100083178={ # Pss        Maria Vittoria            del Pozzo della Cisterna                 (1846-1876)     3
+100083178={ # Pss        Maria Vittoria            dal Pozzo della Cisterna                 (1846-1876)     3
 	name="Maria Vittoria del Pozzo della Cisterna"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
 	1846.08.09={birth=yes}
 	1876.11.08={death=yes}
+}
+100094398={ # Pr         Emanuele                  dal Pozzo della Cisterna                 (1821-1864)     0
+	name="Emanuele dal Pozzo della Cisterna"
+	dynasty=0
+	religion=catholic culture=italian
+	1821.01.01={birth=yes}
+	1846.09.27={add_spouse=100066331}	# Louise de Merode
+	1864.03.26={death=yes}
 }
 100083189={ # Duchessa   Irene                     dell'Abbadessa                           (1824-1910)     2
 	name="Irene dell'Abbadessa"
@@ -3391,6 +4008,46 @@
 	1861.01.27={birth=yes}
 	1884.01.06={death=yes}
 }
+100081315={ # Gfn        Barbara                   Castiglione                              (1755-1842)     2
+	name="Barbara Castiglione"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1755.01.01={birth=yes}
+	1842.01.01={death=yes}
+}
+100136033={ # Gfn        Aurora                    Guadagni                                 (1831-1898)     0
+	name="Aurora Guadagni"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1831.04.15={birth=yes}
+	1898.03.30={death=yes}  # Massa
+}
+100095067={ # Gf         Albert                    Marzani                                  (1845-1921)     0
+	name="Albert Marzani"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1845.05.10={birth=yes}  # Villa Lagarina
+	1863.06.18={add_spouse=100117270}	# Georgine Apponyi de Nagy-Apponyi
+	1921.10.06={death=yes}  # Gries
+}
+100088002={ # Gfn        Therese                   Meraviglia-Crivelli                      (1836-1918)     3
+	name="Therese Meraviglia-Crivelli"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1836.06.06={birth=yes}  # Milan
+	1918.11.24={death=yes}  # Traunstein
+}
+100094320={ # Mkgf       Alexandro                 degli Albizzi                            (1837-1910)     0
+	name="Alexandro degli Albizzi"
+	dynasty=0
+	religion=orthodox culture=italian
+	1837.01.01={birth=yes}
+	1860.01.01={add_spouse=100050440}	# Anna Bagrationi-Gruzinsky
+	1910.01.01={death=yes}  # EST.
+}
 100080258={ # Donna      Maria Luisa               Asquer dei Visconti di Fluminimaggiore e Gessa (1927-2004)     5
 	name="Maria Luisa Asquer dei Visconti di Fluminimaggiore e Gessa"
 	female=yes
@@ -3414,6 +4071,13 @@
 	religion=catholic culture=italian
 	1855.11.05={birth=yes}
 	1935.07.28={death=yes}
+}
+100081143={ # Bss        Luisa Caccia              Dominioni                                (1942-    )     1
+	name="Luisa Caccia Dominioni"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1942.09.20={birth=yes}
 }
 100083531={ # Barone     Umberto                   Duranti Valentini                        (1893-1978)     0
 	name="Umberto Duranti Valentini"
@@ -3487,158 +4151,6 @@
 	1919.11.20={add_spouse=100070387}	# Francesca Maria Lucchesi Palli
 	1970.04.25={death=yes}
 }
-100080009={ #            Arturo                    Acerra                                   (1882-1957)     0
-	name="Arturo Acerra"
-	dynasty=0
-	religion=catholic culture=italian
-	1882.03.01={birth=yes}
-	1925.06.03={add_spouse=100072504}	# Giulia Caracciolo
-	1957.01.01={death=yes}  # EST.
-}
-100080012={ #            Jules                     Achard de Bonvouloir                     (1880-1955)     0
-	name="Jules Achard de Bonvouloir"
-	dynasty=0
-	religion=catholic culture=italian
-	1880.01.01={birth=yes}
-	1905.12.22={add_spouse=100070942}	# Bianca Amalia Colonna
-	1955.01.01={death=yes}  # EST.
-}
-100080031={ #            Laura                     Adani                                    (1913-1996)     0
-	name="Laura Adani"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1913.01.01={birth=yes}
-	1996.08.30={death=yes}
-}
-100080048={ #            Ettore                    Agresti                                  (1895-1970)     0
-	name="Ettore Agresti"
-	dynasty=0
-	religion=catholic culture=italian
-	1895.01.01={birth=yes}
-	1920.01.01={add_spouse=100071904}	# Maria Rosaria Imperiali
-	1970.01.01={death=yes}  # EST.
-}
-100080065={ #            Piero Riccardo            Albertario                               (1974-    )     0
-	name="Piero Riccardo Albertario"
-	dynasty=0
-	religion=catholic culture=italian
-	1974.01.01={birth=yes}
-	1999.07.03={add_spouse=100072071}	# Benedetta Francesca Rospigliosi
-}
-100080078={ #            Marion                    Alessandri                               (1955-    )     0
-	name="Marion Alessandri"
-	dynasty=0
-	religion=catholic culture=italian
-	1955.01.01={birth=yes}
-	1975.12.20={add_spouse=100070878}	# Stefano Maria Colonna
-}
-100080091={ #            Anita Russell             Allen                                    (1878-1953)     3
-	name="Anita Russell Allen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1878.03.07={birth=yes}  # St.Louis Missouri
-	1953.02.16={death=yes}  # Rome
-}
-100080129={ #            Paolo                     Amalfitano                               (1946-    )     0
-	name="Paolo Amalfitano"
-	dynasty=0
-	religion=catholic culture=italian
-	1946.12.15={birth=yes}
-	1975.03.20={add_spouse=100070893}	# Marina Colonna
-}
-100080130={ #            Giuseppe                  Amati                                    (1804-1876)  0  0
-	name="Giuseppe Amati"
-	dynasty=0
-	religion=catholic culture=italian
-	1804.01.01={birth=yes}
-	1876.01.01={death=yes}  # EST.
-}
-100080133={ #            Francesca                 Amidani                                  (1920-2006)     0
-	name="Francesca Amidani"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1920.03.01={birth=yes}
-	2006.11.03={death=yes}
-}
-100080151={ #            Giovanni                  Andriani                                 (1929-2012)     0
-	name="Giovanni Andriani"
-	dynasty=0
-	religion=catholic culture=italian
-	1929.09.26={birth=yes}
-	1958.08.16={add_spouse=100070635}	# Flaminia Olimpia Borghese
-	2012.07.04={death=yes}
-}
-100080157={ #            Jenny Elizabeth           Angell                                   (1907-1985)     0
-	name="Jenny Elizabeth Angell"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1907.11.23={birth=yes}
-	1985.03.20={death=yes}
-}
-100080162={ #            Amedeo                    Angliolillo                              (1951-    )     0
-	name="Amedeo Angliolillo"
-	dynasty=0
-	religion=catholic culture=italian
-	1951.01.01={birth=yes}
-	1976.06.16={add_spouse=100071388}	# Maria Milagros del Drago
-}
-100080183={ #            Federica                  Antonelli                                (1977-    )     1
-	name="Federica Antonelli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1977.01.01={birth=yes}
-}
-100080218={ #            Vida                      Ariaey-Nejad                             (1975-    )     2
-	name="Vida Ariaey-Nejad"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1975.01.01={birth=yes}
-}
-100080233={ #            Carlotta                  Arnulfi                                  (1847-1924)     2
-	name="Carlotta Arnulfi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1847.12.02={birth=yes}
-	1924.01.01={death=yes}
-}
-100080234={ #            Nikè                      Arrighi                                  (1938-2015)     1
-	name="Nikè Arrighi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1938.01.01={birth=yes}
-	2015.01.01={death=yes}  # EST.
-}
-100080267={ #            Charles                   Atkinson-Grimshaw                        (1920-1968)     0
-	name="Charles Atkinson-Grimshaw"
-	dynasty=0
-	religion=catholic culture=english
-	1920.01.01={birth=yes}
-	1945.07.01={add_spouse=100072328}	# Beatrice del Balzo
-	1968.08.27={death=yes}
-}
-100080279={ #            Renzo                     Avanzo                                   (1911-1989)     0
-	name="Renzo Avanzo"
-	dynasty=0
-	religion=catholic culture=italian
-	1911.01.23={birth=yes}
-	1940.04.30={add_spouse=100071531}	# Uberta Visconti
-	1989.03.24={death=yes}
-}
-100080294={ #            Giovanna                  Baccaglino                               (1949-    )     2
-	name="Giovanna Baccaglino"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1949.01.01={birth=yes}
-}
 100080295={ #            Giulio                    Bacci dei Conti di Capaci                (1912-1993)     0
 	name="Giulio Bacci dei Conti di Capaci"
 	dynasty=0
@@ -3647,36 +4159,13 @@
 	1953.04.29={add_spouse=100071894}	# Maria Teresa Imperiali
 	1993.12.21={death=yes}
 }
-100080350={ #            Flaminia                  Balestra                                 (1893-1972)     1
-	name="Flaminia Balestra"
-	female=yes
+100080349={ #            Gian Vittorio             Baldi                                    (1944-    )     0
+	name="Gian Vittorio Baldi"
 	dynasty=0
 	religion=catholic culture=italian
-	1893.11.07={birth=yes}
-	1972.08.13={death=yes}
-}
-100080374={ #            Assunta                   Baratti                                  (1949-    )     2
-	name="Assunta Baratti"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1949.01.01={birth=yes}
-}
-100080380={ #            Teresa                    Barbieri                                 (1851-1928)     4
-	name="Teresa Barbieri"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1851.09.03={birth=yes}
-	1928.03.10={death=yes}
-}
-100080419={ #            Helena                    Bartipanova                              (1913-1989)     0
-	name="Helena Bartipanova"
-	female=yes
-	dynasty=0
-	religion=catholic culture=bohemian
-	1913.01.26={birth=yes}
-	1989.01.01={death=yes}  # EST.
+	1944.01.01={birth=yes}
+	1969.10.09={add_spouse=100005675}	# Marie Madeleine Gagarin
+	1975.01.01={remove_spouse=100005675}
 }
 100080431={ #            Concetta                  Bassano Cervo dei Marchesi di Tufilo     (1833-1859)     4
 	name="Concetta Bassano Cervo dei Marchesi di Tufilo"
@@ -3685,14 +4174,6 @@
 	religion=catholic culture=italian
 	1833.01.01={birth=yes}
 	1859.12.15={death=yes}
-}
-100080458={ #            Gabriele                  Battista                                 (1907-1983)     0
-	name="Gabriele Battista"
-	dynasty=0
-	religion=catholic culture=italian
-	1907.01.01={birth=yes}
-	1927.01.01={add_spouse=100072242}	# Stefania del Balzo
-	1983.01.01={death=yes}  # EST.
 }
 100080460={ #            Vittorio                  Baudi dei conti di Selve                 (1940-    )     0
 	name="Vittorio Baudi dei conti di Selve"
@@ -3725,37 +4206,6 @@
 	1922.05.08={add_spouse=100070389}	# Giovanna Lucchesi Palli
 	1947.12.01={death=yes}
 }
-100080531={ #            Umberto                   Bellet                                   (1887-1962)     0
-	name="Umberto Bellet"
-	dynasty=0
-	religion=catholic culture=italian
-	1887.01.01={birth=yes}
-	1912.04.26={add_spouse=100072554}	# Zeffirina Pironti
-	1962.01.01={death=yes}  # EST.
-}
-100080533={ #            Paolo                     Belli                                    (1935-2012)     0
-	name="Paolo Belli"
-	dynasty=0
-	religion=catholic culture=italian
-	1935.04.01={birth=yes}
-	1969.09.20={add_spouse=100070891}	# Flavia Colonna
-	2012.01.01={death=yes}  # EST.
-}
-100080568={ #            Pier Ettore               Bergamasco                               (1935-1978)     0
-	name="Pier Ettore Bergamasco"
-	dynasty=0
-	religion=catholic culture=italian
-	1935.01.01={birth=yes}
-	1960.11.09={add_spouse=100071567}	# Maria Visconti
-	1978.12.20={death=yes}
-}
-100080570={ #            Henrik Wilhelm            Bergman                                  (1941-    )     0
-	name="Henrik Wilhelm Bergman"
-	dynasty=0
-	religion=catholic culture=swedish
-	1941.03.07={birth=yes}
-	1967.10.25={add_spouse=100071771}	# Januaria Immacolata Imperiali
-}
 100080576={ #            Giuseppina                Berio dei Marchesi di Salsa              (1804-1876)     2
 	name="Giuseppina Berio dei Marchesi di Salsa"
 	female=yes
@@ -3787,36 +4237,13 @@
 	1964.01.01={birth=yes}
 	1989.04.10={add_spouse=100071192}	# Giulia Odescalchi
 }
-100080973={ #            Ethel                     Bronson                                  (1870-1924)     4
-	name="Ethel Bronson"
+100080935={ #            Adonella                  Brenciaglia                              (1923-1995)     2
+	name="Adonella Brenciaglia"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1870.06.06={birth=yes}
-	1924.11.05={death=yes}
-}
-100080988={ #            Brenda Maud               Brown                                    (1939-2014)     1
-	name="Brenda Maud Brown"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1939.02.13={birth=yes}
-	2014.09.23={death=yes}
-}
-100081009={ #            Max                       Brum                                     (1969-    )     0
-	name="Max Brum"
-	dynasty=0
-	religion=catholic culture=italian
-	1969.01.01={birth=yes}
-	1994.01.01={add_spouse=100071514}	# Verde Visconti
-}
-100081024={ #            Evelyn-Julie              Bryant Mackay                            (1861-1919)     3
-	name="Evelyn-Julie Bryant Mackay"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1861.11.12={birth=yes}
-	1919.03.28={death=yes}
+	1923.09.09={birth=yes}
+	1995.10.19={death=yes}
 }
 100081044={ #            Marco                     Bucci-Casari degli Atti                  (1924-2014)     0
 	name="Marco Bucci-Casari degli Atti"
@@ -3826,73 +4253,6 @@
 	1955.01.18={add_spouse=100070848}	# Maria Eleonora Colonna
 	2014.10.25={death=yes}
 }
-100081077={ #            Aida                      Burhans Canniff                          (1893-1983)     0
-	name="Aida Burhans Canniff"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1893.07.14={birth=yes}
-	1983.01.09={death=yes}
-}
-100081160={ #            Carlotta                  Calabresi                                (1976-    )     0
-	name="Carlotta Calabresi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1976.01.01={birth=yes}
-}
-100081178={ #            Andres                    Calvo Larrain                            (1955-    )     0
-	name="Andres Calvo Larrain"
-	dynasty=0
-	religion=catholic culture=castillan
-	1955.01.01={birth=yes}
-	1980.08.02={add_spouse=100072649}	# Patrizia Lante Montefeltro della Rovere
-}
-100081180={ #            Anna                      Caminneci                                (1882-1941)     1
-	name="Anna Caminneci"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1882.08.27={birth=yes}
-	1941.11.16={death=yes}
-}
-100081210={ #            Piero                     Canastrari                               (1933-2010)     0
-	name="Piero Canastrari"
-	dynasty=0
-	religion=catholic culture=italian
-	1933.01.01={birth=yes}
-	1958.12.08={add_spouse=100072308}	# Maria Rosaria del Balzo
-	2010.01.01={death=yes}  # EST.
-}
-100081211={ #            Fabio                     Canciani                                 (1957-    )     0
-	name="Fabio Canciani"
-	dynasty=0
-	religion=catholic culture=italian
-	1957.01.01={birth=yes}
-	1982.12.04={add_spouse=100071892}	# Maria Beatrice Imperiali
-}
-100081233={ #            Bianca                    Capsoni                                  (1840-1898)     0
-	name="Bianca Capsoni"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1840.01.01={birth=yes}
-	1898.02.16={death=yes}
-}
-100081234={ #            Isabella Olimpia          Capuano                                  (1993-    )     0
-	name="Isabella Olimpia Capuano"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1993.01.01={birth=yes}
-}
-100081235={ #            Alessandra                Caputo                                   (1970-    )     1
-	name="Alessandra Caputo"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1970.01.01={birth=yes}
-}
 100081256={ #            Francesca                 Caravita dei Duchi di Toritto            (1874-1961)     5
 	name="Francesca Caravita dei Duchi di Toritto"
 	female=yes
@@ -3901,80 +4261,21 @@
 	1874.05.21={birth=yes}
 	1961.12.07={death=yes}
 }
-100081272={ #            Maria                     Caro y Sureda                            (1775-1817)     0
-	name="Maria Caro y Sureda"
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1775.01.01={birth=yes}
-	1817.11.12={death=yes}  # Palma
-}
-100081273={ #            Margherita                Carone                                   (1956-    )     1
-	name="Margherita Carone"
-	female=yes
+100081289={ #            Salvatore                 Carriero                                 (1917-1993)     0
+	name="Salvatore Carriero"
 	dynasty=0
 	religion=catholic culture=italian
-	1956.01.01={birth=yes}
+	1917.01.01={birth=yes}
+	1942.01.31={add_spouse=100072874}	# Caterina Pignatelli
+	1993.01.01={death=yes}  # EST.
 }
-100081279={ #            Jeanne                    Carraby                                  (1870-1922)     0
-	name="Jeanne Carraby"
+100081312={ #            Marcella                  Castelli                                 (1918-1994)     1
+	name="Marcella Castelli"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1870.04.20={birth=yes}
-	1922.02.11={death=yes}
-}
-100081282={ #            Nicola                    Carraro                                  (1943-    )     0
-	name="Nicola Carraro"
-	dynasty=0
-	religion=catholic culture=italian
-	1943.01.01={birth=yes}
-	1963.01.26={add_spouse=100070905}	# Adonella Colonna
-}
-100081296={ #            Cesare                    Caruso                                   (1956-    )     0
-	name="Cesare Caruso"
-	dynasty=0
-	religion=catholic culture=italian
-	1956.01.01={birth=yes}
-	1981.06.12={add_spouse=100070970}	# Anna Colonna
-}
-100081298={ #            Fabrizia                  Casagrande                               (1983-    )     2
-	name="Fabrizia Casagrande"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1983.01.01={birth=yes}
-}
-100081300={ #            Elisa                     Casaretto                                (1883-1958)     0
-	name="Elisa Casaretto"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1883.11.16={birth=yes}
-	1958.01.01={death=yes}  # EST.
-}
-100081305={ #            Caterina                  Cassai                                   (1883-1958)     0
-	name="Caterina Cassai"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1883.01.23={birth=yes}
-	1958.01.01={death=yes}  # EST.
-}
-100081306={ #            Maria Amelia              Cassano                                  (1947-    )     1
-	name="Maria Amelia Cassano"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1947.01.01={birth=yes}
-}
-100081313={ #            Elena                     Castellini                               (1914-1990)     4
-	name="Elena Castellini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1914.11.26={birth=yes}
-	1990.01.01={death=yes}  # EST.
+	1918.01.01={birth=yes}
+	1994.01.01={death=yes}  # EST.
 }
 100081319={ #            Gaetano                   Catalano Gonzaga dei duchi di Majerà     (1960-    )     0
 	name="Gaetano Catalano Gonzaga dei duchi di Majerà"
@@ -3991,84 +4292,6 @@
 	1992.01.01={add_spouse=100070825}	# Livia Colonna
 	1996.05.16={death=yes}
 }
-100081346={ #            Ferdinanda                Centanin                                 (1900-1976)     0
-	name="Ferdinanda Centanin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1900.02.19={birth=yes}
-	1976.01.01={death=yes}  # EST.
-}
-100081384={ #            Cyprienne                 Charles-Roux                             (1917-2010)     2
-	name="Cyprienne Charles-Roux"
-	dynasty=0
-	religion=catholic culture=italian
-	1917.10.28={birth=yes}
-	1939.02.23={add_spouse=100071414}	# Marcello Lucido del Drago
-	2010.11.15={death=yes}
-}
-100081435={ #            Sandro                    Chia                                     (1952-    )     0
-	name="Sandro Chia"
-	dynasty=0
-	religion=catholic culture=italian
-	1952.01.01={birth=yes}
-	1995.01.01={add_spouse=100072488}	# Marella Caracciolo
-}
-100081454={ #            Nicoletta                 Chinni                                   (1944-    )     2
-	name="Nicoletta Chinni"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1944.01.01={birth=yes}
-}
-100081503={ #            Maria-Dorotea             Cianciulli                               (1875-1942)     8
-	name="Maria-Dorotea Cianciulli"
-	dynasty=0
-	religion=catholic culture=italian
-	1875.05.27={birth=yes}
-	1896.02.16={add_spouse=100070865}	# Stefano Colonna
-	1942.02.18={death=yes}
-}
-100081504={ #            Emilia                    Ciardulli                                (1808-1880)     2
-	name="Emilia Ciardulli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1808.01.24={birth=yes}
-	1880.09.23={death=yes}
-}
-100081508={ #            Angela                    Cima                                     (1921-1990)     1
-	name="Angela Cima"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1921.10.28={birth=yes}
-	1990.09.10={death=yes}
-}
-100081514={ #            Claire Noel               Claeys Bouuaert                          (1947-    )     5
-	name="Claire Noel Claeys Bouuaert"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1947.01.01={birth=yes}
-}
-100081522={ #            Margaret                  Clarke                                   (1905-1955)     3
-	name="Margaret Clarke"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1905.01.01={birth=yes}
-	1955.07.30={death=yes}
-}
-100081531={ #            Alexander                 Clausen Schmidt                          (1924-1972)     0
-	name="Alexander Clausen Schmidt"
-	dynasty=0
-	religion=catholic culture=italian
-	1924.01.01={birth=yes}
-	1949.12.12={add_spouse=100072085}	# Francesca Rospigliosi
-	1972.01.01={remove_spouse=100072085}
-	1972.01.01={death=yes}
-}
 100081552={ #            Eduardo                   Coardi di Carpenetto dei Marchesi di Bagnasco (1857-1927)     0
 	name="Eduardo Coardi di Carpenetto dei Marchesi di Bagnasco"
 	dynasty=0
@@ -4076,22 +4299,6 @@
 	1857.02.07={birth=yes}
 	1900.12.12={add_spouse=100070211}	# Sofia Ruffo di Calabria
 	1927.01.13={death=yes}
-}
-100081577={ #            Adriena                   Colombo                                  (1916-1983)     4
-	name="Adriena Colombo"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1916.09.27={birth=yes}
-	1983.07.11={death=yes}
-}
-100081613={ #            Tatiana                   Conus                                    (1916-2009)     3
-	name="Tatiana Conus"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1916.02.01={birth=yes}
-	2009.07.29={death=yes}
 }
 100081641={ #            Gherardo                  Cornaggia Medici dei Marchesi di Castellanza (1912-1983)     0
 	name="Gherardo Cornaggia Medici dei Marchesi di Castellanza"
@@ -4101,52 +4308,6 @@
 	1948.09.22={add_spouse=100070624}	# Giulia Borghese
 	1983.08.17={death=yes}
 }
-100081647={ #            Giorgio                   Cornia                                   (1932-2009)     0
-	name="Giorgio Cornia"
-	dynasty=0
-	religion=catholic culture=italian
-	1932.01.01={birth=yes}
-	1957.01.01={add_spouse=100070545}	# Camilla Borghese
-	2009.01.01={death=yes}  # EST.
-}
-100081656={ #            Maria Vittoria            Corsini                                  (1732-1797)     4
-	name="Maria Vittoria Corsini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1732.01.01={birth=yes}
-	1797.01.01={death=yes}
-}
-100081657={ #            Ennio                     Cortese                                  (1931-2008)     0
-	name="Ennio Cortese"
-	dynasty=0
-	religion=catholic culture=italian
-	1931.01.01={birth=yes}
-	1956.01.01={add_spouse=100071778}	# Cecilia Imperiali
-	2008.01.01={death=yes}  # EST.
-}
-100081661={ #            Manilo                    Cosatti                                  (1956-    )     0
-	name="Manilo Cosatti"
-	dynasty=0
-	religion=catholic culture=sicilian
-	1956.07.04={birth=yes}
-	1987.01.02={add_spouse=100070370}	# Maria Bernadetta Lucchesi Palli
-}
-100081666={ #            Dora                      Cosulich                                 (1919-2005)     4
-	name="Dora Cosulich"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1919.02.18={birth=yes}
-	2005.07.31={death=yes}
-}
-100081697={ #            Franco                    Cozzolino                                (1940-    )     0
-	name="Franco Cozzolino"
-	dynasty=0
-	religion=catholic culture=italian
-	1940.01.01={birth=yes}
-	1965.01.01={add_spouse=100071647}	# Maria Loreta Imperiali
-}
 100081723={ #            Caterina                  Crivelli dai Duchi di Rocca Imperiali    (1773-1818)     7
 	name="Caterina Crivelli dai Duchi di Rocca Imperiali"
 	female=yes
@@ -4155,105 +4316,12 @@
 	1773.01.01={birth=yes}
 	1818.08.14={death=yes}
 }
-100081731={ #            Miriam                    Crosby                                   (1888-1966)     1
-	name="Miriam Crosby"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1888.01.01={birth=yes}
-	1966.08.23={death=yes}
-}
-100081970={ #            Mathilde                  Davis                                    (1841-1917)     6
-	name="Mathilde Davis"
-	female=yes
+100094475={ #            Tristan Charles Johnson   Elbrick                                  (1981-    )     0
+	name="Tristan Charles Johnson Elbrick"
 	dynasty=0
 	religion=catholic culture=english
-	1841.07.11={birth=yes}  # New York
-	1917.02.08={death=yes}  # Rome
-}
-100081992={ #            Grazia                    De'Marco                                 (1960-    )     0
-	name="Grazia De'Marco"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1960.01.01={birth=yes}
-}
-100083237={ #            Margherita                DeRosa                                   (1881-1945)     5
-	name="Margherita DeRosa"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1881.01.01={birth=yes}
-	1945.09.20={death=yes}
-}
-100083376={ #            Ettore                    Donnorso                                 (1853-1927)  0  0
-	name="Ettore Donnorso"
-	dynasty=0
-	religion=catholic culture=italian
-	1853.01.01={birth=yes}
-	1927.01.01={death=yes}  # EST.
-}
-100083381={ #            Giuseppe                  Dori                                     (1862-1934)     0
-	name="Giuseppe Dori"
-	dynasty=0
-	religion=catholic culture=italian
-	1862.01.01={birth=yes}
-	1887.07.21={add_spouse=100072286}	# Maria Immacolata del Balzo
-	1934.01.01={death=yes}
-}
-100083546={ #            Grace                     Dyer                                     (1922-1981)     3
-	name="Grace Dyer"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1922.11.01={birth=yes}
-	1981.03.01={death=yes}
-}
-100083600={ #            John                      Eden Grace                               (1920-1996)     0
-	name="John Eden Grace"
-	dynasty=0
-	religion=catholic culture=english
-	1920.01.01={birth=yes}
-	1945.01.01={add_spouse=100072087}	# Camilla Rospigliosi
-	1959.01.01={remove_spouse=100072087}
-	1996.01.01={death=yes}  # EST.
-}
-100083637={ #            Alexandra Elisabeth       Eisenburger                              (1966-    )     3
-	name="Alexandra Elisabeth Eisenburger"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1966.09.20={birth=yes}  # Peoria U.S.A.
-}
-100083643={ #            Michael                   Elek                                     (1969-    )     0
-	name="Michael Elek"
-	dynasty=0
-	religion=catholic culture=italian
-	1969.01.01={birth=yes}
-	1994.02.24={add_spouse=100071621}	# Francesca Romana Imperiali
-}
-100083687={ #            Carla                     Erba                                     (1880-1939)     7
-	name="Carla Erba"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1880.01.01={birth=yes}
-	1939.01.17={death=yes}
-}
-100083771={ #            Filippo                   Falconi                                  (1942-    )     0
-	name="Filippo Falconi"
-	dynasty=0
-	religion=catholic culture=italian
-	1942.01.01={birth=yes}
-	1967.04.14={add_spouse=100072303}	# Maria Nives del Balzo
-}
-100083773={ #            Franca                    Faldini                                  (1931-2008)     1
-	name="Franca Faldini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1931.02.01={birth=yes}
-	2008.01.01={death=yes}  # EST.
+	1981.01.01={birth=yes}
+	2006.07.01={add_spouse=100072866}	# Francesca Pignatelli
 }
 100083777={ #            Cesare                    Falletti dei Conti di Villafalletto      (1987-    )     0
 	name="Cesare Falletti dei Conti di Villafalletto"
@@ -4262,29 +4330,6 @@
 	1987.01.01={birth=yes}
 	2012.06.02={add_spouse=100071508}	# Ilaria Visconti
 }
-100083780={ #            Franco                    Fanini                                   (1965-    )     0
-	name="Franco Fanini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1965.01.01={birth=yes}
-}
-100083782={ #            Giuseppina                Faraggiana                               (1838-1898)     1
-	name="Giuseppina Faraggiana"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1838.01.01={birth=yes}
-	1898.10.28={death=yes}
-}
-100083797={ #            Marcella                  Fazi                                     (1911-2002)     1
-	name="Marcella Fazi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1911.02.15={birth=yes}
-	2002.01.19={death=yes}
-}
 100083836={ #            Margherita                Ferrara Pignatelli dei Baroni di Silvio  (1912-2001)     4
 	name="Margherita Ferrara Pignatelli dei Baroni di Silvio"
 	female=yes
@@ -4292,6 +4337,14 @@
 	religion=catholic culture=italian
 	1912.02.16={birth=yes}
 	2001.03.08={death=yes}
+}
+100083860={ #            Ravaschieri               Fieschi dei Duchi di Roccapiemonte       (1904-2004)     0
+	name="Ravaschieri Fieschi dei Duchi di Roccapiemonte"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1904.06.16={birth=yes}  # Rome
+	2004.04.03={death=yes}
 }
 100083866={ #            Bianca                    Filangieri dei Principi di Cutò          (1761-1802)     2
 	name="Bianca Filangieri dei Principi di Cutò"
@@ -4309,13 +4362,6 @@
 	1924.05.08={birth=yes}
 	2000.01.01={death=yes}  # EST.
 }
-100083901={ #            Margherita                Flamini                                  (1979-    )     2
-	name="Margherita Flamini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1979.01.01={birth=yes}
-}
 100083914={ #            Carolina                  Flori dei Marchesi di Serramezzana       (1873-1947)     0
 	name="Carolina Flori dei Marchesi di Serramezzana"
 	female=yes
@@ -4324,50 +4370,12 @@
 	1873.02.20={birth=yes}
 	1947.01.01={death=yes}  # EST.
 }
-100083923={ #            Myriam                    Fobe                                     (1993-    )     0
-	name="Myriam Fobe"
-	female=yes
+100084404={ #            Antonio                   Grassi                                   (1945-    )     0
+	name="Antonio Grassi"
 	dynasty=0
 	religion=catholic culture=italian
-	1993.01.01={birth=yes}
-}
-100083940={ #            Donatella                 Foresio                                  (1949-    )     1
-	name="Donatella Foresio"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1949.01.01={birth=yes}
-}
-100083941={ #            Antonio                   Foresti                                  (1967-    )     0
-	name="Antonio Foresti"
-	dynasty=0
-	religion=catholic culture=italian
-	1967.01.01={birth=yes}
-	1992.09.12={add_spouse=100072268}	# Francesca del Balzo
-}
-100083954={ #            Imogene                   Forti                                    (1872-1936)     1
-	name="Imogene Forti"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1872.09.20={birth=yes}
-	1936.11.22={death=yes}
-}
-100083968={ #            Leonardo                  Fraggiacomo                              (1855-1929)     0
-	name="Leonardo Fraggiacomo"
-	dynasty=0
-	religion=catholic culture=italian
-	1855.01.01={birth=yes}
-	1880.04.22={add_spouse=100072210}	# Maria Michelina del Balzo
-	1929.01.01={death=yes}  # EST.
-}
-100083971={ #            Giulio                    Francesconi                              (1876-1951)     0
-	name="Giulio Francesconi"
-	dynasty=0
-	religion=catholic culture=italian
-	1876.01.01={birth=yes}
-	1901.06.02={add_spouse=100071034}	# Emilia Colonna
-	1951.01.01={death=yes}  # EST.
+	1945.01.01={birth=yes}
+	1970.10.31={add_spouse=100072843}	# Alessandra Malfatti
 }
 100084414={ #            Fanny                     Greco di Chiaramonte                     (1905-1977)     1
 	name="Fanny Greco di Chiaramonte"
@@ -4423,192 +4431,13 @@
 	1813.08.17={birth=yes}
 	1881.05.16={death=yes}
 }
-100084534={ #            Potentina                 Guidotti                                 (1849-1922)     1
-	name="Potentina Guidotti"
-	female=yes
-	dynasty=0
-	religion=catholic culture=neapolitan
-	1849.06.05={birth=yes}  # Naples
-	1922.01.01={death=yes}  # EST.
-}
-100084556={ #            Christina                 Gun Svedlund                             (1943-    )     1
-	name="Christina Gun Svedlund"
+100084533={ #            Maria                     Guido                                    (1889-1980)     6
+	name="Maria Guido"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1943.01.01={birth=yes}
-}
-100084616={ #            Ludwig                    Hachfeld                                 (1955-    )     0
-	name="Ludwig Hachfeld"
-	dynasty=0
-	religion=catholic culture=italian
-	1955.01.01={birth=yes}
-	1980.01.05={add_spouse=100072273}	# Ughetta del Balzo
-	1986.01.01={remove_spouse=100072273}
-}
-100084649={ #            Ann                       Halloran                                 (1965-2014)     2
-	name="Ann Halloran"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1965.01.01={birth=yes}
-	2014.06.20={death=yes}
-}
-100084682={ #            John                      Harding                                  (1934-2006)     0
-	name="John Harding"
-	dynasty=0
-	religion=catholic culture=castillan
-	1934.09.04={birth=yes}  # Boston
-	1960.01.21={add_spouse=100072677}	# Lavinia Lante Montefeltro della Rovere
-	2006.11.12={death=yes}  # Phoenix
-}
-100084715={ #            Patricia                  Harvey Campbell                          (1946-    )     2
-	name="Patricia Harvey Campbell"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1946.07.01={birth=yes}
-}
-100084718={ #            Mildred                   Haseltine                                (1879-1946)     2
-	name="Mildred Haseltine"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1879.02.09={birth=yes}
-	1946.11.09={death=yes}
-}
-100085179={ #            Maria Luisa               Hueber                                   (1811-1893)     5
-	name="Maria Luisa Hueber"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1811.02.24={birth=yes}
-	1893.05.21={death=yes}
-}
-100085322={ #            Matthew Hunter            Hurlock                                  (1978-    )     0
-	name="Matthew Hunter Hurlock"
-	dynasty=0
-	religion=catholic culture=english
-	1978.01.01={birth=yes}
-	2003.06.01={add_spouse=100071669}	# Severa Imperiali
-}
-100085337={ #            Caterina                  Hvostchenskoy                            (1860-1934)     4
-	name="Caterina Hvostchenskoy"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1860.01.01={birth=yes}
-	1934.01.01={death=yes}  # EST.
-}
-100085434={ #            Massimo                   Igliori                                  (1923-1999)     0
-	name="Massimo Igliori"
-	dynasty=0
-	religion=catholic culture=italian
-	1923.01.01={birth=yes}  # Rome
-	1950.01.01={add_spouse=100072653}	# Angela Lante Montefeltro della Rovere
-	1992.01.01={remove_spouse=100072653}
-	1999.01.01={death=yes}  # EST.
-}
-100085459={ #            Celeste                   Isidori                                  (1827-1870)     4
-	name="Celeste Isidori"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1827.09.05={birth=yes}
-	1870.05.24={death=yes}
-}
-100085471={ #            Adriano                   Isè                                      (1965-    )     0
-	name="Adriano Isè"
-	dynasty=0
-	religion=catholic culture=italian
-	1965.01.01={birth=yes}
-	1990.03.05={add_spouse=100071064}	# Stefania Colonna
-}
-100085611={ #            Marino                    Jannucci                                 (1919-1995)     0
-	name="Marino Jannucci"
-	dynasty=0
-	religion=catholic culture=italian
-	1919.01.01={birth=yes}
-	1944.07.01={add_spouse=100071786}	# Costanza Imperiali
-	1995.01.01={death=yes}  # EST.
-}
-100085925={ #            Avery                     Johnine Leigh                            (1945-    )     0
-	name="Avery Johnine Leigh"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1945.10.27={birth=yes}
-}
-100086458={ #            Rosy                      Kaplan                                   (1911-1980)     1
-	name="Rosy Kaplan"
-	dynasty=0
-	religion=catholic culture=italian
-	1911.05.12={birth=yes}
-	1938.10.24={add_spouse=100071072}	# Luigi Colonna
+	1889.02.23={birth=yes}
 	1980.01.01={death=yes}
-}
-100086762={ #            Valeria                   Keun                                     (1880-1956)     4
-	name="Valeria Keun"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1880.03.01={birth=yes}
-	1956.01.19={death=yes}
-}
-100086853={ #            Josephine                 Kleiner                                  (1862-1937)     0
-	name="Josephine Kleiner"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1862.04.21={birth=yes}
-	1937.10.08={death=yes}
-}
-100087125={ #            Marianne                  La Fourcade Ithuralde                    (1936-1988)     4
-	name="Marianne La Fourcade Ithuralde"
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1936.10.23={birth=yes}  # Santiago Chile
-	1988.02.08={death=yes}  # Santiago
-}
-100087136={ #            Anne-Marie                Lacloche                                 (1925-2004)     1
-	name="Anne-Marie Lacloche"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1925.01.01={birth=yes}
-	2004.01.01={death=yes}
-}
-100087192={ #            Ida                       Lanzara                                  (1898-1940)     3
-	name="Ida Lanzara"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1898.06.18={birth=yes}
-	1940.12.27={death=yes}
-}
-100087230={ #            Carmina                   Laterano                                 (1834-1907)     0
-	name="Carmina Laterano"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1834.01.01={birth=yes}
-	1907.01.01={death=yes}  # EST.
-}
-100087232={ #            Tullia                    Latte                                    (1962-    )     2
-	name="Tullia Latte"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1962.01.01={birth=yes}
-}
-100087256={ #            Pius                      Lazzari                                  (1890-1965)     0
-	name="Pius Lazzari"
-	dynasty=0
-	religion=catholic culture=italian
-	1890.01.01={birth=yes}
-	1915.06.08={add_spouse=100071279}	# Alinka Odescalchi
-	1965.01.01={death=yes}  # EST.
 }
 100087257={ #            Rosanna                   Lazzoni Moreschi dei conti di Deusi      (1978-    )     0
 	name="Rosanna Lazzoni Moreschi dei conti di Deusi"
@@ -4617,43 +4446,12 @@
 	religion=catholic culture=italian
 	1978.01.01={birth=yes}
 }
-100087308={ #            Michel                    Lefebvre                                 (1945-    )     0
-	name="Michel Lefebvre"
-	dynasty=0
-	religion=catholic culture=italian
-	1945.01.01={birth=yes}
-	1970.01.01={add_spouse=100071834}	# Christine Imperiali
-}
-100087322={ #            Mathilde                  Lejeune de Schiervel                     (1914-2007)     3
-	name="Mathilde Lejeune de Schiervel"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1914.07.01={birth=yes}
-	2007.10.08={death=yes}
-}
-100087402={ #            Francis                   Liddell                                  (1852-1929)     0
-	name="Francis Liddell"
-	dynasty=0
-	religion=catholic culture=italian
-	1852.07.19={birth=yes}
-	1925.11.21={add_spouse=100071276}	# Aydna Bertha Odescalchi
-	1929.04.06={death=yes}
-}
 100087419={ #            Arnaud                    Linard de Guertechin                     (1966-    )     0
 	name="Arnaud Linard de Guertechin"
 	dynasty=0
 	religion=catholic culture=italian
 	1966.12.03={birth=yes}
 	1992.10.24={add_spouse=100071822}	# Marie-Ange Imperiali
-}
-100087465={ #            Massimo                   Lo Cicero                                (1938-2015)     0
-	name="Massimo Lo Cicero"
-	dynasty=0
-	religion=catholic culture=italian
-	1938.01.01={birth=yes}
-	1963.01.01={add_spouse=100070876}	# Patrizia Colonna
-	2015.01.01={death=yes}  # EST.
 }
 100087533={ #            Fritze                    Lossl Frost                              (1937-2014)     1
 	name="Fritze Lossl Frost"
@@ -4693,6 +4491,14 @@
 	religion=catholic culture=italian
 	1876.03.09={birth=yes}
 	1929.05.10={death=yes}
+}
+100095060={ #            Gerolamo Luigi            Malabaila                                (1704-1773)     0
+	name="Gerolamo Luigi Malabaila"
+	dynasty=0
+	religion=catholic culture=italian
+	1704.11.10={birth=yes}
+	1729.01.01={add_spouse=100118375}	# Mária Anna Pálffy ab Erdõd
+	1773.01.01={death=yes}
 }
 100087748={ #            Giuseppina                Malvinni Malvezzi                        (1880-1946)     3
 	name="Giuseppina Malvinni Malvezzi"
@@ -4806,119 +4612,19 @@
 	religion=catholic culture=italian
 	1954.06.30={birth=yes}
 }
-100087977={ #            Merlada                   Mele Barese                              (1879-1948)     2
-	name="Merlada Mele Barese"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1879.01.12={birth=yes}
-	1948.08.10={death=yes}
-}
-100088296={ #            Virgilio                  Muratori                                 (1890-1916)     0
-	name="Virgilio Muratori"
-	dynasty=0
-	religion=catholic culture=italian
-	1890.01.01={birth=yes}
-	1915.01.01={add_spouse=100072290}	# Giulia del Balzo
-	1916.01.01={death=yes}
-}
-100088299={ #            Giuseppina                Murena                                   (1921-1960)     4
-	name="Giuseppina Murena"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1921.01.01={birth=yes}
-	1960.09.05={death=yes}
-}
-100088378={ #            Lucia                     Nalli                                    (1964-    )     2
-	name="Lucia Nalli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1964.01.01={birth=yes}
-}
-100088409={ #            Pietro                    Nava                                     (1828-1901)     0
-	name="Pietro Nava"
-	dynasty=0
-	religion=catholic culture=italian
-	1828.01.01={birth=yes}
-	1853.01.01={add_spouse=100070951}	# Virginia Colonna
-	1901.01.01={death=yes}  # EST.
-}
-100088420={ #            Katia                     Neberg                                   (1987-    )     1
-	name="Katia Neberg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1987.01.01={birth=yes}
-}
-100088425={ #            Rosanna                   Negro                                    (1955-    )     1
-	name="Rosanna Negro"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1955.01.01={birth=yes}
-}
-100088501={ #            Carlo Lodovico            Nigra                                    (1900-1973)     0
-	name="Carlo Lodovico Nigra"
-	dynasty=0
-	religion=catholic culture=italian
-	1900.01.15={birth=yes}
-	1927.07.27={add_spouse=100033271}	# Guilhermina de Mendoça de Loulé
-	1973.06.15={death=yes}
-}
-100088514={ #            Marta                     Nistri Renelletti                        (1963-    )     2
-	name="Marta Nistri Renelletti"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1963.01.01={birth=yes}
-}
-100088524={ #            Wilhelmine                Noorduyn                                 (1880-1971)     2
-	name="Wilhelmine Noorduyn"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1880.12.12={birth=yes}
-	1971.08.28={death=yes}
-}
-100088545={ #            Stina                     Nossow                                   (1933-1992)     0
-	name="Stina Nossow"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1933.01.01={birth=yes}
-	1992.05.09={death=yes}
-}
-100088553={ #            Rosana                    Nucci                                    (1933-1981)     2
-	name="Rosana Nucci"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1933.06.03={birth=yes}
-	1981.07.11={death=yes}
-}
-100088600={ #            Renata                    Oberzi Ner                               (1925-2002)     0
-	name="Renata Oberzi Ner"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1925.01.01={birth=yes}
-	2002.01.01={death=yes}  # EST.
-}
-100088609={ #            Laura                     Odello                                   (1975-    )     0
-	name="Laura Odello"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1975.01.01={birth=yes}
-}
 100088652={ #            Helene Anne               Olivi di Briana Noale                    (1963-    )     0
 	name="Helene Anne Olivi di Briana Noale"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
 	1963.01.16={birth=yes}
+}
+100088679={ #            Francesca                 Orlandi Contucci                         (1956-    )     1
+	name="Francesca Orlandi Contucci"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1956.01.01={birth=yes}
 }
 100088725={ #            Rino                      Ottolenghi                               (1922-1998)     0
 	name="Rino Ottolenghi"
@@ -4972,63 +4678,13 @@
 	1959.08.01={add_spouse=100072496}	# Meralda Caracciolo
 	2014.01.01={death=yes}
 }
-100088801={ #            Vieri                     Paoletti                                 (1981-    )     0
-	name="Vieri Paoletti"
+100088854={ #            Felice                    Patroni Griffi                           (1859-1898)     0
+	name="Felice Patroni Griffi"
 	dynasty=0
 	religion=catholic culture=italian
-	1981.01.01={birth=yes}
-	2006.07.01={add_spouse=100071557}	# Emilia Visconti
-}
-100088802={ #            Fara                      Paolillo                                 (1961-    )     2
-	name="Fara Paolillo"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1961.01.01={birth=yes}
-}
-100088803={ #            Dorothea                  Pappas                                   (1948-    )     1
-	name="Dorothea Pappas"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1948.01.01={birth=yes}
-}
-100088819={ #            Samantha                  Parkinson                                (1978-    )     1
-	name="Samantha Parkinson"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1978.01.01={birth=yes}
-}
-100088825={ #            Geraldine                 Parrinello                               (1940-    )     1
-	name="Geraldine Parrinello"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1940.08.28={birth=yes}
-}
-100088830={ #            Angelos                   Parvenas                                 (1982-    )     0
-	name="Angelos Parvenas"
-	dynasty=0
-	religion=catholic culture=italian
-	1982.01.01={birth=yes}
-	2007.09.09={add_spouse=100071464}	# Chiara Visconti
-}
-100088887={ #            Giancarlo Tito            Pediconi                                 (1937-2014)     0
-	name="Giancarlo Tito Pediconi"
-	dynasty=0
-	religion=catholic culture=italian
-	1937.01.01={birth=yes}
-	1970.06.25={add_spouse=100070672}	# Livia Maria Borghese
-	2014.01.01={death=yes}  # EST.
-}
-100088912={ #            Cesare                    Pennetti                                 (1873-1947)     0
-	name="Cesare Pennetti"
-	dynasty=0
-	religion=catholic culture=italian
-	1873.01.01={birth=yes}
-	1911.04.29={add_spouse=100070981}	# Maria Clelia Colonna
-	1947.01.01={death=yes}  # EST.
+	1859.01.01={birth=yes}
+	1884.07.19={add_spouse=100072858}	# Livia Pignatelli
+	1898.04.01={death=yes}
 }
 100088918={ #            Luigi                     Perego di Cremnago                       (1898-1993)     0
 	name="Luigi Perego di Cremnago"
@@ -5038,82 +4694,6 @@
 	1921.10.12={add_spouse=100071466}	# Valentina Visconti
 	1993.01.21={death=yes}
 }
-100089066={ #            Eugenio                   Pirisi                                   (1892-1967)     0
-	name="Eugenio Pirisi"
-	dynasty=0
-	religion=catholic culture=italian
-	1892.01.01={birth=yes}
-	1917.01.01={add_spouse=100072396}	# Giulia del Balzo
-	1967.01.01={death=yes}  # EST.
-}
-100089107={ #            Paolo                     Poggioli                                 (1891-1966)     0
-	name="Paolo Poggioli"
-	dynasty=0
-	religion=catholic culture=italian
-	1891.01.01={birth=yes}
-	1916.01.01={add_spouse=100072130}	# Carolina Rospigliosi
-	1966.01.01={death=yes}  # EST.
-}
-100089162={ #            Isabel Fanny              Porges                                   (1879-1958)     4
-	name="Isabel Fanny Porges"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1879.11.19={birth=yes}
-	1958.05.16={death=yes}
-}
-100089212={ #            Pauline Cheron            Power                                    (1967-    )     3
-	name="Pauline Cheron Power"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1967.01.01={birth=yes}
-}
-100089232={ #            Roberto                   Prete                                    (1962-    )     0
-	name="Roberto Prete"
-	dynasty=0
-	religion=catholic culture=italian
-	1962.01.01={birth=yes}
-	1987.09.30={add_spouse=100072238}	# Manuela del Balzo
-}
-100089234={ #            Josephine                 Prichard                                 (1937-2014)     4
-	name="Josephine Prichard"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1937.01.01={birth=yes}
-	2014.01.01={death=yes}  # EST.
-}
-100089278={ #            Paolo Emilio              Puddu                                    (1954-    )     0
-	name="Paolo Emilio Puddu"
-	dynasty=0
-	religion=catholic culture=italian
-	1954.01.01={birth=yes}
-	1979.11.20={add_spouse=100072232}	# Isabella del Balzo
-}
-100089287={ #            Marina                    Punturieri                               (1944-    )     1
-	name="Marina Punturieri"
-	female=yes
-	dynasty=0
-	religion=catholic culture=castillan
-	1944.01.01={birth=yes}
-}
-100089349={ #            Clementina                Raimondi                                 (1803-1884)     9
-	name="Clementina Raimondi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1803.09.03={birth=yes}
-	1884.05.09={death=yes}
-}
-100089353={ #            Lucia                     Raja                                     (1921-1997)     2
-	name="Lucia Raja"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1921.07.26={birth=yes}
-	1997.01.01={death=yes}  # EST.
-}
 100089358={ #            Francesco                 Raliani di Marchio                       (1887-1968)     0
 	name="Francesco Raliani di Marchio"
 	dynasty=0
@@ -5121,59 +4701,6 @@
 	1887.10.22={birth=yes}
 	1937.11.27={add_spouse=100020839}	# Margarita Raineria v. Habsburg-Lothringen
 	1968.03.16={death=yes}
-}
-100089360={ #            Christine                 Ralli                                    (1954-    )     1
-	name="Christine Ralli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1954.01.01={birth=yes}
-}
-100089368={ #            Dorothy                   Ramsden                                  (1903-1978)     1
-	name="Dorothy Ramsden"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1903.10.01={birth=yes}
-	1978.02.26={death=yes}
-}
-100089402={ #            Osanna                    Rebecchini                               (1963-    )     4
-	name="Osanna Rebecchini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1963.05.30={birth=yes}
-}
-100089405={ #            Giuseppe                  Recchi                                   (1974-    )     0
-	name="Giuseppe Recchi"
-	dynasty=0
-	religion=catholic culture=italian
-	1974.01.01={birth=yes}
-	1999.06.19={add_spouse=100071168}	# Maria della Pace Odescalchi
-}
-100089425={ #            Maria                     Reid                                     (1870-1930)     2
-	name="Maria Reid"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1870.05.15={birth=yes}
-	1930.08.16={death=yes}
-}
-100089443={ #            Ida                       Renzi                                    (1850-1915)     4
-	name="Ida Renzi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1850.10.06={birth=yes}
-	1915.12.28={death=yes}
-}
-100089451={ #            Alberto                   Ressel                                   (1902-1978)     0
-	name="Alberto Ressel"
-	dynasty=0
-	religion=catholic culture=italian
-	1902.01.01={birth=yes}
-	1927.01.01={add_spouse=100072320}	# Margherita del Balzo
-	1978.01.01={death=yes}  # EST.
 }
 100089477={ #            Maria Concetta            Revedin dei Marchesi di San Martino      (1978-    )     1
 	name="Maria Concetta Revedin dei Marchesi di San Martino"
@@ -5190,14 +4717,6 @@
 	1836.01.01={birth=yes}
 	1909.01.01={death=yes}  # EST.
 }
-100089525={ #            Alys                      Rieben                                   (1903-1971)     2
-	name="Alys Rieben"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1903.03.15={birth=yes}
-	1971.01.01={death=yes}
-}
 100089560={ #            Marie Clothilde           Rival de Rouville                        (1948-    )     1
 	name="Marie Clothilde Rival de Rouville"
 	female=yes
@@ -5205,42 +4724,13 @@
 	religion=catholic culture=italian
 	1948.01.13={birth=yes}
 }
-100089591={ #            Anna                      Rochira                                  (1948-    )     2
-	name="Anna Rochira"
-	female=yes
+100089618={ #            Gennaro                   Rogges                                   (1909-1985)     0
+	name="Gennaro Rogges"
 	dynasty=0
 	religion=catholic culture=italian
-	1948.01.01={birth=yes}
-}
-100089656={ #            Gaia dalle                Rose                                     (1971-    )     1
-	name="Gaia dalle Rose"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1971.05.08={birth=yes}
-}
-100089669={ #            Stefania                  Rossini                                  (1972-    )     0
-	name="Stefania Rossini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1972.01.01={birth=yes}
-}
-100089715={ #            Emilia dei Conti          Rucellai                                 (1857-1940)     4
-	name="Emilia dei Conti Rucellai"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1857.12.08={birth=yes}
-	1940.02.29={death=yes}
-}
-100089731={ #            Roberto                   Ruggiero                                 (1929-2006)     0
-	name="Roberto Ruggiero"
-	dynasty=0
-	religion=catholic culture=italian
-	1929.01.01={birth=yes}
-	1954.07.26={add_spouse=100071623}	# Maria Immacolata Imperiali
-	2006.01.01={death=yes}  # EST.
+	1909.01.01={birth=yes}
+	1934.08.02={add_spouse=100072859}	# Angelina Pignatelli
+	1985.01.01={death=yes}  # EST.
 }
 100089815={ #            Carmelo Tibor             Salleo dei Baroni di San Filippo         (1968-    )     0
 	name="Carmelo Tibor Salleo dei Baroni di San Filippo"
@@ -5273,7 +4763,7 @@
 	1946.01.01={add_spouse=100072284}	# Laura del Balzo
 	1997.01.01={death=yes}  # EST.
 }
-100089889={ #            Maria Antonia             Sanzò                                    (1830-1903)     0
+100089889={ #            Maria Antonia             Sanzò                                    (1830-1856)     0
 	name="Maria Antonia Sanzò"
 	female=yes
 	dynasty=0
@@ -5318,59 +4808,6 @@
 	1867.01.01={birth=yes}
 	1941.01.01={death=yes}  # EST.
 }
-100089942={ #            Virginie Rose             Scaretti                                 (1935-2012)     0
-	name="Virginie Rose Scaretti"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1935.04.29={birth=yes}
-	2012.01.01={death=yes}  # EST.
-}
-100089943={ #            Francesca                 Scarsini                                 (1978-    )     0
-	name="Francesca Scarsini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1978.01.01={birth=yes}
-}
-100090090={ #            Theodor                   Scortescu                                (1895-1970)     0
-	name="Theodor Scortescu"
-	dynasty=0
-	religion=catholic culture=italian
-	1895.01.14={birth=yes}
-	1930.07.28={add_spouse=100070509}	# Livia Valeria Borghese
-	1970.01.01={death=yes}  # EST.
-}
-100090110={ #            Francesca                 Sedati                                   (1969-    )     2
-	name="Francesca Sedati"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1969.01.01={birth=yes}
-}
-100090118={ #            Evarts                    Seelye Scudder                           (1898-1973)     0
-	name="Evarts Seelye Scudder"
-	dynasty=0
-	religion=catholic culture=castillan
-	1898.01.01={birth=yes}
-	1923.04.30={add_spouse=100072633}	# Elena Lante Montefeltro della Rovere
-	1973.01.01={death=yes}  # EST.
-}
-100090135={ #            Maria Rosaria             Semmola                                  (1925-2002)     3
-	name="Maria Rosaria Semmola"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1925.10.17={birth=yes}
-	2002.01.01={death=yes}  # EST.
-}
-100090142={ #            Maria Cristina            Sensi                                    (1980-    )     1
-	name="Maria Cristina Sensi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1980.01.01={birth=yes}
-}
 100090152={ #            Maria                     Serra di Gerace                          (1921-2008)     4
 	name="Maria Serra di Gerace"
 	female=yes
@@ -5378,36 +4815,6 @@
 	religion=catholic culture=italian
 	1921.07.30={birth=yes}
 	2008.10.15={death=yes}
-}
-100090179={ #            Veronica                  Shan Price                               (1937-1999)     3
-	name="Veronica Shan Price"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1937.04.23={birth=yes}
-	1999.12.25={death=yes}
-}
-100090296={ #            Beverly                   Skelton                                  (1958-    )     2
-	name="Beverly Skelton"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1958.01.01={birth=yes}
-}
-100090318={ #            Rossella                  Sleiter                                  (1935-    )     1
-	name="Rossella Sleiter"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1935.01.01={birth=yes}
-}
-100090355={ #            Penelope                  Smyth                                    (1815-1882)     2
-	name="Penelope Smyth"
-	female=yes
-	dynasty=0
-	religion=catholic culture=sicilian
-	1815.07.19={birth=yes}
-	1882.12.14={death=yes}
 }
 100090438={ #            Elika                     Spada Veralli dei Principi Potenziani    (1874-1919)     3
 	name="Elika Spada Veralli dei Principi Potenziani"
@@ -5417,36 +4824,13 @@
 	1874.10.07={birth=yes}
 	1919.10.18={death=yes}
 }
-100090439={ #            Alain                     Spaey                                    (1946-    )     0
-	name="Alain Spaey"
+100090483={ #            Cosimo                    Squarciafico Pinelli                     (1620-1685)     2
+	name="Cosimo Squarciafico Pinelli"
 	dynasty=0
 	religion=catholic culture=italian
-	1946.01.01={birth=yes}
-	1971.06.26={add_spouse=100071816}	# Geneviève Imperiali
-	1986.01.01={remove_spouse=100071816}
-}
-100090537={ #            Elly                      Stavro                                   (1898-1973)     0
-	name="Elly Stavro"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1898.08.06={birth=yes}
-	1973.06.02={death=yes}
-}
-100090553={ #            Louise                    Steel                                    (1963-    )     3
-	name="Louise Steel"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1963.01.01={birth=yes}
-}
-100090619={ #            Alberto                   Stoeckicht                               (1925-2002)     0
-	name="Alberto Stoeckicht"
-	dynasty=0
-	religion=catholic culture=italian
-	1925.01.01={birth=yes}
-	1950.07.25={add_spouse=100071060}	# Maria Giulia Colonna
-	2002.01.01={death=yes}  # EST.
+	1620.01.01={birth=yes}
+	1644.01.01={add_spouse=100072805}	# Anna Pignatelli
+	1685.01.01={death=yes}
 }
 100090731={ #            Lilian                    Suttar Georgevic                         (1924-2000)     3
 	name="Lilian Suttar Georgevic"
@@ -5487,104 +4871,6 @@
 	1860.01.01={birth=yes}
 	1934.01.01={death=yes}  # EST.
 }
-100091032={ #            Giangiacomo               Tornabuoni                               (1935-2008)     0
-	name="Giangiacomo Tornabuoni"
-	dynasty=0
-	religion=catholic culture=italian
-	1935.01.01={birth=yes}
-	1960.01.01={add_spouse=100070639}	# Ottavia Caterina Borghese
-	2008.02.03={death=yes}
-}
-100091041={ #            Adelaide                  Tosi                                     (1800-1859)     1
-	name="Adelaide Tosi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=sicilian
-	1800.05.20={birth=yes}
-	1859.03.15={death=yes}
-}
-100091058={ #            Vito                      Tramontana                               (1949-    )     0
-	name="Vito Tramontana"
-	dynasty=0
-	religion=catholic culture=italian
-	1949.01.01={birth=yes}
-	1974.01.01={add_spouse=100071723}	# Irene Imperiali
-}
-100091060={ #            Maria Rosaria             Traversa                                 (1961-    )     0
-	name="Maria Rosaria Traversa"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1961.01.01={birth=yes}
-}
-100091073={ #            Giuditta                  Trenholme                                (1943-    )     1
-	name="Giuditta Trenholme"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1943.01.01={birth=yes}
-}
-100091088={ #            Maria                     Tripari                                  (1893-1983)     3
-	name="Maria Tripari"
-	female=yes
-	dynasty=0
-	religion=catholic culture=neapolitan
-	1893.12.03={birth=yes}  # Naples
-	1983.04.22={death=yes}  # Rome
-}
-100091114={ #            Cavaliere Gennaro         Tufarelli                                (1851-1925)  0  0
-	name="Cavaliere Gennaro Tufarelli"
-	dynasty=0
-	religion=catholic culture=italian
-	1851.01.01={birth=yes}
-	1925.01.01={death=yes}  # EST.
-}
-100091226={ #            Zsuzsanna                 Vadnay                                   (1924-2000)     0
-	name="Zsuzsanna Vadnay"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1924.06.23={birth=yes}
-	2000.01.01={death=yes}  # EST.
-}
-100091227={ #            Anna Maria                Vagnarelli                               (1929-2014)     1
-	name="Anna Maria Vagnarelli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1929.10.22={birth=yes}
-	2014.01.01={death=yes}
-}
-100091233={ #            Rosanna                   Valdoni                                  (1931-2008)     2
-	name="Rosanna Valdoni"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1931.12.18={birth=yes}
-	2010.01.01={death=yes}  # EST.
-}
-100091245={ #            Piera Rita Loreta         Vallone                                  (1941-    )     4
-	name="Piera Rita Loreta Vallone"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1941.02.21={birth=yes}
-}
-100091246={ #            Carla                     Valsecchi                                (1936-2013)     4
-	name="Carla Valsecchi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1936.01.01={birth=yes}
-	2013.01.01={death=yes}  # EST.
-}
-100091403={ #            Mario                     Vecchi                                   (1948-    )     0
-	name="Mario Vecchi"
-	dynasty=0
-	religion=catholic culture=italian
-	1948.01.01={birth=yes}
-	1973.06.30={add_spouse=100070833}	# Vittoria Colonna
-}
 100091416={ #            Paolo                     Venturi Ginori Lisci                     (1915-2000)     0
 	name="Paolo Venturi Ginori Lisci"
 	dynasty=0
@@ -5602,88 +4888,12 @@
 	1920.03.16={birth=yes}
 	1990.09.01={death=yes}
 }
-100091439={ #            Armanda                   Vianello                                 (1937-2014)     1
-	name="Armanda Vianello"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1937.01.01={birth=yes}
-	2014.01.01={death=yes}  # EST.
-}
-100091454={ #            Massimo                   Villa Multedo                            (1979-    )     0
-	name="Massimo Villa Multedo"
-	dynasty=0
-	religion=catholic culture=italian
-	1979.01.01={birth=yes}
-	2004.02.21={add_spouse=100070820}	# Marzia Colonna
-}
-100091468={ #            Maria Consolata           Visconti                                 (1989-    )     0
-	name="Maria Consolata Visconti"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1989.01.01={birth=yes}
-}
-100091474={ #            Beatrice                  Viti Mariani                             (1889-1964)     0
-	name="Beatrice Viti Mariani"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1889.08.04={birth=yes}
-	1964.08.06={death=yes}
-}
-100091502={ #            Clementina                Volpicelli                               (1831-1904)     4
-	name="Clementina Volpicelli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1831.01.01={birth=yes}
-	1904.01.01={death=yes}  # EST.
-}
-100093605={ #            Anne                      Wallace                                  (1909-1985)     2
-	name="Anne Wallace"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1909.06.09={birth=yes}
-	1985.01.01={death=yes}  # EST.
-}
 100093682={ #            Philippe                  Weitheim de Croissy Beaubourg            (1957-    )     0
 	name="Philippe Weitheim de Croissy Beaubourg"
 	dynasty=0
 	religion=catholic culture=italian
 	1957.01.01={birth=yes}
 	1982.01.01={add_spouse=100072263}	# Eugenia del Balzo
-}
-100093837={ #            David                     Winthrop Hart                            (1927-2004)     0
-	name="David Winthrop Hart"
-	dynasty=0
-	religion=catholic culture=italian
-	1927.04.25={birth=yes}
-	1952.01.01={add_spouse=100072712}	# Elisabeth Pallavicini
-	2004.01.01={death=yes}  # EST.
-}
-100094019={ #            Susanna                   Zevi                                     (1953-    )     2
-	name="Susanna Zevi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1953.01.01={birth=yes}
-}
-100094031={ #            Maria                     Ziffo Smarangà                           (1887-1962)     0
-	name="Maria Ziffo Smarangà"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1887.01.01={birth=yes}
-	1962.01.01={death=yes}  # EST.
-}
-100094047={ #            Andrea                    Zingarini                                (1962-    )     0
-	name="Andrea Zingarini"
-	dynasty=0
-	religion=catholic culture=italian
-	1962.01.01={birth=yes}
-	1987.01.01={add_spouse=100070632}	# Maria Nive Borghese
 }
 100081805={ #            Giovanna San Martino      d'Aglié dei Marchesi di Fontanetto       (1945-    )     4
 	name="Giovanna San Martino d'Aglié dei Marchesi di Fontanetto"
@@ -5721,14 +4931,6 @@
 	1976.01.01={add_spouse=100072315}	# Stefanella del Balzo
 	2007.01.01={death=yes}  # EST.
 }
-100082306={ #            Jacqueline Arabella       de Fitzjames                             (1827-1903)     4
-	name="Jacqueline Arabella de Fitzjames"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1827.02.25={birth=yes}
-	1903.01.22={death=yes}
-}
 100082315={ #            Ugo Aldo                  de Francesco                             (1914-1955)     0
 	name="Ugo Aldo de Francesco"
 	dynasty=0
@@ -5737,73 +4939,20 @@
 	1939.08.12={add_spouse=100070403}	# Bianca Giovanna Lucchesi Palli
 	1955.09.12={death=yes}
 }
-100082367={ #            Giovanna                  de Gregorio dei Principi di Sant'Elia    (1841-1910)     4
-	name="Giovanna de Gregorio dei Principi di Sant'Elia"
-	female=yes
-	dynasty=0
-	religion=catholic culture=sicilian
-	1841.06.14={birth=yes}
-	1910.12.28={death=yes}
-}
-100082553={ #            Bernard                   de Limon Triest                          (1943-    )     0
-	name="Bernard de Limon Triest"
-	dynasty=0
-	religion=catholic culture=italian
-	1943.10.16={birth=yes}
-	1978.02.04={add_spouse=100070883}	# Martina Colonna
-}
-100082626={ #            Delphine                  de Martelly                              (1914-1943)     0
-	name="Delphine de Martelly"
+100082431={ #            Desiree                   de la Caridad Nieves Herrera             (1979-    )     0
+	name="Desiree de la Caridad Nieves Herrera"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
-	1914.01.01={birth=yes}
-	1943.02.04={death=yes}
+	1979.01.01={birth=yes}
 }
-100082631={ #            Flaminia                  de Mattei                                (1952-    )     3
-	name="Flaminia de Mattei"
-	female=yes
+100094321={ #            Giovanni                  degli Alessandri                         (1852-1894)     0
+	name="Giovanni degli Alessandri"
 	dynasty=0
 	religion=catholic culture=italian
-	1952.08.25={birth=yes}
-}
-100082642={ #            Maria                     de Mehlem                                (1867-1941)     0
-	name="Maria de Mehlem"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1867.12.18={birth=yes}  # Rome
-	1941.01.01={death=yes}  # EST.
-}
-100082691={ #            Marc                      de Montpellier de Annevoie               (1948-    )     0
-	name="Marc de Montpellier de Annevoie"
-	dynasty=0
-	religion=catholic culture=italian
-	1948.04.11={birth=yes}
-	1973.03.01={add_spouse=100071836}	# Anne Imperiali
-}
-100082743={ #            Françoise                 de Nompère de Champagny                  (1825-1899)     3
-	name="Françoise de Nompère de Champagny"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1825.09.13={birth=yes}
-	1899.05.09={death=yes}
-}
-100082769={ #            Maria Gaetana             de Petrillo                              (1836-1909)     0
-	name="Maria Gaetana de Petrillo"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1836.01.01={birth=yes}
-	1909.01.01={death=yes}  # EST.
-}
-100082872={ #            David                     de Rothschild                            (1942-    )     0
-	name="David de Rothschild"
-	dynasty=0
-	religion=catholic culture=italian
-	1942.01.01={birth=yes}
-	1970.01.01={add_spouse=100070670}	# Olimpia Borghese
+	1852.11.16={birth=yes}
+	1877.01.01={add_spouse=100118451}	# Anna Maria Antonia Pálffy ab Erdõd
+	1894.04.25={death=yes}
 }
 100083086={ #            Oddina                    degli Oddi                               (1908-1999)     2
 	name="Oddina degli Oddi"
@@ -6010,12 +5159,28 @@
 	1941.11.07={birth=yes}
 	1972.09.14={add_spouse=100071571}	# Agnese Visconti
 }
+100094324={ #            Adrienne                  dei Conti Vitali                         (1891-1953)     2
+	name="Adrienne dei Conti Vitali"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1891.02.19={birth=yes}  # Istanbul
+	1953.10.23={death=yes}  # Uccle
+}
 100083107={ #            Carla                     dei Conti d'Amelio                       (1939-    )     5
 	name="Carla dei Conti d'Amelio"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
 	1939.01.01={birth=yes}
+}
+100085757={ #            Anna Maria                dei Conti dal Borgo-Netolicky            (1925-1980)     2
+	name="Anna Maria dei Conti dal Borgo-Netolicky"
+	female=yes
+	dynasty=0
+	religion=catholic culture=bohemian
+	1925.07.04={birth=yes}
+	1980.01.18={death=yes}
 }
 100083136={ #            Antonio                   dei Duchi Giusso Del Galdo               (1862-1936)     0
 	name="Antonio dei Duchi Giusso Del Galdo"
@@ -6128,13 +5293,6 @@
 	1905.01.28={birth=yes}
 	2003.04.16={death=yes}
 }
-100083162={ #            Barbara Massimo           dei Principi di Arsoli                   (1965-    )     0
-	name="Barbara Massimo dei Principi di Arsoli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1965.06.04={birth=yes}
-}
 100083172={ #            Rosanna                   del Corno                                (1944-    )     2
 	name="Rosanna del Corno"
 	female=yes
@@ -6157,6 +5315,13 @@
 	1925.11.07={birth=yes}
 	2005.01.01={death=yes}	# EST.
 }
+100083282={ #            Francesca                 di Cola                                  (1987-    )     0
+	name="Francesca di Cola"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1987.01.01={birth=yes}
+}
 100083290={ #            Giovanni                  di Re                                    (1799-1847)     0
 	name="Giovanni di Re"
 	dynasty=0
@@ -6164,14 +5329,6 @@
 	1799.01.01={birth=yes}
 	1824.01.01={add_spouse=100115448}	# Johanna Zichy de Zich et Vásonykõ
 	1847.11.28={death=yes}
-}
-100083295={ #            Maria Gabriella           di Savoia-Villafranca                    (1811-1837)     1
-	name="Maria Gabriella di Savoia-Villafranca"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1811.09.18={birth=yes}
-	1837.09.10={death=yes}
 }
 100083296={ #            Ester                     di Stefano                               (1914-1997)     5
 	name="Ester di Stefano"
@@ -6181,817 +5338,4 @@
 	1914.01.01={birth=yes}
 	1997.12.12={death=yes}
 }
-100091334={ #            Joël                      van Outryve d’Ydewalle                   (1936-2010)     0
-	name="Joël van Outryve d’Ydewalle"
-	dynasty=0
-	religion=catholic culture=italian
-	1936.01.22={birth=yes}
-	1962.04.07={add_spouse=100071816}	# Geneviève Imperiali
-	1971.01.01={remove_spouse=100071816}
-	2010.03.16={death=yes}
-}
 
-100084302={ # Duke       Anton Ferdinand           Gonzaga                                  (1687-1729)     0
-	name="Anton Ferdinand Gonzaga"
-	dynasty=0
-	religion=catholic culture=italian
-	1687.01.01={birth=yes}
-	1727.02.28={add_spouse=100010564}	# Theodora v. Hessen
-	1729.04.21={death=yes}
-}
-100084067={ # Cte        Luigi                     Gaetani dell'Aquila d'Aragona dei Principi de Piedmonte (1877-1945)     0
-	name="Luigi Gaetani dell'Aquila d'Aragona dei Principi de Piedmonte"
-	dynasty=0
-	religion=catholic culture=neapolitan
-	1877.12.17={birth=yes}  # Naples
-	1901.02.09={add_spouse=100002027}	# Maria Franziska zu Solms-Braunfels
-	1945.04.12={death=yes}  # Bellavista
-}
-100087542={ # Ctsa       Damiana                   Lovatelli                                (1961-    )     6
-	name="Damiana Lovatelli"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=italian
-	1961.03.31={birth=yes}
-}
-100090474={ # Ctsa       Clara                     Spinucci                                 (1741-1792)     6
-	name="Clara Spinucci"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1741.08.30={birth=yes}
-	1792.11.23={death=yes}
-}
-100088440={ # Nobile     Inigo                     Neri Serneri                             (1891-1950)     0
-	name="Inigo Neri Serneri"
-	dynasty=0
-	religion=catholic culture=italian
-	1891.07.22={birth=yes}
-	1932.07.14={add_spouse=100020837}	# Maria Immakulata v. Habsburg-Lothringen
-	1950.05.01={death=yes}
-}
-100089663={ # Baronne    Flaminia                  Rossi                                    (1795-1840)     3
-	name="Flaminia Rossi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1795.07.21={birth=yes}
-	1840.12.20={death=yes}
-}
-100088670={ # Duca       Guido                     Orazio Borea d'Olmo                      (1925-2009)     0
-	name="Guido Orazio Borea d'Olmo"
-	dynasty=0
-	religion=catholic culture=italian
-	1925.04.25={birth=yes}
-	1958.10.08={add_spouse=100000265}	# Marie-Elisabeth v. Arenberg
-	2009.12.30={death=yes}
-}
-100088852={ # Marchese   Giovanni                  Patrizi Naro Montoro                     (1775-1818)     0
-	name="Giovanni Patrizi Naro Montoro"
-	dynasty=0
-	religion=catholic culture=italian
-	1775.01.01={birth=yes}  # Rome
-	1795.01.01={add_spouse=100015164}	# Kunigunde Anna von Wettin
-	1818.01.18={death=yes}  # Rome
-}
-
-100080206={ # Duchesa    Ernestina                 Arborio di Gattinara                     (1866-1934)     0
-	name="Ernestina Arborio di Gattinara"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1866.02.09={birth=yes}  # Turin
-	1934.01.29={death=yes}
-}
-100083161={ # Don        Carlo Massimo             dei Principi di Arsoli                   (1942-    )     0
-	name="Carlo Massimo dei Principi di Arsoli"
-	dynasty=0
-	religion=catholic culture=italian
-	1942.07.03={birth=yes}  # Rome
-	1989.10.08={add_spouse=100026080}	# Elisa Osorio de Moscoso
-}
-100081602={ # Cte        Ferdinando                Consolati                                (1833-1876)     0
-	name="Ferdinando Consolati"
-	dynasty=0
-	religion=catholic culture=italian
-	1833.01.07={birth=yes}
-	1857.06.30={add_spouse=100024223}	# Bianca Maria v. Thun u.Hohenstein
-	1876.05.03={death=yes}
-}
-100081603={ # Gfn        Marie Anne                Consolati                                (1858-1930)     4
-	name="Marie Anne Consolati"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1858.06.13={birth=yes}
-	1930.03.29={death=yes}
-}
-100081604={ # Gf         Guidobald                 Consolati                                (1870-1935)     0
-	name="Guidobald Consolati"
-	dynasty=0
-	religion=catholic culture=italian
-	1870.02.19={birth=yes}
-	1899.04.15={add_spouse=100024542}	# Hedwig v. Orsini u.Rosenberg
-	1935.07.21={death=yes}
-}
-100089746={ # Donna      Maria                     Ruspoli                                  (1888-1976)     2
-	name="Donna Maria Ruspoli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1888.05.18={birth=yes}
-	1976.08.01={death=yes}
-}
-100089750={ # Donna      Ginevra                   Ruspoli dei Principi di Poggia Suasa     (1962-    )     3
-	name="Ginevra Ruspoli dei Principi di Poggia Suasa"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1962.09.15={birth=yes}
-}
-100091229={ # nobile     Gianfranco                Vailati                                  (1937-2014)     0
-	name="Gianfranco Vailati"
-	dynasty=0
-	religion=catholic culture=italian
-	1937.10.17={birth=yes}
-	1976.10.26={add_spouse=100025879}	# Grazia von Schönburg
-	2014.01.01={death=yes}  # EST.
-}
-100091235={ # Cte        Vincenzo                  Valentini di Laviano                     (1808-1858)     0
-	name="Vincenzo Valentini di Laviano"
-	dynasty=0
-	religion=catholic culture=frankish
-	1808.04.05={birth=yes}
-	1836.07.29={add_spouse=100065268}	# Marie Alexandrine Bonaparte
-	1858.07.13={death=yes}
-}
-100091467={ # Pss        Viridis                   Visconti                                 (1350-1425)     2
-	name="Viridis Visconti"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1350.01.01={birth=yes}
-	1425.01.01={death=yes}
-}
-100095174={ # Mkgf       Friedrich August          Piatti                                   (1803-1872)     0
-	name="Friedrich August Piatti"
-	dynasty=0
-	religion=catholic culture=italian
-	1803.07.01={birth=yes}
-	1830.07.01={add_spouse=100073064}	# Cecilia v. Collalto u.San Salvatore
-	1872.11.24={death=yes}
-}
-100095175={ # Gf         Ferdinand                 Piatti                                   (1833-1908)     0
-	name="Ferdinand Piatti"
-	dynasty=0
-	religion=catholic culture=italian
-	1833.08.18={birth=yes}
-	1860.07.01={add_spouse=100073068}	# Margarete Juliane v. Collalto u.San Salvatore
-	1908.02.26={death=yes}
-}
-100095176={ # Mkgf       Ferdinand                 Piatti                                   (1899-1980)     0
-	name="Ferdinand Piatti"
-	dynasty=0
-	religion=catholic culture=italian
-	1899.07.04={birth=yes}  # Loosdorf
-	1922.08.23={add_spouse=100073079}	# Anna v. Collalto u.San Salvatore
-	1980.03.18={death=yes}  # Vienna
-}
-100089010={ # Gf         Manfred                   Piatti                                   (1924-    )     0
-	name="Manfred Piatti"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1924.07.22={birth=yes}
-}
-100092843={ # Gf         Benedikt                  von Piatti                               (1966-    )     0
-	name="Benedikt von Piatti"
-	dynasty=0
-	religion=catholic culture=italian
-	1966.03.21={birth=yes}
-	1998.04.18={add_spouse=100020406}	# Margherita Anastasia v. Habsburg-Lothringen
-}
-100095177={ # Mkgf       Alexander                 Piatti                                   (1790-1831)     0
-	name="Alexander Piatti"
-	dynasty=0
-	religion=catholic culture=italian
-	1790.01.01={birth=yes}
-	1815.01.01={add_spouse=100117358}	# Anna Apponyi de Nagy-Apponyi
-	1831.01.01={death=yes}
-}
-100089041={ # Don        Fabrizio                  Pignatelli della Leonessa dei Principi di Monteroduni (1952-    )     0
-	name="Fabrizio Pignatelli della Leonessa dei Principi di Monteroduni"
-	dynasty=0
-	religion=catholic culture=italian
-	1952.08.02={birth=yes}
-	1977.04.02={add_spouse=100025883}	# Anna-Luisa von Schönburg
-}
-100094841={ # Cte        Giovanni                  Facchinetti Pulazzini                    (1956-    )     0
-	name="Giovanni Facchinetti Pulazzini"
-	dynasty=0
-	religion=catholic culture=italian
-	1956.03.30={birth=yes}
-	1987.09.12={add_spouse=100073095}	# Maria v. Collalto u.San Salvatore
-}
-100083860={	#         	 Ravaschieri         	   Fieschi dei Duchi di Roccapiemonte
-	name="Ravaschieri Fieschi dei Duchi di Roccapiemonte"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1904.06.16={birth=yes}  # Rome
-	2004.04.03={death=yes}
-}
-100080115={ # Pr         Paluzzo                   Altieri                                  (1760-1834)     0
-	name="Paluzzo Altieri"
-	dynasty=0
-	religion=catholic culture=italian
-	1760.01.01={birth=yes}  # Rome
-	1793.10.15={add_spouse=100015160}	# Maria Anna von Wettin
-	1834.01.10={death=yes}  # Rome
-}
-100094900={ # Ctsa       Cecilia                   Gradenigo                                (1762-1827)     2
-	name="Cecilia Gradenigo"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1762.02.12={birth=yes}
-	1827.01.24={death=yes}
-}
-100089498={ # Don        Raffaele                  Riario-Sforza                            (1767-1797)     0
-	name="Raffaele Riario-Sforza"
-	dynasty=0
-	religion=catholic culture=italian
-	1767.01.01={birth=yes}  # Cava dei_Tirreni
-	1794.02.18={add_spouse=100015162}	# Beatrix von Wettin
-	1797.12.24={death=yes}  # Dresden
-}
-100084064={ # Pr         Mario                     Gabrielli                                (1773-1841)     0
-	name="Mario Gabrielli"
-	dynasty=0
-	religion=catholic culture=italian
-	1773.12.06={birth=yes}
-	1815.12.27={add_spouse=100065215}	# Charlotte Bonaparte
-	1841.09.18={death=yes}
-}
-100084065={ # Pr         Placido                   Gabrielli                                (1832-1911)     0
-	name="Placido Gabrielli"
-	dynasty=0
-	religion=catholic culture=italian
-	1832.11.09={birth=yes}
-	1856.01.01={add_spouse=100065233}	# Augusta Bonaparte
-	1911.09.03={death=yes}
-}
-100080280={ # Duca       Giuseppe                  Avarna                                   (1843-1916)     0
-	name="Giuseppe Avarna"
-	dynasty=0
-	religion=catholic culture=italian
-	1843.03.17={birth=yes}  # Palermo
-	1890.01.01={add_spouse=100126787}	# Maria Dolgorukov
-	1916.04.01={death=yes}  # Rome
-}
-100095144={ # Pr         Raimondo Umberto          Orsini                                   (1931-    )
-	name="Raimondo Umberto Orsini"
-	dynasty=0
-	religion=orthodox culture=georgian
-	1931.11.18={birth=yes}
-	1978.06.05={add_spouse=100050207}	# Kethevan Bagrationi-Muchraneli
-}
-100095158={ # Css        Maria Antonietta          Pasquini                                 (1911-1944)
-	name="Maria Antonietta Pasquini"
-	female=yes
-	dynasty=0
-	religion=orthodox culture=georgian
-	1911.04.26={birth=yes}
-	1944.02.22={death=yes}
-}
-100094320={ # Mkgf       Alexandro                 degli Albizzi                            (1837-    )
-	name="Alexandro degli Albizzi"
-	dynasty=0
-	religion=orthodox culture=italian
-	1837.01.01={birth=yes}
-	1860.01.01={add_spouse=100050440}	# Anna Bagrationi-Gruzinsky
-	1910.01.01={death=yes}  # EST.
-}
-100094324={ #            Adrienne                  dei Conti Vitali                         (1891-1953)
-	name="Adrienne dei Conti Vitali"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1891.02.19={birth=yes}  # Istanbul
-	1953.10.23={death=yes}  # Uccle
-}
-100094398={ # Pr         Emanuele dal Pozzo        della Cisterna                           (1821-1864)
-	name="Emanuele dal Pozzo della Cisterna"
-	dynasty=0
-	religion=catholic culture=italian
-	1821.01.01={birth=yes}
-	1846.09.27={add_spouse=100066331}	# Louise de Merode
-	1864.03.26={death=yes}
-}
-100081648={ # Cte        Giambattista              Corniani                                 (1831-1876)     0
-	name="Giambattista Corniani"
-	dynasty=0
-	religion=orthodox culture=italian
-	1831.01.01={birth=yes}
-	1856.01.01={add_spouse=100126227}	# Leonilla Golizyn
-	1876.04.08={death=yes}
-}
-100087992={ # Cte        Pio                       Meniconi                                 (1875-1956)     0
-	name="Pio Meniconi"
-	dynasty=0
-	religion=orthodox culture=italian
-	1875.01.01={birth=yes}
-	1900.01.01={add_spouse=100126802}	# Vera Dolgorukov
-	1956.09.23={death=yes}
-}
-100089029={ # Cte        Vittorio Giuseppe         Pietrasanta                              (1900-1946)     0
-	name="Vittorio Giuseppe Pietrasanta"
-	dynasty=0
-	religion=orthodox culture=italian
-	1900.01.09={birth=yes}
-	1935.04.27={add_spouse=100125332}	# Aleksandra Trubetzkoy
-	1946.08.09={death=yes}
-}
-100080572={ # Css        Drusilla                  Alighieri de Serego                      (1944-    )
-	name="Drusilla Alighieri de Serego"
-	female=yes
-	dynasty=0
-	religion=orthodox culture=italian
-	1944.07.15={birth=yes}
-}
-100095197={ # Marchese   Roberto                   Pucci                                    (1823-1891)
-	name="Roberto Pucci"
-	dynasty=0
-	religion=orthodox culture=italian
-	1823.01.01={birth=yes}
-	1848.09.23={add_spouse=100004611}	# Lidia Bobrinsky
-	1891.01.01={death=yes}
-}
-100088002={ # Gfn        Therese                   Meraviglia-Crivelli                      (1836-1918)     3
-	name="Therese Meraviglia-Crivelli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1836.06.06={birth=yes}  # Milan
-	1918.11.24={death=yes}  # Traunstein
-}
-100088201={ # Gf         Albert                    Montecuccoli-Laderchi                    (1803-1852)     0
-	name="Albert Montecuccoli-Laderchi"
-	dynasty=0
-	religion=catholic culture=italian
-	1803.01.01={birth=yes}
-	1828.06.14={add_spouse=100012357}	# Charlotte WIlhelmine zu Oettingen-Wallerstein
-	1852.08.19={death=yes}
-}
-100088200={ # Gfn        Elisabeth                 Montecuccoli-Laderchi                    (1962-    )     9
-	name="Elisabeth Montecuccoli-Laderchi"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=italian
-	1962.09.15={birth=yes}
-}
-100092706={ # Pss        Ernestine                 von Montecuccoli                         (1663-1701)     3
-	name="Ernestine von Montecuccoli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1663.05.25={birth=yes}
-	1701.05.06={death=yes}
-}
-100083293={ #            Jeanne                    di Savoia                                (1532-1568)     3
-	name="Jeanne di Savoia"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1532.01.01={birth=yes}  # Annecy
-	1568.07.04={death=yes}  # château de_Nomeny
-}
-100083292={ # Pss        Adelaide Henriette        di Savoia                                (1636-1676)     3
-	name="Adelaide Henriette di Savoia"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1636.11.06={birth=yes}  # Turin
-	1676.03.18={death=yes}  # Munich
-}
-100083294={ # Pss        Anna Vittoria             di Savoia-Carignano                      (1683-1763)     0
-	name="Anna Vittoria di Savoia-Carignano"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1683.09.11={birth=yes}  # Paris
-	1763.10.11={death=yes}  # Turin
-}
-100087337={ #            Maria Vittoria            Lepri                                    (1970-    )     3
-	name="Maria Vittoria Lepri"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1970.02.22={birth=yes}
-}
-100094326={ #            Stanislao                 dei Marchesi Lepri                       (1973-    )     0
-	name="Stanislao dei Marchesi Lepri"
-	dynasty=0
-	religion=catholic culture=italian
-	1973.09.10={birth=yes}
-	2006.10.14={add_spouse=100003017}	# Anna v. Waldburg zu Wolfegg u.Waldsee
-}
-100095094={ # Ctsa       Amalia                    Mosconi-Fogaroli                         (1854-1891)     0
-	name="Amalia Mosconi-Fogaroli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1854.04.12={birth=yes}  # Verona
-	1891.11.17={death=yes}
-}
-100095044={ # Baron      Lajos Almos               Lo Presti di Fontana d'Anglioli          (1818-1878)     0
-	name="Lajos Almos LoPresti di Fontana d'Anglioli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1818.01.01={birth=yes}
-	1843.12.12={add_spouse=100117561}	# Szerafin Esterházy de Galántha
-	1878.04.01={death=yes}
-}
-100087466={ # Frn        Helene                    Lo Presti di Fontana d'Anglioli          (1847-1901)     1
-	name="Helene Lo Presti de la Fontana d'Anglioli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1847.06.07={birth=yes}
-	1901.04.01={death=yes}
-}
-100087467={ # Frn        Eugenie                   Lo Presti di Fontana d'Anglioli          (1845-1866)     1
-	name="Eugenie Lo Presti di Fontana d'Angioli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1845.12.01={birth=yes}
-	1866.06.23={death=yes}
-}
-100087468={ # Bss        Ludovica                  Lo Prosti di Fontana d'Anglioli          (1817-1898)     3
-	name="Ludovica Lo Prosti de la Fontana d'Anglioli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1817.01.01={birth=yes}
-	1898.03.26={death=yes}
-}
-100095067={ # Gf         Albert                    Marzani                                  (1845-1921)     0
-	name="Albert Marzani"
-	dynasty=0
-	religion=catholic culture=hungarian
-	1845.05.10={birth=yes}  # Villa Lagarina
-	1863.06.18={add_spouse=100117270}	# Georgine Apponyi de Nagy-Apponyi
-	1921.10.06={death=yes}  # Gries
-}
-100083841={ # Pss        Luisa Vittoria            Ferrero-Fieschi                          (1779-1847)     3
-	name="Luisa Vittoria Ferrero-Fieschi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1779.12.23={birth=yes}
-	1847.01.18={death=yes}
-}
-100083842={ # Cte        Fabio Maria               Ferretti di Castelferretto               (1968-    )     0
-	name="Fabio Maria Ferretti di Castelferretto"
-	dynasty=0
-	religion=catholic culture=frankish
-	1968.08.26={birth=yes}
-	1995.03.18={add_spouse=100062405}	# Stéphanie Ghislaine d’Ursel
-}
-100095178={ # Pss        Teresa                    Pignatelli-Bisaccia-Monteleone           (1682-1718)     1
-	name="Teresa Pignatelli-Bisaccia-Monteleone"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1682.08.24={birth=yes}
-	1718.08.09={death=yes}  # Brussels
-}
-100091091={ # Css        Ippolita                  Trivulzio                                (1602-1638)     1
-	name="Ippolita Trivulzio"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1602.01.01={birth=yes}
-	1638.01.01={death=yes}
-}
-100094325={ #            Marco                     dei Marchesi Doria Lamba                 (1881-1935)     0
-	name="Marco dei Marchesi Doria Lamba"
-	dynasty=0
-	religion=catholic culture=italian
-	1881.05.17={birth=yes}  # Turin
-	1911.01.31={add_spouse=100066337}	# Elisabeth de Merode
-	1935.08.24={death=yes}  # Turin
-}
-100095409={ # marchesa   Anita                     Villani-Crivelli                         (1836-1911)
-	name="Anita Villani-Crivelli" # 607736/anita-marchesa-villani-crivelli/
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1836.01.01={birth=yes}
-	1911.01.01={death=yes}
-}
-100094321={ #            Giovanni                  degli Alessandri                         (1852-1894)
-	name="Giovanni degli Alessandri" # 607733/giovanni-degli-alessandri/
-	dynasty=0
-	religion=catholic culture=italian
-	1852.11.16={birth=yes}
-	1877.01.01={add_spouse=100118451}	# Anna Maria Antonia Pálffy ab Erdõd
-	1894.04.25={death=yes}
-}
-100095060={ #            Gerolamo Luigi            Malabaila                                (1704-1773)
-	name="Gerolamo Luigi Malabaila" # 559651/gerolamo-luigi-malabaila-graf-von-canale/
-	dynasty=0
-	religion=catholic culture=italian
-	1704.11.10={birth=yes}
-	1729.01.01={add_spouse=100118375}	# Mária Anna Pálffy ab Erdõd
-	1773.01.01={death=yes}
-}
-100080935={	#         			Adonella            			Brenciaglia    
-	name="Adonella Brenciaglia"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1923.09.09={birth=yes}
-	1995.10.19={death=yes}
-}
-100081247={	#         			Anna                			Caracciolo Pisquizi
-	name="Anna Caracciolo Pisquizi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1604.01.28={birth=yes}
-	1637.01.01={death=yes}  # Belmonte
-}
-100081289={	#         			Salvatore           			Carriero       
-	name="Salvatore Carriero"
-	dynasty=0
-	religion=catholic culture=italian
-	1917.01.01={birth=yes}
-	1942.01.31={add_spouse=100072874}	# Caterina Pignatelli
-	1993.01.01={death=yes}  # EST.
-}
-100081312={	#         			Marcella            			Castelli       
-	name="Marcella Castelli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1918.01.01={birth=yes}
-	1994.01.01={death=yes}  # EST.
-}
-100082211={	#         			Carmela             			De Chiaro      
-	name="Carmela De Chiaro"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1803.01.01={birth=yes}
-	1881.01.01={death=yes}
-}
-100084404={	#         			Antonio             			Grassi         
-	name="Antonio Grassi"
-	dynasty=0
-	religion=catholic culture=italian
-	1945.01.01={birth=yes}
-	1970.10.31={add_spouse=100072843}	# Alessandra Malfatti
-}
-100084533={	#         			Maria               			Guido          
-	name="Maria Guido"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1889.02.23={birth=yes}
-	1980.01.01={death=yes}
-}
-100094475={	#         			Tristan Charles Johnson    	    Elbrick
-	name="Tristan Charles Johnson Elbrick"
-	dynasty=0
-	religion=catholic culture=english
-	1981.01.01={birth=yes}
-	2006.07.01={add_spouse=100072866}	# Francesca Pignatelli
-}
-100087394={	#         			Anna                			Libertini      
-	name="Anna Libertini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1920.01.01={birth=yes}
-	1996.01.01={death=yes}  # EST.
-}
-100087395={	#         			Achille             			Libertini      
-	name="Achille Libertini"
-	dynasty=0
-	religion=catholic culture=italian
-	1914.01.01={birth=yes}
-	1939.12.02={add_spouse=100072878}	# Anna Pignatelli
-	1990.01.01={death=yes}  # EST.
-}
-100087877={	#         			Alda                			Matarelli      
-	name="Alda Matarelli"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1939.01.01={birth=yes}
-	1969.09.01={death=yes}
-}
-100087906={	#         			Sarah Elizabeth     			Mayhew         
-	name="Sarah Elizabeth Mayhew"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1945.04.01={birth=yes}
-}
-100088188={	#         			Adriano             			Montagni       
-	name="Adriano Montagni"
-	dynasty=0
-	religion=catholic culture=italian
-	1952.01.01={birth=yes}
-	1977.05.18={add_spouse=100072872}	# Parisina Pignatelli
-}
-100088459={	#         			Felicia             			Nevikluff      
-	name="Felicia Nevikluff"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1899.01.01={birth=yes}
-	1974.01.01={death=yes}  # EST.
-}
-100088679={	#         			Francesca           			Orlandi Contucci
-	name="Francesca Orlandi Contucci"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1956.01.01={birth=yes}
-}
-100088854={	#         			Felice              			Patroni Griffi 
-	name="Felice Patroni Griffi"
-	dynasty=0
-	religion=catholic culture=italian
-	1859.01.01={birth=yes}
-	1884.07.19={add_spouse=100072858}	# Livia Pignatelli
-	1898.04.01={death=yes}
-}
-100089618={	#         			Gennaro             			Rogges         
-	name="Gennaro Rogges"
-	dynasty=0
-	religion=catholic culture=italian
-	1909.01.01={birth=yes}
-	1934.08.02={add_spouse=100072859}	# Angelina Pignatelli
-	1985.01.01={death=yes}  # EST.
-}
-100089853={	#         			Margherita          			San Mauro      
-	name="Margherita San Mauro"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1926.01.01={birth=yes}
-	2003.01.01={death=yes}  # EST.
-}
-100090483={	#         			Cosimo              			Squarciafico Pinelli
-	name="Cosimo Squarciafico Pinelli"
-	dynasty=0
-	religion=catholic culture=italian
-	1620.01.01={birth=yes}
-	1644.01.01={add_spouse=100072805}	# Anna Pignatelli
-	1685.01.01={death=yes}
-}
-100091466={	#         			Francesca           			Visco          
-	name="Francesca Visco"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1931.01.01={birth=yes}
-	2008.05.01={death=yes}
-}
-100093752={	#         			Maria Agata         			Whitehead      
-	name="Maria Agata Whitehead"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1895.12.30={birth=yes}
-	1993.06.16={death=yes}
-}
-100082431={	#         			Desiree             			de la Caridad Nieves Herrera
-	name="Desiree de la Caridad Nieves Herrera"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1979.01.01={birth=yes}
-}
-100083282={	#         			Francesca           			di Cola        
-	name="Francesca di Cola"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1987.01.01={birth=yes}
-}
-100095157={ # Nobile     Sophie Elisabeth          Pasquali                                 (1980-    )     2
-	name="Sophie Elisabeth Pasquali"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1980.05.01={birth=yes}
-}
-100080386={ # Ctsa       Luciana                   Bargagli-Stoffi                          (1921-1984)     3
-	name="Luciana Bargagli-Stoffi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1921.01.17={birth=yes}  # Bologna
-	1984.03.26={death=yes}  # Siena
-}
-100095223={ #            Therese                   Rossi                                    (1805-1880)     4
-	name="Therese Rossi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1805.04.23={birth=yes}
-	1880.01.01={death=yes}
-}
-100095222={ # Ctsa       Alessandrina              Rossi                                    (1844-1919)     5
-	name="Alessandrina Rossi"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1844.06.10={birth=yes}  # Berlin
-	1919.04.16={death=yes}  # Vienna
-}
-100087797={ # Gfn        Maria                     Marenzi von Tagliuno u.Talgate           (1852-1936)     0
-	name="Maria Marenzi von Tagliuno u.Talgate"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1852.10.01={birth=yes}
-	1936.10.10={death=yes}
-}
-100087798={ # Gf         Ludwig                    Marenzi von Tagliuno u.Talgate           (1894-1983)     0
-	name="Ludwig Marenzi von Tagliuno u.Talgate"
-	dynasty=0
-	religion=catholic culture=italian
-	1894.10.16={birth=yes}  # Vienna
-	1930.12.10={add_spouse=100026524}	# Ernestine von Schönburg
-	1983.05.11={death=yes}  # Vienna
-}
-100081845={ #            Beatrice                  d'Este                                   (1332-1387)     0
-	name="Beatrice d'Este"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1332.01.01={birth=yes}
-	1387.01.01={death=yes}
-}
-100081844={ # Pss        Henriette                 d'Este                                   (1702-1777)     0
-	name="Henriette d'Este"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1702.05.27={birth=yes}
-	1777.01.30={death=yes}
-}
-100080816={ # Ctsa       Beatrice Dorothy          Bordessa                                 (1880-1963)     0
-	name="Beatrice Dorothy Bordessa"
-	female=yes
-	dynasty=0
-	religion=catholic culture=sicilian
-	1880.12.29={birth=yes}
-	1963.08.20={death=yes}
-}
-100096123={ # Pr         Lorenzo                   Altieri                                  (1829-1899)
-	name="Lorenzo Altieri"
-	dynasty=0
-	religion=orthodox culture=italian
-	1829.03.28={birth=yes}  # Rome
-	1876.12.02={add_spouse=100030107}	# Olga Cantacuzino
-	1899.01.31={death=yes}  # Gattaiola
-}
-100081143={ # Bss        Luisa Caccia              Dominioni                                (1942-    )     1
-	name="Luisa Caccia Dominioni"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1942.09.20={birth=yes}
-}
-100081315={ # Gfn        Barbara                   Castiglione                              (1755-1842)     2
-	name="Barbara Castiglione"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1755.01.01={birth=yes}
-	1842.01.01={death=yes}
-}
-100080349={ #            Gian Vittorio             Baldi                                    (1944-    )     0
-	name="Gian Vittorio Baldi"
-	dynasty=0
-	religion=catholic culture=italian
-	1944.01.01={birth=yes}
-	1969.10.09={add_spouse=100005675}	# Marie Madeleine Gagarin
-	1975.01.01={remove_spouse=100005675}
-}
-100136033={ # Gfn        Aurora                    Guadagni                                 (1831-1898)     0
-	name="Aurora Guadagni"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1831.04.15={birth=yes}
-	1898.03.30={death=yes}  # Massa
-}
