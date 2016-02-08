@@ -1785,14 +1785,14 @@ west_slavic = {
 			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana_Stephania Svetlana Urszula Václava Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "z "
 
 		modifier = default_culture_modifier
 	}
 	bohemian = {
 		graphical_cultures = { westernslavicgfx }
 		
-		color = { 0.4 0.6 0.5 }
+		color = { 128 197 231 }
 		
 		male_names = {
 			Albert_Albert Albrecht_Albert Ales_Alexander Arnost_Ernest Bavor Bedrich_Frederick Benes_Benedict Bocek Bohuslav_Boguslaw Boleslav_Boleslav Bores Borijov_Borijov Bretislav_Bretislaus Budivoj Castolov Cenek_Vincent Chval Ctirad Diepold
@@ -1808,14 +1808,14 @@ west_slavic = {
 			Vilemína Viola_Yolanda Vladislava Vojslava Zdislava Zdenka Zofie_Sophia
 		}
 		
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "z "
 
 		modifier = default_culture_modifier
 	}
 	polish = {
 		graphical_cultures = { westernslavicgfx }
 		
-		color = { 0.4 0.6 0.55 }
+		color = { 144 185 209 }
 
 		male_names = {
 			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
@@ -1833,12 +1833,8 @@ west_slavic = {
 			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
 			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
 		}
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "z "
 		
-		#male_patronym = "owski"
-		#female_patronym = "owska"
-		#prefix = no
-
 		modifier = default_culture_modifier
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 40
@@ -1849,6 +1845,25 @@ west_slavic = {
 		pat_grm_name_chance = 10
 		mat_grm_name_chance = 40
 		mother_name_chance = 0
+	}
+	slovak = {
+		graphical_cultures = { westernslavicgfx }
+		
+		# color = { 66 244 96 }
+		color = { 101 163 194 }
+		
+		male_names = {
+			Bogdan Bohumil Boris Boyan Branimir Branislav Ctibor Ctirad Dalibor Dobroslav Fero František Gniewomir Jaromir Jaroslav Juraj Kamil Kristian Ladislav 
+			Lubomir Luboš Ludomir Marek Martin Matej Michal Milivoj Milorad Miloslav Miroslav Ondrej Premysl Radim Radomir Radoslav Radovan Ratimir Ratko Rostislav 
+			Sambor Slavomír Sobieslaw Stanimir Svantovít Václav Velimir Vitomir Vladan Vladimir Vladislav Vojislav Vojtech Zawisza Zbigniew Zdenko
+		}
+		female_names = {
+			Blažena Božena Božidara Darina Jarmila Jela Lesana Libuša Milada Milena Milica Milota Nadežda Ružena Sláva Svetlana Viera Vieroslava Zora Želmíra
+		}
+		
+		from_dynasty_prefix = "z "
+
+		modifier = default_culture_modifier
 	}
 }
 

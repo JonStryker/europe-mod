@@ -1209,15 +1209,6 @@
 			1718.01.01={birth=yes}
 			1790.01.01={death=yes}
 		}
-		100005049={ # 2b) Fabian Heinrich (1719-1737)
-			name="Fabian Heinrich"
-			dynasty=1002080
-			religion=lutheran culture=german
-			father=100005070	# Hans Carl v. Schoenaich-Carolath
-			mother=100083169	# BGGFN Amalia zu Dohna-Schlodien
-			1719.01.01={birth=yes}
-			1737.01.01={death=yes}
-		}
 		100005063={ # 6b) Friederike Charlotte (1720-1741); m.1737 Heinrich Leopold Gf von Reichenbach-Goschütz (d.1775)
 			name="Friederike Charlotte"
 			female=yes
@@ -1227,16 +1218,6 @@
 			mother=100083169	# BGGFN Amalia zu Dohna-Schlodien
 			1720.01.01={birth=yes}
 			1741.01.01={death=yes}
-		}
-		100005064={ # 7b) Wilhelmine (1722-1781)
-			name=Wilhelmine
-			female=yes
-			dynasty=1002080
-			religion=lutheran culture=german
-			father=100005070	# Hans Carl v. Schoenaich-Carolath
-			mother=100083169	# BGGFN Amalia zu Dohna-Schlodien
-			1722.01.01={birth=yes}
-			1781.01.01={death=yes}
 		}
 		100005061={ # 4b) Carl Emilius (1724-1781); m.1st 1764 (div 1773) Charlotte Sophie Gfn von Reichenbach-Goschütz (1743-1794); m.2nd 1777 (div 1778) Antoinette Frn von Seherr-Thoss (1747-    )
 			name="Carl Emilius"
@@ -1261,15 +1242,6 @@
 			1750.01.01={add_spouse=100096560}	# BGGFN Sophie Amalie zu Dohna-Schlodien
 			1803.01.01={death=yes}
 		}
-			100005051={ # 1c) Carl Wilhelm (1751-1808)
-				name="Carl Wilhelm"
-				dynasty=1002080
-				religion=lutheran culture=german
-				father=100005050	# Hans Gottlob v. Schoenaich-Carolath
-				mother=100096560	# BGGFN Sophie Amalie zu Dohna-Schlodien
-				1751.01.01={birth=yes}
-				1808.01.01={death=yes}
-			}
 			100005052={ # 2c) Gottlob (1753-1825); m.1783 (div 1796) Anna Eleonore Amalie Gfn von Posadowsky (1767-1840)
 				name=Gottlob
 				dynasty=1002080
@@ -1281,15 +1253,6 @@
 				1796.01.01={remove_spouse=100096561}
 				1825.01.01={death=yes}
 			}
-				100005053={ # 1d) August (1795-1819)
-					name=August
-					dynasty=1002080
-					religion=lutheran culture=german
-					father=100005052	# Gottlob v. Schoenaich-Carolath
-					mother=100096561	# GFN Anna Eleonore von Posadowsky
-					1795.01.01={birth=yes}
-					1819.01.01={death=yes}
-				}
 				100005054={ # 2d) Agnes (1796-1838); m.1816 Hans Wallrab von Biela (d.1873)
 					name=Agnes
 					female=yes
@@ -1390,18 +1353,7 @@
 			1729.01.01={birth=yes}
 			1789.01.01={death=yes}
 		}
-	100005068={ # 2a) Charlotte (1696-1717); m.1713 Albrecht Gottlob Gans zu Putlitz (d.1719)
-		name=Charlotte
-		female=yes
-		dynasty=1002080
-		religion=lutheran culture=german
-		father=100005069	# Hans Georg v. Schoenaich-Carolath
-		mother=100081935	# GFN Ursula von Redern
-		1696.01.01={birth=yes}
-		1717.01.01={death=yes}
-	}
-####### 100003821
-#1692.01.01={holder=100003695} # Hans Georg Gf von Schoenaich
+#1692.01.01={holder=100003695} # Hans Georg
 #1700.01.01={holder=100003696} # Hans Carl
 #1763.01.01={holder=100003698} # Johann Friedrich Karl 
 #1791.01.01={holder=100003699} # KARL ERDMANN
@@ -11967,6 +11919,7 @@
 				name=Klemens
 				dynasty=1002044
 				religion=catholic culture=german
+				trait=twin
 				father=100000783	# Alexander Gustav de Croÿ
 				mother=100093440	# GFN Elisabeth von Westphalen zu Fürstenberg
 				1873.03.31={birth=yes}
@@ -12083,6 +12036,7 @@
 				name=Alexander
 				dynasty=1002044
 				religion=catholic culture=german
+				trait=twin
 				father=100000783	# Alexander Gustav de Croÿ
 				mother=100093440	# GFN Elisabeth von Westphalen zu Fürstenberg
 				1873.03.31={birth=yes}
@@ -13112,6 +13066,7 @@
 												name="Alexander Maximilian"
 												dynasty=1002043
 												religion=lutheran culture=german
+												trait=twin
 												father=100005156	# Paul v. Schönborn
 												mother=100087542	# Damiana Lovatelli
 												1991.06.17={birth=yes}
@@ -13120,6 +13075,7 @@
 												name="Johannes Damian"
 												dynasty=1002043
 												religion=lutheran culture=german
+												trait=twin
 												father=100005156	# Paul v. Schönborn
 												mother=100087542	# Damiana Lovatelli
 												1991.06.17={birth=yes}
@@ -14083,6 +14039,7 @@
 									name=Erwein
 									dynasty=1002043
 									religion=lutheran culture=german
+									trait=twin
 									father=100005256	# Adalbert Joseph v. Schönborn
 									mother=100002734	# Adelheid v. Löwenstein-Wertheim
 									1899.01.15={birth=yes}
@@ -14092,6 +14049,7 @@
 									name=Franz
 									dynasty=1002043
 									religion=lutheran culture=german
+									trait=twin
 									father=100005256	# Adalbert Joseph v. Schönborn
 									mother=100002734	# Adelheid v. Löwenstein-Wertheim
 									1899.01.15={birth=yes}
@@ -15950,18 +15908,20 @@
 						1997.06.09={death=yes}
 					}
 				100000195={	# 5d) Eugène Antoine Engelbert Prosper Ernest Jean Marie Joseph Melchior Philippe Etienne (Pesch 21 Apr 1897-Düsseldorf 20 Jul 1970)
-					name="Eugène Antoine"
+					name=Eugène
 					dynasty=1002040
 					religion=catholic culture=frankish
+					trait=twin
 					father=100000235	# Jean Baptiste v. Arenberg
 					mother=100000215	# Sophie Aloïse v. Arenberg
 					1897.04.21={birth=yes}
 					1970.07.20={death=yes}
 				}
 				100000196={	# 6d) François Léopold Antoine Engelbert Propser Ernest Jean Marie Joseph Balthazar Philippe Erasme (Pesch 21 Apr 1897-Lausanne 28 Jul 1961)
-					name="François Léopold"
+					name=François
 					dynasty=1002040
 					religion=catholic culture=frankish
+					trait=twin
 					father=100000235	# Jean Baptiste v. Arenberg
 					mother=100000215	# Sophie Aloïse v. Arenberg
 					1897.04.21={birth=yes}
@@ -16050,15 +16010,17 @@
 			name="Louis Charles"
 			dynasty=1002040
 			religion=catholic culture=frankish
+			trait=twin
 			father=100000207	# Pierre v. Arenberg
 			mother=100082976	# Alix de Talleyrand-Périgord
 			1837.09.15={birth=yes}
 			1870.05.07={death=yes}
 		}
 		100000213={	# 4b) Auguste Louis Alberic, Duc d'Arenberg (Paris 15 Sep 1837-Paris 24 Jan 1924); m.Paris 18 Jun 1868 Jeanne Marie Louise de Greffulhe (Paris 20 Mar 1850-Paris 24 Mar 1891)
-			name="Auguste Louis"
+			name="Auguste Louis Alberic"
 			dynasty=1002040
 			religion=catholic culture=frankish
+			trait=twin
 			father=100000207	# Pierre v. Arenberg
 			mother=100082976	# Alix de Talleyrand-Périgord
 			1837.09.15={birth=yes}
