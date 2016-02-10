@@ -10,11 +10,22 @@ c_koenigsberg = {
 e_germany={
 	german="Deutsches Reich"
 	short_name = yes
+	allow={
+		OR={
+			has_landed_title = k_preussen
+			has_landed_title = k_austria
+		}
+	}
 }
 k_bavaria={
 	german=Bayern
 }
 
+###############################
+e_italy={
+	italian=Italia
+	german=Italien
+}
 ###############################
 
 k_hungary = {
