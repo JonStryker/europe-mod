@@ -17,13 +17,10 @@ namespace = SoA
 # The Grand Master demands one of your sons due to debt
 character_event = {
 	id = SoA.1000
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -78,18 +75,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1001
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -103,17 +92,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1002
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
 	
 	hide_window = yes
 	
@@ -121,20 +103,16 @@ character_event = {
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1003
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1003
-	desc = EVTDESC_SOA_1003
+	desc = EVTDESC_SOA_1003
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -155,6 +133,10 @@ letter_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2862 } }
 					}
 					add_trait = celibate
 					if = {
@@ -193,9 +175,6 @@ letter_event = {
 # Ping event when borrowing money from the Templars
 character_event = {
 	id = SoA.1010
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
 	
 	hide_window = yes
 	
@@ -209,16 +188,12 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when borrowing money from the Templars
 letter_event = {
 	id = SoA.1011
-	desc = EVTDESC_SOA_1011
+	desc = EVTDESC_SOA_1011
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -231,9 +206,6 @@ letter_event = {
 # Ping event when vassalizing the Templars
 character_event = {
 	id = SoA.1015
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
 	
 	hide_window = yes
 	
@@ -247,16 +219,12 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when vassalizing the Templars
 letter_event = {
 	id = SoA.1016
-	desc = EVTDESC_SOA_1016
+	desc = EVTDESC_SOA_1016
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -269,13 +237,11 @@ letter_event = {
 # The Grand Master demands the right to build a castle in your demesne
 character_event = {
 	id = SoA.1020
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
 	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -323,17 +289,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1021
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
 	
 	hide_window = yes
 	
@@ -348,17 +307,10 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1022
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
 	
 	hide_window = yes
 	
@@ -366,20 +318,16 @@ character_event = {
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1023
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1023
-	desc = EVTDESC_SOA_1023
+	desc = EVTDESC_SOA_1023
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -421,7 +369,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1024
-	desc = EVTDESC_SOA_1024
+	desc = EVTDESC_SOA_1024
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -445,15 +393,14 @@ province_event = {
 # The son of a ruler volunteers to join the Knights Templar
 character_event = {
 	id = SoA.1030
-	desc = EVTDESC_SOA_1030
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = christian
 	
 	trigger = {
 		is_ruler = no
@@ -494,6 +441,13 @@ character_event = {
 				has_character_modifier = expelled_d_knights_templar
 			}
 		}
+		
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -553,6 +507,12 @@ character_event = {
 			is_primary_heir = yes
 		}
 		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
+		modifier = {
 			factor = 3.0 # Prefer the Teutonic Order
 			OR = {
 				culture_group = north_germanic
@@ -564,26 +524,19 @@ character_event = {
 		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1031
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Knights Templar
 character_event = {
 	id = SoA.1031
-	desc = EVTDESC_SOA_1031
+	desc = EVTDESC_SOA_1031
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_religion
 	
@@ -608,6 +561,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.1033
@@ -620,21 +575,21 @@ character_event = {
 # Son or brother joins the Knights Templar
 character_event = {
 	id = SoA.1032
-	desc = EVTDESC_SOA_1032
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_knights_templar = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					add_trait = celibate
 					if = {
@@ -657,15 +612,11 @@ character_event = {
 # Liege refuses request to join the Knights Templar
 character_event = {
 	id = SoA.1033
-	desc = EVTDESC_SOA_1033
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -676,13 +627,10 @@ character_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1050
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -708,17 +656,13 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			empire = {
-				OR = {
-					title = e_france
-					title = e_italy
-					title = e_byzantium
-					title = e_spain
-					title = e_persia
-					title = e_arabia
-					title = e_abyssinia
-					title = e_britannia
-				}
+			OR = {
+				region = world_persia
+				region = world_middle_east
+				region = world_asia_minor
+				region = world_africa_north
+				region = world_europe_south
+				region = world_europe_west
 			}
 		}
 		
@@ -764,17 +708,13 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				has_empty_holding = yes
-				empire = {
-					OR = {
-						title = e_france
-						title = e_italy
-						title = e_byzantium
-						title = e_spain
-						title = e_persia
-						title = e_arabia
-						title = e_abyssinia
-						title = e_britannia
-					}
+				OR = {
+					region = world_persia
+					region = world_middle_east
+					region = world_asia_minor
+					region = world_africa_north
+					region = world_europe_south
+					region = world_europe_west
 				}
 			}
 			province_event = {
@@ -782,18 +722,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1051
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -807,38 +739,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1052
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1053
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1053
-	desc = EVTDESC_SOA_1053
+	desc = EVTDESC_SOA_1053
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -877,7 +797,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1054
-	desc = EVTDESC_SOA_1054
+	desc = EVTDESC_SOA_1054
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -902,10 +822,6 @@ province_event = {
 # Ping event when expelling a Christian Holy Order
 character_event = {
 	id = SoA.1060
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -944,16 +860,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling a Christian Holy Order
 letter_event = {
 	id = SoA.1061
-	desc = EVTDESC_SOA_1061
+	desc = EVTDESC_SOA_1061
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -974,10 +886,6 @@ letter_event = {
 # Ping event when vassalizing the Hospitallers
 character_event = {
 	id = SoA.1115
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -990,16 +898,12 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when vassalizing the Hospitallers
 letter_event = {
 	id = SoA.1116
-	desc = EVTDESC_SOA_1116
+	desc = EVTDESC_SOA_1116
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1012,15 +916,14 @@ letter_event = {
 # The son of a ruler volunteers to join the Knights of St John
 character_event = {
 	id = SoA.1130
-	desc = EVTDESC_SOA_1130
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = christian
 	
 	trigger = {
 		is_ruler = no
@@ -1059,6 +962,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_knights_hospitaler
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -1120,6 +1030,12 @@ character_event = {
 			is_primary_heir = yes
 		}
 		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
+		modifier = {
 			factor = 3.0 # Prefer the Teutonic Order
 			OR = {
 				culture_group = north_germanic
@@ -1131,26 +1047,19 @@ character_event = {
 		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1131
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Knights of St John
 character_event = {
 	id = SoA.1131
-	desc = EVTDESC_SOA_1131
+	desc = EVTDESC_SOA_1131
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_religion
 	
@@ -1175,6 +1084,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.1133
@@ -1187,21 +1098,21 @@ character_event = {
 # Son or brother joins the Knights of St John
 character_event = {
 	id = SoA.1132
-	desc = EVTDESC_SOA_1132
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_knights_hospitaler = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					add_trait = celibate
 					if = {
@@ -1224,15 +1135,11 @@ character_event = {
 # Liege refuses request to join the Knights of St John
 character_event = {
 	id = SoA.1133
-	desc = EVTDESC_SOA_1133
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -1243,10 +1150,6 @@ character_event = {
 # Ping event when donating money to the Hospitallers (also used for Bektashi, Assassins, Haruriyyah and Templar orders)
 character_event = {
 	id = SoA.1140
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -1274,16 +1177,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Hospitallers
 letter_event = {
 	id = SoA.1141
-	desc = EVTDESC_SOA_1141
+	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1296,13 +1195,10 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1150
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -1325,13 +1221,12 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			empire = {
-				OR = {
-					title = e_byzantium
-					title = e_persia
-					title = e_arabia
-					title = e_abyssinia
-				}
+			OR = {
+				region = world_persia
+				region = world_middle_east
+				region = world_asia_minor
+				region = world_india_rajastan
+				region = world_africa_north
 			}
 		}
 		
@@ -1385,13 +1280,12 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				has_empty_holding = yes
-				empire = {
-					OR = {
-						title = e_byzantium
-						title = e_persia
-						title = e_arabia
-						title = e_abyssinia
-					}
+				OR = {
+					region = world_persia
+					region = world_middle_east
+					region = world_asia_minor
+					region = world_india_rajastan
+					region = world_africa_north
 				}
 			}
 			province_event = {
@@ -1399,18 +1293,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1151
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -1424,38 +1310,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1152
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1153
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1153
-	desc = EVTDESC_SOA_1153
+	desc = EVTDESC_SOA_1153
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1494,7 +1368,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1154
-	desc = EVTDESC_SOA_1154
+	desc = EVTDESC_SOA_1154
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -1522,13 +1396,10 @@ province_event = {
 # The Grand Master demands one of your sons due to debt
 character_event = {
 	id = SoA.1200
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = muslim
 	
 	trigger = {
 		OR = {
@@ -1581,18 +1452,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1201
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -1606,38 +1469,26 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1202
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1203
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1203
-	desc = EVTDESC_SOA_1203
+	desc = EVTDESC_SOA_1203
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1696,8 +1547,8 @@ letter_event = {
 # Birth of the Bektashi Order
 narrative_event = {
 	id = SoA.1209
-	title = EVTTITLE_SOA_1209
-	desc = EVTDESC_SOA_1209
+	title = EVTTITLE_SOA_1209
+	desc = EVTDESC_SOA_1209
 	picture = GFX_evt_moors
 	
 	major = yes
@@ -1705,6 +1556,7 @@ narrative_event = {
 	
 	only_playable = yes
 	only_men = yes
+	religion_group = muslim
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
@@ -1870,10 +1722,6 @@ narrative_event = {
 # Ping event when borrowing money from the Bektashi
 character_event = {
 	id = SoA.1210
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -1886,16 +1734,12 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when borrowing money from the Bektashi
 letter_event = {
 	id = SoA.1211
-	desc = EVTDESC_SOA_1211
+	desc = EVTDESC_SOA_1211
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1909,13 +1753,10 @@ letter_event = {
 # The Grand Master demands the right to build a castle in your demesne
 character_event = {
 	id = SoA.1220
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = muslim
 	
 	trigger = {
 		OR = {
@@ -1961,18 +1802,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1221
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -1986,38 +1819,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1222
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1223
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1223
-	desc = EVTDESC_SOA_1223
+	desc = EVTDESC_SOA_1223
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2058,7 +1879,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1224
-	desc = EVTDESC_SOA_1224
+	desc = EVTDESC_SOA_1224
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -2082,15 +1903,14 @@ province_event = {
 # The son of a ruler volunteers to join the Bektashi Order
 character_event = {
 	id = SoA.1230
-	desc = EVTDESC_SOA_1230
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
 		is_ruler = no
@@ -2127,6 +1947,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_bektashi
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -2187,28 +2014,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1231
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Bektashi
 character_event = {
 	id = SoA.1231
-	desc = EVTDESC_SOA_1231
+	desc = EVTDESC_SOA_1231
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
 	
@@ -2260,6 +2086,10 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
+					any_spouse = {
+						remove_spouse = ROOT
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
+					}
 					if = {
 						limit = { trait = in_hiding	}
 						remove_trait = in_hiding
@@ -2297,21 +2127,19 @@ character_event = {
 # The Grand Master requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1250
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = muslim
 	
 	trigger = {
+		is_heretic = no
 		OR = {
 			religion = sunni
 			religion = zikri
 			religion = yazidi
 		}
-		
+
 		d_bektashi = {
 			holder_scope = {
 				wealth = 300
@@ -2378,18 +2206,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1251
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -2403,38 +2223,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1252
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1253
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1253
-	desc = EVTDESC_SOA_1253
+	desc = EVTDESC_SOA_1253
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2473,7 +2281,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1254
-	desc = EVTDESC_SOA_1224
+	desc = EVTDESC_SOA_1224
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
 	
@@ -2502,15 +2310,14 @@ province_event = {
 # The son of a ruler volunteers to join the Teutonic Order
 character_event = {
 	id = SoA.1330
-	desc = EVTDESC_SOA_1330
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = christian
 	
 	trigger = {
 		is_ruler = no
@@ -2549,6 +2356,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_teutonic_order
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -2610,6 +2424,12 @@ character_event = {
 			is_primary_heir = yes
 		}
 		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
+		modifier = {
 			factor = 3.0 # Prefer the other Holy Orders
 			NOT = {
 				OR = {
@@ -2623,26 +2443,19 @@ character_event = {
 		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1331
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Teutonic Order
 character_event = {
 	id = SoA.1331
-	desc = EVTDESC_SOA_1331
+	desc = EVTDESC_SOA_1331
 	picture = GFX_evt_crusaders
 	border = GFX_event_normal_frame_religion
 	
@@ -2681,21 +2494,21 @@ character_event = {
 # Son or brother joins the Teutonic Order
 character_event = {
 	id = SoA.1332
-	desc = EVTDESC_SOA_1332
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_teutonic_order = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					add_trait = celibate
 					if = {
@@ -2718,15 +2531,11 @@ character_event = {
 # Liege refuses request to join the Teutonic Order
 character_event = {
 	id = SoA.1333
-	desc = EVTDESC_SOA_1333
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -2737,10 +2546,6 @@ character_event = {
 # Ping event when donating money to the Teutonic Order
 character_event = {
 	id = SoA.1340
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -2757,22 +2562,15 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1350
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -2795,13 +2593,9 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			empire = {
-				OR = {
-					title = e_wendish_empire
-					title = e_russia
-					title = e_tartaria
-					title = e_carpathia
-				}
+			OR = {
+				region = world_europe_east
+				region = world_steppe
 			}
 		}
 		
@@ -2855,13 +2649,9 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				has_empty_holding = yes
-				empire = {
-					OR = {
-						title = e_wendish_empire
-						title = e_russia
-						title = e_tartaria
-						title = e_carpathia
-					}
+				OR = {
+					region = world_europe_east
+					region = world_steppe
 				}
 			}
 			province_event = {
@@ -2869,18 +2659,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1351
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -2894,38 +2676,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1352
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1353
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1353
-	desc = EVTDESC_SOA_1353
+	desc = EVTDESC_SOA_1353
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2968,7 +2738,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1354
-	desc = EVTDESC_SOA_1354
+	desc = EVTDESC_SOA_1354
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -2996,16 +2766,18 @@ province_event = {
 # The Grand Master demands one of your sons due to debt
 character_event = {
 	id = SoA.1400
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = muslim
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+		}
+		is_heretic = no
 		has_character_modifier = borrowed_from_assassins
 		NOT = { has_character_flag = sent_son_to_assassins }
 		any_child = {
@@ -3057,18 +2829,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1401
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -3082,38 +2846,26 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1402
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1403
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1403
-	desc = EVTDESC_SOA_1203
+	desc = EVTDESC_SOA_1203
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -3171,10 +2923,6 @@ letter_event = {
 # Ping event when borrowing money from the Hashshashins
 character_event = {
 	id = SoA.1410
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -3187,16 +2935,12 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when borrowing money from the Hashshashins
 letter_event = {
 	id = SoA.1411
-	desc = EVTDESC_SOA_1411
+	desc = EVTDESC_SOA_1411
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -3209,16 +2953,18 @@ letter_event = {
 # The Grand Master demands the right to build a castle in your demesne
 character_event = {
 	id = SoA.1420
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = muslim
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+		}
+		is_heretic = no
 		
 		has_character_modifier = borrowed_from_assassins
 		NOT = { has_character_flag = sent_son_to_assassins }
@@ -3256,18 +3002,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1421
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -3281,38 +3019,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1422
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1423
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1423
-	desc = EVTDESC_SOA_1223
+	desc = EVTDESC_SOA_1223
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -3353,7 +3079,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1424
-	desc = EVTDESC_SOA_1424
+	desc = EVTDESC_SOA_1424
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -3377,19 +3103,24 @@ province_event = {
 # The son of a ruler volunteers to join the Hashshashins
 character_event = {
 	id = SoA.1430
-	desc = EVTDESC_SOA_1430
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = muslim
 	
 	trigger = {
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+		}
+		is_heretic = no
+		
 		is_ruler = no
-		religion = shiite
 		
 		martial = 5
 		
@@ -3417,6 +3148,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_hashshashin
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -3477,28 +3215,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1431
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Hashshashins
 character_event = {
 	id = SoA.1431
-	desc = EVTDESC_SOA_1431
+	desc = EVTDESC_SOA_1431
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
 	
@@ -3523,6 +3260,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.1433
@@ -3535,21 +3274,21 @@ character_event = {
 # Son or brother joins the Hashshashins
 character_event = {
 	id = SoA.1432
-	desc = EVTDESC_SOA_1432
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_hashshashin = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -3571,15 +3310,11 @@ character_event = {
 # Liege refuses request to join the Hashshashins
 character_event = {
 	id = SoA.1433
-	desc = EVTDESC_SOA_1433
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -3590,16 +3325,18 @@ character_event = {
 # The Grand Master requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1450
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = muslim
 	
 	trigger = {
-		religion = shiite
+		OR = {
+			religion = shiite
+			religion = druze
+			religion = hurufi
+		}
+		is_heretic = no
 		
 		d_hashshashin = {
 			holder_scope = {
@@ -3667,18 +3404,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1451
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -3692,38 +3421,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1452
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1453
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1453
-	desc = EVTDESC_SOA_1253 # Reuse this
+	desc = EVTDESC_SOA_1253 # Reuse this
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -3762,7 +3479,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1454
-	desc = EVTDESC_SOA_1454
+	desc = EVTDESC_SOA_1454
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
 	
@@ -3787,10 +3504,6 @@ province_event = {
 # Ping event when expelling a Muslim Holy Order
 character_event = {
 	id = SoA.1460
-	desc = OK
-	picture = GFX_evt_moors
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -3829,16 +3542,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling a Muslim Holy Order
 letter_event = {
 	id = SoA.1461
-	desc = EVTDESC_SOA_1461
+	desc = EVTDESC_SOA_1461
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -3860,15 +3569,14 @@ letter_event = {
 # The son of a ruler volunteers to join the Jomsvikings
 character_event = {
 	id = SoA.1530
-	desc = EVTDESC_SOA_1530
-	picture = GFX_evt_vikings_arriving_oldgods
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = pagan_group
 	
 	trigger = {
 		is_ruler = no
@@ -3903,6 +3611,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_jomsvikings
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -3963,28 +3678,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1531
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Jomsvikings
 character_event = {
 	id = SoA.1531
-	desc = EVTDESC_SOA_1531
+	desc = EVTDESC_SOA_1531
 	picture = GFX_evt_vikings_arriving_oldgods
 	border = GFX_event_normal_frame_religion
 	
@@ -4023,15 +3737,11 @@ character_event = {
 # Son or brother joins the Jomsvikings
 character_event = {
 	id = SoA.1532
-	desc = EVTDESC_SOA_1532
-	picture = GFX_evt_vikings_arriving_oldgods
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_jomsvikings = {
 			holder_scope = {
 				ROOT = {
@@ -4040,6 +3750,10 @@ character_event = {
 						clear_wealth = PREV
 					}
 					religion = PREV
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
+					}
 					if = {
 						limit = { trait = in_hiding	}
 						remove_trait = in_hiding
@@ -4060,15 +3774,11 @@ character_event = {
 # Liege refuses request to join the Jomsvikings
 character_event = {
 	id = SoA.1533
-	desc = EVTDESC_SOA_1533
-	picture = GFX_evt_vikings_arriving_oldgods
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -4079,10 +3789,6 @@ character_event = {
 # Ping event when donating money to the Jomsvikings
 character_event = {
 	id = SoA.1540
-	desc = OK
-	picture = GFX_evt_vikings_arriving_oldgods
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -4099,16 +3805,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Jomsvikings
 letter_event = {
 	id = SoA.1541
-	desc = EVTDESC_SOA_1541
+	desc = EVTDESC_SOA_1541
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -4121,13 +3823,10 @@ letter_event = {
 # The Warchief requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1550
-	desc = OK
-	picture = GFX_evt_vikings_arriving_oldgods
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = pagan_group
 	
 	trigger = {
 		OR = {
@@ -4206,18 +3905,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1551
-	desc = OK
-	picture = GFX_evt_vikings_arriving_oldgods
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -4231,38 +3922,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1552
-	desc = OK
-	picture = GFX_evt_vikings_arriving_oldgods
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1553
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1553
-	desc = EVTDESC_SOA_1553
+	desc = EVTDESC_SOA_1553
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -4278,9 +3957,7 @@ letter_event = {
 			modifier = {
 				factor = 0.01
 				FROMFROM = {
-					empire = {
-						title = e_scandinavia
-					}
+					region = world_europe_north
 				}
 			}
 		}
@@ -4309,7 +3986,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1554
-	desc = EVTDESC_SOA_1554
+	desc = EVTDESC_SOA_1554
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -4333,10 +4010,6 @@ province_event = {
 # Ping event when expelling a Pagan Holy Order
 character_event = {
 	id = SoA.1560
-	desc = OK
-	picture = GFX_evt_crusaders
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -4375,16 +4048,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling a Pagan Holy Order
 letter_event = {
 	id = SoA.1561
-	desc = EVTDESC_SOA_1561
+	desc = EVTDESC_SOA_1561
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -4405,14 +4074,15 @@ letter_event = {
 # Brotherhood of the Holy Sepulchre becomes a Chivalric Order
 narrative_event = {
 	id = SoA.1609
-	title = EVTTITLE_SOA_1609
-	desc = EVTDESC_SOA_1609
+	title = EVTTITLE_SOA_1609
+	desc = EVTDESC_SOA_1609
 	major = yes
 	
 	picture = GFX_evt_western_knights_byzantine
 	
 	only_playable = yes
 	hide_from = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -4590,15 +4260,14 @@ narrative_event = {
 # The son of a ruler volunteers to join the Brotherhood
 character_event = {
 	id = SoA.1630
-	desc = EVTDESC_SOA_1630
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = christian
 	
 	trigger = {
 		is_ruler = no
@@ -4637,6 +4306,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_holy_sepulchre
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -4697,28 +4373,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1631
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Brotherhood
 character_event = {
 	id = SoA.1631
-	desc = EVTDESC_SOA_1631
+	desc = EVTDESC_SOA_1631
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -4757,21 +4432,21 @@ character_event = {
 # Son or brother joins the Brotherhood
 character_event = {
 	id = SoA.1632
-	desc = EVTDESC_SOA_1632
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_holy_sepulchre = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					add_trait = celibate
 					if = {
@@ -4794,15 +4469,11 @@ character_event = {
 # Liege refuses request to join the Brotherhood
 character_event = {
 	id = SoA.1633
-	desc = EVTDESC_SOA_1633
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -4813,10 +4484,6 @@ character_event = {
 # Ping event when donating money to the Brotherhood
 character_event = {
 	id = SoA.1640
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -4833,16 +4500,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Brotherhood
 letter_event = {
 	id = SoA.1641
-	desc = EVTDESC_SOA_1141
+	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -4855,13 +4518,10 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1650
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -4942,18 +4602,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1651
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -4967,38 +4619,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1652
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1653
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1653
-	desc = EVTDESC_SOA_1653
+	desc = EVTDESC_SOA_1653
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -5037,7 +4677,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1654
-	desc = EVTDESC_SOA_1654
+	desc = EVTDESC_SOA_1654
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -5061,10 +4701,6 @@ province_event = {
 # Ping event when expelling the Brotherhood
 character_event = {
 	id = SoA.1660
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -5096,16 +4732,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Brotherhood
 letter_event = {
 	id = SoA.1661
-	desc = EVTDESC_SOA_1661
+	desc = EVTDESC_SOA_1661
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -5122,14 +4754,15 @@ letter_event = {
 # The Order of Saint Anthony is reborn
 narrative_event = {
 	id = SoA.1709
-	title = EVTTITLE_SOA_1709
-	desc = EVTDESC_SOA_1709
+	title = EVTTITLE_SOA_1709
+	desc = EVTDESC_SOA_1709
 	major = yes
 	
 	picture = GFX_evt_western_knights_byzantine
 	
 	only_playable = yes
 	hide_from = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -5282,15 +4915,14 @@ narrative_event = {
 # The son of a ruler volunteers to join the Order
 character_event = {
 	id = SoA.1730
-	desc = EVTDESC_SOA_1730
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = christian
 	
 	trigger = {
 		is_ruler = no
@@ -5326,6 +4958,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_saint_anthony
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -5386,28 +5025,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1731
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Order
 character_event = {
 	id = SoA.1731
-	desc = EVTDESC_SOA_1731
+	desc = EVTDESC_SOA_1731
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -5432,6 +5070,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.1733
@@ -5444,21 +5084,21 @@ character_event = {
 # Son or brother joins the Order
 character_event = {
 	id = SoA.1732
-	desc = EVTDESC_SOA_1732
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_saint_anthony = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					add_trait = celibate
 					if = {
@@ -5481,15 +5121,11 @@ character_event = {
 # Liege refuses request to join the Order
 character_event = {
 	id = SoA.1733
-	desc = EVTDESC_SOA_1733
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -5500,10 +5136,6 @@ character_event = {
 # Ping event when donating money to the Order
 character_event = {
 	id = SoA.1740
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -5520,16 +5152,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Order
 letter_event = {
 	id = SoA.1741
-	desc = EVTDESC_SOA_1141
+	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -5542,13 +5170,10 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1750
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -5626,18 +5251,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1751
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -5651,38 +5268,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1752
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1753
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1753
-	desc = EVTDESC_SOA_1053
+	desc = EVTDESC_SOA_1053
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -5721,7 +5326,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1754
-	desc = EVTDESC_SOA_1754
+	desc = EVTDESC_SOA_1754
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -5745,10 +5350,6 @@ province_event = {
 # Ping event when expelling the Order
 character_event = {
 	id = SoA.1760
-	desc = OK
-	picture = GFX_evt_western_knights_byzantine
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -5780,16 +5381,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Order
 letter_event = {
 	id = SoA.1761
-	desc = EVTDESC_SOA_1061
+	desc = EVTDESC_SOA_1061
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -5806,18 +5403,18 @@ letter_event = {
 # The Immortals are reborn
 narrative_event = {
 	id = SoA.1809
-	title = EVTTITLE_SOA_1809
-	desc = EVTDESC_SOA_1809
+	title = EVTTITLE_SOA_1809
+	desc = EVTDESC_SOA_1809
 	major = yes
 	
 	picture = GFX_evt_melee
 	
 	only_playable = yes
 	hide_from = yes
+	religion_group = zoroastrian_group
 	
 	trigger = {
 		has_global_flag = zoroastrian_priesthood_founded
-		religion_group = zoroastrian_group
 		is_heretic = no
 		NOT = {
 			is_title_active = d_immortals
@@ -5935,19 +5532,17 @@ narrative_event = {
 # The son of a ruler volunteers to join the Immortals
 character_event = {
 	id = SoA.1830
-	desc = EVTDESC_SOA_1830
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = zoroastrian_group
 	
 	trigger = {
 		is_ruler = no
-		religion_group = zoroastrian_group
 		is_heretic = no
 		
 		martial = 5
@@ -5976,6 +5571,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_immortals
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -6036,28 +5638,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1831
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Immortals
 character_event = {
 	id = SoA.1831
-	desc = EVTDESC_SOA_1831
+	desc = EVTDESC_SOA_1831
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
 	
@@ -6096,21 +5697,21 @@ character_event = {
 # Son or brother joins the Immortals
 character_event = {
 	id = SoA.1832
-	desc = EVTDESC_SOA_1832
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_immortals = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -6132,15 +5733,11 @@ character_event = {
 # Liege refuses request to join the Immortals
 character_event = {
 	id = SoA.1833
-	desc = EVTDESC_SOA_1833
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -6151,10 +5748,6 @@ character_event = {
 # Ping event when donating money to the Immortals
 character_event = {
 	id = SoA.1840
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -6171,16 +5764,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Immortals
 letter_event = {
 	id = SoA.1841
-	desc = EVTDESC_SOA_1841
+	desc = EVTDESC_SOA_1841
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -6193,16 +5782,12 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1850
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = zoroastrian_group
 	
 	trigger = {
-		religion_group = zoroastrian_group
 		is_heretic = no
 		
 		d_immortals = {
@@ -6274,18 +5859,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1851
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -6299,38 +5876,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1852
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1853
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1853
-	desc = EVTDESC_SOA_1853
+	desc = EVTDESC_SOA_1853
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -6369,7 +5934,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1854
-	desc = EVTDESC_SOA_1854
+	desc = EVTDESC_SOA_1854
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -6393,10 +5958,6 @@ province_event = {
 # Ping event when expelling the Immortals
 character_event = {
 	id = SoA.1860
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -6428,16 +5989,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Immortals
 letter_event = {
 	id = SoA.1861
-	desc = EVTDESC_SOA_1861
+	desc = EVTDESC_SOA_1861
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -6454,18 +6011,18 @@ letter_event = {
 # The Zealots are reborn
 narrative_event = {
 	id = SoA.1909
-	title = EVTTITLE_SOA_1909
-	desc = EVTDESC_SOA_1909
+	title = EVTTITLE_SOA_1909
+	desc = EVTDESC_SOA_1909
 	major = yes
 	
 	picture = GFX_evt_melee
 	
 	only_playable = yes
 	hide_from = yes
+	religion_group = jewish_group
 	
 	trigger = {
 		has_global_flag = jewish_priesthood_founded
-		religion_group = jewish_group
 		is_heretic = no
 		NOT = {
 			is_title_active = d_zealots
@@ -6583,19 +6140,17 @@ narrative_event = {
 # The son of a ruler volunteers to join the Zealots
 character_event = {
 	id = SoA.1930
-	desc = EVTDESC_SOA_1930
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = jewish_group
 	
 	trigger = {
 		is_ruler = no
-		religion_group = jewish_group
 		is_heretic = no
 		
 		martial = 5
@@ -6624,6 +6179,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_zealots
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -6684,28 +6246,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.1931
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Zealots
 character_event = {
 	id = SoA.1931
-	desc = EVTDESC_SOA_1931
+	desc = EVTDESC_SOA_1931
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
 	
@@ -6744,21 +6305,21 @@ character_event = {
 # Son or brother joins the Zealots
 character_event = {
 	id = SoA.1932
-	desc = EVTDESC_SOA_1932
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_zealots = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -6780,15 +6341,11 @@ character_event = {
 # Liege refuses request to join the Zealots
 character_event = {
 	id = SoA.1933
-	desc = EVTDESC_SOA_1933
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -6799,10 +6356,6 @@ character_event = {
 # Ping event when donating money to the Zealots
 character_event = {
 	id = SoA.1940
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -6819,16 +6372,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Zealots
 letter_event = {
 	id = SoA.1941
-	desc = EVTDESC_SOA_1941
+	desc = EVTDESC_SOA_1941
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -6841,16 +6390,12 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.1950
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = jewish_group
 	
 	trigger = {
-		religion_group = jewish_group
 		is_heretic = no
 		
 		d_zealots = {
@@ -6922,18 +6467,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.1951
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -6947,38 +6484,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.1952
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.1953
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.1953
-	desc = EVTDESC_SOA_1953
+	desc = EVTDESC_SOA_1953
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -7017,7 +6542,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.1954
-	desc = EVTDESC_SOA_1954
+	desc = EVTDESC_SOA_1954
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -7041,10 +6566,6 @@ province_event = {
 # Ping event when expelling the Zealots
 character_event = {
 	id = SoA.1960
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -7076,16 +6597,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Zealots
 letter_event = {
 	id = SoA.1961
-	desc = EVTDESC_SOA_1961
+	desc = EVTDESC_SOA_1961
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -7102,19 +6619,19 @@ letter_event = {
 # The birth of the Lords of the Sky
 narrative_event = {
 	id = SoA.2009
-	title = EVTTITLE_SOA_2009
-	desc = EVTDESC_SOA_2009
+	title = EVTTITLE_SOA_2009
+	desc = EVTDESC_SOA_2009
 	major = yes
 	
 	picture = GFX_evt_mongols_pillage_oldgods
 	
 	only_playable = yes
 	hide_from = yes
+	religion = catholic
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_global_flag = tengri_reformation
-		religion = catholic
 		NOT = {
 			is_title_active = d_sky_lords
 		}
@@ -7232,19 +6749,17 @@ narrative_event = {
 # The son of a ruler volunteers to join the Lords of the Sky
 character_event = {
 	id = SoA.2030
-	desc = EVTDESC_SOA_2030
-	picture = GFX_evt_throne_room_altaic
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion = tengri_pagan_reformed
 	
 	trigger = {
 		is_ruler = no
-		religion = tengri_pagan_reformed
 		
 		martial = 5
 		
@@ -7272,6 +6787,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_sky_lords
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -7332,28 +6854,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2031
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Lords of the Sky
 character_event = {
 	id = SoA.2031
-	desc = EVTDESC_SOA_2031
+	desc = EVTDESC_SOA_2031
 	picture = GFX_evt_throne_room_altaic
 	border = GFX_event_normal_frame_religion
 	
@@ -7392,21 +6913,21 @@ character_event = {
 # Son or brother joins the Lords of the Sky
 character_event = {
 	id = SoA.2032
-	desc = EVTDESC_SOA_2032
-	picture = GFX_evt_throne_room_altaic
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_sky_lords = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -7428,15 +6949,11 @@ character_event = {
 # Liege refuses request to join the Lords of the Sky
 character_event = {
 	id = SoA.2033
-	desc = EVTDESC_SOA_2033
-	picture = GFX_evt_throne_room_altaic
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -7447,10 +6964,6 @@ character_event = {
 # Ping event when donating money to the Lords of the Sky
 character_event = {
 	id = SoA.2040
-	desc = OK
-	picture = GFX_evt_throne_room_altaic
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -7467,16 +6980,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Lords of the Sky
 letter_event = {
 	id = SoA.2041
-	desc = EVTDESC_SOA_2041
+	desc = EVTDESC_SOA_2041
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -7489,17 +6998,12 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2050
-	desc = OK
-	picture = GFX_evt_throne_room_altaic
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion = tengri_pagan_reformed
 	
 	trigger = {
-		religion = tengri_pagan_reformed
-		
 		d_sky_lords = {
 			holder_scope = {
 				wealth = 300
@@ -7569,18 +7073,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2051
-	desc = OK
-	picture = GFX_evt_throne_room_altaic
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -7594,38 +7090,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2052
-	desc = OK
-	picture = GFX_evt_throne_room_altaic
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2053
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2053
-	desc = EVTDESC_SOA_2053
+	desc = EVTDESC_SOA_2053
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -7664,7 +7148,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2054
-	desc = EVTDESC_SOA_2054
+	desc = EVTDESC_SOA_2054
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -7688,10 +7172,6 @@ province_event = {
 # Ping event when expelling the Lords of the Sky
 character_event = {
 	id = SoA.2060
-	desc = OK
-	picture = GFX_evt_throne_room_altaic
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -7723,16 +7203,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Lords of the Sky
 letter_event = {
 	id = SoA.2061
-	desc = EVTDESC_SOA_2061
+	desc = EVTDESC_SOA_2061
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -7749,19 +7225,19 @@ letter_event = {
 # The birth of the Spirit Guardians
 narrative_event = {
 	id = SoA.2109
-	title = EVTTITLE_SOA_2109
-	desc = EVTDESC_SOA_2109
+	title = EVTTITLE_SOA_2109
+	desc = EVTDESC_SOA_2109
 	major = yes
 	
 	picture = GFX_evt_melee
 	
 	only_playable = yes
 	hide_from = yes
+	religion = catholic
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_global_flag = west_african_reformation
-		religion = catholic
 		NOT = {
 			is_title_active = d_spirit_guardians
 		}
@@ -7879,19 +7355,17 @@ narrative_event = {
 # The son of a ruler volunteers to join the Spirit Guardians
 character_event = {
 	id = SoA.2130
-	desc = EVTDESC_SOA_2130
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion = west_african_pagan_reformed
 	
 	trigger = {
 		is_ruler = no
-		religion = west_african_pagan_reformed
 		
 		martial = 5
 		
@@ -7919,6 +7393,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_spirit_guardians
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -7979,28 +7460,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2131
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Spirit Guardians
 character_event = {
 	id = SoA.2131
-	desc = EVTDESC_SOA_2131
+	desc = EVTDESC_SOA_2131
 	picture = GFX_evt_melee
 	border = GFX_event_normal_frame_religion
 	
@@ -8039,21 +7519,21 @@ character_event = {
 # Son or brother joins the Spirit Guardians
 character_event = {
 	id = SoA.2132
-	desc = EVTDESC_SOA_2132
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_spirit_guardians = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -8075,15 +7555,11 @@ character_event = {
 # Liege refuses request to join the Spirit Guardians
 character_event = {
 	id = SoA.2133
-	desc = EVTDESC_SOA_2133
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -8094,10 +7570,6 @@ character_event = {
 # Ping event when donating money to the Spirit Guardians
 character_event = {
 	id = SoA.2140
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -8114,16 +7586,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Spirit Guardians
 letter_event = {
 	id = SoA.2141
-	desc = EVTDESC_SOA_2141
+	desc = EVTDESC_SOA_2141
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -8136,17 +7604,12 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2150
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion = west_african_pagan_reformed
 	
 	trigger = {
-		religion = west_african_pagan_reformed
-		
 		d_spirit_guardians = {
 			holder_scope = {
 				wealth = 300
@@ -8216,18 +7679,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2151
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -8241,38 +7696,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2152
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2153
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2153
-	desc = EVTDESC_SOA_2153
+	desc = EVTDESC_SOA_2153
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -8311,7 +7754,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2154
-	desc = EVTDESC_SOA_2154
+	desc = EVTDESC_SOA_2154
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -8335,10 +7778,6 @@ province_event = {
 # Ping event when expelling the Spirit Guardians
 character_event = {
 	id = SoA.2160
-	desc = OK
-	picture = GFX_evt_melee
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -8370,16 +7809,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Spirit Guardians
 letter_event = {
 	id = SoA.2161
-	desc = EVTDESC_SOA_2161
+	desc = EVTDESC_SOA_2161
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -8396,19 +7831,19 @@ letter_event = {
 # The birth of the Warriors of Perun
 narrative_event = {
 	id = SoA.2209
-	title = EVTTITLE_SOA_2209
-	desc = EVTDESC_SOA_2209
+	title = EVTTITLE_SOA_2209
+	desc = EVTDESC_SOA_2209
 	major = yes
 	
 	picture = GFX_evt_throne_room_norse_pagan
 	
 	only_playable = yes
 	hide_from = yes
+	religion = catholic
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_global_flag = slavic_reformation
-		religion = catholic
 		NOT = {
 			is_title_active = d_warriors_perun
 		}
@@ -8526,19 +7961,17 @@ narrative_event = {
 # The son of a ruler volunteers to join the Warriors of Perun
 character_event = {
 	id = SoA.2230
-	desc = EVTDESC_SOA_2230
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion = slavic_pagan_reformed
 	
 	trigger = {
 		is_ruler = no
-		religion = slavic_pagan_reformed
 		
 		martial = 5
 		
@@ -8566,6 +7999,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_warriors_perun
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -8626,28 +8066,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2231
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Warriors of Perun
 character_event = {
 	id = SoA.2231
-	desc = EVTDESC_SOA_2231
+	desc = EVTDESC_SOA_2231
 	picture = GFX_evt_throne_room_norse_pagan
 	border = GFX_event_normal_frame_religion
 	
@@ -8672,6 +8111,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.2233
@@ -8684,21 +8125,21 @@ character_event = {
 # Son or brother joins the Warriors of Perun
 character_event = {
 	id = SoA.2232
-	desc = EVTDESC_SOA_2232
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_warriors_perun = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -8720,15 +8161,11 @@ character_event = {
 # Liege refuses request to join the Warriors of Perun
 character_event = {
 	id = SoA.2233
-	desc = EVTDESC_SOA_2233
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -8739,10 +8176,6 @@ character_event = {
 # Ping event when donating money to the Warriors of Perun
 character_event = {
 	id = SoA.2240
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -8759,16 +8192,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Warriors of Perun
 letter_event = {
 	id = SoA.2241
-	desc = EVTDESC_SOA_2241
+	desc = EVTDESC_SOA_2241
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -8781,17 +8210,12 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2250
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion = slavic_pagan_reformed
 	
 	trigger = {
-		religion = slavic_pagan_reformed
-		
 		d_warriors_perun = {
 			holder_scope = {
 				wealth = 300
@@ -8861,18 +8285,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2251
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -8886,38 +8302,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2252
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2253
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2253
-	desc = EVTDESC_SOA_2253
+	desc = EVTDESC_SOA_2253
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -8956,7 +8360,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2254
-	desc = EVTDESC_SOA_2254
+	desc = EVTDESC_SOA_2254
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -8980,10 +8384,6 @@ province_event = {
 # Ping event when expelling the Warriors of Perun
 character_event = {
 	id = SoA.2260
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -9015,16 +8415,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Warriors of Perun
 letter_event = {
 	id = SoA.2261
-	desc = EVTDESC_SOA_2261
+	desc = EVTDESC_SOA_2261
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -9041,19 +8437,19 @@ letter_event = {
 # The birth of the Chosen of Perkunas
 narrative_event = {
 	id = SoA.2309
-	title = EVTTITLE_SOA_2309
-	desc = EVTDESC_SOA_2309
+	title = EVTTITLE_SOA_2309
+	desc = EVTDESC_SOA_2309
 	major = yes
 	
 	picture = GFX_evt_throne_room_norse_pagan
 	
 	only_playable = yes
 	hide_from = yes
+	religion = catholic
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_global_flag = baltic_reformation
-		religion = catholic
 		NOT = {
 			is_title_active = d_chosen_perkunas
 		}
@@ -9171,19 +8567,17 @@ narrative_event = {
 # The son of a ruler volunteers to join the Chosen of Perkunas
 character_event = {
 	id = SoA.2330
-	desc = EVTDESC_SOA_2330
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion = baltic_pagan_reformed
 	
 	trigger = {
 		is_ruler = no
-		religion = baltic_pagan_reformed
 		
 		martial = 5
 		
@@ -9211,6 +8605,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_chosen_perkunas
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -9271,28 +8672,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2331
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Chosen of Perkunas
 character_event = {
 	id = SoA.2331
-	desc = EVTDESC_SOA_2331
+	desc = EVTDESC_SOA_2331
 	picture = GFX_evt_throne_room_norse_pagan
 	border = GFX_event_normal_frame_religion
 	
@@ -9317,6 +8717,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.2333
@@ -9329,21 +8731,21 @@ character_event = {
 # Son or brother joins the Chosen of Perkunas
 character_event = {
 	id = SoA.2332
-	desc = EVTDESC_SOA_2332
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_chosen_perkunas = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -9365,15 +8767,11 @@ character_event = {
 # Liege refuses request to join the Chosen of Perkunas
 character_event = {
 	id = SoA.2333
-	desc = EVTDESC_SOA_2333
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -9384,10 +8782,6 @@ character_event = {
 # Ping event when donating money to the Chosen of Perkunas
 character_event = {
 	id = SoA.2340
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -9404,16 +8798,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Chosen of Perkunas
 letter_event = {
 	id = SoA.2341
-	desc = EVTDESC_SOA_2341
+	desc = EVTDESC_SOA_2341
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -9426,17 +8816,12 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2350
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion = baltic_pagan_reformed
 	
 	trigger = {
-		religion = baltic_pagan_reformed
-		
 		d_chosen_perkunas = {
 			holder_scope = {
 				wealth = 300
@@ -9505,18 +8890,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2351
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -9530,38 +8907,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2352
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2353
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2353
-	desc = EVTDESC_SOA_2353
+	desc = EVTDESC_SOA_2353
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -9600,7 +8965,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2354
-	desc = EVTDESC_SOA_2354
+	desc = EVTDESC_SOA_2354
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -9624,10 +8989,6 @@ province_event = {
 # Ping event when expelling the Chosen of Perkunas
 character_event = {
 	id = SoA.2360
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -9659,16 +9020,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Chosen of Perkunas
 letter_event = {
 	id = SoA.2361
-	desc = EVTDESC_SOA_2361
+	desc = EVTDESC_SOA_2361
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -9685,19 +9042,19 @@ letter_event = {
 # The birth of the Sons of Kaleva
 narrative_event = {
 	id = SoA.2409
-	title = EVTTITLE_SOA_2409
-	desc = EVTDESC_SOA_2409
+	title = EVTTITLE_SOA_2409
+	desc = EVTDESC_SOA_2409
 	major = yes
 	
 	picture = GFX_evt_throne_room_norse_pagan
 	
 	only_playable = yes
 	hide_from = yes
+	religion = catholic
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_global_flag = finnish_reformation
-		religion = catholic
 		NOT = {
 			is_title_active = d_sons_kaleva
 		}
@@ -9815,19 +9172,17 @@ narrative_event = {
 # The son of a ruler volunteers to join the Sons of Kaleva
 character_event = {
 	id = SoA.2430
-	desc = EVTDESC_SOA_2430
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion = finnish_pagan_reformed
 	
 	trigger = {
 		is_ruler = no
-		religion = finnish_pagan_reformed
 		
 		martial = 5
 		
@@ -9854,6 +9209,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_sons_kaleva
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -9914,28 +9276,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2431
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Sons of Kaleva
 character_event = {
 	id = SoA.2431
-	desc = EVTDESC_SOA_2431
+	desc = EVTDESC_SOA_2431
 	picture = GFX_evt_throne_room_norse_pagan
 	border = GFX_event_normal_frame_religion
 	
@@ -9960,6 +9321,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.2433
@@ -9972,21 +9335,21 @@ character_event = {
 # Son or brother joins the Sons of Kaleva
 character_event = {
 	id = SoA.2432
-	desc = EVTDESC_SOA_2432
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_sons_kaleva = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -10008,15 +9371,11 @@ character_event = {
 # Liege refuses request to join the Sons of Kaleva
 character_event = {
 	id = SoA.2433
-	desc = EVTDESC_SOA_2433
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -10027,10 +9386,6 @@ character_event = {
 # Ping event when donating money to the Sons of Kaleva
 character_event = {
 	id = SoA.2440
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -10047,16 +9402,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Sons of Kaleva
 letter_event = {
 	id = SoA.2441
-	desc = EVTDESC_SOA_2441
+	desc = EVTDESC_SOA_2441
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -10069,17 +9420,12 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2450
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion = finnish_pagan_reformed
 	
 	trigger = {
-		religion = finnish_pagan_reformed
-		
 		d_sons_kaleva = {
 			holder_scope = {
 				wealth = 300
@@ -10148,18 +9494,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2451
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -10173,38 +9511,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2452
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2453
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2453
-	desc = EVTDESC_SOA_2453
+	desc = EVTDESC_SOA_2453
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -10243,7 +9569,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2454
-	desc = EVTDESC_SOA_2454
+	desc = EVTDESC_SOA_2454
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -10267,10 +9593,6 @@ province_event = {
 # Ping event when expelling the Sons of Kaleva
 character_event = {
 	id = SoA.2460
-	desc = OK
-	picture = GFX_evt_throne_room_norse_pagan
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -10302,16 +9624,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Sons of Kaleva
 letter_event = {
 	id = SoA.2461
-	desc = EVTDESC_SOA_2461
+	desc = EVTDESC_SOA_2461
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -10328,19 +9646,19 @@ letter_event = {
 # The birth of the Cult of Huitzilopochtli
 narrative_event = {
 	id = SoA.2509
-	title = EVTTITLE_SOA_2509
-	desc = EVTDESC_SOA_2509
+	title = EVTTITLE_SOA_2509
+	desc = EVTDESC_SOA_2509
 	major = yes
 	
 	picture = GFX_evt_bishop_aztec
 	
 	only_playable = yes
 	hide_from = yes
+	religion = catholic
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_global_flag = aztec_reformation
-		religion = catholic
 		NOT = {
 			is_title_active = d_huitzilopochtli
 		}
@@ -10458,19 +9776,17 @@ narrative_event = {
 # The son of a ruler volunteers to join the Cult of Huitzilopochtli
 character_event = {
 	id = SoA.2530
-	desc = EVTDESC_SOA_2530
-	picture = GFX_evt_throne_room_mesoamerican
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion = aztec_reformed
 	
 	trigger = {
 		is_ruler = no
-		religion = aztec_reformed
 		
 		martial = 5
 		
@@ -10497,6 +9813,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_huitzilopochtli
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -10557,28 +9880,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2531
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Cult of Huitzilopochtli
 character_event = {
 	id = SoA.2531
-	desc = EVTDESC_SOA_2531
+	desc = EVTDESC_SOA_2531
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_religion
 	
@@ -10603,6 +9925,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.2533
@@ -10615,21 +9939,21 @@ character_event = {
 # Son or brother joins the Cult of Huitzilopochtli
 character_event = {
 	id = SoA.2532
-	desc = EVTDESC_SOA_2532
-	picture = GFX_evt_throne_room_mesoamerican
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_huitzilopochtli = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					if = {
 						limit = { trait = in_hiding	}
@@ -10651,15 +9975,11 @@ character_event = {
 # Liege refuses request to join the Cult of Huitzilopochtli
 character_event = {
 	id = SoA.2533
-	desc = EVTDESC_SOA_2533
-	picture = GFX_evt_throne_room_mesoamerican
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -10670,10 +9990,6 @@ character_event = {
 # Ping event when donating money to the Cult of Huitzilopochtli
 character_event = {
 	id = SoA.2540
-	desc = OK
-	picture = GFX_evt_throne_room_mesoamerican
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -10690,16 +10006,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Cult of Huitzilopochtli
 letter_event = {
 	id = SoA.2541
-	desc = EVTDESC_SOA_2541
+	desc = EVTDESC_SOA_2541
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -10712,17 +10024,12 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2550
-	desc = OK
-	picture = GFX_evt_throne_room_mesoamerican
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion = aztec_reformed
 	
 	trigger = {
-		religion = aztec_reformed
-		
 		d_huitzilopochtli = {
 			holder_scope = {
 				wealth = 300
@@ -10791,18 +10098,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2551
-	desc = OK
-	picture = GFX_evt_throne_room_mesoamerican
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -10816,38 +10115,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2552
-	desc = OK
-	picture = GFX_evt_throne_room_mesoamerican
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2553
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2553
-	desc = EVTDESC_SOA_2553
+	desc = EVTDESC_SOA_2553
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -10886,7 +10173,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2554
-	desc = EVTDESC_SOA_2554
+	desc = EVTDESC_SOA_2554
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -10910,10 +10197,6 @@ province_event = {
 # Ping event when expelling the Cult of Huitzilopochtli
 character_event = {
 	id = SoA.2560
-	desc = OK
-	picture = GFX_evt_throne_room_mesoamerican
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -10945,16 +10228,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Cult of Huitzilopochtli
 letter_event = {
 	id = SoA.2561
-	desc = EVTDESC_SOA_2561
+	desc = EVTDESC_SOA_2561
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -10971,14 +10250,15 @@ letter_event = {
 # The birth of the Order of Santiago
 narrative_event = {
 	id = SoA.2609
-	title = EVTTITLE_SOA_2609
-	desc = EVTDESC_SOA_2609
+	title = EVTTITLE_SOA_2609
+	desc = EVTDESC_SOA_2609
 	major = yes
 	
 	picture = GFX_evt_knight_kneeling
 	
 	only_playable = yes
 	hide_from = yes
+	religion_group = christian
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
@@ -11129,15 +10409,14 @@ narrative_event = {
 # The son of a ruler volunteers to join the Order
 character_event = {
 	id = SoA.2630
-	desc = EVTDESC_SOA_2630
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = christian
 	
 	trigger = {
 		is_ruler = no
@@ -11176,6 +10455,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_knights_santiago
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -11237,6 +10523,12 @@ character_event = {
 			is_primary_heir = yes
 		}
 		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
+		modifier = {
 			factor = 3.0 # Prefer the Order of Santiago
 			OR = {
 				culture_group = iberian
@@ -11245,26 +10537,19 @@ character_event = {
 		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2631
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Order
 character_event = {
 	id = SoA.2631
-	desc = EVTDESC_SOA_2631
+	desc = EVTDESC_SOA_2631
 	picture = GFX_evt_knight_kneeling
 	border = GFX_event_normal_frame_religion
 	
@@ -11289,6 +10574,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.2633
@@ -11301,21 +10588,21 @@ character_event = {
 # Son or brother joins the Order
 character_event = {
 	id = SoA.2632
-	desc = EVTDESC_SOA_2632
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_knights_santiago = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					add_trait = celibate
 					if = {
@@ -11338,15 +10625,11 @@ character_event = {
 # Liege refuses request to join the Order
 character_event = {
 	id = SoA.2633
-	desc = EVTDESC_SOA_2633
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -11357,10 +10640,6 @@ character_event = {
 # Ping event when donating money to the Order
 character_event = {
 	id = SoA.2640
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -11377,16 +10656,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Order
 letter_event = {
 	id = SoA.2641
-	desc = EVTDESC_SOA_1141
+	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -11399,13 +10674,10 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2650
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -11428,7 +10700,7 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			empire = { title = e_spain }
+			region = world_europe_west_iberia
 		}
 		
 		has_dlc = "Sons of Abraham"
@@ -11486,18 +10758,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2651
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -11511,38 +10775,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2652
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2653
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2653
-	desc = EVTDESC_SOA_1053
+	desc = EVTDESC_SOA_1053
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -11581,7 +10833,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2654
-	desc = EVTDESC_SOA_2654
+	desc = EVTDESC_SOA_2654
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -11605,10 +10857,6 @@ province_event = {
 # Ping event when expelling the Order
 character_event = {
 	id = SoA.2660
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -11640,16 +10888,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Order
 letter_event = {
 	id = SoA.2661
-	desc = EVTDESC_SOA_1061
+	desc = EVTDESC_SOA_1061
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -11666,14 +10910,15 @@ letter_event = {
 # The birth of the Order of Calatrava
 narrative_event = {
 	id = SoA.2709
-	title = EVTTITLE_SOA_2709
-	desc = EVTDESC_SOA_2709
+	title = EVTTITLE_SOA_2709
+	desc = EVTDESC_SOA_2709
 	major = yes
 	
 	picture = GFX_evt_knight_kneeling
 	
 	only_playable = yes
 	hide_from = yes
+	religion_group = christian
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
@@ -11824,15 +11069,14 @@ narrative_event = {
 # The son of a ruler volunteers to join the Order
 character_event = {
 	id = SoA.2730
-	desc = EVTDESC_SOA_2730
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = christian
 	
 	trigger = {
 		is_ruler = no
@@ -11871,6 +11115,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_knights_calatrava
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -11932,6 +11183,12 @@ character_event = {
 			is_primary_heir = yes
 		}
 		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
+		modifier = {
 			factor = 3.0 # Prefer the Order of Calatrava
 			OR = {
 				culture_group = iberian
@@ -11940,26 +11197,19 @@ character_event = {
 		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2731
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Order
 character_event = {
 	id = SoA.2731
-	desc = EVTDESC_SOA_2731
+	desc = EVTDESC_SOA_2731
 	picture = GFX_evt_knight_kneeling
 	border = GFX_event_normal_frame_religion
 	
@@ -11984,6 +11234,8 @@ character_event = {
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
 		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.2733
@@ -11996,14 +11248,11 @@ character_event = {
 # Son or brother joins the Order
 character_event = {
 	id = SoA.2732
-	desc = EVTDESC_SOA_2732
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
+	immediate = {
 		
 		d_knights_calatrava = {
 			holder_scope = {
@@ -12011,6 +11260,10 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					add_trait = celibate
 					if = {
@@ -12033,15 +11286,11 @@ character_event = {
 # Liege refuses request to join the Order
 character_event = {
 	id = SoA.2733
-	desc = EVTDESC_SOA_2733
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -12052,10 +11301,6 @@ character_event = {
 # Ping event when donating money to the Order
 character_event = {
 	id = SoA.2740
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -12072,16 +11317,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Order
 letter_event = {
 	id = SoA.2741
-	desc = EVTDESC_SOA_1141
+	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -12094,13 +11335,10 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2750
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -12123,7 +11361,7 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			empire = { title = e_spain }
+			region = world_europe_west_iberia
 		}
 		
 		has_dlc = "Sons of Abraham"
@@ -12181,18 +11419,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2751
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -12206,38 +11436,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2752
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2753
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2753
-	desc = EVTDESC_SOA_1053
+	desc = EVTDESC_SOA_1053
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -12276,7 +11494,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2754
-	desc = EVTDESC_SOA_2754
+	desc = EVTDESC_SOA_2754
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -12300,10 +11518,6 @@ province_event = {
 # Ping event when expelling the Order
 character_event = {
 	id = SoA.2760
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -12335,16 +11549,12 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Order
 letter_event = {
 	id = SoA.2761
-	desc = EVTDESC_SOA_1061
+	desc = EVTDESC_SOA_1061
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -12363,14 +11573,15 @@ letter_event = {
 # The birth of the Order of St Addai
 narrative_event = {
 	id = SoA.2809
-	title = EVTTITLE_SOA_2809
-	desc = EVTDESC_SOA_2809
+	title = EVTTITLE_SOA_2809
+	desc = EVTDESC_SOA_2809
 	major = yes
 	
 	picture = GFX_evt_knight_kneeling
 	
 	only_playable = yes
 	hide_from = yes
+	religion_group = christian
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
@@ -12521,15 +11732,14 @@ narrative_event = {
 # The son of a ruler volunteers to join the Order
 character_event = {
 	id = SoA.2830
-	desc = EVTDESC_SOA_2830
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	only_men = yes
 	min_age = 16
 	max_age = 45
 	only_capable = yes
 	prisoner = no
+	religion_group = christian
 	
 	trigger = {
 		is_ruler = no
@@ -12565,6 +11775,13 @@ character_event = {
 		NOT = {
 			any_liege = {
 				has_character_modifier = expelled_d_saint_addai
+			}
+		}
+
+		NOT = {
+			any_spouse = {
+				is_pregnant = yes
+				father_of_unborn = { character = ROOT } # Won't happen if spouse is pregnant with non-bastard child
 			}
 		}
 	}
@@ -12625,28 +11842,27 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
-		ai_chance = {
-			factor = 100
-		}
+	immediate = {
 		liege = {
 			character_event = {
 				id = SoA.2831
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
-	}
 }
 
 # Son or brother asks to join the Order
 character_event = {
 	id = SoA.2831
-	desc = EVTDESC_SOA_2831
+	desc = EVTDESC_SOA_2831
 	picture = GFX_evt_knight_kneeling
 	border = GFX_event_normal_frame_religion
 	
@@ -12663,14 +11879,16 @@ character_event = {
 		FROM = {
 			character_event = {
 				id = SoA.2832
-				tooltip = EVTTOOLTIP_SOA_2882
+				tooltip = EVTTOOLTIP_SOA_2832
 			}
 		}
 	}
 	
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
-				
+		
+		piety = -100
+		
 		FROM = {
 			character_event = {
 				id = SoA.2833
@@ -12683,21 +11901,21 @@ character_event = {
 # Son or brother joins the Order
 character_event = {
 	id = SoA.2832
-	desc = EVTDESC_SOA_2832
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EXCELLENT
-		
+	immediate = {
 		d_saint_addai = {
 			holder_scope = {
 				ROOT = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
 					}
 					add_trait = celibate
 					if = {
@@ -12720,15 +11938,11 @@ character_event = {
 # Liege refuses request to join the Order
 character_event = {
 	id = SoA.2833
-	desc = EVTDESC_SOA_2833
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = EVTOPTA_SOA_1033
-		
+	immediate = {
 		opinion = {
 			who = FROM
 			modifier = opinion_refused_request_holy_order
@@ -12739,10 +11953,6 @@ character_event = {
 # Ping event when donating money to the Order
 character_event = {
 	id = SoA.2840
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -12759,16 +11969,12 @@ character_event = {
 			modifier = opinion_generous_donation
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when donating money to the Order
 letter_event = {
 	id = SoA.2841
-	desc = EVTDESC_SOA_1141
+	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -12781,13 +11987,10 @@ letter_event = {
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
 	id = SoA.2850
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	only_playable = yes
+	religion_group = christian
 	
 	trigger = {
 		OR = {
@@ -12808,13 +12011,12 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
-			empire = {
-				OR = {
-					title = e_persia
-					title = e_arabia
-					title = e_byzantium
-					title = e_rajastan
-				}
+			OR = {
+				region = world_persia
+				region = world_middle_east
+				region = world_asia_minor
+				region = world_india_rajastan
+				region = world_africa_north
 			}
 		}
 		
@@ -12873,18 +12075,10 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 province_event = {
 	id = SoA.2851
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -12898,38 +12092,26 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
 	id = SoA.2852
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = SoA.2853
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
 letter_event = {
 	id = SoA.2853
-	desc = EVTDESC_SOA_1053
+	desc = EVTDESC_SOA_1053
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -12968,7 +12150,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = SoA.2854
-	desc = EVTDESC_SOA_2854
+	desc = EVTDESC_SOA_2854
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -12992,10 +12174,6 @@ province_event = {
 # Ping event when expelling the Order
 character_event = {
 	id = SoA.2860
-	desc = OK
-	picture = GFX_evt_knight_kneeling
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -13027,21 +12205,66 @@ character_event = {
 			modifier = opinion_expelled_from_realm
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Notification event when expelling the Order
 letter_event = {
 	id = SoA.2861
-	desc = EVTDESC_SOA_1061
+	desc = EVTDESC_SOA_1061
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = EVTOPTB_SOA_1061
+	}
+}
+
+# Spouse notified of divorce due to husband going off to join holy order
+character_event = {
+	id = SoA.2862
+	desc = EVTDESC_SoA_2862
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ALAS
+		trigger = {
+			opinion = { who = FROMFROMFROM value = 0 }
+		}
+		tooltip = { remove_spouse = FROMFROMFROM }
+	}
+	option = {
+		name = GOOD_RIDDANCE
+		trigger = {
+			NOT = { opinion = { who = FROMFROMFROM value = 0 } }
+		}
+		tooltip = { remove_spouse = FROMFROMFROM }
+	}
+}
+
+character_event = {
+	id = SoA.2863
+	desc = EVTDESC_SoA_2863
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ALAS
+		trigger = {
+			opinion = { who = FROM value = 0 }
+		}
+		tooltip = { remove_spouse = FROM }
+	}
+	option = {
+		name = GOOD_RIDDANCE
+		trigger = {
+			NOT = { opinion = { who = FROM value = 0 } }
+		}
+		tooltip = { remove_spouse = FROM }
 	}
 }

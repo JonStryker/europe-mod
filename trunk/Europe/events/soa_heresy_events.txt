@@ -375,7 +375,7 @@ character_event = {
 			}
 		}
 		FROM = {
-			character_event = { id = SoA.4022 days = 7 tooltip = EVTTOOLTIP_SOA_4022 }
+			letter_event = { id = SoA.4022 days = 7 tooltip = EVTTOOLTIP_SOA_4022 }
 		}
 	}
 	option = { # Let it slide
@@ -396,7 +396,7 @@ character_event = {
 			}
 		}
 		FROM = {
-			character_event = { id = SoA.4025 days = 7 tooltip = EVTTOOLTIP_SOA_4025 }
+			letter_event = { id = SoA.4025 days = 7 tooltip = EVTTOOLTIP_SOA_4025 }
 		}
 	}
 }
@@ -459,7 +459,7 @@ letter_event = {
 		
 		
 		FROM = {
-			character_event = { id = SoA.4023 tooltip = EVTTOOLTIP_SOA_4023 }
+			letter_event = { id = SoA.4023 tooltip = EVTTOOLTIP_SOA_4023 }
 		}
 	}
 	option = { # Refuse
@@ -469,7 +469,7 @@ letter_event = {
 		}
 		
 		FROM = {
-			character_event = { id = SoA.4024 tooltip = EVTTOOLTIP_SOA_4024 }
+			letter_event = { id = SoA.4024 tooltip = EVTTOOLTIP_SOA_4024 }
 		}
 	}
 }
@@ -517,7 +517,7 @@ letter_event = {
 		religion = FROM
 		
 		FROM = {
-			character_event = { id = SoA.4026 tooltip = EVTTOOLTIP_SOA_4023 }
+			letter_event = { id = SoA.4026 tooltip = EVTTOOLTIP_SOA_4023 }
 		}
 	}
 	option = { # Refuse
@@ -527,7 +527,7 @@ letter_event = {
 		}
 		
 		FROM = {
-			character_event = { id = SoA.4024 tooltip = EVTTOOLTIP_SOA_4024 }
+			letter_event = { id = SoA.4024 tooltip = EVTTOOLTIP_SOA_4024 }
 		}
 	}
 }
@@ -760,7 +760,7 @@ character_event = {
 			factor = 100
 		}
 		FROM = {
-			character_event = { id = SoA.4025 days = 7 tooltip = EVTTOOLTIP_SOA_4025 }
+			letter_event = { id = SoA.4025 days = 7 tooltip = EVTTOOLTIP_SOA_4025 }
 		}
 	}
 	
@@ -821,7 +821,7 @@ character_event = {
 		
 		FROM = {
 			liege ={ 
-				character_event = { id = SoA.4032 days = 7 }
+				letter_event = { id = SoA.4032 days = 7 }
 			}
 		}
 	}
@@ -845,7 +845,7 @@ letter_event = {
 			}
 		}
 		FROMFROM = {
-			character_event = { id = SoA.4022 days = 7 tooltip = EVTTOOLTIP_SOA_4022 }
+			letter_event = { id = SoA.4022 days = 7 tooltip = EVTTOOLTIP_SOA_4022 }
 		}
 	}
 	
@@ -855,7 +855,7 @@ letter_event = {
 	}
 	
 	option = { # Debate for reconversion
-		name = EVTOPTC_SOA_4021
+		name = EVTOPTC_SOA_4032
 		tooltip_info = learning
 		trigger = {
 			learning = 7
@@ -868,7 +868,7 @@ letter_event = {
 			}
 		}
 		FROMFROM = {
-			character_event = { id = SoA.4025 days = 7 tooltip = EVTTOOLTIP_SOA_4025 }
+			letter_event = { id = SoA.4025 days = 7 tooltip = EVTTOOLTIP_SOA_4025 }
 		}
 	}
 }
@@ -882,9 +882,6 @@ letter_event = {
 
 province_event = {
 	id = SoA.4100
-	desc = OK
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	trigger = {
@@ -921,10 +918,6 @@ province_event = {
 		parent_religion_head = {
 			character_event = { id = SoA.4101 }
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -965,6 +958,15 @@ character_event = {
 	
 	option = { # Dispatch Legate to Ruler
 		name = EVTOPTB_SOA_4101
+		trigger = {
+			NOT = {
+				FROM = {
+					owner = {
+						top_liege = { character = ROOT }
+					}
+				}
+			}
+		}
 		ai_chance = {
 			factor = 100
 		}
@@ -1165,10 +1167,6 @@ character_event = {
 # SoA.4121 - The heresy is eradicated in the county. On-action.
 province_event = {
 	id = SoA.4121
-	desc = OK
-	picture = GFX_evt_bishop
-	border = GFX_event_normal_frame_religion
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -1191,10 +1189,6 @@ province_event = {
 				id = SoA.4122
 			}
 		}
-	}
-			
-	option = {
-		name = OK
 	}
 }
 

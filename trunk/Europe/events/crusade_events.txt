@@ -13,28 +13,32 @@ character_event = {
 	picture = "GFX_evt_crusaders"
 	border = GFX_event_normal_frame_war
 	
-	only_men = yes
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 	
 	trigger = {
-		has_called_crusade = yes
+		NOT = { trait = crusader }
+		in_command = yes
 		OR = {
-			any_war = {
-				using_cb = crusade
-			}
-			any_liege = {
-				religion = catholic
+			AND = {
 				any_war = {
 					using_cb = crusade
 				}
+				religion_group = christian
+				crusade_target = {
+					is_located_in = ROOT
+				}
 			}
-		}
-		religion = catholic
-		NOT = { trait = crusader }
-		crusade_target = {
-			is_located_in = ROOT
+			any_liege = {
+				religion_group = christian
+				any_war = {
+					using_cb = crusade
+				}
+				crusade_target = {
+					is_located_in = ROOT
+				}
+			}
 		}
 	}
 
@@ -43,7 +47,18 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			religion_group = christian
+		}
 		name = "EVTOPTA8300"
+		add_trait = crusader
+	}
+	
+	option = {
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+		name = "GLORY"
 		add_trait = crusader
 	}
 }
@@ -61,21 +76,27 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		has_called_crusade = yes
+		NOT = { trait = mujahid }
+		in_command = yes
 		OR = {
-			any_war = {
-				using_cb = crusade
-			}
-			any_liege = {
+			AND = {
 				any_war = {
 					using_cb = crusade
 				}
+				religion_group = muslim
+				crusade_target = {
+					is_located_in = ROOT
+				}
 			}
-		}
-		religion_group = muslim
-		NOT = { trait = mujahid }
-		crusade_target = {
-			is_located_in = ROOT
+			any_liege = {
+				religion_group = muslim
+				any_war = {
+					using_cb = crusade
+				}
+				crusade_target = {
+					is_located_in = ROOT
+				}
+			}
 		}
 	}
 
@@ -84,7 +105,18 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			religion_group = muslim
+		}
 		name = "EVTOPTA8301"
+		add_trait = mujahid
+	}
+	
+	option = {
+		trigger = {
+			NOT = { religion_group = muslim }
+		}
+		name = "GLORY"
 		add_trait = mujahid
 	}
 }
@@ -103,6 +135,7 @@ character_event = {
 	
 	trigger = {
 		has_called_crusade = yes
+		in_command = yes
 		OR = {
 			any_war = {
 				using_cb = crusade
@@ -118,6 +151,11 @@ character_event = {
 			is_located_in = ROOT
 		}
 		NOT = { has_character_flag = arrived_at_crusade_target }
+		location = {
+			holder_scope = {
+				NOT = { character = ROOT }
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -140,9 +178,7 @@ character_event = {
 # Pope lifts Excommunication (AI characters only)
 character_event = {
 	id = 8306
-	desc = "EVTDESC8306"
-	picture = GFX_evt_pope
-	border = GFX_event_normal_frame_religion
+	hide_window = yes
 
 	only_men = yes
 	min_age = 16
@@ -181,8 +217,7 @@ character_event = {
 		months = 1
 	}
 	
-	option = {
-		name = "EVTOPTA8306"
+	immediate = {
 		any_independent_ruler = {
 			limit = {
 				ai = no
@@ -661,6 +696,8 @@ character_event = {
 	picture = GFX_evt_pope
 	border = GFX_event_normal_frame_religion
 	
+	only_playable = yes
+	
 	trigger = {
 		controls_religion = yes
 		has_called_crusade = yes
@@ -838,6 +875,8 @@ character_event = {
 	picture = GFX_evt_pope
 	border = GFX_event_normal_frame_religion
 	
+	only_playable = yes
+	
 	trigger = {
 		controls_religion = yes
 		has_called_crusade = yes
@@ -966,13 +1005,13 @@ character_event = {
 	only_men = yes
 	min_age = 16
 	capable_only = yes
+	only_rulers = yes
 	prisoner = no
 	
 	trigger = {
 		has_called_crusade = yes
 		had_global_flag = { flag = crusade_called days = 180 }
 		NOT = { has_character_flag = no_complains_about_not_crusading }
-		is_ruler = yes
 		is_priest = yes
 		independent = no
 		religion = catholic
@@ -1043,7 +1082,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			trait = strong
+			is_strong_trigger = yes
 		}
 		modifier = {
 			factor = 0.75
@@ -1059,7 +1098,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = weak
+			is_weak_trigger = yes
 		}
 		modifier = {
 			factor = 1.25
@@ -1113,6 +1152,8 @@ character_event = {
 	desc = "EVTDESC8430"
 	picture = GFX_evt_bishop
 	border = GFX_event_normal_frame_religion
+	
+	only_rulers = yes
 	
 	trigger = {
 		has_character_flag = bishop_complains_about_not_crusading
@@ -1257,7 +1298,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			trait = strong
+			is_strong_trigger = yes
 		}
 		modifier = {
 			factor = 0.75
@@ -1273,7 +1314,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = weak
+			is_weak_trigger = yes
 		}
 		modifier = {
 			factor = 1.25
@@ -1326,6 +1367,8 @@ character_event = {
 	id = 8450
 	desc = "EVTDESC8450"
 	picture = GFX_evt_emissary
+	
+	only_rulers = yes
 	
 	trigger = {
 		has_character_flag = vassal_complains_about_not_crusading
@@ -1397,6 +1440,8 @@ character_event = {
 	desc = "EVTDESC8460"
 	picture = GFX_evt_pope
 	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
 	
 	trigger = {
 		controls_religion = yes
@@ -1555,6 +1600,8 @@ character_event = {
 	desc = "EVTDESC8466"
 	picture = GFX_evt_pope
 	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
 	
 	trigger = {
 		controls_religion = yes

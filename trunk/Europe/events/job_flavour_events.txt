@@ -26,10 +26,7 @@ character_event = {
 		is_tribal = no
 		job_chancellor = {
 			diplomacy = 12
-			OR = {
-				trait = quick
-				trait = genius
-			}
+			is_smart_trigger = yes
 		}
 		NOT = {
 			has_character_modifier = town_appreciate
@@ -73,10 +70,7 @@ character_event = {
 	trigger = {
 		job_marshal = {
 			martial = 12
-			OR = {
-				trait = quick
-				trait = genius
-			}
+			is_smart_trigger = yes
 			location = {
 				NOT = {
 					has_province_modifier = troops_increases
@@ -132,10 +126,7 @@ character_event = {
 		}
 		job_treasurer = {
 			stewardship = 12
-			OR = {
-				trait = quick
-				trait = genius
-			}
+			is_smart_trigger = yes
 		}
 		NOT = {
 			has_character_modifier = steward_taxincome
@@ -179,10 +170,7 @@ character_event = {
 	trigger = {
 		job_spymaster = {
 			intrigue = 12
-			OR = {
-				trait = quick
-				trait = genius
-			}
+			is_smart_trigger = yes
 		}
 		NOT = {
 			has_character_modifier = increase_arrest_chance
@@ -232,10 +220,7 @@ character_event = {
 			NOT = {
 				religion_group = muslim
 			}
-			OR = {
-				trait = quick
-				trait = genius
-			}
+			is_smart_trigger = yes
 		}
 		NOT = {
 			has_character_modifier = church_appreciates
@@ -281,10 +266,7 @@ character_event = {
 		job_spiritual = {
 			learning = 12
 			religion_group = muslim
-			OR = {
-				trait = quick
-				trait = genius
-			}
+			is_smart_trigger = yes
 		}
 		NOT = {
 			has_character_modifier = church_appreciates
@@ -349,11 +331,10 @@ character_event = {
 				at_location = ROOT
 				is_female = no
 				trait = lustful
-				NOT = {
+				NOR = {
 					character = ROOT
-				}
-				NOT = {
 					trait = celibate
+					trait = blinded
 				}
 			}
 		}
@@ -1138,6 +1119,27 @@ character_event = {
 		days = 1
 	}
 	
+	immediate = {
+		liege = {
+			random_courtier = {
+				limit = {
+					age = 16
+					NOT = {
+						religion_group = ROOT
+					}
+					NOT = {
+						has_character_flag = banished_religion
+					}
+					NOT = {
+						character = ROOT
+					}
+					prisoner = no
+				}
+				save_event_target_as = target_infidel
+			}
+		}
+	}
+	
 	option = {
 		name = "EVTOPTA75040" #Demand to liege that vassal should be burned at the stake
 		liege = {
@@ -1172,20 +1174,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA75041"
-		random_courtier = {
-			limit = {
-				age = 16
-				NOT = {
-					religion_group = ROOT
-				}
-				NOT = {
-					has_character_flag = banished_religion
-				}
-				NOT = {
-					character = ROOT
-				}
-				prisoner = no
-			}
+		event_target:target_infidel = {
 			any_courtier = {
 				limit = {
 					religion = PREV
@@ -1225,17 +1214,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB75041"
-		random_courtier = {
-			limit = {
-				age = 16
-				NOT = {
-					religion = ROOT
-				}
-				NOT = {
-					has_character_flag = banished_religion
-				}
-				prisoner = no
-			}
+		event_target:target_infidel = {
 			opinion = {
 				modifier = opinion_grateful
 				who = ROOT
@@ -1279,17 +1258,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA75042"
-		random_courtier = {
-			limit = {
-				age = 16
-				NOT = {
-					religion = ROOT
-				}
-				NOT = {
-					has_character_flag = banished_religion
-				}
-				prisoner = no
-			}
+		event_target:target_infidel = {
 			banish = yes
 			any_courtier = {
 				limit = {
@@ -1326,17 +1295,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB75042"
-		random_courtier = {
-			limit = {
-				age = 16
-				NOT = {
-					religion = ROOT
-				}
-				NOT = {
-					has_character_flag = banished_religion
-				}
-				prisoner = no
-			}
+		event_target:target_infidel = {
 			opinion = {
 				modifier = opinion_grateful
 				who = ROOT
@@ -1457,6 +1416,19 @@ character_event = {
 		days = 1
 	}
 	
+	immediate = {
+		liege = {
+			random_courtier = {
+				limit = {
+					age = 16
+					is_heresy_of = ROOT
+					prisoner = no
+				}
+				save_event_target_as = target_heretic
+			}
+		}
+	}
+	
 	option = {
 		name = "EVTOPTA75050" #Demand to liege that vassal should be burned at the stake
 		liege = {
@@ -1491,12 +1463,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA75051"
-		random_courtier = {
-			limit = {
-				age = 16
-				is_heresy_of = ROOT
-				prisoner = no
-			}
+		event_target:target_heretic = {
 			any_courtier = {
 				limit = {
 					religion = PREV
@@ -1536,12 +1503,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB75051"
-		random_courtier = {
-			limit = {
-				age = 16
-				is_heresy_of = ROOT
-				prisoner = no
-			}
+		event_target:target_heretic = {
 			opinion = {
 				modifier = opinion_grateful
 				who = ROOT
@@ -1585,12 +1547,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA75052"
-		random_courtier = {
-			limit = {
-				age = 16
-				is_heresy_of = ROOT
-				prisoner = no
-			}
+		event_target:target_heretic = {
 			banish = yes
 			any_courtier = {
 				limit = {
@@ -1627,12 +1584,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB75052"
-		random_courtier = {
-			limit = {
-				age = 16
-				is_heresy_of = ROOT
-				prisoner = no
-			}
+		event_target:target_heretic = {
 			opinion = {
 				modifier = opinion_grateful
 				who = ROOT
@@ -2073,6 +2025,7 @@ character_event = {
 	trigger = {
 		has_job_title = job_treasurer
 		trait = deceitful
+		NOT = { wealth = 1500 }
 		any_demesne_province = {
 			OR = {
 				has_province_modifier = highway_robber_band
@@ -2142,10 +2095,10 @@ character_event = {
 		if = {
 			limit = {	
 				FROM = {
-					treasury = 1
+					treasury = 50
 				}
 			}
-			wealth = FROM
+			wealth = 50
 		}
 		FROM = {
 			hidden_tooltip = {
@@ -2182,7 +2135,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA75093"
-		clear_wealth = yes
+		wealth = -50
 	}
 }
 
@@ -2199,6 +2152,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		job_treasurer = {
 			trait = greedy
 			NOT = {

@@ -56,7 +56,7 @@ character_event = {
 			trait = cruel
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.2
 		}
 		modifier = {
@@ -64,7 +64,7 @@ character_event = {
 			trait = craven
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.8
 		}		
 		modifier = {
@@ -151,11 +151,17 @@ character_event = {
 			factor = 0.9
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.9
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 2.0
 		}
 		
@@ -168,11 +174,11 @@ character_event = {
 			factor = 3.0
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.7
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.5
 		}		
 
@@ -313,11 +319,17 @@ character_event = {
 			factor = 0.9
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.9
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 2.0
 		}
 		
@@ -330,11 +342,11 @@ character_event = {
 			factor = 3.0
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.7
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.5
 		}		
 		
@@ -467,11 +479,17 @@ character_event = {
 			factor = 0.9
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.9
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 2.0
 		}
 		
@@ -484,11 +502,11 @@ character_event = {
 			factor = 3.0
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.7
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.5
 		}		
 		modifier = {
@@ -623,11 +641,17 @@ character_event = {
 			factor = 1.2
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.1
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.9
 		}
 		
@@ -640,11 +664,11 @@ character_event = {
 			factor = 0.2
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.5
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.8
 		}			
 		modifier = {
@@ -854,10 +878,6 @@ character_event = {
 			character_event = { id = TOG.3006 }
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 ### Varangian Events
@@ -926,10 +946,6 @@ character_event = {
 	immediate = {
 		add_trait = varangian
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Son has served a few years
@@ -946,10 +962,6 @@ character_event = {
 	immediate = {
 		set_character_flag = serving_varangian
 		clr_character_flag = wants_varangian
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -971,7 +983,7 @@ character_event = {
 		in_command = no
 		has_global_flag = varangian_guard_founded
 		culture_group = north_germanic
-		NOT = { 
+		NOR = { 
 			trait = varangian 
 			has_character_flag = wants_varangian
 			has_character_flag = denied_varangian
@@ -1032,10 +1044,6 @@ character_event = {
 	immediate = {
 		father = { character_event = { id = TOG.3110 } }
 		set_character_flag = wants_varangian
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -1130,10 +1138,6 @@ character_event = {
 		}
 		clr_character_flag = serving_varangian
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Son stays in Greece with wife (Norse father)
@@ -1218,10 +1222,6 @@ character_event = {
 		father = { character_event = { id = TOG.3115 } }
 		clr_character_flag = serving_varangian
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Son returns scarred but seasoned
@@ -1276,10 +1276,6 @@ character_event = {
 		father = { character_event = { id = TOG.3117 } }
 		clr_character_flag = serving_varangian
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Son returns with notions of Greek love
@@ -1323,10 +1319,6 @@ character_event = {
 		add_trait = blinded
 		father = { character_event = { id = TOG.3119 } }
 		clr_character_flag = serving_varangian
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -1379,11 +1371,17 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -1394,10 +1392,6 @@ character_event = {
 	immediate = {
 		father = { character_event = { id = TOG.3121 } }
 		clr_character_flag = serving_varangian
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -1480,10 +1474,6 @@ character_event = {
 		father = { character_event = { id = TOG.3123 } }
 		clr_character_flag = serving_varangian
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Son returns with PTSD
@@ -1535,10 +1525,6 @@ character_event = {
 	immediate = {
 		father = { character_event = { id = TOG.3125 } }
 		clr_character_flag = serving_varangian
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -1610,10 +1596,6 @@ character_event = {
 		father = { character_event = { id = TOG.3127 } }
 		clr_character_flag = serving_varangian
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Son returns home as a Christian zealot
@@ -1655,11 +1637,14 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			trait = strong
+			is_strong_trigger = yes
 		}
 		modifier = {
 			factor = 0.75
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -1671,7 +1656,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -1682,10 +1670,6 @@ character_event = {
 	immediate = {
 		father = { character_event = { id = TOG.3129 } }
 		clr_character_flag = serving_varangian
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -1784,10 +1768,6 @@ character_event = {
 		father = { character_event = { id = TOG.3131 } }
 		clr_character_flag = serving_varangian
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Son dies in battle
@@ -1831,10 +1811,6 @@ character_event = {
 	immediate = {
 		father = { character_event = { id = TOG.3133 } }
 		clr_character_flag = serving_varangian
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -1920,10 +1896,6 @@ character_event = {
 		add_trait = varangian
 		clr_character_flag = wants_varangian
 		clr_character_flag = serving_varangian
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2124,10 +2096,6 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Völva Warns About Child (AI Völva)
@@ -2141,10 +2109,6 @@ character_event = {
 		liege = {
 			character_event = { id = TOG.3205 }
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2198,10 +2162,6 @@ character_event = {
 		}
 		mother = { clr_character_flag = pregnant_with_demon }
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Child acts strange I (AI)
@@ -2227,10 +2187,6 @@ character_event = {
 	immediate = {
 		set_character_flag = child_strange_1
 		father = { character_event = { id = TOG.3211 } }
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2273,10 +2229,6 @@ character_event = {
 		set_character_flag = child_strange_2
 		father = { character_event = { id = TOG.3213 } }
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Child acts strange II
@@ -2317,10 +2269,6 @@ character_event = {
 	immediate = {
 		set_character_flag = child_strange_3
 		father = { character_event = { id = TOG.3215 } }
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2408,10 +2356,6 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Child kills Courtier I (AI Courtier)
@@ -2423,10 +2367,6 @@ character_event = {
 	
 	immediate = {
 		liege = { character_event = { id = TOG.3218 } }
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2518,10 +2458,6 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Child kills Courtier II (AI Courtier)
@@ -2533,10 +2469,6 @@ character_event = {
 	
 	immediate = {
 		liege = { character_event = { id = TOG.3221 } }
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2628,10 +2560,6 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Child kills Courtier III (AI Courtier)
@@ -2643,10 +2571,6 @@ character_event = {
 	
 	immediate = {
 		liege = { character_event = { id = TOG.3224 } }
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2706,10 +2630,6 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Völva Wants Exorcism (AI Völva)
@@ -2723,10 +2643,6 @@ character_event = {
 		liege = {
 			character_event = { id = TOG.3252 }
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2800,10 +2716,6 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Exorcism Begins (AI Völva)
@@ -2822,10 +2734,6 @@ character_event = {
 				20 = { character_event = { id = TOG.3259 days = 3 } }
 			}
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -2982,10 +2890,6 @@ character_event = {
 		clr_character_flag = demon_child
 		clr_character_flag = demon_child_fake
 		clr_character_flag = child_exorcism
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -3264,10 +3168,6 @@ character_event = {
 		spouse = {
 			character_event = { id = TOG.3400 days = 3 }
 		}
-	}
-	
-	option = {
-		name = OK
 	}
 }
 

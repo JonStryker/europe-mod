@@ -389,9 +389,7 @@ character_event = {
 		piety = -50
 		any_courtier = {
 			limit = { has_minor_title = title_guru }
-			ROOT = {
-				imprison = PREV
-			}
+			imprison = ROOT
 			opinion = {
 				modifier = opinion_unhappy
 				who = ROOT
@@ -659,9 +657,7 @@ character_event = {
 		piety = -50
 		any_courtier = {
 			limit = { has_minor_title = title_guru }
-			ROOT = {
-				imprison = PREV
-			}
+			imprison = ROOT
 			opinion = {
 				modifier = opinion_unhappy
 				who = ROOT
@@ -739,9 +735,7 @@ character_event = {
 		piety = -50
 		any_courtier = {
 			limit = { has_minor_title = title_guru }
-			ROOT = {
-				imprison = PREV
-			}
+			imprison = ROOT
 			opinion = {
 				modifier = opinion_unhappy
 				who = ROOT
@@ -769,6 +763,7 @@ character_event = {
 		}
 	}
 }
+
 
 
 # Arbitrary
@@ -1075,9 +1070,8 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		NOT = { trait = slow }
+		is_dumb_trigger = no
 		NOT = { trait = inbred }
-		NOT = { trait = imbecile }
 		NOT = { trait = trusting }
 		any_courtier = {
 			has_minor_title = title_guru

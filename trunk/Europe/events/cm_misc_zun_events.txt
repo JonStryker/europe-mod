@@ -153,14 +153,11 @@ character_event = {	# End torture
 character_event = {	# Character lives
 	id = CM.15003
 	
-	#desc = "EVTDESCCM15003"
-	#picture = GFX_evt_emissary
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = "EVTOPTACM15003"
+	immediate = {
 		clr_character_flag = passing_zen_judgement
 		character_event = { id = CM.15001 days = 30 }
 	}

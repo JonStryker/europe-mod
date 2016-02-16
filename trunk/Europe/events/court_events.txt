@@ -574,6 +574,8 @@ character_event = {
 			NOT = { demesne_size = 1 }
 			NOT = { trait = chaste }
 			NOT = { trait = celibate }
+			NOT = { trait = eunuch }
+			NOT = { trait = monk }
 		}
 	}
 	immediate = {
@@ -586,8 +588,10 @@ character_event = {
 				NOT = { demesne_size = 1 }
 				NOT = { trait = chaste }
 				NOT = { trait = celibate }
+				NOT = { trait = eunuch }
+				NOT = { trait = monk }
 			}
-			set_character_flag = knock_up_maid
+			save_event_target_as = knocked_up_maid
 		}
 
 	}
@@ -598,22 +602,19 @@ character_event = {
 			NOT = { trait = celibate }
 		}
 		piety = -10
-		random_child = {
-			limit = { has_character_flag = knock_up_maid }
+		event_target:knocked_up_maid = {
 			opinion = {
 				modifier = approves_of_my_behaviour
 				who = ROOT
 				years = 2
 			}			
 			add_trait = lustful
-			clr_character_flag = knock_up_maid
 		}
 	}
 	option = {
 		name = EVTOPTB73006 #Force him to adopt the child to prevent scandal
 		piety = 10
-		random_child = {
-			limit = { has_character_flag = knock_up_maid }
+		event_target:knocked_up_maid = {
 			opinion = {
 				modifier = resentful_of_my_behaviour
 				who = ROOT
@@ -628,7 +629,6 @@ character_event = {
 				dynasty = father
 			}
 			prestige = -5
-			clr_character_flag = knock_up_maid
 		}
 	}
 	option = {
@@ -638,8 +638,7 @@ character_event = {
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
-		random_child = {
-			limit = { has_character_flag = knock_up_maid }
+		event_target:knocked_up_maid = {
 			opinion = {
 				modifier = resentful_of_my_behaviour
 				who = ROOT
@@ -647,7 +646,6 @@ character_event = {
 			}
 			add_trait = wroth
 			add_trait = ambitious
-			clr_character_flag = knock_up_maid
 		}
 	}
 	option = {
@@ -658,8 +656,7 @@ character_event = {
 				religion_group = muslim
 			}
 		}
-		random_child = {
-			limit = { has_character_flag = knock_up_maid }
+		event_target:knocked_up_maid = {
 			if = {
 				limit = {
 					religion_group = christian
@@ -672,7 +669,6 @@ character_event = {
 				}
 				piety = -10
 			}
-			clr_character_flag = knock_up_maid
 		}
 	}
 }
@@ -702,6 +698,7 @@ character_event = {
 			opinion = { who = ROOT value = 10 }
 		}
 		NOT = { trait = zealous }
+		NOT = { trait = charitable }
 	}
 
 	weight_multiplier = {
@@ -1202,6 +1199,7 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		is_ruler = no
 		is_councillor = no
 		independent = no
@@ -1294,7 +1292,6 @@ letter_event = {
 letter_event = {
 	id = 73202
 	desc = EVTDESC73202
-	picture = GFX_evt_spymaster
 	border = GFX_event_letter_frame_war
 	
 	is_triggered_only = yes
@@ -1342,7 +1339,7 @@ character_event = {
 		liege = {
 			NOT = { character = ROOT }
 			job_marshal = { 
-				NOT = { martial = prev } 
+				NOT = { martial = ROOT } 
 				same_liege = ROOT
 				NOT = {
 					ROOT = {
@@ -1363,7 +1360,6 @@ character_event = {
 letter_event = {
 	id = 73204
 	desc = EVTDESC73204
-	picture = GFX_evt_spymaster
 	border = GFX_event_letter_frame_war
 	
 	is_triggered_only = yes
@@ -1428,6 +1424,7 @@ character_event = {
 	prisoner = no
 
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		is_ruler = no
 		independent = no
 		is_councillor = no
@@ -1465,7 +1462,6 @@ character_event = {
 letter_event = {
 	id = 73211
 	desc = EVTDESC73211
-	picture = GFX_evt_spymaster
 	
 	prisoner = no
 	capable_only = yes
@@ -1521,7 +1517,6 @@ letter_event = {
 letter_event = {
 	id = 73212
 	desc = EVTDESC73212
-	picture = GFX_evt_spymaster
 	
 	prisoner = no
 	capable_only = yes
@@ -1569,7 +1564,7 @@ character_event = {
 		liege = {
 			NOT = { character = ROOT }
 			job_spymaster = {
-				NOT = { intrigue = prev }
+				NOT = { intrigue = ROOT }
 				same_liege = ROOT
 				NOT = {
 					ROOT = {
@@ -1590,7 +1585,6 @@ character_event = {
 letter_event = {
 	id = 73214
 	desc = EVTDESC73214
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 
@@ -1630,7 +1624,6 @@ letter_event = {
 letter_event = {
 	id = 73215
 	desc = EVTDESC73215
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 
@@ -1651,6 +1644,7 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		is_ruler = no
 		independent = no
 		is_councillor = no
@@ -1688,7 +1682,6 @@ character_event = {
 letter_event = {
 	id = 73221
 	desc = EVTDESC73221
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 
@@ -1787,7 +1780,7 @@ character_event = {
 		liege = {
 			NOT = { character = ROOT }
 			job_treasurer = { 
-				NOT = { stewardship = prev }
+				NOT = { stewardship = ROOT }
 				same_liege = ROOT
 				NOT = {
 					ROOT = {
@@ -1808,7 +1801,6 @@ character_event = {
 letter_event = {
 	id = 73224
 	desc = EVTDESC73224
-	picture = GFX_evt_spymaster
 		
 	is_triggered_only = yes
 
@@ -1849,7 +1841,6 @@ letter_event = {
 letter_event = {
 	id = 73225
 	desc = EVTDESC73225
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 
@@ -1870,6 +1861,7 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = {
 			religion_group = muslim
 		}
@@ -1935,7 +1927,6 @@ character_event = {
 letter_event = {
 	id = 73231
 	desc = EVTDESC73231
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 
@@ -2034,7 +2025,7 @@ character_event = {
 		liege = {
 			NOT = { character = ROOT }
 			job_spiritual = { 
-				NOT = { learning = prev } 
+				NOT = { learning = ROOT } 
 				same_liege = ROOT
 				NOT = { has_minor_title = title_regent }
 				NOT = {
@@ -2056,7 +2047,6 @@ character_event = {
 letter_event = {
 	id = 73234
 	desc = EVTDESC73234
-	picture = GFX_evt_spymaster
 
 	is_triggered_only = yes
 	
@@ -2098,7 +2088,6 @@ letter_event = {
 letter_event = {
 	id = 73235
 	desc = EVTDESC73235
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 	
@@ -2119,6 +2108,7 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		is_ruler = no
 		independent = no
 		is_councillor = no
@@ -2156,7 +2146,6 @@ character_event = {
 letter_event = {
 	id = 73241
 	desc = EVTDESC73241
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 
@@ -2210,7 +2199,6 @@ letter_event = {
 letter_event = {
 	id = 73242
 	desc = EVTDESC73242
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 
@@ -2255,7 +2243,7 @@ character_event = {
 		liege = {
 			NOT = { character = ROOT }
 			job_chancellor = { 
-				NOT = { diplomacy = prev } 
+				NOT = { diplomacy = ROOT } 
 				same_liege = ROOT
 				NOT = {
 					ROOT = {
@@ -2276,7 +2264,6 @@ character_event = {
 letter_event = {
 	id = 73244
 	desc = EVTDESC73244
-	picture = GFX_evt_spymaster
 		
 	is_triggered_only = yes
 
@@ -2317,7 +2304,6 @@ letter_event = {
 letter_event = {
 	id = 73245
 	desc = EVTDESC73245
-	picture = GFX_evt_spymaster
 	
 	is_triggered_only = yes
 

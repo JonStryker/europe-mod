@@ -511,7 +511,7 @@ character_event = {
 	option = { # Return home
 		name = EVTOPTA_HL_8032
 		trigger = {
-			NOT = { trait = weak }
+			is_weak_trigger = no
 			NOT = { trait = ill }
 			NOT = { trait = wounded }
 			NOT = { trait = maimed }
@@ -536,7 +536,7 @@ character_event = {
 		name = EVTOPTB_HL_8032
 		trigger = {
 			OR = {
-				trait = weak
+				is_weak_trigger = yes
 				trait = ill
 				trait = wounded
 				trait = maimed
@@ -561,9 +561,9 @@ character_event = {
 		name = EVTOPTA_HL_8035
 		prestige = 150
 		if = {
-			limit = { NOT = { trait = strong } }
+			limit = { is_strong_trigger = no }
 		}
-		add_trait = strong
+		add_trait = robust
 	}
 }
 
@@ -817,12 +817,12 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						FROM = { trait = strong }
-						NOT = { trait = strong }
+						FROM = { is_strong_trigger = yes }
+						is_strong_trigger = no
 					}
 					AND = {
-						FROM = { NOT = { trait = weak } }
-						trait = weak
+						FROM = { is_weak_trigger = no }
+						is_weak_trigger = yes
 					}
 				}
 			}
@@ -844,14 +844,14 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						FROM = { trait = strong }
-						trait = strong
+						FROM = { is_strong_trigger = yes }
+						is_strong_trigger = yes
 					}
 					AND = {
-						FROM = { NOT = { trait = strong } }
-						FROM = { NOT = { trait = weak } }
-						NOT = { trait = strong }
-						NOT = { trait = weak }
+						FROM = { is_strong_trigger = no }
+						FROM = { is_weak_trigger = no }
+						NOT = { is_strong_trigger = yes }
+						NOT = { is_weak_trigger = yes }
 					}
 				}
 			}
@@ -871,8 +871,8 @@ character_event = {
 		}	
 		if = {
 			limit = {
-				FROM = { trait = weak }
-				trait = weak
+				FROM = { is_weak_trigger = yes }
+				is_weak_trigger = yes
 			}
 			random_list = {
 				50 = {
@@ -892,12 +892,12 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						FROM = { trait = weak }
-						NOT = { trait = weak }
+						FROM = { is_weak_trigger = yes }
+						is_weak_trigger = no
 					}
 					AND = {
-						FROM = { NOT = { trait = strong } }
-						trait = strong
+						FROM = { is_strong_trigger = no }
+						is_strong_trigger = yes
 					}
 				}
 			}
@@ -918,11 +918,11 @@ character_event = {
 	}
 }
 
-character_event = {
+long_character_event = {
 	id = HL.9003 # Win Wrestling
 	desc =  EVTDESC_HL_9003
 	picture = GFX_evt_tengri_throneroom_oldgods
-	border = GFX_event_normal_frame_war
+	border = GFX_event_long_frame_war
 	
 	is_triggered_only = yes
 	
@@ -1013,11 +1013,11 @@ character_event = {
 	}
 }
 
-character_event = {
+long_character_event = {
 	id = HL.9004 # Lose Wrestling
 	desc =  EVTDESC_HL_9004
 	picture = GFX_evt_mongols
-	border = GFX_event_normal_frame_war
+	border = GFX_event_long_frame_war
 	
 	is_triggered_only = yes
 	

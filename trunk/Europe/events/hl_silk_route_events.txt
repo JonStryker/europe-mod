@@ -74,7 +74,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_HL_5000
 		hidden_tooltip = {
-			character_event = { id = HL.5048 days = 90 random = 41 }
+			letter_event = { id = HL.5048 days = 90 random = 41 }
 		}
 	}
 }
@@ -169,7 +169,7 @@ character_event = {
 			factor = 0
 		}
 		hidden_tooltip = { # Angry Emperor
-			character_event = { id = HL.5048 days = 15 random = 15 }
+			letter_event = { id = HL.5048 days = 15 random = 15 }
 		}
 		create_character = {
 			random_traits = no
@@ -450,7 +450,7 @@ character_event = {
 }
 
 # increase in trade
-character_event = {
+province_event = {
 	id = HL.5005
 	desc = EVTDESC_HL_5005
 	picture = GFX_evt_chinese_emissary
@@ -460,11 +460,9 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_HL_5005
-		event_target:trade_province = {
-			add_province_modifier = {
-				modifier = surge_of_traders
-				months = 60
-			}
+		add_province_modifier = {
+			modifier = surge_of_traders
+			months = 60
 		}
 	}
 }
@@ -1393,6 +1391,9 @@ character_event = {
 		clr_character_flag = chinese_envoy_event_4
 		clr_character_flag = chinese_envoy_event_5
 		clr_character_flag = chinese_envoy_event_6
+		event_target:trade_province = {
+			remove_province_modifier = trade_governor
+		}
 		event_target:chinese_envoy = { clr_character_flag = is_chinese_envoy }
 	}
 }
@@ -1410,6 +1411,7 @@ province_event = {
 		trade_route = silk_road
 		#trade_route_active = silk_road
 		holder_scope = {
+			age = 16
 			prisoner = no
 			NOR = {
 				trait = incapable

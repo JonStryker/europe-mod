@@ -19,6 +19,7 @@ settlement_decisions = {
 		
 		from_potential = {
 			is_feudal = yes
+			higher_tier_than = BARON
 		}
 		
 		potential = {
@@ -97,6 +98,7 @@ settlement_decisions = {
 		
 		from_potential = {
 			is_republic = yes
+			higher_tier_than = BARON
 		}
 		
 		potential = {
@@ -166,6 +168,90 @@ settlement_decisions = {
 		}
 	}
 	
+	convert_tribal_to_temple = {
+		filter = owned
+		ai_target_filter = owned
+		is_high_prio = yes
+		
+		from_potential = {
+			is_theocracy = yes
+			higher_tier_than = BARON
+			OR = {
+				NOT = { religion_group = pagan_group }
+				is_reformed_religion = yes
+			}
+		}
+		
+		potential = {
+			holding_type = tribal
+			holder_scope = {
+				character = FROM
+			}
+		}
+		allow = {
+			location = {
+				religion = FROM
+			}
+		}
+		effect = {
+			convert_to = temple
+			refill_holding_levy = yes
+			
+			hidden_tooltip = {
+				if = {
+					limit = {
+						is_capital = yes
+						dejure_liege_title = {
+							location = {
+								num_of_empty_holdings = 2
+							}
+							NOT = {
+								any_direct_de_jure_vassal_title = {
+									holding_type = castle
+								}
+							}
+						}
+					}
+					location = {
+						build_holding = {
+							type = castle
+						}
+					}
+				}
+				
+				if = {
+					limit = {
+						is_capital = yes
+						dejure_liege_title = {
+							location = {
+								num_of_empty_holdings = 2
+							}
+							NOT = {
+								any_direct_de_jure_vassal_title = {
+									holding_type = city
+								}
+							}
+						}
+					}
+					location = {
+						build_holding = {
+							type = city
+						}
+					}
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1 # On average ca 1 year before taken
+			modifier = {
+				factor = 0.1 # Modified down to ca 10 year average.
+			}
+		}
+	}
+	
 	make_primary = {
 		filter = owned
 		ai_target_filter = owned
@@ -184,9 +270,16 @@ settlement_decisions = {
 		allow = {
 			FROM = {
 				OR = {
-					is_merchant_republic = no
+					AND = {
+						is_merchant_republic = no
+						is_nomadic = no
+					}
 					capital_scope = {
-						NOT = { province = PREVPREV }
+						ROOT = {
+							location = {
+								NOT = { province = PREVPREV }
+							}
+						}
 					}
 				}
 			}
@@ -292,19 +385,18 @@ settlement_decisions = {
 			OR = {
 				FROM = {
 					independent = yes
-					
-					custom_tooltip = { 
-						text = TT_NOT_SAME_REALM
-						hidden_tooltip = {
-							FROM = {
-								top_liege = {
-									PREVPREV = {
-										holder_scope = {
-											top_liege = {
-												NOT = { character = PREVPREVPREV }
-											}
-										} 
-									}
+				}
+				custom_tooltip = { 
+					text = TT_NOT_SAME_REALM
+					hidden_tooltip = {
+						FROM = {
+							top_liege = {
+								PREVPREV = {
+									holder_scope = {
+										top_liege = {
+											NOT = { character = PREVPREVPREV }
+										}
+									} 
 								}
 							}
 						}
@@ -315,61 +407,54 @@ settlement_decisions = {
 		effect = {
 			if = {
 				limit = { NOT = { holding_type = tribal } }
-				FROM = {
-					if = {
-						limit = {
-							location = {
-								owner = {
+				location = {
+					owner = {
+						if = {
+							limit = {
+								character = FROM
+							}
+							FROM = {
+								wealth = 50
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
 									character = FROM
 								}
 							}
-						}
-						wealth = 100
-					}
-					if = {
-						limit = {
-							NOT = {
-								location = {
-									owner = {
-										character = FROM
-									}
-								}
+							FROM = {
+								wealth = 10
 							}
 						}
-						wealth = 20
 					}
+				}
+				FROM = {
 					random_list = {
-						10 = { military_techpoints = 20 }
-						10 = { economy_techpoints = 20 }
-						10 = { culture_techpoints = 20 }
+						10 = { military_techpoints = 5 }
+						10 = { economy_techpoints = 5 }
+						10 = { culture_techpoints = 5 }
 					}
 				}
 			}
 			if = {
 				limit = { holding_type = tribal }
-				FROM = {
-					if = {
-						limit = {
-							owner = {
+				location = {
+					owner = {
+						if = {
+							limit = {
 								character = FROM
 							}
+							FROM = { wealth = 25 }
 						}
-						wealth = 25
-					}
-					if = {
-						limit = {
-							NOT = {
-								owner = {
+						if = {
+							limit = {
+								NOT = {
 									character = FROM
 								}
 							}
+							FROM = { wealth = 5 }
 						}
-						wealth = 5
-					}
-					random_list = {
-						10 = { military_techpoints = 5 }
-						10 = { economy_techpoints = 5 }
-						10 = { culture_techpoints = 5 }
 					}
 				}
 			}
@@ -389,12 +474,12 @@ settlement_decisions = {
 						}
 						add_province_modifier = {
 							modifier = burnt_the_land
-							years = 4
+							years = 8
 							stacking = yes
 						}
 						add_province_modifier = {
 							modifier = recently_burnt_the_land
-							months = 3
+							months = 6
 						}
 					}
 					if = {
@@ -407,7 +492,7 @@ settlement_decisions = {
 						}
 						add_province_modifier = {
 							modifier = recently_burnt_the_land_not_owner
-							years = 1
+							years = 10
 						}
 					}
 				}
@@ -422,8 +507,6 @@ settlement_decisions = {
 								character = FROM
 							}
 						}
-						destroy_random_building = THIS
-						destroy_random_building = THIS
 						destroy_random_building = THIS
 						destroy_random_building = THIS
 					}
@@ -529,7 +612,9 @@ settlement_decisions = {
 			OR = {
 				is_capital = yes
 				capital_scope = {
-					has_capital = no
+					holder_scope = {
+						character = FROM
+					}
 				}
 			}
 			has_siege = no
@@ -723,7 +808,9 @@ settlement_decisions = {
 			OR = {
 				is_capital = yes
 				capital_scope = {
-					has_capital = no
+					holder_scope = {
+						character = FROM
+					}
 				}
 			}
 			has_siege = no
@@ -1354,6 +1441,19 @@ settlement_decisions = {
 					}
 				}
 			}
+			
+			modifier = {
+				factor = 0
+				FROM = {
+					any_demesne_title = {
+						OR = {
+							title = e_mongol_empire
+							title = e_golden_horde
+							title = e_chagatai
+						}
+					}
+				}
+			}
 		}
 	}
 	
@@ -1429,7 +1529,9 @@ settlement_decisions = {
 			OR = {
 				is_capital = yes
 				capital_scope = {
-					has_capital = no
+					holder_scope = {
+						character = FROM
+					}
 				}
 			}
 			has_siege = no
@@ -1969,29 +2071,99 @@ settlement_decisions = {
 								landless = no
 								temporary = no
 								custom_created = yes
-								culture = ROOT
-								holder = ROOT
+								culture = FROM
+								holder = FROM
 								base_title = THIS
 							}
 						}
 						
 						create_family_palace = yes
-						any_unique_dynasty_vassal = { # gives random vassals a family palace
-							count = 4
+						
+						if = {
 							limit = {
-								is_female = no
-								OR = {
-									is_republic = yes
-									is_tribal = yes
-								}
-								prisoner = no
-								NOT = { trait = incapable }
-								is_adult = yes
-								NOT = { 
-									dynasty = none 
+								NOT = {
+									num_of_government_vassals = {
+										government = merchant_republic_government
+										value = 1
+									}
 								}
 							}
-							create_family_palace = yes
+							
+							any_unique_dynasty_vassal = { # gives random vassals a family palace
+								count = 4
+								limit = {
+									is_female = no
+									OR = {
+										is_republic = yes
+										is_tribal = yes
+									}
+									is_patrician = no
+									prisoner = no
+									NOT = { trait = incapable }
+									is_adult = yes
+									NOT = { 
+										dynasty = none 
+									}
+								}
+								
+								if = {
+									limit = { is_tribal = yes }
+									
+									hidden_tooltip = {
+										any_demesne_title = {
+											limit = {
+												tier = baron
+												holding_type = tribal
+											}
+											convert_to = CITY
+											refill_holding_levy = yes
+											
+											if = {
+												limit = {
+													dejure_liege_title = {
+														holder = PREVPREV
+														location = {
+															num_of_empty_holdings = 2
+														}
+														NOT = {
+															any_direct_de_jure_vassal_title = {
+																holding_type = castle
+															}
+														}
+													}
+												}
+												location = {
+													build_holding = {
+														type = castle
+													}
+												}
+											}
+											if = {
+												limit = {
+													dejure_liege_title = {
+														holder = PREVPREV
+														location = {
+															num_of_empty_holdings = 2
+														}
+														NOT = {
+															any_direct_de_jure_vassal_title = {
+																holding_type = temple
+															}
+														}
+													}
+												}
+												location = {
+													build_holding = {
+														type = temple
+													}
+												}
+											}
+										}
+									}
+								}
+								
+								create_family_palace = yes
+							}
 						}
 							
 						set_government_type = merchant_republic_government
@@ -2086,6 +2258,20 @@ settlement_decisions = {
 				factor = 2.0
 				FROM = {
 					stewardship = 10
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				FROM =
+				{
+					any_demesne_title = {
+						OR = {
+							title = e_mongol_empire
+							title = e_golden_horde
+							title = e_chagatai
+						}
+					}
 				}
 			}
 		}

@@ -35,17 +35,11 @@ character_event = {
 		if = {
 			limit = {
 				capital_scope = {
-						NOT = { empire = { title = e_scandinavia } }
-						NOT = { empire = { title = e_russia } }
-						NOT = { empire = { title = e_tartaria } }
-						NOT = { empire = { title = e_rajastan } }
-						NOT = { empire = { title = e_bengal } }
-						NOT = { empire = { title = e_deccan } }
-						NOT = { empire = { title = e_persia } }
-						NOT = { empire = { title = e_india } }
-						NOT = { empire = { title = e_arabia } }
-						NOT = { empire = { title = e_mali } }
-						NOT = { empire = { title = e_abyssinia } }
+					OR = {
+						region = world_europe_south
+						region = world_europe_west
+						region = world_asia_minor
+					}
 				}
 			}
 			set_character_flag = white_stag
@@ -54,9 +48,9 @@ character_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_scandinavia }
-						empire = { title = e_russia }
-						empire = { title = e_tartaria }
+						region = world_europe_north
+						region = world_europe_east
+						region = world_steppe
 					}
 				}
 			}
@@ -66,11 +60,8 @@ character_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_rajastan }
-						empire = { title = e_bengal }
-						empire = { title = e_deccan }
-						empire = { title = e_persia }
-						empire = { title = e_india }
+						region = world_india
+						region = world_persia
 					}
 				}
 			}
@@ -80,9 +71,8 @@ character_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_arabia }
-						empire = { title = e_mali }
-						empire = { title = e_abyssinia }
+						region = world_middle_east
+						region = world_africa
 					}
 				}
 			}
@@ -341,15 +331,9 @@ character_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_france }
-						empire = { title = e_germany }
-						empire = { title = e_wendish_empire }
-						empire = { title = e_britannia }
-						empire = { title = e_carpathia }
-						empire = { title = e_hre }
-						empire = { title = e_italy }
-						empire = { title = e_spain }
-						empire = { title = e_byzantium }
+						region = world_europe_south
+						region = world_europe_west
+						region = world_asia_minor
 					}
 				}
 			}
@@ -359,9 +343,9 @@ character_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_scandinavia }
-						empire = { title = e_russia }
-						empire = { title = e_tartaria }
+						region = world_europe_north
+						region = world_europe_east
+						region = world_steppe
 					}
 				}
 			}
@@ -371,11 +355,8 @@ character_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_rajastan }
-						empire = { title = e_bengal }
-						empire = { title = e_deccan }
-						empire = { title = e_persia }
-						empire = { title = e_india }
+						region = world_india
+						region = world_persia
 					}
 				}
 			}
@@ -385,9 +366,8 @@ character_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_arabia }
-						empire = { title = e_mali }
-						empire = { title = e_abyssinia }
+						region = world_middle_east
+						region = world_africa
 					}
 				}
 			}
@@ -465,15 +445,9 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_france }
-						empire = { title = e_germany }
-						empire = { title = e_wendish_empire }
-						empire = { title = e_britannia }
-						empire = { title = e_carpathia }
-						empire = { title = e_hre }
-						empire = { title = e_italy }
-						empire = { title = e_spain }
-						empire = { title = e_byzantium }
+						region = world_europe_south
+						region = world_europe_west
+						region = world_asia_minor
 					}
 				}
 			}
@@ -483,9 +457,9 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_scandinavia }
-						empire = { title = e_russia }
-						empire = { title = e_tartaria }
+						region = world_europe_north
+						region = world_europe_east
+						region = world_steppe
 					}
 				}
 			}
@@ -495,11 +469,8 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_rajastan }
-						empire = { title = e_bengal }
-						empire = { title = e_deccan }
-						empire = { title = e_persia }
-						empire = { title = e_india }
+						region = world_india
+						region = world_persia
 					}
 				}
 			}
@@ -509,9 +480,8 @@ narrative_event = {
 			limit = {
 				capital_scope = {
 					OR = {
-						empire = { title = e_arabia }
-						empire = { title = e_mali }
-						empire = { title = e_abyssinia }
+						region = world_middle_east
+						region = world_africa
 					}
 				}
 			}
@@ -667,11 +637,11 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_WoL_5030 # Kill and get hunter trait
-		trigger = {
-			NOT = { lifestyle_traits = 1 }
-		}
 		prestige = 200
-		add_trait = hunter
+		if = {
+			limit = { NOT = { lifestyle_traits = 1 } }
+			add_trait = hunter
+		}
 		set_character_flag = achievement_great_hunter
 		clr_character_flag = do_not_disturb
 		clr_character_flag = failed_epic_hunt
@@ -703,7 +673,6 @@ character_event = {
 	option = {
 		name = EVTOPTB_WoL_5030 # Spare the animal's life
 		prestige = 200
-		set_character_flag = achievement_epic_hunt
 		clr_character_flag = do_not_disturb
 		clr_character_flag = failed_epic_hunt
 		if = {
@@ -879,6 +848,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_WoL_5040  # Invite him to your court
 		create_character = {
+			random_traits = yes
 			dynasty = NONE
 			religion = ROOT
 			culture = ROOT
@@ -891,6 +861,7 @@ character_event = {
 			}
 		}
 		new_character = {
+			hidden_tooltip = { add_random_education_trait = martial }
 			give_nickname = nick_the_hunter
 		}
 		if = {
@@ -1155,20 +1126,21 @@ character_event = {
 			remove_trait = slothful
 		}
 		if = {
-			limit = { trait = weak }
+			limit = { is_weak_trigger = yes }
 			random = {
 				chance = 20
 				remove_trait = weak
+				remove_trait = feeble
 			}
 		}
 		if = {
 			limit = {
-				NOT = { trait = strong }
-				NOT = { trait = weak }
+				is_strong_trigger = no
+				is_weak_trigger = no
 			}
 			random = {
 				chance = 20
-				add_trait = strong
+				add_trait = robust
 			}
 		}
 		if = {
@@ -1596,7 +1568,7 @@ character_event = {
 					}
 				}
 			}
-			set_character_flag = woods_female_lover
+			set_character_flag = woods_male_lover
 		}
 	}
 	
@@ -1629,7 +1601,7 @@ character_event = {
 		hidden_tooltip = { character_event = { id = WoL.5002 days = 365 random = 1000 } }
 	}
 	option = { # It's a trap! Attack!
-		name = EVTOPTB_WoL_5065
+		name = EVTOPTC_WoL_5065
 		trigger = {
 			OR = {
 				trait = paranoid
@@ -1667,7 +1639,6 @@ character_event = {
 		clr_character_flag = woods_female_lover
 		clr_character_flag = woods_male_lover
 		hidden_tooltip = { character_event = { id = WoL.5062 days = 5 } }
-		hidden_tooltip = { character_event = { id = WoL.5002 days = 365 random = 1000 } }
 	}
 	option = { # Bring home lover
 		name = EVTOPTB_WoL_5066
@@ -1718,7 +1689,6 @@ character_event = {
 		clr_character_flag = woods_female_lover
 		clr_character_flag = woods_male_lover
 		hidden_tooltip = { character_event = { id = WoL.5062 days = 5 } }
-		hidden_tooltip = { character_event = { id = WoL.5002 days = 365 random = 1000 } }
 	}
 }
 
@@ -1746,58 +1716,114 @@ character_event = {
 	}
 
 	immediate = {
-		set_character_flag = offered_puppy
 		if = {
 			limit = {
 				num_of_friends = 1
+				any_friend = {
+					NOT = { trait = incapable }
+					prisoner = no
+					is_adult = yes
+				}
 			}
 			random_friend = {
+				limit = {
+					NOT = { trait = incapable }
+					prisoner = no
+					is_adult = yes
+				}
 				character_event = { id = WoL.5201 }
 			}
+			set_character_flag = offered_puppy
 			break = yes
 		}
 		if = {
 			limit = {
 				is_married = yes
-				spouse = {
+				any_spouse = {
+					NOT = { trait = incapable }
+					prisoner = no
 					opinion = { who = ROOT value = 0 }
 				}
 			}
-			spouse = { character_event = { id = WoL.5201 } }
+			random_spouse = { character_event = { id = WoL.5201 } }
+			set_character_flag = offered_puppy
 			break = yes
 		}
 		if = {
 			limit = {
 				num_of_lovers = 1
+				any_lover = {
+					NOT = { trait = incapable }
+					prisoner = no
+				}
 			}
 			random_lover = {
+				limit = {
+					NOT = { trait = incapable }
+					prisoner = no
+				}
 				character_event = { id = WoL.5201 }
 			}
+			set_character_flag = offered_puppy
 			break = yes
 		}
 		if = {
 			limit = {
-				any_courtier = { opinion = { who = ROOT value = 0 } }
+				any_courtier = {
+					NOT = { trait = incapable }
+					prisoner = no
+					is_adult = yes
+					opinion = { who = ROOT value = 0 }
+				}
 			}
 			random_courtier = {
 				limit = {
+					NOT = { trait = incapable }
+					prisoner = no
+					is_adult = yes
 					opinion = { who = ROOT value = 0 }
 				}
 				character_event = { id = WoL.5201 }
 			}
+			set_character_flag = offered_puppy
 			break = yes
 		}
 		if = {
 			limit = {
 				is_married = yes
+				any_spouse = {
+					NOT = { trait = incapable }
+					prisoner = no
+				}
 			}
 			random_spouse = {
+				limit = {
+					NOT = { trait = incapable }
+					prisoner = no
+				}
 				character_event = { id = WoL.5201 }
 			}
+			set_character_flag = offered_puppy
 			break = yes
 		}
-		random_courtier = {
-			character_event = { id = WoL.5201 }
+		if = {
+			limit = {
+				any_courtier = {
+					NOT = { trait = incapable }
+					prisoner = no
+					is_adult = yes
+				}
+			}
+			random_courtier = {
+				limit = {
+					NOT = { trait = incapable }
+					prisoner = no
+					is_adult = yes
+				}
+				character_event = { id = WoL.5201 }
+			}
+			set_character_flag = offered_puppy
+			break = yes
 		}
 	}
 }
@@ -1833,6 +1859,7 @@ character_event = {
 		}
 		hidden_tooltip = { character_event = { id = WoL.5290 days = 3500 random = 2000 } } # Dog dies
 		clr_character_flag = offered_puppy
+		clr_character_flag = hunting_dog_already_killed
 		set_character_flag = had_hunting_dog
 	}
 	option = { # Send it back
@@ -2270,23 +2297,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2296,23 +2324,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2322,23 +2351,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2348,23 +2378,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2374,23 +2405,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2400,23 +2432,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2426,23 +2459,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2452,23 +2486,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2478,23 +2513,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2504,23 +2540,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2530,23 +2567,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2556,23 +2594,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2582,23 +2621,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2608,23 +2648,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2634,23 +2675,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2660,23 +2702,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2686,23 +2729,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 	option = { # Train dog
@@ -2712,23 +2756,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				trait = diligent
 			}
 			health = 1
 		}
 		if = {
 			limit = {
-				NOT = { trait = weak }
+				is_weak_trigger = no
 				NOT = { trait = diligent }
 			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
-				trait = weak
+				is_weak_trigger = yes
 			}
 			remove_trait = weak
+			remove_trait = feeble
 		}
 	}
 }
@@ -2872,15 +2917,18 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = pet_hunting_dog
+		NOT = { has_character_flag = hunting_dog_already_killed }
 	}
 	
 	option = { # Bury him quietly
 		name = EVTOPTA_WoL_5290
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Throw a grand funeral
 		name = EVTOPTB_WoL_5290
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTC_WoL_5290
@@ -2900,6 +2948,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTD_WoL_5290
@@ -2919,6 +2968,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTE_WoL_5290
@@ -2938,6 +2988,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTF_WoL_5290
@@ -2957,6 +3008,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTG_WoL_5290
@@ -2976,6 +3028,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTH_WoL_5290
@@ -2995,6 +3048,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTI_WoL_5290
@@ -3014,6 +3068,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTJ_WoL_5290
@@ -3033,6 +3088,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTK_WoL_5290
@@ -3052,6 +3108,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTL_WoL_5290
@@ -3071,6 +3128,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTM_WoL_5290
@@ -3090,6 +3148,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTN_WoL_5290
@@ -3109,6 +3168,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTO_WoL_5290
@@ -3128,6 +3188,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTP_WoL_5290
@@ -3147,6 +3208,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTQ_WoL_5290
@@ -3166,6 +3228,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTR_WoL_5290
@@ -3185,6 +3248,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTS_WoL_5290
@@ -3204,6 +3268,7 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
 	}
 	option = { # Lunatic option - build him a great pyramid - use dogs name
 		name = EVTOPTT_WoL_5290
@@ -3223,5 +3288,38 @@ character_event = {
 			}
 		}
 		remove_character_modifier = pet_hunting_dog
+		hidden_tooltip = { character_event = { id = WoL.5291 } }
+	}
+}
+
+# flag and delayed event clearing
+character_event = {
+	id = WoL.5291
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		remove_character_modifier = pet_hunting_dog
+		clear_delayed_event = { id = WoL.5290 }
+		clear_delayed_event = { id = WoL.5204 }
+		clear_delayed_event = { id = WoL.5221 }
+		clr_character_flag = dog_name_faithful
+		clr_character_flag = dog_name_hunter
+		clr_character_flag = dog_name_tricky
+		clr_character_flag = dog_name_lucifer
+		clr_character_flag = dog_name_shaytan
+		clr_character_flag = dog_name_fenrir
+		clr_character_flag = dog_name_erlik
+		clr_character_flag = dog_name_velnias
+		clr_character_flag = dog_name_tuoni
+		clr_character_flag = dog_name_xolotl
+		clr_character_flag = dog_name_veles
+		clr_character_flag = dog_name_guruhi
+		clr_character_flag = dog_name_darkness
+		clr_character_flag = dog_name_ahriman
+		clr_character_flag = dog_name_satan
+		clr_character_flag = dog_name_vinayaka
+		clr_character_flag = dog_name_mara
+		clr_character_flag = dog_name_punisher
 	}
 }
