@@ -20,6 +20,7 @@ character_event = {
 	picture = GFX_evt_emissary
 
 	trigger = {
+		is_adult = yes
 		war = no
 		in_command = no
 		religion = catholic
@@ -397,7 +398,6 @@ character_event = {
 	picture = GFX_evt_lovers
 	
 	trigger = {
-		has_lover = no
 		NOT = {	has_character_flag = hedge_knight_recruited }
 		NOT = {	has_character_flag = hedge_knight_woman_seduced	}
 		any_courtier = {
@@ -405,6 +405,7 @@ character_event = {
 	 		not = { age = 20 }
 	 		is_female = yes	
 	 		is_married = no
+			has_lover = no
 	 		is_pregnant = no
 			fertility = 0.3
 	 	}	 	

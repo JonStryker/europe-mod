@@ -1924,13 +1924,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
+		NOR = {
+			trait = incapable
 			personality_traits = 5
-		}
-		NOT = {
 			trait = craven
-		}
-		NOT = {
 			trait = brave
 		}
 	}
@@ -2692,7 +2689,10 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -2700,7 +2700,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3942,6 +3945,37 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA1000"
+		trigger = {
+			OR = {
+				AND = {
+					is_female = yes
+					trait = homosexual
+				}
+				AND = {
+					is_female = no
+					NOT = { trait = homosexual }
+				}
+			}
+		}
+		remove_trait = chaste
+	}
+	
+	option = {
+		name = "EVTOPTB1029"
+		trigger = {
+			OR = {
+				AND = {
+					is_female = yes
+					NOT = {
+						trait = homosexual
+					}
+				}
+				AND = {
+					is_female = no
+					trait = homosexual
+				}
+			}
+		}
 		remove_trait = chaste
 	}
 }
@@ -4955,9 +4989,7 @@ character_event = {
 		NOT = {
 			trait = inbred
 		}
-		NOT = {
-			trait = slow
-		}
+		is_dumb_trigger = no
 		NOT = {
 			trait = infirm
 		}
@@ -5034,9 +5066,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	religion_group = muslim
-	has_character_modifier = aspiring_hafiz
 	
 	trigger = {
+		has_character_modifier = aspiring_hafiz
 		NOT = {
 			trait = hafiz
 		}

@@ -16,6 +16,7 @@ decisions = {
 		}
 		effect = {
 			prestige = -500
+			piety = 250
 			if = {
 				limit = { higher_tier_than = BARON }
 				religion_authority = {
@@ -69,7 +70,6 @@ decisions = {
 				limit = { liege = { trait = svetambara_jain } }
 				add_trait = svetambara_jain
 			}
-			piety = 200
 		}
 		revoke_allowed = {
 			always = no
@@ -287,13 +287,13 @@ decisions = {
 		allow = {
 			OR = {
 				AND = {
-					piety = 500
+					prestige = 500
 					capital_scope = {
 						religion_group = ROOT
 					}
 				}
 				AND = {
-					piety = 1000
+					prestige = 1000
 					capital_scope = {
 						NOT = { religion_group = ROOT }
 					}
@@ -307,7 +307,7 @@ decisions = {
 						NOT = { religion_group = ROOT }
 					}
 				}
-				piety = -1000
+				prestige = -1000
 			}
 			if = {
 				limit = {
@@ -315,8 +315,9 @@ decisions = {
 						religion_group = ROOT
 					}
 				}
-				piety = -500
+				prestige = -500
 			}
+			piety = 250
 			religion_authority = {
 				modifier = ruler_converted_from
 			}
@@ -359,6 +360,7 @@ decisions = {
 		}
 		effect = {
 			prestige = -500
+			piety = 250
 			if = {
 				limit = { higher_tier_than = BARON }
 				religion_authority = {
@@ -376,7 +378,6 @@ decisions = {
 					}
 				}
 			}
-			piety = 200
 		}
 		revoke_allowed = {
 			always = no
@@ -393,15 +394,11 @@ decisions = {
 		potential = {
 			is_playable = yes
 			OR = {
-				religion = norse_pagan
-				religion = slavic_pagan
-				religion = baltic_pagan
-				religion = finnish_pagan
-				religion = tengri_pagan	
-				religion = west_african_pagan
-				religion = zun_pagan
-				religion = aztec
 				religion = zoroastrian
+				AND = {
+					religion_group = pagan_group
+					is_reformed_religion = no
+				}
 			}
 			controls_religion = no
 			war = yes
@@ -427,6 +424,7 @@ decisions = {
 		
 		effect = {
 			prestige = -500
+			piety = 100
 			religion_authority = {
 				modifier = ruler_converted_from
 			}
@@ -492,8 +490,6 @@ decisions = {
 					modifier = ruler_converted_to
 				}
 			}
-			
-			piety = 100
 		}
 		
 		revoke_allowed = {
@@ -628,35 +624,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = swedish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = swedish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = swedish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = swedish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = swedish
 				}
 			}
@@ -731,35 +727,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = norwegian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = norwegian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = norwegian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = norwegian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = norwegian
 				}
 			}
@@ -833,35 +829,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = danish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = danish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = danish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = danish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = danish
 				}
 			}
@@ -933,35 +929,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = norman
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = norman
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = norman
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = norman
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = norman
 				}
 			}
@@ -1050,7 +1046,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.5
-				trait = slow
+				OR = {
+					trait = slow
+					trait = dull
+				}
 			}
 			modifier = {
 				factor = 0.1
@@ -1062,7 +1061,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 2.0
-				trait = quick
+				OR = {
+					trait = quick
+					trait = shrewd
+				}
 			}
 			modifier = {
 				factor = 4.0
@@ -3846,35 +3848,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = frankish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = frankish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = frankish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = frankish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = frankish
 				}
 			}
@@ -3930,35 +3932,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = scottish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = scottish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = scottish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = scottish
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = scottish
 				}
 			}
@@ -4021,35 +4023,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = andalusian_arabic
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = andalusian_arabic
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = andalusian_arabic
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = andalusian_arabic
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = andalusian_arabic
 				}
 			}
@@ -4106,35 +4108,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = castillan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = castillan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = castillan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = castillan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = castillan
 				}
 			}
@@ -4191,35 +4193,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = catalan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = catalan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = catalan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = catalan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = catalan
 				}
 			}
@@ -4282,35 +4284,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = portuguese
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = portuguese
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = portuguese
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = portuguese
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = portuguese
 				}
 			}
@@ -4370,35 +4372,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = dutch
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = dutch
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = dutch
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = dutch
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = dutch
 				}
 			}
@@ -4474,35 +4476,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = italian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = italian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = italian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = italian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = italian
 				}
 			}
@@ -4559,35 +4561,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = occitan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = occitan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = occitan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = occitan
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = occitan
 				}
 			}
@@ -4643,35 +4645,35 @@ decisions = {
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 2
+					value = 2
 					culture = russian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 4
+					value = 4
 					culture = russian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 6
+					value = 6
 					culture = russian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 8
+					value = 8
 					culture = russian
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
-					num = 10
+					value = 10
 					culture = russian
 				}
 			}

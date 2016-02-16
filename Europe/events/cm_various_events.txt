@@ -99,6 +99,8 @@ character_event = {
 			OR = {
 				is_female = no
 				religion = cathar
+				father = { primary_title = { has_law = status_of_women_4 } }
+				mother = { primary_title = { has_law = status_of_women_4 } }
 			}
 			guardian = {
 				has_character_flag = hero_knight
@@ -115,6 +117,8 @@ character_event = {
 				OR = {
 					is_female = no
 					religion = cathar
+					father = { primary_title = { has_law = status_of_women_4 } }
+					mother = { primary_title = { has_law = status_of_women_4 } }
 				}
 				guardian = {
 					has_character_flag = hero_knight
@@ -186,13 +190,13 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		FROM = { NOT = { trait = strong } }
+		FROM = { is_strong_trigger = no }
 	}
 
 	option = {
 		name = EVTOPTA_CM_2022
 		FROM = {
-			add_trait = strong
+			add_trait = robust
 		}
 	}
 }

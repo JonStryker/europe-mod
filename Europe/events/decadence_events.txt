@@ -797,7 +797,7 @@ character_event = {
 	
 	trigger = {
 		uses_decadence = yes
-		trait = genius
+		is_smart_trigger = yes
 		NOT = { has_character_flag = decadence_genius }
 	}
 	
@@ -1435,11 +1435,10 @@ character_event = {
 		NOT = { trait = zealous }
 		NOT = { trait = mujahid }
 		lower_tier_than = KING
+		NOT = { has_character_modifier = decadent_timer }
 		biggest_realm_size_relative = {
-			AND = {
-				NOT = { character = PREV }
-				realm_size = 5
-			}
+			NOT = { character = PREV }
+			realm_size = 5
 		}
 	}
 	
@@ -1706,6 +1705,11 @@ character_event = {
 				tooltip = EVTTOOLTIP91352
 			}
 		}
+		add_character_modifier = {
+			modifier = decadent_timer
+			years = 5
+			hidden = yes
+		}
 		remove_trait = decadent
 		clr_character_flag = negotiated_to_drop_decadence
 	}
@@ -1851,6 +1855,11 @@ character_event = {
 				days = 3
 				tooltip = EVTTOOLTIP91352
 			}
+		}
+		add_character_modifier = {
+			modifier = decadent_timer
+			years = 5
+			hidden = yes
 		}
 		remove_trait = decadent
 		clr_character_flag = negotiated_to_drop_decadence
@@ -2021,6 +2030,11 @@ character_event = {
 				}
 			}
 		}
+		add_character_modifier = {
+			modifier = decadent_timer
+			years = 5
+			hidden = yes
+		}
 		remove_trait = decadent
 		clr_character_flag = negotiated_to_drop_decadence
 		piety = 100
@@ -2103,6 +2117,12 @@ character_event = {
 			factor = 5
 		}
 		
+		add_character_modifier = {
+			modifier = decadent_timer
+			years = 5
+			hidden = yes
+		}
+		
 		remove_trait = decadent
 		clr_character_flag = negotiated_to_drop_decadence
 		piety = 50
@@ -2131,6 +2151,11 @@ character_event = {
 		
 		ai_chance = {
 			factor = 5
+		}	
+		add_character_modifier = {
+			modifier = decadent_timer
+			years = 5
+			hidden = yes
 		}
 		
 		remove_trait = decadent
@@ -2293,6 +2318,11 @@ character_event = {
 				days = 3
 				tooltip = EVTTOOLTIP91352
 			}
+		}	
+		add_character_modifier = {
+			modifier = decadent_timer
+			years = 5
+			hidden = yes
 		}
 		remove_trait = decadent
 		clr_character_flag = negotiated_to_drop_decadence

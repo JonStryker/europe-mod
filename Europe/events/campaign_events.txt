@@ -176,10 +176,12 @@ character_event = {
 				clr_character_flag = campaign_friend
 				prestige = 5
 				
-				opinion = {
-					modifier = saved_on_battlefield
-					who = ROOT
-					years = 10
+				add_friend = ROOT
+				if = {
+					limit = {
+						has_dlc = "Zeus"
+					}
+					reverse_add_favor = ROOT
 				}
 				hidden_tooltip = {
 					character_event = { id = 6911 days = 1 }
@@ -200,11 +202,15 @@ character_event = {
 	option = {
 		name = EVTOPTA6911
 		add_trait = wounded
-		reverse_opinion = {
-			modifier = saved_him_on_battlefield
-			who = FROM
-			years = 10
-		}		
+		tooltip = {
+			add_friend = FROM
+			if = {
+				limit = {
+					has_dlc = "Zeus"
+				}
+				reverse_add_favor = FROM
+			}
+		}
 	}
 }
 

@@ -18,8 +18,8 @@ namespace = CM
 # The birth of the Knights of the Sun
 narrative_event = {
 	id = CM.4000
-	title = EVTTITLE_CM_4000
-	desc = EVTDESC_CM_4000
+	title = EVTTITLE_CM_4000
+	desc = EVTDESC_CM_4000
 	picture = GFX_evt_sun_temple
 	border = GFX_event_narrative_frame_religion
 
@@ -135,13 +135,17 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_CM_4000
 		trigger = {
-			religion = zun_pagan_reformed
+			OR = {
+				religion = zun_pagan_reformed
+				religion = zun_pagan
+			}
 		}
 	}
 	option = {
 		name = EVTOPTB_SOA_2009
 		trigger = {
 			NOT = { religion = zun_pagan_reformed }
+			NOT = { religion = zun_pagan }
 		}
 	}
 }
@@ -248,10 +252,15 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = OK # Ask to go
+	option = { # Ask to go
 		ai_chance = {
 			factor = 100
 		}
@@ -261,15 +270,14 @@ character_event = {
 			}
 		}
 	}
-	option = {
-		name = OK # It's a bad idea
+	option = { # It's a bad idea
 	}
 }
 
 # Son or brother asks to join the Knights of the Sun
 character_event = {
 	id = CM.4002
-	desc = EVTDESC_CM_4002
+	desc = EVTDESC_CM_4002
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 	
@@ -293,6 +301,8 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
+		
+		piety = -100
 		
 		FROM = {
 			character_event = {
@@ -318,6 +328,21 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -366,7 +391,7 @@ character_event = {
 # Notification event when donating money to the Knights of the Sun
 letter_event = {
 	id = CM.4006
-	desc = EVTDESC_CM_4006
+	desc = EVTDESC_CM_4006
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -398,6 +423,9 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
 		}
 		
 		has_dlc = "Charlemagne"
@@ -450,6 +478,9 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				has_empty_holding = yes
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
 			}
 			province_event = {
 				id = CM.4008
@@ -485,7 +516,7 @@ character_event = {
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = CM.4010
 			}
 		}
@@ -494,7 +525,7 @@ character_event = {
 
 letter_event = {
 	id = CM.4010
-	desc = EVTDESC_CM_4010
+	desc = EVTDESC_CM_4010
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -533,7 +564,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = CM.4011
-	desc = EVTDESC_CM_4011
+	desc = EVTDESC_CM_4011
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -594,7 +625,7 @@ character_event = {
 # Notification event when expelling the Knights of the Sun
 letter_event = {
 	id = CM.4013
-	desc = EVTDESC_CM_4013
+	desc = EVTDESC_CM_4013
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -611,7 +642,7 @@ letter_event = {
 # Invite vassals to festival
 character_event = {
 	id = CM.4100
-	desc = EVTDESC_CM_4100
+	desc = EVTDESC_CM_4100
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 
@@ -623,7 +654,6 @@ character_event = {
 			limit = {
 				prisoner = no
 				war = no
-				in_command = no
 				NOT = { trait = incapable }
 				age = 16
 				NOT = { has_character_flag = do_not_disturb }
@@ -640,8 +670,7 @@ character_event = {
 # Vassal receives invitation
 letter_event = {
 	id = CM.4101
-	desc = EVTDESC_CM_4101
-	picture = GFX_evt_emissary
+	desc = EVTDESC_CM_4101
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -696,6 +725,7 @@ letter_event = {
 			modifier = {
 				factor = 0
 				opinion = { who = FROM value = 25 }
+				NOT = { trait = in_hiding }
 			}
 			modifier  = {
 				factor = 5
@@ -720,8 +750,7 @@ letter_event = {
 # If vassal refuses to come to the feast
 letter_event = {
 	id = CM.4102
-	desc = EVTDESC_CM_4102
-	picture = GFX_evt_emissary
+	desc = EVTDESC_CM_4102
 	
 	is_triggered_only = yes
 	
@@ -738,7 +767,7 @@ letter_event = {
 # Festival begins
 character_event = {
 	id = CM.4120
-	desc = EVTDESC_CM_4120
+	desc = EVTDESC_CM_4120
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 
@@ -773,7 +802,7 @@ character_event = {
 # Vassal arrives at festival
 character_event = {
 	id = CM.4105
-	desc = EVTDESC_CM_4120
+	desc = EVTDESC_CM_4120
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 
@@ -819,7 +848,7 @@ character_event = {
 # Festival is over - host
 character_event = {
 	id = CM.4196
-	desc = EVTDESC_CM_4196
+	desc = EVTDESC_CM_4196
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 
@@ -841,7 +870,7 @@ character_event = {
 # Festival is over - guest
 character_event = {
 	id = CM.4198
-	desc = EVTDESC_CM_4196
+	desc = EVTDESC_CM_4196
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 
@@ -884,7 +913,7 @@ character_event = {
 narrative_event = {
 	id = CM.4130
 	title = EVTTITLE_CM_4130
-	desc = EVTDESC_CM_4130
+	desc = EVTDESC_CM_4130
 	picture = GFX_evt_sun_temple
 	border = GFX_event_narrative_frame_religion
 
@@ -913,7 +942,7 @@ narrative_event = {
 # Weak or old character becomes ill or incapable
 character_event = {
 	id = CM.4131
-	desc = EVTDESC_CM_4131
+	desc = EVTDESC_CM_4131
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 	
@@ -928,22 +957,6 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_CM_4131
-		if = {
-			limit = {
-				NOT = { trait = ill }
-				NOT = { trait = pneumonic }
-				NOT = { trait = infirm }
-				NOT = { trait = has_tuberculosis }
-				NOT = { trait = has_typhoid_fever }
-				NOT = { trait = has_typhus }
-				NOT = { trait = has_bubonic_plague }
-				NOT = { trait = has_measles }
-				NOT = { trait = has_small_pox }
-				NOT = { trait = syphilitic }
-				NOT = { trait = leper }
-			}
-			add_trait = ill
-		}
 		if = {
 			limit = {
 				OR = {
@@ -962,13 +975,29 @@ character_event = {
 			}
 			add_trait = incapable
 		}
+		if = {
+			limit = {
+				NOT = { trait = ill }
+				NOT = { trait = pneumonic }
+				NOT = { trait = infirm }
+				NOT = { trait = has_tuberculosis }
+				NOT = { trait = has_typhoid_fever }
+				NOT = { trait = has_typhus }
+				NOT = { trait = has_bubonic_plague }
+				NOT = { trait = has_measles }
+				NOT = { trait = has_small_pox }
+				NOT = { trait = syphilitic }
+				NOT = { trait = leper }
+			}
+			add_trait = ill
+		}
 	}
 }
 
 # Character goes insane
 character_event = {
 	id = CM.4133
-	desc = EVTDESC_CM_4133
+	desc = EVTDESC_CM_4133
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 	
@@ -995,7 +1024,7 @@ character_event = {
 # Character becomes possessed
 character_event = {
 	id = CM.4135
-	desc = EVTDESC_CM_4135
+	desc = EVTDESC_CM_4135
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 	
@@ -1015,7 +1044,7 @@ character_event = {
 # Character becomes zealous
 character_event = {
 	id = CM.4137
-	desc = EVTDESC_CM_4137
+	desc = EVTDESC_CM_4137
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 	
@@ -1035,58 +1064,48 @@ character_event = {
 # Character becomes stronger
 character_event = {
 	id = CM.4139
-	desc = EVTDESC_CM_4139
+	desc = EVTDESC_CM_4139
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = strong }
-		NOT = { trait = weak }
+		is_strong_trigger = no
+		is_weak_trigger = no
 		NOT = { trait = slothful }
 		NOT = { health_traits = 1 }
 	}
 	
 	option = {
 		name = EVTOPTA_CM_4137
-		add_trait = strong
+		add_trait = robust
 	}
 }
 
 # Character becomes wiser
 character_event = {
 	id = CM.4141
-	desc = EVTDESC_CM_4141
+	desc = EVTDESC_CM_4141
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = {
-			trait = quick
-			trait = genius
-		}
+		is_smart_trigger = no
 	}
 	
 	option = {
 		name = EVTOPTA_CM_4141
-		if = {
-			limit = { trait = quick }
-			add_trait = genius
-		}
-		if = {
-			limit = { NOT = { trait = quick } }
-			add_trait = quick
-		}
+		add_trait = shrewd
 	}
 }
 
 # Character stares into sun and becomes blind
 character_event = {
 	id = CM.4143
-	desc = EVTDESC_CM_4143
+	desc = EVTDESC_CM_4143
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 	
@@ -1107,7 +1126,7 @@ character_event = {
 # Temple ceremony - host and guests
 character_event = {
 	id = CM.4190
-	desc = EVTDESC_CM_4190
+	desc = EVTDESC_CM_4190
 	picture = GFX_evt_sun_temple
 	border = GFX_event_normal_frame_religion
 
@@ -1131,7 +1150,7 @@ character_event = {
 # Byzantine Emperor renounces iconoclasm
 character_event = {
 	id = CM.4200
-	desc = EVTDESC_CM_4200
+	desc = EVTDESC_CM_4200
 	picture = GFX_evt_icon
 	border = GFX_event_normal_frame_religion
 
@@ -1263,7 +1282,7 @@ character_event = {
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = CM.4303
 			}
 		}
@@ -1272,7 +1291,7 @@ character_event = {
 
 letter_event = {
 	id = CM.4303
-	desc = EVTDESC_CM_4303
+	desc = EVTDESC_CM_4303
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1320,8 +1339,8 @@ letter_event = {
 # Birth of the Haruriyyah Order
 narrative_event = {
 	id = CM.4309
-	title = EVTTITLE_CM_4309
-	desc = EVTDESC_CM_4309
+	title = EVTTITLE_CM_4309
+	desc = EVTDESC_CM_4309
 	picture = GFX_evt_moors
 	border = GFX_event_narrative_frame_religion
 	
@@ -1509,7 +1528,7 @@ character_event = {
 # Notification event when borrowing money from the haruriyyah
 letter_event = {
 	id = CM.4311
-	desc = EVTDESC_CM_4311
+	desc = EVTDESC_CM_4311
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1540,6 +1559,9 @@ character_event = {
 		
 		any_demesne_province = {
 			has_empty_holding = yes
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
 		}
 		
 		d_haruriyyah = {
@@ -1565,6 +1587,9 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				has_empty_holding = yes
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
 			}
 			province_event = {
 				id = CM.4321
@@ -1589,10 +1614,6 @@ province_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 character_event = {
@@ -1604,7 +1625,7 @@ character_event = {
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = CM.4323
 			}
 		}
@@ -1613,7 +1634,7 @@ character_event = {
 
 letter_event = {
 	id = CM.4323
-	desc = EVTDESC_CM_4323
+	desc = EVTDESC_CM_4323
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1654,7 +1675,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = CM.4324
-	desc = EVTDESC_CM_4324
+	desc = EVTDESC_CM_4324
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -1781,10 +1802,15 @@ character_event = {
 			factor = 2.0
 			is_primary_heir = yes
 		}
+		modifier = {
+			factor = 2
+			any_spouse = {
+				reverse_opinion = { who = ROOT value = 100 }
+			}
+		}
 	}
 	
-	option = {
-		name = EVTOPTA_SOA_1030 # Ask to go
+	option = { # Ask to go
 		ai_chance = {
 			factor = 100
 		}
@@ -1794,15 +1820,14 @@ character_event = {
 			}
 		}
 	}
-	option = {
-		name = EVTOPTB_SOA_1030 # It's a bad idea
+	option = { # It's a bad idea
 	}
 }
 
 # Son or brother asks to join the haruriyyah
 character_event = {
 	id = CM.4331
-	desc = EVTDESC_CM_4331
+	desc = EVTDESC_CM_4331
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
 	
@@ -1826,6 +1851,8 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB_SOA_1031 # Refuse
+		
+		piety = -100
 		
 		FROM = {
 			character_event = {
@@ -1851,6 +1878,21 @@ character_event = {
 					move_character = PREV
 					hidden_tooltip = {
 						clear_wealth = PREV
+					}
+					any_spouse = {
+						remove_spouse = spouse
+						hidden_tooltip = { character_event = { id = SoA.2863 } }
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 180
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
 					}
 				}
 			}
@@ -1904,6 +1946,9 @@ character_event = {
 		any_demesne_province = {
 			has_empty_holding = yes
 			port = yes
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
 		}
 		
 		has_dlc = "Charlemagne"
@@ -1949,6 +1994,9 @@ character_event = {
 			limit = {
 				has_empty_holding = yes
 				port = yes
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
 			}
 			province_event = {
 				id = CM.4351
@@ -1984,7 +2032,7 @@ character_event = {
 	
 	immediate = {
 		FROMFROM = {
-			character_event = {
+			letter_event = {
 				id = CM.4353
 			}
 		}
@@ -1993,7 +2041,7 @@ character_event = {
 
 letter_event = {
 	id = CM.4353
-	desc = EVTDESC_CM_4353
+	desc = EVTDESC_CM_4353
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2032,7 +2080,7 @@ letter_event = {
 # Castle has been erected
 province_event = {
 	id = CM.4354
-	desc = EVTDESC_CM_4324
+	desc = EVTDESC_CM_4324
 	picture = GFX_evt_moors
 	border = GFX_event_normal_frame_religion
 	
@@ -2056,7 +2104,7 @@ province_event = {
 # Notification event when donating money to the Muslim orders
 letter_event = {
 	id = CM.4399
-	desc = EVTDESC_CM_4399
+	desc = EVTDESC_CM_4399
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2065,15 +2113,4 @@ letter_event = {
 		name = EVTOPTA_CM_4399
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
 

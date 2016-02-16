@@ -12,9 +12,10 @@ character_event = {
 	desc = "EVTDESC89000"
 	picture = GFX_evt_lovers
 	
+	only_women = yes
+	religion_group = muslim
+	
 	trigger = {
-		religion_group = muslim
-		is_female = yes
 		is_married = yes
 		trait = homosexual
 		spouse = {
@@ -147,15 +148,15 @@ character_event = {
 	
 	capable_only = yes
 	prisoner = no
+	only_women = yes
+	religion_group = muslim
 	
 	trigger = {
-		is_female = yes
 		age = 16
 		is_married = yes
 		is_pregnant = no
 		NOT = { trait = in_hiding }
 		is_main_spouse = no
-		religion_group = muslim
 	}
 	
 	mean_time_to_happen = {
@@ -332,7 +333,7 @@ character_event = {
 		random_spouse = {
 			limit = { is_main_spouse = yes }
 			hidden_tooltip = {
-				character_event = { id = 89009 days = 4 tooltip = "EVTTOOLTIP89009" }
+				character_event = { id = 89009 days = 4 }
 			}
 			opinion = {
 				who = ROOT
@@ -470,9 +471,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	religion_group = muslim
+	only_women = yes
 	
 	trigger = {
-		is_female = yes
 		num_of_children = 1
 		age = 16
 		is_married = yes
@@ -486,6 +487,7 @@ character_event = {
 			is_primary_heir = no
 			is_alive = yes
 			age = 14
+			father = { any_spouse = { character = ROOT } }
 		}
 		NOT = { any_child = { is_primary_heir = yes } }
 		NOT = { any_child = { has_character_flag = first_wife_son } }
@@ -516,11 +518,12 @@ character_event = {
 		name = "EVTOPTA89015"
 		ai_chance = { factor = 100 }
 		set_character_flag = envious_mother
-		any_child = {
+		random_child = {
 			limit = { 
 				is_female = no
 				age = 14
 				is_primary_heir = no
+				father = { any_spouse = { character = ROOT } }
 			}
 			set_character_flag = first_wife_son
 			character_event = { id = 89016 days = 2 tooltip = "EVTTOOLTIP89016" }
@@ -621,9 +624,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	religion_group = muslim
+	only_women = yes
 
 	trigger = {
-		is_female = yes
 		num_of_children = 1
 		age = 16
 		is_married = yes
@@ -890,9 +893,9 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	religion_group = muslim
+	only_women = yes
 	
 	trigger = {
-		is_female = yes
 		num_of_children = 1
 		age = 16
 		is_married = yes
@@ -968,14 +971,14 @@ character_event = {
 					hidden_tooltip = {
 						random_list = {
 							50 = {
-								character_event = { id = 89034 tooltip = "EVTTOOLTIP89024" }
+								character_event = { id = 89034 }
 								any_child = {
 									limit = { has_character_flag = victim_son }
 									death = { death_reason = death_murder_unknown }
 								}
 							}
 							50 = {
-								character_event = { id = 89035 tooltip = "EVTTOOLTIP89025" }
+								character_event = { id = 89035 }
 								any_child = {
 									limit = { has_character_flag = victim_son }
 									death = { death_reason = death_murder killer = ROOT }
@@ -998,7 +1001,7 @@ character_event = {
 						character_event = { id = 89031 days = 4 tooltip = "EVTTOOLTIP89021" }
 					}
 					hidden_tooltip = {
-						character_event = { id = 89032 tooltip = "EVTTOOLTIP89022" }
+						character_event = { id = 89032 }
 					}
 				}
 			}

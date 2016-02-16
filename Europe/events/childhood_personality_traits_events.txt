@@ -25,9 +25,11 @@ character_event = {
 	max_age = 16
 
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = temperate }
 		NOT = { trait = gluttonous }
+		prisoner = no
 		has_guardian = yes
 	}
 	
@@ -74,11 +76,17 @@ character_event = {
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 1.2
 		}
 		modifier = {
@@ -90,11 +98,11 @@ character_event = {
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 5.0
 		}
 	}
@@ -148,6 +156,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = temperate }
 		NOT = { trait = gluttonous }
@@ -197,11 +206,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -214,11 +229,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}		
 
@@ -273,6 +288,7 @@ character_event = {
 	max_age = 16
 
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = charitable }
 		NOT = { trait = greedy }
@@ -326,11 +342,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -342,11 +364,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}
 	}
@@ -400,6 +422,7 @@ character_event = {
 	max_age = 16
 
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = charitable }
 		NOT = { trait = greedy }
@@ -453,11 +476,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -469,11 +498,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -527,6 +556,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		religion_group = christian
 		NOT = { personality_traits = 5 }
 		NOT = { trait = diligent }
@@ -581,11 +611,17 @@ character_event = {
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 1.2
 		}
 		modifier = {
@@ -597,11 +633,11 @@ character_event = {
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 5.0
 		}
 	}
@@ -656,6 +692,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = diligent }
 		NOT = { trait = slothful }
@@ -709,11 +746,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -726,11 +769,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -784,6 +827,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = kind }
 		NOT = { trait = envious }
@@ -845,11 +889,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -861,11 +911,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}
 	}
@@ -925,6 +975,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = kind }
 		NOT = { trait = envious }
@@ -986,11 +1037,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -1002,11 +1059,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -1060,6 +1117,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = wroth }
 		NOT = { trait = patient }
@@ -1105,11 +1163,17 @@ character_event = {
 			factor = 0.2
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.75
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.15
 		}
 		
@@ -1122,11 +1186,11 @@ character_event = {
 			factor = 2.0
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.5
 		}
 	}
@@ -1180,6 +1244,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = wroth }
 		NOT = { trait = patient }
@@ -1225,11 +1290,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -1241,11 +1312,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -1299,6 +1370,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = proud }
 		NOT = { trait = humble }
@@ -1345,11 +1417,17 @@ character_event = {
 			factor = 5.0
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 5.0
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.1
 		}
 		modifier = {
@@ -1361,11 +1439,11 @@ character_event = {
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.5
 		}
 	}
@@ -1419,6 +1497,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = proud }
 		NOT = { trait = humble }
@@ -1464,11 +1543,17 @@ character_event = {
 			factor = 0.5
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.25
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 2.0
 		}
 		modifier = {
@@ -1480,11 +1565,11 @@ character_event = {
 			factor = 0.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.01
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.5
 		}
 	}
@@ -1540,6 +1625,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = honest }
 		NOT = { trait = deceitful }
@@ -1585,11 +1671,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -1601,11 +1693,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -1659,6 +1751,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = {
 			religion_group = muslim
 		}
@@ -1710,11 +1803,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -1726,11 +1825,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -1781,6 +1880,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		religion_group = muslim
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
@@ -1827,11 +1927,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -1843,11 +1949,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -1881,6 +1987,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = honest }
 		NOT = { trait = deceitful }
@@ -1926,11 +2033,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -1942,11 +2055,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -2000,6 +2113,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = craven }
 		NOT = { trait = brave }
@@ -2045,11 +2159,17 @@ character_event = {
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 1.2
 		}
 		modifier = {
@@ -2061,11 +2181,11 @@ character_event = {
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 5.0
 		}
 	}
@@ -2119,6 +2239,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = craven }
 		NOT = { trait = brave }
@@ -2164,11 +2285,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -2181,11 +2308,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -2239,6 +2366,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = shy }
 		NOT = { trait = gregarious }
@@ -2284,11 +2412,17 @@ character_event = {
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 1.2
 		}
 		modifier = {
@@ -2300,11 +2434,11 @@ character_event = {
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 5.0
 		}
 	}
@@ -2358,6 +2492,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = shy }
 		NOT = { trait = gregarious }
@@ -2403,11 +2538,17 @@ character_event = {
 			factor = 2.0
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 5.0
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		
@@ -2420,11 +2561,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -2478,6 +2619,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = content }
 		NOT = { trait = ambitious }
@@ -2495,11 +2637,11 @@ character_event = {
 			trait = humble
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -2553,6 +2695,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = content }
 		NOT = { trait = ambitious }
@@ -2570,11 +2713,11 @@ character_event = {
 			trait = humble
 		}
 			modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 5.0
 		}
 	}
@@ -2628,6 +2771,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = just }
 		NOT = { trait = arbitrary }
@@ -2673,11 +2817,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -2689,11 +2839,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}
 	}
@@ -2747,6 +2897,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = just }
 		NOT = { trait = arbitrary }
@@ -2792,11 +2943,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -2808,11 +2965,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -2866,6 +3023,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = {
 			religion_group = muslim
 		}
@@ -2914,11 +3072,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -2930,11 +3094,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -2985,6 +3149,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		religion_group = muslim
 		NOT = { personality_traits = 5 }
 		NOT = { trait = zealous }
@@ -3031,11 +3196,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -3047,11 +3218,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -3106,6 +3277,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { personality_traits = 5 }
 		NOT = { trait = kind }
 		NOT = { trait = cruel }
@@ -3151,11 +3323,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -3168,11 +3346,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -3504,6 +3682,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = stutter }
 		father = {
 			is_alive = yes
@@ -3553,11 +3732,17 @@ character_event = {
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 1.2
 		}
 		modifier = {
@@ -3569,11 +3754,11 @@ character_event = {
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 5.0
 		}		
 	
@@ -3604,6 +3789,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = trusting }
 		father = {
 			is_alive = yes
@@ -3658,11 +3844,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -3674,11 +3866,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -3708,6 +3900,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = trusting }
 		father = {
 			is_alive = yes
@@ -3761,11 +3954,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -3777,11 +3976,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}
 	}
@@ -3811,6 +4010,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = wroth }
 		father = {
 			is_alive = yes
@@ -3864,11 +4064,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -3881,11 +4087,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -3915,6 +4121,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = greedy }
 		father = {
 			is_alive = yes
@@ -3968,11 +4175,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -3984,11 +4197,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}
 	}
@@ -4019,6 +4232,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { is_abroad = yes }
 		father = {
 			is_alive = yes
@@ -4075,11 +4289,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -4091,11 +4311,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}
 	}
@@ -4125,6 +4345,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		NOT = { trait = gregarious }
 		has_guardian = yes
 		NOT = { personality_traits = 5 }
@@ -4169,11 +4390,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -4185,11 +4412,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}		
 	}
@@ -4219,6 +4446,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { personality_traits = 5 }
 		NOT = {
@@ -4265,11 +4493,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -4282,11 +4516,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -4316,6 +4550,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		religion_group = christian
 		NOT = { trait = zealous }
@@ -4352,6 +4587,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { trait = craven }
 		NOT = { personality_traits = 5 }
@@ -4396,11 +4632,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -4413,11 +4655,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -4447,6 +4689,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		#religion_group = christian
 		NOT = { trait = zealous }
@@ -4493,11 +4736,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -4509,11 +4758,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -4542,6 +4791,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { is_ruler = yes }
 		NOT = { personality_traits = 5 }
@@ -4586,11 +4836,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -4602,11 +4858,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -4636,6 +4892,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { is_ruler = yes }
 		NOT = { personality_traits = 5 }
@@ -4680,11 +4937,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -4696,11 +4959,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -4730,6 +4993,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { trait = lustful }
 		NOT = { trait = chaste }
@@ -4769,6 +5033,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		religion = catholic
 		NOT = { trait = cynical }
@@ -4822,11 +5087,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -4838,11 +5109,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -4872,6 +5143,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		religion_group = christian
 		NOT = { trait = zealous }
@@ -4919,11 +5191,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -4935,11 +5213,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -4969,6 +5247,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {	guardian = { trait = cruel } }
 		NOT = {	guardian = { trait = arbitrary } }
@@ -5013,11 +5292,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -5029,11 +5314,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -5063,6 +5348,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {	trait = kind }
 	}
@@ -5106,11 +5392,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -5122,11 +5414,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}		
 
@@ -5157,6 +5449,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		learning = 4
 		NOT = { trait = diligent }
@@ -5201,11 +5494,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -5217,11 +5516,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -5251,6 +5550,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = { religion_group = indian_group }
 		NOT = { trait = lustful }
@@ -5298,11 +5598,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -5315,11 +5621,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -5349,6 +5655,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			religion_group = christian
@@ -5401,11 +5708,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -5417,11 +5730,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}
 	}
@@ -5452,6 +5765,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {
 			trait = brave
@@ -5510,11 +5824,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -5527,11 +5847,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}	
 	}
@@ -5559,6 +5879,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		learning = 5
 		NOT = {
@@ -5605,11 +5926,17 @@ character_event = {
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 1.2
 		}
 		modifier = {
@@ -5621,11 +5948,11 @@ character_event = {
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 5.0
 		}	
 	}
@@ -5653,6 +5980,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {
 			trait = craven
@@ -5707,11 +6035,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -5724,11 +6058,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}		
 	
@@ -5757,6 +6091,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		learning = 6
 		NOT = {
@@ -5815,11 +6150,17 @@ character_event = {
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -5831,11 +6172,11 @@ character_event = {
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 2.0
 		}
 	}
@@ -5863,6 +6204,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		trait = ugly
 		guardian = {
@@ -5953,6 +6295,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			AND = {
@@ -6015,11 +6358,17 @@ character_event = {
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.5
 		}
 		modifier = {
@@ -6031,11 +6380,11 @@ character_event = {
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 1.25
 		}
 	}
@@ -6063,6 +6412,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			AND = {
@@ -6121,11 +6471,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -6138,11 +6494,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}	
 	}
@@ -6171,6 +6527,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			AND = {
@@ -6232,11 +6589,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -6249,11 +6612,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}	
 	}
@@ -6281,6 +6644,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			trait = kind
@@ -6343,11 +6707,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -6360,11 +6730,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}	
 	}
@@ -6394,6 +6764,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {
 			trait = brave
@@ -6448,11 +6819,17 @@ character_event = {
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 1.2
 		}
 		modifier = {
@@ -6464,11 +6841,11 @@ character_event = {
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 5.0
 		}
 	}
@@ -6496,6 +6873,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		NOT = {
 			trait = brave
@@ -6556,11 +6934,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -6573,11 +6957,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -6667,6 +7051,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = yes
 		OR = {
 			AND = {
@@ -6725,11 +7110,17 @@ character_event = {
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = dull
+			}
 			factor = 0.95
 		}
 		
@@ -6742,11 +7133,11 @@ character_event = {
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			is_strong_trigger = yes
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			is_weak_trigger = yes
 			factor = 0.05
 		}
 	}
@@ -6775,6 +7166,7 @@ character_event = {
 	capable_only = yes
 	
 	trigger = {
+		NOT = { has_dlc = "Zeus" }
 		has_guardian = no
 		independent = no
 		NOT = {	personality_traits = 5 }
