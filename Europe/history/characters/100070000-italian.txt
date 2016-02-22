@@ -17,14 +17,835 @@
 ##  100071525-100071536		Malfatti                          1006018	  12	
 ##  100071550-100071639		Massimo-Lancellotti               1006019	  90	
 ##  100071650-100071742		Odescalchi                        1006007	  93	[c_gaeta, c_szeged]
-##  100071750-100071765		Pallavicini                       1006016	  16	
 ##  100071775-100071808		Pignatelli                        1006017	  34	[c_reggio_di_calabria]
 ##  100071825-100071840		Pironti                           1006014	  16	
 ##  100071850-100071910		Rospigliosi                       1006011	  61	[c_livorno]
 ##  100071925-100071969		Ruffo di Calabria                 1006003	  45	[d_calabria, c_catanzaro]
 ##  100071975-100072073		Savoie                                240	  99	[e_espana, e_italy, k_croatia, d_aosta, d_sardegna, d_dalmatia, c_aosta, d_romagna, d_istria, d_venezia, c_zagreb, c_roma, c_madrid, d_croatia, d_piemonte, d_lazio, c_toledo]
 ##  100072075-100072145		Visconti                          1006009	  71	[c_bergamo, c_brescia, c_milan, d_lombardia]
+##  100072150-100072237		Pallavicini                       1006016	  
 #################################################################################################
+
+
+##  100072150-100072237		Pallavicini                       1006016	
+100071752={ # Odoardo, Mkgf Pallavicini (Vienna 9 Mar 1787-Vienna 20 Apr 1839); m.Vienna 22 Apr 1806 Josephine Gfn zu Hardegg (Vienna 2 May 1784-Vienna 23 Dec 1850)
+	name=Odoardo
+	dynasty=1006016
+	religion=catholic culture=german
+	1787.03.09={birth=yes}  # Vienna
+	1806.04.22={add_spouse=100080450}	# GFN Josephine zu Hardegg
+	1839.04.20={death=yes}  # Vienna
+}
+	100071751={ # 1a) Alfons (Vienna 7 Mar 1807-Vienna 7 Mar 1895); m.Vienna 23 Nov 1844 Gabriele Ldgfn zu Fürstenberg (Vienna 17 Mar 1821-Vienna 18 Mar 1895)
+		name=Alfons
+		dynasty=1006016
+		religion=catholic culture=german
+		father=100071752	# Odoardo Pallavicini
+		mother=100080450	# GFN Josephine zu Hardegg
+		1807.03.07={birth=yes}  # Vienna
+		1844.11.23={add_spouse=100080455}	# LDGFN Gabriele zu Fürstenberg
+		1895.03.07={death=yes}  # Vienna
+	}
+		100072153={ # 1b) Leopoldine Caroline Marie Justine (Vienna 7 Oct 1845-Kardasch-Recetz 26 Oct 1928); m.Vienna 28 May 1866 Karl Fst Paar (Bechin 7 Jul 1834-Vienna 21 Apr 1917)
+			name=Leopoldine
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100071751	# Alfons Pallavicini
+			mother=100080455	# LDGFN Gabriele zu Fürstenberg
+			1845.10.07={birth=yes}  # Vienna
+			1928.10.26={death=yes}  # Kardasch - Recetz
+		}
+		100072154={ # 2b) Therese (Vienna 16 Sep 1846-Vienna 15 Apr 1916)
+			name=Therese
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100071751	# Alfons Pallavicini
+			mother=100080455	# LDGFN Gabriele zu Fürstenberg
+			1846.09.16={birth=yes}  # Vienna
+			1916.04.15={death=yes}  # Vienna
+		}
+		100072155={ # 3b) Josephine Marie Karoline Vincenzia (Jamnitz 22 Jan 1849-Dresden 14 Jul 1923); m.Vienna 26 Apr 1869 Karl Fst von u.zu Trauttmansdorff (Ober-Waltersdorf 5 Sep 1845-Bischofteinitz 9 Nov 1921)
+			name=Josephine
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=hungarian
+			father=100071751	# Alfons Pallavicini
+			mother=100080455	# LDGFN Gabriele zu Fürstenberg
+			1849.01.22={birth=yes}  # Jamnitz
+			1923.07.14={death=yes}  # Dresden
+		}
+		100072156={ # 4b) Gabriele Friederike (Jamnitz 6 Apr 1851-Guntersdorf 18 Aug 1883); m.Vienna 23 Apr 1872 Leopold von Ludwigsdorff, Frhr von Goldlamb (Guntersdorf 17 Jul 1843-Guntersdorf 25 Apr 1906)
+			name="Gabriele Friederike"
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=hungarian
+			father=100071751	# Alfons Pallavicini
+			mother=100080455	# LDGFN Gabriele zu Fürstenberg
+			1851.04.06={birth=yes}  # Jamnitz
+			1883.08.18={death=yes}  # Guntersdorf
+		}
+		100072157={ # 5b) Alexander Oswald (Vienna 6 May 1853-Vienna 14 Apr 1933); m.Vienna 20 Jun 1876 Maria Gfn Széchényi von Sárvár-Felsövidék (Ödenburg 28 Jun 1855-Jamnitz 7 Oct 1932)
+			name="Alexander Oswald"
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100071751	# Alfons Pallavicini
+			mother=100080455	# LDGFN Gabriele zu Fürstenberg
+			1853.05.06={birth=yes}  # Vienna
+			1876.06.20={add_spouse=100116502}	# Marie Széchenyi de Sárvár-Felsõvidek
+			1933.04.14={death=yes}  # Vienna
+		}
+			100072159={ # 2c) Alfons Maria (Vienna 10 Nov 1883-Vienna 18 Jan 1958); m.Vienna 30 May 1922 Maria Gfn von Wenckheim (Groß-Schützen 2 Jun 1898-Gmunden 3 Aug 1977)
+				name=Alfons
+				dynasty=1006016
+				religion=catholic culture=german
+				father=100072157	# Alexander Oswald Pallavicini
+				mother=100116502	# Marie Széchenyi de Sárvár-Felsõvidek
+				1883.11.10={birth=yes}  # Vienna
+				1922.05.30={add_spouse=100082146}	# GFN Maria von Wenckheim
+				1958.01.18={death=yes}  # Vienna
+			}
+				100072160={ # 1d) Karl Alexander (Budapest 12 Apr 1923-Milan 25 Jul 2004); m.Lanzago di Silea 25 May 1963 Avagora Ctsa degli Azzoni Avagadro (b.Venice 23 Mar 1926)
+					name="Karl Alexander"
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072159	# Alfons Pallavicini
+					mother=100082146	# GFN Maria von Wenckheim
+					1923.04.12={birth=yes}  # Budapest
+					1963.05.25={add_spouse=100082311}	# CTSA Avagora degli Azzoni Avagadro
+					2004.07.25={death=yes}  # Milan
+				}
+					100072161={ # 1e) Alfonso (b.Treviso 5 Jul 1964); m.Bastogne 20 Jul 2006 (rel) 22 Jul  2006 Elisabeth Marie Hedwige Ghislaine d’Udekem d’Acoz (b.Uccle 17 Jan 1977)
+						name=Alfonso		# 389413/alfonso-marquess-pallavicini/
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072160	# Karl Alexander Pallavicini
+						mother=100082311	# CTSA Avagora degli Azzoni Avagadro
+						1964.07.05={birth=yes}  # Treviso
+						2006.07.20={add_spouse=100081895}	# Élisabeth d’Udekem d’Acoz
+					}
+						100072162={ # 1f) Olimpia Edoarda Mathilde (b.Paris 8 Jun 2008)
+							name=Olimpia
+							female=yes
+							dynasty=1006016
+							religion=catholic culture=frankish
+							father=100072161	# Alfonso Pallavicini
+							mother=100081895	# Élisabeth d’Udekem d’Acoz
+							2008.06.08={birth=yes}  # Paris
+						}
+						100072163={ # 2f) Adalberto Domenico Carlo Patrizio Maria (b.Paris 5 Dec 2009)
+							name=Adalberto
+							dynasty=1006016
+							religion=catholic culture=frankish
+							father=100072161	# Alfonso Pallavicini
+							mother=100081895	# Élisabeth d’Udekem d’Acoz
+							2009.12.05={birth=yes}  # Paris
+						}
+					100072164={ # 2e) Edoardo (b.Treviso 7 Nov 1965); m.Eremo di Tizzano 5 Jun 1999 Donna Francesca Visconti di Modrone (b.Milan 17 Apr 1972)
+						name=Edoardo
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072160	# Karl Alexander Pallavicini
+						mother=100082311	# CTSA Avagora degli Azzoni Avagadro
+						1965.11.07={birth=yes}  # Treviso
+						1999.06.05={add_spouse=100072125}	# Francesca Visconti
+					}
+						100072165={ # 1f) Violante (b.Vienna 3 May 2002)
+							name=Violante
+							female=yes
+							dynasty=1006016
+							religion=catholic culture=german
+							father=100072164	# Edoardo Pallavicini
+							mother=100072125	# Francesca Visconti
+							2002.05.03={birth=yes}  # Vienna
+						}
+						100072166={ # 2f) Carlo Alfonso Franco (b.Vienna 11 Feb 2008)
+							name=Carlo
+							dynasty=1006016
+							religion=catholic culture=german
+							father=100072164	# Edoardo Pallavicini
+							mother=100072125	# Francesca Visconti
+							2008.02.11={birth=yes}  # Vienna
+						}
+				100072167={ # 2d) Friedrich (b.Budapest 23 Dec 1924); m.1st Meran 25 May 1945 (div 1949) Maria Gfn Kinsky von Wchinitz u.Tettau (Mährisch-Kromau 5 Jun 1924-Buenos Aires 14 Feb 1960); m.2nd Altshausen 22 Aug 1961 (rel) Friedrichshafen 23 Aug 1961 Helene Dss of Württemberg (b.Stuttgart 29 Jun 1929)
+					name=Friedrich
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072159	# Alfons Pallavicini
+					mother=100082146	# GFN Maria von Wenckheim
+					1924.12.23={birth=yes}  # Budapest
+					1945.05.25={add_spouse=100085952}	# Maria Kinsky von Wchinitz u.Tettau
+					1949.01.01={remove_spouse=100085952}
+					1961.08.22={add_spouse=100008048}	# Helene v. Württemberg
+					2000.01.01={death=yes}  # EST.
+				}
+					100072168={ # 1e) Alexander (b.14 May 1946); m.1st 1978 (div 1986) Eva Maria Meffert; m.2nd Altshausen 25 Dec 1987 (div 1991) Caroline Thieu (b.12 Jun 1953); m.3rd Lugano 24 Jul 1992 Cornelia Berczely (b.22 Jan 1965)
+						name=Alexander
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072167	# Friedrich Pallavicini
+						mother=100085952	# Maria Kinsky von Wchinitz u.Tettau
+						1946.05.14={birth=yes}
+						1978.01.01={add_spouse=100082657}	# Eva Meffert
+						1986.01.01={remove_spouse=100082657}
+						1987.12.25={add_spouse=100082913}	# Caroline Thieu
+						1991.01.01={remove_spouse=100082913}
+						1992.07.24={add_spouse=100083319}	# Cornelia Berczely
+					}
+					100072169={ # 2e) Maria Cristina (b.Salzburg 4 Jan 1963); m.Friedrichshafen 23 Sep 1995 Jens Bartram (b.Neumünster 8 Dec 1962)
+						name="Maria Cristina"
+						female=yes
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072167	# Friedrich Pallavicini
+						mother=100008048	# Helene v. Württemberg
+						1963.01.04={birth=yes}  # Salzburg
+					}
+					100072170={ # 3e) Antoinetta (b.Ravensburg 9 Jan 1964)
+						name=Antoinetta
+						female=yes
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072167	# Friedrich Pallavicini
+						mother=100008048	# Helene v. Württemberg
+						1964.01.09={birth=yes}  # Ravensburg
+					}
+					100072171={ # 4e) Gabriela (b.Ravensburg 23 Apr 1965); m.Meran 24 Jun 2000 Ricardo Walter (b.Porto Alegre, Brazil 20 Jul 1955)
+						name=Gabriela
+						female=yes
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072167	# Friedrich Pallavicini
+						mother=100008048	# Helene v. Württemberg
+						1965.04.23={birth=yes}  # Ravensburg
+					}
+					100072172={ # 5e) Gian-Carlo (b.Ravensburg 8 Apr 1967)
+						name=Gian-Carlo
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072167	# Friedrich Pallavicini
+						mother=100008048	# Helene v. Württemberg
+						1967.04.08={birth=yes}  # Ravensburg
+					}
+				100072173={ # 3d) Alexander (Budapest 8 Apr 1929-Vienna 16 Apr 1983); m.(civ) Vienna 20 Jul 1976 (rel) Gmunden 22 Aug 1976 Mathilde Maleta (b.Linz 6 Jan 1936)
+					name=Alexander
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072159	# Alfons Pallavicini
+					mother=100082146	# GFN Maria von Wenckheim
+					1929.04.08={birth=yes}  # Budapest
+					1976.07.20={add_spouse=100083588}	# Mathilde Maleta
+					1983.04.16={death=yes}  # Vienna
+				}
+				100071759={ # 4d) Elisabeth (b.Szilvasvarad 19 Dec 1933); m.1st Gmunden 16 Jun 1959 (div 1964) David Winthrop Hart (East Greenwich, Rhode Island 25 Apr 1927-28 Jul 2004); m.2nd Mariazell 15 Oct 1989 Ferdinand Gf von Arco (Gotschdorf 6 Jun 1921-Pörtschach Feb 2004)
+					name=Elisabeth
+					female=yes
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072159	# Alfons Pallavicini
+					mother=100082146	# GFN Maria von Wenckheim
+					1933.12.19={birth=yes}  # Szilvasvarad
+					2010.01.01={death=yes}  # EST.
+				}
+			100072175={ # 3c) Alexander Koloman (Jamnitz 15 Nov 1890-Buda 26 Dec 1941)
+				name="Alexander Koloman" 	# 423040/alexander-koloman-margrave-pallavicini/
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072157			# Alexander Oswald Pallavicini
+				mother=100116502			# Marie Széchenyi de Sárvár-Felsõvidek
+				1890.11.15={birth=yes}  	# Jamnitz
+				1941.12.26={death=yes}  	# Buda
+			}
+		100072176={ # 6b) Marie Friederike (Vienna 12 Jun 1856-Weinern 23 Jul 1919); m.Vienna 29 Apr 1876 Rudolph Cte van der Straten Ponthoz (Brussels 7 Oct 1851-Weinern 1 Mar 1926)
+			name="Marie Friederike"
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100071751	# Alfons Pallavicini
+			mother=100080455	# LDGFN Gabriele zu Fürstenberg
+			1856.06.12={birth=yes}  # Vienna
+			1919.07.23={death=yes}  # Weinern
+		}
+		100072177={ # 7b) Alfons Ernst (Vienna 26 Apr 1859-    )
+			name="Alfons Ernst"
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100071751	# Alfons Pallavicini
+			mother=100080455	# LDGFN Gabriele zu Fürstenberg
+			1859.04.26={birth=yes}  # Vienna
+			1934.01.01={death=yes}
+		}
+	100072178={ # 2a) Arthur Alexander (Vienna 7 Aug 1810-Sopron 8 Mar 1872); m.26 Aug 1844 Therese Gfn zu Spaur u.Flavon (17 Mar 1819-Weikersdorf 10 Sep 1902)
+		name="Arthur Alexander"
+		dynasty=1006016
+		religion=catholic culture=german
+		father=100071752	# Odoardo Pallavicini
+		mother=100080450	# GFN Josephine zu Hardegg
+		1810.08.07={birth=yes}  # Vienna
+		1844.08.26={add_spouse=100085770}	# GFN Therese zu Spaur u.Flavon
+		1872.03.08={death=yes}  # Sopron
+	}
+		100072179={ # 1b) Eduard (Padua 5 Jul 1845-Fiume 19 Jan 1914); m.28 Sep 1873 Adele Mailath von Szekhely (Pecs 2 Feb 1853-Budapest 16 Jun 1936)
+			name=Eduard
+			dynasty=1006016
+			religion=catholic culture=hungarian
+			father=100072178	# Arthur Alexander Pallavicini
+			mother=100085770	# GFN Therese zu Spaur u.Flavon
+			1845.07.05={birth=yes}  # Padua
+			1873.09.28={add_spouse=100118508}	# Etelka Mailáth de Székhely
+			1914.01.19={death=yes}  # Fiume
+		}
+			100072180={ # 1c) Eduardine (Budapest 24 Apr 1877-Alhaurin de la Torre, Spain 15 Feb 1964); m.Mosdós 15 Jun 1901 Rafael Gf Zichy de Zich et Vásonykeö (Budapest 12 Mar 1877-Szentiván 9 Nov 1944)
+				name=Eduardine
+				female=yes
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072179	# Eduard Pallavicini
+				mother=100118508	# Etelka Mailáth de Székhely
+				1877.04.24={birth=yes}  # Budapest
+				1964.02.15={death=yes}  # Alhaurin de_la_Torre Spain
+			}
+			100072181={ # 2c) Stephanie (Budapest 26 Feb 1880-Budapest 9 Jan 1950); m.Budapest 28 Sep 1906 Adalbert Gf Hadik de Futak (Pálócz 13 May 1870-Budapest 7 Mar 1912)
+				name=Stephanie
+				female=yes
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072179	# Eduard Pallavicini
+				mother=100118508	# Etelka Mailáth de Székhely
+				1880.02.26={birth=yes}  # Budapest
+				1950.01.09={death=yes}  # Budapest
+			}
+			100072182={ # 3c) György (Budapest 5 Dec 1881-Budapest 4 Jan 1946); m.30 Jan 1911 Barbara Gfn Andrássy (Budapest 9 Jan 1890-Montreal 18 Aug 1968)
+				name=György
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072179	# Eduard Pallavicini
+				mother=100118508	# Etelka Mailáth de Székhely
+				1881.12.05={birth=yes}  # Budapest
+				1911.01.30={add_spouse=100117180}	# Borbála Andrássy de Csíkszentkirály
+				1946.01.04={death=yes}  # Budapest
+			}
+				100072183={ # 1d) Georg Eduard (Tiszadob 11 Jul 1912-27 May 1948)
+					name="Georg Eduard"
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072182	# György Pallavicini
+					mother=100117180	# Borbála Andrássy de Csíkszentkirály
+					1912.07.11={birth=yes}  # Tiszadob
+					1948.05.27={death=yes}
+				}
+				100072184={ # 2d) Theodora Victoria (Balatonbereny 25 Feb 1914-Geneva 2004); m.1st  11 May 1937 (div 1946) Nikolaus Gf Festetics von Tolna (17 Mar 1912-Brussels 3 Jul 1971); m.2nd Sandor Dara (b.Budapest 25 Feb 1905)
+					name="Theodora Victoria"
+					female=yes
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072182	# György Pallavicini
+					mother=100117180	# Borbála Andrássy de Csíkszentkirály
+					1914.02.25={birth=yes}  # Balatonbereny
+					2004.01.01={death=yes}  # Geneva
+				}
+				100072185={ # 3d) Eduard Géza Karl Maria Stephan (Budapest 26 Dec 1916-North Vancouver 23 Dec 2005); m.15 Jun 1948 Ilona Bss Gerliczy von Arany u.Szent-Gerlicze (b.2 Sep 1921)
+					name=Eduard
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072182	# György Pallavicini
+					mother=100117180	# Borbála Andrássy de Csíkszentkirály
+					1916.12.26={birth=yes}  # Budapest
+					1948.06.15={add_spouse=100089130}	# BSS Ilona Gerliczy von Arany u.Szent-Gerlicze
+					2005.12.23={death=yes}  # North Vancouver
+				}
+					100072186={ # 1e) Stefan (b.Budapest 30 May 1946); m.Montreal 6 Nov 1971 Judith Diana Thompson (b.Winnipeg 28 Sep 1948)
+						name=Stefan
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072185	# Eduard Pallavicini
+						mother=100089130	# BSS Ilona Gerliczy von Arany u.Szent-Gerlicze
+						1946.05.30={birth=yes}  # Budapest
+						1971.11.06={add_spouse=100089420}	# Judith Diana Thompson
+					}
+						100072187={ # 1f) Christopher (b.Ottawa 1976); m.Pfafftwon, North Carolina 15 Jun 2000 Laura Epting
+							name=Christopher
+							dynasty=1006016
+							religion=catholic culture=hungarian
+							father=100072186	# Stefan Pallavicini
+							mother=100089420	# Judith Diana Thompson
+							1976.01.01={birth=yes}  # Ottawa
+							2000.06.15={add_spouse=100089990}	# Laura Epting
+						}
+							100072188={ # 1g) Caleb Dawson (b.2009)
+								name="Caleb Dawson"
+								dynasty=1006016
+								religion=catholic culture=hungarian
+								father=100072187	# Christopher Pallavicini
+								mother=100089990	# Laura Epting
+								2009.01.01={birth=yes}
+							}
+						100072189={ # 2f) Andrea (b.Toronto 1982)
+							name=Andrea
+							female=yes
+							dynasty=1006016
+							religion=catholic culture=hungarian
+							father=100072186	# Stefan Pallavicini
+							mother=100089420	# Judith Diana Thompson
+							1982.01.01={birth=yes}  # Toronto
+						}
+				100072190={ # 4d) Anton Ludwig (Budapest 30 Jul 1922-Budapest 10 Dec 1957); m.1st Budapest 24 May 1947 (div 1952) Judith Székely (Budapest 23 Feb 1924-Budapest 7 Sep 1999); m.2nd Budapest 25 Feb 1953 Ilona Dudas (b.Kispest 19 Jun 1931)
+					name="Anton Ludwig"
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072182	# György Pallavicini
+					mother=100117180	# Borbála Andrássy de Csíkszentkirály
+					1922.07.30={birth=yes}  # Budapest
+					1947.05.24={add_spouse=100092156}	# Judith Székely
+					1952.01.01={remove_spouse=100092156}
+					1953.02.25={add_spouse=100092515}	# Ilona Dudas
+					1957.12.10={death=yes}  # Budapest
+				}
+					100072191={ # 1e) Andras Palinkas (b.Budapest 23 Sep 1948); m.1st Budapest 6 Dec 1969 (div 1973) Tamara Paulajova (Prague 5 Feb 1951-Prague 31 Dec 1991); m.2nd Toronto 27 Aug 1982 (div 1988) Agnes Timar (b.Szombathely 31 Oct 1953); m.3rd Budapest 27 Jul 1990 Agota Réka Csongradi (b.Budapest 14 Jan 1965)
+						name="Andras _Palinkas"
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072190	# Anton Ludwig Pallavicini
+						mother=100092156	# Judith Székely
+						1948.09.23={birth=yes}  # Budapest
+						1969.12.06={add_spouse=100092824}	# Tamara Paulajova
+						1973.01.01={remove_spouse=100092824}
+						1982.08.27={add_spouse=100092941}	# Agnes Timar
+						1988.01.01={remove_spouse=100092941}
+						1990.07.27={add_spouse=100093212}	# Agota Réka Csongradi
+					}
+						100072192={ # 1f) Zita Palinkas (b.Budapest 5 Jan 1971); m.Nagycenk 27 May 1995 Harald Christopher Weidler (b.1965)
+							name="Zita _Palinkas"
+							female=yes
+							dynasty=1006016
+							religion=catholic culture=hungarian
+							father=100072191	# Andras  Palinkas Pallavicini
+							mother=100092824	# Tamara Paulajova
+							1971.01.05={birth=yes}  # Budapest
+						}
+					100072193={ # 2e) Borbala Palinkas (b.Budapest 4 Jun 1954); m.Hildburghausen 13 Dec 1979 Harry Kraus (b.Hildburghausen 15 Aug 1955)
+						name="Borbala _Palinkas"
+						female=yes
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072190	# Anton Ludwig Pallavicini
+						mother=100092515	# Ilona Dudas
+						1954.06.04={birth=yes}  # Budapest
+					}
+			100072194={ # 4c) Maria-Therese (15 Apr 1884-ca 1973)
+				name=Maria-Therese
+				female=yes
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072179	# Eduard Pallavicini
+				mother=100118508	# Etelka Mailáth de Székhely
+				1884.04.15={birth=yes}
+				1973.01.01={death=yes}
+			}
+		100072195={ # 2b) Johann (Padua 18 Mar 1848-Puszataradvany 4 Apr 1941); m.11 Oct 1879 Georgina Reade Crowe (Congleton 1 Apr 1862-Puszataradvany 28 Jan 1936)
+			name=Johann
+			dynasty=1006016
+			religion=catholic culture=hungarian
+			father=100072178	# Arthur Alexander Pallavicini
+			mother=100085770	# GFN Therese zu Spaur u.Flavon
+			1848.03.18={birth=yes}  # Padua
+			1879.10.11={add_spouse=100093453}	# Georgina Reade Crowe
+			1941.04.04={death=yes}  # Puszataradvany
+		}
+			100072196={ # 1c) Arthur (Ecska 14 Sep 1880-San Francisco 23 May 1968); m.12 Jun 1912 (div 1923) Alice Gfn de la Fontaine u.d'Harnoncourt-Unverzagt (3 Jun 1892-13 Jun 1984)
+				name=Arthur
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072195	# Johann Pallavicini
+				mother=100093453	# Georgina Reade Crowe
+				1880.09.14={birth=yes}  # Ecska
+				1912.06.12={add_spouse=100093558}	# GFN Alice de la Fontaine u.d'Harnoncourt-Unverzagt
+				1923.01.01={remove_spouse=100093558}
+				1968.05.23={death=yes}  # San Francisco
+			}
+				100072197={ # 1d) Arthur Carl (Ecska 29 Jul 1913-San Martin de los Andes, Argentina 5 May 1973); m.15 Sep 1944 Viktoria Vesic (d.8 Oct 1993)
+					name="Arthur Carl"
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072196	# Arthur Pallavicini
+					mother=100093558	# GFN Alice de la Fontaine u.d'Harnoncourt-Unverzagt
+					1913.07.29={birth=yes}  # Ecska
+					1944.09.15={add_spouse=100093679}	# Viktoria Vesic
+					1973.05.05={death=yes}  # San Martin de_los Andes Argentina
+				}
+					100072198={ # 1e) Antonietta (Günzburg 21 Aug 1945-Geneva 21 Nov 2012)
+						name=Antonietta
+						female=yes
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072197	# Arthur Carl Pallavicini
+						mother=100093679	# Viktoria Vesic
+						1945.08.21={birth=yes}  # Günzburg
+						2012.11.21={death=yes}  # Geneva
+					}
+					100072199={ # 2e) Arturo (b.Cordoba, Argentina 24 Jul 1949); m.1st Asuncion ,Paraguay  Mar 1968 Maria Garzola (Tucuman, Argentina 25 Jul 1945-San Carlos de Bariloche, Argentina 5 May 1973); m.2nd Buenos Aires  Jul 1977 Anna Maria Ferreira (b. Campo Bello, Brazil 10 Oct 1950)
+						name=Arturo
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072197	# Arthur Carl Pallavicini
+						mother=100093679	# Viktoria Vesic
+						1949.07.24={birth=yes}
+						1968.03.01={add_spouse=100094172}	# Maria Garzola
+						1977.07.01={add_spouse=100094178}	# Anna Ferreira
+					}
+						100072200={ # 1f) Vanessa (b.10 Aug 1968)
+							name=Vanessa
+							female=yes
+							dynasty=1006016
+							religion=catholic culture=hungarian
+							father=100072199	# Arturo Pallavicini
+							mother=100094172	# Maria Garzola
+							1968.08.10={birth=yes}
+						}
+				100072201={ # 2d) Antoinette (Ecska 11 Dec 1915-26 May 1993); m.31 Mar 1938 Milan Rajic
+					name=Antoinette
+					female=yes
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072196	# Arthur Pallavicini
+					mother=100093558	# GFN Alice de la Fontaine u.d'Harnoncourt-Unverzagt
+					1915.12.11={birth=yes}  # Ecska
+					1993.05.26={death=yes}
+				}
+				100072202={ # 3d) Felix Hubertus Johann Sigismund Maria (b.Ecska 3 Nov 1920); m.San Francisco 28 Dec 1951 Pss Anna Teresa Lubomirska (b.Plawno 7 Aug 1922)
+					name=Felix
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072196	# Arthur Pallavicini
+					mother=100093558	# GFN Alice de la Fontaine u.d'Harnoncourt-Unverzagt
+					1920.11.03={birth=yes}  # Ecska
+					1951.12.28={add_spouse=100111716}	# Anna Therese Lubomirski
+					1996.01.01={death=yes}  # EST.
+				}
+					100072203={ # 1e) Maria Georgina (b.San Francisco 20 Sep 1952); m.San Francisco 29 Nov 1980 Gunther Fischer (2 Sep 1952-Apr 2010)
+						name="Maria Georgina"
+						female=yes
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072202	# Felix Pallavicini
+						mother=100111716	# Anna Therese Lubomirski
+						1952.09.20={birth=yes}
+					}
+					100072204={ # 2e) Sandor (b.San Francisco 8 Aug 1954)
+						name=Sandor
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072202	# Felix Pallavicini
+						mother=100111716	# Anna Therese Lubomirski
+						1954.08.08={birth=yes}
+					}
+					100072205={ # 3e) Janos Hubert (b.San Francisco 13 Mar 1955); m.San Francisco 2 Sep 1981 Carleen Denisa Reinthaler (b.Walnut Creek 21 Jul 1962)
+						name="Janos Hubert"
+						dynasty=1006016
+						religion=catholic culture=hungarian
+						father=100072202	# Felix Pallavicini
+						mother=100111716	# Anna Therese Lubomirski
+						1955.03.13={birth=yes}
+						1981.09.02={add_spouse=100095982}	# Carleen Denisa Reinthaler
+					}
+						100072206={ # 1f) Danielle Antea (b.Contra Costa 9 Nov 1987)
+							name="Danielle Antea"
+							female=yes
+							dynasty=1006016
+							religion=catholic culture=hungarian
+							father=100072205	# Janos Hubert Pallavicini
+							mother=100095982	# Carleen Denisa Reinthaler
+							1987.11.09={birth=yes}
+						}
+						100072207={ # 2f) Olivia Aileen (b.Contra Costa 20 Dec 1990)
+							name="Olivia Aileen"
+							female=yes
+							dynasty=1006016
+							religion=catholic culture=hungarian
+							father=100072205	# Janos Hubert Pallavicini
+							mother=100095982	# Carleen Denisa Reinthaler
+							1990.12.20={birth=yes}
+						}
+						100072208={ # 3f) Nicholas Charles (b.Contra Costa 15 Jul 1994)
+							name="Nicholas Charles"
+							dynasty=1006016
+							religion=catholic culture=hungarian
+							father=100072205	# Janos Hubert Pallavicini
+							mother=100095982	# Carleen Denisa Reinthaler
+							1994.07.15={birth=yes}
+						}
+			100072209={ # 2c) Anton (Ecska 5 Oct 1881-24 May 1929)
+				name=Anton
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072195	# Johann Pallavicini
+				mother=100093453	# Georgina Reade Crowe
+				1881.10.05={birth=yes}  # Ecska
+				1929.05.24={death=yes}
+			}
+			100072210={ # 3c) Johann (Radvany Apr 1883-Heidenheim 7 Apr 1971); m.24 Sep 1912 Martha Bss Solymosy von Loos u.Egervár (Apatliek 2 Sep 1892-Cleveland 19 May 1992)
+				name=Johann
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072195	# Johann Pallavicini
+				mother=100093453	# Georgina Reade Crowe
+				1883.04.01={birth=yes}  # Radvany
+				1912.09.24={add_spouse=100096146}	# BSS Martha Solymosy von Loos u.Egervár
+				1971.04.07={death=yes}  # Heidenheim
+			}
+				100072211={ # 1d) Amalia (b.Radvany 6 Jan 1914)
+					name=Amalia
+					female=yes
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072210	# Johann Pallavicini
+					mother=100096146	# BSS Martha Solymosy von Loos u.Egervár
+					1914.01.06={birth=yes}  # Radvany
+					1989.01.01={death=yes}
+				}
+				100072212={ # 2d) Johann Eugen Gabriel Maria (Radvany 18 Jul 1916-k.a.10 Jul 1944)
+					name=Johann
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072210	# Johann Pallavicini
+					mother=100096146	# BSS Martha Solymosy von Loos u.Egervár
+					1916.07.18={birth=yes}  # Radvany
+					1944.07.10={death=yes}
+				}
+				100072213={ # 3d) Gabriel (Torna 28 Feb 1922-Cleveland, Ohio 8 Apr 1997)
+					name=Gabriel
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072210	# Johann Pallavicini
+					mother=100096146	# BSS Martha Solymosy von Loos u.Egervár
+					1922.02.28={birth=yes}  # Torna
+					1997.04.08={death=yes}  # Cleveland Ohio
+				}
+				100072214={ # 4d) Martha Iris Maria (b.Torna 2 Oct 1923); m.N Malesky
+					name=Martha
+					female=yes
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072210	# Johann Pallavicini
+					mother=100096146	# BSS Martha Solymosy von Loos u.Egervár
+					1923.10.02={birth=yes}  # Torna
+					1999.01.01={death=yes}  # EST.
+				}
+		100072216={ # 4b) Anton (23 Nov 1850-12 Feb 1916)
+			name=Anton
+			dynasty=1006016
+			religion=catholic culture=hungarian
+			father=100072178	# Arthur Alexander Pallavicini
+			mother=100085770	# GFN Therese zu Spaur u.Flavon
+			1850.11.23={birth=yes}
+			1916.02.12={death=yes}
+		}
+		100072217={ # 6b) Amalie (Baden nr Vienna 29 Apr 1862-Vienna 6 Nov 1925); m.Kalksburg 22 Nov 1890 Alfred Gf zur Lippe-Weißenfeld (Ratiboritz 16 Aug 1848-Kalksburg 24 Jan 1910)
+			name=Amalie
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100072178	# Arthur Alexander Pallavicini
+			mother=100085770	# GFN Therese zu Spaur u.Flavon
+			1862.04.29={birth=yes}  # Baden nr Vienna
+			1925.11.06={death=yes}  # Vienna
+		}
+	100072218={ # 3a) Irene Marie (Allgyö 2 Sep 1811-Vienna 31 Jan 1877); m.Vienna 22 Oct 1830 Aloys-Nikolaus Gf von Arco auf Valley (Stepperg 6 Dec 1808-Anif 10 Sep 1891)
+		name=Irene
+		female=yes
+		dynasty=1006016
+		religion=catholic culture=hungarian
+		father=100071752	# Odoardo Pallavicini
+		mother=100080450	# GFN Josephine zu Hardegg
+		1811.09.02={birth=yes}  # Allgyö
+		1877.01.31={death=yes}  # Vienna
+	}
+	100072219={ # 4a) Hippolyt (Vienna 21 Jan 1813-Vienna 4 Feb 1892); m.Vienna 22 May 1847 Karoline Gfn Erdödy (Vienna 26 Nov 1823-8 Jun 1908)
+		name=Hippolyt
+		dynasty=1006016
+		religion=catholic culture=german
+		father=100071752	# Odoardo Pallavicini
+		mother=100080450	# GFN Josephine zu Hardegg
+		1813.01.21={birth=yes}  # Vienna
+		1847.05.22={add_spouse=100116919}	# Karoline Erdõdy de Monyorókerék et Monoszló
+		1892.02.04={death=yes}  # Vienna
+	}
+		100072220={ # 1b) Alfred (Vienna 26 May 1848-26 Jun 1886)
+			name=Alfred
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100072219	# Hippolyt Pallavicini
+			mother=100116919	# Karoline Erdõdy de Monyorókerék et Monoszló
+			1848.05.26={birth=yes}  # Vienna
+			1886.06.26={death=yes}
+		}
+		100072221={ # 2b) Ernestine (Vienna 11 Sep 1849-Schloß Kuttenplan 3 Oct 1942); m.Salzburg 10 Jun 1879 Maximilian Sigismund Rudolf Gf von Berchem (Munich 22 Sep 1841-Munich 13 Apr 1910)
+			name=Ernestine
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100072219	# Hippolyt Pallavicini
+			mother=100116919	# Karoline Erdõdy de Monyorókerék et Monoszló
+			1849.09.11={birth=yes}  # Vienna
+			1942.10.03={death=yes}  # Schloß Kuttenplan
+		}
+	100072222={ # 5a) Alfred (Vienna 21 Dec 1813-Öfalu 13 Mar 1890); m.Veronika Bartock (Brezina 14 Feb 1818-Öfalu 22 Sep 1902)
+		name=Alfred
+		dynasty=1006016
+		religion=catholic culture=german
+		father=100071752	# Odoardo Pallavicini
+		mother=100080450	# GFN Josephine zu Hardegg
+		1813.12.21={birth=yes}  # Vienna
+		1838.01.01={add_spouse=100096903}	# Veronika Bartock
+		1890.03.13={death=yes}  # Öfalu
+	}
+		100072223={ # 1b) Therese (14 Jan 1841-    ); m.14 Dec 1859 Dionysius Baron Vecsey de Hajnacskeö
+			name=Therese
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=hungarian
+			father=100072222	# Alfred Pallavicini
+			mother=100096903	# Veronika Bartock
+			1841.01.14={birth=yes}
+			1916.01.01={death=yes}
+		}
+		100072224={ # 2b) Adolf (Rosdol 15 Feb 1844-Boldva 3 Jan 1921); m.29 Sep 1872 Anna Barczay de Barcza (Ker 15 May 1855-Nice 21 May 1929)
+			name=Adolf
+			dynasty=1006016
+			religion=catholic culture=hungarian
+			father=100072222	# Alfred Pallavicini
+			mother=100096903	# Veronika Bartock
+			1844.02.15={birth=yes}  # Rosdol
+			1872.09.29={add_spouse=100096905}	# Anna Barczay de Barcza
+			1921.01.03={death=yes}  # Boldva
+		}
+			100072225={ # 1c) Alfred Joseph Johann (Baui-Szemere 8 Jul 1873-Baui-Szemere 16 Dec 1929); m.8 Sep 1908 Ilona Bss Nopcsa (Szacsal 1 May 1883-Rome 24 Jan 1963)
+				name=Alfred
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072224	# Adolf Pallavicini
+				mother=100096905	# Anna Barczay de Barcza
+				1873.07.08={birth=yes}  # Baui-Szemere
+				1908.09.08={add_spouse=100096906}	# BSS Ilona Nopcsa
+				1929.12.16={death=yes}  # Baui - Szemere
+			}
+				100072226={ # 1d) Alfred Franz Maria (Uj-Arad 20 Sep 1909-New York 4 Dec 1995)
+					name=Alfred
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072225	# Alfred Pallavicini
+					mother=100096906	# BSS Ilona Nopcsa
+					1909.09.20={birth=yes}  # Uj-Arad
+					1995.12.04={death=yes}  # New York
+				}
+				100072227={ # 2d) Johann Karl (Uj-Arad 16 May 1911-Rome 15 Jan 1999)
+					name="Johann Karl"
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072225	# Alfred Pallavicini
+					mother=100096906	# BSS Ilona Nopcsa
+					1911.05.16={birth=yes}  # Uj-Arad
+					1999.01.15={death=yes}  # Rome
+				}
+				100072228={ # 3d) Hubert Alexius László Maria (Uj-Arad 7 Jun 1912-Rapallo 19 Feb 1998)
+					name=Hubert
+					dynasty=1006016
+					religion=catholic culture=hungarian
+					father=100072225	# Alfred Pallavicini
+					mother=100096906	# BSS Ilona Nopcsa
+					1912.06.07={birth=yes}  # Uj-Arad
+					1998.02.19={death=yes}  # Rapallo
+				}
+			100072229={ # 2c) Veronika Anna Maria Sophie (Abauj-Szemere 15 May 1876-Budapest 30 Jan 1964)
+				name=Veronika
+				female=yes
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072224	# Adolf Pallavicini
+				mother=100096905	# Anna Barczay de Barcza
+				1876.05.15={birth=yes}  # Abauj-Szemere
+				1964.01.30={death=yes}  # Budapest
+			}
+			100072230={ # 3c) Therese Maria Isabella Anna (Abauj-Szemere 29 May 1881-Oct 1944); m.19 Sep 1901 (div 1912) Paul Burchard von Bélaváry (Budapest 23 Sep 1873-Budapest 22 Jun 1932)
+				name=Therese
+				female=yes
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072224	# Adolf Pallavicini
+				mother=100096905	# Anna Barczay de Barcza
+				1881.05.29={birth=yes}  # Abauj-Szemere
+				1944.10.01={death=yes}
+			}
+			100072231={ # 4c) Maria Georgina Anna (Kaschau 2 Feb 1891-    ); m.25 Apr 1916 Ernst Majthenyi de Keseleökö
+				name=Maria
+				female=yes
+				dynasty=1006016
+				religion=catholic culture=hungarian
+				father=100072224	# Adolf Pallavicini
+				mother=100096905	# Anna Barczay de Barcza
+				1891.02.02={birth=yes}  # Kaschau
+				1966.01.01={death=yes}
+			}
+	100072232={ # 6a) Roger (Vienna 21 Nov 1814-Felsö-Nyarad 1 Feb 1874); m.22 Sep 1851 Eulalia Gfn Vay de Vaya (Berkesz 28 Jan 1812-Budapest 8 Dec 1873)
+		name=Roger
+		dynasty=1006016
+		religion=catholic culture=german
+		father=100071752	# Odoardo Pallavicini
+		mother=100080450	# GFN Josephine zu Hardegg
+		1814.11.21={birth=yes}  # Vienna
+		1851.09.22={add_spouse=100096909}	# GFN Eulalia Vay de Vaya
+		1874.02.01={death=yes}  # Felsö - Nyarad
+	}
+	100072233={ # 7a) Oswald (Vienna 2 Jun 1817-Pinnye 12 Jun 1877); m.21 Jun 1856 Helene Gfn Zichy de Zich et Vásonykeö (Ödenburg 9 Aug 1834-Vienna 12 Jul 1883)
+		name=Oswald
+		dynasty=1006016
+		religion=catholic culture=german
+		father=100071752	# Odoardo Pallavicini
+		mother=100080450	# GFN Josephine zu Hardegg
+		1817.06.02={birth=yes}  # Vienna
+		1856.06.21={add_spouse=100115961}	# Ilona Zichy de Zich et Vásonykõ
+		1877.06.12={death=yes}  # Pinnye
+	}
+		100072234={ # 1b) Julie (Vienna 10 May 1857-15 Dec 1935); m.Vienna 9 Apr 1888 Friedrich Gf von Schönborn-Wiesentheid (Würzburg 10 Mar 1847-16 Dec 1913)
+			name=Julie
+			female=yes
+			dynasty=1006016
+			religion=catholic culture=german
+			father=100072233	# Oswald Pallavicini
+			mother=100115961	# Ilona Zichy de Zich et Vásonykõ
+			1857.05.10={birth=yes}  # Vienna
+			1935.12.15={death=yes}
+		}
+		100072235={ # 2b) Adalbert Alfons (Ödenburg 22 Dec 1858-Vienna 25 Jan 1938); m.28 Jul 1883 Mary Kyd (Graz 27 Apr 1861-Graz 4 Jan 1947)
+			name="Adalbert Alfons"
+			dynasty=1006016
+			religion=catholic culture=hungarian
+			father=100072233	# Oswald Pallavicini
+			mother=100115961	# Ilona Zichy de Zich et Vásonykõ
+			1858.12.22={birth=yes}  # Ödenburg
+			1883.07.28={add_spouse=100096912}	# Mary Kyd
+			1938.01.25={death=yes}  # Vienna
+		}
+			100072236={ # 2c) Alfons Alexander Maria (Graz 15 Oct 1885-Vienna 19 Feb 1937); m.1st 8 Jan 1916 (div 1920) Wera von Weinberg (Frankfurt 29 Oct 1897-    ); m.2nd 14 May 1936 Louisa Daily Millard
+				name=Alfons
+				dynasty=1006016
+				religion=catholic culture=german
+				father=100072235	# Adalbert Alfons Pallavicini
+				mother=100096912	# Mary Kyd
+				1885.10.15={birth=yes}  # Graz
+				1916.01.08={add_spouse=100096913}	# Wera von Weinberg
+				1920.01.01={remove_spouse=100096913}
+				1936.05.14={add_spouse=100096914}	# Louisa Daily Millard
+				1937.02.19={death=yes}  # Vienna
+			}
+#1817.03.09={holder=100071752} # Eduard
+#1839.04.20={holder=100071751} # 1a) Alfons 
+#1895.03.07={holder=100072157} # 5b) Alexander Oswald 
+#1933.04.14={holder=100072159} # 2c) Alfons Maria 
+#1958.01.18={holder=100072160} # 1d) Karl Alexander 
+#2004.07.25={holder=100072161} # 1e) Alfonso 
+##  100072150-100072237		Pallavicini                       1006016	
 
 
 ##  1006022		BONCOMPAGNI          							100073150
@@ -2507,6 +3328,7 @@
 				}			
 ##  1006018		Malfatti
 
+
 ##  1006017  	BELMONTE										100072800
 100071775={	# ORAZIO GIOVAN BATTISTA Ravachieri Fieschi (1590 - 12 Oct 1645); m. 29 May 1621 Anna Maria Caracciolo Pisquizi (28 Jan 1604 - Belmonte 1637)
 	name="Orazio Giovan Battista"
@@ -2846,76 +3668,12 @@
 
 
 ##  1006016  	Pallavicini										100072700
-100088780={ # Mkgf       Hippolyt                  Pallavicini                              (1813-1892)
-	name="Hippolyt Pallavicini"
-	dynasty=0
-	religion=catholic culture=hungarian
-	1813.01.21={birth=yes}
-	1847.05.22={add_spouse=100116919}	# Karoline Erdõdy de Monyorókerék et Monoszló
-	1892.02.04={death=yes}
-}
-100088779={ # Gf         Oswald                    Pallavicini                              (1817-1877)
-	name="Oswald Pallavicini"
-	dynasty=0
-	religion=catholic culture=italian
-	1817.01.01={birth=yes}
-	1856.01.01={add_spouse=100115961}	# Ilona Zichy de Zich et Vásonykõ
-	1877.01.01={death=yes}
-}
-100088776={ # Mkgfn      Josephine                 Pallavicini                              (1849-1923)     5
-	name="Josephine Pallavicini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1849.01.22={birth=yes}
-	1923.07.14={death=yes}
-}
-100088773={ # Mkgfn      Julia                     Pallavicini                              (1857-1932)
-	name="Julia Pallavicini"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1857.05.10={birth=yes}
-	1932.12.15={death=yes}
-}
-100088775={ # Mkgfn      Amalia                    Pallavicini                              (1862-1925)     3
-	name="Amalia Pallavicini"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1862.04.29={birth=yes}
-	1925.11.06={death=yes}
-}
-100088778={ # Mkgfn      Eduardine                 Pallavicini                              (1877-1964)     5
-	name="Eduardine Pallavicini"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1877.04.24={birth=yes}
-	1964.02.15={death=yes}
-}
-100088777={ # Mkgf       Felix                     Pallavicini                              (1920-1996)
-	name="Felix Pallavicini"
-	dynasty=0
-	religion=catholic culture=italian
-	1920.11.03={birth=yes}
-	1951.12.28={add_spouse=100111716}	# Anna Therese Lubomirski
-	1996.01.01={death=yes}  # EST.
-}
 100088782={ #            Leontina                  Pallavicini                              (1964-    )     2
 	name="Leontina Pallavicino-Pallavicini"
 	female=yes
 	dynasty=0
 	religion=catholic culture=italian
 	1964.05.08={birth=yes}
-}
-100095154={ # Mgve       Ede                       Pallavicini                              (1845-1914)
-	name="Ede Pallavicini"
-	dynasty=0
-	religion=catholic culture=hungarian
-	1845.07.05={birth=yes}  # Padua
-	1873.09.28={add_spouse=100118508}	# Etelka Mailáth de Székhely
-	1914.01.19={death=yes}  # Fiume
 }
 100088781={ # Mkgf       Karl                      Pallavicini Centurioni                   (1756-1789)
 	name="Karl Pallavicini Centurioni"
@@ -2950,153 +3708,6 @@
 			mother=100005222	# Marie v. Schönborn
 			1936.11.08={birth=yes}
 		}
-
-100071752={# Odoardo	Pallavicini (1787-1839)
-	name=Odoardo 
-	dynasty=1006016
-	religion=catholic culture=italian
-	1787.03.09={birth=yes}
-	1839.04.20={death=yes}
-}		
-100071751={# Alfons	Pallavicini (1807-1887)
-	name=Alfons 
-	dynasty=1006016
-	religion=catholic culture=german
-	father=100071752	# Odoardo Pallavicini
-	1807.03.07={birth=yes}
-	1887.01.01={death=yes}
-}	
-100071750={ # Alexander Oswald	Pallavicini (1853-1933)
-	name="Alexander Oswald" #  163648/alexander-oswald-margrave-pallavicini/
-	dynasty=1006016
-	religion=catholic culture=german
-	father=100071751	# Alfons Pallavicini
-	1853.05.06={birth=yes}
-	1876.06.20={add_spouse=100116502}	# Marie Caroline Széchenyi de Sárvár-Felsõvidek
-	1933.04.14={death=yes}
-}
-	100071765={# Carl	Pallavicini (1877-1900)
-		name=Carl #  423038/carl-alfons-maria-margrave-pallavicini/
-		dynasty=1006016
-		religion=catholic culture=german
-		father=100071750	# Alexander Oswald Pallavicini
-		mother=100116502	# Marie Caroline Széchenyi de Sárvár-Felsõvidek
-		1877.03.21={birth=yes}
-		1900.01.15={death=yes}
-	}
-	100071762={# Alfons Karl Maria	Pallavicini (1883-1958)
-		name="Alfons Karl Maria" #  152684/alfons-karl-maria-margrave-pallavicini/
-		dynasty=1006016
-		religion=catholic culture=german
-		father=100071750	# Alexander Oswald Pallavicini
-		mother=100116502	# Marie Caroline Széchenyi de Sárvár-Felsõvidek
-		1883.11.10={birth=yes}
-		1923.01.01={add_spouse=100093416}	# GFN Maria von Wenckheim
-		1958.01.18={death=yes}
-	}
-		100071763={# Carl Alexander Maria	Pallavicini (1923-1999)
-			name="Carl Alexander Maria" #  152685/carl-alexander-maria-margrave-pallavicini/
-			dynasty=1006016
-			religion=catholic culture=italian
-			father=100071762	# Alfons Karl Maria Pallavicini
-			mother=100093416	# GFN Maria von Wenckheim
-			1923.04.12={birth=yes}
-			1963.01.01={add_spouse=100083085}	# Avagora degli Azzoni Avagadro
-			1999.01.01={death=yes}  # EST.
-		}
-			100071760={# Alfonso	Pallavicini (1964-    )
-				name=Alfonso #  389413/alfonso-marquess-pallavicini/
-				dynasty=1006016
-				religion=catholic culture=italian
-				father=100071763	# Carl Alexander Maria Pallavicini
-				mother=100083085	# Avagora degli Azzoni Avagadro
-				1964.07.05={birth=yes}
-				2006.07.20={add_spouse=100081895}	# Élisabeth d'Udekem d'Acoz
-			}
-				100071757={# Olympia Edoarda	Pallavicini (2008-    )
-					name="Olympia Edoarda"	#  1080924/olympia-edoarda-matilde-marquise-pallavicini/
-					female=yes
-					dynasty=1006016
-					religion=catholic culture=italian
-					father=100071760	# Alfonso Pallavicini
-					mother=100081895	# Élisabeth d'Udekem d'Acoz
-					2008.06.08={birth=yes}
-				}
-				100071758={# Adalberto Domenico Carlo	Pallavicini (2009-    )
-					name="Adalberto Domenico Carlo" #  2034637/adalberto-domenico-carlo-patrizio-maria-marquess-pallavicini/
-					dynasty=1006016
-					religion=catholic culture=italian
-					father=100071760	# Alfonso Pallavicini
-					mother=100081895	# Élisabeth d'Udekem d'Acoz
-					2009.12.05={birth=yes}
-				}
-			100071761={	# Edoardo	Pallavicini (1965-    )
-				name=Edoardo #  152686/edoardo-marquess-pallavicini/
-				dynasty=1006016
-				religion=catholic culture=italian
-				father=100071763	# Carl Alexander Maria Pallavicini
-				mother=100083085	# Avagora degli Azzoni Avagadro
-				1965.11.07={birth=yes}
-				1999.06.06={add_spouse=100072125}	# Francesca Visconti
-			}
-				100071755={# Violante	Pallavicini (2002-    )
-					name=Violante #  2134378/violante-pallavicini/
-					female=yes
-					dynasty=1006016
-					religion=catholic culture=italian
-					father=100071761	# Edoardo Pallavicini
-					mother=100072125	# Francesca Visconti
-					2002.05.03={birth=yes}
-				}
-				100071756={# Carlo Alfonso Alexander	Pallavicini (2008-    )
-					name="Carlo Alfonso Alexander" #  2134379/carlo-alfonso-alexander-franco-pallavicini/
-					dynasty=1006016
-					religion=catholic culture=italian
-					father=100071761	# Edoardo Pallavicini
-					mother=100072125	# Francesca Visconti
-					2008.02.11={birth=yes}
-				}
-		100071754={# Friedrich	Pallavicini (1924-2004)
-			name=Friedrich
-			dynasty=1006016
-			religion=catholic culture=italian
-			father=100071762	# Alfons Karl Maria Pallavicini
-			mother=100093416	# GFN Maria von Wenckheim
-			1924.12.23={birth=yes}
-			1945.05.25={add_spouse=100085952}	# Maria Kinsky von Wchinitz u.Tettau
-			1949.01.01={remove_spouse=100085952}
-			1961.08.22={add_spouse=100008048}	# Helene v. Württemberg
-			2004.01.01={death=yes}	# EST.
-		}
-		100071764={# Alexander	Pallavicini (1929-1983)
-			name=Alexander #  152689/alexander-margrave-pallavicini/
-			dynasty=1006016
-			religion=catholic culture=italian
-			father=100071762	# Alfons Karl Maria Pallavicini
-			mother=100093416	# GFN Maria von Wenckheim
-			1929.04.08={birth=yes}
-			1954.01.01={add_spouse=100087730}	# Mathilde Maleta
-			1983.04.16={death=yes}
-		}
-		100071759={# Elisabeth	Pallavicini (1933-2010)
-			name=Elisabeth #  169365/elisabeth-marquise-pallavicini/
-			female=yes
-			dynasty=1006016
-			religion=catholic culture=italian
-			father=100071762	# Alfons Karl Maria Pallavicini
-			mother=100093416	# GFN Maria von Wenckheim
-			1933.12.19={birth=yes}
-			2010.01.01={death=yes}  # EST.
-		}
-	100071753={# Alexander Koloman	Pallavicini (1890-1941)
-		name="Alexander Koloman" #  423040/alexander-koloman-margrave-pallavicini/
-		dynasty=1006016
-		religion=catholic culture=italian
-		father=100071750	# Alexander Oswald Pallavicini
-		mother=100116502	# Marie Caroline Széchenyi de Sárvár-Felsõvidek
-		1890.11.15={birth=yes}
-		1941.12.26={death=yes}
-	}
 ##  1006016  	Pallavicini										100072700
 
 
@@ -9354,7 +9965,7 @@
 						father=100071686	# Gyula Odescalchi
 						mother=100091816	# GFN Anna von Degenfeld-Schonburg
 						1858.02.09={birth=yes}
-						1882.04.29={add_spouse=100117173}	# GFN Etelka Andrássy de Csíkszentkirály
+						1882.04.29={add_spouse=100117173}	# Etelka Andrássy de Csíkszentkirály
 						1937.08.22={death=yes}
 					}
 						100071689={	# 2f) Ilona (Zerdahely 19 Feb 1888-Vienna 25 Feb 1973)
@@ -9363,7 +9974,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071688	# Géza Odescalchi
-							mother=100117173	# GFN Etelka Andrássy de Csíkszentkirály
+							mother=100117173	# Etelka Andrássy de Csíkszentkirály
 							1888.02.19={birth=yes}
 							1973.02.25={death=yes}
 						}
@@ -9372,7 +9983,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071688	# Géza Odescalchi
-							mother=100117173	# GFN Etelka Andrássy de Csíkszentkirály
+							mother=100117173	# Etelka Andrássy de Csíkszentkirály
 							1890.10.06={birth=yes}
 							1924.12.17={add_spouse=100117379}	# Franciska Esterházy de Galántha
 							1938.05.28={add_spouse=100080478}	# Sarolta Bay de Bába
@@ -9427,7 +10038,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071688	# Géza Odescalchi
-							mother=100117173	# GFN Etelka Andrássy de Csíkszentkirály
+							mother=100117173	# Etelka Andrássy de Csíkszentkirály
 							1893.08.07={birth=yes}
 							1949.10.19={add_spouse=100083877}	# Aloisia Fink
 							1967.12.30={death=yes}
@@ -9489,26 +10100,26 @@
 							1889.02.07={birth=yes}
 							1960.01.01={death=yes}
 						}
-						100071702={	# 2f) Karl Borromäus (19 Sep 1896-Worcestershire 10 Apr 1987); m.1st 5 Oct 1921 (div 1950) Clara Gfn Andrassy (18 Jan 1898-12 Apr 1941); m.2nd 1951 (div 1960) Claudine Pechy de Pechnifalu; m.3rd London 1961 Mrs Eleni Ruth Dent (5 Aug 1924-Worcestershire 2 Feb 1995)
-							name="Karl Borromäus"
+						100071702={	# 2f) Károly Borromäus (19 Sep 1896-Worcestershire 10 Apr 1987); m.1st 5 Oct 1921 (div 1950) Clara Gfn Andrassy (18 Jan 1898-12 Apr 1941); m.2nd 1951 (div 1960) Claudine Pechy de Pechnifalu; m.3rd London 1961 Mrs Eleni Ruth Dent (5 Aug 1924-Worcestershire 2 Feb 1995)
+							name=Károly
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071700	# Livio Odescalchi
 							mother=100094021	# BSS Ilona Zeyk de Zeykfalva
-							1896.09.19={birth=yes}
-							1921.10.05={add_spouse=100117182}	# GFN Clara Andrássy de Csíkszentkirály
+							1896.09.19={birth=yes}  # Szolcsány
+							1921.10.05={add_spouse=100117182}	# Klára Andrássy de Csíkszentkirály
 							1950.01.01={remove_spouse=100117182}
 							1951.01.01={add_spouse=100089316}	# Claudine Péchy de Péch-Újfalu
 							1960.01.01={remove_spouse=100089316}
 							1961.01.01={add_spouse=100083227}	# Ruth Eleni Dent
-							1987.04.10={death=yes}
+							1987.04.10={death=yes}  # London
 						}
 							100071703={	# 1g) Paul Ottone (Budapest 28 Sep 1923-Arles 17 Apr 2014); m.1st 1948 (div 1960) Zsuzsana Tamassy de Fogaras (26 Mar 1924-3 Jul 2001); m.2nd London 1963 Antonina Horne
 								name="Paul Ottone"
 								dynasty=1006007
 								religion=catholic culture=hungarian
-								father=100071702	# Karl Borromäus Odescalchi
-								mother=100117182	# GFN Clara Andrássy de Csíkszentkirály
+								father=100071702	# Károly Odescalchi
+								mother=100117182	# Klára Andrássy de Csíkszentkirály
 								1923.09.28={birth=yes}
 								1948.01.01={add_spouse=100090835}	# Zsuzsana Tamassy de Fogaras
 								1960.01.01={remove_spouse=100090835}
