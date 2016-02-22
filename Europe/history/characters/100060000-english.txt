@@ -32,7 +32,6 @@
 ##  100061600-100061600		Gordon                                      1009024
 ##  100061625-100061625		Graham                                      1009023
 ##  100061650-100061769		Grosvenor                                   1009014
-##  100061775-100061775		Hamilton                                    1009022
 ##  100061800-100061801		Innes-Ker                                   1009019
 ##  100061825-100061836		Liddell-Grainger                            1009204
 ##  100061850-100061926		Montagu                                     1009011
@@ -47,7 +46,1017 @@
 ##  100063250-100063250		Spencer                                     1009025
 ##  100063275-100063276		Tindall                                     1009201
 ##  100063300-100063346		Windsor                                     1009000
+##  100063350-100063466		Hamilton                                 	1009022
 #################################################################################################
+
+
+##  100063350-100063466	    Hamilton                                 	1009022
+100063351={ # James Hamilton, 7th Earl of Abercorn (22 Mar 1686-11 Jan 1744); m.1711 Anne Plumer (29 Jun 1690-13 Aug 1776)
+	name=James
+	dynasty=1009022
+	religion=catholic culture=anglo_irish
+	1686.03.22={birth=yes}
+	1711.01.01={add_spouse=100063352}	# Anne Plumer
+	1744.01.11={death=yes}
+}
+	100063353={ # 1a) James, 8th Earl of Abercorn (London 22 Oct 1712-Boroughbridge 9 Oct 1789)
+		name=James
+		dynasty=1009022
+		religion=catholic culture=english
+		father=100063351	# James _Hamilton
+		mother=100063352	# Anne Plumer
+		1712.10.22={birth=yes}  # London
+		1789.10.09={death=yes}  # Boroughbridge
+	}
+	100063354={ # 2a) John (2 Mar 1714-drowned off Portsmouth 18 Dec 1755); m.13 Oct 1749 Mrs Harriet Eliot, née Craggs (1712-1 Feb 1769)
+		name=John
+		dynasty=1009022
+		religion=catholic culture=anglo_irish
+		father=100063351	# James _Hamilton
+		mother=100063352	# Anne Plumer
+		1714.03.02={birth=yes}
+		1749.10.13={add_spouse=100063355}	# Harriet Eliot née Craggs
+		1755.12.18={death=yes}  # drowned off Portsmouth
+	}
+		100063356={ # 1b) John James, 9th Earl of Abercorn, cr 1790 Marquess of Abercorn (Jul 1756-Bentley Priory 27 Jan 1818); m.1st London 20 Jun 1779 Catharine Copley (d.Bentley Priory 13 Sep 1791); m.2nd London 4 Mar 1792 Lady Cecil Hamilton (15 Mar 1770-19 Jun 1819); m.3rd London 3 Apr 1800 Lady Anne jane Hatton, née Gore (Apr 1763-Naples 8 May 1827)
+			name="John James"
+			dynasty=1009022
+			religion=catholic culture=anglo_irish
+			father=100063354	# John
+			mother=100063355	# Harriet Eliot née Craggs
+			1756.07.01={birth=yes}
+			1779.06.20={add_spouse=100063357}	# Catharine Copley
+			1792.03.04={add_spouse=100063358}	# Cecil Hamilton
+			1800.01.01={remove_spouse=100063358}
+			1800.04.03={add_spouse=100063359}	# Anne jane Hatton née Gore
+			1818.01.27={death=yes}  # Bentley Priory
+		}
+			100063360={ # 3c) Katharine Elizabeth (10 Jan 1784-Argyll House 29 Feb 1812); m.28 Jul 1805 George Hamilton-Gordon, 4th Earl of Aberdeen (Edinburgh 28 Jan 1784-Argyll House 14 Dec 1860)
+				name="Katharine Elizabeth"
+				female=yes
+				dynasty=1009022
+				religion=catholic culture=anglo_irish
+				father=100063356	# John James
+				mother=100063357	# Catharine Copley
+				1784.01.10={birth=yes}
+				1812.02.29={death=yes}  # Argyll House
+			}
+			100063362={ # 5c) James, Viscount Hamilton (Petersham Lodge, Surrey 7 Oct 1786-London 27 May 1814); m.London 25 Nov 1809 Harriet Douglas (8 Sep 1792-26 Aug 1833)
+				name=James
+				dynasty=1009022
+				religion=catholic culture=anglo_irish
+				father=100063356	# John James
+				mother=100063357	# Catharine Copley
+				1786.10.07={birth=yes}  # Petersham Lodge Surrey
+				1809.11.25={add_spouse=100063363}	# Harriet Douglas
+				1814.05.27={death=yes}  # London
+			}
+				100063364={ # 1d) JAMES, 2nd Marquess of Hamilton, 10th Earl of Abercorn, etc, cr 10 Aug 1868 Duke of Abercorn and Marquess of Hamilton (21 Jan 1811-31 Oct 1885); m.Gordon Castle 25 Oct 1832 Lady Louisa Russell (8 Jul 1812-Coates Castle 31 Mar 1905)
+					name=James
+					dynasty=1009022
+					religion=catholic culture=anglo_irish
+					father=100063362	# James
+					mother=100063363	# Harriet Douglas
+					1811.01.21={birth=yes}
+					1832.10.25={add_spouse=100062487}	# Louisa Russell Russell
+					1885.10.31={death=yes}
+				}
+					100063366={ # 1e) Harriet Georgiana Louisa (6 Jul 1834-London 23 Apr 1913); m.10 Apr 1855 Thomas George Anson, 2nd Earl of Lichfield (Shugborough, Staffs 15 Aug 1825-London 7 Jan 1892)
+						name=Harriet
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1834.07.06={birth=yes}
+						1913.04.23={death=yes}  # London
+					}
+					100063368={ # 2e) Beatrix Frances (London 21 Jul 1835-Lambton Castle 21 Jan 1871); m.London 23 May 1854 George Frederick d'Arcy Lambton, 2nd Earl of Durham (Copse Hill, Surrey 5 Sep 1828-London 27 Nov 1879)
+						name="Beatrix Frances"
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=english
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1835.07.21={birth=yes}  # London
+						1871.01.21={death=yes}  # Lambton Castle
+					}
+					100063370={ # 3e) Louisa Jane (Brighton 26 Aug 1836-Dalkeith 16 Mar 1912); m.London 22 Nov 1859 William Henry Walter Montagu-Douglas-Scott, 6th Duke of Buccleuch-Queensberry (Montagu House 9 Sep 1831-Montau House 5 Nov 1914)
+						name="Louisa Jane"
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1836.08.26={birth=yes}  # Brighton
+						1912.03.16={death=yes}  # Dalkeith
+					}
+					100063372={ # 4e) JAMES, 2nd Duke of Abercorn, etc (Brighton 24 Aug 1838-London 3 Jan 1913); m.London 7 Jan 1869 Lady Mary Anna Curzon (London 23 Jul 1848-London 10 May 1929)
+						name=James
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1838.08.24={birth=yes}  # Brighton
+						1869.01.07={add_spouse=100063373}	# Mary Anna Curzon
+						1913.01.03={death=yes}  # London
+					}
+						100063374={ # 1f) JAMES Albert Edward, 3rd Duke of Abercorn (London 30 Nov 1869-London 12 Sep 1953); m.London 1 Nov 1894 Lady Rosalind Bingham (London 26 Feb 1869-London 18 Jan 1958)
+							name=James
+							dynasty=1009022
+							religion=catholic culture=english
+							father=100063372	# James
+							mother=100063373	# Mary Anna Curzon
+							1869.11.30={birth=yes}  # London
+							1894.11.01={add_spouse=100063375}	# Rosalind Bingham
+							1953.09.12={death=yes}  # London
+						}
+							100063376={ # 1g) Mary Cecilia Rhodesia Hamilton (London 21 Jan 1896-5 Sep 1984); m.1st Ottawa 24 May 1917 (div 1930) Robert Orlando Rodolph Kenyon-Slaney (London 13 Jan 1892-14 Jan 1965); m.2nd 26 Nov 1930 Sir John Little Gilmour, 2nd Bt. (London 5 Jun 1899-Carolside, Harlston, Berwickshire 13 Feb 1977)
+								name=Mary
+								female=yes
+								dynasty=1009022
+								religion=catholic culture=english
+								father=100063374	# James
+								mother=100063375	# Rosalind Bingham
+								1896.01.21={birth=yes}  # London
+								1984.09.05={death=yes}
+							}
+							100063379={ # 2g) Cynthia Eleanor Beatrix (London 16 Aug 1897-Althorp 4 Dec 1972); m.London 26 Feb 1919 Albert Edward John Spencer, 7th Earl Spencer (23 May 1892-Northampton 9 Jun 1975)
+								name=Cynthia
+								female=yes
+								dynasty=1009022
+								religion=catholic culture=english
+								father=100063374	# James
+								mother=100063375	# Rosalind Bingham
+								1897.08.16={birth=yes}  # London
+								1972.12.04={death=yes}  # Althorp
+							}
+							100063381={ # 3g) Katherine (London 25 Feb 1900-Chichester 28 Apr 1985); m.London 6 Aug 1930 Sir Reginald Henry Seymour (Windsor 1 Aug 1878-London 2 Oct 1938)
+								name=Katherine
+								female=yes
+								dynasty=1009022
+								religion=catholic culture=english
+								father=100063374	# James
+								mother=100063375	# Rosalind Bingham
+								1900.02.25={birth=yes}  # London
+								1985.04.28={death=yes}  # Chichester
+							}
+							100063383={ # 4g) JAMES Edward, 4th Duke of Abercorn, etc (London 29 Feb 1904-Omagh 4 Jun 1979); m.London 9 Feb 1928 Lady Mary Crichton (8 Jul 1905-Barons Court 2 Feb 1990)
+								name=James
+								dynasty=1009022
+								religion=catholic culture=english
+								father=100063374	# James
+								mother=100063375	# Rosalind Bingham
+								1904.02.29={birth=yes}  # London
+								1928.02.09={add_spouse=100063384}	# Mary Crichton
+								1979.06.04={death=yes}  # Omagh
+							}
+								100063385={ # 1h) Moyra Kathleen (b.London 22 Jul 1930); m.St.Columb's Cathedral, Londonderry 12 Nov 1966 Peter Colin Drummond Campbell (b.Lisvarna, Ballycastle, Co. Antrim 24 Oct 1927)
+									name="Moyra Kathleen"
+									female=yes
+									dynasty=1009022
+									religion=catholic culture=anglo_irish
+									father=100063383	# James
+									mother=100063384	# Mary Crichton
+									1930.07.22={birth=yes}
+									2007.01.01={death=yes}  # EST.
+								}
+								100063387={ # 2h) JAMES, 5th Duke of Abercorn, etc (b.London 4 Jul 1934); m.Westminster Abbey 20 Oct 1966 Alexandra Phillips (b.Tucson, Arizona 27 Feb 1946)
+									name=James
+									dynasty=1009022
+									religion=catholic culture=anglo_irish
+									father=100063383	# James
+									mother=100063384	# Mary Crichton
+									1934.07.04={birth=yes}
+									1966.10.20={add_spouse=100063388}	# Alexandra Phillips
+									2011.01.01={death=yes}  # EST.
+								}
+									100063389={ # 1i) James Harold Charles, Marquess of Hamilton (b.London 19 Aug 1969); m.Guards Chapel, Wellington Barracks, London 7 May 2004 Tanya Nation (b.30 Apr 1971)
+										name=James
+										dynasty=1009022
+										religion=catholic culture=anglo_irish
+										father=100063387	# James
+										mother=100063388	# Alexandra Phillips
+										1969.08.19={birth=yes}
+										2004.05.07={add_spouse=100063390}	# Tanya Nation
+									}
+										100063391={ # 1j) James Alfred Nicholas, Viscount Strabane (b.30 Oct 2005)
+											name=James
+											dynasty=1009022
+											religion=catholic culture=anglo_irish
+											father=100063389	# James
+											mother=100063390	# Tanya Nation
+											2005.10.01={birth=yes}
+										}
+										100063392={ # 2j) Claud Douglas Harold (b.12 Dec 2007)
+											name=Claud
+											dynasty=1009022
+											religion=catholic culture=anglo_irish
+											father=100063389	# James
+											mother=100063390	# Tanya Nation
+											2007.12.01={birth=yes}
+										}
+									100063393={ # 2i) Sophia Alexandra (b.London 8 Jun 1973); m.Barons Court 7 Sep 2002 (div 2006) Anthony William Vivian Loyd (b.Guildford, Surrey 12 Sep 1966)
+										name="Sophia Alexandra"
+										female=yes
+										dynasty=1009022
+										religion=catholic culture=anglo_irish
+										father=100063387	# James
+										mother=100063388	# Alexandra Phillips
+										1973.06.08={birth=yes}
+									}
+									100063395={ # 3i) Nicholas Edward Claud (b.Omagh, Ulster 5 Jul 1979); m.New York 30 Aug 2009 Tatiana Kronberg (b.St.Petersburg 1977)
+										name=Nicholas
+										dynasty=1009022
+										religion=catholic culture=anglo_irish
+										father=100063387	# James
+										mother=100063388	# Alexandra Phillips
+										1979.07.05={birth=yes}
+										2009.08.30={add_spouse=100063396}	# Tatiana Kronberg
+									}
+								100063397={ # 3h) Claud Anthony (b.London 8 Jul 1939); m.Killinchy Presbyterian Church, County Down 17 Apr 1982 Catherine Janet Faulkner
+									name="Claud Anthony"
+									dynasty=1009022
+									religion=catholic culture=anglo_irish
+									father=100063383	# James
+									mother=100063384	# Mary Crichton
+									1939.07.08={birth=yes}
+									1982.04.17={add_spouse=100063398}	# Catherine Janet Faulkner
+									2016.01.01={death=yes}  # EST.
+								}
+									100063399={ # 1i) Anna Kathleen (b.1983)
+										name="Anna Kathleen"
+										female=yes
+										dynasty=1009022
+										religion=catholic culture=anglo_irish
+										father=100063397	# Claud Anthony
+										mother=100063398	# Catherine Janet Faulkner
+										1983.01.01={birth=yes}
+									}
+									100063400={ # 2i) Alexander James (b.1987)
+										name="Alexander James"
+										dynasty=1009022
+										religion=catholic culture=anglo_irish
+										father=100063397	# Claud Anthony
+										mother=100063398	# Catherine Janet Faulkner
+										1987.01.01={birth=yes}
+									}
+							100063401={ # 5g) Claud David (London 13 Feb 1907-London 15 Feb 1968); m.London 21 Feb 1946 Genesta Mary Heath (London 5 May 1899-20 Dec 1990)
+								name="Claud David"
+								dynasty=1009022
+								religion=catholic culture=english
+								father=100063374	# James
+								mother=100063375	# Rosalind Bingham
+								1907.02.13={birth=yes}  # London
+								1946.02.21={add_spouse=100063402}	# Genesta Mary Heath
+								1968.02.15={death=yes}  # London
+							}
+						100063403={ # 2f) Claud Penn Alexander (b.and d.Invergarry House 18 Oct 1871)
+							name=Claud
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063372	# James
+							mother=100063373	# Mary Anna Curzon
+							1871.10.18={birth=yes}
+							1946.01.01={death=yes}
+						}
+						100063404={ # 4f) Alexandra Phyllis (London 23 Jan 1876-lost at sea, when the Leinster was torpedoed in the Irish Sea 10 Oct 1918)
+							name="Alexandra Phyllis"
+							female=yes
+							dynasty=1009022
+							religion=catholic culture=english
+							father=100063372	# James
+							mother=100063373	# Mary Anna Curzon
+							1876.01.23={birth=yes}  # London
+							1918.10.10={death=yes}  # lost at sea when the Leinster was torpedoed_in_the Irish Sea
+						}
+						100063405={ # 6f) Gladys Mary (Duddingston House, Edinburgh 10 Dec 1880-Dublin 12 Mar 1917); m.London 14 Jan 1902 Ralph Francis Howard, 7th Earl of Wicklow (Southsea 24 Dec 1877-Shelton Abbey, Co Wicklow 11 Oct 1946)
+							name="Gladys Mary"
+							female=yes
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063372	# James
+							mother=100063373	# Mary Anna Curzon
+							1880.12.10={birth=yes}  # Duddingston House Edinburgh
+							1917.03.12={death=yes}  # Dublin
+						}
+						100063407={ # 7f) Arthur (20 Aug 1883-k.a.6 Nov 1914)
+							name=Arthur
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063372	# James
+							mother=100063373	# Mary Anna Curzon
+							1883.08.20={birth=yes}
+							1914.11.01={death=yes}
+						}
+						100063408={ # 8f) Claud Nigel (Edinburgh 10 Nov 1889-22 Aug 1975); m.11 Jul 1933 Violet Ruby Ashton (1901-1984)
+							name="Claud Nigel"
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063372	# James
+							mother=100063373	# Mary Anna Curzon
+							1889.11.10={birth=yes}  # Edinburgh
+							1933.07.11={add_spouse=100063409}	# Violet Ruby Ashton
+							1975.08.22={death=yes}
+						}
+					100063410={ # 5e) Katherine Elizabeth (Barons Court 9 Jan 1840-Mount Edgcumbe 3 Sep 1874); m.London 26 Oct 1858 William Henry Edgcumbe, 4th Earl of Mount Edgcumbe (London 5 Nov 1832-Plymouth 25 Sep 1917)
+						name="Katherine Elizabeth"
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1840.01.09={birth=yes}  # Barons Court
+						1874.09.03={death=yes}  # Mount Edgcumbe
+					}
+					100063412={ # 6e) Georgiana Susan (7 Jul 1841-London 23 Mar 1913); m.London 16 Mar 1882 Edward Turnour, 5th Earl Winterton (Shillinglee Park 15 Aug 1837-Shillinglee Park 5 Sep 1907)
+						name="Georgiana Susan"
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1841.07.07={birth=yes}
+						1913.03.23={death=yes}  # London
+					}
+					100063414={ # 7e) Claud John (Bentley Priory, Stanmore, Middlesex 20 Feb 1843-London 26 Jan 1925); m.London 20 Jul 1878 Carolina Chandos-Pole (19 Jul 1857-Richmond, Surrey 21 Sep 1911)
+						name="Claud John"
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1843.02.20={birth=yes}  # Bentley Priory Stanmore Middlesex
+						1878.07.20={add_spouse=100063415}	# Carolina Chandos-Pole
+						1925.01.26={death=yes}  # London
+					}
+						100063416={ # 1f) Gilbert Claud (London 21 Apr 1879-London 30 Mar 1943); m.1st 16 May 1911 Enid Awa Elgar (Fernside, Featherston, New Zealand 1890-Sunningdale, Berks 19 Apr 1916); m.2nd 29 Nov 1916 Mary Blair (d.Hove 8 Jan 1961)
+							name="Gilbert Claud"
+							dynasty=1009022
+							religion=catholic culture=english
+							father=100063414	# Claud John
+							mother=100063415	# Carolina Chandos-Pole
+							1879.04.21={birth=yes}  # London
+							1911.05.16={add_spouse=100063417}	# Enid Awa Elgar
+							1916.11.29={add_spouse=100063418}	# Mary Blair
+							1943.03.30={death=yes}  # London
+						}
+						100063419={ # 2f) Ida (London 23 Jul 1883-Nov 1970); m.London 24 Apr 1909 (div 1932) Hugh Duncombe Flower (1878-London 9 Dec 1950)
+							name=Ida
+							female=yes
+							dynasty=1009022
+							religion=catholic culture=english
+							father=100063414	# Claud John
+							mother=100063415	# Carolina Chandos-Pole
+							1883.07.23={birth=yes}  # London
+							1970.11.01={death=yes}
+						}
+					100063421={ # 8e) George Francis (Edinburgh 17 Dec 1845-London 22 Sep 1927); m.28 Nov 1871 Lady Maud Lascelles (Yorkshire 26 Nov 1846-London 14 Apr 1938)
+						name="George Francis"
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1845.12.17={birth=yes}  # Edinburgh
+						1871.11.28={add_spouse=100063422}	# Maud Lascelles
+						1927.09.22={death=yes}  # London
+					}
+						100063423={ # 1f) Ronald James (Wildernesse, Kent 26 Sep 1872-London 22 Jan 1958); m.London 10 Feb 1915 Florence Marguérite Hannah (d.London 5 Aug 1959)
+							name="Ronald James"
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063421	# George Francis
+							mother=100063422	# Maud Lascelles
+							1872.09.26={birth=yes}  # Wildernesse Kent
+							1915.02.10={add_spouse=100063424}	# Florence Marguérite Hannah
+							1958.01.22={death=yes}  # London
+						}
+							100063425={ # 1g) Maud Sarah (The Hague 4 Apr 1917-London 6 Oct 1995); m.London 4 Nov 1939 (div 1947) Manfred Gf Czernin v.Chudenitz (Berlin 18 Jan 1913-London 6 Oct 1962)
+								name="Maud Sarah"
+								female=yes
+								dynasty=1009022
+								religion=catholic culture=anglo_irish
+								father=100063423	# Ronald James
+								mother=100063424	# Florence Marguérite Hannah
+								1917.04.04={birth=yes}  # The Hague
+								1995.10.06={death=yes}  # London
+							}
+						100063427={ # 2f) Anthony George (London 17 Dec 1874-London 11 Jul 1936)
+							name="Anthony George"
+							dynasty=1009022
+							religion=catholic culture=english
+							father=100063421	# George Francis
+							mother=100063422	# Maud Lascelles
+							1874.12.17={birth=yes}  # London
+							1936.07.11={death=yes}  # London
+						}
+						100063428={ # 3f) Robert Cecil (London 31 Jan 1882-Hemel Hampstead 31 Jul 1947); m.London 30 May 1911 Edith Maud Paley (d.Goring-on-Thames, Oxon 8 Jul 1967)
+							name="Robert Cecil"
+							dynasty=1009022
+							religion=catholic culture=english
+							father=100063421	# George Francis
+							mother=100063422	# Maud Lascelles
+							1882.01.31={birth=yes}  # London
+							1911.05.30={add_spouse=100063429}	# Edith Maud Paley
+							1947.07.31={death=yes}  # Hemel Hampstead
+						}
+					100063430={ # 9e) Albertha Frances Anne (London 29 Jul 1847-London 7 Jan 1932); m.Westminster Abbey 8 Nov 1869 (div 1883) George Charles Spencer-Churchill, Marquess of Blandford [later, 8th Duke of Marlborough] (London 13 May 1844-Blenheim 9 Nov 1892)
+						name=Albertha
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=english
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1847.07.29={birth=yes}  # London
+						1932.01.07={death=yes}  # London
+					}
+					100063432={ # 11e) Maud Evelyn (London 17 Dec 1850-London 21 Oct 1932); m.Westminster Abbey 8 Nov 1869 Henry Charles Keith Petty-Fitzmaurice, 5th Marquess of Lansdowne (14 Jan 1845-Newtown Anner 3 Jun 1927)
+						name="Maud Evelyn"
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=english
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1850.12.17={birth=yes}  # London
+						1932.10.21={death=yes}  # London
+					}
+					100063434={ # 13e) Frederick Spencer (Brighton 13 Oct 1856-London 11 Aug 1928)
+						name="Frederick Spencer"
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1856.10.13={birth=yes}  # Brighton
+						1928.08.11={death=yes}  # London
+					}
+					100063435={ # 14e) Ernest William (Tunbridge Wells 5 Sep 1858-London 14 Dec 1939); m.London 2 Jun 1891 Pamela Campbell (Kingston-on-Thames 18 May 1869-London 11 May 1931)
+						name="Ernest William"
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063364	# James
+						mother=100062487	# Louisa Russell Russell
+						1858.09.05={birth=yes}  # Tunbridge Wells
+						1891.06.02={add_spouse=100063436}	# Pamela Campbell
+						1939.12.14={death=yes}  # London
+					}
+						100063437={ # 1f) Guy Ernest Frederic (London 11 Nov 1894-suicide, Bovingdon, Herts 23 Nov 1914)
+							name=Guy
+							dynasty=1009022
+							religion=catholic culture=english
+							father=100063435	# Ernest William
+							mother=100063436	# Pamela Campbell
+							1894.11.11={birth=yes}  # London
+							1914.11.23={death=yes}  # suicide Bovingdon Herts
+						}
+						100063438={ # 2f) Mary Brenda (London 28 Mar 1897-14 Mar 1985); m.London (civ) 22 Apr 1922 (rel) 1 Jun 1922 Jules Joseph Marcel Alphonse de Riquet de Caraman Pr de Chimay Cte de Caraman (Chimay 22 Jun 1899-Arrow nr Alcester 1 Oct 1973)
+							name="Mary Brenda"
+							female=yes
+							dynasty=1009022
+							religion=catholic culture=english
+							father=100063435	# Ernest William
+							mother=100063436	# Pamela Campbell
+							1897.03.28={birth=yes}  # London
+							1985.03.14={death=yes}
+						}
+						100063440={ # 3f) Jean Barbara (b.London 6 Sep 1898); m.London 8 Jun 1921 (div 1944) Sir John William Buchanan-Jardine, 3rd Bt. (Edinburgh 7 Mar 1900-5 Nov 1969)
+							name="Jean Barbara"
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063435	# Ernest William
+							mother=100063436	# Pamela Campbell
+							1898.09.06={birth=yes}
+							1921.06.08={add_spouse=100063441}	# John William Buchanan-Jardine
+							1944.01.01={remove_spouse=100063441}
+							1973.01.01={death=yes}
+						}
+						100063442={ # 4f) John George Peter (Bovingdon, Herts, 15 Oct [Nov?] 1900-17 Jun 1967); m.25 May 1932 Alexandra Christine Egerton (d.10 Aug 1963)
+							name=John
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063435	# Ernest William
+							mother=100063436	# Pamela Campbell
+							1900.10.15={birth=yes}  # Bovingdon Herts
+							1932.05.25={add_spouse=100063443}	# Alexandra Christine Egerton
+							1967.06.17={death=yes}
+						}
+				100063444={ # 2d) Harriet (21 Mar 1812-19 Mar 1884); m.15 May 1836 William Alexander Baillie Hamilton (3 Jun 1803-1 Oct 1881)
+					name=Harriet
+					female=yes
+					dynasty=1009022
+					religion=catholic culture=anglo_irish
+					father=100063362	# James
+					mother=100063363	# Harriet Douglas
+					1812.03.21={birth=yes}
+					1884.03.19={death=yes}
+				}
+				100063446={ # 3d) Claud (27 Jul 1813-3 Jun 1884); m.7 Aug 1844 Lady Elizabeth Emma Proby (1821-24 Jun 1900)
+					name=Claud
+					dynasty=1009022
+					religion=catholic culture=anglo_irish
+					father=100063362	# James
+					mother=100063363	# Harriet Douglas
+					1813.07.27={birth=yes}
+					1844.08.07={add_spouse=100063447}	# Elizabeth Emma Proby
+					1884.06.03={death=yes}
+				}
+					100063448={ # 1e) Louisa Charlotte (3 Aug 1845-18 Aug 1940); m.29 Feb 1876 John Tyndall (d.4 Dec 1893)
+						name="Louisa Charlotte"
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063446	# Claud
+						mother=100063447	# Elizabeth Emma Proby
+						1845.08.03={birth=yes}
+						1940.08.18={death=yes}
+					}
+					100063450={ # 2e) Emma Frances (3 Jul 1847-2 Jan 1924)
+						name="Emma Frances"
+						female=yes
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063446	# Claud
+						mother=100063447	# Elizabeth Emma Proby
+						1847.07.03={birth=yes}
+						1924.01.02={death=yes}
+					}
+					100063451={ # 3e) Mary Stuart (27 May 1851-6 Jan 1939); m.2 Oct 1878 Wilbraham Frederic Tollemache, 2nd Lord Tollemache (4 Jul 1832-17 Dec 1904)
+						name="Mary Stuart"
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063446	# Claud
+						mother=100063447	# Elizabeth Emma Proby
+						1851.05.27={birth=yes}
+						1878.10.02={add_spouse=100063452}	# Wilbraham Frederic Tollemache
+						1939.01.06={death=yes}
+					}
+					100063453={ # 4e) Douglas James, took surname Proby (23 Sep 1856-18 Nov 1931); m.6 Jul 1882 Lady Margaret Frances Hely-Hutchinson (8 Feb 1857-2 Mar 1937)
+						name="Douglas James"
+						dynasty=1009022
+						religion=catholic culture=anglo_irish
+						father=100063446	# Claud
+						mother=100063447	# Elizabeth Emma Proby
+						1856.09.23={birth=yes}
+						1882.07.06={add_spouse=100063454}	# Margaret Frances Hely-Hutchinson
+						1931.11.18={death=yes}
+					}
+						100063455={ # 1f) Granville (13 Sep 1883-9 Mar 1947)
+							name=Granville
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063453	# Douglas James
+							mother=100063454	# Margaret Frances Hely-Hutchinson
+							1883.09.13={birth=yes}
+							1947.03.09={death=yes}
+						}
+						100063456={ # 3f) Sir Richard George PROBY, cr Bt. 1952 (21 Jul 1886-15 Jan 1979); m.1st 7 Feb 1911 Betty Monica Murray (d.1967); m.2nd 31 May 1972 Yvonne Helps
+							name=Proby
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063453	# Douglas James
+							mother=100063454	# Margaret Frances Hely-Hutchinson
+							1886.07.21={birth=yes}
+							1911.02.07={add_spouse=100063457}	# Betty Monica Murray
+							1972.05.31={add_spouse=100063458}	# Yvonne Helps
+							1979.01.15={death=yes}
+						}
+						100063459={ # 4f) Betty Alice Adeline (17 May 1889-1978); m.27 Apr 1920 Sir Henry Charles Lowry Corry (20 Feb 1887-23 Dec 1973)
+							name=Betty
+							female=yes
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063453	# Douglas James
+							mother=100063454	# Margaret Frances Hely-Hutchinson
+							1889.05.17={birth=yes}
+							1978.01.01={death=yes}
+						}
+						100063461={ # 5f) Jocelyn Campbell Patrick (3 Mar 1900-30 Dec 1993); m.1st 16 Aug 1930 Elizabeth Angelique Kerr (d.26 Jan 1962); m.2nd 3 Jan 1969 Katherine, Bss de Robeck, née Simpson
+							name=Jocelyn
+							dynasty=1009022
+							religion=catholic culture=anglo_irish
+							father=100063453	# Douglas James
+							mother=100063454	# Margaret Frances Hely-Hutchinson
+							1900.03.03={birth=yes}
+							1930.08.16={add_spouse=100063462}	# Elizabeth Angelique Kerr
+							1969.01.03={add_spouse=100063463}	# Katherine Simpson
+							1993.12.30={death=yes}
+						}
+			100063464={ # 7c) Cecil Frances (19 Jul 1795-7 Jul 1860); m.16 Feb 1816 William Howard, 3rd Earl of Wicklow (13 Feb 1788-22 Mar 1869)
+				name="Cecil Frances"
+				dynasty=1009022
+				religion=catholic culture=anglo_irish
+				father=100063356	# John James
+				mother=100063358	# Cecil Hamilton
+				1795.07.19={birth=yes}
+				1816.02.16={add_spouse=100063465}	# William Howard of Wicklow
+				1860.07.07={death=yes}
+			}
+
+#######
+100063367={ # Earl       Thomas George             Anson                                    (1825-1892)
+	name="Thomas George Anson"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1825.08.15={birth=yes}  # Shugborough Staffs
+	1855.04.10={add_spouse=100063366}	# Harriet
+	1892.01.07={death=yes}  # London
+}
+100063375={ # Lady       Rosalind                  Bingham                                  (1869-1958)
+	name="Rosalind Bingham"
+	female=yes
+	dynasty=0
+	religion=catholic culture=english
+	1869.02.26={birth=yes}  # London
+	1958.01.18={death=yes}  # London
+}
+100063441={ # Sir        John William              Buchanan-Jardine                         (1900-1969)
+	name="John William Buchanan-Jardine"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1900.03.07={birth=yes}  # Edinburgh
+	1969.11.05={death=yes}
+}
+100063384={ # Lady       Mary                      Crichton                                 (1905-1990)
+	name="Mary Crichton"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1905.07.08={birth=yes}
+	1990.02.02={death=yes}  # Barons Court
+}
+100063373={ # Lady       Mary Anna                 Curzon                                   (1848-1929)
+	name="Mary Anna Curzon"
+	female=yes
+	dynasty=0
+	religion=catholic culture=english
+	1848.07.23={birth=yes}  # London
+	1929.05.10={death=yes}  # London
+}
+100063411={ # Earl       William Henry             Edgcumbe                        (1832-1917)
+	name="William Henry Edgcumbe"
+	dynasty=0
+	religion=catholic culture=english
+	1832.11.05={birth=yes}  # London
+	1858.10.26={add_spouse=100063410}	# Katherine Elizabeth
+	1917.09.25={death=yes}  # Plymouth
+}
+100063355={ # Mrs        Harriet                   Craggs         			                (1712-1769)
+	name="Harriet Eliot née Craggs"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1712.01.01={birth=yes}
+	1769.02.01={death=yes}
+}
+100063358={ # Lady       Cecil                     Hamilton                                 (1770-1819)
+	name="Cecil Hamilton"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1770.03.15={birth=yes}
+	1819.06.19={death=yes}
+}
+100063359={ # Lady       Anne jane                 Gore            			                (1763-1827)
+	name="Anne jane Hatton née Gore"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1763.04.01={birth=yes}
+	1827.05.08={death=yes}  # Naples
+}
+100063454={ # Lady       Margaret Frances          Hely-Hutchinson                          (1857-1937)
+	name="Margaret Frances Hely-Hutchinson"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1857.02.08={birth=yes}
+	1937.03.02={death=yes}
+}
+100063422={ # Lady       Maud                      Lascelles                                (1846-1938)
+	name="Maud Lascelles"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1846.11.26={birth=yes}  # Yorkshire
+	1938.04.14={death=yes}  # London
+}
+100063378={ # Sir        John                      Little Gilmour                           (1899-1977)
+	name="John Little Gilmour"
+	dynasty=0
+	religion=catholic culture=english
+	1899.06.05={birth=yes}  # London
+	1930.11.26={add_spouse=100063376}	# Mary
+	1977.02.13={death=yes}  # Carolside Harlston Berwickshire
+}
+100063460={ # Sir        Henry Charles             Lowry Corry                              (1887-1973)
+	name="Henry Charles Lowry Corry"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1887.02.20={birth=yes}
+	1920.04.27={add_spouse=100063459}	# Betty
+	1973.12.23={death=yes}
+}
+100063433={ # Marquess   Henry Charles             Petty-Fitzmaurice                        (1845-1927)
+	name="Henry Charles Petty-Fitzmaurice"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1845.01.14={birth=yes}
+	1869.11.08={add_spouse=100063432}	# Maud Evelyn
+	1927.06.03={death=yes}  # Newtown Anner
+}
+100063447={ # Lady       Elizabeth Emma            Proby                                    (1821-1900)
+	name="Elizabeth Emma Proby"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1821.01.01={birth=yes}
+	1900.06.24={death=yes}
+}
+100063463={ # Bss        Katherine                 Simpson                                  (1949-    )
+	name="Katherine Simpson"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1949.01.01={birth=yes}
+}
+100063380={ # Earl       Albert Edward             Spencer                                  (1892-1975)
+	name="Albert Edward Spencer"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1892.05.23={birth=yes}
+	1919.02.26={add_spouse=100063379}	# Cynthia
+	1975.06.09={death=yes}  # Northampton
+}
+100063431={ # Marquess   George Charles            Spencer-Churchill                        (1844-1892)
+	name="George Charles Spencer-Churchill"
+	dynasty=0
+	religion=catholic culture=english
+	1844.05.13={birth=yes}  # London
+	1869.11.08={add_spouse=100063430}	# Albertha
+	1883.01.01={remove_spouse=100063430}
+	1892.11.09={death=yes}  # Blenheim
+}
+100063452={ # Lord       Wilbraham Frederic        Tollemache                               (1832-1904)
+	name="Wilbraham Frederic Tollemache"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1832.07.04={birth=yes}
+	1904.12.17={death=yes}
+}
+100063413={ # Earl       Edward                    Turnour                                  (1837-1907)
+	name="Edward Turnour"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1837.08.15={birth=yes}  # Shillinglee Park
+	1882.03.16={add_spouse=100063412}	# Georgiana Susan
+	1907.09.05={death=yes}  # Shillinglee Park
+}
+100063369={ # Earl       George Frederick          d'Arcy Lambton                           (1828-1879)
+	name="George Frederick d'Arcy Lambton"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1828.09.05={birth=yes}  # Copse Hill Surrey
+	1854.05.23={add_spouse=100063368}	# Beatrix Frances
+	1879.11.27={death=yes}  # London
+}
+100063361={ # Earl       George Hamilton-Gordon    of Aberdeen                              (1784-1860)
+	name="George Hamilton-Gordon of Aberdeen"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1784.01.28={birth=yes}  # Edinburgh
+	1805.07.28={add_spouse=100063360}	# Katharine Elizabeth
+	1860.12.14={death=yes}  # Argyll House
+}
+100063371={ # Duke       William Henry             of Buccleuch                             (1831-1914)
+	name="William Henry of Buccleuch"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1831.09.09={birth=yes}  # Montagu House
+	1859.11.22={add_spouse=100063370}	# Louisa Jane
+	1914.11.05={death=yes}  # Montau House
+}
+100063406={ # Earl       Ralph Francis             of Wicklow                               (1877-1946)
+	name="Ralph Francis of Wicklow"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1877.12.24={birth=yes}  # Southsea
+	1902.01.14={add_spouse=100063405}	# Gladys Mary
+	1946.10.11={death=yes}  # Shelton Abbey Co Wicklow
+}
+100063465={ # Earl       William Howard            of Wicklow                               (1788-1869)
+	name="William Howard of Wicklow"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1788.02.13={birth=yes}
+	1869.03.22={death=yes}
+}
+100063409={ #            Violet Ruby               Ashton                                   (1901-1984)
+	name="Violet Ruby Ashton"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1901.01.01={birth=yes}
+	1984.01.01={death=yes}
+}
+100063445={ #            William Alexander         Baillie Hamilton                         (1803-1881)
+	name="William Alexander Baillie Hamilton"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1803.06.03={birth=yes}
+	1836.05.15={add_spouse=100063444}	# Harriet
+	1881.10.01={death=yes}
+}
+100063418={ #            Mary                      Blair                                    (1896-1961)
+	name="Mary Blair"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1896.01.01={birth=yes}
+	1961.01.08={death=yes}
+}
+100063436={ #            Pamela                    Campbell                                 (1869-1931)
+	name="Pamela Campbell"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1869.05.18={birth=yes}  # Kingston-on-Thames
+	1931.05.11={death=yes}  # London
+}
+100063415={ #            Carolina                  Chandos-Pole                             (1857-1911)
+	name="Carolina Chandos-Pole"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1857.07.19={birth=yes}
+	1911.09.21={death=yes}  # Richmond Surrey
+}
+100063357={ #            Catharine                 Copley                                   (1759-1791)
+	name="Catharine Copley"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1759.01.01={birth=yes}
+	1791.09.13={death=yes}
+}
+100063363={ #            Harriet                   Douglas                                  (1792-1833)
+	name="Harriet Douglas"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1792.09.08={birth=yes}
+	1833.08.26={death=yes}
+}
+100063386={ #            Peter Colin               Drummond Campbell                        (1927-    )
+	name="Peter Colin Drummond Campbell"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1927.10.24={birth=yes}
+	1966.11.12={add_spouse=100063385}	# Moyra Kathleen
+	2004.01.01={death=yes}  # EST.
+}
+100063420={ #            Hugh                      Duncombe Flower                          (1878-1950)
+	name="Hugh Duncombe Flower"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1878.01.01={birth=yes}
+	1909.04.24={add_spouse=100063419}	# Ida
+	1932.01.01={remove_spouse=100063419}
+	1950.12.09={death=yes}  # London
+}
+100063443={ #            Alexandra Christine       Egerton                                  (1912-1963)
+	name="Alexandra Christine Egerton"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1912.01.01={birth=yes}
+	1963.08.01={death=yes}
+}
+100063417={ #            Enid Awa                  Elgar                                    (1890-1916)
+	name="Enid Awa Elgar"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1890.01.01={birth=yes}  # Fernside Featherston New Zealand
+	1916.04.19={death=yes}  # Sunningdale Berks
+}
+100063398={ #            Catherine Janet           Faulkner                                 (1962-    )
+	name="Catherine Janet Faulkner"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1962.01.01={birth=yes}
+}
+100063424={ #            Florence Marguérite       Hannah                                   (1895-1959)
+	name="Florence Marguérite Hannah"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1895.01.01={birth=yes}
+	1959.08.05={death=yes}
+}
+100063402={ #            Genesta Mary              Heath                                    (1899-1990)
+	name="Genesta Mary Heath"
+	female=yes
+	dynasty=0
+	religion=catholic culture=english
+	1899.05.05={birth=yes}  # London
+	1990.12.20={death=yes}
+}
+100063458={ #            Yvonne                    Helps                                    (1952-    )
+	name="Yvonne Helps"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1952.01.01={birth=yes}
+}
+100063377={ #            Robert Orlando            Kenyon-Slaney                            (1892-1965)
+	name="Robert Orlando Kenyon-Slaney"
+	dynasty=0
+	religion=catholic culture=english
+	1892.01.13={birth=yes}  # London
+	1917.05.24={add_spouse=100063376}	# Mary
+	1930.01.01={remove_spouse=100063376}
+	1965.01.14={death=yes}
+}
+100063462={ #            Elizabeth Angelique       Kerr                                     (1910-1962)
+	name="Elizabeth Angelique Kerr"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1910.01.01={birth=yes}
+	1962.01.01={death=yes}
+}
+100063396={ #            Tatiana                   Kronberg                                 (1977-    )
+	name="Tatiana Kronberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1977.01.01={birth=yes}
+}
+100063394={ #            Anthony William           Loyd                                     (1966-    )
+	name="Anthony William Loyd"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1966.09.12={birth=yes}
+	2002.09.07={add_spouse=100063393}	# Sophia Alexandra
+	2006.01.01={remove_spouse=100063393}
+}
+100063457={ #            Betty Monica              Murray                                   (1891-1967)
+	name="Betty Monica Murray"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1891.01.01={birth=yes}
+	1967.01.01={death=yes}
+}
+100063390={ #            Tanya                     Nation                                   (1971-    )
+	name="Tanya Nation"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1971.04.01={birth=yes}
+}
+100063429={ #            Edith Maud                Paley                                    (1891-1967)
+	name="Edith Maud Paley"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1891.01.01={birth=yes}
+	1967.07.08={death=yes}
+}
+100063388={ #            Alexandra                 Phillips                                 (1946-    )
+	name="Alexandra Phillips"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1946.02.27={birth=yes}
+}
+100063352={ #            Anne                      Plumer                                   (1690-1776)
+	name="Anne Plumer"
+	female=yes
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1690.06.29={birth=yes}
+	1776.08.13={death=yes}
+}
+100063449={ #            John                      Tyndall                                  (1851-1893)
+	name="John Tyndall"
+	dynasty=0
+	religion=catholic culture=anglo_irish
+	1851.01.01={birth=yes}
+	1876.02.29={add_spouse=100063448}	# Louisa Charlotte
+	1893.12.01={death=yes}
+}
+#1716.03.22={holder=100063351} # James Hamilton
+#1744.01.11={holder=100063353} # 1a) James
+#1789.10.09={holder=100063356} # 1b) John James
+#1818.01.27={holder=100063364} # 1d) JAMES
+#1885.10.31={holder=100063372} # 4e) JAMES
+#1913.01.03={holder=100063374} # 1f) JAMES Albert Edward
+#1953.09.12={holder=100063383} # 4g) JAMES Edward
+#1979.06.04={holder=100063387} # 2h) JAMES
+##  100063350-100063466	    Hamilton                                 	1009022
 
 
 ### (D) ROXBURGHE
@@ -108,18 +1117,6 @@
 	1977.03.21={death=yes}
 }
 ### (D) PORTLAND
-
-
-### (D) ABERCORN
-100061775={ # James Hamilton, 1st Duke of Abercorn
-	name=James
-	dynasty=1009022
-	religion=anglican culture=english
-	1811.01.21={birth=yes}
-	1832.10.25={add_spouse=100062487}	# Louisa Jane Russell
-	1885.10.31={death=yes}
-}
-### (D) ABERCORN
 
 
 ### (D) MONTROSE
@@ -21103,7 +22100,7 @@
 							mother=100081189	# Evelyn Elizabeth Campbell
 							1878.08.01={birth=yes}
 							1922.07.17={add_spouse=100080059}	# Winifred Akroyd
-							1930.08.06={add_spouse=100084657}	# LADY Katharine Hamilton
+							1930.08.06={add_spouse=100063381}	# LADY Katharine Hamilton
 							1938.10.02={death=yes}
 						}
 							100062830={# 1g) George Raymond (b.5 May 1923); m.9 Sep 1957 Mary Quenelda Ismay (b.28 Jul 1929)
@@ -21131,16 +22128,15 @@
 								dynasty=1009006
 								religion=anglican culture=english
 								father=100062829	# Reginald Henry Seymour
-								mother=100084657	# LADY Katharine Hamilton
+								mother=100063381	# LADY Katharine Hamilton
 								1932.05.27={birth=yes}
-								2012.01.01={death=yes}	# EST.
 }
 							100062833={# 3g) Elizabeth Cynthia (2 Jul 1934-9 Jan 1954)
 								name="Elizabeth Cynthia"
 								dynasty=1009006
 								religion=anglican culture=english
 								father=100062829	# Reginald Henry Seymour
-								mother=100084657	# LADY Katharine Hamilton
+								mother=100063381	# LADY Katharine Hamilton
 								1934.07.02={birth=yes}
 								1954.01.09={death=yes}
 							}
@@ -21149,13 +22145,11 @@
 								dynasty=1009006
 								religion=anglican culture=english
 								father=100062829	# Reginald Henry Seymour
-								mother=100084657	# LADY Katharine Hamilton
+								mother=100063381	# LADY Katharine Hamilton
 								1936.10.09={birth=yes}
 								1960.04.07={add_spouse=100088311}	# Yolanda Murray
 								1965.01.01={remove_spouse=100088311}
 								1966.01.01={add_spouse=100090117}	# Mary Hilda Seely
-								2000.11.01={remove_spouse=100090117}
-								2001.01.01={add_spouse=100085492}	# Susan Jacks
 								2005.04.08={death=yes}
 							}
 								100062835={# 1h) Conway Seely Reginald (14 Oct 1968-1980)
