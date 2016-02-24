@@ -137,7 +137,7 @@
 		1562.06.26={birth=yes}  # Aurich
 		1621.04.27={death=yes}  # Neuhaus, Bohemia
 	}
-	100181510={# Enno	Cirksena (1563-1625)
+	100181510={#                   Enno	                     Cirksena                                 (1563-1625)
 		name=Enno
 		dynasty=1008026
 		religion=catholic culture=frisian
@@ -166,6 +166,109 @@
 		1616.07.09={death=yes}  # Dannenberg
 	}
 
+100096717={ #     Fst        Yuri                      Ostasenko-Bogdanov                      (1928-2005)
+	name=Yuri
+	dynasty=1010011
+	religion=orthodox culture=russian
+	1928.01.28={birth=yes}
+	1949.08.29={add_spouse=100047116}	# Maria Krakovský z Kolovrat
+	2005.01.01={death=yes}  # EST.
+}
+	100095147={ # Pr         Igor                      Ostasenko-Bogdanov                      (1949-    )
+		name=Igor
+		dynasty=1010011
+		religion=orthodox culture=frankish
+		trait=twin
+		father=100096717	# FST Yuri Ostasenko-Bogdanov
+		mother=100047116	# Maria Krakovský z Kolovrat
+		1949.08.29={birth=yes}
+		1989.06.29={add_spouse=100067053}	# Ludmilla d’Oultremont
+		2009.01.01={remove_spouse=100067053}
+		2009.10.01={add_spouse=100170323}	# Amélie di Borbone-Parma
+	}	
+	100195147={ # Pr         Grichka                   Ostasenko-Bogdanov                      (1949-    )
+		name=Grichka
+		dynasty=1010011
+		religion=orthodox culture=frankish
+		trait=twin
+		father=100096717	# FST Yuri Ostasenko-Bogdanov
+		mother=100047116	# Maria Krakovský z Kolovrat
+		1949.08.29={birth=yes}
+	}
 	
+100092261={ # 	  Frhr       Zdenko                    von Hoenning O'Carroll                   (1906-1996)  2  0
+	name=Zdenko
+	dynasty=1000003
+	religion=catholic culture=german
+	1906.08.06={birth=yes}
+	1934.05.16={add_spouse=100085130}	# Margarete Lobkowicz
+	1948.05.23={add_spouse=100007848}	# Adelgunde Maria v. Wittelsbach
+	1996.05.08={death=yes}
+}
+	100092260={ # Frhr       Johann Carl               von Hoenning O'Carroll                   (1940-    )     0
+		name="Johann Carl"
+		dynasty=1000003
+		religion=catholic culture=hungarian
+		father=100092261	# FRHR Zdenko von Hoenning-O'Carroll
+		mother=100085130	# Margarete Lobkowicz
+		1940.01.12={birth=yes}
+		1966.07.23={add_spouse=100115691}	# Katalin Zichy de Zich et Vásonykõ
+	}
+	100096354={ # Frn        Eleonora                  von Hoenning O'Carroll                   (1942-    )     2
+		name=Eleonora
+		female=yes
+		dynasty=1000003
+		religion=lutheran culture=german
+		father=100092261	# FRHR Zdenko von Hoenning-O'Carroll
+		mother=100085130	# Margarete Lobkowicz
+		1942.07.14={birth=yes}
+	}	
+
+100089500={ # 	  Ct         Ivan                      Ribeaupierre                             (1819-1871)
+	name=Ivan
+	dynasty=1000004
+	religion=orthodox culture=russian
+	1819.01.01={birth=yes}
+	1844.01.01={add_spouse=100017427}	# Sophia Trubetzkoy
+	1871.02.06={death=yes}
+}
+	100096125={ # Css        Alexandra Ivanovna        Ribeaupierre                             (1856-1923)
+		name=Alexandra
+		female=yes
+		dynasty=1000004
+		religion=orthodox culture=russian
+		father=100089500	# CT Ivan Ribaupierre
+		mother=100017427	# Sophia Trubetzkoy
+		1856.12.14={birth=yes}
+		1923.02.24={death=yes}
+	}
 	
-	
+100086416={ #     Pr         Dimitrie                  Kantemir                                 (1692-1723)
+	name=Dimitrie
+	dynasty=1000005
+	religion=orthodox culture=russian
+	1673.10.26={birth=yes}	# Iasi
+	1707.01.01={add_spouse=100030136}	# Cassandra Cantacuzino
+	1717.10.14={add_spouse=100017135}	# Anastasia Trubetzkoy
+	1723.08.21={death=yes}
+}
+	100086419={ # Pr         Konstantin Dmitrievich    Kantemir                                 (1698-1747)
+		name=Konstantin
+		dynasty=1000005
+		religion=orthodox culture=russian
+		father=100086416	# PR Dimitrie Kantemir
+		1698.01.01={birth=yes}
+		1723.01.01={add_spouse=100016149}	# Anastasia Golizyn
+		1747.01.19={death=yes}
+	}
+	100086423={ # Pss        Jekaterina Dmitrievna     Kantemir                                 (1720-1761)
+		name=Jekaterina
+		female=yes
+		dynasty=1000005
+		religion=orthodox culture=russian
+		father=100086416	# PR Dimitrie Kantemir
+		mother=100017135	# Anastasia Trubetzkoy
+		1720.11.04={birth=yes}
+		1761.11.02={death=yes}
+	}
+		
