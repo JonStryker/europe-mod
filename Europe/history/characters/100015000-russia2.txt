@@ -2,36 +2,2670 @@
 ##  100015150-100015151		Demidov                                     1010007
 ##  100015175-100015507		Dolgorukov                                  1010006
 ##  100015850-100016302		Golizyn                                     1010005
-##  100017475-xxx			Sheremetev                                  1010012
 ##  100017125-100017461		Trubetzkoy                                  1010004
-###########################################################
+##  100017475-100017592		Apraxin                                     1010013
+##  100017600-100017781		Saltykov                                    1010013
+#################################################################################################
 
 
-##  100017475-xxx			Sheremetev                                  1010012
-
-##  100017475-xxx			Sheremetev                                  1010012
-
-
-##					Demidov				1010007
-100015151={ # Pawel Demidov (1846-1885); m.21 May 1871 Jelena Trubetzkoy (25 Sep 1853-28 Jul 1918) %%
-	name=Pawel
-	dynasty=1010007
+##  100017600-100017781		Saltykov                                    1010013
+100017601={ # Mikhail (b.1480)
+	name=Mikhail
+	dynasty=1010015
 	religion=orthodox culture=russian
-	1846.01.01={birth=yes}
-	1871.05.21={add_spouse=100017224}	# Jelena Trubetzkoy
-	1885.01.01={death=yes}
+	1480.01.01={birth=yes}
+	1555.01.01={death=yes}
 }
-	100015150={ # Aurora (15 Nov 1873-28 Jun 1904); m.1 May 1892 Arsen Karaðorðevic (16 Apr 1859-19 Oct 1938) %%
-		name=Aurora
-		female=yes
-		dynasty=1010007
-		religion=orthodox culture=serbian
-		father=100015151	# Pawel Demidov
-		mother=100017224	# Jelena Trubetzkoy
-		1873.11.15={birth=yes}
-		1904.06.28={death=yes}
+	100017602={ # 2a) Ignati (b.1510)
+		name=Ignati
+		dynasty=1010015
+		religion=orthodox culture=russian
+		father=100017601	# Mikhail Saltykov
+		1510.01.01={birth=yes}
+		1585.01.01={death=yes}
 	}
-##					Demidov				1010007
+		100017603={ # 1b) Mikhail (d.1600)
+			name=Mikhail
+			dynasty=1010015
+			religion=orthodox culture=russian
+			father=100017602	# Ignati Saltykov
+			1530.01.01={birth=yes}
+			1600.01.01={death=yes}
+		}
+			100017604={ # 1c) Mikhail (1575-1608); m.1599 Jekaterina Andreievna Mikhalkov (d.after 1623)
+				name=Mikhail
+				dynasty=1010015
+				religion=orthodox culture=russian
+				father=100017603	# Mikhail Saltykov
+				1575.01.01={birth=yes}
+				1599.01.01={add_spouse=100080135}	# Jekaterina Andreievna Mikhalkov
+				1608.01.01={death=yes}
+			}
+				100017605={ # 2d) Mikhail, d.3 Oct 1671; m.Praskovia Ivanovna N
+					name=Mikhail
+					dynasty=1010015
+					religion=orthodox culture=russian
+					father=100017604	# Mikhail Saltykov
+					mother=100080135	# Jekaterina Andreievna Mikhalkov
+					1601.01.01={birth=yes}  # EST.
+					1671.10.03={death=yes}
+				}
+					100017656={ # 2e) Maria, d.3 May 1685; m.Pr Ivan Khovansky
+						name=Maria
+						female=yes
+						dynasty=1010015
+						religion=orthodox culture=russian
+						father=100017605	# Mikhail Saltykov
+						1615.01.01={birth=yes}
+						1685.05.03={death=yes}
+					}
+					100017606={ # 1e) Pjotr, d.5 Jul 1690; m.Jelena Wassilievna N
+						name=Pjotr
+						dynasty=1010015
+						religion=orthodox culture=russian
+						father=100017605	# Mikhail Saltykov
+						1620.01.01={birth=yes}
+						1690.07.05={death=yes}
+					}
+						100017650={ # 3f) Pjotr, d.18 Apr 1700; m.Pss Marfa Ivanovna Prosorovsky (1658-23 Feb 1730)
+							name=Pjotr
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017606	# Pjotr Saltykov
+							1630.01.01={birth=yes}
+							1683.01.01={add_spouse=100097156}	# PSS Marfa Ivanovna Prosorovsky
+							1700.04.18={death=yes}
+						}
+							100017651={ # 1g) Aleksander, d.1725
+								name=Aleksander
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017650	# Pjotr Saltykov
+								mother=100097156	# PSS Marfa Ivanovna Prosorovsky
+								1684.01.01={birth=yes}  # EST.
+								1725.01.01={death=yes}
+							}
+							100017652={ # 2g) Anna (19 Aug 1686-22 Jul 1728); m.1st Lev Naryshkin (d.1705); m.2nd 13 Apr 1713 Ct Boris Cheremetev (d.1719)
+								name=Anna
+								female=yes
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017650	# Pjotr Saltykov
+								mother=100097156	# PSS Marfa Ivanovna Prosorovsky
+								1686.08.19={birth=yes}
+								1728.07.22={death=yes}
+							}
+							100017653={ # 3g) Irina, d.28 Apr 1716; m.Pr Pjotr Trojekurov (d.1740)
+								name=Irina
+								female=yes
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017650	# Pjotr Saltykov
+								mother=100097156	# PSS Marfa Ivanovna Prosorovsky
+								1693.01.01={birth=yes}  # EST.
+								1716.04.28={death=yes}
+							}
+							100017654={ # 4g) Mikhail (6 Sep 1693-8 Sep 1750); m.Css Jekaterina Mikhailovna Cheremetev (20 Nov 1707-21 Jan 1769)
+								name=Mikhail
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017650	# Pjotr Saltykov
+								mother=100097156	# PSS Marfa Ivanovna Prosorovsky
+								1693.09.06={birth=yes}
+								1718.01.01={add_spouse=100097160}	# CSS Jekaterina Mikhailovna Cheremetev
+								1750.09.08={death=yes}
+							}
+							100017655={ # 5g) Maria; m.Sergei Miloslavsky
+								name=Maria
+								female=yes
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017650	# Pjotr Saltykov
+								mother=100097156	# PSS Marfa Ivanovna Prosorovsky
+								1695.01.01={birth=yes}  # EST.
+								1770.01.01={death=yes}
+							}
+						100017624={ # 2f) Aleksei, d.after 1720; m.1679 Pss Natalia Romodanovsky
+							name=Aleksei
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017606	# Pjotr Saltykov
+							1651.01.01={birth=yes}
+							1679.01.01={add_spouse=100091010}	# PSS Natalia Romodanovsky
+							1721.01.01={death=yes}
+						}
+							100017625={ # 1g) Mikhail, d.Kazan 29 Aug 1723
+								name=Mikhail
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017624	# Aleksei Saltykov
+								mother=100091010	# PSS Natalia Romodanovsky
+								1681.01.01={birth=yes}  # EST.
+								1723.08.29={death=yes}  # Kazan
+							}
+							100017626={ # 2g) Mikhail; m.Pss Anastasia Petrovna Dolgoruky
+								name=Mikhail
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017624	# Aleksei Saltykov
+								mother=100091010	# PSS Natalia Romodanovsky
+								1683.01.01={birth=yes}  # EST.
+								1709.01.01={add_spouse=100093707}	# PSS Anastasia Petrovna Dolgoruky
+								1758.01.01={death=yes}
+							}
+								100017627={ # 1h) Maria (24 May 1710-18 Oct 1785); m.Aleksander Pushkin
+									name=Maria
+									female=yes
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017626	# Mikhail Saltykov
+									mother=100093707	# PSS Anastasia Petrovna Dolgoruky
+									1710.05.24={birth=yes}
+									1785.10.18={death=yes}
+								}
+								100017628={ # 2h) Mikhail (1720-d.after 1786); m.Bss Maria Petrovna Shafirov
+									name=Mikhail
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017626	# Mikhail Saltykov
+									mother=100093707	# PSS Anastasia Petrovna Dolgoruky
+									1720.01.01={birth=yes}
+									1745.01.01={add_spouse=100096927}	# BSS Maria Petrovna Shafirov
+									1787.01.01={death=yes}
+								}
+									100017629={ # 1i) Aleksander; m.Maria Sergeievna Woltschkov (4 Feb 1752-9 Feb 1805)
+										name=Aleksander
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017628	# Mikhail Saltykov
+										mother=100096927	# BSS Maria Petrovna Shafirov
+										1747.01.01={birth=yes}  # EST.
+										1777.01.01={add_spouse=100097079}	# Maria Sergeievna Volchkov
+										1822.01.01={death=yes}
+									}
+										100017630={ # 1j) Mikhail (10 Jun 1787-6 Apr 1851); m.Jelisaveta Richard
+											name=Mikhail
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017629	# Aleksander Saltykov
+											mother=100097079	# Maria Sergeievna Volchkov
+											1787.06.10={birth=yes}
+											1812.01.01={add_spouse=100097083}	# Jelisaveta Richard
+											1851.04.06={death=yes}
+										}
+											100017631={ # 1k) Mikhail; m.2nd Julia Jewgenievna Boratynsky
+												name=Mikhail
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017630	# Mikhail Saltykov
+												mother=100097083	# Jelisaveta Richard
+												1804.01.01={birth=yes}  # EST.
+												1825.01.01={add_spouse=100097088}	# Julia Jewgenievna Boratynsky
+												1879.01.01={death=yes}
+											}
+												100017632={ # 1l) Lev fl 1900
+													name="Lev fl"
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017631	# Mikhail Saltykov
+													mother=100097088	# Julia Jewgenievna Boratynsky
+													1826.01.01={birth=yes}  # EST.
+													1901.01.01={death=yes}
+												}
+												100017633={ # 2l) Aleksander (6 Oct 1828-Nice 13 May 1903); m.Sophia Jakowlevna Bologovsky (15 May 1838-18 Oct 1870)
+													name=Aleksander
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017631	# Mikhail Saltykov
+													mother=100097088	# Julia Jewgenievna Boratynsky
+													1828.10.06={birth=yes}
+													1853.01.01={add_spouse=100097093}	# Sophia Jakowlevna Bologovsky
+													1903.05.13={death=yes}  # Nice
+												}
+													100017634={ # 1m) Aleksander; m.1st Nadezhda Alekseievna Wojeikov; m.2nd N Stremukhov
+														name=Aleksander
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017633	# Aleksander Saltykov
+														mother=100097093	# Sophia Jakowlevna Bologovsky
+														1855.01.01={birth=yes}  # EST.
+														1880.01.01={add_spouse=100097095}	# Nadezhda Alekseievna Voeikov
+														1930.01.01={death=yes}
+													}
+													100017635={ # 4m) Sophia; m.Pjotr Petrovich Stremukhov
+														name=Sophia
+														female=yes
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017633	# Aleksander Saltykov
+														mother=100097093	# Sophia Jakowlevna Bologovsky
+														1857.01.01={birth=yes}  # EST.
+														1932.01.01={death=yes}
+													}
+												100017636={ # 3l) Mikhail (1830-1915)
+													name=Mikhail
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017631	# Mikhail Saltykov
+													mother=100097088	# Julia Jewgenievna Boratynsky
+													1830.01.01={birth=yes}
+													1915.01.01={death=yes}
+												}
+												100017637={ # 4l) Wladimir (1832-22 Feb 1896)
+													name=Wladimir
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017631	# Mikhail Saltykov
+													mother=100097088	# Julia Jewgenievna Boratynsky
+													1832.01.01={birth=yes}
+													1896.02.22={death=yes}
+												}
+											100017638={ # 2k) Sophia (20 Oct 1806-4 Mar 1888); m.1st 30 Oct 1825 Baron Anton Delwig (d.14 Jan 1831); m.2nd Sergei Boratynsky
+												name=Sophia
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017630	# Mikhail Saltykov
+												mother=100097083	# Jelisaveta Richard
+												1806.10.20={birth=yes}
+												1888.03.04={death=yes}
+											}
+										100017639={ # 2j) Jekaterina; m.Wassili Tschitscherin
+											name=Jekaterina
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017629	# Aleksander Saltykov
+											mother=100097079	# Maria Sergeievna Volchkov
+											1789.01.01={birth=yes}  # EST.
+											1864.01.01={death=yes}
+										}
+									100017640={ # 2i) Mikhail, d.1795
+										name=Mikhail
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017628	# Mikhail Saltykov
+										mother=100096927	# BSS Maria Petrovna Shafirov
+										1749.01.01={birth=yes}  # EST.
+										1795.01.01={death=yes}
+									}
+									100017641={ # 3i) Pjotr; m.Anastasia Jakowlevna N (12 Dec 1751-31 Dec 1838)
+										name=Pjotr
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017628	# Mikhail Saltykov
+										mother=100096927	# BSS Maria Petrovna Shafirov
+										1751.01.01={birth=yes}  # EST.
+										1826.01.01={death=yes}
+									}
+										100017642={ # 1j) [b.before marriage, legitimized 1801] Maria Borissov (1769-1842); m.Sergei Naumov
+											name=-
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017641	# Pjotr Saltykov
+											1769.01.01={birth=yes}
+											1794.01.01={add_spouse=100097149}	# Sergei Naumov
+											1844.01.01={death=yes}
+										}
+										100017648={ # 3j) Andrei (15 Mar 1779-15 Mar 1838); m.Maria Aleksandrovna Semjonov
+											name=Andrei
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017641	# Pjotr Saltykov
+											1779.03.15={birth=yes}
+											1804.01.01={add_spouse=100097154}	# Maria Aleksandrovna Semyonov
+											1838.03.15={death=yes}
+										}
+										100017643={ # 2j) [b.before marriage, legitimized 1801] Mikhail Borissov, d.1830; m.Daria Ivanovna N
+											name=)
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017641	# Pjotr Saltykov
+											1830.01.01={birth=yes}
+											1905.01.01={death=yes}
+										}
+											100017644={ # 1k) Mikhail (1815-1870)
+												name=Mikhail
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017643	# ) Saltykov
+												1815.01.01={birth=yes}
+												1870.01.01={death=yes}
+											}
+												100017645={ # 1l) Pjotr (5 Mar 1843-    ); m.1st 1863 (div 1879) Sophia Riesenkampff (31 Dec 1834-St.Petersburg 24 Mar 1875); m.2nd 1 Jun 1879 Css Maria Aleksandrovna de Witt
+													name=Pjotr
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017644	# Mikhail Saltykov
+													1843.03.05={birth=yes}
+													1863.01.01={add_spouse=100097151}	# Sophia Riesenkampff
+													1879.01.01={remove_spouse=100097151}
+													1879.06.01={add_spouse=100097152}	# CSS Maria Aleksandrovna de Witt
+													1918.01.01={death=yes}
+												}
+													100017646={ # 1m) Jekaterina (1880-    )
+														name=Jekaterina
+														female=yes
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017645	# Pjotr Saltykov
+														mother=100097152	# CSS Maria Aleksandrovna de Witt
+														1880.01.01={birth=yes}
+														1955.01.01={death=yes}
+													}
+													100017647={ # 2m) Olga; m.Jurij Kostritzyn
+														name=Olga
+														female=yes
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017645	# Pjotr Saltykov
+														mother=100097152	# CSS Maria Aleksandrovna de Witt
+														1882.01.01={birth=yes}  # EST.
+														1957.01.01={death=yes}
+													}
+								100017609={ # 3h) Pjotr; m.1739 Pss Natalia Alekseievna Golizyn (1706-1779)
+									name=Pjotr
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017626	# Mikhail Saltykov
+									mother=100093707	# PSS Anastasia Petrovna Dolgoruky
+									1722.01.01={birth=yes}  # EST.
+									1739.01.01={add_spouse=100016007}	# Natalia Golizyn
+									1797.01.01={death=yes}
+								}
+						100017607={ # 1f) Fjodr, d.15 May 1682; m.Pss Anna Wassilievna Golizyn
+							name=Fjodr
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017606	# Pjotr Saltykov
+							1612.01.01={birth=yes}
+							1674.01.01={add_spouse=100080193}	# PSS Anna Wassilievna Golizyn
+							1682.05.15={death=yes}
+						}
+							100017608={ # 1g) Wassili (1675-27 Apr 1751); m.1st Pss Anna Borisovna Dolgoruky; m.2nd Pss Maria Alekseievna Golizyn (d.14 Oct 1752)
+								name=Wassili
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017607	# Fjodr Saltykov
+								mother=100080193	# PSS Anna Wassilievna Golizyn
+								1675.01.01={birth=yes}
+								1700.01.01={add_spouse=100080194}	# PSS Anna Borisovna Dolgoruky
+								1725.02.01={remove_spouse=100080194}
+								1725.01.01={add_spouse=100016006}	# Maria Golizyn
+								1751.04.27={death=yes}
+							}
+								100517609={ # 1h) Pjotr; m.Pss Maria Feodorovna Sontzov-Zassekin (28 Jan 1738-2 Feb 1801)
+									name=Pjotr
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017608	# Wassili Saltykov
+									mother=100080194	# PSS Anna Borisovna Dolgoruky
+									1707.01.01={birth=yes}  # EST.
+									1763.01.01={add_spouse=100080196}	# PSS Maria Feodorovna Sontzov-Zassekin
+									1782.01.01={death=yes}
+								}
+									100017610={ # 1i) Wassili, d.18 Apr 1807; m.Pss Jewdokia Mikhailovna Belloselsky, d.31 Aug 1824
+										name=Wassili
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100517609	# Pjotr Saltykov
+										mother=100080196	# PSS Maria Feodorovna Sontzov-Zassekin
+										1765.01.01={birth=yes}  # EST.
+										1776.01.01={add_spouse=100080197}	# PSS Jewdokia Mikhailovna Belloselsky
+										1807.04.18={death=yes}
+									}
+										100017611={ # 1j) Sergei (1777-10 May 1846); m.Aleksandra Sergeievna Saltykov
+											name=Sergei
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017610	# Wassili Saltykov
+											mother=100080197	# PSS Jewdokia Mikhailovna Belloselsky
+											1777.01.01={birth=yes}
+											1802.01.01={add_spouse=100017762}	# Aleksandra Saltykov
+											1846.05.10={death=yes}
+										}
+											100017612={ # 1k) Anastasia (Moscow 21 Apr 1810-Sergeievsky 29 Jul 1853); m.8 May 1836 Christian von Munthe af Morgenstierne (d.Kristiania 20 May 1886)
+												name=Anastasia
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017611	# Sergei Saltykov
+												mother=100017762	# Aleksandra Saltykov
+												1810.04.21={birth=yes}  # Moscow
+												1853.07.29={death=yes}  # Sergeievsky
+											}
+											100017613={ # 2k) Mikhail (10 Dec 1814-12 Feb 1849)
+												name=Mikhail
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017611	# Sergei Saltykov
+												mother=100017762	# Aleksandra Saltykov
+												1814.12.10={birth=yes}
+												1849.02.12={death=yes}
+											}
+											100017614={ # 3k) Sergei, d.after 1896; m.Natalia Aleksandrovna Bezobrazov (26 Dec 1822-28 Nov 1895)
+												name=Sergei
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017611	# Sergei Saltykov
+												mother=100017762	# Aleksandra Saltykov
+												1816.01.01={birth=yes}  # EST.
+												1847.01.01={add_spouse=100080201}	# Natalia Aleksandrovna Bezobrazov
+												1897.01.01={death=yes}
+											}
+												100017615={ # 1l) Sergei (25 Mar 1852-31 Jan 1896); m.Maria Nikolaevna Bezobrazov
+													name=Sergei
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017614	# Sergei Saltykov
+													mother=100080201	# Natalia Aleksandrovna Bezobrazov
+													1852.03.25={birth=yes}
+													1877.01.01={add_spouse=100081048}	# Maria Nikolaevna Bezobrazov
+													1896.01.31={death=yes}
+												}
+											100017616={ # 4k) Natalia; m.Aleksander Sherebtzov
+												name=Natalia
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017611	# Sergei Saltykov
+												mother=100017762	# Aleksandra Saltykov
+												1818.01.01={birth=yes}  # EST.
+												1893.01.01={death=yes}
+											}
+											100017617={ # 5k) Sophia; m.N Skopin
+												name=Sophia
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017611	# Sergei Saltykov
+												mother=100017762	# Aleksandra Saltykov
+												1820.01.01={birth=yes}  # EST.
+												1895.01.01={death=yes}
+											}
+											100017618={ # 6k) Aleksandra, d.Moscow 15 Feb 1904; m.Nikolai van Wijck (d.21 Dec 1902)
+												name=Aleksandra
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017611	# Sergei Saltykov
+												mother=100017762	# Aleksandra Saltykov
+												1822.01.01={birth=yes}  # EST.
+												1904.02.15={death=yes}  # Moscow
+											}
+								100017619={ # 2h) Agrafena (8 Jun 1709-11 Sep 1762); m.1726 Pr Aleksei Golizyn (d.1767)
+									name=Agrafena
+									female=yes
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017608	# Wassili Saltykov
+									mother=100080194	# PSS Anna Borisovna Dolgoruky
+									1709.06.08={birth=yes}
+									1762.09.11={death=yes}
+								}
+								100017620={ # 3h) Sergei; m.29 Dec 1749 Matriona Pavlovna Balk
+									name=Sergei
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017608	# Wassili Saltykov
+									mother=100080194	# PSS Anna Borisovna Dolgoruky
+									1711.01.01={birth=yes}  # EST.
+									1749.12.29={add_spouse=100086177}	# Matriona Pavlovna Balk
+									1786.01.01={death=yes}
+								}
+								100017621={ # 4h) Aleksander, d.1803; m.1st Nadezhda Schepelev; m.2nd Jekaterina Alekseievna Weljaminov-Zernov; m.3rd Jewdokia Tregubov
+									name="Aleksander _("
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017608	# Wassili Saltykov
+									mother=100080194	# PSS Anna Borisovna Dolgoruky
+									1713.01.01={birth=yes}  # EST.
+									1738.01.01={add_spouse=100088368}	# Jekaterina Alekseievna Velyaminov-Zernov
+									1746.01.01={add_spouse=100086917}	# Nadezhda Shepelev
+									1746.02.01={add_spouse=100086917}	# Nadezhda Shepelev
+									1748.01.01={add_spouse=100088448}	# Jewdokia Tregubov
+									1803.01.01={death=yes}
+								}
+									100017622={ # 1i) Maria (1747-1788); m.Nikolai Sergeievich Katynsky
+										name=Maria
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017621	# Aleksander  ( Saltykov
+										mother=100086917	# Nadezhda Shepelev
+										1747.01.01={birth=yes}
+										1788.01.01={death=yes}
+									}
+							100017623={ # 2g) Agrafena, d.after 1722; m.2 Feb 1701 Pr Ossip Stcherbatov (d.1765)
+								name=Agrafena
+								female=yes
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017607	# Fjodr Saltykov
+								mother=100080193	# PSS Anna Wassilievna Golizyn
+								1677.01.01={birth=yes}  # EST.
+								1723.01.01={death=yes}
+							}
+				100017657={ # 3d) Marfa, d.8 Feb 1637; m.Pr Jurij Suljeschov (d.1637)
+					name=Marfa
+					female=yes
+					dynasty=1010015
+					religion=orthodox culture=russian
+					father=100017604	# Mikhail Saltykov
+					mother=100080135	# Jekaterina Andreievna Mikhalkov
+					1603.01.01={birth=yes}  # EST.
+					1637.02.08={death=yes}
+				}
+	100017658={ # 3a) Ivan fl 1531
+		name="Ivan fl"
+		dynasty=1010015
+		religion=orthodox culture=russian
+		father=100017601	# Mikhail Saltykov
+		1512.01.01={birth=yes}  # EST.
+		1587.01.01={death=yes}
+	}
+		100017700={ # 2b) Gleb fl 1560
+			name="Gleb fl"
+			dynasty=1010015
+			religion=orthodox culture=russian
+			father=100017658	# Ivan fl Saltykov
+			1537.01.01={birth=yes}  # EST.
+			1612.01.01={death=yes}
+		}
+			100017701={ # 1c) Mikhail fl 1612; m.Pss Uliana Mikhailovna Zwenigorodsky
+				name=Mikhail
+				dynasty=1010015
+				religion=orthodox culture=russian
+				father=100017700	# Gleb fl Saltykov
+				1542.01.01={birth=yes}  # EST.
+				1542.01.01={add_spouse=100097199}	# PSS Uliana Mikhailovna Zwenigorodsky
+				1617.01.01={death=yes}
+			}
+				100017770={ # 3d) Ivan fl 1612
+					name=Ivan
+					dynasty=1010015
+					religion=orthodox culture=russian
+					father=100017701	# Mikhail Saltykov
+					mother=100097199	# PSS Uliana Mikhailovna Zwenigorodsky
+					1582.01.01={birth=yes}  # EST.
+					1657.01.01={death=yes}
+				}
+					100017778={ # 2e) Jurij fl 1692; m.1662 Agrafena Wassilievna Izmailov
+						name="Jurij _fl"
+						dynasty=1010015
+						religion=orthodox culture=russian
+						father=100017770	# Ivan Saltykov
+						1642.01.01={birth=yes}
+						1662.01.01={add_spouse=100097264}	# Agrafena Wassilievna Izmailov
+						1717.01.01={death=yes}
+					}
+					100017771={ # 1e) Stepan fl 1699
+						name="Stepan fl"
+						dynasty=1010015
+						religion=orthodox culture=russian
+						father=100017770	# Ivan Saltykov
+						1625.01.01={birth=yes}  # EST.
+						1700.01.01={death=yes}
+					}
+						100017773={ # 2f) Ivan, k.a.Narva 20 Feb 1700; m.1691 Pss Maria Ivanovna Kurakin (1675-6 Feb 1740)
+							name=Ivan
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017771	# Stepan fl Saltykov
+							1669.01.01={birth=yes}  # EST.
+							1691.01.01={add_spouse=100097261}	# PSS Maria Ivanovna Kurakin
+							1744.01.01={death=yes}
+						}
+							100017774={ # 1g) Pjotr (23 Sep 1694-27 May 1761); m.12 Mar 1733 Pss Praskovia Petrovna Golizyn (8 Oct 1706-4 Dec 1758)
+								name=Pjotr
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017773	# Ivan Saltykov
+								mother=100097261	# PSS Maria Ivanovna Kurakin
+								1694.09.23={birth=yes}
+								1733.03.12={add_spouse=100016132}	# Praskovia Golizyn
+								1761.05.27={death=yes}
+							}
+								100017775={ # 1h) Anna (23 Sep 1736-16 Feb 1758); m.26 Jan 1757 Pr Jurij Trubetzkoy (d.1811)
+									name=Anna
+									female=yes
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017774	# Pjotr Saltykov
+									mother=100016132	# Praskovia Golizyn
+									1736.09.23={birth=yes}
+									1758.02.16={death=yes}
+								}
+							100017776={ # 2g) Jewdokia (1697-1762)
+								name=Jewdokia
+								female=yes
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017773	# Ivan Saltykov
+								mother=100097261	# PSS Maria Ivanovna Kurakin
+								1697.01.01={birth=yes}
+								1762.01.01={death=yes}
+							}
+							100017777={ # 3g) Natalia (1698-1748)
+								name=Natalia
+								female=yes
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017773	# Ivan Saltykov
+								mother=100097261	# PSS Maria Ivanovna Kurakin
+								1698.01.01={birth=yes}
+								1748.01.01={death=yes}
+							}
+						100017772={ # 1f) Fjodr, d.England 1715; m.Ksenia Dmitrievna N
+							name=Fjodr
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017771	# Stepan fl Saltykov
+							1645.01.01={birth=yes}
+							1715.01.01={death=yes}  # England
+						}
+				100017779={ # 4d) Fjodr, d.1655
+					name=Fjodr
+					dynasty=1010015
+					religion=orthodox culture=russian
+					father=100017701	# Mikhail Saltykov
+					mother=100097199	# PSS Uliana Mikhailovna Zwenigorodsky
+					1585.01.01={birth=yes}
+					1655.01.01={death=yes}
+				}
+				100017703={ # 2d) Pjotr fl 1612
+					name=Pjotr
+					dynasty=1010015
+					religion=orthodox culture=russian
+					father=100017701	# Mikhail Saltykov
+					mother=100097199	# PSS Uliana Mikhailovna Zwenigorodsky
+					1576.01.01={birth=yes}  # EST.
+					1651.01.01={death=yes}
+				}
+					100017709={ # 2e) Samuil
+						name=Samuil
+						dynasty=1010015
+						religion=orthodox culture=russian
+						father=100017703	# Pjotr Saltykov
+						1603.01.01={birth=yes}  # EST.
+						1678.01.01={death=yes}
+					}
+						100017766={ # 2f) Ivan, k.a.19 Feb 1700; m.Pss Anastasia Petrovna Khovansky
+							name=Ivan
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017709	# Samuil Saltykov
+							1630.01.01={birth=yes}
+							1655.01.01={add_spouse=100097258}	# PSS Anastasia Petrovna Khovansky
+							1700.02.19={death=yes}
+						}
+						100017710={ # 1f) Pjotr fl 1712
+							name="Pjotr fl"
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017709	# Samuil Saltykov
+							1677.01.01={birth=yes}  # EST.
+							1752.01.01={death=yes}
+						}
+							100017711={ # 1g) Aleksei; m.1st Jekaterina Feodorovna Stroganov; m.2nd Pss Sophia Danilovna Tscherkassky
+								name=Aleksei
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017710	# Pjotr fl Saltykov
+								1702.01.01={birth=yes}  # EST.
+								1702.01.01={add_spouse=100097207}	# Jekaterina Feodorovna Stroganov
+								1727.01.01={add_spouse=100097208}	# PSS Sophia Danilovna Cherkassky
+								1777.01.01={death=yes}
+							}
+								100017750={ # 4h) Sophia; m.1731 Aleksei Tatistchev
+									name=Sophia
+									female=yes
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017711	# Aleksei Saltykov
+									mother=100097207	# Jekaterina Feodorovna Stroganov
+									1727.01.01={birth=yes}  # EST.
+									1802.01.01={death=yes}
+								}
+								100017746={ # 3h) Gleb, d.ca 1756; m.Daria Nikolaevna Ivanov (d.1801)
+									name=Gleb
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017711	# Aleksei Saltykov
+									mother=100097207	# Jekaterina Feodorovna Stroganov
+									1686.01.01={birth=yes}
+									1749.01.01={add_spouse=100097237}	# Daria Nikolaevna Ivanov
+									1756.01.01={death=yes}
+								}
+									100017747={ # 1i) Fjodr (1750-1801)
+										name=Fjodr
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017746	# Gleb Saltykov
+										mother=100097237	# Daria Nikolaevna Ivanov
+										1750.01.01={birth=yes}
+										1801.01.01={death=yes}
+									}
+									100017748={ # 2i) Nikolai, d.27 Jul 1775; m.Css Anastasia Feodorovna Golovin (1753-1818)
+										name=Nikolai
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017746	# Gleb Saltykov
+										mother=100097237	# Daria Nikolaevna Ivanov
+										1752.01.01={birth=yes}  # EST.
+										1778.01.01={add_spouse=100097238}	# CSS Anastasia Feodorovna Golovin
+										1775.07.27={death=yes}
+									}
+										100017749={ # 1j) Jelisaveta (1772-1852); m.Gabriel Cte de Raymond-Modène (d.13 May 1833)
+											name=Jelisaveta
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017748	# Nikolai Saltykov
+											mother=100097238	# CSS Anastasia Feodorovna Golovin
+											1772.01.01={birth=yes}
+											1852.01.01={death=yes}
+										}
+								100017742={ # 2h) Sergei; m.Vera Ivanovna Likhariev
+									name=Sergei
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017711	# Aleksei Saltykov
+									mother=100097207	# Jekaterina Feodorovna Stroganov
+									1721.01.01={birth=yes}  # EST.
+									1739.01.01={add_spouse=100097233}	# Vera Ivanovna Likhariev
+									1796.01.01={death=yes}
+								}
+									100017744={ # 2i) Natalia (27 Feb 1742-1801); m.Pr Nikolai Dolgoruky (d.1781)
+										name=Natalia
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017742	# Sergei Saltykov
+										mother=100097233	# Vera Ivanovna Likhariev
+										1742.02.27={birth=yes}
+										1801.01.01={death=yes}
+									}
+									100017745={ # 3i) Aleksandra (24 Nov 1743-2 Jun 1799); m.Pr Pjotr Urussov (d.1813)
+										name=Aleksandra
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017742	# Sergei Saltykov
+										mother=100097233	# Vera Ivanovna Likhariev
+										1743.11.24={birth=yes}
+										1799.06.02={death=yes}
+									}
+								100017712={ # 1h) Ivan, d.1773; m.Css Anastasia Petrovna Tolstoi
+									name=Ivan
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017711	# Aleksei Saltykov
+									mother=100097207	# Jekaterina Feodorovna Stroganov
+									1703.01.01={birth=yes}
+									1735.01.01={add_spouse=100097209}	# CSS Anastasia Petrovna Tolstoy
+									1773.01.01={death=yes}
+								}
+									100017713={ # 1i) Nikolai, 1790 Count Saltykov, 1814 Prince Saltykov (31 Oct 1736-24 Mar 1816); m.Pss Natalia Wladimirovna Dolgoruky (1737-7 Sep 1812)
+										name=Nikolai
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017712	# Ivan Saltykov
+										mother=100097209	# CSS Anastasia Petrovna Tolstoy
+										1736.10.31={birth=yes}
+										1761.01.01={add_spouse=100015421}	# Natalia Dolgorukov
+										1816.03.24={death=yes}
+									}
+										100017714={ # 1j) Dmitri (24 Jun 1767-14 Dec 1826); m.Anna Nikolaevna Leontiev (6 Jan 1776-10 Aug 1810)
+											name=Dmitri
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017713	# Nikolai Saltykov
+											mother=100015421	# Natalia Dolgorukov
+											1767.06.24={birth=yes}
+											1792.01.01={add_spouse=100097211}	# Anna Nikolaevna Leontiev
+											1826.12.14={death=yes}
+										}
+											100017715={ # 1k) Maria (22 Jul 1795-27 Dec 1823); m.Pr Nikolai Dolgoruky (d.1847)
+												name=Maria
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017714	# Dmitri Saltykov
+												mother=100097211	# Anna Nikolaevna Leontiev
+												1795.07.22={birth=yes}
+												1823.12.27={death=yes}	# Pisa
+											}
+											100017716={ # 2k) Ivan (1797-17 Dec 1832); m.Css Jelisaveta Pavlovna Stroganov (16 Nov 1802-11 Jun 1863)
+												name=Ivan
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017714	# Dmitri Saltykov
+												mother=100097211	# Anna Nikolaevna Leontiev
+												1797.01.01={birth=yes}
+												1822.01.01={add_spouse=100097213}	# CSS Jelisaveta Pavlovna Stroganov
+												1832.12.17={death=yes}
+											}
+												100017717={ # 1l) Nikolai (22 Jun 1830-3 Aug 1901); m.Pss Anna Sergeievna Dolgoruky
+													name=Nikolai
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017716	# Ivan Saltykov
+													mother=100097213	# CSS Jelisaveta Pavlovna Stroganov
+													1830.06.22={birth=yes}  # Sankt Petersburg
+													1855.01.01={add_spouse=100015294}	# Anna Dolgorukov
+													1901.08.03={death=yes}  # Sankt Petersburg
+												}
+													100017718={ # 1m) Jelisaveta (Paris 1 Apr 1868-Stockholm 13 May 1957); m.St.Petersburg 16 Jul 1893 Pr Aleksei Obolensky (d.Dresden 1933)
+														name=Jelisaveta
+														female=yes
+														dynasty=1010015
+														religion=orthodox culture=frankish
+														father=100017717	# Nikolai Saltykov
+														mother=100015294	# Anna Dolgorukov
+														1868.04.01={birth=yes}  # Paris
+														1957.05.13={death=yes}  # Stockholm
+													}
+													100017719={ # 2m) Ivan (15 May 1870-Nice 31 Aug 1941); m.Jekaterina Iljanitschna Bjeschetnikov
+														name=Ivan
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017717	# Nikolai Saltykov
+														mother=100015294	# Anna Dolgorukov
+														1870.05.15={birth=yes}
+														1895.01.01={add_spouse=100097216}	# Jekaterina Iljanitschna Bjeschetnikov
+														1941.08.31={death=yes}  # Nice
+													}
+													100017720={ # 4m) Anna (1872-Nice 11 May 1962); m.Aleksandr Lvov (d.1914)
+														name=Anna
+														female=yes
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017717	# Nikolai Saltykov
+														mother=100015294	# Anna Dolgorukov
+														1872.01.01={birth=yes}
+														1962.05.11={death=yes}  # Nice
+													}
+											100017721={ # 3k) Pjotr; m.Vera Feodorovna Stemkovsky (d.1836)
+												name=Pjotr
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017714	# Dmitri Saltykov
+												mother=100097211	# Anna Nikolaevna Leontiev
+												1799.01.01={birth=yes}  # EST.
+												1826.01.01={add_spouse=100097218}	# Vera Feodorovna Stemkovsky
+												1874.01.01={death=yes}
+											}
+												100017722={ # 1l) Dmitri (1827-    ); m.2 Oct 1865 Jelisaveta Ivanovna Jakowlev (d.1872)
+													name=Dmitri
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017721	# Pjotr Saltykov
+													mother=100097218	# Vera Feodorovna Stemkovsky
+													1827.01.01={birth=yes}
+													1865.10.02={add_spouse=100097219}	# Jelisaveta Ivanovna Jakowlev
+													1902.01.01={death=yes}
+												}
+													100017723={ # 1m) Aleksei, d.1893
+														name=Aleksei
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017722	# Dmitri Saltykov
+														mother=100097219	# Jelisaveta Ivanovna Jakowlev
+														1867.01.01={birth=yes}  # EST.
+														1893.01.01={death=yes}
+													}
+													100017724={ # 2m) Vera
+														name=Vera
+														female=yes
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017722	# Dmitri Saltykov
+														mother=100097219	# Jelisaveta Ivanovna Jakowlev
+														1869.01.01={birth=yes}  # EST.
+														1944.01.01={death=yes}
+													}
+												100017726={ # 3l) Natalia (29 Dec 1829-23 Mar 1860); m.1852 Wassili Kotchubey (d.1897)
+													name=Natalia
+													female=yes
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017721	# Pjotr Saltykov
+													mother=100097218	# Vera Feodorovna Stemkovsky
+													1829.12.29={birth=yes}
+													1860.03.23={death=yes}
+												}
+										100017728={ # 2j) Aleksander, d.27 Jan 1837; m.Css Natalia Jurievna Golovkin (17 Aug 1787-6 Apr 1860)
+											name=Aleksander
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017713	# Nikolai Saltykov
+											mother=100015421	# Natalia Dolgorukov
+											1769.01.01={birth=yes}  # EST.
+											1812.01.01={add_spouse=100097221}	# CSS Natalia Jurievna Golovkin
+											1837.01.27={death=yes}
+										}
+											100017729={ # 1k) Jelena (St.Petersburg 21 Jan 1802- St.Petersburg 25 May 1828); m. St.Petersburg 23 May 1821 Pr Nikolai Golizyn (d.1866)
+												name=Jelena
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017728	# Aleksander Saltykov
+												mother=100097221	# CSS Natalia Jurievna Golovkin
+												1802.01.21={birth=yes}  # St.Petersburg
+												1828.05.25={death=yes}  # St.Petersburg
+											}
+											100017730={ # 2k) Jekaterina (1803-2 Mar 1852); m.Pr Ilja Dolgoruky (d.1848)
+												name=Jekaterina
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017728	# Aleksander Saltykov
+												mother=100097221	# CSS Natalia Jurievna Golovkin
+												1803.01.01={birth=yes}
+												1852.03.02={death=yes}
+											}
+											100017731={ # 3k) Sophia (17 Sep 1806-Venice 29 Jan 1841); m.24 Apr 1825 Ct Grigori Shuvalov (d.Paris 1859)
+												name=Sophia
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017728	# Aleksander Saltykov
+												mother=100097221	# CSS Natalia Jurievna Golovkin
+												1806.09.17={birth=yes}
+												1841.01.29={death=yes}  # Venice
+											}
+											100017732={ # 4k) Maria, d.1845; m.1825 Boguslav Pototzky
+												name=Maria
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017728	# Aleksander Saltykov
+												mother=100097221	# CSS Natalia Jurievna Golovkin
+												1807.01.01={birth=yes}  # EST.
+												1845.01.01={death=yes}
+											}
+											100017734={ # 6k) Aleksei, 1862 Prince Saltykov-Golovkin (22 Aug 1824-5 Nov 1874); m.Vera Ivanovna Ljushin (1 Dec 1832-22 Aug 1885)
+												name=Aleksei
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017728	# Aleksander Saltykov
+												mother=100097221	# CSS Natalia Jurievna Golovkin
+												1824.08.22={birth=yes}
+												1849.01.01={add_spouse=100097226}	# Vera Ivanovna Ljushin
+												1874.11.05={death=yes}
+											}
+												100017735={ # 1l) Jekaterina, 1874 Pss Saltykov-Golovkin, d.24 Jun 1914
+													name=Jekaterina
+													female=yes
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017734	# Aleksei Saltykov
+													mother=100097226	# Vera Ivanovna Ljushin
+													1851.01.01={birth=yes}  # EST.
+													1914.06.24={death=yes}
+												}
+										100017736={ # 3j) Sergei, d.25 Apr 1828; m.Pss Jekaterina Wassilievna Dolgoruky (23 Apr 1791-18 Feb 1863)
+											name=Sergei
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017713	# Nikolai Saltykov
+											mother=100015421	# Natalia Dolgorukov
+											1771.01.01={birth=yes}  # EST.
+											1816.01.01={add_spouse=100015478}	# Ekaterina Dolgorukov
+											1828.04.25={death=yes}
+										}
+									100017737={ # 2i) Maria (23 Jan 1738-5 May 1807); m.Sergei Wassilievich Naryshkin
+										name=Maria
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017712	# Ivan Saltykov
+										mother=100097209	# CSS Anastasia Petrovna Tolstoy
+										1738.01.23={birth=yes}
+										1807.05.05={death=yes}
+									}
+									100017738={ # 3i) Anna; m.Mikhail Mussin-Pushkin
+										name=Anna
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017712	# Ivan Saltykov
+										mother=100097209	# CSS Anastasia Petrovna Tolstoy
+										1740.01.01={birth=yes}  # EST.
+										1815.01.01={death=yes}
+									}
+									100017739={ # 4i) Aleksei; m.Pss Jekaterina Borisovna Golizyn (1748-    )
+										name=Aleksei
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017712	# Ivan Saltykov
+										mother=100097209	# CSS Anastasia Petrovna Tolstoy
+										1742.01.01={birth=yes}  # EST.
+										1773.01.01={add_spouse=100016043}	# Ekaterina Golizyn
+										1817.01.01={death=yes}
+									}
+									100017740={ # 5i) Aleksandra; m.Sergei Glebov
+										name=Aleksandra
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017712	# Ivan Saltykov
+										mother=100097209	# CSS Anastasia Petrovna Tolstoy
+										1744.01.01={birth=yes}  # EST.
+										1819.01.01={death=yes}
+									}
+									100017741={ # 6i) Natalia, d.28 Dec 1789; m.Aleksei Petrovich Melgunov
+										name=Natalia
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017712	# Ivan Saltykov
+										mother=100097209	# CSS Anastasia Petrovna Tolstoy
+										1746.01.01={birth=yes}  # EST.
+										1789.12.28={death=yes}
+									}
+							100017751={ # 2g) Anna, d.1771; m.1st Ct Aleksander Golovin; m.2nd 1736 Pr Aleksander Bariatinsky
+								name=Anna
+								female=yes
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017710	# Pjotr fl Saltykov
+								1704.01.01={birth=yes}  # EST.
+								1771.01.01={death=yes}
+							}
+							100017752={ # 3g) Nikolai (1704-15 May 1755); m.1st Jewdokia Matweievna Golovin; m.2nd Pss Anna Jakowlevna Golizyn (1721-1771)
+								name=Nikolai
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017710	# Pjotr fl Saltykov
+								1704.01.01={birth=yes}
+								1729.01.01={add_spouse=100097243}	# Jewdokia Matweievna Golovin
+								1740.02.01={remove_spouse=100097243}
+								1741.01.01={add_spouse=100015983}	# Anna Golizyn
+								1755.05.15={death=yes}
+							}
+								100017753={ # 1h) Nikolai (1734-22 Nov 1805); m.Pss Maria Jakowlevna Shakhovsky (1741-13 Nov 1829)
+									name=Nikolai
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017752	# Nikolai Saltykov
+									mother=100097243	# Jewdokia Matweievna Golovin
+									1734.01.01={birth=yes}
+									1759.01.01={add_spouse=100097245}	# PSS Maria Jakowlevna Shakhovsky
+									1805.11.22={death=yes}
+								}
+									100017754={ # 1i) Aleksandra (1764-4 May 1829); m.Pr Jakow Lobanov-Rostovsky (d.1831)
+										name=Aleksandra
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017753	# Nikolai Saltykov
+										mother=100097245	# PSS Maria Jakowlevna Shakhovsky
+										1764.01.01={birth=yes}
+										1829.05.04={death=yes}
+									}
+									100017755={ # 2i) Jelisaveta (12 Sep 1777-9 Aug 1855); m.Pr Andrei Dolgoruky (d.1834)
+										name=Jelisaveta
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017753	# Nikolai Saltykov
+										mother=100097245	# PSS Maria Jakowlevna Shakhovsky
+										1777.09.12={birth=yes}
+										1855.08.09={death=yes}
+									}
+									100017756={ # 3i) Warwara (1781-Montpellier 5 Aug 1841); m.Pjotr Balk-Poljev (d.1849)
+										name=Warwara
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017753	# Nikolai Saltykov
+										mother=100097245	# PSS Maria Jakowlevna Shakhovsky
+										1781.01.01={birth=yes}
+										1841.08.05={death=yes}  # Montpellier
+									}
+								100017757={ # 2h) Jewdokia; m.Pr Aleksander Nikolaevich Zassekin
+									name=Jewdokia
+									female=yes
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017752	# Nikolai Saltykov
+									mother=100097243	# Jewdokia Matweievna Golovin
+									1737.01.01={birth=yes}  # EST.
+									1812.01.01={death=yes}
+								}
+								100017758={ # 3h) Natalia; m.Mikhail Wolynsky
+									name=Natalia
+									female=yes
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017752	# Nikolai Saltykov
+									mother=100097243	# Jewdokia Matweievna Golovin
+									1741.01.01={birth=yes}  # EST.
+									1816.01.01={death=yes}
+								}
+								100017759={ # 4h) Sergei, d.after 1786; m.Css Anastasia Feodorovna Golovin (16 Dec 1753-15 Jul 1818)
+									name=Sergei
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017752	# Nikolai Saltykov
+									mother=100097243	# Jewdokia Matweievna Golovin
+									1745.01.01={birth=yes}  # EST.
+									1778.01.01={add_spouse=100097238}	# CSS Anastasia Feodorovna Golovin
+									1787.01.01={death=yes}
+								}
+									100017760={ # 1i) Jelena (22 Oct 1781-9 Sep 1811); m.1810 Aleksei Nikolaevich Mordvinov
+										name=Jelena
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017759	# Sergei Saltykov
+										mother=100097238	# CSS Anastasia Feodorovna Golovin
+										1781.10.22={birth=yes}
+										1811.09.09={death=yes}
+									}
+									100017761={ # 2i) Nikolai (6 Mar 1786-3 Jan 1836); m.25 Jan 1806 Pss Aleksandra Alekseievna Kurakin (3 Feb 1789-12 Apr 1869)
+										name=Nikolai
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017759	# Sergei Saltykov
+										mother=100097238	# CSS Anastasia Feodorovna Golovin
+										1786.03.06={birth=yes}
+										1806.01.25={add_spouse=100097253}	# PSS Aleksandra Alekseievna Kurakin
+										1836.01.03={death=yes}
+									}
+									100017762={ # 3i) Aleksandra; m.26 Jan 1807 Sergei Saltykov (d.1846)
+										name=Aleksandra
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017759	# Sergei Saltykov
+										mother=100097238	# CSS Anastasia Feodorovna Golovin
+										1788.01.01={birth=yes}  # EST.
+										1863.01.01={death=yes}
+									}
+									100017763={ # 4i) Warwara, d.5 Aug 1810; m.Dmitri Nikolaevich Dologovskoy
+										name=Warwara
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017759	# Sergei Saltykov
+										mother=100097238	# CSS Anastasia Feodorovna Golovin
+										1790.01.01={birth=yes}  # EST.
+										1810.08.05={death=yes}
+									}
+								100017764={ # 5h) Maria, d.1788; m.Pr Mikhail Kozlovsky (d.1797)
+									name=Maria
+									female=yes
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017752	# Nikolai Saltykov
+									mother=100097243	# Jewdokia Matweievna Golovin
+									1749.01.01={birth=yes}  # EST.
+									1788.01.01={death=yes}
+								}
+								100017765={ # 6h) Warwara (25 Oct 1749-16 Nov 1843); m.Ct Sergei Pavlovich Jagushinsky (d.1806)
+									name=Warwara
+									female=yes
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017752	# Nikolai Saltykov
+									mother=100097243	# Jewdokia Matweievna Golovin
+									1749.10.25={birth=yes}
+									1843.11.16={death=yes}
+								}
+					100017704={ # 1e) Aleksander, d.4 Feb 1697; m.1st Jekaterina Ivanovna N; m.2nd Anna Mikhailovna Tatistchev
+						name="Aleksander _("
+						dynasty=1010015
+						religion=orthodox culture=russian
+						father=100017703	# Pjotr Saltykov
+						1627.01.01={birth=yes}
+						1652.01.01={add_spouse=100097201}	# Anna Mikhailovna Tatistchev
+						1697.02.04={death=yes}
+					}
+						100017705={ # 1f) Praskovia (12 Oct 1664-13 Oct 1723); m.23 Jan 1685 Tsar Ivan V of Russia (d.1696)
+							name=Praskovia
+							female=yes
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017704	# Aleksander  ( Saltykov
+							mother=100097201	# Anna Mikhailovna Tatistchev
+							1664.10.12={birth=yes}
+							1723.10.13={death=yes}
+						}
+						100017706={ # 2f) Wassili, 1730 Count Saltykov (7 Mar 1672-5 Oct 1730); m.1st Pss Agrafena Petrovna Prosorovsky (d.8 Jan 1707); m.2nd Pss Aleksandra Grigorievn Dolgoruky
+							name=Wassili
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017704	# Aleksander  ( Saltykov
+							mother=100097201	# Anna Mikhailovna Tatistchev
+							1672.03.07={birth=yes}
+							1697.01.01={add_spouse=100097203}	# PSS Agrafena Petrovna Prosorovsky
+							1697.02.01={remove_spouse=100097203}
+							1730.10.05={death=yes}
+						}
+						100017707={ # 3f) Anastasia, d.2 Sep 1735; m.Pr Ivan Feodorovich Romodanovsky (d.1730)
+							name=Anastasia
+							female=yes
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017704	# Aleksander  ( Saltykov
+							mother=100097201	# Anna Mikhailovna Tatistchev
+							1674.01.01={birth=yes}  # EST.
+							1735.09.02={death=yes}
+						}
+						100017708={ # 4f) Feodosia; m.Ivan Wassilievich Kassimovsky (d.1715)
+							name=Feodosia
+							female=yes
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017704	# Aleksander  ( Saltykov
+							mother=100097201	# Anna Mikhailovna Tatistchev
+							1676.01.01={birth=yes}  # EST.
+							1751.01.01={death=yes}
+						}
+				100017780={ # 5d) dau; m.Pr Jurij Trubetzkoy
+					name=Anna
+					female=yes
+					dynasty=1010015
+					religion=orthodox culture=russian
+					father=100017701	# Mikhail Saltykov
+					mother=100097199	# PSS Uliana Mikhailovna Zwenigorodsky
+					1547.01.01={birth=yes}  # EST.
+					1622.01.01={death=yes}
+				}
+		100017659={ # 1b) Boris, d.1555
+			name=Boris
+			dynasty=1010015
+			religion=orthodox culture=russian
+			father=100017658	# Ivan fl Saltykov
+			1485.01.01={birth=yes}
+			1555.01.01={death=yes}
+		}
+			100017660={ # 1c) Dmitri fl 1585
+				name="Dmitri fl"
+				dynasty=1010015
+				religion=orthodox culture=russian
+				father=100017659	# Boris Saltykov
+				1537.01.01={birth=yes}  # EST.
+				1612.01.01={death=yes}
+			}
+				100017661={ # 1d) Lawrenti, d.1660; m.Jelena Tschebukov
+					name=Lawrenti
+					dynasty=1010015
+					religion=orthodox culture=russian
+					father=100017660	# Dmitri fl Saltykov
+					1590.01.01={birth=yes}
+					1615.01.01={add_spouse=100097164}	# Jelena Chebukov
+					1660.01.01={death=yes}
+				}
+					100017699={ # 2e) Anna; m.Pr Anastasij Makidonsky (d.1672)
+						name=Anna
+						female=yes
+						dynasty=1010015
+						religion=orthodox culture=russian
+						father=100017661	# Lawrenti Saltykov
+						mother=100097164	# Jelena Chebukov
+						1615.01.01={birth=yes}  # EST.
+						1690.01.01={death=yes}
+					}
+					100017662={ # 1e) Ivan; m.Daria Wojekov
+						name=Ivan
+						dynasty=1010015
+						religion=orthodox culture=russian
+						father=100017661	# Lawrenti Saltykov
+						mother=100097164	# Jelena Chebukov
+						1615.01.01={birth=yes}  # EST.
+						1640.01.01={add_spouse=100097165}	# Daria Voeikov
+						1690.01.01={death=yes}
+					}
+						100017663={ # 1f) Andrei fl 1682
+							name="Andrei fl"
+							dynasty=1010015
+							religion=orthodox culture=russian
+							father=100017662	# Ivan Saltykov
+							mother=100097165	# Daria Voeikov
+							1643.01.01={birth=yes}  # EST.
+							1718.01.01={death=yes}
+						}
+							100017664={ # 1g) Semjon, 1733 Count Saltykov (10 Apr 1672-1 Oct 1742); m.Fekla Jakowlevna Wolynsky
+								name=Semjon
+								dynasty=1010015
+								religion=orthodox culture=russian
+								father=100017663	# Andrei fl Saltykov
+								1672.04.10={birth=yes}
+								1697.01.01={add_spouse=100097166}	# Fekla Jakowlevna Wolynsky
+								1742.10.01={death=yes}
+							}
+								100017665={ # 1h) Pjotr (11 Dec 1698-26 Dec 1772); m.Pss Praskovia Jurievna Trubetzkoy (d.1767)
+									name=Pjotr
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017664	# Semjon Saltykov
+									mother=100097166	# Fekla Jakowlevna Wolynsky
+									1698.12.11={birth=yes}
+									1723.01.01={add_spouse=100017138}	# Praskovia Trubetzkoy
+									1772.12.26={death=yes}
+								}
+									100017672={ # 3i) Anastasia (26 Nov 1731-24 Mar 1830); m.Pjotr Kwaschnin-Samarin (d.19 Oct 1815)
+										name=Anastasia
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017665	# Pjotr Saltykov
+										mother=100017138	# Praskovia Trubetzkoy
+										1731.11.26={birth=yes}
+										1830.03.24={death=yes}
+									}
+									100017666={ # 1i) Warwara; m.4 Nov 1754 Pr Wassili Golizyn
+										name=Warwara
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017665	# Pjotr Saltykov
+										mother=100017138	# Praskovia Trubetzkoy
+										1737.01.01={birth=yes}  # EST.
+										1812.01.01={death=yes}
+									}
+									100017667={ # 2i) Ivan (29 Jun 1739-14 Nov 1805); m.Css Daria Petrovna Tschernyschev (1739-23 Dec 1802)
+										name=Ivan
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017665	# Pjotr Saltykov
+										mother=100017138	# Praskovia Trubetzkoy
+										1739.06.29={birth=yes}
+										1764.01.01={add_spouse=100097169}	# CSS Daria Petrovna Chernyshev
+										1805.11.14={death=yes}
+									}
+										100017668={ # 1j) Praskovia (7 May 1771-11 Dec 1859); m.1795 Pjotr Mjatljev (d.15 Feb 1833)
+											name=Praskovia
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017667	# Ivan Saltykov
+											mother=100097169	# CSS Daria Petrovna Chernyshev
+											1771.05.07={birth=yes}
+											1859.12.11={death=yes}
+										}
+										100017669={ # 2j) Jekaterina (1776-19 Nov 1815); m.Johann Kruber (d.Moscow 1826)
+											name=Jekaterina
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017667	# Ivan Saltykov
+											mother=100097169	# CSS Daria Petrovna Chernyshev
+											1776.01.01={birth=yes}
+											1815.11.19={death=yes}
+										}
+										100017670={ # 3j) Anna (1777-5 Dec 1824); m.Ct Grigori Orlov (d.23 Jun 1826)
+											name=Anna
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017667	# Ivan Saltykov
+											mother=100097169	# CSS Daria Petrovna Chernyshev
+											1777.01.01={birth=yes}
+											1824.12.05={death=yes}
+										}
+										100017671={ # 4j) Pjotr (1784-1813)
+											name=Pjotr
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017667	# Ivan Saltykov
+											mother=100097169	# CSS Daria Petrovna Chernyshev
+											1784.01.01={birth=yes}
+											1813.01.01={death=yes}
+										}
+									100017673={ # 4i) Jekaterina (2 Oct 1743-13 Oct 1816); m.Ct Andrei Shuvalov (d.1789)
+										name=Jekaterina
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017665	# Pjotr Saltykov
+										mother=100017138	# Praskovia Trubetzkoy
+										1743.10.02={birth=yes}
+										1816.10.13={death=yes}
+									}
+								100017674={ # 2h) Wladimir (6 Aug 1705-5 Jan 1751); m.Pss Jekaterina Alekseievna Trojekurov
+									name=Wladimir
+									dynasty=1010015
+									religion=orthodox culture=russian
+									father=100017664	# Semjon Saltykov
+									mother=100097166	# Fekla Jakowlevna Wolynsky
+									1705.08.06={birth=yes}
+									1730.01.01={add_spouse=100097175}	# PSS Jekaterina Alekseievna Trojekurov
+									1751.01.05={death=yes}
+								}
+									100017675={ # 1i) Pjotr fl 1806
+										name="Pjotr fl"
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017674	# Wladimir Saltykov
+										mother=100097175	# PSS Jekaterina Alekseievna Trojekurov
+										1728.01.01={birth=yes}  # EST.
+										1803.01.01={death=yes}
+									}
+										100017676={ # 1k) Pjotr (23 Dec 1809-    )
+											name=Pjotr
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017675	# Pjotr fl Saltykov
+											1809.12.23={birth=yes}
+											1884.01.01={death=yes}
+										}
+										100017677={ # 2k) Grigori (2 May 1811-8 Aug 1870)
+											name=Grigori
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017675	# Pjotr fl Saltykov
+											1811.05.02={birth=yes}
+											1870.08.08={death=yes}
+										}
+									100017678={ # 2i) Aleksei (1730-1802); m.Jekaterina Aleksandrovna Zagriajsky (d.18 Aug 1842)
+										name=Aleksei
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017674	# Wladimir Saltykov
+										mother=100097175	# PSS Jekaterina Alekseievna Trojekurov
+										1730.01.01={birth=yes}
+										1755.01.01={add_spouse=100097176}	# Jekaterina Aleksandrovna Zagriaysky
+										1802.01.01={death=yes}
+									}
+										100017679={ # 1j) Grigori (1776-14 Feb 1829); m.Jekaterina Aleksandrovna Chereskov
+											name=Grigori
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017678	# Aleksei Saltykov
+											mother=100097176	# Jekaterina Aleksandrovna Zagriaysky
+											1776.01.01={birth=yes}
+											1801.01.01={add_spouse=100097177}	# Jekaterina Aleksandrovna Chereskov
+											1829.02.14={death=yes}
+										}
+											100017680={ # 1k) Lev (13 Jan 1802-18 Jan 1857); m.15 Apr 1827 Pss Jekaterina Mikhailovna Golizyn (29 Sep 1808-9 Dec 1882)
+												name=Lev
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017679	# Grigori Saltykov
+												mother=100097177	# Jekaterina Aleksandrovna Chereskov
+												1802.01.13={birth=yes}
+												1827.04.15={add_spouse=100097178}	# PSS Jekaterina Mikhailovna Golizyn
+												1857.01.18={death=yes}
+											}
+												100017681={ # 1l) Lev
+													name=Lev
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017680	# Lev Saltykov
+													mother=100097178	# PSS Jekaterina Mikhailovna Golizyn
+													1833.01.01={birth=yes}  # EST.
+													1908.01.01={death=yes}
+												}
+												100017682={ # 2l) Natalia, d.by 1910; m.N Messaroche
+													name=Natalia
+													female=yes
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017680	# Lev Saltykov
+													mother=100097178	# PSS Jekaterina Mikhailovna Golizyn
+													1835.01.01={birth=yes}  # EST.
+													1910.01.01={death=yes}
+												}
+												100017683={ # 3l) Aleksei (12 Aug 1835-17 Jan 1855)
+													name=Aleksei
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017680	# Lev Saltykov
+													mother=100097178	# PSS Jekaterina Mikhailovna Golizyn
+													1835.08.12={birth=yes}
+													1855.01.17={death=yes}
+												}
+												100017684={ # 4l) Aleksander, d.Kaluga 12 Feb 1903; m.9 May 1871 Maria Sergeievna Buturlin (d.Moscow 15 Aug 1915)
+													name=Aleksander
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017680	# Lev Saltykov
+													mother=100097178	# PSS Jekaterina Mikhailovna Golizyn
+													1837.01.01={birth=yes}  # EST.
+													1871.05.09={add_spouse=100097180}	# Maria Sergeievna Buturlin
+													1903.02.12={death=yes}  # Kaluga
+												}
+													100017685={ # 1m) Aleksander (1872-Paris 5 Jul 1940); m.Paris 4 Dec 1934 Pss Warwara Wassilievna Obolensky (Moscow 10 Apr 1872-Brussels 9 Aug 1952)
+														name=Aleksander
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017684	# Aleksander Saltykov
+														mother=100097180	# Maria Sergeievna Buturlin
+														1872.01.01={birth=yes}
+														1934.12.04={add_spouse=100016748}	# Warwara Obolensky
+														1940.07.05={death=yes}  # Paris
+													}
+													100017686={ # 2m) Lev, d.24 Oct 1942; m.Aleksandra Mikhailovna Tzwjetkov
+														name=Lev
+														dynasty=1010015
+														religion=orthodox culture=russian
+														father=100017684	# Aleksander Saltykov
+														mother=100097180	# Maria Sergeievna Buturlin
+														1874.01.01={birth=yes}  # EST.
+														1899.01.01={add_spouse=100097182}	# Aleksandra Mikhailovna Tzwjetkov
+														1942.10.24={death=yes}
+													}
+												100017687={ # 5l) Mikhail
+													name=Mikhail
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017680	# Lev Saltykov
+													mother=100097178	# PSS Jekaterina Mikhailovna Golizyn
+													1840.01.01={birth=yes}  # EST.
+													1915.01.01={death=yes}
+												}
+												100017688={ # 6l) Sophia (26 Feb 1840-29 Mar 1895)
+													name=Sophia
+													female=yes
+													dynasty=1010015
+													religion=orthodox culture=russian
+													father=100017680	# Lev Saltykov
+													mother=100097178	# PSS Jekaterina Mikhailovna Golizyn
+													1840.02.26={birth=yes}
+													1895.03.29={death=yes}
+												}
+										100017689={ # 2j) Jekaterina (1778-1817)
+											name=Jekaterina
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017678	# Aleksei Saltykov
+											mother=100097176	# Jekaterina Aleksandrovna Zagriaysky
+											1778.01.01={birth=yes}
+											1817.01.01={death=yes}
+										}
+										100517755={ # 3j) Jelisaveta; m.Grigori Nikolaevich Koljetschinsky
+											name=Jelisaveta
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017678	# Aleksei Saltykov
+											mother=100097176	# Jekaterina Aleksandrovna Zagriaysky
+											1780.01.01={birth=yes}  # EST.
+											1837.01.01={death=yes}
+										}
+									100017691={ # 3i) Sergei (1731-1800); m.Maria Ivanovna N (1751-Moscow 17 Jun 1825)
+										name=Sergei
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017674	# Wladimir Saltykov
+										mother=100097175	# PSS Jekaterina Alekseievna Trojekurov
+										1731.01.01={birth=yes}
+										1800.01.01={death=yes}
+									}
+										100017692={ # 1j) [b.before marriage, surnamed Sherdejevsky, 1801 given rights as if born after marriage] Grigori (16 Jan 1777-18 May 1814); m.1801 Css Jelisaveta Stepanovna Tolstoi (1781-    )
+											name=Grigori
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017691	# Sergei Saltykov
+											1777.01.16={birth=yes}
+											1801.01.01={add_spouse=100097185}	# CSS Jelisaveta Stepanovna Tolstoy
+											1852.01.01={death=yes}
+										}
+											100017693={ # 1k) Aleksandra; m.1823 Pawel Ivanovich Koloshin
+												name=Aleksandra
+												female=yes
+												dynasty=1010015
+												religion=orthodox culture=russian
+												father=100017692	# Grigori Saltykov
+												mother=100097185	# CSS Jelisaveta Stepanovna Tolstoy
+												1802.01.01={birth=yes}  # EST.
+												1870.01.01={death=yes}
+											}
+										100017694={ # 2j) [b.before marriage, surnamed Sherdejevsky, 1801 given rights as if born after marriage] (1780-1813)
+											name=-
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017691	# Sergei Saltykov
+											1780.01.01={birth=yes}
+											1855.01.01={death=yes}
+										}
+									100017695={ # 4i) Nikolai (8 Mar 1743-    ); m.Pss Anna Sergeievna Gagarin (8 Mar 1742-1820)
+										name=Nikolai
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017674	# Wladimir Saltykov
+										mother=100097175	# PSS Jekaterina Alekseievna Trojekurov
+										1743.03.08={birth=yes}
+										1768.01.01={add_spouse=100097187}	# PSS Anna Sergeievna Gagarin
+										1818.01.01={death=yes}
+									}
+										100017696={ # 1j) Praskovia, d.1830; m.Ct Dmitri Nikolaevich Guriev (d.1825)
+											name=Praskovia
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017695	# Nikolai Saltykov
+											mother=100097187	# PSS Anna Sergeievna Gagarin
+											1766.01.01={birth=yes}  # EST.
+											1830.01.01={death=yes}
+										}
+										100017697={ # 2j) Maria (28 Jun 1768-24 Apr 1785); m.Pjotr Naryshkin (d.1825)
+											name=Maria
+											female=yes
+											dynasty=1010015
+											religion=orthodox culture=russian
+											father=100017695	# Nikolai Saltykov
+											mother=100097187	# PSS Anna Sergeievna Gagarin
+											1768.06.28={birth=yes}
+											1785.04.24={death=yes}
+										}
+									100017698={ # 5i) Jekaterina, d.30 Sep 1799; m.Ct Fjodr Apraxin (d.29 Sep 1789)
+										name=Jekaterina
+										female=yes
+										dynasty=1010015
+										religion=orthodox culture=russian
+										father=100017674	# Wladimir Saltykov
+										mother=100097175	# PSS Jekaterina Alekseievna Trojekurov
+										1745.01.01={birth=yes}  # EST.
+										1799.09.30={death=yes}
+									}
+####### 100017781
+#1510.01.01={holder=100017601} # Mikhail 
+#1555.01.01={holder=100017602} # 2a) Ignati 
+#1585.01.01={holder=100017603} # 1b) Mikhail 
+#1600.01.01={holder=100017604} # 1c) Mikhail 
+#1608.01.01={holder=100017605} # 2d) Mikhail
+#1671.10.03={holder=100017606} # 1e) Pjotr
+#1690.07.05={holder=100017650} # 3f) Pjotr
+#1700.04.18={holder=100017651} # 1g) Aleksander
+#1725.01.01={holder=100017654} # 4g) Mikhail 
+#1750.09.08={holder=100017626} # 2g) Mikhail; m.Pss Anastasia Petrovna Dolgoruky
+#1758.01.01={holder=100017628} # 2h) Mikhail 
+#1787.01.01={holder=100017629} # 1i) Aleksander; m.Maria Sergeievna Woltschkov 
+#1822.01.01={holder=100017630} # 1j) Mikhail 
+#1851.04.06={holder=100017631} # 1k) Mikhail; m.2nd Julia Jewgenievna Boratynsky
+#1879.01.01={holder=100017632} # 1l) Lev fl 1900
+#1901.01.01={holder=100017633} # 2l) Aleksander 
+#1903.05.13={holder=100017634} # 1m) Aleksander; m.1st Nadezhda Alekseievna Wojeikov; m.2nd N Stremukhov
+##  100017600-xxx			Saltykov                                    1010013
+
+
+##  100017475-100017592		Apraxin                                     1010013
+100017486={ # Matwei (d.6 Nov 1668)
+	name=Matwei
+	dynasty=1010013
+	religion=orthodox culture=russian
+	1598.01.01={birth=yes}
+	1668.11.06={death=yes}
+}
+	100017487={ # 1a) Pjotr, 1710 Count Apraxin (24 Jun 1659-29 May 1728); 
+				# m.1st 26 May 1681 Aniissia Timofeievna N (28 Dec 1662-28 Jun 1688); 
+				# m.2nd 1688 Pss Stepanida Matweievna Obolensky; 
+				# m.3rd 18 Jan 1709 Pss Natalia Alekseievna Lvov (1 Aug 1693-30 Jan 1711)
+		name=Pjotr
+		dynasty=1010013
+		religion=orthodox culture=russian
+		father=100017486	# Matwei Apraxin
+		1659.06.24={birth=yes}
+		1688.02.01={add_spouse=100016528}	# Stepanida Obolensky
+		1709.01.18={add_spouse=100084265}	# PSS Natalia Alekseievna Lvov
+		1728.05.29={death=yes}
+	}
+		100017488={ # 1b) Aleksander (1 Sep 1690-19 Feb 1725); m.1707 Pss Mawra Mikhailovna Kurakin (1692-22 Mar 1765)
+			name=Aleksander
+			dynasty=1010013
+			religion=orthodox culture=russian
+			father=100017487	# Pjotr Apraxin
+			mother=100016528	# Stepanida Obolensky
+			1690.09.01={birth=yes}
+			1707.01.01={add_spouse=100084270}	# PSS Mawra Mikhailovna Kurakin
+			1725.02.19={death=yes}
+		}
+			100017489={ # 1c) Jelena (d.1767); m.ca 1725 Aleksander Naryshkin (d.25 Jan 1746)
+				name=Jelena
+				female=yes
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017488	# Aleksander Apraxin
+				mother=100084270	# PSS Mawra Mikhailovna Kurakin
+				1709.01.01={birth=yes}  # EST.
+				1767.01.01={death=yes}
+			}
+		100017490={ # 2b) Aleksei, d.1 Sep 1743; m.Pss Anna Mikhailovna Golizyn (1712-1747)
+			name=Aleksei
+			dynasty=1010013
+			religion=orthodox culture=russian
+			father=100017487	# Pjotr Apraxin
+			mother=100016528	# Stepanida Obolensky
+			1695.01.01={birth=yes}  # EST.
+			1737.01.01={add_spouse=100015867}	# Jelena Anna Golizyn
+			1743.09.01={death=yes}
+		}
+			100017491={ # 1c) Pjotr (21 Nov 1728-23 Nov 1757); m.2 Nov 1748 Pss Anna Borisovna Golizyn (18 Jul 1730-3 Nov 1814)
+				name=Pjotr
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017490	# Aleksei Apraxin
+				mother=100015867	# Jelena Anna Golizyn
+				1728.11.21={birth=yes}
+				1748.11.02={add_spouse=100016025}	# Anna Golizyn
+				1757.11.23={death=yes}
+			}
+			100017492={ # 2c) Fjodor (1733-29 Sep 1789); m.Css Jekaterina Wladimirovna Saltykov (d.30 Sep 1799)
+				name=Fjodor
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017490	# Aleksei Apraxin
+				mother=100015867	# Jelena Anna Golizyn
+				1733.01.01={birth=yes}
+				1758.01.01={add_spouse=100017698}	# Jekaterina Saltykov
+				1789.09.29={death=yes}
+			}
+		100017493={ # 3b) Jelena (20 May 1695-3 Mar 1736); m.1715 Pr Jakow Golizyn (d.1 Mar 1749)
+			name=Jelena
+			female=yes
+			dynasty=1010013
+			religion=orthodox culture=russian
+			father=100017487	# Pjotr Apraxin
+			mother=100016528	# Stepanida Obolensky
+			1695.05.20={birth=yes}
+			1736.03.03={death=yes}
+		}
+		100017494={ # 4b) Jekaterina; m.Pr Pjotr Cherkassky (d.1768)
+			name=Jekaterina
+			female=yes
+			dynasty=1010013
+			religion=orthodox culture=russian
+			father=100017487	# Pjotr Apraxin
+			mother=100016528	# Stepanida Obolensky
+			1697.01.01={birth=yes}  # EST.
+			1772.01.01={death=yes}
+		}
+	100017495={ # 2a) Fjodr, 1710 Count Apraxin (27 Nov 1661-10 Nov 1728); m.Domna Bogdanovna Almasov
+		name=Fjodr
+		dynasty=1010013
+		religion=orthodox culture=russian
+		father=100017486	# Matwei Apraxin
+		1661.11.27={birth=yes}
+		1686.01.01={add_spouse=100091076}	# Domna Bogdanovna Almasov
+		1728.11.10={death=yes}
+	}
+	100017496={ # 3a) Marfa (1664-31 Dec 1715); m.14 Feb 1682 Tsar Feodor III Romanov (d.27 Apr 1682)
+		name=Marfa
+		female=yes
+		dynasty=1010013
+		religion=orthodox culture=russian
+		father=100017486	# Matwei Apraxin
+		1664.01.01={birth=yes}
+		1715.12.31={death=yes}
+	}
+	100017497={ # 4a) Ct Andrei (2 Oct 1667-26 Jun 1732)
+		name=Andrei
+		dynasty=1010013
+		religion=orthodox culture=russian
+		father=100017486	# Matwei Apraxin
+		1667.10.02={birth=yes}
+		1732.06.26={death=yes}
+	}
+		100017498={ # 1b) Feodosia (6 Jun 1687-12 Sep 1765); m.Ivan Cheremetev (d.27 Jan 1735)
+			name=Feodosia
+			female=yes
+			dynasty=1010013
+			religion=orthodox culture=russian
+			father=100017497	# Andrei Apraxin
+			1687.06.06={birth=yes}
+			1765.09.12={death=yes}
+		}
+		100017499={ # 2b) Fjodr (26 Jun 1703-2 Nov 1754); m.Css Aleksandra Mikhailovna Cheremetev (4 Apr 1710-23 Feb 1750)
+			name=Fjodr
+			dynasty=1010013
+			religion=orthodox culture=russian
+			father=100017497	# Andrei Apraxin
+			1703.06.26={birth=yes}
+			1728.01.01={add_spouse=100096975}	# CSS Aleksandra Mikhailovna Cheremetev
+			1754.11.02={death=yes}
+		}
+			100017500={ # 1c) Pjotr (d.1813); m.1st 6 Feb 1754 (div 1775) Css Anna Pavlovna Yagushinsky (1733-3 Jan 1801); m.2nd 1776 Css Jelisaveta Kirrillovna Razumovsky (15 Dec 1749-18 Feb 1822)
+				name=Pjotr
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017499	# Fjodr Apraxin
+				mother=100096975	# CSS Aleksandra Mikhailovna Cheremetev
+				1730.01.01={birth=yes}  # EST.
+				1754.02.06={add_spouse=100097020}	# CSS Anna Pavlovna Yagushinsky
+				1775.01.01={remove_spouse=100097020}
+				1776.01.01={add_spouse=100097021}	# CSS Jelisaveta Kirrillovna Razumovsky
+				1813.01.01={death=yes}
+			}
+				100017502={ # 5d) Kirrill (28 Mar 1779-28 Sep 1822)
+					name=Kirrill
+					female=yes
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017500	# Pjotr Apraxin
+					mother=100097021	# CSS Jelisaveta Kirrillovna Razumovsky
+					1779.03.28={birth=yes}
+					1822.09.28={death=yes}
+				}
+				100017503={ # 6d) Aleksander (d.1845); m.1st 1805 Aleksandra Wassilievna Davydov; m.2nd 1815 Aleksandra Wassilievna Bezobrazov (1800-1891)
+					name=Aleksander
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017500	# Pjotr Apraxin
+					mother=100097021	# CSS Jelisaveta Kirrillovna Razumovsky
+					1781.01.01={birth=yes}  # EST.
+					1805.01.01={add_spouse=100097028}	# Aleksandra Wassilievna Davydov
+					1815.01.01={remove_spouse=100097028}
+					1815.02.01={add_spouse=100097030}	# Aleksandra Wassilievna Bezobrazov
+					1845.01.01={death=yes}
+				}
+					100017504={ # 1e) [ex 1] Lydia; m.Mikhail Petrovich Khrapovitzky
+						name=Lydia
+						female=yes
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017503	# Aleksander Apraxin
+						mother=100097030	# Aleksandra Wassilievna Bezobrazov
+						1824.01.01={birth=yes}  # EST.
+						1899.01.01={death=yes}
+					}
+					100017505={ # 3e) Dmitri (St.Petersburg 30 Aug 1826-Montreux 1899); m.1st 1848 Anna Ivanovna Mazarsky (1828-    )
+						name=Dmitri
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017503	# Aleksander Apraxin
+						mother=100097030	# Aleksandra Wassilievna Bezobrazov
+						1826.08.30={birth=yes}  # St.Petersburg
+						1848.01.01={add_spouse=100097074}	# Anna Ivanovna Mazarsky
+						1899.01.01={death=yes}  # Montreux
+					}
+						100017506={ # 1f) Helene (Vienna 8 May 1849-Dresden 17 Jan 1924); m.Graz 3 Jan 1881 Wilhelm Frhr von Falkenhausen (d.Graz 28 May 1890)
+							name=Helene
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=german
+							father=100017505	# Dmitri Apraxin
+							mother=100097074	# Anna Ivanovna Mazarsky
+							1849.05.08={birth=yes}  # Vienna
+							1924.01.17={death=yes}  # Dresden
+						}
+						100017507={ # 2f) Aleksander (14 Feb 1851-    )
+							name=Aleksander
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017505	# Dmitri Apraxin
+							mother=100097074	# Anna Ivanovna Mazarsky
+							1851.02.14={birth=yes}
+							1926.01.01={death=yes}
+						}
+						100017508={ # 4f) Jelisaveta (Kiev 14 Oct 1854-    ); m.Tessino 30 Sep 1879 Wilhelm Renner (d.1892)
+							name=Jelisaveta
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017505	# Dmitri Apraxin
+							mother=100097074	# Anna Ivanovna Mazarsky
+							1854.10.14={birth=yes}  # Kiev
+							1929.01.01={death=yes}
+						}
+						100017509={ # 6f) Olga (15 Aug 1857-    ); m.Baron Viktor Leo Walter von Heim
+							name=Olga
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017505	# Dmitri Apraxin
+							mother=100097074	# Anna Ivanovna Mazarsky
+							1857.08.15={birth=yes}
+							1932.01.01={death=yes}
+						}
+						100017510={ # 7f) Sergei (21 Jun 1861-Klagenfurt 21 Apr 1921); m.Gisela Frn Szepessy de Négyes (d.Munich 6 Jan 1913)
+							name=Sergei
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017505	# Dmitri Apraxin
+							mother=100097074	# Anna Ivanovna Mazarsky
+							1861.06.21={birth=yes}
+							1886.01.01={add_spouse=100097078}	# FRN Gisela Szepessy de Négyes
+							1921.04.21={death=yes}  # Klagenfurt
+						}
+							100017511={ # 1g) Vera (1883-    )
+								name=Vera
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017510	# Sergei Apraxin
+								mother=100097078	# FRN Gisela Szepessy de Négyes
+								1883.01.01={birth=yes}
+								1958.01.01={death=yes}
+							}
+							100017512={ # 2g) Sergius (6 Apr 1886)
+								name=Sergius
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017510	# Sergei Apraxin
+								mother=100097078	# FRN Gisela Szepessy de Négyes
+								1886.04.06={birth=yes}
+								1961.01.01={death=yes}
+							}
+					100017513={ # 4e) Julia (St.Petersburg 1830-Spain 1917); m.1st 15 Oct 1849 Arthur Gf Batthyány (d.1 Aug 1893); m.2nd 1894 Lorenzo Rubio di Espinosa
+						name=Julia
+						female=yes
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017503	# Aleksander Apraxin
+						mother=100097030	# Aleksandra Wassilievna Bezobrazov
+						1830.01.01={birth=yes}  # St.Petersburg
+						1917.01.01={death=yes}  # Spain
+					}
+				100017514={ # 7d) Sophia (d.Prague 10 Apr 1802); m.Karlsruhe 27 Jan 1797 Johann Nepomuk Gf von Nostitz-Rieneck (d.Prague 22 Oct 1840)
+					name=Sophia
+					female=yes
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017500	# Pjotr Apraxin
+					mother=100097021	# CSS Jelisaveta Kirrillovna Razumovsky
+					1783.01.01={birth=yes}  # EST.
+					1802.04.10={death=yes}  # Prague
+				}
+				100017515={ # 8d) Adelaida, d.8 Mar 1851; m.1804 Dmitri Wassiltchikov (d.1860)
+					name=Adelaida
+					female=yes
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017500	# Pjotr Apraxin
+					mother=100097021	# CSS Jelisaveta Kirrillovna Razumovsky
+					1785.01.01={birth=yes}  # EST.
+					1851.03.08={death=yes}
+				}
+			100017517={ # 2c) Aleksander (30 Aug 1733-15 Jun 1792); m.Pss Natalia Ivanovna Obolensky
+				name=Aleksander
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017499	# Fjodr Apraxin
+				mother=100096975	# CSS Aleksandra Mikhailovna Cheremetev
+				1733.08.30={birth=yes}
+				1758.01.01={add_spouse=100097084}	# PSS Natalia Ivanovna Obolensky
+				1792.06.15={death=yes}
+			}
+				100017519={ # 2d) Ivan (9 Jun 1756-13 Oct 1818); m.1780 Maria Johanna Gfn von Waldstein (4 Jul 1756-    )
+					name=Ivan
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017517	# Aleksander Apraxin
+					mother=100097084	# PSS Natalia Ivanovna Obolensky
+					1756.06.09={birth=yes}
+					1780.01.01={add_spouse=100097085}	# GFN Maria Johanna von Waldstein
+					1818.10.13={death=yes}
+				}
+					100017520={ # 1e) Jekaterina (1781-31 May 1864); m.Nikolai Novosiltzev (d.2 Oct 1856)
+						name=Jekaterina
+						female=yes
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017519	# Ivan Apraxin
+						mother=100097085	# GFN Maria Johanna von Waldstein
+						1781.01.01={birth=yes}
+						1864.05.31={death=yes}
+					}
+					100017521={ # 2e) Aleksander (7 Dec 1782-9 Jul 1848); m.Maria Aleksandrovna Shemiakin (1794-12 May 1872)
+						name=Aleksander
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017519	# Ivan Apraxin
+						mother=100097085	# GFN Maria Johanna von Waldstein
+						1782.12.07={birth=yes}
+						1807.01.01={add_spouse=100097087}	# Maria Aleksandrovna Shemiakin
+						1848.07.09={death=yes}
+					}
+						100017522={ # 1f) Maria (19 Dec 1816-2 May 1892); m.15 Jan 1833 Pr Sergei Dolgoruky (d.16 Sep 1891)
+							name=Maria
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017521	# Aleksander Apraxin
+							mother=100097087	# Maria Aleksandrovna Shemiakin
+							1816.12.19={birth=yes}
+							1892.05.02={death=yes}
+						}
+						100017523={ # 2f) Ivan (13 Dec 1818-Geneva 15 May 1892); m.26 Apr 1842 Jewdokia Nikolaevna Nabolsin (20 Feb 1821-12 May 1886)
+							name=Ivan
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017521	# Aleksander Apraxin
+							mother=100097087	# Maria Aleksandrovna Shemiakin
+							1818.12.13={birth=yes}
+							1842.04.26={add_spouse=100097089}	# Jewdokia Nikolaevna Nabolsin
+							1892.05.15={death=yes}  # Geneva
+						}
+							100017524={ # 1g) Maria (8 Oct 1843-    ); m.Ct Hippolyt Chernyschev-Kruglikov (d.5 Jan 1907)
+								name=Maria
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017523	# Ivan Apraxin
+								mother=100097089	# Jewdokia Nikolaevna Nabolsin
+								1843.10.08={birth=yes}
+								1918.01.01={death=yes}
+							}
+							100017525={ # 2g) Jewdokia (St.Petersburg 26 May 1847- St.Petersburg 30 Mar 1876); m.19 Aug 1870 Ct Wladimir Stenbock-Fermor (d.13 Apr 1896)
+								name=Jewdokia
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017523	# Ivan Apraxin
+								mother=100097089	# Jewdokia Nikolaevna Nabolsin
+								1847.05.26={birth=yes}  # St.Petersburg
+								1876.03.30={death=yes}  # St.Petersburg
+							}
+						100017526={ # 3f) Aleksander (10 Aug 1820-5 Feb 1883); m.Sophia Wassilievna Ladomirsky (26 Jan 1831-6 Sep 1880)
+							name=Aleksander
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017521	# Aleksander Apraxin
+							mother=100097087	# Maria Aleksandrovna Shemiakin
+							1820.08.10={birth=yes}
+							1845.01.01={add_spouse=100097092}	# Sophia Wassilievna Ladomirsky
+							1883.02.05={death=yes}
+						}
+							100017527={ # 1g) Aleksandra (St.Petersburg 23 Apr 1852-Paris 3 Jan 1943); m.3 Feb 1880 Pr Wladimir Obolensky-Nadalinsky-Meletzky (d.Yalta 7 Nov 1891)
+								name=Aleksandra
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017526	# Aleksander Apraxin
+								mother=100097092	# Sophia Wassilievna Ladomirsky
+								1852.04.23={birth=yes}  # St.Petersburg
+								1943.01.03={death=yes}  # Paris
+							}
+							100017528={ # 2g) Sophia (30 Jun 1852-Moscow 1917); m.1884 Pr Nikolai Stcherbatov (d.Moscow 24 Feb 1929)
+								name=Sophia
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017526	# Aleksander Apraxin
+								mother=100097092	# Sophia Wassilievna Ladomirsky
+								1852.06.30={birth=yes}
+								1917.01.01={death=yes}  # Moscow
+							}
+							100017529={ # 3g) Maria (17 Jun 1854-Kiev 19 Aug 1916); m.11 Nov 1879 Ct Wladimir Stenbock-Fermor (d.13 Apr 1896)
+								name=Maria
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017526	# Aleksander Apraxin
+								mother=100097092	# Sophia Wassilievna Ladomirsky
+								1854.06.17={birth=yes}
+								1916.08.19={death=yes}  # Kiev
+							}
+							100017530={ # 4g) Matwei (St.Petersburg 27 Jun 1863-Paris 28 Aug 1926); m.Marchesa Sophia Paulucci (15 Oct 1862-d.after 1913)
+								name=Matwei
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017526	# Aleksander Apraxin
+								mother=100097092	# Sophia Wassilievna Ladomirsky
+								1863.06.27={birth=yes}  # St.Petersburg
+								1888.01.01={add_spouse=100097096}	# MARCHESA Sophia Paulucci
+								1926.08.28={death=yes}  # Paris
+							}
+								100017531={ # 1h) Aleksandra (St.Petersburg 22 Jun 1893-Paris 26 Apr 1952)
+									name=Aleksandra
+									female=yes
+									dynasty=1010013
+									religion=orthodox culture=russian
+									father=100017530	# Matwei Apraxin
+									mother=100097096	# MARCHESA Sophia Paulucci
+									1893.06.22={birth=yes}  # St.Petersburg
+									1952.04.26={death=yes}  # Paris
+								}
+						100017533={ # 6f) Anna (4 Dec 1827- St.Petersburg 3 Jun 1887); m.1st 19 Sep 1845 (div 1860) Eduard Carl Jakob Gf von Sievers (d.Lausanne 2 Jul 1900); m.2nd 1861 João Antonio Lobo Vscde de Moura (d.10 Jan 1868)
+							name=Anna
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017521	# Aleksander Apraxin
+							mother=100097087	# Maria Aleksandrovna Shemiakin
+							1827.12.04={birth=yes}
+							1887.06.03={death=yes}  # St.Petersburg
+						}
+						100017534={ # 7f) Sergei (28 Apr 1830-1 Jul 1894); m.1st Warwara Katonovna Shabelsky (d.20 Dec 1880); m.2nd Pss Olga Dmitrievna Golizyn (3 Oct 1848-12 Dec 1931)
+							name=Sergei
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017521	# Aleksander Apraxin
+							mother=100097087	# Maria Aleksandrovna Shemiakin
+							1830.04.28={birth=yes}
+							1870.01.01={add_spouse=100097100}	# Warwara Katonovna Shabelsky
+							1881.01.01={add_spouse=100016322}	# Olga Golizyn
+							1894.07.01={death=yes}
+						}
+							100017535={ # 1g) Maria (24 Jan 1874-    ); m.1907 Otto von Holbeck (d.Munich 22 Jun 1952)
+								name=Maria
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017534	# Sergei Apraxin
+								mother=100097100	# Warwara Katonovna Shabelsky
+								1874.01.24={birth=yes}
+								1949.01.01={death=yes}
+							}
+							100017536={ # 2g) Anna (21 Sep 1875-Kursk 22 Aug 1913); m.Simon Yurievich (d.Tiflis 1931)
+								name=Anna
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017534	# Sergei Apraxin
+								mother=100097100	# Warwara Katonovna Shabelsky
+								1875.09.21={birth=yes}
+								1913.08.22={death=yes}  # Kursk
+							}
+					100017537={ # 3e) Pjotr (1784-20 Dec 1852); m.Jelisaveta Andreievna Kusmin-Karaviev (5 May 1789-14 Nov 1871)
+						name=Pjotr
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017519	# Ivan Apraxin
+						mother=100097085	# GFN Maria Johanna von Waldstein
+						1784.01.01={birth=yes}
+						1809.01.01={add_spouse=100097104}	# Jelisaveta Andreievna Kuzmin-Karavayev
+						1852.12.20={death=yes}
+					}
+						100017538={ # 1f) Maria (6 Dec 1811-Vienna 15 Aug 1859); m.Wladimir Dmitrievich Solomirsky Tatistchev (d.Vienna 13 May 1884)
+							name=Maria
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017537	# Pjotr Apraxin
+							mother=100097104	# Jelisaveta Andreievna Kuzmin-Karavayev
+							1811.12.06={birth=yes}
+							1859.08.15={death=yes}  # Vienna
+						}
+						100017540={ # 3f) Nikolai (22 Jan 1816-Tsarskoie Selo 4 Jul 1902); m.Nadezhda Heidenreich (b.15 Apr 1855, d.after 1901)
+							name=Nikolai
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017537	# Pjotr Apraxin
+							mother=100097104	# Jelisaveta Andreievna Kuzmin-Karavayev
+							1816.01.22={birth=yes}
+							1841.01.01={add_spouse=100097106}	# Nadezhda Heidenreich
+							1902.07.04={death=yes}  # Tsarskoie Selo
+						}
+							100017541={ # 1g) Pjotr (Nervi, Italy 3 Jan 1876-Brussels 3 Dec 1962); m. St.Petersburg 6 Apr 1909 Pss Jelisaveta Wladimirovna Bariatinsky (St.Petersburg 5 Oct 1882-Brussels 9 May 1948)
+								name=Pjotr
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017540	# Nikolai Apraxin
+								mother=100097106	# Nadezhda Heidenreich
+								1876.01.03={birth=yes}  # Nervi Italy
+								1909.04.06={add_spouse=100097107}	# PSS Jelisaveta Wladimirovna Bariatinsky
+								1962.12.03={death=yes}  # Brussels
+							}
+								100017542={ # 1h) Nikolai (Woronesh 14 Jan 1910-missing in Estonia 1941); m.St.Gilles, Belgium 4 Feb 1934 Sophie von Bünting (Tver 17 Feb 1912-Brussels 28 Nov 1992)
+									name=Nikolai
+									dynasty=1010013
+									religion=orthodox culture=russian
+									father=100017541	# Pjotr Apraxin
+									mother=100097107	# PSS Jelisaveta Wladimirovna Bariatinsky
+									1910.01.14={birth=yes}  # Woronesh
+									1934.02.04={add_spouse=100097108}	# Sophie von Bünting
+									1941.01.01={death=yes}  # missing_in_Estonia
+								}
+									100017544={ # 2i) Nicolas, b.Reval 19 Apr 1930; m.Ixelles 12 Nov 1960 Maria del Carmen Lopez de Vadillos (b.Jaen 17 May 1935)
+										name=Nicolas
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017542	# Nikolai Apraxin
+										mother=100097108	# Sophie von Bünting
+										1930.04.19={birth=yes}  # Reval
+										1960.11.12={add_spouse=100097109}	# Maria del Carmen Lopez de Vadillos
+										2007.01.01={death=yes}  # EST.
+									}
+										100017545={ # 1j) Maria; m.Nicolas Drusin
+											name=Maria
+											female=yes
+											dynasty=1010013
+											religion=orthodox culture=russian
+											father=100017544	# Nicolas Apraxin
+											mother=100097109	# Maria del Carmen Lopez de Vadillos
+											1962.01.01={birth=yes}  # EST.
+										}
+										100017546={ # 2j) Alexandra; m.Pedro Guardiola Durall
+											name=Alexandra
+											female=yes
+											dynasty=1010013
+											religion=orthodox culture=russian
+											father=100017544	# Nicolas Apraxin
+											mother=100097109	# Maria del Carmen Lopez de Vadillos
+											1964.01.01={birth=yes}  # EST.
+										}
+									100017543={ # 1i) Peter, b.Reval 10 Dec 1934
+										name=Peter
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017542	# Nikolai Apraxin
+										mother=100097108	# Sophie von Bünting
+										1934.12.10={birth=yes}  # Reval
+										2011.01.01={death=yes}  # EST.
+									}
+								100017547={ # 2h) Nadezhda (Yalta 23 Sep 1911-Brussels 28 Oct 2002); m.St.Gilles 27 Apr 1947 Gleb Makarov (9 Jan 1910-1984)
+									name=Nadezhda
+									female=yes
+									dynasty=1010013
+									religion=orthodox culture=russian
+									father=100017541	# Pjotr Apraxin
+									mother=100097107	# PSS Jelisaveta Wladimirovna Bariatinsky
+									1911.09.23={birth=yes}  # Yalta
+									2002.10.28={death=yes}  # Brussels
+								}
+								100017548={ # 3h) Marfa (Simferopol 24 Mar 1913-Dublin 8 Jul 1968); m.St.Gilles 7 Jul 1957 Feodor von der Launitz (Kharkov 13 Apr 1899-Brussels 8 Nov 1979)
+									name=Marfa
+									female=yes
+									dynasty=1010013
+									religion=orthodox culture=russian
+									father=100017541	# Pjotr Apraxin
+									mother=100097107	# PSS Jelisaveta Wladimirovna Bariatinsky
+									1913.03.24={birth=yes}  # Simferopol
+									1968.07.08={death=yes}  # Dublin
+								}
+								100017549={ # 4h) Wladimir (Woronesh 1 Jul 1915-Uccle 14 Jul 1993); m.Uccle 21 Sep 1957 Maria Kotliarevsky (Uccle 9 May 1932-    )
+									name=Wladimir
+									dynasty=1010013
+									religion=orthodox culture=russian
+									father=100017541	# Pjotr Apraxin
+									mother=100097107	# PSS Jelisaveta Wladimirovna Bariatinsky
+									1915.07.01={birth=yes}  # Woronesh
+									1957.09.21={add_spouse=100097114}	# Maria Kotliarevsky
+									1993.07.14={death=yes}  # Uccle
+								}
+									100017550={ # 1i) Elisabeth
+										name=Elisabeth
+										female=yes
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017549	# Wladimir Apraxin
+										mother=100097114	# Maria Kotliarevsky
+										1959.01.01={birth=yes}  # EST.
+									}
+									100017551={ # 2i) André; m.Sabine Delattre
+										name=André
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017549	# Wladimir Apraxin
+										mother=100097114	# Maria Kotliarevsky
+										1961.01.01={birth=yes}  # EST.
+										1986.01.01={add_spouse=100097115}	# Sabine Delattre
+									}
+										100017553={ # 2j) Alexandre
+											name=Alexandre
+											dynasty=1010013
+											religion=orthodox culture=russian
+											father=100017551	# André Apraxin
+											mother=100097115	# Sabine Delattre
+											1986.01.01={birth=yes}  # EST.
+										}
+										100017552={ # 1j) Matvei
+											name=Matvei
+											dynasty=1010013
+											religion=orthodox culture=russian
+											father=100017551	# André Apraxin
+											mother=100097115	# Sabine Delattre
+											1986.01.01={birth=yes}  # EST.
+										}
+									100017554={ # 3i) Barbara; m.Didier de Broux
+										name=Barbara
+										female=yes
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017549	# Wladimir Apraxin
+										mother=100097114	# Maria Kotliarevsky
+										1963.01.01={birth=yes}  # EST.
+									}
+									100017555={ # 4i) Pierre; m.Valérie Lemaire
+										name=Pierre
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017549	# Wladimir Apraxin
+										mother=100097114	# Maria Kotliarevsky
+										1965.01.01={birth=yes}  # EST.
+										1990.01.01={add_spouse=100097117}	# Valérie Lemaire
+									}
+								100017556={ # 5h) Andrei (St.Petersburg 2 Jan 1917-Montreal 11 Mar 1992); m.St.Gilles 1946 Marina Ossorgin (Yalta 22 Apr 1920-Montreal 20 May 1994)
+									name=Andrei
+									dynasty=1010013
+									religion=orthodox culture=russian
+									father=100017541	# Pjotr Apraxin
+									mother=100097107	# PSS Jelisaveta Wladimirovna Bariatinsky
+									1917.01.02={birth=yes}  # St.Petersburg
+									1946.01.01={add_spouse=100097118}	# Marina Ossorgin
+									1992.03.11={death=yes}  # Montreal
+								}
+									100017557={ # 1i) Elisabeth; m.Alexis Vinogradov
+										name=Elisabeth
+										female=yes
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017556	# Andrei Apraxin
+										mother=100097118	# Marina Ossorgin
+										1948.01.01={birth=yes}  # EST.
+									}
+									100017558={ # 2i) Hélène
+										name=Hélène
+										female=yes
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017556	# Andrei Apraxin
+										mother=100097118	# Marina Ossorgin
+										1950.01.01={birth=yes}  # EST.
+									}
+									100017559={ # 3i) Sophie
+										name=Sophie
+										female=yes
+										dynasty=1010013
+										religion=orthodox culture=russian
+										father=100017556	# Andrei Apraxin
+										mother=100097118	# Marina Ossorgin
+										1952.01.01={birth=yes}  # EST.
+									}
+							100017560={ # 2g) Jewgeni (26 Oct 1878-suicide at Tiflis 26 Jan 1902); m.Pss Anastasia Grigorievna Tarkhan-Muravi (Tiflis 12 Mar 1878-Casablanca 22 Jul 1951)
+								name=Jewgeni
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017540	# Nikolai Apraxin
+								mother=100097106	# Nadezhda Heidenreich
+								1878.10.26={birth=yes}
+								1903.01.01={add_spouse=100097120}	# PSS Anastasia Grigorievna Tarkhan-Muravi
+								1902.01.26={death=yes}  # suicide at Tiflis
+							}
+								100017561={ # 1h) Nikolai (Tiflis 16 Mar 1901-Casablanca 20 Sep 1969); m.Paris 24 May 1926 Anna Nikolaevna Bykov (Poltava 6 Mar 1897-8 Feb 1986)
+									name=Nikolai
+									dynasty=1010013
+									religion=orthodox culture=georgian
+									father=100017560	# Jewgeni Apraxin
+									mother=100097120	# PSS Anastasia Grigorievna Tarkhan-Muravi
+									1901.03.16={birth=yes}  # Tiflis
+									1926.05.24={add_spouse=100097121}	# Anna Nikolaevna Bykov
+									1969.09.20={death=yes}  # Casablanca
+								}
+									100017562={ # 1i) Maria (Paris 18 Nov 1927-Sorges 30 Dec 1976); m.Casablanca 23 Aug 1952 (div 1971) Claude André Morillot (d.Paris 28 Jul 1976)
+										name=Maria
+										female=yes
+										dynasty=1010013
+										religion=orthodox culture=frankish
+										father=100017561	# Nikolai Apraxin
+										mother=100097121	# Anna Nikolaevna Bykov
+										1927.11.18={birth=yes}  # Paris
+										1976.12.30={death=yes}  # Sorges
+									}
+									100017563={ # 2i) Pierre (Paris 20 Jul 1929-    ); m.1st Casablanca 13 Oct 1951 (div 1957) Christiane Beatrice Garcia (b.Casablanca 25 Jun 1936); m.2nd Le Cannet 10 Jun 1969 (div 1972) Annie Eva Mallez; m.3rd Paris 1976 Catherine Marie Nicole Groult
+										name=Pierre
+										dynasty=1010013
+										religion=orthodox culture=frankish
+										father=100017561	# Nikolai Apraxin
+										mother=100097121	# Anna Nikolaevna Bykov
+										1929.07.20={birth=yes}  # Paris
+										1951.10.13={add_spouse=100097123}	# Christiane Beatrice Garcia
+										1957.01.01={remove_spouse=100097123}
+										1969.06.10={add_spouse=100097124}	# Annie Eva Mallez
+										1972.01.01={remove_spouse=100097124}
+										1976.01.01={add_spouse=100097125}	# Catherine Groult
+										2006.01.01={death=yes}  # EST.
+									}
+										100017564={ # 1j) Pierre, b.Casablanca 1952; m.Martine Recalde
+											name=Pierre
+											dynasty=1010013
+											religion=orthodox culture=russian
+											father=100017563	# Pierre Apraxin
+											mother=100097123	# Christiane Beatrice Garcia
+											1952.01.01={birth=yes}  # Casablanca
+											1977.01.01={add_spouse=100097126}	# Martine Recalde
+										}
+											100017565={ # 1k) Natasha
+												name=Natasha
+												female=yes
+												dynasty=1010013
+												religion=orthodox culture=russian
+												father=100017564	# Pierre Apraxin
+												mother=100097126	# Martine Recalde
+												1979.01.01={birth=yes}  # EST.
+											}
+						100017566={ # 4f) Ljubov (13 Mar 1819-14 Jun 1882); m.5 Feb 1837 Pr Sergei Golizyn (d.2 Feb 1888)
+							name=Ljubov
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017537	# Pjotr Apraxin
+							mother=100097104	# Jelisaveta Andreievna Kuzmin-Karavayev
+							1819.03.13={birth=yes}
+							1882.06.14={death=yes}
+						}
+						100017567={ # 5f) Sinaida (30 Jun 1822-1 Apr 1893); m.Pawel Karlovich Mörder (d.14 Nov 1873)
+							name=Sinaida
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017537	# Pjotr Apraxin
+							mother=100097104	# Jelisaveta Andreievna Kuzmin-Karavayev
+							1822.06.30={birth=yes}
+							1893.04.01={death=yes}
+						}
+					100017568={ # 4e) Wassili (1788-ca 1822)
+						name=Wassili
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017519	# Ivan Apraxin
+						mother=100097085	# GFN Maria Johanna von Waldstein
+						1788.01.01={birth=yes}
+						1822.01.01={death=yes}
+					}
+					100017569={ # 5e) Pawel (1792-25 Jul 1835); m.Vera Wassilievna Megunov (6 Mar 1796-30 Apr 1874)
+						name=Pawel
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017519	# Ivan Apraxin
+						mother=100097085	# GFN Maria Johanna von Waldstein
+						1792.01.01={birth=yes}
+						1817.01.01={add_spouse=100097129}	# Vera Wassilievna Megunov
+						1835.07.25={death=yes}
+					}
+						100017571={ # 3f) Sophia (28 Dec 1821-11 Jul 1893); m.1840 Nikolai Semjonovich Bronievsky
+							name=Sophia
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017569	# Pawel Apraxin
+							mother=100097129	# Vera Wassilievna Megunov
+							1821.12.28={birth=yes}
+							1893.07.11={death=yes}
+						}
+						100017572={ # 4f) Jekaterina (7 Nov 1824-20 May 1899); m.Pjotr Ilyich Yurkevich (d.24 May 1884)
+							name=Jekaterina
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017569	# Pawel Apraxin
+							mother=100097129	# Vera Wassilievna Megunov
+							1824.11.07={birth=yes}
+							1899.05.20={death=yes}
+						}
+				100017573={ # 5d) Jekaterina (30 Jan 1758-26 Sep 1832)
+					name=Jekaterina
+					female=yes
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017517	# Aleksander Apraxin
+					mother=100097084	# PSS Natalia Ivanovna Obolensky
+					1758.01.30={birth=yes}
+					1832.09.26={death=yes}
+				}
+				100017574={ # 6d) Warwara, d.22 Sep 1830; m.Ivan Kolokoltzov (d.20 Nov 1821)
+					name=Warwara
+					female=yes
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017517	# Aleksander Apraxin
+					mother=100097084	# PSS Natalia Ivanovna Obolensky
+					1760.01.01={birth=yes}  # EST.
+					1830.09.22={death=yes}
+				}
+				100017575={ # 7d) Jelisaveta, d.29 Nov 1854; m.Charles, Marquis de Villereau (d.1805)
+					name=Jelisaveta
+					female=yes
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017517	# Aleksander Apraxin
+					mother=100097084	# PSS Natalia Ivanovna Obolensky
+					1762.01.01={birth=yes}  # EST.
+					1854.11.29={death=yes}
+				}
+			100017576={ # 3c) Nikolai; m.11 Nov 1764 Sophia Ossipovna Zakrievsky
+				name=Nikolai
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017499	# Fjodr Apraxin
+				mother=100096975	# CSS Aleksandra Mikhailovna Cheremetev
+				1735.01.01={birth=yes}  # EST.
+				1764.11.11={add_spouse=100097134}	# Sophia Ossipovna Zakrievsky
+				1811.01.01={death=yes}
+			}
+				100017577={ # 1d) Vera (2 Feb 1768-22 Nov 1845); m.30 Apr 1787 Ct Pjotr Wassilievich Zavadovsky (d.10 Jan 1812)
+					name=Vera
+					female=yes
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017576	# Nikolai Apraxin
+					mother=100097134	# Sophia Ossipovna Zakrievsky
+					1768.02.02={birth=yes}
+					1845.11.22={death=yes}
+				}
+			100017579={ # 5c) Jekaterina, d.10 Jul 1770; m.1752 Pr Pjotr Golizyn (d.14 May 1810)
+				name=Jekaterina
+				female=yes
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017499	# Fjodr Apraxin
+				mother=100096975	# CSS Aleksandra Mikhailovna Cheremetev
+				1736.01.01={birth=yes}  # EST.
+				1770.07.10={death=yes}
+			}
+			100017580={ # 6c) Matwei (19 Dec 1744-26 Feb 1803); m.29 Sep 1764 Css Jekaterina Ivanovna Hendrikov (d.11 Oct 1814)
+				name=Matwei
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017499	# Fjodr Apraxin
+				mother=100096975	# CSS Aleksandra Mikhailovna Cheremetev
+				1744.12.19={birth=yes}
+				1764.09.29={add_spouse=100097138}	# CSS Jekaterina Ivanovna Hendrikov
+				1803.02.26={death=yes}
+			}
+				100017581={ # 1d) Fjodr, d.14 Nov 1796; m.Jelisaveta Alekseievna Bezobrazov (21 Jun 1761-18 Aug 1839)
+					name=Fjodr
+					dynasty=1010013
+					religion=orthodox culture=russian
+					father=100017580	# Matwei Apraxin
+					mother=100097138	# CSS Jekaterina Ivanovna Hendrikov
+					1766.01.01={birth=yes}  # EST.
+					1786.01.01={add_spouse=100097139}	# Jelisaveta Alekseievna Bezobrazov
+					1796.11.14={death=yes}
+				}
+					100017582={ # 1e) Nadezhda (23 Mar 1788-12 Feb 1855); m.1st Nikolai Ivanovich Petristchev (d.1852); m.2nd Ct Aleksander de Witt
+						name=Nadezhda
+						female=yes
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017581	# Fjodr Apraxin
+						mother=100097139	# Jelisaveta Alekseievna Bezobrazov
+						1788.03.23={birth=yes}
+						1855.02.12={death=yes}
+					}
+					100017583={ # 2e) Stepan (30 Jul 1792-17 May 1862); m.Marchesa Eleonora Maresca Donnorso (d.25 Nov 1820)
+						name=Stepan
+						dynasty=1010013
+						religion=orthodox culture=russian
+						father=100017581	# Fjodr Apraxin
+						mother=100097139	# Jelisaveta Alekseievna Bezobrazov
+						1792.07.30={birth=yes}
+						1817.01.01={add_spouse=100097142}	# MARCHESA Eleonora Maresca Donnorso
+						1862.05.17={death=yes}
+					}
+						100017584={ # 1f) Fjodr (10 Jul 1816-27 Sep 1858); m.Pss Aleksandra Wassilievna Trubetzkoi (24 Dec 1827-19 Dec 1905)
+							name=Fjodr
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017583	# Stepan Apraxin
+							mother=100097142	# MARCHESA Eleonora Maresca Donnorso
+							1816.07.10={birth=yes}
+							1848.01.01={add_spouse=100017445}	# Aleksandra Trubetzkoy
+							1858.09.27={death=yes}
+						}
+							100017585={ # 1g) Ada (11 Nov 1849-Nice 14 Aug 1914); m.1866 Baron Georg von Manteuffel gt Szoege (Pisa 1824-Aachen 7 Aug 1874)
+								name=Ada
+								female=yes
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017584	# Fjodr Apraxin
+								mother=100017445	# Aleksandra Trubetzkoy
+								1849.11.11={birth=yes}
+								1914.08.14={death=yes}  # Nice
+							}
+						100017586={ # 2f) Anton (6 Apr 1817-2 Jan 1899); m.Maria Dmitrievna Rachmanov (23 Dec 1845-17 Nov 1932)
+							name=Anton
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017583	# Stepan Apraxin
+							mother=100097142	# MARCHESA Eleonora Maresca Donnorso
+							1817.04.06={birth=yes}
+							1842.01.01={add_spouse=100097145}	# Maria Dmitrievna Rachmanov
+							1899.01.02={death=yes}
+						}
+							100017587={ # 1g) Stepan (8 Dec 1869-7 Apr 1930); m.Pss Anna Nikolaevna Baratov
+								name=Stepan
+								dynasty=1010013
+								religion=orthodox culture=russian
+								father=100017586	# Anton Apraxin
+								mother=100097145	# Maria Dmitrievna Rachmanov
+								1869.12.08={birth=yes}
+								1894.01.01={add_spouse=100097146}	# PSS Anna Nikolaevna Baratov
+								1930.04.07={death=yes}
+							}
+						100017588={ # 3f) Jelena (1818-11 Jan 1914)
+							name=Jelena
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017583	# Stepan Apraxin
+							mother=100097142	# MARCHESA Eleonora Maresca Donnorso
+							1818.01.01={birth=yes}
+							1914.01.11={death=yes}
+						}
+						100017589={ # 4f) Jelisaveta (8 Nov 1820-28 Sep 1900)
+							name=Jelisaveta
+							female=yes
+							dynasty=1010013
+							religion=orthodox culture=russian
+							father=100017583	# Stepan Apraxin
+							mother=100097142	# MARCHESA Eleonora Maresca Donnorso
+							1820.11.08={birth=yes}
+							1900.09.28={death=yes}
+						}
+			100017590={ # 7c) Aleksandra, d.22 Apr 1806; m.Wassili Razumovsky (d.1800)
+				name=Aleksandra
+				female=yes
+				dynasty=1010013
+				religion=orthodox culture=russian
+				father=100017499	# Fjodr Apraxin
+				mother=100096975	# CSS Aleksandra Mikhailovna Cheremetev
+				1746.01.01={birth=yes}  # EST.
+				1806.04.22={death=yes}
+			}
+	100017591={ # 5a) Maria; m.Ivan Tolstoi (d.25 Aug 1713)
+		name=Maria
+		female=yes
+		dynasty=1010013
+		religion=orthodox culture=russian
+		father=100017486	# Matwei Apraxin
+		1669.01.01={birth=yes}  # EST.
+		1744.01.01={death=yes}
+	}
+#1628.01.01={holder=100017486} # Matwei 
+#1668.11.06={holder=100017487} # 1a) Pjotr
+#1728.05.29={holder=100017490} # 2b) Aleksei
+#1743.09.01={holder=100017491} # 1c) Pjotr 
+#1757.11.23={holder=100017492} # 2c) Fjodor 
+##  100017475-100017592		Apraxin                                     1010013
 
 
 ##  100126500		Dolgorukov			1010006
@@ -140,13 +2774,13 @@
 								1679.01.01={birth=yes}
 								1745.01.01={death=yes}
 							}
-						100015189={	# 4f) Grigori (7 Oct 1657-15 Aug 1723); m.Pss Maria Ivanovna Galitzin
+						100015189={	# 4f) Grigori (7 Oct 1657-15 Aug 1723); m.Pss Maria Ivanovna Golizyn
 							name=Grigori
 							dynasty=1010006
 							religion=orthodox culture=russian
 							father=100015180	# Fjodr Dolgorukov
 							1657.10.07={birth=yes}
-							1682.01.01={add_spouse=100215189}	# PSS Maria Ivanovna Golizyn
+							1682.01.01={add_spouse=100215189}	# PSS Maria Ivanovna Golitsyn
 							1723.08.15={death=yes}
 						}
 							100015190={	# 1g) Aleksei (d.30 Sep 1734); m.1707 Pss Praskovia Jurievna Chilkov (d.15 Oct 1730)
@@ -154,7 +2788,7 @@
 								dynasty=1010006
 								religion=orthodox culture=russian
 								father=100015189	# Grigori Dolgorukov
-								mother=100215189	# PSS Maria Ivanovna Golizyn
+								mother=100215189	# PSS Maria Ivanovna Golitsyn
 								1684.01.01={birth=yes}
 								1707.01.01={add_spouse=100081449}	# PSS Praskovia Jurievna Chilkov
 								1734.09.01={death=yes}
@@ -169,7 +2803,7 @@
 									1730.04.05={add_spouse=100090204}	# CSS Natalia Borisovna Sheremetev
 									1739.10.26={death=yes}
 								}
-									100015193={	# 1i) Mikhail (2 Apr 1731-8 Jun 1794); m.1st 1 Sep 1754 Pss Anna Mikhailovna Galitzin (18 Nov 1733-21 Jun 1755); m.2nd 3 Sep 1757 Bss Anna Nikolaevna Stroganov (2 Jun 1731-1 Mar 1813)
+									100015193={	# 1i) Mikhail (2 Apr 1731-8 Jun 1794); m.1st 1 Sep 1754 Pss Anna Mikhailovna Golizyn (18 Nov 1733-21 Jun 1755); m.2nd 3 Sep 1757 Bss Anna Nikolaevna Stroganov (2 Jun 1731-1 Mar 1813)
 										name=Mikhail
 										dynasty=1010006
 										religion=orthodox culture=russian
@@ -191,7 +2825,7 @@
 											1807.01.13={add_spouse=100080631}	# Agrafena Alekseievna Bezobrazov
 											1823.12.04={death=yes}  # Moscow
 										}
-											100015195={	# 1k) Pawel (21 Feb 1787-8 Feb 1845); m.Pss Jelisaveta Petrovna Galitzin (9 Apr 1800-9 Feb 1863)
+											100015195={	# 1k) Pawel (21 Feb 1787-8 Feb 1845); m.Pss Jelisaveta Petrovna Golizyn (9 Apr 1800-9 Feb 1863)
 												name=Pawel
 												dynasty=1010006
 												religion=orthodox culture=russian
@@ -321,7 +2955,7 @@
 										1738.01.01={birth=yes}
 										1769.05.26={death=yes}  # Kiev
 									}
-								100015208={	# 2h) Nikolai (1713-3 Dec 1790); m.1st 1744 Pss Natlia Sergievna Galitzin (30 Jun 1715-13 Jun 1755); m.2nd 1757 Anna Aleksandrovna Bredichin (1733-11 Jan 1808)
+								100015208={	# 2h) Nikolai (1713-3 Dec 1790); m.1st 1744 Pss Natlia Sergievna Golizyn (30 Jun 1715-13 Jun 1755); m.2nd 1757 Anna Aleksandrovna Bredichin (1733-11 Jan 1808)
 									name=Nikolai
 									dynasty=1010006
 									religion=orthodox culture=russian
@@ -362,7 +2996,7 @@
 										1754.09.25={birth=yes}
 										1831.12.30={death=yes}
 									}
-									100015212={	# 4i) Aleksander (20 Sep 1757-27 Jan 1844); m.Pss Carolina Ekaterina Aleksandrovna Galitzin (19 Sep 1758-14 Oct 1842)
+									100015212={	# 4i) Aleksander (20 Sep 1757-27 Jan 1844); m.Pss Carolina Ekaterina Aleksandrovna Golizyn (19 Sep 1758-14 Oct 1842)
 										name=Aleksander
 										dynasty=1010006
 										religion=orthodox culture=russian
@@ -421,7 +3055,6 @@
 									1716.01.01={birth=yes}
 									1740.01.01={add_spouse=100088346}	# PSS Jewdokia Grigorievna Myshetsky
 									1747.01.01={add_spouse=100094053}	# Anna Grigorievna Zinoviev
-									1753.01.01={add_spouse=100088368}	# Anna Ivanovna N
 									1792.05.22={death=yes}
 								}
 									100015218={	# 1i) Grigori, d.Dec 1812
@@ -443,7 +3076,7 @@
 										1772.01.01={add_spouse=100090415}	# Nadezhda Petrovna Somov
 										1787.12.01={death=yes}
 									}
-										100015220={	# 1j) Aleksei (1777-5 Aug 1840); m.Daria Galitzin (2 Jun 1787-23 Oct 1810)
+										100015220={	# 1j) Aleksei (1777-5 Aug 1840); m.Daria Golizyn (2 Jun 1787-23 Oct 1810)
 											name=Aleksei
 											dynasty=1010006
 											religion=orthodox culture=russian
@@ -593,7 +3226,6 @@
 										dynasty=1010006
 										religion=orthodox culture=russian
 										father=100015217	# Aleksei Dolgorukov
-										mother=100088368	# Anna Ivanovna N
 										1755.01.01={birth=yes}
 										1780.01.01={add_spouse=100091069}	# Jekaterina Stepanovna Tregubov
 										1825.01.01={death=yes}  # EST.
@@ -712,7 +3344,6 @@
 										dynasty=1010006
 										religion=orthodox culture=russian
 										father=100015217	# Aleksei Dolgorukov
-										mother=100088368	# Anna Ivanovna N
 										1765.10.10={birth=yes}
 										1827.11.19={death=yes}
 									}
@@ -721,7 +3352,6 @@
 										dynasty=1010006
 										religion=orthodox culture=russian
 										father=100015217	# Aleksei Dolgorukov
-										mother=100088368	# Anna Ivanovna N
 										1775.05.14={birth=yes}
 										1800.01.01={add_spouse=100080186}	# Margarita Apaistshikov
 										1817.01.01={add_spouse=100090879}	# Warwara Nikolaevna Tekutiev
@@ -784,7 +3414,7 @@
 												father=100015249	# Rostislav Dolgorukov
 												mother=100087735	# Jekaterina Alekseievna Malinowsky
 												1841.08.31={birth=yes}
-												1866.01.01={add_spouse=100089068}	# Lydia Alekseievna Pisariev
+												1866.01.01={add_spouse=100089068}	# Lydia Alekseievna Pisaryev
 												1916.08.28={death=yes}  # Moscow
 											}
 										100015255={	# 2j) Jurij (12 Feb 1807-6 Mar 1882); m.1829 Jelisaveta Petrovna Davydov (29 Sep 1805-18 Sep 1878)
@@ -855,7 +3485,7 @@
 											father=100015248	# Aleksei Dolgorukov
 											mother=100080186	# Margarita Apaistshikov
 											1809.11.02={birth=yes}  # Simbirsk
-											1833.01.15={add_spouse=100080201}	# CSS Maria Aleksandrovna Apraxin
+											1833.01.15={add_spouse=100017522}	# Maria Apraxin
 											1891.09.16={death=yes}
 										}
 											100015262={	# 1k) Aleksandra (Sankt Petersburg 18 Nov 1834-Cannes 12 Sep 1913); m.1862 Pyotr Pavlovich Albedinsky (4 Sep 1823-19 May 1884)
@@ -864,7 +3494,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1834.11.18={birth=yes}  # Sankt Petersburg
 												1913.09.12={death=yes}  # Cannes
 											}
@@ -874,7 +3504,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1839.01.01={birth=yes}
 												1912.02.25={death=yes}
 											}
@@ -883,7 +3513,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1840.04.18={birth=yes}  # Sankt Petersburg
 												1913.02.28={death=yes}  # Ouchy
 											}
@@ -892,7 +3522,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1841.10.29={birth=yes}
 												1868.04.07={add_spouse=100090236}	# CSS Olga Petrovna Shuvalov
 												1912.06.07={death=yes}  # Sankt Petersburg
@@ -1177,7 +3807,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1846.03.16={birth=yes}
 												1898.07.10={add_spouse=100083904}	# Fanny Fleetwood Wilson
 												1915.06.25={death=yes}  # Paris
@@ -1188,7 +3818,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1844.11.21={birth=yes}
 												1865.05.21={death=yes}
 											}
@@ -1197,7 +3827,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1850.08.31={birth=yes}  # Sankt Petersburg
 												1886.11.09={death=yes}  # Frankfurt
 											}
@@ -1207,7 +3837,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1846.12.14={birth=yes}  # Sankt Petersburg
 												1936.09.25={death=yes}  # Nice
 											}
@@ -1217,7 +3847,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1859.01.01={birth=yes}
 												1918.01.01={death=yes}
 											}
@@ -1227,7 +3857,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015261	# Sergei Dolgorukov
-												mother=100080201	# CSS Maria Aleksandrovna Apraxin
+												mother=100017522	# Maria Apraxin
 												1859.09.21={birth=yes}
 												1868.09.20={death=yes}
 											}
@@ -1338,7 +3968,7 @@
 												father=100015304	# Nikolai Dolgorukov
 												mother=100016344	# Olga Lvov
 												1862.06.03={birth=yes}  # Sankt Petersburg
-												1886.04.28={add_spouse=100090221}	# PSS Maria Grigorievna Shtsherbatov
+												1886.04.28={add_spouse=100090221}	# PSS Maria Grigorievna Shcherbatov
 												1914.07.07={death=yes}
 											}
 											100015307={	# 3k) Warwara (Sankt Petersburg 13 Sep 1863-London 22 Jan 1955); m.Ct Mikhail Mikhailovich Perovsky-Petrovo-Solovovo (Sankt Petersburg 11 May 1870-London 30 Jan 1954)
@@ -1565,7 +4195,7 @@
 													1844.02.24={birth=yes}
 													1867.01.01={add_spouse=100090284}	# Maria Ivanovna Sinyelnikov
 													1882.01.01={remove_spouse=100090284}
-													1883.08.21={add_spouse=100091126}	# Maria jakovovna Tutkewich
+													1883.08.21={add_spouse=100091126}	# Maria Jakovovna Tutkewich
 													1915.01.01={add_spouse=100080970}	# Stepanida Semjonovna Broido
 													1925.01.01={death=yes}
 												}
@@ -1643,7 +4273,7 @@
 								dynasty=1010006
 								religion=orthodox culture=russian
 								father=100015189	# Grigori Dolgorukov
-								mother=100215189	# PSS Maria Ivanovna Golizyn
+								mother=100215189	# PSS Maria Ivanovna Golitsyn
 								1686.01.01={birth=yes}
 								1715.01.01={add_spouse=100090168}	# BSS Marfa Petrovna Shafirov
 								1739.11.26={death=yes}
@@ -1734,7 +4364,7 @@
 								dynasty=1010006
 								religion=orthodox culture=russian
 								father=100015189	# Grigori Dolgorukov
-								mother=100215189	# PSS Maria Ivanovna Golizyn
+								mother=100215189	# PSS Maria Ivanovna Golitsyn
 								1690.01.01={birth=yes}
 								1742.01.01={death=yes}
 							}
@@ -1825,7 +4455,7 @@
 										father=100015364	# Nikita Dolgorukov
 										mother=100081420	# PSS Anna Mikhailovna Cherkassky
 										1724.09.21={birth=yes}
-										1749.01.01={add_spouse=100090223}	# PSS Warwara Shtsherbatov
+										1749.01.01={add_spouse=100090223}	# PSS Warwara Shcherbatov
 										1802.10.09={death=yes}  # Moscow
 									}
 										100015366={	# 1j) Maria (27 May 1754-23 Feb 1839); m.Boris Petrovich Ostrowsky
@@ -1834,7 +4464,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015365	# Sergei Dolgorukov
-											mother=100090223	# PSS Warwara Shtsherbatov
+											mother=100090223	# PSS Warwara Shcherbatov
 											1754.05.27={birth=yes}
 											1839.02.23={death=yes}
 										}
@@ -1844,7 +4474,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015365	# Sergei Dolgorukov
-											mother=100090223	# PSS Warwara Shtsherbatov
+											mother=100090223	# PSS Warwara Shcherbatov
 											1812.01.01={birth=yes}
 											1884.01.01={death=yes}  # EST.
 										}
@@ -1854,7 +4484,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015365	# Sergei Dolgorukov
-											mother=100090223	# PSS Warwara Shtsherbatov
+											mother=100090223	# PSS Warwara Shcherbatov
 											1767.10.27={birth=yes}
 											1797.04.05={death=yes}
 										}
@@ -1863,7 +4493,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015365	# Sergei Dolgorukov
-											mother=100090223	# PSS Warwara Shtsherbatov
+											mother=100090223	# PSS Warwara Shcherbatov
 											1768.07.25={birth=yes}
 											1793.01.01={add_spouse=100015784}	# Jekaterina Gagarin
 											1840.02.02={death=yes}
@@ -1887,7 +4517,7 @@
 												1812.06.16={birth=yes}
 												1870.12.08={death=yes}
 											}
-							100015372={	# 3g) Feodosia; m.Pr Wassili Galitzine (d.21 Apr 1714)
+							100015372={	# 3g) Feodosia; m.Pr Wassili Golizyn (d.21 Apr 1714)
 								name=Feodosia
 								female=yes
 								dynasty=1010006
@@ -2007,7 +4637,7 @@
 								1700.01.01={add_spouse=100088614}	# PSS Anna Jurievna Odoyevsky
 								1704.01.01={death=yes}
 							}
-								100015385={	# 1h) Aleksei (1700-d.21 Jul 1726); m.1st 1718 Pss Paraskovia Mikhailovna Galitzine (27 Sep 1695-1 Nov 1719); m.2nd 1720 Css Maria Mikhailovna Sheremetev (11 Aug 1700-29 Apr 1782)
+								100015385={	# 1h) Aleksei (1700-d.21 Jul 1726); m.1st 1718 Pss Paraskovia Mikhailovna Golizyn (27 Sep 1695-1 Nov 1719); m.2nd 1720 Css Maria Mikhailovna Sheremetev (11 Aug 1700-29 Apr 1782)
 									name=Aleksei
 									dynasty=1010006
 									religion=orthodox culture=russian
@@ -2067,7 +4697,7 @@
 						1670.01.01={add_spouse=100089179}	# PSS Jewdokia Petrovna Posharsky
 						1682.05.01={death=yes}
 					}
-						100015391={	# 1f) Mikhail (1638-15 May 1682); m.1661 Pss Feodosia Wassilievna Galitzine
+						100015391={	# 1f) Mikhail (1638-15 May 1682); m.1661 Pss Feodosia Wassilievna Golizyn
 							name=Mikhail
 							dynasty=1010006
 							religion=orthodox culture=russian
@@ -2086,7 +4716,7 @@
 								1663.01.01={birth=yes}
 								1708.05.14={death=yes}  # Golovtschino
 							}
-								100015393={	# 2h) Sergei (2 Feb 1696-8 Apr 1760); m.28 Apr 1717 Pss Irina Petrovna Galitzine (3 May 1700-28 Nov 1751)
+								100015393={	# 2h) Sergei (2 Feb 1696-8 Apr 1760); m.28 Apr 1717 Pss Irina Petrovna Golizyn (3 May 1700-28 Nov 1751)
 									name=Sergei
 									dynasty=1010006
 									religion=orthodox culture=russian
@@ -2302,7 +4932,7 @@
 												1775.05.25={birth=yes}
 												1849.12.07={death=yes}
 											}
-									100015415={	# 6i) Anna (b.1782, d.after 1767); m.1746 Pr Aleksei Galitzine
+									100015415={	# 6i) Anna (b.1782, d.after 1767); m.1746 Pr Aleksei Golizyn
 										name=Anna
 										female=yes
 										dynasty=1010006
@@ -2340,7 +4970,7 @@
 									1730.01.01={add_spouse=100086811}	# Jekaterina Aleksandrovna Kikin
 									1777.01.01={death=yes}  # EST.
 								}
-									100015419={	# 1i) Natalia (24 Aug 1731-21 Jan 1802); m.2 Feb 1747 Pr Boris Galitzine (d.14 Feb 1761)
+									100015419={	# 1i) Natalia (24 Aug 1731-21 Jan 1802); m.2 Feb 1747 Pr Boris Golizyn (d.14 Feb 1761)
 										name=Natalia
 										female=yes
 										dynasty=1010006
@@ -2604,57 +5234,6 @@
 									1733.01.01={add_spouse=100091093}	# PSS Praskovia Feodorovna Troyekurov
 									1763.09.15={death=yes}
 								}
-									100015445={	# 1i) Ivan (1734-24 Jul 1764); m.1st 1754 Anastasia Wenjewitinov; m.2nd Jelena Nikoaevna Nesterov
-										name=Ivan
-										dynasty=1010006
-										religion=orthodox culture=russian
-										father=100015444	# Sergei Dolgorukov
-										mother=100091093	# PSS Praskovia Feodorovna Troyekurov
-										1734.01.01={birth=yes}
-										1754.01.01={add_spouse=100093707}	# Anastasia Venyevitinov
-										1759.01.01={remove_spouse=100093707}
-										1759.02.01={add_spouse=100088448}	# Jelena Nikoaevna Nesterov
-										1764.07.24={death=yes}
-									}
-										100015446={	# 1j) Wassili (1755); m.Jewdokia Jumatov
-											name=Wassili
-											dynasty=1010006
-											religion=orthodox culture=russian
-											father=100015445	# Ivan Dolgorukov
-											mother=100093707	# Anastasia Venyevitinov
-											1755.01.01={birth=yes}
-											1780.01.01={add_spouse=100086177}	# Jewdokia Jumatov
-											1825.01.01={death=yes}  # EST.
-										}
-											100015447={	# 2k) Wassili (1796-1825)
-												name=Wassili
-												dynasty=1010006
-												religion=orthodox culture=russian
-												father=100015446	# Wassili Dolgorukov
-												mother=100086177	# Jewdokia Jumatov
-												1796.01.01={birth=yes}
-												1825.01.01={death=yes}
-											}
-										100015448={	# 2j) Praskovia; m.Fjodr Kolytschev
-											name=Praskovia
-											female=yes
-											dynasty=1010006
-											religion=orthodox culture=russian
-											father=100015445	# Ivan Dolgorukov
-											mother=100093707	# Anastasia Venyevitinov
-											1757.01.01={birth=yes}
-											1827.01.01={death=yes}  # EST.
-										}
-										100015449={	# 4j) Anastasia; m.Dmitri Buchwostov
-											name=Anastasia
-											female=yes
-											dynasty=1010006
-											religion=orthodox culture=russian
-											father=100015445	# Ivan Dolgorukov
-											mother=100088448	# Jelena Nikoaevna Nesterov
-											1761.01.01={birth=yes}
-											1831.01.01={death=yes}  # EST.
-										}
 									100015450={	# 2i) Fjodr (23 Sep 1720-k.a.Kolberg 27 Sep 1761); m.Css Pulcheria Mussin-Pushkin
 										name=Fjodr
 										dynasty=1010006
@@ -2685,16 +5264,6 @@
 									1700.12.17={birth=yes}
 									1745.07.22={death=yes}
 								}
-								100015457={	# 3h) Jewdokia (8 Feb 1708-25 Aug 1749)
-									name=Jewdokia
-									female=yes
-									dynasty=1010006
-									religion=orthodox culture=russian
-									father=100015443	# Mikhail Dolgorukov
-									mother=100088615	# PSS Jewdokia Jurievna Odoyevsky
-									1708.02.08={birth=yes}
-									1749.08.25={death=yes}
-								}
 								100015458={	# 4h) Aleksander (17 Aug 1714-17 Dec 1750); m.1743 Pss Ekaterina Ossipovna Schtscherbatov (9 Nov 1722-28 Nov 1757)
 									name=Aleksander
 									dynasty=1010006
@@ -2702,16 +5271,16 @@
 									father=100015443	# Mikhail Dolgorukov
 									mother=100088615	# PSS Jewdokia Jurievna Odoyevsky
 									1714.08.17={birth=yes}
-									1743.01.01={add_spouse=100090224}	# PSS Jekaterina Ossipovna Shtsherbatov
+									1743.01.01={add_spouse=100090224}	# PSS Jekaterina Ossipovna Shcherbatov
 									1750.12.17={death=yes}
 								}
-									100015459={	# 1i) Ekaterina (15 Nov 1745-29 mar 1770); m.28 Jul 1763 Pr Pyotr Galitzine (d.14 Nov 1775)
+									100015459={	# 1i) Ekaterina (15 Nov 1745-29 mar 1770); m.28 Jul 1763 Pr Pyotr Golizyn (d.14 Nov 1775)
 										name=Ekaterina
 										female=yes
 										dynasty=1010006
 										religion=orthodox culture=russian
 										father=100015458	# Aleksander Dolgorukov
-										mother=100090224	# PSS Jekaterina Ossipovna Shtsherbatov
+										mother=100090224	# PSS Jekaterina Ossipovna Shcherbatov
 										1745.11.15={birth=yes}
 										1770.03.29={death=yes}
 									}
@@ -2784,7 +5353,7 @@
 												1820.09.26={birth=yes}
 												1863.09.23={death=yes}
 											}
-										100015467={	# 2j) Nikolai (8 Oct 1789-8 Jun 1872); m.30 Oct 1821 Pss Ekaterina Galitzine (22 Nov 1801-12 Feb 1877)
+										100015467={	# 2j) Nikolai (8 Oct 1789-8 Jun 1872); m.30 Oct 1821 Pss Ekaterina Golizyn (22 Nov 1801-12 Feb 1877)
 											name=Nikolai
 											dynasty=1010006
 											religion=orthodox culture=russian
@@ -2824,7 +5393,7 @@
 												1852.01.01={add_spouse=100088684}	# CSS Natalia Wladimirovna Orlov-Davydov
 												1910.10.27={death=yes}
 											}
-												100015471={	# 1l) Nikolai (4 Feb 1858-Kiev 8 May 1899); m.1880 Pss maria Pavlovna Galitzine (1856-1 Sep 1914)
+												100015471={	# 1l) Nikolai (4 Feb 1858-Kiev 8 May 1899); m.1880 Pss maria Pavlovna Golizyn (1856-1 Sep 1914)
 													name=Nikolai
 													dynasty=1010006
 													religion=orthodox culture=russian
@@ -2900,7 +5469,7 @@
 											religion=orthodox culture=russian
 											father=100015462	# Wassili Dolgorukov
 											mother=100080392	# PSS Jekaterina Bariatinsky
-											1791.01.01={birth=yes}
+											1791.04.23={birth=yes}
 											1883.01.18={death=yes}
 										}
 										100015479={	# 5j) Sophia (1798)
@@ -2950,7 +5519,7 @@
 										father=100015482	# Nikolai Dolgorukov
 										mother=100090517	# Jekaterina Andreievna Stankevich
 										1772.01.01={birth=yes}
-										1797.01.01={add_spouse=100089839}	# Jelisaveta Nikolaevna Saltykov
+										1797.01.01={add_spouse=100017755}	# Jelisaveta Saltykov
 										1831.03.31={death=yes}
 									}
 										100015484={	# 1j) Nikolai (1792-suicide 11 Apr 1847); m.1st Pss Maria Dmitrievna Saltykov (22 Jul 1795-Pisa 27 Dec 1823); m.2nd 1832 Lucia Jossifovna Wawrietzky (1815-27 Jul 1900)
@@ -2958,18 +5527,18 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015483	# Andrei Dolgorukov
-											mother=100089839	# Jelisaveta Nikolaevna Saltykov
+											mother=100017755	# Jelisaveta Saltykov
 											1792.01.01={birth=yes}
-											1817.01.01={add_spouse=100089840}	# PSS Maria Dmitrievna Saltykov
+											1815.01.01={add_spouse=100017715}	# Maria Saltykov
 											1832.01.01={add_spouse=100093660}	# Lucia Jossifovna Vavrietzky
 											1847.04.11={death=yes}  # suicide
 										}
-											100015485={	# 1k) Dmitri (1 Nov 1815-21 Jul 1846); m.Pss Aleksandra Mikhailovna Galitzine (17 Jan 1823-16 Apr 1884)
+											100015485={	# 1k) Dmitri (1 Nov 1815-21 Jul 1846); m.Pss Aleksandra Mikhailovna Golizyn (17 Jan 1823-16 Apr 1884)
 												name=Dmitri
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015484	# Nikolai Dolgorukov
-												mother=100089840	# PSS Maria Dmitrievna Saltykov
+												mother=100017715	# Maria Saltykov
 												1815.11.01={birth=yes}
 												1840.01.01={add_spouse=100016170}	# Aleksandra Golizyn
 												1846.07.21={death=yes}
@@ -2979,7 +5548,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015484	# Nikolai Dolgorukov
-												mother=100089840	# PSS Maria Dmitrievna Saltykov
+												mother=100017715	# Maria Saltykov
 												1817.02.14={birth=yes}  # Sankt Petersburg
 												1836.07.01={death=yes}
 											}
@@ -2988,7 +5557,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015484	# Nikolai Dolgorukov
-												mother=100089840	# PSS Maria Dmitrievna Saltykov
+												mother=100017715	# Maria Saltykov
 												1819.08.16={birth=yes}  # Sankt Petersburg
 												1842.06.27={death=yes}  # k.in duel
 											}
@@ -2998,7 +5567,7 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015484	# Nikolai Dolgorukov
-												mother=100089840	# PSS Maria Dmitrievna Saltykov
+												mother=100017715	# Maria Saltykov
 												1822.12.04={birth=yes}
 												1845.03.30={death=yes}
 											}
@@ -3007,9 +5576,9 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015483	# Andrei Dolgorukov
-											mother=100089839	# Jelisaveta Nikolaevna Saltykov
+											mother=100017755	# Jelisaveta Saltykov
 											1797.08.02={birth=yes}
-											1822.01.01={add_spouse=100089841}	# PSS Jekaterina Aleksandrovna Saltykov
+											1822.01.01={add_spouse=100017730}	# Jekaterina Saltykov
 											1848.10.07={death=yes}
 										}
 											100015490={	# 1k) Ekaterina (Vevy 1818); m.18 May 1849 Pr Aleksander Lobanov-Rostowsky (d.4 Sep 1873)
@@ -3018,17 +5587,17 @@
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015489	# Ilja Dolgorukov
-												mother=100089841	# PSS Jekaterina Aleksandrovna Saltykov
+												mother=100017730	# Jekaterina Saltykov
 												1818.01.01={birth=yes}  # Vevy
 												1890.01.01={death=yes}  # EST.
 											}
-											100015491={	# 2k) Maria (1822-Berlin 12 Jan 1908); m.1st Moscow 23 Apr 1842 Pr Mikhail Galitzine (d.17 Mar 1860); m.2nd 1862 Nikolai Gf von der Osten gt.Sacken (d.Monte Carlo 22 May 1912)
+											100015491={	# 2k) Maria (1822-Berlin 12 Jan 1908); m.1st Moscow 23 Apr 1842 Pr Mikhail Golizyn (d.17 Mar 1860); m.2nd 1862 Nikolai Gf von der Osten gt.Sacken (d.Monte Carlo 22 May 1912)
 												name=Maria
 												female=yes
 												dynasty=1010006
 												religion=orthodox culture=russian
 												father=100015489	# Ilja Dolgorukov
-												mother=100089841	# PSS Jekaterina Aleksandrovna Saltykov
+												mother=100017730	# Jekaterina Saltykov
 												1822.01.01={birth=yes}
 												1908.01.12={death=yes}  # Berlin
 											}
@@ -3038,7 +5607,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015483	# Andrei Dolgorukov
-											mother=100089839	# Jelisaveta Nikolaevna Saltykov
+											mother=100017755	# Jelisaveta Saltykov
 											1798.09.21={birth=yes}
 											1857.04.21={death=yes}
 										}
@@ -3047,7 +5616,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015483	# Andrei Dolgorukov
-											mother=100089839	# Jelisaveta Nikolaevna Saltykov
+											mother=100017755	# Jelisaveta Saltykov
 											1802.02.15={birth=yes}
 											1832.02.22={death=yes}
 										}
@@ -3056,7 +5625,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015483	# Andrei Dolgorukov
-											mother=100089839	# Jelisaveta Nikolaevna Saltykov
+											mother=100017755	# Jelisaveta Saltykov
 											1804.01.24={birth=yes}
 											1827.01.01={add_spouse=100082893}	# CSS Olga de Saint Priest
 											1868.01.05={death=yes}
@@ -3105,7 +5674,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015483	# Andrei Dolgorukov
-											mother=100089839	# Jelisaveta Nikolaevna Saltykov
+											mother=100017755	# Jelisaveta Saltykov
 											1805.08.15={birth=yes}
 											1889.08.12={death=yes}
 										}
@@ -3115,7 +5684,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015483	# Andrei Dolgorukov
-											mother=100089839	# Jelisaveta Nikolaevna Saltykov
+											mother=100017755	# Jelisaveta Saltykov
 											1807.01.29={birth=yes}
 											1859.11.18={death=yes}
 										}
@@ -3124,7 +5693,7 @@
 											dynasty=1010006
 											religion=orthodox culture=russian
 											father=100015483	# Andrei Dolgorukov
-											mother=100089839	# Jelisaveta Nikolaevna Saltykov
+											mother=100017755	# Jelisaveta Saltykov
 											1810.06.24={birth=yes}
 											1839.04.16={add_spouse=100015465}	# Warwara Dolgorukov
 											1891.06.19={death=yes}  # Paris
@@ -3159,7 +5728,7 @@
 								1671.01.01={birth=yes}
 								1737.01.01={death=yes}  # EST.
 							}
-							100015504={	# 6g) Feodosia; m.1705 Pr Pyotr Galitzine (d.1722)
+							100015504={	# 6g) Feodosia; m.1705 Pr Pyotr Golizyn (d.1722)
 								name=Feodosia
 								female=yes
 								dynasty=1010006
@@ -3196,7 +5765,7 @@
 									father=100015506	# Ivan Dolgorukov
 									mother=100087457	# Agrafena Lyapunov
 									1710.01.01={birth=yes}
-									1740.01.01={add_spouse=100090304}	# Natalia Skliajev
+									1740.01.01={add_spouse=100090304}	# Natalia Skliayev
 									1753.05.01={death=yes}
 								}
 								100015183={	# 2h) Maria (8 Aug 1712-8 Feb 1781); m.Ivan Baryshkin (d.1750)
@@ -3231,7 +5800,7 @@
 
 
 ##  100125000		Troubetzkoy			1010004	
-100017131={	# Prince Jurij Petrovich Troubetzkoy (1643-12 Jul 1679); m.1657 Pss Irina Wassilievna Galitzine
+100017131={	# Prince Jurij Petrovich Troubetzkoy (1643-12 Jul 1679); m.1657 Pss Irina Wassilievna Golizyn
 	name=Jurij
 	dynasty=1010004
 	religion=orthodox culture=russian
@@ -3484,15 +6053,15 @@
 								1863.01.28={birth=yes}
 								1920.06.01={death=yes}
 							}
-							100017157={	# 2g) Nikolai (20 Feb 1864-Ste.Geneviève-des-Bois 2 Jun 1935); m.Livadia 29 Apr 1892 Pss Sophia Lvovna Galitzine (5 Aug 1871-Paris 20 Jul 1913)
+							100017157={	# 2g) Nikolai (20 Feb 1864-Ste.Geneviève-des-Bois 2 Jun 1935); m.Livadia 29 Apr 1892 Pss Sophia Lvovna Golizyn (5 Aug 1871-Paris 20 Jul 1913)
 								name=Nikolai
 								dynasty=1010004
 								religion=orthodox culture=russian
 								father=100017155	# Nikolai Trubetzkoy
 								mother=100080630	# Jelisaveta Aleksandrovna Bezak
-								1864.02.20={birth=yes}
-								1892.04.29={add_spouse=100084270}	# PSS Sophia Lvovna Golitsyn
-								1935.06.02={death=yes}
+								1864.02.20={birth=yes}	# Orenburg
+								1892.04.29={add_spouse=100016395}	# Sophia Golizyn
+								1935.06.02={death=yes}	# Ste.Geneviève-des-Bois
 							}
 								100017158={	# 1h) Maina (Tiflis 22 Jan 1893-Tiflis 29 Aug 1975); m.8 Nov 1917 Aleksander Petrovich Glonti (d.1939)
 									name=Maina
@@ -3500,7 +6069,7 @@
 									dynasty=1010004
 									religion=orthodox culture=russian
 									father=100017157	# Nikolai Trubetzkoy
-									mother=100084270	# PSS Sophia Lvovna Golitsyn
+									mother=100016395	# Sophia Golizyn
 									1893.01.22={birth=yes}
 									1975.08.29={death=yes}
 								}
@@ -3509,7 +6078,7 @@
 									dynasty=1010004
 									religion=orthodox culture=russian
 									father=100017157	# Nikolai Trubetzkoy
-									mother=100084270	# PSS Sophia Lvovna Golitsyn
+									mother=100016395	# Sophia Golizyn
 									1898.07.16={birth=yes}
 									1960.01.01={death=yes}
 								}
@@ -3519,7 +6088,7 @@
 									dynasty=1010004
 									religion=orthodox culture=russian
 									father=100017157	# Nikolai Trubetzkoy
-									mother=100084270	# PSS Sophia Lvovna Golitsyn
+									mother=100016395	# Sophia Golizyn
 									1903.06.17={birth=yes}
 									1986.09.04={death=yes}
 								}
@@ -3760,7 +6329,7 @@
 							mother=100089654	# Luisa Rosczischewski
 							1833.07.01={birth=yes}
 							1852.10.16={add_spouse=100092699}	# Elisabeth von Moeller
-							1885.01.01={add_spouse=100087571}	# Jelisaveta Lukaszewicz
+							1885.05.01={add_spouse=100087571}	# Jelisaveta Lukaszewicz
 							1893.01.26={death=yes}
 						}
 							100017185={	# 1g) Wladimir (29 Dec 1866-1933); m.1895 Maria Nikolaevna Bykovsky
@@ -4216,7 +6785,7 @@
 								1915.09.04={add_spouse=100089608}	# Maria Pavlovna Rodzianko
 								1958.01.01={death=yes}
 							}
-						100017231={	# 3f) Ekaterina (Pavlovsk 6 Aug 1831-St.Petersburg 15 Oct 1918); m.27 Apr 1855 Pr Pawel Galitzine (d.1871)
+						100017231={	# 3f) Ekaterina (Pavlovsk 6 Aug 1831-St.Petersburg 15 Oct 1918); m.27 Apr 1855 Pr Pawel Golizyn (d.1871)
 							name=Ekaterina
 							female=yes
 							dynasty=1010004
@@ -4226,7 +6795,7 @@
 							1831.08.06={birth=yes}
 							1918.10.15={death=yes}
 						}
-						100017232={	# 5f) Aleksandra (St.Petersburg 13 Mar 1840-Nice 13 Apr 1891); m.St.Petersburg 18 May 1861 Pr Ivan Galitzine (d.1896)
+						100017232={	# 5f) Aleksandra (St.Petersburg 13 Mar 1840-Nice 13 Apr 1891); m.St.Petersburg 18 May 1861 Pr Ivan Golizyn (d.1896)
 							name=Aleksandra
 							female=yes
 							dynasty=1010004
@@ -4243,7 +6812,7 @@
 				father=100017139	# Nikita Trubetzkoy
 				mother=100083452	# PSS Anna Danilovna Drutskoy
 				1736.11.21={birth=yes}
-				1757.01.26={add_spouse=100089825}	# Anna Petrovna Saltykov
+				1757.01.26={add_spouse=100017775}	# Anna Saltykov
 				1760.05.21={add_spouse=100089738}	# CSS Maria Aleksandrovna Rumyantsev
 				1811.08.28={death=yes}
 			}
@@ -4483,7 +7052,7 @@
 								1849.01.01={birth=yes}
 								1934.03.03={death=yes}
 							}
-							100017258={	# 3g) Maria (St.Petersburg 18 Apr 1863-Pau 16 Oct 1933); m.St.Petersburg 1890 Pr Aleksander Galitzine (d.1914)
+							100317258={	# 3g) Maria (St.Petersburg 18 Apr 1863-Pau 16 Oct 1933); m.St.Petersburg 1890 Pr Aleksander Golizyn (d.1914)
 								name=Maria
 								female=yes
 								dynasty=1010004
@@ -4866,7 +7435,7 @@
 										1925.04.16={birth=yes}
 										1982.06.14={death=yes}
 									}
-								100017295={	# 3h) Wladimir (Moscow 12 Jan 1892-executed at Andijan 30 Oct 1937); m.Moscow 4 Nov 1912 Pss Jelisaveta Wladimirovna Galitzine (Moscow 26 Nov 1889-d.in prison at Moscow 7 Feb 1943)
+								100017295={	# 3h) Wladimir (Moscow 12 Jan 1892-executed at Andijan 30 Oct 1937); m.Moscow 4 Nov 1912 Pss Jelisaveta Wladimirovna Golizyn (Moscow 26 Nov 1889-d.in prison at Moscow 7 Feb 1943)
 									name=Wladimir
 									dynasty=1010004
 									religion=orthodox culture=russian
@@ -4906,7 +7475,7 @@
 										1918.12.06={birth=yes}
 										1943.08.08={death=yes}
 									}
-									100017299={	# 5i) Andrei (Bogoroditzk 4 Jul 1920); m.Moscow 21 Jul 1948 Pss Jelena Wladimirovna Galitzine (Moscow 17 Mar 1924)
+									100017299={	# 5i) Andrei (Bogoroditzk 4 Jul 1920); m.Moscow 21 Jul 1948 Pss Jelena Wladimirovna Golizyn (Moscow 17 Mar 1924)
 										name=Andrei
 										dynasty=1010004
 										religion=orthodox culture=russian
@@ -5144,7 +7713,7 @@
 										father=100017320	# Sergei Trubetzkoy
 										mother=100015550	# Marina Gagarin
 										1931.04.07={birth=yes}
-										1958.06.03={add_spouse=100086956}	# Helene Kochubey
+										1958.06.03={add_spouse=100086956}	# Helene Kotchubey
 										2008.01.01={death=yes}  # EST.
 									}
 										100017325={	# 1j) Irene; m.William Clay Booth
@@ -5153,7 +7722,7 @@
 											dynasty=1010004
 											religion=orthodox culture=russian
 											father=100017324	# Eugene Trubetzkoy
-											mother=100086956	# Helene Kochubey
+											mother=100086956	# Helene Kotchubey
 											1960.01.01={birth=yes}
 										}
 										100017326={	# 2j) Serge; m.Elsa Maria Johanna Geks
@@ -5161,7 +7730,7 @@
 											dynasty=1010004
 											religion=orthodox culture=russian
 											father=100017324	# Eugene Trubetzkoy
-											mother=100086956	# Helene Kochubey
+											mother=100086956	# Helene Kotchubey
 											1962.01.01={birth=yes}
 										}
 										100017327={	# 3j) Natalia; m.Peter Derby
@@ -5170,10 +7739,10 @@
 											dynasty=1010004
 											religion=orthodox culture=russian
 											father=100017324	# Eugene Trubetzkoy
-											mother=100086956	# Helene Kochubey
+											mother=100086956	# Helene Kotchubey
 											1964.01.01={birth=yes}
 										}
-								100017328={	# 2h) Aleksander (Yaroslavl 24 Feb 1892-Clamart 17 Dec 1968); m.Clamart 30 Oct 1934 Pss Aleksandra Mikhailovna Galitzine (26 Jul 1900-25 Oct 1991)
+								100017328={	# 2h) Aleksander (Yaroslavl 24 Feb 1892-Clamart 17 Dec 1968); m.Clamart 30 Oct 1934 Pss Aleksandra Mikhailovna Golizyn (26 Jul 1900-25 Oct 1991)
 									name=Aleksander
 									dynasty=1010004
 									religion=orthodox culture=russian
@@ -5789,25 +8358,6 @@
 								1872.01.01={birth=yes}
 								1946.01.01={death=yes}  # EST.
 							}
-					100017391={	# 4e) Aleksander; m.Natalia Petrovna Shenshin
-						name=Aleksander
-						dynasty=1010004
-						religion=orthodox culture=russian
-						father=100017374	# Aleksei Trubetzkoy
-						mother=100084564	# Jewdokia Semjonovna Guriev
-						1808.01.01={birth=yes}
-						1880.01.01={death=yes}  # EST.
-					}
-					100017392={	# 5e) Maria; m.Aleksei Ivanovich Davydov
-						name=Maria
-						female=yes
-						dynasty=1010004
-						religion=orthodox culture=russian
-						father=100017374	# Aleksei Trubetzkoy
-						mother=100084564	# Jewdokia Semjonovna Guriev
-						1810.01.01={birth=yes}
-						1882.01.01={death=yes}  # EST.
-					}
 				100017393={	# 2d) Ekaterina; m.Ivan Wolynsky
 					name=Ekaterina
 					female=yes
@@ -6155,7 +8705,7 @@
 						1849.01.01={add_spouse=100081564}	# Elisabeth Coignard
 						1904.01.22={death=yes}
 					}
-						100017429={	# 1f) Maria (20 Apr 1857-1933); m.29 Jun 1880 Aleksei Jakowlewich Woropanov
+						100017258={	# 1f) Maria (20 Apr 1857-1933); m.29 Jun 1880 Aleksei Jakowlewich Woropanov
 							name=Maria
 							female=yes
 							dynasty=1010004
