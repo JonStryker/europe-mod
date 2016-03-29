@@ -432,7 +432,7 @@
 	name=Pietro
 	dynasty=1006200
 	religion=catholic culture=italian
-	1963.03.05={birth=yes}
+	1963.03.05={birth=yes}	# Castelvetere
 	1990.08.13={add_spouse=100061831}	# Alice Mary Liddell-Grainger
 }
 	100094431={# 1h) Danico Pietro Panaggio, b.London 19 Mar 1996
@@ -678,3 +678,59 @@
 		father=100296189	# Eduard Star Busmann
 		1934.12.06={birth=yes}
 	}
+
+100096118={ # Theodor Nieroth (3 Aug 1871-26 Mar 1952); m.20 Oct 1897 Daria Cantacuzino (22 Apr 1878-17 Mar 1944) %%
+	name=Theodor
+	dynasty=1002204
+	religion=orthodox culture=russian
+	1871.08.03={birth=yes}
+	1897.10.20={add_spouse=100030100}	# Daria Cantacuzino
+	1952.03.26={death=yes}
+}
+	100030101={ # D1. Ct Mikhail Feodorovich Nieroth, *St.Petersburg 25.11.1899, +Paris 28.2.1944; m.Berlin 3.7.1922 Catherine Gfn von Kleinmichel (*St.Petersburg 1.3.1903, +Paris 19.4.1985)
+		name=Mikhail
+		dynasty=1002204
+		religion=orthodox culture=russian
+		father=100096118	# Theodor Nieroth
+		mother=100030100	# Daria Cantacuzino
+		1899.11.25={birth=yes}
+		1922.07.03={add_spouse=100096119}	# GFN Ekaterina Kleinmichel
+		1944.02.28={death=yes}
+	}
+		100030102={ # E1. Ct Kirill Nieroth, *Boulogne 14.4.1930; m.Paris 17.11.1949 Css Elena Mikhailovna Belevskaya-Zhukovskaya (*31.8.1929)
+			name=Kirill
+			dynasty=1002204
+			religion=orthodox culture=russian
+			father=100030101	# Mikhail Nieroth
+			mother=100096119	# GFN Ekaterina Kleinmichel
+			1930.04.14={birth=yes}
+			1956.07.16={add_spouse=100016983}	# Elena Belevsky-Zhukovsky Romanov
+			2007.01.01={death=yes}  # EST.
+		}
+			100030103={ # F1. Ct Peter Nieroth, *Neuilly 12.6.1957, +Paris 26.5.2002
+				name=Peter
+				dynasty=1002204
+				religion=orthodox culture=russian
+				father=100030102	# Kirill Nieroth
+				mother=100016983	# Elena Belevsky-Zhukovsky Romanov
+				1957.06.12={birth=yes}  # Neuilly
+				2002.05.26={death=yes}  # Paris
+			}
+			100030104={ # F2. Css Elisabeth, *Houston 2.2.1966
+				name=Elisabeth
+				female=yes
+				dynasty=1002204
+				religion=orthodox culture=russian
+				father=100030102	# Kirill Nieroth
+				mother=100016983	# Elena Belevsky-Zhukovsky Romanov
+				1966.02.02={birth=yes}
+			}
+		100030105={ # E2. Css Xenia, *Boulogne 12.9.1934; m.Paris 19.2.1956 (div 1969) George Valerianovich Bibikov (*Lausanne 1.2.1920)
+			name=Xenia
+			female=yes
+			dynasty=1002204
+			religion=orthodox culture=russian
+			father=100030101	# Mikhail Nieroth
+			mother=100096119	# GFN Ekaterina Kleinmichel
+			1934.09.12={birth=yes}
+		}
