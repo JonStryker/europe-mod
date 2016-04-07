@@ -155,7 +155,7 @@
 			1601.06.23={birth=yes}
 			1634.09.04={death=yes}
 		}
-	100081511={ # Marie (25 Apr 1582-Dannenberg 9 Jul 1616); m.25 Apr 1614 Julius Ernst Welf (Dannenberg 10 Mar 1571-Dannenberg 26 Oct 1636) %%
+	100081511={ # Marie (25 Apr 1582-Dannenberg 9 Jul 1616); m.25 Apr 1614 Julius Ernst v. Braunschweig (Dannenberg 10 Mar 1571-Dannenberg 26 Oct 1636) %%
 		name=Marie
 		female=yes
 		dynasty=1008026
@@ -393,14 +393,35 @@
 		1827.01.01={death=yes}  # Jassy, Romania
 	}
 
-100092710={ # Rudolf Konrad v. Montgelas (b.10 Nov 1939); m.4 Jun 1973 Benedicta Natalie Biron (b.26 Dec 1946) %%
-	name="Rudolf Konrad"
+100192710={ # Friedrich-August v. Montgelas (b.30 Mar 1907) %%
+	name=Friedrich-August
 	dynasty=1002200
 	religion=catholic culture=german
-	1939.11.10={birth=yes}
-	1973.06.04={add_spouse=100000437}	# Benedicta Natalie Biron
-	1983.01.01={remove_spouse=100000437}
+	1907.03.30={birth=yes}
+}
+	100092710={ # Rudolf (b.10 Nov 1939); m.4 Jun 1973 Benedicta Natalie Biron (b.26 Dec 1946) %%
+		name=Rudolf
+		dynasty=1002200
+		religion=catholic culture=german
+		father=100192710	# Friedrich-August v. Montgelas
+		1939.11.10={birth=yes}
+		1973.06.04={add_spouse=100000437}	# Benedicta Natalie Biron
+		1983.01.01={remove_spouse=100000437}
+	}
+100193502={ # Albert v. Montgelas (b.17 Oct 1950) %%
+	name=Albert
+	dynasty=1002200
+	religion=catholic culture=german
+	1950.10.17={birth=yes}
 }	
+	100093502={ # Marie Helene (b.28 Mar 1986); m.30 May 2015 Friedrich-Leopold v. Isenburg (b.Frankfurt 6 Nov 1983) %%
+		name="Marie Helene"
+		female=yes
+		dynasty=1002200
+		religion=catholic culture=german
+		father=100193502	# Albert v. Montgelas
+		1986.03.28={birth=yes}
+	}	
 100092709={ # Ludwig Adolf Maximilian v. Montgelas (München 15 Dec 1907-Mühldorf 12 Nov 1982) %%
 	name="Ludwig Adolf Maximilian"
 	dynasty=1002200
@@ -427,7 +448,7 @@
 		mother=100516254
 		1939.03.24={birth=yes}
 	}
-
+	
 100094430={# Pietro Panaggio (b.Castelvetere 5 Mar 1963)
 	name=Pietro
 	dynasty=1006200
@@ -914,6 +935,33 @@
 		mother=100060002	# Katherine Emma Abel-Smith
 		father=100080492	# Hubert Wentworth Beaumont Beaumont
 		1991.04.23={birth=yes}
+	}
+
+100085679={ # Vincenzo Campagna (Florence 31 Mar 1963-Florence 28 Jan 2012); m.8 Jun 1991 Alessandra v. Collalto u.San Salvatore (b.26 Mar 1962) %%
+	name=Vincenzo
+	dynasty=1000002
+	religion=catholic culture=italian
+	1963.03.31={birth=yes}  # Florence
+	1991.06.08={add_spouse=100070773}	# Alessandra v. Collalto u.San Salvatore
+	2012.01.28={death=yes}  # Florence
+}
+	100185679={# Caterina (1993-    )
+		name=Caterina
+		female=yes
+		dynasty=1000002
+		religion=catholic culture=italian
+		father=100085679	# Vincenzo Campagna
+		mother=100070773	# Alessandra v. Collalto u.San Salvatore
+		1993.09.02={birth=yes}
+	}
+	100185680={# Matilde (1993-    )
+		name=Matilde
+		female=yes
+		dynasty=1000002
+		religion=catholic culture=italian
+		father=100085679	# Vincenzo Campagna
+		mother=100070773	# Alessandra v. Collalto u.San Salvatore
+		1993.12.25={birth=yes}
 	}
 	
 	

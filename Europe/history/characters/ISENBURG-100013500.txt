@@ -219,16 +219,7 @@
 						1823.10.14={add_spouse=100008233}	# GFN Philippine zu Isenburg-Philippseich
 						1859.08.22={death=yes}  # Frankfurt
 					}
-						100008234={ # 1f) Ferdinand Maximilian I, cr 1865 Fürst zu Ysenburg und Büdingen (Wächtersbach 24 Oct 1824-Wächtersbach 5 Jun 1903); m.Wilhelmshöhe 17 Jul 1849 Pss Auguste von Hanau (Niederdorfelden 21 Sep 1829-Halle 18 Sep 1887); for his issue see Section 5, below
-							name="Ferdinand Maximilian"
-							dynasty=1002018
-							religion=catholic culture=german
-							father=100008232	# Adolf v. Isenburg
-							mother=100008233	# GFN Philippine zu Isenburg-Philippseich
-							1824.10.24={birth=yes}  # Wächtersbach
-							1849.07.17={add_spouse=100008235}	# PSS Auguste von Hanau
-							1903.06.05={death=yes}  # Wächtersbach
-						}
+						# SECTION 5 -> 1f) Ferdinand Maximilian I, cr 1865 Fürst zu Ysenburg und Büdingen (Wächtersbach 24 Oct 1824-Wächtersbach 5 Jun 1903); m.Wilhelmshöhe 17 Jul 1849 Pss Auguste von Hanau (Niederdorfelden 21 Sep 1829-Halle 18 Sep 1887); for his issue see Section 5, below
 		100008236={ # 3b) Georg Albrecht Gf zu Isenburg und Büdingen in Meerholz (Büdingen 1 May 1664-Meerholz 11 Feb 1724); m.11 Jul 1691 Amalie Henriette Gfn zu Sayn-Wittgenstein-Berleburg (24 Feb 1664-Meerholz 9 Feb 1733)
 			name="Georg Albrecht"
 			dynasty=1002018
@@ -311,7 +302,8 @@
 				name=Carl
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002360	# Wolfgang Ernst v. Isenburg
+				father=100008255	# Wolfgang Ernst v. Isenburg
+				mother=100008256	# Sophie Charlotte von Anhalt-Bernburg-Schaumburg-Hoym
 				1766.06.29={birth=yes}
 				1795.09.16={add_spouse=100094100}	# GFN Charlotte Auguste zu Erbach-Erbach
 				1820.03.21={death=yes}
@@ -969,7 +961,8 @@
 			father=100002422	# Ernst Casimir v. Isenburg
 			mother=100094108	# GFN Thekla zu Erbach-Fürstenau
 			1839.02.17={birth=yes}  # Büdingen
-			1875.11.18={add_spouse=100094187}	# PSS Alexandra zu Isenburg-Büdingen in Wächtersbach
+			1875.11.18={add_spouse=100008363}	# PSS Alexandra zu Isenburg-Büdingen in Wächtersbach
+			1877.01.01={remove_spouse=100008363}
 			1885.08.29={death=yes}  # Kennenberg
 		}
 		100002350={	# 3b) Emma Ferdinande Emilie (Büdingen 23 Feb 1841-Rüdenhausen 22 Apr 1926); m.Büdingen 17 May 1859 Wolfgang Fst zu Castell-Rüdenhausen (Rüdenhausen 21 Apr 1830-Rüdenhausen 13 Jan 1913)
@@ -1107,6 +1100,386 @@
 #1861.02.16={holder=100013605} # 1b) BRUNO Casimir Albert Emil Ferdinand Fst zu Ysenburg und Büdingen 
 #1906.01.26={holder=100013616} # 5c) WOLFGANG Fst zu Ysenburg und Büdingen 
 ### SECTION 4: zu Ysenburg u.Büdingen in Büdingen 
+
+
+### SECTION 5: zu Ysenburg u.Büdingen in Wächtersbach
+100008321={ # FERDINAND MAXIMILIAN Gf zu Ysenburg u.Büdingen in Wächtersbach 9 Oct 1847, cr Fürst zu Ysenburg und Büdingen 17 Aug 1865 (Wächtersbach 24 Oct 1824-Wächtersbach 5 Jun 1903); m.Wilhelmshöhe 17 Jul 1849 Auguste Pss von Hanau Gfn von Schaumburg (Niederdorfelden 21 Sep 1829-Halle an der Saale 18 Sep 1887)
+	name="Ferdinand Maximilian"
+	dynasty=1002018
+	religion=catholic culture=german
+	father=100008232	# Adolf v. Isenburg
+	mother=100008233	# GFN Philippine zu Isenburg-Philippseich
+	1824.10.24={birth=yes}  # Wächtersbach
+	1849.07.17={add_spouse=100008235}	# PSS Auguste von Hanau
+	1903.06.05={death=yes}  # Wächtersbach
+}
+	100008322={ # 1a) FRIEDRICH WILHELM Adolf Georg Casimir Carl Fst zu Ysenburg und Büdingen (Wächtersbach 17 Jun 1850-Wächtersbach 20 Apr 1933); m.Wächtersbach 16 Sep 1879 Anna Gfn Dobrzensky von Dobrzenicz (Prague 25 Feb 1852-Nauheim 21 Sep 1913)
+		name="Friedrich Wilhelm"
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008321	# Ferdinand Maximilian v. Isenburg
+		mother=100008235	# PSS Auguste von Hanau
+		1850.06.17={birth=yes}  # Wächtersbach
+		1879.09.16={add_spouse=100085745}	# Anna
+		1933.04.20={death=yes}  # Wächtersbach
+	}
+		100008323={ # 1b) Ferdinand Maximilian Erbprinz zu Ysenburg u.Büdingen (Wächtersbach 25 Jun 1880-Berlin 11 Mar 1927); m.Freiburg im Breisgau 19 Dec 1903 Margarete Gfn von Dönhoff (Beseritz 19 Apr 1876-Wächtersbach 22 Sep 1954)
+			name="Ferdinand Maximilian"
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008322	# Friedrich Wilhelm v. Isenburg
+			mother=100085745	# Anna
+			1880.06.25={birth=yes}  # Wächtersbach
+			1903.12.19={add_spouse=100085753}	# GFN Margarete von Dönhoff
+			1927.03.11={death=yes}  # Berlin
+		}
+			100008324={ # 1c) OTTO FRIEDRICH Viktor Ferdinand Maximilian Gustav Richard Bogislav Fst zu Ysenburg und Büdingen, adopted 17 Sep 1936 by Carl Fst zu Ysenburg u.Büdingen (see above) (Halberstadt 16 Sep 1904-Büdingen 25 Sep 1990); m.Stonsdorf 3 Sep 1935 Felizitas Pss Reuss (Oels 5 Jul 1914-Gießen 25 Jun 1989)
+				name=Otto
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008323	# Ferdinand Maximilian v. Isenburg
+				mother=100085753	# GFN Margarete von Dönhoff
+				1909.01.01={birth=yes}  # EST.
+				1935.09.03={add_spouse=100003474}	# Felizitas Reuß
+				1984.01.01={death=yes}  # Büdingen
+			}
+				100008325={ # 1d) WOLFGANG-ERNST Ferdinand Heinrich Franz Karl Georg Wilhelm Fst zu Ysenburg u.Büdingen (b.Frankfurt 20 Jun 1936); m.(civ) Haubenmühle 27 Jan 1967 (rel) Rodheim 27 Jan 1967 Leonille Elisabeth Pss zu Sayn-Wittgenstein-Berleburg (b.Hamburg 6 Jul 1941)
+					name=Wolfgang-Ernst
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008324	# Otto v. Isenburg
+					mother=100003474	# Felizitas Reuß
+					1936.06.20={birth=yes}  # Frankfurt
+					1967.01.27={add_spouse=100004339}	# Leonille Elisabeth zu Sayn-Wittgenstein-Berleburg
+				}
+					100008326={ # 1e) Casimir-Alexander Lucian Friedrich Peter Franz Ferdinand Benedikt Wittekind Erbprinz zu Ysenburg u.Büdingen (b.Frankfurt 30 Dec 1967); m.Hamburg 4 Jun 2010 Alexandra Gfn von Bernstorff (b.Groß Sarau 26 Feb 1977)
+						name=Casimir-Alexander
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008325	# Wolfgang-Ernst v. Isenburg
+						mother=100004339	# Leonille Elisabeth zu Sayn-Wittgenstein-Berleburg
+						1967.12.30={birth=yes}  # Frankfurt
+						2010.06.04={add_spouse=100086128}	# GFN Alexandra von Bernstorff
+					}
+						100008327={ # 1f) Tristan Alexander (b.2014)
+							name="Tristan Alexander"
+							dynasty=1002018
+							religion=catholic culture=german
+							father=100008326	# Casimir-Alexander v. Isenburg
+							mother=100086128	# GFN Alexandra von Bernstorff
+							2014.01.01={birth=yes}
+						}
+					100008328={ # 2e) Ferdinand-Maximilian Philipp Heinrich Richard Tom (b.Frankfurt 28 Jul 1969); m.Court-Saint-Etienne, Belgium 23 Aug 2003 Sophie de Bois (b.Tel Aviv 9 Aug 1970)
+						name=Ferdinand-Maximilian
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008325	# Wolfgang-Ernst v. Isenburg
+						mother=100004339	# Leonille Elisabeth zu Sayn-Wittgenstein-Berleburg
+						1969.07.28={birth=yes}  # Frankfurt
+						2003.08.23={add_spouse=100086133}	# Sophie de Bois
+					}
+						100008329={ # 1f) Madeleine Felizitas Véronique Gail (b.Frankfurt 3 Nov 2004)
+							name=Madeleine
+							female=yes
+							dynasty=1002018
+							religion=catholic culture=german
+							father=100008328	# Ferdinand-Maximilian v. Isenburg
+							mother=100086133	# Sophie de Bois
+							2004.11.03={birth=yes}  # Frankfurt
+						}
+						100008330={ # 2f) Tassilo-Alexander Casimir Arnould Christian (b.Frankfurt 9 Feb 2006)
+							name=Tassilo-Alexander
+							dynasty=1002018
+							religion=catholic culture=german
+							father=100008328	# Ferdinand-Maximilian v. Isenburg
+							mother=100086133	# Sophie de Bois
+							2006.02.09={birth=yes}  # Frankfurt
+						}
+					100008331={ # 3e) Felizitas-Magdalena Anita Ida Elisabeth (b.Basel 22 Feb 1980); m.19 Jul 2014 Michael Max Senfft von Pilsach
+						name=Felizitas-Magdalena
+						female=yes
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008325	# Wolfgang-Ernst v. Isenburg
+						mother=100004339	# Leonille Elisabeth zu Sayn-Wittgenstein-Berleburg
+						1980.02.22={birth=yes}  # Basel
+					}
+				100008332={ # 2d) Sophie-Alexandra Cecilie Anna Maria Friederike Benigna Dorothea (Frankfurt 23 Oct 1937-1 Jun 2015); m.Büdingen (civ) 20 Sep 1960 (rel) 21 Sep 1960 Welf Heinrich Pr of Hannover (Gmunden 11 Mar 1923-Frankfurt 12 Jul 1997)
+					name=Sophie-Alexandra
+					female=yes
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008324	# Otto v. Isenburg
+					mother=100003474	# Felizitas Reuß
+					1937.10.23={birth=yes}  # Frankfurt
+					2015.06.01={death=yes}
+				}
+				100008333={ # 3d) Ferdinand-Heinrich Karl August Hermann Gotthard (Frankfurt 19 Oct 1940-Büdingen 8 Mar 1989); m.Glücksburg (civ) 2 Jan 1975 (rel) 5 Jan 1975 Elisabeth Pss of Schleswig-Holstein (b.Schleswig 10 Sep 1945)
+					name=Ferdinand-Heinrich
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008324	# Otto v. Isenburg
+					mother=100003474	# Felizitas Reuß
+					1940.10.19={birth=yes}  # Frankfurt
+					1975.01.02={add_spouse=100004928}	# Elisabeth v. Schleswig-Holstein-Sonderburg-Glücksburg
+					1989.03.08={death=yes}  # Büdingen
+				}
+					100008334={ # 1e) Johann-Georg Gerd Max Alexander Sylvester Gisbert (b.Frankfurt 8 Jul 1976); m.4 Jun 2010 (rel) 5 Jun 2010 Stefanie Bittner (b.Flensburg 5 Feb 1977)
+						name=Johann-Georg
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008333	# Ferdinand-Heinrich v. Isenburg
+						mother=100004928	# Elisabeth v. Schleswig-Holstein-Sonderburg-Glücksburg
+						1976.07.08={birth=yes}  # Frankfurt
+						2010.06.04={add_spouse=100090547}	# Stefanie Bittner
+					}
+						100008335={ # 1f) Anna Carolina Sophia Dorothea Katinka Alexandra (b.Frankfurt 8 Jan 2010)
+							name=Anna
+							female=yes
+							dynasty=1002018
+							religion=catholic culture=german
+							father=100008334	# Johann-Georg v. Isenburg
+							mother=100090547	# Stefanie Bittner
+							2010.01.08={birth=yes}  # Frankfurt
+						}
+					100008336={ # 2e) Ludwig-Ferdinand Wittekind Heinrich Friedrich-August Joachim (b.Frankfurt 6 Feb 1979); m.Schloß Glücksburg 1 Oct 2010 (rel) 2 Oct 2010 Chantal Toelle (b.Hamburg 7 Oct 1975)
+						name=Ludwig-Ferdinand
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008333	# Ferdinand-Heinrich v. Isenburg
+						mother=100004928	# Elisabeth v. Schleswig-Holstein-Sonderburg-Glücksburg
+						1979.02.06={birth=yes}  # Frankfurt
+						2010.10.01={add_spouse=100093498}	# Chantal Toelle
+					}
+				100008337={ # 4d) Christian-Albrecht Franz Nikolaus Heinrich Wolfgang (Frankfurt 3 Jan 1943-Munich 12 Jul 2003); m.Büdingen 18 Feb 1966 Monika Frn von Plessen (b.Rome 29 Jan 1940)
+					name=Christian-Albrecht
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008324	# Otto v. Isenburg
+					mother=100003474	# Felizitas Reuß
+					1943.01.03={birth=yes}  # Frankfurt
+					1966.02.18={add_spouse=100093499}	# FRN Monika von Plessen
+					2003.07.12={death=yes}  # Munich
+				}
+					100008338={ # 1e) Margita Octavia Alexandra Silvia Felizitas Irmgard Madeleine (b.Frankfurt 7 Nov 1966)
+						name=Margita
+						female=yes
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008337	# Christian-Albrecht v. Isenburg
+						mother=100093499	# FRN Monika von Plessen
+						1966.11.07={birth=yes}  # Frankfurt
+					}
+					100008339={ # 2e) Johann Albrecht Philipp Alexander Stefan Axel Wittekind Leonille (b.Frankfurt 10 Jul 1968); m.Büdingen (civ) 5 Sep 1997 (rel) 6 Sep 1997 Alexandra Pohle (b.Heidelberg 14 Aug 1967)
+						name=Johann
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008337	# Christian-Albrecht v. Isenburg
+						mother=100093499	# FRN Monika von Plessen
+						1968.07.10={birth=yes}  # Frankfurt
+						1997.09.05={add_spouse=100093500}	# Alexandra Pohle
+					}
+						100008340={ # 1f) Donatus (b.Mexico City 1 Aug 2000)
+							name=Donatus
+							dynasty=1002018
+							religion=catholic culture=german
+							father=100008339	# Johann v. Isenburg
+							mother=100093500	# Alexandra Pohle
+							2000.08.01={birth=yes}
+						}
+						100008341={ # 2f) Johann Philipp (b.Mexico City 12 Mar 2002)
+							name="Johann Philipp"
+							dynasty=1002018
+							religion=catholic culture=german
+							father=100008339	# Johann v. Isenburg
+							mother=100093500	# Alexandra Pohle
+							2002.03.12={birth=yes}
+						}
+					100008342={ # 3e) Donata Elisabeth Verena Franziska (b.Basel 22 Feb 1970)
+						name=Donata
+						female=yes
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008337	# Christian-Albrecht v. Isenburg
+						mother=100093499	# FRN Monika von Plessen
+						1970.02.22={birth=yes}  # Basel
+					}
+				100008343={ # 5d) Johann-Ernst Friedrich Karl Diether Franz Alexander Heinrich Sylvester (b.Gelnhausen 31 Dec 1949); m.Ebenthal, Carinthia 3 Jun 1983 Hemma-Christiane Gfn von Goëß (b.Ebenthal 12 Mar 1957)
+					name=Sylvester
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008324	# Otto v. Isenburg
+					mother=100003474	# Felizitas Reuß
+					1949.12.31={birth=yes}  # Gelnhausen
+					1983.06.03={add_spouse=100023481}	# Hemma-Christiane v. Goëss
+				}
+					100008344={ # 1e) Friedrich-Leopold Christian Ulrich Pierot (b.Frankfurt 6 Nov 1983); m.30 May 2015 Marie Helene Gfn von Montgelas (b.1986)
+						name=Friedrich-Leopold
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008343	# Sylvester v. Isenburg
+						mother=100023481	# Hemma-Christiane v. Goëss
+						1983.11.06={birth=yes}  # Frankfurt
+						2015.05.30={add_spouse=100093502}	# Marie Helene v. Montgelas
+					}
+					100008345={ # 2e) Dorothea Cecilie Henriette (b.Frankfurt 23 May 1986)
+						name=Dorothea
+						female=yes
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008343	# Sylvester v. Isenburg
+						mother=100023481	# Hemma-Christiane v. Goëss
+						1986.05.23={birth=yes}  # Frankfurt
+					}
+			100008346={ # 2c) Gabriele Georgine Gustava Resita Klausine Karoline Imagina Marion (Berlin 23 Nov 1911-Munich 13 Jan 2000); m.Berlin 21 Feb 1942 Franz Wilhelm Pr zu Sayn-Wittgenstein-Berleburg (Frankfurt 24 Aug 1910-Gmund 19 May 2001)
+				name=Gabriele
+				female=yes
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008323	# Ferdinand Maximilian v. Isenburg
+				mother=100085753	# GFN Margarete von Dönhoff
+				1911.11.23={birth=yes}  # Berlin
+				2000.01.13={death=yes}  # Munich
+			}
+		100008347={ # 2b) Maria Elisabeth Auguste Anna (Wächtersbach 13 Nov 1881-Lausanne 13 Nov 1958); m.Wächtersbach 23 Jun 1910 Domenico Aloisi (San Sebastian, Spain 21 Jul 1867-Pisignano, Italy 15 May 1945)
+			name=Maria
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008322	# Friedrich Wilhelm v. Isenburg
+			mother=100085745	# Anna
+			1881.11.13={birth=yes}  # Wächtersbach
+			1958.11.13={death=yes}  # Lausanne
+		}
+		100008348={ # 3b) Elisabeth Maria Auguste (Wächtersbach 12 Nov 1883-Vandières 10 Oct 1982); m.Lugano 21 May 1901 Edouard Desrousseaux, Duc de Vandières (Vandières 31 May 1866-Paris 29 May 1935)
+			name=Elisabeth
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008322	# Friedrich Wilhelm v. Isenburg
+			mother=100085745	# Anna
+			1883.11.12={birth=yes}  # Wächtersbach
+			1982.10.10={death=yes}  # Vandières
+		}
+		100008349={ # 4b) Ida Auguste (Wächtersbach 9 Aug 1885-Stuttgart 18 Oct 1964); m.Wächtersbach 14 Apr 1916 Thilo von Trotha (Callenberg 27 Jul 1882-Skopau 14 Dec 1969)
+			name="Ida Auguste"
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008322	# Friedrich Wilhelm v. Isenburg
+			mother=100085745	# Anna
+			1885.08.09={birth=yes}  # Wächtersbach
+			1916.04.14={add_spouse=100093506}	# Thilo von Trotha
+			1964.10.18={death=yes}  # Stuttgart
+		}
+		100008360={ # 6b) Anna (Wächtersbach 19 Jun 1887-Marburg 5 Sep 1954); m.Wächtersbach 9 Jan 1919 (div 1941) Hans Rausch (Worms 8 Oct 1886-Rheinbach 22 Apr 1961)
+			name=Anna
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008322	# Friedrich Wilhelm v. Isenburg
+			mother=100085745	# Anna
+			1887.06.19={birth=yes}  # Wächtersbach
+			1954.09.05={death=yes}  # Marburg
+		}
+		100008350={ # 5b) Therese (Wächtersbach 19 Jun 1887-Spre di Povo, Italy 28 Oct 1969); m.Schloß Haasberg 3 Jun 1912 Franz Gf Ceschi a Santa Croce (Trient 10 Jun 1872-Povo, Italy 6 Apr 1952)
+			name=Therese
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008322	# Friedrich Wilhelm v. Isenburg
+			mother=100085745	# Anna
+			1887.06.19={birth=yes}  # Wächtersbach
+			1969.10.28={death=yes}  # Spre di_Povo Italy
+		}
+	100008363={ # 2a) Gertrude Philippine Alexandra Marie Auguste Luise (Wächtersbach 28 Dec 1855-Munich 24 Oct 1932); 
+				# m.1st Wächtersbach 18 Nov 1875 (div 1877) Adalbert Pr zu Isenburg-Büdingen in Büdingen (Büdingen 17 Feb 1839-Kennenburg 29 Aug 1885); 
+				# m.2nd Wächtersbach 15 May 1878 (div 1899) Robert Frhr von Pagenhardt (Braunschweig 28 Apr 1852-Baden-Baden 16 Sep 1922)
+		name=Alexandra
+		female=yes
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008321	# Ferdinand Maximilian v. Isenburg
+		mother=100008235	# PSS Auguste von Hanau
+		1855.12.28={birth=yes}  # Wächtersbach
+		1932.10.24={death=yes}  # Munich
+	}
+	100008364={ # 3a) Gerta Auguste (Wächtersbach 18 Jan 1863-Baden-Baden 27 Nov 1945); m.Wächtersbach 11 Apr 1885 Wilhelm Pr of Saxe-Weimar-Eisenach (Stuttgart 21 Dec 1853-Baden-Baden 15 Dec 1924)
+		name=Gerta
+		female=yes
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008321	# Ferdinand Maximilian v. Isenburg
+		mother=100008235	# PSS Auguste von Hanau
+		1863.01.18={birth=yes}  # Wächtersbach
+		1945.11.27={death=yes}  # Baden-Baden
+	}
+
+#######
+100093504={ #            Domenico                  Aloisi                                   (1867-1945)
+	name="Domenico Aloisi"
+	dynasty=0
+	religion=catholic culture=german
+	1867.07.21={birth=yes}  # San Sebastian Spain
+	1910.06.23={add_spouse=100008347}	# Maria v. Isenburg
+	1945.05.15={death=yes}  # Pisignano Italy
+}
+100090547={ #            Stefanie                  Bittner                                  (1977-    )
+	name="Stefanie Bittner"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1977.02.05={birth=yes}  # Flensburg
+}
+100093500={ #            Alexandra                 Pohle                                    (1967-    )
+	name="Alexandra Pohle"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1967.08.14={birth=yes}  # Heidelberg
+}
+100093508={ #            Hans                      Rausch                                   (1886-1961)
+	name="Hans Rausch"
+	dynasty=0
+	religion=catholic culture=german
+	1886.10.08={birth=yes}  # Worms
+	1919.01.09={add_spouse=100008360}	# Anna v. Isenburg
+	1941.01.01={remove_spouse=100008360}
+	1961.04.22={death=yes}  # Rheinbach
+}
+100090223={ #            Michael Max               Senfft von Pilsach                       (1989-    )
+	name="Michael Max Senfft von Pilsach"
+	dynasty=0
+	religion=catholic culture=german
+	1989.01.01={birth=yes}
+	2014.07.19={add_spouse=100008331}	# Felizitas-Magdalena v. Isenburg
+}
+100093498={ #            Chantal                   Toelle                                   (1975-    )
+	name="Chantal Toelle"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1975.10.07={birth=yes}  # Hamburg
+}
+100086133={ #            Sophie                    de Bois                                  (1970-    )
+	name="Sophie de Bois"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1970.08.09={birth=yes}
+}
+100093506={ #            Thilo                     von Trotha                               (1882-1969)
+	name="Thilo von Trotha"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1882.07.27={birth=yes}  # Callenberg
+	1969.12.14={death=yes}  # Skopau
+}
+#1854.10.24={holder=100008321} # FERDINAND MAXIMILIAN
+#1903.06.05={holder=100008322} # FRIEDRICH WILHELM
+#1933.04.20={holder=100008324} # OTTO FRIEDRICH
+#1984.01.01={holder=100008325} # WOLFGANG-ERNST
+### SECTION 5: zu Ysenburg u.Büdingen in Wächtersbach
 
 
 ### SECTION 6: zu Ysenburg u.Büdingen in Meerholz

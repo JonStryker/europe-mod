@@ -922,13 +922,13 @@
 }
 
 #[POTOCKI, RADZIWILL, SWIATOPELK]
-100083213={ # Gf         Stefan                    Dembinski                                (1876-1934)     0
+100083213={ #            Stefan                    Dembinski                                (1876-1934)     0
 	name="Stefan Dembinski"
 	dynasty=0
 	religion=catholic culture=polish
-	1876.01.01={birth=yes}
-	1901.01.01={add_spouse=100112285}	# Maria-Karoline Swiatopelk-Czetwertynski
-	1934.07.03={death=yes}
+	1869.07.02={birth=yes}
+	1895.07.20={add_spouse=100112285}	# Maria-Karoline Swiatopelk-Czetwertynski
+	1934.07.03={death=yes}	# Borkowice
 }
 100083212={ #            Marie Helena              Dembinski                                (1897-1970)     2
 	name="Marie Helena Dembinski"
@@ -1085,6 +1085,14 @@
 	1844.09.27={birth=yes}
 	1868.01.01={add_spouse=100111561}	# Roza Potocki
 	1873.02.06={death=yes}
+}
+100211561={ # Ct         Maria Beatrix             Krasinski                                (1850-1884)     0
+	name="Maria Beatrix Krasinski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1850.07.24={birth=yes}
+	1884.08.24={death=yes}
 }
 100087001={ # Ct         Michael                   Krasinski                                (1883-1939)     0
 	name="Michael Krasinski"
@@ -1682,7 +1690,7 @@
 	1804.11.04={birth=yes}
 	1859.01.22={death=yes}
 }
-100090744={ # Pss        Luise                     Swiatopolk-Mirski                        (1827-1867)     0
+100090744={ # Pss        Luise                     Sviatopolk-Mirsky                        (1827-1867)     0
 	name="Luise Swiatopolk-Mirski"
 	female=yes
 	dynasty=0
@@ -1690,11 +1698,19 @@
 	1827.05.08={birth=yes}
 	1867.01.01={death=yes}
 }
-100095319={ # Pr         Piotr                     Swiatopolk-Mirski                        (1861-1914)     0
-	name="Piotr Swiatopolk-Mirski"
+100095318={ # Pr         Nikolai Ivanovich         Sviatopolk-Mirsky                        (1833-1898)
+	name="Nikolai Ivanovich Svyatopolk-Mirsky"
+	dynasty=0
+	religion=orthodox culture=georgian
+	1833.07.05={birth=yes}  # Miastkow
+	1860.05.04={add_spouse=100050407}	# Vera Bagrationi-Gruzinsky
+	1898.07.15={death=yes}
+}
+100095319={ # Pr         Piotr Dmitrievich         Sviatopolk-Mirsky                        (1861-1914)     0
+	name="Piotr Dmitrievich Sviatopolk-Mirski"
 	dynasty=0
 	religion=orthodox culture=polish
-	1861.01.01={birth=yes}
+	1857.08.30={birth=yes}
 	1886.01.19={add_spouse=100015138}	# Catherine Bobrinsky
 	1914.05.16={death=yes}
 }
@@ -1932,11 +1948,12 @@
 	1752.08.29={birth=yes}
 	1798.01.01={death=yes}  # St.Petersburg
 }
-100088157={ #            Kasimier                  Mniszech Tchorznicki                     (1880-1919)  0  0
+100088157={ #            Kasimier                  Mniszech Tchorznicki                     (1880-1919)     0
 	name="Kasimier Mniszech Tchorznicki"
 	dynasty=0
 	religion=catholic culture=polish
 	1880.01.01={birth=yes}  # Nadyby
+	1915.01.01={add_spouse=100114226}	# Tereza Potocki
 	1919.12.21={death=yes}  # Stanimierz
 }
 
@@ -2147,6 +2164,23 @@
 	1980.07.30={death=yes}
 }
 
+100089108={ #            Christoph                 Poklewski-Koziell                        (1914-1994)     0
+	name="Christoph Poklewski-Koziell"
+	dynasty=0
+	religion=catholic culture=polish
+	1914.01.16={birth=yes}
+	1953.09.24={add_spouse=100110614}	# Zenaïda Zamoyski
+	1994.01.16={death=yes}  # EST.
+}
+100086980={ #            Vincenz                   Poklewski-Koziell                        (1932-2009)     0
+	name="Vincenz Poklewski-Koziell"
+	dynasty=0
+	religion=catholic culture=polish
+	1932.01.01={birth=yes}
+	1957.01.01={add_spouse=100114173}	# Natalia Potocki
+	1962.01.01={remove_spouse=100114173}
+	2009.01.01={death=yes}  # EST.
+}
 100080648={ # Ct         Michal                    Bielinski                                (1703-1746)     0
 	name="Michal Bielinski"
 	dynasty=0
@@ -3339,14 +3373,6 @@
 	1840.11.13={birth=yes}
 	1913.01.21={death=yes}
 }
-100088377={ # Gf         Karl                      Raczynski                                (1878-1946)     0
-	name="Karl Raczynski"
-	dynasty=0
-	religion=catholic culture=polish
-	1878.01.30={birth=yes}  # Rogalin
-	1904.06.30={add_spouse=100112306}	# Stephanie Swiatopelk-Czetwertynski
-	1946.11.29={death=yes}  # Lodz
-}
 100096194={ # Gf         Tadeusz                   Rogala-Koczorowski                       (1911-1989)     0
 	name="Tadeusz Rogala-Koczorowski"
 	dynasty=0
@@ -3387,14 +3413,6 @@
 	1878.09.08={add_spouse=100004119}	# Maria zu Salm-Reifferscheidt
 	1880.01.01={remove_spouse=100004119}
 	1933.07.15={death=yes}  # Vienna
-}
-100091998={ # Gf         Kazimir                   von Galen-Bisping                        (1877-1941)     0
-	name="Kazimir von Galen-Bisping"
-	dynasty=0
-	religion=catholic culture=polish
-	1877.01.01={birth=yes}
-	1902.01.01={add_spouse=100112343}	# Honorina Swiatopelk-Czetwertynski
-	1941.01.01={death=yes}
 }
 100083536={ # Bss        Marie Henriette           Durye                                    (1927-2004)     3
 	name="Marie Henriette Durye"
@@ -3494,13 +3512,6 @@
 	1922.06.19={birth=yes}
 	1947.01.01={add_spouse=100110513}	# Maria Krystyna Zamoyski
 	2002.01.01={death=yes}  # EST.
-}
-100080594={ #            Pauline                   Berthon                                  (1950-    )     2
-	name="Pauline Berthon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1950.02.01={birth=yes}
 }
 100080628={ #            Zofia                     Beyzym                                   (1873-1948)     2
 	name="Zofia Beyzym"
@@ -3681,14 +3692,6 @@
 	religion=catholic culture=polish
 	1964.06.09={birth=yes}
 	1989.07.13={add_spouse=100110218}	# Barbara Czartoryski
-}
-100081560={ #            Jacqueline                Codet de Casaubon                        (1932-2009)     2
-	name="Jacqueline Codet de Casaubon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1932.06.01={birth=yes}  # Paris
-	2009.01.01={death=yes}  # EST.
 }
 100081660={ #            Franziska                 Corvin-Krasinski                         (1742-1796)     1
 	name="Franziska Corvin-Krasinski"
@@ -3885,14 +3888,6 @@
 	religion=catholic culture=polish
 	1820.01.01={birth=yes}  # Traby
 	1894.06.01={death=yes}  # Holobutów
-}
-100083791={ #            Riccardo                  Fasanello                                (1931-1993)     0
-	name="Riccardo Fasanello"
-	dynasty=0
-	religion=catholic culture=polish
-	1931.09.30={birth=yes}  # Sao Paulo
-	1960.10.07={add_spouse=100112073}	# Oliwia Tarnowski
-	1993.05.01={death=yes}  # Rio de_Janeiro
 }
 100083846={ #            Agata                     Fersztyn                                 (1967-    )     0
 	name="Agata Fersztyn"
@@ -4150,15 +4145,6 @@
 	1495.01.01={birth=yes}
 	1545.01.01={death=yes}
 }
-100085699={ #            Richard                   Jenner                                   (1922-1998)     0
-	name="Richard Jenner"
-	dynasty=0
-	religion=catholic culture=polish
-	1922.01.01={birth=yes}
-	1947.01.01={add_spouse=100114173}	# Natalia Potocki
-	1956.01.01={remove_spouse=100114173}
-	1998.01.01={death=yes}  # EST.
-}
 100086197={ #            Maria-Anna                Kacki                                    (1721-1768)     1
 	name="Maria-Anna Kacki"
 	female=yes
@@ -4261,14 +4247,6 @@
 	1943.04.23={birth=yes}
 	2009.02.07={death=yes}
 }
-100086814={ #            Wendy Mary                Kimpson                                  (1924-2010)     1
-	name="Wendy Mary Kimpson"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1924.05.08={birth=yes}  # Yadlethorpe
-	2010.01.01={death=yes}
-}
 100086842={ #            Irena                     Kizski herbu Dabrowa                     (1922-1998)     1
 	name="Irena Kizski herbu Dabrowa"
 	female=yes
@@ -4313,14 +4291,6 @@
 	dynasty=0
 	religion=catholic culture=polish
 	1963.07.01={birth=yes}
-}
-100086890={ #            Felicie                   Koch                                     (1880-1936)     0
-	name="Felicie Koch"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1880.02.01={birth=yes}
-	1936.02.01={death=yes}
 }
 100086906={ #            Grace                     Kolin                                    (1923-2003)     1
 	name="Grace Kolin"
@@ -4390,15 +4360,6 @@
 	dynasty=0
 	religion=catholic culture=polish
 	1939.01.21={birth=yes}  # Warsaw
-}
-100086980={ #            Vincenz                   Koziell-Poklewski                        (1932-2009)     0
-	name="Vincenz Koziell-Poklewski"
-	dynasty=0
-	religion=catholic culture=polish
-	1932.01.01={birth=yes}
-	1957.01.01={add_spouse=100114173}	# Natalia Potocki
-	1962.01.01={remove_spouse=100114173}
-	2009.01.01={death=yes}  # EST.
 }
 100086994={ #            Halina                    Krajnik                                  (1925-2002)     3
 	name="Halina Krajnik"
@@ -4532,14 +4493,6 @@
 	religion=catholic culture=polish
 	1926.12.31={birth=yes}
 	2003.01.01={death=yes}  # EST.
-}
-100087134={ #            Constantia                Lachmann                                 (1820-1892)     1
-	name="Constantia Lachmann"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1820.01.01={birth=yes}
-	1892.01.01={death=yes}  # EST.
 }
 100087225={ #            Cecylia                   Laski                                    (1946-    )     2
 	name="Cecylia Laski"
@@ -4688,14 +4641,6 @@
 	1884.11.28={add_spouse=100112168}	# Jadwiga Tarnowski
 	1930.06.04={death=yes}  # Wysocice
 }
-100088111={ #            Prudencienne              Milmo                                    (1872-1958)     0
-	name="Prudencienne Milmo"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1872.03.31={birth=yes}
-	1958.03.02={death=yes}
-}
 100088120={ #            Andromacha                Mineyko                                  (1877-1939)     1
 	name="Andromacha Mineyko"
 	female=yes
@@ -4806,13 +4751,6 @@
 	1841.01.01={birth=yes}
 	1926.01.01={death=yes}
 }
-100088507={ #            Tore Björn                Nilsen-Solvoll                           (1948-    )     0
-	name="Tore Björn Nilsen-Solvoll"
-	dynasty=0
-	religion=catholic culture=polish
-	1948.06.26={birth=yes}  # Hackel
-	1990.08.31={add_spouse=100114344}	# Anna Potocki
-}
 100088552={ #            Maria                     Nowacki                                  (1952-    )     2
 	name="Maria Nowacki"
 	female=yes
@@ -4859,14 +4797,6 @@
 	religion=catholic culture=polish
 	1900.01.01={birth=yes}
 	1976.01.01={death=yes}  # EST.
-}
-100088657={ #            Jean                      Ollier                                   (1916-1980)     0
-	name="Jean Ollier"
-	dynasty=0
-	religion=catholic culture=polish
-	1916.01.01={birth=yes}
-	1964.11.28={add_spouse=100111722}	# Elzbieta Lubomirski
-	1980.05.18={death=yes}
 }
 100088713={ #            Juliusz                   Osterwa                                  (1885-1947)     0
 	name="Juliusz Osterwa"
@@ -4922,14 +4852,6 @@
 	religion=catholic culture=polish
 	1954.01.06={birth=yes}  # Wroclaw
 }
-100088908={ #            Hélène                    Peltier                                  (1924-2004)     0
-	name="Hélène Peltier"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1924.04.02={birth=yes}
-	2004.01.01={death=yes}  # EST.
-}
 100089000={ #            Sofia                     Piasecki                                 (1552-1609)     1
 	name="Sofia Piasecki"
 	female=yes
@@ -4966,14 +4888,6 @@
 	dynasty=0
 	religion=catholic culture=polish
 	1937.02.01={birth=yes}
-}
-100089108={ #            Christoph                 Poklewski-Koziell                        (1914-1994)     0
-	name="Christoph Poklewski-Koziell"
-	dynasty=0
-	religion=catholic culture=polish
-	1914.01.16={birth=yes}
-	1953.09.24={add_spouse=100110614}	# Zenaïda Zamoyski
-	1994.01.16={death=yes}  # EST.
 }
 100089119={ #            Sylvia                    Polony                                   (1918-1993)     0
 	name="Sylvia Polony"
@@ -5181,8 +5095,8 @@
 	1970.01.01={birth=yes}
 	2004.07.03={add_spouse=100114100}	# Alexandra Potocki
 }
-100090295={ #            Kasimierz                 Skarzynksi                               (1888-1962)     0
-	name="Kasimierz Skarzynksi"
+100090295={ #            Kasimierz                 Skarzynski                               (1888-1962)     0
+	name="Kasimierz Skarzynski"
 	dynasty=0
 	religion=catholic culture=polish
 	1888.12.15={birth=yes}
@@ -5482,13 +5396,6 @@
 	religion=catholic culture=polish
 	1953.08.30={birth=yes}  # Piotrków Trybunalski
 }
-100091035={ #            Giada                     Torri                                    (1989-    )     2
-	name="Giada Torri"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1989.01.01={birth=yes}
-}
 100091057={ #            Malgorzata Zofia          Trafkiewicz                              (1962-    )     2
 	name="Malgorzata Zofia Trafkiewicz"
 	female=yes
@@ -5527,28 +5434,6 @@
 	1884.02.12={birth=yes}
 	1923.07.14={add_spouse=100111239}	# Maria Stanislawa Lubomirski
 	1955.08.22={death=yes}
-}
-100091393={ #            Ramiro                    Vasena                                   (1952-    )     0
-	name="Ramiro Vasena"
-	dynasty=0
-	religion=catholic culture=polish
-	1952.05.25={birth=yes}
-	1995.06.24={add_spouse=100111540}	# Dorothée Potocki
-}
-100091398={ #            Susan                     Vavra                                    (1950-    )     4
-	name="Susan Vavra"
-	female=yes
-	dynasty=0
-	religion=catholic culture=polish
-	1950.01.01={birth=yes}
-}
-100091437={ #            Michel                    Veuthey                                  (1931-2008)     0
-	name="Michel Veuthey"
-	dynasty=0
-	religion=catholic culture=polish
-	1931.03.21={birth=yes}  # Vernayaz, Switzerland
-	1959.07.23={add_spouse=100112046}	# Anna Tarnowski
-	2008.01.01={death=yes}  # EST.
 }
 100091453={ #            Stanislas                 Vilgrain                                 (1959-    )     0
 	name="Stanislas Vilgrain"
@@ -5811,5 +5696,13 @@
 	religion=catholic culture=polish
 	1854.07.17={birth=yes}  # Warsaw
 	1931.11.29={death=yes}  # Frankfurt
+}
+100096765={ # Gfn        Severine                  Slawczyn-Sieminski                       (1823-1889)     3
+	name="Severine Slawczyn-Sieminska"
+	female=yes
+	dynasty=0
+	religion=catholic culture=bohemian
+	1823.05.13={birth=yes}
+	1889.06.15={death=yes}
 }
 
