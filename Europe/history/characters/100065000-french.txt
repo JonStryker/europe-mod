@@ -21,9 +21,614 @@
 ##  100067700-100068066		Ursel                             1007010	 367	[b_st_niklaas, c_gent]
 ##  100068100-100068152		d'Albert						  1007021
 ##  100068175-100068351		de Riquet de Caraman 			  1007022
-##  100068360-xxx			de Beaufort-Spontin 			  1007023
-##  100068400-xxx			Harcourt			 			  1007024
+##  100068360-100068399		de Beaufort-Spontin 			  1007023
+##  100068400-100068741		Harcourt			 			  1007024
+##  100068750-xxx			Rohan				 			  1007025
 #################################################################################################
+
+
+##  100068750-xxx			Rohan				 			  1007025
+100068751={ # Benjamin Armand Jules Meriadec de Rohan (Brussels 13 Jun 1804-Prague 5 Aug 1846); m.Dülmen 3 Oct 1825 Stephanie Pss von Croy (Dülmen 5 Jun 1805-Lissa an der Elbe 27 Sep 1884)
+	name=Benjamin
+	dynasty=1007025
+	religion=catholic culture=frankish
+	1804.06.13={birth=yes}  # Brussels
+	1825.10.03={add_spouse=100000827}	# Stéphanie de Croÿ
+	1846.08.05={death=yes}  # Prague
+}
+	100068752={ # 1a) Arthur Carl Benjamin Victor Ludwig (Sticin 13 Jun 1826-Preßburg 17 Feb 1885); m.Prague 18 Jun 1850 Gabriele Gfn von Waldstein Hrn von Wartenberg (Stiahlau 10 Sep 1827-Florence 14 Jan 1890)
+		name=Arthur
+		dynasty=1007025
+		religion=catholic culture=frankish
+		father=100068751	# Benjamin de Rohan
+		mother=100000827	# Stéphanie de Croÿ
+		1826.06.13={birth=yes}  # Sticin
+		1850.06.18={add_spouse=100085593}	# GFN Gabriele von Wartenberg von Waldstein
+		1885.02.17={death=yes}  # Preßburg
+	}
+		100068753={ # 2b) ALAIN Benjamin Arthur, Fürst von Rohan, 12th Duc de Montbazon et de Bouillon, Pr de Guéméné, de Rochefort et de Montaubon, etc (Budapest 8 Jan 1853-Prague 23 Feb 1914); m.Prague 10 Oct 1885 Johanna Pss von Auersperg (Teplitz 17 Sep 1860-Sichrow 17 Feb 1922)
+			name=Alain
+			dynasty=1007025
+			religion=catholic culture=hungarian
+			father=100068752	# Arthur de Rohan
+			mother=100085593	# GFN Gabriele von Wartenberg von Waldstein
+			1853.01.08={birth=yes}  # Budapest
+			1885.10.10={add_spouse=100021578}	# Johanna v. Auersperg
+			1914.02.23={death=yes}  # Prague
+		}
+			100068754={ # 1c) Gabriele Berthe Johanna Ernestine Marie Geneviève (Albrechtsberg 18 Jun 1887-Prague 9 May 1917)
+				name=Gabriele
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068753	# Alain de Rohan
+				mother=100021578	# Johanna v. Auersperg
+				1887.06.18={birth=yes}  # Albrechtsberg
+				1917.05.09={death=yes}  # Prague
+			}
+			100068755={ # 2c) Bertha Ernestine Aglaé Severine Johanna Maria (Prague 5 Jan 1889-Bergen 9 Aug 1977); m.Sichrow 17 Jun 1920 Ottokar Wolfgang August Picot de Peccaduc Frhr von Herzogenburg (Bestwin 7 Apr 1871-Vienna 23 May 1965)
+				name=Bertha
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=bohemian
+				father=100068753	# Alain de Rohan
+				mother=100021578	# Johanna v. Auersperg
+				1889.01.05={birth=yes}  # Prague
+				1977.08.09={death=yes}  # Bergen
+			}
+			100068756={ # 3c) Johanna Marie Berthe Gabriele Ernestine Daniela (Sichrow 16 Jul 1890-Vienna 15 Mar 1961); m.Sichrow 20 Sep 1922 Rudolf Gf von Colloredo-Mannsfeld (Sierndorf 16 Aug 1876-Sierndorf 21 Mar 1948)
+				name=Johanna
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068753	# Alain de Rohan
+				mother=100021578	# Johanna v. Auersperg
+				1890.07.16={birth=yes}  # Sichrow
+				1961.03.15={death=yes}  # Vienna
+			}
+			100068757={ # 4c) ALAIN Anton Joseph Adolf Ignaz Maria, Fst von Rohan, 13th Duc de Montbazon et de Bouillon, Pr de Guéméné, de Rochefort et de Montaubon, etc (Sichrow 26 Jul 1893-Vienna 2 Sep 1976); m.Vienna 29 Sep 1921 Margarethe Ernestine Elisabeth Aglaé Johanna Pss von Schönburg-Hartenstein (Vienna 14 Dec 1897-Vienna 30 Aug 1980)
+				name=Alain
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068753	# Alain de Rohan
+				mother=100021578	# Johanna v. Auersperg
+				1893.07.26={birth=yes}  # Sichrow
+				1921.09.29={add_spouse=100005414}	# Margarethe Ernestine von Schönburg
+				1976.09.02={death=yes}  # Vienna
+			}
+				100068758={ # 1d) Marie-Jeanne Margarethe Gabrielle Michaela (Sichrow 20 Jul 1922-2006); m.Paris 1 Dec 1948 Pierre Naquet (Paris 14 Apr 1904-Paris Feb 1988)
+					name=Marie-Jeanne
+					female=yes
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068757	# Alain de Rohan
+					mother=100005414	# Margarethe Ernestine von Schönburg
+					1922.07.20={birth=yes}  # Sichrow
+					2006.01.01={death=yes}
+				}
+				100068759={ # 2d) Marguerite Johanna Gabrielle Michaele Daniela (Sichrow 21 Jul 1923-Attersee 19 Sep 2012); m.Neudau, Styria 29 Sep 1945 Kunata Johann Ignaz Joseph Gf Kottulinsky (Neudau 6 Apr 1914-Vienna 25 Aug 2004)
+					name="Marguerite Johanna"
+					female=yes
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068757	# Alain de Rohan
+					mother=100005414	# Margarethe Ernestine von Schönburg
+					1923.07.21={birth=yes}  # Sichrow
+					2012.09.19={death=yes}  # Attersee
+				}
+				100068760={ # 3d) Mabile Therese Gabrielle Michaela Maria (Sichrow 2 Oct 1924-Munich 22 Jan 1982); m.Traunkirchen 5 Jun 1952 Richard Moritz Karl Gf von Belcredi (b.Lösch 28 Feb 1926)
+					name=Mabile
+					female=yes
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068757	# Alain de Rohan
+					mother=100005414	# Margarethe Ernestine von Schönburg
+					1924.10.02={birth=yes}  # Sichrow
+					1982.01.22={death=yes}  # Munich
+				}
+				100068761={ # 5d) Gabrielle Karoline Marie Michaela Martha (Sichrow 5 Mar 1929-Geneva 10 Feb 1991); m.Vienna 26 Jan 1953 Luigi Cottafavi (b.Turin 7 Mar 1917)
+					name=Gabrielle
+					female=yes
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068757	# Alain de Rohan
+					mother=100005414	# Margarethe Ernestine von Schönburg
+					1929.03.05={birth=yes}  # Sichrow
+					1991.02.10={death=yes}  # Geneva
+				}
+				100068762={ # 6d) Aliette Franziska Bertha Michaela Pauline Maria (Sichrow 29 Jun 1930-murdered in Paris 1 Feb 1968)
+					name=Aliette
+					female=yes
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068757	# Alain de Rohan
+					mother=100005414	# Margarethe Ernestine von Schönburg
+					1930.06.29={birth=yes}  # Sichrow
+					1968.02.01={death=yes}  # murdered_in_Paris
+				}
+				100068763={ # 7d) Josseline Bertha Johanna Michaela Maria (b.Sichrow 15 Apr 1934); m.Innsbruck 25 Oct 1958 Viktor-Gottfried Riedl Edler von Riedenstein (Vienna 9 Oct 1916-17 Nov 2005)
+					name=Josseline
+					female=yes
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068757	# Alain de Rohan
+					mother=100005414	# Margarethe Ernestine von Schönburg
+					1934.04.15={birth=yes}  # Sichrow
+					2011.01.01={death=yes}  # EST.
+				}
+			100068764={ # 5c) Marie Anna Antonia Johanna Ernestine Gabriele (Sichrow 26 Jul 1893-Vienna 20 Jun 1966)
+				name=Marie
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068753	# Alain de Rohan
+				mother=100021578	# Johanna v. Auersperg
+				1893.07.26={birth=yes}  # Sichrow
+				1966.06.20={death=yes}  # Vienna
+			}
+			100068765={ # 6c) Karl Anton Adolf Julian Viktor Maria (Albrechtsberg 9 Jan 1898-Salzburg 17 Mar 1975); m.Budapest 29 Jun 1933 Maria Gfn Apponyi v.Nagy-Appony (Eberhard 29 Sep 1899-Salzburg 3 Jun 1967)
+				name=Karl
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068753	# Alain de Rohan
+				mother=100021578	# Johanna v. Auersperg
+				1898.01.09={birth=yes}  # Albrechtsberg
+				1933.06.29={add_spouse=100117265}	# Maria Apponyi de Nagy-Apponyi
+				1975.03.17={death=yes}  # Salzburg
+			}
+				100068766={ # 1d) KARL Alain Albert Maria, Fst von Rohan, 14th Duc de Montbazon et de Bouillon, Pr de Guéméné, de Rochefort et de Montaubon, etc (Vienna 11 May 1934-28 Oct 2008); m.1st Brussels 5 Oct 1963 (div 1975) Ingeborg Irnberger (Oberndorf 12 May 1939-1 Mar 2015); m.2nd Salzburg 19 Apr 1988 Elisabeth Dirnenberger
+					name=Karl
+					dynasty=1007025
+					religion=catholic culture=german
+					father=100068765	# Karl de Rohan
+					mother=100117265	# Maria Apponyi de Nagy-Apponyi
+					1934.05.11={birth=yes}  # Vienna
+					1963.10.05={add_spouse=100097911}	# Ingeborg Irnberger
+					1975.01.01={remove_spouse=100097911}
+					1988.04.19={add_spouse=100097988}	# Elisabeth Dirnenberger
+					2008.10.28={death=yes}
+				}
+					100068767={ # 1e) Charlotte (b.Salzburg 10 Dec 1966)
+						name=Charlotte
+						female=yes
+						dynasty=1007025
+						religion=catholic culture=german
+						father=100068766	# Karl de Rohan
+						mother=100097911	# Ingeborg Irnberger
+						1966.12.10={birth=yes}  # Salzburg
+					}
+				100068768={ # 2d) ALBERT Maria, Fst von Rohan, 15th Duc de Montbazon et de Bouillon, Pr de Guéméné, de Rochefort et de Montaubon, etc (b.Melk 9 May 1936); m.Vienna 1985 Elisabeth Burghardt (Vienna 1 Sep 1948-Vienna 3 Aug 1994)
+					name=Albert
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068765	# Karl de Rohan
+					mother=100117265	# Maria Apponyi de Nagy-Apponyi
+					1936.05.09={birth=yes}  # Melk
+					1985.01.01={add_spouse=100098168}	# Elisabeth Burghardt
+					2013.01.01={death=yes}  # EST.
+				}
+		100068769={ # 3b) Joseph Arthur Ernst Viktor (Budapest 15 May 1854-Nice 16 Mar 1926); m.1st Zagreb 30 Apr 1883 Elisabeth Gfn Pejacsevich v.Veröcze  (Nasic 13 Jan 1860-Hietzing 4 Aug 1884); m.2nd Plankenstein 9 Apr 1891 Anna Lincke (Vienna 9 Mar 1857-Vienna 18 Feb 1925)
+			name=Joseph
+			dynasty=1007025
+			religion=catholic culture=hungarian
+			father=100068752	# Arthur de Rohan
+			mother=100085593	# GFN Gabriele von Wartenberg von Waldstein
+			1854.05.15={birth=yes}  # Budapest
+			1883.04.30={add_spouse=100098187}	# Erszebét Pejacevic
+			1891.04.09={add_spouse=100098235}	# Anna Lincke
+			1926.03.16={death=yes}  # Nice
+		}
+			100068770={ # 1c) Stephanie Anna Maria Eva Josephine (Bad Szobrancz 20 Apr 1892-Meran 20 Feb 1908)
+				name=Stephanie
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068769	# Joseph de Rohan
+				mother=100098235	# Anna Lincke
+				1892.04.20={birth=yes}  # Bad Szobrancz
+				1908.02.20={death=yes}  # Meran
+			}
+			100068771={ # 2c) Josephine Franziska Anna Maria Eva (Breitenfeld 10 May 1893-    ); m.Vienna 21 Feb 1922 Friedrich Willner (Vienna 16 May 1887-19__)
+				name=Josephine
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068769	# Joseph de Rohan
+				mother=100098235	# Anna Lincke
+				1893.05.10={birth=yes}  # Breitenfeld
+				1968.01.01={death=yes}
+			}
+			100068772={ # 3c) Joseph Carlos Arthur Maria Meriadec Emanuel (Neuhaus 19 Sep 1895-Turnau 6 Jun 1931); m.London 14 Dec 1922 Dilkuska Wrench (Lucknow 30 Dec 1898-    )
+				name=Joseph
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068769	# Joseph de Rohan
+				mother=100098235	# Anna Lincke
+				1895.09.19={birth=yes}  # Neuhaus
+				1922.12.14={add_spouse=100098247}	# Dilkuska Wrench
+				1931.06.06={death=yes}  # Turnau
+			}
+		100068773={ # 4b) Viktor Benjamin Ernest Arthur (Teplitz 7 Jul 1856-Vienna 20 Jan 1882)
+			name=Viktor
+			dynasty=1007025
+			religion=catholic culture=frankish
+			father=100068752	# Arthur de Rohan
+			mother=100085593	# GFN Gabriele von Wartenberg von Waldstein
+			1856.07.07={birth=yes}  # Teplitz
+			1882.01.20={death=yes}  # Vienna
+		}
+		100068774={ # 5b) Benjamin Alain Raoul Meriadec (Vienna 15 Feb 1858-Vienna 14 Jan 1889)
+			name=Benjamin
+			dynasty=1007025
+			religion=catholic culture=german
+			father=100068752	# Arthur de Rohan
+			mother=100085593	# GFN Gabriele von Wartenberg von Waldstein
+			1858.02.15={birth=yes}  # Vienna
+			1889.01.14={death=yes}  # Vienna
+		}
+		100068775={ # 7b) Ernst Meriadec Camillus Maria Philipp (Baden nr Vienna 1 May 1863-Kottendorf, Styria 27 Aug 1895)
+			name=Ernst
+			dynasty=1007025
+			religion=catholic culture=german
+			father=100068752	# Arthur de Rohan
+			mother=100085593	# GFN Gabriele von Wartenberg von Waldstein
+			1863.05.01={birth=yes}  # Baden nr Vienna
+			1895.08.27={death=yes}  # Kottendorf Styria
+		}
+		100068776={ # 8b) Eduard (Preßburg 5 Apr 1867-Vienna 13 Jun 1892)
+			name=Eduard
+			dynasty=1007025
+			religion=catholic culture=frankish
+			father=100068752	# Arthur de Rohan
+			mother=100085593	# GFN Gabriele von Wartenberg von Waldstein
+			1867.04.05={birth=yes}  # Preßburg
+			1892.06.13={death=yes}  # Vienna
+		}
+		100068777={ # 9b) Marie-Bertha Franziska Felicia Johanne (Teplitz 21 May 1868-Vienna 19 Jan 1945); m.Prague 28 Apr 1894 Don Carlos de Borbón, Infant of Spain, Duque de Madrid (Laibach 30 Mar 1848-Varese 18 Jul 1909)
+			name=Marie-Bertha
+			female=yes
+			dynasty=1007025
+			religion=catholic culture=frankish
+			father=100068752	# Arthur de Rohan
+			mother=100085593	# GFN Gabriele von Wartenberg von Waldstein
+			1868.05.21={birth=yes}  # Teplitz
+			1945.01.19={death=yes}  # Vienna
+		}
+	100068778={ # 2a) Viktor Louis August (Sichrow 15 Oct 1827-Salzburg 11 Oct 1889); m.Preßburg 1 Jun 1872 Marie Gfn von Degenfeld-Schonburg (Bodok 26 Feb 1851-30 Jul 1924)
+		name=Viktor
+		dynasty=1007025
+		religion=catholic culture=frankish
+		father=100068751	# Benjamin de Rohan
+		mother=100000827	# Stéphanie de Croÿ
+		1827.10.15={birth=yes}  # Sichrow
+		1872.06.01={add_spouse=100098249}	# GFN Marie von Degenfeld-Schonburg
+		1889.10.11={death=yes}  # Salzburg
+	}
+	100068779={ # 3a) Alain Gustav Ludwig (Sticin 8 Oct 1829-Vienna 28 Sep 1857)
+		name=Alain
+		dynasty=1007025
+		religion=catholic culture=frankish
+		father=100068751	# Benjamin de Rohan
+		mother=100000827	# Stéphanie de Croÿ
+		1829.10.08={birth=yes}  # Sticin
+		1857.09.28={death=yes}  # Vienna
+	}
+	100068780={ # 4a) Ludwig Anton Benjamin Maria (Sichrow 17 Jun 1833-Monte Carlo 27 Jan 1891); m.Prague 9 Jan 1860 Helene Gfn von Auersperg (Prague 7 Mar 1836-Schloß Chaustnik 4 Oct 1897)
+		name=Ludwig
+		dynasty=1007025
+		religion=catholic culture=frankish
+		father=100068751	# Benjamin de Rohan
+		mother=100000827	# Stéphanie de Croÿ
+		1833.06.17={birth=yes}  # Sichrow
+		1860.01.09={add_spouse=100021837}	# Helene v. Auersperg
+		1891.01.27={death=yes}  # Monte Carlo
+	}
+		100068781={ # 1b) Raoul Benjamin Louis Marie Alain Jean (Lissa 20 Oct 1860-Chaustnik 22 Aug 1931); m.Dalkey, Great Britain 17 Oct 1888 Agnes Rock (North Bank, Middlesex 1 Nov 1865-Chaustnik 6 Feb 1926)
+			name=Raoul
+			dynasty=1007025
+			religion=catholic culture=frankish
+			father=100068780	# Ludwig de Rohan
+			mother=100021837	# Helene v. Auersperg
+			1860.10.20={birth=yes}  # Lissa
+			1888.10.17={add_spouse=100098251}	# Agnes Rock
+			1931.08.22={death=yes}  # Chaustnik
+		}
+			100068782={ # 1c) Mary Helene Luise Agnes (Biarritz 3 Apr 1891-Bideford 22 Apr 1977)
+				name=Mary
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068781	# Raoul de Rohan
+				mother=100098251	# Agnes Rock
+				1891.04.03={birth=yes}  # Biarritz
+				1977.04.22={death=yes}  # Bideford
+			}
+			100068783={ # 2c) Oskar Raoul John Maria Stephan (Ostende 30 Oct 1892-Oct 1918)
+				name=Oskar
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068781	# Raoul de Rohan
+				mother=100098251	# Agnes Rock
+				1892.10.30={birth=yes}  # Ostende
+				1918.10.01={death=yes}
+			}
+			100068784={ # 3c) Charles Viktor Maria Jean Ludwig (Folkestone 26 Jun 1894-Exeter 16 May 1965); m.Budweis 26 Nov 1923 Marie Anna Edle von Hardtmuth (Vienna 11 Apr 1903-Devon May 1994)
+				name=Charles
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068781	# Raoul de Rohan
+				mother=100098251	# Agnes Rock
+				1894.06.26={birth=yes}  # Folkestone
+				1923.11.26={add_spouse=100098252}	# EDLE Marie Anna von Hardtmuth
+				1965.05.16={death=yes}  # Exeter
+			}
+				100068785={ # 1d) Charles Louis Francis Raoul Oscar Maria (Budweis 5 Dec 1924-Cincinnati 27 Feb 2005); m.1st Durham, North Carolina 2 Sep 1949 (div Somerville 10 Feb 1975) Nancy Southgate-Jones (b.Durham 11 Jun 1927); m.2nd Cincinnati 5 Apr 1975 Virginia Putnam Durrell (b.Mount Pleasant, Mich 29 Jan 1938)
+					name=Charles
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068784	# Charles de Rohan
+					mother=100098252	# EDLE Marie Anna von Hardtmuth
+					1924.12.05={birth=yes}  # Budweis
+					1949.09.02={add_spouse=100098253}	# Nancy Southgate-Jones
+					1975.02.10={remove_spouse=100098253}
+					1975.04.05={add_spouse=100098254}	# Virginia Putnam Durrell
+					2005.02.27={death=yes}  # Cincinnati
+				}
+					100068786={ # 1e) Elizabeth Camille Maria Ann (b.Easton, Pennsylvaina 3 Dec 1951); m.Gladstone, USA 9 Mar 1974 Kurt Valley (b.Helsinki 14 Jun 1951)
+						name=Elizabeth
+						female=yes
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068785	# Charles de Rohan
+						mother=100098253	# Nancy Southgate-Jones
+						1951.12.03={birth=yes}
+					}
+					100068787={ # 2e) Charles Raoul (b.Easton 3 Oct 1954); m.Fairhills, New Jersey 1985 Patricia Ann Price (b.Martinsville, Virginia 1950)
+						name="Charles Raoul"
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068785	# Charles de Rohan
+						mother=100098253	# Nancy Southgate-Jones
+						1954.10.03={birth=yes}  # Easton
+						1985.01.01={add_spouse=100098256}	# Patricia Ann Price
+					}
+						100068788={ # 1f) Catherine (b.New York City 1989)
+							name=Catherine
+							female=yes
+							dynasty=1007025
+							religion=catholic culture=frankish
+							father=100068787	# Charles Raoul de Rohan
+							mother=100098256	# Patricia Ann Price
+							1989.01.01={birth=yes}  # New York City
+						}
+						100068789={ # 2f) Maria Alexandra (b.New York City 1992)
+							name="Maria Alexandra"
+							female=yes
+							dynasty=1007025
+							religion=catholic culture=frankish
+							father=100068787	# Charles Raoul de Rohan
+							mother=100098256	# Patricia Ann Price
+							1992.01.01={birth=yes}  # New York City
+						}
+					100068790={ # 3e) Geoffrey Alexander Francis (b.Montclair, New Jersey 6 Feb 1958); m.Atlanta 19 Dec 1981 Helen Louise du Bose (b.Atlanta 1958)
+						name=Geoffrey
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068785	# Charles de Rohan
+						mother=100098253	# Nancy Southgate-Jones
+						1958.02.06={birth=yes}  # Montclair New Jersey
+						1981.12.19={add_spouse=100098257}	# Helen Louise du Bose
+					}
+						100068791={ # 1f) Rembert (b.Newark, Delaware 1986)
+							name=Rembert
+							dynasty=1007025
+							religion=catholic culture=frankish
+							father=100068790	# Geoffrey de Rohan
+							mother=100098257	# Helen Louise du Bose
+							1986.01.01={birth=yes}
+						}
+						100068792={ # 2f) Corinne (b.Newark 1989)
+							name=Corinne
+							female=yes
+							dynasty=1007025
+							religion=catholic culture=frankish
+							father=100068790	# Geoffrey de Rohan
+							mother=100098257	# Helen Louise du Bose
+							1989.01.01={birth=yes}  # Newark
+						}
+				100068793={ # 2d) Louis Francis Raoul Olivier Carl Maria (Budweis 8 Jun 1927-Salzburg 4 Apr 1975); m.Vienna 18 May 1957 Felicitas Aloisia Modeste Franziska Maria Ortner (Vienna 11 Jun 1932-Devon Dec 2004)
+					name=Louis
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068784	# Charles de Rohan
+					mother=100098252	# EDLE Marie Anna von Hardtmuth
+					1927.06.08={birth=yes}  # Budweis
+					1957.05.18={add_spouse=100098258}	# Felicitas Aloisia Ortner
+					1975.04.04={death=yes}  # Salzburg
+				}
+					100068794={ # 1e) Ann Elizabeth Mary (b.Taunton 23 Jan 1959); m.Bideford 29 Oct 1983 Hugh Buchanan (b.Edinburgh 29 May 1958)
+						name=Ann
+						female=yes
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068793	# Louis de Rohan
+						mother=100098258	# Felicitas Aloisia Ortner
+						1959.01.23={birth=yes}  # Taunton
+					}
+					100068795={ # 2e) Charles Raoul (b.Taunton 20 Aug 1961); m.Lilleshall 8 Apr 1989 Sarah Louise Margerrison (b.Shifnal 28 Jan 1963)
+						name="Charles Raoul"
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068793	# Louis de Rohan
+						mother=100098258	# Felicitas Aloisia Ortner
+						1961.08.20={birth=yes}  # Taunton
+						1989.04.08={add_spouse=100098260}	# Sarah Louise Margerrison
+					}
+						100068796={ # 1f) Georgia Louise (b.London 31 Mar 1993)
+							name="Georgia Louise"
+							female=yes
+							dynasty=1007025
+							religion=catholic culture=english
+							father=100068795	# Charles Raoul de Rohan
+							mother=100098260	# Sarah Louise Margerrison
+							1993.03.31={birth=yes}  # London
+						}
+						100068797={ # 2f) Eleanor Grace (b.Frankfurt 3 Sep 1995)
+							name="Eleanor Grace"
+							female=yes
+							dynasty=1007025
+							religion=catholic culture=german
+							father=100068795	# Charles Raoul de Rohan
+							mother=100098260	# Sarah Louise Margerrison
+							1995.09.03={birth=yes}  # Frankfurt
+						}
+						100068798={ # 3f) Louis Albert (b.20 Nov 2001)
+							name="Louis Albert"
+							dynasty=1007025
+							religion=catholic culture=frankish
+							father=100068795	# Charles Raoul de Rohan
+							mother=100098260	# Sarah Louise Margerrison
+							2001.11.20={birth=yes}
+						}
+					100068799={ # 3e) Mary-Louise (b.Chalfont, Bucks 8 Feb 1967); m.Littleham, Devonshire 11 Jun 1994 William-Robert Shaw (b.Southsea 8 Sep 1964)
+						name=Mary-Louise
+						female=yes
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068793	# Louis de Rohan
+						mother=100098258	# Felicitas Aloisia Ortner
+						1967.02.08={birth=yes}
+					}
+				100068800={ # 3d) Raoul Benjamin Richard Maria Carl Josef Judas Taddäus (b.Budweis 9 Jan 1932); m.Chideock 17 Nov 1962 Anette Morley (b.Bishop's Stortford 5 Feb 1941)
+					name=Raoul
+					dynasty=1007025
+					religion=catholic culture=frankish
+					father=100068784	# Charles de Rohan
+					mother=100098252	# EDLE Marie Anna von Hardtmuth
+					1932.01.09={birth=yes}  # Budweis
+					1962.11.17={add_spouse=100098262}	# Anette Morley
+					2009.01.01={death=yes}  # EST.
+				}
+					100068801={ # 1e) Nikolas Louis Philippe (b.London 25 Jan 1966)
+						name=Nikolas
+						dynasty=1007025
+						religion=catholic culture=english
+						father=100068800	# Raoul de Rohan
+						mother=100098262	# Anette Morley
+						1966.01.25={birth=yes}  # London
+					}
+					100068802={ # 2e) Anuschka Lara Marie Therese (b.Klagenfurt 24 Aug 1968)
+						name=Anuschka
+						female=yes
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068800	# Raoul de Rohan
+						mother=100098262	# Anette Morley
+						1968.08.24={birth=yes}  # Klagenfurt
+					}
+					100068803={ # 3e) Louis Charles Dominic (b.Harrogate 12 Dec 1970)
+						name=Louis
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068800	# Raoul de Rohan
+						mother=100098262	# Anette Morley
+						1970.12.12={birth=yes}  # Harrogate
+					}
+					100068804={ # 4e) Philippe Francis Raoul (b.Harrogate 12 Dec 1970)
+						name=Philippe
+						dynasty=1007025
+						religion=catholic culture=frankish
+						father=100068800	# Raoul de Rohan
+						mother=100098262	# Anette Morley
+						1970.12.12={birth=yes}  # Harrogate
+					}
+			100068805={ # 4c) Teresita Mary Jeanne Raouline Felicite Antoinette (Pau 14 Jan 1896-Vienna 7 Mar 1977); m.Chaustnik 17 Oct 1923 Adolf Rr Weiss von Tessbach (Vienna 9 Jun 1897-Vienna 28 Oct 1979)
+				name=Teresita
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068781	# Raoul de Rohan
+				mother=100098251	# Agnes Rock
+				1896.01.14={birth=yes}  # Pau
+				1977.03.07={death=yes}  # Vienna
+			}
+			100068806={ # 5c) Raoul Gaston Eugene Marie Victor Camille (Bouremouth 17 Jul 1897-Vienna 28 Dec 1961); m.Budapest 15 Jan 1925 Bss Ilona Marie Luzsensky (b.Osgyan 19 Jun 1906)
+				name=Raoul
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068781	# Raoul de Rohan
+				mother=100098251	# Agnes Rock
+				1897.07.17={birth=yes}  # Bouremouth
+				1925.01.15={add_spouse=100098264}	# BSS Ilona Luzsensky
+				1961.12.28={death=yes}  # Vienna
+			}
+				100068807={ # 1d) Beatrix Mary Agnes Livia (Budapest 31 Mar 1926-Prague 2010); m.Vaclav Rysava
+					name=Beatrix
+					female=yes
+					dynasty=1007025
+					religion=catholic culture=hungarian
+					father=100068806	# Raoul de Rohan
+					mother=100098264	# BSS Ilona Luzsensky
+					1926.03.31={birth=yes}  # Budapest
+					2010.01.01={death=yes}  # Prague
+				}
+				100068808={ # 2d) Heinrich Otto Marie Josef Raoul (Vienna 28 Sep 1930-Singapore 21 Dec 1955)
+					name=Heinrich
+					dynasty=1007025
+					religion=catholic culture=german
+					father=100068806	# Raoul de Rohan
+					mother=100098264	# BSS Ilona Luzsensky
+					1930.09.28={birth=yes}  # Vienna
+					1955.12.21={death=yes}  # Singapore
+				}
+				100068809={ # 3d) Marie Antoinette (b.Vienna 28 May 1934); m.Vienna 9 Apr 1960 Karl Helmer (b.Vienna 1935)
+					name="Marie Antoinette"
+					female=yes
+					dynasty=1007025
+					religion=catholic culture=german
+					father=100068806	# Raoul de Rohan
+					mother=100098264	# BSS Ilona Luzsensky
+					1934.05.28={birth=yes}  # Vienna
+					2011.01.01={death=yes}  # EST.
+				}
+			100068810={ # 6c) Clotilde Margarete Victoria Mary Helene (Sandown, Isle of Wight 13 Jul 1901-Vienna 1 Feb 1957); m.Chaustnik 19 Apr 1927 Otto Rr Weiss von Tessbach (Vienna 3 May 1898-Patzau, Bohemia 11 May 1945)
+				name=Clotilde
+				female=yes
+				dynasty=1007025
+				religion=catholic culture=frankish
+				father=100068781	# Raoul de Rohan
+				mother=100098251	# Agnes Rock
+				1901.07.13={birth=yes}  # Sandown Isle of Wight
+				1957.02.01={death=yes}  # Vienna
+			}
+		100068812={ # 4b) Stephanie Bertha Marie Luise Helene (Lissa an der Elbe 21 May 1868-Paris 21 Jun 1898); m.Paris 5 Nov 1896 Pr Alexei Alexandrovich Trubetzkoy (21 Jan 1866-    )
+			name=Stephanie
+			female=yes
+			dynasty=1007025
+			religion=catholic culture=frankish
+			father=100068780	# Ludwig de Rohan
+			mother=100021837	# Helene v. Auersperg
+			1868.05.21={birth=yes}  # Lissa an der Elbe
+			1898.06.21={death=yes}  # Paris
+		}
+	100068813={ # 5a) Benjamin Maria Anton Emanuel (Sichrow 9 Dec 1835-Paris 11 Jan 1900); m.Paris 24 Oct 1886 Ameline Julie Marie Mahé de Kérouant (5 Apr 1828-7 Jan 1905)
+		name=Benjamin
+		dynasty=1007025
+		religion=catholic culture=frankish
+		father=100068751	# Benjamin de Rohan
+		mother=100000827	# Stéphanie de Croÿ
+		1835.12.09={birth=yes}  # Sichrow
+		1886.10.24={add_spouse=100098269}	# Ameline Julie Mahé de Kérouant
+		1900.01.11={death=yes}  # Paris
+	}
+####### 100068814
+#1834.06.13={holder=100068751} # Benjamin Armand Jules Meriadec de Rohan 
+#1846.08.05={holder=100068752} # 1a) Arthur Carl Benjamin Victor Ludwig 
+#1885.02.17={holder=100068753} # 2b) ALAIN Benjamin Arthur
+#1914.02.23={holder=100068757} # 4c) ALAIN Anton Joseph Adolf Ignaz Maria
+#1976.09.02={holder=100068766} # 1d) KARL Alain Albert Maria
+#2008.10.28={holder=100068768} # 2d) ALBERT Maria
+##  100068750-xxx			Rohan				 			  1007025
 
 
 ##  100068400-xxx			Harcourt			 			  1007024
@@ -210,14 +815,6 @@
 							mother=100065332	# Elisabeth Blanche de Caumont
 							1954.10.22={birth=yes}  # Boulogne-Billancourt
 							1992.12.22={death=yes}  # Paris
-						}
-						100068553={ # F3. Walram, *and +Boulogne-Billancourt 1.5.1966
-							name=Walram
-							dynasty=1007024
-							religion=catholic culture=frankish
-							father=100068550	# Bernard d'Harcourt
-							mother=100065332	# Elisabeth Blanche de Caumont
-							1966.05.01={birth=yes}
 						}
 						100068556={ # F6. Alexandra, *Boulogne-Billancourt 28.5.1972
 							name=Alexandra
@@ -1860,796 +2457,6 @@
 		1782.04.03={birth=yes}  # Paris
 		1839.06.26={death=yes}  # Paris
 	}
-
-#######
-100097980={ # Sir        Alec Edward               Balfour                                  (1880-1955)
-	name="Alec Edward Balfour"
-	dynasty=0
-	religion=catholic culture=frankish
-	1880.05.04={birth=yes}  # Frowick
-	1919.03.28={add_spouse=100068564}	# Marie Amélie d'Harcourt
-	1946.01.01={remove_spouse=100068564}
-	1955.01.01={death=yes}
-}
-100098162={ # Cte        Henri                     Bodet de Puymaigre                       (1865-1940)
-	name="Henri Bodet de Puymaigre"
-	dynasty=0
-	religion=catholic culture=frankish
-	1865.01.01={birth=yes}
-	1890.07.19={add_spouse=100068737}	# Cathérine d'Harcourt
-	1940.05.15={death=yes}  # Paris
-}
-100098148={ # Baron      Bertrand                  Hainguerlot                              (1961-    )
-	name="Bertrand Hainguerlot"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1961.01.01={birth=yes}
-}
-100098154={ # Cte        Charles                   Mercier du Paty de Clam                  (1895-1948)
-	name="Charles Mercier du Paty de Clam"
-	dynasty=0
-	religion=catholic culture=frankish
-	1895.01.01={birth=yes}
-	1928.09.27={add_spouse=100068729}	# Jeanne d'Harcourt
-	1948.04.08={death=yes}
-}
-100097942={ # Vcte       Henri                     Picot de Vaulogé                         (1879-1916)
-	name="Henri Picot de Vaulogé"
-	dynasty=0
-	religion=catholic culture=frankish
-	1879.04.15={birth=yes}  # Paris
-	1911.07.11={add_spouse=100068563}	# Amélie d'Harcourt
-	1916.12.17={death=yes}  # Paris
-}
-100097985={ # Cte        François                  Pourroy de l'Auberivière                 (1911-1944)
-	name="François Pourroy de l'Auberivière"
-	dynasty=0
-	religion=catholic culture=frankish
-	1911.11.24={birth=yes}  # Paris
-	1942.12.22={add_spouse=100068570}	# Amicie d'Harcourt
-	1944.07.27={death=yes}  # Grenoble
-}
-100098140={ # Cte        Jean Dominique            Senard                                   (1953-    )
-	name="Jean Dominique Senard"
-	dynasty=0
-	religion=catholic culture=frankish
-	1953.03.07={birth=yes}  # Neuilly
-	1983.09.24={add_spouse=100068702}	# Hélène d'Harcourt
-}
-100098153={ # Cte        François                  d'Humières                               (1878-1952)
-	name="François d'Humières"
-	dynasty=0
-	religion=catholic culture=frankish
-	1878.01.01={birth=yes}
-	1924.10.28={add_spouse=100068728}	# Jacqueline d'Harcourt
-	1952.06.14={death=yes}
-}
-100097902={ # Cte        Bruno                     de Boisgelin                             (1859-1933)
-	name="Bruno de Boisgelin"
-	dynasty=0
-	religion=catholic culture=frankish
-	1859.04.16={birth=yes}  # Paris
-	1912.07.20={add_spouse=100068560}	# Monique d'Harcourt
-	1933.06.23={death=yes}  # Paris
-}
-100098164={ # Marquis    Alexandre Joseph          de Boisgelin                             (1770-1831)
-	name="Alexandre Joseph de Boisgelin"
-	dynasty=0
-	religion=catholic culture=frankish
-	1770.04.14={birth=yes}
-	1800.11.01={add_spouse=100068739}	# Victorine d'Harcourt
-	1831.06.21={death=yes}  # Paris
-}
-100097979={ # Cte        François                  de Briey                                 (1888-1944)
-	name="François de Briey"
-	dynasty=0
-	religion=catholic culture=frankish
-	1888.07.26={birth=yes}
-	1924.03.28={add_spouse=100068563}	# Amélie d'Harcourt
-	1944.01.01={death=yes}
-}
-100097874={ # Baron      Hugues Alfred             de Cabrol de Moute                       (1909-1997)
-	name="Hugues Alfred de Cabrol de Moute"
-	dynasty=0
-	religion=catholic culture=frankish
-	1909.10.11={birth=yes}  # Pau
-	1937.07.05={add_spouse=100068559}	# Marguerite d'Harcourt
-	1997.07.20={death=yes}
-}
-100098161={ # Cte        Othenin Gabriel           de Cléron d'Haussonville                 (1840-1924)
-	name="Othenin Gabriel de Cléron d'Haussonville"
-	dynasty=0
-	religion=catholic culture=frankish
-	1840.01.01={birth=yes}
-	1865.10.23={add_spouse=100068735}	# Pauline d'Harcourt
-	1924.09.01={death=yes}
-}
-100098155={ # Vcte       Jean                      de Dresnay                               (1900-1975)
-	name="Jean de Dresnay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1900.06.18={birth=yes}
-	1929.10.08={add_spouse=100068730}	# Nicole d'Harcourt
-	1975.01.01={death=yes}
-}
-100098160={ # Cte        Charles Armand            de Gontaut-Biron                         (1895-1970)
-	name="Charles Armand de Gontaut-Biron"
-	dynasty=0
-	religion=catholic culture=frankish
-	1895.01.01={birth=yes}
-	1920.01.08={add_spouse=100068734}	# Madeleine d'Harcourt
-	1970.02.07={death=yes}
-}
-100098110={ # Cte        Pierre                    de Kergorlay                             (1921-    )
-	name="Pierre de Kergorlay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1921.01.01={birth=yes}
-	1951.11.10={add_spouse=100068639}	# Alix d'Harcourt
-	1997.01.01={death=yes}  # EST.
-}
-100098133={ # Cte        Eric                      de Laguiche                              (1962-    )
-	name="Eric de Laguiche"
-	dynasty=0
-	religion=catholic culture=frankish
-	1962.04.25={birth=yes}  # Neuilly
-	1989.04.21={add_spouse=100068690}	# Marie d'Harcourt
-}
-100087523={ # baron		 Bertrand                  de Langsdorff                            (1844-1903)
-	name="Bertrand de Langsdorff"
-	dynasty=0
-	religion=catholic culture=frankish
-	1844.12.11={birth=yes}
-	1874.07.25={add_spouse=100068546}	# Alice d'Harcourt
-	1903.02.04={death=yes}
-}
-100098165={ # Cte        Eugène                    de Montesquiou-Fésensac                  (1782-1810)
-	name="Eugène de Montesquiou-Fésensac"
-	dynasty=0
-	religion=catholic culture=frankish
-	1782.08.15={birth=yes}
-	1803.01.01={add_spouse=100068740}	# Aline d'Harcourt
-	1810.12.12={death=yes}
-}
-100097904={ # Marquis    Jean                      de Montholon-Sémonville d'Umbriano del Precetto (1875-1950)
-	name="Jean de Montholon-Sémonville d'Umbriano del Precetto"
-	dynasty=0
-	religion=catholic culture=frankish
-	1875.11.25={birth=yes}  # Morancez
-	1899.07.05={add_spouse=100068561}	# Hélène d'Harcourt
-	1950.01.01={death=yes}
-}
-100098135={ # Cte        Gilbert                   de Nicolay                               (1927-    )
-	name="Gilbert de Nicolay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1927.01.01={birth=yes}  # Paris
-	1956.02.04={add_spouse=100068692}	# Bernadette d'Harcourt
-	2004.01.01={death=yes}  # EST.
-}
-100098112={ # Cts        Hedwige Christyn          de Ribeaucourt                           (1901-1988)
-	name="Hedwige Christyn de Ribeaucourt"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1901.08.02={birth=yes}
-	1988.01.01={death=yes}
-}
-100098061={ # Cte        Yann                      de Robien                                (1957-    )
-	name="Yann de Robien"
-	dynasty=0
-	religion=catholic culture=frankish
-	1957.01.01={birth=yes}
-	1986.09.06={add_spouse=100068623}	# Cathérine d'Harcourt
-}
-100098158={ # Duc        Louis Victor              de Rochechouart de Mortemart             (1909-1938)
-	name="Louis Victor de Rochechouart de Mortemart"
-	dynasty=0
-	religion=catholic culture=frankish
-	1909.03.13={birth=yes}  # Paris
-	1932.10.21={add_spouse=100068733}	# Solange d'Harcourt
-	1938.05.28={death=yes}  # Paris
-}
-100098075={ # Baron      Henri                     de Roubin                                (1919-1994)
-	name="Henri de Roubin"
-	dynasty=0
-	religion=catholic culture=frankish
-	1919.01.01={birth=yes}
-	1945.11.28={add_spouse=100068626}	# ElizabethAnne d'Harcourt
-	1994.01.01={death=yes}
-}
-100097986={ # Cte        Maurice                   de Régnauld de Bellescize                (1920-    )
-	name="Maurice de Régnauld de Bellescize"
-	dynasty=0
-	religion=catholic culture=frankish
-	1920.05.26={birth=yes}  # Paris
-	1949.11.04={add_spouse=100068570}	# Amicie d'Harcourt
-	1996.01.01={death=yes}  # EST.
-}
-100098072={ # Cte        Albert                    de Villeneuve-Esclapon                   (1922-1996)
-	name="Albert de Villeneuve-Esclapon"
-	dynasty=0
-	religion=catholic culture=frankish
-	1922.01.01={birth=yes}
-	1947.04.21={add_spouse=100068624}	# Marie Thérèse d'Harcourt
-	1996.01.01={death=yes}
-}
-100097984={ # Cte        Marc                      de Warren                                (1904-1994)
-	name="Marc de Warren"
-	dynasty=0
-	religion=catholic culture=frankish
-	1904.02.20={birth=yes}  # Thonon
-	1936.01.04={add_spouse=100068569}	# Gabrielle d'Harcourt
-	1994.01.13={death=yes}  # Paris
-}
-100098163={ # Cte        Armand Henri              de la Croix de Castries                  (1807-1862)
-	name="Armand Henri de la Croix de Castries"
-	dynasty=0
-	religion=catholic culture=frankish
-	1807.05.21={birth=yes}
-	1833.04.23={add_spouse=100068738}	# Maria Augusta d'Harcourt
-	1862.01.27={death=yes}  # Paris
-}
-100098152={ # Cte        Tannegiy                  le Cardinal de Kernier                   (1931-2000)
-	name="Tannegiy le Cardinal de Kernier"
-	dynasty=0
-	religion=catholic culture=frankish
-	1931.01.01={birth=yes}
-	1959.12.30={add_spouse=100068727}	# Jeanne-Claude d'Harcourt
-	2000.10.14={death=yes}
-}
-100097981={ # Frn        Iphigenia                 von Sina zu Hodos und Kizdia             (1846-1914)
-	name="Iphigenia von Sina zu Hodos und Kizdia"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1846.07.01={birth=yes}
-	1914.07.27={death=yes}  # Paris
-}
-100097989={ #            Nathalie                  Baffet                                   (1954-    )
-	name="Nathalie Baffet"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1954.11.09={birth=yes}  # Dreux
-}
-100091705={ #            Philippe                  Bejot                                    (1940-    )
-	name="Philippe Bejot"
-	dynasty=0
-	religion=catholic culture=frankish
-	1940.02.09={birth=yes}  # Paris
-	1980.10.18={add_spouse=100068555}	# Aude d'Harcourt
-}
-100098149={ #            Michel Marc               Benoist-Gironiere                        (1978-    )
-	name="Michel Marc Benoist-Gironiere"
-	dynasty=0
-	religion=catholic culture=frankish
-	1978.01.01={birth=yes}
-	2003.01.01={add_spouse=100068717}	# Emmanuelle d'Harcourt
-}
-100098139={ #            Anne                      Blanchy                                  (1963-    )
-	name="Anne Blanchy"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1963.04.21={birth=yes}  # Bordeaux
-}
-100098118={ #            Mary Elizabeth            Boal                                     (1939-    )
-	name="Mary Elizabeth Boal"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1939.01.25={birth=yes}
-	2016.01.01={death=yes}  # EST.
-}
-100097995={ #            Haude                     Bonnet                                   (1956-    )
-	name="Haude Bonnet"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1956.06.17={birth=yes}  # Neuilly sur Seine
-}
-100098107={ #            Virginie Sylvie           Brault                                   (1967-    )
-	name="Virginie Sylvie Brault"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1967.09.02={birth=yes}  # Caen
-}
-100086226={ #            Harriet                   Cavendish                                (1812-1892)
-	name="Harriet Cavendish"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1812.06.02={birth=yes}
-	1892.01.03={death=yes}
-}
-100097991={ #            Hélene                    Chesné                                   (1988-    )
-	name="Hélene Chesné"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1988.01.01={birth=yes}
-}
-100087515={ #            William                   Deedes                                   (1834-1887)
-	name="William Deedes"
-	dynasty=0
-	religion=catholic culture=frankish
-	1834.08.06={birth=yes}
-	1861.05.08={add_spouse=100068544}	# Mary d'Harcourt
-	1887.10.07={death=yes}
-}
-100098132={ #            Jean-Yves                 Demeunynck                               (1969-    )
-	name="Jean-Yves Demeunynck"
-	dynasty=0
-	religion=catholic culture=frankish
-	1969.01.01={birth=yes}
-	1994.09.08={add_spouse=100068689}	# Séverine d'Harcourt
-}
-100090887={ #            Françoise Cyprien         Fabre                                    (1954-    )
-	name="Françoise Cyprien Fabre"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1954.06.06={birth=yes}  # Boulogne-Billancourt
-}
-100098043={ #            John                      Fenwick Albert                           (1935-    )
-	name="John Fenwick Albert"
-	dynasty=0
-	religion=catholic culture=frankish
-	1935.06.24={birth=yes}  # Surrey
-	1974.07.26={add_spouse=100068615}	# Anne d'Harcourt
-	2012.01.01={death=yes}  # EST.
-}
-100097993={ #            Virginie                  Ferteux                                  (1973-    )
-	name="Virginie Ferteux"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1973.01.01={birth=yes}
-}
-100098130={ #            Frédéric                  Filloux                                  (1966-    )
-	name="Frédéric Filloux"
-	dynasty=0
-	religion=catholic culture=frankish
-	1966.01.01={birth=yes}
-	1991.06.08={add_spouse=100068683}	# Nathalie d'Harcourt
-}
-100097990={ #            Marie Caroline            Frouin                                   (1959-    )
-	name="Marie Caroline Frouin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1959.08.07={birth=yes}  # Paris
-}
-100097996={ #            Anne                      Galle                                    (1959-    )
-	name="Anne Galle"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1959.12.10={birth=yes}  # Saint Chamond
-}
-100098125={ #            Bérengere                 Gouraud                                  (1978-    )
-	name="Bérengere Gouraud"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1978.01.01={birth=yes}
-}
-100098128={ #            Jacqueline                Guyot de Villeneuve                      (1899-1988)
-	name="Jacqueline Guyot de Villeneuve"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1899.03.05={birth=yes}
-	1988.01.01={death=yes}
-}
-100098126={ #            Evelyne                   Guérin                                   (1946-    )
-	name="Evelyne Guérin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1946.02.06={birth=yes}
-}
-100098131={ #            Laurence                  Hamel                                    (1962-    )
-	name="Laurence Hamel"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1962.01.01={birth=yes}
-}
-100080527={ #            Elizabeth Sophie          Harcourt                                 (1771-1846)
-	name="Elizabeth Sophie Harcourt"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1771.07.27={birth=yes}
-	1846.06.22={death=yes}
-}
-100094416={ #            Françoise                 Hutteau d'Origny                         (1931-    )
-	name="Françoise Hutteau d'Origny"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1931.01.01={birth=yes}
-	2008.01.01={death=yes}  # EST.
-}
-100098151={ #            Isabelle                  Jouan de Kervenoael                      (1945-    )
-	name="Isabelle Jouan de Kervenoael"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1945.09.23={birth=yes}
-}
-100098119={ #            Ashlynn                   Kinney                                   (1971-    )
-	name="Ashlynn Kinney"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1971.01.01={birth=yes}
-}
-100087521={ #            Henry                     Lambton                                  (1825-1896)
-	name="Henry Lambton"
-	dynasty=0
-	religion=catholic culture=frankish
-	1825.06.14={birth=yes}
-	1867.01.20={add_spouse=100068545}	# Elizabeth d'Harcourt
-	1896.05.09={death=yes}
-}
-100098156={ #            Marie Julie               Lanjuinais                               (1865-1949)
-	name="Marie Julie Lanjuinais"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1865.10.23={birth=yes}  # Paris
-	1949.11.16={death=yes}  # Ouzouer
-}
-100098127={ #            Cathérine                 Lefebvre                                 (1952-    )
-	name="Cathérine Lefebvre"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1952.01.01={birth=yes}
-}
-100098124={ #            Denis                     Mestralle                                (1971-    )
-	name="Denis Mestralle"
-	dynasty=0
-	religion=catholic culture=frankish
-	1971.01.01={birth=yes}
-	1996.01.01={add_spouse=100068672}	# Anne Claire d'Harcourt
-}
-100098051={ #            Roland                    Monclar                                  (1966-    )
-	name="Roland Monclar"
-	dynasty=0
-	religion=catholic culture=frankish
-	1966.01.01={birth=yes}
-	1991.03.16={add_spouse=100068617}	# Odile d'Harcourt
-}
-100098057={ #            Laure                     Mouchet de Battefort de Laubespin        (1959-    )
-	name="Laure Mouchet de Battefort de Laubespin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1959.01.01={birth=yes}
-}
-100097997={ #            Aude                      Nicolas                                  (1967-    )
-	name="Aude Nicolas"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1967.06.19={birth=yes}  # Paris
-}
-100098121={ #            Sabine                    Piquois de Montenay                      (1968-    )
-	name="Sabine Piquois de Montenay"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1968.01.01={birth=yes}
-}
-100098116={ #            Sophie                    Robin                                    (1963-    )
-	name="Sophie Robin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1963.09.02={birth=yes}  # Brest
-}
-100098144={ #            Sibylle                   Savary de Beauregard                     (1965-    )
-	name="Sibylle Savary de Beauregard"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1965.01.01={birth=yes}
-}
-100098048={ #            Bertrand                  Servois                                  (1950-    )
-	name="Bertrand Servois"
-	dynasty=0
-	religion=catholic culture=frankish
-	1950.08.07={birth=yes}
-	1981.12.05={add_spouse=100068616}	# Marie-LORRAINE d'Harcourt
-}
-100098147={ #            Jacques                   Taisne de Raymonval                      (1959-    )
-	name="Jacques Taisne de Raymonval"
-	dynasty=0
-	religion=catholic culture=frankish
-	1959.01.01={birth=yes}
-	1987.07.04={add_spouse=100068715}	# Dominique d'Harcourt
-}
-100098137={ #            Françoise                 Tircuy de Corcelle                       (1898-1989)
-	name="Françoise Tircuy de Corcelle"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1898.07.24={birth=yes}
-	1989.01.01={death=yes}
-}
-100098104={ #            Etienne                   Trubert                                  (1923-    )
-	name="Etienne Trubert"
-	dynasty=0
-	religion=catholic culture=frankish
-	1923.01.01={birth=yes}
-	1954.10.12={add_spouse=100068627}	# Chantal d'Harcourt
-	1999.01.01={death=yes}  # EST.
-}
-100098159={ #            Michael                   Valery Ollivier                          (1923-    )
-	name="Michael Valery Ollivier"
-	dynasty=0
-	religion=catholic culture=frankish
-	1923.01.01={birth=yes}
-	1948.06.24={add_spouse=100068733}	# Solange d'Harcourt
-	1999.01.01={death=yes}  # EST.
-}
-100097992={ #            Victoire                  Vassal                                   (1966-    )
-	name="Victoire Vassal"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1966.04.19={birth=yes}  # Bordeaux
-}
-100098108={ #            Cyrille                   d'Avout d'Auerstaedt                     (1956-    )
-	name="Cyrille d'Avout d'Auerstaedt"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1956.10.31={birth=yes}  # Paris
-}
-100080452={ #            Anne Louise               d'Harcourt de Beuvron                    (1750-1823)
-	name="Anne Louise d'Harcourt de Beuvron"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1750.01.12={birth=yes}
-	1823.09.28={death=yes}
-}
-100087524={ #            Jeanne Paule              de Beaupoil de Sainte-Aulaire            (1817-1893)
-	name="Jeanne Paule de Beaupoil de Sainte-Aulaire"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1817.09.02={birth=yes}
-	1893.12.17={death=yes}
-}
-100097998={ #            Alix                      de Beughem de Houtem                     (1969-    )
-	name="Alix de Beughem de Houtem"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1969.07.31={birth=yes}
-}
-100098157={ #            Félicie                   de Blacas d'Aulps                        (1890-1972)
-	name="Félicie de Blacas d'Aulps"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1890.11.10={birth=yes}  # Paris
-	1972.05.16={death=yes}  # Lantilly
-}
-100098115={ #            Irène Azéma               de Castet La Boulbéne                    (1970-    )
-	name="Irène Azéma de Castet La Boulbéne"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1970.01.01={birth=yes}
-}
-100098106={ #            Elisabeth                 de Charette de La Contrie                (1935-    )
-	name="Elisabeth de Charette de La Contrie"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1935.03.13={birth=yes}  # Elven
-	2012.01.01={death=yes}  # EST.
-}
-100098138={ #            Solange Louise            de Chevigné                              (1937-    )
-	name="Solange Louise de Chevigné"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1937.04.14={birth=yes}
-	2014.01.01={death=yes}  # EST.
-}
-100098114={ #            Jean                      de Chevron-Villette                      (1953-    )
-	name="Jean de Chevron-Villette"
-	dynasty=0
-	religion=catholic culture=frankish
-	1953.10.17={birth=yes}  # Annecy
-	1981.06.20={add_spouse=100068643}	# Sophie d'Harcourt
-}
-100098117={ #            Virginie                  de Clermont-Tonnerre                     (1978-    )
-	name="Virginie de Clermont-Tonnerre"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1978.08.01={birth=yes}  # Bayonne
-}
-100088747={ #            Marie                     de Curel                                 (1892-1982)
-	name="Marie de Curel"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1892.12.11={birth=yes}  # Changy les Bois
-	1982.04.04={death=yes}  # Rogny
-}
-100097987={ #            Renée                     de Fénelon                               (1892-1974)
-	name="Renée de Fénelon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1892.05.19={birth=yes}
-	1974.01.24={death=yes}  # Paris
-}
-100095148={ #            Ariel                     de Godrziemba-Godebska                   (1942-    )
-	name="Ariel de Godrziemba-Godebska"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1942.04.04={birth=yes}  # Bellegarde
-}
-100087526={ #            Marguerite Armande        de Gontaut-Biron                         (1850-1953)
-	name="Marguerite Armande de Gontaut-Biron"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1850.02.09={birth=yes}  # Paris
-	1953.11.16={death=yes}  # Château de_Saint Eusoge
-}
-100098122={ #            Anne                      de La Brosse                             (1967-    )
-	name="Anne de La Brosse"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1967.01.01={birth=yes}
-}
-100097982={ #            Gabrielle                 de Laguiche                              (1856-1947)
-	name="Gabrielle de Laguiche"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1856.05.06={birth=yes}  # Paris
-	1947.05.05={death=yes}  # Paris
-}
-100098113={ #            Charlotte                 de Laminne de Bex                        (1934-    )
-	name="Charlotte de Laminne de Bex"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1934.03.19={birth=yes}
-	2011.01.01={death=yes}  # EST.
-}
-100098109={ #            Henri                     de Lantivy de Trédion                    (1965-    )
-	name="Henri de Lantivy de Trédion"
-	dynasty=0
-	religion=catholic culture=frankish
-	1965.05.06={birth=yes}  # Rennes
-	1991.09.19={add_spouse=100068636}	# Aude d'Harcourt
-}
-100098111={ #            Yves                      de Launay                                (1918-1993)
-	name="Yves de Launay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1918.01.01={birth=yes}
-	1951.04.05={add_spouse=100068640}	# Sibyllee d'Harcourt
-	1993.01.01={death=yes}
-}
-100097983={ #            Elizabeth                 de Mailly-Chalon                         (1891-1952)
-	name="Elizabeth de Mailly-Chalon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1891.05.02={birth=yes}
-	1952.09.01={death=yes}
-}
-100098129={ #            Henriette                 de Nicolay                               (1933-    )
-	name="Henriette de Nicolay"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1933.07.26={birth=yes}
-	2010.01.01={death=yes}  # EST.
-}
-100097999={ #            Marie Alix                de Préval                                (1937-    )
-	name="Marie Alix de Préval"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1937.09.07={birth=yes}
-	2014.01.01={death=yes}  # EST.
-}
-100098134={ #            Charles Stanislas         de Taisne de Raymonval                   (1917-1992)
-	name="Charles Stanislas de Taisne de Raymonval"
-	dynasty=0
-	religion=catholic culture=frankish
-	1917.01.01={birth=yes}
-	1946.04.29={add_spouse=100068691}	# Nicole d'Harcourt
-	1992.01.01={death=yes}
-}
-100098141={ #            Caroline                  de Virieu                                (1967-    )
-	name="Caroline de Virieu"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1967.03.15={birth=yes}  # Boulogne-Billancourt
-}
-100098037={ #            Alix                      de Vogué                                 (1926-    )
-	name="Alix de Vogué"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1926.11.28={birth=yes}
-	2003.01.01={death=yes}  # EST.
-}
-100098143={ #            Edmée                     de Vogué                                 (1938-    )
-	name="Edmée de Vogué"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1938.09.22={birth=yes}
-	2015.01.01={death=yes}  # EST.
-}
-100097994={ #            Hélène Anne               de Vogüé                                 (1932-    )
-	name="Hélène Anne de Vogüé"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1932.05.21={birth=yes}  # Paris
-	2009.01.01={death=yes}  # EST.
-}
-100098013={ #            Généviève                 des Réaulx                               (1888-1963)
-	name="Généviève des Réaulx"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1888.03.02={birth=yes}
-	1963.01.01={death=yes}
-}
-100098105={ #            Anne                      des Réaulx                               (1895-1994)
-	name="Anne des Réaulx"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1895.07.15={birth=yes}
-	1994.01.01={death=yes}
-}
-100098150={ #            Marie Christine           du Bessey de Contenson                   (1946-    )
-	name="Marie Christine du Bessey de Contenson"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1946.11.21={birth=yes}
-}
-100098123={ #            Floride                   du Cauzé de Nazelle                      (1968-    )
-	name="Floride du Cauzé de Nazelle"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1968.01.01={birth=yes}
-}
-100098146={ #            Dominique                 du Peloux de Saint Romain                (1958-    )
-	name="Dominique du Peloux de Saint Romain"
-	dynasty=0
-	religion=catholic culture=frankish
-	1958.01.01={birth=yes}
-	1988.06.25={add_spouse=100068714}	# Claire d'Harcourt
-}
 ####### 100068741
 #1773.08.31={holder=100068541} # Charles Louis Hector
 #1820.06.05={holder=100068542} # A1. Amédée Louis Charles François
@@ -3876,7 +3683,7 @@
 				1854.05.31={birth=yes}  # Paris
 				1889.04.06={death=yes}  # Biarritz
 			}
-			100068533={ # C2. Gilonne Henriette Marie, *Melz 12.10.1867, +Gex 28.1.1952; m.Paris 28.11.1888 Alexandre Catoire de Bioncourt (*Moscow 24.5.1863, +BadenBaden 30.9.1913)
+			100068533={ # C2. Gilonne Henriette Marie, *Melz 12.10.1867, +Gex 28.1.1952; m.Paris 28.11.1888 Alexandre Catoire de Bioncourt (*Moskwa 24.5.1863, +BadenBaden 30.9.1913)
 				name=Gilonne
 				female=yes
 				dynasty=1007024
@@ -4128,14 +3935,14 @@
 								mother=100088778	# EDLE Eva Horsetzky
 								1980.06.24={birth=yes}  # Vienna
 							}
-					100068382={ # 3d) Karl Albrecht Amadeo Maria Emanuel Franziskus (Petschau 3 Dec 1918-k.a.Moscow 14 Jan 1942)
+					100068382={ # 3d) Karl Albrecht Amadeo Maria Emanuel Franziskus (Petschau 3 Dec 1918-k.a.Moskwa 14 Jan 1942)
 						name=Karl
 						dynasty=1007023
 						religion=catholic culture=frankish
 						father=100068373	# Heinrich de Beaufort-Spontin
 						mother=100087730	# GFN Maria von Silva-Tarouca
 						1918.12.03={birth=yes}  # Petschau
-						1942.01.14={death=yes}  # Moscow
+						1942.01.14={death=yes}  # Moskwa
 					}
 					100068383={ # 4d) Maria Gilberta Eleonore (b.Petschau 21 Oct 1924)
 						name=Maria
@@ -4597,7 +4404,7 @@
 					father=100068257	# Joseph de Riquet de Caraman
 					mother=100068258	# Emilie Louise Pellapra
 					1836.10.09={birth=yes}  # Menars
-					1857.06.15={add_spouse=100068262}	# Joséphine Anatole de Montesquiou-Fezensac
+					1857.06.15={add_spouse=100068262}	# Joséphine Anatole de Montesquiou-Fézensac
 					1889.09.02={add_spouse=100068263}	# Mathilde Lucie de Barandiaran
 					1892.03.29={death=yes}  # Brussels
 				}
@@ -4606,7 +4413,7 @@
 						dynasty=1007022
 						religion=catholic culture=frankish
 						father=100068261	# Joseph de Riquet de Caraman
-						mother=100068262	# Joséphine Anatole de Montesquiou-Fezensac
+						mother=100068262	# Joséphine Anatole de Montesquiou-Fézensac
 						1858.07.04={birth=yes}  # Paris
 						1890.05.19={add_spouse=100068265}	# Clara Ward
 						1897.01.19={remove_spouse=100068265}
@@ -4741,7 +4548,7 @@
 						dynasty=1007022
 						religion=catholic culture=frankish
 						father=100068261	# Joseph de Riquet de Caraman
-						mother=100068262	# Joséphine Anatole de Montesquiou-Fezensac
+						mother=100068262	# Joséphine Anatole de Montesquiou-Fézensac
 						1860.07.11={birth=yes}  # Paris
 						1952.08.21={death=yes}  # Geneva
 					}
@@ -4750,7 +4557,7 @@
 						dynasty=1007022
 						religion=catholic culture=frankish
 						father=100068261	# Joseph de Riquet de Caraman
-						mother=100068262	# Joséphine Anatole de Montesquiou-Fezensac
+						mother=100068262	# Joséphine Anatole de Montesquiou-Fézensac
 						1862.08.09={birth=yes}  # Paris
 						1889.07.24={add_spouse=100068292}	# Mathilde Barbe Werlé
 						1908.03.07={add_spouse=100068293}	# Jeanne Carraby
@@ -4792,7 +4599,7 @@
 						dynasty=1007022
 						religion=catholic culture=frankish
 						father=100068261	# Joseph de Riquet de Caraman
-						mother=100068262	# Joséphine Anatole de Montesquiou-Fezensac
+						mother=100068262	# Joséphine Anatole de Montesquiou-Fézensac
 						1865.10.24={birth=yes}  # Chimay
 						1955.12.23={death=yes}  # Fontainebleau
 					}
@@ -4802,7 +4609,7 @@
 						dynasty=1007022
 						religion=catholic culture=frankish
 						father=100068261	# Joseph de Riquet de Caraman
-						mother=100068262	# Joséphine Anatole de Montesquiou-Fezensac
+						mother=100068262	# Joséphine Anatole de Montesquiou-Fézensac
 						1870.04.29={birth=yes}  # Paris
 						1961.04.29={death=yes}  # Fontainebleau
 					}
@@ -4811,9 +4618,9 @@
 						dynasty=1007022
 						religion=catholic culture=frankish
 						father=100068261	# Joseph de Riquet de Caraman
-						mother=100068262	# Joséphine Anatole de Montesquiou-Fezensac
+						mother=100068262	# Joséphine Anatole de Montesquiou-Fézensac
 						1873.03.09={birth=yes}  # Paris
-						1898.08.24={add_spouse=100068304}	# PSS Catherine HÃ©lÃ¨ne Bassaraba de Brancovan
+						1898.08.24={add_spouse=100068304}	# PSS Catherine Hélène Bassaraba de Brancovan
 						1933.08.18={add_spouse=100068305}	# Elisabeth Loewenguth
 						1951.03.21={death=yes}  # Paris
 					}
@@ -4822,7 +4629,7 @@
 							dynasty=1007022
 							religion=catholic culture=frankish
 							father=100068303	# Joseph de Riquet de Caraman
-							mother=100068304	# PSS Catherine HÃ©lÃ¨ne Bassaraba de Brancovan
+							mother=100068304	# PSS Catherine Hélène Bassaraba de Brancovan
 							1903.10.09={birth=yes}  # Paris
 							1984.01.12={add_spouse=100068307}	# Madeleine Lucienne Lagez
 							1992.02.18={death=yes}  # Cannes
@@ -7405,11 +7212,11 @@
 #1675.09.03={holder=100065943} # 1c) Johann Philipp Eugen
 #1732.09.12={holder=100065955} # 4d) Jean Guillaume Augustin
 #1762.01.07={holder=100065968} # 7d) Philippe Maximilien Werner Mathieu
-#1773.01.25={holder=100066007} # 2e) GUILLAUME
-#1830.02.18={holder=100066053} # 1a) HENRI Marie Ghislain
-#1847.09.23={holder=100066057} # 2b) CHARLES Adrien Ghislain Pr de Rubempré et de Grimberghe
-#1892.04.06={holder=100066062} # 3c) HENRI Pr de Rubempré et de Grimberghe
-#1908.07.13={holder=100066068} # 3d) CHARLES Pr de Rubempré et de Grimberghe				
+#1773.01.25={holder=100066185} # GUILLAUME
+#1830.02.18={holder=100066220} # HENRI
+#1847.09.23={holder=100066223} # CHARLES
+#1892.04.06={holder=100066228} # HENRI
+#1908.07.13={holder=100066231} # CHARLES			
 ##  de Merode       	1007017				100065900
 
 
@@ -7440,7 +7247,7 @@
 			mother=100093518	# Anne-Henriette de Neuf d'Aische
 			1787.07.21={birth=yes}  # Antwerp
 			1814.06.22={add_spouse=100093539}	# Marie-Françoise de Presles
-			1851.08.04={death=yes}  # Warfusée [now Saint Georges sur Meuse
+			1851.08.04={death=yes}  # Warfusée
 		}
 			100066703={ # 1c) Théodore Emile Antoine Joseph, Comte d'Oultremont, de Wégimont et de Warfusée (Ayeneux 1 May 1815-Saint Georges sur Meuse 8 Oct 1875); m.Saint Georges sur Meuse 14 Oct 1837 Apoline de Copis (Liege 29 Jul 1818-Brussels 14 Mar 1875)
 				name=Théodore
@@ -15226,7 +15033,7 @@
 							mother=100068526	# Isabelle d'Harcourt
 							1954.09.20={birth=yes}
 						}
-						100066388={	# 5f) Bernard Pierre Marie François Paul Joachim Napoléon (b.Neuilly-sur-Seine 20 Jan 1959); m.(civ) Aulnay 29 Jun 1996 (rel) Paris 7 Sep 1997 Svetlana Rojkova (b.Moscow 16 May 1970)
+						100066388={	# 5f) Bernard Pierre Marie François Paul Joachim Napoléon (b.Neuilly-sur-Seine 20 Jan 1959); m.(civ) Aulnay 29 Jun 1996 (rel) Paris 7 Sep 1997 Svetlana Rojkova (b.Moskwa 16 May 1970)
 							name="Bernard Pierre"
 							dynasty=1007013
 							religion=catholic culture=frankish
@@ -16565,7 +16372,7 @@
 					1895.05.05={add_spouse=100089447}	# PSS Olga Repnin
 					1929.08.09={death=yes}
 				}
-					100065030={	# 1e) Elena (St.Petersburg 14 Jun 1896-Asnieres, nr Paris 15 Apr 1977); m.Agram 6 Jun 1920 Arkadj Ougritchitch-Trebinsky (Inklejew 4 May 1897-Asnieres 10 Mar 1982)
+					100065030={	# 1e) Elena (St.Petersburg 14 Jun 1896-Asnieres, nr Paris 15 Apr 1977); m.Agram 6 Jun 1920 Arkadj Ugrichich-Trebinsky (Inklejew 4 May 1897-Asnieres 10 Mar 1982)
 						name=Elena
 						female=yes
 						dynasty=1007011
@@ -17089,12 +16896,14 @@
 								father=100065454	# Edouard de Cossé-Brissac
 								mother=100065654	# Diane Hélène de Gramont
 								1971.12.22={birth=yes}
+								1998.04.25={add_spouse=100068116}	# Cécile Lannes de Montebello
 							}
 								100065461={	# 1h) Charles Artus Marie Roger, b.Paris 12 Nov 1999
 									name="Charles Artus"
 									dynasty=1007009
 									religion=catholic culture=frankish
 									father=100065460	# Philippe de Cossé-Brissac
+									mother=100068116	# Cécile Lannes de Montebello
 									1999.11.12={birth=yes}
 								}
 								100065462={	# 2h) Alix Marie Diane, b.Neuilly 29 Oct 2001
@@ -17103,6 +16912,7 @@
 									dynasty=1007009
 									religion=catholic culture=frankish
 									father=100065460	# Philippe de Cossé-Brissac
+									mother=100068116	# Cécile Lannes de Montebello
 									2001.10.29={birth=yes}
 								}
 								100065463={	# 3h) Adrien Georges Marie Laurent, b.Neuilly 19 Aug 2005
@@ -17110,6 +16920,7 @@
 									dynasty=1007009
 									religion=catholic culture=frankish
 									father=100065460	# Philippe de Cossé-Brissac
+									mother=100068116	# Cécile Lannes de Montebello
 									2005.08.19={birth=yes}
 								}
 								100065464={	# 4h) Victor, b.Paris 21 Jun 2008
@@ -17117,6 +16928,7 @@
 									dynasty=1007009
 									religion=catholic culture=frankish
 									father=100065460	# Philippe de Cossé-Brissac
+									mother=100068116	# Cécile Lannes de Montebello
 									2008.06.21={birth=yes}
 								}
 							100065465={	# 4g) Armand Robert René Maurice Marie, b.Paris 18 Nov 1967; m.Châteaubriand 18 May 2002 Cécile Marie Béatrice Diquéro (b.Châteaubriant 6 Jul 1968)
@@ -21339,7 +21151,7 @@
 
 
 ##	de Rohan-Chabot		1007004				100065700	
-100067675={ # Duc Louis Antoine de Rohan-Chabot (1732-1807)
+100067675={ # Louis de Rohan-Chabot (20 Apr 1733-29 Nov 1807); m.12 Apr 1757 Elisabeth Louise de La Rochefoucauld (17 Jun 1740-12 Dec 1786) %%
 	name=Louis
 	dynasty=1007004
 	religion=catholic culture=frankish
@@ -24319,7 +24131,7 @@
 			1814.08.24={birth=yes}
 			1847.05.12={death=yes}
 		}
-		100065097={# 3b) Mathilde Laetitia Wilhelmine, titles confirmed 21 Feb 1853 (Trieste 27 May 1820-Paris 2 Jan 1904); m.Florence 1 Nov 1840 (div 1843) Anatole Demidoff Pr di San Donato (Moscow 5 Apr 1813-Paris 29 Apr 1870)
+		100065097={# 3b) Mathilde Laetitia Wilhelmine, titles confirmed 21 Feb 1853 (Trieste 27 May 1820-Paris 2 Jan 1904); m.Florence 1 Nov 1840 (div 1843) Anatole Demidoff Pr di San Donato (Moskwa 5 Apr 1813-Paris 29 Apr 1870)
 			name=Mathilde
 			female=yes
 			dynasty=1007001
@@ -24349,7 +24161,7 @@
 				1910.11.14={add_spouse=100003692}	# Clémentine v. Sachsen-Coburg u.Gotha
 				1926.05.03={death=yes}
 			}
-				100065100={# 1d) Marie Clotilde Eugénie Alberte Laetitia Généviève (Brussels 20 Mar 1912-Château de la Pommerie 1 Apr 1996); m.London 17 Oct 1938 Ct Serge de Witt (Moscow 30 Dec 1891- Cendrieux 21 Jul 1990)
+				100065100={# 1d) Marie Clotilde Eugénie Alberte Laetitia Généviève (Brussels 20 Mar 1912-Château de la Pommerie 1 Apr 1996); m.London 17 Oct 1938 Ct Serge de Witt (Moskwa 30 Dec 1891- Cendrieux 21 Jul 1990)
 					name="Marie Clotilde"
 					female=yes
 					dynasty=1007001
@@ -24678,6 +24490,7 @@
 									1901.08.09={death=yes}
 								}
 								100066657={# 4i) Marguerite Louise Marie Françoise (Morgan House 25 Jan 1869-Château de la Forest 31 Jan 1940); 
+										   # m.Paris 22 Apr 1896 Marie Armand Patrice de Macmahon Duc de Magenta (Outreau 10 Jun 1855-Paris 23 Mar 1927)
 									name=Marguerite
 									female=yes
 									dynasty=1007000
@@ -25277,15 +25090,6 @@
 						mother=100208595	# Louise Marie Adélaide de Bourbon
 						1777.08.23={birth=yes}
 						1847.12.31={death=yes}
-					}
-					100066643={# 6f) Louis Charles Alphonse Léodegar Cte de Beaujolais (Paris 7 Oct 1779-Valletta 30 May 1808)
-						name="Louis Charles"
-						dynasty=1007000
-						religion=catholic culture=frankish
-						father=100066606	# Louis Philippe d’Orléans
-						mother=100208595	# Louise Marie Adélaide de Bourbon
-						1779.10.07={birth=yes}
-						1808.05.30={death=yes}
 					}
 				100066689={# 3e) Louise Marie Thérèse Bathilde (St.Cloud 9 Jul 1750-Paris 10 Jan 1822); m.Versailles 24 Apr 1770 Louis Henri Joseph Duc de Bourbon (Paris 13 Apr 1756-Château de St-Leu 27 Aug 1830)
 					name="Louise Marie"

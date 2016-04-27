@@ -27,7 +27,7 @@
 	1831.05.16={add_spouse=100023409}	# Karoline v. Trauttmansdorff-Weinsberg
 	1884.06.15={death=yes}
 }
-	100096187={ # Mariane (Wien 8 Jul 1835-AltmÃ¼nster bei Gmunden 24 Aug 1906); m.28 Apr 1862 László Szapáry de Muraszombath, Széchysziget et Szapár (Pest 22 Nov 1831-Bratislava 28 Sep 1883) %%
+	100096187={ # Mariane (Wien 8 Jul 1835-Altmünster bei Gmunden 24 Aug 1906); m.28 Apr 1862 László Szapáry de Muraszombath, Széchysziget et Szapár (Pest 22 Nov 1831-Bratislava 28 Sep 1883) %%
 		name=Mariane
 		female=yes
 		dynasty=1007020
@@ -35,7 +35,7 @@
 		father=100092105	# Karl Ludwig de Hemricourt de Grunne
 		mother=100023409	# Karoline v. Trauttmansdorff-Weinsberg
 		1835.07.08={birth=yes}  # Wien
-		1906.08.24={death=yes}  # AltmÃ¼nster bei Gmunden
+		1906.08.24={death=yes}  # Altmünster bei Gmunden
 	}
 	100086391={ # Therese (1 Aug 1840-17 Mar 1911); m.19 Nov 1864 Humbert Czernin v.u.zu Chudenitz (15 Jan 1827-30 Nov 1910) %%
 		name=Therese
@@ -195,35 +195,61 @@
 		mother=100047116	# Maria Krakovský z Kolovrat
 		1949.08.29={birth=yes}
 	}
-	
-100092261={ # Zdenko von Hoenning-O'Carroll (6 Aug 1906-8 May 1996); m.1st 16 May 1934 Margarete Lobkowicz (4 Jul 1913-13 Feb 1946); m.2nd 23 May 1948 Adelgunde Maria v. Wittelsbach (9 Jun 1917-20 Sep 2004) %%
-	name=Zdenko
+
+100192261={ # Johann Ludwig von Hoenning-O'Carroll (1864-1 Feb 1954) %%
+	name="Johann Ludwig"
 	dynasty=1000003
 	religion=catholic culture=german
-	1906.08.06={birth=yes}
-	1934.05.16={add_spouse=100085130}	# Margarete Lobkowicz
-	1948.05.23={add_spouse=100007848}	# Adelgunde Maria v. Wittelsbach
-	1996.05.08={death=yes}
-}
-	100092260={ # Johann Carl (b.12 Jan 1940); m.23 Jul 1966 Katalin Zichy de Zich et Vásonykõ (b.3 Sep 1946) %%
-		name="Johann Carl"
+	1864.01.01={birth=yes}
+	1954.02.01={death=yes}
+}	
+	100092261={ # Zdenko (6 Aug 1906-8 May 1996); m.1st 16 May 1934 Margarete Lobkowicz (4 Jul 1913-13 Feb 1946); m.2nd 23 May 1948 Adelgunde Maria v. Wittelsbach (9 Jun 1917-20 Sep 2004) %%
+		name=Zdenko
 		dynasty=1000003
-		religion=catholic culture=hungarian
-		father=100092261	# Zdenko von Hoenning-O'Carroll
-		mother=100085130	# Margarete Lobkowicz
-		1940.01.12={birth=yes}
-		1966.07.23={add_spouse=100115691}	# Katalin Zichy de Zich et Vásonykõ
+		religion=catholic culture=german
+		father=100192261	# Johann Ludwig von Hoenning-O'Carroll
+		1906.08.06={birth=yes}
+		1934.05.16={add_spouse=100085130}	# Margarete Lobkowicz
+		1948.05.23={add_spouse=100007848}	# Adelgunde Maria v. Wittelsbach
+		1996.05.08={death=yes}
 	}
-	100096354={ # Eleonora (b.14 Jul 1942); m.2 Oct 1971 Hans Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (b.24 Dec 1949) %%
-		name=Eleonora
+		100092260={ # Johann Carl (b.12 Jan 1940); m.23 Jul 1966 Katalin Zichy de Zich et Vásonykõ (b.3 Sep 1946) %%
+			name="Johann Carl"
+			dynasty=1000003
+			religion=catholic culture=hungarian
+			father=100092261	# Zdenko von Hoenning-O'Carroll
+			mother=100085130	# Margarete Lobkowicz
+			1940.01.12={birth=yes}
+			1966.07.23={add_spouse=100115691}	# Katalin Zichy de Zich et Vásonykõ
+		}
+		100096354={ # Eleonora (b.14 Jul 1942); m.2 Oct 1971 Hans Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (b.24 Dec 1949) %%
+			name=Eleonora
+			female=yes
+			dynasty=1000003
+			religion=lutheran culture=german
+			father=100092261	# Zdenko von Hoenning-O'Carroll
+			mother=100085130	# Margarete Lobkowicz
+			1942.07.14={birth=yes}
+		}	
+		100196354={ # Dorothee (b.19 May 1956); m.1975 Alessandro Pallavicini (b.Vienna 8 Nov 1936) %%
+			name=Dorothee
+			female=yes
+			dynasty=1000003
+			religion=lutheran culture=german
+			father=100092261	# Zdenko von Hoenning-O'Carroll
+			mother=100007848	# Adelgunde Maria v. Wittelsbach
+			1956.05.19={birth=yes}
+		}
+	100098216={ # Christine (Wien 20 Dec 1908-1983); m.10 Jun 1931 Elemér Jankovich de Pribér et Vuchin (Gic 24 Nov 1908-1983) %%
+		name=Christine
 		female=yes
 		dynasty=1000003
-		religion=lutheran culture=german
-		father=100092261	# Zdenko von Hoenning-O'Carroll
-		mother=100085130	# Margarete Lobkowicz
-		1942.07.14={birth=yes}
-	}	
-
+		religion=catholic culture=german
+		father=100192261	# Johann Ludwig von Hoenning-O'Carroll
+		1908.12.20={birth=yes}  # Wien
+		1983.01.01={death=yes}
+	}
+	
 100089500={ # Ivan Ribaupierre (1819-6 Feb 1871); m.1844 Sophia Trubetzkoy (6 May 1823-1 Oct 1893) %%
 	name=Ivan
 	dynasty=1000004
@@ -243,7 +269,7 @@
 		1923.02.24={death=yes}
 	}
 	
-100086416={ # Dimitrie Kantemir (Iasi 26 Oct 1673-21 Aug 1723); m.1st 1707 Cassandra Cantacuzino (1682-Moscow 11 May 1713); m.2nd 14 Oct 1717 Anastasia Trubetzkoy (4 Oct 1700-27 Nov 1755) %%
+100086416={ # Dimitrie Kantemir (Iasi 26 Oct 1673-21 Aug 1723); m.1st 1707 Cassandra Cantacuzino (1682-Moskwa 11 May 1713); m.2nd 14 Oct 1717 Anastasia Trubetzkoy (4 Oct 1700-27 Nov 1755) %%
 	name=Dimitrie
 	dynasty=1000005
 	religion=orthodox culture=russian
@@ -373,7 +399,7 @@
 		1942.02.26={death=yes}  # Paris
 	}	
 
-100082214={ # Antoine-Louis-Octave de Choiseul Gouffier (Paris 30 Apr 1773-Florence 4 Nov 1840); m.1801 Viktoria Potocki (1780-Moscow 27 Jun 1826) %%
+100082214={ # Antoine-Louis-Octave de Choiseul Gouffier (Paris 30 Apr 1773-Florence 4 Nov 1840); m.1801 Viktoria Potocki (1780-Moskwa 27 Jun 1826) %%
 	name=Antoine-Louis-Octave
 	dynasty=1007053
 	religion=catholic culture=frankish
@@ -1153,7 +1179,7 @@
 		}
 			100086388={ # Karl (24 Sep 1854-9 Aug 1917); m.1 May 1878 Philippine Czernin v.u.zu Chudenitz (29 Nov 1858-6 Aug 1937) %%
 				name=Karl
-				dynasty=0
+				dynasty=1002208
 				religion=catholic culture=german
 				father=100091734	# Georg v. Buquoy de Longueval
 				mother=100003081	# Sophie Therese zu Oettingen-Wallerstein
@@ -1217,9 +1243,9 @@
 			1979.02.22={birth=yes}
 		}
 
-100097872={ # Alfons Amadeus (Vienna 21 Feb 1866-Loosdorf 29 Sep 1940); m.23 Aug 1898 Gabriele v. Paar (Kardasch-Recetz 22 Aug 1869-Loosdorf 11 Feb 1945) %%
+100097872={ # Alfons Amadeus Piatti (Vienna 21 Feb 1866-Loosdorf 29 Sep 1940); m.23 Aug 1898 Gabriele v. Paar (Kardasch-Recetz 22 Aug 1869-Loosdorf 11 Feb 1945) %%
 	name="Alfons Amadeus"
-	dynasty=0
+	dynasty=1006201
 	religion=catholic culture=german
 	1866.02.21={birth=yes}  # Vienna
 	1898.08.23={add_spouse=100023998}	# Gabriele v. Paar
@@ -1229,7 +1255,7 @@
 		name=Ferdinand
 		dynasty=1006201
 		religion=catholic culture=german
-		father=100097872	# Alfons Amadeus
+		father=100097872	# Alfons Amadeus Piatti
 		mother=100023998	# Gabriele v. Paar
 		1899.07.04={birth=yes}  # Loosdorf
 		1922.08.23={add_spouse=100070765}	# Anna Gabriele v. Collalto u.San Salvatore
@@ -1444,3 +1470,307 @@
 			1997.04.14={birth=yes}
 		}
 				
+100087105={ # Sandor Kálnoky de Kõröspatak (Stockerau 17 Aug 1888-Vienna 21 Feb 1965); m.28 Jul 1920 Maria von Schönburg (Berlin 4 Feb 1896-Klosterneuburg 14 Aug 1979) %%
+	name=Sandor
+	dynasty=1011600
+	religion=catholic culture=hungarian
+	1888.08.17={birth=yes}  # Stockerau
+	1920.07.28={add_spouse=100005413}	# Maria von Schönburg
+	1965.02.21={death=yes}  # Vienna
+}
+	100087102={ # Margit (b.13 May 1926); m.18 Jun 1955 Friedrich Salvator v. Habsburg-Lothringen (27 Nov 1927-26 Mar 1999) %%
+		name=Margit
+		female=yes
+		dynasty=1011600
+		religion=catholic culture=hungarian
+		father=100087105	# Sandor Kálnoky de Kõröspatak
+		1926.05.13={birth=yes}
+	}
+	100187105={ # Alajos (b.31 Mar 1931) %%
+		name=Alajos
+		dynasty=1011600
+		religion=catholic culture=hungarian
+		father=100087105	# Sandor Kálnoky de Kõröspatak
+		1931.03.31={birth=yes}
+	}
+		100087104={ # Alexandra (b.9 Jun 1966); m.27 May 1995 Emanuel v. Liechtenstein (b.5 May 1964) %%
+			name=Alexandra
+			female=yes
+			dynasty=1011600
+			religion=catholic culture=hungarian
+			father=100187105	# Alajos Kálnoky de Kõröspatak
+			1966.06.09={birth=yes}
+		}
+		100087101={ # Ilona (b.9 Jun 1968); m.10 May 1996 Ferdinand v. Hohenzollern-Sigmaringen (b.14 Feb 1960) %%
+			name=Ilona
+			female=yes
+			dynasty=1011600
+			religion=catholic culture=hungarian
+			father=100187105	# Alajos Kálnoky de Kõröspatak
+			1968.06.09={birth=yes}
+		}
+		100087103={ # Maria (b.16 Jul 1975); m.18 Jul 1999 Constantin v. Liechtenstein (b.15 Mar 1972) %%
+			name=Maria
+			female=yes
+			dynasty=1011600
+			religion=catholic culture=hungarian
+			father=100187105	# Alajos Kálnoky de Kõröspatak
+			1975.07.16={birth=yes}
+		}
+	100098240={ # Terézia (Csicsó 31 Jul 1932-    ); m.23 Apr 1958 Gyula Jankovich de Pribér et Vuchin (Geszti 29 Jun 1924-Monaco 28 Feb 1998) %%
+		name=Terézia
+		female=yes
+		dynasty=1011600
+		religion=catholic culture=hungarian
+		father=100087105	# Sandor Kálnoky de Kõröspatak
+		1932.07.31={birth=yes}  # Csicsó
+		2009.01.01={death=yes}  # EST.
+	}
+
+100195255={ # Ivo Maximilian Gustav Sedlnitzky-Odrowaz v.Choltitz (11 Jun 1889-5 Jan 1946) %%
+	name="Ivo Maximilian Gustav"
+	dynasty=1013008
+	religion=catholic culture=bohemian
+	1889.06.11={birth=yes}
+	1946.01.05={death=yes}
+}
+	100095255={ # Marie-Gabrielle (Pillham bei Ruhstorf 23 Apr 1920-12 Jan 2011); m.27 May 1941 Kasimir Esterházy de Galántha (Salzburg 13 Jul 1906-Ering 6 Dec 1999) %%
+		name=Marie-Gabrielle
+		female=yes
+		dynasty=1013008
+		religion=catholic culture=bohemian
+		father=100195255	# Ivo Maximilian Gustav Sedlnitzky-Odrowaz v.Choltitz
+		1920.04.23={birth=yes}  # Pillham bei Ruhstorf
+		2011.01.12={death=yes}
+	}
+	100090112={ # Zita (6 Aug 1921-    ); m.3 Jun 1947 Christoph v. Thun u.Hohenstein (10 Nov 1918-3 Aug 1990) %%
+		name=Zita
+		female=yes
+		dynasty=1013008
+		religion=catholic culture=bohemian
+		father=100195255	# Ivo Maximilian Gustav Sedlnitzky-Odrowaz v.Choltitz
+		1921.08.06={birth=yes}
+		2001.01.01={death=yes}	# EST.
+	}
+	
+100093506={ # Thilo v. Trotha (Callenberg 27 Jul 1882-Skopau 14 Dec 1969); m.14 Apr 1916 Ida Auguste v. Isenburg (Wächtersbach 9 Aug 1885-Stuttgart 18 Oct 1964) %%
+	name=Thilo
+	dynasty=1002210
+	religion=catholic culture=german
+	1882.07.27={birth=yes}  # Callenberg
+	1916.04.14={add_spouse=100008349}	# Ida Auguste v. Isenburg
+	1969.12.14={death=yes}  # Skopau
+}
+	100093294={ # Elisabeth (Frankfurt 7 Jul 1920-Medingen 13 Dec 1994); m.31 Dec 1944 Aloys von Schönburg (Goldegg 18 Aug 1916-Prague 13 May 1945) %%
+		name=Elisabeth
+		female=yes
+		dynasty=1002210
+		religion=catholic culture=german
+		father=100093506	# Thilo v. Trotha
+		mother=100008349	# Ida Auguste v. Isenburg
+		1920.07.07={birth=yes}  # Frankfurt
+		1994.12.13={death=yes}  # Medingen
+	}
+	100093291={ # Thilo (4 Oct 1926-29 Jun 1966); m.18 Jul 1959 Alexandra Anna zu Hohenlohe-Langenburg (19 Jul 1935-    ) %%
+		name=Thilo
+		dynasty=1002210
+		religion=catholic culture=german
+		father=100093506	# Thilo v. Trotha
+		mother=100008349	# Ida Auguste v. Isenburg
+		1926.10.04={birth=yes}
+		1959.07.18={add_spouse=100001685}	# Alexandra Anna zu Hohenlohe-Langenburg
+		1966.06.29={death=yes}
+	}
+
+100092106={ # Ernst v. Gudenus (1833-28 Oct 1914); m.31 Jan 1866 Anna Maria v. Schönborn (20 Jun 1845-16 Nov 1909) %%
+	name=Ernst
+	dynasty=1002211
+	religion=lutheran culture=german
+	1833.01.01={birth=yes}
+	1866.01.31={add_spouse=100005253}	# Anna Maria v. Schönborn
+	1914.10.28={death=yes}
+}
+	100085266={ # Gordian (7 Dec 1866-31 Jan 1957); m.12 Jun 1900 Rosa Lobkowicz (24 Dec 1867-15 May 1951) %%
+		name=Gordian
+		dynasty=1002211
+		religion=catholic culture=bohemian
+		father=100092106	# Ernst v. Gudenus
+		mother=100005253	# Anna Maria v. Schönborn
+		1866.12.07={birth=yes}
+		1900.06.12={add_spouse=100085265}	# Rosa Lobkowicz
+		1957.01.31={death=yes}
+	}
+	100297318={ # Erwein (1869-1953) %%
+		name=Erwein
+		dynasty=1002211
+		religion=catholic culture=german
+		father=100092106	# Ernst v. Gudenus
+		mother=100005253	# Anna Maria v. Schönborn
+		1869.01.01={birth=yes}
+		1953.01.01={death=yes}
+	}
+		100197317={ # Ernst (1916-1972) %%
+			name=Ernst
+			dynasty=1002211
+			religion=catholic culture=german
+			father=100297318	# Erwein v. Gudenus
+			1916.01.01={birth=yes}
+			1972.01.01={death=yes}
+		}
+			100197316={ # Ferdinand (b.Thannhausen 27 Jul 1960); m.11 Aug 1987 Caroline v. Hoyos (b.Wien 10 Mar 1962) %%
+				name=Ferdinand
+				dynasty=1002211
+				religion=catholic culture=german
+				father=100197317	# Ernst v. Gudenus
+				1960.07.27={birth=yes}  # Thannhausen
+				1987.08.11={add_spouse=100023124}	# Caroline v. Hoyos
+			}
+	100092107={ # Christine (Lukawitz, Bohemia 16 Aug 1870-Schwarzenraben 19 Jan 1959); m.2 Oct 1895 Carl v.u.zu Eltz gt Faust v.Stromberg (Linz 13 May 1867-Schwarzenraben 1 Feb 1940) %%
+		name=Christine
+		female=yes
+		dynasty=1002211
+		religion=catholic culture=german
+		father=100092106	# Ernst v. Gudenus
+		mother=100005253	# Anna Maria v. Schönborn
+		1870.08.16={birth=yes}  # Lukawitz, Bohemia
+		1959.01.19={death=yes}  # Schwarzenraben
+	}
+	100092108={ # Maria Wilhelmine (Thannhausen 15 Sep 1873-Wetzelsdorf bei Graz 4 Jan 1949); m.18 Sep 1900 Ferdinand zu Stolberg-Wernigerode (Tervueren 20 Jan 1867-Paderborn 30 Dec 1939) %%
+		name="Maria Wilhelmine"
+		female=yes
+		dynasty=1002211
+		religion=catholic culture=german
+		father=100092106	# Ernst v. Gudenus
+		mother=100005253	# Anna Maria v. Schönborn
+		1873.09.15={birth=yes}  # Thannhausen
+		1949.01.04={death=yes}  # Wetzelsdorf bei Graz
+	}
+	100192106={ # Ernst (1875-28 Oct 1957) %%
+		name=Ernst
+		dynasty=1002211
+		religion=lutheran culture=german
+		father=100092106	# Ernst v. Gudenus
+		mother=100005253	# Anna Maria v. Schönborn
+		1875.01.01={birth=yes}
+		1957.10.28={death=yes}
+	}
+		100092110={ # Gordian (9 Oct 1915-26 Feb 2003); m.17 Feb 1951 Anna Maria v. Meran (3 Jun 1922-15 Nov 1999) %%
+			name=Gordian
+			dynasty=1002211
+			religion=catholic culture=german
+			father=100192106	# Ernst v. Gudenus
+			1915.10.09={birth=yes}
+			1951.02.17={add_spouse=100020458}	# Anna Maria v. Meran
+			2003.02.26={death=yes}
+		}
+			100092109={ # Marie Therese (b.11 Feb 1967); m.1 Jul 1995 Eduard Karl v. Habsburg-Lothringen (b.12 Jan 1967) %%
+				name="Marie Therese"
+				female=yes
+				dynasty=1002211
+				religion=catholic culture=german
+				father=100092110	# Gordian v. Gudenus
+				mother=100020458	# Anna Maria v. Meran
+				1967.02.11={birth=yes}
+			}
+
+100187913={ # Franz Mayr v.Melnhof (1854-1893) %%
+	name="Franz Mayr v.Melnhof"
+	dynasty=0
+	religion=catholic culture=german
+	1854.01.01={birth=yes}
+	1893.01.01={death=yes}
+}
+	100087913={ # Franz (Hietzing 24 Jun 1888-Frohnleiten 30 Dec 1958); m.29 Aug 1918 Marie Franziska zu Hohenlohe-Waldenburg-Schillingsfürst (Teplitz 24 Sep 1895-Vienna 4 Dec 1946) %%
+		name=Franz
+		dynasty=0
+		religion=catholic culture=german
+		father=100187913	# Franz Mayr v.Melnhof
+		1888.06.24={birth=yes}  # Hietzing
+		1918.08.29={add_spouse=100001882}	# Marie Franziska zu Hohenlohe-Waldenburg-Schillingsfürst
+		1958.12.30={death=yes}  # Frohnleiten
+	}		
+		100096537={ # Maria (Pfannberg, Styria 27 Aug 1921-Frohnleiten 1996); m.14 May 1948 Johann v. Goëss (Carlsberg 23 Jun 1921-6 Dec 2015) %%
+			name=Maria
+			female=yes
+			dynasty=0
+			religion=catholic culture=german
+			father=100087913	# Franz
+			mother=100001882	# Marie Franziska zu Hohenlohe-Waldenburg-Schillingsfürst
+			1921.08.27={birth=yes}  # Pfannberg, Styria
+			1996.01.01={death=yes}  # Frohnleiten
+		}
+	100087915={ # Friedrich (7 Jul 1892-7 Mar 1959); m.1 Feb 1919 Maria-Anna v. Meran (14 Aug 1897-18 Jul 1983) %%
+		name=Friedrich
+		dynasty=1002212
+		religion=catholic culture=german
+		father=100187913	# Franz Mayr v.Melnhof
+		1892.07.07={birth=yes}
+		1919.02.01={add_spouse=100020494}	# Maria-Anna v. Meran
+		1959.03.07={death=yes}
+	}
+		100085238={ # Maria Anna Mayr von Melnhof (Salzburg 9 Dec 1919-1994); m.12 Mar 1942 Ludwig zu Sayn-Wittgenstein-Sayn (Copenhagen 4 May 1915-Sayn 9 Jan 1962) %%
+			name="Maria Anna Mayr von Melnhof"
+			female=yes
+			dynasty=1002212
+			religion=catholic culture=german
+			father=100087915	# Friedrich Mayr v.Melnhof
+			mother=100020494	# Maria-Anna v. Meran
+			1919.12.09={birth=yes}  # Salzburg
+			1994.01.01={death=yes}
+		}
+		100087912={ # Ladislaja Mayr v.Melnhof (23 Dec 1920-    ); m.1st 29 Sep 1942 Konrad zu Hohenlohe-Waldenburg-Schillingsfürst (Bern 16 Aug 1919-16 May 1943); m.2nd 25 Jul 1946 Jakob v.u.zu Eltz gt Faust v.Stromberg (Kleinheubach 22 Sep 1921-Eltville 10 Feb 2006) %%
+			name="Ladislaja Mayr v.Melnhof"
+			female=yes
+			dynasty=1002212
+			religion=catholic culture=german
+			father=100087915	# Friedrich Mayr v.Melnhof
+			mother=100020494	# Maria-Anna v. Meran
+			1920.12.23={birth=yes}
+			1996.01.01={death=yes}  # EST.
+		}
+		100087917={ # Friedrich Mayr v.Melnhof (5 Jul 1924-    ); m.16 Dec 1948 Maria Anna v. Orsini u.Rosenberg (20 Aug 1927-1 Aug 2010) %%
+			name="Friedrich Mayr v.Melnhof"
+			dynasty=1002212
+			religion=catholic culture=german
+			father=100087915	# Friedrich Mayr v.Melnhof
+			mother=100020494	# Maria-Anna v. Meran
+			1924.07.05={birth=yes}
+			1948.12.16={add_spouse=100024519}	# Maria Anna v. Orsini u.Rosenberg
+			2004.01.01={death=yes}	# EST.
+		}
+			100086551={ # Friedrich (b.1952) %%
+				name=Friedrich
+				dynasty=1002212
+				religion=catholic culture=german
+				father=100087917	# Friedrich Mayr v.Melnhof Mayr v.Melnhof
+				mother=100024519	# Maria Anna v. Orsini u.Rosenberg
+				1952.01.01={birth=yes}
+			}
+				100186551={ # Friedrich Alois (b.26 Apr 1986); m.10 Sep 2011 Antonia Stephanie Czernin v.u.zu Chudenitz (b.1 Jun 1988) %%
+					name="Friedrich Alois"
+					dynasty=1002212
+					religion=catholic culture=german
+					father=100086551	# Friedrich Mayr v.Melnhof
+					1986.04.26={birth=yes}
+					2011.09.10={add_spouse=100086550}	# Antonia Stephanie Czernin v.u.zu Chudenitz
+				}
+			100087918={ # Maria Catharina (b.24 Feb 1956); m.18 Jun 1977 Hieronymus Manfred v. Clary u.Aldringen (6 Jun 1950-15 Sep 2001) %%
+				name="Maria Catharina"
+				female=yes
+				dynasty=1002212
+				religion=catholic culture=german
+				father=100087917	# Friedrich Mayr v.Melnhof Mayr v.Melnhof
+				mother=100024519	# Maria Anna v. Orsini u.Rosenberg
+				1956.02.24={birth=yes}
+			}
+		100092226={ # Maria Theresia Mayr von Melnhof (Glanegg 21 Sep 1926-    ); m.11 May 1949 Heinrich v. Hoyos (Horn 6 Nov 1924-Gutenstein 20 Jun 1999) %%
+			name="Maria Theresia Mayr von Melnhof"
+			female=yes
+			dynasty=1002212
+			religion=catholic culture=german
+			father=100087915	# Friedrich Mayr v.Melnhof
+			mother=100020494	# Maria-Anna v. Meran
+			1926.09.21={birth=yes}  # Glanegg
+			2003.01.01={death=yes}  # EST.
+		}
+
