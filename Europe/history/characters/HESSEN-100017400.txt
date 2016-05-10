@@ -5,7 +5,7 @@
 ######################################################
 
 
-## EARLIEST
+## EARLY
 100001468={ # Leudese v. Hessen (0635-0680); m.0660 Hiltrude de Bourgogne (0635-0710) %%
 	name=Leudese #  492831/leudese-von-maasgau/
 	dynasty=1002012
@@ -174,10 +174,7 @@
 																		1240.01.01={add_spouse=100093276}	# Sophie von Thüringen
 																		1248.02.01={death=yes}
 																	}
-## EARLIEST
-
-
-## EARLY																
+														
 100001479={ # Heinrich v. Hessen (24 Jun 1244-21 Dec 1308); m.10 Sep 1263 Adelheid von Braunschweig-Lüneburg (1244-12 Jun 1274) %%
 	name=Heinrich #  74100/heinrich-i-Landgr-of-hesse/
 	dynasty=1002012
@@ -238,6 +235,24 @@
 						1454.04.28={add_spouse=100008097}	# Matilde v. Württemberg
 						1471.11.08={death=yes}
 					}
+						100192206={ # Wilhelm (1466-8 Feb 1515) %%
+							name=Wilhelm
+							dynasty=1002012
+							religion=catholic culture=german
+							father=100001475	# Ludwig v. Hessen
+							mother=100008097	# Matilde v. Württemberg
+							1466.01.01={birth=yes}
+							1515.02.08={death=yes}
+						}
+							100092206={ # Elisabeth (1503-Lauingen 4 Jan 1563); m.1st 10 Sep 1525 Ludwig v. Wittelsbach (Zweibrücken 14 Sep 1502-Zweibrücken 3 Dec 1532); m.2nd 9 Jan 1541 Georg v. Wittelsbach (20 Feb 1518-Simmern 17 May 1569) %%
+								name=Elisabeth
+								female=yes
+								dynasty=1002012
+								religion=catholic culture=german
+								father=100192206	# Wilhelm v. Hessen
+								1503.01.01={birth=yes}
+								1563.01.04={death=yes}  # Lauingen
+							}
 						100001547={ # Wilhelm (29 Mar 1469-Kassel 11 Jul 1509); m.1st 1497 Yolande de Lorraine (1463-21 May 1501); m.2nd 20 Oct 1500 Anna v. Mecklenburg (Plau 14 Sep 1485-Rödelheim 12 May 1525) %%
 							name=Wilhelm #  2274/wilhelm-ii-Landgr-of-hesse/
 							dynasty=1002012
@@ -249,6 +264,16 @@
 							1500.10.20={add_spouse=100002908}	# Anna v. Mecklenburg
 							1509.07.11={death=yes}  # Kassel
 						}
+							100092208={ # Elisabeth (Marburg 4 Mar 1502-Schmalkalden 6 Dec 1557); m.20 May 1516 Johann v. Wettin (Dresden 24 Aug 1498-Dresden 11 Jan 1537) %%
+								name=Elisabeth
+								female=yes
+								dynasty=1002012
+								religion=catholic culture=german
+								father=100001547	# Wilhelm v. Hessen
+								mother=100002908	# Anna v. Mecklenburg
+								1502.03.04={birth=yes}  # Marburg
+								1557.12.06={death=yes}  # Schmalkalden
+							}
 							100001540={ # Philipp (13 Nov 1504-1 Mar 1567); m.11 Dec 1523 Christine v. Wettin (25 Dec 1505-Kassel 15 Apr 1549) %%
 								name=Philipp #  2639/philipp-i-Landgr-of-hesse/
 								dynasty=1002012
@@ -258,146 +283,254 @@
 								1504.11.13={birth=yes}
 								1523.12.11={add_spouse=100007539}	# Christine v. Wettin
 								1567.03.01={death=yes}
-							}
-								100001539={ # Wilhelm (24 Jun 1532-25 Aug 1592); m.11 Feb 1566 Sabina v. Württemberg (2 Jul 1549-17 Aug 1581) %%
-									name=Wilhelm
-									dynasty=1002012
-									religion=lutheran culture=german
-									father=100001540	# Philipp v. Hessen
-									mother=100007539	# Christine v. Wettin
-									1532.06.24={birth=yes}
-									1566.02.11={add_spouse=100008129}	# Sabina v. Württemberg
-									1592.08.25={death=yes}
-								}
-									100001541={ # Moritz (25 May 1572-15 Mar 1632); m.1600 Gfn Agnes zu Solms-Laubach (7 Jan 1578-1653) %%
-										name=Moritz #  /de/name/24540/moritz-landgraf-von-hessen-kassel/
-										dynasty=1002012
-										religion=lutheran culture=german
-										father=100001539	# Wilhelm v. Hessen
-										mother=100008129	# Sabina v. Württemberg
-										1572.05.25={birth=yes}
-										1600.01.01={add_spouse=100094296}	# GFN Agnes zu Solms-Laubach
-										1632.03.15={death=yes}
-									}
-										100001463={ # Wilhelm (13 Feb 1602-21 Sep 1637); m.21 Nov 1619 Gfn Amalie Elisabeth von Hanau-Münzenberg (29 Jan 1602-18 Aug 1651) %%
-											name=Wilhelm #  /de/name/3760/wilhelm-v-landgraf-von-hessen-kassel/
-											dynasty=1002012
-											religion=lutheran culture=german
-											father=100001541	# Moritz v. Hessen
-											mother=100094296	# GFN Agnes zu Solms-Laubach
-											1602.02.13={birth=yes}
-											1619.11.21={add_spouse=100092149}	# GFN Amalie Elisabeth von Hanau-Münzenberg
-											1637.09.21={death=yes}
-										}
-											100001500={ # Wilhelm (23 May 1629-16 Jul 1663); m.9 Jul 1649 Heduvige Sophie v. Hohenzollern (4 Jul 1623-16 Jun 1683) %%
-												name=Wilhelm
-												dynasty=1002012
-												religion=lutheran culture=german
-												father=100001463	# Wilhelm v. Hessen
-												mother=100092149	# GFN Amalie Elisabeth von Hanau-Münzenberg
-												1629.05.23={birth=yes}
-												1649.07.09={add_spouse=100090425}	# Heduvige Sophie v. Hohenzollern
-												1663.07.16={death=yes}
-											}
-												100001501={ # Karl (3 Aug 1654-23 Mar 1730); m.21 May 1673 Maria Amalia Kettler (12 Jun 1653-16 Jun 1711) %%
-													name=Karl
-													dynasty=1002012
-													religion=lutheran culture=german
-													father=100001500	# Wilhelm v. Hessen
-													mother=100090425	# Heduvige Sophie v. Hohenzollern
-													1654.08.03={birth=yes}
-													1673.05.21={add_spouse=100086758}	# Maria Amalia Kettler
-													1730.03.23={death=yes}
-												}
-													100001455={ # Friedrich (27 Apr 1676-5 Apr 1751); m.1st 31 May 1700 Luise Dorothea v. Hohenzollern (29 Sep 1680-23 Dec 1705); m.2nd 1715 Ulrika Eleonora v. Wittelsbach (Stockholm 2 Dec 1688-Stockholm 5 Dec 1741) %%
-														name=Friedrich
-														dynasty=1002012
-														religion=lutheran culture=german
-														father=100001501	# Karl v. Hessen
-														1676.04.27={birth=yes}
-														1700.05.31={add_spouse=100002137}	# Luise Dorothea v. Hohenzollern
-														1715.01.01={add_spouse=100007751}	# Ulrika Eleonora v. Wittelsbach
-														1751.04.05={death=yes}
-													}
-													100001536={ # Wilhelm (10 Mar 1682-1 Feb 1760); m.27 Sep 1717 Dorothea Wilhelmine v. Wettin (Moritzburg 20 Mar 1691-Kassel 17 Mar 1743) %%
-														name=Wilhelm
-														dynasty=1002012
-														religion=lutheran culture=german
-														father=100001501	# Karl v. Hessen
-														mother=100086758	# Maria Amalia Kettler
-														1682.03.10={birth=yes}
-														1717.09.27={add_spouse=100007279}	# Dorothea Wilhelmine v. Wettin
-														1760.02.01={death=yes}
-													}
-													100001482={ # Maximilian (1689-1753); m.28 Nov 1720 Friederike Charlotte v. Hessen (Darmstadt 8 Sep 1698-Darmstadt 22 Mar 1777) %%
-														name=Maximilian
-														dynasty=1002012
-														religion=lutheran culture=german
-														father=100001501	# Karl v. Hessen
-														1689.01.01={birth=yes}
-														1720.11.28={add_spouse=100001588}	# Friederike Charlotte v. Hessen
-														1753.01.01={death=yes}
-													}
-														100001454={ # Ulrike Friederike (31 Oct 1722-28 Feb 1787); m.21 Nov 1752 Friedrich August v. Oldenburg-Gottorf (20 Sep 1711-6 Jul 1785) %%
-															name="Ulrike Friederike"
-															female=yes
-															dynasty=1002012
-															religion=lutheran culture=german
-															father=100001482	# Maximilian v. Hessen
-															mother=100001588	# Friederike Charlotte v. Hessen
-															1722.10.31={birth=yes}
-															1787.02.28={death=yes}
-														}
-														100001562={ # Wilhelmine (25 Feb 1726-8 Oct 1808); m.25 Jun 1752 Friedrich Heinrich v. Hohenzollern (18 Jan 1726-3 Aug 1802) %%
-															name=Wilhelmine
-															female=yes
-															dynasty=1002012
-															religion=lutheran culture=german
-															father=100001482	# Maximilian v. Hessen
-															mother=100001588	# Friederike Charlotte v. Hessen
-															1726.02.25={birth=yes}
-															1808.10.08={death=yes}
-														}
-												100001560={ # Elisabeth Henriette (18 Nov 1661-27 Jun 1683); m.23 Aug 1679 Friedrich v. Hohenzollern (11 Jul 1657-25 Feb 1713) %%
-													name="Elisabeth Henriette"
-													female=yes
-													dynasty=1002012
-													religion=lutheran culture=german
-													father=100001500	# Wilhelm v. Hessen
-													1661.11.18={birth=yes}
-													1683.06.27={death=yes}
-												}
-								100001556={ # Georg (10 Sep 1547-7 Feb 1596); m.17 Aug 1572 Magdalene zur Lippe (24 Feb 1552-26 Feb 1587) %%
-									name=Georg #  3176/georg-i-Landgr-of-hesse-darmstadt/
+							}	
+								100092209={ # Agnes (Marburg 31 May 1527-Weimar 4 Nov 1555); m.1st 11 Jan 1541 Moritz v. Wettin (Freiberg 21 Mar 1521-11 Jul 1553); m.2nd 26 May 1555 Johann Friedrich v. Wettin (Torgau 8 Jan 1529-9 May 1595) %%
+									name=Agnes
+									female=yes
 									dynasty=1002012
 									religion=catholic culture=german
 									father=100001540	# Philipp v. Hessen
 									mother=100007539	# Christine v. Wettin
-									1547.09.10={birth=yes}
-									1572.08.17={add_spouse=100094334}	# Magdalene zur Lippe
-									1596.02.07={death=yes}
+									1527.05.31={birth=yes}  # Marburg
+									1555.11.04={death=yes}  # Weimar
 								}
-									100001637={ # Ludwig (1577-1626) %%
-										name=Ludwig
-										dynasty=1002012
-										religion=lutheran culture=german
-										father=100001556	# Georg v. Hessen
-										mother=100094334	# Magdalene zur Lippe
-										1577.01.01={birth=yes}
-										1626.01.01={death=yes}
-									}
+								100092207={ # Anna (Kassel 26 Oct 1529-Meisenheim 10 Jul 1591); m.8 Mar 1545 Wolfgang v. Wittelsbach (Zweibrücken 26 Sep 1526-Nassum 11 Jun 1569) %%
+									name=Anna
+									female=yes
+									dynasty=1002012
+									religion=catholic culture=german
+									father=100001540	# Philipp v. Hessen
+									mother=100007539	# Christine v. Wettin
+									1529.10.26={birth=yes}  # Kassel
+									1591.07.10={death=yes}  # Meisenheim
+								}
+								# KASSEL -> Landgf Wilhelm IV
+								100095568={ # Barbara (8 Apr 1536-8 Jun 1597); m.1555 Georg v. Württemberg (4 Feb 1498-18 Jul 1558) %%
+									name=Barbara
+									female=yes
+									dynasty=1002012
+									religion=catholic culture=german
+									father=100001540	# Philipp v. Hessen
+									mother=100007539	# Christine v. Wettin
+									1536.04.08={birth=yes}
+									1597.06.08={death=yes}
+								}
+								100092205={ # Elisabeth (Kassel 13 Feb 1539-Heidelberg 14 Mar 1582); m.8 Jul 1560 Ludwig v. Wittelsbach (Simmern 4 Jul 1539-Heidelberg 12 Oct 1583) %%
+									name=Elisabeth
+									female=yes
+									dynasty=1002012
+									religion=catholic culture=german
+									father=100001540	# Philipp v. Hessen
+									mother=100007539	# Christine v. Wettin
+									1539.02.13={birth=yes}  # Kassel
+									1582.03.14={death=yes}  # Heidelberg
+								}
+								100092204={ # Christine (29 Jun 1543-13 May 1604); m.17 Dec 1564 Adolf v. Oldenburg-Gottorf (25 Jan 1526-1 Oct 1586) %%
+									name=Christine
+									female=yes
+									dynasty=1002012
+									religion=catholic culture=german
+									father=100001540	# Philipp v. Hessen
+									mother=100007539	# Christine v. Wettin
+									1543.06.29={birth=yes}
+									1604.05.13={death=yes}
+								}
+								# DARMSTADT -> Landgr Georg I
 ## EARLY
 																					
 
-## I: HESSEN-KASSEL		
+## I: HESSEN-KASSEL	
+100001539={ # Wilhelm IV, Landgf von Hessen-Kassel (Kassel 24 Jun 1532-Kassel 25 Aug 1592); # m.Marburg 11 Feb 1566 Sabine von Württemberg (Mömpelgard 2 Jul 1549-Rotenburg 17 Jul 1581)
+	name=Wilhelm
+	dynasty=1002012
+	religion=lutheran culture=german
+	father=100001540	# Philipp v. Hessen
+	mother=100007539	# Christine v. Wettin
+	1532.06.24={birth=yes}
+	1566.02.11={add_spouse=100008129}	# Sabina v. Württemberg
+	1592.08.25={death=yes}
+}
+	100001541={ # 5i) Moritz, Landgf von Hessen-Kassel (Kassel 25 May 1572-Eschwege 15 Mar 1632); m.1st Kassel 23 Sep 1593 Agnes Gfn zu Solms-Laubach (Laubach 7 Jan 1578-Laubach 23 Nov 1602); m.2nd Dillenburg 22 May 1603 Juliane Gfn von Nassau-Dillenburg (Dillenburg 3 Sep 1587-Eschwege 15 Feb 1643)
+		name=Moritz 		# 24540/moritz-landgraf-von-hessen-kassel/
+		dynasty=1002012
+		religion=lutheran culture=german
+		father=100001539	# Wilhelm v. Hessen
+		mother=100008129	# Sabina v. Württemberg
+		1572.05.25={birth=yes}
+		1593.09.23={add_spouse=100094296}	# GFN Agnes zu Solms-Laubach
+		1632.03.15={death=yes}
+	}
+		100092222={ # 2j) Elisabeth (Kassel 24 Mar 1596-Güstrow 16 Dec 1625); m.Kassel 25 Mar 1618 Duke Johann Albrecht II of Mecklenburg-Güstrow (1590-23 Apr 1636)
+			name=Elisabeth
+			female=yes
+			dynasty=1002012
+			religion=catholic culture=german
+			father=100001541	# Moritz v. Hessen
+			mother=100094296	# GFN Agnes zu Solms-Laubach
+			1596.03.24={birth=yes}
+			1625.12.16={death=yes}
+		}
+		100001463={ # 4j) Wilhelm V, Ldgve of Hesse-Kassel (Kassel 13 Feb 1602-Leer, Ostfriesland 21 Sep 1637); m.Kassel 21 Nov 1619 Amalie Elisabeth Gfn von Hanau-Münzenberg (Hanau 29 Jan 1602-Kassel 18 Aug 1651)
+			name=Wilhelm 		# 3760/wilhelm-v-landgraf-von-hessen-kassel/
+			dynasty=1002012
+			religion=lutheran culture=german
+			father=100001541	# Moritz v. Hessen
+			mother=100094296	# GFN Agnes zu Solms-Laubach
+			1602.02.13={birth=yes}
+			1619.11.21={add_spouse=100092149}	# GFN Amalie Elisabeth von Hanau-Münzenberg
+			1637.09.21={death=yes}
+		}
+			100092218={ # 6a) Charlotte (Kassel 20 Nov 1627-Heidelberg 16 Mar 1686); m.Kassel 12 Feb 1650 Karl Ludwig, Pfalzgraf (1617-28 Aug 1680)
+				name=Charlotte
+				female=yes
+				dynasty=1002012
+				religion=catholic culture=german
+				father=100001463	# Wilhelm v. Hessen
+				mother=100092149	# GFN Amalie Elisabeth von Hanau-Münzenberg
+				1627.11.20={birth=yes}  # Kassel
+				1686.03.16={death=yes}  # Heidelberg
+			}
+			100001500={ # 7a) Wilhelm VI, Landgf von Hessen-Kassel (Kassel 23 May 1629-Haina 16 Jul 1663); m.Cölln an der Spree 9 Jul 1649 Hedwig Sophie of Brandenburg (Berlin 4 Jul 1623-Schmalkalden 16 Jun 1683)
+				name=Wilhelm
+				dynasty=1002012
+				religion=lutheran culture=german
+				father=100001463	# Wilhelm v. Hessen
+				mother=100092149	# GFN Amalie Elisabeth von Hanau-Münzenberg
+				1629.05.23={birth=yes}
+				1649.07.09={add_spouse=100002347}	# Hedwig Sophia v. Hohenzollern
+				1663.07.16={death=yes}
+			}
+				100092217={ # 1b) Charlotte Amalie (Kassel 27 Apr 1650-Copenhagen 27 Mar 1714); m.25 Jun 1667 King Christian V of Denmark (1646-25 Aug 1699)
+					name="Charlotte Amalie"
+					female=yes
+					dynasty=1002012
+					religion=catholic culture=danish
+					father=100001463	# Wilhelm v. Hessen
+					mother=100092149	# GFN Amalie Elisabeth von Hanau-Münzenberg
+					1650.04.27={birth=yes}
+					1714.03.27={death=yes}
+				}
+				100001501={ # 4b) Karl, Ldgve of Hesse-Kassel (Kassel 3 Aug 1654-Kassel 22 Mar 1730); m.Kassel 21 May 1673 Marie Anna of Courland (Mitau 12 Jun 1653-Weilmünster 16 Jun 1711)
+					name=Karl
+					dynasty=1002012
+					religion=lutheran culture=german
+					father=100001500	# Wilhelm v. Hessen
+					mother=100002347	# Hedwig Sophia v. Hohenzollern
+					1654.08.03={birth=yes}
+					1673.05.21={add_spouse=100086758}	# Maria Amalia Kettler
+					1730.03.23={death=yes}
+				}
+					100001455={ # 3c) Friedrich I; was King of Sweden from 1720 (Kassel 28 Apr 1676-Stockholm 25 Mar 1751); 
+								# m.1st Berlin 31 May 1700 Luise Dorothea Sophie von Prussia (Berlin 19 Sep 1680-Kassel 23 Dec 1705); 
+								# m.2nd Stockholm 4 May 1715 Ulrike Eleonore, Queen of Sweden (Stockholm 1688-Stockholm 24 Nov 1741)
+						name=Friedrich
+						dynasty=1002012
+						religion=lutheran culture=german
+						father=100001501	# Karl v. Hessen
+						mother=100086758	# Maria Amalia Kettler
+						1676.04.27={birth=yes}
+						1700.05.31={add_spouse=100002137}	# Luise Dorothea v. Hohenzollern
+						1715.01.01={add_spouse=100007751}	# Ulrika Eleonora v. Wittelsbach
+						1751.04.05={death=yes}
+					}
+					100092221={ # 5c) Sophie Charlotte (Kassel 16 Jul 1678-Bützow 30 May 1749); m.Kassel 2 Jan 1704 Duke Friedrich Wilhelm of Mecklenburg-Schwerin (1675-Mainz 31 Jul 1713)
+						name="Sophie Charlotte"
+						female=yes
+						dynasty=1002012
+						religion=lutheran culture=german
+						father=100001501	# Karl v. Hessen
+						mother=100086758	# Maria Amalia Kettler
+						1678.07.16={birth=yes}  # Kassel
+						1749.05.30={death=yes}  # Bützow
+					}
+					100001536={ # 7c) Wilhelm VIII, Ldgve of Hesse-Kassel (Kassel 10 Mar 1682-Rinteln 1 Feb 1760); m.Zeitz 27 Sep 1717 Dorothea Wilhelmine of Saxe-Zeitz (Moritzburg, Elster 20 Mar 1691-Kassel 17 Mar 1743)
+						name=Wilhelm
+						dynasty=1002012
+						religion=lutheran culture=german
+						father=100001501	# Karl v. Hessen
+						mother=100086758	# Maria Amalia Kettler
+						1682.03.10={birth=yes}
+						1717.09.27={add_spouse=100007279}	# Dorothea Wilhelmine v. Wettin
+						1760.02.01={death=yes}
+					}
+					100001482={ # 11c) Maximilian (Marburg 28 May 1689-Kassel 8 May 1753); m.Darmstadt 28 Nov 1720 Friederike Charlotte of Hesse-Darmstadt (1698-1777)
+						name=Maximilian
+						dynasty=1002012
+						religion=lutheran culture=german
+						father=100001501	# Karl v. Hessen
+						1689.01.01={birth=yes}
+						1720.11.28={add_spouse=100001588}	# Friederike Charlotte v. Hessen
+						1753.01.01={death=yes}
+					}
+						100001454={ # 2d) Ulrika Friederike Wilhelmine (Kassel 31 Oct 1722-Eutin 28 Feb 1787); m.Kassel 21 Nov 1752 Duke Friedrich August of Holstein-Gottorp (1711-6 Jul 1785)
+							name="Ulrike Friederike"
+							female=yes
+							dynasty=1002012
+							religion=lutheran culture=german
+							father=100001482	# Maximilian v. Hessen
+							mother=100001588	# Friederike Charlotte v. Hessen
+							1722.10.31={birth=yes}
+							1787.02.28={death=yes}
+						}
+						100001562={ # 5d) Wilhelmine (Kassel 25 Feb 1726-Berlin 8 Oct 1808); m.Charlottenburg 25 Jun 1752 Pr Heinrich of Prussia (1726-3 Aug 1802)
+							name=Wilhelmine
+							female=yes
+							dynasty=1002012
+							religion=lutheran culture=german
+							father=100001482	# Maximilian v. Hessen
+							mother=100001588	# Friederike Charlotte v. Hessen
+							1726.02.25={birth=yes}
+							1808.10.08={death=yes}
+						}
+				100001560={ # 7b) Elisabeth Henriette (Kassel 8 Nov 1661-Cölln an der Spree 7 Jul 1683); m.13 Aug 1679 Elector Friedrich III of Brandenburg (d.Berlin 25 Feb 1713)
+					name="Elisabeth Henriette"
+					female=yes
+					dynasty=1002012
+					religion=lutheran culture=german
+					father=100001500	# Wilhelm v. Hessen
+					1661.11.18={birth=yes}
+					1683.06.27={death=yes}
+				}
+		100085426={ # 6j) Agnes (Kassel 13 May 1606-Dessau 28 May 1650); m.Dessau 18 May 1623 Johann Kasimir, Fürst von Anhalt-Dessau (1596-1660)
+			name=Agnes
+			female=yes
+			dynasty=1002012
+			religion=lutheran culture=german
+			father=100001541	# Moritz v. Hessen
+			mother=100094296	# GFN Agnes zu Solms-Laubach
+			1606.03.14={birth=yes}	#Kassel
+			1650.05.28={death=yes}
+		}
+		100095569={ # 10j) Magdalene (Kassel 25 Aug 1611-Bedburg 12 Feb 1671); m.Rotenburg 27 Apr 1646 Erich Adolf Altgf zu Salm-Reifferscheid (d.16 Jul 1678)
+			name=Magdalena
+			female=yes
+			dynasty=1002012
+			religion=lutheran culture=german
+			father=100001541	# Moritz v. Hessen
+			mother=100094296	# GFN Agnes zu Solms-Laubach
+			1611.08.25={birth=yes}
+			1671.02.12={death=yes}
+		}
+	100092220={ # 10i) Christine (Kassel 19 Oct 1578-Kassel 19 Aug 1658); m.Rotenburg 14 May 1598 Duke Johann Ernst of Saxe-Eisenach (1566-23 Oct 1638)
+		name=Christine
+		female=yes
+		dynasty=1002012
+		religion=lutheran culture=german
+		father=100001539	# Wilhelm v. Hessen
+		mother=100008129	# Sabina v. Württemberg
+		1578.10.19={birth=yes}  # Kassel
+		1658.08.19={death=yes}  # Eisenach
+	}
+	
 100001456={# FRIEDRICH II, Landgr von Hessen-Kassel on the holder of his father 1 Feb 1760 (Kassel 14 Aug 1720-Schloß Weissenstein 31 Oct 1785); m.1st Kassel 28 Jun 1740 Mary Pss of Great Britain, Ireland and Hannover (Leicester House 22 Feb 1723-Hanau 14 Jan 1772); m.2d Berlin 10 Jan 1773 Philippine Margravine of Brandenburg-Schwedt (Schwedt 10 Oct 1745-Berlin 1 May 1800)
 	name=Friedrich
 	dynasty=1002012
 	religion=catholic culture=german
 	father=100001536	# Wilhelm v. Hessen
+	mother=100007279	# Dorothea Wilhelmine v. Wettin
 	1720.08.14={birth=yes}
 	1740.06.28={add_spouse=100001136}	# Mary v. Hannover
-	1773.01.10={add_spouse=100002157}	# Philippa v. Hohenzollern
+	1773.01.10={add_spouse=100002213}	# Philippine v. Hohenzollern
 	1785.10.31={death=yes}
 }
 	100001457={# 2a) Wilhelm IX, Landgr von Hessen-Kassel, Elector WILHELM I von Hessen 1803 (Kassel 3 Jun 1743-Kassel 27 Feb 1821); m.Copenhagen 1 Sep 1764 Pss Caroline of Denmark (Copenhagen 10 Jul 1747-Kassel 14 Jan 1820)
@@ -1032,7 +1165,7 @@
 			1793.01.13={birth=yes}  # Naples
 			1872.08.04={death=yes}  # Rome
 		}
-	100008414={ # 10a) ERNST KONSTANTIN, Landgrave von Hessen-Philippsthal (Philippsthal 8 Aug 1771-Meiningen 25 Dec 1849); m.1st Rudolstadt 10 Apr 1796 Luise Pss von Schwarzburg-Rudolstadt (Rudolstadt 2 Nov 1775-Kassel 25 Dec 1808; bur Kassel); m.2nd Kassel 17 Feb 1812 Karoline Landgravine von Hessen-Philippsthal (1793-1869)
+	100008414={ # 10a) ERNST KONSTANTIN, Landgrave von Hessen-Philippsthal (Philippsthal 8 Aug 1771-Meiningen 25 Dec 1849); m.1st Rudolstadt 10 Apr 1796 Luise Pss von Schwarzburg-Rudolstadt (Rudolstadt 2 Nov 1775-Kassel 25 Dec 1808); m.2nd Kassel 17 Feb 1812 Karoline Landgravine von Hessen-Philippsthal (1793-1869)
 		name="Ernst Konstantin"
 		dynasty=1002012
 		religion=lutheran culture=german
@@ -1109,7 +1242,7 @@
 		1823.09.10={add_spouse=100000381}	# Sophie zu Bentheim u.Steinfurt
 		1854.07.17={death=yes}  # Schloß Philippsthal
 	}
-		100008429={ # 1b) Bertha Wilhelmine Caroline Luise Marie (Herleshausen 26 Oct 1818-Burgsteinfurt 6 May 1888; bur there); m.Schloß Barchfeld 27 Jun 1839 Ludwig Fst zu Bentheim u.Steinfurt (1 Aug 1812-Burgsteinfurt 28 Sep 1890)
+		100008429={ # 1b) Bertha Wilhelmine Caroline Luise Marie (Herleshausen 26 Oct 1818-Burgsteinfurt 6 May 1888); m.Schloß Barchfeld 27 Jun 1839 Ludwig Fst zu Bentheim u.Steinfurt (1 Aug 1812-Burgsteinfurt 28 Sep 1890)
 			name=Bertha
 			female=yes
 			dynasty=1002012
@@ -1118,15 +1251,6 @@
 			mother=100008427	# PSS Auguste zu Hohenlohe-Ingelfingen
 			1818.10.26={birth=yes}  # Herleshausen
 			1888.05.06={death=yes}  # Burgsteinfurt
-		}
-		100008431={ # 3b) Viktor (Herleshausen 3 Dec 1824-Mainz 10 Apr 1846)
-			name=Viktor
-			dynasty=1002012
-			religion=lutheran culture=german
-			father=100008426	# Karl v. Hessen
-			mother=100000381	# Sophie zu Bentheim u.Steinfurt
-			1824.12.03={birth=yes}  # Herleshausen
-			1846.04.10={death=yes}  # Mainz
 		}
 		100008432={ # 5b) ALEXIS Wilhelm Ernst, Landgrave von Hessen-Philippsthal-Barchfeld (Burgsteinfurt 13 Sep 1829-Herleshausen 16 Aug 1905); m.Charlottenburg 27 Jun 1854 (div 1861) Luise Pss of Prussia (Berlin 1 Mar 1829-Wiesbaden 10 May 1901)
 			name=Alexis
@@ -1153,7 +1277,7 @@
 			1884.12.06={add_spouse=100004899}	# Auguste v. Schleswig-Holstein-Sonderburg-Glücksburg
 			1890.01.17={death=yes}  # Rotenburg an der Fulda
 		}
-			100008439={ # 6c) Bertha Luise (Burgsteinfurt 25 Oct 1874-Detmold 19 Feb 1919; bur Detmold); m.Rotenburg 16 Aug 1901 Leopold IV Fst zur Lippe (Oberkassel 30 May 1871-Detmold 30 Dec 1949)
+			100008439={ # 6c) Bertha Luise (Burgsteinfurt 25 Oct 1874-Detmold 19 Feb 1919); m.Rotenburg 16 Aug 1901 Leopold IV Fst zur Lippe (Oberkassel 30 May 1871-Detmold 30 Dec 1949)
 				name="Bertha Luise"
 				female=yes
 				dynasty=1002012
@@ -1456,227 +1580,268 @@
 
 
 ## IV: HESSEN-DARMSTADT
-100001569={	# Landgr Georg II, *Darmstadt 17.3.1605, +Darmstadt 11.6.1661; m.Schloß Torgau 1627 Sofie Eleonore of Saxony (*23.11.1609 +2.6.1671)
-	name=Georg
+100001556={ # Landgr Georg I (10 Sep 1547-7 Feb 1596); m.17 Aug 1572 Magdalene zur Lippe (24 Feb 1552-26 Feb 1587)
+	name=Georg 			# 3176/georg-i-Landgr-of-hesse-darmstadt/
 	dynasty=1002012
 	religion=catholic culture=german
-	father=100001637	# Ludwig v. Hessen
-	1605.03.17={birth=yes}  # Darmstadt
-	1627.01.01={add_spouse=100007548}	# Sophie Eleonore v. Wettin
-	1661.06.11={death=yes}  # Darmstadt
+	father=100001540	# Philipp v. Hessen
+	mother=100007539	# Christine v. Wettin
+	1547.09.10={birth=yes}
+	1572.08.17={add_spouse=100094334}	# Magdalene zur Lippe
+	1596.02.07={death=yes}
 }
-	100001573={	# A1. Ldgve Ludwig VI, *Darmstadt 25.1.1630, +Darmstadt 24.4.1678; 1m: Schloß Gottorp 24.11.1650 Pss Marie Elisabeth of Holstein-Gottorp (*Gottorp 6.6.1634, +Darmstadt 17.6.1665); 2m: Gotha 5.12.1666 Pss Elisabeth Dorothea von Sachsen-Gotha (*Coburg 8.1.1640 +Butzbach 24.8.1709)
+	100001637={ # Ludwig (1577-Darmstadt 1626); m.5 Jun 1598 Magdalene v. Hohenzollern (Berlin 7 Jan 1582-Darmstadt 4 May 1616) %%
 		name=Ludwig
 		dynasty=1002012
-		religion=catholic culture=german
-		father=100001569	# Georg v. Hessen
-		mother=100007548	# Sophie Eleonore v. Wettin
-		1630.01.25={birth=yes}  # Darmstadt
-		1650.11.24={add_spouse=100003214}	# Marie Elisabeth v. Oldenburg-Gottorf
-		1666.12.05={add_spouse=100007428}	# Elisabeth Dorothea v. Wettin
-		1678.04.24={death=yes}  # Darmstadt
+		religion=lutheran culture=german
+		father=100001556	# Georg v. Hessen
+		mother=100094334	# Magdalene zur Lippe
+		1577.01.01={birth=yes}
+		1598.06.05={add_spouse=100002518}	# Magdalene v. Hohenzollern
+		1626.01.01={death=yes}  # Darmstadt
 	}
-		100001578={	# B2. Ldgve Ludwig VII, *Darmstadt 22.6.1658, +Gotha 31.8.1678
-			name=Ludwig
+		100083420={ # Anna Eleonore (Darmstadt 30 Jul 1601-Herzberg 6 May 1659); m.14 Dec 1617 Georg v. Hannover (Celle 17 Feb 1582-Hildeshein 2 Apr 1641) %%
+			name="Anna Eleonore"
+			female=yes
+			dynasty=1002012
+			religion=lutheran culture=german
+			father=100001637	# Ludwig v. Hessen
+			mother=100002518	# Magdalene v. Hohenzollern
+			1601.07.30={birth=yes}  # Darmstadt
+			1659.05.06={death=yes}  # Herzberg
+		}
+		100092210={ # Sophie Agnes (Darmstadt 12 Jan 1604-Hilpoltstein 18 Sep 1664); m.17 Nov 1624 Johann Friedrich v. Wittelsbach (Neuburg 23 Aug 1587-Hilpoltstein 19 Oct 1644) %%
+			name="Sophie Agnes"
+			female=yes
 			dynasty=1002012
 			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100003214	# Marie Elisabeth v. Oldenburg-Gottorf
-			1658.06.22={birth=yes}
-			1678.08.31={death=yes}
+			father=100001637	# Ludwig v. Hessen
+			mother=100002518	# Magdalene v. Hohenzollern
+			1604.01.12={birth=yes}  # Darmstadt
+			1664.09.18={death=yes}  # Hilpoltstein
 		}
-		100001580={	# B3. Ldgve Ernst Ludwig, *Darmstadt 15.12.1667, +Schloß Jägersburg 12.9.1739; 1m: Darmstadt 1.12.1687 Pss Dorothea Charlotte von Brandenburg-Ansbach (*Ansbach 18.11.1661, +Schloß Jägersburg 15.11.1705); 2m: Darmstadt 20.1.1727 Luise Sofie von Spiegel (*Werma 30.8.1690, +Rauschenberg 12.1.1751)
-			name="Ernst Ludwig"
+		100001569={	# Landgr Georg II, *Darmstadt 17.3.1605, +Darmstadt 11.6.1661; m.Schloß Torgau 1627 Sofie Eleonore of Saxony (*23.11.1609 +2.6.1671)
+			name=Georg
 			dynasty=1002012
 			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100007428	# Elisabeth Dorothea v. Wettin
-			1667.12.15={birth=yes}
-			1687.12.01={add_spouse=100002144}	# Dorothea Charlotte v. Hohenzollern
-			1739.09.12={death=yes}
+			father=100001637	# Ludwig v. Hessen
+			mother=100002518	# Magdalene v. Hohenzollern
+			1605.03.17={birth=yes}  # Darmstadt
+			1627.01.01={add_spouse=100007548}	# Sophie Eleonore v. Wettin
+			1661.06.11={death=yes}  # Darmstadt
 		}
-			## UNTEN ==> C1. Landgr LUDWIG VIII, *Darmstadt 5.4.1691, +Darmstadt 17.10.1768; m.Philippsruhe 5.4.1717 Gfn Charlotte von Hanau-Lichtenberg (*2.5.1700 +1.7.1726)
-			100001586={	# C4. Dorothea Sofie, *Gießen 14.1.1689, +Öhringen 7.6.1723; m.Darmstadt 13.2.1710 Johann Friedrich, Gf von Hohenlohe-Öhringen (*1683 +1765)
-				name="Dorothea Sofie"
+			100001573={	# A1. Landgr Ludwig VI, *Darmstadt 25.1.1630, +Darmstadt 24.4.1678; 1m: Schloß Gottorp 24.11.1650 Pss Marie Elisabeth of Holstein-Gottorp (*Gottorp 6.6.1634, +Darmstadt 17.6.1665); 2m: Gotha 5.12.1666 Pss Elisabeth Dorothea von Sachsen-Gotha (*Coburg 8.1.1640 +Butzbach 24.8.1709)
+				name=Ludwig
+				dynasty=1002012
+				religion=catholic culture=german
+				father=100001569	# Georg v. Hessen
+				mother=100007548	# Sophie Eleonore v. Wettin
+				1630.01.25={birth=yes}  # Darmstadt
+				1650.11.24={add_spouse=100003214}	# Marie Elisabeth v. Oldenburg-Gottorf
+				1666.12.05={add_spouse=100007428}	# Elisabeth Dorothea v. Wettin
+				1678.04.24={death=yes}  # Darmstadt
+			}
+				100001578={	# B2. Landgr Ludwig VII, *Darmstadt 22.6.1658, +Gotha 31.8.1678
+					name=Ludwig
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100003214	# Marie Elisabeth v. Oldenburg-Gottorf
+					1658.06.22={birth=yes}
+					1678.08.31={death=yes}
+				}
+				100001580={	# B3. Landgr Ernst Ludwig, *Darmstadt 15.12.1667, +Schloß Jägersburg 12.9.1739; 1m: Darmstadt 1.12.1687 Pss Dorothea Charlotte von Brandenburg-Ansbach (*Ansbach 18.11.1661, +Schloß Jägersburg 15.11.1705); 2m: Darmstadt 20.1.1727 Luise Sofie von Spiegel (*Werma 30.8.1690, +Rauschenberg 12.1.1751)
+					name="Ernst Ludwig"
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100007428	# Elisabeth Dorothea v. Wettin
+					1667.12.15={birth=yes}
+					1687.12.01={add_spouse=100002605}	# Dorothea Charlotte v. Hohenzollern
+					1739.09.12={death=yes}
+				}
+					## UNTEN ==> C1. Landgr LUDWIG VIII, *Darmstadt 5.4.1691, +Darmstadt 17.10.1768; m.Philippsruhe 5.4.1717 Gfn Charlotte von Hanau-Lichtenberg (*2.5.1700 +1.7.1726)
+					100001586={	# C4. Dorothea Sofie, *Gießen 14.1.1689, +Öhringen 7.6.1723; m.Darmstadt 13.2.1710 Johann Friedrich, Gf von Hohenlohe-Öhringen (*1683 +1765)
+						name="Dorothea Sofie"
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001580	# Ernst Ludwig v. Hessen
+						mother=100002605	# Dorothea Charlotte v. Hohenzollern
+						1689.01.14={birth=yes}
+						1723.06.07={death=yes}
+					}
+					100001588={	# C5. Friederike Charlotte, *Darmstadt 8.9.1698, +Darmstadt 22.3.1777; m.Darmstadt 28.11.1720 Ldgve Maximilian von Hessen-Cassel (*1689 +1753)
+						name="Friederike Charlotte"
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001580	# Ernst Ludwig v. Hessen
+						mother=100002605	# Dorothea Charlotte v. Hohenzollern
+						1698.09.08={birth=yes}  # Darmstadt
+						1777.03.22={death=yes}  # Darmstadt
+					}
+				100001591={	# B5. Philipp, *Darmstadt 20.7.1671, +Vienna 11.8.1736; m.Brussels 24.3.1693 Pss Marie Therese von Croy (*3.11.1673 +20.2.1714)
+					name=Philipp
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100007428	# Elisabeth Dorothea v. Wettin
+					1671.07.20={birth=yes}  # Darmstadt
+					1693.03.24={add_spouse=100082257}	# PSS Marie Therese de Croÿ
+					1736.08.11={death=yes}  # Vienna
+				}
+					100001596={	# C3. Leopold, an imperial Field Marshal, *Mantua 11.4.1708, +Piacenza 27.10.1764; m.Piacenza 1740 Henriette Marie d'Este (*27.5.1702, +Piacenza 30.1.1777)
+						name=Leopold
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001591	# Philipp v. Hessen
+						mother=100082257	# PSS Marie Therese de Croÿ
+						1708.04.11={birth=yes}  # Mantua
+						1740.01.01={add_spouse=100081844}	# Henriette d'Este
+						1764.10.27={death=yes}  # Piacenza
+					}
+					100001602={	# C5. Theodora, *Vienna 6.2.1706, +Parma 23.1.1784; m.29.2.1727 Anton Ferdinand Gonzaga, Duke of Guastalla (*1687, +21.4.1729)
+						name=Theodora
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001591	# Philipp v. Hessen
+						mother=100082257	# PSS Marie Therese de Croÿ
+						1706.02.06={birth=yes}  # Vienna
+						1784.01.23={death=yes}  # Parma
+					}
+				100001603={	# B8. Friedrich, *Darmstadt 18.9.1677, +k.a.Tschaussy 13.10.1708; m.Mariazell 20.11.1704 Petronella von Stockmans (*Brussels 24.9.1677, +Vienna 20.8.1751)
+					name=Friedrich
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100007428	# Elisabeth Dorothea v. Wettin
+					1677.09.18={birth=yes}
+					1704.11.20={add_spouse=100093218}	# Petronella von Stockmans
+					1708.10.13={death=yes}
+				}
+					100001604={	# C1. Maria Anna Friederike, *Vienna 22.8.1705, +Vienna 20.11.1788; m.Vienna 25.4.1729 Karl Anton, Gf von Gianini (*1654, +1742)
+						name=Maria
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001603	# Friedrich v. Hessen
+						mother=100093218	# Petronella von Stockmans
+						1705.08.22={birth=yes}  # Vienna
+						1788.11.20={death=yes}  # Vienna
+					}
+				100001605={	# B9. Magdalene Sibylle, *Darmstadt 28.4.1652, +Kirchheim 11.8.1712; m.Darmstadt 6.11.1673 Duke Wilhelm Ludwig of Württemberg (*1647, +1677)
+					name="Magdalene Sibylle"
+					female=yes
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100003214	# Marie Elisabeth v. Oldenburg-Gottorf
+					1652.04.28={birth=yes}  # Darmstadt
+					1712.08.11={death=yes}  # Kirchheim
+				}
+				100001614={	# B11. Marie Elisabeth, *Darmstadt 11.3.1656, +Römhild 16.8.1715; m.Darmstadt 1.3.1676 Duke Heinrich von Sachsen-Römhild (*19.11.1650, +13.5.1710)
+					name="Marie Elisabeth"
+					female=yes
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100003214	# Marie Elisabeth v. Oldenburg-Gottorf
+					1656.03.11={birth=yes}  # Darmstadt
+					1715.08.16={death=yes}  # Römhild
+				}
+				100001617={	# B13. Sofie Marie, *Darmstadt 7.5.1661, +Gotha 22.8.1712; m.Darmstadt 9.2.1681 Duke Christian von Sachsen-Eisenberg (*1653, +1707)
+					name=Sofie
+					female=yes
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100003214	# Marie Elisabeth v. Oldenburg-Gottorf
+					1661.05.07={birth=yes}  # Darmstadt
+					1712.08.22={death=yes}  # Gotha
+				}
+				100001622={	# B14. Sofie Luise, *Darmstadt 6.7.1670, +Öttingen 2.6.1758; m.Darmstadt 11.10.1688 Fst Albrecht Ernst zu Oettingen-Oettingen (*8.8.1669 +30.3.1731)
+					name="Sofie Luise"
+					female=yes
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100007428	# Elisabeth Dorothea v. Wettin
+					1670.07.06={birth=yes}
+					1758.06.02={death=yes}
+				}
+				100001624={	# B15. Elisabeth Dorothea, *Darmstadt 24.4.1676, +Homburg 9.9.1721; m.Butzbach 1.2.1700 Ldgve Friedrich III von Hessen-Homburg (1673-1746)
+					name="Elisabeth Dorothea"
+					female=yes
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001573	# Ludwig v. Hessen
+					mother=100007428	# Elisabeth Dorothea v. Wettin
+					1676.04.24={birth=yes}  # Darmstadt
+					1721.09.09={death=yes}  # Homburg
+				}
+			100001632={	# A2. Georg von Hessen-Itter, *Darmstadt 29.9.1632, +Hoflauterbach 19.7.1676; 1m: Sonderburg 5.3.1661 Pss Dorothea Auguste of Schleswig-Holstein-Sonderburg (*30.9.1636, +Vöhl 18.9.1662); 2m: Darmstadt 21.7.1667 Gfn Juliane Alexandrine von Leiningen-Heidesheim (*Heidesheim 21.8.1651, +Wanfried 1.4.1703)
+				name=Georg
+				dynasty=1002012
+				religion=catholic culture=german
+				father=100001569	# Georg v. Hessen
+				mother=100007548	# Sophie Eleonore v. Wettin
+				1632.09.29={birth=yes}  # Darmstadt
+				1661.03.05={add_spouse=100094380}	# PSS Dorothea Auguste von Schleswig-Holstein-Sonderburg
+				1667.07.21={add_spouse=100092536}	# GFN Juliane Alexandrine von Leiningen-Heidesheim
+				1676.07.19={death=yes}  # Hoflauterbach
+			}
+			100001638={	# A5. Sofie Eleonore, *Darmstadt 7.1.1634, +Darmstadt 7.10.1663; m.Darmstadt 21.4.1650 Ldgve Wilhelm Christof von Hessen-Homburg (*1625 +1681)
+				name="Sofie Eleonore"
 				female=yes
 				dynasty=1002012
 				religion=catholic culture=german
-				father=100001580	# Ernst Ludwig v. Hessen
-				mother=100002144	# Dorothea Charlotte v. Hohenzollern
-				1689.01.14={birth=yes}
-				1723.06.07={death=yes}
+				father=100001569	# Georg v. Hessen
+				mother=100007548	# Sophie Eleonore v. Wettin
+				1634.01.07={birth=yes}  # Darmstadt
+				1663.10.07={death=yes}  # Darmstadt
 			}
-			100001588={	# C5. Friederike Charlotte, *Darmstadt 8.9.1698, +Darmstadt 22.3.1777; m.Darmstadt 28.11.1720 Ldgve Maximilian von Hessen-Cassel (*1689 +1753)
-				name="Friederike Charlotte"
+			100001640={	# A6. Elisabeth Amalie (Gießen 20.3.1635-Neuburg an der Donau 4.8.1709); m.Langenschwalbach 3.9.1653 Kfst Philipp Wilhelm von der Pfalz (*24.11.1615 +12.9.1690)
+				name="Elisabeth Amalie"
 				female=yes
 				dynasty=1002012
 				religion=catholic culture=german
-				father=100001580	# Ernst Ludwig v. Hessen
-				mother=100002144	# Dorothea Charlotte v. Hohenzollern
-				1698.09.08={birth=yes}  # Darmstadt
-				1777.03.22={death=yes}  # Darmstadt
+				father=100001569	# Georg v. Hessen
+				mother=100007548	# Sophie Eleonore v. Wettin
+				1635.03.20={birth=yes}  # Gießen
+				1709.08.04={death=yes}  # Neuburg_an_der_Donau
 			}
-		100001591={	# B5. Philipp, *Darmstadt 20.7.1671, +Vienna 11.8.1736; m.Brussels 24.3.1693 Pss Marie Therese von Croy (*3.11.1673 +20.2.1714)
-			name=Philipp
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100007428	# Elisabeth Dorothea v. Wettin
-			1671.07.20={birth=yes}  # Darmstadt
-			1693.03.24={add_spouse=100082257}	# PSS Marie Therese de Croÿ
-			1736.08.11={death=yes}  # Vienna
-		}
-			100001596={	# C3. Leopold, an imperial Field Marshal, *Mantua 11.4.1708, +Piacenza 27.10.1764; m.Piacenza 1740 Henriette Marie d'Este (*27.5.1702, +Piacenza 30.1.1777)
-				name=Leopold
-				dynasty=1002012
-				religion=catholic culture=german
-				father=100001591	# Philipp v. Hessen
-				mother=100082257	# PSS Marie Therese de Croÿ
-				1708.04.11={birth=yes}  # Mantua
-				1740.01.01={add_spouse=100081844}	# Henriette d'Este
-				1764.10.27={death=yes}  # Piacenza
-			}
-			100001602={	# C5. Theodora, *Vienna 6.2.1706, +Parma 23.1.1784; m.29.2.1727 Anton Ferdinand Gonzaga, Duke of Guastalla (*1687, +21.4.1729)
-				name=Theodora
+			100001450={	# A7. Luise Christina, *Marburg 5.2.1636, +Stolberg 11.11.1697; m.Darmstadt 29.10.1665 Gf Christof Ludwig I von Stolberg (*18.6.1634, +7.4.1704)
+				name="Luise Christina"
 				female=yes
 				dynasty=1002012
 				religion=catholic culture=german
-				father=100001591	# Philipp v. Hessen
-				mother=100082257	# PSS Marie Therese de Croÿ
-				1706.02.06={birth=yes}  # Vienna
-				1784.01.23={death=yes}  # Parma
+				father=100001569	# Georg v. Hessen
+				mother=100007548	# Sophie Eleonore v. Wettin
+				1636.02.05={birth=yes}  # Marburg
+				1697.11.11={death=yes}  # Stolberg
 			}
-		100001603={	# B8. Friedrich, *Darmstadt 18.9.1677, +k.a.Tschaussy 13.10.1708; m.Mariazell 20.11.1704 Petronella von Stockmans (*Brussels 24.9.1677, +Vienna 20.8.1751)
-			name=Friedrich
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100007428	# Elisabeth Dorothea v. Wettin
-			1677.09.18={birth=yes}
-			1704.11.20={add_spouse=100093218}	# Petronella von Stockmans
-			1708.10.13={death=yes}
-		}
-			100001604={	# C1. Maria Anna Friederike, *Vienna 22.8.1705, +Vienna 20.11.1788; m.Vienna 25.4.1729 Karl Anton, Gf von Gianini (*1654, +1742)
-				name=Maria
+			100001451={	# A11. Henriette Dorothea (Darmstadt 14.10.1641-Landau 22.12.1672); m.Merlau 10.11.1667 Gf Johann von Waldeck (*1623, +1668)
+				name="Henriette Dorothea"
 				female=yes
 				dynasty=1002012
 				religion=catholic culture=german
-				father=100001603	# Friedrich v. Hessen
-				mother=100093218	# Petronella von Stockmans
-				1705.08.22={birth=yes}  # Vienna
-				1788.11.20={death=yes}  # Vienna
+				father=100001569	# Georg v. Hessen
+				mother=100007548	# Sophie Eleonore v. Wettin
+				1641.10.14={birth=yes}  # Darmstadt
+				1672.12.22={death=yes}  # Landau
 			}
-		100001605={	# B9. Magdalene Sibylle, *Darmstadt 28.4.1652, +Kirchheim 11.8.1712; m.Darmstadt 6.11.1673 Duke Wilhelm Ludwig of Württemberg (*1647, +1677)
-			name="Magdalene Sibylle"
-			female=yes
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100003214	# Marie Elisabeth v. Oldenburg-Gottorf
-			1652.04.28={birth=yes}  # Darmstadt
-			1712.08.11={death=yes}  # Kirchheim
-		}
-		100001614={	# B11. Marie Elisabeth, *Darmstadt 11.3.1656, +Römhild 16.8.1715; m.Darmstadt 1.3.1676 Duke Heinrich von Sachsen-Römhild (*19.11.1650, +13.5.1710)
-			name="Marie Elisabeth"
-			female=yes
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100003214	# Marie Elisabeth v. Oldenburg-Gottorf
-			1656.03.11={birth=yes}  # Darmstadt
-			1715.08.16={death=yes}  # Römhild
-		}
-		100001617={	# B13. Sofie Marie, *Darmstadt 7.5.1661, +Gotha 22.8.1712; m.Darmstadt 9.2.1681 Duke Christian von Sachsen-Eisenberg (*1653, +1707)
-			name=Sofie
-			female=yes
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100003214	# Marie Elisabeth v. Oldenburg-Gottorf
-			1661.05.07={birth=yes}  # Darmstadt
-			1712.08.22={death=yes}  # Gotha
-		}
-		100001622={	# B14. Sofie Luise, *Darmstadt 6.7.1670, +Öttingen 2.6.1758; m.Darmstadt 11.10.1688 Fst Albrecht Ernst zu Oettingen-Oettingen (*8.8.1669 +30.3.1731)
-			name="Sofie Luise"
-			female=yes
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100007428	# Elisabeth Dorothea v. Wettin
-			1670.07.06={birth=yes}
-			1758.06.02={death=yes}
-		}
-		100001624={	# B15. Elisabeth Dorothea, *Darmstadt 24.4.1676, +Homburg 9.9.1721; m.Butzbach 1.2.1700 Ldgve Friedrich III von Hessen-Homburg (1673-1746)
-			name="Elisabeth Dorothea"
-			female=yes
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001573	# Ludwig v. Hessen
-			mother=100007428	# Elisabeth Dorothea v. Wettin
-			1676.04.24={birth=yes}  # Darmstadt
-			1721.09.09={death=yes}  # Homburg
-		}
-	100001632={	# A2. Georg von Hessen-Itter, *Darmstadt 29.9.1632, +Hoflauterbach 19.7.1676; 1m: Sonderburg 5.3.1661 Pss Dorothea Auguste of Schleswig-Holstein-Sonderburg (*30.9.1636, +Vöhl 18.9.1662); 2m: Darmstadt 21.7.1667 Gfn Juliane Alexandrine von Leiningen-Heidesheim (*Heidesheim 21.8.1651, +Wanfried 1.4.1703)
-		name=Georg
-		dynasty=1002012
-		religion=catholic culture=german
-		father=100001569	# Georg v. Hessen
-		mother=100007548	# Sophie Eleonore v. Wettin
-		1632.09.29={birth=yes}  # Darmstadt
-		1661.03.05={add_spouse=100094380}	# PSS Dorothea Auguste von Schleswig-Holstein-Sonderburg
-		1667.07.21={add_spouse=100092536}	# GFN Juliane Alexandrine von Leiningen-Heidesheim
-		1676.07.19={death=yes}  # Hoflauterbach
-	}
-	100001638={	# A5. Sofie Eleonore, *Darmstadt 7.1.1634, +Darmstadt 7.10.1663; m.Darmstadt 21.4.1650 Ldgve Wilhelm Christof von Hessen-Homburg (*1625 +1681)
-		name="Sofie Eleonore"
-		female=yes
-		dynasty=1002012
-		religion=catholic culture=german
-		father=100001569	# Georg v. Hessen
-		mother=100007548	# Sophie Eleonore v. Wettin
-		1634.01.07={birth=yes}  # Darmstadt
-		1663.10.07={death=yes}  # Darmstadt
-	}
-	100001640={	# A6. Elisabeth Amalie (Gießen 20.3.1635-Neuburg an der Donau 4.8.1709); m.Langenschwalbach 3.9.1653 Kfst Philipp Wilhelm von der Pfalz (*24.11.1615 +12.9.1690)
-		name="Elisabeth Amalie"
-		female=yes
-		dynasty=1002012
-		religion=catholic culture=german
-		father=100001569	# Georg v. Hessen
-		mother=100007548	# Sophie Eleonore v. Wettin
-		1635.03.20={birth=yes}  # Gießen
-		1709.08.04={death=yes}  # Neuburg_an_der_Donau
-	}
-	100001450={	# A7. Luise Christina, *Marburg 5.2.1636, +Stolberg 11.11.1697; m.Darmstadt 29.10.1665 Gf Christof Ludwig I von Stolberg (*18.6.1634, +7.4.1704)
-		name="Luise Christina"
-		female=yes
-		dynasty=1002012
-		religion=catholic culture=german
-		father=100001569	# Georg v. Hessen
-		mother=100007548	# Sophie Eleonore v. Wettin
-		1636.02.05={birth=yes}  # Marburg
-		1697.11.11={death=yes}  # Stolberg
-	}
-	100001451={	# A11. Henriette Dorothea (Darmstadt 14.10.1641-Landau 22.12.1672); m.Merlau 10.11.1667 Gf Johann von Waldeck (*1623, +1668)
-		name="Henriette Dorothea"
-		female=yes
-		dynasty=1002012
-		religion=catholic culture=german
-		father=100001569	# Georg v. Hessen
-		mother=100007548	# Sophie Eleonore v. Wettin
-		1641.10.14={birth=yes}  # Darmstadt
-		1672.12.22={death=yes}  # Landau
-	}
-	100001452={	# A14. Marie Hedwig (Gießen 26.11.1647-Ichtershausen 19.4.1680); m.Gotha 20.11.1671 Duke Bernhard I von Sachsen-Meiningen (10.9.1649-27.4.1706)
-		name="Marie Hedwig"
-		female=yes
-		dynasty=1002012
-		religion=catholic culture=german
-		father=100001569	# Georg v. Hessen
-		mother=100007548	# Sophie Eleonore v. Wettin
-		1647.11.26={birth=yes}  # Gießen
-		1680.04.19={death=yes}  # Ichtershausen
-	}
+			100001452={	# A14. Marie Hedwig (Gießen 26.11.1647-Ichtershausen 19.4.1680); m.Gotha 20.11.1671 Duke Bernhard I von Sachsen-Meiningen (10.9.1649-27.4.1706)
+				name="Marie Hedwig"
+				female=yes
+				dynasty=1002012
+				religion=catholic culture=german
+				father=100001569	# Georg v. Hessen
+				mother=100007548	# Sophie Eleonore v. Wettin
+				1647.11.26={birth=yes}  # Gießen
+				1680.04.19={death=yes}  # Ichtershausen
+			}
 #1635.03.17={holder=100010503} # Landgr Georg II
 #1661.06.11={holder=100010510} # A1. Ldgve Ludwig VI
 #1678.04.24={holder=100010519} # B2. Ldgve Ludwig VII
@@ -1688,7 +1853,7 @@
 	dynasty=1002012
 	religion=lutheran culture=german
 	father=100001580	# Ernst Ludwig v. Hessen
-	mother=100002144	# Dorothea Charlotte v. Hohenzollern
+	mother=100002605	# Dorothea Charlotte v. Hohenzollern
 	1691.04.05={birth=yes}
 	1717.04.05={add_spouse=100092143}	# GFN Charlotte von Hanau-Lichtenberg
 	1768.10.17={death=yes}
@@ -2293,7 +2458,7 @@
 			1722.10.03={add_spouse=100094294}	# Christine Charlotte of Solms-Braunfels zu Solms-Braunfels
 			1726.10.09={death=yes}
 		}
-			100001485={ # 1a) FRIEDRICH IV, Landgrave von Hessen-Homburg (Braunfels 15 Apr 1724-Homburg 7 Feb 1751; bur Homburg); m.Hungen 10 Oct 1746 Ulrike Luise Gfn zu Solms-Braunfels (Hungen 30 Apr 1731-Homburg 12 Sep 1792; bur Homburg)
+			100001485={ # 1a) FRIEDRICH IV, Landgrave von Hessen-Homburg (Braunfels 15 Apr 1724-Homburg 7 Feb 1751); m.Hungen 10 Oct 1746 Ulrike Luise Gfn zu Solms-Braunfels (Hungen 30 Apr 1731-Homburg 12 Sep 1792)
 				name=Friedrich #  5051/friedrich-iv-Landgr-of-hesse-homburg/
 				dynasty=1002012
 				religion=catholic culture=german
@@ -2313,7 +2478,7 @@
 					1768.09.27={add_spouse=100001570}	# Karolina v. Hessen
 					1820.01.20={death=yes}
 				}
-					100001565={ # 1c) FRIEDRICH VI Joseph, Landgrave von Hessen-Homburg (Homburg 30 Jul 1769-Homburg 2 Apr 1829); m.Buckingham House 7 Apr 1818 Elizabeth Pss of Great Britain, Ireland and Hannover, etc (Buckingham House 22 May 1770-Frankfurt 10 Jan 1840; bur Homburg)
+					100001565={ # 1c) FRIEDRICH VI Joseph, Landgrave von Hessen-Homburg (Homburg 30 Jul 1769-Homburg 2 Apr 1829); m.Buckingham House 7 Apr 1818 Elizabeth Pss of Great Britain, Ireland and Hannover, etc (Buckingham House 22 May 1770-Frankfurt 10 Jan 1840)
 						name=Friedrich
 						dynasty=1002012
 						religion=anglican culture=english
@@ -2403,7 +2568,7 @@
 			1710.05.28={add_spouse=100094438}	# GFN Christine Magdalene von Limpurg
 			1728.03.01={death=yes}
 		}
-			100001554={ # Sophie Friederike (18 Feb 1714-2 May 1777); m.26 Sep 1727 Karl Philipp von Hohenlohe (17 Jul 1702-1 Mar 1763) %%
+			100001554={ # Sophie Friederike (18 Feb 1714-2 May 1777) %%
 				name="Sophie Friederike" #  18349/sophie-friederike-landgraefin-von-hessen-homburg/
 				female=yes
 				dynasty=1002012

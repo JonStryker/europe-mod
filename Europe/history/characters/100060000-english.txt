@@ -46,10 +46,1043 @@
 ##  100063275-100063276		Tindall                                     1009201
 ##  100063300-100063346		Windsor                                     1009000
 ##  100063350-100063466		Hamilton                                 	1009022
-##  100063475-100061xxx		Innes-Ker                                   1009019
+##  100063475-100063628		Innes-Ker                                   1009019
+##  100063650-100063xxx		Wellington                                  1009027
 #################################################################################################
 
-##  100063475-100061xxx		Innes-Ker           ROXBURGHE               1009019
+
+##  100063650-100063xxx		Wellington                                  1009027
+100063651={ # Dudley Colley, of Castle Carbery (ca 1621-Jul 1674); m.1st Anne Warren
+	name="Dudley _Colley"
+	dynasty=1009027
+	religion=anglican culture=english
+	1621.01.01={birth=yes}
+	1646.01.01={add_spouse=100082847}	# Anne Warren
+	1674.07.01={death=yes}
+}
+	100063652={ # 1a) Henry, of Castle Carbery (d.1700); m.1st Mary Usher; m.2nd Aug 1694 Sarah Boswell (dsp 1719)
+		name=Henry
+		dynasty=1009027
+		religion=anglican culture=english
+		father=100063651	# Dudley  Colley Wellesley
+		mother=100082847	# Anne Warren
+		1648.01.01={birth=yes}  # EST.
+		1687.01.01={add_spouse=100082848}	# Mary Usher
+		1694.01.01={remove_spouse=100082848}
+		1694.08.01={add_spouse=100082849}	# Sarah Boswell
+		1700.01.01={death=yes}
+	}
+		100063653={ # 1b) Henry, of Castle Carbery (d.1723); m.1719 Lady Mary Hamilton
+			name=Henry
+			dynasty=1009027
+			religion=anglican culture=english
+			father=100063652	# Henry Wellesley
+			mother=100082848	# Mary Usher
+			1688.01.01={birth=yes}  # EST.
+			1719.01.01={add_spouse=100084297}	# LADY Mary Hamilton
+			1723.01.01={death=yes}
+		}
+			100063654={ # 1c) Mary (11 Jul 1723-Dublin 7 Apr 1794); m.20 Oct 1747 Arthur Pomeroy, Viscount Harberton (Cork 16 Jan 1723-Dublin 9 Apr 1798)
+				name=Mary
+				female=yes
+				dynasty=1009027
+				religion=anglican culture=english
+				father=100063653	# Henry Wellesley
+				mother=100084297	# LADY Mary Hamilton
+				1723.07.11={birth=yes}
+				1794.04.07={death=yes}  # Dublin
+			}
+		100063655={ # 2b) Richard, surnamed Colley, or Cowley, until 1728 when he took the name Wesley on inheriting Dangan and Mornington from Garret Wesley [below], cr 1746 Baron Mornington (ca 1690-31 Jan 1758); m.23 Dec 1719 Elizabeth Sale (d.17 Jun 1738)
+			name=Richard
+			dynasty=1009027
+			religion=anglican culture=english
+			father=100063652	# Henry Wellesley
+			mother=100082848	# Mary Usher
+			1690.01.01={birth=yes}
+			1719.12.23={add_spouse=100086226}	# Elizabeth Sale
+			1758.01.31={death=yes}
+		}
+			100063658={ # 3c) Garret, 2nd Lord Mornington, cr 1760 Earl of Mornington and Viscount Wellesley of Dangan Castle (19 Jul 1735-London 22 May 1781); m.6 Feb 1759 Hon. Anne Hill (23 Jun 1742-10 Sep 1831)
+				name=Garret
+				dynasty=1009027
+				religion=anglican culture=english
+				father=100063655	# Richard Wellesley
+				mother=100086226	# Elizabeth Sale
+				1735.07.19={birth=yes}
+				1759.02.06={add_spouse=100096613}	# HON. Anne Hill
+				1781.05.22={death=yes}  # London
+			}
+				100063659={ # 1d) Richard, 2nd Earl of Mornington, changed surname to Wellesley ca 1789, cr 1797 Baron Wellesley of Wellesley, cr 1799 Marquess Wellesley of Norragh (Dangan Castle 20 Jun 1760-London 26 Sep 1842); m.1st London 29 Nov 1794 Hyacinthe Gabrielle Roland (d.Teddesley Park 7 Nov 1816); m.2nd Dublin 29 Oct 1825 Marianne Caton (d.Hampton Court Palace 17 Dec 1853)
+					name=Richard
+					dynasty=1009027
+					religion=anglican culture=english
+					father=100063658	# Garret Wellesley
+					mother=100096613	# HON. Anne Hill
+					1760.06.20={birth=yes}  # Dangan Castle
+					1794.11.29={add_spouse=100098158}	# Hyacinthe Gabrielle Roland
+					1825.10.29={add_spouse=100098459}	# Marianne Caton
+					1842.09.26={death=yes}  # London
+				}
+					100063660={ # 3e) [illegitimate] Anne Wellesley (1788-19 Mar 1875); m.1st 8 Jul 1806 (div 1816) Sir William Abdy, 7th Bt. (1779-16 Apr 1868); m.2nd 3 Jul 1817 Lord William Charles Augustus Cavendish-Bentinck (3 Oct 1780-28 Apr 1826)
+						name="Anne _Wellesley"
+						female=yes
+						dynasty=1009027
+						religion=anglican culture=english
+						father=100063659	# Richard Wellesley
+						mother=100098158	# Hyacinthe Gabrielle Roland
+						add_trait=bastard
+						1788.01.01={birth=yes}
+						1875.03.19={death=yes}
+					}
+					100063661={ # 4e) [illegitimate] Hyacinthe Mary Wellesley (25 Feb 1789-Teddesley Park 6 Jan 1849); m.London 21 Dec 1812 Edward John Littleton, Lord Hatherton (London 18 Mar 1791-Teddesley Park 4 May 1863)
+						name=Hyacinthe
+						female=yes
+						dynasty=1009027
+						religion=anglican culture=english
+						father=100063659	# Richard Wellesley
+						mother=100098158	# Hyacinthe Gabrielle Roland
+						add_trait=bastard
+						1789.02.25={birth=yes}
+						1849.01.06={death=yes}  # Teddesley Park
+					}
+				100063662={ # 2d) William, Baron Maryborough of Maryborough, 3rd Earl of Mornington (Dangan Castle 20 May 1763-London 22 Feb 1845); m.London 17 May 1784 Katherine Elizabeth Forbes (d.London 23 Oct 1851)
+					name=William
+					dynasty=1009027
+					religion=anglican culture=english
+					father=100063658	# Garret Wellesley
+					mother=100096613	# HON. Anne Hill
+					1763.05.20={birth=yes}  # Dangan Castle
+					1784.05.17={add_spouse=100098484}	# Katherine Elizabeth Forbes
+					1845.02.22={death=yes}  # London
+				}
+					100063663={ # 1e) William, 4th Earl of Mornington, changed surname 1812 to Pole-Tylney-Long-Wellesley (22 May 1788-London 1 Jul 1857); m.1st London 14 Mar 1812 Catherine Tylney-Long (2 Oct 1789-Richmond 12 Sep 1825); m.2nd 10 Nov 1828 Helena Paterson (d.West Cowes 7 Apr 1869)
+						name=William
+						dynasty=1009027
+						religion=anglican culture=english
+						father=100063662	# William Wellesley
+						mother=100098484	# Katherine Elizabeth Forbes
+						1788.05.22={birth=yes}
+						1812.03.14={add_spouse=100098485}	# Catherine Tylney-Long
+						1828.11.10={add_spouse=100098498}	# Helena Paterson
+						1857.07.01={death=yes}  # London
+					}
+						100063664={ # 1f) William Richard Arthur, 5th Earl of Mornington (Wanstead House, Essex 7 Oct 1813-Paris 25 Jul 1863); he left the Draycot estates, inherited from his mother, to his paternal cousin, Earl Cowley
+							name=William
+							dynasty=1009027
+							religion=anglican culture=english
+							father=100063663	# William Wellesley
+							mother=100098485	# Catherine Tylney-Long
+							1813.01.01={birth=yes}  # EST.
+							1888.01.01={death=yes}  # Paris
+						}
+						100063665={ # 2f) James Fitzroy Henry William (11 Aug 1815-30 Oct 1851)
+							name=James
+							dynasty=1009027
+							religion=anglican culture=english
+							father=100063663	# William Wellesley
+							mother=100098485	# Catherine Tylney-Long
+							1815.08.11={birth=yes}
+							1851.10.30={death=yes}
+						}
+					100063666={ # 2e) Mary Charlotte Anne (d.2 Feb 1845); m.22 Jul 1806 Hon. Sir Charles Bagot (d.19 May 1843)
+						name=Mary
+						female=yes
+						dynasty=1009027
+						religion=anglican culture=english
+						father=100063662	# William Wellesley
+						mother=100098484	# Katherine Elizabeth Forbes
+						1792.01.01={birth=yes}  # EST.
+						1845.02.02={death=yes}
+					}
+					100063667={ # 3e) Emily Harriet (13 Mar 1792-6 Mar 1881); m.13 Mar 1814 Fitzroy Somerset, Lord Raglan (d.Savastopol 28 Jun 1855)
+						name=Emily
+						female=yes
+						dynasty=1009027
+						religion=anglican culture=english
+						father=100063662	# William Wellesley
+						mother=100098484	# Katherine Elizabeth Forbes
+						1792.03.13={birth=yes}
+						1881.03.06={death=yes}
+					}
+					100063668={ # 4e) Priscilla Anne (13 Mar 1793-London 18 Feb 1879); m.London 26 Jun 1811 John Fane, 11th Earl of Westmorland (Feb 1784-Apethorpe 16 Oct 1859)
+						name="Priscilla Anne"
+						female=yes
+						dynasty=1009027
+						religion=anglican culture=english
+						father=100063662	# William Wellesley
+						mother=100098484	# Katherine Elizabeth Forbes
+						1793.03.13={birth=yes}
+						1879.02.18={death=yes}  # London
+					}
+				100063669={ # 3d) ARTHUR Wesley, b.Dublin 1 May 1769, d.Walmer Castle 14 Sep 1852; m.Dublin 10 Apr 1806 Hon. Catherine Sarah Dorothea Pakenham (1772-Apsley House 24 Apr 1831)
+					name="Arthur _Wesley"
+					dynasty=1009027
+					religion=anglican culture=english
+					father=100063658	# Garret Wellesley
+					mother=100096613	# HON. Anne Hill
+					1769.05.01={birth=yes}  # Dublin
+					1806.04.10={add_spouse=100098523}	# HON. Catherine Sarah Pakenham
+					1852.09.14={death=yes}
+				}
+					100063670={ # 1e) ARTHUR RICHARD, 2nd Duke of Wellington, etc, suc as 6th Earl of Mornington 1863 (London 3 Feb 1807-Brighton 13 Aug 1884); m.London 18 Apr 1839 Lady Elizabeth Hay (Yester 27 Sep 1820-Bearhill Park, Walton-on-Thames 13 Aug 1904)
+						name="Arthur Richard"
+						dynasty=1009027
+						religion=anglican culture=english
+						father=100063669	# Arthur  Wesley Wellesley
+						mother=100098523	# HON. Catherine Sarah Pakenham
+						1807.02.03={birth=yes}  # London
+						1839.04.18={add_spouse=100098524}	# LADY Elizabeth Hay
+						1884.08.13={death=yes}  # Brighton
+					}
+					100063671={ # 2e) Charles (Phoenix Park, Dublin 16 Jan 1808-Apsley House 9 Oct 1858); m.London 9 Jul 1844 Augusta Sophia Anna Pierrepont (30 May 1820-London 13 Jul 1893)
+						name=Charles
+						dynasty=1009027
+						religion=anglican culture=english
+						father=100063669	# Arthur  Wesley Wellesley
+						mother=100098523	# HON. Catherine Sarah Pakenham
+						1808.01.16={birth=yes}  # Phoenix Park Dublin
+						1844.07.09={add_spouse=100098525}	# Augusta Sophia Pierrepont
+						1858.10.09={death=yes}  # Apsley House
+					}
+						100063672={ # 2f) HENRY, 3rd Duke of Wellington, etc (Apsley House 5 Apr 1846-Stratfield Saye 8 Jun 1900); m.7 Mar 1882 Evelyn Katrine Gwenfra Williams (1855-West Green House, Hartley Wintney, Hants 11 Mar 1939)
+							name=Henry
+							dynasty=1009027
+							religion=anglican culture=english
+							father=100063671	# Charles Wellesley
+							mother=100098525	# Augusta Sophia Pierrepont
+							1846.04.05={birth=yes}  # Apsley House
+							1882.03.07={add_spouse=100098526}	# Evelyn Katrine Williams
+							1900.06.08={death=yes}  # Stratfield Saye
+						}
+						100063673={ # 3f) Victoria Alexandrina (Apsley House 2 Apr 1847-31 Jul 1933); m.London 6 Sep 1877 Ion Trant Hamilton, Lord Holmpatrick (14 Jul 1839-Abbotstown House 6 Mar 1898)
+							name="Victoria Alexandrina"
+							female=yes
+							dynasty=1009027
+							religion=anglican culture=english
+							father=100063671	# Charles Wellesley
+							mother=100098525	# Augusta Sophia Pierrepont
+							1847.04.02={birth=yes}  # Apsley House
+							1933.07.31={death=yes}
+						}
+						100063674={ # 4f) ARTHUR Charles, 4th Duke of Wellington, etc (Apsley House 15 Mar 1849-Ewhurst Park, Basingstoke 18 Jun 1934); m.London 24 Oct 1872 Kathleen Emily Bulkeley Williams (Beaumaris 13 Jun 1848-Apsley House 24 Jun 1927)
+							name=Arthur
+							dynasty=1009027
+							religion=anglican culture=english
+							father=100063671	# Charles Wellesley
+							mother=100098525	# Augusta Sophia Pierrepont
+							1849.03.15={birth=yes}  # Apsley House
+							1872.10.24={add_spouse=100098528}	# Kathleen Emily Bulkeley Williams
+							1934.06.18={death=yes}  # Ewhurst Park Basingstoke
+						}
+							100063675={ # 1g) Evelyn Kathleen (30 Jul 1873-19 Jan 1922); m.18 Jun 1900 Hon. Robert James (13 May 1873-13 Dec 1960)
+								name="Evelyn Kathleen"
+								female=yes
+								dynasty=1009027
+								religion=anglican culture=english
+								father=100063674	# Arthur Wellesley
+								mother=100098528	# Kathleen Emily Bulkeley Williams
+								1873.07.30={birth=yes}
+								1922.01.19={death=yes}
+							}
+							100063676={ # 2g) ARTHUR Charles, 5th Duke of Wellington, etc (London 9 Jun 1876-London 11 Dec 1941); m.London 23 Mar 1909 Hon Lilian Maud Glen Coats (Belleisle 3 Feb 1885-Orford Hall, Ham, Richmond 3 May 1946)
+								name=Arthur
+								dynasty=1009027
+								religion=anglican culture=english
+								father=100063674	# Arthur Wellesley
+								mother=100098528	# Kathleen Emily Bulkeley Williams
+								1876.06.09={birth=yes}  # London
+								1909.03.23={add_spouse=100098530}	# HON Lilian Maud Glen Coats
+								1941.12.11={death=yes}  # London
+							}
+								100063677={ # 1h) Anne Maud, suc 1943 as Duquesa de Ciudad Rodrigo, which titles she ceded to her uncle, the 7th Duke (b.London 2 Feb 1910); m.London 23 Mar 1933 (div 1963) Hon David Reginald Rhys (18 Mar 1907-1991)
+									name="Anne Maud"
+									female=yes
+									dynasty=1009027
+									religion=anglican culture=english
+									father=100063676	# Arthur Wellesley
+									mother=100098530	# HON Lilian Maud Glen Coats
+									1910.02.02={birth=yes}  # London
+									1985.01.01={death=yes}
+								}
+								100063678={ # 2h) HENRY Valerian George, 6th Duke of Wellington, etc (London 14 Jul 1912-k.a.Salerno 16 Sep 1943)
+									name=Henry
+									dynasty=1009027
+									religion=anglican culture=english
+									father=100063676	# Arthur Wellesley
+									mother=100098530	# HON Lilian Maud Glen Coats
+									1912.07.14={birth=yes}  # London
+									1943.09.16={death=yes}  # Salerno
+								}
+							100063679={ # 3g) Richard (London 30 Sep 1879-k.a.Zandvoorde 29 Oct 1914); m.London 30 Apr 1908 Louise Nesta Pamela FitzGerald (London 8 Jan 1889-21 Feb 1946)
+								name=Richard
+								dynasty=1009027
+								religion=anglican culture=english
+								father=100063674	# Arthur Wellesley
+								mother=100098528	# Kathleen Emily Bulkeley Williams
+								1879.09.30={birth=yes}  # London
+								1908.04.30={add_spouse=100098532}	# Louise Nesta FitzGerald
+								1914.10.29={death=yes}  # Zandvoorde
+							}
+								100063680={ # 1h) Pamela (London 14 May 1912-31 Mar 1987); m.1st London 12 Jun 1933 (div 1943) Charles Robert Archibald Grant (29 Dec 1903-21 Jan 1972); m.2nd London 24 Jul 1947 Hon Denis Gomer Berry (London 11 Jul 1911-1983)
+									name=Pamela
+									female=yes
+									dynasty=1009027
+									religion=anglican culture=english
+									father=100063679	# Richard Wellesley
+									mother=100098532	# Louise Nesta FitzGerald
+									1912.05.14={birth=yes}  # London
+									1987.03.31={death=yes}
+								}
+								100063681={ # 2h) Mary (b.London 8 Jan 1915)
+									name=Mary
+									female=yes
+									dynasty=1009027
+									religion=anglican culture=english
+									father=100063679	# Richard Wellesley
+									mother=100098532	# Louise Nesta FitzGerald
+									1915.01.08={birth=yes}  # London
+									1990.01.01={death=yes}
+								}
+							100063682={ # 4g) GERALD, 7th Duke of Wellington, etc (Inchicore 21 Aug 1885-4 Jan 1972); m.London 30 Apr 1914 Dorothy Violet Ashton (Maidenhead 21 Aug 1885-Penns-in-the-Rocks, Withyham, Sussex 11 Jul 1956)
+								name=Gerald
+								dynasty=1009027
+								religion=anglican culture=english
+								father=100063674	# Arthur Wellesley
+								mother=100098528	# Kathleen Emily Bulkeley Williams
+								1885.08.21={birth=yes}  # Inchicore
+								1914.04.30={add_spouse=100098535}	# Dorothy Violet Ashton
+								1972.01.04={death=yes}
+							}
+								100063683={ # 1h) ARTHUR Valerian, 8th Duke of Wellington, etc (Rome 2 Jul 1915-31 Dec 2014); m.Jerusalem 28 Jan 1944 Diana Ruth McConnel (14 Jan 1922-1 Nov 2010)
+									name="Arthur _Valerian"
+									dynasty=1009027
+									religion=anglican culture=italian
+									father=100063682	# Gerald Wellesley
+									mother=100098535	# Dorothy Violet Ashton
+									1915.07.02={birth=yes}  # Rome
+									1944.01.28={add_spouse=100098536}	# Diana Ruth McConnel
+									2014.12.31={death=yes}
+								}
+									100063684={ # 1i) Arthur Charles Valerian, 9th Duke of Wellington, Duque de Ciudad Rodrigo on cession by his father (b.Windsor 19 Aug 1945); m.St.Paul's Knightsbridge, London 3 Feb 1977 Antonia Pss of Prussia (b.London 28 Apr 1955)
+										name=Charles
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063683	# Arthur  Valerian Wellesley
+										mother=100098536	# Diana Ruth McConnel
+										1945.08.19={birth=yes}  # Windsor
+										1977.02.03={add_spouse=100002197}	# Antonia v. Hohenzollern
+									}
+										100063685={ # 1j) Arthur Gerald, Marquess of Douro (b.London 31 Jan 1978); m.St.James Church, Barbados, 4 Jun 2005 Jemma Madeleine Kidd (b.Guildford 20 Sep 1974)
+											name="Arthur Gerald"
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063684	# Charles Wellesley
+											mother=100002197	# Antonia v. Hohenzollern
+											1978.01.31={birth=yes}  # London
+											2005.06.04={add_spouse=100098538}	# Jemma Madeleine Kidd
+										}
+											100063687={ # 2k) Arthur Darcy, Earl of Mornington (b.London 4 Jan 2010)
+												name="Arthur Darcy"
+												dynasty=1009027
+												religion=anglican culture=english
+												father=100063685	# Arthur Gerald Wellesley
+												mother=100098538	# Jemma Madeleine Kidd
+												2010.01.04={birth=yes}  # London
+											}
+											100063686={ # 1k) Mae Madeleine (b.London 4 Jan 2010)
+												name="Mae Madeleine"
+												female=yes
+												dynasty=1009027
+												religion=anglican culture=english
+												father=100063685	# Arthur Gerald Wellesley
+												mother=100098538	# Jemma Madeleine Kidd
+												2010.01.04={birth=yes}  # London
+											}
+											100063688={ # 3k) Alfred (b.10 Dec 2014)
+												name=Alfred
+												dynasty=1009027
+												religion=anglican culture=english
+												father=100063685	# Arthur Gerald Wellesley
+												mother=100098538	# Jemma Madeleine Kidd
+												2014.12.10={birth=yes}
+											}
+										100063689={ # 2j) Honor Victoria (b.London 25 Oct 1979); m.Stratfield Saye 3 Jul 2004 Hon. Orlando William Montagu (b.16 Jan 1971)
+											name="Honor Victoria"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063684	# Charles Wellesley
+											mother=100002197	# Antonia v. Hohenzollern
+											1979.10.25={birth=yes}  # London
+										}
+										100063690={ # 3j) Mary Luise (b.London 16 Dec 1986)
+											name="Mary Luise"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063684	# Charles Wellesley
+											mother=100002197	# Antonia v. Hohenzollern
+											1986.12.16={birth=yes}  # London
+										}
+										100063691={ # 4j) Charlotte Anne (b.London 8 Oct 1990)
+											name="Charlotte Anne"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063684	# Charles Wellesley
+											mother=100002197	# Antonia v. Hohenzollern
+											1990.10.08={birth=yes}  # London
+										}
+										100063692={ # 5j) Frederick Charles (b.London 30 Sep 1992)
+											name="Frederick Charles"
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063684	# Charles Wellesley
+											mother=100002197	# Antonia v. Hohenzollern
+											1992.09.30={birth=yes}  # London
+										}
+									100063693={ # 2i) Richard Gerald (b.Windsor 20 Jun 1949); m.14 Jul 1973 Joanna Marion Sumner
+										name="Richard Gerald"
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063683	# Arthur  Valerian Wellesley
+										mother=100098536	# Diana Ruth McConnel
+										1949.06.20={birth=yes}  # Windsor
+										1973.07.14={add_spouse=100098540}	# Joanna Marion Sumner
+									}
+										100063694={ # 1j) Natasha Doone (b.5 Oct 1975); m.20 Oct 2007 C. Tom Halliday
+											name="Natasha _Doone"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063693	# Richard Gerald Wellesley
+											mother=100098540	# Joanna Marion Sumner
+											1975.10.05={birth=yes}
+										}
+										100063695={ # 2j) Davinia Chloe (b.Ayrshire 10 Oct 1977)
+											name="Davinia Chloe"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063693	# Richard Gerald Wellesley
+											mother=100098540	# Joanna Marion Sumner
+											1977.10.10={birth=yes}  # Ayrshire
+										}
+									100063696={ # 3i) Caroline Jane (b.Park Corner, Heckfield 6 Jul 1951)
+										name="Caroline Jane"
+										female=yes
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063683	# Arthur  Valerian Wellesley
+										mother=100098536	# Diana Ruth McConnel
+										1951.07.06={birth=yes}  # Park Corner Heckfield
+									}
+									100063697={ # 4i) John Henry (b.Park Corner 20 Apr 1954); m.Church of the Immaculate Conception, Farm St, London 7 May 1977 Corinne Vaes
+										name="John Henry"
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063683	# Arthur  Valerian Wellesley
+										mother=100098536	# Diana Ruth McConnel
+										1954.04.20={birth=yes}
+										1977.05.07={add_spouse=100098542}	# Corinne Vaes
+									}
+										100063698={ # 1j) Gerald Valerian (b.Queen Charlotte's Hospital 6 Jun 1981)
+											name="Gerald Valerian"
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063697	# John Henry Wellesley
+											mother=100098542	# Corinne Vaes
+											1981.06.06={birth=yes}  # Queen Charlotte's Hospital
+										}
+										100063699={ # 2j) Alexandrina Sofia (b.23 Jul 1983); m.6 Sep 2014 James Blunt (b.22 Feb 1974)
+											name="Alexandrina Sofia"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063697	# John Henry Wellesley
+											mother=100098542	# Corinne Vaes
+											1983.07.23={birth=yes}
+										}
+									100063700={ # 5i) James Christopher Douglas (b.16 Dec 1964); m.1st 1994 (div 2005) Laura Elizabeth Wedge; m.2nd Ayrshire shortly before 26 Jul 2005 Emma Nethercott
+										name=James
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063683	# Arthur  Valerian Wellesley
+										mother=100098536	# Diana Ruth McConnel
+										1964.12.16={birth=yes}
+										1994.01.01={add_spouse=100098544}	# Laura Elizabeth Wedge
+										2005.01.01={remove_spouse=100098544}
+										2005.07.26={add_spouse=100098545}	# Emma Nethercott
+									}
+										100063701={ # 1j) Eleanor Rose (b.9 Dec 1995)
+											name="Eleanor Rose"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063700	# James Wellesley
+											mother=100098544	# Laura Elizabeth Wedge
+											1995.12.09={birth=yes}
+										}
+										100063702={ # 2j) Oliver Valerian (b.2005)
+											name="Oliver Valerian"
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063700	# James Wellesley
+											mother=100098544	# Laura Elizabeth Wedge
+											2005.01.01={birth=yes}
+										}
+										100063703={ # 3j) Skye Joanna (b.2006)
+											name="Skye Joanna"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063700	# James Wellesley
+											mother=100098545	# Emma Nethercott
+											2006.01.01={birth=yes}
+										}
+										100063704={ # 4j) Isla Diana (b.2009)
+											name="Isla Diana"
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063700	# James Wellesley
+											mother=100098545	# Emma Nethercott
+											2009.01.01={birth=yes}
+										}
+								100063705={ # 2h) Elizabeth (b.London 26 Dec 1918); m.London 18 Nov 1939 (div 1960) Thomas Clyde (b.London 1917)
+									name=Elizabeth
+									female=yes
+									dynasty=1009027
+									religion=anglican culture=english
+									father=100063682	# Gerald Wellesley
+									mother=100098535	# Dorothy Violet Ashton
+									1918.12.26={birth=yes}  # London
+									1993.01.01={death=yes}
+								}
+							100063706={ # 5g) Eileen (Windsor 13 Feb 1887-31 Oct 1952); m.London 11 Sep 1916 Cuthbert Julian Orde (18 Dec 1888-19 Dec 1968)
+								name=Eileen
+								female=yes
+								dynasty=1009027
+								religion=anglican culture=english
+								father=100063674	# Arthur Wellesley
+								mother=100098528	# Kathleen Emily Bulkeley Williams
+								1887.02.13={birth=yes}  # Windsor
+								1952.10.31={death=yes}
+							}
+							100063707={ # 6g) George (Windsor 29 Jul 1889-31 Jul 1967); m.1st New York 12 Mar 1917 Louise Nesta Pamela FitzGerald, (1889-1946); m.2nd 25 Nov 1955 Jean McGillivray
+								name=George
+								dynasty=1009027
+								religion=anglican culture=english
+								father=100063674	# Arthur Wellesley
+								mother=100098528	# Kathleen Emily Bulkeley Williams
+								1889.07.29={birth=yes}  # Windsor
+								1917.03.12={add_spouse=100098532}	# Louise Nesta FitzGerald
+								1955.11.25={add_spouse=100098549}	# Jean McGillivray
+								1967.07.31={death=yes}
+							}
+								100063708={ # 1h) Richard (Hempstead, Long Island, New York 22 Jun 1920-1984); m.1st Buckland Faringdon 30 Apr 1948 (div 1970) Ruth Haig-Thomas (1924-17 Jul 2008); m.2nd 1970 Jill Burton
+									name=Richard
+									dynasty=1009027
+									religion=anglican culture=english
+									father=100063707	# George Wellesley
+									mother=100098532	# Louise Nesta FitzGerald
+									1920.06.22={birth=yes}  # Hempstead Long Island New York
+									1948.04.30={add_spouse=100098550}	# Ruth Haig-Thomas
+									1970.01.01={remove_spouse=100098550}
+									1970.02.01={add_spouse=100098551}	# Jill Burton
+									1984.01.01={death=yes}
+								}
+									100063709={ # 1i) Nesta (b.Buckland 27 Feb 1951); m.5 Sep 1985 Richard Sidney Hawes
+										name=Nesta
+										female=yes
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063708	# Richard Wellesley
+										mother=100098550	# Ruth Haig-Thomas
+										1951.02.27={birth=yes}  # Buckland
+									}
+									100063710={ # 2i) Lucy (b.Buckland 15 May 1953); m.26 Jan 1991 Charles Robert Collin
+										name=Lucy
+										female=yes
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063708	# Richard Wellesley
+										mother=100098550	# Ruth Haig-Thomas
+										1953.05.15={birth=yes}  # Buckland
+									}
+									100063711={ # 3i) Charles (21 Oct 1955-18 Mar 2009); m.1981 Louise Charlotte Buxton
+										name=Charles
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063708	# Richard Wellesley
+										mother=100098550	# Ruth Haig-Thomas
+										1955.10.21={birth=yes}
+										1981.01.01={add_spouse=100098554}	# Louise Charlotte Buxton
+										2009.03.18={death=yes}
+									}
+										100063712={ # 1j) Rosanna (b.12 Oct 1989)
+											name=Rosanna
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063711	# Charles Wellesley
+											mother=100098554	# Louise Charlotte Buxton
+											1989.10.12={birth=yes}
+										}
+										100063713={ # 2j) Charlotte (b.15 Oct 1992)
+											name=Charlotte
+											female=yes
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063711	# Charles Wellesley
+											mother=100098554	# Louise Charlotte Buxton
+											1992.10.15={birth=yes}
+										}
+									100063714={ # 4i) John (25 Jan 1962-29 Aug 2009); m.1994 Sarah Catriona Grantham Duncan
+										name=John
+										dynasty=1009027
+										religion=anglican culture=english
+										father=100063708	# Richard Wellesley
+										mother=100098550	# Ruth Haig-Thomas
+										1962.01.25={birth=yes}
+										1994.01.01={add_spouse=100098555}	# Sarah Catriona Grantham Duncan
+										2009.08.29={death=yes}
+									}
+										100063715={ # 1j) Thomas Richard Henry (b.2000)
+											name=Thomas
+											dynasty=1009027
+											religion=anglican culture=english
+											father=100063714	# John Wellesley
+											mother=100098555	# Sarah Catriona Grantham Duncan
+											2000.01.01={birth=yes}
+										}
+						100063716={ # 5f) Mary Angela (Apsley House 21 Oct 1850-26 Apr 1936); m.London 7 Sep 1875 George Arthur Jervoise Scott, of Rotherfield Park (2 Nov 1833-4 Mar 1895)
+							name="Mary Angela"
+							female=yes
+							dynasty=1009027
+							religion=anglican culture=english
+							father=100063671	# Charles Wellesley
+							mother=100098525	# Augusta Sophia Pierrepont
+							1850.10.21={birth=yes}  # Apsley House
+							1936.04.26={death=yes}
+						}
+						100063717={ # 6f) Georgina (d.3 Feb 1880); m.22 Jul 1874 William Rolle Malcolm (10 Jan 1840-3 Feb 1923)
+							name=Georgina
+							female=yes
+							dynasty=1009027
+							religion=anglican culture=english
+							father=100063671	# Charles Wellesley
+							mother=100098525	# Augusta Sophia Pierrepont
+							1852.01.01={birth=yes}  # EST.
+							1880.02.03={death=yes}
+						}
+
+#######
+100098461={ # Sir        William                   Abdy                                     (1779-1868)     0
+	name="William Abdy"
+	dynasty=0
+	religion=anglican culture=english
+	1779.01.01={birth=yes}
+	1806.07.08={add_spouse=100063660}	# Anne  Wellesley Wellesley
+	1816.01.01={remove_spouse=100063660}
+	1868.04.16={death=yes}
+}
+100098500={ # Hon.       Charles                   Bagot                                    (1781-1843)     0
+	name="Charles Bagot"
+	dynasty=0
+	religion=anglican culture=english
+	1781.01.01={birth=yes}
+	1806.07.22={add_spouse=100063666}	# Mary Wellesley
+	1843.05.19={death=yes}
+}
+100098473={ # Lord       William Charles           Cavendish-Bentinck                       (1780-1826)     0
+	name="William Charles Cavendish-Bentinck"
+	dynasty=0
+	religion=anglican culture=english
+	1780.10.03={birth=yes}
+	1817.07.03={add_spouse=100063660}	# Anne  Wellesley Wellesley
+	1826.04.28={death=yes}
+}
+100098522={ # Earl       John                      Fane of Westmorland                      (1784-1859)     0
+	name="John Fane of Westmorland"
+	dynasty=0
+	religion=anglican culture=english
+	1784.02.01={birth=yes}
+	1811.06.26={add_spouse=100063668}	# Priscilla Anne Wellesley
+	1859.10.16={death=yes}  # Apethorpe
+}
+100098530={ # Hon        Lilian Maud               Glen Coats                               (1885-1946)     0
+	name="Lilian Maud Glen Coats"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1885.02.03={birth=yes}  # Belleisle
+	1946.05.03={death=yes}  # Orford Hall Ham Richmond
+}
+100098534={ # Hon        Denis                     Gomer Berry                              (1911-1983)     0
+	name="Denis Gomer Berry"
+	dynasty=0
+	religion=anglican culture=english
+	1911.07.11={birth=yes}  # London
+	1947.07.24={add_spouse=100063680}	# Pamela Wellesley
+	1983.01.01={death=yes}
+}
+100084297={ # Lady       Mary                      Hamilton                                 (1699-1774)     0
+	name="Mary Hamilton"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1699.01.01={birth=yes}
+	1774.01.01={death=yes}
+}
+100098524={ # Lady       Elizabeth                 Hay                                      (1820-1904)     0
+	name="Elizabeth Hay"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1820.09.27={birth=yes}  # Yester
+	1904.08.13={death=yes}  # Bearhill Park Walton-on-Thames
+}
+100096613={ # Hon.       Anne                      Hill                                     (1742-1831)     0
+	name="Anne Hill"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1742.06.23={birth=yes}
+	1831.09.10={death=yes}
+}
+100098529={ # Hon.       Robert James              James                                    (1873-1960)     0
+	name="Robert James James"
+	dynasty=0
+	religion=anglican culture=english
+	1873.05.13={birth=yes}
+	1900.06.18={add_spouse=100063675}	# Evelyn Kathleen Wellesley
+	1960.12.13={death=yes}
+}
+100098475={ # Lord       Edward John               Littleton Hatherton                      (1791-1863)     0
+	name="Edward John Littleton Hatherton"
+	dynasty=0
+	religion=anglican culture=english
+	1791.03.18={birth=yes}  # London
+	1812.12.21={add_spouse=100063661}	# Hyacinthe Wellesley
+	1863.05.04={death=yes}  # Teddesley Park
+}
+100098539={ # Hon.       Orlando William           Montagu                                  (1971-    )     0
+	name="Orlando William Montagu"
+	dynasty=0
+	religion=anglican culture=english
+	1971.01.16={birth=yes}
+	2004.07.03={add_spouse=100063689}	# Honor Victoria Wellesley
+}
+100098523={ # Hon.       Catherine Sarah           Pakenham                                 (1772-1831)     0
+	name="Catherine Sarah Pakenham"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1772.01.01={birth=yes}
+	1831.04.24={death=yes}  # Apsley House
+}
+100084679={ # Viscount   Arthur                    Pomeroy Harberton                        (1723-1798)     0
+	name="Arthur Pomeroy Harberton"
+	dynasty=0
+	religion=anglican culture=english
+	1723.01.16={birth=yes}  # Cork
+	1747.10.20={add_spouse=100063654}	# Mary Wellesley
+	1798.04.09={death=yes}  # Dublin
+}
+100098531={ # Hon        David Reginald            Rhys                                     (1907-1991)     0
+	name="David Reginald Rhys"
+	dynasty=0
+	religion=anglican culture=english
+	1907.03.18={birth=yes}
+	1933.03.23={add_spouse=100063677}	# Anne Maud Wellesley
+	1963.01.01={remove_spouse=100063677}
+	1991.01.01={death=yes}
+}
+100098527={ # Lord       Ion                       Trant Hamilton Holmpatrick               (1839-1898)     0
+	name="Ion Trant Hamilton Holmpatrick"
+	dynasty=0
+	religion=anglican culture=english
+	1839.07.14={birth=yes}
+	1877.09.06={add_spouse=100063673}	# Victoria Alexandrina Wellesley
+	1898.03.06={death=yes}  # Abbotstown House
+}
+100098535={ #            Dorothy Violet            Ashton                                   (1885-1956)     0
+	name="Dorothy Violet Ashton"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1885.08.21={birth=yes}  # Maidenhead
+	1956.07.11={death=yes}  # Penns-in-the-Rocks Withyham Sussex
+}
+100098543={ #            James                     Blunt                                    (1974-    )     0
+	name="James Blunt"
+	dynasty=0
+	religion=anglican culture=english
+	1974.02.22={birth=yes}
+	2014.09.06={add_spouse=100063699}	# Alexandrina Sofia Wellesley
+}
+100082849={ #            Sarah                     Boswell                                  (1719-1794)     0
+	name="Sarah Boswell"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1719.01.01={birth=yes}  # dsp
+	1794.01.01={death=yes}
+}
+100098528={ #            Kathleen Emily            Bulkeley Williams                        (1848-1927)     0
+	name="Kathleen Emily Bulkeley Williams"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1848.06.13={birth=yes}  # Beaumaris
+	1927.06.24={death=yes}  # Apsley House
+}
+100098551={ #            Jill                      Burton                                   (1950-    )     0
+	name="Jill Burton"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1950.01.01={birth=yes}
+}
+100098554={ #            Louise Charlotte          Buxton                                   (1961-    )     0
+	name="Louise Charlotte Buxton"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1961.01.01={birth=yes}
+}
+100098459={ #            Marianne                  Caton                                    (1805-1853)     0
+	name="Marianne Caton"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1805.01.01={birth=yes}
+	1853.12.17={death=yes}  # Hampton Court Palace
+}
+100098546={ #            Thomas                    Clyde                                    (1917-1992)     0
+	name="Thomas Clyde"
+	dynasty=0
+	religion=anglican culture=english
+	1917.01.01={birth=yes}  # London
+	1939.11.18={add_spouse=100063705}	# Elizabeth Wellesley
+	1960.01.01={remove_spouse=100063705}
+	1992.01.01={death=yes}
+}
+100098553={ #            Charles Robert            Collin                                   (1966-    )     0
+	name="Charles Robert Collin"
+	dynasty=0
+	religion=anglican culture=english
+	1966.01.01={birth=yes}
+	1991.01.26={add_spouse=100063710}	# Lucy Wellesley
+}
+100098532={ #            Louise Nesta              FitzGerald                               (1889-1946)     0
+	name="Louise Nesta FitzGerald"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1889.01.08={birth=yes}  # London
+	1946.02.21={death=yes}
+}
+100098484={ #            Katherine Elizabeth       Forbes                                   (1764-1851)     0
+	name="Katherine Elizabeth Forbes"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1764.01.01={birth=yes}
+	1851.10.23={death=yes}  # London
+}
+100098533={ #            Charles Robert            Grant                                    (1903-1972)     0
+	name="Charles Robert Grant"
+	dynasty=0
+	religion=anglican culture=english
+	1903.12.29={birth=yes}
+	1933.06.12={add_spouse=100063680}	# Pamela Wellesley
+	1943.01.01={remove_spouse=100063680}
+	1972.01.21={death=yes}
+}
+100098555={ #            Sarah Catriona            Grantham Duncan                          (1974-    )     0
+	name="Sarah Catriona Grantham Duncan"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1974.01.01={birth=yes}
+}
+100098550={ #            Ruth                      Haig-Thomas                              (1924-2008)     0
+	name="Ruth Haig-Thomas"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1924.01.01={birth=yes}
+	2008.07.17={death=yes}
+}
+100098541={ #            C. Tom                    Halliday                                 (1982-    )     0
+	name="C. Tom Halliday"
+	dynasty=0
+	religion=anglican culture=english
+	1982.01.01={birth=yes}
+	2007.10.20={add_spouse=100063694}	# Natasha  Doone Wellesley
+}
+100098552={ #            Richard Sidney            Hawes                                    (1960-    )     0
+	name="Richard Sidney Hawes"
+	dynasty=0
+	religion=anglican culture=english
+	1960.01.01={birth=yes}
+	1985.09.05={add_spouse=100063709}	# Nesta Wellesley
+}
+100098556={ #            George Arthur             Jervoise of Rotherfield Park             (1833-1895)     0
+	name="George Arthur Jervoise of Rotherfield Park"
+	dynasty=0
+	religion=anglican culture=english
+	1833.11.02={birth=yes}
+	1875.09.07={add_spouse=100063716}	# Mary Angela Wellesley
+	1895.03.04={death=yes}
+}
+100098538={ #            Jemma Madeleine           Kidd                                     (1974-    )     0
+	name="Jemma Madeleine Kidd"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1974.09.20={birth=yes}  # Guildford
+}
+100098536={ #            Diana Ruth                McConnel                                 (1922-2010)     0
+	name="Diana Ruth McConnel"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1922.01.14={birth=yes}
+	2010.11.01={death=yes}
+}
+100098549={ #            Jean                      McGillivray                              (1935-    )     0
+	name="Jean McGillivray"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1935.01.01={birth=yes}
+	2012.01.01={death=yes}  # EST.
+}
+100098545={ #            Emma                      Nethercott                               (1985-    )     0
+	name="Emma Nethercott"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1985.01.01={birth=yes}
+}
+100098547={ #            Cuthbert Julian           Orde                                     (1888-1968)     0
+	name="Cuthbert Julian Orde"
+	dynasty=0
+	religion=anglican culture=english
+	1888.12.18={birth=yes}
+	1916.09.11={add_spouse=100063706}	# Eileen Wellesley
+	1968.12.19={death=yes}
+}
+100098498={ #            Helena                    Paterson                                 (1808-1869)     0
+	name="Helena Paterson"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1808.01.01={birth=yes}
+	1869.04.07={death=yes}
+}
+100098525={ #            Augusta Sophia            Pierrepont                               (1820-1893)     0
+	name="Augusta Sophia Pierrepont"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1820.05.30={birth=yes}
+	1893.07.13={death=yes}  # London
+}
+100098158={ #            Hyacinthe Gabrielle       Roland                                   (1774-1816)     0
+	name="Hyacinthe Gabrielle Roland"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1774.01.01={birth=yes}
+	1816.11.07={death=yes}
+}
+100098557={ #            William                   Rolle Malcolm                            (1840-1923)     0
+	name="William Rolle Malcolm"
+	dynasty=0
+	religion=anglican culture=english
+	1840.01.10={birth=yes}
+	1874.07.22={add_spouse=100063717}	# Georgina Wellesley
+	1923.02.03={death=yes}
+}
+100086226={ #            Elizabeth                 Sale                                     (1699-1738)     0
+	name="Elizabeth Sale"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1699.01.01={birth=yes}
+	1738.06.17={death=yes}
+}
+100098540={ #            Joanna Marion             Sumner                                   (1953-    )     0
+	name="Joanna Marion Sumner"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1953.01.01={birth=yes}
+}
+100098485={ #            Catherine                 Tylney-Long                              (1789-1825)     0
+	name="Catherine Tylney-Long"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1789.10.02={birth=yes}
+	1825.09.12={death=yes}  # Richmond
+}
+100082848={ #            Mary                      Usher                                    (1648-1723)     0
+	name="Mary Usher"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1648.01.01={birth=yes}
+	1723.01.01={death=yes}
+}
+100098542={ #            Corinne                   Vaes                                     (1957-    )     0
+	name="Corinne Vaes"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1957.01.01={birth=yes}
+}
+100082847={ #            Anne                      Warren                                   (1626-1701)     0
+	name="Anne Warren"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1626.01.01={birth=yes}
+	1701.01.01={death=yes}
+}
+100098544={ #            Laura Elizabeth           Wedge                                    (1974-    )     0
+	name="Laura Elizabeth Wedge"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1974.01.01={birth=yes}
+}
+100098526={ #            Evelyn Katrine            Williams                                 (1855-1939)     0
+	name="Evelyn Katrine Williams"
+	female=yes
+	dynasty=0
+	religion=anglican culture=english
+	1855.01.01={birth=yes}
+	1939.03.11={death=yes}  # West Green House Hartley Wintney Hants
+}
+####### 100063718
+#1651.01.01={holder=100063651} # Dudley Colley
+#1674.07.01={holder=100063652} # 1a) Henry
+#1700.01.01={holder=100063653} # 1b) Henry
+#1723.01.01={holder=100063655} # 2b) Richard
+#1758.01.31={holder=100063658} # 3c) Garret
+#1781.05.22={holder=100063659} # 1d) Richard
+#1842.09.26={holder=100063662} # 2d) William
+#1845.02.22={holder=100063663} # 1e) William
+#1857.07.01={holder=100063664} # 1f) William Richard Arthur
+##  100063650-100063xxx		Wellington                                  1009027
+
+
+##  100063475-100063628		Innes-Ker           ROXBURGHE               1009019
 100063476={ # William Ker, of Cessford (d.Feb 1600), m.ca 1564 Janet Douglas
 	name="William Ker"
 	dynasty=1009019
@@ -1397,7 +2430,7 @@
 			father=100062303	# Francis Russell
 			mother=100086693	# LADY Elizabeth Keppel
 			1766.07.06={birth=yes}
-			1786.03.21={add_spouse=100081115}	# Georgiana Elizabeth Byng
+			1786.03.21={add_spouse=100081115}	# HON. Georgiana Elizabeth Byng
 			1803.06.23={add_spouse=100084325}	# LADY Georgiana Gordon
 			1839.10.20={death=yes}
 		}
@@ -1406,7 +2439,7 @@
 				dynasty=1009017
 				religion=anglican culture=english
 				father=100062305	# John Russell
-				mother=100081115	# Georgiana Elizabeth Byng
+				mother=100081115	# HON. Georgiana Elizabeth Byng
 				1788.05.13={birth=yes}
 				1808.08.08={add_spouse=100090508}	# LADY Anna Maria Stanhope
 				1861.05.14={death=yes}
@@ -1425,7 +2458,7 @@
 				dynasty=1009017
 				religion=anglican culture=english
 				father=100062305	# John Russell
-				mother=100081115	# Georgiana Elizabeth Byng
+				mother=100081115	# HON. Georgiana Elizabeth Byng
 				1790.05.08={birth=yes}
 				1817.06.21={add_spouse=100089392}	# Elizabeth Anne Rawdon
 				1846.07.16={death=yes}
@@ -1874,7 +2907,7 @@
 								religion=anglican culture=english
 								father=100062352	# Martin Basil Russell
 								mother=100090750	# Anne Swinton Lee
-								1962.01.01={birth=yes}
+								1962.08.18={birth=yes}
 							}
 						100062357={	# 2f) Raymond Anthony (27 May 1922-17 Mar 1964)
 							name="Raymond Anthony"
@@ -2508,7 +3541,7 @@
 							1912.09.29={birth=yes}
 							1996.01.01={death=yes}
 						}
-					100062425={	# 5e) Alexander Victor Frederick Villiers (Potsdam 27 Jun 1874-3 Jan 1965); m.WellingtonBarracks 11 Feb 1909 Marjorie Gladys Guinness (d.28 Apr 1949)
+					100062425={	# 5e) Alexander Victor Frederick Villiers (Potsdam 27 Jun 1874-3 Jan 1965); m.Wellington Barracks 11 Feb 1909 Marjorie Gladys Guinness (d.28 Apr 1949)
 						name="Alexander Victor"
 						dynasty=1009017
 						religion=anglican culture=english
@@ -2676,7 +3709,7 @@
 				dynasty=1009017
 				religion=anglican culture=english
 				father=100062305	# John Russell
-				mother=100081115	# Georgiana Elizabeth Byng
+				mother=100081115	# HON. Georgiana Elizabeth Byng
 				1792.08.18={birth=yes}
 				1835.04.11={add_spouse=100087440}	# LADY Adelaide Lister
 				1841.07.20={add_spouse=100083649}	# LADY Frances Elliot
@@ -6721,7 +7754,7 @@
 								father=100061660	# Robert Grosvenor
 								mother=100083618	# LADY Eleanor Egerton
 								1801.04.24={birth=yes}
-								1831.05.17={add_spouse=100080207}	# Charlotte Arbuthnot Wellesley
+								1831.05.17={add_spouse=100080207}	# HON. Charlotte Arbuthnot Wellesley
 								1893.11.18={death=yes}
 							}
 								100061729={	# 1h) Robert Wellesley, 2nd Lord Ebury (25 Jan 1834-13 Nov 1918); m.20 Jul 1867 Emilie Beaujolais White (d.18 Dec 1923)
@@ -6729,7 +7762,7 @@
 									dynasty=1009014
 									religion=anglican culture=english
 									father=100061728	# Robert Grosvenor
-									mother=100080207	# Charlotte Arbuthnot Wellesley
+									mother=100080207	# HON. Charlotte Arbuthnot Wellesley
 									1834.01.25={birth=yes}
 									1867.07.20={add_spouse=100080491}	# Emilie Beaujolais White
 									1918.11.13={death=yes}
@@ -7002,7 +8035,7 @@
 									dynasty=1009014
 									religion=anglican culture=english
 									father=100061728	# Robert Grosvenor
-									mother=100080207	# Charlotte Arbuthnot Wellesley
+									mother=100080207	# HON. Charlotte Arbuthnot Wellesley
 									1842.02.06={birth=yes}
 									1877.04.24={add_spouse=100093807}	# Sophie Williams
 									1886.10.08={death=yes}
@@ -7012,7 +8045,7 @@
 									dynasty=1009014
 									religion=anglican culture=english
 									father=100061728	# Robert Grosvenor
-									mother=100080207	# Charlotte Arbuthnot Wellesley
+									mother=100080207	# HON. Charlotte Arbuthnot Wellesley
 									1845.04.22={birth=yes}
 									1881.06.25={add_spouse=100090688}	# Caroline Susan Stuart-Wortley
 									1898.11.21={death=yes}
@@ -7042,7 +8075,7 @@
 									dynasty=1009014
 									religion=anglican culture=english
 									father=100061728	# Robert Grosvenor
-									mother=100080207	# Charlotte Arbuthnot Wellesley
+									mother=100080207	# HON. Charlotte Arbuthnot Wellesley
 									1846.07.02={birth=yes}
 									1887.10.25={add_spouse=100090268}	# Catharine Dorothea Simeon
 									1907.03.27={death=yes}
@@ -7062,7 +8095,7 @@
 									dynasty=1009014
 									religion=anglican culture=english
 									father=100061728	# Robert Grosvenor
-									mother=100080207	# Charlotte Arbuthnot Wellesley
+									mother=100080207	# HON. Charlotte Arbuthnot Wellesley
 									1848.01.07={birth=yes}
 									1898.11.01={add_spouse=100081526}	# Jessie Amelia Clarke
 									1919.10.28={death=yes}
@@ -15225,21 +16258,21 @@
 				1942.09.24={death=yes}
 			}
 	100063198={# 13a) Fitzroy James Henry, cr 1852 Baron Raglan, of Raglan (Badminton 30 Sep 1788-Sebastopol 28 Jun 1855); m.London 6 Aug 1814 Lady Emily Wellesley (13 Mar 1792-London 6 Mar 1881)
-		name="Fitzroy James"
+		name=Fitzroy
 		dynasty=1009009
 		religion=anglican culture=english
 		father=100062850	# Henry Somerset
 		mother=100080828	# Elizabeth Boscawen
 		1788.09.30={birth=yes}
-		1814.08.06={add_spouse=100093700}	# LADY Emily Wellesley
+		1814.03.13={add_spouse=100063667}	# Emily Wellesley
 		1855.06.28={death=yes}
 	}
 		100063200={# 2b) Arthur William Fitzroy (Paris 6 May 1816-d.24 Dec 1845 of wounds received in action at Ferozeshah 21 Dec 1845); m.Calcutta 8 Jul 1845 Emilie Marie Luise Frn von Baumbach (d.25 Dec 1865)
 			name="Arthur William"
 			dynasty=1009009
 			religion=anglican culture=english
-			father=100063198	# Fitzroy James Somerset
-			mother=100093700	# LADY Emily Wellesley
+			father=100063198	# Fitzroy Somerset
+			mother=100063667	# Emily Wellesley
 			1816.05.06={birth=yes}
 			1845.07.08={add_spouse=100091606}	# FRN Emilie Marie von Baumbach
 			1845.12.21={death=yes}
@@ -15248,8 +16281,8 @@
 			name="Richard Henry"
 			dynasty=1009009
 			religion=anglican culture=english
-			father=100063198	# Fitzroy James Somerset
-			mother=100093700	# LADY Emily Wellesley
+			father=100063198	# Fitzroy Somerset
+			mother=100063667	# Emily Wellesley
 			1817.05.24={birth=yes}
 			1856.09.25={add_spouse=100087606}	# LADY Georgiana Lygon
 			1871.10.11={add_spouse=100083789}	# Mary Blanche Farquhar
@@ -19784,7 +20817,6 @@
 								father=100062583	# Henry Seymour
 								mother=100080674	# Susannah Biscoe Tritton
 								1868.03.18={birth=yes}
-								1896.12.29={add_spouse=100093699}	# Louis Herbert Wellesley
 								1905.07.05={death=yes}
 							}
 				100062593={# 3d) Mary (1753); m.1st Sep 1773 John Hyde, Dean of Wells; m.2d 4 Feb 1798 Rev. John Payne
@@ -22696,7 +23728,7 @@
 			1873.04.05={death=yes}
 		}
 			100060369={# 1c) Elizabeth Georgiana Harriet (1815-3 Jan 1892); m.1st 3 Feb 1837 William Bernard Harcourt (d.25 May 1846); m.2d 30 Jun 1852 James Crauford (d.24 Mar 1888)
-				name="Elizabeth Georgiana"
+				name=Harriet
 				female=yes
 				dynasty=1009005
 				religion=anglican culture=english

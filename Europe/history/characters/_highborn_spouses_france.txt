@@ -123,7 +123,7 @@
 	1891.12.21={death=yes}  # Liège
 }
 
-#[CLERMONT, ROHAN, GRAMONT, MERODE, BROGLIE, CROY, ZAMOYSKI, LANNOY, ROCHEFOUCAULD, HARCOURT]
+#[CLERMONT, ROHAN, GRAMONT, MERODE, BROGLIE, CROY, ZAMOYSKI, LANNOY, ROCHECHOUART, ROCHEFOUCAULD, HARCOURT]
 100082224={ #            Charlotte                 de Clermont                              (1568-1648)     0
 	name="Charlotte de Clermont"
 	female=yes
@@ -213,6 +213,14 @@
 	1949.03.30={remove_spouse=100067562}
 	1993.01.01={death=yes}	# EST.
 }
+100098470={ # Cte        Gilles                    de Clermont-Tonnerre                     (1958-    )     0
+	name="Gilles de Clermont-Tonnerre"
+	dynasty=0
+	religion=catholic culture=frankish
+	1958.06.18={birth=yes}  # Neuilly
+	1980.09.20={add_spouse=100068891}	# Patricia-Aude de Rochechouart-Mortemart
+	1993.02.09={remove_spouse=100068891}
+}
 100082229={ # Comte      Stanislas                 de Clermont-Tonnerre                     (1967-    )     0
 	name="Stanislas de Clermont-Tonnerre"
 	dynasty=0
@@ -243,6 +251,14 @@
 	religion=catholic culture=frankish
 	1580.01.01={birth=yes}
 	1617.01.01={death=yes}
+}
+100082062={ # Duc        François Armand           de Gontaut-Biron                         (1690-1736)     0
+	name="François Armand de Gontaut-Biron"
+	dynasty=0
+	religion=catholic culture=frankish
+	1690.01.01={birth=yes}
+	1715.12.30={add_spouse=100065629}	# Marie Adélaide de Gramont
+	1736.01.28={death=yes}
 }
 100082349={ #            Geneviève                 de Gontaut-Biron                         (1696-1756)     3
 	name="Geneviève de Gontaut-Biron"
@@ -350,111 +366,7 @@
 	2005.01.01={death=yes}  # EST.
 }
 
-#[BORGHESE, CRUSSOL, MERODE, GRAMONT, RIQUET, CROY, NOAILLES, ROCHEFOUCAULD, HARCOURT]
-100082843={ #            Louis                     de Rochechouart                          (1554-1590)     0
-	name="Louis de Rochechouart"
-	dynasty=0
-	religion=catholic culture=frankish
-	1554.01.01={birth=yes}
-	1579.01.01={add_spouse=100067151}	# Marie Sylvie de La Rochefoucauld
-	1590.03.17={death=yes}
-}
-100082841={ #            Alice Victurnienne        de Rochechouart                          (1800-1887)     3
-	name="Alice Victurnienne de Rochechouart"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1800.07.10={birth=yes}
-	1887.11.12={death=yes}
-}
-100082844={ # Cte        Henri                     de Rochechouart                          (1806-1835)     0
-	name="Henri de Rochechouart"
-	dynasty=0
-	religion=catholic culture=frankish
-	1806.02.27={birth=yes}
-	1832.01.23={add_spouse=100070529}	# Maria Luisa Borghese
-	1835.10.17={death=yes}
-}
-100082842={ #            Marie Adrienne            de Rochechouart                          (1847-1933)     4
-	name="Marie Adrienne de Rochechouart"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1847.02.10={birth=yes}
-	1933.02.03={death=yes}
-}
-100068204={ # Cte        René Louis                de Rochechouart                          (1941-    )     0
-	name="René Louis de Rochechouart"
-	dynasty=0
-	religion=catholic culture=frankish
-	1941.02.06={birth=yes}  # Saint_Vrain 2 Mar 1867_Saint_Vrain
-	1891.06.20={add_spouse=100068203}	# Elisabeth de Riquet de Caraman
-}
-100097832={ # Cte        Antoine                   de Rochechouart                          (1964-    )     0
-	name="Antoine de Rochechouart"
-	dynasty=0
-	religion=catholic culture=frankish
-	1964.05.15={birth=yes}  # Paris
-	1994.01.01={add_spouse=100068512}	# Ariane d'Harcourt
-}
-100098158={ # Duc        Louis Victor              de Rochechouart-Mortemart                (1909-1938)     0
-	name="Louis Victor de Rochechouart de Mortemart"
-	dynasty=0
-	religion=catholic culture=frankish
-	1909.03.13={birth=yes}  # Paris
-	1932.10.21={add_spouse=100068733}	# Solange d'Harcourt
-	1938.05.28={death=yes}  # Paris
-}
-100082846={ #            Anne-Victurnienne         de Rochechouart-Mortemart                (1773-1806)     4
-	name="Anne-Victurnienne de Rochechouart-Mortemart"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1773.05.07={birth=yes}
-	1806.07.10={death=yes}
-}
-100082845={ #            Catherine Victurnienne    de Rochechouart-Mortemart                (1776-1809)     2
-	name="Catherine Victurnienne de Rochechouart-Mortemart"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1776.06.04={birth=yes}
-	1809.07.15={death=yes}
-}
-100094188={ #            Léonie                    de Rochechouart-Mortemart                (1833-1921)     3
-	name="Léonie de Rochechouart-Mortemart"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1833.12.05={birth=yes}  # Paris
-	1921.10.21={death=yes}  # Brussels
-}
-100082848={ #            Anne Antoinette           de Rochechouart-Mortemart                (1860-1943)     4
-	name="Anne Antoinette de Rochechouart-Mortemart"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1860.05.24={birth=yes}  # Saint_Vrain
-	1943.12.28={death=yes}  # Paris
-}
-100082849={ #            Jeanne                    de Rochechouart-Mortemart                (1864-1924)     5
-	name="Jeanne de Rochechouart-Mortemart"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1864.01.08={birth=yes}  # Saint_Vrain
-	1924.07.08={death=yes}  # Paris
-}
-100082847={ #            Antoinette                de Rochechouart-Mortemart                (1893-1972)     0
-	name="Antoinette de Rochechouart-Mortemart"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1893.07.29={birth=yes}
-	1972.09.10={death=yes}
-}
-
-#[GRIMALDI, CLERMONT, BROGLIE, CROY, URSEL, COSSE, HARCOURT, ROCHEFOUCAULD, WITTELSBACH]
+#[GRIMALDI, CLERMONT, BROGLIE, CROY, ROCHECHOUART, URSEL, COSSE, HARCOURT, ROCHEFOUCAULD, WITTELSBACH]
 100082481={ # Vcts       Anne-Victoire             de La Tour Deymène du Jonca              (1958-    )     4
 	name="Anne-Victoire de La Tour Deymène du Jonca"
 	female=yes
@@ -478,7 +390,7 @@
 	1864.04.15={add_spouse=100068516}	# Jeanne d'Harcourt
 	1885.07.04={death=yes}
 }
-100082483={ # Cte        Aymar-Chambly             de La Tour du Pin-Chambly                (1906-1979)     0
+100082483={ # Cte        Aymar                     de La Tour du Pin-Chambly                (1906-1979)     0
 	name="Aymar-Chambly de La Tour du Pin-Chambly"
 	dynasty=0
 	religion=catholic culture=frankish
@@ -501,6 +413,14 @@
 	1914.07.01={birth=yes}
 	1945.01.25={add_spouse=100065511}	# Marie Henriette de Cossé-Brissac
 	2000.07.29={death=yes}
+}
+100098472={ # Marquis    Humbert Henri             de La Tour du Pin Chambly de la Charce   (1934-1972)     0
+	name="Humbert Henri de La Tour du Pin Chambly de La Charce"
+	dynasty=0
+	religion=catholic culture=frankish
+	1934.10.19={birth=yes}  # Boulogne-Billancourt
+	1961.10.25={add_spouse=100068892}	# Gabrielle de Rochechouart-Mortemart
+	1972.06.16={death=yes}  # Vierzy
 }
 100082486={ # Marquis    Humbert                   de La Tour du Pin-Gouvernet              (1855-1943)     0
 	name="Humbert de La Tour du Pin-Gouvernet"
@@ -551,85 +471,7 @@
 	1955.10.31={death=yes}
 }
 
-#[BROGLIE, URSEL, MURAT, ORLEAES, NOAILLES, ROCHEFOUCAULD, HARCOURT]
-100082734={ # Baron      Paul                      de Nicolay                               (1786-1866)     0
-	name="Paul de Nicolay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1786.01.01={birth=yes}
-	1811.02.28={add_spouse=100065289}	# Alexandrine de Broglie
-	1866.01.01={death=yes}
-}
-100082738={ # Cte        Aymard                    de Nicolay                               (1818-1893)     0
-	name="Aymard de Nicolay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1818.06.15={birth=yes}
-	1893.06.16={death=yes}
-}
-100082739={ # Cte        Charles Henri             de Nicolay                               (1898-1988)     0
-	name="Charles Henri de Nicolay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1898.04.07={birth=yes}
-	1949.05.10={add_spouse=100065208}	# Marie Caroline de Broglie
-	1988.11.29={death=yes}
-}
-100082735={ # Cte        René                      de Nicolay                               (1910-1954)     0
-	name="René de Nicolay"
-	dynasty=0
-	religion=catholic culture=portuguese
-	1910.01.17={birth=yes}
-	1948.08.12={add_spouse=100033627}	# Pia Maria de Orleães-Bragança
-	1954.11.25={death=yes}
-}
-100082741={ #            Madeleine                 de Nicolay                               (1921-1997)     3
-	name="Madeleine de Nicolay"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1921.04.08={birth=yes}
-	1997.01.01={death=yes}  # EST.
-}
-100098135={ # Cte        Gilbert                   de Nicolay                               (1927-2004)     0
-	name="Gilbert de Nicolay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1927.01.01={birth=yes}  # Paris
-	1956.02.04={add_spouse=100068692}	# Bernadette d'Harcourt
-	2004.01.01={death=yes}  # EST.
-}
-100098129={ #            Henriette                 de Nicolay                               (1933-2010)     4
-	name="Henriette de Nicolay"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1933.07.26={birth=yes}
-	2010.01.01={death=yes}  # EST.
-}
-100082737={ # Cte        Louis-Jean Marie          de Nicolay                               (1949-    )     0
-	name="Louis-Jean Marie de Nicolay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1949.09.18={birth=yes}
-	1980.08.23={add_spouse=100067940}	# Barbara Marie d’Ursel
-}
-100082740={ # Cte        Robert Pie                de Nicolay                               (1952-    )     0
-	name="Robert Pie de Nicolay"
-	dynasty=0
-	religion=catholic culture=frankish
-	1952.02.17={birth=yes}
-	1983.02.04={add_spouse=100066374}	# Nathalie Laetitia Murat
-}
-100094176={ #            Hélène                    de Nicolay                               (1962-    )     3
-	name="Hélène de Nicolay"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1962.01.01={birth=yes}
-}
-
-#[GRIMALDI, HESSEN, LORRAINE, WURTTEMBERG, THURN, BADEN]
+#[GRIMALDI, HESSEN, LORRAINE, ROCHECHOUART, WURTTEMBERG, NOAILLES, THURN, BADEN]
 100082564={ #            Alberade                  de Lorraine                              (0850-0925)     1
 	name="Alberade de Lorraine"
 	female=yes
@@ -670,6 +512,14 @@
 	1635.01.01={birth=yes}
 	1694.01.01={death=yes}
 }
+100081823={ # Cte        Charles                   de Lorraine                              (1684-1751)     0
+	name="Charles de Lorraine"
+	dynasty=0
+	religion=catholic culture=frankish
+	1684.02.22={birth=yes}
+	1717.05.22={add_spouse=100066481}	# Françoise de Noailles
+	1751.12.29={death=yes}
+}
 100082563={ # Cts        Charlotte Louise          de Lorraine                              (1724-1747)     0
 	name="Charlotte Louise de Lorraine"
 	female=yes
@@ -677,6 +527,14 @@
 	religion=catholic culture=frankish
 	1724.07.22={birth=yes}
 	1747.01.06={death=yes}
+}
+100091512={ # Duc        Henri                     de Lorraine d'Elboeuf                    (1652-1748)     0
+	name="Henri de Lorraine d'Elboeuf"
+	dynasty=0
+	religion=catholic culture=frankish
+	1652.01.01={birth=yes}
+	1677.01.28={add_spouse=100068831}	# Anne Charlotte de Rochechouart-Mortemart
+	1748.01.01={death=yes}
 }
 100082567={ #            Marie                     de Lorraine-Armagnac                     (1674-1724)     3
 	name="Marie de Lorraine-Armagnac"
@@ -701,6 +559,203 @@
 	religion=catholic culture=frankish
 	1649.01.01={birth=yes}
 	1714.01.01={death=yes}
+}
+
+#[BROGLIE, ROCHECHOUART, URSEL, MURAT, ORLEAES, NOAILLES, ROCHEFOUCAULD, HARCOURT]
+100097418={ #            Marie Elisabeth           de Nicolay                               (1712-1787)     0
+	name="Marie Elisabeth de Nicolay"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1712.01.01={birth=yes}
+	1787.01.01={death=yes}
+}
+100082734={ # Baron      Paul                      de Nicolay                               (1786-1866)     0
+	name="Paul de Nicolay"
+	dynasty=0
+	religion=catholic culture=frankish
+	1786.01.01={birth=yes}
+	1811.02.28={add_spouse=100065289}	# Alexandrine de Broglie
+	1866.01.01={death=yes}
+}
+100082738={ # Cte        Aymard                    de Nicolay                               (1818-1893)     0
+	name="Aymard de Nicolay"
+	dynasty=0
+	religion=catholic culture=frankish
+	1818.06.15={birth=yes}
+	1849.06.25={add_spouse=100066563}	# Marie Cécile de Noailles
+	1893.06.16={death=yes}
+}
+100082739={ # Cte        Charles Henri             de Nicolay                               (1898-1988)     0
+	name="Charles Henri de Nicolay"
+	dynasty=0
+	religion=catholic culture=frankish
+	1898.04.07={birth=yes}
+	1949.05.10={add_spouse=100065208}	# Marie Caroline de Broglie
+	1988.11.29={death=yes}
+}
+100098129={ #            Henriette                 de Nicolay                               (1933-2010)     4
+	name="Henriette de Nicolay"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1933.07.26={birth=yes}
+	2010.01.01={death=yes}  # EST.
+}
+100094176={ #            Hélène                    de Nicolay                               (1962-    )     3
+	name="Hélène de Nicolay"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1962.01.01={birth=yes}
+}
+
+#[CLERMONT, BORBONE, LORRAINE, ROCHECHOUART, URSEL, COSSE]
+100082089={ #            Antoinette                de Bourbon                               (1493-1583)     0
+	name="Antoinette de Bourbon"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1493.12.25={birth=yes}  # Ham
+	1583.01.22={death=yes}  # Joinville
+}
+100082087={ #            Renée                     de Bourbon                               (1494-1539)     3
+	name="Renée de Bourbon"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1494.01.01={birth=yes}
+	1539.05.26={death=yes}  # Nancy
+}
+100088627={ #            Catherine                 de Bourbon                               (1559-1604)     0
+	name="Catherine de Bourbon"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1559.02.07={birth=yes}  # Paris
+	1604.02.13={death=yes}  # Nancy
+}
+100082088={ # Duc        César                     de Bourbon                               (1584-1665)     0
+	name="César de Bourbon"
+	dynasty=0
+	religion=catholic culture=frankish
+	1584.01.01={birth=yes}
+	1609.07.07={add_spouse=100066107}	# Françoise de Lorraine
+	1665.10.22={death=yes}
+}
+100082085={ #            François Louis            de Bourbon                               (1722-1793)     0
+	name="François Louis de Bourbon"
+	dynasty=0
+	religion=catholic culture=frankish
+	1722.08.26={birth=yes}
+	1743.04.23={add_spouse=100065395}	# Madeleine-Louise de Clermont-Tonnerre
+	1793.01.16={death=yes}
+}
+100082086={ #            Louis                     de Bourbon                               (1856-1920)     0
+	name="Louis de Bourbon"
+	dynasty=0
+	religion=catholic culture=frankish
+	1856.10.24={birth=yes}
+	1884.11.29={add_spouse=100065497}	# Louise de Cossé-Brissac
+	1920.07.04={death=yes}
+}
+100082091={ # Cte        Robert                    de Bourbon-Busset                        (1848-1918)     0
+	name="Robert de Bourbon-Busset"
+	dynasty=0
+	religion=catholic culture=frankish
+	1848.02.26={birth=yes}
+	1882.07.01={add_spouse=100067796}	# Juliette Louise d’Ursel
+	1918.02.03={death=yes}
+}
+100082090={ #            Madeleine                 de Bourbon-Busset                        (1898-1984)     6
+	name="Madeleine de Bourbon-Busset"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1898.03.23={birth=yes}
+	1984.09.01={death=yes}
+}
+100098497={ # Cte        Marie Adrien              de Bourbon-Busset de Lignières           (1902-1989)     0
+	name="Marie Adrien de Bourbon-Busset de Lignières"
+	dynasty=0
+	religion=catholic culture=frankish
+	1902.02.15={birth=yes}  # Paris
+	1944.06.13={add_spouse=100068921}	# Jeanne de Rochechouart-Mortemart
+	1989.01.01={death=yes}  # Paris
+}
+
+#[CROY, LANNOY, ROCHECHOUART, URSEL, NOAILLES, COSSE, HARCOURT]
+100082256={ #            Marie Camille             de Croix                                 (1836-1910)     5
+	name="Marie Camille de Croix"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1836.03.17={birth=yes}
+	1910.07.27={death=yes}
+}
+100082254={ #            Louise                    de Croix                                 (1842-1916)     5
+	name="Louise de Croix"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1842.03.28={birth=yes}
+	1916.05.05={death=yes}
+}
+100082255={ # Cte        René                      de Croix                                 (1876-1950)     0
+	name="René de Croix"
+	dynasty=0
+	religion=catholic culture=frankish
+	1876.04.04={birth=yes}
+	1907.01.22={add_spouse=100000752}	# Alix de Croÿ
+	1950.10.16={death=yes}
+}
+100096070={ #            Amélie Isabelle           de Croix d’Heuchin                       (1737-1806)     0
+	name="Amélie Isabelle de Croix d’Heuchin"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1737.01.01={birth=yes}
+	1806.01.01={death=yes}  # EST.
+}
+100082437={ # Cte        Antoine                   de la Croix                              (1847-1921)     0
+	name="Antoine de la Croix"
+	dynasty=0
+	religion=catholic culture=frankish
+	1847.11.28={birth=yes}
+	1877.07.04={add_spouse=100066558}	# Cécile de Noailles
+	1921.12.28={death=yes}
+}
+100082438={ #            Jeannine Edith            de la Croix d'Ogimont                    (1928-2005)     2
+	name="Jeannine Edith de la Croix d'Ogimont"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1928.04.09={birth=yes}
+	2005.01.01={death=yes}  # EST.
+}
+100092322={ # Marquis    Joseph François           de la Croix de Castries                  (1668-1728)     0
+	name="Joseph François de La Croix de Castries"
+	dynasty=0
+	religion=catholic culture=frankish
+	1668.01.01={birth=yes}
+	1693.05.20={add_spouse=100068832}	# Marie Elisabeth de Rochechouart-Mortemart
+	1728.06.24={death=yes}  # Paris
+}
+100098163={ # Cte        Armand Henri              de la Croix de Castries                  (1807-1862)     0
+	name="Armand Henri de la Croix de Castries"
+	dynasty=0
+	religion=catholic culture=frankish
+	1807.05.21={birth=yes}
+	1833.04.23={add_spouse=100068738}	# Maria Augusta d'Harcourt
+	1862.01.27={death=yes}  # Paris
+}
+100082439={ #            François Marie            de la Croix de Saint Cyprien             (1876-1914)     0
+	name="François Marie de la Croix de Saint Cyprien"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1876.06.17={birth=yes}
+	1914.11.03={death=yes}
 }
 
 #[CLERMONT, LIGNE, ROHAN, MERODE, BROGLIE, COSSE, ROCHEFOUCAULD]
@@ -776,70 +831,296 @@
 	1961.08.08={birth=yes}
 }
 
-#[CLERMONT, BORBONE, LORRAINE, URSEL, COSSE]
-100082089={ #            Antoinette                de Bourbon                               (1493-1583)     0
-	name="Antoinette de Bourbon"
+#[MERODE, CAUMONT, CROY, ROCHECHOUART, LANNOY, ROSPIGLIOSI, HARCOURT, ROCHEFOUCAULD]
+100097838={ #            Armande                   de Pierre de Bernis                      (1876-1951)     2
+	name="Armande de Pierre de Bernis"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1493.12.25={birth=yes}  # Ham
-	1583.01.22={death=yes}  # Joinville
+	1876.07.23={birth=yes}  # Marseille
+	1951.01.01={death=yes}
 }
-100082087={ #            Renée                     de Bourbon                               (1494-1539)     3
-	name="Renée de Bourbon"
+100082773={ # Cte        Armand                    de Pierre de Bernis                      (1889-1964)     1
+	name="Armand de Pierre de Bernis"
+	female=yes
+	dynasty=0
+	religion=catholic culture=italian
+	1889.01.01={birth=yes}
+	1964.01.01={death=yes}  # EST.
+}
+100082772={ #            Joachim                   de Pierre de Bernis                      (1912-1965)     0
+	name="Joachim de Pierre de Bernis"
+	dynasty=0
+	religion=catholic culture=frankish
+	1912.12.18={birth=yes}
+	1942.10.20={add_spouse=100000703}	# Simone de Croÿ
+	1965.12.04={death=yes}
+}
+100093524={ #            Christian                 de Pierre de Bernis                      (1948-    )     0
+	name="Christian de Pierre de Bernis"
+	dynasty=0
+	religion=catholic culture=frankish
+	1948.02.29={birth=yes}
+	1971.07.30={add_spouse=100066263}	# Françoise de Merode
+}
+100098462={ # Cte        Charles Frédéric          de Pierre de Bernis-Calvière             (1811-1891)     0
+	name="Charles Frédéric de Pierre de Bernis-Calvière"
+	dynasty=0
+	religion=catholic culture=frankish
+	1811.01.01={birth=yes}
+	1836.04.14={add_spouse=100068863}	# Anne de Rochechouart-Mortemart
+	1891.08.27={death=yes}
+}
+100082774={ #            Hélène                    de Pierre de Bernis-Calvière             (1937-1995)  2  2
+	name="Hélène de Pierre de Bernis-Calvière"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1494.01.01={birth=yes}
-	1539.05.26={death=yes}  # Nancy
+	1937.12.27={birth=yes}
+	1995.08.31={death=yes}
 }
-100088627={ #            Catherine                 de Bourbon                               (1559-1604)     0
-	name="Catherine de Bourbon"
+100092216={ # Cte        René Louis                de Pierre de Bernis-Calvière             (1937-1995)     0
+	name="René Louis de Pierre de Bernis-Calvière"
+	dynasty=0
+	religion=catholic culture=frankish
+	1937.01.30={birth=yes}  # Boulogne-Billancourt
+	1968.06.25={add_spouse=100065315}	# Marie Blanche de Caumont
+	1995.06.06={death=yes}  # Brussels
+}
+100082775={ #            Pierre Humbert            de Pierre de Bernis-Calvière             (1945-    )     0
+	name="Pierre Humbert de Pierre de Bernis-Calvière"
+	dynasty=0
+	religion=catholic culture=frankish
+	1945.01.05={birth=yes}
+	1968.06.28={add_spouse=100067337}	# Nathalie Thérèse de La Rochefoucauld
+}
+100096016={ #            Marie Joséphine           de la Pierre de Frémeur                  (1840-1920)     6
+	name="Marie Joséphine de la Pierre de Frémeur"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1559.02.07={birth=yes}  # Paris
-	1604.02.13={death=yes}  # Nancy
+	1840.06.04={birth=yes}  # Tournai
+	1920.06.25={death=yes}  # Brussels
 }
-100082088={ # Duc        César                     de Bourbon                               (1584-1665)     0
-	name="César de Bourbon"
+
+#[LIGNE, BORBONE, RADZIWILL, ROCHECHOUART, ALBERT, NOAILLES, ROCHEFOUCAULD, HARCOURT]
+100082472={ # Marquis    Charles François          de La Rochefoucauld                      (1637-1702)     0
+	name="Charles François de La Rochefoucauld"
 	dynasty=0
 	religion=catholic culture=frankish
-	1584.01.01={birth=yes}
-	1609.07.07={add_spouse=100066107}	# Françoise de Lorraine
-	1665.10.22={death=yes}
+	1637.01.01={birth=yes}
+	1662.01.01={add_spouse=100067111}	# Anne Françoise de La Rochefoucauld
+	1702.01.01={death=yes}  # EST.
 }
-100082085={ #            François Louis            de Bourbon                               (1722-1793)     0
-	name="François Louis de Bourbon"
-	dynasty=0
-	religion=catholic culture=frankish
-	1722.08.26={birth=yes}
-	1743.04.23={add_spouse=100065395}	# Madeleine-Louise de Clermont-Tonnerre
-	1793.01.16={death=yes}
-}
-100082086={ #            Louis                     de Bourbon                               (1856-1920)     0
-	name="Louis de Bourbon"
-	dynasty=0
-	religion=catholic culture=frankish
-	1856.10.24={birth=yes}
-	1884.11.29={add_spouse=100065497}	# Louise de Cossé-Brissac
-	1920.07.04={death=yes}
-}
-100082091={ # Cte        Robert                    de Bourbon-Busset                        (1848-1918)     0
-	name="Robert de Bourbon-Busset"
-	dynasty=0
-	religion=catholic culture=frankish
-	1848.02.26={birth=yes}
-	1882.07.01={add_spouse=100067796}	# Juliette Louise d’Ursel
-	1918.02.03={death=yes}
-}
-100082090={ #            Madeleine                 de Bourbon-Busset                        (1898-1984)     6
-	name="Madeleine de Bourbon-Busset"
+100068106={ #            Yolande                   de La Rochefoucauld                      (1849-1905)     2
+	name="Yolande de La Rochefoucauld"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1898.03.23={birth=yes}
-	1984.09.01={death=yes}
+	1849.06.20={birth=yes}  # Versailles
+	1905.10.29={death=yes}  # Dampierre
+}
+100082470={ #            Elisabeth                 de La Rochefoucauld                      (1865-1946)     1
+	name="Elisabeth de La Rochefoucauld"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1865.08.04={birth=yes}
+	1946.11.09={death=yes}
+}
+100082474={ # Duc        Armand                    de La Rochefoucauld                      (1870-1963)     0
+	name="Armand de La Rochefoucauld"
+	dynasty=0
+	religion=catholic culture=polish
+	1870.02.27={birth=yes}
+	1894.06.10={add_spouse=100111031}	# Ludwika Radziwill
+	1963.11.15={death=yes}
+}
+100085258={ #            Marie                     de La Rochefoucauld                      (1871-1952)     3
+	name="Marie de La Rochefoucauld"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1871.04.27={birth=yes}
+	1952.03.28={death=yes}
+}
+100082845={ #            Marguerite                de La Rochefoucauld                      (1886-1929)     2
+	name="Marguerite de La Rochefoucauld"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1886.08.09={birth=yes}  # Paris
+	1929.03.14={death=yes}  # Versailles
+}
+100082469={ #            Hedwige                   de La Rochefoucauld                      (1896-1986)     1
+	name="Hedwige de La Rochefoucauld"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1896.02.15={birth=yes}
+	1986.05.07={death=yes}
+}
+100082471={ #            Marie                     de La Rochefoucauld                      (1901-1983)     3
+	name="Marie de La Rochefoucauld"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1901.07.06={birth=yes}
+	1983.03.13={death=yes}
+}
+100082476={ #            Anne Alexandrine          de La Rochefoucauld-Surgères             (1753-1794)     0
+	name="Anne Alexandrine de La Rochefoucauld-Surgères"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1753.01.01={birth=yes}
+	1794.03.08={death=yes}
+}
+
+#[ROHAN, LANNOY, ROCHECHOUART, DOLGORUKOV, NOAILLES, COSSE, ROCHEFOUCAULD]
+100082892={ #            Philippe Jean-Louis Huot  de Saint Albin                           (1931-2013)     0
+	name="Philippe Jean-Louis Huot de Saint Albin"
+	dynasty=0
+	religion=catholic culture=frankish
+	1931.09.02={birth=yes}  # Chambéry
+	1999.04.10={add_spouse=100067247}	# Marie Geneviève de La Rochefoucauld
+	2013.01.05={death=yes}
+}
+100096068={ #            Antoinette                de Saint Antoine                         (1774-1844)     0
+	name="Antoinette de Saint Antoine"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1774.01.01={birth=yes}
+	1844.01.01={death=yes}  # EST.
+}
+100098489={ #            François                  de Saint Olive                           (1902-1980)     0
+	name="François de Saint Olive"
+	dynasty=0
+	religion=catholic culture=frankish
+	1902.03.03={birth=yes}  # Paris
+	1928.12.04={add_spouse=100068907}	# Jeanne de Rochechouart-Mortemart
+	1980.09.21={death=yes}  # Pont l'Abbé
+}
+100082893={ # Css        Olga                      de Saint Priest                          (1807-1853)     1
+	name="Olga de Saint Priest"
+	female=yes
+	dynasty=0
+	religion=orthodox culture=russian
+	1807.01.01={birth=yes}
+	1853.09.16={death=yes}
+}
+100096056={ #            Alix Barbe                de Saint Vaast                           (1701-1777)     3
+	name="Alix Barbe de Saint Vaast"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1701.06.23={birth=yes}
+	1777.01.01={death=yes}
+}
+100082894={ # Marquis    Armand Maximilien         de Saint-Georges                         (1768-1858)     0
+	name="Armand Maximilien de Saint-Georges"
+	dynasty=0
+	religion=catholic culture=frankish
+	1768.08.01={birth=yes}
+	1811.01.01={add_spouse=100066567}	# Euphémie de Noailles
+	1858.08.13={death=yes}
+}
+100082895={ # Baron      Arthur                    de Saint-Joseph                          (1840-1911)     0
+	name="Arthur de Saint-Joseph"
+	dynasty=0
+	religion=catholic culture=frankish
+	1840.01.01={birth=yes}
+	1865.03.07={add_spouse=100067659}	# Jeanne Charlotte de Rohan-Chabot
+	1911.04.10={death=yes}
+}
+100082896={ # Cte        Jean Vincent              de Saint-Phalle                          (1935-    )     0
+	name="Jean Vincent de Saint-Phalle"
+	dynasty=0
+	religion=catholic culture=frankish
+	1935.11.29={birth=yes}
+	1960.03.23={add_spouse=100067529}	# Marie Hélène de Rohan-Chabot
+	1981.03.11={remove_spouse=100067529}
+}
+100082899={ # Baron      Marie Antoine             de Saint-Trivier                         (1868-1926)     0
+	name="Marie Antoine de Saint-Trivier"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1868.11.11={birth=yes}
+	1926.07.05={death=yes}
+}
+
+#[ROHAN, ARENBERG, MERODE, COLONNA, HARCOURT]
+100083049={ # Marquis    Louis Antoine             de Vogüé                                 (1868-1948)     0
+	name="Louis Antoine de Vogüé"
+	dynasty=0
+	religion=catholic culture=german
+	1868.01.16={birth=yes}
+	1892.08.03={add_spouse=100000239}	# Louise Marie v. Arenberg
+	1948.03.09={death=yes}
+}
+100083050={ #            Marguerite Françoise      de Vogüé                                 (1920-2013)     8
+	name="Marguerite Françoise de Vogüé"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1920.05.07={birth=yes}
+	2013.07.23={death=yes}
+}
+100094271={ #            Henriette                 de Vogüé                                 (1921-1997)     4
+	name="Henriette de Vogüé"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1921.08.26={birth=yes}
+	1997.01.01={death=yes}  # EST.
+}
+100098037={ #            Alix                      de Vogüé                                 (1926-2003)     6
+	name="Alix de Vogüé"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1926.11.28={birth=yes}
+	2003.01.01={death=yes}  # EST.
+}
+100083048={ #            Patrice                   de Vogüé                                 (1928-2005)     0
+	name="Patrice de Vogüé"
+	dynasty=0
+	religion=catholic culture=italian
+	1928.12.08={birth=yes}
+	1967.06.23={add_spouse=100070911}	# Maria Cristina Colonna
+	2005.01.01={death=yes}  # EST.
+}
+100097994={ #            Hélène Anne               de Vogüé                                 (1932-2009)     4
+	name="Hélène Anne de Vogüé"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1932.05.21={birth=yes}  # Paris
+	2009.01.01={death=yes}  # EST.
+}
+100098143={ #            Edmée                     de Vogüé                                 (1938-2015)     1
+	name="Edmée de Vogüé"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1938.09.22={birth=yes}
+	2015.01.01={death=yes}  # EST.
+}
+100096455={ # Cte        Guillaume                 de Vogüé                                 (1959-    )     0
+	name="Guillaume de Vogüé"
+	dynasty=0
+	religion=catholic culture=frankish
+	1959.01.01={birth=yes}
+	1984.01.01={add_spouse=100068437}	# Marie Liese d'Harcourt
+}
+100082764={ #            Anne-Louise               de Vogüé                                 (1970-    )     4
+	name="Anne-Louise de Vogüé"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1970.05.29={birth=yes}
 }
 
 #[MERODE, CROY, LANNOY, URSEL, AUERSPERG, COSSE, OULTREMONT]
@@ -853,10 +1134,10 @@
 }
 100083464={ # Cte        Adolphe                   du Chastel de la Howarderie              (1851-1918)     0
 	name="Adolphe du Chastel de la Howarderie"
-	female=yes
 	dynasty=0
-	religion=catholic culture=german
+	religion=catholic culture=frankish
 	1851.06.05={birth=yes}
+	1882.10.10={add_spouse=100000758}	# Marie Josèphe de Croÿ
 	1918.11.07={death=yes}
 }
 100083466={ # Css        Mathilde Caroline         du Chastel de la Howarderie              (1855-1892)     5
@@ -906,134 +1187,70 @@
 	1964.09.08={birth=yes}
 }
 
-#[CROY, LANNOY, URSEL, NOAILLES, COSSE, HARCOURT]
-100082256={ #            Marie Camille             de Croix                                 (1836-1910)     5
-	name="Marie Camille de Croix"
+#[CLERMONT, RIQUET, CROY, SEYMOUR, NOAILLES, COSSE, ROCHEFOUCAULD]
+100082283={ # Duc        Emmanuel Céléste          de Durfort                               (1741-1800)     0
+	name="Emmanuel Céléste de Durfort"
+	dynasty=0
+	religion=catholic culture=frankish
+	1741.08.28={birth=yes}
+	1760.12.16={add_spouse=100066523}	# Louise de Noailles
+	1800.03.20={death=yes}
+}
+100082284={ #            Louise Adélaïde           de Durfort                               (1747-1827)     1
+	name="Louise Adélaïde de Durfort"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1836.03.17={birth=yes}
-	1910.07.27={death=yes}
+	1747.01.01={birth=yes}
+	1827.01.01={death=yes}	# EST.
 }
-100082254={ #            Louise                    de Croix                                 (1842-1916)     5
-	name="Louise de Croix"
+100082285={ # Cte        Félicité                  de Durfort                               (1752-1801)     0
+	name="Félicité de Durfort"
+	dynasty=0
+	religion=anglican culture=frankish
+	1752.03.04={birth=yes}
+	1794.09.27={add_spouse=100062597}	# Georgiana Seymour
+	1801.03.10={death=yes}
+}
+100082286={ #            Marie                     de Durfort Civrac de Lorge               (1841-1910)     5
+	name="Marie de Durfort Civrac de Lorge"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1842.03.28={birth=yes}
-	1916.05.05={death=yes}
+	1841.01.15={birth=yes}
+	1910.12.28={death=yes}
 }
-100082255={ # Cte        René                      de Croix                                 (1876-1950)     0
-	name="René de Croix"
+100082287={ # Baron      Geoffroy                  de Durfort-Civrac                        (1602-1629)     0
+	name="Geoffroy de Durfort-Civrac"
 	dynasty=0
 	religion=catholic culture=frankish
-	1876.04.04={birth=yes}
-	1907.01.22={add_spouse=100000752}	# Alix de Croÿ
-	1950.10.16={death=yes}
+	1602.01.01={birth=yes}
+	1627.01.01={add_spouse=100067166}	# Lucie de La Rochefoucauld
+	1629.01.01={death=yes}
 }
-100096070={ #            Amélie Isabelle           de Croix d’Heuchin                       (1737-1806)     0
-	name="Amélie Isabelle de Croix d’Heuchin"
+100082561={ # Duc        Guy                       de Durfort-Civrac                        (1863-1912)     0
+	name="Guy de Durfort-Civrac"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1737.01.01={birth=yes}
-	1806.01.01={death=yes}  # EST.
+	1863.01.01={birth=yes}
+	1912.07.26={death=yes}
 }
-100082437={ # Cte        Antoine                   de la Croix                              (1847-1921)     0
-	name="Antoine de la Croix"
+100068198={ # Vcte       Hervé Stanislas           de Durfort-Civrac                        (1868-1931)     0
+	name="Hervé Stanislas de Durfort-Civrac"
 	dynasty=0
 	religion=catholic culture=frankish
-	1847.11.28={birth=yes}
-	1877.07.04={add_spouse=100066558}	# Cécile de Noailles
-	1921.12.28={death=yes}
+	1868.01.02={birth=yes}  # Lailly
+	1895.06.24={add_spouse=100068197}	# Antoinette de Riquet de Caraman
+	1931.05.12={death=yes}  # Paris
 }
-100082438={ #            Jeannine Edith            de la Croix d'Ogimont                    (1928-2005)     2
-	name="Jeannine Edith de la Croix d'Ogimont"
+100082288={ #            Elisabeth                 de Durfort-Duras                         (1632-1715)     9
+	name="Elisabeth de Durfort-Duras"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1928.04.09={birth=yes}
-	2005.01.01={death=yes}  # EST.
-}
-100098163={ # Cte        Armand Henri              de la Croix de Castries                  (1807-1862)     0
-	name="Armand Henri de la Croix de Castries"
-	dynasty=0
-	religion=catholic culture=frankish
-	1807.05.21={birth=yes}
-	1833.04.23={add_spouse=100068738}	# Maria Augusta d'Harcourt
-	1862.01.27={death=yes}  # Paris
-}
-100082439={ #            François Marie            de la Croix de Saint Cyprien             (1876-1914)     0
-	name="François Marie de la Croix de Saint Cyprien"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1876.06.17={birth=yes}
-	1914.11.03={death=yes}
-}
-
-#[MERODE, CAUMONT, CROY, LANNOY, ROSPIGLIOSI, HARCOURT, ROCHEFOUCAULD]
-100097838={ #            Armande                   de Pierre de Bernis                      (1876-1951)     2
-	name="Armande de Pierre de Bernis"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1876.07.23={birth=yes}  # Marseille
-	1951.01.01={death=yes}
-}
-100082773={ # Cte        Armand                    de Pierre de Bernis                      (1889-1964)     1
-	name="Armand de Pierre de Bernis"
-	female=yes
-	dynasty=0
-	religion=catholic culture=italian
-	1889.01.01={birth=yes}
-	1964.01.01={death=yes}  # EST.
-}
-100082772={ #            Joachim                   de Pierre de Bernis                      (1912-1965)     0
-	name="Joachim de Pierre de Bernis"
-	dynasty=0
-	religion=catholic culture=frankish
-	1912.12.18={birth=yes}
-	1942.10.20={add_spouse=100000703}	# Simone de Croÿ
-	1965.12.04={death=yes}
-}
-100093524={ #            Christian                 de Pierre de Bernis                      (1948-    )     0
-	name="Christian de Pierre de Bernis"
-	dynasty=0
-	religion=catholic culture=frankish
-	1948.02.29={birth=yes}
-	1971.07.30={add_spouse=100066263}	# Françoise de Merode
-}
-100082774={ #            Hélène                    de Pierre de Bernis-Calvière             (1937-1995)     1
-	name="Hélène de Pierre de Bernis-Calvière"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1937.12.27={birth=yes}
-	1995.08.31={death=yes}
-}
-100092216={ # Cte        René Louis                de Pierre de Bernis-Calvière             (1937-1995)     0
-	name="René Louis de Pierre de Bernis-Calvière"
-	dynasty=0
-	religion=catholic culture=frankish
-	1937.01.30={birth=yes}  # Boulogne-Billancourt
-	1968.06.25={add_spouse=100065315}	# Marie Blanche de Caumont
-	1995.06.06={death=yes}  # Brussels
-}
-100082775={ #            Pierre Humbert            de Pierre de Bernis-Calvière             (1945-    )     0
-	name="Pierre Humbert de Pierre de Bernis-Calvière"
-	dynasty=0
-	religion=catholic culture=frankish
-	1945.01.05={birth=yes}
-	1968.06.28={add_spouse=100067337}	# Nathalie Thérèse de La Rochefoucauld
-}
-100096016={ #            Marie Joséphine           de la Pierre de Frémeur                  (1840-1920)     6
-	name="Marie Joséphine de la Pierre de Frémeur"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1840.06.04={birth=yes}  # Tournai
-	1920.06.25={death=yes}  # Brussels
+	1632.01.01={birth=yes}
+	1715.01.14={death=yes}  # London
 }
 
 #[WALDBURG, CROY, OULTREMONT, STOLBERG]
@@ -1102,253 +1319,62 @@
 	1915.11.01={death=yes}  # Tervueren
 }
 
-#[LIGNE, BORBONE, RADZIWILL, ALBERT, NOAILLES, ROCHEFOUCAULD, HARCOURT]
-100082472={ # Marquis    Charles François          de La Rochefoucauld                      (1637-1702)     0
-	name="Charles François de La Rochefoucauld"
-	dynasty=0
-	religion=catholic culture=frankish
-	1637.01.01={birth=yes}
-	1662.01.01={add_spouse=100067111}	# Anne Françoise de La Rochefoucauld
-	1702.01.01={death=yes}  # EST.
-}
-100068106={ #            Yolande                   de La Rochefoucauld                      (1849-1905)     2
-	name="Yolande de La Rochefoucauld"
+#[GRAMONT, RIQUET, ROCHECHOUART, NOAILLES, HARCOURT]
+100068177={ # Pss        Gabrielle Françoise       de Beauvau                               (1708-1758)     4
+	name="Gabrielle Françoise de Beauvau"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1849.06.20={birth=yes}  # Versailles
-	1905.10.29={death=yes}  # Dampierre
+	1708.07.30={birth=yes}  # Lunéville
+	1758.07.22={death=yes}
 }
-100082470={ #            Elisabeth                 de La Rochefoucauld                      (1865-1946)     1
-	name="Elisabeth de La Rochefoucauld"
+100098276={ #            Marie Anne                de Beauvau                               (1712-1787)     0
+	name="Marie Anne de Beauvau"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1865.08.04={birth=yes}
-	1946.11.09={death=yes}
+	1712.01.31={birth=yes}
+	1787.01.01={death=yes}
 }
-100082474={ # Duc        Armand                    de La Rochefoucauld                      (1870-1963)     0
-	name="Armand de La Rochefoucauld"
+100098448={ # Pr         Etienne                   de Beauvau                               (1819-1865)     0
+	name="Etienne de Beauvau"
 	dynasty=0
-	religion=catholic culture=polish
-	1870.02.27={birth=yes}
-	1894.06.10={add_spouse=100111031}	# Ludwika Radziwill
-	1963.11.15={death=yes}
+	religion=catholic culture=frankish
+	1819.01.01={birth=yes}
+	1844.08.13={add_spouse=100068849}	# Berthe Victurnienne de Rochechouart-Mortemart
+	1865.09.17={death=yes}
 }
-100085258={ #            Marie                     de La Rochefoucauld                      (1871-1952)     3
-	name="Marie de La Rochefoucauld"
+100082038={ # Pss        Anne                      de Beauvau-Craon                         (1750-1834)     2
+	name="Anne de Beauvau-Craon"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1871.04.27={birth=yes}
-	1952.03.28={death=yes}
+	1750.04.01={birth=yes}
+	1834.11.20={death=yes}
 }
-100082469={ #            Hedwige                   de La Rochefoucauld                      (1896-1986)     1
-	name="Hedwige de La Rochefoucauld"
+100098370={ # Pr         Marc Etienne              de Beauvau-Craon                         (1767-1849)     0
+	name="Marc Etienne de Beauvau et Craon"
+	dynasty=0
+	religion=catholic culture=frankish
+	1767.01.01={birth=yes}
+	1792.06.06={add_spouse=100068842}	# Nathalie de Rochechouart-Mortemart
+	1849.01.29={death=yes}
+}
+100082039={ #            Isabelle                  de Beauvau-Craon                         (1852-1875)     1
+	name="Isabelle de Beauvau-Craon"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1896.02.15={birth=yes}
-	1986.05.07={death=yes}
+	1852.11.13={birth=yes}
+	1875.04.27={death=yes}
 }
-100082471={ #            Marie                     de La Rochefoucauld                      (1901-1983)     3
-	name="Marie de La Rochefoucauld"
+100090543={ # Pss        Henriette                 de Beauvau-Craon                         (1876-1931)     1
+	name="Henriette de Beauvau-Craon"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1901.07.06={birth=yes}
-	1983.03.13={death=yes}
-}
-100082476={ #            Anne Alexandrine          de La Rochefoucauld-Surgères             (1753-1794)     0
-	name="Anne Alexandrine de La Rochefoucauld-Surgères"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1753.01.01={birth=yes}
-	1794.03.08={death=yes}
-}
-
-#[CRUSSOL, MERODE, REUSS, LORRAINE, BOURBON, WITTELSBACH, LOWENSTEIN, BIRON]
-100082855={ # Vcte       Alain                     de Rohan                                 (1425-1462)     0
-	name="Alain de Rohan"
-	dynasty=0
-	religion=catholic culture=frankish
-	1425.01.01={birth=yes}
-	1450.01.01={add_spouse=100066121}	# Marie de Lorraine
-	1462.03.20={death=yes}
-}
-100082852={ #            Catherine                 de Rohan                                 (1578-1607)     1
-	name="Catherine de Rohan"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1578.06.20={birth=yes}
-	1607.05.10={death=yes}  # Zweibrücken
-}
-100094247={ #            Louise                    de Rohan                                 (1728-1792)     1
-	name="Louise de Rohan"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1728.01.15={birth=yes}
-	1792.01.01={death=yes}
-}
-100089622={ # Fst        Camille                   de Rohan                                 (1800-1892)     0
-	name="Camille de Rohan"
-	dynasty=0
-	religion=catholic culture=frankish
-	1800.12.19={birth=yes}
-	1826.05.28={add_spouse=100002794}	# Adelheid Eulalie v. Löwenstein-Wertheim
-	1892.09.13={death=yes}
-}
-100082856={ # Duc        Louis                     de Rohan de Roquelaure et du Lude        (1734-1791)     0
-	name="Louis de Rohan de Roquelaure et du Lude"
-	dynasty=0
-	religion=catholic culture=frankish
-	1734.01.01={birth=yes}
-	1759.05.23={add_spouse=100065582}	# Emilie de Crussol
-	1791.11.28={death=yes}
-}
-100082859={ # Pr         Jules                     de Rohan-Guéméné                         (1775-1836)     0
-	name="Jules de Rohan-Guéméné"
-	dynasty=0
-	religion=lutheran culture=frankish
-	1775.01.01={birth=yes}
-	1800.06.23={add_spouse=100000405}	# Wilhelmine Biron
-	1805.01.01={remove_spouse=100000405}
-	1836.01.13={death=yes}
-}
-100082860={ # Pss        Gasparine                 de Rohan-Rochefort                       (1798-1871)     2
-	name="Gasparine de Rohan-Rochefort"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=frankish
-	1798.09.29={birth=yes}
-	1871.07.27={death=yes}
-}
-
-#[ROHAN, LANNOY, DOLGORUKOV, NOAILLES, COSSE, ROCHEFOUCAULD]
-100082892={ #            Philippe Jean-Louis Huot  de Saint Albin                           (1931-2013)     0
-	name="Philippe Jean-Louis Huot de Saint Albin"
-	dynasty=0
-	religion=catholic culture=frankish
-	1931.09.02={birth=yes}  # Chambéry
-	1999.04.10={add_spouse=100067247}	# Marie Geneviève de La Rochefoucauld
-	2013.01.05={death=yes}
-}
-100096068={ #            Antoinette                de Saint Antoine                         (1774-1844)     0
-	name="Antoinette de Saint Antoine"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1774.01.01={birth=yes}
-	1844.01.01={death=yes}  # EST.
-}
-100082893={ # Css        Olga                      de Saint Priest                          (1807-1853)     1
-	name="Olga de Saint Priest"
-	female=yes
-	dynasty=0
-	religion=orthodox culture=russian
-	1807.01.01={birth=yes}
-	1853.09.16={death=yes}
-}
-100096056={ #            Alix Barbe                de Saint Vaast                           (1701-1777)     3
-	name="Alix Barbe de Saint Vaast"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1701.06.23={birth=yes}
-	1777.01.01={death=yes}
-}
-100082894={ # Marquis    Armand Maximilien         de Saint-Georges                         (1768-1858)     0
-	name="Armand Maximilien de Saint-Georges"
-	dynasty=0
-	religion=catholic culture=frankish
-	1768.08.01={birth=yes}
-	1811.01.01={add_spouse=100066567}	# Euphémie de Noailles
-	1858.08.13={death=yes}
-}
-100082895={ # Baron      Arthur                    de Saint-Joseph                          (1840-1911)     0
-	name="Arthur de Saint-Joseph"
-	dynasty=0
-	religion=catholic culture=frankish
-	1840.01.01={birth=yes}
-	1865.03.07={add_spouse=100067659}	# Jeanne Charlotte de Rohan-Chabot
-	1911.04.10={death=yes}
-}
-100082896={ # Cte        Jean Vincent              de Saint-Phalle                          (1935-    )     0
-	name="Jean Vincent de Saint-Phalle"
-	dynasty=0
-	religion=catholic culture=frankish
-	1935.11.29={birth=yes}
-	1960.03.23={add_spouse=100067529}	# Marie Hélène de Rohan-Chabot
-	1981.03.11={remove_spouse=100067529}
-}
-100082899={ # Baron      Marie Antoine             de Saint-Trivier                         (1868-1926)     0
-	name="Marie Antoine de Saint-Trivier"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1868.11.11={birth=yes}
-	1926.07.05={death=yes}
-}
-
-#[CLERMONT, RIQUET, CROY, SEYMOUR, NOAILLES, ROCHEFOUCAULD]
-100082283={ # Duc        Emmanuel Céléste          de Durfort                               (1741-1800)     0
-	name="Emmanuel Céléste de Durfort"
-	dynasty=0
-	religion=catholic culture=frankish
-	1741.08.28={birth=yes}
-	1760.12.16={add_spouse=100066523}	# Louise de Noailles
-	1800.03.20={death=yes}
-}
-100082284={ #            Louise Adélaïde           de Durfort                               (1747-1827)     1
-	name="Louise Adélaïde de Durfort"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1747.01.01={birth=yes}
-	1827.01.01={death=yes}	# EST.
-}
-100082285={ # Cte        Félicité                  de Durfort                               (1752-1801)     0
-	name="Félicité de Durfort"
-	dynasty=0
-	religion=anglican culture=frankish
-	1752.03.04={birth=yes}
-	1794.09.27={add_spouse=100062597}	# Georgiana Seymour
-	1801.03.10={death=yes}
-}
-100082286={ #            Marie                     de Durfort Civrac de Lorge               (1841-1910)     5
-	name="Marie de Durfort Civrac de Lorge"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1841.01.15={birth=yes}
-	1910.12.28={death=yes}
-}
-100082287={ # Baron      Geoffroy                  de Durfort-Civrac                        (1602-1629)     0
-	name="Geoffroy de Durfort-Civrac"
-	dynasty=0
-	religion=catholic culture=frankish
-	1602.01.01={birth=yes}
-	1627.01.01={add_spouse=100067166}	# Lucie de La Rochefoucauld
-	1629.01.01={death=yes}
-}
-100068198={ # Vcte       Hervé Stanislas           de Durfort-Civrac                        (1868-1931)     0
-	name="Hervé Stanislas de Durfort-Civrac"
-	dynasty=0
-	religion=catholic culture=frankish
-	1868.01.02={birth=yes}  # Lailly
-	1895.06.24={add_spouse=100068197}	# Antoinette de Riquet de Caraman
-	1931.05.12={death=yes}  # Paris
-}
-100082288={ #            Elisabeth                 de Durfort-Duras                         (1632-1715)     9
-	name="Elisabeth de Durfort-Duras"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1632.01.01={birth=yes}
-	1715.01.14={death=yes}  # London
+	1876.07.03={birth=yes}  # Seine-Port
+	1931.06.23={death=yes}  # Paris
 }
 
 #[CROY, LANNOY, OULTREMONT]
@@ -1408,61 +1434,179 @@
 	1973.08.22={add_spouse=100066728}	# Isabelle d’Oultremont
 }
 
-#[ROHAN, ARENBERG, MERODE, HARCOURT]
-100098037={ #            Alix                      de Vogué                                 (1926-2003)     6
-	name="Alix de Vogué"
+#[ROHAN, GRAMONT, MECKLENBURG, LANNOY, ROCHECHOUART, LONYAY, ROCHEFOUCAULD]
+100082686={ #            Isabelle                  de Montmorency                           (1627-1695)     0
+	name="Isabelle de Montmorency"
 	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1926.11.28={birth=yes}
-	2003.01.01={death=yes}  # EST.
-}
-100098143={ #            Edmée                     de Vogué                                 (1938-2015)     1
-	name="Edmée de Vogué"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1938.09.22={birth=yes}
-	2015.01.01={death=yes}  # EST.
-}
-100083049={ # Marquis    Louis Antoine             de Vogüé                                 (1868-1948)     0
-	name="Louis Antoine de Vogüé"
 	dynasty=0
 	religion=catholic culture=german
-	1868.01.16={birth=yes}
-	1892.08.03={add_spouse=100000239}	# Louise Marie v. Arenberg
-	1948.03.09={death=yes}
+	1627.01.01={birth=yes}
+	1695.01.24={death=yes}
 }
-100083050={ #            Marguerite Françoise      de Vogüé                                 (1920-2013)     8
-	name="Marguerite Françoise de Vogüé"
+100082688={ # Pr         Anne Louis                de Montmorency                           (1736-1812)     0
+	name="Anne Louis de Montmorency"
+	dynasty=0
+	religion=catholic culture=frankish
+	1736.01.01={birth=yes}
+	1761.01.01={add_spouse=100067127}	# Emilie Alexandrine de La Rochefoucauld
+	1812.10.19={death=yes}
+}
+100096048={ # Duc        Anne Henri                de Montmorency                           (1768-1799)     0
+	name="Anne Henri de Montmorency"
+	dynasty=0
+	religion=catholic culture=frankish
+	1768.01.01={birth=yes}
+	1793.10.21={add_spouse=100065940}	# Marie de Lannoy
+	1799.10.01={death=yes}
+}
+100082687={ #            Anne Louise               de Montmorency                           (1771-1828)     6
+	name="Anne Louise de Montmorency"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1920.05.07={birth=yes}
-	2013.07.23={death=yes}
+	1771.07.08={birth=yes}
+	1828.11.20={death=yes}
 }
-100094271={ #            Henriette                 de Vogüé                                 (1921-1997)     4
-	name="Henriette de Vogüé"
+100098453={ #            Anne Eléonore             de Montmorency                           (1776-1863)     5
+	name="Anne Eléonore de Montmorency"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1921.08.26={birth=yes}
-	1997.01.01={death=yes}  # EST.
+	1776.11.01={birth=yes}  # Paris
+	1863.08.15={death=yes}  # Paris
 }
-100097994={ #            Hélène Anne               de Vogüé                                 (1932-2009)     4
-	name="Hélène Anne de Vogüé"
+100082689={ #            Claude                    de Montmorency-Bouteville                (1593-1652)     5
+	name="Claude de Montmorency-Bouteville"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1932.05.21={birth=yes}  # Paris
-	2009.01.01={death=yes}  # EST.
+	1593.01.01={birth=yes}
+	1652.04.03={death=yes}
 }
-100096455={ # Cte        Guillaume                 de Vogüé                                 (1959-    )     0
-	name="Guillaume de Vogüé"
+100098192={ # Gf         Máté                      de Montmorency-Marisco                   (1838-1913)     0
+	name="Máté de Montmorency-Marisco"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1838.01.01={birth=yes}
+	1863.06.16={add_spouse=100116333}	# Kata Lónyay de Nagylónya et Vásárosnamény
+	1913.01.01={death=yes}
+}
+
+#[CRUSSOL, MERODE, REUSS, LORRAINE, WITTELSBACH, LOWENSTEIN, BIRON]
+100082855={ # Vcte       Alain                     de Rohan                                 (1425-1462)     0
+	name="Alain de Rohan"
 	dynasty=0
 	religion=catholic culture=frankish
-	1959.01.01={birth=yes}
-	1984.01.01={add_spouse=100068437}	# Marie Liese d'Harcourt
+	1425.01.01={birth=yes}
+	1450.01.01={add_spouse=100066121}	# Marie de Lorraine
+	1462.03.20={death=yes}
+}
+100082852={ #            Catherine                 de Rohan                                 (1578-1607)     1
+	name="Catherine de Rohan"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1578.06.20={birth=yes}
+	1607.05.10={death=yes}  # Zweibrücken
+}
+100094247={ #            Louise                    de Rohan                                 (1728-1792)     1
+	name="Louise de Rohan"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1728.01.15={birth=yes}
+	1792.01.01={death=yes}
+}
+100089622={ # Fst        Camille                   de Rohan                                 (1800-1892)     0
+	name="Camille de Rohan"
+	dynasty=0
+	religion=catholic culture=frankish
+	1800.12.19={birth=yes}
+	1826.05.28={add_spouse=100002794}	# Adelheid Eulalie v. Löwenstein-Wertheim
+	1892.09.13={death=yes}
+}
+100082856={ # Duc        Louis                     de Rohan de Roquelaure et du Lude        (1734-1791)     0
+	name="Louis de Rohan de Roquelaure et du Lude"
+	dynasty=0
+	religion=catholic culture=frankish
+	1734.01.01={birth=yes}
+	1759.05.23={add_spouse=100065582}	# Emilie de Crussol
+	1791.11.28={death=yes}
+}
+100082859={ # Pr         Jules                     de Rohan-Guéméné                         (1775-1836)     0
+	name="Jules de Rohan-Guéméné"
+	dynasty=0
+	religion=lutheran culture=frankish
+	1775.01.01={birth=yes}
+	1800.06.23={add_spouse=100000405}	# Wilhelmine Biron
+	1805.01.01={remove_spouse=100000405}
+	1836.01.13={death=yes}
+}
+100082860={ # Pss        Gasparine                 de Rohan-Rochefort                       (1798-1871)     2
+	name="Gasparine de Rohan-Rochefort"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=frankish
+	1798.09.29={birth=yes}
+	1871.07.27={death=yes}
+}
+
+#[LIGNE, ROHAN, ARENBERG, ROCHECHOUART, FURSTENBERG, NOAILLES, BIRON]
+100098466={ #            Jean Charles              de Talleyrand-Périgord                   (1697-1757)     0
+	name="Jean Charles de Talleyrand-Périgord"
+	dynasty=0
+	religion=catholic culture=frankish
+	1697.01.01={birth=yes}
+	1722.12.10={add_spouse=100068868}	# Marie Françoise de Rochechouart-Mortemart
+	1757.02.24={death=yes}  # Chalais
+}
+100082981={ # Duc        Edmund                    de Talleyrand-Périgord                   (1784-1872)     0
+	name="Edmund de Talleyrand-Périgord"
+	dynasty=0
+	religion=lutheran culture=german
+	1784.01.01={birth=yes}
+	1809.04.24={add_spouse=100000408}	# Johanna Dorothea Biron
+	1872.05.14={death=yes}
+}
+100082979={ #            Mélanie                   de Talleyrand-Périgord                   (1785-1863)     3
+	name="Mélanie de Talleyrand-Périgord"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1785.09.18={birth=yes}
+	1863.02.19={death=yes}
+}
+100082976={ #            Alix                      de Talleyrand-Périgord                   (1808-1842)     3
+	name="Alix de Talleyrand-Périgord"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1808.11.04={birth=yes}
+	1842.09.21={death=yes}
+}
+100082978={ #            Marguerite                de Talleyrand-Périgord                   (1832-1917)     3
+	name="Marguerite de Talleyrand-Périgord"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1832.03.29={birth=yes}
+	1917.07.03={death=yes}
+}
+100082977={ #            Dorothée                  de Talleyrand-Périgord                   (1862-1948)     0
+	name="Dorothée de Talleyrand-Périgord"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1862.11.17={birth=yes}
+	1948.06.17={death=yes}
+}
+100082980={ # Cte        Napoléon Louis            de Talleyrand-Périgord                   (1867-1951)     0
+	name="Napoléon Louis de Talleyrand-Périgord"
+	dynasty=0
+	religion=catholic culture=frankish
+	1867.03.22={birth=yes}
+	1891.07.01={add_spouse=100067505}	# Marie Joséphine de Rohan-Chabot
+	1951.09.27={death=yes}
 }
 
 #[BROGLIE, LANNOY, OULTREMONT, ROCHEFOUCAULD]
@@ -1620,55 +1764,7 @@
 	1825.11.13={death=yes}  # Brussels
 }
 
-#[URSEL, LOBKOWICZ, OULTREMONT, LIMBURG]
-100081643={ # Cte        Louis Marie               Cornet d'Elzius                          (1928-2011)     0
-	name="Louis Marie Cornet d'Elzius"
-	dynasty=0
-	religion=catholic culture=frankish
-	1928.02.29={birth=yes}
-	1960.01.09={add_spouse=100067748}	# Colette Jacqueline d’Ursel
-	2011.11.11={death=yes}
-}
-100081644={ # Cte        François Philippe         Cornet d'Elzius                          (1958-    )     0
-	name="François Philippe Cornet d'Elzius"
-	dynasty=0
-	religion=catholic culture=frankish
-	1958.06.29={birth=yes}
-	1984.09.08={add_spouse=100067981}	# Dominique Eliane d’Ursel
-}
-100087922={ # Cte        Jean Gustave              Cornet d'Elzius du Chenoy                (1888-1961)     0
-	name="Jean Gustave Cornet d'Elzius du Chenoy"
-	dynasty=0
-	religion=catholic culture=frankish
-	1888.04.27={birth=yes}  # Brussels
-	1912.01.09={add_spouse=100066981}	# Cécile d’Oultremont
-	1961.12.30={death=yes}  # Pailhe
-}
-100088124={ # Cte        Etienne Edmond            Cornet d'Elzius du Chenoy                (1891-1960)     0
-	name="Etienne Edmond Cornet d'Elzius du Chenoy"
-	dynasty=0
-	religion=catholic culture=frankish
-	1891.06.06={birth=yes}  # Pailhe
-	1919.04.26={add_spouse=100066983}	# Nathalie d’Oultremont
-	1960.01.04={death=yes}  # Brussels
-}
-100081645={ # Cte        Didier                    Cornet d'Elzius du Chenoy                (1929-1996)     0
-	name="Didier Cornet d'Elzius du Chenoy"
-	dynasty=0
-	religion=lutheran culture=dutch
-	1929.05.08={birth=yes}
-	1958.08.12={add_spouse=100037689}	# Gabriele Marie van Limburg Stirum
-	1996.03.06={death=yes}
-}
-100085161={ # Css        Therese                   Cornet d'Elzius du Chenoy                (1932-    )     3
-	name="Therese Cornet d'Elzius du Chenoy"
-	female=yes
-	dynasty=0
-	religion=catholic culture=bohemian
-	1932.01.23={birth=yes}
-}
-
-#[GROSVENOR, LORRAINE, CAVENDISH, HARCOURT]
+#[GROSVENOR, LORRAINE, ROCHECHOUART, HARCOURT]
 100080527={ #            Elizabeth Sophie          Harcourt                                 (1771-1846)     3
 	name="Elizabeth Sophie Harcourt"
 	female=yes
@@ -1676,14 +1772,6 @@
 	religion=catholic culture=frankish
 	1771.07.27={birth=yes}
 	1846.06.22={death=yes}
-}
-100084679={ #            William Bernard           Harcourt                                 (1812-1846)     0
-	name="William Bernard Harcourt"
-	dynasty=0
-	religion=anglican culture=english
-	1812.01.01={birth=yes}
-	1837.02.03={add_spouse=100060369}	# Elizabeth Georgiana Cavendish
-	1846.05.25={death=yes}
 }
 100084680={ # Vct        William                   Harcourt                                 (1908-1979)     0
 	name="William Harcourt"
@@ -1717,6 +1805,14 @@
 	religion=catholic culture=frankish
 	1750.01.12={birth=yes}
 	1823.09.28={death=yes}
+}
+100098329={ #            Anne                      d'Harcourt-Lillebonne                    (1753-1778)     3
+	name="Anne d'Harcourt-Lillebonne"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1753.03.08={birth=yes}
+	1778.04.11={death=yes}
 }
 
 #[MERODE, LIECHTENSTEIN, URSEL, THUN, IMPERIALI, SZECHENYI]
@@ -1768,6 +1864,55 @@
 	1991.08.23={add_spouse=100067941}	# Bénédicte d’Ursel
 }
 
+#[ARENBERG, MERODE, BROGLIE, ROCHECHOUART, HARCOURT]
+100097982={ #            Gabrielle                 de Laguiche                              (1856-1947)    10
+	name="Gabrielle de Laguiche"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1856.05.06={birth=yes}  # Paris
+	1947.05.05={death=yes}  # Paris
+}
+100082503={ # Marquis    Pierre Adolphe            de Laguiche                              (1859-1940)     0
+	name="Pierre Adolphe de Laguiche"
+	dynasty=0
+	religion=catholic culture=german
+	1859.06.15={birth=yes}
+	1888.06.02={add_spouse=100000214}	# Alix Jeanne v. Arenberg
+	1940.03.12={death=yes}
+}
+100082504={ # Cte        Bernard Philibert         de Laguiche                              (1894-1972)     0
+	name="Bernard Philibert de Laguiche"
+	dynasty=0
+	religion=catholic culture=frankish
+	1894.03.10={birth=yes}
+	1922.06.01={add_spouse=100065204}	# Clotilde Augustine de Broglie
+	1972.06.20={death=yes}
+}
+100093004={ #            Marguerite                de Laguiche                              (1895-1988)     0
+	name="Marguerite de Laguiche"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1895.05.08={birth=yes}  # Paris
+	1988.07.10={death=yes}  # Westerloo
+}
+100098133={ # Cte        Eric                      de Laguiche                              (1962-    )     0
+	name="Eric de Laguiche"
+	dynasty=0
+	religion=catholic culture=frankish
+	1962.04.25={birth=yes}  # Neuilly
+	1989.04.21={add_spouse=100068690}	# Marie d'Harcourt
+}
+100098456={ # Marquis    Philibert Bernard         de Laguiche de Laguiche                  (1825-1891)     0
+	name="Philibert Bernard de Laguiche de Laguiche"
+	dynasty=0
+	religion=catholic culture=frankish
+	1825.01.01={birth=yes}
+	1850.04.11={add_spouse=100068857}	# Louise de Rochechouart-Mortemart
+	1891.03.09={death=yes}  # Paris
+}
+
 #[ROHAN, CAUMONT, BROGLIE, RADZIWILL, ROCHEFOUCAULD]
 100082606={ # Marquis    Jacquelin                 de Maillé                                (1891-1918)     0
 	name="Jacquelin de Maillé"
@@ -1816,52 +1961,6 @@
 	religion=catholic culture=frankish
 	1929.03.26={birth=yes}
 	2009.01.01={death=yes}	# EST.
-}
-
-#[COLONNA, LANNOY, URSEL, OULTREMONT]
-100086174={ #            Emma                      du Parc                                  (1843-1902)     9
-	name="Emma du Parc"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1843.07.26={birth=yes}  # Ypres
-	1902.04.27={death=yes}  # Brussels
-}
-100094278={ # Cte        Guillaume                 du Parc Locmaria                         (1901-1974)     0
-	name="Guillaume du Parc Locmaria"
-	dynasty=0
-	religion=catholic culture=frankish
-	1901.07.02={birth=yes}  # Moestroff-Bettendorf
-	1939.01.18={add_spouse=100065858}	# Jacqueline de Lannoy
-	1974.07.18={death=yes}  # Etterbeek
-}
-100093054={ # Cte        Baudouin                  du Parc Locmaria                         (1944-    )     0
-	name="Baudouin du Parc Locmaria"
-	dynasty=0
-	religion=catholic culture=frankish
-	1944.04.14={birth=yes}
-	1968.08.02={add_spouse=100065856}	# Thérèse de Lannoy
-}
-100094815={ # Cte        Léopold Antoine           du Parc Locmaria                         (1946-    )     0
-	name="Léopold Antoine du Parc Locmaria"
-	dynasty=0
-	religion=catholic culture=frankish
-	1946.08.19={birth=yes}
-	1971.04.07={add_spouse=100066992}	# Marie d’Oultremont
-}
-100083471={ # Cte        Thierry Hubert            du Parc Locmaria                         (1961-    )     0
-	name="Thierry Hubert du Parc Locmaria"
-	dynasty=0
-	religion=catholic culture=dutch
-	1961.11.02={birth=yes}
-	1987.01.17={add_spouse=100067901}	# Nathalie Georgine d’Ursel
-}
-100083472={ # Jkvr       Sophie                    du Parc Locmaria                         (1972-    )     1
-	name="Sophie du Parc Locmaria"
-	female=yes
-	dynasty=0
-	religion=catholic culture=dutch
-	1972.01.01={birth=yes}
 }
 
 #[GRIMALDI, LIGNE, GRAMONT, CROY, ROCHEFOUCAULD]
@@ -1937,6 +2036,14 @@
 	1892.10.14={birth=yes}  # Château Ecoublay
 	1980.08.02={death=yes}  # La Lande
 }
+100092988={ # Cte        Guillaume Louis           de La Roche-Aymon                        (1853-1927)     0
+	name="Guillaume Louis de La Roche-Aymon"
+	dynasty=0
+	religion=catholic culture=frankish
+	1853.01.01={birth=yes}
+	1878.06.18={add_spouse=100066225}	# Alix de Merode
+	1927.01.01={death=yes}  # EST.
+}
 100082467={ #            Raoul                     de La Roche-Aymon                        (1881-1980)     0
 	name="Raoul de La Roche-Aymon"
 	dynasty=0
@@ -1945,71 +2052,13 @@
 	1914.02.20={add_spouse=100065194}	# Madeleine Marie de Broglie
 	1980.02.13={death=yes}
 }
-100092988={ # Cte        Guillaume Louis           de La Roche-Aymon                        (1853-1927)     0
-	name="Guillaume Louis de la Roche-Aymon"
-	dynasty=0
-	religion=catholic culture=frankish
-	1853.01.01={birth=yes}
-	1878.06.18={add_spouse=100066225}	# Alix de Merode
-	1927.01.01={death=yes}  # EST.
-}
 100082468={ # Cte        Achilles                  de La Roche-Pouchin et de Rochefort      (1815-1895)     0
-	name="Achilles de la Roche-Pouchin et de Rochefort"
+	name="Achilles de La Roche-Pouchin et de Rochefort"
 	dynasty=0
 	religion=catholic culture=polish
 	1815.01.01={birth=yes}
 	1839.05.22={add_spouse=100110145}	# Maria Susanne Czartoryski
 	1895.01.01={death=yes}	# EST.
-}
-
-#[LIGNE, ROHAN, ARENBERG, FURSTENBERG, NOAILLES, BIRON]
-100082981={ # Duc        Edmund                    de Talleyrand-Périgord                   (1784-1872)     0
-	name="Edmund de Talleyrand-Périgord"
-	dynasty=0
-	religion=lutheran culture=german
-	1784.01.01={birth=yes}
-	1809.04.24={add_spouse=100000408}	# Johanna Dorothea Biron
-	1872.05.14={death=yes}
-}
-100082979={ #            Mélanie                   de Talleyrand-Périgord                   (1785-1863)     3
-	name="Mélanie de Talleyrand-Périgord"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1785.09.18={birth=yes}
-	1863.02.19={death=yes}
-}
-100082976={ #            Alix                      de Talleyrand-Périgord                   (1808-1842)     3
-	name="Alix de Talleyrand-Périgord"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1808.11.04={birth=yes}
-	1842.09.21={death=yes}
-}
-100082978={ #            Marguerite                de Talleyrand-Périgord                   (1832-1917)     3
-	name="Marguerite de Talleyrand-Périgord"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1832.03.29={birth=yes}
-	1917.07.03={death=yes}
-}
-100082977={ #            Dorothée                  de Talleyrand-Périgord                   (1862-1948)     0
-	name="Dorothée de Talleyrand-Périgord"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1862.11.17={birth=yes}
-	1948.06.17={death=yes}
-}
-100082980={ # Cte        Napoléon Louis            de Talleyrand-Périgord                   (1867-1951)     0
-	name="Napoléon Louis de Talleyrand-Périgord"
-	dynasty=0
-	religion=catholic culture=frankish
-	1867.03.22={birth=yes}
-	1891.07.01={add_spouse=100067505}	# Marie Joséphine de Rohan-Chabot
-	1951.09.27={death=yes}
 }
 
 #[CAUMONT, ARENBERG, RADZIWILL, SCHONBORN, ESTERHAZY, NOAILLES]
@@ -2133,12 +2182,12 @@
 	religion=catholic culture=frankish
 	1949.01.31={birth=yes}
 }
-100083047={ # Bss        Marie                     de Villenfagne de Vogelsanck             (1954-    )     8
-	name="Marie de Villenfagne de Vogelsanck"
+100083047={ # Bss        Marie Hélène              de Villenfagne de Vogelsanck             (1954-    )     8
+	name="Marie Hélène de Villenfagne de Vogelsanck"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1954.04.24={birth=yes}
+	1954.04.24={birth=yes}	# Brüssel
 }
 100083037={ # Baron      Tanguy Marie Gaëtan       de Villenfagne de Vogelsanck             (1955-    )     0
 	name="Tanguy Marie Gaëtan de Villenfagne de Vogelsanck"
@@ -2281,7 +2330,7 @@
 
 #[URSEL, OULTREMONT]
 100082108={ # Cte        Philippe Charles          de Brouchoven de Bergeyck                (1877-1929)     0
-	name="Philippe Charles de Brouchoven de Bergeÿck"
+	name="Philippe Charles de Brouchoven de Bergeyck"
 	dynasty=0
 	religion=catholic culture=frankish
 	1877.04.05={birth=yes}
@@ -2319,6 +2368,89 @@
 	1897.01.05={birth=yes}  # Antwerp
 	1924.01.29={add_spouse=100066825}	# Yvonne d’Oultremont
 	1956.11.14={death=yes}  # Dhuy
+}
+
+#[ROHAN, GRAMONT, ROCHECHOUART, OULTREMONT, ROCHEFOUCAULD]
+100091745={ #            Eugénie Charlotte         de Bryas                                 (1824-1900)     3
+	name="Eugénie Charlotte de Bryas"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1824.10.22={birth=yes}  # Paris
+	1900.01.24={death=yes}  # Brussels
+}
+100082116={ # Cte        Jacques                   de Bryas                                 (1851-1915)     0
+	name="Jacques de Bryas"
+	dynasty=0
+	religion=catholic culture=frankish
+	1851.03.23={birth=yes}
+	1881.06.22={add_spouse=100065711}	# Antonine Marie de Gramont
+	1915.01.22={death=yes}
+}
+100082117={ # Cte        Charles Auguste           de Bryas                                 (1884-1961)     0
+	name="Charles Auguste de Bryas"
+	dynasty=0
+	religion=catholic culture=frankish
+	1884.08.02={birth=yes}  # Château de_Mauvières
+	1923.06.28={add_spouse=100067453}	# Hélène Thérèse de La Rochefoucauld
+	1961.04.15={death=yes}  # Bryas
+}
+100082115={ # Cte        Jacques Emmanuel          de Bryas                                 (1936-2008)     0
+	name="Jacques Emmanuel de Bryas"
+	dynasty=0
+	religion=catholic culture=frankish
+	1936.01.01={birth=yes}
+	1960.03.14={add_spouse=100067526}	# Anne Marie de Rohan-Chabot
+	2008.03.17={death=yes}
+}
+100098517={ #            Ferdinand Alexandre       de Bryas Desmiers d'Archiac              (1895-1958)     0
+	name="Ferdinand Alexandre de Bryas Desmiers d'Archiac"
+	dynasty=0
+	religion=catholic culture=frankish
+	1895.02.10={birth=yes}  # Saint Forget
+	1931.07.15={add_spouse=100068955}	# Jeanne de Rochechouart-Mortemart
+	1958.07.18={death=yes}  # Paris
+}
+
+#[MERODE, ROCHECHOUART, COSSE, OULTREMONT]
+100098438={ # Cte        Ernest Louis              Budes de Guébriant                       (1814-1889)     0
+	name="Ernest Louis Budes de Guébriant"
+	dynasty=0
+	religion=catholic culture=frankish
+	1814.01.01={birth=yes}
+	1839.01.19={add_spouse=100068848}	# Cécile Victurnienne de Rochechouart-Mortemart
+	1889.01.01={death=yes}
+}
+100084355={ #            Geoffroy                  Budes de Guébriant                       (1912-1989)     0
+	name="Geoffroy Budes de Guébriant"
+	dynasty=0
+	religion=catholic culture=frankish
+	1912.06.17={birth=yes}  # Paris
+	1946.05.08={add_spouse=100066297}	# Pauline de Merode
+	1989.09.08={death=yes}  # Westerloo
+}
+100081052={ #            Alyette Jeanne            Budes de Guébriant                       (1931-2011)     3
+	name="Alyette Jeanne Budes de Guébriant"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1931.08.06={birth=yes}
+	2011.01.01={death=yes}	# EST.
+}
+100084253={ #            Elisabeth                 Budes de Guébriant                       (1947-2000)     6
+	name="Elisabeth Budes de Guébriant"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1947.07.04={birth=yes}  # Saint_Martin_des_Champs
+	2000.03.01={death=yes}  # Brussels
+}
+100084252={ #            Jeanne-Marie              Budes de Guébriant                       (1952-    )     3
+	name="Jeanne-Marie Budes de Guébriant"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1952.05.03={birth=yes}
 }
 
 #[LIGNE, MERODE, MURAT, ROCHEFOUCAULD]
@@ -2446,47 +2578,6 @@
 	1767.06.16={death=yes}
 }
 
-#[ARENBERG, MERODE, BROGLIE, HARCOURT]
-100097982={ #            Gabrielle                 de Laguiche                              (1856-1947)    10
-	name="Gabrielle de Laguiche"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1856.05.06={birth=yes}  # Paris
-	1947.05.05={death=yes}  # Paris
-}
-100082503={ # Marquis    Pierre Adolphe            de Laguiche                              (1859-1940)     0
-	name="Pierre Adolphe de Laguiche"
-	dynasty=0
-	religion=catholic culture=german
-	1859.06.15={birth=yes}
-	1888.06.02={add_spouse=100000214}	# Alix Jeanne v. Arenberg
-	1940.03.12={death=yes}
-}
-100082504={ # Cte        Bernard Philibert         de Laguiche                              (1894-1972)     0
-	name="Bernard Philibert de Laguiche"
-	dynasty=0
-	religion=catholic culture=frankish
-	1894.03.10={birth=yes}
-	1922.06.01={add_spouse=100065204}	# Clotilde Augustine de Broglie
-	1972.06.20={death=yes}
-}
-100093004={ #            Marguerite                de Laguiche                              (1895-1988)     0
-	name="Marguerite de Laguiche"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1895.05.08={birth=yes}  # Paris
-	1988.07.10={death=yes}  # Westerloo
-}
-100098133={ # Cte        Eric                      de Laguiche                              (1962-    )     0
-	name="Eric de Laguiche"
-	dynasty=0
-	religion=catholic culture=frankish
-	1962.04.25={birth=yes}  # Neuilly
-	1989.04.21={add_spouse=100068690}	# Marie d'Harcourt
-}
-
 #[POTOCKI, LANNOY, URSEL, OULTREMONT]
 100082640={ #            Hadelin Charles           de Meeûs d'Argenteuil                    (1904-1993)     0
 	name="Hadelin Charles de Meeûs d'Argenteuil"
@@ -2530,7 +2621,7 @@
 
 #[ROHAN, GRAMONT, RIQUET, NOAILLES, HARCOURT]
 100098165={ # Cte        Eugène                    de Montesquiou-Fézensac                  (1782-1810)     0
-	name="Eugène de Montesquiou-Fésensac"
+	name="Eugène de Montesquiou-Fézensac"
 	dynasty=0
 	religion=catholic culture=frankish
 	1782.08.15={birth=yes}
@@ -2538,7 +2629,7 @@
 	1810.12.12={death=yes}
 }
 100068262={ #            Joséphine Anatole         de Montesquiou-Fézensac                  (1834-1884)     6
-	name="Joséphine Anatole de Montesquiou-Fezensac"
+	name="Joséphine Anatole de Montesquiou-Fézensac"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
@@ -2568,56 +2659,6 @@
 	religion=catholic culture=frankish
 	1853.03.13={birth=yes}
 	1933.01.01={death=yes}	# EST.
-}
-
-#[ROHAN, GRAMONT, MECKLENBURG, LANNOY, ROCHEFOUCAULD]
-100082686={ #            Isabelle                  de Montmorency                           (1627-1695)     0
-	name="Isabelle de Montmorency"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1627.01.01={birth=yes}
-	1695.01.24={death=yes}
-}
-100082688={ # Pr         Anne Louis                de Montmorency                           (1736-1812)     0
-	name="Anne Louis de Montmorency"
-	dynasty=0
-	religion=catholic culture=frankish
-	1736.01.01={birth=yes}
-	1761.01.01={add_spouse=100067127}	# Emilie Alexandrine de La Rochefoucauld
-	1812.10.19={death=yes}
-}
-100096048={ # Duc        Anne Henri                de Montmorency                           (1768-1799)     0
-	name="Anne Henri de Montmorency"
-	dynasty=0
-	religion=catholic culture=frankish
-	1768.01.01={birth=yes}
-	1793.10.21={add_spouse=100065940}	# Marie de Lannoy
-	1799.10.01={death=yes}
-}
-100082687={ #            Anne Louise               de Montmorency                           (1771-1828)     6
-	name="Anne Louise de Montmorency"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1771.07.08={birth=yes}
-	1828.11.20={death=yes}
-}
-100082689={ #            Claude                    de Montmorency-Bouteville                (1593-1652)     5
-	name="Claude de Montmorency-Bouteville"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1593.01.01={birth=yes}
-	1652.04.03={death=yes}
-}
-100098192={ # Gf         Máté                      de Montmorency-Marisco                   (1838-1913)     0
-	name="Máté Montmorency-Marisco"
-	dynasty=0
-	religion=catholic culture=hungarian
-	1838.01.01={birth=yes}
-	1863.06.16={add_spouse=100116333}	# Kata Lónyay de Nagylónya et Vásárosnamény
-	1913.01.01={death=yes}
 }
 
 #[ROHAN, URSEL, HARCOURT]
@@ -2704,47 +2745,6 @@
 	1842.08.04={death=yes}  # Brussels
 }
 
-#[LIGNE, MERODE, LANNOY, URSEL, LIMBURG]
-100082818={ # Css        Claire Bernardine         de Renesse                               (1899-1976)     4
-	name="Claire Bernardine de Renesse"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1899.09.26={birth=yes}
-	1976.12.12={death=yes}
-}
-100093881={ # Cte        Christian                 de Renesse                               (1914-1992)     0
-	name="Christian de Renesse"
-	dynasty=0
-	religion=catholic culture=frankish
-	1914.06.10={birth=yes}  # Oostmalle
-	1944.06.12={add_spouse=100066282}	# Philippine de Merode
-	1969.01.01={remove_spouse=100066282}
-	1992.01.01={death=yes}
-}
-100082816={ # Cte        Guy                       de Renesse                               (1926-1987)     0
-	name="Guy de Renesse"
-	dynasty=0
-	religion=lutheran culture=dutch
-	1926.11.26={birth=yes}
-	1954.07.10={add_spouse=100037655}	# Elisabeth Louise van Limburg Stirum
-	1987.03.07={death=yes}
-}
-100082817={ # Css        Régine                    de Renesse                               (1955-    )     3
-	name="Régine de Renesse"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1955.06.06={birth=yes}
-}
-100091436={ # Cte        Jean                      de Renesse                               (1959-    )     0
-	name="Jean de Renesse"
-	dynasty=0
-	religion=catholic culture=frankish
-	1959.01.01={birth=yes}
-	1987.01.01={add_spouse=100065820}	# Amélie de Lannoy
-}
-
 #[KINSKY, HABSBURG, FESTETICS]
 100086140={ # Gf         Olivier                   Rességuier de Miremont                   (1837-1916)     0
 	name="Olivier Rességuier de Miremont"
@@ -2784,6 +2784,87 @@
 	1806.12.25={birth=yes}  # Toulouse
 	1833.02.14={add_spouse=100116901}	# Amália Festetics de Tolna
 	1887.04.29={death=yes}  # Nisko
+}
+
+#[CRUSSOL, ROHAN, CLERMONT, ROCHECHOUART]
+100098464={ # Marquis    Bonabès Jean              de Rougé                                 (1752-1783)     0
+	name="Bonabès Jean de Rougé"
+	dynasty=0
+	religion=catholic culture=frankish
+	1752.01.01={birth=yes}
+	1777.01.07={add_spouse=100068866}	# Victurnienne de Rochechouart-Mortemart
+	1783.07.09={death=yes}  # Paris
+}
+100082875={ # Marquis    Bonabes Louis             de Rougé                                 (1778-1839)     0
+	name="Bonabes Louis de Rougé"
+	dynasty=0
+	religion=catholic culture=frankish
+	1778.01.31={birth=yes}
+	1804.04.17={add_spouse=100065578}	# Alexandrine Clémentine de Crussol
+	1839.03.29={death=yes}
+}
+100082874={ # Cte        Arthur                    de Rougé                                 (1844-1913)     0
+	name="Arthur de Rougé"
+	dynasty=0
+	religion=catholic culture=frankish
+	1844.09.08={birth=yes}
+	1888.06.14={add_spouse=100067555}	# Marie Joséphine de Rohan-Chabot
+	1913.12.05={death=yes}
+}
+100082876={ # Cte        Louis-René Jacques        de Rougé                                 (1914-2002)     0
+	name="Louis-René Jacques de Rougé"
+	dynasty=0
+	religion=catholic culture=frankish
+	1914.01.07={birth=yes}
+	1947.03.26={add_spouse=100065372}	# Isabelle Jeanne de Clermont-Tonnerre
+	2002.09.08={death=yes}
+}
+100098514={ #            Marie Eugénie             de Rougé                                 (1979-    )     2
+	name="Marie Eugénie de Rougé"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1979.08.23={birth=yes}  # Paris
+}
+
+#[ROCHECHOUART, URSEL, NOAILLES, ROCHEFOUCAULD, HARCOURT]
+100083042={ # Marquis    Wilfried                  de Virieu                                (1860-1922)     0
+	name="Wilfried de Virieu"
+	dynasty=0
+	religion=catholic culture=frankish
+	1860.12.28={birth=yes}
+	1886.07.02={add_spouse=100066497}	# Elisabeth de Noailles
+	1922.03.31={death=yes}
+}
+100083041={ # Marquis    Marie Guillaume           de Virieu                                (1861-1929)     0
+	name="Marie Guillaume de Virieu"
+	dynasty=0
+	religion=catholic culture=frankish
+	1861.10.21={birth=yes}
+	1896.05.21={add_spouse=100067713}	# Caroline Chantal d’Ursel
+	1929.07.22={death=yes}
+}
+100083043={ # Cte        Wilfrid Charles           de Virieu                                (1936-2013)     0
+	name="Wilfrid Charles de Virieu"
+	dynasty=0
+	religion=catholic culture=frankish
+	1936.01.28={birth=yes}
+	1964.04.25={add_spouse=100067347}	# Elisabeth Louise de La Rochefoucauld
+	2013.01.01={death=yes}  # EST.
+}
+100098513={ #            Emmanuella                de Virieu                                (1948-    )     3
+	name="Emmanuella de Virieu"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1948.07.25={birth=yes}  # Paris
+}
+100098141={ #            Caroline                  de Virieu                                (1967-    )     4
+	name="Caroline de Virieu"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1967.03.15={birth=yes}  # Boulogne-Billancourt
 }
 
 #[URSEL, OULTREMONT]
@@ -2938,40 +3019,6 @@
 	2007.01.01={death=yes}  # EST.
 }
 
-#[GRAMONT, RIQUET, NOAILLES, HARCOURT]
-100068177={ # Pss        Gabrielle Françoise       de Beauvau                               (1708-1758)     4
-	name="Gabrielle Françoise de Beauvau"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1708.07.30={birth=yes}  # Lunéville
-	1758.07.22={death=yes}
-}
-100082038={ # Pss        Anne                      de Beauvau-Craon                         (1750-1834)     2
-	name="Anne de Beauvau-Craon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1750.04.01={birth=yes}
-	1834.11.20={death=yes}
-}
-100082039={ #            Isabelle                  de Beauvau-Craon                         (1852-1875)     1
-	name="Isabelle de Beauvau-Craon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1852.11.13={birth=yes}
-	1875.04.27={death=yes}
-}
-100090543={ # Pss        Henriette                 de Beauvau-Craon                         (1876-1931)     1
-	name="Henriette de Beauvau-Craon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1876.07.03={birth=yes}  # Seine-Port
-	1931.06.23={death=yes}  # Paris
-}
-
 #[GRAMONT, URSEL, ROCHEFOUCAULD]
 100082130={ #            Marguerite Louise         de Béthune                               (1643-1726)     0
 	name="Marguerite Louise de Béthune"
@@ -3073,38 +3120,37 @@
 	1769.01.01={death=yes}
 }
 
-#[ROHAN, GRAMONT, OULTREMONT, ROCHEFOUCAULD]
-100091745={ #            Eugénie Charlotte         de Bryas                                 (1824-1900)     3
-	name="Eugénie Charlotte de Bryas"
-	female=yes
+#[BROGLIE, CROY, ROCHECHOUART, HARCOURT]
+100082113={ # Cte        Charles                   de Bruce                                 (1862-1946)     0
+	name="Charles de Bruce"
 	dynasty=0
-	religion=catholic culture=frankish
-	1824.10.22={birth=yes}  # Paris
-	1900.01.24={death=yes}  # Brussels
+	religion=catholic culture=german
+	1862.03.30={birth=yes}
+	1889.02.11={add_spouse=100000696}	# Elisabeth de Croÿ
+	1946.01.09={death=yes}
 }
-100082116={ # Cte        Jacques                   de Bryas                                 (1851-1915)     0
-	name="Jacques de Bryas"
+100098474={ # Cte        Charles Edouard           de Bruce                                 (1933-2010)     0
+	name="Charles Edouard de Bruce"
 	dynasty=0
 	religion=catholic culture=frankish
-	1851.03.23={birth=yes}
-	1881.06.22={add_spouse=100065711}	# Antonine Marie de Gramont
-	1915.01.22={death=yes}
+	1933.07.04={birth=yes}  # Paris
+	1962.09.08={add_spouse=100068893}	# Sylviane de Rochechouart-Mortemart
+	2010.01.01={death=yes}  # EST.
 }
-100082117={ # Cte        Charles Auguste           de Bryas                                 (1884-1961)     0
-	name="Charles Auguste de Bryas"
+100097831={ # Cte        Edouard                   de Bruce                                 (1957-    )     0
+	name="Edouard de Bruce"
 	dynasty=0
 	religion=catholic culture=frankish
-	1884.08.02={birth=yes}  # Château de_Mauvières
-	1923.06.28={add_spouse=100067453}	# Hélène Thérèse de La Rochefoucauld
-	1961.04.15={death=yes}  # Bryas
+	1957.03.19={birth=yes}
+	1987.10.31={add_spouse=100068511}	# Solange d'Harcourt
 }
-100082115={ # Cte        Jacques Emmanuel          de Bryas                                 (1936-2008)     0
-	name="Jacques Emmanuel de Bryas"
+100082114={ #            Richard Marie             de Bruce                                 (1961-    )     0
+	name="Richard Marie de Bruce"
 	dynasty=0
 	religion=catholic culture=frankish
-	1936.01.01={birth=yes}
-	1960.03.14={add_spouse=100067526}	# Anne Marie de Rohan-Chabot
-	2008.03.17={death=yes}
+	1961.05.26={birth=yes}
+	1986.02.28={add_spouse=100065213}	# Anne-Louise de Broglie
+	1988.05.10={remove_spouse=100065213}
 }
 
 #[ORLEANS, BOURBON, SACHSEN]
@@ -3140,13 +3186,14 @@
 	1990.01.01={death=yes}
 }
 
-#[CROY, LANNOY, OULTREMONT]
-100087268={ # Vcte       Tanneguy                  Le Gentil                                (1927-1992)     0
-	name="Tanneguy Le Gentil"
+#[CROY, ROCHECHOUART, LANNOY, OULTREMONT]
+100087268={ # Vcte       Tanguy                    Le Gentil de Rosmorduc                   (1927-1992)  2  0
+	name="Tanguy Le Gentil de Rosmorduc"
 	dynasty=0
 	religion=catholic culture=german
 	1927.11.12={birth=yes}
 	1957.11.09={add_spouse=100000882}	# Sophia Magdalena de Croÿ
+	1975.06.27={add_spouse=100068892}	# Gabrielle de Rochechouart-Mortemart
 	1992.10.16={death=yes}
 }
 100095023={ #            Thibaut                   Le Gentil de Rosmorduc                   (1969-    )     0
@@ -3164,8 +3211,8 @@
 	1925.10.27={add_spouse=100065848}	# Marie Marthe de Lannoy
 	1949.01.09={death=yes}  # Brussels
 }
-100092452={ # Vcte       Tanguy                    le Gentil                                (1892-1977)     0
-	name="Tanguy le Gentil"
+100092452={ # Vcte       Tanguy                    le Gentil de Rosmorduc                   (1892-1977)     0
+	name="Tanguy le Gentil de Rosmorduc"
 	dynasty=0
 	religion=catholic culture=frankish
 	1892.11.23={birth=yes}  # Tremel
@@ -3309,6 +3356,38 @@
 	1733.01.01={death=yes}  # EST.
 }
 
+#[MERODE, ROCHECHOUART, MURAT, ROCHEFOUCAULD]
+100093514={ # Cte        Charles                   de Montalambert                          (1811-1870)     0
+	name="Charles de Montalambert"
+	dynasty=0
+	religion=catholic culture=frankish
+	1811.01.01={birth=yes}
+	1836.08.16={add_spouse=100066323}	# Marie Anne de Merode
+	1870.03.13={death=yes}
+}
+100082674={ #            Marguerite Berthe Odette  de Montalambert                          (1930-2015)     4
+	name="Marguerite Berthe Odette de Montalambert"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1930.11.12={birth=yes}  # château d'Anappes
+	2015.01.08={death=yes}
+}
+100082673={ # Cte        Thierry Emmanuel          de Montalambert                          (1949-    )     0
+	name="Thierry Emmanuel de Montalambert"
+	dynasty=0
+	religion=catholic culture=frankish
+	1949.09.07={birth=yes}
+	1988.07.16={add_spouse=100066387}	# Laura Marguerite Murat
+}
+100098510={ # Cte        Pierre Jean               de Montalambert                          (1953-    )     0
+	name="Pierre Jean de Montalambert"
+	dynasty=0
+	religion=catholic culture=frankish
+	1953.11.09={birth=yes}  # Paris
+	1986.06.22={add_spouse=100068940}	# Philippine de Rochechouart-Mortemart
+}
+
 #[RIQUET, BROGLIE]
 100068246={ # Marquis    Jacques Thomas            de Pange                                 (1770-1850)     0
 	name="Jacques Thomas de Pange"
@@ -3374,6 +3453,40 @@
 	religion=catholic culture=frankish
 	1949.11.06={birth=yes}
 	1985.06.07={add_spouse=100065247}	# Ségolène Geneviève de Broglie
+}
+
+#[GRAMONT, ROCHECHOUART, HABSBURG, ROCHEFOUCAULD]
+100082968={ #            Marie Sophie              de Ségur                                 (1824-1903)     3
+	name="Marie Sophie de Ségur"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1824.02.12={birth=yes}
+	1903.11.01={death=yes}
+}
+100082969={ #            Juliette                  de Ségur                                 (1835-1905)     5
+	name="Juliette de Ségur"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1835.05.19={birth=yes}  # Paris
+	1905.09.27={death=yes}  # Combruex
+}
+100098519={ # Marquis    Gaston                    de Ségur                                 (1878-1918)     0
+	name="Gaston de Ségur"
+	dynasty=0
+	religion=catholic culture=frankish
+	1878.08.19={birth=yes}
+	1902.10.29={add_spouse=100068957}	# Alix de Rochechouart-Mortemart
+	1904.01.01={remove_spouse=100068957}
+	1918.04.07={death=yes}  # Paris
+}
+100090808={ # Gf         Nikolaus                  de Ségur-Eltz                            (1963-    )     0
+	name="Nikolaus de Ségur-Eltz"
+	dynasty=0
+	religion=catholic culture=german
+	1963.11.19={birth=yes}
+	1996.09.14={add_spouse=100021016}	# Hemma Juliane v. Habsburg-Lothringen
 }
 
 #[LIGNE, URSEL, WETTIN, ROCHEFOUCAULD]
@@ -3442,72 +3555,6 @@
 	1922.01.01={birth=yes}
 	1947.04.21={add_spouse=100068624}	# Marie Thérèse d'Harcourt
 	1996.01.01={death=yes}
-}
-
-#[URSEL, NOAILLES, ROCHEFOUCAULD, HARCOURT]
-100083042={ # Marquis    Wilfried                  de Virieu                                (1860-1922)     0
-	name="Wilfried de Virieu"
-	dynasty=0
-	religion=catholic culture=frankish
-	1860.12.28={birth=yes}
-	1886.07.02={add_spouse=100066497}	# Elisabeth de Noailles
-	1922.03.31={death=yes}
-}
-100083041={ # Marquis    Marie Guillaume           de Virieu                                (1861-1929)     0
-	name="Marie Guillaume de Virieu"
-	dynasty=0
-	religion=catholic culture=frankish
-	1861.10.21={birth=yes}
-	1896.05.21={add_spouse=100067713}	# Caroline Chantal d’Ursel
-	1929.07.22={death=yes}
-}
-100083043={ # Cte        Wilfrid Charles           de Virieu                                (1936-2013)     0
-	name="Wilfrid Charles de Virieu"
-	dynasty=0
-	religion=catholic culture=frankish
-	1936.01.28={birth=yes}
-	1964.04.25={add_spouse=100067347}	# Elisabeth Louise de La Rochefoucauld
-	2013.01.01={death=yes}  # EST.
-}
-100098141={ #            Caroline                  de Virieu                                (1967-    )     4
-	name="Caroline de Virieu"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1967.03.15={birth=yes}  # Boulogne-Billancourt
-}
-
-#[MERODE, COSSE, OULTREMONT]
-100084355={ #            Geoffroy                  Budes de Guébriant                       (1912-1989)     0
-	name="Geoffroy Budes de Guébriant"
-	dynasty=0
-	religion=catholic culture=frankish
-	1912.06.17={birth=yes}  # Paris
-	1946.05.08={add_spouse=100066297}	# Pauline de Merode
-	1989.09.08={death=yes}  # Westerloo
-}
-100081052={ #            Alyette Jeanne            Budes de Guébriant                       (1931-2011)     3
-	name="Alyette Jeanne Budes de Guébriant"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1931.08.06={birth=yes}
-	2011.01.01={death=yes}	# EST.
-}
-100084253={ #            Elisabeth                 Budes de Guébriant                       (1947-2000)     6
-	name="Elisabeth Budes de Guébriant"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1947.07.04={birth=yes}  # Saint_Martin_des_Champs
-	2000.03.01={death=yes}  # Brussels
-}
-100084252={ #            Jeanne-Marie              Budes de Guébriant                       (1952-    )     3
-	name="Jeanne-Marie Budes de Guébriant"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1952.05.03={birth=yes}
 }
 
 #[LANNOY, URSEL, OULTREMONT, LIMBURG]
@@ -3777,31 +3824,6 @@
 	1981.04.14={death=yes}  # Erbisoeul
 }
 
-#[BROGLIE, CROY, HARCOURT]
-100082113={ # Cte        Charles                   de Bruce                                 (1862-1946)     0
-	name="Charles de Bruce"
-	dynasty=0
-	religion=catholic culture=german
-	1862.03.30={birth=yes}
-	1889.02.11={add_spouse=100000696}	# Elisabeth de Croÿ
-	1946.01.09={death=yes}
-}
-100097831={ # Cte        Edouard                   de Bruce                                 (1957-    )     0
-	name="Edouard de Bruce"
-	dynasty=0
-	religion=catholic culture=frankish
-	1957.03.19={birth=yes}
-	1987.10.31={add_spouse=100068511}	# Solange d'Harcourt
-}
-100082114={ #            Richard Marie             de Bruce                                 (1961-    )     0
-	name="Richard Marie de Bruce"
-	dynasty=0
-	religion=catholic culture=frankish
-	1961.05.26={birth=yes}
-	1986.02.28={add_spouse=100065213}	# Anne-Louise de Broglie
-	1988.05.10={remove_spouse=100065213}
-}
-
 #[COLONNA, TRAUTTMANSDORFF, ROCHEFOUCAULD]
 100082166={ # Marquis    Jacques Dominique         de Castelbajac                           (1799-1864)     0
 	name="Jacques Dominique de Castelbajac"
@@ -3825,6 +3847,32 @@
 	religion=catholic culture=frankish
 	1980.07.07={birth=yes}
 	2008.09.27={add_spouse=100023353}	# Stephanie v. Trauttmansdorff-Weinsberg
+}
+
+#[ROCHECHOUART, DOLGORUKOV]
+100097322={ #            Marie Anne                Colbert                                  (1659-1750)     4
+	name="Marie Anne Colbert"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1659.01.01={birth=yes}
+	1750.02.13={death=yes}  # St-Denis
+}
+100098284={ #            Marie Magdelne            Colbert de Blainville                    (1686-1746)     1
+	name="Marie Magdelne Colbert de Blainville"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1686.01.01={birth=yes}
+	1746.06.04={death=yes}
+}
+100082236={ # Cte        Jean                      de Colbert-Turgis                        (1899-1978)     0
+	name="Jean de Colbert-Turgis"
+	dynasty=0
+	religion=orthodox culture=russian
+	1899.08.15={birth=yes}
+	1924.06.11={add_spouse=100015325}	# Maria Dolgorukov
+	1978.01.15={death=yes}  # Meudon
 }
 
 #[BOURBON, WITTELSBACH]
@@ -3851,6 +3899,31 @@
 	religion=catholic culture=frankish
 	1676.01.01={birth=yes}
 	1753.01.01={death=yes}
+}
+
+#[URSEL, OULTREMONT]
+100081644={ # Cte        François Philippe         Cornet d'Elzius de Peissant              (1958-    )     0
+	name="François Philippe Cornet d'Elzius de Peissant"
+	dynasty=0
+	religion=catholic culture=frankish
+	1958.06.29={birth=yes}
+	1984.09.08={add_spouse=100067981}	# Dominique Eliane d’Ursel
+}
+100087922={ # Cte        Jean Gustave              Cornet d'Elzius du Chenoy                (1888-1961)     0
+	name="Jean Gustave Cornet d'Elzius du Chenoy"
+	dynasty=0
+	religion=catholic culture=frankish
+	1888.04.27={birth=yes}  # Brussels
+	1912.01.09={add_spouse=100066981}	# Cécile d’Oultremont
+	1961.12.30={death=yes}  # Pailhe
+}
+100081643={ # Cte        Louis                     Cornet d'Elzius du Chenoy                (1928-2011)     0
+	name="Louis Cornet d'Elzius du Chenoy"
+	dynasty=0
+	religion=catholic culture=frankish
+	1928.02.29={birth=yes}
+	1960.01.09={add_spouse=100067748}	# Colette d’Ursel
+	2011.11.11={death=yes}
 }
 
 #[GRAMONT, URSEL, OULTREMONT]
@@ -3980,6 +4053,32 @@
 	religion=catholic culture=german
 	1970.08.07={birth=yes}
 	2007.11.03={add_spouse=100006933}	# Lavinia v. Waldburg zu Wolfegg u.Waldsee
+}
+
+#[LUBOMIRSKI, BROGLIE, ALBERT, COSSE]
+100087187={ # Cte        René                      Lannes de Montebello                     (1845-1925)     0
+	name="René Lannes de Montebello"
+	dynasty=0
+	religion=catholic culture=polish
+	1845.09.13={birth=yes}
+	1875.11.04={add_spouse=100111209}	# Maria Lubomirski
+	1925.12.27={death=yes}
+}
+100168116={ # Duc        Napoléon                  Lannes de Montebello                     (1903-1988)  2  0
+	name="Napoléon Lannes de Montebello"
+	dynasty=0
+	religion=catholic culture=frankish
+	1903.03.05={birth=yes}
+	1925.04.15={add_spouse=100068115}	# Marie d'Albert
+	1930.06.02={add_spouse=100065150}	# Diane de Broglie
+	1988.05.22={death=yes}
+}
+100068116={ #            Cécile                    Lannes de Montebello                     (1971-    )     4
+	name="Cécile Lannes de Montebello"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1971.12.22={birth=yes}
 }
 
 #[MERODE, CROY, COSSE]
@@ -4210,29 +4309,55 @@
 	1898.06.09={death=yes}  # Ixelles
 }
 
-#[MERODE, MURAT, ROCHEFOUCAULD]
-100093514={ # Cte        Charles                   de Montalambert                          (1811-1870)     0
-	name="Charles de Montalambert"
+#[CAUMONT, CROY, ROCHECHOUART]
+100084535={ # Marquis    Fortunat Guigues          de Moreton                               (1828-1900)     0
+	name="Fortunat Guigues de Moreton"
+	female=yes
 	dynasty=0
-	religion=catholic culture=frankish
-	1811.01.01={birth=yes}
-	1836.08.16={add_spouse=100066323}	# Marie Anne de Merode
-	1870.03.13={death=yes}
+	religion=catholic culture=german
+	1828.09.11={birth=yes}
+	1900.02.18={death=yes}
 }
-100082674={ #            Marguerite Berthe Odette  de Montalambert                          (1930-2015)     4
-	name="Marguerite Berthe Odette de Montalambert"
+100095988={ #            Anne                      de Moreton de Chabrillan                 (1894-1983)     3
+	name="Anne de Moreton de Chabrillan"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1930.11.12={birth=yes}  # château d'Anappes
-	2015.01.08={death=yes}
+	1894.08.15={birth=yes}  # Paris
+	1983.02.05={death=yes}  # Neuilly
 }
-100082673={ # Cte        Thierry Emmanuel          de Montalambert                          (1949-    )     0
-	name="Thierry Emmanuel de Montalambert"
+100098488={ #            Fortunée Ghislaine        de Moreton de Chabrillan                 (1897-1938)     0
+	name="Fortunée Ghislaine de Moreton de Chabrillan"
+	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1949.09.07={birth=yes}
-	1988.07.16={add_spouse=100066387}	# Laura Marguerite Murat
+	1897.08.25={birth=yes}  # Paris
+	1938.12.09={death=yes}  # château de_Meillant
+}
+
+#[BEAUFORT, ROCHECHOUART, HARCOURT]
+100082679={ # Cte        Charles                   Mouchet                                  (1812-1876)     0
+	name="Charles Mouchet"
+	dynasty=0
+	religion=catholic culture=frankish
+	1812.01.01={birth=yes}
+	1836.07.05={add_spouse=100068369}	# Marie Hermenegilde de Beaufort-Spontin
+	1876.01.01={death=yes}
+}
+100094188={ #            Anne                      Mouchet de Battefort de Laubespin        (1937-2015)     4
+	name="Anne Mouchet de Battefort de Laubespin"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1937.07.28={birth=yes}  # Boulogne-Billancourt
+	2015.12.28={death=yes}  # Mondouzil
+}
+100098057={ #            Laure                     Mouchet de Battefort de Laubespin        (1959-    )     3
+	name="Laure Mouchet de Battefort de Laubespin"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1959.01.01={birth=yes}
 }
 
 #[MURAT, BONAPARTE]
@@ -4259,6 +4384,84 @@
 	religion=catholic culture=frankish
 	1878.09.09={birth=yes}
 	1936.07.19={death=yes}
+}
+
+#[BROGLIE, ROCHECHOUART, URSEL]
+100081871={ # Marquis    Joseph Marie              d'Oilliamson                             (1870-1940)     0
+	name="Joseph Marie d'Oilliamson"
+	dynasty=0
+	religion=catholic culture=frankish
+	1870.01.01={birth=yes}
+	1895.08.17={add_spouse=100065190}	# Louise de Broglie
+	1940.01.27={death=yes}
+}
+100098501={ # Cte        Elie                      d'Oilliamson                             (1889-1974)     0
+	name="Elie d'Oilliamson"
+	dynasty=0
+	religion=catholic culture=frankish
+	1889.12.07={birth=yes}  # Cannes
+	1919.12.18={add_spouse=100068925}	# Agnès de Rochechouart-Mortemart
+	1974.10.29={death=yes}  # Paris
+}
+100081870={ # Cte        Jacques Gabriel           d'Oilliamson                             (1914-2000)     0
+	name="Jacques Gabriel d'Oilliamson"
+	dynasty=0
+	religion=catholic culture=frankish
+	1914.02.04={birth=yes}
+	1946.03.21={add_spouse=100067717}	# Thérèse Antonine d’Ursel
+	2000.07.25={death=yes}
+}
+
+#[COLONNA, LANNOY]
+100086174={ #            Emma                      du Parc                                  (1843-1902)     9
+	name="Emma du Parc"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1843.07.26={birth=yes}  # Ypres
+	1902.04.27={death=yes}  # Brussels
+}
+100094278={ # Cte        Guillaume                 du Parc Locmaria                         (1901-1974)     0
+	name="Guillaume du Parc Locmaria"
+	dynasty=0
+	religion=catholic culture=frankish
+	1901.07.02={birth=yes}  # Moestroff-Bettendorf
+	1939.01.18={add_spouse=100065858}	# Jacqueline de Lannoy
+	1974.07.18={death=yes}  # Etterbeek
+}
+100083472={ # Jkvr       Sophie                    du Parc Locmaria                         (1972-    )     1
+	name="Sophie du Parc Locmaria"
+	female=yes
+	dynasty=0
+	religion=catholic culture=dutch
+	1972.01.01={birth=yes}
+}
+
+#[CRUSSOL, ROCHECHOUART, NOAILLES]
+100082759={ # Marquis    Louis                     de Pardaillan d'Antin                    (1688-1712)     0
+	name="Louis de Pardaillan d'Antin"
+	dynasty=0
+	religion=catholic culture=frankish
+	1688.07.03={birth=yes}
+	1707.01.25={add_spouse=100066574}	# Marie Victoire de Noailles
+	1712.02.05={death=yes}
+}
+100098468={ # Marquis    Henri                     de Pardaillan de Gondrin                 (1638-1701)     0
+	name="Henri de Pardaillan de Gondrin"
+	dynasty=0
+	religion=catholic culture=frankish
+	1638.01.01={birth=yes}
+	1663.01.01={add_spouse=100068871}	# Françoise Athanaise de Rochechouart-Mortemart
+	1674.01.01={remove_spouse=100068871}
+	1701.01.01={death=yes}
+}
+100082760={ #            Madeleine Julie           de Pardaillan de Gondrin                 (1731-1800)     2
+	name="Madeleine Julie de Pardaillan de Gondrin"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1731.03.20={birth=yes}
+	1800.01.01={death=yes}
 }
 
 #[ROHAN, CLERMONT, RIQUET]
@@ -4337,30 +4540,55 @@
 	1972.01.01={birth=yes}
 }
 
-#[CRUSSOL, ROHAN, CLERMONT]
-100082875={ # Marquis    Bonabes Louis             de Rougé                                 (1778-1839)     0
-	name="Bonabes Louis de Rougé"
+#[BORGHESE, ROCHEFOUCAULD, HARCOURT]
+100082843={ #            Louis                     de Rochechouart                          (1554-1590)     0
+	name="Louis de Rochechouart"
 	dynasty=0
 	religion=catholic culture=frankish
-	1778.01.31={birth=yes}
-	1804.04.17={add_spouse=100065578}	# Alexandrine Clémentine de Crussol
-	1839.03.29={death=yes}
+	1554.01.01={birth=yes}
+	1579.01.01={add_spouse=100067151}	# Marie Sylvie de La Rochefoucauld
+	1590.03.17={death=yes}
 }
-100082874={ # Cte        Arthur                    de Rougé                                 (1844-1913)     0
-	name="Arthur de Rougé"
+100082844={ # Cte        Henri                     de Rochechouart                          (1806-1835)     0
+	name="Henri de Rochechouart"
 	dynasty=0
 	religion=catholic culture=frankish
-	1844.09.08={birth=yes}
-	1888.06.14={add_spouse=100067555}	# Marie Joséphine de Rohan-Chabot
-	1913.12.05={death=yes}
+	1806.02.27={birth=yes}
+	1832.01.23={add_spouse=100070529}	# Maria Luisa Borghese
+	1835.10.17={death=yes}
 }
-100082876={ # Cte        Louis-René Jacques        de Rougé                                 (1914-2002)     0
-	name="Louis-René Jacques de Rougé"
+100097832={ # Cte        Antoine                   de Rochechouart                          (1964-    )     0
+	name="Antoine de Rochechouart"
 	dynasty=0
 	religion=catholic culture=frankish
-	1914.01.07={birth=yes}
-	1947.03.26={add_spouse=100065372}	# Isabelle Jeanne de Clermont-Tonnerre
-	2002.09.08={death=yes}
+	1964.05.15={birth=yes}  # Paris
+	1994.01.01={add_spouse=100068512}	# Ariane d'Harcourt
+}
+
+#[GRIMALDI, GRAMONT, ROCHECHOUART]
+100098298={ # Marquise   Marie Thérèse             de Rouvroy de Rouvroy                    (1722-1750)     0
+	name="Marie Thérèse de Rouvroy de Rouvroy"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1722.01.01={birth=yes}
+	1750.02.21={death=yes}  # Paris
+}
+100082898={ # Duc        Jacques Louis             de Rouvroy de Saint-Simon                (1702-1746)     0
+	name="Jacques Louis de Rouvroy de Saint-Simon"
+	dynasty=0
+	religion=catholic culture=frankish
+	1702.01.01={birth=yes}
+	1727.03.26={add_spouse=100065630}	# Catherine Charlotte de Gramont
+	1746.01.01={death=yes}
+}
+100082880={ #            Marie Christine           de Rouvroy de Saint-Simon                (1728-1774)     0
+	name="Marie Christine de Rouvroy de Saint-Simon"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1728.05.07={birth=yes}
+	1774.07.04={death=yes}
 }
 
 #[MERODE, LIECHTENSTEIN, SANGUSZKO]
@@ -4388,29 +4616,54 @@
 	1939.05.09={birth=yes}  # Paris
 }
 
-#[GRAMONT, HABSBURG, ROCHEFOUCAULD]
-100082968={ #            Marie Sophie              de Ségur                                 (1824-1903)     3
-	name="Marie Sophie de Ségur"
+#[ROCHECHOUART, NOAILLES]
+100098418={ # Cte        Edmond Albert             de Sainte-Aldegonde                      (1808-1848)     0
+	name="Edmond Albert de Sainte-Aldegonde"
+	dynasty=0
+	religion=catholic culture=frankish
+	1808.01.01={birth=yes}
+	1833.12.28={add_spouse=100068845}	# Alice de Rochechouart-Mortemart
+	1848.08.23={death=yes}
+}
+100082841={ #            Virginie                  de Sainte-Aldegonde                      (1834-1900)     6
+	name="Virginie de Sainte-Aldegonde"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1824.02.12={birth=yes}
-	1903.11.01={death=yes}
+	1834.01.01={birth=yes}  # Neauphle le Vieux 
+	1900.01.01={death=yes}	# Saint Vrain
 }
-100082969={ #            Juliette                  de Ségur                                 (1835-1905)     5
-	name="Juliette de Ségur"
+100082900={ # Cte        Auguste                   de Sainte-Suzanne                        (1859-1913)     0
+	name="Auguste de Sainte-Suzanne"
+	dynasty=0
+	religion=catholic culture=frankish
+	1859.04.07={birth=yes}
+	1913.09.23={death=yes}
+}
+
+#[CRUSSOL, ROHAN, ROCHECHOUART]
+100082974={ #            Françoise Elisabeth       de Talhouét                              (1818-1863)     5
+	name="Françoise Elisabeth de Talhouét"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
-	1835.05.19={birth=yes}  # Paris
-	1905.09.27={death=yes}  # Combruex
+	1818.02.15={birth=yes}
+	1863.01.16={death=yes}
 }
-100090808={ # Gf         Nikolaus                  de Ségur-Eltz                            (1963-    )     0
-	name="Nikolaus de Ségur-Eltz"
+100098406={ # Cte        Guy                       de Talhouët                              (1961-    )     0
+	name="Guy de Talhouët"
 	dynasty=0
-	religion=catholic culture=german
-	1963.11.19={birth=yes}
-	1996.09.14={add_spouse=100021016}	# Hemma Juliane v. Habsburg-Lothringen
+	religion=catholic culture=frankish
+	1961.04.14={birth=yes}  # Boulogne-Billancourt
+	1985.04.20={add_spouse=100068882}	# Diane de Rochechouart-Mortemart
+}
+100082975={ #            Anne Alix                 de Talhouët Roy                          (1887-1964)     4
+	name="Anne Alix de Talhouët Roy"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1887.02.22={birth=yes}
+	1964.12.07={death=yes}
 }
 
 #[GRIMALDI, NOAILLES, ROCHEFOUCAULD]
@@ -4512,6 +4765,32 @@
 	religion=catholic culture=frankish
 	1853.07.28={birth=yes}
 	1926.04.13={death=yes}
+}
+
+#[CROY, ROCHECHOUART, HARCOURT]
+100098460={ #            Marie Clémentine          de Chevigné                              (1818-1897)     1
+	name="Marie Clémentine de Chevigné"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1818.06.15={birth=yes}
+	1897.01.01={death=yes}  # 24 Oct Paris
+}
+100082208={ # Vcte       René                      de Chevigné                              (1851-1899)     0
+	name="René de Chevigné"
+	dynasty=0
+	religion=catholic culture=german
+	1851.09.13={birth=yes}
+	1887.05.26={add_spouse=100000695}	# Marie-Eléonore de Croÿ
+	1899.02.27={death=yes}
+}
+100098138={ #            Solange Louise            de Chevigné                              (1937-2014)     4
+	name="Solange Louise de Chevigné"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1937.04.14={birth=yes}
+	2014.01.01={death=yes}  # EST.
 }
 
 #[ALBERT, COSSE, HARCOURT]
@@ -4767,7 +5046,7 @@
 }
 
 #[LANNOY, OULTREMONT]
-100095012={ #            Chevalier Roger           Lagasse de Locht                         (1910-2002)     0
+100095012={ #            Roger                     Lagasse de Locht                         (1910-2002)     0
 	name="Chevalier Roger Lagasse de Locht"
 	dynasty=0
 	religion=catholic culture=frankish
@@ -4863,32 +5142,6 @@
 	religion=catholic culture=frankish
 	1950.08.12={birth=yes}
 	1977.09.03={add_spouse=100068058}	# Michèle Cécile d’Ursel
-}
-
-#[OULTREMONT]
-100095199={ # Baron      Gaston Auguste            Pycke de Peteghem                        (1859-1933)     0
-	name="Gaston Auguste Pycke de Peteghem"
-	dynasty=0
-	religion=catholic culture=frankish
-	1859.01.03={birth=yes}  # Saint Joos ten_Noode
-	1886.05.05={add_spouse=100066764}	# Isabelle d’Oultremont
-	1933.08.24={death=yes}  # Nouvelles
-}
-100095063={ # Baronne    Georgine Juliette Mare    Pycke de Peteghem                        (1887-1978)     7
-	name="Georgine Juliette Mare Pycke de Peteghem"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1887.02.25={birth=yes}  # Brussels
-	1978.03.04={death=yes}  # Mons
-}
-100094896={ # Baronne    Elisabeth Josephine       Pycke de Peteghem                        (1889-1937)     5
-	name="Elisabeth Josephine Pycke de Peteghem"
-	female=yes
-	dynasty=0
-	religion=catholic culture=dutch
-	1889.07.10={birth=yes}  # Ghent
-	1937.09.07={death=yes}  # Ostende
 }
 
 #[SOLMS, BROGLIE, GAGARIN]
@@ -4993,6 +5246,8 @@
 	name="Emmanuel Henry de Beaumanoir"
 	dynasty=0
 	religion=catholic culture=frankish
+	father=100082032	# MARQUIS Henry Charles de Beaumanoir
+	mother=100066583	# Louise de Noailles
 	1684.07.01={birth=yes}
 	1703.02.20={add_spouse=100066573}	# Marie Françoise de Noailles
 	1703.11.15={death=yes}
@@ -5011,6 +5266,22 @@
 	religion=catholic culture=frankish
 	1958.09.14={birth=yes}  # Louhans
 	1984.01.01={add_spouse=100068458}	# Armelle d'Harcourt
+}
+100097347={ #            Marie Henriette           de Beauvilliers                          (1683-1718)     3
+	name="Marie Henriette de Beauvilliers"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1683.01.01={birth=yes}
+	1718.09.04={death=yes}
+}
+100098449={ # Duc        Raymond François          de Beauvilliers de Saint Aignan          (1785-1811)     0
+	name="Raymond François de Beauvilliers de Saint Aignan"
+	dynasty=0
+	religion=catholic culture=frankish
+	1785.01.01={birth=yes}
+	1810.05.10={add_spouse=100068850}	# Emma de Rochechouart-Mortemart
+	1811.05.03={death=yes}
 }
 100082041={ # Cte        Louis Gaston              de Beauvoir du Boscol                    (1957-    )     0
 	name="Louis Gaston de Beauvoir du Boscol"
@@ -5043,6 +5314,14 @@
 	1762.02.15={birth=yes}  # Assenois
 	1831.01.19={death=yes}
 }
+100080593={ # Duc        Louis-Alexandre           Berthier                                 (1783-1815)     0
+	name="Louis-Alexandre Berthier de Neuchâtel"
+	dynasty=0
+	religion=catholic culture=german
+	1783.01.01={birth=yes}
+	1808.03.09={add_spouse=100007781}	# Maria Elisabeth v. Wittelsbach
+	1815.06.01={death=yes}  # Bamberg
+}
 100080592={ #            Malcy                     Berthier                                 (1832-1884)     3
 	name="Malcy Berthier"
 	female=yes
@@ -5051,13 +5330,13 @@
 	1832.06.22={birth=yes}
 	1884.05.17={death=yes}
 }
-100080593={ # Duc        Alexander                 Berthier de Neuchâtel                    (1783-1815)     0
-	name="Alexander Berthier de Neuchâtel"
+100083055={ # Pss        Marguerite                Berthier                                 (1887-1966)     4
+	name="Marguerite de Wagram"
+	female=yes
 	dynasty=0
-	religion=catholic culture=german
-	1783.01.01={birth=yes}
-	1808.03.09={add_spouse=100007781}	# Maria Elisabeth v. Wittelsbach
-	1815.06.01={death=yes}  # Bamberg
+	religion=catholic culture=frankish
+	1887.12.05={birth=yes}
+	1966.06.25={death=yes}
 }
 100082058={ # Cte        Henri Charles             de Beurges                               (1826-1912)     0
 	name="Henri Charles de Beurges"
@@ -5183,6 +5462,20 @@
 	1949.01.01={birth=yes}
 	1974.01.12={add_spouse=100062089}	# Caroline Mary Percy
 }
+100098349={ # Cte        Eric                      du Cauzé de Nazelle                      (1955-    )     0
+	name="Eric du Cauzé de Nazelle"
+	dynasty=0
+	religion=catholic culture=frankish
+	1955.04.24={birth=yes}  # Reims
+	1984.05.19={add_spouse=100068881}	# Isabelle de Rochechouart-Mortemart
+}
+100098123={ #            Floride                   du Cauzé de Nazelle                      (1968-    )     4
+	name="Floride du Cauzé de Nazelle"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1968.01.01={birth=yes}
+}
 100097814={ # Cte        André                     de Chabannes                             (1907-1989)     0
 	name="André de Chabannes"
 	dynasty=0
@@ -5230,6 +5523,22 @@
 	1865.10.23={add_spouse=100068735}	# Pauline d'Harcourt
 	1924.09.01={death=yes}
 }
+100082235={ # Marquis    Malo Auguste              de Coetquen                              (1678-1727)     0
+	name="Malo Auguste de Coetquen"
+	dynasty=0
+	religion=catholic culture=frankish
+	1678.06.07={birth=yes}
+	1696.11.20={add_spouse=100066479}	# Marie Charlotte de Noailles
+	1727.07.01={death=yes}
+}
+100098282={ #            Augustine                 de Coétquen                              (1722-1746)     0
+	name="Augustine de Coétquen"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1722.02.24={birth=yes}
+	1746.06.03={death=yes}
+}
 100088905={ #            Severine                  Cuvelier                                 (1990-    )     1
 	name="Severine Cuvelier"
 	female=yes
@@ -5244,6 +5553,22 @@
 	religion=catholic culture=frankish
 	1700.01.01={birth=yes}
 	1768.01.01={death=yes}  # EST.
+}
+100080618={ # Marquis    Claude Léonor             Damas de Chalencey                       (1630-1705)     0
+	name="Claude Léonor Damas de Chalencey"
+	dynasty=0
+	religion=catholic culture=frankish
+	1630.01.01={birth=yes}
+	1655.01.01={add_spouse=100068828}	# Gabrielle de Rochechouart-Mortemart
+	1705.01.01={death=yes}
+}
+100082270={ # Cte        Louis Etienne             de Damas                                 (1743-1814)     0
+	name="Louis Etienne de Damas"
+	dynasty=0
+	religion=catholic culture=frankish
+	1743.01.01={birth=yes}
+	1768.02.15={add_spouse=100065126}	# Louise Augustine de Broglie
+	1814.07.03={death=yes}
 }
 100083251={ #            Diane                     Desmier d'Archiac de Bryas               (1932-2012)     2
 	name="Diane Desmier d'Archiac de Bryas"
@@ -5370,6 +5695,22 @@
 	1766.01.01={add_spouse=100007562}	# Marie Aurore v. Wettin
 	1768.01.01={death=yes}
 }
+100081866={ # Cte        Léopold                   d'Hunolstein                             (1832-1903)     0
+	name="Léopold d'Hunolstein"
+	dynasty=0
+	religion=catholic culture=frankish
+	1832.01.01={birth=yes}
+	1857.05.16={add_spouse=100065574}	# Laure Françoise de Crussol
+	1903.09.09={death=yes}
+}
+100082842={ # Cts        Hélène                    d'Hunolstein                             (1859-1904)     1
+	name="Hélène d'Hunolstein"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1859.10.13={birth=yes}  # Paris
+	1904.03.25={death=yes}  # Cannes
+}
 100082405={ # Cte        Charles Philippe          de Jauche                                (1647-1712)     0
 	name="Charles Philippe de Jauche"
 	dynasty=0
@@ -5386,29 +5727,20 @@
 	1687.01.01={birth=yes}
 	1753.05.14={death=yes}  # Brussels
 }
-100087187={ # Cte        René                      Lannes de Montebello                     (1845-1925)     0
-	name="René Lannes de Montebello"
-	dynasty=0
-	religion=catholic culture=polish
-	1845.09.13={birth=yes}
-	1875.11.04={add_spouse=100111209}	# Maria Lubomirski
-	1925.12.27={death=yes}
-}
-100168116={ # Duc        Napoléon                  Lannes de Montebello                     (1903-1988)  2  0
-	name="Napoléon Lannes de Montebello"
+100085146={ #            Claude                    de Langle                                (1947-    )     0
+	name="Claude de Langle"
 	dynasty=0
 	religion=catholic culture=frankish
-	1903.03.05={birth=yes}
-	1925.04.15={add_spouse=100068115}	# Marie d'Albert
-	1930.06.02={add_spouse=100065150}	# Diane de Broglie
-	1988.05.22={death=yes}
+	1947.11.18={birth=yes}
+	1979.04.21={add_spouse=100085145}	# Therese Lobkowicz
 }
-100068116={ #            Cécile                    Lannes de Montebello                     (1971-    )
-	name="Cécile Lannes de Montebello"
-	female=yes
+100098520={ # Marquis    Louis                     de Langle de Langle                      (1880-1953)     0
+	name="Louis de Langle de Langle"
 	dynasty=0
 	religion=catholic culture=frankish
-	1971.12.22={birth=yes}
+	1880.01.01={birth=yes}
+	1905.07.30={add_spouse=100068957}	# Alix de Rochechouart-Mortemart
+	1953.08.28={death=yes}
 }
 100082539={ # Cte        Alain Guy                 de Leusse                                (1932-2009)     0
 	name="Alain Guy de Leusse"
@@ -5459,14 +5791,6 @@
 	1599.03.31={add_spouse=100066109}	# Marguerite de Lorraine
 	1613.08.30={death=yes}
 }
-100068324={ # Duc        Maurice                   de MacMahon                              (1903-1954)     0
-	name="Maurice de MacMahon"
-	dynasty=0
-	religion=catholic culture=frankish
-	1903.11.13={birth=yes}  # Lunéville
-	1937.08.25={add_spouse=100068323}	# Marguerite de Riquet de Caraman
-	1954.10.27={death=yes}  # Evreux
-}
 100082595={ # Duc        Marie Armand              de MacMahon                              (1855-1927)     0
 	name="Marie Armand de MacMahon"
 	dynasty=0
@@ -5474,6 +5798,14 @@
 	1855.06.10={birth=yes}
 	1896.04.22={add_spouse=100066657}	# Marguerite d’Orléans
 	1927.03.23={death=yes}
+}
+100068324={ # Duc        Maurice                   de MacMahon                              (1903-1954)     0
+	name="Maurice de MacMahon"
+	dynasty=0
+	religion=catholic culture=frankish
+	1903.11.13={birth=yes}  # Lunéville
+	1937.08.25={add_spouse=100068323}	# Marguerite de Riquet de Caraman
+	1954.10.27={death=yes}  # Evreux
 }
 100082666={ # Marquis    Charles Théodore          de Moges                                 (1773-1836)     0
 	name="Charles Théodore de Moges"
@@ -5537,53 +5869,6 @@
 	1877.06.29={add_spouse=100067555}	# Marie Joséphine de Rohan-Chabot
 	1881.01.30={death=yes}
 }
-100084535={ # Marquis    Fortunat Guigues          de Moreton                               (1828-1900)     0
-	name="Fortunat Guigues de Moreton"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1828.09.11={birth=yes}
-	1900.02.18={death=yes}
-}
-100095988={ #            Anne                      de Moreton de Chabrillan                 (1894-1983)     3
-	name="Anne de Moreton de Chabrillan"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1894.08.15={birth=yes}  # Paris
-	1983.02.05={death=yes}  # Neuilly
-}
-100082679={ # Cte        Charles                   Mouchet                                  (1812-1876)     0
-	name="Charles Mouchet"
-	dynasty=0
-	religion=catholic culture=frankish
-	1812.01.01={birth=yes}
-	1836.07.05={add_spouse=100068369}	# Marie Hermenegilde de Beaufort-Spontin
-	1876.01.01={death=yes}
-}
-100098057={ #            Laure                     Mouchet de Battefort de Laubespin        (1959-    )     3
-	name="Laure Mouchet de Battefort de Laubespin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1959.01.01={birth=yes}
-}
-100081871={ # Marquis    Joseph Marie              d'Oilliamson                             (1870-1940)     0
-	name="Joseph Marie d'Oilliamson"
-	dynasty=0
-	religion=catholic culture=frankish
-	1870.01.01={birth=yes}
-	1895.08.17={add_spouse=100065190}	# Louise de Broglie
-	1940.01.27={death=yes}
-}
-100081870={ # Cte        Jacques Gabriel           d'Oilliamson                             (1914-2000)     0
-	name="Jacques Gabriel d'Oilliamson"
-	dynasty=0
-	religion=catholic culture=frankish
-	1914.02.04={birth=yes}
-	1946.03.21={add_spouse=100067717}	# Thérèse Antonine d’Ursel
-	2000.07.25={death=yes}
-}
 100081876={ # Duc        Gaston                    d'Orléans                                (1607-1660)     0
 	name="Gaston d'Orléans"
 	female=yes
@@ -5615,22 +5900,6 @@
 	religion=lutheran culture=german
 	1977.01.01={birth=yes}
 	2002.01.01={add_spouse=100004593}	# Elisabeth Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-}
-100082759={ # Marquis    Louis                     de Pardaillan d'Antin                    (1688-1712)     0
-	name="Louis de Pardaillan d'Antin"
-	dynasty=0
-	religion=catholic culture=frankish
-	1688.07.03={birth=yes}
-	1707.01.25={add_spouse=100066574}	# Marie Victoire de Noailles
-	1712.02.05={death=yes}
-}
-100082760={ #            Madeleine Julie           de Pardaillan de Gondrin                 (1731-1800)     2
-	name="Madeleine Julie de Pardaillan de Gondrin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1731.03.20={birth=yes}
-	1800.01.01={death=yes}
 }
 100082766={ # Cte        Bertrand Guillaume        de Pechpeyrou-Comminges de Guitaut       (1876-1946)     0
 	name="Bertrand Guillaume de Pechpeyrou-Comminges de Guitaut"
@@ -5758,22 +6027,6 @@
 	dynasty=0
 	religion=catholic culture=frankish
 	1951.04.10={birth=yes}
-}
-100082898={ # Duc        Jacques Louis             de Rouvroy de Saint-Simon                (1702-1746)     0
-	name="Jacques Louis de Rouvroy de Saint-Simon"
-	dynasty=0
-	religion=catholic culture=frankish
-	1702.01.01={birth=yes}
-	1727.03.26={add_spouse=100065630}	# Catherine Charlotte de Gramont
-	1746.01.01={death=yes}
-}
-100082880={ #            Marie Christine           de Rouvroy de Saint-Simon                (1728-1774)     0
-	name="Marie Christine de Rouvroy de Saint-Simon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1728.05.07={birth=yes}
-	1774.07.04={death=yes}
 }
 100082915={ # Cte        Marie Etienne             de Sartiges                              (1884-1972)     0
 	name="Marie Etienne de Sartiges"
@@ -6086,22 +6339,6 @@
 	1827.06.16={add_spouse=100208546}	# Louise Marie de Bourbon
 	1848.03.16={death=yes}
 }
-100082208={ # Vcte       René                      de Chevigné                              (1851-1899)     0
-	name="René de Chevigné"
-	dynasty=0
-	religion=catholic culture=german
-	1851.09.13={birth=yes}
-	1887.05.26={add_spouse=100000695}	# Marie-Eléonore de Croÿ
-	1899.02.27={death=yes}
-}
-100098138={ #            Solange Louise            de Chevigné                              (1937-2014)     4
-	name="Solange Louise de Chevigné"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1937.04.14={birth=yes}
-	2014.01.01={death=yes}  # EST.
-}
 100082209={ #            Chantal                   de Chevron-Villette                      (1925-2005)     3
 	name="Chantal de Chevron-Villette"
 	female=yes
@@ -6334,6 +6571,21 @@
 	religion=catholic culture=frankish
 	1961.01.01={birth=yes}
 }
+100081863={ # Vcte       Georges Marie             d'Hennezel                               (1879-1962)     0
+	name="Georges Marie d'Hennezel"
+	dynasty=0
+	religion=catholic culture=frankish
+	1879.04.12={birth=yes}
+	1926.02.02={add_spouse=100067952}	# Louise Marie d’Ursel
+	1962.02.28={death=yes}
+}
+100098198={ # Baron      Guillaume                 de Hennezel d’Ormois                     (1942-    )     0
+	name="Guillaume de Hennezel d’Ormois"
+	dynasty=0
+	religion=catholic culture=frankish
+	1942.04.03={birth=yes}  # Neuilly-sur-Seine
+	1966.03.05={add_spouse=100136171}	# Katalin Jankovich de Pribér et Vuchin
+}
 100082409={ #            Monique Antoinette        de Kerchove d'Exaerde Borluut            (1916-2011)     5
 	name="Monique Antoinette de Kerchove d'Exaerde Borluut"
 	female=yes
@@ -6518,20 +6770,6 @@
 	religion=catholic culture=frankish
 	1983.01.01={birth=yes}
 }
-100082763={ # Frhr       Pierre Gilbert            de Paule                                 (1945-    )     0
-	name="Pierre Gilbert de Paule"
-	dynasty=0
-	religion=catholic culture=frankish
-	1945.07.14={birth=yes}
-	1975.06.07={add_spouse=100067435}	# Chantal de La Rochefoucauld
-}
-100082764={ #            Anne-Louise Chantal       de Paule de Vogüé                        (1970-    )     4
-	name="Anne-Louise Chantal de Paule de Vogüé"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1970.05.29={birth=yes}
-}
 100093675={ # Baron      Pascal                    de Pélichy                               (1957-    )     0
 	name="Pascal de Pélichy"
 	dynasty=0
@@ -6545,6 +6783,21 @@
 	dynasty=0
 	religion=catholic culture=frankish
 	1982.11.26={birth=yes}
+}
+100082803={ #            Marie Jeanne Radegonde    de Pérusse des Cars                      (1860-1928)     2
+	name="Marie Jeanne Radegonde de Pérusse des Cars"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1860.11.14={birth=yes}
+	1928.10.20={death=yes}
+}
+100098492={ #            Brigitte Augustine        de Pérusse des Cars                      (1943-    )     2
+	name="Brigitte Augustine de Pérusse des Cars"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1943.10.29={birth=yes}
 }
 100089007={ #            Martine Béatrice          Piat                                     (1951-    )     2
 	name="Martine Béatrice Piat"
@@ -6560,6 +6813,21 @@
 	religion=catholic culture=frankish
 	1862.08.12={birth=yes}
 	1896.12.24={death=yes}
+}
+100098457={ #            Diane                     Picot de Moras d'Aligny d'Assignies      (1966-    )     4
+	name="Diane Picot de Moras d'Aligny d'Assignies"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1966.12.16={birth=yes}  # Paris
+}
+100097942={ # Vcte       Henri                     Picot de Vaulogé                         (1879-1916)     0
+	name="Henri Picot de Vaulogé"
+	dynasty=0
+	religion=catholic culture=frankish
+	1879.04.15={birth=yes}  # Paris
+	1911.07.11={add_spouse=100068563}	# Amélie d'Harcourt
+	1916.12.17={death=yes}  # Paris
 }
 100098013={ #            Généviève                 des Réaulx                               (1888-1963)     5
 	name="Généviève des Réaulx"
@@ -6716,22 +6984,6 @@
 	1946.04.29={add_spouse=100068691}	# Nicole d'Harcourt
 	1992.01.01={death=yes}
 }
-100082974={ #            Françoise Elisabeth       de Talhouét                              (1818-1863)     5
-	name="Françoise Elisabeth de Talhouét"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1818.02.15={birth=yes}
-	1863.01.16={death=yes}
-}
-100082975={ #            Anne Alix                 de Talhouët Roy                          (1887-1964)     4
-	name="Anne Alix de Talhouët Roy"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1887.02.22={birth=yes}
-	1964.12.07={death=yes}
-}
 100090847={ #            Joséphine                 Tascher de la Pagerie                    (1763-1814)  2  2
 	name="Joséphine Tascher de la Pagerie"
 	female=yes
@@ -6856,7 +7108,7 @@
 	1958.12.02={birth=yes}
 	1981.09.26={add_spouse=100066794}	# Dominique d’Oultremont
 }
-#[CRUSSOL, BROGLIE, WALDBURG, APRAXIN, CROY, MONTAGU, ZAMOYSKI, FITZGERALD, KARAÐORÐEVIC, MOUNTBATTEN, CLERMONT, GOLIZYN, OBOLENSKY, RIQUET, SHCHERBATOV, ZICHY, WALDECK, VISCONTI, LORRAINE, ISENBURG, WETTIN, WURTTEMBERG, THURN, HARCOURT, GRIMALDI, LUBOMIRSKI, BALZO, BORBONE, URSEL, LOBKOWICZ, AUERSPERG, THUN, OULTREMONT, COSSE, REIFFERSCHEIDT, WITTELSBACH, ROHAN, WINDISCH, HOHENZOLLERN, RADZIWILL, SCHONBORN, MURAT, SWIATOPELK, MERAN, TARNOWSKI, SALTYKOV, MERODE, SOMERSET, ARENBERG, SAYN, BEAUHARNAIS, REUSS, CZERNIN, RUFFO, HABSBURG, ALBERT, BOURBON, ROSPIGLIOSI, BONAPARTE, SACHSEN, SAPIEHA, SZECHENYI, COLONNA, HESSEN, FESTETICS, KHEVENHULLER, ROCHEFOUCAULD, HOHENLOHE, GRAMONT, POTOCKI, CAUMONT, ORLEANS, JANKOVICH, LANTE, HOHENBERG, DOLGORUKOV, HENCKEL, SALM, ESTERHAZY, FURSTENBERG, NOAILLES, BOBRINSKY, ROMANOV, HOLSTEIN, KAROLYI, LIGNE, GOESS, CZARTORYSKI, LIECHTENSTEIN, KINSKY, LANNOY, IMPERIALI, TRUBETZKOY, LIMBURG]
+#[CRUSSOL, BROGLIE, WALDBURG, APRAXIN, CROY, MONTAGU, ABENSBERG, ZAMOYSKI, FITZGERALD, KARAÐORÐEVIC, MOUNTBATTEN, CLERMONT, GOLIZYN, OBOLENSKY, RIQUET, SHCHERBATOV, ZICHY, WALDECK, VISCONTI, ROCHECHOUART, LORRAINE, ISENBURG, WETTIN, WURTTEMBERG, THURN, HARCOURT, GRIMALDI, LUBOMIRSKI, BALZO, BORBONE, URSEL, LOBKOWICZ, AUERSPERG, THUN, OULTREMONT, COSSE, REIFFERSCHEIDT, WITTELSBACH, ROHAN, WINDISCH, HOHENZOLLERN, RADZIWILL, SCHONBORN, MURAT, SWIATOPELK, MERAN, TARNOWSKI, SALTYKOV, MERODE, SOMERSET, ARENBERG, SAYN, BEAUHARNAIS, REUSS, CZERNIN, RUFFO, HABSBURG, ALBERT, BOURBON, ROSPIGLIOSI, BONAPARTE, SACHSEN, SAPIEHA, SZECHENYI, COLONNA, HESSEN, FESTETICS, KHEVENHULLER, ROCHEFOUCAULD, HOHENLOHE, GRAMONT, POTOCKI, CAUMONT, ORLEANS, JANKOVICH, LANTE, HOHENBERG, DOLGORUKOV, HENCKEL, SALM, ESTERHAZY, FURSTENBERG, NOAILLES, BOBRINSKY, ROMANOV, HOLSTEIN, KAROLYI, LIGNE, GOESS, CZARTORYSKI, LIECHTENSTEIN, KINSKY, LANNOY, IMPERIALI, TRUBETZKOY, LIMBURG]
 100080221={ # Cte        Stanislaus Joseph         Armel de Rougé                           (1878-1966)     0
 	name="Stanislaus Joseph Armel de Rougé"
 	dynasty=0
@@ -6872,13 +7124,13 @@
 	religion=catholic culture=frankish
 	1951.05.10={birth=yes}
 }
-100068310={ # Pr         Georges                   Bibesco                                  (1834-1902)     0
-	name="Georges Bibesco"
+100098463={ # Duc        Gérard Louis              Berton des Balbes                        (1781-1870)     0
+	name="Gérard Louis Berton des Balbes"
 	dynasty=0
 	religion=catholic culture=frankish
-	1834.05.14={birth=yes}  # Bucharest
-	1875.10.24={add_spouse=100068308}	# Henriette Valentine de Riquet de Caraman
-	1902.05.20={death=yes}  # Constantinople
+	1781.01.01={birth=yes}
+	1806.09.15={add_spouse=100068864}	# Françoise de Rochechouart-Mortemart
+	1870.04.22={death=yes}  # Paris
 }
 100098162={ # Cte        Henri                     Bodet de Puymaigre                       (1865-1940)     0
 	name="Henri Bodet de Puymaigre"
@@ -6911,6 +7163,14 @@
 	1613.01.01={birth=yes}
 	1638.05.27={add_spouse=100067103}	# Marie Cathérine de La Rochefoucauld
 	1691.03.19={death=yes}
+}
+100098465={ # Marquis    Michel                    Chamillart de Cany                       (1683-1716)     0
+	name="Michel Chamillart de Cany"
+	dynasty=0
+	religion=catholic culture=frankish
+	1683.01.01={birth=yes}
+	1708.01.12={add_spouse=100068868}	# Marie Françoise de Rochechouart-Mortemart
+	1716.07.13={death=yes}
 }
 100081376={ # Cte        Lionel Marie              Chapdelaine de Warren                    (1920-2010)     0
 	name="Lionel Marie Chapdelaine de Warren"
@@ -6990,14 +7250,6 @@
 	religion=catholic culture=frankish
 	1948.07.06={birth=yes}
 	1971.07.22={add_spouse=100067008}	# Véronique d’Oultremont
-}
-100084297={ # Dame       Marie                     Gombault                                 (1601-1665)  0  0
-	name="Marie Gombault"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1601.01.01={birth=yes}
-	1665.01.01={death=yes}  # EST.
 }
 100082821={ # Marquis    Frédéric Albert           Guéau de Reverseaux                      (1874-1919)     0
 	name="Frédéric Albert Guéau de Reverseaux"
@@ -7130,6 +7382,15 @@
 	1904.02.07={birth=yes}
 	1932.04.07={death=yes}
 }
+100098481={ # Earl       Anthony Hugh              St.Clair-Erskine of Rosslyn              (1917-1977)     0
+	name="Anthony Hugh St.Clair-Erskine of Rosslyn"
+	dynasty=0
+	religion=catholic culture=english
+	1917.05.18={birth=yes}  # London
+	1955.08.03={add_spouse=100068901}	# Athénais de Rochechouart-Mortemart
+	1962.01.01={remove_spouse=100068901}
+	1977.11.22={death=yes}  # London
+}
 100090805={ # Cte        Horace                    Sébastiani-Porta                         (1806-1851)     0
 	name="Horace Sébastiani-Porta"
 	dynasty=0
@@ -7202,14 +7463,6 @@
 	1722.10.23={birth=yes}  # Enghien
 	1776.02.10={death=yes}  # Brussels
 }
-100081823={ # Cte        Charles                   de Lorraine                              (1684-1751)     0
-	name="Charles de Lorraine d'Armagnac"
-	dynasty=0
-	religion=catholic culture=frankish
-	1684.02.22={birth=yes}
-	1717.05.22={add_spouse=100066481}	# Françoise de Noailles
-	1751.12.29={death=yes}
-}
 100081826={ # Css        Ghislaine                 d'Arschot Schoonhoven                    (1912-1997)     2
 	name="Ghislaine d'Arschot Schoonhoven"
 	female=yes
@@ -7225,6 +7478,14 @@
 	1813.01.01={birth=yes}
 	1838.01.10={add_spouse=100004709}	# Louise Joséphine zu Sayn-Wittgenstein-Sayn
 	1888.01.01={death=yes}
+}
+100098303={ # Cte        Gaston                    d'Errembault Dudzeale                    (1819-1888)     0
+	name="Gaston d'Errembault Dudzeale"
+	dynasty=0
+	religion=catholic culture=german
+	1819.10.16={birth=yes}  # Tournais
+	1846.09.17={add_spouse=100024214}	# Marie-Helene v. Abensberg u.Traun
+	1888.02.06={death=yes}  # St Petersburg
 }
 100081842={ # Marquis    Armand Stanislas          d'Espagne                                (1864-1923)     0
 	name="Armand Stanislas d'Espagne"
@@ -7265,14 +7526,6 @@
 	1878.01.01={birth=yes}
 	1924.10.28={add_spouse=100068728}	# Jacqueline d'Harcourt
 	1952.06.14={death=yes}
-}
-100081866={ # Cte        Léopold                   d'Hunolstein                             (1832-1903)     0
-	name="Léopold d'Hunolstein"
-	dynasty=0
-	religion=catholic culture=frankish
-	1832.01.01={birth=yes}
-	1857.05.16={add_spouse=100065574}	# Laure Françoise de Crussol
-	1903.09.09={death=yes}
 }
 100081872={ # Marquis    François Thomas           d'Oiselet                                (1583-1629)     0
 	name="François Thomas d'Oiselet"
@@ -7362,8 +7615,8 @@
 	1940.07.01={birth=yes}
 	1983.01.01={add_spouse=100067397}	# Marie Jeanne de La Rochefoucauld
 }
-100082053={ # Duc        Alphonse                  de Berghes-Saint                         (1796-1864)     0
-	name="Alphonse de Berghes-Saint"
+100082053={ # Duc        Alphonse                  de Berghes-Saint-Winock                  (1796-1864)     0
+	name="Alphonse de Berghes-Saint-Winock"
 	dynasty=0
 	religion=catholic culture=frankish
 	1796.01.01={birth=yes}
@@ -7386,13 +7639,13 @@
 	1903.11.28={birth=yes}  # Odessa
 	1996.09.07={death=yes}  # ondon
 }
-100082062={ # Duc        François Armand           de Biron                                 (1690-1736)     0
-	name="François Armand de Biron"
-	female=yes
+100098467={ # Duc        Alphonse                  de Blanchefort-Créquy et Bonne de Lesdiguières (1677-1711)     0
+	name="Alphonse de Blanchefort-Créquy et Bonne de Lesdiguières"
 	dynasty=0
 	religion=catholic culture=frankish
-	1690.01.01={birth=yes}
-	1736.01.28={death=yes}
+	1677.01.01={birth=yes}
+	1702.09.12={add_spouse=100068870}	# Gabrielle Victoire de Rochechouart-Mortemart
+	1711.08.05={death=yes}
 }
 100082070={ # Marquis    Stanislas                 de Boisse                                (1757-1834)     0
 	name="Stanislas de Boisse"
@@ -7409,14 +7662,6 @@
 	1668.01.01={birth=yes}
 	1693.01.01={add_spouse=100065608}	# Catherine Charlotte de Gramont
 	1711.08.22={death=yes}
-}
-100082102={ # Pss        Anne                      de Brancovan                             (1876-1933)     1
-	name="Anne de Brancovan"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1876.11.15={birth=yes}
-	1933.04.30={death=yes}
 }
 100082106={ # Cte        Gaston George             de Brigode-Kemlandt                      (1850-1937)     0
 	name="Gaston George de Brigode-Kemlandt"
@@ -7458,6 +7703,14 @@
 	1806.02.02={add_spouse=100065940}	# Marie de Lannoy
 	1852.01.01={death=yes}  # EST.
 }
+100098454={ # Duc        Edouard                   de Bésiade d'Avaray                      (1800-1887)     0
+	name="Edouard de Bésiade d'Avaray"
+	dynasty=0
+	religion=catholic culture=frankish
+	1800.01.01={birth=yes}
+	1825.02.02={add_spouse=100068855}	# Anne de Rochechouart-Mortemart
+	1887.02.02={death=yes}  # Paris
+}
 100082129={ # Marquis    Marie Alfred              de Béthisy                               (1815-1882)     0
 	name="Marie Alfred de Béthisy"
 	dynasty=0
@@ -7488,6 +7741,22 @@
 	1637.01.01={birth=yes}
 	1662.01.01={add_spouse=100065604}	# Henriette Catherine de Gramont
 	1681.01.01={death=yes}
+}
+100098518={ # Marquis    Alban                     de Carbonel de Canisy                    (1887-1965)     0
+	name="Alban de Carbonel de Canisy"
+	dynasty=0
+	religion=catholic culture=frankish
+	1887.08.20={birth=yes}  # Saumur
+	1942.06.03={add_spouse=100068956}	# Alix de Rochechouart-Mortemart
+	1965.08.24={death=yes}  # Paris
+}
+100098437={ # Marquis    Alphonse Pierre           de Cardevac d'Havrincourt                (1810-1892)     0
+	name="Alphonse Pierre de Cardevac d'Havrincourt"
+	dynasty=0
+	religion=catholic culture=frankish
+	1810.01.01={birth=yes}
+	1835.07.13={add_spouse=100068847}	# Henriette de Rochechouart-Mortemart
+	1892.02.19={death=yes}
 }
 100082149={ # Cte        Hervé Pierre              de Carmoy                                (1937-    )     0
 	name="Hervé Pierre de Carmoy"
@@ -7567,22 +7836,6 @@
 	1778.04.29={add_spouse=100065784}	# Marie de Lannoy
 	1789.01.01={death=yes}
 }
-100082235={ # Marquis    Malo Auguste              de Coetquen                              (1678-1727)     0
-	name="Malo Auguste de Coetquen"
-	dynasty=0
-	religion=catholic culture=frankish
-	1678.06.07={birth=yes}
-	1696.11.20={add_spouse=100066479}	# Marie Charlotte de Noailles
-	1727.07.01={death=yes}
-}
-100082236={ # Cte        Jean                      de Colbert-Turgis                        (1899-1978)     0
-	name="Jean de Colbert-Turgis"
-	dynasty=0
-	religion=orthodox culture=russian
-	1899.08.15={birth=yes}
-	1924.06.11={add_spouse=100015325}	# Maria Dolgorukov
-	1978.01.15={death=yes}  # Meudon
-}
 100082237={ # Cte        Cyril                     de Commarque                             (1970-    )  2  0
 	name="Cyril de Commarque"
 	dynasty=0
@@ -7623,14 +7876,6 @@
 	religion=catholic culture=frankish
 	1523.01.01={birth=yes}
 	1549.01.01={death=yes}
-}
-100082270={ # Cte        Louis Etienne             de Damas                                 (1743-1814)     0
-	name="Louis Etienne de Damas"
-	dynasty=0
-	religion=catholic culture=frankish
-	1743.01.01={birth=yes}
-	1768.02.15={add_spouse=100065126}	# Louise Augustine de Broglie
-	1814.07.03={death=yes}
 }
 100082275={ # Css        Catherine                 de Diesbach-Belleroche                   (1967-    )     0
 	name="Catherine de Diesbach-Belleroche"
@@ -7687,6 +7932,14 @@
 	1580.01.01={birth=yes}
 	1643.01.01={death=yes}  # EST.
 }
+100098499={ # Marquis    Flavien Léopold           de Froissard de Broissia                 (1885-1953)     0
+	name="Flavien Léopold de Froissard de Broissia"
+	dynasty=0
+	religion=catholic culture=frankish
+	1885.10.17={birth=yes}  # Châtillon sur Seine
+	1913.10.16={add_spouse=100068923}	# Marie de Rochechouart-Mortemart
+	1953.12.18={death=yes}  # Rochefort
+}
 100082320={ # Marquis    Henri François            de Frotté                                (1873-1953)     0
 	name="Henri François de Frotté"
 	dynasty=0
@@ -7694,6 +7947,14 @@
 	1873.12.28={birth=yes}
 	1911.04.24={add_spouse=100067861}	# Juliette Marie d’Ursel
 	1953.07.28={death=yes}
+}
+100098458={ # Cte        Bruno Henri               de Gaillard de Lavaldène                 (1927-2004)     0
+	name="Bruno Henri de Gaillard de Lavaldène"
+	dynasty=0
+	religion=catholic culture=frankish
+	1927.10.02={birth=yes}  # Verna
+	1952.06.11={add_spouse=100068889}	# Marguerite de Rochechouart-Mortemart
+	2004.01.01={death=yes}  # EST.
 }
 100082329={ # Cte        Alexandre                 de Gammerages                            (1634-1678)     0
 	name="Alexandre de Gammerages"
@@ -7847,14 +8108,6 @@
 	1718.01.01={add_spouse=100067129}	# Marie Louise de La Rochefoucauld
 	1760.01.01={death=yes}  # EST.
 }
-100082561={ # Duc        Guy                       de Lorge                                 (1863-1912)     0
-	name="Guy de Lorge"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1863.01.01={birth=yes}
-	1912.07.26={death=yes}
-}
 100082571={ # Cts        Diane                     de Louvigny                              (1554-1621)     2
 	name="Diane de Louvigny"
 	female=yes
@@ -7902,6 +8155,14 @@
 	1690.05.16={birth=yes}
 	1726.02.01={add_spouse=100066578}	# Anne de Noailles
 	1759.11.24={death=yes}
+}
+100080615={ # Cts        Louise                    de Maure                                 (1574-1643)     2
+	name="Louise de Maure"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1574.01.01={birth=yes}
+	1643.07.23={death=yes}
 }
 100082648={ # Marquis    René Louis                de Menou                                 (1779-1841)     0
 	name="René Louis de Menou"
@@ -8022,6 +8283,13 @@
 	1850.10.15={add_spouse=100066759}	# Marie Emilie d’Oultremont
 	1860.11.08={death=yes}  # Jolimetz
 }
+100098451={ # Marquis    Jacques                   de Panisse-Passis                        (1956-    )     0
+	name="Jacques de Panisse-Passis"
+	dynasty=0
+	religion=catholic culture=frankish
+	1956.02.04={birth=yes}  # Paris
+	1985.09.26={add_spouse=100068883}	# Sylvie de Rochechouart-Mortemart
+}
 100085835={ # Marquis    François                  de Patras de Compeigne                   (1754-1828)     0
 	name="François de Patras de Compeigne"
 	dynasty=0
@@ -8029,6 +8297,14 @@
 	1754.01.01={birth=yes}
 	1779.03.25={add_spouse=100065791}	# Alexandrine de Lannoy
 	1828.09.01={death=yes}
+}
+100098483={ # Marques    Juan Battista             de Pedro de Sistallo de Chavela          (1919-2004)     0
+	name="Juan Battista de Pedro de Sistallo de Chavela"
+	dynasty=0
+	religion=catholic culture=frankish
+	1919.04.18={birth=yes}  # San Sebastian
+	1986.04.07={add_spouse=100068901}	# Athénais de Rochechouart-Mortemart
+	2004.12.06={death=yes}  # Arcangues
 }
 100082776={ # Cte        Olivier Marie             de Pimodan                               (1903-1996)     0
 	name="Olivier Marie de Pimodan"
@@ -8209,13 +8485,6 @@
 	1949.11.04={add_spouse=100068570}	# Amicie d'Harcourt
 	1996.01.01={death=yes}  # EST.
 }
-100082900={ # Cte        Auguste                   de Sainte-Suzanne                        (1859-1913)     0
-	name="Auguste de Sainte-Suzanne"
-	dynasty=0
-	religion=catholic culture=frankish
-	1859.04.07={birth=yes}
-	1913.09.23={death=yes}
-}
 100082903={ # Marquis    Alexandre Marie François  de Sales Théodule                        (1765-1841)     0
 	name="Alexandre Marie François de Sales Théodule"
 	dynasty=0
@@ -8365,14 +8634,6 @@
 	religion=catholic culture=frankish
 	1948.09.16={birth=yes}
 	1972.12.06={add_spouse=100065323}	# Isabelle de Caumont
-}
-100083055={ # Pss        Marguerite                de Wagram                                (1887-1966)     4
-	name="Marguerite de Wagram"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1887.12.05={birth=yes}
-	1966.06.25={death=yes}
 }
 100097984={ # Cte        Marc                      de Warren                                (1904-1994)     0
 	name="Marc de Warren"
@@ -8737,14 +8998,6 @@
 	1956.02.02={birth=yes}
 	2004.09.06={death=yes}
 }
-100097942={ # Vcte       Henri                     Picot de Vaulogé                         (1879-1916)     0
-	name="Henri Picot de Vaulogé"
-	dynasty=0
-	religion=catholic culture=frankish
-	1879.04.15={birth=yes}  # Paris
-	1911.07.11={add_spouse=100068563}	# Amélie d'Harcourt
-	1916.12.17={death=yes}  # Paris
-}
 100089098={ # Baron      Patrice                   Plieux de Diusse                         (1949-    )     0
 	name="Patrice Plieux de Diusse"
 	dynasty=0
@@ -8799,21 +9052,6 @@
 	1925.05.25={birth=yes}
 	1949.05.28={add_spouse=100065373}	# Gabrielle Marie de Clermont-Tonnerre
 	1974.04.14={death=yes}
-}
-100081863={ # Vcte       Georges Marie             d'Hennezel                               (1879-1962)     0
-	name="Georges Marie d'Hennezel"
-	dynasty=0
-	religion=catholic culture=frankish
-	1879.04.12={birth=yes}
-	1926.02.02={add_spouse=100067952}	# Louise Marie d’Ursel
-	1962.02.28={death=yes}
-}
-100098198={ # Baron      Guillaume                 de Hennezel d’Ormois                     (1942-    )     0
-	name="Guillaume de Hennezel d’Ormois"
-	dynasty=0
-	religion=catholic culture=frankish
-	1942.04.03={birth=yes}  # Neuilly-sur-Seine
-	1966.03.05={add_spouse=100136171}	# Katalin Jankovich de Pribér et Vuchin
 }
 100082020={ # Baron      Edouard Jean              de Bastard de Saint-Denis                (1866-1908)     0
 	name="Edouard Jean de Bastard de Saint-Denis"
@@ -9025,6 +9263,13 @@
 	religion=catholic culture=frankish
 	1962.10.07={birth=yes}
 }
+100082763={ # Frhr       Pierre Gilbert            de Paule                                 (1945-    )     0
+	name="Pierre Gilbert de Paule"
+	dynasty=0
+	religion=catholic culture=frankish
+	1945.07.14={birth=yes}
+	1975.06.07={add_spouse=100067435}	# Chantal de La Rochefoucauld
+}
 100082782={ # Bss        Anne-Marie                de Pitteurs de Budingen                  (1908-1964)     5
 	name="Anne-Marie de Pitteurs de Budingen"
 	female=yes
@@ -9150,6 +9395,13 @@
 	religion=catholic culture=frankish
 	1954.11.09={birth=yes}  # Dreux
 }
+100098506={ #            Laurène                   Banti                                    (1979-    )     3
+	name="Laurène Banti"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1979.04.26={birth=yes}  # Lille
+}
 100068276={ #            Françoise                 Bautier                                  (1992-    )     0
 	name="Françoise Bautier"
 	female=yes
@@ -9163,6 +9415,14 @@
 	religion=catholic culture=frankish
 	1940.02.09={birth=yes}  # Paris
 	1980.10.18={add_spouse=100068555}	# Aude d'Harcourt
+}
+100098512={ #            Isabelle Henriette        Bisson de Longueil                       (1938-2015)     2
+	name="Isabelle Henriette Bisson de Longueil"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1938.04.09={birth=yes}  # Paris
+	2015.01.01={death=yes}  # EST.
 }
 100098139={ #            Anne                      Blanchy                                  (1963-    )     5
 	name="Anne Blanchy"
@@ -9201,6 +9461,14 @@
 	religion=catholic culture=frankish
 	1967.09.02={birth=yes}  # Caen
 }
+100082846={ #            Simone                    Brossaud de Juigné                       (1909-1996)     5
+	name="Simone Brossaud de Juigné"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1909.07.15={birth=yes}  # Saint Herblon
+	1996.02.15={death=yes}  # Paris
+}
 100097849={ #            Alexandre                 Catoire de Bioncourt                     (1863-1913)     0
 	name="Alexandre Catoire de Bioncourt"
 	dynasty=0
@@ -9208,14 +9476,6 @@
 	1863.05.24={birth=yes}  # Moskwa
 	1888.11.28={add_spouse=100068533}	# Gilonne d'Harcourt
 	1913.09.30={death=yes}  # BadenBaden
-}
-100086226={ #            Harriet                   Cavendish                                (1812-1892)     3
-	name="Harriet Cavendish"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1812.06.02={birth=yes}
-	1892.01.03={death=yes}
 }
 100068224={ #            Charlotte Yvonne          Caye                                     (1974-    )     0
 	name="Charlotte Yvonne Caye"
@@ -9237,6 +9497,21 @@
 	dynasty=0
 	religion=catholic culture=frankish
 	1988.01.01={birth=yes}
+}
+100098511={ #            Valérie Odile             Chevrier                                 (1967-    )     2
+	name="Valérie Odile Chevrier"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1967.08.27={birth=yes}  # Cholet
+}
+100098487={ #            Marie Pie                 Cousin Montauban de Palikao              (1874-1948)     4
+	name="Marie Pie Cousin Montauban de Palikao"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1874.02.25={birth=yes}  # Paris
+	1948.05.08={death=yes}  # Berne
 }
 100068133={ #            Susana Inès               Cruz Suarez                              (1942-    )     1
 	name="Susana Inès Cruz Suarez"
@@ -9260,6 +9535,13 @@
 	religion=catholic culture=frankish
 	1965.01.01={birth=yes}
 }
+100098516={ #            Natalie                   Debanne                                  (1988-    )     2
+	name="Natalie Debanne"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1988.01.01={birth=yes}
+}
 100083076={ #            Marguerite                Decazes de Glücksberg                    (1890-1962)     3
 	name="Marguerite Decazes de Glücksberg"
 	female=yes
@@ -9276,6 +9558,14 @@
 	1861.05.08={add_spouse=100068544}	# Mary d'Harcourt
 	1887.10.07={death=yes}
 }
+100098503={ #            Thérèse                   Delcourt                                 (1907-1995)     0
+	name="Thérèse Delcourt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1907.07.04={birth=yes}  # Boulogne sur Mer
+	1995.10.13={death=yes}  # Paris
+}
 100098132={ #            Jean-Yves                 Demeunynck                               (1969-    )     0
 	name="Jean-Yves Demeunynck"
 	dynasty=0
@@ -9290,6 +9580,30 @@
 	religion=catholic culture=frankish
 	1914.06.10={birth=yes}  # San Fernando Argentina
 	1993.05.31={death=yes}  # Luynes
+}
+100098469={ #            Anne                      Doni d'Attichy                           (1615-1690)     0
+	name="Anne Doni d'Attichy"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1615.01.01={birth=yes}
+	1690.01.01={death=yes}
+}
+100098482={ #            Robert Edgar Atheling     Drummond                                 (1933-2010)     0
+	name="Robert Edgar Atheling Drummond"
+	dynasty=0
+	religion=catholic culture=english
+	1933.06.21={birth=yes}  # London
+	1978.09.19={add_spouse=100068901}	# Athénais de Rochechouart-Mortemart
+	1984.05.28={remove_spouse=100068901}
+	2010.01.01={death=yes}  # EST.
+}
+100098479={ #            Maxime Frédéric           Dupuy d'Angeac                           (1962-    )     0
+	name="Maxime Frédéric Dupuy d'Angeac"
+	dynasty=0
+	religion=catholic culture=frankish
+	1962.09.07={birth=yes}  # Mirande
+	1992.05.18={add_spouse=100068897}	# Athénaïs de Rochechouart-Mortemart
 }
 100083605={ #            Edmond François           Edmond-Blanc                             (1904-1952)     0
 	name="Edmond François Edmond-Blanc"
@@ -9395,6 +9709,21 @@
 	religion=catholic culture=frankish
 	1946.02.06={birth=yes}
 }
+100098504={ #            Moira Marguerite          Hennessy                                 (1937-2014)     3
+	name="Moira Marguerite Hennessy"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1937.02.09={birth=yes}  # Neuilly
+	2014.01.01={death=yes}  # EST.
+}
+100098495={ #            Gilles Claude             Hoarau de La Source                      (1968-    )     0
+	name="Gilles Claude Hoarau de La Source"
+	dynasty=0
+	religion=catholic culture=frankish
+	1968.01.01={birth=yes}
+	1997.04.05={add_spouse=100068917}	# Aude de Rochechouart-Mortemart
+}
 100093503={ #            Hélyane                   Hurault de Vibraye                       (1903-1981)     4
 	name="Hélyane Hurault de Vibraye"
 	female=yes
@@ -9441,12 +9770,27 @@
 	1865.10.23={birth=yes}  # Paris
 	1949.11.16={death=yes}  # Ouzouer
 }
+100098515={ #            Paola                     Larousse                                 (1985-    )     1
+	name="Paola Larousse"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1985.01.01={birth=yes}
+}
 100097753={ #            Alix                      Le Boucher d’Hérouville                  (1950-    )     0
 	name="Alix Le Boucher d’Hérouville"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
 	1950.04.16={birth=yes}
+}
+100098486={ #            Adélaïde Florence         Le Coat de Kervéguen                     (1874-1901)     2
+	name="Adélaïde Florence Le Coat de Kervéguen"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1874.05.31={birth=yes}  # Paris
+	1901.03.02={death=yes}  # Territet
 }
 100068333={ #            Mathéa Jeanne             Le Jeune                                 (1871-1964)     2
 	name="Mathéa Jeanne Le Jeune"
@@ -9471,6 +9815,20 @@
 	religion=catholic culture=frankish
 	1952.01.01={birth=yes}
 }
+100098477={ #            Aline                     Mansour                                  (1966-    )     0
+	name="Aline Mansour"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1966.04.01={birth=yes}  # Paris
+}
+100098508={ #            Laetitia Isabelle         Maître                                   (1959-    )     3
+	name="Laetitia Isabelle Maître"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1959.10.04={birth=yes}  # Versailles
+}
 100098124={ #            Denis                     Mestralle                                (1971-    )     0
 	name="Denis Mestralle"
 	dynasty=0
@@ -9485,6 +9843,13 @@
 	1966.01.01={birth=yes}
 	1991.03.16={add_spouse=100068617}	# Odile d'Harcourt
 }
+100098509={ #            Bruno Pascal              Monnier                                  (1955-    )     0
+	name="Bruno Pascal Monnier"
+	dynasty=0
+	religion=catholic culture=frankish
+	1955.03.27={birth=yes}
+	1981.11.21={add_spouse=100068939}	# Aure de Rochechouart-Mortemart
+}
 100087338={ #            Luisa                     Moreno de Porras-Isla-Fdez               (1989-    )     3
 	name="Luisa Moreno de Porras-Isla-Fdez"
 	female=yes
@@ -9498,6 +9863,14 @@
 	dynasty=0
 	religion=catholic culture=frankish
 	1967.06.19={birth=yes}  # Paris
+}
+100098476={ #            Hélène                    Paultre de Lamotte                       (1930-2009)     3
+	name="Hélène Paultre de Lamotte"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1930.09.28={birth=yes}  # Paris
+	2009.07.13={death=yes}
 }
 100095990={ #            Gentiane                  Piers de Raveschoot                      (1954-    )     4
 	name="Gentiane Piers de Raveschoot"
@@ -9572,6 +9945,13 @@
 	1976.12.23={birth=yes}  # Bonneville
 	2002.08.10={add_spouse=100068466}	# Alix d'Harcourt
 }
+100098471={ #            Renaud Camille            Ruillier                                 (1956-    )     0
+	name="Renaud Camille Ruillier"
+	dynasty=0
+	religion=catholic culture=frankish
+	1956.03.26={birth=yes}  # Mulhouse
+	1999.05.25={add_spouse=100068891}	# Patricia-Aude de Rochechouart-Mortemart
+}
 100097791={ #            Martine                   Sarton de Jonchay                        (1972-    )     1
 	name="Martine Sarton de Jonchay"
 	female=yes
@@ -9593,6 +9973,20 @@
 	religion=catholic culture=frankish
 	1941.12.05={birth=yes}
 }
+100098493={ #            Elodie Anne               Segard                                   (1973-    )     3
+	name="Elodie Anne Segard"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1973.09.08={birth=yes}  # Paris
+}
+100098478={ #            Rima                      Sen-Sharma                               (1969-    )     0
+	name="Rima Sen-Sharma"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1969.03.21={birth=yes}  # Calcutta
+}
 100098048={ #            Bertrand                  Servois                                  (1950-    )     0
 	name="Bertrand Servois"
 	dynasty=0
@@ -9608,12 +10002,27 @@
 	1882.03.21={birth=yes}  # Washington
 	1966.10.19={death=yes}  # Paris
 }
+100098496={ #            Jeffrey Blain             Smith                                    (1977-    )     0
+	name="Jeffrey Blain Smith"
+	dynasty=0
+	religion=catholic culture=frankish
+	1977.01.01={birth=yes}
+	2002.06.28={add_spouse=100068918}	# Virginie de Rochechouart-Mortemart
+}
 100090861={ #            Elisabeth                 Taupinart de Tilière                     (1979-    )     0
 	name="Elisabeth Taupinart de Tilière"
 	female=yes
 	dynasty=0
 	religion=catholic culture=frankish
 	1979.09.26={birth=yes}
+}
+100098480={ #            Flavie                    Thiollier                                (1970-2016)     2
+	name="Flavie Thiollier"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1970.10.05={birth=yes}  # Angers
+	2016.03.28={death=yes}  # Madrid
 }
 100096064={ #            Marie Cecile              Thurette                                 (1873-1947)     0
 	name="Marie Cecile Thurette"
@@ -9792,6 +10201,14 @@
 	religion=catholic culture=frankish
 	1907.07.08={birth=yes}  # Paris
 	1941.04.29={death=yes}  # Paris
+}
+100098507={ #            Florence                  d'Irumberry de Salaberry                 (1935-2012)     4
+	name="Florence d'Irumberry de Salaberry"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1935.08.07={birth=yes}  # Paris
+	2012.01.01={death=yes}  # EST.
 }
 100081881={ #            Monique Minette           d'Oulhaye                                (1923-1979)     4
 	name="Monique Minette d'Oulhaye"
@@ -10239,6 +10656,14 @@
 	1969.05.16={birth=yes}
 	1998.11.06={add_spouse=100020996}	# Henriette Marie v. Habsburg-Lothringen
 }
+100098341={ #            Adélaide Pauline          de Cossé-Brissac                         (1762-1818)     4
+	name="Adélaide Pauline de Cossé-Brissac"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1762.01.01={birth=yes}
+	1818.02.21={death=yes}
+}
 100082249={ #            César                     de Costentin                             (1605-1647)     0
 	name="César de Costentin"
 	dynasty=0
@@ -10253,6 +10678,14 @@
 	dynasty=0
 	religion=catholic culture=frankish
 	1963.09.04={birth=yes}
+}
+100098291={ #            Eléonore Gabrielle        de Crux                                  (1713-1788)     0
+	name="Eléonore Gabrielle de Crux"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1713.01.01={birth=yes}
+	1788.01.01={death=yes}
 }
 100097807={ #            François-Xavier           de Crécy                                 (1975-    )     0
 	name="François-Xavier de Crécy"
@@ -10346,6 +10779,14 @@
 	religion=catholic culture=frankish
 	1949.05.31={birth=yes}
 }
+100098450={ #            Charles Théodore          de Forbin-Janson                         (1788-1863)     0
+	name="Charles Théodore de Forbin-Janson"
+	dynasty=0
+	religion=catholic culture=frankish
+	1788.01.01={birth=yes}
+	1813.11.02={add_spouse=100068851}	# Antonie de Rochechouart-Mortemart
+	1863.01.01={death=yes}
+}
 100082314={ #            Alix                      de Foresta                               (1926-2006)     4
 	name="Alix de Foresta"
 	female=yes
@@ -10370,6 +10811,14 @@
 	1892.05.19={birth=yes}
 	1974.01.24={death=yes}  # Paris
 }
+100098490={ #            Jeanne                    de Gaiffier d'Hestroy                    (1911-2001)     3
+	name="Jeanne de Gaiffier d'Hestroy"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1911.10.16={birth=yes}  # Brussels
+	2001.02.04={death=yes}  # Brussels
+}
 100082323={ #            Axelle                    de Gaigneron-Morin                       (1933-2004)     0
 	name="Axelle de Gaigneron-Morin"
 	female=yes
@@ -10377,6 +10826,14 @@
 	religion=catholic culture=frankish
 	1933.06.27={birth=yes}
 	2004.12.20={death=yes}
+}
+100098502={ #            Jacqueline Georgina       de Gallifet                              (1903-1942)     3
+	name="Jacqueline Georgina de Gallifet"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1903.02.27={birth=yes}  # Pau
+	1942.09.13={death=yes}  # Paris
 }
 100082328={ #            Beatrix                   de Gamas                                 (1928-    )     0
 	name="Beatrix de Gamas"
@@ -10440,6 +10897,13 @@
 	1927.06.01={birth=yes}
 	1990.01.01={death=yes}
 }
+100098494={ #            Sylvie Marguerite         de Gourcuff                              (1947-    )     3
+	name="Sylvie Marguerite de Gourcuff"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1947.06.07={birth=yes}  # Paris
+}
 100082358={ #            Marie Louise Caroline     de Gourjault                             (1863-1948)     1
 	name="Marie Louise Caroline de Gourjault"
 	female=yes
@@ -10463,6 +10927,14 @@
 	religion=catholic culture=frankish
 	1842.06.17={birth=yes}  # Paris
 	1901.10.18={death=yes}  # Brussels
+}
+100080616={ #            Diane                     de Grandsaigne                           (1612-1666)     4
+	name="Diane de Grandsaigne"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1612.01.01={birth=yes}
+	1666.02.11={death=yes}  # Poitiers
 }
 100092510={ #            Stéphane                  de Groodt                                (1966-    )     0
 	name="Stéphane de Groodt"
@@ -10665,13 +11137,6 @@
 	1914.12.07={birth=yes}  # Brulain
 	2014.01.09={death=yes}  # Onex
 }
-100085146={ #            Claude                    de Langle                                (1947-    )     0
-	name="Claude de Langle"
-	dynasty=0
-	religion=catholic culture=frankish
-	1947.11.18={birth=yes}
-	1979.04.21={add_spouse=100085145}	# Therese Lobkowicz
-}
 100082516={ #            Félicie Sophie            de Lannion                               (1744-1830)     3
 	name="Félicie Sophie de Lannion"
 	female=yes
@@ -10701,6 +11166,14 @@
 	1918.01.01={birth=yes}
 	1951.04.05={add_spouse=100068640}	# Sibyllee d'Harcourt
 	1993.01.01={death=yes}
+}
+100098455={ #            Gabrielle Bonne           de Laurencin                             (1808-1894)     2
+	name="Gabrielle Bonne de Laurencin"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1808.02.13={birth=yes}
+	1894.11.06={death=yes}  # La Chassagne
 }
 100082531={ #            Clara Anne                de Laurent                               (1799-1857)     0
 	name="Clara Anne de Laurent"
@@ -10793,6 +11266,13 @@
 	1953.09.26={birth=yes}
 	1987.03.07={add_spouse=100066294}	# Sophie de Merode
 }
+100098491={ #            Muriel Marguerite         de Lézardière                            (1947-    )     0
+	name="Muriel Marguerite de Lézardière"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1947.02.09={birth=yes}  # Paris
+}
 100082600={ #            Gisela                    de Maestri                               (1964-    )     4
 	name="Gisela de Maestri"
 	female=yes
@@ -10815,6 +11295,14 @@
 	religion=catholic culture=frankish
 	1778.01.01={birth=yes}
 	1818.03.29={death=yes}
+}
+100098323={ #            Carlotte Nathalie         de Manneville                            (1728-1762)     4
+	name="Carlotte Nathalie de Manneville"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1728.11.05={birth=yes}
+	1762.10.01={death=yes}  # Manneville
 }
 100097822={ #            Isabelle Emé              de Marcieu                               (1923-2002)     4
 	name="Isabelle Emé de Marcieu"
@@ -10907,6 +11395,14 @@
 	religion=catholic culture=frankish
 	1768.06.12={birth=yes}
 	1812.06.12={death=yes}
+}
+100080840={ #            Antoinette Louise         de Mesme                                 (1640-1709)     6
+	name="Antoinette Louise de Mesme"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1640.01.01={birth=yes}
+	1709.03.10={death=yes}  # Paris
 }
 100082664={ #            Philippe Marie            de Missolz                               (1944-    )     0
 	name="Philippe Marie de Missolz"
@@ -11014,6 +11510,14 @@
 	1951.07.21={birth=yes}
 	1978.09.23={add_spouse=100111256}	# Isabelle Lubomirski
 	1995.01.01={death=yes}
+}
+100098452={ #            Adélaide                  de Nagu                                  (1759-1853)     2
+	name="Adélaide de Nagu"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1759.01.01={birth=yes}
+	1853.01.09={death=yes}  # Paris
 }
 100082726={ #            Bérengère                 de Nattes                                (1948-    )     0
 	name="Bérengère de Nattes"
@@ -11204,14 +11708,6 @@
 	1937.09.07={birth=yes}
 	2014.01.01={death=yes}  # EST.
 }
-100082803={ #            Marie Jeanne Radegonde    de Pérusse des Cars                      (1860-1928)     2
-	name="Marie Jeanne Radegonde de Pérusse des Cars"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1860.11.14={birth=yes}
-	1928.10.20={death=yes}
-}
 100093775={ #            Damien                    de Radiguès de Chennevière               (1936-2013)     0
 	name="Damien de Radiguès de Chennevière"
 	dynasty=0
@@ -11363,6 +11859,14 @@
 	1949.12.07={birth=yes}  # Warsaw
 	1985.01.01={add_spouse=100112105}	# Ada Sandra Tarnowski
 	1996.05.01={remove_spouse=100112105}
+}
+100098412={ #            Virginie Antoinette       de Saine-Aldegonde                       (1790-1878)     5
+	name="Virginie Antoinette de Saine-Aldegonde"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1790.01.01={birth=yes}
+	1878.10.26={death=yes}  # Paris
 }
 100082906={ #            François Xavier           de Sambucy de Sorgue                     (1943-    )     0
 	name="François Xavier de Sambucy de Sorgue"
@@ -11827,7 +12331,7 @@
 	dynasty=0
 	religion=catholic culture=frankish
 	1941.03.04={birth=yes}
-	1988.09.24={add_spouse=100070331}	# Chantal Marie di Borbone-Parma
+	1988.09.24={add_spouse=100070331}	# Chantal di Borbone-Parma
 }
 100083245={ #            Henri                     des Prez de Montpezat                    (1565-1620)     0
 	name="Henri des Prez de Montpezat"
@@ -11851,13 +12355,6 @@
 	religion=catholic culture=frankish
 	1661.01.01={birth=yes}
 	1743.12.07={death=yes}
-}
-100098123={ #            Floride                   du Cauzé de Nazelle                      (1968-    )     4
-	name="Floride du Cauzé de Nazelle"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1968.01.01={birth=yes}
 }
 100083469={ #            Régis Marie               du Fayet de La Tour                      (1932-2012)     0
 	name="Régis Marie du Fayet de La Tour"
@@ -12006,12 +12503,43 @@
 	1908.12.07={birth=yes}  # Brussels
 	1983.01.01={death=yes}
 }
-100098303={ # Cte        Gaston                    d'Errembault Dudzeale                    (1819-1888)     0
-	name="Gaston d'Errembault Dudzeale"
+100098651={ # Cte        Joseph François           de Bertrand de la Perouse                (1747-1816)     0
+	name="Joseph François de Bertrand de la Perouse"
 	dynasty=0
 	religion=catholic culture=german
-	1819.10.16={birth=yes}  # Tournais
-	1846.09.17={add_spouse=100024214}	# Marie-Helene v. Abensberg u.Traun
-	1888.02.06={death=yes}  # St Petersburg
+	1747.01.01={birth=yes}
+	1795.01.01={add_spouse=100008533}	# Maria Anna von Arco
+	1816.01.01={death=yes}
+}
+100095885={ # Pr         Philippe-Charles          de Ligne                                 (1587-1640)     0
+	name="Philippe-Charles de Ligne"
+	dynasty=0
+	religion=catholic culture=german
+	1587.10.28={birth=yes}
+	1632.03.29={add_spouse=100002300}	# Maria Cleopha v. Hohenzollern-Sigmaringen
+	1640.09.25={death=yes}
+}
+100097938={ # Cte        Joseph                    Mercy-Argenteau                          (1778-1853)     0
+	name="Joseph Mercy-Argenteau"
+	dynasty=0
+	religion=catholic culture=german
+	1778.01.01={birth=yes}
+	1803.11.01={add_spouse=100024042}	# Marie v. Paar
+	1853.01.01={death=yes}
+}
+100083307={ # Ct         Michel                    Didisheim                                (1930-    )     0
+	name="Michel Didisheim"
+	dynasty=0
+	religion=catholic culture=german
+	1930.04.18={birth=yes}
+	1956.02.08={add_spouse=100023462}	# Monika v. Trauttmansdorff-Weinsberg
+}
+100097745={ # Css        Caroline Antoinette       de Saufré-Caraille                       (1694-1768)     1
+	name="Caroline Antoinette de Saufré-Caraille"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1694.03.28={birth=yes}
+	1768.03.24={death=yes}
 }
 

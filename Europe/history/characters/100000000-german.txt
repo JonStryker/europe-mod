@@ -18,7 +18,7 @@
 ##  100001650-100001776		Hohenlohe-Langenburg                        1002035
 ##  100001800-100001967		Hohenlohe-Waldenburg-Schillingsfürst        1002065
 ##  100001975-100001994		Hohenlohe                                      7138
-##  100002000-100002202		Hohenzollern                                  12476
+##  100002581-100002202		Hohenzollern                                  12476
 ##  100002225-100002342		Hohenzollern-Sigmaringen                    1002024
 ##  100002350-100002434		Isenburg                                    1002018
 ##  100002450-100002489		Leiningen                                   1002028
@@ -76,10 +76,20 @@
 ##  100008175-       		Wrede										1002087
 ##  100008350-       		Schwarzburg-Rudolstadt						1002088
 ##  100008400-       		Hessen-Philippsthal							1002012
+##  100008500-       		Arco										1002093
 #################################################################################################
 
 
 ##	100003821	Matz von Spiegelfeld				1002083
+100002862={ # Gf         Karl                      Matz von Spiegelfeld                     (1880-1964)     0
+	name="Karl Matz von Spiegelfeld"
+	dynasty=1002083
+	religion=catholic culture=bohemian
+	1880.05.06={birth=yes}
+	1912.07.27={add_spouse=100085828}	# Therese Marie Kinsky von Wchinitz u.Tettau
+	1964.04.20={death=yes}
+}
+
 100002860={ # Franz Xaver (Marburg, Steiermark 10 May 1802-Volders 20 Oct 1885); m.1st 1 Jan 1827 Marie Martini von Wasserberg (Innsbruck 13 Oct 1807-Bregenz 23 Jan 1845); m.2nd 1 Jan 1857 Marie Bussy de Mignot (Ebreichsdorf, Niederösterreich 24 Aug 1831-Wien 21 Nov 1902)
 	name="Franz Xaver" # 1850538/franz-xaver-matz-freiherr-von-spiegelfeld/
 	dynasty=1002083
@@ -88,6 +98,24 @@
 	1857.01.01={add_spouse=100085021}	# GFN Marie von Bussy-Mignot
 	1885.10.20={death=yes}	# Volders
 }
+	100202863={ # Marcus (16 Feb 1858-16 May 1943) %%
+		name=Marcus
+		dynasty=1002083
+		religion=catholic culture=german
+		father=100002860	# Franz Xaver Matz von Spiegelfeld
+		mother=100085021	# GFN Marie von Bussy-Mignot
+		1858.02.16={birth=yes}
+		1943.05.16={death=yes}
+	}
+		100002863={ # Martha (1 Dec 1889-21 Aug 1970); m.2 Jul 1927 Alfred Johann v. Auersperg (26 Sep 1899-10 Sep 1968) %%
+			name=Martha
+			female=yes
+			dynasty=1002083
+			religion=catholic culture=german
+			father=100202863	# Marcus Matz von Spiegelfeld
+			1889.12.01={birth=yes}
+			1970.08.21={death=yes}
+		}
 	100002859={ # Martha (Innsbruck 22 Jun 1859-Hagenberg b. Prägarten 10 Jun 1934); m.1 Jan 1884 Andreas Gotthard Schaffgotsch gen. Semperfrei von und zu Kynast und Greiffenstein (Wiesbaden 27 Mar 1858-Salzburg 24 Feb 1921)
 		name=Martha      # 1850544/martha-matz-grafin-von-spiegelfeld/
 		female=yes
@@ -118,6 +146,23 @@
 			1924.01.01={add_spouse=100023591}	# Maria-Gabrielle v. Goëss
 			1976.08.13={death=yes}
 		}
+			100198711={ # Gisbert (Graz 11 Aug 1923-Russia 25 Jun 1994) %%
+				name=Gisbert
+				dynasty=1002083
+				religion=catholic culture=german
+				father=100002861	# Franz Xaver Matz von Spiegelfeld
+				mother=100023591	# Maria-Gabrielle v. Goëss
+				1923.08.11={birth=yes}  # Graz
+				1994.06.25={death=yes}  # Russia
+			}
+				100098711={ # Marie Therese (b.Graz 1 Aug 1949); m.1 Mar 1969 Georg z Valdštejna (b.17 Dec 1942) %%
+					name="Marie Therese"
+					female=yes
+					dynasty=1002083
+					religion=catholic culture=german
+					father=100198711	# Gisbert Matz von Spiegelfeld
+					1949.08.01={birth=yes}  # Graz
+				}
 			100002855={ # Alexander (b.Graz 2 Nov 1925); m.1 Jan 1950 Sophie von Starhemberg (Eisenkappel 14 Sep 1931-1 Jul 2006)
 				name=Alexander
 				dynasty=1002083
@@ -189,6 +234,25 @@
 						mother=100006907	# Ludmilla v. Waldburg zu Wolfegg u.Waldsee
 						1994.07.15={birth=yes}	#Wien, Wien
 					}
+	100202864={ # Heinrich (Linz an der_Donau 10 Oct 1864-Wagrain bei Vöcklabruck 25 Apr 1922) %%
+		name=Heinrich
+		dynasty=1002083
+		religion=lutheran culture=german
+		father=100002860	# Franz Xaver Matz von Spiegelfeld
+		mother=100085021	# GFN Marie von Bussy-Mignot
+		1864.10.10={birth=yes}  # Linz an der_Donau
+		1922.04.25={death=yes}	# Wagrain bei Vöcklabruck
+	}
+		100002864={ # Henriette (Linz an der_Donau 30 Aug 1895-Vöcklabruck Upper Austria 28 Sep 1969); m.28 Jan 1920 Franz Xaver Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (Laibach 17 Jun 1890-Salzburg 3 Apr 1979) %%
+			name=Henriette
+			female=yes
+			dynasty=1002083
+			religion=lutheran culture=german
+			father=100202864	# Heinrich Matz von Spiegelfeld
+			1895.08.30={birth=yes}  # Linz an der_Donau
+			1969.09.28={death=yes}  # Vöcklabruck Upper Austria
+		}
+
 ##	100003821	Matz von Spiegelfeld				1002083
 
 
@@ -1358,7 +1422,7 @@
 
 
 ## 	100003634	Bentheim 	 			   			1002079
-100000372={ # Friedrich Belgicus Karl Gf zu Bentheim und Steinfurt (Steinfurt 24 Oct 1703-Steinfurt 7 Jun 1733; bur Steinfurt); m.Detmold 4 Jun 1724 Franziska Charlotte Gfn zur Lippe-Detmold (Detmold 11 Nov 1704-Burgsteinfurt 12 Jun 1738; bur Burgsteinfurt)
+100000372={ # Friedrich Belgicus Karl Gf zu Bentheim und Steinfurt (Steinfurt 24 Oct 1703-Steinfurt 7 Jun 1733); m.Detmold 4 Jun 1724 Franziska Charlotte Gfn zur Lippe-Detmold (Detmold 11 Nov 1704-Burgsteinfurt 12 Jun 1738)
 	name=Friedrich
 	dynasty=1002079
 	religion=catholic culture=german
@@ -1386,7 +1450,7 @@
 		1726.06.02={birth=yes}
 		1783.09.05={death=yes}
 	}
-	100000375={ # 5e) Karl Paul Ernst (Nurgsteinfurt 30 Aug 1729-30 Jun 1780); m.Siegen 30 Sep 1748 Pss Charlotte Sophie of Nassau-Siegen (Siegen 6 Jun 1729-Burgsteinfurt 2 Apr 1759; bur Burgsteinfurt)
+	100000375={ # 5e) Karl Paul Ernst (Nurgsteinfurt 30 Aug 1729-30 Jun 1780); m.Siegen 30 Sep 1748 Pss Charlotte Sophie of Nassau-Siegen (Siegen 6 Jun 1729-Burgsteinfurt 2 Apr 1759)
 		name=Karl
 		dynasty=1002079
 		religion=catholic culture=german
@@ -1994,7 +2058,6 @@
 					religion=lutheran culture=german
 					father=100004542	# Ernst Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 					1631.01.01={birth=yes}
-					1655.01.01={add_spouse=100096253}	# Barbara Cammerer von Langhalss
 					1706.01.01={death=yes}
 				}
 					100004544={ # 1e) Johann Wilhelm Frhr zu Kynast und Greiffenstein (1656-1697); m.1673 Eva Maria von Zedlitz (1655-1732)
@@ -2002,7 +2065,6 @@
 						dynasty=1002078
 						religion=lutheran culture=german
 						father=100004543	# Ernst Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-						mother=100096253	# Barbara Cammerer von Langhalss
 						1656.01.01={birth=yes}
 						1673.01.01={add_spouse=100096259}	# Eva von Zedlitz
 						1697.01.01={death=yes}
@@ -3146,7 +3208,7 @@
 							father=100004488	# Andreas Gotthard Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 							mother=100002859	# Martha Matz von Spiegelfeld
 							1890.06.17={birth=yes}  # Laibach
-							1920.01.28={add_spouse=100002864}	# FRN Henriette Matz von Spiegelfeld
+							1920.01.28={add_spouse=100002864}	# Henriette Matz von Spiegelfeld
 							1926.01.01={remove_spouse=100002864}
 							1941.05.02={add_spouse=100004486}	# Maria Josepha Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 							1979.04.03={death=yes}  # Salzburg
@@ -3156,7 +3218,7 @@
 								dynasty=1002078
 								religion=lutheran culture=german
 								father=100004489	# Franz Xaver Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-								mother=100002864	# FRN Henriette Matz von Spiegelfeld
+								mother=100002864	# Henriette Matz von Spiegelfeld
 								1921.12.28={birth=yes}  # Wagrain
 								1979.08.01={death=yes}  # Attersee
 							}
@@ -3166,7 +3228,7 @@
 								dynasty=1002078
 								religion=lutheran culture=german
 								father=100004489	# Franz Xaver Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-								mother=100002864	# FRN Henriette Matz von Spiegelfeld
+								mother=100002864	# Henriette Matz von Spiegelfeld
 								1923.05.01={birth=yes}
 								1999.01.01={death=yes}  # EST.
 							}
@@ -3551,7 +3613,7 @@
 					father=100004528	# Rudolf Gotthard Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 					mother=100096435	# FRN Therese Revay von Reva
 					1848.04.19={birth=yes}  # Budapest
-					1873.10.18={add_spouse=100096436}	# GFN Jela Jelacic de Buzim
+					1873.10.18={add_spouse=100096436}	# GFN Jela Jellacic de Buzim
 					1908.01.01={remove_spouse=100096436}
 					1909.01.05={add_spouse=100096437}	# Hermine Fischhof-Seydl
 					1931.01.27={death=yes}  # Vienna
@@ -3562,7 +3624,7 @@
 						dynasty=1002078
 						religion=lutheran culture=german
 						father=100004529	# Rudolf Gotthard Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-						mother=100096436	# GFN Jela Jelacic de Buzim
+						mother=100096436	# GFN Jela Jellacic de Buzim
 						1877.05.29={birth=yes}  # Klagenfurt
 						1952.01.01={death=yes}
 					}
@@ -4169,7 +4231,7 @@
 											1965.08.04={birth=yes}
 										}
 									100001414={ # 2i) Maria Wilhelmina Elisabeth Felicitas Gregoria (b.Naklo 17 Nov 1929); m.Baden, Aargau 11 Nov 1954 Ernst Gf von Waldstein-Wartenberg (b.Hirschberg, Bohemia 30 Mar 1925)
-										name=Maria
+										name="Maria Wilhelmina"
 										female=yes
 										dynasty=1002077
 										religion=lutheran culture=german
@@ -4733,7 +4795,6 @@
 									father=100001279	# Georg Henckel v.Donnersmarck
 									mother=100006912	# Marie Sophie v. Waldburg zu Wolfegg u.Waldsee
 									1935.06.16={birth=yes}
-									2012.01.01={death=yes}  # EST.
 								}
 								100001285={ # 6h) Maria Ursula Anna Huberta Sophia Franziska Gabriela Walburgis Elisaeth Katharina (Grambschütz 2 Apr 1938-2 Dec 2015); m.Stepperg 30 Aug 1965 Johannes Frhr von Ow (b.München 16 Jul 1928)
 									name=Maria
@@ -5816,7 +5877,7 @@
 				father=100006954	# Friedrich v. Waldburg zu Wolfegg u.Waldsee
 				mother=100095846	# GFN Elisabeth zu Königsegg-Aulendorf
 				1833.09.11={birth=yes}  # Wolfegg
-				1860.04.19={add_spouse=100095430}	# GFN Sophie von Arco-Zinneberg
+				1860.04.19={add_spouse=100008604}	# Sophie von Arco
 				1906.12.14={death=yes}  # Wolfegg
 			}
 				100006956={	# 1d) Friedrich Erbgf von Waldburg zu Wolfegg und Waldsee (Zeil 29 Sep 1861-Ditton Hall 21 Apr 1895)
@@ -5824,7 +5885,7 @@
 					dynasty=1002068
 					religion=catholic culture=german
 					father=100006955	# Franz v. Waldburg zu Wolfegg u.Waldsee
-					mother=100095430	# GFN Sophie von Arco-Zinneberg
+					mother=100008604	# Sophie von Arco
 					1861.09.29={birth=yes}  # Zeil
 					1895.04.21={death=yes}  # Ditton Hall
 				}
@@ -5833,7 +5894,7 @@
 					dynasty=1002068
 					religion=catholic culture=german
 					father=100006955	# Franz v. Waldburg zu Wolfegg u.Waldsee
-					mother=100095430	# GFN Sophie von Arco-Zinneberg
+					mother=100008604	# Sophie von Arco
 					1863.05.13={birth=yes}  # Waldsee
 					1890.07.26={add_spouse=100095987}	# Sidonie Lobkowicz
 					1950.09.27={death=yes}  # Chur
@@ -6456,7 +6517,7 @@
 					dynasty=1002068
 					religion=catholic culture=german
 					father=100006955	# Franz v. Waldburg zu Wolfegg u.Waldsee
-					mother=100095430	# GFN Sophie von Arco-Zinneberg
+					mother=100008604	# Sophie von Arco
 					1864.03.15={birth=yes}  # Waldsee
 					1922.04.29={death=yes}  # Waldsee
 				}
@@ -6465,7 +6526,7 @@
 					dynasty=1002068
 					religion=catholic culture=german
 					father=100006955	# Franz v. Waldburg zu Wolfegg u.Waldsee
-					mother=100095430	# GFN Sophie von Arco-Zinneberg
+					mother=100008604	# Sophie von Arco
 					1866.11.06={birth=yes}
 					1905.07.31={death=yes}  # Rome
 				}
@@ -6475,7 +6536,7 @@
 					dynasty=1002068
 					religion=catholic culture=german
 					father=100006955	# Franz v. Waldburg zu Wolfegg u.Waldsee
-					mother=100095430	# GFN Sophie von Arco-Zinneberg
+					mother=100008604	# Sophie von Arco
 					1867.12.03={birth=yes}  # Waldsee
 					1947.02.16={death=yes}  # Weinsberg
 				}
@@ -6484,7 +6545,7 @@
 					dynasty=1002068
 					religion=catholic culture=german
 					father=100006955	# Franz v. Waldburg zu Wolfegg u.Waldsee
-					mother=100095430	# GFN Sophie von Arco-Zinneberg
+					mother=100008604	# Sophie von Arco
 					1871.10.27={birth=yes}  # Waldsee
 					1902.04.17={add_spouse=100095491}	# GFN Anna von Galen
 					1906.06.24={death=yes}  # Baden-Baden
@@ -6506,7 +6567,7 @@
 						father=100006911	# Ludwig v. Waldburg zu Wolfegg u.Waldsee
 						mother=100095491	# GFN Anna von Galen
 						1906.01.07={birth=yes}  # Kißlegg
-						1933.09.12={add_spouse=100095428}	# GFN Anna-Elisabeth von Arco auf Valley
+						1933.09.12={add_spouse=100008510}	# Anna-Elisabeth von Arco
 						1976.01.30={death=yes}  # Möckmühl
 					}
 						100006914={	# 1f) Ludwig Karl Maximilian Hubert Willibald Modestus (b.Pähl bei Weilheim 15 Jun 1934); m.Hochburg (civ) 17 Aug 1960 (rel) 7 Sep 1960 Stephanie Pss von Schönburg-Waldenburg (b.Gusow 22 Sep 1938)
@@ -6514,7 +6575,7 @@
 							dynasty=1002068
 							religion=catholic culture=german
 							father=100006913	# Hubert v. Waldburg zu Wolfegg u.Waldsee
-							mother=100095428	# GFN Anna-Elisabeth von Arco auf Valley
+							mother=100008510	# Anna-Elisabeth von Arco
 							1934.06.15={birth=yes}
 							1960.08.17={add_spouse=100005508}	# Stephanie von Schönburg
 						}
@@ -6567,7 +6628,7 @@
 							dynasty=1002068
 							religion=catholic culture=german
 							father=100006913	# Hubert v. Waldburg zu Wolfegg u.Waldsee
-							mother=100095428	# GFN Anna-Elisabeth von Arco auf Valley
+							mother=100008510	# Anna-Elisabeth von Arco
 							1935.08.18={birth=yes}
 							1960.08.11={add_spouse=100095546}	# FRN Henriette von Habermann
 							2012.01.01={death=yes}  # EST.
@@ -6639,7 +6700,7 @@
 							dynasty=1002068
 							religion=catholic culture=german
 							father=100006913	# Hubert v. Waldburg zu Wolfegg u.Waldsee
-							mother=100095428	# GFN Anna-Elisabeth von Arco auf Valley
+							mother=100008510	# Anna-Elisabeth von Arco
 							1939.02.08={birth=yes}
 							1974.12.21={add_spouse=100094859}	# Sarah Louise Freeman
 						}
@@ -6674,7 +6735,7 @@
 							dynasty=1002068
 							religion=catholic culture=german
 							father=100006913	# Hubert v. Waldburg zu Wolfegg u.Waldsee
-							mother=100095428	# GFN Anna-Elisabeth von Arco auf Valley
+							mother=100008510	# Anna-Elisabeth von Arco
 							1940.11.17={birth=yes}
 							1967.09.16={add_spouse=100095445}	# Dorothee von Boch-Galhau
 							1984.01.01={remove_spouse=100095445}
@@ -6720,7 +6781,7 @@
 							dynasty=1002068
 							religion=catholic culture=german
 							father=100006913	# Hubert v. Waldburg zu Wolfegg u.Waldsee
-							mother=100095428	# GFN Anna-Elisabeth von Arco auf Valley
+							mother=100008510	# Anna-Elisabeth von Arco
 							1950.11.01={birth=yes}
 						}
 				100006938={	# 7d) Heinrich Maria Willibald Josef Stanislaus (Wolfegg 30 Mar 1874-Sonthofen 19 Feb 1949); m.Buckfast, England 7 Jun 1934 Frederika Marvin (Geneva 7 Apr 1895-London 30 Jul 1987)
@@ -6728,7 +6789,7 @@
 					dynasty=1002068
 					religion=catholic culture=german
 					father=100006955	# Franz v. Waldburg zu Wolfegg u.Waldsee
-					mother=100095430	# GFN Sophie von Arco-Zinneberg
+					mother=100008604	# Sophie von Arco
 					1874.03.30={birth=yes}  # Wolfegg
 					1934.06.07={add_spouse=100095066}	# Frederika Marvin
 					1949.02.19={death=yes}  # Sonthofen
@@ -9756,7 +9817,7 @@
 				father=100001033	# Franz v.u.zu Eltz gt Faust v.Stromberg
 				mother=100088589	# GFN Ida O'Hagerty
 				1867.05.13={birth=yes}  # Linz
-				1895.10.02={add_spouse=100092107}	# Christine v. Gudenus
+				1895.10.02={add_spouse=100024285}	# Christine  Hyacintha v. Gudenus
 				1940.02.01={death=yes}  # Schwarzenraben
 			}
 				100000952={	# 1d) Maria Ida Christine Margareta Ignatia Josepha Antonia (Klagenfurt 20 Jul 1896-Rome 7 Apr 1954)
@@ -9765,7 +9826,7 @@
 					dynasty=1002059
 					religion=catholic culture=german
 					father=100000951	# Carl v.u.zu Eltz gt Faust v.Stromberg
-					mother=100092107	# Christine v. Gudenus
+					mother=100024285	# Christine  Hyacintha v. Gudenus
 					1896.07.20={birth=yes}  # Klagenfurt
 					1954.04.07={death=yes}  # Rome
 				}
@@ -9774,7 +9835,7 @@
 					dynasty=1002059
 					religion=catholic culture=german
 					father=100000951	# Carl v.u.zu Eltz gt Faust v.Stromberg
-					mother=100092107	# Christine v. Gudenus
+					mother=100024285	# Christine  Hyacintha v. Gudenus
 					1898.11.15={birth=yes}  # Klagenfurt
 					1926.08.31={death=yes}  # Gleiwitz Silesia
 				}
@@ -9784,7 +9845,7 @@
 					dynasty=1002059
 					religion=catholic culture=german
 					father=100000951	# Carl v.u.zu Eltz gt Faust v.Stromberg
-					mother=100092107	# Christine v. Gudenus
+					mother=100024285	# Christine  Hyacintha v. Gudenus
 					1900.06.11={birth=yes}  # Klagenfurt
 					1994.02.12={death=yes}  # Graz
 				}
@@ -9794,7 +9855,7 @@
 					dynasty=1002059
 					religion=catholic culture=german
 					father=100000951	# Carl v.u.zu Eltz gt Faust v.Stromberg
-					mother=100092107	# Christine v. Gudenus
+					mother=100024285	# Christine  Hyacintha v. Gudenus
 					1902.11.08={birth=yes}  # Vienna
 					1983.08.11={death=yes}  # Vienna
 				}
@@ -9804,7 +9865,7 @@
 					dynasty=1002059
 					religion=catholic culture=german
 					father=100000951	# Carl v.u.zu Eltz gt Faust v.Stromberg
-					mother=100092107	# Christine v. Gudenus
+					mother=100024285	# Christine  Hyacintha v. Gudenus
 					1907.09.05={birth=yes}  # Vienna
 					1994.05.28={death=yes}  # Erwitte
 				}
@@ -10052,7 +10113,7 @@
 	dynasty=1002044
 	religion=catholic culture=frankish
 	1765.11.03={birth=yes}
-	1789.01.10={add_spouse=100082846}	# Anne-Victurnienne de Rochechouart-Mortemart
+	1789.01.10={add_spouse=100068841}	# Anne Victurnienne de Rochechouart-Mortemart
 	1821.11.05={add_spouse=100083321}	# Marie-Anne Dillon
 	1822.10.19={death=yes}
 }
@@ -10061,7 +10122,7 @@
 		dynasty=1002044
 		religion=catholic culture=frankish
 		father=100000828	# Auguste de Croÿ
-		mother=100082846	# Anne-Victurnienne de Rochechouart-Mortemart
+		mother=100068841	# Anne Victurnienne de Rochechouart-Mortemart
 		1789.12.22={birth=yes}
 		1819.06.21={add_spouse=100003900}	# Eleonore Wilhelmine v. Salm-Salm
 		1861.07.14={death=yes}
@@ -11061,7 +11122,7 @@
 		dynasty=1002044
 		religion=catholic culture=frankish
 		father=100000828	# Auguste de Croÿ
-		mother=100082846	# Anne-Victurnienne de Rochechouart-Mortemart
+		mother=100068841	# Anne Victurnienne de Rochechouart-Mortemart
 		1791.10.31={birth=yes}
 		1810.09.03={add_spouse=100082260}	# PSS Constance de Croÿ-Solre
 		1865.09.04={death=yes}
@@ -11537,12 +11598,12 @@
 		}
 			100000758={	# 1c) Marie Josèphe (Brussels 8 Mar 1856-Wez-Velvain 1 Oct 1914); m.Brussels 10 Oct 1882 Adolphe Cte du Chastel de La Howarderie (Wez-Velvain 5 Jun 1851-Capelle 7 Nov 1918)
 				name="Marie Josèphe"
+				female=yes
 				dynasty=1002044
 				religion=catholic culture=frankish
 				father=100000757	# Juste de Croÿ
 				mother=100067711	# Marie d’Ursel
 				1856.03.08={birth=yes}
-				1882.10.10={add_spouse=100083464}	# CTE Adolphe du Chastel de la Howarderie
 				1914.10.01={death=yes}
 			}
 			100000759={	# 2c) Sophie (Brussels 15 Feb 1858-Wez-Velvain 26 May 1933)
@@ -11747,7 +11808,7 @@
 		dynasty=1002044
 		religion=catholic culture=german
 		father=100000828	# Auguste de Croÿ
-		mother=100082846	# Anne-Victurnienne de Rochechouart-Mortemart
+		mother=100068841	# Anne Victurnienne de Rochechouart-Mortemart
 		1801.11.26={birth=yes}
 		1824.07.28={add_spouse=100003901}	# Johanna Wilhelmine v. Salm-Salm
 		1871.08.02={death=yes}
@@ -12204,7 +12265,7 @@
 		dynasty=1002044
 		religion=catholic culture=german
 		father=100000828	# Auguste de Croÿ
-		mother=100082846	# Anne-Victurnienne de Rochechouart-Mortemart
+		mother=100068841	# Anne Victurnienne de Rochechouart-Mortemart
 		1805.06.05={birth=yes}
 		1884.09.27={death=yes}
 	}
@@ -12828,12 +12889,12 @@
 						}
 						100005343={	# 2f) Maria Anna (31 Jan 1809-26 Jun 1856); m.15 Jan 1840 Maximilian Frhr von Loë (d.5 May 1850)
 							name="Maria Anna"
+							female=yes
 							dynasty=1002043
 							religion=lutheran culture=german
 							father=100005341	# Franz v. Schönborn
 							mother=100093439	# GFN Ferdinanda Isabella von Westphalen zu Fürstenberg
 							1809.01.31={birth=yes}
-							1840.01.15={add_spouse=100092589}	# FRHR Maximilian von Loë
 							1856.06.26={death=yes}
 						}
 						100005344={	# 3f) KLEMENS August Emmerich Gf von Schönborn-Wiesentheid (Gaibach 8 Oct 1810-Gaibach 24 Aug 1877); m.Vienna 20 Oct 1838 Irene Gfn Batthyány von Német-Ujvár (Ofen 30 Dec 1811-München 25 Apr 1891)
@@ -13894,7 +13955,7 @@
 								1907.12.21={death=yes}
 							}
 							100005253={	# 5g) Anna Maria Auguste Elisabeth Franziska Karoline Aloysia (Dlaskowitz 20 Jun 1845-Vienna 16 Nov 1909); m.Prague 31 Jan 1866 Ernst Frhr von Gudenus (Horn 1833-Graz 28 Oct 1914)
-								name="Anna Maria"
+								name=Anna
 								female=yes
 								dynasty=1002043
 								religion=lutheran culture=german
@@ -14452,7 +14513,7 @@
 	1721.04.01={birth=yes}
 	1778.08.17={death=yes}
 }
-	100000200={	# LOUIS ENGELBERT Marie Joseph Augustin, 6th Duke von Arenberg, 12th Duc d’Aerschot, cr 1801 Duke von Meppen [to compensate for territories lost on the left side of the Rhein], 1803 Fst von Recklinghausen, etc, lost sovereignty 1810/1, 1808 Comte de l’Empire (Brussels 3 Aug 1750-Brussels 7 Mar 1820; bur Enghien); m.Paris 19 Jan 1773 Louise de Brancas (Paris 23 Nov 1755-Paris 10 Aug 1812; bur Enghien), dau of Louis Léon de Brancas-Villars Cte de Lauraguais, by Elisabeth Pauline de Gand-Vilain, Pss de Isenghien et de Masmines
+	100000200={	# LOUIS ENGELBERT Marie Joseph Augustin, 6th Duke von Arenberg, 12th Duc d’Aerschot, cr 1801 Duke von Meppen [to compensate for territories lost on the left side of the Rhein], 1803 Fst von Recklinghausen, etc, lost sovereignty 1810/1, 1808 Comte de l’Empire (Brussels 3 Aug 1750-Brussels 7 Mar 1820); m.Paris 19 Jan 1773 Louise de Brancas (Paris 23 Nov 1755-Paris 10 Aug 1812), dau of Louis Léon de Brancas-Villars Cte de Lauraguais, by Elisabeth Pauline de Gand-Vilain, Pss de Isenghien et de Masmines
 		name="Louis Engelbert"
 		dynasty=1002040
 		religion=catholic culture=frankish
@@ -14461,7 +14522,7 @@
 		1773.01.19={add_spouse=100082530}	# CTE Louise de Lauraguais
 		1820.03.07={death=yes}
 	}
-		100000202={	# 1a) Pauline Charlotte (Brussels 2 Sep 1774-Paris 1 Jul 1810; bur Wittingau); m.Heverlé 25 May 1794 Joseph Pr zu Schwarzenberg (Vienna 27 Jun 1769-Frauenberg 19 Dec 1833; bur Wittingau)
+		100000202={	# 1a) Pauline Charlotte (Brussels 2 Sep 1774-Paris 1 Jul 1810); m.Heverlé 25 May 1794 Joseph Pr zu Schwarzenberg (Vienna 27 Jun 1769-Frauenberg 19 Dec 1833)
 			name="Pauline Charlotte"
 			female=yes
 			dynasty=1002040
@@ -14471,7 +14532,7 @@
 			1774.09.02={birth=yes}
 			1810.07.01={death=yes}
 		}
-		100000205={	# 3a) PROSPER LOUIS, 7th Duke von Arenberg, 13th Duc d'Aerschot, Duke von Meppen, Fst von Recklinghausen, etc (Enghien 28 Apr 1785-Brussels 27 Feb 1861; bur Enghien); m.1st Paris 1 Feb 1808 (div Paris 29 Aug 1816) Stéphanie Tascher de la Pagerie (Fort Royal, Martinique 4 Aug 1788-Paris 26 Oct 1832), dau of Robert Tascher, Baron de la Pagerie (and later wife of Guy de Achaumont, Marquis de Quitry); m.2nd Horzin 26 Jan 1819 Maria Ludmilla Pss von Lobkowicz (Prague 15 Mar 1798-Brussels 8 Jan 1868; bur Enghien)
+		100000205={	# 3a) PROSPER LOUIS, 7th Duke von Arenberg, 13th Duc d'Aerschot, Duke von Meppen, Fst von Recklinghausen, etc (Enghien 28 Apr 1785-Brussels 27 Feb 1861); m.1st Paris 1 Feb 1808 (div Paris 29 Aug 1816) Stéphanie Tascher de la Pagerie (Fort Royal, Martinique 4 Aug 1788-Paris 26 Oct 1832), dau of Robert Tascher, Baron de la Pagerie (and later wife of Guy de Achaumont, Marquis de Quitry); m.2nd Horzin 26 Jan 1819 Maria Ludmilla Pss von Lobkowicz (Prague 15 Mar 1798-Brussels 8 Jan 1868)
 			name="Prosper Louis"
 			dynasty=1002040
 			religion=catholic culture=frankish
@@ -14483,7 +14544,7 @@
 			1819.01.26={add_spouse=100085420}	# Ludmilla Lobkowicz
 			1861.02.27={death=yes}
 		}
-			100000208={	# 1b) Louise Paula Sidonie (Brussels 18 Dec 1820-Brussels 11 May 1853; bur Enghien)
+			100000208={	# 1b) Louise Paula Sidonie (Brussels 18 Dec 1820-Brussels 11 May 1853)
 				name="Louise Paula"
 				dynasty=1002040
 				religion=catholic culture=frankish
@@ -14492,7 +14553,7 @@
 				1820.12.18={birth=yes}
 				1853.05.11={death=yes}
 			}
-			100000209={	# 2b) Marie-Flore Pauline (Brussels 2 Mar 1823-Frascati 3 Aug 1861; bur Rome); m.Heverlé 9 Aug 1841 Camillo Borghese Pr Aldobrandini (Florence 16 Nov 1816-Rome 5 Jun 1902; bur Frascati)
+			100000209={	# 2b) Marie-Flore Pauline (Brussels 2 Mar 1823-Frascati 3 Aug 1861); m.Heverlé 9 Aug 1841 Camillo Borghese Pr Aldobrandini (Florence 16 Nov 1816-Rome 5 Jun 1902)
 				name=Marie-Flore
 				female=yes
 				dynasty=1002040
@@ -14502,7 +14563,7 @@
 				1823.03.02={birth=yes}
 				1861.08.03={death=yes}
 			}
-			100000211={	# 3b) ENGELBERT Auguste Antoine Joseph Léon Wenceslaus Balthazar Épiphanie Léonard Maxime Ghislain, 8th Duke von Arenberg, 14th Duc d’Aerschot, etc (Brussels 11 May 1824-Heverlé 28 Mar 1875; bur Enghien); m.Vienna 27 May 1868 Eleonore Pss and Dss von Arenberg (Vienna 19 Feb 1845-Montreux 28 Nov 1919)
+			100000211={	# 3b) ENGELBERT Auguste Antoine Joseph Léon Wenceslaus Balthazar Épiphanie Léonard Maxime Ghislain, 8th Duke von Arenberg, 14th Duc d’Aerschot, etc (Brussels 11 May 1824-Heverlé 28 Mar 1875); m.Vienna 27 May 1868 Eleonore Pss and Dss von Arenberg (Vienna 19 Feb 1845-Montreux 28 Nov 1919)
 				name=Engelbert
 				dynasty=1002040
 				religion=catholic culture=frankish
@@ -14918,7 +14979,7 @@
 					1858.01.23={birth=yes}
 					1933.05.10={death=yes}
 				}
-			100000201={	# 6b) Charles François Marie Joseph (Brussels 6 Sep 1831-Brussels 9 Jun 1896; bur Enghien); m.Ivanka, nr Preßburg 16 Jan 1876 Julie Gfn Hunyady de Kéthely (Vienna 26 Aug 1831-Vienna 19 Feb 1919), widow of Pr Mihailo Obrenovic
+			100000201={	# 6b) Charles François Marie Joseph (Brussels 6 Sep 1831-Brussels 9 Jun 1896); m.Ivanka, nr Preßburg 16 Jan 1876 Julie Gfn Hunyady de Kéthely (Vienna 26 Aug 1831-Vienna 19 Feb 1919), widow of Pr Mihailo Obrenovic
 				name=Charles
 				dynasty=1002040
 				religion=catholic culture=frankish
@@ -14928,7 +14989,7 @@
 				1876.01.16={add_spouse=100094941}	# GFN Julie Hunyady de Kéthely
 				1896.06.09={death=yes}
 			}
-			100000204={	# 7b) Joseph Léonard Balthazar (Enghien 8 Aug 1833-Schloß Hacking, Vienna 3 Oct 1896; bur Enghien); m.Vienna 14 Aug 1865 Franziska Pss von und zu Liechtenstein (Vienna 30 Oct 1833-Schloß Hacking 5 Jun 1894; bur Enghien)
+			100000204={	# 7b) Joseph Léonard Balthazar (Enghien 8 Aug 1833-Schloß Hacking, Vienna 3 Oct 1896); m.Vienna 14 Aug 1865 Franziska Pss von und zu Liechtenstein (Vienna 30 Oct 1833-Schloß Hacking 5 Jun 1894)
 				name=Joseph
 				dynasty=1002040
 				religion=catholic culture=frankish
@@ -14947,7 +15008,7 @@
 			1788.01.10={birth=yes}
 			1844.01.22={death=yes}
 		}
-		100000207={	# 5a) Pierre d'Alcantara Charles Marie, cr 24 Feb 1824 Duc d'Arenberg in France (Paris 2 Oct 1790-Brussels 27 Sep 1877; bur Enghien); m.1st Paris 26 Jan 1829 Alix de Talleyrand-Périgord (Paris 4 Nov 1808-Paris 21 Sep 1842); m.2nd Vienna 19 Jun 1860 Caroline Gfn von Kaunitz-Rietberg (Vienna 27 May 1801-Görz 18 Jun 1875)
+		100000207={	# 5a) Pierre d'Alcantara Charles Marie, cr 24 Feb 1824 Duc d'Arenberg in France (Paris 2 Oct 1790-Brussels 27 Sep 1877); m.1st Paris 26 Jan 1829 Alix de Talleyrand-Périgord (Paris 4 Nov 1808-Paris 21 Sep 1842); m.2nd Vienna 19 Jun 1860 Caroline Gfn von Kaunitz-Rietberg (Vienna 27 May 1801-Görz 18 Jun 1875)
 			name=Pierre
 			dynasty=1002040
 			religion=catholic culture=frankish
@@ -14968,7 +15029,7 @@
 				1830.11.15={birth=yes}
 				1905.06.11={death=yes}
 			}
-			100000212={	# 3b) Louis Charles Marie (Paris 15 Sep 1837-murdered at St.Petersburg 7 May 1870; bur Enghien)
+			100000212={	# 3b) Louis Charles Marie (Paris 15 Sep 1837-murdered at St.Petersburg 7 May 1870)
 				name="Louis Charles"
 				dynasty=1002040
 				religion=catholic culture=frankish
@@ -15128,7 +15189,7 @@
 					1908.05.30={add_spouse=100067451}	# Thérèse Françoise de La Rochefoucauld
 					1915.05.21={death=yes}
 				}
-		100000243={	# 6a) Philippe Joseph (Vienna 3 Oct 1794-Vienna 7 Mar 1815; bur Enghien)
+		100000243={	# 6a) Philippe Joseph (Vienna 3 Oct 1794-Vienna 7 Mar 1815)
 			name="Philippe Joseph"
 			dynasty=1002040
 			religion=catholic culture=frankish
