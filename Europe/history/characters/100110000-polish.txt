@@ -4643,16 +4643,16 @@
 		religion=catholic culture=polish
 		father=100114062	# Stanislaw Feliks Potocki
 		mother=100091107	# Sophie Tschelitsche
-		1806.01.01={birth=yes}
+		1802.01.01={birth=yes}
 		1861.10.07={death=yes}
 	}
-	100114155={	# 16a) Boleslaw (Tulczyn 1806-St.Petersburg 22 Nov 1892); m.Pss Maria Alexandrovna Soltykow (1816-Paris 1845)
+	100114155={	# 16a) Boleslaw (Tulczyn 1805-St.Petersburg 22 Nov 1892); m.Pss Maria Alexandrovna Soltykow (1816-Paris 1845)
 		name=Boleslaw
 		dynasty=1012006
 		religion=catholic culture=polish
 		father=100114062	# Stanislaw Feliks Potocki
 		mother=100091107	# Sophie Tschelitsche
-		1806.01.01={birth=yes}  # Tulczyn
+		1805.01.01={birth=yes}  # Tulczyn
 		1831.01.01={add_spouse=100090402}	# PSS Maria Alexandrovna Soltykov
 		1892.11.22={death=yes}  # St.Petersburg
 	}
@@ -7026,16 +7026,20 @@
 		1454.02.10={add_spouse=100021237}	# Elisabeth v. Habsburg
 		1492.06.07={death=yes}
 	}
-		100111859={	# 1d) Wladyslaw II, King of Bohemia 1471 and of Hungary 1490 (1 Mar 1456-13 Mar 1516); m.1st 20 Aug 1476 (div 1498) Barbara of Brandenburg (29 May 1464-4 Sep 1515); m.2nd 4 Oct 1490 (div 1500) Beatrice of Sicily (1457-21 Sep 1508); m.3rd 6 Oct 1502 Anne de Foix (1484-26 Jul 1506)
+		100111859={	# 1d) Wladyslaw II, King of Bohemia 1471 and of Hungary 1490 (1 Mar 1456-13 Mar 1516); 
+					# m.1st 20 Aug 1476 (div 1498) Barbara of Brandenburg (29 May 1464-4 Sep 1515); 
+					# m.2nd 4 Oct 1490 (div 1500) Beatrice of Sicily (1457-21 Sep 1508); 
+					# m.3rd 6 Oct 1502 Anne de Foix (1484-26 Jul 1506)
 			name=Wladyslaw
 			dynasty=9
 			religion=catholic culture=polish
 			father=100111857	# Kazimierz Jogailaitis
 			mother=100021237	# Elisabeth v. Habsburg
 			1456.03.01={birth=yes}
-			1476.08.20={add_spouse=100002125}	# Barbara v. Hohenzollern
+			1476.08.20={add_spouse=100002803}	# Barbara v. Hohenzollern
+			1490.01.01={remove_spouse=100002803}
 			1490.10.04={add_spouse=100083004}	# Beatrice de Trastámara
-			1498.01.01={remove_spouse=100002125}
+			1500.01.01={remove_spouse=100083004}
 			1502.10.06={add_spouse=100082361}	# QUEEN Anne de Foix
 			1516.03.13={death=yes}
 		}
@@ -7765,15 +7769,6 @@
 						1865.07.21={birth=yes}
 						1914.12.16={add_spouse=100089248}	# Alicja Probyn
 						1954.09.29={death=yes}
-					}
-					100111490={	# 7d) Adam Stefan Stanislaw Bonfatiusz Jozef, Bp of Krakow 1911, Archbishop of Krakow 1925, Cardinal 1946 (Krasiczyn 14 May 1867-Krakow 23 Jul 1951)
-						name="Adam Stefan"
-						dynasty=1012005
-						religion=catholic culture=polish
-						father=100111410	# Adam Sapieha
-						mother=100110284	# Jadwiga Klementyna Sanguszko
-						1867.05.14={birth=yes}
-						1951.07.23={death=yes}
 					}
 ## 100111400	Sapieha					1012005
 
@@ -11452,7 +11447,7 @@
 				father=100111106	# Stanislaw Radziwill
 				mother=100089103	# Caroline Pociej
 				1754.01.01={birth=yes}
-				1778.01.01={add_spouse=100081099}	# GFN Franziska Buttler
+				1778.01.01={add_spouse=100006138}	# Henriette Christiane zu Stolberg-Stolberg
 				1781.01.01={death=yes}
 			}
 			100111115={# 4c) Mikolaj (1 Aug 1747-1811); m.1782 Franziska Gfn Buttler
@@ -11462,7 +11457,7 @@
 				father=100111106	# Stanislaw Radziwill
 				mother=100089103	# Caroline Pociej
 				1747.08.01={birth=yes}
-				1782.01.01={add_spouse=100081099}	# GFN Franziska Buttler
+				1782.01.01={add_spouse=100006138}	# Henriette Christiane zu Stolberg-Stolberg
 				1811.01.01={death=yes}
 			}
 				100111117={# 1d) Julia (1788-1857); m.1st 1804 Józef Judycki (d.1811); m.2nd 1813 Maciej Pr Radziwill (d.1818); m.3rd 1823 Aleksander Pr Lubomirski (11 Aug 1802-Paris 12 Jun 1893)
@@ -11471,7 +11466,7 @@
 					dynasty=1012003
 					religion=catholic culture=polish
 					father=100111115	# Mikolaj Radziwill
-					mother=100081099	# GFN Franziska Buttler
+					mother=100006138	# Henriette Christiane zu Stolberg-Stolberg
 					1788.01.01={birth=yes}
 					1857.01.01={death=yes}
 				}
@@ -11480,7 +11475,7 @@
 					dynasty=1012003
 					religion=catholic culture=polish
 					father=100111115	# Mikolaj Radziwill
-					mother=100081099	# GFN Franziska Buttler
+					mother=100006138	# Henriette Christiane zu Stolberg-Stolberg
 					1791.04.18={birth=yes}
 					1813.01.01={add_spouse=100093900}	# Emilia Worcell
 					1849.01.01={death=yes}
@@ -11500,7 +11495,7 @@
 					dynasty=1012003
 					religion=catholic culture=polish
 					father=100111115	# Mikolaj Radziwill
-					mother=100081099	# GFN Franziska Buttler
+					mother=100006138	# Henriette Christiane zu Stolberg-Stolberg
 					1800.01.17={birth=yes}
 					1840.07.16={death=yes}
 				}
@@ -11509,7 +11504,7 @@
 					dynasty=1012003
 					religion=catholic culture=polish
 					father=100111115	# Mikolaj Radziwill
-					mother=100081099	# GFN Franziska Buttler
+					mother=100006138	# Henriette Christiane zu Stolberg-Stolberg
 					1801.01.01={birth=yes}
 					1826.01.01={add_spouse=100088381}	# Victoria Narbutt
 					1853.01.01={death=yes}
@@ -11690,7 +11685,7 @@
 		father=100110600	# Józef Zamoyski
 		mother=100024099	# Eleonore v. Abensberg u.Traun
 		1833.12.23={birth=yes}
-		1860.11.18={add_spouse=100088704}	# Maria Ocskay de Ocskó et Felsö-Dubovan
+		1860.11.18={add_spouse=100088704}	# Maria Ocskay de Ocskó et Felsõdubovány
 		1906.01.03={death=yes}
 	}
 		100110622={# 1b) Maria Juditha (Aba Lehota 2 Dec 1861-Hainoveija 15 Dec 1926); m.Preßburg 20 May 1885 Albert von Steiger (Radovesnig 26 Sep 1855-Hainoveija 23 Dec 1918)
@@ -11699,7 +11694,7 @@
 			dynasty=1012002
 			religion=catholic culture=polish
 			father=100110620	# Eugeniusz Zamoyski
-			mother=100088704	# Maria Ocskay de Ocskó et Felsö-Dubovan
+			mother=100088704	# Maria Ocskay de Ocskó et Felsõdubovány
 			1861.12.02={birth=yes}
 			1926.12.15={death=yes}
 		}
@@ -11709,7 +11704,7 @@
 			dynasty=1012002
 			religion=catholic culture=polish
 			father=100110620	# Eugeniusz Zamoyski
-			mother=100088704	# Maria Ocskay de Ocskó et Felsö-Dubovan
+			mother=100088704	# Maria Ocskay de Ocskó et Felsõdubovány
 			1864.01.28={birth=yes}
 			1928.10.20={death=yes}
 		}

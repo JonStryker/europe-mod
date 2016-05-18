@@ -1,4 +1,4 @@
-#Hohenzollern|12476|100015500-100015699
+### EARLY
 100002129={ # Friedrich v. Hohenzollern (1340-1401) %%
 	name=Friedrich
 	dynasty=12476
@@ -31,19 +31,21 @@
 			1433.01.01={birth=yes}
 			1488.02.09={death=yes}
 		}
-			100002133={ # Eitel Friedrich (1452-1512) %%
-				name="Eitel Friedrich"
+			100002133={ # Eitel-Friedrich (1452-1512); m.17 Feb 1482 Magdalene v. Hohenzollern (1460-Burg Hohenzollern 17 Jun 1496) %%
+				name="Eitel-Friedrich"
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002132	# Jobst Nikolaus v. Hohenzollern
 				1452.01.01={birth=yes}
+				1482.02.17={add_spouse=100002810}	# Magdalene v. Hohenzollern
 				1512.01.01={death=yes}
 			}	
 				100002134={ # Eitel Friedrich (1494-1525) %%
 					name="Eitel Friedrich"
 					dynasty=12476
 					religion=catholic culture=german
-					father=100002133	# Eitel Friedrich v. Hohenzollern
+					father=100002133	# Eitel-Friedrich v. Hohenzollern
+					mother=100002810	# Magdalene v. Hohenzollern
 					1494.01.01={birth=yes}
 					1525.01.01={death=yes}
 				}
@@ -55,18 +57,665 @@
 						1516.01.01={birth=yes}
 						1576.01.01={death=yes}
 					}
+### EARLY
 	
+		
+### KURFÜSTEN VON BRANDENBURG I	
+100002088={ # Friedrich I, Elector von Brandenburg (1371-Schloß Kadolzburg 20 Sep 1440); m.Schongau am Lech 18 Sep 1401 Pss Elisabeth von Bayern-Landshut(1383-Ansbach Schloß 13 Nov 1442)
+	name=Friedrich	# 1244/friedrich-i-von-hohenzollern-kurfuerst-von-brandenburg/
+	dynasty=12476
+	religion=catholic culture=german
+	father=487031	# Friedrich v. Hohenzollern
+	1371.09.21={birth=yes}
+	1401.09.18={add_spouse=100081167}	# Elisabeth von Bayern-Landshut
+	1440.09.20={death=yes}  # Schloß Kadolzburg
+}
+	100002041={ # 1a) Elisabeth (1403-Liegnitz 31 Oct 1449); m.1st Konstanz 9 Apr 1418 Duke Ludwig II of Liegnitz and Brieg (d.30 May 1436); m.2nd 1438/9 Duke Wenzel I of Teschen (d.1474)
+		name=Elisabeth
+		female=yes
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1403.01.01={birth=yes}
+		1449.10.31={death=yes}  # Liegnitz
+	}
+	100002043={ # 2a) Cäcilie (d.4 Jan 1449); m.Berlin 6 Jun 1423 Duke Wilhelm von Braunschweig-Lüneburg (d.25 Jul 1482)
+		name=Cäcilie
+		female=yes
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1406.01.01={birth=yes}  # EST.
+		1449.01.04={death=yes}
+	}
+	100002047={ # 3a) Johann (1406-Baiersdorf 16 Nov 1464); m.26 May 1416 Barbara von Sachsen-Wittenberg (b.after 1406, d.Bayreuth 10 Oct 1465)
+		name=Johann
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1406.01.01={birth=yes}
+		1416.05.26={add_spouse=100092331}	# Barbara von Sachsen-Wittenberg
+		1464.11.16={death=yes}  # Baiersdorf
+	}
+		100002050={ # 1b) Barbara (1423-Mantua 7 Nov 1481); m.Mantua 12 Nov 1433 Luigi III Gonzaga, Margrave of Mantua (d.12 Jun 1478)
+			name=Barbara
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002047	# Johann v. Hohenzollern
+			mother=100092331	# Barbara von Sachsen-Wittenberg
+			1423.01.01={birth=yes}
+			1481.11.07={death=yes}  # Mantua
+		}
+		100002055={ # 3b) Elisabeth (1425-after 13 Jan 1465); m.1st 29 Sep 1440 Duke Joachim von Pommern (d.1451); m.2nd 5 Mar 1454 Duke Wratislaw X von Pommern (d.17 Dec 1478)
+			name=Elisabeth
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002047	# Johann v. Hohenzollern
+			mother=100092331	# Barbara von Sachsen-Wittenberg
+			1425.01.01={birth=yes}
+			1466.01.13={death=yes}
+		}
+		100002059={ # 4b) Dorothea (1430-Kalundborg 10 Nov 1495); m.1st Copenhagen 12 Sep 1445 King Christof III of Denmark (d.1448); m.2nd Copenhagen 28 Oct 1449 King Christian I of Denmark (d.Copenhagen 21 May 1481)
+			name=Dorothea
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002047	# Johann v. Hohenzollern
+			mother=100092331	# Barbara von Sachsen-Wittenberg
+			1430.01.01={birth=yes}
+			1495.11.10={death=yes}  # Kalundborg
+		}
+	100002061={ # 4a) Margarete (1410-Landshut 27 Jul 1465); m.1st Ingolstadt 20 Jul 1441 Duke Ludwig von Bayern-Ingolstadt (d.7 Apr 1445); m.2nd 1446 Martin von Waldenfels
+		name=Margarete
+		female=yes
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1410.01.01={birth=yes}
+		1465.07.27={death=yes}  # Landshut
+	}
+	100002080={ # 5a) Magdalene (d.Scharnebeck 27 Oct 1454); m.16 Sep 1430 Duke Friedrich von Braunschweig-Lüneburg (d.Celle 19 Mar 1478)
+		name=Magdalene
+		female=yes
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1413.01.01={birth=yes}  # EST.
+		1454.10.27={death=yes}  # Scharnebeck
+	}
+	100002084={ # 6a) Friedrich II, Mgve and Elector von Brandenburg (Tangermünde 19 Nov 1413-Neustadt am Aisch 10 Feb 1471); m.Wittenberg 11 Jun 1441 Pss Katharina von Sachsen (1421-Berlin 22 Aug 1476)
+		name=Friedrich
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1413.11.19={birth=yes}  # Tangermünde
+		1441.06.11={add_spouse=100094140}	# PSS Katharina von Sachsen
+		1471.02.10={death=yes}  # Neustadt_am_Aisch
+	}
+		100002090={ # 1b) Dorothea (1448-1519); m.Lüneburg 12 Feb 1464 Duke Johann V von Sachsen-Lauenburg (d.1507)
+			name=Dorothea
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002084	# Friedrich v. Hohenzollern
+			mother=100094140	# PSS Katharina von Sachsen
+			1448.01.01={birth=yes}
+			1519.01.01={death=yes}
+		}
+		100002092={ # 2b) Margarete (d.1489); m.Prenzlau 21 Sep 1477 Duke Bogislaw X von Pommern (d.5 Oct 1523)
+			name=Margarete
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002084	# Friedrich v. Hohenzollern
+			mother=100094140	# PSS Katharina von Sachsen
+			1450.01.01={birth=yes}  # EST.
+			1489.01.01={death=yes}
+		}
+	100002096={ # 7a) Albrecht Achilles, 1440 in Ansbach, 1457 in Bayreuth, Elector von Brandenburg 1470 (Tangermünde 24 Nov 1414-Frankfurt 11 Mar 1486); he m.1st Ansbach 14 Nov 1446 Margarete von Baden (d.Ansbach 24 Oct 1457); m.2nd Ansbach 12 Nov 1458 Pss Anna von Sachsen (Meissen 7 Mar 1437-Neustadt 31 Oct 1512)
+		name=Albrecht
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1414.11.24={birth=yes}  # Tangermünde
+		1446.11.14={add_spouse=100094379}	# Margarethe von Baden
+		1458.11.12={add_spouse=100094382}	# Anna von Sachsen
+		1486.03.11={death=yes}  # Frankfurt
+	}
+		100002120={ # 2b) Ursula (25 Sep 1450-Breslau 25 Nov 1508); m.Eger 10 Feb 1467 Duke Heinrich I of Münsterberg (d.1498)
+			name=Ursula
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094379	# Margarethe von Baden
+			1450.09.25={birth=yes}
+			1508.11.25={death=yes}  # Breslau
+		}
+		100002136={ # 3b) Elisabeth (29 Nov 1451-Nürtingen 11 Mar 1524); m.Stuttgart 1467 Duke Eberhard II of Württemberg (d.1504)
+			name=Elisabeth
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094379	# Margarethe von Baden
+			1451.11.29={birth=yes}
+			1524.03.11={death=yes}  # Nürtingen
+		}
+		100002138={ # 5b) Johann Cicero, Elector von Brandenburg (2 Aug 1455-Schloß Arneburg 9 Jan 1499); m.Berlin 25 Aug 1476 Pss Margarete von Sachsen (Weimar 1449-Spandau 13 Jul 1501)
+			name="Johann Cicero"
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094379	# Margarethe von Baden
+			1455.08.02={birth=yes}
+			1476.08.25={add_spouse=100094391}	# Margarethe von Sachsen
+			1499.01.09={death=yes}  # Schloß Arneburg
+		}
+			100002140={ # 3c) Joachim I, Elector von Brandenburg (21 Feb 1484-Berlin 11 Jul 1535); m.Stendal 10 Apr 1502 Pss Elisabeth of Denmark (Nyborg 1485-Cölln an der Spree 10 Jun 1555)
+				name=Joachim
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002138	# Johann Cicero v. Hohenzollern
+				mother=100094391	# Margarethe von Sachsen
+				1484.02.21={birth=yes}
+				1502.04.10={add_spouse=100003295}	# Elisabeth von Oldenburg
+				1535.07.11={death=yes}  # Berlin
+			}
+				100002144={ # 1d) Joachim II, Elector von Brandenburg (9 Jan 1505-Schloß Köpenick 3 Jan 1571); m.1st Dresden 6 Nov 1524 Pss Magdalene von Sachsen (Dresden 7 Mar 1507-20/28 Jan 1534); m.2nd Cracow 1535 Pss Hedwig of Poland (25 Mar 1513-Alt-Ruppin 7 Feb 1573)
+					name=Joachim
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002140	# Joachim v. Hohenzollern
+					mother=100003295	# Elisabeth von Oldenburg
+					1505.01.09={birth=yes}
+					1524.11.06={add_spouse=100007540}	# Magdalene v. Wettin
+					1535.01.01={add_spouse=100111879}	# Hedwig Jogailaitis
+					1571.01.03={death=yes}  # Schloß Köpenick
+				}
+					# KURFÜSTEN VON BRANDENBURG II		-->		1e) Johann Georg, Elector von Brandenburg (11 Sep 1525-Berlin 18 Jan 1598); m.1st Berlin 15 Feb 1545 Pss Sophie of Liegnitz (d.1546); m.2nd Ansbach 12 Feb 1548 Mgvine Sabine von Brandenburg-Ansbach (1529-1575); m.3rd Letzlingen 6 Oct 1577 Pss Elisabeth of Anhalt-Zerbst (Zerbst 25 Sep 1563-Crossen 5 Oct 1607); for his descendants see Part 3
+					100002157={ # 2e) Barbara (10 Aug 1527-Brieg 2/12 Jan 1595, bur Brieg Schloßkirche); m.Berlin 15 Feb 1545 Duke Georg II of Brieg (d.1586)
+						name=Barbara
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002144	# Joachim v. Hohenzollern
+						mother=100007540	# Magdalene v. Wettin
+						1527.08.10={birth=yes}
+						1595.01.02={death=yes}  # Brieg
+					}
+					100002216={ # 8e) Elisabeth Magdalena (Berlin 6 Nov 1537-Berlin 22 Aug/1 Sep 1595); m.Cölln an der Spree 5 Feb 1559 Duke Franz Otto von Braunschweig-Lüneburg (d.Celle 29 Apr 1559)
+						name="Elisabeth Magdalena"
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002144	# Joachim v. Hohenzollern
+						mother=100111879	# Hedwig Jogailaitis
+						1537.11.06={birth=yes}  # Berlin
+						1595.09.01={death=yes}  # Berlin 22 Aug/1
+					}
+					100002222={ # 10e) Hedwig (Cölln an der Spree 23 Feb 1540-Wolfenbüttel 21 Oct 1602); m.Berlin 25 Feb 1560 Duke Julius von Braunschweig-Wolfenbüttel (d.Wolfenbüttel 3 May 1589)
+						name=Hedwig
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002144	# Joachim v. Hohenzollern
+						mother=100111879	# Hedwig Jogailaitis
+						1540.02.23={birth=yes}  # Cölln an der Spree
+						1602.10.21={death=yes}  # Wolfenbüttel
+					}
+					100002343={ # 11e) Sophie (14 Dec 1541-Krumau 27 Jun 1564); m.Berlin 14 Dec 1561 Wilhelm von Rosenberg (d.Prague 31 Aug 1592)
+						name=Sophie
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002144	# Joachim v. Hohenzollern
+						mother=100111879	# Hedwig Jogailaitis
+						1541.12.14={birth=yes}
+						1564.06.27={death=yes}  # Krumau
+					}
+				100002371={ # 2d) Anna (1507-Lübz 19 Jun 1567); m.Berlin 17 Jan 1524 Duke Albrecht VI von Mecklenburg-Schwerin (d.1547)
+					name=Anna
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002140	# Joachim v. Hohenzollern
+					mother=100003295	# Elisabeth von Oldenburg
+					1507.01.01={birth=yes}
+					1567.06.19={death=yes}  # Lübz
+				}
+				100002372={ # 3d) Elisabeth (Berlin 24 Aug 1510-Ilmenau 27 May 1558); m.1st Berlin 26 Feb 1525 Duke Erich I von Braunschweig-Lüneburg (d.Hagenau 30 Jul 1540); m.2nd Münden 31 May/1 Jun 1546 Poppo Gf von Henneberg (d.Burgbreitungen 4 Mar 1574)
+					name=Elisabeth
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002140	# Joachim v. Hohenzollern
+					mother=100003295	# Elisabeth von Oldenburg
+					1510.08.24={birth=yes}  # Berlin
+					1558.05.27={death=yes}  # Ilmenau
+				}
+				100002404={ # 4d) Margareta (29 Sep 1511-1577); m.1st Wolgast 23 Jan 1530 Duke Georg I von Pommern (d.1531); m.2nd Dessau 15 Feb 1534 Johann II Fst von Anhalt-Zerbst (d.4 Feb 1551); m.3d 1553 Hans Jonas von der Goltz (d.after 1566)
+					name=Margareta
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002140	# Joachim v. Hohenzollern
+					mother=100003295	# Elisabeth von Oldenburg
+					1511.09.29={birth=yes}
+					1577.01.01={death=yes}
+				}
+				100002416={ # 5d) Johann, Margrave of Küstrin, Hr der Neumark (Tangermünde 3 Aug 1513-Küstrin 13 Jan 1571); m.Wolfenbüttel 11 Nov 1537 Dss Katharina von Braunschweig-Wolfenbüttel (Wolfenbüttel 1518-Crossen 16 May 1574)
+					name=Johann
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002140	# Joachim v. Hohenzollern
+					mother=100003295	# Elisabeth von Oldenburg
+					1513.08.03={birth=yes}  # Tangermünde
+					1537.11.11={add_spouse=100094504}	# DSS Katharina von Braunschweig-Wolfenbüttel
+					1571.01.13={death=yes}  # Küstrin
+				}
+					100002427={ # 1e) Elisabeth (Küstrin 29 Aug 1540-Warsaw 8 Mar 1578); m.Küstrin 26 Dec 1558 Georg Friedrich, Mgve von Brandenburg-Ansbach (d.1603)
+						name=Elisabeth
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002416	# Johann v. Hohenzollern
+						mother=100094504	# DSS Katharina von Braunschweig-Wolfenbüttel
+						1540.08.29={birth=yes}  # Küstrin
+						1578.03.08={death=yes}  # Warsaw
+					}
+					100002439={ # 2e) Katharine (Küstrin 10 Aug 1549-Berlin 10 Oct 1602); m.Küstrin 8 Jan 1570 Joachim Friedrich, Elector von Brandenburg (d.1608)
+						name=Katharine
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002416	# Johann v. Hohenzollern
+						mother=100094504	# DSS Katharina von Braunschweig-Wolfenbüttel
+						1549.08.10={birth=yes}  # Küstrin
+						1602.10.10={death=yes}  # Berlin
+					}
+			100002446={ # 5c) Anna (1487-Kiel 3 May 1514); m.Stendal 10 Apr 1502 King Frederik I of Denmark (d.10 Apr 1533)
+				name=Anna
+				female=yes
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002138	# Johann Cicero v. Hohenzollern
+				mother=100094391	# Margarethe von Sachsen
+				1487.01.01={birth=yes}
+				1514.05.03={death=yes}  # Kiel
+			}
+			100002455={ # 5c) Ursula (17 Oct 1488-Güstrow 18 Sep 1510); m.16 Feb 1507 Duke Heinrich V von Mecklenburg-Schwerin (d.6 Feb 1552)
+				name=Ursula
+				female=yes
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002138	# Johann Cicero v. Hohenzollern
+				mother=100094391	# Margarethe von Sachsen
+				1488.10.17={birth=yes}
+				1510.09.18={death=yes}  # Güstrow
+			}
+		100002491={ # 7b) Friedrich V, Mgve von Brandenburg in Ansbach 1486 and Bayreuth 1495 (Ansbach 8 May 1460-Ansbach Schloß 4 Apr 1536); m.Frankfurt an der Oder 14 Feb 1479 Pss Sophie of Poland (6 May 1464-5 Oct 1512)
+			name=Friedrich
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094382	# Anna von Sachsen
+			1460.05.08={birth=yes}  # Ansbach
+			1479.02.14={add_spouse=100111873}	# Zofia Jogailaitis
+			1536.04.04={death=yes}  # Ansbach Schloß
+		}
+			100002495={ # 2c) Kasimir, in Bayreuth 1521 (Ansbach 27 Sep 1481-Ofen an der Ruhr 21 Sep 1527); m.Augsburg 25 Aug 1518 Pss Susanne von Bayern (2 Apr 1502-Neuburg 23 Apr 1543)
+				name=Kasimir
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002491	# Friedrich v. Hohenzollern
+				mother=100111873	# Zofia Jogailaitis
+				1481.09.27={birth=yes}  # Ansbach
+				1518.08.25={add_spouse=100094510}	# PSS Susana von Bayern
+				1527.09.21={death=yes}  # Ofen_an_der_Ruhr
+			}
+				100002525={ # 1d) Marie (14 Oct 1519-Heidelberg 31 Oct 1567, bur Heiliggeist, Heidelberg); m.Crailsheim 12 Jun 1557 Friedrich III, Elector Palatine (d.Heidelberg 26 Oct 1576)
+					name=Marie
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002495	# Kasimir v. Hohenzollern
+					mother=100094510	# PSS Susana von Bayern
+					1519.10.14={birth=yes}
+					1567.10.31={death=yes}  # Heidelberg
+				}
+				100002572={ # 3d) Albrecht Alcibiades, in Bayreuth 1527 (Ansbach 28 Mar 1522-Pforzheim 8 Jan 1557)
+					name="Albrecht Alcibiades"
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002495	# Kasimir v. Hohenzollern
+					mother=100094510	# PSS Susana von Bayern
+					1522.03.28={birth=yes}  # Ansbach
+					1557.01.08={death=yes}  # Pforzheim
+				}
+				100002641={ # 4d) Kunigunde (Ansbach 17 Jun 1523-Pforzheim 27 Feb 1558); m.Neustadt am Aisch 10 Mar 1551 Mgve Karl II von Baden-Durlach (d.1577)
+					name=Kunigunde
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002495	# Kasimir v. Hohenzollern
+					mother=100094510	# PSS Susana von Bayern
+					1523.06.17={birth=yes}  # Ansbach
+					1558.02.27={death=yes}  # Pforzheim
+				}
+			100002127={ # 4c) Georg (Ansbach 4 Mar 1484-Ansbach 27 Dec 1534); m.1st Gyula 21 Jan 1509 Css Beatrice de Frangepan (1480-1510); m.2nd Öls 9 Jan 1525 Pss Hedwig of Münsterberg (12 Jun 1508-Liegnitz 26 Nov 1531); m.3rd Freiberg 25 Aug 1532 Pss Emilie von Sachsen (Freiberg 27 Jul 1516-Ansbach 9 Apr 1591)
+				name=Georg
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002491	# Friedrich v. Hohenzollern
+				mother=100111873	# Zofia Jogailaitis
+				1484.03.04={birth=yes}  # Ansbach
+				1509.01.21={add_spouse=100094513}	# CSS Beatrice de Frangepan
+				1525.01.09={add_spouse=100094514}	# PSS Hedwig von Münsterberg
+				1532.08.25={add_spouse=100007542}	# Aemilie v. Wettin
+				1534.12.27={death=yes}  # Ansbach
+			}
+				100002643={ # 1d) Anna Marie (Jägerndorf 28 Dec 1526-Nürtingen 20 May 1589); m.Ansbach 17 Feb 1544 Duke Christof of Württemberg (d.28 Dec 1568)
+					name=Anna
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002127	# Georg v. Hohenzollern
+					mother=100094514	# PSS Hedwig von Münsterberg
+					1526.12.28={birth=yes}  # Jägerndorf
+					1589.05.20={death=yes}  # Nürtingen
+				}
+				100002648={ # 2d) Sabine (Ansbach 1529-Berlin 2 Nov 1575); m.12 Feb 1548 Johann Georg, Elector von Brandenburg (d.1598)
+					name=Sabine
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002127	# Georg v. Hohenzollern
+					mother=100094514	# PSS Hedwig von Münsterberg
+					1529.01.01={birth=yes}  # Ansbach
+					1575.11.02={death=yes}  # Berlin
+				}
+				100002650={ # 3d) Sophie (23 Mar 1535-Liegnitz 22 Feb 1587); m.11 Nov 1560 Duke Heinrich XI of Liegnitz (d.1588)
+					name=Sophie
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002127	# Georg v. Hohenzollern
+					mother=100007542	# Aemilie v. Wettin
+					1535.03.23={birth=yes}
+					1587.02.22={death=yes}  # Liegnitz
+				}
+				100002690={ # 5d) Dorothea Katharina (23 Feb 1538-18 Jan 1604); m.2 Feb 1556 Heinrich VI von Plauen, Bggf von Meißen (d.1568)
+					name="Dorothea Katharina"
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002127	# Georg v. Hohenzollern
+					mother=100007542	# Aemilie v. Wettin
+					1538.02.23={birth=yes}
+					1604.01.18={death=yes}
+				}
+				100002128={ # 6d) Georg Friedrich (Ansbach 5 Apr 1539-6 May 1603); m.1st Küstrin 26 Dec 1558 Elisabeth von Brandenburg-Küstrin (Küstrin 29 Aug 1540-Warsaw 8 Mar 1578); m.2nd Dresden 3 May 1579 Dss Sophie von Braunschweig-Lüneburg (Celle 30 Oct 1563-Nürnberg 14 Jan 1639)
+					name="Georg Friedrich"
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002127	# Georg v. Hohenzollern
+					mother=100007542	# Aemilie v. Wettin
+					1539.04.05={birth=yes}  # Ansbach
+					1558.12.26={add_spouse=100002427}	# Elisabeth v. Hohenzollern
+					1579.05.03={add_spouse=100007248}	# Sophie v. Braunschweig
+					1603.05.06={death=yes}
+				}
+			100002693={ # 5c) Sophie (Ansbach 10 Mar 1485-14 May 1537, bur St.Johannis, Liegnitz); m.13 Feb 1518 Duke Friedrich II of Liegnitz (d.1547)
+				name=Sophie
+				female=yes
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002491	# Friedrich v. Hohenzollern
+				mother=100111873	# Zofia Jogailaitis
+				1485.03.10={birth=yes}  # Ansbach
+				1537.05.14={death=yes}
+			}
+			100002699={ # 6c) Anna (Ansbach 5 May 1487-7 Feb 1539); m.1 Dec 1518 Duke Wenzel III of Teschen (d.17 Nov 1524)
+				name=Anna
+				female=yes
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002491	# Friedrich v. Hohenzollern
+				mother=100111873	# Zofia Jogailaitis
+				1487.05.05={birth=yes}  # Ansbach
+				1539.02.07={death=yes}
+			}
+			100002710={ # 8c) Albrecht (Ansbach 17 May 1490-Schloß Tappiau 20 Mar 1568); m.1st Königsberg 1526 Pss Dorothea of Denmark (1 Aug 1504-Königsberg Schloß 11 Apr 1547); m.2nd Königsberg 16 Feb 1550 Dss Anna Marie von Braunschweig-Kalenberg (23 Apr 1532-Schloß Neuhausen 20 Mar 1568)
+				name=Albrecht
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002491	# Friedrich v. Hohenzollern
+				mother=100111873	# Zofia Jogailaitis
+				1490.05.17={birth=yes}  # Ansbach
+				1526.01.01={add_spouse=100005683}	# Dorothea von Oldenburg
+				1550.02.16={add_spouse=100094525}	# DSS Anna von Braunschweig-Kalenberg
+				1568.03.20={death=yes}  # Schloß Tappiau
+			}
+				100002711={ # 1d) Anna Sophie (11 Jun 1527-Lübz 16 Feb 1591); m.Wismar 24 Feb 1555 Duke Johann Albrecht I von Mecklenburg (d.1576)
+					name="Anna Sophie"
+					female=yes
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002710	# Albrecht v. Hohenzollern
+					mother=100005683	# Dorothea von Oldenburg
+					1527.06.11={birth=yes}
+					1591.02.16={death=yes}  # Lübz
+				}
+				100002712={ # 8d) Duke Albrecht Friedrich of Prussia (Schloß Neuhausen nr Königsberg 29 Apr 1553-Fischhausen 27/28 Aug 1618); m.Königsberg 14 Oct 1573 Marie Eleonore of Jülich, Kleve and Berg (Kleve 15 Jun 1550-1 Jun 1608)
+					name="Albrecht Friedrich"
+					dynasty=12476
+					religion=catholic culture=german
+					father=100002710	# Albrecht v. Hohenzollern
+					mother=100094525	# DSS Anna von Braunschweig-Kalenberg
+					1553.04.29={birth=yes}  # Schloß Neuhausen nr Königsberg
+					1573.10.14={add_spouse=100094527}	# DSS Marie Eleonore von der Mark
+					1618.08.27={death=yes}  # Fischhausen
+				}
+					100002713={ # 1e) Anna (3 Jul 1576-Berlin 9/10 Apr 1625); m.Königsberg 30 Oct 1594 Johann Sigismund, Elector von Brandenburg (d.1619)
+						name=Anna
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002712	# Albrecht Friedrich v. Hohenzollern
+						mother=100094527	# DSS Marie Eleonore von der Mark
+						1576.07.03={birth=yes}
+						1625.04.09={death=yes}  # Berlin
+					}
+					100002719={ # 2e) Marie (Königsberg Schloß 23 Jan 1579-Bayreuth 21 Feb 1649); m.Plassenburg 9 May 1604 Mgve Christian von Brandenburg-Bayreuth (d.1655)
+						name=Marie
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002712	# Albrecht Friedrich v. Hohenzollern
+						mother=100094527	# DSS Marie Eleonore von der Mark
+						1579.01.23={birth=yes}  # Königsberg Schloß
+						1649.02.21={death=yes}  # Bayreuth
+					}
+					100002720={ # 4e) Sophie (31 Mar 1582-Schloß Goldingen 4 Dec 1610); m.5 Jan 1609 Wilhelm, Duke of Courland (d.1640)
+						name=Sophie
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002712	# Albrecht Friedrich v. Hohenzollern
+						mother=100094527	# DSS Marie Eleonore von der Mark
+						1582.03.31={birth=yes}
+						1610.12.04={death=yes}  # Schloß Goldingen
+					}
+					100002721={ # 5e) Eleonore (22 Aug 1583-Berlin 9 Apr 1607); m.Berlin 2 Nov 1603 Joachim Friedrich, Elector von Brandenburg (d.1608)
+						name=Eleonore
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002712	# Albrecht Friedrich v. Hohenzollern
+						mother=100094527	# DSS Marie Eleonore von der Mark
+						1583.08.22={birth=yes}
+						1607.04.09={death=yes}  # Berlin
+					}
+					100002722={ # 7e) Magdalene Sibylle (Königsberg Schloß 30 Dec 1586-Dresden 12 Feb 1659); m.Torgau 19 Jul 1607 Elector Johann Georg I von Sachsen (d.1656)
+						name="Magdalene Sibylle"
+						female=yes
+						dynasty=12476
+						religion=catholic culture=german
+						father=100002712	# Albrecht Friedrich v. Hohenzollern
+						mother=100094527	# DSS Marie Eleonore von der Mark
+						1586.12.30={birth=yes}  # Königsberg Schloß
+						1659.02.12={death=yes}  # Dresden
+					}
+			100002723={ # 10c) Johann, Viceroy of Valencia (Plassenburg 9 Jan 1493-Valencia 5 Jul 1525); m.17 Jun 1519 Germaine de Foix, Dowager Queen of Aragón (d.Liria 15 Oct 1538)
+				name=Johann
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002491	# Friedrich v. Hohenzollern
+				mother=100111873	# Zofia Jogailaitis
+				1493.01.09={birth=yes}  # Plassenburg
+				1519.06.17={add_spouse=100094533}	# DQUEEN Germaine de Foix
+				1525.07.05={death=yes}  # Valencia
+			}
+			100002724={ # 11c) Elisabeth (Ansbach 25 Mar 1494-Pforzheim 31 May 1518); m.Pforzheim 29 Sep 1510 Mgve Ernst von Baden-Durlach (d.1553)
+				name=Elisabeth
+				female=yes
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002491	# Friedrich v. Hohenzollern
+				mother=100111873	# Zofia Jogailaitis
+				1494.03.25={birth=yes}  # Ansbach
+				1518.05.31={death=yes}  # Pforzheim
+			}
+			100002801={ # 12c) Barbara (Ansbach 24 Sep 1495-nr Elbogen, Bohemia 23 Sep 1552); m.Plassenburg 26 Jul 1528 Georg Ldgf von Leuchtenberg (d.Grünsfeld 22/23 May 1555)
+				name=Barbara
+				female=yes
+				dynasty=12476
+				religion=catholic culture=german
+				father=100002491	# Friedrich v. Hohenzollern
+				mother=100111873	# Zofia Jogailaitis
+				1495.09.24={birth=yes}  # Ansbach
+				1552.09.23={death=yes}  # nr Elbogen Bohemia
+			}
+		100002802={ # 8b) Amalie (Plassenburg 1 Oct 1461-Baden-Baden 3 Sep 1481); m.Zweibrücken 19 Apr 1478 Kaspar Pfgf von Zweibrücken (d.1527)
+			name=Amalie
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094382	# Anna von Sachsen
+			1461.10.01={birth=yes}  # Plassenburg
+			1481.09.03={death=yes}  # Baden-Baden
+		}
+		100002803={ # 10b) Barbara (Ansbach 29 May 1464-Ansbach 4 Sep 1515); m.1st Berlin 11 Oct 1472 Duke Heinrich XI of Glogau (d.1476); m.2nd Frankfurt an der Oder 20 Aug 1476 (div 1500) King Ladislaus II of Hungary and Bohemia
+			name=Barbara
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094382	# Anna von Sachsen
+			1464.05.29={birth=yes}  # Ansbach
+			1515.09.04={death=yes}  # Ansbach
+		}
+		100002804={ # 12b) Sibylle (Ansbach 31 May 1467-Kaster 9 Jul 1524); m.Köln 8 Jul 1481 Duke William IV of Jülich and Berg (d.6 Sep 1511)
+			name=Sibylle
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094382	# Anna von Sachsen
+			1467.05.31={birth=yes}  # Ansbach
+			1524.07.09={death=yes}  # Kaster
+		}
+		100002805={ # 13b) Siegmund, Mgve von Brandenburg in Bayreuth 1486 (Ansbach 27 Sep 1468-Ansbach 26 Feb 1495)
+			name=Siegmund
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094382	# Anna von Sachsen
+			1468.09.27={birth=yes}  # Ansbach
+			1495.02.26={death=yes}  # Ansbach
+		}
+		100002806={ # 17b) Elisabeth (Ansbach 8 Apr 1474-Römhild 25 Apr 1507); m.Aschaffenburg 23 Nov 1491 Hermann Gf von Henneberg (d.Schwarza 5 Apr 1535)
+			name=Elisabeth
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094382	# Anna von Sachsen
+			1474.04.08={birth=yes}  # Ansbach
+			1507.04.25={death=yes}  # Römhild
+		}
+		100002807={ # 19b) Anastasia (Ansbach 17 Mar 1478-Ilmenau 4 Jul 1534); m.Neustadt 7 Feb 1500 Wilhelm Gf von Henneberg (d.24 Jan 1559)
+			name=Anastasia
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002096	# Albrecht v. Hohenzollern
+			mother=100094382	# Anna von Sachsen
+			1478.03.17={birth=yes}  # Ansbach
+			1534.07.04={death=yes}  # Ilmenau
+		}
+	100002808={ # 9a) Dorothea (Berlin 9 Feb 1420-Kl Rehna 19 Jan 1491); m.1432 Duke Heinrich IV von Mecklenburg (d.1477)
+		name=Dorothea
+		female=yes
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1420.02.09={birth=yes}  # Berlin
+		1491.01.19={death=yes}  # Kl Rehna
+	}
+	100002809={ # 10a) Friedrich, Hr der Altmark 1447 (ca 1424-Tangermünde 6 Oct 1463); m.Tangermünde 9 Feb 1449 Agnes von Pommern (ca 1436-Bernburg 9 May 1512)
+		name=Friedrich
+		dynasty=12476
+		religion=catholic culture=german
+		father=100002088	# Friedrich v. Hohenzollern
+		mother=100081167	# Elisabeth von Bayern-Landshut
+		1424.01.01={birth=yes}
+		1449.02.09={add_spouse=100084504}	# Agnes von Pommern-Wolgast
+		1463.10.06={death=yes}  # Tangermünde
+	}
+		100002810={ # 1b) Magdalene (1460-Burg Hohenzollern 17 Jun 1496); m.Berlin Schloß 17 Feb 1482 Eitel-Friedrich Gf von Hohenzollern (d.1512)
+			name=Magdalene
+			female=yes
+			dynasty=12476
+			religion=catholic culture=german
+			father=100002809	# Friedrich v. Hohenzollern
+			mother=100084504	# Agnes von Pommern-Wolgast
+			1460.01.01={birth=yes}
+			1496.06.17={death=yes}  # Burg Hohenzollern
+		}
+#1401.01.01={holder=100002088} # Friedrich I
+#1440.09.20={holder=100002047} # 3a) Johann 
+#1464.11.16={holder=100002084} # 6a) Friedrich II
+#1471.02.10={holder=100002096} # 7a) Albrecht Achilles
+#1486.03.11={holder=100002138} # 5b) Johann Cicero
+#1499.01.09={holder=100002140} # 3c) Joachim I
+#1535.07.11={holder=100002144} # 1d) Joachim II
+#1571.01.03={holder=100002048} # 1e) Johann Georg
+### KURFÜSTEN VON BRANDENBURG I	
 
-### EARLY					     		
+				     		
+### KURFÜSTEN VON BRANDENBURG II					     		
 100002048={ # Johann Georg, Elector von Brandenburg (11 Sep 1525-Berlin 18 Jan 1598); m.1st Berlin 15 Feb 1545 Pss Sophie von Liegnitz (d.1546); m.2nd Ansbach 12 Feb 1548 Mgvine Sabine von Brandenburg-Ansbach (1529-1575); m.3rd Letzlingen 6 Oct 1577 Pss Elisabeth von Anhalt-Zerbst (Zerbst 25 Sep 1563-Crossen 5 Oct 1607)
 	name="Johann Georg"					# 2906/johann-georg-kurfuerst-von-brandenburg/
 	dynasty=12476
 	religion=catholic culture=german
-	father=100002045					# Joachim Hektor v. Hohenzollern
+	father=100002144					# Joachim v. Hohenzollern
 	mother=100007540					# Magdalene v. Wettin
 	1525.09.11={birth=yes}
-	1545.02.15={add_spouse=100085231}	# HERZOGIN Sophie Piast
-	1548.02.12={add_spouse=100085404}	# MKGFN Sabine von Brandenburg-Ansbach
+	1545.02.15={add_spouse=100085231}	# HERZOGIN Sophie of Liegnitz
+	1548.02.12={add_spouse=100002648}	# Sabine v. Hohenzollern
 	1577.10.06={add_spouse=100000119}	# Elisabeth von Anhalt
 	1598.01.18={death=yes}  # Berlin
 }
@@ -75,10 +724,10 @@
 		dynasty=12476
 		religion=catholic culture=german
 		father=100002048	# Johann Georg v. Hohenzollern
-		mother=100085231	# HERZOGIN Sophie Piast
+		mother=100085231	# HERZOGIN Sophie of Liegnitz
 		1546.01.27={birth=yes}  # Berlin
-		1570.01.08={add_spouse=100085850}	# MKGFN Katharina von Brandenburg-Küstrin
-		1603.11.02={add_spouse=100085867}	# Eleonore von Preußen
+		1570.01.08={add_spouse=100002439}	# Katharine v. Hohenzollern
+		1603.11.02={add_spouse=100002721}	# Eleonore v. Hohenzollern
 		1608.07.28={death=yes}  # Köpenick
 	}
 		100002069={ # 1b) Johann Sigismund, Elector von Brandenburg, 1614 in Kleve, Mark and Ravensburg, Duke von Preußen 1618 (Halle an der Saale 8 Nov 1572-Berlin 2 Jan 1620); m.Königsberg 30 Oct 1594 Anna von Preußen (1576-1625)
@@ -86,9 +735,9 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002057					# Joachim Friedrich v. Hohenzollern
-			mother=100085850					# MKGFN Katharina von Brandenburg-Küstrin
+			mother=100002439					# Katharine v. Hohenzollern
 			1572.11.08={birth=yes}  			# Halle an der Saale
-			1594.10.30={add_spouse=100091243}	# HERZOGIN Anna von Preußen
+			1594.10.30={add_spouse=100002713}	# Anna v. Hohenzollern
 			1620.01.02={death=yes}  			# Berlin
 		}
 			100002203={ # 1c) Georg Wilhelm, Elector von Brandenburg (Berlin 13 Nov 1595-Königsberg 1 Dec 1640, bur Königsberg Dom); m.Heidelberg 24 Jul 1616 Elisabeth Charlotte Pfgfn von Simmern (Neumarkt 7 Nov 1597-Crossen 26 Apr 1660)
@@ -96,7 +745,7 @@
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002069	# Johann Sigismund v. Hohenzollern
-				mother=100091243	# HERZOGIN Anna von Preußen
+				mother=100002713	# Anna v. Hohenzollern
 				1595.11.13={birth=yes}  # Berlin
 				1616.07.24={add_spouse=100007995}	# Elisabeth Charlotte v. Wittelsbach
 				1640.12.01={death=yes}  # Königsberg
@@ -111,7 +760,7 @@
 					1617.09.03={birth=yes}  # Berlin
 					1676.08.19={death=yes}  # Mitau
 				}
-				100002205={ # 2d) Friedrich Wilhelm, "the Great" Elector von Brandenburg (Berlin 16 Feb 1620-Potsdam Schloß 9 May 1688); m.1st The Hague 7 Dec 1646 Pss Luise Henriette von Orange-Nassau (The Hague 27 Nov 1627-Berlin 18 Jun 1667); m.2nd Schloß Gröningen 14 Jun 1668 Pss Dorothea von Holstein-Glücksburg (Glücksburg 29 Sep 1636-Karlsbad 6 Aug 1689)
+				100002205={ # 2d) Friedrich Wilhelm, "der Große Kurfürst" von Brandenburg (Berlin 16 Feb 1620-Potsdam Schloß 9 May 1688); m.1st The Hague 7 Dec 1646 Pss Luise Henriette von Orange-Nassau (The Hague 27 Nov 1627-Berlin 18 Jun 1667); m.2nd Schloß Gröningen 14 Jun 1668 Pss Dorothea von Holstein-Glücksburg (Glücksburg 29 Sep 1636-Karlsbad 6 Aug 1689)
 					name="Friedrich Wilhelm"
 					dynasty=12476
 					religion=catholic culture=german
@@ -119,7 +768,7 @@
 					mother=100007995	# Elisabeth Charlotte v. Wittelsbach
 					1620.02.16={birth=yes}  # Berlin
 					1646.12.07={add_spouse=100091564}	# PSS Luise Henriette von Orange-Nassau
-					1668.06.14={add_spouse=100088899}	# PSS Dorothea von Holstein-Glücksburg
+					1668.06.14={add_spouse=100005538}	# Dorothea von Oldenburg
 					1688.05.09={death=yes}  # Potsdam Schloß
 				}
 					100002206={ # 2e) Karl Emil (Berlin 16 Feb 1655-Strassburg 7 Dec 1674)
@@ -142,12 +791,12 @@
 						1681.01.07={add_spouse=100092624}	# PSS Luise Charlotte Radziwill
 						1687.04.07={death=yes}  # Potsdam
 					}
-					100002209={ # 7e) Philipp, Margrave von Brandenburg-Schwedt (Königsberg 19 May 1669-Schwedt 19 Dec 1711); m.Oranienbaum 25 Jan 1699 Pss Johanna Charlotte von Anhalt-Dessau (Dessau 6 Apr 1682-Herford 31 Mar 1750)
+					100002209={ # 7e) Philipp, Mkgf von Brandenburg-Schwedt (Königsberg 19 May 1669-Schwedt 19 Dec 1711); m.Oranienbaum 25 Jan 1699 Pss Johanna Charlotte von Anhalt-Dessau (Dessau 6 Apr 1682-Herford 31 Mar 1750)
 						name=Philipp
 						dynasty=12476
 						religion=catholic culture=german
 						father=100002205	# Friedrich Wilhelm v. Hohenzollern
-						mother=100088899	# PSS Dorothea von Holstein-Glücksburg
+						mother=100005538	# Dorothea von Oldenburg
 						1669.05.19={birth=yes}  # Königsberg
 						1699.01.25={add_spouse=100095426}	# PSS Johanna Charlotte von Anhalt-Dessau
 						1711.12.19={death=yes}  # Schwedt
@@ -212,16 +861,6 @@
 							1739.02.13={add_spouse=100095427}	# PSS Leopoldina von Anhalt-Dessau
 							1788.12.12={death=yes}  # Schwedt
 						}
-							100002216={ # 1g) Friederike Charlotte Leopoldine Luise, Abbess von Herford (Berlin 18 Aug 1745-Herford 23 Jan 1808)
-								name=Friederike
-								female=yes
-								dynasty=12476
-								religion=catholic culture=german
-								father=100002215	# Friedrich Heinrich v. Hohenzollern
-								mother=100095427	# PSS Leopoldina von Anhalt-Dessau
-								1745.08.18={birth=yes}  # Berlin
-								1808.01.23={death=yes}  # Herford
-							}
 							100002217={ # 2g) Luise Henriette Wilhelmine (Berlin 24 Sep 1750-Dessau 21 Dec 1811); m.Charlottenburg 25 Jul 1767 Leopold III, Fst von Anhalt-Dessau (d.1817)
 								name=Luise
 								female=yes
@@ -238,7 +877,7 @@
 						dynasty=12476
 						religion=catholic culture=german
 						father=100002205	# Friedrich Wilhelm v. Hohenzollern
-						mother=100088899	# PSS Dorothea von Holstein-Glücksburg
+						mother=100005538	# Dorothea von Oldenburg
 						1670.11.26={birth=yes}  # Berlin
 						1739.11.17={death=yes}  # Schleusingen
 					}
@@ -247,7 +886,7 @@
 						dynasty=12476
 						religion=catholic culture=german
 						father=100002205	# Friedrich Wilhelm v. Hohenzollern
-						mother=100088899	# PSS Dorothea von Holstein-Glücksburg
+						mother=100005538	# Dorothea von Oldenburg
 						1672.01.24={birth=yes}  # Berlin
 						1703.10.31={add_spouse=100098642}	# PSS Marie Dorothea Kettler
 						1731.06.21={death=yes}  # Schloß Friedrichsfelde
@@ -295,7 +934,7 @@
 						dynasty=12476
 						religion=catholic culture=german
 						father=100002205	# Friedrich Wilhelm v. Hohenzollern
-						mother=100088899	# PSS Dorothea von Holstein-Glücksburg
+						mother=100005538	# Dorothea von Oldenburg
 						1673.01.05={birth=yes}  # Sparenberg
 						1695.05.29={add_spouse=100098652}	# Caterina Balbiano
 						1695.07.23={death=yes}  # San Germano
@@ -306,7 +945,7 @@
 						dynasty=12476
 						religion=catholic culture=german
 						father=100002205	# Friedrich Wilhelm v. Hohenzollern
-						mother=100088899	# PSS Dorothea von Holstein-Glücksburg
+						mother=100005538	# Dorothea von Oldenburg
 						1674.04.05={birth=yes}  # Berlin
 						1748.11.22={death=yes}  # Römhild
 					}
@@ -315,7 +954,7 @@
 						dynasty=12476
 						religion=catholic culture=german
 						father=100002205	# Friedrich Wilhelm v. Hohenzollern
-						mother=100088899	# PSS Dorothea von Holstein-Glücksburg
+						mother=100005538	# Dorothea von Oldenburg
 						1677.05.24={birth=yes}  # Berlin
 						1734.09.03={death=yes}  # Malchow
 					}
@@ -335,7 +974,7 @@
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002069	# Johann Sigismund v. Hohenzollern
-				mother=100091243	# HERZOGIN Anna von Preußen
+				mother=100002713	# Anna v. Hohenzollern
 				1598.03.17={birth=yes}  # Berlin
 				1659.12.19={death=yes}  # Berlin
 			}
@@ -345,7 +984,7 @@
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002069	# Johann Sigismund v. Hohenzollern
-				mother=100091243	# HERZOGIN Anna von Preußen
+				mother=100002713	# Anna v. Hohenzollern
 				1599.11.11={birth=yes}  # Königsberg
 				1655.05.28={death=yes}  # Stockholm
 			}
@@ -355,7 +994,7 @@
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002069	# Johann Sigismund v. Hohenzollern
-				mother=100091243	# HERZOGIN Anna von Preußen
+				mother=100002713	# Anna v. Hohenzollern
 				1602.05.28={birth=yes}  # Königsberg
 				1644.02.09={death=yes}  # Schöningen
 			}
@@ -364,7 +1003,7 @@
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002069	# Johann Sigismund v. Hohenzollern
-				mother=100091243	# HERZOGIN Anna von Preußen
+				mother=100002713	# Anna v. Hohenzollern
 				1603.07.25={birth=yes}  # Berlin
 				1625.02.23={death=yes}  # Berlin
 			}
@@ -374,7 +1013,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002057	# Joachim Friedrich v. Hohenzollern
-			mother=100085850	# MKGFN Katharina von Brandenburg-Küstrin
+			mother=100002439	# Katharine v. Hohenzollern
 			1575.06.26={birth=yes}  # Halle
 			1612.04.08={death=yes}  # Copenhagen
 		}
@@ -383,7 +1022,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002057	# Joachim Friedrich v. Hohenzollern
-			mother=100085850	# MKGFN Katharina von Brandenburg-Küstrin
+			mother=100002439	# Katharine v. Hohenzollern
 			1577.12.16={birth=yes}  # Wolmirstedt
 			1610.06.13={add_spouse=100098672}	# Eva Christine v. Württemberg
 			1624.03.12={death=yes}  # Leutschau
@@ -403,7 +1042,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002057	# Joachim Friedrich v. Hohenzollern
-			mother=100085850	# MKGFN Katharina von Brandenburg-Küstrin
+			mother=100002439	# Katharine v. Hohenzollern
 			1584.11.26={birth=yes}
 			1636.02.23={death=yes}  # Strassburg
 		}
@@ -412,7 +1051,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002057	# Joachim Friedrich v. Hohenzollern
-			mother=100085850	# MKGFN Katharina von Brandenburg-Küstrin
+			mother=100002439	# Katharine v. Hohenzollern
 			1587.09.07={birth=yes}  # Wolmirstedt
 			1615.01.01={add_spouse=100098675}	# DSS Dorothea von Braunschweig
 			1650.02.22={add_spouse=100098676}	# GFN Barbara Eusebia von Martinicz
@@ -435,7 +1074,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002057	# Joachim Friedrich v. Hohenzollern
-			mother=100085867	# Eleonore von Preußen
+			mother=100002721	# Eleonore v. Hohenzollern
 			1607.04.01={birth=yes}  # Berlin
 			1675.02.18={death=yes}  # Kreuznach
 		}
@@ -445,7 +1084,7 @@
 		dynasty=12476
 		religion=catholic culture=german
 		father=100002048	# Johann Georg v. Hohenzollern
-		mother=100085404	# MKGFN Sabine von Brandenburg-Ansbach
+		mother=100002648	# Sabine v. Hohenzollern
 		1561.06.26={birth=yes}
 		1623.11.13={death=yes}  # Stolp
 	}
@@ -455,7 +1094,7 @@
 		dynasty=12476
 		religion=catholic culture=german
 		father=100002048	# Johann Georg v. Hohenzollern
-		mother=100085404	# MKGFN Sabine von Brandenburg-Ansbach
+		mother=100002648	# Sabine v. Hohenzollern
 		1567.02.03={birth=yes}  # Schloß Zechlin
 		1618.11.04={death=yes}  # Wollin
 	}
@@ -465,7 +1104,7 @@
 		dynasty=12476
 		religion=catholic culture=german
 		father=100002048	# Johann Georg v. Hohenzollern
-		mother=100085404	# MKGFN Sabine von Brandenburg-Ansbach
+		mother=100002648	# Sabine v. Hohenzollern
 		1568.06.06={birth=yes}  # Schloß Zechlin
 		1622.12.07={death=yes}  # Dresden
 	}
@@ -476,7 +1115,7 @@
 		father=100002048					# Johann Georg v. Hohenzollern
 		mother=100000119					# Elisabeth von Anhalt
 		1581.01.30={birth=yes}  # Berlin
-		1604.05.09={add_spouse=100095667}	# HERZOGIN Maria von Preußen
+		1604.05.09={add_spouse=100002719}	# Marie v. Hohenzollern
 		1655.06.09={death=yes}  # Bayreuth
 	}
 		100002438={ # 3b) Anna Maria (Bayreuth 30 Dec 1609-Ödenburg 8 May 1680, bur Bayreuth); m.Regensburg 23 Oct 1639 Johann Anton I Fst von Eggenberg (d.Laibach 19 Feb 1649)
@@ -485,7 +1124,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002437	# Christian v. Hohenzollern
-			mother=100095667	# HERZOGIN Maria von Preußen
+			mother=100002719	# Marie v. Hohenzollern
 			1609.12.30={birth=yes}  # Bayreuth
 			1680.05.08={death=yes}  # Ödenburg
 		}
@@ -495,7 +1134,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002437	# Christian v. Hohenzollern
-			mother=100095667	# HERZOGIN Maria von Preußen
+			mother=100002719	# Marie v. Hohenzollern
 			1612.10.27={birth=yes}  # Bayreuth
 			1687.03.20={death=yes}  # Dresden
 		}
@@ -504,7 +1143,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002437					# Christian v. Hohenzollern
-			mother=100095667					# HERZOGIN Maria von Preußen
+			mother=100002719					# Marie v. Hohenzollern
 			1615.10.08={birth=yes}  # Bayreuth
 			1641.12.08={add_spouse=100002521}	# Sophie v. Hohenzollern
 			1651.02.06={death=yes}  # Hof
@@ -566,9 +1205,9 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002437	# Christian v. Hohenzollern
-			mother=100095667	# HERZOGIN Maria von Preußen
+			mother=100002719	# Marie v. Hohenzollern
 			1619.03.20={birth=yes}  # Bayreuth
-			1651.11.30={add_spouse=100095698}	# HERZOGIN Maria Elisabeth von Schleswig-Holstein-Glücksburg
+			1651.11.30={add_spouse=100005533}	# Marie Elisabeth von Oldenburg
 			1665.11.11={add_spouse=100095865}	# GFN Sophie Maria Margarethe zu Solms-Baruth
 			1666.09.27={death=yes}  # Schretz
 		}
@@ -577,7 +1216,7 @@
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002029	# Georg Albrecht v. Hohenzollern
-				mother=100095698	# HERZOGIN Maria Elisabeth von Schleswig-Holstein-Glücksburg
+				mother=100005533	# Marie Elisabeth von Oldenburg
 				1659.05.11={birth=yes}  # Bayreuth
 				1678.09.05={death=yes}  # after falling from his horse at Bayreuth
 			}
@@ -586,7 +1225,7 @@
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002029	# Georg Albrecht v. Hohenzollern
-				mother=100095698	# HERZOGIN Maria Elisabeth von Schleswig-Holstein-Glücksburg
+				mother=100005533	# Marie Elisabeth von Oldenburg
 				1661.07.29={birth=yes}  # Bayreuth
 				1687.08.14={add_spouse=100095783}	# GFN Sophie Christiane von Wolfstein
 				1708.03.26={death=yes}  # Schloß Weferlingen
@@ -682,7 +1321,7 @@
 					1712.03.18={death=yes}  # Weikersheim
 				}
 				100002094={ # 9d) Sophie Magdalene (Schönberg 28 Nov 1700-Christiansborg Castle 27 May 1770); m.7 Aug 1721 King Christian VI von Denmark (d.Hirschholm 1746)
-					name="Sophie Magdalene"
+					name=Magdalene
 					female=yes
 					dynasty=12476
 					religion=catholic culture=german
@@ -737,7 +1376,7 @@
 				dynasty=12476
 				religion=catholic culture=german
 				father=100002029	# Georg Albrecht v. Hohenzollern
-				mother=100095698	# HERZOGIN Maria Elisabeth von Schleswig-Holstein-Glücksburg
+				mother=100005533	# Marie Elisabeth von Oldenburg
 				1663.03.28={birth=yes}  # Kulmbach
 				1731.03.26={death=yes}  # Neustadt_am_Aisch
 			}
@@ -768,7 +1407,7 @@
 		father=100002048	# Johann Georg v. Hohenzollern
 		mother=100000119	# Elisabeth von Anhalt
 		1583.06.22={birth=yes}  # Cölln an der Spree
-		1612.10.14={add_spouse=100095861}	# GFN Sophie zu Solms-Laubach
+		1612.10.14={add_spouse=100095861}	# Sophie von Solms
 		1625.03.07={death=yes}  # Ansbach
 	}
 		100002521={ # 1b) Sophie (Ansbach Schloß 10 Jun 1614-Bayreuth 3 Dec 1646); m.Ansbach 8 Dec 1641 Mkgf Erdmann August von Brandenburg-Bayreuth
@@ -777,7 +1416,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002520	# Joachim Ernst v. Hohenzollern
-			mother=100095861	# GFN Sophie zu Solms-Laubach
+			mother=100095861	# Sophie von Solms
 			1614.06.10={birth=yes}  # Ansbach Schloß
 			1646.12.03={death=yes}  # Bayreuth
 		}
@@ -786,7 +1425,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002520	# Joachim Ernst v. Hohenzollern
-			mother=100095861	# GFN Sophie zu Solms-Laubach
+			mother=100095861	# Sophie von Solms
 			1616.05.01={birth=yes}
 			1634.09.06={death=yes}  # Nördlingen
 		}
@@ -795,7 +1434,7 @@
 			dynasty=12476
 			religion=catholic culture=german
 			father=100002520	# Joachim Ernst v. Hohenzollern
-			mother=100095861	# GFN Sophie zu Solms-Laubach
+			mother=100095861	# Sophie von Solms
 			1620.09.28={birth=yes}  # Ansbach
 			1642.08.31={add_spouse=100098737}	# Henriette Luise v. Württemberg
 			1651.10.15={add_spouse=100095658}	# GFN Sophie Margarethe zu Oettingen-Oettingen
@@ -941,186 +1580,6 @@
 		1590.10.19={birth=yes}  # Berlin
 		1625.03.19={death=yes}  # Brieg
 	}
-
-#######
-100098747={ # Lady       Elisabeth                 Berkeley                                 (1750-1828)
-	name="Elisabeth Berkeley"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1750.12.17={birth=yes}  # Spring Gardens
-	1828.01.13={death=yes}  # Villa Craven Naples
-}
-100098752={ # Pr         Janusz                    Radziwill                                (1588-1620)
-	name="Janusz Radziwill"
-	dynasty=0
-	religion=catholic culture=german
-	1588.01.01={birth=yes}
-	1613.07.07={add_spouse=100002639}	# Elisabeth Sophie v. Hohenzollern
-	1620.11.07={death=yes}
-}
-100098648={ # Fst        Viktor Friedrich          von Anhalt-Bernburg                      (1708-1765)
-	name="Viktor Friedrich von Anhalt-Bernburg"
-	dynasty=0
-	religion=catholic culture=german
-	1708.01.01={birth=yes}
-	1733.05.22={add_spouse=100002224}	# Sophie v. Hohenzollern
-	1765.05.18={death=yes}
-}
-100098731={ # Pss        Viktoria Charlotte        von Anhalt-Bernburg-Schaumburg           (1715-1792)
-	name="Viktoria Charlotte von Anhalt-Bernburg-Schaumburg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1715.09.25={birth=yes}  # Schaumburg
-	1792.02.04={death=yes}  # Schaumburg
-}
-100098740={ # Mkgfn      Johanna Elisabeth         von Baden-Durlach                        (1651-1680)
-	name="Johanna Elisabeth von Baden-Durlach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1651.11.16={birth=yes}  # Karlsburg
-	1680.10.08={death=yes}  # Ansbach
-}
-100085404={ # Mkgfn      Sabine                    von Brandenburg-Ansbach                  (1529-1575)
-	name="Sabine von Brandenburg-Ansbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1529.01.01={birth=yes}
-	1575.01.01={death=yes}
-}
-100098675={ # Dss        Dorothea                  von Braunschweig                         (1596-1643)
-	name="Dorothea von Braunschweig"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1596.07.08={birth=yes}  # Wolfenbüttel
-	1643.09.01={death=yes}  # Ziesar
-}
-100098660={ # Duke       Friedrich Ulrich          von Braunschweig-Lüneburg                (1589-1634)
-	name="Friedrich Ulrich von Braunschweig-Lüneburg"
-	dynasty=0
-	religion=catholic culture=german
-	1589.01.01={birth=yes}
-	1614.09.04={add_spouse=100002348}	# Anna Sophie v. Hohenzollern
-	1634.08.11={death=yes}
-}
-100098754={ # Duke       Johann Christian          von Brieg                                (1585-1639)
-	name="Johann Christian von Brieg"
-	dynasty=0
-	religion=catholic culture=german
-	1585.01.01={birth=yes}
-	1610.12.12={add_spouse=100002640}	# Dorothea Sibylle v. Hohenzollern
-	1639.12.25={death=yes}
-}
-100098708={ # Fst        Johann Anton              von Eggenberg                            (1614-1649)
-	name="Johann Anton von Eggenberg"
-	dynasty=0
-	religion=catholic culture=german
-	1614.01.01={birth=yes}
-	1639.10.23={add_spouse=100002438}	# Anna v. Hohenzollern
-	1649.02.19={death=yes}  # Laibach
-}
-100098742={ # Gf         Johann Reinhard           von Hanau-Lichtenberg                    (1674-1736)
-	name="Johann Reinhard von Hanau-Lichtenberg"
-	dynasty=0
-	religion=catholic culture=german
-	1674.01.01={birth=yes}
-	1699.07.30={add_spouse=100002577}	# Dorothea Friederike v. Hohenzollern
-	1736.03.28={death=yes}  # Hanau
-}
-100098727={ # Gf         Karl Ludwig               von Hohenlohe-Weikersheim                (1686-1756)
-	name="Karl Ludwig von Hohenlohe-Weikersheim"
-	dynasty=0
-	religion=catholic culture=german
-	1686.01.01={birth=yes}
-	1711.07.08={add_spouse=100002494}	# Dorothea Charlotte v. Hohenzollern
-	1756.05.05={death=yes}
-}
-100098715={ # Gf         Hermann Friedrich         von Hohenzollern-Hechingen               (1679-1733)
-	name="Hermann Friedrich von Hohenzollern-Hechingen"
-	dynasty=0
-	religion=catholic culture=german
-	1679.01.01={birth=yes}
-	1704.09.08={add_spouse=100002443}	# Eleonore Magdalene v. Hohenzollern
-	1733.01.23={death=yes}
-}
-100098676={ # Gfn        Barbara Eusebia           von Martinicz                            (1630-1656)
-	name="Barbara Eusebia von Martinicz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1630.01.01={birth=yes}
-	1656.06.04={death=yes}  # Prague
-}
-100091564={ # Pss        Luise Henriette           von Orange-Nassau                        (1627-1667)
-	name="Luise Henriette von Orange-Nassau"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1627.11.27={birth=yes}  # The Hague
-	1667.06.18={death=yes}  # Berlin
-}
-100098667={ # Duke       Franz Karl                von Sachsen-Lauenburg                    (1603-1660)
-	name="Franz Karl von Sachsen-Lauenburg"
-	dynasty=0
-	religion=catholic culture=german
-	1594.05.02={birth=yes}
-	1628.09.19={add_spouse=100002621}	# Agnes v. Hohenzollern
-	1639.09.01={add_spouse=100002354}	# Katharine v. Hohenzollern
-	1660.11.30={death=yes}	# Neuhaus
-}
-100098753={ # Duke       Julius Heinrich           von Sachsen-Lauenburg                    (1603-1665)
-	name="Julius Heinrich von Sachsen-Lauenburg"
-	dynasty=0
-	religion=catholic culture=german
-	1603.01.01={birth=yes}
-	1628.02.27={add_spouse=100002639}	# Elisabeth Sophie v. Hohenzollern
-	1665.01.01={death=yes}
-}
-100098679={ # Gfn        Maximiliane               von Salm-Neuburg                         (1608-1663)
-	name="Maximiliane von Salm-Neuburg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1608.01.01={birth=yes}
-	1663.12.08={death=yes}
-}
-100096308={ # Gf         Georg Ernst               von Wintzingerode                        (1752-1834)
-	name="Georg Ernst von Wintzingerode"
-	dynasty=0
-	religion=catholic culture=german
-	1752.01.01={birth=yes}
-	1796.06.09={add_spouse=100002213}	# Philippine v. Hohenzollern
-	1834.01.01={death=yes}
-}
-100098652={ #            Caterina                  Balbiano                                 (1670-1719)
-	name="Caterina Balbiano"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1670.01.01={birth=yes}
-	1719.12.01={death=yes}  # Dresden
-}
-100098733={ #            Regina Magdalena          Lutz                                     (1678-1755)
-	name="Regina Magdalena Lutz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1678.04.22={birth=yes}  # Bayreuth
-	1755.10.27={death=yes}  # Oberkotzau
-}
-100085867={ #            Eleonore                  von Preußen                              (1583-1607)
-	name="Eleonore von Preußen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1583.01.01={birth=yes}
-	1607.01.01={death=yes}
-}
-####### 100002649
 #1555.09.11={holder=100002048} # Johann Georg
 #1598.01.18={holder=100002057} # 1a) Joachim Friedrich
 #1608.07.28={holder=100002069} # 1b) Johann Sigismund
@@ -1129,127 +1588,7 @@
 #1688.05.09={holder=100002207} # 3e) Friedrich I
 #1713.02.25={holder=100002210} # 2f) Friedrich Wilhelm
 #1771.03.04={holder=100002215} # 5f) Mkgf Friedrich Heinrich von Brandenburg-Schwedt 
-
-		
-### BAYREUTH & SCHWEDT etc
-100002088={ # Friedrich v. Hohenzollern (21 Sep 1371-20 Sep 1440); m.1396 Elisabeth von Bayern-Landshut (1383-13 Nov 1442) %%
-    name=Friedrich   # 1244/friedrich-i-von-hohenzollern-kurfuerst-von-brandenburg/
-    dynasty=12476
-    religion=catholic culture=german
-	father=487031	# Friedrich v. Hohenzollern
-    1371.09.21={birth=yes}
-    1396.01.01={add_spouse=100095438}	# Elisabeth von Bayern-Landshut
-    1440.09.20={death=yes}
-}
-    100002071={ # Albrecht Achilles (24 Nov 1414-11 Mar 1486); m.1st 1449 Margarethe von Baden (1431-24 Oct 1457); m.2nd 12 Nov 1458 Anna von Sachsen (7 Mar 1437-31 Oct 1512) %%
-        name="Albrecht Achilles" # 1692/albrecht-achilles-von-hohenzollern-kurfuerst-von-brandenburg/
-        dynasty=12476
-        religion=catholic culture=german
-        father=100002088	# Friedrich v. Hohenzollern
-        mother=100095438	# Elisabeth von Bayern-Landshut
-        1414.11.24={birth=yes}
-        1449.01.01={add_spouse=100095434}	# Margarethe von Baden
-        1458.11.12={add_spouse=100095684}	# Anna von Sachsen
-        1486.03.11={death=yes}
-    }
-        100002098={ # Johann Cicero (2 Aug 1455-9 Jan 1499); m.1473 Margarethe von Sachsen (1449-13 Jul 1501) %%
-            name="Johann Cicero" # 136948/johann-cicero-kurfuerst-von-brandenburg/
-            dynasty=12476
-            religion=catholic culture=german
-			father=100002071	# Albrecht Achilles v. Hohenzollern
-            mother=100095434	# Margarethe von Baden
-            1455.08.02={birth=yes}
-            1473.01.01={add_spouse=100095685}	# Margarethe von Sachsen
-            1499.01.09={death=yes}
-        }
-            100002066={ # Joachim Nestor (21 Feb 1484-11 Jul 1535); m.1502 Pss Elisabeth til Danmark (1485-10 Jun 1555) %%
-                name="Joachim Nestor" # 2434/joachim-i-nestor-kurfuerst-von-brandenburg/
-                dynasty=12476
-                religion=catholic culture=german
-                father=100002098	# Johann Cicero v. Hohenzollern
-                mother=100095685	# Margarethe von Sachsen
-                1484.02.21={birth=yes}
-                1502.01.01={add_spouse=100095346}	# PSS Elisabeth til Danmark
-                1535.07.11={death=yes}
-            }
-                100002045={ # Joachim Hektor (9 Jan 1505-3 Jan 1571); m.1st 6 Nov 1524 Magdalene v. Wettin (Dresden 7 Mar 1507-1534); m.2nd 1535 Hedwig Jogailaitis (25 Mar 1513-7 Feb 1573) %%
-                    name="Joachim Hektor" # 2642/joachim-ii-hektor-kurfuerst-von-brandenburg/
-                    dynasty=12476
-                    religion=catholic culture=german
-                    father=100002066	# Joachim Nestor v. Hohenzollern
-                    mother=100095346	# PSS Elisabeth til Danmark
-                    1505.01.09={birth=yes}
-					1524.11.06={add_spouse=100007540}	# Magdalene v. Wettin
-					1535.01.01={add_spouse=100111879}	# Hedwig Jogailaitis
-                    1571.01.03={death=yes}
-                }
-                    100002005={ # Elisabeth Magdalene (Berlin 6 Nov 1537-Berlin 22 Aug 1595); m.5 Feb 1559 Franz Otto v. Braunschweig (1530-Celle 29 Apr 1559) %%
-						name="Elisabeth Magdalene"
-						female=yes
-						dynasty=12476
-						religion=lutheran culture=german
-						father=100002045	# Joachim Hektor v. Hohenzollern
-						1537.11.06={birth=yes}  # Berlin
-						1595.08.22={death=yes}  # Berlin
-					}
-        100002126={ # Friedrich (8 May 1460-4 Apr 1536); m.1480 Zofia Jogailaitis (6 May 1464-5 Oct 1512) %%
-            name=Friedrich   # 136952/friedrich-v-markgraf-von-brandenburg-ansbach/
-            dynasty=12476
-            religion=catholic culture=german
-			father=100002071	# Albrecht Achilles v. Hohenzollern
-            mother=100095684	# Anna von Sachsen
-            1460.05.08={birth=yes}
-            1480.01.01={add_spouse=100111873}	# Zofia Jogailaitis
-            1536.04.04={death=yes}
-        }
-            100002064={ # Kasimir (27 Sep 1481-21 Sep 1527); m.23 Aug 1518 Pss Susana von Bayern (2 Apr 1502-23 Apr 1543) %%
-                name=Kasimir     # 2416/kasimir-markgraf-von-brandenburg-ansbach/
-                dynasty=12476
-                religion=catholic culture=german
-                father=100002126	# Friedrich v. Hohenzollern
-                mother=100111873	# Zofia Jogailaitis
-                1481.09.27={birth=yes}
-                1518.08.23={add_spouse=100095437}	# PSS Susana von Bayern
-                1527.09.21={death=yes}
-            }
-                100002099={ # Maria (14 Oct 1519-31 Oct 1567); m.12 Jun 1537 Friedrich v. Wittelsbach (Simmern 14 Feb 1515-Heidelberg 26 Oct 1576) %%
-                    name=Maria       # 2806/maria-von-brandenburg-kulmbach/
-					female=yes
-                    dynasty=12476
-                    religion=catholic culture=german
-                    father=100002064	# Kasimir v. Hohenzollern
-                    mother=100095437	# PSS Susana von Bayern
-                    1519.10.14={birth=yes}
-                    1567.10.31={death=yes}
-                }
-            100002127={ # Georg (4 Mar 1484-27 Dec 1543) %%
-                name=Georg       # 2438/georg-markgraf-von-brandenburg-ansbach/
-                dynasty=12476
-                religion=catholic culture=german
-                father=100002126	# Friedrich v. Hohenzollern
-                mother=100111873	# Zofia Jogailaitis
-                1484.03.04={birth=yes}
-                1543.12.27={death=yes}
-            }
-				100002128={ # Georg Friedrich (5 Apr 1539-26 Apr 1603) %%
-					name="Georg Friedrich"
-					dynasty=12476
-					religion=lutheran culture=german
-					father=100002127	# Georg v. Hohenzollern
-					1539.04.05={birth=yes}
-					1603.04.26={death=yes}
-				}
-		100002125={ # Barbara (29 May 1464-4 Sep 1515); m.20 Aug 1476 Wladyslaw Jogailaitis (1 Mar 1456-13 Mar 1516) %%
-			name=Barbara
-			female=yes
-			dynasty=12476
-			religion=catholic culture=german
-			father=100002071	# Albrecht Achilles v. Hohenzollern
-			mother=100095684 	# Anna von Sachsen
-			1464.05.29={birth=yes}
-			1515.09.04={death=yes}
-		}
-### BAYREUTH & SCHWEDT etc		
+### KURFÜSTEN VON BRANDENBURG
 		
 		
 ### SIGMARINGEN LINE	100019600	1002024
@@ -1621,7 +1960,7 @@
 		1810.06.06={birth=yes}
 		1885.06.21={death=yes}
 	}
-	100002304={# 2a) KARL ANTON Joachim Zephyrinus Friedrich Meinrad Fst von Hohenzollern-Sigmaringen, Fst von Hohenzollern from 3 Sep 1869, ceded his sovereign rights to King of Prussia 7 Dec 1849, granted style of Highness 20 Mar 1850, and Royal Highness 18 Oct 1861 (Sigmaringen 7 Sep 1811-Berlin 2 Jun 1885); m.Karlsruhe 21 Oct 1834 Josefine Pss of Baden (Mannheim 21 Oct 1813-Sigmaringen 19 Jun 1900)
+	100002304={# 2a) KARL ANTON Joachim Zephyrinus Friedrich Meinrad Fst von Hohenzollern-Sigmaringen, Fst von Hohenzollern from 3 Sep 1869, ceded his sovereign rights to King of Prussia 7 Dec 1849, granted style of Highness 20 Mar 1850, and Royal Highness 18 Oct 1861 (Sigmaringen 7 Sep 1811-Berlin 2 Jun 1885); m.Karlsruhe 21 Oct 1834 Josefine Pss von Baden (Mannheim 21 Oct 1813-Sigmaringen 19 Jun 1900)
 		name="Karl Anton"
 		dynasty=1002024
 		religion=catholic culture=german
@@ -1641,7 +1980,7 @@
 			1861.09.12={add_spouse=100033049}	# Antónia de Braganza
 			1905.06.08={death=yes}
 		}
-			100002306={# 1c) WILHELM August Karl Joseph Peter Ferdinand Benedikt Fst von Hohenzollern (Benrath 7 Mar 1864-Sigmaringen 22 Oct 1927); m.1st Sigmaringen 27 Jun 1889 Maria Teresa Pss of Bourbon-Two Sicilies (Zürich 15 Jan 1867-Cannes 1 Mar 1909); m.2d München 20 Jan 1915 Adelgunde Pss of Bavaria (Villa Amsee 17 Oct 1870-Sigmaringen 4 Jan 1958)
+			100002306={# 1c) WILHELM August Karl Joseph Peter Ferdinand Benedikt Fst von Hohenzollern (Benrath 7 Mar 1864-Sigmaringen 22 Oct 1927); m.1st Sigmaringen 27 Jun 1889 Maria Teresa Pss of Bourbon-Two Sicilies (Zürich 15 Jan 1867-Cannes 1 Mar 1909); m.2d München 20 Jan 1915 Adelgunde Pss von Bayern (Villa Amsee 17 Oct 1870-Sigmaringen 4 Jan 1958)
 				name=Wilhelm
 				dynasty=1002024
 				religion=catholic culture=german
@@ -1662,7 +2001,7 @@
 					1890.08.19={birth=yes}
 					1966.08.29={death=yes}
 				}
-				100002308={# 2d) FRIEDRICH Viktor Pius Alexander Leopold Karl Theodor Ferdinand Fst von Hohenzollern (Heiligendamm 30 Aug 1891-Krauchenwies 6 Feb 1965); m.Sibyllenort 2 Jun 1920 Margarete Pss of Saxony (Dresden 24 Jan 1900-Freiburg im Breisgau 16 Oct 1962)
+				100002308={# 2d) FRIEDRICH Viktor Pius Alexander Leopold Karl Theodor Ferdinand Fst von Hohenzollern (Heiligendamm 30 Aug 1891-Krauchenwies 6 Feb 1965); m.Sibyllenort 2 Jun 1920 Margarete Pss von Sachsen (Dresden 24 Jan 1900-Freiburg im Breisgau 16 Oct 1962)
 					name=Friedrich
 					dynasty=1002024
 					religion=catholic culture=german
@@ -1684,7 +2023,7 @@
 						1921.02.19={birth=yes}
 						2011.10.11={death=yes}
 					}
-					100002310={# 2e) Maria Adelgunde Alice Luise Josephine (Sigmaringen 19 Feb 1921-Frauenfeld 23 May 2006); m.1st Sigmaringen 31 Aug 1942 (div 1948) Pr Konstantin of Bavaria (München 15 Aug 1920-Hechingen 30 Jul 1969); m.2d Baden-Baden 25 Mar 1950 (div 1962) Werner Hess (b.Baden-Baden 20 Sep 1907); m.3d Frauenfeld, Switzerland 9 Feb 1973 Hans Huber (Frauenfeld 12 May 1909-Frauenfeld 25 Apr 2007)
+					100002310={# 2e) Maria Adelgunde Alice Luise Josephine (Sigmaringen 19 Feb 1921-Frauenfeld 23 May 2006); m.1st Sigmaringen 31 Aug 1942 (div 1948) Pr Konstantin von Bayern (München 15 Aug 1920-Hechingen 30 Jul 1969); m.2d Baden-Baden 25 Mar 1950 (div 1962) Werner Hess (b.Baden-Baden 20 Sep 1907); m.3d Frauenfeld, Switzerland 9 Feb 1973 Hans Huber (Frauenfeld 12 May 1909-Frauenfeld 25 Apr 2007)
 						name="Maria Adelgunde"
 						female=yes
 						dynasty=1002024
@@ -1937,7 +2276,7 @@
 							mother=100083736	# Eliane Etter
 							1980.08.05={birth=yes}
 						}
-				100002337={# 3d) Franz Joseph Maria Ludwig Anton Thassilo Pr von Hohenzollern-Emden (Heiligendamm 30 Aug 1891-Tübingen 3 Apr 1964); m.Sibyllenort 25 May 1921 Maria Alix Pss of Saxony (Wachwitz 27 Sep 1901-Hechingen 11 Dec 1990)
+				100002337={# 3d) Franz Joseph Maria Ludwig Anton Thassilo Pr von Hohenzollern-Emden (Heiligendamm 30 Aug 1891-Tübingen 3 Apr 1964); m.Sibyllenort 25 May 1921 Maria Alix Pss von Sachsen (Wachwitz 27 Sep 1901-Hechingen 11 Dec 1990)
 					name=Franz
 					dynasty=1002024
 					religion=catholic culture=german
@@ -1977,7 +2316,7 @@
 							mother=100092387	# Edina von Kap-Herr
 							1974.12.06={birth=yes}
 						}
-					100002225={# 3e) Maria Margarethe Anna Viktoria Luise Josephine Mathilde Theresia vom Kinde Jesu (Sigmaringen 2 Jan 1928-Hechingen 4 Aug 2006); m.(civ) Hechingen 18 Dec 1965 (rel) Burg Hohenzollern 23 Apr 1966 Duke Karl Gregor of Mecklenburg (b.Remplin, Mecklenburg 14 Mar 1933)
+					100002225={# 3e) Maria Margarethe Anna Viktoria Luise Josephine Mathilde Theresia vom Kinde Jesu (Sigmaringen 2 Jan 1928-Hechingen 4 Aug 2006); m.(civ) Hechingen 18 Dec 1965 (rel) Burg Hohenzollern 23 Apr 1966 Duke Karl Gregor von Mecklenburg (b.Remplin, Mecklenburg 14 Mar 1933)
 						name="Maria Margarethe"
 						female=yes
 						dynasty=1002024
@@ -2186,7 +2525,7 @@
 
 
 ### PRUSSIAN LINE			12476
-100002207={# Friedrich, Elector of Brandenburg and Duke of Prussia 29 Apr 1688, became FRIEDRICH I, King in Prussia 18 Jan 1701 (Königsberg 11 Jul 1657-Berlin 25 Feb 1713); m.1st Potsdam 23 Aug 1679 Elisabeth Henriette, Landgravine of Hesse-Kassel (Kassel 8 Nov 1661-Berlin 27 Jun 1683); m.2d Herrenhausen 8 Oct 1684 Sophie Charlotte, Dss of Braunschweig-Lüneburg (Schloß Iburg 10 Oct 1668-Hannover 1 Feb 1705); m.3d Berlin 28 Nov 1708 Sofie Luise Dss of Mecklenburg-Schwerin (Grabow 16 May 1685-Schwerin 29 Jul 1735)
+100002207={# Friedrich, Elector von Brandenburg and Duke of Prussia 29 Apr 1688, became FRIEDRICH I, King in Prussia 18 Jan 1701 (Königsberg 11 Jul 1657-Berlin 25 Feb 1713); m.1st Potsdam 23 Aug 1679 Elisabeth Henriette, Landgravine of Hesse-Kassel (Kassel 8 Nov 1661-Berlin 27 Jun 1683); m.2d Herrenhausen 8 Oct 1684 Sophie Charlotte, Dss von Braunschweig-Lüneburg (Schloß Iburg 10 Oct 1668-Hannover 1 Feb 1705); m.3d Berlin 28 Nov 1708 Sofie Luise Dss von Mecklenburg-Schwerin (Grabow 16 May 1685-Schwerin 29 Jul 1735)
 	name=Friedrich
 	dynasty=12476
 	religion=lutheran culture=german
@@ -2218,7 +2557,7 @@
 		1706.11.28={add_spouse=100001138}	# Sophia v. Hannover
 		1740.05.31={death=yes}
 	}
-		100002141={# 2b) Friederike Sophie Wilhelmine (Berlin 3 Jul 1709-Bayreuth 14 Oct 1758); m.Berlin 20 Nov 1731 Friedrich, Margrave of Brandenburg-Bayreuth (Weferlingen 10 May 1711-Bayreuth 26 Feb 1763)
+		100002141={# 2b) Friederike Sophie Wilhelmine (Berlin 3 Jul 1709-Bayreuth 14 Oct 1758); m.Berlin 20 Nov 1731 Friedrich, Margrave von Brandenburg-Bayreuth (Weferlingen 10 May 1711-Bayreuth 26 Feb 1763)
 			name=Wilhelmine
 			female=yes
 			dynasty=12476
@@ -2228,7 +2567,7 @@
 			1709.07.03={birth=yes}
 			1758.10.14={death=yes}
 		}
-		100002143={# 4b) FRIEDRICH II "the Great", King of Prussia (Berlin 24 Jan 1712-Potsdam 17 Aug 1786); m.Schloß Salzdalum, nr Wolfenbüttel 12 Jun 1733 Elisabeth, Dss of Braunschweig-Wolfenbüttel (Wolfenbüttel 8 Nov 1715-Berlin 13 Jan 1797)
+		100002143={# 4b) FRIEDRICH II "the Great", King of Prussia (Berlin 24 Jan 1712-Potsdam 17 Aug 1786); m.Schloß Salzdalum, nr Wolfenbüttel 12 Jun 1733 Elisabeth, Dss von Braunschweig-Wolfenbüttel (Wolfenbüttel 8 Nov 1715-Berlin 13 Jan 1797)
 			name=Friedrich
 			dynasty=12476
 			religion=lutheran culture=german
@@ -2238,7 +2577,7 @@
 			1733.06.12={add_spouse=100007237}	# Elisabeth Christine v. Braunschweig-Bevern
 			1786.08.17={death=yes}
 		}
-		100002145={# 6b) Friederike Luise (Berlin 28 Sep 1714-Schwaningen 4 Feb 1784); m.Berlin 30 May 1729 Karl, Margrave of Brandenburg-Ansbach (Ansbach 12 May 1712-Gunzenhausen 3 Aug 1757)
+		100002145={# 6b) Friederike Luise (Berlin 28 Sep 1714-Schwaningen 4 Feb 1784); m.Berlin 30 May 1729 Karl, Margrave von Brandenburg-Ansbach (Ansbach 12 May 1712-Gunzenhausen 3 Aug 1757)
 			name="Friederike Luise"
 			female=yes
 			dynasty=12476
@@ -2248,7 +2587,7 @@
 			1714.09.28={birth=yes}
 			1784.02.04={death=yes}
 		}
-		100002146={# 7b) Philippine Charlotte (Berlin 13 Mar 1716-Braunschweig 17 Feb 1801); m.Berlin 2 Jul 1733 Karl I, Duke of Braunschweig-Wolfenbüttel (Wolfenbüttel 1 Aug 1713-Braunschweig 26 Mar 1780)
+		100002146={# 7b) Philippine Charlotte (Berlin 13 Mar 1716-Braunschweig 17 Feb 1801); m.Berlin 2 Jul 1733 Karl I, Duke von Braunschweig-Wolfenbüttel (Wolfenbüttel 1 Aug 1713-Braunschweig 26 Mar 1780)
 			name="Philippine Charlotte"
 			female=yes
 			dynasty=12476
@@ -2258,7 +2597,7 @@
 			1716.03.13={birth=yes}
 			1801.02.17={death=yes}
 		}
-		100002147={# 9b) Sophie Dorothea Marie (Berlin 25 Jan 1719-Schwedt 13 Nov 1765); m.Potsdam 10 Nov 1734 Friedrich Wilhelm, Margrave of Brandenburg-Schwedt (Oranienbaum, nr Dessau 27 Dec 1700-Wildenbruch 4 Mar 1771)
+		100002147={# 9b) Sophie Dorothea Marie (Berlin 25 Jan 1719-Schwedt 13 Nov 1765); m.Potsdam 10 Nov 1734 Friedrich Wilhelm, Margrave von Brandenburg-Schwedt (Oranienbaum, nr Dessau 27 Dec 1700-Wildenbruch 4 Mar 1771)
 			name="Sophie Dorothea"
 			female=yes
 			dynasty=12476
@@ -2278,7 +2617,7 @@
 			1720.07.24={birth=yes}
 			1782.07.02={death=yes}
 		}
-		100002149={# 11b) August Wilhelm (Berlin 9 Aug 1722-Oranienburg 12 Jun 1758); m.Berlin 6 Jan 1742 Luise, Dss of Braunschweig-Wolfenbüttel (Wolfenbüttel 29 Jan 1722-Berlin 13 Jan 1780)
+		100002149={# 11b) August Wilhelm (Berlin 9 Aug 1722-Oranienburg 12 Jun 1758); m.Berlin 6 Jan 1742 Luise, Dss von Braunschweig-Wolfenbüttel (Wolfenbüttel 29 Jan 1722-Berlin 13 Jan 1780)
 			name="August Wilhelm"
 			dynasty=12476
 			religion=lutheran culture=german
@@ -2288,7 +2627,7 @@
 			1742.01.06={add_spouse=100007238}	# Luise v. Braunschweig-Bevern
 			1758.06.12={death=yes}
 		}
-			100002150={# 1c) FRIEDRICH WILHELM II, King of Prussia (Berlin 25 Sep 1744-Marmorpalais, Potsdam 16 Nov 1797); m.1st Charlottenburg 14 Jul 1765 (div 1767) Elisabeth, Dss of Braunschweig-Wolfenbüttel (Wolfenbüttel 8 Nov 1746-Stettin 18 Feb 1840); m.2d Charlottenburg 14 Jul 1767 Friederike, Landgravine of Hesse-Darmstadt (Prenzlau 16 Oct 1751-Berlin 25 Feb 1805)
+			100002150={# 1c) FRIEDRICH WILHELM II, King of Prussia (Berlin 25 Sep 1744-Marmorpalais, Potsdam 16 Nov 1797); m.1st Charlottenburg 14 Jul 1765 (div 1767) Elisabeth, Dss von Braunschweig-Wolfenbüttel (Wolfenbüttel 8 Nov 1746-Stettin 18 Feb 1840); m.2d Charlottenburg 14 Jul 1767 Friederike, Landgravine of Hesse-Darmstadt (Prenzlau 16 Oct 1751-Berlin 25 Feb 1805)
 				name="Friedrich Wilhelm"
 				dynasty=12476
 				religion=lutheran culture=german
@@ -2310,7 +2649,7 @@
 					1767.05.07={birth=yes}
 					1820.08.06={death=yes}
 				}
-				100002153={# 2d) FRIEDRICH WILHELM III, King of Prussia (Potsdam 3 Aug 1770-Berlin 7 Jun 1840); m.1st Berlin 24 Dec 1793 Luise, Dss of Mecklenburg-Strelitz (Hannover 10 Mar 1776-Hohenzieritz 19 Jul 1810); m.2d Charlottenburg 9 Nov 1824 Auguste Gfn von Harrach, cr Fstn von Liegnitz and Gfn von Hohenzollern 1824 (Harrach 30 Aug 1800-Homburg 5 Jun 1873)
+				100002153={# 2d) FRIEDRICH WILHELM III, King of Prussia (Potsdam 3 Aug 1770-Berlin 7 Jun 1840); m.1st Berlin 24 Dec 1793 Luise, Dss von Mecklenburg-Strelitz (Hannover 10 Mar 1776-Hohenzieritz 19 Jul 1810); m.2d Charlottenburg 9 Nov 1824 Auguste Gfn von Harrach, cr Fstn von Liegnitz and Gfn von Hohenzollern 1824 (Harrach 30 Aug 1800-Homburg 5 Jun 1873)
 					name="Friedrich Wilhelm"
 					dynasty=12476
 					religion=lutheran culture=german
@@ -2321,7 +2660,7 @@
 					1824.11.09={add_spouse=100092162}	# GFN Auguste von Harrach
 					1840.06.07={death=yes}
 				}
-					100002154={# 1e) FRIEDRICH WILHELM IV, King of Prussia (Berlin 15 Oct 1795-Sans Souci, Potsdam 2 Jan 1861); m.Berlin 29 Nov 1823 Elisabeth, Pss of Bavaria (München 13 Nov 1801-Dresden 14 Dec 1873)
+					100002154={# 1e) FRIEDRICH WILHELM IV, King of Prussia (Berlin 15 Oct 1795-Sans Souci, Potsdam 2 Jan 1861); m.Berlin 29 Nov 1823 Elisabeth, Pss von Bayern (München 13 Nov 1801-Dresden 14 Dec 1873)
 						name="Friedrich Wilhelm"
 						dynasty=12476
 						religion=lutheran culture=german
@@ -2362,7 +2701,7 @@
 								1922.11.05={add_spouse=100003599}	# Hermine Reuß
 								1941.06.04={death=yes}
 							}
-								100002159={# 1h) Friedrich WILHELM Viktor August Ernst, Crown Pr of Germany (Marmorpalais 6 May 1882-Hechingen 21 Jul 1951); m.Berlin 6 Jun 1905 Cecilie Dss of Mecklenburg-Schwerin (Schwerin 20 Sep 1886-Bad Kissingen 6 May 1954)
+								100002159={# 1h) Friedrich WILHELM Viktor August Ernst, Crown Pr of Germany (Marmorpalais 6 May 1882-Hechingen 21 Jul 1951); m.Berlin 6 Jun 1905 Cecilie Dss von Mecklenburg-Schwerin (Schwerin 20 Sep 1886-Bad Kissingen 6 May 1954)
 									name=Wilhelm
 									dynasty=12476
 									religion=lutheran culture=german
@@ -2619,14 +2958,14 @@
 											father=100002163	# Louis Ferdinand v. Hohenzollern
 											mother=100016969	# Kira Romanov
 											1946.03.14={birth=yes}
-											1984.09.29={add_spouse=100094246}	# GFN Nina zu Reventlow
+											1984.09.29={add_spouse=100094246}	# GFN Nina von Reventlow
 										}
 											100002177={# 1k) Christian Ludwig Michael Friedrich Ferdinand (b.Bremen 16 May 1986)
 												name="Christian Ludwig"
 												dynasty=12476
 												religion=lutheran culture=german
 												father=100002176	# Christian-Sigismund v. Hohenzollern
-												mother=100094246	# GFN Nina zu Reventlow
+												mother=100094246	# GFN Nina von Reventlow
 												1986.05.16={birth=yes}
 											}
 											100002178={# 2k) Irina Maria Nina Kira (b.Bremen 4 Jul 1988)
@@ -2635,7 +2974,7 @@
 												dynasty=12476
 												religion=lutheran culture=german
 												father=100002176	# Christian-Sigismund v. Hohenzollern
-												mother=100094246	# GFN Nina zu Reventlow
+												mother=100094246	# GFN Nina von Reventlow
 												1988.07.04={birth=yes}
 											}
 										100002179={# 7j) Xenia Sophie Charlotte Cecilie (Bremen-Oberneuland 9 Dec 1949-Sehlendorf, Holstein 18 Jan 1992); m.Bremen (civ) 26 Jan (rel) 27 Jan 1973 (div 1978) Per-Edvard Lithander (Vasa, nr Göteborg, Sweden 10 Sep 1945-9 May 2010)
@@ -2913,8 +3252,6 @@
 											mother=100093743	# Armgard Weygand
 											1939.09.30={birth=yes}
 											1964.02.28={add_spouse=100089998}	# Heide Schmidt
-											1981.01.01={remove_spouse=100089998}
-											1981.06.19={add_spouse=100086707}	# Hannelore-Maria Kerscher
 											1993.02.12={death=yes}
 										}
 											100002009={# 1k) Stephanie Viktoria-Luise Irmgard Gertrud (b.Mannheim-Neckarau 21 Sep 1966); m.Pondicherry, India 19 Apr 1991 Amadi Mbaraka Bao (b.Lindi, Tanganyika 4 Jun 1958)
@@ -3102,7 +3439,7 @@
 											mother=100084851	# Eva Herrera-Valdeavellano
 											1961.07.13={birth=yes}
 										}
-								100002035={# 7h) Viktoria Luise Adelheid Mathilde Charlotte (Marmorpalais 13 Sep 1892-Hannover 11 Dec 1980); m.Berlin 24 May 1913 Ernst August Pr of Hannover, Duke of Braunschweig (Penzing 17 Nov 1887-Schloß Marienburg 30 Jan 1953)
+								100002035={# 7h) Viktoria Luise Adelheid Mathilde Charlotte (Marmorpalais 13 Sep 1892-Hannover 11 Dec 1980); m.Berlin 24 May 1913 Ernst August Pr of Hannover, Duke von Braunschweig (Penzing 17 Nov 1887-Schloß Marienburg 30 Jan 1953)
 									name="Viktoria Luise"
 									female=yes
 									dynasty=12476
@@ -3152,7 +3489,7 @@
 									1919.07.11={add_spouse=100003872}	# Charlotte Agnes v. Sachsen-Altenburg
 									1978.11.14={death=yes}
 								}
-									100002044={# 1i) Barbara Irene Adelheid Viktoria Elisabeth Bathildis (Hemmelmark 2 Aug 1920-Hemmelmark 31 May 1994); m.Glücksburg 11 Jul 1954 Christian Ludwig, Duke of Mecklenburg-Schwerin (Ludwigslust 29 Sep 1912-Hemmelmark 18 Jul 1996)
+									100002044={# 1i) Barbara Irene Adelheid Viktoria Elisabeth Bathildis (Hemmelmark 2 Aug 1920-Hemmelmark 31 May 1994); m.Glücksburg 11 Jul 1954 Christian Ludwig, Duke von Mecklenburg-Schwerin (Ludwigslust 29 Sep 1912-Hemmelmark 18 Jul 1996)
 										name="Barbara Irene"
 										female=yes
 										dynasty=12476
@@ -3210,7 +3547,7 @@
 								1872.04.22={birth=yes}
 								1954.01.22={death=yes}
 							}
-						100002056={# 2f) Luise Marie Elisabeth (Berlin 3 Dec 1838-Baden-Baden 23 Apr 1923); m.Berlin 20 Sep 1856 Friedrich I, Grand Duke of Baden (Karlsruhe 9 Sep 1826-Mainau 28 Sep 1907)
+						100002056={# 2f) Luise Marie Elisabeth (Berlin 3 Dec 1838-Baden-Baden 23 Apr 1923); m.Berlin 20 Sep 1856 Friedrich I, Grand Duke von Baden (Karlsruhe 9 Sep 1826-Mainau 28 Sep 1907)
 							name=Luise
 							female=yes
 							dynasty=12476
@@ -3371,7 +3708,7 @@
 							1836.05.17={birth=yes}
 							1918.06.12={death=yes}
 						}
-					100002079={# 6e) Friederike Wilhelmine Alexandrine Marie Helene (Berlin 23 Feb 1803-Schwerin 21 Apr 1892); m.Berlin 22 May 1822 Paul Friedrich, Grand Duke of Mecklenburg-Schwerin (Ludwigslust 15 Sep 1800-Schwerin 7 Mar 1842)
+					100002079={# 6e) Friederike Wilhelmine Alexandrine Marie Helene (Berlin 23 Feb 1803-Schwerin 21 Apr 1892); m.Berlin 22 May 1822 Paul Friedrich, Grand Duke von Mecklenburg-Schwerin (Ludwigslust 15 Sep 1800-Schwerin 7 Mar 1842)
 						name=Alexandrine
 						female=yes
 						dynasty=12476
@@ -3493,7 +3830,7 @@
 									1919.02.09={birth=yes}
 									1961.08.24={death=yes}
 								}
-						100002100={# 4f) Friederike Wilhelmine Luise Elisabeth Alexandrine (Berlin 1 Feb 1842-Schloß Marley, nr Potsdam 26 Mar 1906); m.Berlin 9 Dec 1865 Wilhelm, Duke of Mecklenburg-Schwerin (Ludwigslust 5 Mar 1827-Heidelberg 28 Jul 1879)
+						100002100={# 4f) Friederike Wilhelmine Luise Elisabeth Alexandrine (Berlin 1 Feb 1842-Schloß Marley, nr Potsdam 26 Mar 1906); m.Berlin 9 Dec 1865 Wilhelm, Duke von Mecklenburg-Schwerin (Ludwigslust 5 Mar 1827-Heidelberg 28 Jul 1879)
 							name="Friederike Wilhelmine"
 							female=yes
 							dynasty=12476
@@ -3503,7 +3840,7 @@
 							1842.02.01={birth=yes}
 							1906.03.26={death=yes}
 						}
-				100002101={# 4d) Friedrich Ludwig Karl (Potsdam 5 Nov 1773-Berlin 28 Dec 1796); m.Berlin 26 Dec 1793 Friederike, Dss of Mecklenburg-Strelitz (Hannover 2 Mar 1778-Hannover 29 Jun 1841)
+				100002101={# 4d) Friedrich Ludwig Karl (Potsdam 5 Nov 1773-Berlin 28 Dec 1796); m.Berlin 26 Dec 1793 Friederike, Dss von Mecklenburg-Strelitz (Hannover 2 Mar 1778-Hannover 29 Jun 1841)
 					name=Ludwig
 					dynasty=12476
 					religion=lutheran culture=german
@@ -3628,7 +3965,7 @@
 						1817.08.02={birth=yes}
 						1849.02.17={death=yes}
 					}
-					100002114={# 8e) Friederike Franziska Auguste Marie Hedwig (Berlin 15 Oct 1825-Schloß Hohenschwangau 27 May 1889); m.München 12 Oct 1842 King Maximilian II of Bavaria (München 28 Nov 1811-München 10 Mar 1864)
+					100002114={# 8e) Friederike Franziska Auguste Marie Hedwig (Berlin 15 Oct 1825-Schloß Hohenschwangau 27 May 1889); m.München 12 Oct 1842 King Maximilian II von Bayern (München 28 Nov 1811-München 10 Mar 1864)
 						name=Marie
 						female=yes
 						dynasty=12476
@@ -3677,7 +4014,7 @@
 			1752.06.25={add_spouse=100001562}	# Wilhelmine v. Hessen
 			1802.08.03={death=yes}
 		}
-		100002119={# 14b) August Ferdinand (Berlin 23 May 1730-Berlin 2 May 1813); m.Charlottenburg 27 Sep 1755 his niece Luise, Margravine of Brandenburg-Schwedt (Schwedt 22 Apr 1738-Berlin 10 Feb 1820)
+		100002119={# 14b) August Ferdinand (Berlin 23 May 1730-Berlin 2 May 1813); m.Charlottenburg 27 Sep 1755 his niece Luise, Margravine von Brandenburg-Schwedt (Schwedt 22 Apr 1738-Berlin 10 Feb 1820)
 			name=Ferdinand
 			dynasty=12476
 			religion=lutheran culture=german

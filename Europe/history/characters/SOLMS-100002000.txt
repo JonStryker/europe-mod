@@ -3,6 +3,7 @@
 ##  100002082	Solms-Lich		 		1002051
 ##  100002168	Solms-Baruth	 		1002052
 ##  100002168	Solms-Laubach	 		1002053
+##  100005550	Solms-Rödelheim	 		1002094
 ###########################################################
 
 
@@ -169,6 +170,7 @@
 																	1765.01.01={add_spouse=100094086}	# CSS Sophie Charlotte zu Dohna-Schlobitten
 																	1803.03.22={death=yes}
 																}
+																	# SOLMS-HOHENSOLMS-LICH		-->		100005825
 													100005583={ # Johannette Sibylla (15 Jan 1623-7 Aug 1651); m.1650 Wilhelm von Solms (9 Aug 1609-19 Jul 1676) %%
 														name="Johannette Sibylla" #  3947/johannette-sibylla-zu-solms-hohensolms/
 														female=yes
@@ -189,7 +191,7 @@
 											1519.09.08={add_spouse=100002908}	# Anna v. Mecklenburg
 											1522.05.14={death=yes}
 										}
-											100005563={ # Friedrich Magnus (1 Oct 1521-13 Jan 1561); m.1545 Agnes zu Wied (1507-3 Apr 1588) %%
+											100005563={ # D1. Friedrich Magnus, Gf zu Solms-Laubach-Sonnenwalde, Hr zu Sonnenwalde 1537, 1548 in Rödelheim, Assenheim, Pettenweil u.Laubach, 1552 Hr zu Pouch, *1.10.1521, +Laubach 13.1.1561, bur there; m.Dierdorf 11.7.1545 Gfn Agnes zu Wied (+Sonnenwalde 24.3.1588)
 												name="Friedrich Magnus" #  2871/friedrich-magnus-count-of-solms-laubach/
 												dynasty=1002062
 												religion=lutheran culture=german
@@ -199,7 +201,7 @@
 												1545.01.01={add_spouse=100007672}	# Agnes zu Wied
 												1561.01.13={death=yes}
 											}
-												100005568={ # Johann Georg (26 Nov 1546-19 Aug 1600); m.7 Dec 1572 Margarete von Schönburg-Glauchau (1546-29 Jun 1606) %%
+												100005568={ # E2. Johann Georg I Gf zu Solms-Laubach, *Södel 26.11.1546, +Laubach 19.8.1600, bur there; m.Glauchau 7.12.1572 Margarethe von Schönburg-Glauchau (*1554 +19.6.1606)
 													name="Johann Georg" #  14580/johann-georg-i-count-of-solms-laubach/
 													dynasty=1002062
 													religion=lutheran culture=german
@@ -209,7 +211,17 @@
 													1572.12.07={add_spouse=100093110}	# Margarete von Schönburg-Glauchau
 													1600.08.19={death=yes}
 												}
-													100005564={ # Johann Georg (19 Nov 1591-4 Feb 1632); m.20 May 1620 Anna Maria zu Erbach (5 Jul 1603-5 Mar 1663) %%
+													100094296={ # A9. Agnes, *Laubach 7.1.1578, +Laubach 23.11.1602; m.Kassel 23.9.1593 Ldgve Moritz of Hesse-Kassel (*25.5.1572 +15.3.1632)
+														name=Agnes
+														female=yes
+														dynasty=1002062
+														religion=lutheran culture=german
+														father=100005568	# Johann Georg von Solms
+														mother=100093110	# Margarete von Schönburg-Glauchau
+														1578.01.07={birth=yes}
+														1602.11.23={death=yes}
+													}
+													100005564={ # A8. Johann Georg II Gf zu Solms-Baruth, in Wildenfels, *Laubach 19.11.1591, +of plague at Prague 4.2.1632; m.Erbach 28.5.1620 Gfn Anna Maria von Erbach-Fürstenau (*Michelstadt 5.7.1603, +Wildenfels 5.3.1663)
 														name="Johann Georg" #  107473/johann-georg-ii-count-of-solms-baruth-und-wildenfels/
 														dynasty=1002062
 														religion=lutheran culture=german
@@ -219,7 +231,8 @@
 														1620.05.20={add_spouse=100091933}	# Anna Maria zu Erbach
 														1632.02.04={death=yes}
 													}
-														100005559={ # Johann Friedrich (1 Mar 1625-10 Dec 1696); m.20 Jan 1667 Benigna von Promnitz (24 Mar 1648-9 Nov 1702) %%
+														# SOLMS-RÖDELHEIM		->		Johann August Graf zu Solms-Rödelheim und Assenheim, *Baruth 1623, +Rödelheim 1680
+														100005559={ # B3. Johann Friedrich Gf zu Solms-Laubach, *Sonnenwalde 1.3.1625, +Laubach 10.12.1696; m.Altenburg 20.1.1667 Gfn Benigna von Promnitz (*Sorau 24.3.1648, +Laubach 9.6.1702)
 															name="Johann Friedrich" #  107476/johann-friedrich-count-of-solms-baruth-und-wildenfels/
 															dynasty=1002062
 															religion=lutheran culture=german
@@ -229,36 +242,67 @@
 															1667.01.20={add_spouse=100092884}	# Benigna von Promnitz
 															1696.12.10={death=yes}
 														}
-															100005555={ # Friedrich Ernst (26 Mar 1671-26 Jan 1723); m.1696 Friederike Charlotte zu Stolberg-Gedern (3 Apr 1686-10 Jan 1739) %%
-																name="Friedrich Ernst" #  14884/friedrich-ernst-count-of-solms-laubach/
+															# SOLMS-LAUBACH			-->		100005555
+															100094467={ # C3. Carl Otto Graf zu Solms-Upthe, *13.9.1673, +Utphe 16.2.1743; m.Wildenfels 10.11.1703 Gfn Luise Albertine von Schönburg-Glauchau (*9.3.1686 +7.12.1740)
+																name="Carl Otto"
 																dynasty=1002062
-																religion=lutheran culture=german
+																religion=catholic culture=german
 																father=100005559	# Johann Friedrich von Solms
 																mother=100092884	# Benigna von Promnitz
-																1671.03.26={birth=yes}
-																1696.01.01={add_spouse=100094302}	# Friederike Charlotte zu Stolberg-Gedern
-																1723.01.26={death=yes}
+																1673.09.13={birth=yes}	# Wildenfels
+																1703.11.10={add_spouse=100005449}	# Luise Albertine von Schönburg
+																1743.02.16={death=yes}	# Utphe
 															}
-																100005560={ # Christian August (1 Aug 1714-20 Feb 1784); m.27 Dec 1738 Elisabeth Amalie v. Isenburg (Birstein 20 Nov 1714-Laubach 22 Nov 1748) %%
-																	name="Christian August" #  4966/christian-august-count-of-solms-laubach/
+																100094459={ # D16. Wilhelmine, *Utphe 31.1.1723, +Lichtenstein 14.8.1773; m.Utphe 4.5.1744 Gf Heinrich von Schönburg-Glauchau (*22.12.1714 +14.8.1750)
+																	name=Wilhelmine
+																	female=yes
 																	dynasty=1002062
-																	religion=lutheran culture=german
-																	father=100005555	# Friedrich Ernst von Solms
-																	mother=100094302	# Friederike Charlotte zu Stolberg-Gedern
-																	1714.08.01={birth=yes}
-																	1738.12.27={add_spouse=100008264}	# Elisabeth Amalie v. Isenburg
-																	1784.02.20={death=yes}
+																	religion=catholic culture=german
+																	father=100094467	# Carl Otto von Solms
+																	mother=100005449	# Luise Albertine von Schönburg
+																	1713.01.31={birth=yes}
+																	1773.08.14={death=yes}
 																}
-																	100005551={ # Georg August Wilhelm (9 Aug 1743-1 Aug 1772); m.2 Nov 1767 Elisabeth v. Isenburg (Büdingen 24 Jan 1753-Utphe 16 Dec 1829) %%
-																		name="Georg August Wilhelm" #  56842/georg-august-wilhelm-count-of-solms-laubach/
-																		dynasty=1002062
-																		religion=lutheran culture=german
-																		father=100005560	# Christian August von Solms
-																		mother=100008264	# Elisabeth Amalie v. Isenburg
-																		1743.08.09={birth=yes}
-																		1767.11.02={add_spouse=100008262}	# Elisabeth v. Isenburg
-																		1772.08.01={death=yes}
-																	}
+													100094441={ # A15. Sibylla, *Laubach 19.10.1590, +Plötzkau 23.3.1659; m.Ansbach 25.1.1618 Augustus Fst von Anhalt-Köthen (+Plötzkau 1653)
+														name=Sibylle
+														female=yes
+														dynasty=1002062
+														religion=catholic culture=german
+														father=100005568	# Johann Georg von Solms
+														mother=100093110	# Margarete von Schönburg-Glauchau
+														1590.10.19={birth=yes}  # Laubach
+														1659.03.23={death=yes}  # Plötzkau
+													}
+													100095861={ # A16. Sophie, *Laubach 15.5.1594, +Plötzkau 16.5.1651; m.Ansbach 14.10.1612 Mgve Joachim Ernst of Brandenburg-Ansbach (*1583 +1625)
+														name=Sophie
+														female=yes
+														dynasty=1002062
+														religion=catholic culture=german
+														father=100005568	# Johann Georg von Solms
+														mother=100093110	# Margarete von Schönburg-Glauchau
+														1594.05.15={birth=yes}  # Laubach
+														1651.05.16={death=yes}  # Plötzkau
+													}
+												100095860={ # E4. Dorothea, *Södel 26.11.1547, +Gera 18.9.1585; m.Zeitz 6.1.1566 Heinrich XVI Reuss von Plauen zu Gera (*29.12.1530 +6.4.1572)
+													name=Dorothea
+													female=yes
+													dynasty=1002062
+													religion=lutheran culture=german
+													father=100005563	# Friedrich Magnus von Solms
+													mother=100007672	# Agnes zu Wied
+													1547.11.26={birth=yes}
+													1595.09.18={death=yes}
+												}
+											100094375={ # D3. Anna, *12.11.1522, +Neuenstien 9.5.1594, bur Öhringen; m.Römhild 11.11.1540 Gf Ludwig Casimir von Hohenlohe-Neuenstein (*1517 +1568)
+												name=Anna
+												female=yes
+												dynasty=1002062
+												religion=lutheran culture=german
+												father=100005570	# Otto von Solms
+												mother=100002908	# Anna v. Mecklenburg
+												1522.11.12={birth=yes}
+												1594.05.09={death=yes}
+											}
 							100005552={ # Bernhard (1400-6 Aug 1459); m.1425 Elisabeth zu Isenburg-Büdingen (1405-1 Aug 1451) %%
 								name=Bernhard #  198719/bernhard-ii-count-of-solms-braunfels/
 								dynasty=1002062
@@ -329,852 +373,1371 @@
 														1650.01.01={add_spouse=100005583}	# Johannette Sibylla von Solms
 														1676.07.19={death=yes}
 													}
+														# SOLMS-BRAUNFELS		->		100005558	
 ## EARLY
 
 
-##  100002168	Solms-Laubach	 		1002053
-100005614={ # Friedrich Ludwig Christian zu Solms-Laubach (Laubach 29 Aug 1769-Mannheim 24 Feb 1822) %%
-	name="Friedrich Ludwig Christian"
-	dynasty=1002053
-	religion=lutheran culture=german
-	father=100005551	# Georg August Wilhelm von Solms
-	mother=100008262	# Elisabeth v. Isenburg
-	1769.08.29={birth=yes}  # Laubach
-	1822.02.24={death=yes}  # Mannheim
+##  100005550	Solms-Rödelheim	 		1002094
+100005698={ # Johann August Graf zu Solms-Rödelheim und Assenheim, *Baruth 1623, +Rödelheim 1680; m.Regensburg 1654 Gfn Eleonore Barbara Marie Cratz von Scharffenstein (*Mainz 1629, +Rödelheim 1680)
+	name="Johann August"
+	dynasty=1002094
+	religion=catholic culture=german
+	father=100005564	# Johann Georg von Solms
+	mother=100091933	# Anna Maria zu Erbach
+	1623.01.01={birth=yes}  # Baruth
+	1654.01.01={add_spouse=100081039}	# GFN Eleonore Barbara Cratz von Scharffenstein
+	1680.01.01={death=yes}  # Rödelheim
 }
-	100005616={	# OTTO Gf zu Solms-Laubach (Laubach 1 Oct 1799-Laubach 22 Nov 1872); m.Neuwied 11 Sep 1832 Luitgarde Pss zu Wied (Neuwied 4 Mar 1813-Laubach 9 Jun 1870)
-		name=Otto
-		dynasty=1002053
+	100006188={ # A10. Anna Maria, *Rödelheim 21.5.1660, +Lich 7.4.1713; m.Rödelheim 7.9.1675 Adolf Martin Gf zu Solms-Lich (+1718)
+		name=Anna
+		female=yes
+		dynasty=1002094
 		religion=catholic culture=german
-		father=100005614	# Friedrich Ludwig Christian zu Solms-Laubach
-		1799.10.01={birth=yes}  # Laubach
-		1832.09.11={add_spouse=100007628}	# Luitgarde zu Wied
-		1872.11.22={death=yes}  # Laubach
+		father=100005698	# Johann August von Solms-Rödelheim u.Assenheim
+		mother=100081039	# GFN Eleonore Barbara Cratz von Scharffenstein
+		1660.05.21={birth=yes}  # Rödelheim
+		1713.04.07={death=yes}  # Lich
 	}
-		100005617={	# 1a) FRIEDRICH Wilhelm August Christian Gf zu Solms-Laubach (Laubach 23 Jun 1833-Laubach 1 Sep 1900); m.Jannowitz 23 Jun 1859 Marianne Gfn zu Stolberg-Wernigerode (Jannowitz 6 Sep 1836-Laubach 13 Aug 1910)
-			name=Friedrich
-			dynasty=1002053
+	100005769={ # A4. Ludwig Graf zu Solms-Rödelheim in Rödelheim, *Rödelheim 20.9.1664, +Rödelheim 25.11.1716; m.Hamburg 12.1.1696 Gfn Charlotte Sibylle von Ahlefeldt (*1672, +Frankfurt 17.2.1716)
+		name=Ludwig
+		dynasty=1002094
+		religion=catholic culture=german
+		father=100005698	# Johann August von Solms-Rödelheim u.Assenheim
+		mother=100081039	# GFN Eleonore Barbara Cratz von Scharffenstein
+		1664.09.20={birth=yes}  # Rödelheim
+		1696.01.12={add_spouse=100081264}	# GFN Charlotte Sibylle von Ahlefeldt
+		1716.11.25={death=yes}  # Rödelheim
+	}
+		100005770={ # B4. Marie Sophie Wilhelmine Eleonore, *Augustusburg bei Praunheim 13.2.1698, +Mettenheim 1.10.1766; m.Frankfurt 11.2.1726 Kasimir Kolb Gf von Wartenberg (+Mettenheim 2.10.1772)
+			name=Marie
+			female=yes
+			dynasty=1002094
 			religion=catholic culture=german
-			father=100005616	# Otto zu Solms-Laubach
-			mother=100007628	# Luitgarde zu Wied
-			1833.06.23={birth=yes}  # Laubach
-			1859.06.23={add_spouse=100006278}	# Marianne zu Stolberg-Wernigerode
-			1900.09.01={death=yes}  # Laubach
+			father=100005769	# Ludwig von Solms-Rödelheim u.Assenheim
+			mother=100081264	# GFN Charlotte Sibylle von Ahlefeldt
+			1698.02.13={birth=yes}
+			1766.10.01={death=yes}  # Mettenheim
 		}
-			100005618={	# 1b) OTTO Gf zu Solms-Laubach (Laubach 26 May 1860-Laubach 9 Sep 1904); m.Büdingen 14 Apr 1898 Emma Pss zu Ysenburg u.Büdingen in Büdingen (Büdingen 28 Aug 1870-Laubach 13 Dec 1944)
-				name=Otto
-				dynasty=1002053
+		100005771={ # B6. Katharine Polyxena, *Rödelheim 30.1.1702, +Heidesheim 21.3.1765; m.Mettenheim 27.11.1726 Christian Carl Reinhard, Gf zu Leiningen-Dagsburg (*Broich a Buhr 7.7.1695, +Darmstadt 17.11.1766)
+			name="Katharine Polyxena"
+			female=yes
+			dynasty=1002094
+			religion=catholic culture=german
+			father=100005769	# Ludwig von Solms-Rödelheim u.Assenheim
+			mother=100081264	# GFN Charlotte Sibylle von Ahlefeldt
+			1702.01.30={birth=yes}  # Rödelheim
+			1765.03.21={death=yes}  # Heidesheim
+		}
+	100005832={ # A5. Ludwig Heinrich Graf zu Solms-Rödelheim und Assenheim, in Assenheim 1699, in Rödelheim 1722, *Rödelheim 4.9.1667, +Assenheim 1.5.1728; m.Gaildorf 27.6.1695 Wilhelmine Christiane Gfn von Limpurg (*Schmiedelfeld 24.9.1679, +Assenheim 15.12.1757)
+		name="Ludwig Heinrich"
+		dynasty=1002094
+		religion=catholic culture=german
+		father=100005698	# Johann August von Solms-Rödelheim u.Assenheim
+		mother=100081039	# GFN Eleonore Barbara Cratz von Scharffenstein
+		1667.09.04={birth=yes}  # Rödelheim
+		1695.06.27={add_spouse=100082006}	# GFN Wilhelmine Christiane von Limpurg
+		1728.05.01={death=yes}  # Assenheim
+	}
+		100006185={ # B7. Dorothea Sophie Wilhelmine, *Gaildorf 28.1.1698, +Bergheim 7.2.1774; m.Assenheim 27.1.1725 Josias Gf von Waldeck-Bergheim (+1763)
+			name=Dorothea
+			female=yes
+			dynasty=1002094
+			religion=catholic culture=german
+			father=100005832	# Ludwig Heinrich von Solms-Rödelheim u.Assenheim
+			mother=100082006	# GFN Wilhelmine Christiane von Limpurg
+			1698.01.28={birth=yes}  # Gaildorf
+			1774.02.07={death=yes}  # Bergheim
+		}
+		100005833={ # B1. Wilhelm Karl Ludwig Graf zu Solms-Rödelheim und Assenheim, *Augustusburg 3.2.1699, +27.8.1778; 1m: Gaildorf 5.10.1722 Gfn Maria Anna Magdalena von Wurmbrand-Stuppach (*2.7.1702, +14.12.1756); 2m: 10.5.1757 Gfn Wilhelmine Christine zu Sayn-Wittgenstein-Berleburg (*28.12.1735, +31.5.1760); 3m: Wildenfels 29.8.1763 Sophie Henriette Albertine zu Solms-Wildenfels (*1739 +1822)
+			name="Wilhelm Karl"
+			dynasty=1002094
+			religion=catholic culture=german
+			father=100005832	# Ludwig Heinrich von Solms-Rödelheim u.Assenheim
+			mother=100082006	# GFN Wilhelmine Christiane von Limpurg
+			1699.02.03={birth=yes}  # Augustusburg
+			1722.10.05={add_spouse=100023642}	# Maria Margarethe v. Wurmbrand-Stuppach
+			1757.05.10={add_spouse=100083575}	# GFN Wilhelmine Christine zu Sayn-Wittgenstein-Berleburg
+			1763.08.29={add_spouse=100083586}	# Sophie Henriette zu Solms-Wildenfels
+			1778.08.27={death=yes}
+		}
+			100005835={ # C3. Christiane Wilhelmine Luise, *Rödelheim 24.4.1736, +Strassburg 6.1.1803; m.Rödelheim 24.6.1749 Carl Wilhelm Friedrich Fst zu Leiningen (+1807)
+				name=Christiane
+				female=yes
+				dynasty=1002094
 				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1860.05.26={birth=yes}  # Laubach
-				1898.04.14={add_spouse=100002426}	# Emma v. Isenburg
-				1904.09.09={death=yes}  # Laubach
+				father=100005833	# Wilhelm Karl von Solms-Rödelheim u.Assenheim
+				mother=100023642	# Maria Margarethe v. Wurmbrand-Stuppach
+				1736.04.24={birth=yes}  # Rödelheim
+				1803.01.06={death=yes}  # Strassburg
 			}
-				100005619={	# 1c) GEORG Friedrich Gf zu Solms-Laubach (Laubach 7 Mar 1899-Laubach 13 May 1969); m.Lich 13 Sep 1924 Johanna Pss zu Solms-Hohensolms-Lich (Lich 17 Dec 1905-Laubach 7 Sep 1982)
-					name=Georg
+		100006186={ # B9. Eleonore Friederike Juliane, *Gaildorf 23.9.1703, +Meerholz 1.6.1762; m.Assenheim 24.2.1725 Carl Heinrich Gf zu Isenburg-Büdingen in Meerholz (+1774)
+			name=Eleonore
+			female=yes
+			dynasty=1002094
+			religion=catholic culture=german
+			father=100005832	# Ludwig Heinrich von Solms-Rödelheim u.Assenheim
+			mother=100082006	# GFN Wilhelmine Christiane von Limpurg
+			1703.09.23={birth=yes}  # Gaildorf
+			1762.06.01={death=yes}  # Meerholz
+		}
+		100006187={ # B11. Sophie Luise Christiana, *Gaildorf 31.12.1709, +Wertheim 17.1.1773; m.Assenheim 13.6.1743 Friedrich Ludwig Gf zu Löwenstein-Wertheim-Virneburg (+1796)
+			name=Sophie
+			female=yes
+			dynasty=1002094
+			religion=catholic culture=german
+			father=100005832	# Ludwig Heinrich von Solms-Rödelheim u.Assenheim
+			mother=100082006	# GFN Wilhelmine Christiane von Limpurg
+			1709.12.31={birth=yes}  # Gaildorf
+			1773.01.17={death=yes}  # Wertheim
+		}
+		100005836={ # B4. Johann Ernst Karl Graf zu Solms-Rödelheim und Assenheim, *Rödelheim 8.5.1714, +Assenheim 15.1.1790; 1m: 15.7.1750 Henriette Charlotte Albertine von Terzi zu Cronenthal (*1717, +Assenheim 30.3.1760); 2m: Wertheim 10.9.1761 Amöne Charlotte Gfn zu Löwenstein-Wertheim-Virneburg (*Wertheim 14.2.1743, +Assenheim 1.6.1800)
+			name=Johann
+			dynasty=1002094
+			religion=catholic culture=german
+			father=100005832	# Ludwig Heinrich von Solms-Rödelheim u.Assenheim
+			mother=100082006	# GFN Wilhelmine Christiane von Limpurg
+			1714.05.08={birth=yes}  # Rödelheim
+			1750.07.15={add_spouse=100086707}	# Henriette Charlotte von Terzi zu Cronenthal
+			1761.09.10={add_spouse=100087567}	# GFN Amöne Charlotte zu Löwenstein-Wertheim-Virneburg
+			1790.01.15={death=yes}  # Assenheim
+		}
+			100005837={ # C1. Volrat Franz Karl Ludwig Graf zu Solms-Rödelheim und Assenheim, *Assenheim 6.12.1762, +Rödelheim 5.2.1818; 1m: Laubach 28.8.1789 Sophie Gfn zu Solms-Laubach (*1771, +1807); 2m: Rödelheim 2.11.1811 Marie Hoffmann (*20.2.1783, +Rödelheim 10.2.1843)
+				name=Volrat
+				dynasty=1002094
+				religion=catholic culture=german
+				father=100005836	# Johann von Solms-Rödelheim u.Assenheim
+				mother=100087567	# GFN Amöne Charlotte zu Löwenstein-Wertheim-Virneburg
+				1762.12.06={birth=yes}  # Assenheim
+				1789.08.28={add_spouse=100087776}	# GFN Sophie zu Solms-Laubach
+				1818.02.05={death=yes}  # Rödelheim
+			}
+				100005838={ # D1. CARL Friedrich Ludwig Christian Ferdinand Graf zu Solms-Rödelheim und Assenheim, *Assenheim 15.5.1790, +Assenheim 18.3.1844; m.Schönberg 1.1.1824 Gfn Amalie zu Erbach-Schönberg (*Zwingenberg 9.8.1795, +Assenheim 22.6.1875)
+					name=Carl
+					dynasty=1002094
+					religion=catholic culture=german
+					father=100005837	# Volrat von Solms-Rödelheim u.Assenheim
+					mother=100087776	# GFN Sophie zu Solms-Laubach
+					1790.05.15={birth=yes}  # Assenheim
+					1824.01.01={add_spouse=100008678}	# Amalie von Erbach-Fürstenau
+					1844.03.18={death=yes}  # Assenheim
+				}
+					100005839={ # E1. Bertha, *Assenheim 27.12.1824, +Rossla 14.11.1896; m.Assenheim 1.3.1849 Gf Karl Martin zu Stolberg-Rossla (*1.8.1822 +24.1.1870)
+						name=Bertha
+						female=yes
+						dynasty=1002094
+						religion=catholic culture=german
+						father=100005838	# Carl von Solms-Rödelheim u.Assenheim
+						mother=100008678	# Amalie von Erbach-Fürstenau
+						1824.12.27={birth=yes}  # Assenheim
+						1896.11.14={death=yes}  # Rossla
+					}
+					100005840={ # E2. MAXIMILIAN Graf zu Solms-Rödelheim und Assenheim, *Assenheim 14.4.1826, +Assenheim 15.2.1892; m.Laubach 1.6.1861 Gfn Thekla zu Solms-Laubach (*Laubach 4.6.1835, +Assenheim 17.1.1892)
+						name=Maximilian
+						dynasty=1002094
+						religion=catholic culture=german
+						father=100005838	# Carl von Solms-Rödelheim u.Assenheim
+						mother=100008678	# Amalie von Erbach-Fürstenau
+						1826.04.14={birth=yes}  # Assenheim
+						1861.06.01={add_spouse=100005687}	# Thekla von Solms-Laubach
+						1892.02.15={death=yes}  # Assenheim
+					}
+						100005841={ # F1. Karl Franz Graf zu Solms-Rödelheim und Assenheim, *Assenheim 15.12.1864, +Assenheim 9.2.1923; 1m: Ettal, Upper Bavaria 26.10.1892 Gfn Anastasia zu Pappenheim (*Pappenheim 9.3.1863, +Assenheim 5.7.1904); 2m: Castell 25.7.1907 Gfn Jenny zu Castell-Castell (*Castell 22.6.1866, +Frankfurt am Main 24.2.1923)
+							name=Franz
+							dynasty=1002094
+							religion=catholic culture=german
+							father=100005840	# Maximilian von Solms-Rödelheim u.Assenheim
+							mother=100005687	# Thekla von Solms-Laubach
+							1864.12.15={birth=yes}  # Assenheim
+							1892.10.26={add_spouse=100088534}	# GFN Anastasia zu Pappenheim
+							1907.07.25={add_spouse=100000584}	# Jenny v. Castell-Castell
+							1923.02.09={death=yes}  # Assenheim
+						}
+							100005842={ # G1. MAXIMILIAN Ludwig, Graf zu Solms-Rödelheim und Assenheim, *Assenheim 24.9.1893, +Marburg an der Lahn 2.9.1968; 1m: Amorbach 23.2.1922 (div 1937) Pss Viktoria zu Leiningen (*Amorbach 12.5.1895, +Assenheim 9.2.1973); 2m: Riga 30.10.1937 Freda von Gersdorff (*Daugeln, Livonia 25.4.1901, +Marburg 21.12.1992)
+								name=Maximilian
+								dynasty=1002094
+								religion=catholic culture=german
+								father=100005841	# Franz von Solms-Rödelheim u.Assenheim
+								mother=100088534	# GFN Anastasia zu Pappenheim
+								1893.09.24={birth=yes}  # Assenheim
+								1922.02.23={add_spouse=100002460}	# Viktoria zu Leiningen
+								1937.01.01={remove_spouse=100002460}
+								1937.10.30={add_spouse=100089174}	# Freda von Gersdorff
+								1968.09.02={death=yes}  # Marburg_an_der_Lahn
+							}
+								100005843={ # H1. MARKWART Emich Otto Ernst Graf zu Solms-Rödelheim und Assenheim, *Assenheim 30.6.1825, +28.9.1976
+									name=Markwart
+									dynasty=1002094
+									religion=catholic culture=german
+									father=100005842	# Maximilian von Solms-Rödelheim u.Assenheim
+									mother=100002460	# Viktoria zu Leiningen
+									1825.06.30={birth=yes}  # Assenheim
+									1976.09.28={death=yes}
+								}
+								100005844={ # H2. Johann Georg, *Marburg 1.2.1938; m.Marburg (civ) 8.7.1964 (rel) 11.7.1964 (div 1995) Gabriele Jahr (*Zoppot bei Danzig 5.7.1939)
+									name="Johann Georg"
+									dynasty=1002094
+									religion=catholic culture=german
+									father=100005842	# Maximilian von Solms-Rödelheim u.Assenheim
+									mother=100089174	# Freda von Gersdorff
+									1938.02.01={birth=yes}  # Marburg
+									1964.07.08={add_spouse=100089192}	# Gabriele Jahr
+									1995.01.01={remove_spouse=100089192}
+									2015.01.01={death=yes}  # EST.
+								}
+									100005845={ # I1. Ricarda, *Milan 18.4.1967; m.Düsseldorf 7.9.1985 (div 1989) Udo Hoyn (*19.10.1960)
+										name=Ricarda
+										female=yes
+										dynasty=1002094
+										religion=catholic culture=italian
+										father=100005844	# Johann Georg von Solms-Rödelheim u.Assenheim
+										mother=100089192	# Gabriele Jahr
+										1967.04.18={birth=yes}  # Milan
+									}
+									100005846={ # I2. Cora, *Düsseldorf 3.6.1970
+										name=Cora
+										female=yes
+										dynasty=1002094
+										religion=catholic culture=german
+										father=100005844	# Johann Georg von Solms-Rödelheim u.Assenheim
+										mother=100089192	# Gabriele Jahr
+										1970.06.03={birth=yes}  # Düsseldorf
+									}
+									100005847={ # I3. Hanna, *Düsseldorf 26.10.1973
+										name=Hanna
+										female=yes
+										dynasty=1002094
+										religion=catholic culture=german
+										father=100005844	# Johann Georg von Solms-Rödelheim u.Assenheim
+										mother=100089192	# Gabriele Jahr
+										1973.10.26={birth=yes}  # Düsseldorf
+									}
+							100005848={ # G2. Joachim Ernst, *Assenheim 13.6.1896, +Murnau 10.9.1978; m.Munich 15.2.1928 Gfn Klara von Bullion (*Augsburg 12.3.1901, +Murnau 6.9.1996)
+								name="Joachim Ernst"
+								dynasty=1002094
+								religion=catholic culture=german
+								father=100005841	# Franz von Solms-Rödelheim u.Assenheim
+								mother=100088534	# GFN Anastasia zu Pappenheim
+								1896.06.13={birth=yes}  # Assenheim
+								1928.02.15={add_spouse=100089383}	# GFN Klara von Bullion
+								1978.09.10={death=yes}  # Murnau
+							}
+								100005849={ # H1. Jost Heinrich, *Munich 3.1.1929; m.Wuppertal-Elberfeld 22.5.1964 Karin Frowein (*Wuppertal-Elberfeld 19.4.1936)
+									name="Jost Heinrich"
+									dynasty=1002094
+									religion=catholic culture=german
+									father=100005848	# Joachim Ernst von Solms-Rödelheim u.Assenheim
+									mother=100089383	# GFN Klara von Bullion
+									1929.01.03={birth=yes}  # Munich
+									2006.01.01={death=yes}  # EST.
+								}
+								100005855={ # H2. Günther Wolfgang, *Bad Nauheim 7.9.1931, +Munich 10.2.1979; 1m: Assenheim 10.7.1960 (div 1973) Gfn Alexandra zu Eulenburg (*Gumbinnen, Ostpreussen 10.11.1933); 2m: Munich 18.4.1975 Gabriele Podleska (*Breslau 4.3.1939)
+									name="Günther Wolfgang"
+									dynasty=1002094
+									religion=catholic culture=german
+									father=100005848	# Joachim Ernst von Solms-Rödelheim u.Assenheim
+									mother=100089383	# GFN Klara von Bullion
+									1931.09.07={birth=yes}  # Bad Nauheim
+									1960.07.10={add_spouse=100089527}	# GFN Alexandra zu Eulenburg
+									1979.02.10={death=yes}  # Munich
+								}
+									100005857={ # I1. NIKOLAUS Alexander Graf zu Solms-Rödelheim und Assenheim, *Munich 14.4.1961, +Assenheim 23.3.1981
+										name=Nikolaus
+										dynasty=1002094
+										religion=catholic culture=german
+										father=100005855	# Günther Wolfgang von Solms-Rödelheim u.Assenheim
+										mother=100089527	# GFN Alexandra zu Eulenburg
+										1961.04.14={birth=yes}  # Munich
+										1981.03.23={death=yes}  # Assenheim
+									}
+									100005858={ # I2. ANTONIA Sophie Luise, *Munich 27.9.1962; m.Assenheim 11.7.1992 Bernhard von Rothkirch u.Panthen (*Heide, Holstein 21.4.1951)
+										name=Antonia
+										female=yes
+										dynasty=1002094
+										religion=catholic culture=german
+										father=100005855	# Günther Wolfgang von Solms-Rödelheim u.Assenheim
+										mother=100089527	# GFN Alexandra zu Eulenburg
+										1962.09.27={birth=yes}  # Munich
+									}
+									100005859={ # I3. PHILIPP Moritz, Graf zu Solms-Rödelheim und Assenheim, *Munich 5.2.1964
+										name=Philipp
+										dynasty=1002094
+										religion=catholic culture=german
+										father=100005855	# Günther Wolfgang von Solms-Rödelheim u.Assenheim
+										mother=100089527	# GFN Alexandra zu Eulenburg
+										1964.02.05={birth=yes}  # Munich
+									}
+								100005871={ # H3. Maritta, *Berlin 18.4.1940; m.Munich 23.7.1964 Jasper von Wallmoden (*Alt-Wallmoden 17.1.1936)
+									name=Maritta
+									female=yes
+									dynasty=1002094
+									religion=catholic culture=german
+									father=100005848	# Joachim Ernst von Solms-Rödelheim u.Assenheim
+									mother=100089383	# GFN Klara von Bullion
+									1940.04.18={birth=yes}  # Berlin
+								}
+							100005879={ # G3. Editha Thekla, *Assenheim 23.5.1897, +Marburg 26.8.1971
+								name="Editha Thekla"
+								female=yes
+								dynasty=1002094
+								religion=catholic culture=german
+								father=100005841	# Franz von Solms-Rödelheim u.Assenheim
+								mother=100088534	# GFN Anastasia zu Pappenheim
+								1897.05.23={birth=yes}  # Assenheim
+								1971.08.26={death=yes}  # Marburg
+							}
+							100005890={ # G4. Anna Hedwig, *Assenheim 26.5.1903, +Bad Nauheim 2.6.1971
+								name="Anna Hedwig"
+								female=yes
+								dynasty=1002094
+								religion=catholic culture=german
+								father=100005841	# Franz von Solms-Rödelheim u.Assenheim
+								mother=100088534	# GFN Anastasia zu Pappenheim
+								1903.05.26={birth=yes}  # Assenheim
+								1971.06.02={death=yes}  # Bad Nauheim
+							}
+						100005894={ # F2. Sophie, *Assenheim 20.9.1866, +Tannenhof bei Lüttringhausen 22.7.1914
+							name=Sophie
+							female=yes
+							dynasty=1002094
+							religion=catholic culture=german
+							father=100005840	# Maximilian von Solms-Rödelheim u.Assenheim
+							mother=100005687	# Thekla von Solms-Laubach
+							1866.09.20={birth=yes}  # Assenheim
+							1914.07.22={death=yes}  # Tannenhof_bei_Lüttringhausen
+						}
+						100005895={ # F3. Ernst, *Assenheim 8.7.1868, +Friedberg, Hesse 2.5.1920; m.Schönweide, Kr Plön 2.7.1903 Gfn Anna von Platen Hallermund (*Weißenhaus 14.4.1874, +Frankfurt 18.8.1937)
+							name=Ernst
+							dynasty=1002094
+							religion=catholic culture=german
+							father=100005840	# Maximilian von Solms-Rödelheim u.Assenheim
+							mother=100005687	# Thekla von Solms-Laubach
+							1868.07.08={birth=yes}  # Assenheim
+							1903.07.02={add_spouse=100091480}	# GFN Anna von Platen Hallermund
+							1920.05.02={death=yes}  # Friedberg Hesse
+						}
+							100005896={ # G2. Maximilian Ernst Wilhelm, *Strassburg 16.5.1910, +Göttingen 6.6.1993; m.Freiburg 4.9.1948 Hella Geßner (*Freiburg 28.12.1923)
+								name=Maximilian
+								dynasty=1002094
+								religion=catholic culture=german
+								father=100005895	# Ernst von Solms-Rödelheim u.Assenheim
+								mother=100091480	# GFN Anna von Platen Hallermund
+								1910.05.16={birth=yes}  # Strassburg
+								1948.09.04={add_spouse=100092292}	# Hella Geßner
+								1993.06.06={death=yes}  # Göttingen
+							}
+								100005897={ # H1. Florence Anna Marie, *Freiburg 21.8.1949
+									name=Florence
+									female=yes
+									dynasty=1002094
+									religion=catholic culture=german
+									father=100005896	# Maximilian von Solms-Rödelheim u.Assenheim
+									mother=100092292	# Hella Geßner
+									1949.08.21={birth=yes}  # Freiburg
+								}
+								100005898={ # H3. Caroline Constanze Johanna, *Wilhelmshaven 3.9.1959; m.6.10.1989 Franz Sauer (*20.11.1961)
+									name=Caroline
+									female=yes
+									dynasty=1002094
+									religion=catholic culture=german
+									father=100005896	# Maximilian von Solms-Rödelheim u.Assenheim
+									mother=100092292	# Hella Geßner
+									1959.09.03={birth=yes}  # Wilhelmshaven
+								}
+							100005899={ # G3. Wilhelm Oskar Friedrich Eugen, *Strassburg 24.4.1914, +Baden bei Vienna 11.1.1996; 1m: Vienna 21.9.1939 (div 1947) Gabriele Brougier (*Vienna 2.4.1918); 2m: Vienna 14.10.1953 Monica Nagel (*Linz 21.2.1927)
+								name=Wilhelm
+								dynasty=1002094
+								religion=catholic culture=german
+								father=100005895	# Ernst von Solms-Rödelheim u.Assenheim
+								mother=100091480	# GFN Anna von Platen Hallermund
+								1914.04.24={birth=yes}  # Strassburg
+								1996.01.11={death=yes}  # Baden_bei_Vienna
+							}
+						100006177={ # F6. Marie, *Assenheim 15.6.1873, +Wiesbaden 8.4.1955
+							name=Marie
+							female=yes
+							dynasty=1002094
+							religion=catholic culture=german
+							father=100005840	# Maximilian von Solms-Rödelheim u.Assenheim
+							mother=100005687	# Thekla von Solms-Laubach
+							1873.06.15={birth=yes}  # Assenheim
+							1955.04.08={death=yes}  # Wiesbaden
+						}
+					100006178={ # E3. Friedrich, *Assenheim 7.12.1827, +Dorheim 6.4.1883; m.Varlar 25.9.1862 Pss Mathilde zu Salm-Horstmar (Coesfeld 21.8.1827, +Dorheim 12.3.1908)
+						name=Friedrich
+						dynasty=1002094
+						religion=catholic culture=german
+						father=100005838	# Carl von Solms-Rödelheim u.Assenheim
+						mother=100008678	# Amalie von Erbach-Fürstenau
+						1827.12.07={birth=yes}  # Assenheim
+						1862.09.25={add_spouse=100004176}	# Mathilde zu Salm-Horstmar
+						1883.04.06={death=yes}  # Dorheim
+					}
+					100006179={ # E4. Otto, *Assenheim 5.6.1829, +Altenhagen 31.8.1904; m.Schlemmin 7.12.1865 Emma von Thun, zu Altenhagen (*Berlin 10.6.1834, +Altenhagen 18.5.1900)
+						name=Otto
+						dynasty=1002094
+						religion=catholic culture=german
+						father=100005838	# Carl von Solms-Rödelheim u.Assenheim
+						mother=100008678	# Amalie von Erbach-Fürstenau
+						1829.06.05={birth=yes}  # Assenheim
+						1865.12.07={add_spouse=100092326}	# Emma von Thun
+						1904.08.31={death=yes}  # Altenhagen
+					}
+						100006180={ # F1. Bertha, *Rödelheim 17.6.1869, +Leipzig 30.12.1939; m.Schlemmin 14.12.1892 Gf Leonhard zu Stolberg-Wernigerode (*Reinerz 6.3.1853, +Würben 1.5.1914)
+							name=Bertha
+							female=yes
+							dynasty=1002094
+							religion=catholic culture=german
+							father=100006179	# Otto von Solms-Rödelheim u.Assenheim
+							mother=100092326	# Emma von Thun
+							1869.06.17={birth=yes}  # Rödelheim
+							1939.12.30={death=yes}  # Leipzig
+						}
+						100006181={ # F2. Kuno, zu Altenhagen, *Altenhagen 7.8.1872, +1945
+							name=Kuno
+							dynasty=1002094
+							religion=catholic culture=german
+							father=100006179	# Otto von Solms-Rödelheim u.Assenheim
+							mother=100092326	# Emma von Thun
+							1872.08.07={birth=yes}  # Altenhagen
+							1945.01.01={death=yes}
+						}
+					100006182={ # E5. Emma, *Assenheim 19.8.1831, +Castell 2.6.1904; m.Assenheim 23.9.1856 Gf Carl zu Castell-Castell (*Castell 23.5.1826, +Castell 2.1.1886)
+						name=Emma
+						female=yes
+						dynasty=1002094
+						religion=catholic culture=german
+						father=100005838	# Carl von Solms-Rödelheim u.Assenheim
+						mother=100008678	# Amalie von Erbach-Fürstenau
+						1831.08.19={birth=yes}  # Assenheim
+						1904.06.02={death=yes}  # Castell
+					}
+				100106183={ # D5. Ferdinande Sophie Charlotte Friederike, *Laubach 25.2.1793, +Schönberg 31.3.1859; m.Utphe 25.7.1815 Maximilian Gf zu Erbach-Schönberg (+1823)
+					name=Ferdinande
+					female=yes
+					dynasty=1002094
+					religion=catholic culture=german
+					father=100005837	# Volrat von Solms-Rödelheim u.Assenheim
+					mother=100087776	# GFN Sophie zu Solms-Laubach
+					1793.02.25={birth=yes}  # Laubach
+					1859.03.31={death=yes}  # Schönberg
+				}
+				100006184={ # D7. Elisabeth Anna Caroline Julie Amalie, *Rödelheim 9.6.1806, +Varlar 5.2.1885; m.Utphe 5.10.1826 Wilhelm Friedrich Fst zu Salm-Horstmar (+1865)
+					name="Elisabeth Anna"
+					female=yes
+					dynasty=1002094
+					religion=catholic culture=german
+					father=100005837	# Volrat von Solms-Rödelheim u.Assenheim
+					mother=100087776	# GFN Sophie zu Solms-Laubach
+					1806.06.09={birth=yes}  # Rödelheim
+					1885.02.05={death=yes}  # Varlar
+				}
+#1653.01.01={holder=100005698} # Johann August Graf zu Solms-Rödelheim und Assenheim
+#1680.01.01={holder=100005769} # A4. Ludwig Graf zu Solms-Rödelheim in Rödelheim
+#1716.11.25={holder=100005832} # A5. Ludwig Heinrich Graf zu Solms-Rödelheim und Assenheim
+#1728.05.01={holder=100005833} # B1. Wilhelm Karl Ludwig Graf zu Solms-Rödelheim und Assenheim
+#1778.08.27={holder=100005836} # B4. Johann Ernst Karl Graf zu Solms-Rödelheim und Assenheim
+#1790.01.15={holder=100005837} # C1. Volrat Franz Karl Ludwig Graf zu Solms-Rödelheim und Assenheim
+#1818.02.05={holder=100005838} # D1. CARL Friedrich Ludwig Christian Ferdinand Graf zu Solms-Rödelheim und Assenheim
+#1844.03.18={holder=100005840} # E2. MAXIMILIAN Graf zu Solms-Rödelheim und Assenheim
+#1892.02.15={holder=100005841} # F1. Karl Franz Graf zu Solms-Rödelheim und Assenheim
+#1923.02.09={holder=100005842} # G1. MAXIMILIAN Ludwig
+#1968.09.02={holder=100005843} # H1. MARKWART Emich Otto Ernst Graf zu Solms-Rödelheim und Assenheim
+#1976.09.28={holder=100005844} # H2. Johann Georg
+##  100005550	Solms-Rödelheim	 		1002094
+
+
+##  100002168	Solms-Laubach	 		1002053
+100005555={ # Friedrich Ernst von Solms (26 Mar 1671-26 Jan 1723); m.1696 Friederike Charlotte zu Stolberg-Gedern (3 Apr 1686-10 Jan 1739) %%
+	name="Friedrich Ernst" #  14884/friedrich-ernst-count-of-solms-laubach/
+	dynasty=1002062
+	religion=lutheran culture=german
+	father=100005559	# Johann Friedrich von Solms
+	mother=100092884	# Benigna von Promnitz
+	1671.03.26={birth=yes}
+	1696.01.01={add_spouse=100094302}	# Friederike Charlotte zu Stolberg-Gedern
+	1723.01.26={death=yes}
+}
+	100005560={ # Christian August (1 Aug 1714-20 Feb 1784); m.27 Dec 1738 Elisabeth Amalie v. Isenburg (Birstein 20 Nov 1714-Laubach 22 Nov 1748) %%
+		name="Christian August" #  4966/christian-august-count-of-solms-laubach/
+		dynasty=1002062
+		religion=lutheran culture=german
+		father=100005555	# Friedrich Ernst von Solms
+		mother=100094302	# Friederike Charlotte zu Stolberg-Gedern
+		1714.08.01={birth=yes}
+		1738.12.27={add_spouse=100008264}	# Elisabeth Amalie v. Isenburg
+		1784.02.20={death=yes}
+	}
+		100094362={ # Sophie (Laubach 29 Aug 1741-Braunfels 15 Nov 1772); m.24 Aug 1756 Ferdinand von Solms-Braunfels (Braunfels 8 Feb 1721-Braunfels 2 Oct 1783) %%
+			name=Sophie
+			female=yes
+			dynasty=1002062
+			religion=catholic culture=german
+			father=100005560	# Christian August von Solms
+			mother=100008264	# Elisabeth Amalie v. Isenburg
+			1741.08.29={birth=yes}  # Laubach
+			1772.11.15={death=yes}  # Braunfels
+		}
+		100005551={ # Georg August Wilhelm (9 Aug 1743-1 Aug 1772); m.2 Nov 1767 Elisabeth v. Isenburg (Büdingen 24 Jan 1753-Utphe 16 Dec 1829) %%
+			name="Georg August Wilhelm" #  56842/georg-august-wilhelm-count-of-solms-laubach/
+			dynasty=1002062
+			religion=lutheran culture=german
+			father=100005560	# Christian August von Solms
+			mother=100008264	# Elisabeth Amalie v. Isenburg
+			1743.08.09={birth=yes}
+			1767.11.02={add_spouse=100008262}	# Elisabeth v. Isenburg
+			1772.08.01={death=yes}
+		}
+			100005614={ # Friedrich Ludwig Christian (Laubach 29 Aug 1769-Mannheim 24 Feb 1822) %%
+				name="Friedrich Ludwig Christian"
+				dynasty=1002053
+				religion=lutheran culture=german
+				father=100005551	# Georg August Wilhelm von Solms
+				mother=100008262	# Elisabeth v. Isenburg
+				1769.08.29={birth=yes}  # Laubach
+				1822.02.24={death=yes}  # Mannheim
+			}
+				100005616={	# OTTO Gf zu Solms-Laubach (Laubach 1 Oct 1799-Laubach 22 Nov 1872); m.Neuwied 11 Sep 1832 Luitgarde Pss zu Wied (Neuwied 4 Mar 1813-Laubach 9 Jun 1870)
+					name=Otto
 					dynasty=1002053
 					religion=catholic culture=german
-					father=100005618	# Otto zu Solms-Laubach
-					mother=100002426	# Emma v. Isenburg
-					1899.03.07={birth=yes}  # Laubach
-					1924.09.13={add_spouse=100005784}	# Johanna zu Solms-Hohensolms-Lich
-					1969.05.13={death=yes}  # Laubach
+					father=100005614	# Friedrich Ludwig Christian von Solms-Laubach
+					1799.10.01={birth=yes}  # Laubach
+					1832.09.11={add_spouse=100007628}	# Luitgarde zu Wied
+					1872.11.22={death=yes}  # Laubach
 				}
-					100005620={	# 1d) Irene (Laubach 25 Jun 1925-16 Dec 2006); m.Laubach (civ) 16 Oct 1946 (rel) 17 Oct 1946 Siegfried Fst zu Castell-Rüdenhausen (Rüdenhausen 16 Feb 1916-16 Nov 2007)
-						name=Irene
-						female=yes
+					100005617={	# 1a) FRIEDRICH Wilhelm August Christian Gf zu Solms-Laubach (Laubach 23 Jun 1833-Laubach 1 Sep 1900); m.Jannowitz 23 Jun 1859 Marianne Gfn zu Stolberg-Wernigerode (Jannowitz 6 Sep 1836-Laubach 13 Aug 1910)
+						name=Friedrich
 						dynasty=1002053
 						religion=catholic culture=german
-						father=100005619	# Georg zu Solms-Laubach
-						mother=100005784	# Johanna zu Solms-Hohensolms-Lich
-						1925.06.25={birth=yes}  # Laubach
-						2006.12.16={death=yes}
+						father=100005616	# Otto von Solms-Laubach
+						mother=100007628	# Luitgarde zu Wied
+						1833.06.23={birth=yes}  # Laubach
+						1859.06.23={add_spouse=100006278}	# Marianne zu Stolberg-Wernigerode
+						1900.09.01={death=yes}  # Laubach
 					}
-					100005621={	# 2d) OTTO Gf zu Solms-Laubach (Laubach 26 Aug 1926-Laubach 1 Mar 1973); m.Berleburg 29 Jul 1958 Madeleine Pss zu Sayn-Wittgenstein-Berleburg (b.Gießen 22 Apr 1936)
-						name=Otto
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005619	# Georg zu Solms-Laubach
-						mother=100005784	# Johanna zu Solms-Hohensolms-Lich
-						1926.08.26={birth=yes}  # Laubach
-						1958.07.29={add_spouse=100004363}	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-						1973.03.01={death=yes}  # Laubach
-					}
-						100005622={	# 1e) Tatiana (b.London 16 Dec 1958); m.1st Laubach 22 Oct 1977 (div 1982) Christian Gf von Hochberg (b.Frankfurt 5 Apr 1953); m.2d Amöneburg, Kr Marburg 18 Aug 1986 Patrick Gf von Saurma (b.Neheim-Hüsten 24 Aug 1956)
-							name=Tatiana
-							female=yes
+						100005618={	# 1b) OTTO Gf zu Solms-Laubach (Laubach 26 May 1860-Laubach 9 Sep 1904); m.Büdingen 14 Apr 1898 Emma Pss zu Ysenburg u.Büdingen in Büdingen (Büdingen 28 Aug 1870-Laubach 13 Dec 1944)
+							name=Otto
 							dynasty=1002053
 							religion=catholic culture=german
-							add_trait=twin
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1958.12.16={birth=yes}
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1860.05.26={birth=yes}  # Laubach
+							1898.04.14={add_spouse=100002426}	# Emma v. Isenburg
+							1904.09.09={death=yes}  # Laubach
 						}
-						100005623={	# 2e) Ariane (b.London 16 Dec 1958); m.1st Laubach (civ) 30 Mar 1979 (rel) 31 Mar 1979 Stephan Königs (Köln 16 Jan 1952-Vettweiß 26 Apr 1985); m.2nd (civ) Würzburg-Veitshöchheim 13 Nov 1987 (rel) Laubach 12 Dec 1987 (div 1996) Hubertus von Dewitz (b.Berlin 27 Feb 1947); m.3rd Laubach (civ) 15 Aug 1996 (rel) 28 Sep 1996 Dieter Brinks (b.Bad Nauheim 25 Sep 1943)
-							name=Ariane
-							female=yes
-							dynasty=1002053
-							religion=catholic culture=german
-							add_trait=twin
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1958.12.16={birth=yes}
-						}
-						100005624={	# 3e) Anna Margareta (b.Berleburg 29 Jun 1960); m.Laubach 13 Jun 1998 Marc Laudien (b.9 Sep 1962)
-							name="Anna Margareta"
-							female=yes
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1960.06.29={birth=yes}
-						}
-						100005625={	# 4e) Christina (b.Frankfurt 19 Jul 1962); m.Laubach 13 Jul 1990 Kilian von Pezold (b.Coburg 7 Mar 1964)
-							name=Christina
-							female=yes
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1962.07.19={birth=yes}
-						}
-						100005626={	# 5e) KARL Georg Gf zu Solms-Laubach (b.Laubach 1 Dec 1963); m.1st Düsseldorf 26 Aug 1991 Julia Willers (b.Essen 20 Jan 1966); m.2nd 1 Mar 2012 Celina von Luttitz
-							name=Karl
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1963.12.01={birth=yes}
-							1991.08.26={add_spouse=100093798}	# Julia Willers
-							2012.01.01={remove_spouse=100093798}
-							2012.03.01={add_spouse=100092599}	# Celina von Luttitz
-						}
-							100005627={	# 1f) Emma Margaretha (b.Gießen 17 Jul 1992)
-								name="Emma Margaretha"
+							100005619={	# 1c) GEORG Friedrich Gf zu Solms-Laubach (Laubach 7 Mar 1899-Laubach 13 May 1969); m.Lich 13 Sep 1924 Johanna Pss zu Solms-Hohensolms-Lich (Lich 17 Dec 1905-Laubach 7 Sep 1982)
+								name=Georg
+								dynasty=1002053
+								religion=catholic culture=german
+								father=100005618	# Otto von Solms-Laubach
+								mother=100002426	# Emma v. Isenburg
+								1899.03.07={birth=yes}  # Laubach
+								1924.09.13={add_spouse=100005784}	# Johanna von Solms-Hohensolms-Lich
+								1969.05.13={death=yes}  # Laubach
+							}
+								100005620={	# 1d) Irene (Laubach 25 Jun 1925-16 Dec 2006); m.Laubach (civ) 16 Oct 1946 (rel) 17 Oct 1946 Siegfried Fst zu Castell-Rüdenhausen (Rüdenhausen 16 Feb 1916-16 Nov 2007)
+									name=Irene
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005619	# Georg von Solms-Laubach
+									mother=100005784	# Johanna von Solms-Hohensolms-Lich
+									1925.06.25={birth=yes}  # Laubach
+									2006.12.16={death=yes}
+								}
+								100005621={	# 2d) OTTO Gf zu Solms-Laubach (Laubach 26 Aug 1926-Laubach 1 Mar 1973); m.Berleburg 29 Jul 1958 Madeleine Pss zu Sayn-Wittgenstein-Berleburg (b.Gießen 22 Apr 1936)
+									name=Otto
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005619	# Georg von Solms-Laubach
+									mother=100005784	# Johanna von Solms-Hohensolms-Lich
+									1926.08.26={birth=yes}  # Laubach
+									1958.07.29={add_spouse=100004363}	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+									1973.03.01={death=yes}  # Laubach
+								}
+									100005622={	# 1e) Tatiana (b.London 16 Dec 1958); m.1st Laubach 22 Oct 1977 (div 1982) Christian Gf von Hochberg (b.Frankfurt 5 Apr 1953); m.2d Amöneburg, Kr Marburg 18 Aug 1986 Patrick Gf von Saurma (b.Neheim-Hüsten 24 Aug 1956)
+										name=Tatiana
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										add_trait=twin
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1958.12.16={birth=yes}
+									}
+									100005623={	# 2e) Ariane (b.London 16 Dec 1958); m.1st Laubach (civ) 30 Mar 1979 (rel) 31 Mar 1979 Stephan Königs (Köln 16 Jan 1952-Vettweiß 26 Apr 1985); m.2nd (civ) Würzburg-Veitshöchheim 13 Nov 1987 (rel) Laubach 12 Dec 1987 (div 1996) Hubertus von Dewitz (b.Berlin 27 Feb 1947); m.3rd Laubach (civ) 15 Aug 1996 (rel) 28 Sep 1996 Dieter Brinks (b.Bad Nauheim 25 Sep 1943)
+										name=Ariane
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										add_trait=twin
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1958.12.16={birth=yes}
+									}
+									100005624={	# 3e) Anna Margareta (b.Berleburg 29 Jun 1960); m.Laubach 13 Jun 1998 Marc Laudien (b.9 Sep 1962)
+										name="Anna Margareta"
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1960.06.29={birth=yes}
+									}
+									100005625={	# 4e) Christina (b.Frankfurt 19 Jul 1962); m.Laubach 13 Jul 1990 Kilian von Pezold (b.Coburg 7 Mar 1964)
+										name=Christina
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1962.07.19={birth=yes}
+									}
+									100005626={	# 5e) KARL Georg Gf zu Solms-Laubach (b.Laubach 1 Dec 1963); m.1st Düsseldorf 26 Aug 1991 Julia Willers (b.Essen 20 Jan 1966); m.2nd 1 Mar 2012 Celina von Luttitz
+										name=Karl
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1963.12.01={birth=yes}
+										1991.08.26={add_spouse=100093798}	# Julia Willers
+										2012.01.01={remove_spouse=100093798}
+										2012.03.01={add_spouse=100092599}	# Celina von Luttitz
+									}
+										100005627={	# 1f) Emma Margaretha (b.Gießen 17 Jul 1992)
+											name="Emma Margaretha"
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005626	# Karl von Solms-Laubach
+											mother=100093798	# Julia Willers
+											1992.07.17={birth=yes}
+										}
+										100005628={	# 2f) August Otto Erbgf zu Solms-Laubach (b.Gießen 23 Jan 1994)
+											name="August Otto"
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005626	# Karl von Solms-Laubach
+											mother=100093798	# Julia Willers
+											1994.01.23={birth=yes}
+										}
+										100005629={	# 3f) Clara Elisabeth (b.Lich 18 Oct 1996)
+											name="Clara Elisabeth"
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005626	# Karl von Solms-Laubach
+											mother=100093798	# Julia Willers
+											1996.10.18={birth=yes}
+										}
+										100005630={	# 4f) Hannah Benigna (b.Laubach 10 Dec 1999)
+											name="Hannah Benigna"
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005626	# Karl von Solms-Laubach
+											mother=100093798	# Julia Willers
+											1999.12.10={birth=yes}
+										}
+									100005631={	# 6e) Gustav Albrecht (b.Frankfurt 22 Oct 1965); m.(civ) München 3 Aug 2000 (rel) Birnau am Bodensee 26 Aug 2000 Nicola Hipp (b.München 15 Apr 1969)
+										name="Gustav Albrecht"
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1965.10.22={birth=yes}
+										2000.08.03={add_spouse=100084903}	# Nicola Hipp
+									}
+										100005632={	# 1f) Olga Antonia (b.München 2002)
+											name="Olga Antonia"
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005631	# Gustav Albrecht von Solms-Laubach
+											mother=100084903	# Nicola Hipp
+											2002.01.01={birth=yes}
+										}
+										100005633={	# 2f) Paula Valentine (b.2005)
+											name="Paula Valentine"
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005631	# Gustav Albrecht von Solms-Laubach
+											mother=100084903	# Nicola Hipp
+											2005.01.01={birth=yes}
+										}
+										100005634={	# 3f) Oscar (b.2008)
+											name=Oscar
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005631	# Gustav Albrecht von Solms-Laubach
+											mother=100084903	# Nicola Hipp
+											2008.01.01={birth=yes}
+										}
+									100005635={	# 7e) Elisabeth (b.Frankfurt 12 Aug 1968); m.Laubach 8 Jun 1996 Ludwig Schmucker (b.München 19 Sep 1967)
+										name=Elisabeth
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1968.08.12={birth=yes}
+									}
+									100005636={	# 8e) Maria (b.Frankfurt 12 Aug 1968); m.Detmold (civ) 13 Oct 1994 (rel) 15 Oct 1994 Stephan Pr zur Lippe (b.Detmold 24 May 1959)
+										name=Maria
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1968.08.12={birth=yes}
+									}
+									100005637={	# 9e) Franz (b.Gießen 2 Oct 1971)
+										name=Franz
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005621	# Otto von Solms-Laubach
+										mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
+										1971.10.02={birth=yes}
+									}
+								100005639={	# 3d) Karl (Laubach 26 Aug 1926-k.a.nr Küstrin 7 Feb 1945)
+									name=Karl
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005619	# Georg von Solms-Laubach
+									mother=100005784	# Johanna von Solms-Hohensolms-Lich
+									1926.08.26={birth=yes}  # Laubach
+									1945.02.07={death=yes}
+								}
+								100005640={	# 4d) Monika (Laubach 8 Aug 1929-4 Jun 2015); m.Laubach (civ) 16 Jul 1981 (rel) 17 Jul 1981 Ernst August Pr of Hannover (Braunschweig 18 Mar 1914-Hannover 9 Dec 1987)
+									name=Monika
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005619	# Georg von Solms-Laubach
+									mother=100005784	# Johanna von Solms-Hohensolms-Lich
+									1929.08.08={birth=yes}  # Laubach
+									2015.06.04={death=yes}
+								}
+								100005641={	# 5d) Johann Friedrich (Laubach 26 Apr 1932-6 Jan 1998); m.1st Arnsburg (civ) 25 Jul 1962 (rel) 26 Jul 1962 (div 1969) Eleonore Gfn zu Solms-Laubach (1937-1999; below); m.2nd Laubach (civ) 26 Mar 1987 (rel) 9 May 1987 Birgit Dallhammer (b.Schloß Neuhaus 5 Jul 1944)
+									name="Johann Friedrich"
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005619	# Georg von Solms-Laubach
+									mother=100005784	# Johanna von Solms-Hohensolms-Lich
+									1932.04.26={birth=yes}  # Laubach
+									1962.07.25={add_spouse=100005604}	# Eleonore Elisabeth von Solms-Laubach
+									1969.01.01={remove_spouse=100005604}
+									1987.03.26={add_spouse=100081923}	# Birgit Dallhammer
+									1998.01.06={death=yes}
+								}
+									100005642={	# 1e) Maximilian Jörg (b.Hilden 27 Sep 1962); m.(civ) Laubach 21 Jun 1993 (rel) Frauenchiemsee 3 Jul 1993 Ursula Weiß (b.Munderkingen an der Donau 31 May 1962)
+										name="Maximilian Jörg"
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005641	# Johann Friedrich von Solms-Laubach
+										mother=100005604	# Eleonore Elisabeth von Solms-Laubach
+										1962.09.27={birth=yes}
+										1993.06.21={add_spouse=100093684}	# Ursula Weiß
+									}
+										100005643={	# 1f) Fionna Theresa Maximiliane (b.München 27 Oct 1993)
+											name=Fionna
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005642	# Maximilian Jörg von Solms-Laubach
+											mother=100093684	# Ursula Weiß
+											1993.10.27={birth=yes}
+										}
+										100005644={	# 2f) Celina Christina Margot Maximiliane (b.München 21 Jan 1997)
+											name=Celina
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005642	# Maximilian Jörg von Solms-Laubach
+											mother=100093684	# Ursula Weiß
+											1997.01.21={birth=yes}
+										}
+										100005645={	# 3f) Cedric Richard Ernst-Otto Maximilian (b.München 29 Sep 1998)
+											name=Cedric
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005642	# Maximilian Jörg von Solms-Laubach
+											mother=100093684	# Ursula Weiß
+											1998.09.29={birth=yes}
+										}
+										100005646={	# 4f) Seraphina Maria Elisabeth Maximiliane (b.München 5 Nov 1999)
+											name=Seraphina
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005642	# Maximilian Jörg von Solms-Laubach
+											mother=100093684	# Ursula Weiß
+											1999.11.05={birth=yes}
+										}
+										100005647={	# 5f) Angelina Johanna Genofeva Maximiliane (b.München 11 Jan 2007)
+											name=Angelina
+											female=yes
+											dynasty=1002053
+											religion=catholic culture=german
+											father=100005642	# Maximilian Jörg von Solms-Laubach
+											mother=100093684	# Ursula Weiß
+											2007.01.11={birth=yes}
+										}
+								100005648={	# 6d) Friedrich (b.Laubach 16 Jun 1937); m.(civ) Schlitz, Upper Hesse 28 Aug 1963 (rel) Laubach 29 Aug 1963 (div 1972) Ulrike Gfn zu Stolberg-Wernigerode (b.Schlitz 13 Feb 1940)
+									name=Friedrich
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005619	# Georg von Solms-Laubach
+									mother=100005784	# Johanna von Solms-Hohensolms-Lich
+									1937.06.16={birth=yes}
+									1963.08.28={add_spouse=100006432}	# Ulrike zu Stolberg-Wernigerode
+									1972.01.01={remove_spouse=100006432}
+									2014.01.01={death=yes}  # EST.
+								}
+									100005649={	# 1e) Katharina Elisabeth (b.Würzburg 11 Feb 1964); m.Lauterbach (civ) 12 Sep 1997 (rel) 13 Sep 1997 James Rupert Charles Gf Strachwitz von Groß-Zauche u.Camminetz (b.London 16 May 1965)
+										name="Katharina Elisabeth"
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005648	# Friedrich von Solms-Laubach
+										mother=100006432	# Ulrike zu Stolberg-Wernigerode
+										1964.02.11={birth=yes}
+									}
+									100005650={	# 2e) Ludwig Christian (b.Würzburg 6 Jul 1965)
+										name="Ludwig Christian"
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005648	# Friedrich von Solms-Laubach
+										mother=100006432	# Ulrike zu Stolberg-Wernigerode
+										1965.07.06={birth=yes}
+									}
+									100005651={	# 3e) Georg Friedrich (b.Gießen 12 Aug 1971)
+										name="Georg Friedrich"
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005648	# Friedrich von Solms-Laubach
+										mother=100006432	# Ulrike zu Stolberg-Wernigerode
+										1971.08.12={birth=yes}
+									}
+								100005652={	# 7d) Andrea Emma Alexandra (Laubach 31 Jul 1941-Laubach 6 Jan 2007)
+									name=Andrea
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005619	# Georg von Solms-Laubach
+									mother=100005784	# Johanna von Solms-Hohensolms-Lich
+									1941.07.31={birth=yes}  # Laubach
+									2007.01.06={death=yes}  # Laubach
+								}
+							100005653={	# 2c) Bernhard Bruno (Arnsburg 4 Mar 1900-Berlin 13 Mar 1938); m.Rüdenhausen 26 Sep 1928 Louise Gfn zu Castell-Rüdenhausen (Rüdenhausen 1 Oct 1902-Laubach 25 Aug 1986)
+								name="Bernhard Bruno"
+								dynasty=1002053
+								religion=catholic culture=german
+								father=100005618	# Otto von Solms-Laubach
+								mother=100002426	# Emma v. Isenburg
+								1900.03.04={birth=yes}  # Arnsburg
+								1928.09.26={add_spouse=100000633}	# Louise zu Castell-Rüdenhausen
+								1938.03.13={death=yes}  # Berlin
+							}
+								100005654={	# 1d) Peter Otto Hugo Casimir (Bautzen 28 Aug 1929-Bethel bei Bielefeld 27 Oct 1955)
+									name=Peter
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005653	# Bernhard Bruno von Solms-Laubach
+									mother=100000633	# Louise zu Castell-Rüdenhausen
+									1929.08.28={birth=yes}  # Bautzen
+									1955.10.27={death=yes}  # Bethel bei Bielefeld
+								}
+								100005655={	# 2d) Ilona Emma Clea Mechthild (b.Arnsburg 15 Jan 1931); m.1st Lübbenau 28 Aug 1954 (div 1969) Heinz Otto (b.Chemnitz 26 May 1927); m.2nd Wernigerode 12 Nov 1971 (div 1977) Wolfgang Pilz (b.Trautenau 11 Jan 1924)
+									name=Ilona
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005653	# Bernhard Bruno von Solms-Laubach
+									mother=100000633	# Louise zu Castell-Rüdenhausen
+									1931.01.15={birth=yes}
+									2008.01.01={death=yes}  # EST.
+								}
+								100005656={	# 3d) Friedrich Ernst (b.Laubach 24 Mar 1932); m.Frankfurt (civ) 21 May 1958 (rel) 22 May 1958 Richardis von Roeder (b.Frankfurt 29 Jun 1929)
+									name="Friedrich Ernst"
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005653	# Bernhard Bruno von Solms-Laubach
+									mother=100000633	# Louise zu Castell-Rüdenhausen
+									1932.03.24={birth=yes}
+									1958.05.21={add_spouse=100092960}	# Richardis von Roeder
+									2009.01.01={death=yes}  # EST.
+								}
+									100005657={	# 1e) Irene Andrea Louise (b.Frankfurt 27 Feb 1960)
+										name=Irene
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005656	# Friedrich Ernst von Solms-Laubach
+										mother=100092960	# Richardis von Roeder
+										1960.02.27={birth=yes}
+									}
+								100005658={	# 4d) Alexander (b.Dessau 6 Mar 1934); m.Stockheim 14 Dec 1963 (div 1983) Ramona Heilmann (b.Würzburg 23 Apr 1941)
+									name=Alexander
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005653	# Bernhard Bruno von Solms-Laubach
+									mother=100000633	# Louise zu Castell-Rüdenhausen
+									1934.03.06={birth=yes}
+									1963.12.14={add_spouse=100084778}	# Ramona Heilmann
+									1983.01.01={remove_spouse=100084778}
+								}
+									100005659={	# 1e) Daniela Polli (Laubach 12 Apr 1965); m.Rödermark 1 Apr 1993 Karl Ziffer (b.Villach 31 Jul 1968)
+										name=Daniela
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005658	# Alexander von Solms-Laubach
+										mother=100084778	# Ramona Heilmann
+										1965.04.12={birth=yes}  # Laubach
+									}
+									100005660={	# 2e) Tanja (Offenbach 14 Nov 1968-4 Mar 1981)
+										name=Tanja
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005658	# Alexander von Solms-Laubach
+										mother=100084778	# Ramona Heilmann
+										1968.11.14={birth=yes}  # Offenbach
+										1981.03.04={death=yes}
+									}
+							100005661={	# 3c) Marianne Bertha (Laubach 22 Mar 1901-Laubach 2 Apr 1973)
+								name="Marianne Bertha"
 								female=yes
 								dynasty=1002053
 								religion=catholic culture=german
-								father=100005626	# Karl zu Solms-Laubach
-								mother=100093798	# Julia Willers
-								1992.07.17={birth=yes}
+								father=100005618	# Otto von Solms-Laubach
+								mother=100002426	# Emma v. Isenburg
+								1901.03.22={birth=yes}  # Laubach
+								1973.04.02={death=yes}  # Laubach
 							}
-							100005628={	# 2f) August Otto Erbgf zu Solms-Laubach (b.Gießen 23 Jan 1994)
-								name="August Otto"
+							100005662={	# 4c) Friedrich Botho (Laubach 23 Apr 1902-Laubach 30 Mar 1991); m.Berlin 1 Jun 1931 (div 1943) Dorothea von Gohren (Berlin 16 Oct 1909-Rosenheim 9 Aug 1988)
+								name="Friedrich Botho"
 								dynasty=1002053
 								religion=catholic culture=german
-								father=100005626	# Karl zu Solms-Laubach
-								mother=100093798	# Julia Willers
-								1994.01.23={birth=yes}
+								father=100005618	# Otto von Solms-Laubach
+								mother=100002426	# Emma v. Isenburg
+								1902.04.23={birth=yes}  # Laubach
+								1931.06.01={add_spouse=100092086}	# Dorothea von Gohren
+								1943.01.01={remove_spouse=100092086}
+								1991.03.30={death=yes}  # Laubach
 							}
-							100005629={	# 3f) Clara Elisabeth (b.Lich 18 Oct 1996)
-								name="Clara Elisabeth"
-								female=yes
-								dynasty=1002053
-								religion=catholic culture=german
-								father=100005626	# Karl zu Solms-Laubach
-								mother=100093798	# Julia Willers
-								1996.10.18={birth=yes}
-							}
-							100005630={	# 4f) Hannah Benigna (b.Laubach 10 Dec 1999)
-								name="Hannah Benigna"
-								female=yes
-								dynasty=1002053
-								religion=catholic culture=german
-								father=100005626	# Karl zu Solms-Laubach
-								mother=100093798	# Julia Willers
-								1999.12.10={birth=yes}
-							}
-						100005631={	# 6e) Gustav Albrecht (b.Frankfurt 22 Oct 1965); m.(civ) München 3 Aug 2000 (rel) Birnau am Bodensee 26 Aug 2000 Nicola Hipp (b.München 15 Apr 1969)
-							name="Gustav Albrecht"
+								100005663={	# 1d) Erdmute Benigna (b.Berlin-Schöneberg 23 Apr 1932); m.(civ) Bentheim 30 Aug 1966 (rel) Kloster Arnsburg 14 Oct 1966 Christian Ludwig von Maltzan Frhr von Wartenberg und Penzlin (b.Lenschow 17 Sep 1929)
+									name="Erdmute Benigna"
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005662	# Friedrich Botho von Solms-Laubach
+									mother=100092086	# Dorothea von Gohren
+									1932.04.23={birth=yes}
+									2009.01.01={death=yes}  # EST.
+								}
+								100005664={	# 2d) Karola Brigitte (b.Laubach 31 Jul 1933); m.Frankfurt 27 Apr 1957 Detlev Schulte-Vieting (b.Halle an der Saale 24 Jun 1928)
+									name="Karola Brigitte"
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005662	# Friedrich Botho von Solms-Laubach
+									mother=100092086	# Dorothea von Gohren
+									1933.07.31={birth=yes}
+									2010.01.01={death=yes}  # EST.
+								}
+								100005665={	# 3d) Agnes Elisabeth (b.Berlin-Lichtenberg 4 Dec 1935); m.Frankfurt 4 Jan 1964 Jürgen von Maltzan Frhr von Wartenberg und Penzlin (b.Parchim 27 Dec 1934)
+									name="Agnes Elisabeth"
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005662	# Friedrich Botho von Solms-Laubach
+									mother=100092086	# Dorothea von Gohren
+									1935.12.04={birth=yes}
+									2012.01.01={death=yes}  # EST.
+								}
+								100005666={	# 4d) Ernst Lothar (b.Berlin 4 Feb 1939); m.1st Marburg (civ) 19 Mar 1965 (rel) 20 Mar 1965 (div 1970) Ursula Hartmann (b.Siegen 17 May 1937); m.2nd Wehrda 24 Apr 1970 (div 1975) Eva-Maria Ritter (b.Dresden 3 Aug 1937); m.3rd Rosenheim 20 Mar 1991 Karin Elisabeth Zürbig (b.Erfurt 26 Feb 1941)
+									name="Ernst Lothar"
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005662	# Friedrich Botho von Solms-Laubach
+									mother=100092086	# Dorothea von Gohren
+									1939.02.04={birth=yes}
+									1965.03.19={add_spouse=100084711}	# Ursula Hartmann
+									1970.01.01={remove_spouse=100084711}
+									1970.04.24={add_spouse=100089557}	# Eva-Maria Ritter
+									1975.01.01={remove_spouse=100089557}
+									1991.03.20={add_spouse=100094354}	# Karin Elisabeth Zürbig
+								}
+									100005667={	# 1e) Ruppert Botho (Bielefeld 29 Jul 1971-1 Sep 2005)
+										name="Ruppert Botho"
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005666	# Ernst Lothar von Solms-Laubach
+										mother=100089557	# Eva-Maria Ritter
+										1971.07.29={birth=yes}  # Bielefeld
+										2005.09.01={death=yes}
+									}
+									100005668={	# 2e) Kristin Madeleine (b.Rosenheim 20 Dec 1972)
+										name="Kristin Madeleine"
+										female=yes
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005666	# Ernst Lothar von Solms-Laubach
+										mother=100089557	# Eva-Maria Ritter
+										1972.12.20={birth=yes}
+									}
+									100005669={	# 3e) Stefan (b.Rosenheim 22 Apr 1976)
+										name=Stefan
+										dynasty=1002053
+										religion=catholic culture=german
+										father=100005666	# Ernst Lothar von Solms-Laubach
+										mother=100089557	# Eva-Maria Ritter
+										1976.04.22={birth=yes}
+									}
+								100005670={	# 5d) Oda (b.Laubach 21 Jun 1941); m.1st Frankfurt 4 Dec 1964 (div 1972) Hartmut Machholz (b.Oels 11 Sep 1940); m.2nd Mühltal 22 Nov 1994 (rel) Darmstadt 6 Jan 2012 Heinz Helmut Pest (b.Insterburg 5 May 1931)
+									name=Oda
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005662	# Friedrich Botho von Solms-Laubach
+									mother=100092086	# Dorothea von Gohren
+									1941.06.21={birth=yes}
+								}
+						100005671={	# 2b) Wilhelm (Jannowitz 16 Aug 1861-Gießen 24 May 1936); m.Wernigerode 23 May 1902 Marie Pss zu Stolberg-Wernigerode (Wernigerode 5 Oct 1872-Laubach 11 Jan 1950)
+							name=Wilhelm
 							dynasty=1002053
 							religion=catholic culture=german
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1965.10.22={birth=yes}
-							2000.08.03={add_spouse=100084903}	# Nicola Hipp
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1861.08.16={birth=yes}  # Jannowitz
+							1902.05.23={add_spouse=100006441}	# Marie zu Stolberg-Wernigerode
+							1936.05.24={death=yes}  # Gießen
 						}
-							100005632={	# 1f) Olga Antonia (b.München 2002)
-								name="Olga Antonia"
-								female=yes
-								dynasty=1002053
-								religion=catholic culture=german
-								father=100005631	# Gustav Albrecht zu Solms-Laubach
-								mother=100084903	# Nicola Hipp
-								2002.01.01={birth=yes}
-							}
-							100005633={	# 2f) Paula Valentine (b.2005)
-								name="Paula Valentine"
-								female=yes
-								dynasty=1002053
-								religion=catholic culture=german
-								father=100005631	# Gustav Albrecht zu Solms-Laubach
-								mother=100084903	# Nicola Hipp
-								2005.01.01={birth=yes}
-							}
-							100005634={	# 3f) Oscar (b.2008)
-								name=Oscar
-								dynasty=1002053
-								religion=catholic culture=german
-								father=100005631	# Gustav Albrecht zu Solms-Laubach
-								mother=100084903	# Nicola Hipp
-								2008.01.01={birth=yes}
-							}
-						100005635={	# 7e) Elisabeth (b.Frankfurt 12 Aug 1968); m.Laubach 8 Jun 1996 Ludwig Schmucker (b.München 19 Sep 1967)
+						100005672={	# 3b) Elisabeth (Jannowitz 29 Oct 1862-Groß-Kausche 8 Apr 1930); m.Laubach 30 Aug 1886 Heinrich XXV Pr Reuss (Jänkendorf 27 Aug 1856-Groß-Krausche 25 Aug 1911)
 							name=Elisabeth
 							female=yes
 							dynasty=1002053
 							religion=catholic culture=german
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1968.08.12={birth=yes}
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1862.10.29={birth=yes}  # Jannowitz
+							1930.04.08={death=yes}  # Groß-Kausche
 						}
-						100005636={	# 8e) Maria (b.Frankfurt 12 Aug 1968); m.Detmold (civ) 13 Oct 1994 (rel) 15 Oct 1994 Stephan Pr zur Lippe (b.Detmold 24 May 1959)
-							name=Maria
+						100005673={	# 4b) Magdalene (Jannowitz 11 Dec 1863-Oberstdorf 21 Apr 1925); m.Laubach 18 Sep 1884 (div 1907) Heinrich XXVIII Pr Reuss (Stonsdorf 3 Jun 1859-Berlin 8 Mar 1924)
+							name=Magdalene
 							female=yes
 							dynasty=1002053
 							religion=catholic culture=german
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1968.08.12={birth=yes}
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1863.12.11={birth=yes}  # Jannowitz
+							1925.04.21={death=yes}  # Oberstdorf
 						}
-						100005637={	# 9e) Franz (b.Gießen 2 Oct 1971)
-							name=Franz
+						100005674={	# 5b) Marie (Arnsburg 25 Apr 1865-Willingshausen 12 May 1946); m.Arnsburg 30 Jul 1901 Georg von Schwertzell von und zu Willingshausen (Willingshausen 14 May 1857-Hephata bei Treysa 13 Mar 1949)
+							name=Marie
+							female=yes
 							dynasty=1002053
 							religion=catholic culture=german
-							father=100005621	# Otto zu Solms-Laubach
-							mother=100004363	# Madeleine Olga zu Sayn-Wittgenstein-Berleburg
-							1971.10.02={birth=yes}
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1865.04.25={birth=yes}  # Arnsburg
+							1946.05.12={death=yes}  # Willingshausen
 						}
-					100005639={	# 3d) Karl (Laubach 26 Aug 1926-k.a.nr Küstrin 7 Feb 1945)
-						name=Karl
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005619	# Georg zu Solms-Laubach
-						mother=100005784	# Johanna zu Solms-Hohensolms-Lich
-						1926.08.26={birth=yes}  # Laubach
-						1945.02.07={death=yes}
-					}
-					100005640={	# 4d) Monika (Laubach 8 Aug 1929-4 Jun 2015); m.Laubach (civ) 16 Jul 1981 (rel) 17 Jul 1981 Ernst August Pr of Hannover (Braunschweig 18 Mar 1914-Hannover 9 Dec 1987)
-						name=Monika
-						female=yes
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005619	# Georg zu Solms-Laubach
-						mother=100005784	# Johanna zu Solms-Hohensolms-Lich
-						1929.08.08={birth=yes}  # Laubach
-						2015.06.04={death=yes}
-					}
-					100005641={	# 5d) Johann Friedrich (Laubach 26 Apr 1932-6 Jan 1998); m.1st Arnsburg (civ) 25 Jul 1962 (rel) 26 Jul 1962 (div 1969) Eleonore Gfn zu Solms-Laubach (1937-1999; below); m.2nd Laubach (civ) 26 Mar 1987 (rel) 9 May 1987 Birgit Dallhammer (b.Schloß Neuhaus 5 Jul 1944)
-						name="Johann Friedrich"
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005619	# Georg zu Solms-Laubach
-						mother=100005784	# Johanna zu Solms-Hohensolms-Lich
-						1932.04.26={birth=yes}  # Laubach
-						1962.07.25={add_spouse=100005604}	# Eleonore Elisabeth zu Solms-Laubach
-						1969.01.01={remove_spouse=100005604}
-						1987.03.26={add_spouse=100081923}	# Birgit Dallhammer
-						1998.01.06={death=yes}
-					}
-						100005642={	# 1e) Maximilian Jörg (b.Hilden 27 Sep 1962); m.(civ) Laubach 21 Jun 1993 (rel) Frauenchiemsee 3 Jul 1993 Ursula Weiß (b.Munderkingen an der Donau 31 May 1962)
-							name="Maximilian Jörg"
+						100005675={	# 6b) Friedrich Ernst (Arnsburg 16 Apr 1867-Arnsburg 28 Mar 1930)
+							name="Friedrich Ernst"
 							dynasty=1002053
 							religion=catholic culture=german
-							father=100005641	# Johann Friedrich zu Solms-Laubach
-							mother=100005604	# Eleonore Elisabeth zu Solms-Laubach
-							1962.09.27={birth=yes}
-							1993.06.21={add_spouse=100093684}	# Ursula Weiß
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1867.04.16={birth=yes}  # Arnsburg
+							1930.03.28={death=yes}  # Arnsburg
 						}
-							100005643={	# 1f) Fionna Theresa Maximiliane (b.München 27 Oct 1993)
-								name=Fionna
+						100005676={	# 7b) Karl Heinrich (Arnsburg 22 Mar 1870-Kassel 24 Feb 1945); m.Frankfurt 16 Oct 1911 Rosa Pss zu Salm-Salm (Anholt 16 Mar 1878-Kassel-Wilhelmshöhe 28 Aug 1963)
+							name=Karl
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1870.03.22={birth=yes}  # Arnsburg
+							1911.10.16={add_spouse=100003963}	# Rosa v. Salm-Salm
+							1945.02.24={death=yes}  # Kassel
+						}
+							100005677={	# 1c) Marcus Hans Donatus Alfred Wilhelm (Freiburg 25 Sep 1913-19__)
+								name=Marcus
+								dynasty=1002053
+								religion=catholic culture=german
+								father=100005676	# Karl von Solms-Laubach
+								mother=100003963	# Rosa v. Salm-Salm
+								1913.09.25={birth=yes}  # Freiburg
+								1989.01.01={death=yes}  # EST.
+							}
+							100005678={	# 2c) Karl (Düsseldorf 11 Apr 1915-Kassel 15 Jan 1927)
+								name=Karl
+								dynasty=1002053
+								religion=catholic culture=german
+								father=100005676	# Karl von Solms-Laubach
+								mother=100003963	# Rosa v. Salm-Salm
+								1915.04.11={birth=yes}  # Düsseldorf
+								1927.01.15={death=yes}  # Kassel
+							}
+						100005679={	# 8b) Georg Reinhard (Arnsburg 28 Feb 1872-Oberstdorf, Allgäu 26 Jan 1937); m.Waidring 18 Sep 1921 Emma Kreuter (Speyer 12 Mar 1888-München 22 Dec 1952)
+							name="Georg Reinhard"
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1872.02.28={birth=yes}  # Arnsburg
+							1921.09.18={add_spouse=100087019}	# Emma Kreuter
+							1937.01.26={death=yes}  # Oberstdorf Allgäu
+						}
+							100005680={	# 1c) Albrecht (München 9 Aug 1922-Dresden 12 Jun 1942)
+								name=Albrecht
+								dynasty=1002053
+								religion=catholic culture=german
+								father=100005679	# Georg Reinhard von Solms-Laubach
+								mother=100087019	# Emma Kreuter
+								1922.08.09={birth=yes}  # München
+								1942.06.12={death=yes}  # Dresden
+							}
+							100005681={	# 2c) Luitgard Roswitha (b.München 27 Nov 1924); m.München 5 Aug 1950 Hans Gf von der Goltz (b.Stettin 22 Sep 1926)
+								name="Luitgard Roswitha"
 								female=yes
 								dynasty=1002053
 								religion=catholic culture=german
-								father=100005642	# Maximilian Jörg zu Solms-Laubach
-								mother=100093684	# Ursula Weiß
-								1993.10.27={birth=yes}
+								father=100005679	# Georg Reinhard von Solms-Laubach
+								mother=100087019	# Emma Kreuter
+								1924.11.27={birth=yes}
+								2000.01.01={death=yes}  # EST.
 							}
-							100005644={	# 2f) Celina Christina Margot Maximiliane (b.München 21 Jan 1997)
-								name=Celina
+							100005682={	# 3c) Hans Günter (München 26 Jun 1927-München 5 Apr 2009); m.(civ) Essen 30 Aug 1968 (rel) Hummelo, Gelderland 31 Aug 1968 Anna Gfn von Rechteren-Limpurg (Arnheim 27 Sep 1940-Essen 12 May 1994)
+								name="Hans Günter"
+								dynasty=1002053
+								religion=catholic culture=german
+								father=100005679	# Georg Reinhard von Solms-Laubach
+								mother=100087019	# Emma Kreuter
+								1927.06.26={birth=yes}  # München
+								1968.08.30={add_spouse=100037160}	# Anna van Rechteren-Limpurg
+								2009.04.05={death=yes}  # München
+							}
+								100005684={	# 2d) Georg Alexander (b.Essen 31 Mar 1972)
+									name="Georg Alexander"
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005682	# Hans Günter von Solms-Laubach
+									mother=100037160	# Anna van Rechteren-Limpurg
+									1972.03.31={birth=yes}
+								}
+						100005685={	# 9b) Luitgard Ernestine (Arnsburg 17 Dec 1873-Arnsburg 24 Jan 1954); m.Arnsburg 18 Jun 1914 Gottlieb von Jagow (Berlin 22 Jun 1863-Potsdam 11 Jan 1935)
+							name="Luitgard Ernestine"
+							female=yes
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1873.12.17={birth=yes}  # Arnsburg
+							1954.01.24={death=yes}  # Arnsburg
+						}
+						100005686={	# 10b) Johann Albrecht (Laubach 11 Jun 1880-k.a.nr Papalovo, Macedonia 21 Nov 1916)
+							name="Johann Albrecht"
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005617	# Friedrich von Solms-Laubach
+							mother=100006278	# Marianne zu Stolberg-Wernigerode
+							1880.06.11={birth=yes}  # Laubach
+							1916.11.21={death=yes}
+						}
+					100005687={	# 2a) Thekla (Laubach 4 Jun 1835-Assenheim 17 Jan 1892); m.Laubach 1 Jun 1861 Maximilian Gf zu Solms-Rödelheim u.Assenheim (d.1892)
+						name=Thekla
+						female=yes
+						dynasty=1002053
+						religion=catholic culture=german
+						father=100005616	# Otto von Solms-Laubach
+						mother=100007628	# Luitgarde zu Wied
+						1835.06.04={birth=yes}  # Laubach
+						1892.01.17={death=yes}  # Assenheim
+					}
+					100005688={	# 3a) Ernst (Laubach 24 Apr 1837-Naumburg 11 Aug 1908); m.Ahrensburg 31 Jan 1874 Auguste Gfn von Schimmelmann (Ahrensburg 13 Jun 1847-Marburg 17 Jan 1921)
+						name=Ernst
+						dynasty=1002053
+						religion=catholic culture=german
+						father=100005616	# Otto von Solms-Laubach
+						mother=100007628	# Luitgarde zu Wied
+						1837.04.24={birth=yes}  # Laubach
+						1874.01.31={add_spouse=100093036}	# GFN Auguste von Schimmelmann
+						1908.08.11={death=yes}  # Naumburg
+					}
+						100005689={	# 1b) Adelaide (Schlettstadt 26 Jun 1875-Marburg 7 Feb 1945)
+							name=Adelaide
+							female=yes
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005688	# Ernst von Solms-Laubach
+							mother=100093036	# GFN Auguste von Schimmelmann
+							1875.06.26={birth=yes}  # Schlettstadt
+							1945.02.07={death=yes}  # Marburg
+						}
+						100005690={	# 2b) Frieda Luitgarde Marianne Marie Ernestine (Laubach 26 Jun 1875-Marburg 25 Aug 1961)
+							name=Frieda
+							female=yes
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005688	# Ernst von Solms-Laubach
+							mother=100093036	# GFN Auguste von Schimmelmann
+							1875.06.26={birth=yes}  # Laubach
+							1961.08.25={death=yes}  # Marburg
+						}
+						100005600={	# 3b) Luitgard (Schlettstadt 17 Sep 1880-Karlsruhe-Rüppur 6 Oct 1947)
+							name=Luitgard
+							female=yes
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005688	# Ernst von Solms-Laubach
+							mother=100093036	# GFN Auguste von Schimmelmann
+							1880.09.17={birth=yes}  # Schlettstadt
+							1947.10.06={death=yes}  # Karlsruhe-Rüppur
+						}
+						100005601={	# 4b) Manon Elisabeth (Strassburg 3 Dec 1882-Marburg 19 Nov 1975)
+							name="Manon Elisabeth"
+							female=yes
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005688	# Ernst von Solms-Laubach
+							mother=100093036	# GFN Auguste von Schimmelmann
+							1882.12.03={birth=yes}  # Strassburg
+							1975.11.19={death=yes}  # Marburg
+						}
+						100005602={	# 5b) Erika (Strassburg 1 Aug 1886-Oberstdorf 21 May 1943)
+							name=Erika
+							female=yes
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005688	# Ernst von Solms-Laubach
+							mother=100093036	# GFN Auguste von Schimmelmann
+							1886.08.01={birth=yes}  # Strassburg
+							1943.05.21={death=yes}  # Oberstdorf
+						}
+						100005603={	# 6b) Ernstotto (Strassburg 8 Nov 1890-Frankfurt 2 Sep 1977); m.(civ) Frankfurt (rel) Arnsburg 21 Aug 1935 Margot Bertram (Erfurt 28 Dec 1906-Frankfurt 25 Aug 1995)
+							name=Ernstotto
+							dynasty=1002053
+							religion=catholic culture=german
+							father=100005688	# Ernst von Solms-Laubach
+							mother=100093036	# GFN Auguste von Schimmelmann
+							1890.11.08={birth=yes}  # Strassburg
+							1935.08.21={add_spouse=100080598}	# Margot Bertram
+							1977.09.02={death=yes}  # Frankfurt
+						}
+							100005604={	# 1c) Eleonore Elisabeth (Frankfurt 5 Sep 1937-Düsseldorf 27 May 1999); m.Arnsburg (civ) 25 Jul 1962 (rel) 26 Jul 1962 (div 1969) Johann Friedrich Gf zu Solms-Laubach (b.1932)
+								name="Eleonore Elisabeth"
 								female=yes
 								dynasty=1002053
 								religion=catholic culture=german
-								father=100005642	# Maximilian Jörg zu Solms-Laubach
-								mother=100093684	# Ursula Weiß
-								1997.01.21={birth=yes}
+								father=100005603	# Ernstotto von Solms-Laubach
+								mother=100080598	# Margot Bertram
+								1937.09.05={birth=yes}  # Frankfurt
+								1999.05.27={death=yes}  # Düsseldorf
 							}
-							100005645={	# 3f) Cedric Richard Ernst-Otto Maximilian (b.München 29 Sep 1998)
-								name=Cedric
+							100005605={	# 2c) Friedrich-Ernst (b.Frankfurt 7 Mar 1940); m.(civ) Erbendorf, OPfalz 29 Jun 1979 (rel) Wildenreuth 1 Jul 1979 Sylvia Frn von Podewils (b.Neustadt an der Waldnaab 6 Apr 1952)
+								name=Friedrich-Ernst
 								dynasty=1002053
 								religion=catholic culture=german
-								father=100005642	# Maximilian Jörg zu Solms-Laubach
-								mother=100093684	# Ursula Weiß
-								1998.09.29={birth=yes}
+								father=100005603	# Ernstotto von Solms-Laubach
+								mother=100080598	# Margot Bertram
+								1940.03.07={birth=yes}
+								1979.06.29={add_spouse=100092865}	# FRN Sylvia von Podewils
 							}
-							100005646={	# 4f) Seraphina Maria Elisabeth Maximiliane (b.München 5 Nov 1999)
-								name=Seraphina
+								100005606={	# 1d) Moritz Friedrich Ernst Otto Heinrich (b.Frankfurt 26 Sep 1980); m.30 Aug 2014 Clarita Marie Irene Stachels
+									name=Moritz
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005605	# Friedrich-Ernst von Solms-Laubach
+									mother=100092865	# FRN Sylvia von Podewils
+									1980.09.26={birth=yes}
+									2014.08.30={add_spouse=100090491}	# Clarita Stachels
+								}
+								100005607={	# 2d) Angelina Sylvia Annelise Margot (b.Southampton, New York 1 Oct 1983)
+									name=Angelina
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005605	# Friedrich-Ernst von Solms-Laubach
+									mother=100092865	# FRN Sylvia von Podewils
+									1983.10.01={birth=yes}
+								}
+								100005608={	# 3d) Philipp Friedrich Carl Ernst Nikolaus (b.Frankfurt 23 Sep 1985)
+									name=Philipp
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005605	# Friedrich-Ernst von Solms-Laubach
+									mother=100092865	# FRN Sylvia von Podewils
+									1985.09.23={birth=yes}
+								}
+								100005609={	# 4d) Margarita Sylvia Elisabeth Alexandra (b.Frankfurt 4 Aug 1989)
+									name=Margarita
+									female=yes
+									dynasty=1002053
+									religion=catholic culture=german
+									father=100005605	# Friedrich-Ernst von Solms-Laubach
+									mother=100092865	# FRN Sylvia von Podewils
+									1989.08.04={birth=yes}
+								}
+							100005610={	# 3c) Sibylle Adelaide Erika (b.Frankfurt 18 Feb 1942); m.Arnsburg 15 Apr 1966 Peter Thomas (Rheine, Westfalen 12 Sep 1935-Kuala Lumpur 19 Jun 1985)
+								name=Sibylle
 								female=yes
 								dynasty=1002053
 								religion=catholic culture=german
-								father=100005642	# Maximilian Jörg zu Solms-Laubach
-								mother=100093684	# Ursula Weiß
-								1999.11.05={birth=yes}
+								father=100005603	# Ernstotto von Solms-Laubach
+								mother=100080598	# Margot Bertram
+								1942.02.18={birth=yes}
 							}
-							100005647={	# 5f) Angelina Johanna Genofeva Maximiliane (b.München 11 Jan 2007)
-								name=Angelina
+							100005611={	# 4c) Juliane (b.Frankfurt 2 Jul 1951)
+								name=Juliane
 								female=yes
 								dynasty=1002053
 								religion=catholic culture=german
-								father=100005642	# Maximilian Jörg zu Solms-Laubach
-								mother=100093684	# Ursula Weiß
-								2007.01.11={birth=yes}
+								father=100005603	# Ernstotto von Solms-Laubach
+								mother=100080598	# Margot Bertram
+								1951.07.02={birth=yes}
 							}
-					100005648={	# 6d) Friedrich (b.Laubach 16 Jun 1937); m.(civ) Schlitz, Upper Hesse 28 Aug 1963 (rel) Laubach 29 Aug 1963 (div 1972) Ulrike Gfn zu Stolberg-Wernigerode (b.Schlitz 13 Feb 1940)
-						name=Friedrich
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005619	# Georg zu Solms-Laubach
-						mother=100005784	# Johanna zu Solms-Hohensolms-Lich
-						1937.06.16={birth=yes}
-						1963.08.28={add_spouse=100006432}	# Ulrike zu Stolberg-Wernigerode
-						1972.01.01={remove_spouse=100006432}
-						2014.01.01={death=yes}  # EST.
-					}
-						100005649={	# 1e) Katharina Elisabeth (b.Würzburg 11 Feb 1964); m.Lauterbach (civ) 12 Sep 1997 (rel) 13 Sep 1997 James Rupert Charles Gf Strachwitz von Groß-Zauche u.Camminetz (b.London 16 May 1965)
-							name="Katharina Elisabeth"
-							female=yes
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005648	# Friedrich zu Solms-Laubach
-							mother=100006432	# Ulrike zu Stolberg-Wernigerode
-							1964.02.11={birth=yes}
-						}
-						100005650={	# 2e) Ludwig Christian (b.Würzburg 6 Jul 1965)
-							name="Ludwig Christian"
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005648	# Friedrich zu Solms-Laubach
-							mother=100006432	# Ulrike zu Stolberg-Wernigerode
-							1965.07.06={birth=yes}
-						}
-						100005651={	# 3e) Georg Friedrich (b.Gießen 12 Aug 1971)
-							name="Georg Friedrich"
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005648	# Friedrich zu Solms-Laubach
-							mother=100006432	# Ulrike zu Stolberg-Wernigerode
-							1971.08.12={birth=yes}
-						}
-					100005652={	# 7d) Andrea Emma Alexandra (Laubach 31 Jul 1941-Laubach 6 Jan 2007)
-						name=Andrea
+					100005612={	# 4a) Klara Ottilie Karoline Ida Auguste (Laubach 30 Jan 1839-Strassburg 1 Nov 1896)
+						name=Klara
 						female=yes
 						dynasty=1002053
 						religion=catholic culture=german
-						father=100005619	# Georg zu Solms-Laubach
-						mother=100005784	# Johanna zu Solms-Hohensolms-Lich
-						1941.07.31={birth=yes}  # Laubach
-						2007.01.06={death=yes}  # Laubach
+						father=100005616	# Otto von Solms-Laubach
+						mother=100007628	# Luitgarde zu Wied
+						1839.01.30={birth=yes}  # Laubach
+						1896.11.01={death=yes}  # Strassburg
 					}
-				100005653={	# 2c) Bernhard Bruno (Arnsburg 4 Mar 1900-Berlin 13 Mar 1938); m.Rüdenhausen 26 Sep 1928 Louise Gfn zu Castell-Rüdenhausen (Rüdenhausen 1 Oct 1902-Laubach 25 Aug 1986)
-					name="Bernhard Bruno"
+					100005613={	# 5a) Hermann Maximilian Karl Ludwig Friedrich (Laubach 23 Dec 1842-Strassburg Nov 1915)
+						name=Hermann
+						dynasty=1002053
+						religion=catholic culture=german
+						father=100005616	# Otto von Solms-Laubach
+						mother=100007628	# Luitgarde zu Wied
+						1842.12.23={birth=yes}  # Laubach
+						1915.11.01={death=yes}  # Strassburg
+					}
+				100005615={ # Reinhard (Laubach 11 Aug 1801-Mannheim 29 Oct 1870); m.20 Oct 1836 Ida v. Isenburg (Büdingen 10 Mar 1817-Büdingen 31 Jul 1900) %%
+					name=Reinhard
 					dynasty=1002053
-					religion=catholic culture=german
-					father=100005618	# Otto zu Solms-Laubach
-					mother=100002426	# Emma v. Isenburg
-					1900.03.04={birth=yes}  # Arnsburg
-					1928.09.26={add_spouse=100000633}	# Louise zu Castell-Rüdenhausen
-					1938.03.13={death=yes}  # Berlin
+					religion=lutheran culture=german
+					father=100005614	# Friedrich Ludwig Christian von Solms-Laubach
+					1801.08.11={birth=yes}  # Laubach
+					1836.10.20={add_spouse=100002402}	# Ida v. Isenburg
+					1870.10.29={death=yes}  # Mannheim
 				}
-					100005654={	# 1d) Peter Otto Hugo Casimir (Bautzen 28 Aug 1929-Bethel bei Bielefeld 27 Oct 1955)
-						name=Peter
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005653	# Bernhard Bruno zu Solms-Laubach
-						mother=100000633	# Louise zu Castell-Rüdenhausen
-						1929.08.28={birth=yes}  # Bautzen
-						1955.10.27={death=yes}  # Bethel bei Bielefeld
-					}
-					100005655={	# 2d) Ilona Emma Clea Mechthild (b.Arnsburg 15 Jan 1931); m.1st Lübbenau 28 Aug 1954 (div 1969) Heinz Otto (b.Chemnitz 26 May 1927); m.2nd Wernigerode 12 Nov 1971 (div 1977) Wolfgang Pilz (b.Trautenau 11 Jan 1924)
-						name=Ilona
-						female=yes
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005653	# Bernhard Bruno zu Solms-Laubach
-						mother=100000633	# Louise zu Castell-Rüdenhausen
-						1931.01.15={birth=yes}
-						2008.01.01={death=yes}  # EST.
-					}
-					100005656={	# 3d) Friedrich Ernst (b.Laubach 24 Mar 1932); m.Frankfurt (civ) 21 May 1958 (rel) 22 May 1958 Richardis von Roeder (b.Frankfurt 29 Jun 1929)
-						name="Friedrich Ernst"
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005653	# Bernhard Bruno zu Solms-Laubach
-						mother=100000633	# Louise zu Castell-Rüdenhausen
-						1932.03.24={birth=yes}
-						1958.05.21={add_spouse=100092960}	# Richardis von Roeder
-						2009.01.01={death=yes}  # EST.
-					}
-						100005657={	# 1e) Irene Andrea Louise (b.Frankfurt 27 Feb 1960)
-							name=Irene
-							female=yes
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005656	# Friedrich Ernst zu Solms-Laubach
-							mother=100092960	# Richardis von Roeder
-							1960.02.27={birth=yes}
-						}
-					100005658={	# 4d) Alexander (b.Dessau 6 Mar 1934); m.Stockheim 14 Dec 1963 (div 1983) Ramona Heilmann (b.Würzburg 23 Apr 1941)
-						name=Alexander
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005653	# Bernhard Bruno zu Solms-Laubach
-						mother=100000633	# Louise zu Castell-Rüdenhausen
-						1934.03.06={birth=yes}
-						1963.12.14={add_spouse=100084778}	# Ramona Heilmann
-						1983.01.01={remove_spouse=100084778}
-					}
-						100005659={	# 1e) Daniela Polli (Laubach 12 Apr 1965); m.Rödermark 1 Apr 1993 Karl Ziffer (b.Villach 31 Jul 1968)
-							name=Daniela
-							female=yes
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005658	# Alexander zu Solms-Laubach
-							mother=100084778	# Ramona Heilmann
-							1965.04.12={birth=yes}  # Laubach
-						}
-						100005660={	# 2e) Tanja (Offenbach 14 Nov 1968-4 Mar 1981)
-							name=Tanja
-							female=yes
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005658	# Alexander zu Solms-Laubach
-							mother=100084778	# Ramona Heilmann
-							1968.11.14={birth=yes}  # Offenbach
-							1981.03.04={death=yes}
-						}
-				100005661={	# 3c) Marianne Bertha (Laubach 22 Mar 1901-Laubach 2 Apr 1973)
-					name="Marianne Bertha"
+				100094363={ # Ottilie (Laubach 29 Jul 1807-Hungen 21 May 1884); m.6 May 1828 Friedrich von Solms-Braunfels (Braunfels 14 Dec 1797-Braunfels 3 Feb 1873) %%
+					name=Ottilie
 					female=yes
 					dynasty=1002053
 					religion=catholic culture=german
-					father=100005618	# Otto zu Solms-Laubach
-					mother=100002426	# Emma v. Isenburg
-					1901.03.22={birth=yes}  # Laubach
-					1973.04.02={death=yes}  # Laubach
+					father=100005614	# Friedrich Ludwig Christian von Solms-Laubach
+					1807.07.29={birth=yes}  # Laubach
+					1884.05.21={death=yes}  # Hungen
 				}
-				100005662={	# 4c) Friedrich Botho (Laubach 23 Apr 1902-Laubach 30 Mar 1991); m.Berlin 1 Jun 1931 (div 1943) Dorothea von Gohren (Berlin 16 Oct 1909-Rosenheim 9 Aug 1988)
-					name="Friedrich Botho"
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005618	# Otto zu Solms-Laubach
-					mother=100002426	# Emma v. Isenburg
-					1902.04.23={birth=yes}  # Laubach
-					1931.06.01={add_spouse=100092086}	# Dorothea von Gohren
-					1943.01.01={remove_spouse=100092086}
-					1991.03.30={death=yes}  # Laubach
-				}
-					100005663={	# 1d) Erdmute Benigna (b.Berlin-Schöneberg 23 Apr 1932); m.(civ) Bentheim 30 Aug 1966 (rel) Kloster Arnsburg 14 Oct 1966 Christian Ludwig von Maltzan Frhr von Wartenberg und Penzlin (b.Lenschow 17 Sep 1929)
-						name="Erdmute Benigna"
-						female=yes
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005662	# Friedrich Botho zu Solms-Laubach
-						mother=100092086	# Dorothea von Gohren
-						1932.04.23={birth=yes}
-						2009.01.01={death=yes}  # EST.
-					}
-					100005664={	# 2d) Karola Brigitte (b.Laubach 31 Jul 1933); m.Frankfurt 27 Apr 1957 Detlev Schulte-Vieting (b.Halle an der Saale 24 Jun 1928)
-						name="Karola Brigitte"
-						female=yes
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005662	# Friedrich Botho zu Solms-Laubach
-						mother=100092086	# Dorothea von Gohren
-						1933.07.31={birth=yes}
-						2010.01.01={death=yes}  # EST.
-					}
-					100005665={	# 3d) Agnes Elisabeth (b.Berlin-Lichtenberg 4 Dec 1935); m.Frankfurt 4 Jan 1964 Jürgen von Maltzan Frhr von Wartenberg und Penzlin (b.Parchim 27 Dec 1934)
-						name="Agnes Elisabeth"
-						female=yes
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005662	# Friedrich Botho zu Solms-Laubach
-						mother=100092086	# Dorothea von Gohren
-						1935.12.04={birth=yes}
-						2012.01.01={death=yes}  # EST.
-					}
-					100005666={	# 4d) Ernst Lothar (b.Berlin 4 Feb 1939); m.1st Marburg (civ) 19 Mar 1965 (rel) 20 Mar 1965 (div 1970) Ursula Hartmann (b.Siegen 17 May 1937); m.2nd Wehrda 24 Apr 1970 (div 1975) Eva-Maria Ritter (b.Dresden 3 Aug 1937); m.3rd Rosenheim 20 Mar 1991 Karin Elisabeth Zürbig (b.Erfurt 26 Feb 1941)
-						name="Ernst Lothar"
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005662	# Friedrich Botho zu Solms-Laubach
-						mother=100092086	# Dorothea von Gohren
-						1939.02.04={birth=yes}
-						1965.03.19={add_spouse=100084711}	# Ursula Hartmann
-						1970.01.01={remove_spouse=100084711}
-						1970.04.24={add_spouse=100089557}	# Eva-Maria Ritter
-						1975.01.01={remove_spouse=100089557}
-						1991.03.20={add_spouse=100094354}	# Karin Elisabeth Zürbig
-					}
-						100005667={	# 1e) Ruppert Botho (Bielefeld 29 Jul 1971-1 Sep 2005)
-							name="Ruppert Botho"
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005666	# Ernst Lothar zu Solms-Laubach
-							mother=100089557	# Eva-Maria Ritter
-							1971.07.29={birth=yes}  # Bielefeld
-							2005.09.01={death=yes}
-						}
-						100005668={	# 2e) Kristin Madeleine (b.Rosenheim 20 Dec 1972)
-							name="Kristin Madeleine"
-							female=yes
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005666	# Ernst Lothar zu Solms-Laubach
-							mother=100089557	# Eva-Maria Ritter
-							1972.12.20={birth=yes}
-						}
-						100005669={	# 3e) Stefan (b.Rosenheim 22 Apr 1976)
-							name=Stefan
-							dynasty=1002053
-							religion=catholic culture=german
-							father=100005666	# Ernst Lothar zu Solms-Laubach
-							mother=100089557	# Eva-Maria Ritter
-							1976.04.22={birth=yes}
-						}
-					100005670={	# 5d) Oda (b.Laubach 21 Jun 1941); m.1st Frankfurt 4 Dec 1964 (div 1972) Hartmut Machholz (b.Oels 11 Sep 1940); m.2nd Mühltal 22 Nov 1994 (rel) Darmstadt 6 Jan 2012 Heinz Helmut Pest (b.Insterburg 5 May 1931)
-						name=Oda
-						female=yes
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005662	# Friedrich Botho zu Solms-Laubach
-						mother=100092086	# Dorothea von Gohren
-						1941.06.21={birth=yes}
-					}
-			100005671={	# 2b) Wilhelm (Jannowitz 16 Aug 1861-Gießen 24 May 1936); m.Wernigerode 23 May 1902 Marie Pss zu Stolberg-Wernigerode (Wernigerode 5 Oct 1872-Laubach 11 Jan 1950)
-				name=Wilhelm
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1861.08.16={birth=yes}  # Jannowitz
-				1902.05.23={add_spouse=100006441}	# Marie zu Stolberg-Wernigerode
-				1936.05.24={death=yes}  # Gießen
-			}
-			100005672={	# 3b) Elisabeth (Jannowitz 29 Oct 1862-Groß-Kausche 8 Apr 1930); m.Laubach 30 Aug 1886 Heinrich XXV Pr Reuss (Jänkendorf 27 Aug 1856-Groß-Krausche 25 Aug 1911)
-				name=Elisabeth
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1862.10.29={birth=yes}  # Jannowitz
-				1930.04.08={death=yes}  # Groß-Kausche
-			}
-			100005673={	# 4b) Magdalene (Jannowitz 11 Dec 1863-Oberstdorf 21 Apr 1925); m.Laubach 18 Sep 1884 (div 1907) Heinrich XXVIII Pr Reuss (Stonsdorf 3 Jun 1859-Berlin 8 Mar 1924)
-				name=Magdalene
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1863.12.11={birth=yes}  # Jannowitz
-				1925.04.21={death=yes}  # Oberstdorf
-			}
-			100005674={	# 5b) Marie (Arnsburg 25 Apr 1865-Willingshausen 12 May 1946); m.Arnsburg 30 Jul 1901 Georg von Schwertzell von und zu Willingshausen (Willingshausen 14 May 1857-Hephata bei Treysa 13 Mar 1949)
-				name=Marie
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1865.04.25={birth=yes}  # Arnsburg
-				1946.05.12={death=yes}  # Willingshausen
-			}
-			100005675={	# 6b) Friedrich Ernst (Arnsburg 16 Apr 1867-Arnsburg 28 Mar 1930)
-				name="Friedrich Ernst"
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1867.04.16={birth=yes}  # Arnsburg
-				1930.03.28={death=yes}  # Arnsburg
-			}
-			100005676={	# 7b) Karl Heinrich (Arnsburg 22 Mar 1870-Kassel 24 Feb 1945); m.Frankfurt 16 Oct 1911 Rosa Pss zu Salm-Salm (Anholt 16 Mar 1878-Kassel-Wilhelmshöhe 28 Aug 1963)
-				name=Karl
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1870.03.22={birth=yes}  # Arnsburg
-				1911.10.16={add_spouse=100003963}	# Rosa v. Salm-Salm
-				1945.02.24={death=yes}  # Kassel
-			}
-				100005677={	# 1c) Marcus Hans Donatus Alfred Wilhelm (Freiburg 25 Sep 1913-19__)
-					name=Marcus
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005676	# Karl zu Solms-Laubach
-					mother=100003963	# Rosa v. Salm-Salm
-					1913.09.25={birth=yes}  # Freiburg
-					1989.01.01={death=yes}  # EST.
-				}
-				100005678={	# 2c) Karl (Düsseldorf 11 Apr 1915-Kassel 15 Jan 1927)
-					name=Karl
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005676	# Karl zu Solms-Laubach
-					mother=100003963	# Rosa v. Salm-Salm
-					1915.04.11={birth=yes}  # Düsseldorf
-					1927.01.15={death=yes}  # Kassel
-				}
-			100005679={	# 8b) Georg Reinhard (Arnsburg 28 Feb 1872-Oberstdorf, Allgäu 26 Jan 1937); m.Waidring 18 Sep 1921 Emma Kreuter (Speyer 12 Mar 1888-München 22 Dec 1952)
-				name="Georg Reinhard"
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1872.02.28={birth=yes}  # Arnsburg
-				1921.09.18={add_spouse=100087019}	# Emma Kreuter
-				1937.01.26={death=yes}  # Oberstdorf Allgäu
-			}
-				100005680={	# 1c) Albrecht (München 9 Aug 1922-Dresden 12 Jun 1942)
-					name=Albrecht
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005679	# Georg Reinhard zu Solms-Laubach
-					mother=100087019	# Emma Kreuter
-					1922.08.09={birth=yes}  # München
-					1942.06.12={death=yes}  # Dresden
-				}
-				100005681={	# 2c) Luitgard Roswitha (b.München 27 Nov 1924); m.München 5 Aug 1950 Hans Gf von der Goltz (b.Stettin 22 Sep 1926)
-					name="Luitgard Roswitha"
-					female=yes
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005679	# Georg Reinhard zu Solms-Laubach
-					mother=100087019	# Emma Kreuter
-					1924.11.27={birth=yes}
-					2000.01.01={death=yes}  # EST.
-				}
-				100005682={	# 3c) Hans Günter (München 26 Jun 1927-München 5 Apr 2009); m.(civ) Essen 30 Aug 1968 (rel) Hummelo, Gelderland 31 Aug 1968 Anna Gfn von Rechteren-Limpurg (Arnheim 27 Sep 1940-Essen 12 May 1994)
-					name="Hans Günter"
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005679	# Georg Reinhard zu Solms-Laubach
-					mother=100087019	# Emma Kreuter
-					1927.06.26={birth=yes}  # München
-					1968.08.30={add_spouse=100037160}	# Anna van Rechteren-Limpurg
-					2009.04.05={death=yes}  # München
-				}
-					100005684={	# 2d) Georg Alexander (b.Essen 31 Mar 1972)
-						name="Georg Alexander"
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005682	# Hans Günter zu Solms-Laubach
-						mother=100037160	# Anna van Rechteren-Limpurg
-						1972.03.31={birth=yes}
-					}
-			100005685={	# 9b) Luitgard Ernestine (Arnsburg 17 Dec 1873-Arnsburg 24 Jan 1954); m.Arnsburg 18 Jun 1914 Gottlieb von Jagow (Berlin 22 Jun 1863-Potsdam 11 Jan 1935)
-				name="Luitgard Ernestine"
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1873.12.17={birth=yes}  # Arnsburg
-				1954.01.24={death=yes}  # Arnsburg
-			}
-			100005686={	# 10b) Johann Albrecht (Laubach 11 Jun 1880-k.a.nr Papalovo, Macedonia 21 Nov 1916)
-				name="Johann Albrecht"
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005617	# Friedrich zu Solms-Laubach
-				mother=100006278	# Marianne zu Stolberg-Wernigerode
-				1880.06.11={birth=yes}  # Laubach
-				1916.11.21={death=yes}
-			}
-		100005687={	# 2a) Thekla (Laubach 4 Jun 1835-Assenheim 17 Jan 1892); m.Laubach 1 Jun 1861 Maximilian Gf zu Solms-Rödelheim u.Assenheim (d.1892)
-			name=Thekla
-			female=yes
-			dynasty=1002053
-			religion=catholic culture=german
-			father=100005616	# Otto zu Solms-Laubach
-			mother=100007628	# Luitgarde zu Wied
-			1835.06.04={birth=yes}  # Laubach
-			1892.01.17={death=yes}  # Assenheim
-		}
-		100005688={	# 3a) Ernst (Laubach 24 Apr 1837-Naumburg 11 Aug 1908); m.Ahrensburg 31 Jan 1874 Auguste Gfn von Schimmelmann (Ahrensburg 13 Jun 1847-Marburg 17 Jan 1921)
-			name=Ernst
-			dynasty=1002053
-			religion=catholic culture=german
-			father=100005616	# Otto zu Solms-Laubach
-			mother=100007628	# Luitgarde zu Wied
-			1837.04.24={birth=yes}  # Laubach
-			1874.01.31={add_spouse=100093036}	# GFN Auguste von Schimmelmann
-			1908.08.11={death=yes}  # Naumburg
-		}
-			100005689={	# 1b) Adelaide (Schlettstadt 26 Jun 1875-Marburg 7 Feb 1945)
-				name=Adelaide
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005688	# Ernst zu Solms-Laubach
-				mother=100093036	# GFN Auguste von Schimmelmann
-				1875.06.26={birth=yes}  # Schlettstadt
-				1945.02.07={death=yes}  # Marburg
-			}
-			100005690={	# 2b) Frieda Luitgarde Marianne Marie Ernestine (Laubach 26 Jun 1875-Marburg 25 Aug 1961)
-				name=Frieda
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005688	# Ernst zu Solms-Laubach
-				mother=100093036	# GFN Auguste von Schimmelmann
-				1875.06.26={birth=yes}  # Laubach
-				1961.08.25={death=yes}  # Marburg
-			}
-			100005600={	# 3b) Luitgard (Schlettstadt 17 Sep 1880-Karlsruhe-Rüppur 6 Oct 1947)
-				name=Luitgard
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005688	# Ernst zu Solms-Laubach
-				mother=100093036	# GFN Auguste von Schimmelmann
-				1880.09.17={birth=yes}  # Schlettstadt
-				1947.10.06={death=yes}  # Karlsruhe-Rüppur
-			}
-			100005601={	# 4b) Manon Elisabeth (Strassburg 3 Dec 1882-Marburg 19 Nov 1975)
-				name="Manon Elisabeth"
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005688	# Ernst zu Solms-Laubach
-				mother=100093036	# GFN Auguste von Schimmelmann
-				1882.12.03={birth=yes}  # Strassburg
-				1975.11.19={death=yes}  # Marburg
-			}
-			100005602={	# 5b) Erika (Strassburg 1 Aug 1886-Oberstdorf 21 May 1943)
-				name=Erika
-				female=yes
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005688	# Ernst zu Solms-Laubach
-				mother=100093036	# GFN Auguste von Schimmelmann
-				1886.08.01={birth=yes}  # Strassburg
-				1943.05.21={death=yes}  # Oberstdorf
-			}
-			100005603={	# 6b) Ernstotto (Strassburg 8 Nov 1890-Frankfurt 2 Sep 1977); m.(civ) Frankfurt (rel) Arnsburg 21 Aug 1935 Margot Bertram (Erfurt 28 Dec 1906-Frankfurt 25 Aug 1995)
-				name=Ernstotto
-				dynasty=1002053
-				religion=catholic culture=german
-				father=100005688	# Ernst zu Solms-Laubach
-				mother=100093036	# GFN Auguste von Schimmelmann
-				1890.11.08={birth=yes}  # Strassburg
-				1935.08.21={add_spouse=100080598}	# Margot Bertram
-				1977.09.02={death=yes}  # Frankfurt
-			}
-				100005604={	# 1c) Eleonore Elisabeth (Frankfurt 5 Sep 1937-Düsseldorf 27 May 1999); m.Arnsburg (civ) 25 Jul 1962 (rel) 26 Jul 1962 (div 1969) Johann Friedrich Gf zu Solms-Laubach (b.1932)
-					name="Eleonore Elisabeth"
-					female=yes
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005603	# Ernstotto zu Solms-Laubach
-					mother=100080598	# Margot Bertram
-					1937.09.05={birth=yes}  # Frankfurt
-					1999.05.27={death=yes}  # Düsseldorf
-				}
-				100005605={	# 2c) Friedrich-Ernst (b.Frankfurt 7 Mar 1940); m.(civ) Erbendorf, OPfalz 29 Jun 1979 (rel) Wildenreuth 1 Jul 1979 Sylvia Frn von Podewils (b.Neustadt an der Waldnaab 6 Apr 1952)
-					name=Friedrich-Ernst
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005603	# Ernstotto zu Solms-Laubach
-					mother=100080598	# Margot Bertram
-					1940.03.07={birth=yes}
-					1979.06.29={add_spouse=100092865}	# FRN Sylvia von Podewils
-				}
-					100005606={	# 1d) Moritz Friedrich Ernst Otto Heinrich (b.Frankfurt 26 Sep 1980); m.30 Aug 2014 Clarita Marie Irene Stachels
-						name=Moritz
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005605	# Friedrich-Ernst zu Solms-Laubach
-						mother=100092865	# FRN Sylvia von Podewils
-						1980.09.26={birth=yes}
-						2014.08.30={add_spouse=100090491}	# Clarita Stachels
-					}
-					100005607={	# 2d) Angelina Sylvia Annelise Margot (b.Southampton, New York 1 Oct 1983)
-						name=Angelina
-						female=yes
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005605	# Friedrich-Ernst zu Solms-Laubach
-						mother=100092865	# FRN Sylvia von Podewils
-						1983.10.01={birth=yes}
-					}
-					100005608={	# 3d) Philipp Friedrich Carl Ernst Nikolaus (b.Frankfurt 23 Sep 1985)
-						name=Philipp
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005605	# Friedrich-Ernst zu Solms-Laubach
-						mother=100092865	# FRN Sylvia von Podewils
-						1985.09.23={birth=yes}
-					}
-					100005609={	# 4d) Margarita Sylvia Elisabeth Alexandra (b.Frankfurt 4 Aug 1989)
-						name=Margarita
-						female=yes
-						dynasty=1002053
-						religion=catholic culture=german
-						father=100005605	# Friedrich-Ernst zu Solms-Laubach
-						mother=100092865	# FRN Sylvia von Podewils
-						1989.08.04={birth=yes}
-					}
-				100005610={	# 3c) Sibylle Adelaide Erika (b.Frankfurt 18 Feb 1942); m.Arnsburg 15 Apr 1966 Peter Thomas (Rheine, Westfalen 12 Sep 1935-Kuala Lumpur 19 Jun 1985)
-					name=Sibylle
-					female=yes
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005603	# Ernstotto zu Solms-Laubach
-					mother=100080598	# Margot Bertram
-					1942.02.18={birth=yes}
-				}
-				100005611={	# 4c) Juliane (b.Frankfurt 2 Jul 1951)
-					name=Juliane
-					female=yes
-					dynasty=1002053
-					religion=catholic culture=german
-					father=100005603	# Ernstotto zu Solms-Laubach
-					mother=100080598	# Margot Bertram
-					1951.07.02={birth=yes}
-				}
-		100005612={	# 4a) Klara Ottilie Karoline Ida Auguste (Laubach 30 Jan 1839-Strassburg 1 Nov 1896)
-			name=Klara
-			female=yes
-			dynasty=1002053
-			religion=catholic culture=german
-			father=100005616	# Otto zu Solms-Laubach
-			mother=100007628	# Luitgarde zu Wied
-			1839.01.30={birth=yes}  # Laubach
-			1896.11.01={death=yes}  # Strassburg
-		}
-		100005613={	# 5a) Hermann Maximilian Karl Ludwig Friedrich (Laubach 23 Dec 1842-Strassburg Nov 1915)
-			name=Hermann
-			dynasty=1002053
-			religion=catholic culture=german
-			father=100005616	# Otto zu Solms-Laubach
-			mother=100007628	# Luitgarde zu Wied
-			1842.12.23={birth=yes}  # Laubach
-			1915.11.01={death=yes}  # Strassburg
-		}
-	100005615={ # Reinhard (Laubach 11 Aug 1801-Mannheim 29 Oct 1870); m.20 Oct 1836 Ida v. Isenburg (Büdingen 10 Mar 1817-Büdingen 31 Jul 1900) %%
-		name=Reinhard
-		dynasty=1002053
-		religion=lutheran culture=german
-		father=100005614	# Friedrich Ludwig Christian zu Solms-Laubach
-		1801.08.11={birth=yes}  # Laubach
-		1836.10.20={add_spouse=100002402}	# Ida v. Isenburg
-		1870.10.29={death=yes}  # Mannheim
-	}
 #1829.10.01={holder=100002019} # OTTO Gf zu Solms-Laubach 
 #1872.11.22={holder=100002041} # 1a) FRIEDRICH Wilhelm August Christian Gf zu Solms-Laubach 
 #1900.09.01={holder=100002044} # 1b) OTTO Gf zu Solms-Laubach 
@@ -1199,7 +1762,7 @@
 		name="Friedrich Sigismund"
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005764	# Friedrich Sigismund zu Solms-Baruth
+		father=100005764	# Friedrich Sigismund von Solms-Baruth
 		mother=100005456	# Ernestina von Schönburg
 		1669.08.06={birth=yes}
 		1692.04.19={add_spouse=100092609}	# FRN Amalie Christiane von Lützelburg
@@ -1212,7 +1775,7 @@
 			name=Friedrich
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005765	# Friedrich Sigismund zu Solms-Baruth
+			father=100005765	# Friedrich Sigismund von Solms-Baruth
 			mother=100094367	# GFN Ernestine Elisabeth zu Solms-Sonnenwalde
 			1725.07.25={birth=yes}  # Baruth
 			1753.05.20={add_spouse=100091533}	# PSS Sophie Luise von Anhalt-Bernburg
@@ -1222,7 +1785,7 @@
 				name=Friedrich
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005742	# Friedrich zu Solms-Baruth
+				father=100005742	# Friedrich von Solms-Baruth
 				mother=100091533	# PSS Sophie Luise von Anhalt-Bernburg
 				1757.10.27={birth=yes}
 				1787.07.23={add_spouse=100093387}	# GFN Georgine von Wallwitz
@@ -1234,7 +1797,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005743	# Friedrich zu Solms-Baruth
+					father=100005743	# Friedrich von Solms-Baruth
 					mother=100093387	# GFN Georgine von Wallwitz
 					1788.12.24={birth=yes}  # Baruth
 					1818.05.12={death=yes}
@@ -1244,7 +1807,7 @@
 				female=yes
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005742	# Friedrich zu Solms-Baruth
+				father=100005742	# Friedrich von Solms-Baruth
 				mother=100091533	# PSS Sophie Luise von Anhalt-Bernburg
 				1755.09.14={birth=yes}  # Baruth
 				1832.12.17={death=yes}
@@ -1253,7 +1816,7 @@
 		name="Johann Christian"
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005764	# Friedrich Sigismund zu Solms-Baruth
+		father=100005764	# Friedrich Sigismund von Solms-Baruth
 		mother=100005456	# Ernestina von Schönburg
 		1670.10.18={birth=yes}
 		1697.03.06={add_spouse=100084795}	# GFN Helena Constantia Henckel v.Donnersmarck
@@ -1263,7 +1826,7 @@
 			name="Johann Karl"
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005747	# Johann Christian zu Solms-Baruth
+			father=100005747	# Johann Christian von Solms-Baruth
 			mother=100084795	# GFN Helena Constantia Henckel v.Donnersmarck
 			1702.01.19={birth=yes}
 			1729.01.11={add_spouse=100002538}	# Luise zur Lippe
@@ -1273,7 +1836,7 @@
 				name="Johann Christian"
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005748	# Johann Karl zu Solms-Baruth
+				father=100005748	# Johann Karl von Solms-Baruth
 				mother=100002538	# Luise zur Lippe
 				1733.06.29={birth=yes}
 				1764.01.30={add_spouse=100002646}	# Wilhelmine Luise zur Lippe
@@ -1284,7 +1847,7 @@
 					name=Johann
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005749	# Johann Christian zu Solms-Baruth
+					father=100005749	# Johann Christian von Solms-Baruth
 					mother=100003593	# Friederike Reuß
 					1770.04.18={birth=yes}
 					1797.10.20={add_spouse=100092937}	# GFN Henriette Emilie von Reichenbach-Goschütz
@@ -1294,7 +1857,7 @@
 						name=Johann
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005750	# Johann zu Solms-Baruth
+						father=100005750	# Johann von Solms-Baruth
 						mother=100092937	# GFN Henriette Emilie von Reichenbach-Goschütz
 						1799.12.02={birth=yes}
 						1827.01.21={add_spouse=100092920}	# Marie von Raven
@@ -1305,7 +1868,7 @@
 							female=yes
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005751	# Johann zu Solms-Baruth
+							father=100005751	# Johann von Solms-Baruth
 							mother=100092920	# Marie von Raven
 							1830.11.12={birth=yes}
 							1874.03.29={death=yes}
@@ -1315,7 +1878,7 @@
 						female=yes
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005750	# Johann zu Solms-Baruth
+						father=100005750	# Johann von Solms-Baruth
 						mother=100092937	# GFN Henriette Emilie von Reichenbach-Goschütz
 						1801.04.23={birth=yes}  # Klitschdorf
 						1832.08.20={death=yes}  # Kasel
@@ -1325,7 +1888,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005749	# Johann Christian zu Solms-Baruth
+					father=100005749	# Johann Christian von Solms-Baruth
 					mother=100003593	# Friederike Reuß
 					1768.01.30={birth=yes}
 					1847.10.20={death=yes}
@@ -1335,7 +1898,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005749	# Johann Christian zu Solms-Baruth
+					father=100005749	# Johann Christian von Solms-Baruth
 					mother=100003593	# Friederike Reuß
 					1774.05.15={birth=yes}
 					1856.09.16={death=yes}
@@ -1345,7 +1908,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005749	# Johann Christian zu Solms-Baruth
+					father=100005749	# Johann Christian von Solms-Baruth
 					mother=100003593	# Friederike Reuß
 					1776.06.11={birth=yes}
 					1840.07.03={death=yes}
@@ -1355,7 +1918,7 @@
 				female=yes
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005748	# Johann Karl zu Solms-Baruth
+				father=100005748	# Johann Karl von Solms-Baruth
 				mother=100002538	# Luise zur Lippe
 				1735.09.20={birth=yes}
 				1809.05.05={death=yes}
@@ -1364,7 +1927,7 @@
 			name="Christian Ernst"
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005747	# Johann Christian zu Solms-Baruth
+			father=100005747	# Johann Christian von Solms-Baruth
 			mother=100084795	# GFN Helena Constantia Henckel v.Donnersmarck
 			1706.05.01={birth=yes}
 			1730.07.29={add_spouse=100092712}	# FRN Julie von Morawitzky
@@ -1376,7 +1939,7 @@
 			female=yes
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005747	# Johann Christian zu Solms-Baruth
+			father=100005747	# Johann Christian von Solms-Baruth
 			mother=100084795	# GFN Helena Constantia Henckel v.Donnersmarck
 			1700.09.17={birth=yes}  # Baruth
 			1750.02.21={death=yes}
@@ -1386,7 +1949,7 @@
 			female=yes
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005747	# Johann Christian zu Solms-Baruth
+			father=100005747	# Johann Christian von Solms-Baruth
 			mother=100084795	# GFN Helena Constantia Henckel v.Donnersmarck
 			1707.10.30={birth=yes}  # Baruth
 			1744.06.16={death=yes}
@@ -1396,7 +1959,7 @@
 			female=yes
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005747	# Johann Christian zu Solms-Baruth
+			father=100005747	# Johann Christian von Solms-Baruth
 			mother=100084795	# GFN Helena Constantia Henckel v.Donnersmarck
 			1712.05.23={birth=yes}
 			1769.11.17={death=yes}
@@ -1406,7 +1969,7 @@
 		female=yes
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005764	# Friedrich Sigismund zu Solms-Baruth
+		father=100005764	# Friedrich Sigismund von Solms-Baruth
 		mother=100005456	# Ernestina von Schönburg
 		1677.06.06={birth=yes}
 		1736.03.03={death=yes}
@@ -1416,7 +1979,7 @@
 		female=yes
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005764	# Friedrich Sigismund zu Solms-Baruth
+		father=100005764	# Friedrich Sigismund von Solms-Baruth
 		mother=100005456	# Ernestina von Schönburg
 		1678.10.24={birth=yes}
 		1734.09.06={death=yes}
@@ -1426,10 +1989,10 @@
 	name=Friedrich
 	dynasty=1002052
 	religion=catholic culture=german
-	father=100005743	# Friedrich zu Solms-Baruth
+	father=100005743	# Friedrich von Solms-Baruth
 	mother=100093387	# GFN Georgine von Wallwitz
 	1795.08.03={birth=yes}  # Baruth
-	1820.05.03={add_spouse=100005753}	# Bertha zu Solms-Baruth
+	1820.05.03={add_spouse=100005753}	# Bertha von Solms-Baruth
 	1835.05.30={add_spouse=100093386}	# GFN Ida von Wallwitz
 	1879.02.01={death=yes}  # Baruth
 }
@@ -1437,8 +2000,8 @@
 		name=Friedrich
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005744	# Friedrich zu Solms-Baruth
-		mother=100005753	# Bertha zu Solms-Baruth
+		father=100005744	# Friedrich von Solms-Baruth
+		mother=100005753	# Bertha von Solms-Baruth
 		1821.05.29={birth=yes}  # Casel
 		1851.11.01={add_spouse=100116222}	# Róza Teleki de Szék
 		1891.10.20={add_spouse=100092421}	# Hedwig von Kleist
@@ -1448,7 +2011,7 @@
 			name=Friedrich
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005700	# Friedrich zu Solms-Baruth
+			father=100005700	# Friedrich von Solms-Baruth
 			mother=100116222	# Róza Teleki de Szék
 			1853.06.24={birth=yes}  # Berlin
 			1881.09.10={add_spouse=100094129}	# GFN Louise zu Fürstenstein
@@ -1459,7 +2022,7 @@
 				female=yes
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005701	# Friedrich zu Solms-Baruth
+				father=100005701	# Friedrich von Solms-Baruth
 				mother=100094129	# GFN Louise zu Fürstenstein
 				1884.06.08={birth=yes}  # Klitschdorf
 				1945.06.14={death=yes}  # Tylsen
@@ -1468,7 +2031,7 @@
 				name=Friedrich
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005701	# Friedrich zu Solms-Baruth
+				father=100005701	# Friedrich von Solms-Baruth
 				mother=100094129	# GFN Louise zu Fürstenstein
 				1886.03.25={birth=yes}  # Klitschdorf
 				1914.08.01={add_spouse=100004904}	# Adelheid v. Schleswig-Holstein-Sonderburg-Glücksburg
@@ -1479,7 +2042,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005703	# Friedrich zu Solms-Baruth
+					father=100005703	# Friedrich von Solms-Baruth
 					mother=100004904	# Adelheid v. Schleswig-Holstein-Sonderburg-Glücksburg
 					1916.10.10={birth=yes}  # Baruth
 					1989.01.10={death=yes}  # Salzburg
@@ -1489,7 +2052,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005703	# Friedrich zu Solms-Baruth
+					father=100005703	# Friedrich von Solms-Baruth
 					mother=100004904	# Adelheid v. Schleswig-Holstein-Sonderburg-Glücksburg
 					1920.04.05={birth=yes}  # Baruth
 					2006.03.23={death=yes}  # Vienna
@@ -1499,7 +2062,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005703	# Friedrich zu Solms-Baruth
+					father=100005703	# Friedrich von Solms-Baruth
 					mother=100004904	# Adelheid v. Schleswig-Holstein-Sonderburg-Glücksburg
 					1925.05.15={birth=yes}  # Baruth
 					2008.10.14={death=yes}  # Somerset West So Africa
@@ -1508,7 +2071,7 @@
 					name=Friedrich
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005703	# Friedrich zu Solms-Baruth
+					father=100005703	# Friedrich von Solms-Baruth
 					mother=100004904	# Adelheid v. Schleswig-Holstein-Sonderburg-Glücksburg
 					1926.12.22={birth=yes}  # Baruth
 					1963.08.17={add_spouse=100091627}	# FRN Birgitta von Berchem-Königsfeld
@@ -1518,7 +2081,7 @@
 						name=Friedrich
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005707	# Friedrich zu Solms-Baruth
+						father=100005707	# Friedrich von Solms-Baruth
 						mother=100091627	# FRN Birgitta von Berchem-Königsfeld
 						1963.11.27={birth=yes}
 					}
@@ -1526,7 +2089,7 @@
 						name=Julian
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005707	# Friedrich zu Solms-Baruth
+						father=100005707	# Friedrich von Solms-Baruth
 						mother=100091627	# FRN Birgitta von Berchem-Königsfeld
 						1965.08.06={birth=yes}
 						1996.05.18={add_spouse=100083264}	# Livia Deuchler
@@ -1535,7 +2098,7 @@
 							name=Afonso
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005709	# Julian zu Solms-Baruth
+							father=100005709	# Julian von Solms-Baruth
 							mother=100083264	# Livia Deuchler
 							1997.12.28={birth=yes}
 						}
@@ -1544,7 +2107,7 @@
 							female=yes
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005709	# Julian zu Solms-Baruth
+							father=100005709	# Julian von Solms-Baruth
 							mother=100083264	# Livia Deuchler
 							2002.08.03={birth=yes}
 						}
@@ -1553,7 +2116,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005703	# Friedrich zu Solms-Baruth
+					father=100005703	# Friedrich von Solms-Baruth
 					mother=100004904	# Adelheid v. Schleswig-Holstein-Sonderburg-Glücksburg
 					1929.04.15={birth=yes}
 					2006.01.01={death=yes}  # EST.
@@ -1562,7 +2125,7 @@
 				name="Hermann Franz"
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005701	# Friedrich zu Solms-Baruth
+				father=100005701	# Friedrich von Solms-Baruth
 				mother=100094129	# GFN Louise zu Fürstenstein
 				1888.10.11={birth=yes}  # Klitschdorf
 				1913.03.29={add_spouse=100094130}	# GFN Anna zu Fürstenstein
@@ -1572,7 +2135,7 @@
 					name=Wilhelm
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005713	# Hermann Franz zu Solms-Baruth
+					father=100005713	# Hermann Franz von Solms-Baruth
 					mother=100094130	# GFN Anna zu Fürstenstein
 					1914.01.26={birth=yes}  # Potsdam
 					1948.03.15={add_spouse=100093452}	# Rosemarie von Wietzlow
@@ -1583,7 +2146,7 @@
 						female=yes
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005714	# Wilhelm zu Solms-Baruth
+						father=100005714	# Wilhelm von Solms-Baruth
 						mother=100093452	# Rosemarie von Wietzlow
 						1952.02.11={birth=yes}
 					}
@@ -1592,7 +2155,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005713	# Hermann Franz zu Solms-Baruth
+					father=100005713	# Hermann Franz von Solms-Baruth
 					mother=100094130	# GFN Anna zu Fürstenstein
 					1916.12.31={birth=yes}  # Potsdam
 					2010.01.06={death=yes}
@@ -1602,7 +2165,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005713	# Hermann Franz zu Solms-Baruth
+					father=100005713	# Hermann Franz von Solms-Baruth
 					mother=100094130	# GFN Anna zu Fürstenstein
 					1918.09.28={birth=yes}  # Potsdam
 					1982.01.14={death=yes}  # Burgsteinfirt
@@ -1611,7 +2174,7 @@
 				name=Hans
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005701	# Friedrich zu Solms-Baruth
+				father=100005701	# Friedrich von Solms-Baruth
 				mother=100094129	# GFN Louise zu Fürstenstein
 				1893.04.03={birth=yes}  # Klitschdorf
 				1920.05.27={add_spouse=100004920}	# Karoline-Mathilde v. Schleswig-Holstein-Sonderburg-Glücksburg
@@ -1622,7 +2185,7 @@
 					female=yes
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005718	# Hans zu Solms-Baruth
+					father=100005718	# Hans von Solms-Baruth
 					mother=100004920	# Karoline-Mathilde v. Schleswig-Holstein-Sonderburg-Glücksburg
 					1921.03.13={birth=yes}  # Casel Niederlausitz
 					2003.03.01={death=yes}  # Louisiana
@@ -1631,7 +2194,7 @@
 					name=Friedrich-Hans
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005718	# Hans zu Solms-Baruth
+					father=100005718	# Hans von Solms-Baruth
 					mother=100004920	# Karoline-Mathilde v. Schleswig-Holstein-Sonderburg-Glücksburg
 					1923.03.03={birth=yes}  # Casel
 					1950.01.21={add_spouse=100006413}	# Oda zu Stolberg-Wernigerode
@@ -1642,7 +2205,7 @@
 						female=yes
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005720	# Friedrich-Hans zu Solms-Baruth
+						father=100005720	# Friedrich-Hans von Solms-Baruth
 						mother=100006413	# Oda zu Stolberg-Wernigerode
 						1953.07.25={birth=yes}
 					}
@@ -1650,7 +2213,7 @@
 						name=Christian-Friedrich
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005720	# Friedrich-Hans zu Solms-Baruth
+						father=100005720	# Friedrich-Hans von Solms-Baruth
 						mother=100006413	# Oda zu Stolberg-Wernigerode
 						1954.07.13={birth=yes}
 						1979.10.31={add_spouse=100081092}	# Melissa Butler
@@ -1660,7 +2223,7 @@
 							female=yes
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005722	# Christian-Friedrich zu Solms-Baruth
+							father=100005722	# Christian-Friedrich von Solms-Baruth
 							mother=100081092	# Melissa Butler
 							1981.05.04={birth=yes}
 						}
@@ -1669,7 +2232,7 @@
 							female=yes
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005722	# Christian-Friedrich zu Solms-Baruth
+							father=100005722	# Christian-Friedrich von Solms-Baruth
 							mother=100081092	# Melissa Butler
 							1987.03.24={birth=yes}
 						}
@@ -1677,7 +2240,7 @@
 							name=Alexander
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005722	# Christian-Friedrich zu Solms-Baruth
+							father=100005722	# Christian-Friedrich von Solms-Baruth
 							mother=100081092	# Melissa Butler
 							1989.05.30={birth=yes}
 						}
@@ -1686,7 +2249,7 @@
 						female=yes
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005720	# Friedrich-Hans zu Solms-Baruth
+						father=100005720	# Friedrich-Hans von Solms-Baruth
 						mother=100006413	# Oda zu Stolberg-Wernigerode
 						1958.08.22={birth=yes}
 					}
@@ -1694,7 +2257,7 @@
 					name=Hubertus
 					dynasty=1002052
 					religion=catholic culture=german
-					father=100005718	# Hans zu Solms-Baruth
+					father=100005718	# Hans von Solms-Baruth
 					mother=100004920	# Karoline-Mathilde v. Schleswig-Holstein-Sonderburg-Glücksburg
 					1934.12.07={birth=yes}  # Berlin
 					1961.08.12={add_spouse=100092399}	# Elisabeth-Charlotte von Kerssenbrock
@@ -1705,7 +2268,7 @@
 						name=Ruprecht
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005727	# Hubertus zu Solms-Baruth
+						father=100005727	# Hubertus von Solms-Baruth
 						mother=100092399	# Elisabeth-Charlotte von Kerssenbrock
 						1963.08.05={birth=yes}
 						1989.07.24={add_spouse=100003554}	# Henriette Charlotte Reuß
@@ -1714,7 +2277,7 @@
 							name=Kasimir
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005728	# Ruprecht zu Solms-Baruth
+							father=100005728	# Ruprecht von Solms-Baruth
 							mother=100003554	# Henriette Charlotte Reuß
 							1991.08.30={birth=yes}
 						}
@@ -1722,7 +2285,7 @@
 							name=Hubertus
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005728	# Ruprecht zu Solms-Baruth
+							father=100005728	# Ruprecht von Solms-Baruth
 							mother=100003554	# Henriette Charlotte Reuß
 							1993.04.24={birth=yes}
 						}
@@ -1730,7 +2293,7 @@
 							name=Clemens
 							dynasty=1002052
 							religion=catholic culture=german
-							father=100005728	# Ruprecht zu Solms-Baruth
+							father=100005728	# Ruprecht von Solms-Baruth
 							mother=100003554	# Henriette Charlotte Reuß
 							1996.02.15={birth=yes}
 						}
@@ -1739,7 +2302,7 @@
 						female=yes
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005727	# Hubertus zu Solms-Baruth
+						father=100005727	# Hubertus von Solms-Baruth
 						mother=100092399	# Elisabeth-Charlotte von Kerssenbrock
 						1965.03.23={birth=yes}
 					}
@@ -1748,7 +2311,7 @@
 						female=yes
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005727	# Hubertus zu Solms-Baruth
+						father=100005727	# Hubertus von Solms-Baruth
 						mother=100092399	# Elisabeth-Charlotte von Kerssenbrock
 						1966.08.08={birth=yes}
 					}
@@ -1757,7 +2320,7 @@
 						female=yes
 						dynasty=1002052
 						religion=catholic culture=german
-						father=100005727	# Hubertus zu Solms-Baruth
+						father=100005727	# Hubertus von Solms-Baruth
 						mother=100090538	# BSS Gerta Staël von Holstein
 						1971.08.27={birth=yes}
 					}
@@ -1765,7 +2328,7 @@
 				name="Johann-Georg Otto"
 				dynasty=1002052
 				religion=catholic culture=german
-				father=100005701	# Friedrich zu Solms-Baruth
+				father=100005701	# Friedrich von Solms-Baruth
 				mother=100094129	# GFN Louise zu Fürstenstein
 				1896.05.15={birth=yes}  # Klitschdorf
 				1973.11.09={death=yes}  # Bremen
@@ -1775,7 +2338,7 @@
 			female=yes
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005700	# Friedrich zu Solms-Baruth
+			father=100005700	# Friedrich von Solms-Baruth
 			mother=100116222	# Róza Teleki de Szék
 			1854.09.28={birth=yes}  # Golßen
 			1886.04.17={death=yes}  # Potsdam
@@ -1785,7 +2348,7 @@
 			female=yes
 			dynasty=1002052
 			religion=catholic culture=german
-			father=100005700	# Friedrich zu Solms-Baruth
+			father=100005700	# Friedrich von Solms-Baruth
 			mother=100116222	# Róza Teleki de Szék
 			1856.07.08={birth=yes}  # Golßen
 			1941.12.09={death=yes}  # Liebichau Kr Bunzlau
@@ -1795,8 +2358,8 @@
 		female=yes
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005744	# Friedrich zu Solms-Baruth
-		mother=100005753	# Bertha zu Solms-Baruth
+		father=100005744	# Friedrich von Solms-Baruth
+		mother=100005753	# Bertha von Solms-Baruth
 		1823.08.04={birth=yes}  # Dresden
 		1910.08.06={death=yes}  # Altdöbern NiederLausitz
 	}
@@ -1805,8 +2368,8 @@
 		female=yes
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005744	# Friedrich zu Solms-Baruth
-		mother=100005753	# Bertha zu Solms-Baruth
+		father=100005744	# Friedrich von Solms-Baruth
+		mother=100005753	# Bertha von Solms-Baruth
 		1832.08.14={birth=yes}  # Casel
 		1909.03.27={death=yes}  # Lübbenau
 	}
@@ -1815,7 +2378,7 @@
 		female=yes
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005744	# Friedrich zu Solms-Baruth
+		father=100005744	# Friedrich von Solms-Baruth
 		mother=100093386	# GFN Ida von Wallwitz
 		1836.03.27={birth=yes}  # Dresden
 		1868.09.27={death=yes}  # Wandsbek
@@ -1825,7 +2388,7 @@
 		female=yes
 		dynasty=1002052
 		religion=catholic culture=german
-		father=100005744	# Friedrich zu Solms-Baruth
+		father=100005744	# Friedrich von Solms-Baruth
 		mother=100093386	# GFN Ida von Wallwitz
 		1841.06.20={birth=yes}  # Baruth
 		1903.04.08={death=yes}  # Emden
@@ -1858,7 +2421,7 @@
 		name=Karl
 		dynasty=1002051
 		religion=catholic culture=german
-		father=100005825	# Karl zu Solms-Hohensolms-Lich
+		father=100005825	# Karl von Solms-Hohensolms-Lich
 		mother=100000379	# Henriette Sophie zu Bentheim u.Steinfurt
 		1803.08.01={birth=yes}  # Lich
 		1824.10.10={death=yes}  # Lich
@@ -1867,7 +2430,7 @@
 		name=Ludwig
 		dynasty=1002051
 		religion=catholic culture=german
-		father=100005825	# Karl zu Solms-Hohensolms-Lich
+		father=100005825	# Karl von Solms-Hohensolms-Lich
 		mother=100000379	# Henriette Sophie zu Bentheim u.Steinfurt
 		1805.01.24={birth=yes}  # Lich
 		1829.05.10={add_spouse=100002353}	# Marie v. Isenburg
@@ -1877,7 +2440,7 @@
 		name=Ferdinand
 		dynasty=1002051
 		religion=catholic culture=german
-		father=100005825	# Karl zu Solms-Hohensolms-Lich
+		father=100005825	# Karl von Solms-Hohensolms-Lich
 		mother=100000379	# Henriette Sophie zu Bentheim u.Steinfurt
 		1806.07.28={birth=yes}  # Lich
 		1836.01.18={add_spouse=100070779}	# Karoline v. Collalto u.San Salvatore
@@ -1888,7 +2451,7 @@
 			female=yes
 			dynasty=1002051
 			religion=catholic culture=german
-			father=100005777	# Ferdinand zu Solms-Hohensolms-Lich
+			father=100005777	# Ferdinand von Solms-Hohensolms-Lich
 			mother=100070779	# Karoline v. Collalto u.San Salvatore
 			1837.02.19={birth=yes}  # Hohensolms
 			1933.02.05={death=yes}  # Lich
@@ -1897,7 +2460,7 @@
 			name=Hermann
 			dynasty=1002051
 			religion=catholic culture=german
-			father=100005777	# Ferdinand zu Solms-Hohensolms-Lich
+			father=100005777	# Ferdinand von Solms-Hohensolms-Lich
 			mother=100070779	# Karoline v. Collalto u.San Salvatore
 			1838.04.15={birth=yes}  # Pirnitz
 			1865.06.20={add_spouse=100006281}	# Agnes zu Stolberg-Wernigerode
@@ -1907,7 +2470,7 @@
 				name=Karl
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005779	# Hermann zu Solms-Hohensolms-Lich
+				father=100005779	# Hermann von Solms-Hohensolms-Lich
 				mother=100006281	# Agnes zu Stolberg-Wernigerode
 				1866.06.27={birth=yes}  # Lich
 				1894.10.16={add_spouse=100006442}	# Emma zu Stolberg-Wernigerode
@@ -1917,7 +2480,7 @@
 					name="Philipp Hermann"
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005780	# Karl zu Solms-Hohensolms-Lich
+					father=100005780	# Karl von Solms-Hohensolms-Lich
 					mother=100006442	# Emma zu Stolberg-Wernigerode
 					1895.09.13={birth=yes}  # Wernigerode
 					1918.04.08={death=yes}
@@ -1927,7 +2490,7 @@
 					female=yes
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005780	# Karl zu Solms-Hohensolms-Lich
+					father=100005780	# Karl von Solms-Hohensolms-Lich
 					mother=100006442	# Emma zu Stolberg-Wernigerode
 					1899.01.11={birth=yes}  # Ilsenburg
 					1987.09.08={death=yes}  # Castell
@@ -1937,7 +2500,7 @@
 					female=yes
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005780	# Karl zu Solms-Hohensolms-Lich
+					father=100005780	# Karl von Solms-Hohensolms-Lich
 					mother=100006442	# Emma zu Stolberg-Wernigerode
 					1903.11.19={birth=yes}  # Lich
 					1992.11.28={death=yes}  # Castell
@@ -1947,7 +2510,7 @@
 					female=yes
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005780	# Karl zu Solms-Hohensolms-Lich
+					father=100005780	# Karl von Solms-Hohensolms-Lich
 					mother=100006442	# Emma zu Stolberg-Wernigerode
 					1905.12.17={birth=yes}  # Lich
 					1982.09.07={death=yes}  # Laubach
@@ -1956,7 +2519,7 @@
 				name=Reinhard
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005779	# Hermann zu Solms-Hohensolms-Lich
+				father=100005779	# Hermann von Solms-Hohensolms-Lich
 				mother=100006281	# Agnes zu Stolberg-Wernigerode
 				1867.09.17={birth=yes}  # Lich
 				1898.11.14={add_spouse=100094364}	# GFN Marka zu Solms-Sonnenwalde
@@ -1967,7 +2530,7 @@
 					female=yes
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005785	# Reinhard zu Solms-Hohensolms-Lich
+					father=100005785	# Reinhard von Solms-Hohensolms-Lich
 					mother=100094364	# GFN Marka zu Solms-Sonnenwalde
 					1901.08.14={birth=yes}  # Hohensolms
 					1963.04.14={death=yes}  # Burgsteinfurt
@@ -1976,7 +2539,7 @@
 					name=Hermann
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005785	# Reinhard zu Solms-Hohensolms-Lich
+					father=100005785	# Reinhard von Solms-Hohensolms-Lich
 					mother=100094364	# GFN Marka zu Solms-Sonnenwalde
 					1902.10.12={birth=yes}  # Potsdam
 					1933.12.29={add_spouse=100093428}	# FRN Gertrud von Werthern
@@ -1986,7 +2549,7 @@
 						name=Philipp-Reinhard
 						dynasty=1002051
 						religion=catholic culture=german
-						father=100005787	# Hermann zu Solms-Hohensolms-Lich
+						father=100005787	# Hermann von Solms-Hohensolms-Lich
 						mother=100093428	# FRN Gertrud von Werthern
 						1934.11.27={birth=yes}  # Lich
 						1970.10.03={add_spouse=100012380}	# Marie Fouché d'Otrante
@@ -1997,7 +2560,7 @@
 							female=yes
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005788	# Philipp-Reinhard zu Solms-Hohensolms-Lich
+							father=100005788	# Philipp-Reinhard von Solms-Hohensolms-Lich
 							mother=100012380	# Marie Fouché d'Otrante
 							1971.11.02={birth=yes}
 						}
@@ -2005,7 +2568,7 @@
 							name=Carl-Christian
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005788	# Philipp-Reinhard zu Solms-Hohensolms-Lich
+							father=100005788	# Philipp-Reinhard von Solms-Hohensolms-Lich
 							mother=100012380	# Marie Fouché d'Otrante
 							1975.03.19={birth=yes}
 							2008.12.13={add_spouse=100012201}	# Christina Douglas
@@ -2014,7 +2577,7 @@
 								name=Louis
 								dynasty=1002051
 								religion=catholic culture=german
-								father=100005790	# Carl-Christian zu Solms-Hohensolms-Lich
+								father=100005790	# Carl-Christian von Solms-Hohensolms-Lich
 								mother=100012201	# Christina Douglas
 								2008.09.01={birth=yes}
 							}
@@ -2023,7 +2586,7 @@
 								female=yes
 								dynasty=1002051
 								religion=catholic culture=german
-								father=100005790	# Carl-Christian zu Solms-Hohensolms-Lich
+								father=100005790	# Carl-Christian von Solms-Hohensolms-Lich
 								mother=100012201	# Christina Douglas
 								2010.01.01={birth=yes}
 							}
@@ -2032,7 +2595,7 @@
 								female=yes
 								dynasty=1002051
 								religion=catholic culture=german
-								father=100005790	# Carl-Christian zu Solms-Hohensolms-Lich
+								father=100005790	# Carl-Christian von Solms-Hohensolms-Lich
 								mother=100012201	# Christina Douglas
 								2012.01.01={birth=yes}
 							}
@@ -2040,7 +2603,7 @@
 							name="Louis Philipp"
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005788	# Philipp-Reinhard zu Solms-Hohensolms-Lich
+							father=100005788	# Philipp-Reinhard von Solms-Hohensolms-Lich
 							mother=100012380	# Marie Fouché d'Otrante
 							1978.07.11={birth=yes}
 							2013.05.11={add_spouse=100092415}	# GFN Antonia von Kielmansegg
@@ -2049,7 +2612,7 @@
 							name="Frederik Sebastian"
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005788	# Philipp-Reinhard zu Solms-Hohensolms-Lich
+							father=100005788	# Philipp-Reinhard von Solms-Hohensolms-Lich
 							mother=100012380	# Marie Fouché d'Otrante
 							1987.07.23={birth=yes}
 						}
@@ -2058,7 +2621,7 @@
 						female=yes
 						dynasty=1002051
 						religion=catholic culture=german
-						father=100005787	# Hermann zu Solms-Hohensolms-Lich
+						father=100005787	# Hermann von Solms-Hohensolms-Lich
 						mother=100093428	# FRN Gertrud von Werthern
 						1935.12.11={birth=yes}  # Lich
 						2014.01.02={death=yes}  # Lich
@@ -2067,7 +2630,7 @@
 						name=Wilhelm
 						dynasty=1002051
 						religion=catholic culture=german
-						father=100005787	# Hermann zu Solms-Hohensolms-Lich
+						father=100005787	# Hermann von Solms-Hohensolms-Lich
 						mother=100093428	# FRN Gertrud von Werthern
 						1937.01.05={birth=yes}
 						1964.05.16={add_spouse=100091657}	# Milicent von Boch-Galhau
@@ -2077,7 +2640,7 @@
 							name=Benedict
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005797	# Wilhelm zu Solms-Hohensolms-Lich
+							father=100005797	# Wilhelm von Solms-Hohensolms-Lich
 							mother=100091657	# Milicent von Boch-Galhau
 							1965.09.22={birth=yes}
 						}
@@ -2086,7 +2649,7 @@
 							female=yes
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005797	# Wilhelm zu Solms-Hohensolms-Lich
+							father=100005797	# Wilhelm von Solms-Hohensolms-Lich
 							mother=100091657	# Milicent von Boch-Galhau
 							1967.11.24={birth=yes}
 						}
@@ -2095,7 +2658,7 @@
 							female=yes
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005797	# Wilhelm zu Solms-Hohensolms-Lich
+							father=100005797	# Wilhelm von Solms-Hohensolms-Lich
 							mother=100091657	# Milicent von Boch-Galhau
 							1972.03.09={birth=yes}
 						}
@@ -2103,7 +2666,7 @@
 							name=Christian
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005797	# Wilhelm zu Solms-Hohensolms-Lich
+							father=100005797	# Wilhelm von Solms-Hohensolms-Lich
 							mother=100091657	# Milicent von Boch-Galhau
 							1974.08.25={birth=yes}
 							1999.01.01={add_spouse=100092660}	# Rebecca von Meister
@@ -2112,7 +2675,7 @@
 								name=Maximilian
 								dynasty=1002051
 								religion=catholic culture=german
-								father=100005801	# Christian zu Solms-Hohensolms-Lich
+								father=100005801	# Christian von Solms-Hohensolms-Lich
 								mother=100092660	# Rebecca von Meister
 								2001.01.01={birth=yes}
 							}
@@ -2121,7 +2684,7 @@
 						female=yes
 						dynasty=1002051
 						religion=catholic culture=german
-						father=100005787	# Hermann zu Solms-Hohensolms-Lich
+						father=100005787	# Hermann von Solms-Hohensolms-Lich
 						mother=100093428	# FRN Gertrud von Werthern
 						1938.04.20={birth=yes}
 						2015.01.01={death=yes}  # EST.
@@ -2130,7 +2693,7 @@
 						name="Hermann Otto"
 						dynasty=1002051
 						religion=catholic culture=german
-						father=100005787	# Hermann zu Solms-Hohensolms-Lich
+						father=100005787	# Hermann von Solms-Hohensolms-Lich
 						mother=100093428	# FRN Gertrud von Werthern
 						1940.11.24={birth=yes}
 						1969.06.19={add_spouse=100087902}	# Margit Mayer
@@ -2142,7 +2705,7 @@
 							female=yes
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005804	# Hermann Otto zu Solms-Hohensolms-Lich
+							father=100005804	# Hermann Otto von Solms-Hohensolms-Lich
 							mother=100088050	# Christiane Meyer zu Eissen
 							1989.12.10={birth=yes}
 						}
@@ -2151,7 +2714,7 @@
 							female=yes
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005804	# Hermann Otto zu Solms-Hohensolms-Lich
+							father=100005804	# Hermann Otto von Solms-Hohensolms-Lich
 							mother=100088050	# Christiane Meyer zu Eissen
 							1991.08.15={birth=yes}
 						}
@@ -2160,7 +2723,7 @@
 							female=yes
 							dynasty=1002051
 							religion=catholic culture=german
-							father=100005804	# Hermann Otto zu Solms-Hohensolms-Lich
+							father=100005804	# Hermann Otto von Solms-Hohensolms-Lich
 							mother=100088050	# Christiane Meyer zu Eissen
 							1993.02.17={birth=yes}
 						}
@@ -2168,7 +2731,7 @@
 					name="Carl Friedrich"
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005785	# Reinhard zu Solms-Hohensolms-Lich
+					father=100005785	# Reinhard von Solms-Hohensolms-Lich
 					mother=100094364	# GFN Marka zu Solms-Sonnenwalde
 					1903.11.12={birth=yes}  # Potsdam
 					2004.01.15={death=yes}  # Lich
@@ -2178,7 +2741,7 @@
 					female=yes
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005785	# Reinhard zu Solms-Hohensolms-Lich
+					father=100005785	# Reinhard von Solms-Hohensolms-Lich
 					mother=100094364	# GFN Marka zu Solms-Sonnenwalde
 					1905.09.13={birth=yes}  # Potsdam
 					1995.03.28={death=yes}  # Lich
@@ -2188,7 +2751,7 @@
 					female=yes
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005785	# Reinhard zu Solms-Hohensolms-Lich
+					father=100005785	# Reinhard von Solms-Hohensolms-Lich
 					mother=100094364	# GFN Marka zu Solms-Sonnenwalde
 					1908.12.10={birth=yes}  # Potsdam
 					1960.07.23={death=yes}  # Lich
@@ -2198,7 +2761,7 @@
 					female=yes
 					dynasty=1002051
 					religion=catholic culture=german
-					father=100005785	# Reinhard zu Solms-Hohensolms-Lich
+					father=100005785	# Reinhard von Solms-Hohensolms-Lich
 					mother=100094364	# GFN Marka zu Solms-Sonnenwalde
 					1910.12.19={birth=yes}  # Potsdam
 					2002.04.01={death=yes}  # Bad Bentheim
@@ -2208,7 +2771,7 @@
 				female=yes
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005779	# Hermann zu Solms-Hohensolms-Lich
+				father=100005779	# Hermann von Solms-Hohensolms-Lich
 				mother=100006281	# Agnes zu Stolberg-Wernigerode
 				1868.09.20={birth=yes}  # Lich
 				1950.12.06={death=yes}  # Lich
@@ -2218,7 +2781,7 @@
 				female=yes
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005779	# Hermann zu Solms-Hohensolms-Lich
+				father=100005779	# Hermann von Solms-Hohensolms-Lich
 				mother=100006281	# Agnes zu Stolberg-Wernigerode
 				1871.09.17={birth=yes}  # Lich
 				1937.11.16={death=yes}  # k.in air crash Steene nr Ostende
@@ -2228,7 +2791,7 @@
 				female=yes
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005779	# Hermann zu Solms-Hohensolms-Lich
+				father=100005779	# Hermann von Solms-Hohensolms-Lich
 				mother=100006281	# Agnes zu Stolberg-Wernigerode
 				1873.08.24={birth=yes}  # Lich
 				1953.08.07={death=yes}  # Lich
@@ -2238,7 +2801,7 @@
 				female=yes
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005779	# Hermann zu Solms-Hohensolms-Lich
+				father=100005779	# Hermann von Solms-Hohensolms-Lich
 				mother=100006281	# Agnes zu Stolberg-Wernigerode
 				1877.05.27={birth=yes}  # Lich
 				1958.11.28={death=yes}  # Berlin
@@ -2248,7 +2811,7 @@
 				female=yes
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005779	# Hermann zu Solms-Hohensolms-Lich
+				father=100005779	# Hermann von Solms-Hohensolms-Lich
 				mother=100006281	# Agnes zu Stolberg-Wernigerode
 				1883.10.20={birth=yes}  # Lich
 				1942.02.23={death=yes}  # Bethel bei Bielefeld
@@ -2257,7 +2820,7 @@
 			name=Reinhard
 			dynasty=1002051
 			religion=catholic culture=german
-			father=100005777	# Ferdinand zu Solms-Hohensolms-Lich
+			father=100005777	# Ferdinand von Solms-Hohensolms-Lich
 			mother=100070779	# Karoline v. Collalto u.San Salvatore
 			1841.01.18={birth=yes}  # Pirnitz
 			1862.01.03={death=yes}  # Schloß Büdingen
@@ -2267,7 +2830,7 @@
 			female=yes
 			dynasty=1002051
 			religion=catholic culture=german
-			father=100005777	# Ferdinand zu Solms-Hohensolms-Lich
+			father=100005777	# Ferdinand von Solms-Hohensolms-Lich
 			mother=100070779	# Karoline v. Collalto u.San Salvatore
 			1842.12.12={birth=yes}  # Lich
 			1867.09.11={death=yes}  # Büdingen
@@ -2277,7 +2840,7 @@
 			female=yes
 			dynasty=1002051
 			religion=catholic culture=german
-			father=100005777	# Ferdinand zu Solms-Hohensolms-Lich
+			father=100005777	# Ferdinand von Solms-Hohensolms-Lich
 			mother=100070779	# Karoline v. Collalto u.San Salvatore
 			1844.06.02={birth=yes}  # Pirnitz
 			1904.05.07={death=yes}  # Graz
@@ -2286,7 +2849,7 @@
 			name=Ludwig
 			dynasty=1002051
 			religion=catholic culture=german
-			father=100005777	# Ferdinand zu Solms-Hohensolms-Lich
+			father=100005777	# Ferdinand von Solms-Hohensolms-Lich
 			mother=100070779	# Karoline v. Collalto u.San Salvatore
 			1851.04.08={birth=yes}  # Pirnitz
 			1885.06.25={add_spouse=100094203}	# GFN Luise zu Lynar
@@ -2296,7 +2859,7 @@
 				name=Ludwig
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005820	# Ludwig zu Solms-Hohensolms-Lich
+				father=100005820	# Ludwig von Solms-Hohensolms-Lich
 				mother=100094203	# GFN Luise zu Lynar
 				1888.10.28={birth=yes}  # Potsdam
 				1920.09.29={add_spouse=100006329}	# Auguste Eleonore zu Stolberg-Wernigerode
@@ -2307,7 +2870,7 @@
 				female=yes
 				dynasty=1002051
 				religion=catholic culture=german
-				father=100005820	# Ludwig zu Solms-Hohensolms-Lich
+				father=100005820	# Ludwig von Solms-Hohensolms-Lich
 				mother=100094203	# GFN Luise zu Lynar
 				1892.04.09={birth=yes}  # Lich
 				1978.11.10={death=yes}
@@ -2324,7 +2887,7 @@
 
 
 ##  100002581	Solms-Braunfels 		1002049
-100005558={ # Wilhelm Moritz zu Solms-Braunfels (4 Apr 1651-1726); m.23 Jan 1679 Magdalene Sophie v. Hessen (24 Apr 1660-22 Mar 1720) %%
+100005558={ # Wilhelm Moritz von Solms-Braunfels (4 Apr 1651-1726); m.23 Jan 1679 Magdalene Sophie v. Hessen (24 Apr 1660-22 Mar 1720) %%
 	name="Wilhelm Moritz" #  4251/wilhelm-moritz-count-of-solms-braunfels/
 	dynasty=1002049
 	religion=lutheran culture=german
@@ -2339,7 +2902,7 @@
 		female=yes
 		dynasty=1002049
 		religion=lutheran culture=german
-		father=100005558	# Wilhelm Moritz zu Solms-Braunfels
+		father=100005558	# Wilhelm Moritz von Solms-Braunfels
 		mother=100001558	# Magdalene Sophie v. Hessen
 		1690.11.11={birth=yes}
 		1751.10.16={death=yes}
@@ -2348,7 +2911,7 @@
 		name="Friedrich Wilhelm" #  4785/friedrich-wilhelm-prince-of-solms-braunfels/
 		dynasty=1002049
 		religion=lutheran culture=german
-		father=100005558	# Wilhelm Moritz zu Solms-Braunfels
+		father=100005558	# Wilhelm Moritz von Solms-Braunfels
 		mother=100001558	# Magdalene Sophie v. Hessen
 		1696.01.11={birth=yes}
 		1718.01.01={add_spouse=100092755}	# Magdalene Henriette v. Nassau-Weilburg
@@ -2359,18 +2922,18 @@
 			name=Ferdinand
 			dynasty=1002049
 			religion=catholic culture=german
-			father=100005576	# Friedrich Wilhelm zu Solms-Braunfels
+			father=100005576	# Friedrich Wilhelm von Solms-Braunfels
 			mother=100092755	# Magdalene Henriette v. Nassau-Weilburg
 			1721.02.08={birth=yes}  # Braunfels
-			1756.08.24={add_spouse=100094362}	# GFN Sophie zu Solms-Laubach
+			1756.08.24={add_spouse=100094362}	# Sophie von Solms
 			1783.10.02={death=yes}  # Braunfels
 		}
 			100005851={	# 1a) WILHELM Christian Karl Fst zu Solms-Braunfels (Braunfels 9 Jan 1759-Braunfels 20 Mar 1837; bur St.Georgen, Braunfels); m.Braunfels 6 Oct 1792 Auguste Wildgfn zu Grumbach (Grumbach 7 Jul 1771-Braunfels 19 Jul 1810)
 				name=Wilhelm
 				dynasty=1002049
 				religion=catholic culture=german
-				father=100005850	# Ferdinand zu Solms-Braunfels
-				mother=100094362	# GFN Sophie zu Solms-Laubach
+				father=100005850	# Ferdinand von Solms-Braunfels
+				mother=100094362	# Sophie von Solms
 				1759.01.09={birth=yes}  # Braunfels
 				1792.10.06={add_spouse=100004156}	# Auguste zu Salm-Grumbach
 				1837.03.20={death=yes}  # Braunfels
@@ -2380,7 +2943,7 @@
 					female=yes
 					dynasty=1002049
 					religion=catholic culture=german
-					father=100005851	# Wilhelm zu Solms-Braunfels
+					father=100005851	# Wilhelm von Solms-Braunfels
 					mother=100004156	# Auguste zu Salm-Grumbach
 					1793.09.20={birth=yes}  # Braunfels
 					1865.11.12={death=yes}
@@ -2390,7 +2953,7 @@
 					female=yes
 					dynasty=1002049
 					religion=catholic culture=german
-					father=100005851	# Wilhelm zu Solms-Braunfels
+					father=100005851	# Wilhelm von Solms-Braunfels
 					mother=100004156	# Auguste zu Salm-Grumbach
 					1796.02.24={birth=yes}  # Braunfels
 					1855.01.23={death=yes}
@@ -2399,10 +2962,10 @@
 					name=Friedrich
 					dynasty=1002049
 					religion=catholic culture=german
-					father=100005851	# Wilhelm zu Solms-Braunfels
+					father=100005851	# Wilhelm von Solms-Braunfels
 					mother=100004156	# Auguste zu Salm-Grumbach
 					1797.12.14={birth=yes}  # Braunfels
-					1828.05.06={add_spouse=100094363}	# GFN Ottilie zu Solms-Laubach
+					1828.05.06={add_spouse=100094363}	# Ottilie von Solms-Laubach
 					1873.02.03={death=yes}  # Braunfels
 				}
 			100005856={	# 4a) Auguste Louise (Braunfels 15 Jan 1764-Braunfels 8 Sep 1797); m.Braunfels 3 Sep 1792 Karl Ludwig Theodor Wildgf in Grumbach (d.Wetzlar 25 May 1799)
@@ -2410,8 +2973,8 @@
 				female=yes
 				dynasty=1002049
 				religion=catholic culture=german
-				father=100005850	# Ferdinand zu Solms-Braunfels
-				mother=100094362	# GFN Sophie zu Solms-Laubach
+				father=100005850	# Ferdinand von Solms-Braunfels
+				mother=100094362	# Sophie von Solms
 				1764.01.15={birth=yes}  # Braunfels
 				1797.09.08={death=yes}  # Braunfels
 			}
@@ -2419,8 +2982,8 @@
 				name="Friedrich Wilhelm"
 				dynasty=1002049
 				religion=catholic culture=german
-				father=100005850	# Ferdinand zu Solms-Braunfels
-				mother=100094362	# GFN Sophie zu Solms-Laubach
+				father=100005850	# Ferdinand von Solms-Braunfels
+				mother=100094362	# Sophie von Solms
 				1770.10.22={birth=yes}  # Braunfels
 				1798.12.10={add_spouse=100002957}	# Friederike Karoline v. Mecklenburg
 				1814.04.13={death=yes}  # Slawentzitz
@@ -2429,7 +2992,7 @@
 					name=Friedrich
 					dynasty=1002049
 					religion=catholic culture=german
-					father=100005860	# Friedrich Wilhelm zu Solms-Braunfels
+					father=100005860	# Friedrich Wilhelm von Solms-Braunfels
 					mother=100002957	# Friederike Karoline v. Mecklenburg
 					1801.12.30={birth=yes}  # Triesdorf
 					1831.08.08={add_spouse=100086131}	# Maria Kinsky von Wchinitz u.Tettau
@@ -2439,7 +3002,7 @@
 						name=Ferdinand
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005861	# Friedrich zu Solms-Braunfels
+						father=100005861	# Friedrich von Solms-Braunfels
 						mother=100086131	# Maria Kinsky von Wchinitz u.Tettau
 						1832.05.15={birth=yes}  # Mühlheim am Rhein
 						1872.01.05={death=yes}  # Pau
@@ -2448,7 +3011,7 @@
 						name=Ernst
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005861	# Friedrich zu Solms-Braunfels
+						father=100005861	# Friedrich von Solms-Braunfels
 						mother=100086131	# Maria Kinsky von Wchinitz u.Tettau
 						1835.03.12={birth=yes}  # Düsseldorf
 						1880.03.07={death=yes}  # Braunfels
@@ -2457,7 +3020,7 @@
 						name=Georg
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005861	# Friedrich zu Solms-Braunfels
+						father=100005861	# Friedrich von Solms-Braunfels
 						mother=100086131	# Maria Kinsky von Wchinitz u.Tettau
 						1836.03.18={birth=yes}  # Vienna
 						1878.08.05={add_spouse=100084091}	# Emanuela Gallone dei Principi di Tricase Moliterno
@@ -2468,7 +3031,7 @@
 							female=yes
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005864	# Georg zu Solms-Braunfels
+							father=100005864	# Georg von Solms-Braunfels
 							mother=100084091	# Emanuela Gallone dei Principi di Tricase Moliterno
 							1879.10.20={birth=yes}  # Baden-Baden
 							1971.05.11={death=yes}  # Torre del Greco
@@ -2478,7 +3041,7 @@
 							female=yes
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005864	# Georg zu Solms-Braunfels
+							father=100005864	# Georg von Solms-Braunfels
 							mother=100084091	# Emanuela Gallone dei Principi di Tricase Moliterno
 							1885.09.11={birth=yes}  # Baden-Baden
 							1964.03.08={death=yes}  # Braunfels
@@ -2487,7 +3050,7 @@
 							name="Georg Friedrich"
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005864	# Georg zu Solms-Braunfels
+							father=100005864	# Georg von Solms-Braunfels
 							mother=100084091	# Emanuela Gallone dei Principi di Tricase Moliterno
 							1890.12.13={birth=yes}  # Frankfurt
 							1913.05.08={add_spouse=100089843}	# Beatrice Saluzzo
@@ -2498,7 +3061,7 @@
 								female=yes
 								dynasty=1002049
 								religion=catholic culture=german
-								father=100005867	# Georg Friedrich zu Solms-Braunfels
+								father=100005867	# Georg Friedrich von Solms-Braunfels
 								mother=100089843	# Beatrice Saluzzo
 								1914.03.18={birth=yes}  # München
 								1985.08.27={death=yes}  # Frankfurt
@@ -2508,7 +3071,7 @@
 								female=yes
 								dynasty=1002049
 								religion=catholic culture=german
-								father=100005867	# Georg Friedrich zu Solms-Braunfels
+								father=100005867	# Georg Friedrich von Solms-Braunfels
 								mother=100089843	# Beatrice Saluzzo
 								1918.08.23={birth=yes}  # Braunfels
 								2003.11.13={death=yes}
@@ -2518,7 +3081,7 @@
 						female=yes
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005861	# Friedrich zu Solms-Braunfels
+						father=100005861	# Friedrich von Solms-Braunfels
 						mother=100086131	# Maria Kinsky von Wchinitz u.Tettau
 						1837.11.12={birth=yes}  # Düsseldorf
 						1927.02.12={death=yes}  # Rome
@@ -2527,7 +3090,7 @@
 						name=Albrecht
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005861	# Friedrich zu Solms-Braunfels
+						father=100005861	# Friedrich von Solms-Braunfels
 						mother=100086131	# Maria Kinsky von Wchinitz u.Tettau
 						1841.02.10={birth=yes}  # Düsseldorf
 						1889.09.05={add_spouse=100092518}	# Ebba von Lavonius
@@ -2537,10 +3100,10 @@
 						name=Hermann
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005861	# Friedrich zu Solms-Braunfels
+						father=100005861	# Friedrich von Solms-Braunfels
 						mother=100086131	# Maria Kinsky von Wchinitz u.Tettau
 						1845.10.08={birth=yes}  # Düsseldorf
-						1872.04.30={add_spouse=100005889}	# Marie zu Solms-Braunfels
+						1872.04.30={add_spouse=100005889}	# Marie von Solms-Braunfels
 						1887.11.17={add_spouse=100003644}	# Elisabeth Reuß
 						1900.08.30={death=yes}  # Schloß Braunfels
 					}
@@ -2549,8 +3112,8 @@
 							female=yes
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005873	# Hermann zu Solms-Braunfels
-							mother=100005889	# Marie zu Solms-Braunfels
+							father=100005873	# Hermann von Solms-Braunfels
+							mother=100005889	# Marie von Solms-Braunfels
 							1873.03.29={birth=yes}  # Bonn
 							1927.04.21={death=yes}  # Hanau
 						}
@@ -2559,7 +3122,7 @@
 							female=yes
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005873	# Hermann zu Solms-Braunfels
+							father=100005873	# Hermann von Solms-Braunfels
 							mother=100003644	# Elisabeth Reuß
 							1888.12.05={birth=yes}  # Potsdam
 							1976.03.07={death=yes}  # Darmstadt
@@ -2569,7 +3132,7 @@
 							female=yes
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005873	# Hermann zu Solms-Braunfels
+							father=100005873	# Hermann von Solms-Braunfels
 							mother=100003644	# Elisabeth Reuß
 							1890.02.15={birth=yes}  # Berlin
 							1969.10.22={death=yes}  # Erbach
@@ -2578,7 +3141,7 @@
 							name=Ernst-August
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005873	# Hermann zu Solms-Braunfels
+							father=100005873	# Hermann von Solms-Braunfels
 							mother=100003644	# Elisabeth Reuß
 							1892.03.10={birth=yes}  # Darmstadt
 							1939.02.15={add_spouse=100002678}	# Elisabeth Caroline zur Lippe
@@ -2589,7 +3152,7 @@
 								female=yes
 								dynasty=1002049
 								religion=catholic culture=german
-								father=100005877	# Ernst-August zu Solms-Braunfels
+								father=100005877	# Ernst-August von Solms-Braunfels
 								mother=100002678	# Elisabeth Caroline zur Lippe
 								1940.08.06={birth=yes}
 							}
@@ -2598,7 +3161,7 @@
 					female=yes
 					dynasty=1002049
 					religion=catholic culture=german
-					father=100005860	# Friedrich Wilhelm zu Solms-Braunfels
+					father=100005860	# Friedrich Wilhelm von Solms-Braunfels
 					mother=100002957	# Friederike Karoline v. Mecklenburg
 					1804.07.25={birth=yes}  # Triesdorf
 					1865.10.08={death=yes}  # Eichberg bei Eltville
@@ -2607,7 +3170,7 @@
 					name=Alexander
 					dynasty=1002049
 					religion=catholic culture=german
-					father=100005860	# Friedrich Wilhelm zu Solms-Braunfels
+					father=100005860	# Friedrich Wilhelm von Solms-Braunfels
 					mother=100002957	# Friederike Karoline v. Mecklenburg
 					1807.03.12={birth=yes}  # Königsberg
 					1863.10.10={add_spouse=100092505}	# FRN Luise von Landsberg-Velen
@@ -2617,7 +3180,7 @@
 						name=Friedrich
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005881	# Alexander zu Solms-Braunfels
+						father=100005881	# Alexander von Solms-Braunfels
 						mother=100092505	# FRN Luise von Landsberg-Velen
 						1864.09.23={birth=yes}  # Drensteinfurt
 						1896.09.24={add_spouse=100093441}	# GFN Maria von Westphalen zu Fürstenberg
@@ -2628,7 +3191,7 @@
 							female=yes
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005882	# Friedrich zu Solms-Braunfels
+							father=100005882	# Friedrich von Solms-Braunfels
 							mother=100093441	# GFN Maria von Westphalen zu Fürstenberg
 							1901.08.29={birth=yes}  # Braunfels
 							1987.10.25={death=yes}  # Paderborn
@@ -2637,7 +3200,7 @@
 							name=Alexander
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005882	# Friedrich zu Solms-Braunfels
+							father=100005882	# Friedrich von Solms-Braunfels
 							mother=100093441	# GFN Maria von Westphalen zu Fürstenberg
 							1903.08.05={birth=yes}  # Braunfels
 							1946.09.07={add_spouse=100008314}	# Carmen von Wrede
@@ -2647,7 +3210,7 @@
 							name=Franz
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005882	# Friedrich zu Solms-Braunfels
+							father=100005882	# Friedrich von Solms-Braunfels
 							mother=100093441	# GFN Maria von Westphalen zu Fürstenberg
 							1906.06.08={birth=yes}  # Braunfels
 							1947.12.30={add_spouse=100091095}	# Erna Troldner
@@ -2657,7 +3220,7 @@
 					name=Friedrich
 					dynasty=1002049
 					religion=catholic culture=german
-					father=100005860	# Friedrich Wilhelm zu Solms-Braunfels
+					father=100005860	# Friedrich Wilhelm von Solms-Braunfels
 					mother=100002957	# Friederike Karoline v. Mecklenburg
 					1812.07.27={birth=yes}  # Neustrelitz
 					1834.01.01={add_spouse=100080627}	# Louise Beyrich
@@ -2669,7 +3232,7 @@
 						name=Ludwig
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005886	# Friedrich zu Solms-Braunfels
+						father=100005886	# Friedrich von Solms-Braunfels
 						mother=100002768	# Sophie v. Löwenstein-Wertheim
 						1846.09.23={birth=yes}  # Frankfurt
 						1877.12.16={add_spouse=100083308}	# Karoline Diem
@@ -2680,7 +3243,7 @@
 						female=yes
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005886	# Friedrich zu Solms-Braunfels
+						father=100005886	# Friedrich von Solms-Braunfels
 						mother=100002768	# Sophie v. Löwenstein-Wertheim
 						1851.02.02={birth=yes}  # Kleinheubach
 						1922.08.16={death=yes}  # Amay Belgium
@@ -2690,7 +3253,7 @@
 						female=yes
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005886	# Friedrich zu Solms-Braunfels
+						father=100005886	# Friedrich von Solms-Braunfels
 						mother=100002768	# Sophie v. Löwenstein-Wertheim
 						1852.06.26={birth=yes}  # Zinkau
 						1882.07.23={death=yes}  # Königsbrück Saxony
@@ -2699,7 +3262,7 @@
 						name=Alexander
 						dynasty=1002049
 						religion=catholic culture=german
-						father=100005886	# Friedrich zu Solms-Braunfels
+						father=100005886	# Friedrich von Solms-Braunfels
 						mother=100002768	# Sophie v. Löwenstein-Wertheim
 						1855.11.04={birth=yes}  # Podiebrad
 						1891.01.19={add_spouse=100091938}	# FRN Paula von Erlanger
@@ -2710,7 +3273,7 @@
 							female=yes
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005891	# Alexander zu Solms-Braunfels
+							father=100005891	# Alexander von Solms-Braunfels
 							mother=100091938	# FRN Paula von Erlanger
 							1894.04.08={birth=yes}  # Ober-Waltersdorf, Lower Austria
 							1962.12.07={death=yes}  # Ingelheim am Rhein
@@ -2720,7 +3283,7 @@
 							female=yes
 							dynasty=1002049
 							religion=catholic culture=german
-							father=100005891	# Alexander zu Solms-Braunfels
+							father=100005891	# Alexander von Solms-Braunfels
 							mother=100091938	# FRN Paula von Erlanger
 							1896.08.05={birth=yes}  # Ober-Waltersdorf
 							1954.04.01={death=yes}  # Ebersteinburg bei Baden-Baden
@@ -2730,7 +3293,7 @@
 			female=yes
 			dynasty=1002049
 			religion=catholic culture=german
-			father=100005576	# Friedrich Wilhelm zu Solms-Braunfels
+			father=100005576	# Friedrich Wilhelm von Solms-Braunfels
 			1731.05.01={birth=yes}
 			1792.09.12={death=yes}
 		}

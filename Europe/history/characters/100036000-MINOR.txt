@@ -48,7 +48,6 @@
 		1911.03.17={death=yes}
 	}
 	
-
 100182736={ # Antoine de Nicolaï (1847-1930) %%
 	name=Antoine
 	dynasty=1007050
@@ -220,6 +219,7 @@
 		father=100081509	# Edzard Cirksena
 		mother=100012312	# Katharina Vasa
 		1563.09.03={birth=yes}  # Aurich
+		1598.06.25={add_spouse=100005831}	# Anna v. Oldenburg-Gottorf
 		1625.08.19={death=yes}  # Neuhaus, Bohemia
 	}
 		100081512={ # 6e) Anna Maria (23 Jun 1601-5 Feb 1634); m.Vörde 4 Sep 1622 Adolf Friedrich, Duke von Mecklenburg-Schwerin (d.27 Feb 1658)
@@ -228,6 +228,7 @@
 			dynasty=1008026
 			religion=catholic culture=frisian
 			father=100181510	# Enno Cirksena
+			mother=100005831	# Anna v. Oldenburg-Gottorf
 			1601.06.23={birth=yes}
 			1634.09.04={death=yes}
 		}
@@ -236,22 +237,41 @@
 			dynasty=1008026
 			religion=catholic culture=frisian
 			father=100181510	# Enno Cirksena
+			mother=100005831	# Anna v. Oldenburg-Gottorf
 			1602.06.02={birth=yes}
 			1628.04.16={death=yes}
 		}
-		100198732={ # 8e) Ulrich II (6 Jul 1605-Aurich 1 Nov 1648); m.Aurich 5 Mar 1631 Juliane Ldgvne von Hessen-Darmstadt (Darmstadt 14 Apr 1606-Westerhof 15 Jan 1659)
-			name=Ulrich
+		100198734={ # 8e) Ulric II (6 Jul 1605-Aurich 1 Nov 1648); m.Aurich 5 Mar 1631 Juliane Ldgvne von Hessen-Darmstadt (Darmstadt 14 Apr 1606-Westerhof 15 Jan 1659)
+			name=Ulric
 			dynasty=1008026
 			religion=catholic culture=frisian
 			father=100181510	# Enno Cirksena
+			mother=100005831	# Anna v. Oldenburg-Gottorf
 			1605.01.01={birth=yes}
 			1648.11.01={death=yes}
 		}
+			100198732={ # 1f) Enno Ludwig, cr Fst von Ostfriesland 1654 (Aurich 29 Oct 1632-Aurich 4 Apr 1660); m.Aurich 7 Nov 1656 Justina Gfn von Barby (Rudolstadt 14 Apr 1636-Berum 12 Aug 1677)
+				name="Enno Ludwig"
+				dynasty=1008026
+				religion=catholic culture=frisian
+				father=100198734	# Ulric Cirksena
+				1632.10.29={birth=yes}
+				1660.04.04={death=yes}
+			}
+				100098981={ # 2g) Sophie Wilhelmine, cr Fstn 1678 (Aurich 17 Oct 1659-Bernstadt 4 Feb 1698); m.Hamburg 7 Dec 1695 Christian Ulrich Duke von Württemberg-Öls (d.1704)
+					name="Juliane Luise"
+					female=yes
+					dynasty=1008026
+					religion=catholic culture=german
+					father=100198732	# Enno Ludwig Cirksena
+					1698.06.13={birth=yes}  # Aurich
+					1740.02.06={death=yes}  # Ahrensbök
+				}
 			100198731={ # 2f) Georg Christian, cr Fst von Ostfriesland 1662 (Aurich 6 Feb 1634-Aurich 6 Jun 1665); m.Stuttgart 8 May 1662 Christina Charlotte Dss von Württemberg (Stuttgart 21 Oct 1645-Bruchhausen-Vilsen 16 May 1699)
 				name="Georg Christian"
 				dynasty=1008026
 				religion=catholic culture=frisian
-				father=100198732	# Ulrich Cirksena
+				father=100198732	# Enno Ludwig Cirksena
 				1634.01.01={birth=yes}
 				1665.06.06={death=yes}
 			}
@@ -975,14 +995,14 @@
 					1955.06.19={add_spouse=100006622}	# Maria Theresia v. Thurn und Taxis
 					1985.08.25={death=yes}
 				}
-				100092808={ # Hans Georg (Ober-Waltersdorf 27 Nov 1920-Bad Homburg vor der Höhe 21 Jan 2003); m.15 Aug 1950 Marie zu Solms-Braunfels (Braunfels 23 Aug 1918-13 Nov 2003) %%
+				100092808={ # Hans Georg (Ober-Waltersdorf 27 Nov 1920-Bad Homburg vor der Höhe 21 Jan 2003); m.15 Aug 1950 Marie von Solms-Braunfels (Braunfels 23 Aug 1918-13 Nov 2003) %%
 					name="Hans Georg"
 					dynasty=1002205
 					religion=catholic culture=german
 					father=100092809	# Wilhelm Hans v Oppersdorff
 					mother=100002374	# Marie Louise v. Isenburg
 					1920.11.27={birth=yes}  # Ober-Waltersdorf
-					1950.08.15={add_spouse=100005869}	# Marie zu Solms-Braunfels
+					1950.08.15={add_spouse=100005869}	# Marie von Solms-Braunfels
 					2003.01.21={death=yes}  # Bad Homburg vor der Höhe
 				}
 	100196298={ # Karl (4 Jun 1834-3 Mar 1865) %%
@@ -1729,7 +1749,7 @@
 		1920.07.07={birth=yes}  # Frankfurt
 		1994.12.13={death=yes}  # Medingen
 	}
-	100093291={ # Thilo (4 Oct 1926-29 Jun 1966) %%
+	100093291={ # Thilo (4 Oct 1926-29 Jun 1966); m.18 Jul 1959 Alexandra Anna zu Hohenlohe-Langenburg (19 Jul 1935-    ) %%
 		name=Thilo
 		dynasty=1002210
 		religion=catholic culture=german
@@ -1747,7 +1767,7 @@
 	1854.01.01={birth=yes}
 	1893.01.01={death=yes}
 }
-	100087913={ # Franz (Hietzing 24 Jun 1888-Frohnleiten 30 Dec 1958) %%
+	100087913={ # Franz (Hietzing 24 Jun 1888-Frohnleiten 30 Dec 1958); m.29 Aug 1918 Marie Franziska zu Hohenlohe-Waldenburg-Schillingsfürst (Teplitz 24 Sep 1895-Vienna 4 Dec 1946) %%
 		name=Franz
 		dynasty=1002212
 		religion=catholic culture=german
@@ -1785,7 +1805,7 @@
 			1919.12.09={birth=yes}  # Salzburg
 			1994.01.01={death=yes}
 		}
-		100087912={ # Ladislaja Mayr v.Melnhof (23 Dec 1920-    ); m.25 Jul 1946 Jakob v.u.zu Eltz gt Faust v.Stromberg (Kleinheubach 22 Sep 1921-Eltville 10 Feb 2006) %%
+		100087912={ # Ladislaja Mayr v.Melnhof (23 Dec 1920-    ); m.1st 29 Sep 1942 Konrad zu Hohenlohe-Waldenburg-Schillingsfürst (Bern 16 Aug 1919-16 May 1943); m.2nd 25 Jul 1946 Jakob v.u.zu Eltz gt Faust v.Stromberg (Kleinheubach 22 Sep 1921-Eltville 10 Feb 2006) %%
 			name="Ladislaja Mayr v.Melnhof"
 			female=yes
 			dynasty=1002212
@@ -1841,33 +1861,60 @@
 			2003.01.01={death=yes}  # EST.
 		}
 
-100088124={ # Étienne Edmond Cornet d'Elzius du Chenoy (Pailhe 6 Jun 1891-Brussels 4 Jan 1960); m.26 Apr 1919 Nathalie d’Oultremont (Brussels 17 Nov 1897-Uccle 11 Jun 1981) %%
-	name="Étienne Edmond"
+100187922={ # Charles Gustave Joseph Cornet d'Elzius du Chenoy (1860-1926) %%
+	name="Charles Gustave Joseph"
 	dynasty=1007054
 	religion=catholic culture=frankish
-	1891.06.06={birth=yes}  # Pailhe
-	1919.04.26={add_spouse=100066983}	# Nathalie d’Oultremont
-	1960.01.04={death=yes}  # Brussels
+	1860.01.01={birth=yes}
+	1926.01.01={death=yes}
 }
-	100081645={ # Didier (8 May 1929-6 Mar 1996); m.12 Aug 1958 Gabriele Marie van Limburg Stirum (22 Aug 1936-    ) %%
-		name=Didier
-		dynasty=1007054
-		religion=lutheran culture=frankish
-		father=100088124	# Étienne Edmond Cornet d'Elzius du Chenoy
-		mother=100066983	# Nathalie d’Oultremont
-		1929.05.08={birth=yes}
-		1958.08.12={add_spouse=100037689}	# Gabriele Marie van Limburg Stirum
-		1996.03.06={death=yes}
-	}
-	100085161={ # Therese (b.23 Jan 1932); m.28 Aug 1954 Ladislav Lobkowicz (24 Oct 1925-28 Jan 1985) %%
-		name=Therese
-		female=yes
+	100087922={ # Jean Gustave (Brussels 27 Apr 1888-Pailhe 30 Dec 1961); m.9 Jan 1912 Cécile d’Oultremont (Sterrebeek 2 May 1890-Schatzalp 10 Aug 1938) %%
+		name="Jean Gustave"
 		dynasty=1007054
 		religion=catholic culture=frankish
-		father=100088124	# Étienne Edmond Cornet d'Elzius du Chenoy
-		mother=100066983	# Nathalie d’Oultremont
-		1932.01.23={birth=yes}
+		father=100187922	# Charles Gustave Joseph Cornet d'Elzius du Chenoy
+		1888.04.27={birth=yes}  # Brussels
+		1912.01.09={add_spouse=100066981}	# Cécile d’Oultremont
+		1961.12.30={death=yes}  # Pailhe
 	}
+		100081643={ # Louis Cornet (29 Feb 1928-11 Nov 2011); m.9 Jan 1960 Colette d’Ursel (3 Oct 1934-5 May 2011) %%
+			name="Louis Cornet"
+			dynasty=1007054
+			religion=catholic culture=frankish
+			father=100087922	# Jean Gustave Cornet d'Elzius du Chenoy
+			mother=100066981	# Cécile d’Oultremont
+			1928.02.29={birth=yes}
+			1960.01.09={add_spouse=100067748}	# Colette d’Ursel
+			2011.11.11={death=yes}
+		}
+	100088124={ # Étienne Edmond (Pailhe 6 Jun 1891-Brussels 4 Jan 1960); m.26 Apr 1919 Nathalie d’Oultremont (Brussels 17 Nov 1897-Uccle 11 Jun 1981) %%
+		name="Étienne Edmond"
+		dynasty=1007054
+		religion=catholic culture=frankish
+		father=100187922	# Charles Gustave Joseph Cornet d'Elzius du Chenoy
+		1891.06.06={birth=yes}  # Pailhe
+		1919.04.26={add_spouse=100066983}	# Nathalie d’Oultremont
+		1960.01.04={death=yes}  # Brussels
+	}
+		100081645={ # Didier (8 May 1929-6 Mar 1996); m.12 Aug 1958 Gabriele Marie van Limburg Stirum (22 Aug 1936-    ) %%
+			name=Didier
+			dynasty=1007054
+			religion=lutheran culture=frankish
+			father=100088124	# Étienne Edmond Cornet d'Elzius du Chenoy
+			mother=100066983	# Nathalie d’Oultremont
+			1929.05.08={birth=yes}
+			1958.08.12={add_spouse=100037689}	# Gabriele Marie van Limburg Stirum
+			1996.03.06={death=yes}
+		}
+		100085161={ # Therese (b.23 Jan 1932); m.28 Aug 1954 Ladislav Lobkowicz (24 Oct 1925-28 Jan 1985) %%
+			name=Therese
+			female=yes
+			dynasty=1007054
+			religion=catholic culture=frankish
+			father=100088124	# Étienne Edmond Cornet d'Elzius du Chenoy
+			mother=100066983	# Nathalie d’Oultremont
+			1932.01.23={birth=yes}
+		}
 
 100182817={ # Amedee de Renesse (1833-1882) %%
 	name=Amedee
@@ -2058,4 +2105,206 @@
 				2002.03.05={death=yes}
 			}
 
-			
+100195853={ # Georg Maria zu Lodron-Laterano u.Castelromano (b.29 May 1964) %%
+	name="Georg Maria"
+	dynasty=1002214
+	religion=catholic culture=german
+	1964.05.29={birth=yes}
+}
+	100195852={ # Beatrice (b.29 May 1964); m.16 Nov 1990 Wolfgang v. Wittelsbach (b.1960) %%
+		name=Beatrice
+		female=yes
+		dynasty=1002214
+		religion=catholic culture=german
+		father=100195853	# Georg Maria zu Lodron-Laterano u.Castelromano
+		1964.05.29={birth=yes}
+	}
+	100095852={ # Diana-Maria (b.1 Mar 1967); m.26 Feb 1990 Stefan-Georg v. Waldburg zu Zeil u.Trauchburg (b.3 Aug 1963) %%
+		name="Diana-Maria"
+		female=yes
+		dynasty=1002214
+		religion=catholic culture=german
+		father=100195853	# Georg Maria zu Lodron-Laterano u.Castelromano
+		1967.03.01={birth=yes}
+	}
+100094197={ # Hieronymus zu Lodron-Laterano u.Castelromano (1766-1823); m.21 Jul 1786 Maria Cäcilie v. Orsini u.Rosenberg (30 Sep 1766-30 Sep 1841) %%
+	name=Hieronymus
+	dynasty=1002214
+	religion=catholic culture=german
+	1766.01.01={birth=yes}
+	1786.07.21={add_spouse=100024590}	# Maria Cäcilie v. Orsini u.Rosenberg
+	1823.01.01={death=yes}
+}
+	100094201={ # Maria Dominika (17 Oct 1789-10 Dec 1847); m.6 Oct 1807 Ferenc Zichy de Zich et Vásonykõ (17 Feb 1749-8 Aug 1812) %%
+		name="Maria Dominika"
+		female=yes
+		dynasty=1002214
+		religion=catholic culture=hungarian
+		father=100094197	# Hieronymus zu Lodron-Laterano u.Castelromano
+		mother=100024590	# Maria Cäcilie v. Orsini u.Rosenberg
+		1789.10.17={birth=yes}
+		1847.12.10={death=yes}
+	}
+	100094198={ # Antonia (26 Nov 1792-Vienna 3 Apr 1874); m.26 Oct 1824 Franz v.u.zu Eltz gt Faust v.Stromberg (Mainz 28 May 1786-Vienna 27 May 1873) %%
+		name=Antonia
+		female=yes
+		dynasty=1002214
+		religion=catholic culture=german
+		father=100094197	# Hieronymus zu Lodron-Laterano u.Castelromano
+		mother=100024590	# Maria Cäcilie v. Orsini u.Rosenberg
+		1792.11.26={birth=yes}
+		1874.04.03={death=yes}  # Vienna
+	}
+
+100192281={ # Franz v. Seilern u.Aspang (Graz 10 Apr 1859-Leschna 23 Jan 1919); m.1st 25 Apr 1882 Ilona Wenckheim (Ischl 21 May 1860-Leschna Moravia 20 Dec 1883); m.2nd 29 Jan 1885 Sarolta Wenckheim (Ischl 21 May 1860-Praha 6 Mar 1946) %%
+	name=Franz
+	dynasty=1004701
+	religion=catholic culture=german
+	1859.04.10={birth=yes}  # Graz
+	1882.04.25={add_spouse=100115777}	# Ilona Wenckheim
+	1885.01.29={add_spouse=100115779}	# Sarolta Wenckheim
+	1919.01.23={death=yes}  # Leschna
+}
+	100192282={ # Joseph (1883-1939) %%
+		name=Joseph
+		dynasty=1004701
+		religion=catholic culture=german
+		father=100192281	# Franz v. Seilern u.Aspang
+		1883.01.01={birth=yes}
+		1939.01.01={death=yes}
+	}
+		100192283={ # Franz Joseph (Lešná 18 Aug 1914-    ); m.7 Mar 1943 Aglae z Valdštejna (Doksy 6 Oct 1923-Wien 31 Jan 1996) %%
+			name="Franz Joseph"
+			dynasty=1004701
+			religion=catholic culture=german
+			father=100192282	# Joseph v. Seilern u.Aspang
+			1914.08.18={birth=yes}  # Lešná
+			1943.03.07={add_spouse=100047370}	# Aglae z Valdštejna
+			1989.01.01={death=yes}  # EST.
+		}
+			100097487={ # Johannes (b.Friedberg 6 Jun 1945); m.24 May 1979 Elisabeth v. Goëss (b.Klagenfurt 23 May 1957) %%
+				name=Johannes
+				dynasty=1004701
+				religion=catholic culture=german
+				father=100192283	# Franz Joseph v. Seilern u.Aspang
+				1945.06.06={birth=yes}  # Friedberg
+				1979.05.24={add_spouse=100023530}	# Elisabeth v. Goëss
+			}
+			100092276={ # Thomas (b.Litschau 6 Jun 1955); m.29 May 1981 Sophie v. Gudenus (b.Graz 6 Jun 1954) %%
+				name=Thomas
+				dynasty=1004701
+				religion=catholic culture=german
+				father=100192283	# Franz Joseph v. Seilern u.Aspang
+				1955.06.06={birth=yes}  # Litschau
+				1981.05.29={add_spouse=100024266}	# Sophie v. Gudenus
+			}
+	100192280={ # Franz (1886-1930) %%
+		name=Franz
+		dynasty=1004701
+		religion=catholic culture=german
+		father=100192281	# Franz v. Seilern u.Aspang
+		1886.01.01={birth=yes}
+		1930.01.01={death=yes}
+	}
+		100192279={ # Karl Josef (1925-1971); m.5 Jun 1954 Gf Henriette von Seilern u.Aspang (1930-2015) %%
+			name="Karl Josef"
+			dynasty=1004701
+			religion=catholic culture=german
+			father=100192280	# Franz v. Seilern u.Aspang
+			1925.01.01={birth=yes}
+			1954.06.05={add_spouse=100193138}	# GF Henriette von Seilern u.Aspang
+			1971.01.01={death=yes}
+		}
+			100092279={ # Alexander (b.Wien 11 Mar 1956); m.17 Jul 1982 Maria Sidonia v. Gudenus (b.Graz 20 Aug 1955) %%
+				name=Alexander
+				dynasty=1004701
+				religion=catholic culture=german
+				father=100192279	# Karl Josef v. Seilern u.Aspang
+				mother=100193138	# GF Henriette von Seilern u.Aspang
+				1956.03.11={birth=yes}  # Wien
+				1982.07.17={add_spouse=100024268}	# Maria Sidonia v. Gudenus
+			}
+				100093139={ # Antonia (b.New York 24 May 1984); m.28 Jun 2014 Maximilian v. Clary u.Aldringen (b.6 Jun 1981) %%
+					name=Antonia
+					female=yes
+					dynasty=1004701
+					religion=catholic culture=german
+					father=100092279	# Alexander v. Seilern u.Aspang
+					mother=100024268	# Maria Sidonia v. Gudenus
+					1984.05.24={birth=yes}	# New York
+				}
+			100093138={ # Christian (b.3 Dec 1958); m.1 Oct 1988 Cäcilia v. Orsini u.Rosenberg (b.4 Aug 1961) %%
+				name=Christian
+				dynasty=1004701
+				religion=catholic culture=german
+				father=100192279	# Karl Josef v. Seilern u.Aspang
+				mother=100193138	# GF Henriette von Seilern u.Aspang
+				1958.12.03={birth=yes}
+				1988.10.01={add_spouse=100024511}	# Cäcilia v. Orsini u.Rosenberg
+			}
+			100093136={ # Henriette (b.9 Jan 1961); m.26 Sep 1983 Heinrich Reuß (b.13 Oct 1950) %%
+				name=Henriette
+				female=yes
+				dynasty=1004701
+				religion=lutheran culture=german
+				father=100192279	# Karl Josef v. Seilern u.Aspang
+				mother=100193138	# GF Henriette von Seilern u.Aspang
+				1961.01.09={birth=yes}
+			}
+		100190894={ # Friedrich (b.1977) %%
+			name=Friedrich
+			dynasty=1004701
+			religion=catholic culture=german
+			father=100192280	# Franz v. Seilern u.Aspang
+			1926.01.01={birth=yes}
+			1977.01.01={birth=yes}
+		}
+			100090894={ # Benedikt (b.19 Jun 1956); m.12 Sep 1981 Claudia Batthyány-Strattmann de Német-Ujvar (b.5 Jul 1960) %%
+				name=Benedikt
+				dynasty=1004701
+				religion=catholic culture=german
+				father=100190894	# Friedrich v. Seilern u.Aspang
+				1956.06.19={birth=yes}
+				1981.09.12={add_spouse=100115291}	# Claudia Batthyány-Strattmann de Német-Ujvar
+				1988.01.01={remove_spouse=100115291}
+			}
+
+100092905={ # Jean de Rádey (4 Jun 1863-8 Jun 1955); m.2 Dec 1896 Anna Maria v. Meran (12 Apr 1864-31 Mar 1935) %%
+	name=Jean
+	dynasty=1007058
+	religion=catholic culture=frankish
+	1863.06.04={birth=yes}
+	1896.12.02={add_spouse=100020426}	# Anna Maria v. Meran
+	1955.06.08={death=yes}
+}
+	100092907={ # Konstantin (10 May 1898-29 Jul 1975); m.18 Mar 1942 Margit Széchenyi de Sárvár-Felsõvidek (7 Feb 1905-14 Nov 1954) %%
+		name=Konstantin
+		dynasty=1007058
+		religion=catholic culture=german
+		father=100092905	# Jean de Rádey
+		mother=100020426	# Anna Maria v. Meran
+		1898.05.10={birth=yes}
+		1942.03.18={add_spouse=100116389}	# Margit Széchenyi de Sárvár-Felsõvidek
+		1975.07.29={death=yes}
+	}
+	100092906={ # Rudolf Johann Georg (24 Jan 1908-12 Jan 1944); m.14 Apr 1943 Agathe Eleonore v. Auersperg (25 Sep 1916-13 Jan 1983) %%
+		name="Rudolf Johann Georg"
+		dynasty=1007058
+		religion=catholic culture=german
+		father=100092905	# Jean de Rádey
+		mother=100020426	# Anna Maria v. Meran
+		1908.01.24={birth=yes}
+		1943.04.14={add_spouse=100021490}	# Agathe Eleonore v. Auersperg
+		1944.01.12={death=yes}
+	}
+		100192906={ # Johann Nepomuk Georg (9 Feb 1944-31 Jul 2000) %%
+			name="Johann Nepomuk Georg"
+			dynasty=1007058
+			religion=catholic culture=german
+			father=100092906	# Rudolf Johann Georg de Rádey
+			mother=100021490	# Agathe Eleonore v. Auersperg
+			1944.02.09={birth=yes}
+			2000.07.31={death=yes}
+		}
+
+				
