@@ -166,6 +166,7 @@
 		dynasty=10324
 		religion=orthodox culture=russian
 		father=100075020	# Alexander Lukashenko
+		mother=100102124	# Galina Zhelnerovich
 		trait=legit_bastard
 		trait=genius
 		2004.01.01={birth=yes}
@@ -173,45 +174,37 @@
 ## BELARUS
 
 ## ESTONIA
-100075030={ # Toomas Ilves (26 Dec 1953-2030); m.2004 Evelin Int (b.20 Apr 1968) %%
+100075030={ # Toomas Ilves (b.26 Dec 1953); m.2004 Evelin Int (b.20 Apr 1968); m.2004 Toomas Ilves (b.20 Apr 1968) %%
 	name=Toomas
 	dynasty=10326
 	religion=lutheran culture=ugricbaltic
 	1953.12.26={birth=yes}
-	2004.01.01={add_spouse=100096952}	# Evelin Int
-	2030.01.01={death=yes}
+	2004.01.01={add_spouse=100096952}	# Evelin Int (b.20 Apr 1968); m.2004 Toomas Ilves
 }
-100096952={ # Evelin Int (b.20 Apr 1968); m.2004 Toomas Ilves (26 Dec 1953-2030) %%
-	name="Evelin Int"
-	dynasty=0
-	religion=lutheran culture=ugricbaltic
-	female=yes
-	1968.04.20={birth=yes}
-}
-100075032={ # Luukas Ilves (b.1987) %%
-	name=Luukas
-	dynasty=10326
-	religion=lutheran culture=ugricbaltic
-	father=100075030	# Toomas Ilves
-	1987.01.01={birth=yes}
-}
-100075033={ # Juulia Ilves (b.1992) %%
-	name=Juulia
-	dynasty=10326
-	religion=lutheran culture=ugricbaltic
-	father=100075030	# Toomas Ilves
-	female=yes
-	1992.01.01={birth=yes}
-}
-100075034={ # Kadri Ilves (b.2003) %%
-	name=Kadri
-	dynasty=10326
-	religion=lutheran culture=ugricbaltic
-	female=yes
-	father=100075030	# Toomas Ilves
-	mother=100096952	# Evelin Int
-	2003.01.01={birth=yes}
-}
+	100075032={ # Luukas (b.1987) %%
+		name=Luukas
+		dynasty=10326
+		religion=lutheran culture=ugricbaltic
+		father=100075030	# Toomas Ilves
+		1987.01.01={birth=yes}
+	}
+	100075033={ # Juulia (b.1992) %%
+		name=Juulia
+		dynasty=10326
+		religion=lutheran culture=ugricbaltic
+		father=100075030	# Toomas Ilves
+		female=yes
+		1992.01.01={birth=yes}
+	}
+	100075034={ # Kadri (b.2003) %%
+		name=Kadri
+		dynasty=10326
+		religion=lutheran culture=ugricbaltic
+		female=yes
+		father=100075030	# Toomas Ilves
+		mother=100096952	# Evelin Int (b.20 Apr 1968); m.2004 Toomas Ilves
+		2003.01.01={birth=yes}
+	}
 ## ESTONIA
 
 ## CHAD

@@ -5373,27 +5373,38 @@
 	1563.01.01={birth=yes}
 	1624.01.01={death=yes}
 }
-	100066070={# Albert Henri, 2nd Prince of Ligne and of the Holy Roman Empire (1615-1641)
-		name="Albert Henri"
+	100166070={ # Florent (13 Sep 1588-17 Apr 1622) %%
+		name=Florent
 		dynasty=1007002
 		religion=catholic culture=frankish
 		father=100066071	# Lamoral de Ligne
-		1615.01.01={birth=yes}
-		1641.01.01={death=yes}
+		1588.09.13={birth=yes}
+		1622.04.17={death=yes}
 	}
+		100066070={# Albert Henri, 2nd Prince of Ligne and of the Holy Roman Empire (1615-1641)
+			name="Albert Henri"
+			dynasty=1007002
+			religion=catholic culture=frankish
+			father=100166070	# Florent de Ligne
+			1615.09.27={birth=yes}	# Antoing
+			1634.11.27={add_spouse=100037010}	# Clara v. Nassau-Siegen
+			1641.01.01={death=yes}
+		}
 		100066069={# Claude Lamoral I, 3rd Prince of Ligne and of the Holy Roman Empire (1618-1679)
 			name="Claude Lamoral"
 			dynasty=1007002
 			religion=catholic culture=frankish
-			father=100066071	# Lamoral de Ligne
+			father=100166070	# Florent de Ligne
 			1618.01.01={birth=yes}
-			1679.01.01={death=yes}
+			1643.05.01={add_spouse=100037010}	# Clara v. Nassau-Siegen
+			1679.12.21={death=yes}
 		}
 			100066066={# Henri Louis Ernest, 4th Prince of Ligne and of the Holy Roman Empire (1644-1702)
 				name="Henri Louis Ernest"
 				dynasty=1007002
 				religion=catholic culture=frankish
 				father=100066069	# Claude Lamoral de Ligne
+				mother=100037010	# Clara v. Nassau-Siegen
 				1644.01.01={birth=yes}
 				1702.01.01={death=yes}
 			}
@@ -5432,7 +5443,16 @@
 								1757.05.27={birth=yes}
 								1800.09.13={death=yes}
 							}
-
+	100091979={ # Ernestine (2 Nov 1594-Brussels 4 Jan 1663); m.13 Aug 1618 Johann v. Nassau-Siegen (Dillenburg 29 Sep 1583-Renaix 27 Jul 1638) %%
+		name=Ernestine
+		female=yes
+		dynasty=1007002
+		religion=catholic culture=frankish
+		father=100066071	# Lamoral de Ligne
+		1594.11.02={birth=yes}
+		1663.01.04={death=yes}  # Brussels
+	}
+	
 100066000={# EUGÈNE François Charles Lamoral Fürst von Ligne (Brussels 28 Jan 1804-Brussels 20 May 1880); m.1st Roeulx 12 May 1823 Amélie de Conflans (Brussels 18 Jun 1802-Florence 31 Jan 1833); m.2d Brussels 28 Jul 1834 Nathalie de Trazegnies (Brussels 7 Sep 1811-Beloeil 4 Jun 1835); m.3d Vienna 28 Oct 1836 Jadwiga Pss Lubomirski (29 Jun 1815-Brussels 14 Feb 1895)
 	name=Eugène
 	dynasty=1007002
