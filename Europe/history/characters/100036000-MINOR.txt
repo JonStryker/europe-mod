@@ -1259,6 +1259,15 @@
 	1834.07.24={birth=yes}	# Hietzing
 	1897.05.22={death=yes}	# Battaglia
 }
+	100193460={ # Marie (9 Nov 1858-22 Feb 1930); m.15 Jun 1887 Tódor Zichy de Zich et Vásonykõ (15 Jun 1847-9 Jul 1927) %%
+		name=Marie
+		female=yes
+		dynasty=1002207
+		religion=catholic culture=german
+		father=100193464	# Victor Ägidius v. Wimpffen
+		1858.11.09={birth=yes}
+		1930.02.22={death=yes}
+	}
 	100093460={ # Hedwig (4 Aug 1861-30 Nov 1892); m.31 May 1881 August Zichy de Zich et Vásonykõ (14 Jun 1852-4 Oct 1925) %%
 		name=Hedwig
 		female=yes
@@ -1661,6 +1670,7 @@
 		female=yes
 		dynasty=1011600
 		religion=catholic culture=hungarian
+		mother=100005413	# Maria von Schönburg
 		father=100087105	# Sandor Kálnoky de Kõröspatak
 		1926.05.13={birth=yes}
 	}
@@ -1700,6 +1710,7 @@
 		female=yes
 		dynasty=1011600
 		religion=catholic culture=hungarian
+		mother=100005413	# Maria von Schönburg
 		father=100087105	# Sandor Kálnoky de Kõröspatak
 		1932.07.31={birth=yes}  # Csicsó
 		2009.01.01={death=yes}  # EST.
@@ -2170,6 +2181,7 @@
 		dynasty=1004701
 		religion=catholic culture=german
 		father=100192281	# Franz v. Seilern u.Aspang
+		mother=100115777	# Ilona Wenckheim
 		1883.01.01={birth=yes}
 		1939.01.01={death=yes}
 	}
@@ -2187,6 +2199,7 @@
 				dynasty=1004701
 				religion=catholic culture=german
 				father=100192283	# Franz Joseph v. Seilern u.Aspang
+				mother=100047370	# Aglae z Valdštejna
 				1945.06.06={birth=yes}  # Friedberg
 				1979.05.24={add_spouse=100023530}	# Elisabeth v. Goëss
 			}
@@ -2195,6 +2208,7 @@
 				dynasty=1004701
 				religion=catholic culture=german
 				father=100192283	# Franz Joseph v. Seilern u.Aspang
+				mother=100047370	# Aglae z Valdštejna
 				1955.06.06={birth=yes}  # Litschau
 				1981.05.29={add_spouse=100024266}	# Sophie v. Gudenus
 			}
@@ -2307,4 +2321,83 @@
 			2000.07.31={death=yes}
 		}
 
-				
+100192607={ # Maximilian von Lüttichau (1838-1899) %%
+	name=Maximilian
+	dynasty=1002218
+	religion=catholic culture=german
+	1838.01.01={birth=yes}
+	1899.01.01={death=yes}
+}
+	100092606={ # Siegfried (10 Jun 1877-9 Dec 1965); m.30 Aug 1911 Emma Elisabeth Reuß (25 Aug 1887-4 Oct 1954) %%
+		name=Siegfried
+		dynasty=1002218
+		religion=lutheran culture=german
+		father=100192607	# Maximilian von Lüttichau
+		1877.06.10={birth=yes}
+		1911.08.30={add_spouse=100003539}	# Emma Elisabeth Reuß
+		1965.12.09={death=yes}
+	}
+		100192606={ # Angelika (15 Jul 1914-    ); m.1939 Alexander Frederik van Tuyll van Serooskerken (Zuylen 6 Nov 1916-Mar de Java 28 Feb 1942) %%
+			name=Angelika
+			female=yes
+			dynasty=1002218
+			religion=lutheran culture=german
+			father=100092606	# Siegfried von Lüttichau
+			mother=100003539	# Emma Elisabeth Reuß
+			1914.07.15={birth=yes}
+			2000.01.01={death=yes}	# EST.
+		}				
+	100192605={ # Wilhelm (1889-1946) %%
+		name=Wilhelm
+		dynasty=1002218
+		religion=catholic culture=german
+		father=100192607	# Maximilian von Lüttichau
+		1889.01.01={birth=yes}
+		1946.01.01={death=yes}
+	}		
+		100092605={ # Viktoria-Margarita (25 Sep 1926-    ); m.5 Jun 1948 Victor zu Hohenlohe-Waldenburg-Schillingsfürst (Friedstein 20 Apr 1922-30 Aug 2005) %%
+			name=Viktoria-Margarita
+			female=yes
+			dynasty=1002218
+			religion=catholic culture=german
+			father=100192605	# Wilhelm von Lüttichau
+			1926.09.25={birth=yes}
+			2003.01.01={death=yes}  # EST.
+		}
+	
+100191362={ # Frederik William van Tuyll van Serooskerken (1874-1950) %%
+	name="Frederik William" 
+	dynasty=1008407
+	religion=lutheran culture=dutch
+	1874.01.01={birth=yes}
+	1950.01.01={death=yes}
+}
+	100091362={ # Frederik Christiaan Hendrik (5 Apr 1915-27 Jan 1976); m.31 Mar 1948 Mathilde Elisabeth van Limburg Stirum (16 Jan 1920-15 Jan 2000) %%
+		name="Frederik Christiaan Hendrik" 
+		dynasty=1008407
+		religion=lutheran culture=dutch
+		father=100191362	# Frederik William van Tuyll van Serooskerken
+		1915.04.05={birth=yes}
+		1948.03.31={add_spouse=100037868}	# Mathilde Elisabeth van Limburg Stirum
+		1976.01.27={death=yes}
+	}
+	100191360={ # Alexander Frederik (Zuylen 6 Nov 1916-Mar de Java 28 Feb 1942); m.1939 Angelika von Lüttichau (15 Jul 1914-    ) %%
+		name="Alexander Frederik"
+		dynasty=1008407
+		religion=lutheran culture=dutch
+		father=100191362	# Frederik William van Tuyll van Serooskerken
+		1916.11.06={birth=yes}	# Zuylen
+		1939.01.01={add_spouse=100192606}	# Angelika von Lüttichau
+		1942.02.28={death=yes}	# Mar de Java
+	}
+		100091360={ # Brigitte (b.Indonesia 22 Mar 1940); m.14 Aug 1971 Heinrich Reuß (14 May 1927-8 Feb 2002) %%
+			name=Brigitte
+			female=yes
+			dynasty=1008407
+			religion=lutheran culture=dutch
+			father=100191360	# Alexander Frederik van Tuyll van Serooskerken
+			mother=100192606	# Angelika von Lüttichau
+			1940.03.22={birth=yes}	# Indonesia
+		}
+
+		

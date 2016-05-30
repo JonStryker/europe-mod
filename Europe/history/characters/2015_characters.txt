@@ -93,16 +93,6 @@
 	1537.10.12={birth=yes}
 	1553.07.06={death=yes}
 }
-100100337={ # Jane de Cañamas (1536-12 Feb 1554); m.25 May 1553 Guildford Dudley (1535-12 Feb 1554) %%
-	name=Jane
-	dynasty=10007
-	female=yes
-	religion=anglican culture=english
-	father=100100364	# Henry de Cañamas
-	mother=100100359	# Frances Brandon
-	1536.01.01={birth=yes}
-	1554.02.12={death=yes}
-}
 100100024={ # Elizabeth Despuig (7 Sep 1533-24 Mar 1603) %%
 	name=Elizabeth
 	dynasty=10006
@@ -1414,25 +1404,7 @@
 	1414.01.01={birth=yes}
 	1480.01.01={death=yes}
 }
-100100307={ # Thomas de Cañamas (1453-20 Sep 1501); m.1st 1 Oct 1466 Anne Holland (1455-1474); m.2nd 5 Sep 1474 Cecily Bonville (30 Jun 1460-12 May 1529) %%
-	name=Thomas
-	dynasty=10007
-	religion=catholic culture=english
-	mother=100100312	# Elizabeth Woodville
-	1453.01.01={birth=yes}
-	1466.10.01={add_spouse=100100309}	# Anne Holland
-	1474.09.05={add_spouse=100100362}	# Cecily Bonville
-	1501.09.20={death=yes}
-}
-100100308={ # Richard de Cañamas (1457-25 Jun 1483) %%
-	name=Richard
-	dynasty=10007
-	religion=catholic culture=english
-	mother=100100312	# Elizabeth Woodville
-	1457.01.01={birth=yes}
-	1483.06.25={death=yes}
-}
-100100309={ # Anne Holland (1455-1474); m.1 Oct 1466 Thomas de Cañamas (1453-20 Sep 1501) %%
+100100309={ # Anne Holland (1455-1474); m.1 Oct 1466 Thomas Grey (1453-20 Sep 1501) %%
 	name=Anne
 	dynasty=10057
 	female=yes
@@ -1813,7 +1785,7 @@
 	1516.03.11={birth=yes}
 	1522.01.01={death=yes}
 }
-100100359={ # Frances Brandon (16 Jul 1517-20 Nov 1559); m.1533 Henry de Cañamas (17 Jan 1517-23 Feb 1554) %%
+100100359={ # Frances Brandon (16 Jul 1517-20 Nov 1559); m.1533 Henry Grey (17 Jan 1517-23 Feb 1554) %%
 	name=Frances
 	dynasty=10081
 	female=yes
@@ -1842,7 +1814,7 @@
 	1523.01.01={birth=yes}
 	1534.03.01={death=yes}
 }
-100100362={ # Cecily Bonville (30 Jun 1460-12 May 1529); m.5 Sep 1474 Thomas de Cañamas (1453-20 Sep 1501) %%
+100100362={ # Cecily Bonville (30 Jun 1460-12 May 1529); m.5 Sep 1474 Thomas Grey (1453-20 Sep 1501) %%
 	name=Cecily
 	dynasty=10083
 	female=yes
@@ -1850,31 +1822,81 @@
 	1460.06.30={birth=yes}
 	1529.05.12={death=yes}
 }
-100100363={ # Thomas de Cañamas (22 Jun 1477-10 Oct 1530) %%
-	name=Thomas
-	dynasty=10007
+
+100100308={ # Richard Grey (1457-25 Jun 1483) %%
+	name=Richard
+	dynasty=20007
 	religion=catholic culture=english
-	father=100100307	# Thomas de Cañamas
-	mother=100100362	# Cecily Bonville
-	1477.06.22={birth=yes}
-	1530.10.10={death=yes}
+	mother=100100312	# Elizabeth Woodville
+	1457.01.01={birth=yes}
+	1483.06.25={death=yes}
 }
-100100364={ # Henry de Cañamas (17 Jan 1517-23 Feb 1554); m.1533 Frances Brandon (16 Jul 1517-20 Nov 1559) %%
-	name=Henry
-	dynasty=10007
-	religion=anglican culture=english
-	father=100100363	# Thomas de Cañamas
-	1517.01.17={birth=yes}
-	1533.01.01={add_spouse=100100359}	# Frances Brandon
-	1554.02.23={death=yes}
+100100307={ # Thomas Grey (1453-20 Sep 1501); m.1st 1 Oct 1466 Anne Holland (1455-1474); m.2nd 5 Sep 1474 Cecily Bonville (30 Jun 1460-12 May 1529) %%
+	name=Thomas
+	dynasty=20007
+	religion=catholic culture=english
+	mother=100100312	# Elizabeth Woodville
+	1453.01.01={birth=yes}
+	1466.10.01={add_spouse=100100309}	# Anne Holland
+	1474.09.05={add_spouse=100100362}	# Cecily Bonville
+	1501.09.20={death=yes}
 }
-100100365={ # Guildford Dudley (1535-12 Feb 1554); m.25 May 1553 Jane de Cañamas (1536-12 Feb 1554) %%
+	100100363={ # Thomas (22 Jun 1477-10 Oct 1530) %%
+		name=Thomas
+		dynasty=20007
+		religion=catholic culture=english
+		father=100100307	# Thomas Grey
+		mother=100100362	# Cecily Bonville
+		1477.06.22={birth=yes}
+		1530.10.10={death=yes}
+	}
+		100100364={ # Henry (17 Jan 1517-23 Feb 1554); m.1533 Frances Brandon (16 Jul 1517-20 Nov 1559) %%
+			name=Henry
+			dynasty=20007
+			religion=anglican culture=english
+			father=100100363	# Thomas Grey
+			1517.01.17={birth=yes}
+			1533.01.01={add_spouse=100100359}	# Frances Brandon
+			1554.02.23={death=yes}
+		}
+			100100337={ # Jane (1536-12 Feb 1554); m.25 May 1553 Guildford Dudley (1535-12 Feb 1554) %%
+				name=Jane
+				dynasty=20007
+				female=yes
+				religion=anglican culture=english
+				father=100100364	# Henry Grey
+				mother=100100359	# Frances Brandon
+				1536.01.01={birth=yes}
+				1554.02.12={death=yes}
+			}
+			100100336={ # Catherine (25 Aug 1540-26 Jan 1568) %%
+				name=Catherine
+				dynasty=20007
+				female=yes
+				religion=anglican culture=english
+				father=100100364	# Henry Grey
+				mother=100100359	# Frances Brandon
+				1540.08.25={birth=yes}
+				1568.01.26={death=yes}
+			}
+			100100343={ # Mary (1545-20 Apr 1578) %%
+				name=Mary
+				dynasty=20007
+				female=yes
+				religion=anglican culture=english
+				father=100100364	# Henry Grey
+				mother=100100359	# Frances Brandon
+				1545.01.01={birth=yes}
+				1578.04.20={death=yes}
+			}
+		
+100100365={ # Guildford Dudley (1535-12 Feb 1554); m.25 May 1553 Jane Grey (1536-12 Feb 1554) %%
 	name=Guildford
 	dynasty=10082
 	religion=anglican culture=english
 	father=100100366	# John Dudley
 	1535.01.01={birth=yes}
-	1553.05.25={add_spouse=100100337}	# Jane de Cañamas
+	1553.05.25={add_spouse=100100337}	# Jane Grey
 	1554.02.12={death=yes}
 }
 100100366={ # John Dudley (1504-22 Aug 1553) %%
@@ -1883,26 +1905,6 @@
 	religion=anglican culture=english
 	1504.01.01={birth=yes}
 	1553.08.22={death=yes}
-}
-100100336={ # Catherine de Cañamas (25 Aug 1540-26 Jan 1568) %%
-	name=Catherine
-	dynasty=10007
-	female=yes
-	religion=anglican culture=english
-	father=100100364	# Henry de Cañamas
-	mother=100100359	# Frances Brandon
-	1540.08.25={birth=yes}
-	1568.01.26={death=yes}
-}
-100100343={ # Mary de Cañamas (1545-20 Apr 1578) %%
-	name=Mary
-	dynasty=10007
-	female=yes
-	religion=anglican culture=english
-	father=100100364	# Henry de Cañamas
-	mother=100100359	# Frances Brandon
-	1545.01.01={birth=yes}
-	1578.04.20={death=yes}
 }
 100100375={ # Marie of Guise (22 Nov 1515-11 Jun 1560); m.18 May 1538 James Stewart (10 Apr 1512-14 Dec 1542) %%
 	name=Marie	
@@ -1957,15 +1959,6 @@
 	1669.01.01={birth=yes}
 	1690.01.01={death=yes}
 }
-100007265={ # Christian Welf (1671-1703) %%
-	name=Christian
-	dynasty=1051
-	religion=lutheran culture=german
-	father=100001186	# Ernst August v. Hannover
-	mother=100007994	# Sophie v. Wittelsbach
-	1671.01.01={birth=yes}
-	1703.01.01={death=yes}
-}
 100100539={ # Tane Lewis (b.25 May 2012) %%
 	name=Tane
 	dynasty=10117
@@ -1973,39 +1966,6 @@
 	father=100087377	# Gary Christie Lewis
 	mother=100063318	# Davina Windsor
 	2012.05.25={birth=yes}
-}
-100100583={ # Giric Mac Ailpin (0839-0889) %%
-	name=Giric
-	dynasty=10128
-	religion=catholic culture=scottish
-	father=6022	# Donald Mac Ailpin
-	839.01.01={birth=yes}
-	889.01.01={death=yes}
-}
-100100588={ # Eochaid Mac Ailpin (0950-0971) %%
-	name=Eochaid
-	dynasty=10128
-	religion=catholic culture=scottish
-	father=6028	# Indulf Mac Ailpin
-	950.01.01={birth=yes}
-	971.01.01={death=yes}
-}
-100100591={ # Amlaíb Mac Ailpin (0945-0977) %%
-	name=Amlaíb
-	dynasty=10128
-	religion=catholic culture=scottish
-	father=6028	# Indulf Mac Ailpin
-	945.01.01={birth=yes}
-	977.01.01={death=yes}
-}
-100100600={ # Olith Mac Ailpin (0990-1034) %%
-	name=Olith
-	dynasty=10128
-	female=yes
-	religion=catholic culture=scottish
-	father=980	# Malcolm Mac Ailpin
-	990.01.01={birth=yes}
-	1034.01.01={death=yes}
 }
 100100603={ # Macbeth Murray (1015-15 Aug 1057) %%
 	name=Macbeth
