@@ -321,14 +321,6 @@
 }
 
 #[HOHENLOHE, SOLMS, SCHWARZBURG, SALM, WITTELSBACH, BADEN, SCHLESWIG, OLDENBURG, ERBACH, NASSAU, HESSEN, LANNOY, LORRAINE, ISENBURG, LIPPE, WETTIN, BRAUNSCHWEIG]
-100094595={ # Gf         Johann Ludwig             von Nasau-Wiesbaden                      (1563-1596)
-	name="Johann Ludwig von Nasau-Wiesbaden"
-	dynasty=0
-	religion=catholic culture=german
-	1563.01.01={birth=yes}  # EST.
-	1588.12.02={add_spouse=100037185}	# Marie v. Nassau-Siegen
-	1596.01.01={death=yes}
-}
 100095419={ # Gf         Ruprecht                  von Nassau                               (1337-1390)
 	name="Ruprecht von Nassau"
 	dynasty=0
@@ -568,6 +560,14 @@
 	religion=lutheran culture=german
 	1440.01.01={birth=yes}
 	1480.03.01={death=yes}
+}
+100094595={ # Gf         Johann Ludwig             von Nassau-Wiesbaden                     (1563-1596)
+	name="Johann Ludwig von Nasau-Wiesbaden"
+	dynasty=0
+	religion=catholic culture=german
+	1563.01.01={birth=yes}  # EST.
+	1588.12.02={add_spouse=100037185}	# Marie v. Nassau-Siegen
+	1596.01.01={death=yes}
 }
 100094559={ # Gfn        Anna Katharina            von Nassau-Wiesbaden                     (1590-1622)     5
 	name="Anna Katharina von Nassau-Wiesbaden"
@@ -2149,21 +2149,13 @@
 }
 
 #[HOHENLOHE, SOLMS, CASTELL, WALDBURG, SAYN, SCHONBURG, PUTBUS, SALM, ORSINI, BIRON, OLDENBURG, LIPPE, WETTIN]
-100096234={ # Gfn        Karoline                  von Löwenstein-Wertheim                  (1766-1830)
+100096234={ # Gfn        Karoline                  zu Löwenstein-Wertheim                   (1766-1830)
 	name="Karoline von Löwenstein-Wertheim"
 	female=yes
 	dynasty=0
 	religion=lutheran culture=german
 	1766.12.19={birth=yes}  # Wertheim
 	1830.11.17={death=yes}  # Michelbach
-}
-100095841={ # Gf         Friedrich Eberhard        von Löwenstein-Wertheim-Virneburg        (1629-1683)
-	name="Friedrich Eberhard von Löwenstein-Wertheim-Virneburg"
-	dynasty=0
-	religion=lutheran culture=german
-	1629.08.12={birth=yes}
-	1667.08.26={add_spouse=100002951}	# Ottilie zur Lippe
-	1683.03.23={death=yes}
 }
 100094207={ # Fst        Ernst Alban               zu Löwenstein-Wertheim-Freudenberg       (1854-1931)
 	name="Ernst Alban zu Löwenstein-Wertheim-Freudenberg"
@@ -2308,6 +2300,14 @@
 	1659.01.19={birth=yes}
 	1701.02.05={death=yes}
 }
+100095841={ # Gf         Friedrich Eberhard        zu Löwenstein-Wertheim-Virneburg         (1629-1683)
+	name="Friedrich Eberhard von Löwenstein-Wertheim-Virneburg"
+	dynasty=0
+	religion=lutheran culture=german
+	1629.08.12={birth=yes}
+	1667.08.26={add_spouse=100002951}	# Ottilie zur Lippe
+	1683.03.23={death=yes}
+}
 100094223={ # Gf         Johann Philipp            zu Löwenstein-Wertheim-Virneburg         (1718-1757)
 	name="Johann Philipp zu Löwenstein-Wertheim-Virneburg"
 	dynasty=0
@@ -2383,14 +2383,6 @@
 	1440.09.29={add_spouse=100002055}	# Elisabeth v. Hohenzollern
 	1451.01.01={death=yes}
 }
-100094096={ # Duke       Wratislaw                 von Pommern                              (1429-1478)
-	name="Wratislaw von Pommern"
-	dynasty=0
-	religion=catholic culture=german
-	1429.01.01={birth=yes}
-	1454.03.05={add_spouse=100002055}	# Elisabeth v. Hohenzollern
-	1478.12.17={death=yes}
-}
 100094368={ # Duke       Bogislaw                  von Pommern                              (1454-1523)  2
 	name="Bogislaw von Pommern"
 	dynasty=0
@@ -2436,7 +2428,7 @@
 	name="Bogislaw von Pommern"
 	dynasty=0
 	religion=catholic culture=german
-	1576.01.01={birth=yes}
+	1544.01.01={birth=yes}
 	1601.05.31={add_spouse=100005297}	# Anna von Oldenburg
 	1606.03.17={death=yes}
 }
@@ -2452,7 +2444,9 @@
 	name="Philipp von Pommern"
 	dynasty=0
 	religion=catholic culture=german
-	1582.01.01={birth=yes}
+	father=100099088
+	mother=100005297
+	1573.07.28={birth=yes}
 	1607.03.10={add_spouse=100005352}	# Sophie von Oldenburg
 	1618.02.03={death=yes}
 }
@@ -2472,11 +2466,13 @@
 	1615.02.19={add_spouse=100005353}	# Elisabeth von Oldenburg
 	1637.03.10={death=yes}
 }
-100084496={ # Pss        Klara                     von Pommern-Barth                        (1574-1623)  2
-	name="Klara von Pommern-Barth"
+100084496={ # Pss        Klara                     von Pommern                              (1574-1623)  2
+	name="Klara von Pommern"
 	female=yes
 	dynasty=0
 	religion=lutheran culture=pommeranian
+	father=100099088
+	mother=100005297
 	1574.07.10={birth=yes}  # Franzburg
 	1623.02.19={death=yes}  # Hitzacker
 }
@@ -2487,6 +2483,14 @@
 	religion=catholic culture=german
 	1349.01.01={birth=yes}
 	1388.06.16={death=yes}
+}
+100084504={ #            Agnes                     von Pommern-Rügen                        (1458-1512)  2  1
+	name="Agnes von Pommern-Rügen"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1434.01.01={birth=yes}
+	1512.05.09={death=yes}
 }
 100092870={ #            Anna                      von Pommern-Stettin                      (1416-1447)
 	name="Anna von Pommern-Stettin"
@@ -2520,13 +2524,13 @@
 	1531.02.05={birth=yes}
 	1592.10.13={death=yes}
 }
-100084504={ #            Agnes                     von Pommern-Wolgast                      (1458-1512)  2  1
-	name="Agnes von Pommern-Wolgast"
-	female=yes
+100094096={ # Duke       Wartislaw                 von Pommern-Wolgast                      (1429-1478)
+	name="Wartislaw von Pommern-Wolgast"
 	dynasty=0
 	religion=catholic culture=german
-	1458.01.01={birth=yes}
-	1512.05.09={death=yes}
+	1429.01.01={birth=yes}
+	1454.03.05={add_spouse=100002055}	# Elisabeth v. Hohenzollern
+	1478.12.17={death=yes}
 }
 100092867={ #            Anna                      von Pommern-Wolgast                      (1554-1626)
 	name="Anna von Pommern-Wolgast"
@@ -7603,7 +7607,7 @@
 }
 
 #[OLDENBURG, HOHENZOLLERN, MECKLENBURG, HABSBURG, WETTIN, WURTTEMBERG, JOGAILAITIS]
-100093466={ # Herzog     Ludwig                    von Bayern                               (1330-1365)
+462744={ # Herzog     Ludwig                    von Bayern                               (1330-1365)
 	name="Ludwig von Bayern"
 	dynasty=0
 	religion=catholic culture=german
@@ -20614,5 +20618,137 @@
 	religion=catholic culture=german
 	1705.01.01={birth=yes}
 	1773.01.01={death=yes}  # EST.
+}
+100098408={ # Gf         Theodor                   Basselet de la Rosée                     (1875-1938)
+	name="Theodor Basselet de la Rosée"
+	dynasty=0
+	religion=catholic culture=german
+	1875.10.22={birth=yes}  # Isareck
+	1903.11.21={add_spouse=100012377}	# Marie Franziska zu Oettingen-Speilberg
+	1938.06.07={death=yes}  # Isareck
+}
+100097184={ # Fst        Hubertus                  Fugger von Babenhausen                   (1946-    )
+	name="Hubertus Fugger von Babenhausen"
+	dynasty=0
+	religion=catholic culture=german
+	1946.11.23={birth=yes}  # Augsburg
+	1977.10.10={add_spouse=100012358}	# Alexandra zu Oettingen-Speilberg
+}
+100098565={ # Gf         Raymund                   Fugger von Babenhausen                   (1810-1867)
+	name="Raymund Fugger von Babenhausen"
+	dynasty=0
+	religion=catholic culture=german
+	1810.06.29={birth=yes}  # Oberkirchberg
+	1842.06.21={add_spouse=100012383}	# Bertha zu Oettingen-Speilberg
+	1867.04.05={death=yes}  # Augsburg
+}
+100092682={ # Gf         Karl                      Seifried von Königsegg-Aulendorf         (1695-1765)
+	name="Karl Seifried von Königsegg-Aulendorf"
+	dynasty=0
+	religion=catholic culture=german
+	1695.01.01={birth=yes}  # EST.
+	1720.01.29={add_spouse=100012334}	# Marie zu Oettingen-Speilberg
+	1765.10.30={death=yes}
+}
+100092684={ # Dss        Therese                   von Schleswig-Holstein-Wiesenburg        (1713-1745)     2
+	name="Therese of Schleswig-Holstein-Wiesenburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1713.12.19={birth=yes}  # Vienna
+	1745.07.14={death=yes}  # Öttingen
+}
+100092685={ # Fst        Ernst Christoph           von Kaunitz                              (1736-1797)
+	name="Ernst Christoph von Kaunitz"
+	dynasty=0
+	religion=catholic culture=german
+	1736.01.01={birth=yes}  # EST.
+	1761.01.12={add_spouse=100012337}	# Marie zu Oettingen-Speilberg
+	1797.05.19={death=yes}  # Vienna
+}
+100092681={ # Gf         Johann Anton              von Proskau                              (1699-1742)
+	name="Johann Anton von Proskau"
+	dynasty=0
+	religion=catholic culture=german
+	1699.01.01={birth=yes}  # EST.
+	1724.05.21={add_spouse=100012333}	# Marie zu Oettingen-Speilberg
+	1742.05.26={death=yes}
+}
+100096837={ # Gfn        Gabriele                  von Rechberg u.Rothenlöwen zu Hohenrechberg (1883-1966)     3
+	name="Gabriele von Rechberg u.Rothenlöwen zu Hohenrechberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1883.11.14={birth=yes}  # Weißenstein
+	1966.10.02={death=yes}  # Munich
+}
+100086764={ # Frn        Johanna Margarethe        von Schwendi                             (1672-1727)     8
+	name="Johanna Margarethe von Schwendi"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1672.06.12={birth=yes}
+	1727.04.25={death=yes}  # Öttingen
+}
+100093200={ # Gfin       Marie Therese             von Waldburg zu Friedberg und Trauchburg (1735-1789)     4
+	name="Marie Therese von Waldburg zu Friedberg und Trauchburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1735.05.27={birth=yes}
+	1789.12.23={death=yes}  # Öttingen
+}
+100098648={ # Gf         Franz Josef               von Wilczek                              (1759-1834)
+	name="Franz Josef von Wilczek"
+	dynasty=0
+	religion=catholic culture=german
+	1759.01.01={birth=yes}  # EST.
+	1784.09.13={add_spouse=100012387}	# Maria zu Oettingen-Speilberg
+	1834.09.27={death=yes}  # Seebarn
+}
+100098811={ # Gf         Josef                     von Wilczek                              (1709-1777)
+	name="Josef von Wilczek"
+	dynasty=0
+	religion=catholic culture=german
+	1709.01.01={birth=yes}  # EST.
+	1734.08.03={add_spouse=100012390}	# Maria zu Oettingen-Speilberg
+	1777.03.01={death=yes}  # Vienna
+}
+100095655={ # Gfn        Georgine Klementine       zu Königsegg-Aulendorf                   (1825-1877)     4
+	name="Georgine Klementine zu Königsegg-Aulendorf"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1825.04.01={birth=yes}  # Pruské
+	1877.06.07={death=yes}  # Graz
+}
+100096890={ # Gfn        Elisabeth                 zu Lynar                                 (1922-2005)     5
+	name="Elisabeth zu Lynar"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1922.05.17={birth=yes}  # Görsldorf Uckermark
+	2005.06.16={death=yes}  # Zusmarshausen Bavaria
+}
+100098169={ #            Peter                     Gollwitzer                               (1950-    )
+	name="Peter Gollwitzer"
+	dynasty=0
+	religion=catholic culture=german
+	1950.06.29={birth=yes}  # Nabburg
+	1990.08.10={add_spouse=100012368}	# Gabriele zu Oettingen-Speilberg
+}
+100097382={ #            Angela                    Jank                                     (1951-    )     4
+	name="Angela Jank"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1951.10.20={birth=yes}  # Neuhaus bei Schliersee
+}
+100097413={ #            Carl-Christian            Oetker                                   (1989-    )
+	name="Carl-Christian Oetker"
+	dynasty=0
+	religion=catholic culture=german
+	1989.01.01={birth=yes}  # EST.
+	2014.07.12={add_spouse=100012363}	# Theresa zu Oettingen-Speilberg
 }
 

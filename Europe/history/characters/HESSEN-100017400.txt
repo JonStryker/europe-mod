@@ -5,337 +5,137 @@
 ######################################################
 
 
-## EARLY
-100001468={ # Leudese v. Hessen (0635-0680); m.0660 Hiltrude de Bourgogne (0635-0710) %%
-	name=Leudese #  492831/leudese-von-maasgau/
+## EARLY											
+100001531={ # Herman (1340-10 Jun 1413); m.1383 Margarethe von Hohenzollern (1362-15 Jan 1406) %%
+	name=Herman #  68554/herman-ii-Landgr-of-hesse/
 	dynasty=1002012
 	religion=catholic culture=german
-	0635.01.01={birth=yes}
-	0660.01.01={add_spouse=100082093}	# Hiltrude de Bourgogne
-	0680.01.01={death=yes}
+	father=33403	# Ludwig v. Hessen
+	1340.01.01={birth=yes}
+	1383.01.01={add_spouse=100092288}	# Margarethe von Hohenzollern
+	1413.06.10={death=yes}
 }
-	100001545={ # Adalric (0660-0712) %%
-		name=Adalric #  486623/adalric-i-von-maasgau/
+	100001546={ # Ludwig (6 Feb 1402-17 Jan 1458); m.13 Sep 1436 Anna von Sachsen (5 Jun 1420-17 Sep 1462) %%
+		name=Ludwig #  60894/ludwig-i-Landgr-of-hesse/
 		dynasty=1002012
 		religion=catholic culture=german
-		father=100001468	# Leudese v. Hessen
-		mother=100082093	# Hiltrude de Bourgogne
-		0660.01.01={birth=yes}
-		0712.01.01={death=yes}
+		father=100001531	# Herman v. Hessen
+		mother=100092288	# Margarethe von Hohenzollern
+		1402.02.06={birth=yes}
+		1436.09.13={add_spouse=100092987}	# Anna von Sachsen
+		1458.01.17={death=yes}
 	}
-		100001478={ # Adalbert (0690-0737) %%
-			name=Adalbert #  477557/adalbert-i-von-maasgau/
+		100001475={ # Ludwig (7 Sep 1438-8 Nov 1471); m.28 Apr 1454 Matilde v. Württemberg (1435-6 Jun 1495) %%
+			name=Ludwig #  34905/ludwig-ii-Landgr-of-hesse/
 			dynasty=1002012
 			religion=catholic culture=german
-			father=100001545	# Adalric v. Hessen
-			0690.01.01={birth=yes}
-			0737.01.01={death=yes}
+			father=100001546	# Ludwig v. Hessen
+			mother=100092987	# Anna von Sachsen
+			1438.09.07={birth=yes}
+			1454.04.28={add_spouse=100008097}	# Matilde v. Württemberg
+			1471.11.08={death=yes}
 		}
-			100001548={ # Liutfried (0715-0790) %%
-				name=Liutfried #  470505/liutfried-i-von-maasgau/
+			100192206={ # Wilhelm (1466-8 Feb 1515) %%
+				name=Wilhelm
 				dynasty=1002012
 				religion=catholic culture=german
-				father=100001478	# Adalbert v. Hessen
-				0715.01.01={birth=yes}
-				0790.01.01={death=yes}
+				father=100001475	# Ludwig v. Hessen
+				mother=100008097	# Matilde v. Württemberg
+				1466.01.01={birth=yes}
+				1515.02.08={death=yes}
 			}
-				100001476={ # Manfred (0740-0789) %%
-					name=Manfred #  343653/manfred-von-maasgau/
+				100092206={ # Elisabeth (1503-Lauingen 4 Jan 1563); m.1st 10 Sep 1525 Ludwig v. Wittelsbach (Zweibrücken 14 Sep 1502-Zweibrücken 3 Dec 1532); m.2nd 9 Jan 1541 Georg v. Wittelsbach (20 Feb 1518-Simmern 17 May 1569) %%
+					name=Elisabeth
+					female=yes
 					dynasty=1002012
 					religion=catholic culture=german
-					father=100001548	# Liutfried v. Hessen
-					0740.01.01={birth=yes}
-					0789.01.01={death=yes}
+					father=100192206	# Wilhelm v. Hessen
+					1503.01.01={birth=yes}
+					1563.01.04={death=yes}  # Lauingen
 				}
-					100001483={ # Adalbert (0770-0819) %%
-						name=Adalbert #  339383/adalbert-ii-von-maasgau/
-						dynasty=1002012
-						religion=catholic culture=german
-						father=100001476	# Manfred v. Hessen
-						0770.01.01={birth=yes}
-						0819.01.01={death=yes}
-					}
-						100001504={ # Giselbert (0830-0905); m.0855 Pss Irmengarde Karling (0830-0849) %%
-							name=Giselbert #  73924/giselbert-count-in-maasgau-und-darnau/
-							dynasty=1002012
-							religion=catholic culture=german
-							father=100001483	# Adalbert v. Hessen
-							0830.01.01={birth=yes}
-							0855.01.01={add_spouse=100092067}	# PSS Irmengarde Karling
-							0905.01.01={death=yes}
-						}
-							100001469={ # Reginar (0850-0925); m.0889 Alberade de Lorraine (0850-0925) %%
-								name=Reginar #  73783/reginar-i-langhals-count-of-hainaut-et-de-mons/
-								dynasty=1002012
-								religion=catholic culture=german
-								father=100001504	# Giselbert v. Hessen
-								mother=100092067	# PSS Irmengarde Karling
-								0850.01.01={birth=yes}
-								0889.01.01={add_spouse=100082564}	# Alberade de Lorraine
-								0925.01.01={death=yes}
-							}
-								100001471={ # Reginar (0890-0965); m.0915 Adélaïde de Bourgogne (0905-0980) %%
-									name=Reginar #  73784/reginar-ii-count-of-hainaut/
-									dynasty=1002012
-									religion=catholic culture=german
-									father=100001469	# Reginar v. Hessen
-									mother=100082564	# Alberade de Lorraine
-									0890.01.01={birth=yes}
-									0915.01.01={add_spouse=100082094}	# Adélaïde de Bourgogne
-									0965.01.01={death=yes}
-								}
-									100001470={ # Reginar (0930-1005); m.0955 Adela von Dachsburg (0891-0961) %%
-										name=Reginar #  73785/reginar-iii-count-of-hainaut/
-										dynasty=1002012
-										religion=catholic culture=german
-										father=100001471	# Reginar v. Hessen
-										mother=100082094	# Adélaïde de Bourgogne
-										0930.01.01={birth=yes}
-										0955.01.01={add_spouse=100091804}	# Adela von Dachsburg
-										1005.01.01={death=yes}
-									}
-										100001550={ # Lambert (0955-12 Sep 1015); m.0980 Gerberge de Basse-Lorraine (0970-1015) %%
-											name=Lambert #  73716/lambert-i-count-of-louvain/
-											dynasty=1002012
-											religion=catholic culture=german
-											father=100001470	# Reginar v. Hessen
-											mother=100091804	# Adela von Dachsburg
-											0955.01.01={birth=yes}
-											0980.01.01={add_spouse=100082019}	# Gerberge de Basse-Lorraine
-											1015.09.12={death=yes}
-										}
-											100001549={ # Lambert (0992-21 Sep 1062); m.1017 Uda de Lorraine (1001-1076) %%
-												name=Lambert #  73717/lambert-ii-count-of-louvain/
-												dynasty=1002012
-												religion=catholic culture=german
-												father=100001550	# Lambert v. Hessen
-												mother=100082019	# Gerberge de Basse-Lorraine
-												0992.01.01={birth=yes}
-												1017.01.01={add_spouse=100082565}	# Uda de Lorraine
-												1062.09.21={death=yes}
-											}
-												100001484={ # Henri (1026-1101); m.1051 Adela van der Betuwe (1035-1110) %%
-													name=Henri #  73650/henri-ii-count-of-louvain/
-													dynasty=1002012
-													religion=catholic culture=german
-													father=100001549	# Lambert v. Hessen
-													mother=100082565	# Uda de Lorraine
-													1026.01.01={birth=yes}
-													1051.01.01={add_spouse=100091274}	# Adela van der Betuwe
-													1101.01.01={death=yes}
-												}
-													100001466={ # Godfried (1060-25 Jan 1139); m.1099 Ide de Chiny et Namur (1080-1120) %%
-														name=Godfried #  48901/godfried-i-met-de-baard-count-of-brabant/
-														dynasty=1002012
-														religion=catholic culture=german
-														father=100001484	# Henri v. Hessen
-														mother=100091274	# Adela van der Betuwe
-														1060.01.01={birth=yes}
-														1099.01.01={add_spouse=100082212}	# Ide de Chiny et Namur
-														1139.01.25={death=yes}
-													}
-														100001467={ # Godfried (1100-1175); m.1125 Lutgarde von Sulzbach (1100-1175) %%
-															name=Godfried #  65296/godfried-ii-de-jonge-van-brabant/
-															dynasty=1002012
-															religion=catholic culture=german
-															father=100001466	# Godfried v. Hessen
-															mother=100082212	# Ide de Chiny et Namur
-															1100.01.01={birth=yes}
-															1125.01.01={add_spouse=100093235}	# Lutgarde von Sulzbach
-															1175.01.01={death=yes}
-														}
-															100001551={ # Godefroy (1142-10 Aug 1190); m.1167 Marguerite de Limburg (1142-1172) %%
-																name=Godefroy #  8694/godefroy-iii-duke-of-basse-lorraine/
-																dynasty=1002012
-																religion=catholic culture=german
-																father=100001467	# Godfried v. Hessen
-																mother=100093235	# Lutgarde von Sulzbach
-																1142.01.01={birth=yes}
-																1167.01.01={add_spouse=100082552}	# Marguerite de Limburg
-																1190.08.10={death=yes}
-															}
-																100001493={ # Henri (1168-5 Sep 1235); m.1199 Mathilde de Boulogne (1170-1210) %%
-																	name=Henri #  9664/henri-i-duke-of-brabant/
-																	dynasty=1002012
-																	religion=catholic culture=german
-																	father=100001551	# Godefroy v. Hessen
-																	mother=100082552	# Marguerite de Limburg
-																	1168.01.01={birth=yes}
-																	1199.01.01={add_spouse=100082084}	# Mathilde de Boulogne
-																	1235.09.05={death=yes}
-																}
-																	100001474={ # Henri (1200-1 Feb 1248); m.1240 Sophie von Thüringen (20 Mar 1224-29 May 1275) %%
-																		name=Henri #  63317/henri-ii-duke-of-brabant/
-																		dynasty=1002012
-																		religion=catholic culture=german
-																		father=100001493	# Henri v. Hessen
-																		mother=100082084	# Mathilde de Boulogne
-																		1200.01.01={birth=yes}
-																		1240.01.01={add_spouse=100093276}	# Sophie von Thüringen
-																		1248.02.01={death=yes}
-																	}
-														
-100001479={ # Heinrich v. Hessen (24 Jun 1244-21 Dec 1308); m.10 Sep 1263 Adelheid von Braunschweig-Lüneburg (1244-12 Jun 1274) %%
-	name=Heinrich #  74100/heinrich-i-Landgr-of-hesse/
-	dynasty=1002012
-	religion=catholic culture=german
-	father=100001474	# Henri v. Hessen
-	mother=100093276	# Sophie von Thüringen
-	1244.06.24={birth=yes}
-	1263.09.10={add_spouse=100091701}	# Adelheid von Braunschweig-Lüneburg
-	1308.12.21={death=yes}
-}
-	100001460={ # Otto (1270-17 Jan 1328); m.1297 Gfn Adelheid von Ravensburg (1275-3 Apr 1338) %%
-		name=Otto #  62723/otto-i-Landgr-of-hesse/
-		dynasty=1002012
-		religion=catholic culture=german
-		father=100001479	# Heinrich v. Hessen
-		mother=100091701	# Adelheid von Braunschweig-Lüneburg
-		1270.01.01={birth=yes}
-		1297.01.01={add_spouse=100092921}	# GFN Adelheid von Ravensburg
-		1328.01.17={death=yes}
-	}
-		100001542={ # Ludwig (1298-2 Feb 1345); m.1323 Gfn Elisabeth von Sponheim-Kreuznach (1300-1365) %%
-			name=Ludwig #  70349/ludwig-i-of-hesse/
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001460	# Otto v. Hessen
-			mother=100092921	# GFN Adelheid von Ravensburg
-			1298.01.01={birth=yes}
-			1323.01.01={add_spouse=100093173}	# GFN Elisabeth von Sponheim-Kreuznach
-			1345.02.02={death=yes}
-		}
-			100001531={ # Herman (1340-10 Jun 1413); m.1383 Margarethe von Hohenzollern (1362-15 Jan 1406) %%
-				name=Herman #  68554/herman-ii-Landgr-of-hesse/
+			100001547={ # Wilhelm (29 Mar 1469-Kassel 11 Jul 1509); m.1st 1497 Yolande de Lorraine (1463-21 May 1501); m.2nd 20 Oct 1500 Anna v. Mecklenburg (Plau 14 Sep 1485-Rödelheim 12 May 1525) %%
+				name=Wilhelm #  2274/wilhelm-ii-Landgr-of-hesse/
 				dynasty=1002012
-				religion=catholic culture=german
-				father=100001542	# Ludwig v. Hessen
-				mother=100093173	# GFN Elisabeth von Sponheim-Kreuznach
-				1340.01.01={birth=yes}
-				1383.01.01={add_spouse=100092288}	# Margarethe von Hohenzollern
-				1413.06.10={death=yes}
+				religion=lutheran culture=german
+				father=100001475	# Ludwig v. Hessen
+				mother=100008097	# Matilde v. Württemberg
+				1469.03.29={birth=yes}
+				1497.01.01={add_spouse=100066118}	# Yolande de Lorraine
+				1500.10.20={add_spouse=100002908}	# Anna v. Mecklenburg
+				1509.07.11={death=yes}  # Kassel
 			}
-				100001546={ # Ludwig (6 Feb 1402-17 Jan 1458); m.13 Sep 1436 Anna von Sachsen (5 Jun 1420-17 Sep 1462) %%
-					name=Ludwig #  60894/ludwig-i-Landgr-of-hesse/
+				100092208={ # Elisabeth (Marburg 4 Mar 1502-Schmalkalden 6 Dec 1557); m.20 May 1516 Johann v. Wettin (Dresden 24 Aug 1498-Dresden 11 Jan 1537) %%
+					name=Elisabeth
+					female=yes
 					dynasty=1002012
 					religion=catholic culture=german
-					father=100001531	# Herman v. Hessen
-					mother=100092288	# Margarethe von Hohenzollern
-					1402.02.06={birth=yes}
-					1436.09.13={add_spouse=100092987}	# Anna von Sachsen
-					1458.01.17={death=yes}
+					father=100001547	# Wilhelm v. Hessen
+					mother=100002908	# Anna v. Mecklenburg
+					1502.03.04={birth=yes}  # Marburg
+					1557.12.06={death=yes}  # Schmalkalden
 				}
-					100001475={ # Ludwig (7 Sep 1438-8 Nov 1471); m.28 Apr 1454 Matilde v. Württemberg (1435-6 Jun 1495) %%
-						name=Ludwig #  34905/ludwig-ii-Landgr-of-hesse/
+				100001540={ # Philipp (13 Nov 1504-1 Mar 1567); m.11 Dec 1523 Christine v. Wettin (25 Dec 1505-Kassel 15 Apr 1549) %%
+					name=Philipp #  2639/philipp-i-Landgr-of-hesse/
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001547	# Wilhelm v. Hessen
+					mother=100002908	# Anna v. Mecklenburg
+					1504.11.13={birth=yes}
+					1523.12.11={add_spouse=100007539}	# Christine v. Wettin
+					1567.03.01={death=yes}
+				}	
+					100092209={ # Agnes (Marburg 31 May 1527-Weimar 4 Nov 1555); m.1st 11 Jan 1541 Moritz v. Wettin (Freiberg 21 Mar 1521-11 Jul 1553); m.2nd 26 May 1555 Johann Friedrich v. Wettin (Torgau 8 Jan 1529-9 May 1595) %%
+						name=Agnes
+						female=yes
 						dynasty=1002012
 						religion=catholic culture=german
-						father=100001546	# Ludwig v. Hessen
-						mother=100092987	# Anna von Sachsen
-						1438.09.07={birth=yes}
-						1454.04.28={add_spouse=100008097}	# Matilde v. Württemberg
-						1471.11.08={death=yes}
+						father=100001540	# Philipp v. Hessen
+						mother=100007539	# Christine v. Wettin
+						1527.05.31={birth=yes}  # Marburg
+						1555.11.04={death=yes}  # Weimar
 					}
-						100192206={ # Wilhelm (1466-8 Feb 1515) %%
-							name=Wilhelm
-							dynasty=1002012
-							religion=catholic culture=german
-							father=100001475	# Ludwig v. Hessen
-							mother=100008097	# Matilde v. Württemberg
-							1466.01.01={birth=yes}
-							1515.02.08={death=yes}
-						}
-							100092206={ # Elisabeth (1503-Lauingen 4 Jan 1563); m.1st 10 Sep 1525 Ludwig v. Wittelsbach (Zweibrücken 14 Sep 1502-Zweibrücken 3 Dec 1532); m.2nd 9 Jan 1541 Georg v. Wittelsbach (20 Feb 1518-Simmern 17 May 1569) %%
-								name=Elisabeth
-								female=yes
-								dynasty=1002012
-								religion=catholic culture=german
-								father=100192206	# Wilhelm v. Hessen
-								1503.01.01={birth=yes}
-								1563.01.04={death=yes}  # Lauingen
-							}
-						100001547={ # Wilhelm (29 Mar 1469-Kassel 11 Jul 1509); m.1st 1497 Yolande de Lorraine (1463-21 May 1501); m.2nd 20 Oct 1500 Anna v. Mecklenburg (Plau 14 Sep 1485-Rödelheim 12 May 1525) %%
-							name=Wilhelm #  2274/wilhelm-ii-Landgr-of-hesse/
-							dynasty=1002012
-							religion=lutheran culture=german
-							father=100001475	# Ludwig v. Hessen
-							mother=100008097	# Matilde v. Württemberg
-							1469.03.29={birth=yes}
-							1497.01.01={add_spouse=100066118}	# Yolande de Lorraine
-							1500.10.20={add_spouse=100002908}	# Anna v. Mecklenburg
-							1509.07.11={death=yes}  # Kassel
-						}
-							100092208={ # Elisabeth (Marburg 4 Mar 1502-Schmalkalden 6 Dec 1557); m.20 May 1516 Johann v. Wettin (Dresden 24 Aug 1498-Dresden 11 Jan 1537) %%
-								name=Elisabeth
-								female=yes
-								dynasty=1002012
-								religion=catholic culture=german
-								father=100001547	# Wilhelm v. Hessen
-								mother=100002908	# Anna v. Mecklenburg
-								1502.03.04={birth=yes}  # Marburg
-								1557.12.06={death=yes}  # Schmalkalden
-							}
-							100001540={ # Philipp (13 Nov 1504-1 Mar 1567); m.11 Dec 1523 Christine v. Wettin (25 Dec 1505-Kassel 15 Apr 1549) %%
-								name=Philipp #  2639/philipp-i-Landgr-of-hesse/
-								dynasty=1002012
-								religion=catholic culture=german
-								father=100001547	# Wilhelm v. Hessen
-								mother=100002908	# Anna v. Mecklenburg
-								1504.11.13={birth=yes}
-								1523.12.11={add_spouse=100007539}	# Christine v. Wettin
-								1567.03.01={death=yes}
-							}	
-								100092209={ # Agnes (Marburg 31 May 1527-Weimar 4 Nov 1555); m.1st 11 Jan 1541 Moritz v. Wettin (Freiberg 21 Mar 1521-11 Jul 1553); m.2nd 26 May 1555 Johann Friedrich v. Wettin (Torgau 8 Jan 1529-9 May 1595) %%
-									name=Agnes
-									female=yes
-									dynasty=1002012
-									religion=catholic culture=german
-									father=100001540	# Philipp v. Hessen
-									mother=100007539	# Christine v. Wettin
-									1527.05.31={birth=yes}  # Marburg
-									1555.11.04={death=yes}  # Weimar
-								}
-								100092207={ # Anna (Kassel 26 Oct 1529-Meisenheim 10 Jul 1591); m.8 Mar 1545 Wolfgang v. Wittelsbach (Zweibrücken 26 Sep 1526-Nassum 11 Jun 1569) %%
-									name=Anna
-									female=yes
-									dynasty=1002012
-									religion=catholic culture=german
-									father=100001540	# Philipp v. Hessen
-									mother=100007539	# Christine v. Wettin
-									1529.10.26={birth=yes}  # Kassel
-									1591.07.10={death=yes}  # Meisenheim
-								}
-								# KASSEL -> Landgf Wilhelm IV
-								100095568={ # Barbara (8 Apr 1536-8 Jun 1597); m.1555 Georg v. Württemberg (4 Feb 1498-18 Jul 1558) %%
-									name=Barbara
-									female=yes
-									dynasty=1002012
-									religion=catholic culture=german
-									father=100001540	# Philipp v. Hessen
-									mother=100007539	# Christine v. Wettin
-									1536.04.08={birth=yes}
-									1597.06.08={death=yes}
-								}
-								100092205={ # Elisabeth (Kassel 13 Feb 1539-Heidelberg 14 Mar 1582); m.8 Jul 1560 Ludwig v. Wittelsbach (Simmern 4 Jul 1539-Heidelberg 12 Oct 1583) %%
-									name=Elisabeth
-									female=yes
-									dynasty=1002012
-									religion=catholic culture=german
-									father=100001540	# Philipp v. Hessen
-									mother=100007539	# Christine v. Wettin
-									1539.02.13={birth=yes}  # Kassel
-									1582.03.14={death=yes}  # Heidelberg
-								}
-								100092204={ # Christine (29 Jun 1543-13 May 1604); m.16 Dec 1564 Adolf v. Oldenburg-Gottorf (Flensburg 25 Jan 1526-Gottorf 1 Oct 1586) %%
-									name=Christine
-									female=yes
-									dynasty=1002012
-									religion=catholic culture=german
-									father=100001540	# Philipp v. Hessen
-									mother=100007539	# Christine v. Wettin
-									1543.06.29={birth=yes}
-									1604.05.13={death=yes}
-								}
-								# DARMSTADT -> Landgr Georg I
+					100092207={ # Anna (Kassel 26 Oct 1529-Meisenheim 10 Jul 1591); m.8 Mar 1545 Wolfgang v. Wittelsbach (Zweibrücken 26 Sep 1526-Nassum 11 Jun 1569) %%
+						name=Anna
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001540	# Philipp v. Hessen
+						mother=100007539	# Christine v. Wettin
+						1529.10.26={birth=yes}  # Kassel
+						1591.07.10={death=yes}  # Meisenheim
+					}
+					# KASSEL -> Landgf Wilhelm IV
+					100095568={ # Barbara (8 Apr 1536-8 Jun 1597); m.1555 Georg v. Württemberg (4 Feb 1498-18 Jul 1558) %%
+						name=Barbara
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001540	# Philipp v. Hessen
+						mother=100007539	# Christine v. Wettin
+						1536.04.08={birth=yes}
+						1597.06.08={death=yes}
+					}
+					100092205={ # Elisabeth (Kassel 13 Feb 1539-Heidelberg 14 Mar 1582); m.8 Jul 1560 Ludwig v. Wittelsbach (Simmern 4 Jul 1539-Heidelberg 12 Oct 1583) %%
+						name=Elisabeth
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001540	# Philipp v. Hessen
+						mother=100007539	# Christine v. Wettin
+						1539.02.13={birth=yes}  # Kassel
+						1582.03.14={death=yes}  # Heidelberg
+					}
+					100092204={ # Christine (29 Jun 1543-13 May 1604); m.16 Dec 1564 Adolf v. Oldenburg-Gottorf (Flensburg 25 Jan 1526-Gottorf 1 Oct 1586) %%
+						name=Christine
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001540	# Philipp v. Hessen
+						mother=100007539	# Christine v. Wettin
+						1543.06.29={birth=yes}
+						1604.05.13={death=yes}
+					}
+					# DARMSTADT -> Landgr Georg I
 ## EARLY
 																					
 
@@ -861,7 +661,7 @@
 									mother=100091944	# GFN Floria-Franziska von Faber-Castell
 									2007.03.26={birth=yes}
 								}
-								100001564={# August von Hessen (2012-    )
+								100001564={
 									name=August
 									dynasty=1002103
 									religion=lutheran culture=german
