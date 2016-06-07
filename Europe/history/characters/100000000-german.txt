@@ -78,7 +78,6 @@
 ##  100008400-       		Hessen-Philippsthal							1002012
 ##  100008500-       		Arco										1002093
 ##  100008625-100008672		Erbach                   					1002095
-##           				Nassau-Siegen	          					1002097
 ##  100008700				Nostitz-Rieneck	          					1002100
 #################################################################################################
 
@@ -2060,8 +2059,8 @@
 					dynasty=1002078
 					religion=lutheran culture=german
 					father=100004542	# Ernst Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-					1631.01.01={birth=yes}
-					1706.01.01={death=yes}
+					1612.01.01={birth=yes}
+					1790.01.01={death=yes}
 				}
 					100004544={ # 1e) Johann Wilhelm Frhr zu Kynast und Greiffenstein (1656-1697); m.1673 Eva Maria von Zedlitz (1655-1732)
 						name="Johann Wilhelm"
@@ -14588,23 +14587,6 @@
 	1629.01.01={birth=yes}  # Brussels
 	1670.01.01={death=yes}  # Messkirch
 }
-100094469={ # Pss        Flore                     von Arenberg                             (1752-1832)     3
-	name="Flore von Arenberg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1752.06.25={birth=yes}
-	1832.04.15={death=yes}
-}
-100094449={ # Duke       Ernst Engelbert           von Arenberg                             (1777-1857)  2  0
-	name="Ernst Engelbert von Arenberg"
-	dynasty=0
-	religion=catholic culture=german
-	1777.05.25={birth=yes}
-	1800.04.02={add_spouse=100022506}	# Maria Theresia v. Windisch-Graetz
-	1842.09.26={add_spouse=100021587}	# Sophie Caroline v. Auersperg
-	1857.11.20={death=yes}
-}
 
 
 100200203={ # Leopold Philippe v. Arenberg (14 Oct 1690-4 Mar 1754) %%
@@ -14614,7 +14596,7 @@
 	1690.10.14={birth=yes}
 	1754.03.04={death=yes}
 }
-	100089304={ # Marie Flore (Enghien 23 Oct 1722-Brussels 10 Feb 1776); m.12 Jan 1744 Jean de Merode (Ham_sur_Heure 3 Dec 1719-10 Aug 1774) %%
+	100089304={ # Marie Flore (Enghien 23 Oct 1722-Brussels 10 Feb 1776); m.12 Jan 1744 Jean de Merode (Ham-sur-Heure 3 Dec 1719-10 Aug 1774) %%
 		name="Marie Flore"
 		female=yes
 		dynasty=1002040
@@ -15325,6 +15307,14 @@
 			1751.07.31={birth=yes}
 			1812.08.26={death=yes}
 		}
+		100094469={ # Flore v. Arenberg (25 Jun 1752-15 Apr 1832); m.18 Apr 1771 Wolfgang Léonard d’Ursel (29 Apr 1750-17 May 1804) %%
+			name=Flore
+			female=yes
+			dynasty=1002040
+			religion=catholic culture=frankish
+			1752.06.25={birth=yes}
+			1832.04.15={death=yes}
+		}
 		100100187={ # Auguste Marie (1753-1833) %%
 			name="Auguste Marie"
 			dynasty=1002040
@@ -15333,20 +15323,23 @@
 			1753.01.01={birth=yes}
 			1833.01.01={death=yes}
 		}
-			100100188={ # Ernest (1753-1833) %%
-				name=Ernest
+			100094449={ # Ernest Engelbert (Île de France, Paris 25 May 1777-Wiesbaden 20 Nov 1857); m.1st 2 Apr 1800 Maria Theresia v. Windisch-Graetz (4 Mar 1774-22 Jan 1841); m.2nd 26 Sep 1842 Sophie Caroline v. Auersperg (8 Jan 1811-15 Feb 1901) %%
+				name="Ernest Engelbert"
 				dynasty=1002040
-				religion=catholic culture=frankish
+				religion=catholic culture=german
 				father=100100187	# Auguste Marie v. Arenberg
-				1753.01.01={birth=yes}
-				1833.01.01={death=yes}
+				1777.05.25={birth=yes}	# Île de France, Paris
+				1800.04.02={add_spouse=100022506}	# Maria Theresia v. Windisch-Graetz
+				1842.09.26={add_spouse=100021587}	# Sophie Caroline v. Auersperg
+				1857.11.20={death=yes}	# Wiesbaden
 			}
 				100094359={ # Éléonore (19 Feb 1845-28 Nov 1919); m.27 May 1868 Engelbert v. Arenberg (11 May 1824-28 Mar 1875) %%
 					name=Éléonore
 					female=yes
 					dynasty=1002040
 					religion=catholic culture=german
-					father=100100188	# Ernest v. Arenberg
+					father=100094449	# Ernest Engelbert v. Arenberg
+					mother=100021587	# Sophie Caroline v. Auersperg
 					1845.02.19={birth=yes}
 					1919.11.28={death=yes}
 				}

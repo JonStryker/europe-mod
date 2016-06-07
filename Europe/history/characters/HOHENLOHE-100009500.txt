@@ -52,7 +52,7 @@
 					father=100001978	# Philipp Ernst von Hohenlohe
 					mother=100094376	# GFN Anna Maria zu Solms-Sonnenwalde
 					1625.09.05={birth=yes}
-					1652.01.25={add_spouse=100094168}	# GFN Eleonore Magdalena von Hohenlohe-Weikersheim
+					1652.01.25={add_spouse=100094168}	# GFN Eleonore Magdalena zu Hohenlohe-Weikersheim
 					1658.01.01={remove_spouse=100094168}
 					1658.06.27={add_spouse=100094377}	# GFN Juliane Dorothea zu Castell-Remlingen
 					1699.06.05={death=yes}
@@ -64,7 +64,7 @@
 						father=100001979	# Heinrich Friedrich von Hohenlohe
 						mother=100094377	# GFN Juliane Dorothea zu Castell-Remlingen
 						1659.07.06={birth=yes}
-						1686.08.22={add_spouse=100092743}	# GFN Sophie Amalie von Nassau-Saarbrücken
+						1686.08.22={add_spouse=100037335}	# Sofie Amalie v. Nassau-Weilburg
 						1715.04.17={death=yes}
 					}
 						# LANGENBURG -> 1f) Ludwig, cr 1764 Fürst zu Hohenlohe-Langenburg (Langenburg 20 Oct 1696-Langenburg 16 Jan 1765); m.Schloß Lorentzen 25 Jan 1723 Eleonore Gfn von Nassau-Saarbrücken (Saarbrücken 1 Jul 1707-Langenburg 15 Oct 1796)
@@ -75,7 +75,7 @@
 						father=100001979	# Heinrich Friedrich von Hohenlohe
 						mother=100094377	# GFN Juliane Dorothea zu Castell-Remlingen
 						1668.07.15={birth=yes}
-						1701.12.06={add_spouse=100094167}	# GFN Maria Katharina von Hohenlohe-Waldenburg
+						1701.12.06={add_spouse=100094167}	# GFN Maria Katharina zu Hohenlohe-Waldenburg
 						1743.10.02={death=yes}
 					}
 						100001982={	# 1f) Heinrich August, cr 1764 Fst zu Hohenlohe-Ingelfingen (Hermersberg 10 Jul 1715-Ingelfinge 13 Feb 1796); m.Öhringen 26 Sep 1743 Wilhelmine Gfn von Hohenlohe-Oehringen (1717-1794)
@@ -83,22 +83,12 @@
 							dynasty=7138
 							religion=catholic culture=german
 							father=100001981	# Christian Kraft von Hohenlohe
-							mother=100094167	# GFN Maria Katharina von Hohenlohe-Waldenburg
+							mother=100094167	# GFN Maria Katharina zu Hohenlohe-Waldenburg
 							1715.07.10={birth=yes}
 							1743.09.26={add_spouse=100094156}	# GFN Wilhelmine zu Hohenlohe-Oehringen
 							1796.02.13={death=yes}
 						}
-							100001983={	# 1g) Friedrich Ludwig, Fürst zu Hohenlohe-Oehringen (Ingelfingen 31 Jan 1746-Slawentzitz 15 Feb 1818); m.Gleina Kr Querfurt 8 Apr 1782 (div 1799) Marianne Gfn von Hoym, heiress of Slawentzitz (Mainz 6 Oct 1763-Marienhof 20 Apr 1840)
-								name="Friedrich Ludwig"
-								dynasty=7138
-								religion=catholic culture=german
-								father=100001982	# Heinrich August von Hohenlohe
-								mother=100094156	# GFN Wilhelmine zu Hohenlohe-Oehringen
-								1746.01.31={birth=yes}
-								1782.04.08={add_spouse=100092356}	# GFN Marianne von Hoym
-								1799.01.01={remove_spouse=100092356}
-								1818.02.15={death=yes}
-							}
+							# OEHRINGEN -> 1g) Friedrich Ludwig, Fürst zu Hohenlohe-Oehringen (Ingelfingen 31 Jan 1746-Slawentzitz 15 Feb 1818); m.Gleina Kr Querfurt 8 Apr 1782 (div 1799) Marianne Gfn von Hoym, heiress of Slawentzitz (Mainz 6 Oct 1763-Marienhof 20 Apr 1840)
 	100001984={	# 2a) Eberhard Gf von Hohenlohe in Waldenburg (11 Oct 1535-Waldenburg 9 Mar 1570); m.Heuchlingen 20 Nov 1554 Agathe Gfn von Tübingen (11 Nov 1533-Pfedelbach 28 Jun 1609)
 		name=Eberhard
 		dynasty=7138
@@ -181,6 +171,1201 @@
 # 1699.06.05={holder=100009962} # 1e) Albrecht Wolfgang Gf von Hohenlohe-Langenburg 
 # 1715.04.17={holder=100009700} # 1f) Ludwig
 ## top 950-999
+
+
+## HOHENLOHE		1002106
+100002005={ # FRIEDRICH LUDWIG, Fürst zu Hohenlohe-Ingelfingen 13 Feb 1796-1806, Fürst zu Hohenlohe-Oehringen 1805 (Ingelfingen 31 Jan 1746-Slawentzitz 15 Feb 1818); m.Gleina, Kr Querfurt 8 Apr 1782 (div 1799) Amalie Gfn von Hoym (Mainz 6 Oct 1763-Marienhof 20 Apr 1840)
+	name="Friedrich Ludwig"
+	dynasty=1002106
+	religion=catholic culture=german
+	father=100001982	# Heinrich August von Hohenlohe
+	mother=100094156	# GFN Wilhelmine zu Hohenlohe-Oehringen
+	1746.01.31={birth=yes}  # Ingelfingen
+	1782.04.08={add_spouse=100080510}	# Amalie von Hoym
+	1799.01.01={remove_spouse=100080510}
+	1818.02.15={death=yes}  # Slawentzitz
+}
+	100002038={ # 1a) FRIEDRICH AUGUST II Carl Fst zu Hohenlohe-Oehringen, renounced in favor of his son 1849 (Breslau 27 Nov 1784-Slawentzitz 15 Feb 1853); m.Ludwigsburg 28 Sep 1811 Luise Dss of Württemberg (Ludwigsburg 4 Jun 1789-Slawentzitz 16 Jun 1851)
+		name="Friedrich August"
+		dynasty=1002106
+		religion=catholic culture=german
+		father=100002005	# Friedrich Ludwig
+		mother=100080510	# Amalie von Hoym
+		1784.11.27={birth=yes}  # Breslau
+		1811.09.28={add_spouse=100008159}	# Luise of Württemberg
+		1853.02.15={death=yes}  # Slawentzitz
+	}
+		100002045={ # 1b) Friedrich Ludwig Eugen Carl Adalbert Emil August, renounced his rights as first-born son 1842 (Öhringen 12 Aug 1812-Slawentzitz 10 Dec 1892); m.Kochendorf 28 Mar 1844 Mathilde Frn von Breuning (10 Nov 1821-Stuttgart 12 Jan 1896)
+			name=Friedrich
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100002038	# Friedrich August
+			mother=100008159	# Luise of Württemberg
+			1812.08.12={birth=yes}  # Öhringen
+			1844.03.28={add_spouse=100084047}	# Mathilde von Breuning
+			1892.12.10={death=yes}  # Slawentzitz
+		}
+			100002064={ # 1c) Kraft August Frhr von Brauneck (Ingelfingen 27 Dec 1844-Ottlitz 11 Sep 1871)
+				name="Kraft August"
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002045	# Friedrich
+				mother=100084047	# Mathilde von Breuning
+				1844.12.27={birth=yes}  # Ingelfingen
+				1871.09.11={death=yes}  # Ottlitz
+			}
+		100002066={ # 2b) Friederike Mathilde (Öhringen 3 Jul 1814-Schloß Mirabel bei Salzburg 3 Jun 1888); m.Öhringen 29 May 1835 Günther Friedrich Karl Fst von Schwarzburg-Sondershausen (Sondershausen 24 Sep 1801-Sondershausen 15 Sep 1889)
+			name="Friederike Mathilde"
+			female=yes
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100002038	# Friedrich August
+			mother=100008159	# Luise of Württemberg
+			1814.07.03={birth=yes}  # Öhringen
+			1888.06.03={death=yes}  # Schloß Mirabel_bei_Salzburg
+		}
+		100002071={ # 3b) Friedrich Wilhelm Eugen Karl HUGO Fst zu Hohenlohe-Oehringen, Duke von Ujest 18 Oct 1861 (Stuttgart 27 May 1816-Slawentzitz 23 Aug 1897); m.Donaueschingen 15 Apr 1847 Pauline Pss zu Fürstenberg (Donaueschingen 11 Jun 1829-Slawentzitz 23 Aug 1900)
+			name=Hugo
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100002038	# Friedrich August
+			mother=100008159	# Luise of Württemberg
+			1816.05.27={birth=yes}  # Stuttgart
+			1847.04.15={add_spouse=100001083}	# Pauline zu Fürstenberg
+			1897.08.23={death=yes}  # Slawentzitz
+		}
+			100002098={ # 1c) August Karl CHRISTIAN KRAFT Fst zu Hohenlohe-Oehringen, Duke von Ujest (Öhringen 21 Mar 1848-Somogyszob, Hungary 14 May 1926)
+				name="Christian Kraft"
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1848.03.21={birth=yes}  # Öhringen
+				1926.05.14={death=yes}  # Somogyszob Hungary
+			}
+			100002099={ # 2c) Marie Felizitas (Schaffhausen 25 Jul 1849-Mettersdorf 31 Jan 1929); m.Slawentzitz 25 Jun 1877 Heinrich XIX Pr Reuss (Leipzig 30 Aug 1848-Mettersdorf 13 Mar 1904)
+				name=Marie
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1849.07.25={birth=yes}  # Schaffhausen
+				1929.01.31={death=yes}  # Mettersdorf
+			}
+			100002125={ # 3c) Luise Marie (Slawentzitz 14 Jul 1851-Slawentzitz 18 Feb 1920); m.Slawentzitz 24 Jun 1872 Friedrich Ludwig Gf von Frankenberg und Ludwigsdorff (Breslau 5 Feb 1835-Slawentzitz 31 Dec 1897)
+				name=Luise
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1851.07.14={birth=yes}  # Slawentzitz
+				1920.02.18={death=yes}  # Slawentzitz
+			}
+			100002126={ # 4c) August Karl Adolf Emil Alexander (Slawentzitz 2 Jan 1854-San Remo 27 Jan 1884)
+				name=August
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1854.01.02={birth=yes}  # Slawentzitz
+				1884.01.27={death=yes}  # San Remo
+			}
+			100002151={ # 5c) Friedrich Karl (Slawentzitz 21 Sep 1855-Paris 27 Dec 1910); m.London 17 Aug 1892 Marie Gfn von Hatzfeldt (Berlin 10 Jan 1871-Paris 15 Apr 1932)
+				name="Friedrich Karl"
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1855.09.21={birth=yes}  # Slawentzitz
+				1892.08.17={add_spouse=100091804}	# Marie von Hatzfeldt
+				1910.12.27={death=yes}  # Paris
+			}
+				100002346={ # 1d) Erika Helene Pauline Dorothea (Sommerberg 1 Dec 1893-Munich 20 Sep 1977); m.1st Berlin 27 Jan 1915 (div 1933) Eberhard von Ammon (Magdeburg-Sudenburg 11 Sep 1885-Berlin-Charlottenburg 29 Jan 1950); m.2nd New York City 1946 (div 1960) Hans Jost
+					name=Erika
+					female=yes
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100002151	# Friedrich Karl
+					mother=100091804	# Marie von Hatzfeldt
+					1893.12.01={birth=yes}  # Sommerberg
+					1977.09.20={death=yes}  # Munich
+				}
+				100002642={ # 2d) Elisabeth Charlotte Luise Helene (Sommerberg 31 Jul 1896-Cedarhurst, New York 8 Jun 1975); m.Munich 29 Sep 1920 Hans-Clemens Gf von Francken-Sierstorpff (Franzdorf 30 Jul 1895-Pasadena, California 5 Dec 1944)
+					name=Elisabeth
+					female=yes
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100002151	# Friedrich Karl
+					mother=100091804	# Marie von Hatzfeldt
+					1896.07.31={birth=yes}  # Sommerberg
+					1975.06.08={death=yes}  # Cedarhurst New York
+				}
+			100002837={ # 6c) HANS Heinrich Georg Fst zu Hohenlohe-Oehringen, Duke von Ujest (Slawentzitz 24 Apr 1858-Slawentzitz 24 Apr 1945); m.Bamberg 29 Apr 1899 Olga Pss zu Hohenlohe-Oehringen (1862-1935)
+				name=Hans
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1858.04.24={birth=yes}  # Slawentzitz
+				1899.04.29={add_spouse=100003137}	# Olga zu Hohenlohe-Oehringen
+				1945.04.24={death=yes}  # Slawentzitz
+			}
+				100002989={ # 1d) Hugo Felix AUGUST Fst zu Hohenlohe-Oehringen, Duke von Ujest (Madrid 28 Apr 1890-Stuttgart 2 Aug 1962); m.1st Berlin-Grunewald 16 Jan 1928 (div 1930) Ursula von Zedlitz (London 20 May 1905-Munich 1 Oct 1988); m.2nd Bonn 11 Nov 1930 (div 1946) Valerie von Carstanjen (Godesberg 3 Apr 1908-Salzburg 4 Dec 1979); m.3rd Esslingen 6 Apr 1948 Erika Himmelein (Langenburg 2 Dec 1916-24 Aug 2000)
+					name=August
+					dynasty=1002106
+					religion=catholic culture=castillan
+					father=100002837	# Hans
+					mother=100003137	# Olga zu Hohenlohe-Oehringen
+					1890.04.28={birth=yes}  # Madrid
+					1928.01.16={add_spouse=100094623}	# Ursula von Zedlitz
+					1930.01.01={remove_spouse=100094623}
+					1930.11.11={add_spouse=100094635}	# Valerie von Carstanjen
+					1946.01.01={remove_spouse=100094635}
+					1948.04.06={add_spouse=100094646}	# Erika Himmelein
+					1962.08.02={death=yes}  # Stuttgart
+				}
+					100002993={ # 1e) Alexandra Olga Elsa (Berlin 11 Mar 1931-22 Feb 2015); m.Munich 24 May 1960 Egid Hilz (b.Landau 24 Jun 1932)
+						name=Alexandra
+						female=yes
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100002989	# August
+						mother=100094635	# Valerie von Carstanjen
+						1931.03.11={birth=yes}  # Berlin
+						2015.02.22={death=yes}
+					}
+					100003011={ # 2e) KRAFT Hans Konrad Fst zu Hohenlohe-Oehringen, Duke von Ujest (b.Breslau 11 Jan 1933); m.Geiselgasteig nr Munich 24 Jun 1959 Katharina von Siemens (b.Berlin 24 Dec 1938)
+						name=Kraft
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100002989	# August
+						mother=100094635	# Valerie von Carstanjen
+						1933.01.11={birth=yes}  # Breslau
+						1959.06.24={add_spouse=100097184}	# Katharina von Siemens
+						2010.01.01={death=yes}  # EST.
+					}
+						100003025={ # 1f) Margarita Katharina Elisabeth (Munich 28 Apr 1960-k.in car wreck nr Allershausen 27 Feb 1989); m.(civ) Amorbach 8 Jun 1984 (rel) Neuenstein 16 Jun 1984 Karl-Emich Erbpr zu Leiningen (b.Amorbach 12 Jun 1952)
+							name=Margarita
+							female=yes
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003011	# Kraft
+							mother=100097184	# Katharina von Siemens
+							1960.04.28={birth=yes}  # Munich
+							1989.02.27={death=yes}  # k.in car wreck nr Allershausen
+						}
+						100003027={ # 2f) Christina Valerie Julia (b.Munich 27 Nov 1961); m.Neuenstein (civ) 18 May 1995 (rel) 20 May 1995 Jan-Gisbert Schultze (b.12 Feb 1961)
+							name=Christina
+							female=yes
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003011	# Kraft
+							mother=100097184	# Katharina von Siemens
+							1961.11.27={birth=yes}  # Munich
+						}
+						100003045={ # 3f) Kraft Constantin Franz Emich Erbpr zu Hohenlohe-Oehringen (b.Munich 31 Oct 1966); m.Neuenstein 15 Apr 2004 (rel) Preetz 5 Jun 2004 Carolin Friederike von Wendorff (b.Preetz 20 Aug 1975)
+							name=Kraft
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003011	# Kraft
+							mother=100097184	# Katharina von Siemens
+							1966.10.31={birth=yes}  # Munich
+							2004.04.15={add_spouse=100098715}	# Carolin Friederike von Wendorff
+						}
+							100003046={ # 1g) Christian-Kraft Gustav Friedrich Benedikt (b.Heilbronn 16 Jan 2007)
+								name=Christian-Kraft
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003045	# Kraft
+								mother=100098715	# Carolin Friederike von Wendorff
+								2007.01.16={birth=yes}  # Heilbronn
+							}
+							100003047={ # 2g) Carl Ferdinand Heinrich Eeberhard Kraft (b.16 Jan 2009)
+								name=Carl
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003045	# Kraft
+								mother=100098715	# Carolin Friederike von Wendorff
+								2009.01.16={birth=yes}
+							}
+							100003048={ # 3g) Thassilo (b.Heilbronn 26 Jun 2011)
+								name=Thassilo
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003045	# Kraft
+								mother=100098715	# Carolin Friederike von Wendorff
+								2011.06.26={birth=yes}  # Heilbronn
+							}
+							100003049={ # 4g) Philippa Margarita Carolin (b.2015)
+								name=Philippa
+								female=yes
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003045	# Kraft
+								mother=100098715	# Carolin Friederike von Wendorff
+								2015.01.01={birth=yes}
+							}
+					100003056={ # 3e) Dorothea Elisabeth (Slawentzitz 27 Jul 1935-Vienna 2 Jan 2007); m.Lawrence, Long Island, New York 13 Dec 1970 János Farkas (b.Budapest 8 Jul 1942)
+						name="Dorothea Elisabeth"
+						female=yes
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100002989	# August
+						mother=100094635	# Valerie von Carstanjen
+						1935.07.27={birth=yes}  # Slawentzitz
+						2007.01.02={death=yes}  # Vienna
+					}
+					100003057={ # 4e) Dagmar Maria Victoria (b.Schwäbisch-Hall 14 Sep 1948); m.Munich 13 Sep 1988 Rainer Hykes (b.Düsseldorf 4 Jan 1959)
+						name=Dagmar
+						female=yes
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100002989	# August
+						mother=100094646	# Erika Himmelein
+						1948.09.14={birth=yes}  # Schwäbisch-Hall
+					}
+				100003058={ # 2d) Alexandrine Marie Margarethe (Dresden 12 May 1891-Stuttgart 15 May 1959)
+					name=Alexandrine
+					female=yes
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100002837	# Hans
+					mother=100003137	# Olga zu Hohenlohe-Oehringen
+					1891.05.12={birth=yes}  # Dresden
+					1959.05.15={death=yes}  # Stuttgart
+				}
+				100003060={ # 4d) Kraft Friedrich Karl (Dresden 16 Mar 1892-d.Rome 2 Sep 1965); m.Florence 21 Jan 1948 Nina Chischina (Moscow 19 Nov 1898-k.in car wreck with her husband 27 Aug 1965)
+					name=Kraft
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100002837	# Hans
+					mother=100003137	# Olga zu Hohenlohe-Oehringen
+					1892.03.16={birth=yes}  # Dresden
+					1948.01.21={add_spouse=100098917}	# Nina Chischina
+					1965.09.02={death=yes}  # Rome
+				}
+				100003059={ # 3d) Dorothea (Dresden 16 May 1892-Slawentzitz 7 Dec 1931)
+					name=Dorothea
+					female=yes
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100002837	# Hans
+					mother=100003137	# Olga zu Hohenlohe-Oehringen
+					1892.05.16={birth=yes}  # Dresden
+					1931.12.07={death=yes}  # Slawentzitz
+				}
+			100003061={ # 7c) Max Anton Karl (Slawentzitz 2 Mar 1860-Berlin 14 Jan 1922); m.Wiesbaden 11 Feb 1890 Helene Gfn von Hatzfeldt (Paris 3 Mar 1865-Berlin 21 May 1901)
+				name=Max
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1860.03.02={birth=yes}  # Slawentzitz
+				1890.02.11={add_spouse=100098918}	# Helene von Hatzfeldt
+				1922.01.14={death=yes}  # Berlin
+			}
+				100003062={ # 1d) Waldemar Hugo Hermann Maximilian (Berlin 2 Dec 1890-Crailsheim 25 Oct 1965); m.Berlin 6 Oct 1923 (div 1936) Nina Chischine (Moscow 19 Nov 1898-Rome 27 Aug 1965)
+					name=Waldemar
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100003061	# Max
+					mother=100098918	# Helene von Hatzfeldt
+					1890.12.02={birth=yes}  # Berlin
+					1923.10.06={add_spouse=100098917}	# Nina Chischine
+					1936.01.01={remove_spouse=100098917}
+					1965.10.25={death=yes}  # Crailsheim
+				}
+					100003063={ # 1e) Wolfgang Maximilian Leonce Hans Clemens August Rüdiger (b.Berlin 22 Feb 1925); m.Teheran 15 May 1959 Jacqueline Tonge (b.Wellington, New Zealand 4 May 1933)
+						name=Wolfgang
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100003062	# Waldemar
+						mother=100098917	# Nina Chischine
+						1925.02.22={birth=yes}  # Berlin
+						1959.05.15={add_spouse=100098928}	# Jacqueline Tonge
+						2002.01.01={death=yes}  # EST.
+					}
+						100003064={ # 1f) Margarita Helene Alexandra (b.Swansea, Wales 11 Dec 1961); m.London 1 Feb 1992 Stuart Bentham (b.London 28 May 1948)
+							name=Margarita
+							female=yes
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003063	# Wolfgang
+							mother=100098928	# Jacqueline Tonge
+							1961.12.11={birth=yes}
+						}
+						100003065={ # 2f) Heinrich Maximilian Waldemar Alexander (b.Rio de Janeiro 21 Sep 1968); m.Düsseldorf 9 Aug 2002 Kristin Charlotte Schmidt (b.Köln 9 Sep 1971)
+							name=Heinrich
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003063	# Wolfgang
+							mother=100098928	# Jacqueline Tonge
+							1968.09.21={birth=yes}
+							2002.08.09={add_spouse=100098968}	# Kristin Charlotte Schmidt
+						}
+							100003066={ # 1g) Theodor Constantin Waldemar (b.Berlin-Pankow 24 Oct 2002)
+								name=Theodor
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003065	# Heinrich
+								mother=100098968	# Kristin Charlotte Schmidt
+								2002.10.24={birth=yes}  # Berlin-Pankow
+							}
+							100003067={ # 2g) Nikolaus August Severin (b.Berlin 29 Apr 2005)
+								name=Nikolaus
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003065	# Heinrich
+								mother=100098968	# Kristin Charlotte Schmidt
+								2005.04.29={birth=yes}  # Berlin
+							}
+				100003068={ # 2d) Max Hugo Paul Friedrich Karl Egon (Berlin 25 Mar 1893-Schrozberg 17 Oct 1951); m.1st Stein bei Nürnberg 17 May 1920 (div 1931) Marie-Gabriele Gfn von Faber-Castell (Stein 31 Aug 1900-Schloß Appelhof bei Nürnberg 26 Nov 1985); m.2nd Radewitz bei Wartin 1941 (div 1942) Hella von Ramin (Verden an der Aller 25 Feb 1883-Radewitz 7 Jan 1943); m.3rd Garmisch-Partenkirchen 12 Aug 1950 Marianne Diefenthal (Köln-Lindenthal 18 Feb 1925-Oberstaufen 21 Oct 1977)
+					name=Max
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100003061	# Max
+					mother=100098918	# Helene von Hatzfeldt
+					1893.03.25={birth=yes}  # Berlin
+					1920.05.17={add_spouse=100098969}	# Marie-Gabriele von Faber-Castell
+					1931.01.01={remove_spouse=100098969}
+					1941.01.01={add_spouse=100098973}	# Hella von Ramin
+					1942.01.01={remove_spouse=100098973}
+					1950.08.12={add_spouse=100098980}	# Marianne Diefenthal
+					1951.10.17={death=yes}  # Schrozberg
+				}
+					100003069={ # 1e) Rupprecht Max Christian Kraft Roland Hermann (Bad Kissingen 5 Jul 1921-Ansbach 13 Sep 1999); m.1st Freiburg im Breisgau 25 Jul 1944 Gabriele Wiemer (Dortmund 23 Oct 1925-Karlsruhe 11 May 1969); m.2nd Konstanz 26 Mar 1970 (div 1973) Sibylle Dochtermann (b.Stuttgart 12 Oct 1932); m.3rd Grünwald nr Munich 19 Apr 1973 Dietlind-Burgit Koch (b.Wiener-Neustadt 6 Oct 1944)
+						name=Rupprecht
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100003068	# Max
+						mother=100098969	# Marie-Gabriele von Faber-Castell
+						1921.07.05={birth=yes}  # Bad Kissingen
+						1944.07.25={add_spouse=100098983}	# Gabriele Wiemer
+						1970.03.26={add_spouse=100098985}	# Sibylle Dochtermann
+						1973.01.01={remove_spouse=100098985}
+						1973.04.19={add_spouse=100098987}	# Dietlind-Burgit Koch
+						1999.09.13={death=yes}  # Ansbach
+					}
+						100003070={ # 1f) Christian-Krafft Max Theodor Alexander (b.Hohenlimburg 5 Jan 1945); m.1st Porz 15 Jun 1967 (div 1985) Karin von Witzleben (b.Köln 5 Aug 1941); m.2nd Hürth 19 Oct 1986 Helga Martha Müller (b.Metz 6 Sep 1942)
+							name=Christian-Krafft
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003069	# Rupprecht
+							mother=100098983	# Gabriele Wiemer
+							1945.01.05={birth=yes}  # Hohenlimburg
+							1967.06.15={add_spouse=100098991}	# Karin von Witzleben
+							1985.01.01={remove_spouse=100098991}
+							1986.10.19={add_spouse=100098992}	# Helga Martha Müller
+						}
+							100003071={ # 1g) Stephan Christian-Krafft Theodor Detlev Albert Oktavio (b.Porz 31 Oct 1967)
+								name=Stephan
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003070	# Christian-Krafft
+								mother=100098991	# Karin von Witzleben
+								1967.10.31={birth=yes}  # Porz
+							}
+							100003072={ # 2g) Michaela Gabriele Monica (b.Porz 10 Apr 1972); m.Köln 25 Jul 1996 Ralph Richter (b.Berlin 15 Nov 1967)
+								name=Michaela
+								female=yes
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003070	# Christian-Krafft
+								mother=100098991	# Karin von Witzleben
+								1972.04.10={birth=yes}  # Porz
+							}
+						100003073={ # 2f) Katharina (b.Neidstein 7 Feb 1947); m.1st Munich 15 May 1973 (div 1979) Peter Ritter Ahsbahs von der Lanze (Budapest 19 Dec 1940-Budapest 10 Feb 1997); m.2nd Munich 14 Jul 1983 (div 1989) Karl-Heinz Sassen (b.Gleiwitz 3 Jun 1940); m.3rd 5 May 1989 Frank Michael Stede (b.Salzkotten 24 Oct 1956)
+							name=Katharina
+							female=yes
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003069	# Rupprecht
+							mother=100098983	# Gabriele Wiemer
+							1947.02.07={birth=yes}  # Neidstein
+						}
+					100003074={ # 2e) Kraft-Alexander Waldemar August Christian Ernst Gottfried (Munich 2 Nov 1925-Fürth 10 Mar 2006); m.1st Heidelberg 5 Nov 1949 (div 1955) Dagmar Engelbrecht (Berlin-Charlottenburg 24 Sep 1926-Sonthofen, Allgäu 15 Sep 1998); m.2nd Hamburg 2 Nov 1957 (div 1970) Sibylle Dochtermann (b.Stuttgart 12 Oct 1932); m.3rd Ulm 25 Jul 1970 (div 1979) Ursula Rieck (b.Nürnberg 27 Jan 1938); m.4th Fürth 20 Jun 1988 Renate Elisabeth Angelika Müller (b.Berlin 27 Jun 1943)
+						name=Kraft-Alexander
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100003068	# Max
+						mother=100098969	# Marie-Gabriele von Faber-Castell
+						1925.11.02={birth=yes}  # Munich
+						1949.11.05={add_spouse=100099002}	# Dagmar Engelbrecht
+						1955.01.01={remove_spouse=100099002}
+						1957.11.02={add_spouse=100098985}	# Sibylle Dochtermann
+						1970.01.01={remove_spouse=100098985}
+						1970.07.25={add_spouse=100099004}	# Ursula Rieck
+						1979.01.01={remove_spouse=100099004}
+						1988.06.20={add_spouse=100099005}	# Renate Elisabeth Müller
+						2006.03.10={death=yes}  # Fürth
+					}
+						100003079={ # 1f) Alexander Gottfried Kraft Max Rupprecht Nikolaus Philipp-Ernst Heinrich (b.Wiesbaden 31 Jan 1951); m.Möglingen 4 Jun 1981 Gabriele Gramer (b.Reutlingen 16 Aug 1952)
+							name=Alexander
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003074	# Kraft-Alexander
+							mother=100099002	# Dagmar Engelbrecht
+							1951.01.31={birth=yes}  # Wiesbaden
+							1981.06.04={add_spouse=100099006}	# Gabriele Gramer
+						}
+							100003083={ # 1g) Nina Mariella Sophie (b.Stuttgart 27 Mar 1990)
+								name=Nina
+								female=yes
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003079	# Alexander
+								mother=100099006	# Gabriele Gramer
+								1990.03.27={birth=yes}  # Stuttgart
+							}
+							100003088={ # 2g) Philipp Frederik Kraft (b.27 Apr 1992)
+								name=Philipp
+								dynasty=1002106
+								religion=catholic culture=german
+								father=100003079	# Alexander
+								mother=100099006	# Gabriele Gramer
+								1992.04.27={birth=yes}
+							}
+						100003113={ # 2f) Feodora Mariella Nina (b.Osterberg 23 Apr 1952)
+							name=Feodora
+							female=yes
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003074	# Kraft-Alexander
+							mother=100099002	# Dagmar Engelbrecht
+							1952.04.23={birth=yes}  # Osterberg
+						}
+						100003116={ # 3f) Stephanie Maria Johanna Gesche Angela (Hamburg 16 Jan 1959-19 Jun 1989)
+							name=Stephanie
+							female=yes
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003074	# Kraft-Alexander
+							mother=100098985	# Sibylle Dochtermann
+							1959.01.16={birth=yes}  # Hamburg
+							1989.06.19={death=yes}
+						}
+				100003125={ # 3d) Margarethe Viktoria Pauline Dorothea Luise Helene (Sommerberg 20 Jul 1894-Brunn am Walde bei Krems 30 Jan 1976); m.Neuruppin 13 Aug 1927 Hermann Erhardt (Diersberg 29 Nov 1881-Brunn am Walde 27 Sep 1971)
+					name=Margarethe
+					female=yes
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100003061	# Max
+					mother=100098918	# Helene von Hatzfeldt
+					1894.07.20={birth=yes}  # Sommerberg
+					1976.01.30={death=yes}  # Brunn_am_Walde_bei_Krems
+				}
+			100003132={ # 9c) Hugo Friedrich, 1904 renounced title and took title “Graf von Hermersberg” (Slawentzitz 26 Sep 1864-Berlin-Lichterfelde 31 Oct 1928); m.Wilmersdorf 9 Apr 1904 Antoinette Helga Walter-Hager (Copenhagen 26 Jul 1877-Berlin 31 Oct 1951)
+				name="Hugo Friedrich"
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1864.09.26={birth=yes}  # Slawentzitz
+				1904.04.09={add_spouse=100099008}	# Antoinette Helga Walter-Hager
+				1928.10.31={death=yes}  # Berlin-Lichterfelde
+			}
+			100003133={ # 10c) Margarethe (Slawentzitz 27 Dec 1865-Dresden 13 Jun 1940); m.Slawentzitz 25 Oct 1887 Wilhelm Gf von Hohenau (Schloß Albrechtsberg 25 Apr 1854-Bad Flinsburg 28 Oct 1930)
+				name=Margarethe
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100002071	# Hugo
+				mother=100001083	# Pauline zu Fürstenberg
+				1865.12.27={birth=yes}  # Slawentzitz
+				1940.06.13={death=yes}  # Dresden
+			}
+		100003134={ # 4b) Felix Eugen Wilhelm Ludwig Albrecht Karl (Öhringen 1 Mar 1818-Asnières 8 Sep 1900); m.Kassel 12 Jun 1851 Alexandrine Friederike Wilhelmine Pss von Hanau Gfn von Schaumburg (Fulda 22 Dec 1830-Aeschach 20 Dec 1871)
+			name=Felix
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100002038	# Friedrich August
+			mother=100008159	# Luise of Württemberg
+			1818.03.01={birth=yes}  # Öhringen
+			1851.06.12={add_spouse=100099010}	# Alexandrine Friederike von Schaumburg von Hanau
+			1900.09.08={death=yes}  # Asnières
+		}
+			100003135={ # 1c) Jadwiga Friederike (Frankfurt 6 Oct 1857-Schloß Jägersburg 29 Jan 1940); m.Frankfurt 28 May 1879 Franz-Erich Bentzel Gf zu Sternau und Hohenau (Nürnberg 2 Mar 1850-Schloß Jägersburg 8 Feb 1922)
+				name="Jadwiga Friederike"
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003134	# Felix
+				mother=100099010	# Alexandrine Friederike von Schaumburg von Hanau
+				1857.10.06={birth=yes}  # Frankfurt
+				1940.01.29={death=yes}  # Schloß Jägersburg
+			}
+			100003136={ # 2c) Victor Hugo Kraft Friedrich Wilhelm Moritz (Mainz 19 Jan 1861-Enns 11 Sep 1939); m.Paris 10 Oct 1885 (div 1901) Marie de Vassinhac d'Imécourt (Paris 25 Dec 1863-Braunschweig 5 Jan 1924)
+				name=Victor
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003134	# Felix
+				mother=100099010	# Alexandrine Friederike von Schaumburg von Hanau
+				1861.01.19={birth=yes}  # Mainz
+				1885.10.10={add_spouse=100099012}	# Marie de Vassinhac d'Imécourt
+				1901.01.01={remove_spouse=100099012}
+				1939.09.11={death=yes}  # Enns
+			}
+			100003137={ # 3c) Olga (Heidelberg 3 Apr 1862-Breslau 21 Apr 1935); m.Bamberg 29 Apr 1899 Hans Fst zu Hohenlohe-Oehringen (24 Apr 1858-24 Apr 1945)
+				name=Olga
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003134	# Felix
+				mother=100099010	# Alexandrine Friederike von Schaumburg von Hanau
+				1862.04.03={birth=yes}  # Heidelberg
+				1935.04.21={death=yes}  # Breslau
+			}
+			100003138={ # 5c) Luise (Heidelberg 26 Jan 1867-Gauting 23 Jul 1945); m.1st Bamberg 8 May 1886 Albrecht Pr zu Waldeck und Pyrmont (Kleve 11 Dec 1841-Tiergarten 11 Jan 1897); m.2nd Vierfontein, So Africa 4 Dec 1913 George Granville Hope-Johnstone (London 28 Nov 1880-1955)
+				name=Luise
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003134	# Felix
+				mother=100099010	# Alexandrine Friederike von Schaumburg von Hanau
+				1867.01.26={birth=yes}  # Heidelberg
+				1945.07.23={death=yes}  # Gauting
+			}
+			100003139={ # 6c) Ferdinand Alexander, renounced his rights and took the title Freiherr von Gabelstein 31 Jul 1895 (Lindau 20 Dec 1871-Berlin 30 Jan 1929); m.Wiesbaden 16 Jul 1895 Elsa von Ondarza (Hamburg 19 Jul 1870-Fisching 2 Feb 1960)
+				name="Ferdinand Alexander"
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003134	# Felix
+				mother=100099010	# Alexandrine Friederike von Schaumburg von Hanau
+				1871.12.20={birth=yes}  # Lindau
+				1895.07.16={add_spouse=100099016}	# Elsa von Ondarza
+				1929.01.30={death=yes}  # Berlin
+			}
+				100003140={ # 1d) Kraft Alexander Frhr von Gabelstein, adopted by his uncle, Pr Kraft, and took the name Prinz zu Hohenlohe-Oehringen (Zippendorf 9 Mar 1896-Enns 3 Jan 1994); m.Piesing 15 Sep 1924 Margarete Frn von Ow (Regensburg 6 Feb 1905-Haiming 17 Jul 1935)
+					name="Kraft Alexander"
+					dynasty=1002106
+					religion=catholic culture=german
+					father=100003139	# Ferdinand Alexander
+					mother=100099016	# Elsa von Ondarza
+					1896.03.09={birth=yes}  # Zippendorf
+					1924.09.15={add_spouse=100099017}	# Margarete von Ow
+					1994.01.03={death=yes}  # Enns
+				}
+					100003141={ # 1e) Kraft Leo (Neuhaus 4 Jul 1925-5 Jun 2001); m.Seefeld 30 Mar 1957 Margit Profanter (b.Innsbruck 28 Dec 1927)
+						name="Kraft Leo"
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100003140	# Kraft Alexander
+						mother=100099017	# Margarete von Ow
+						1925.07.04={birth=yes}  # Neuhaus
+						1957.03.30={add_spouse=100099018}	# Margit Profanter
+						2001.06.05={death=yes}
+					}
+						100003142={ # 1f) Monika (b.Innsbruck 28 Dec 1957)
+							name=Monika
+							female=yes
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003141	# Kraft Leo
+							mother=100099018	# Margit Profanter
+							1957.12.28={birth=yes}  # Innsbruck
+						}
+						100003143={ # 2f) Christa (b.Innsbruck 19 Feb 1960); m.Innsbruck 9 May 1987 Andreas Gf von Ségur-Cabanac (b.Neutenstein 2 Mar 1958)
+							name=Christa
+							female=yes
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003141	# Kraft Leo
+							mother=100099018	# Margit Profanter
+							1960.02.19={birth=yes}  # Innsbruck
+						}
+						100003144={ # 3f) Stefan (b.Innsbruck 30 Oct 1961)
+							name=Stefan
+							dynasty=1002106
+							religion=catholic culture=german
+							father=100003141	# Kraft Leo
+							mother=100099018	# Margit Profanter
+							1961.10.30={birth=yes}  # Innsbruck
+						}
+					100003145={ # 2e) Elisabeth Maria Anna (b.Neuhaus 25 Jul 1926)
+						name=Elisabeth
+						female=yes
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100003140	# Kraft Alexander
+						mother=100099017	# Margarete von Ow
+						1926.07.25={birth=yes}  # Neuhaus
+						2003.01.01={death=yes}  # EST.
+					}
+					100003146={ # 3e) Marie Therese Antoinette Margarete Auguste (b.Munich 5 Nov 1928)
+						name=Marie
+						female=yes
+						dynasty=1002106
+						religion=catholic culture=german
+						father=100003140	# Kraft Alexander
+						mother=100099017	# Margarete von Ow
+						1928.11.05={birth=yes}  # Munich
+						2005.01.01={death=yes}  # EST.
+					}
+	100003147={ # 2a) Adelheid Charlotte Wilhelmine (Breslau 20 Jan 1787-20 Aug 1858); m.Friedrichsruhe 9 Jul 1812 Ludwig Fst zu Hohenlohe-Kirchberg (Kirchberg 16 Sep 1786-Kirchberg 25 Dec 1836)
+		name=Adelheid
+		female=yes
+		dynasty=1002106
+		religion=catholic culture=german
+		father=100002005	# Friedrich Ludwig
+		mother=100080510	# Amalie von Hoym
+		1787.01.20={birth=yes}  # Breslau
+		1858.08.20={death=yes}
+	}
+	100003148={ # 4a) Luise Sophie Emilie (Breslau 20 Nov 1788-Fürstenau 1 Oct 1859); m.Öhringen 26 Jun 1810 Albrecht Gf zu Erbach-Fürstenau (Fürstenau 18 May 1787-Krähenberg 28 Jul 1851)
+		name=Luise
+		female=yes
+		dynasty=1002106
+		religion=catholic culture=german
+		father=100002005	# Friedrich Ludwig
+		mother=100080510	# Amalie von Hoym
+		1788.11.20={birth=yes}  # Breslau
+		1859.10.01={death=yes}  # Fürstenau
+	}
+	100003149={ # 5a) Auguste Charlotte Friederike Sophie Amalie (Walluf 16 Nov 1793-Schloß Augustenau 8 Jun 1821); m.Öhringen 19 Jul 1816 Karl, Landgrave of Hesse-Philippsthal-Barchfeld (27 Jun 1784-Schloß Philippsthal 17 Jul 1854)
+		name=Auguste
+		female=yes
+		dynasty=1002106
+		religion=catholic culture=german
+		father=100002005	# Friedrich Ludwig
+		mother=100080510	# Amalie von Hoym
+		1793.11.16={birth=yes}  # Walluf
+		1821.06.08={death=yes}  # Schloß Augustenau
+	}
+	100003150={ # 7a) Adolf Karl Friedrich Ludwig Pr zu Hohenlohe-Ingelfingen (Breslau 29 Jan 1797-Koschentin 24 Apr 1873); m.Langenburg 19 Apr 1819 Luise Pss zu Hohenlohe-Langenburg (1799-1881)
+		name=Adolf
+		dynasty=1002106
+		religion=catholic culture=german
+		father=100002005	# Friedrich Ludwig
+		mother=100080510	# Amalie von Hoym
+		1797.01.29={birth=yes}  # Breslau
+		1819.04.19={add_spouse=100001749}	# Luise zu Hohenlohe-Langenburg
+		1873.04.24={death=yes}  # Koschentin
+	}
+		100003151={ # 1b) Karl Adalbert Constantin Heinrich (Garnberg bei Künzelsau 19 Nov 1820-Berlin 1 May 1890)
+			name=Karl
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100003150	# Adolf
+			mother=100001749	# Luise zu Hohenlohe-Langenburg
+			1820.11.19={birth=yes}  # Garnberg bei Künzelsau
+			1890.05.01={death=yes}  # Berlin
+		}
+		100003152={ # 5b) Friedrich Wilhelm Eduard Alexander (Koschentin 9 Jan 1826-Koschentin 24 Oct 1895); m.Meran 4 Apr 1872 Anna Gfn von Giech (Frankfurt 27 Apr 1849-Wiesbaden 14 Mar 1909)
+			name=Friedrich
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100003150	# Adolf
+			mother=100001749	# Luise zu Hohenlohe-Langenburg
+			1826.01.09={birth=yes}  # Koschentin
+			1872.04.04={add_spouse=100099024}	# Anna von Giech
+			1895.10.24={death=yes}  # Koschentin
+		}
+			100003153={ # 1c) Franziska (Potsdam 23 Feb 1873-Bonn 27 Apr 1937)
+				name=Franziska
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003152	# Friedrich
+				mother=100099024	# Anna von Giech
+				1873.02.23={birth=yes}  # Potsdam
+				1937.04.27={death=yes}  # Bonn
+			}
+			100003154={ # 2c) Anna-Luise Helene Ellinor (Koschentin 25 Jun 1876-Wiesbaden 23 Feb 1969)
+				name=Anna-Luise
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003152	# Friedrich
+				mother=100099024	# Anna von Giech
+				1876.06.25={birth=yes}  # Koschentin
+				1969.02.23={death=yes}  # Wiesbaden
+			}
+			100003155={ # 3c) Adele Luise Mathilde Jenny Helene (Koschentin 26 Aug 1877-Gaildorf 9 Nov 1961); m.Wiesbaden 19 Apr 1898 Gottfried Gf von Pückler-Limpurg (Burgfarrnbach 20 Apr 1871-Gaildorf 26 Nov 1957)
+				name=Adele
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003152	# Friedrich
+				mother=100099024	# Anna von Giech
+				1877.08.26={birth=yes}  # Koschentin
+				1961.11.09={death=yes}  # Gaildorf
+			}
+			100003156={ # 4c) Wilhelm Friedrich Karl Gottfried Kraft (Koschentin 8 Nov 1879-Graz 11 Jul 1960)
+				name=Wilhelm
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003152	# Friedrich
+				mother=100099024	# Anna von Giech
+				1879.11.08={birth=yes}  # Koschentin
+				1960.07.11={death=yes}  # Graz
+			}
+			100003158={ # 5c) Maria Agnes (Koschentin 27 Sep 1883-Feneraki, Asia Minor 17 Sep 1918)
+				name="Maria Agnes"
+				female=yes
+				dynasty=1002106
+				religion=catholic culture=german
+				father=100003152	# Friedrich
+				mother=100099024	# Anna von Giech
+				1883.09.27={birth=yes}  # Koschentin
+				1918.09.17={death=yes}  # Feneraki Asia Minor
+			}
+		100003163={ # 6b) Kraft Carl August Eduard Friedrich (Koschentin 2 Jan 1827-Dresden 16 Jan 1892); m.Dresden 31 Mar 1880 Luise Thieme (Halle an der Saale 31 Jan 1838-Dresden 16 Apr 1917)
+			name=Kraft
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100003150	# Adolf
+			mother=100001749	# Luise zu Hohenlohe-Langenburg
+			1827.01.02={birth=yes}  # Koschentin
+			1880.03.31={add_spouse=100099026}	# Luise Thieme
+			1892.01.16={death=yes}  # Dresden
+		}
+		100003178={ # 8b) Eugenie Luise Amalie Sophie Adelheid (Koschentin 13 May 1830-Stuttgart 15 Feb 1892)
+			name=Eugenie
+			female=yes
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100003150	# Adolf
+			mother=100001749	# Luise zu Hohenlohe-Langenburg
+			1830.05.13={birth=yes}  # Koschentin
+			1892.02.15={death=yes}  # Stuttgart
+		}
+		100003179={ # 10b) Luise Eleonore Amalie Ernestine Jenny (Koschentin 25 Mar 1835-Krähenberg 15 Jul 1913); m.Koschentin 28 Apr 1859 Alfred Gf zu Erbach-Fürstenau (Fürstenau 6 Oct 1813-Krähenberg 25 Oct 1874)
+			name=Luise
+			female=yes
+			dynasty=1002106
+			religion=catholic culture=german
+			father=100003150	# Adolf
+			mother=100001749	# Luise zu Hohenlohe-Langenburg
+			1835.03.25={birth=yes}  # Koschentin
+			1913.07.15={death=yes}  # Krähenberg
+		}
+	100003180={ # 8a) Alexander Ludwig Karl Heinrich (Altscheidnig 3 Jul 1798-Stuttgart 23 Mar 1829)
+		name=Alexander
+		dynasty=1002106
+		religion=catholic culture=german
+		father=100002005	# Friedrich Ludwig
+		mother=100080510	# Amalie von Hoym
+		1798.07.03={birth=yes}  # Altscheidnig
+		1829.03.23={death=yes}  # Stuttgart
+	}
+
+#######
+100098999={ # Ritter     Peter                     Ahsbahs von der Lanze                    (1940-1997)
+	name="Peter Ahsbahs von der Lanze"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1940.12.19={birth=yes}  # Budapest
+	1973.05.15={add_spouse=100003073}	# Katharina
+	1979.01.01={remove_spouse=100003073}
+	1997.02.10={death=yes}  # Budapest
+}
+100099011={ # Gf         Franz-Erich               Bentzel zu Sternau und Hohenau           (1850-1922)
+	name="Franz-Erich Bentzel zu Sternau und Hohenau"
+	dynasty=0
+	religion=catholic culture=german
+	1850.03.02={birth=yes}  # Nürnberg
+	1879.05.28={add_spouse=100003135}	# Jadwiga Friederike
+	1922.02.08={death=yes}  # Schloß Jägersburg
+}
+100084047={ # Frn        Mathilde                  von Breuning                             (1821-1896)     1
+	name="Mathilde von Breuning"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1821.11.10={birth=yes}
+	1896.01.12={death=yes}  # Stuttgart
+}
+100098969={ # Gfn        Marie-Gabriele            von Faber-Castell                        (1900-1985)     2
+	name="Marie-Gabriele von Faber-Castell"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1900.08.31={birth=yes}  # Stein
+	1985.11.26={death=yes}  # Schloß Appelhof_bei_Nürnberg
+}
+100092775={ # Gf         Hans-Clemens              von Francken-Sierstorpff                 (1895-1944)
+	name="Hans-Clemens von Francken-Sierstorpff"
+	dynasty=0
+	religion=catholic culture=german
+	1895.07.30={birth=yes}  # Franzdorf
+	1920.09.29={add_spouse=100002642}	# Elisabeth
+	1944.12.05={death=yes}  # Pasadena California
+}
+100087552={ # Gf         Friedrich Ludwig          von Frankenberg und Ludwigsdorff         (1835-1897)
+	name="Friedrich Ludwig von Frankenberg und Ludwigsdorff"
+	dynasty=0
+	religion=catholic culture=german
+	1835.02.05={birth=yes}  # Breslau
+	1872.06.24={add_spouse=100002125}	# Luise
+	1897.12.31={death=yes}  # Slawentzitz
+}
+100099024={ # Gfn        Anna                      von Giech                                (1849-1909)     5
+	name="Anna von Giech"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1849.04.27={birth=yes}  # Frankfurt
+	1909.03.14={death=yes}  # Wiesbaden
+}
+100091804={ # Gfn        Marie                     von Hatzfeldt                            (1871-1932)     2
+	name="Marie von Hatzfeldt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1871.01.10={birth=yes}  # Berlin
+	1932.04.15={death=yes}  # Paris
+}
+100098918={ # Gfn        Helene                    von Hatzfeldt                            (1865-1901)     3
+	name="Helene von Hatzfeldt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1865.03.03={birth=yes}  # Paris
+	1901.05.21={death=yes}  # Berlin
+}
+100099009={ # Gf         Wilhelm                   von Hohenau                              (1854-1930)
+	name="Wilhelm von Hohenau"
+	dynasty=0
+	religion=catholic culture=german
+	1854.04.25={birth=yes}  # Schloß Albrechtsberg
+	1887.10.25={add_spouse=100003133}	# Margarethe
+	1930.10.28={death=yes}  # Bad Flinsburg
+}
+100099017={ # Frn        Margarete                 von Ow                                   (1905-1935)     3
+	name="Margarete von Ow"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1905.02.06={birth=yes}  # Regensburg
+	1935.07.17={death=yes}  # Haiming
+}
+100099025={ # Gf         Gottfried                 von Pückler-Limpurg                      (1871-1957)
+	name="Gottfried von Pückler-Limpurg"
+	dynasty=0
+	religion=catholic culture=german
+	1871.04.20={birth=yes}  # Burgfarrnbach
+	1898.04.19={add_spouse=100003155}	# Adele
+	1957.11.26={death=yes}  # Gaildorf
+}
+100099019={ # Gf         Andreas                   von Ségur-Cabanac                        (1958-    )
+	name="Andreas von Ségur-Cabanac"
+	dynasty=0
+	religion=catholic culture=german
+	1958.03.02={birth=yes}  # Neutenstein
+	1987.05.09={add_spouse=100003143}	# Christa
+}
+100099021={ # Gf         Albrecht                  zu Erbach-Fürstenau                      (1787-1851)
+	name="Albrecht zu Erbach-Fürstenau"
+	dynasty=0
+	religion=catholic culture=german
+	1787.05.18={birth=yes}  # Fürstenau
+	1810.06.26={add_spouse=100003148}	# Luise
+	1851.07.28={death=yes}  # Krähenberg
+}
+100099027={ # Gf         Alfred                    zu Erbach-Fürstenau                      (1813-1874)
+	name="Alfred zu Erbach-Fürstenau"
+	dynasty=0
+	religion=catholic culture=german
+	1813.10.06={birth=yes}  # Fürstenau
+	1859.04.28={add_spouse=100003179}	# Luise
+	1874.10.25={death=yes}  # Krähenberg
+}
+100099020={ # Fst        Ludwig                    zu Hohenlohe-Kirchberg                   (1786-1836)
+	name="Ludwig zu Hohenlohe-Kirchberg"
+	dynasty=0
+	religion=catholic culture=german
+	1786.09.16={birth=yes}  # Kirchberg
+	1812.07.09={add_spouse=100003147}	# Adelheid
+	1836.12.25={death=yes}  # Kirchberg
+}
+100098958={ #            Stuart                    Bentham                                  (1948-    )
+	name="Stuart Bentham"
+	dynasty=0
+	religion=catholic culture=english
+	1948.05.28={birth=yes}  # London
+	1992.02.01={add_spouse=100003064}	# Margarita
+}
+100098917={ #            Nina                      Chischin                                (1898-1965)
+	name="Nina Chischina"
+	female=yes
+	dynasty=0
+	religion=catholic culture=russian
+	1898.11.19={birth=yes}  # Moscow
+	1965.08.27={death=yes}  # k.in car wreck with her husband
+}
+100098980={ #            Marianne                  Diefenthal                               (1925-1977)
+	name="Marianne Diefenthal"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1925.02.18={birth=yes}  # Köln-Lindenthal
+	1977.10.21={death=yes}  # Oberstaufen
+}
+100098985={ #            Sibylle                   Dochtermann                              (1932-    )     1
+	name="Sibylle Dochtermann"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1932.10.12={birth=yes}  # Stuttgart
+	2009.01.01={death=yes}  # EST.
+}
+100099002={ #            Dagmar                    Engelbrecht                              (1926-1998)     2
+	name="Dagmar Engelbrecht"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1926.09.24={birth=yes}  # Berlin-Charlottenburg
+	1998.09.15={death=yes}  # Sonthofen Allgäu
+}
+100099007={ #            Hermann                   Erhardt                                  (1881-1971)
+	name="Hermann Erhardt"
+	dynasty=0
+	religion=catholic culture=german
+	1881.11.29={birth=yes}  # Diersberg
+	1927.08.13={add_spouse=100003125}	# Margarethe
+	1971.09.27={death=yes}  # Brunn_am_Walde
+}
+100098816={ #            János                     Farkas                                   (1942-    )
+	name="János Farkas"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1942.07.08={birth=yes}  # Budapest
+	1970.12.13={add_spouse=100003056}	# Dorothea Elisabeth
+}
+100099006={ #            Gabriele                  Gramer                                   (1952-    )     2
+	name="Gabriele Gramer"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1952.08.16={birth=yes}  # Reutlingen
+}
+100096818={ #            Egid                      Hilz                                     (1932-    )
+	name="Egid Hilz"
+	dynasty=0
+	religion=catholic culture=german
+	1932.06.24={birth=yes}  # Landau
+	1960.05.24={add_spouse=100002993}	# Alexandra
+	2009.01.01={death=yes}  # EST.
+}
+100094646={ #            Erika                     Himmelein                                (1916-2000)     1
+	name="Erika Himmelein"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1916.12.02={birth=yes}  # Langenburg
+	2000.08.24={death=yes}
+}
+100099015={ #            George Granville          Hope-Johnstone                           (1880-1955)
+	name="George Granville Hope-Johnstone"
+	dynasty=0
+	religion=catholic culture=english
+	1880.11.28={birth=yes}  # London
+	1913.12.04={add_spouse=100003138}	# Luise
+	1955.01.01={death=yes}
+}
+100098830={ #            Rainer                    Hykes                                    (1959-    )
+	name="Rainer Hykes"
+	dynasty=0
+	religion=catholic culture=german
+	1959.01.04={birth=yes}  # Düsseldorf
+	1988.09.13={add_spouse=100003057}	# Dagmar
+}
+100092752={ #            Hans                      Jost                                     (1921-    )
+	name="Hans Jost"
+	dynasty=0
+	religion=catholic culture=german
+	1921.01.01={birth=yes}  # EST.
+	1946.01.01={add_spouse=100002346}	# Erika
+	1960.01.01={remove_spouse=100002346}
+	1997.01.01={death=yes}  # EST.
+}
+100098987={ #            Dietlind-Burgit           Koch                                     (1944-    )
+	name="Dietlind-Burgit Koch"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1944.10.06={birth=yes}  # Wiener-Neustadt
+}
+100098992={ #            Helga Martha              Müller                                   (1942-    )
+	name="Helga Martha Müller"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1942.09.06={birth=yes}  # Metz
+}
+100099005={ #            Renate Elisabeth          Müller                                   (1943-    )
+	name="Renate Elisabeth Müller"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1943.06.27={birth=yes}  # Berlin
+}
+100099018={ #            Margit                    Profanter                                (1927-    )     3
+	name="Margit Profanter"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1927.12.28={birth=yes}  # Innsbruck
+	2004.01.01={death=yes}  # EST.
+}
+100098994={ #            Ralph                     Richter                                  (1967-    )
+	name="Ralph Richter"
+	dynasty=0
+	religion=catholic culture=german
+	1967.11.15={birth=yes}  # Berlin
+	1996.07.25={add_spouse=100003072}	# Michaela
+}
+100099004={ #            Ursula                    Rieck                                    (1938-    )
+	name="Ursula Rieck"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1938.01.27={birth=yes}  # Nürnberg
+	2015.01.01={death=yes}  # EST.
+}
+100099000={ #            Karl-Heinz                Sassen                                   (1940-    )
+	name="Karl-Heinz Sassen"
+	dynasty=0
+	religion=catholic culture=german
+	1940.06.03={birth=yes}  # Gleiwitz
+	1983.07.14={add_spouse=100003073}	# Katharina
+	1989.01.01={remove_spouse=100003073}
+}
+100098968={ #            Kristin Charlotte         Schmidt                                  (1971-    )     2
+	name="Kristin Charlotte Schmidt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1971.09.09={birth=yes}  # Köln
+}
+100098710={ #            Jan-Gisbert               Schultze                                 (1961-    )
+	name="Jan-Gisbert Schultze"
+	dynasty=0
+	religion=catholic culture=german
+	1961.02.12={birth=yes}
+	1995.05.18={add_spouse=100003027}	# Christina
+}
+100099001={ #            Frank Michael             Stede                                    (1956-    )
+	name="Frank Michael Stede"
+	dynasty=0
+	religion=catholic culture=german
+	1956.10.24={birth=yes}  # Salzkotten
+	1989.05.05={add_spouse=100003073}	# Katharina
+}
+100099026={ #            Luise                     Thieme                                   (1838-1917)
+	name="Luise Thieme"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1838.01.31={birth=yes}  # Halle an der Saale
+	1917.04.16={death=yes}  # Dresden
+}
+100098928={ #            Jacqueline                Tonge                                    (1933-    )     2
+	name="Jacqueline Tonge"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1933.05.04={birth=yes}  # Wellington New Zealand
+	2010.01.01={death=yes}  # EST.
+}
+100099008={ #            Antoinette Helga          Walter-Hager                             (1877-1951)
+	name="Antoinette Helga Walter-Hager"
+	female=yes
+	dynasty=0
+	religion=catholic culture=danish
+	1877.07.26={birth=yes}  # Copenhagen
+	1951.10.31={death=yes}  # Berlin
+}
+100098983={ #            Gabriele                  Wiemer                                   (1925-1969)     2
+	name="Gabriele Wiemer"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1925.10.23={birth=yes}  # Dortmund
+	1969.05.11={death=yes}  # Karlsruhe
+}
+100099012={ #            Marie                     de Vassinhac d'Imécourt                  (1863-1924)
+	name="Marie de Vassinhac d'Imécourt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1863.12.25={birth=yes}  # Paris
+	1924.01.05={death=yes}  # Braunschweig
+}
+100092742={ #            Eberhard                  von Ammon                                (1885-1950)
+	name="Eberhard von Ammon"
+	dynasty=0
+	religion=catholic culture=german
+	1885.09.11={birth=yes}  # Magdeburg-Sudenburg
+	1915.01.27={add_spouse=100002346}	# Erika
+	1933.01.01={remove_spouse=100002346}
+	1950.01.29={death=yes}  # Berlin-Charlottenburg
+}
+100094635={ #            Valerie                   von Carstanjen                           (1908-1979)     3
+	name="Valerie von Carstanjen"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1908.04.03={birth=yes}  # Godesberg
+	1979.12.04={death=yes}  # Salzburg
+}
+100099016={ #            Elsa                      von Ondarza                              (1870-1960)     1
+	name="Elsa von Ondarza"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1870.07.19={birth=yes}  # Hamburg
+	1960.02.02={death=yes}  # Fisching
+}
+100098973={ #            Hella                     von Ramin                                (1883-1943)
+	name="Hella von Ramin"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1883.02.25={birth=yes}  # Verden an der Aller
+	1943.01.07={death=yes}  # Radewitz
+}
+100097184={ #            Katharina                 von Siemens                              (1938-    )     3
+	name="Katharina von Siemens"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1938.12.24={birth=yes}  # Berlin
+	2015.01.01={death=yes}  # EST.
+}
+100098715={ #            Carolin Friederike        von Wendorff                             (1975-    )     4
+	name="Carolin Friederike von Wendorff"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1975.08.20={birth=yes}  # Preetz
+}
+100098991={ #            Karin                     von Witzleben                            (1941-    )     2
+	name="Karin von Witzleben"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1941.08.05={birth=yes}  # Köln
+}
+100094623={ #            Ursula                    von Zedlitz                              (1905-1988)
+	name="Ursula von Zedlitz"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1905.05.20={birth=yes}  # London
+	1988.10.01={death=yes}  # Munich
+}
+#1776.01.31={holder=100002005} # FRIEDRICH LUDWIG
+#1818.02.15={holder=100002038} # 1a) FRIEDRICH AUGUST II Carl Fst zu Hohenlohe-Oehringen
+#1853.02.15={holder=100002045} # 1b) Friedrich Ludwig Eugen Carl Adalbert Emil August
+#1892.12.10={holder=100002071} # 3b) Friedrich Wilhelm Eugen Karl HUGO Fst zu Hohenlohe-Oehringen
+#1897.08.23={holder=100002098} # 1c) August Karl CHRISTIAN KRAFT Fst zu Hohenlohe-Oehringen
+#1926.05.14={holder=100002837} # 6c) HANS Heinrich Georg Fst zu Hohenlohe-Oehringen
+#1945.04.24={holder=100002989} # 1d) Hugo Felix AUGUST Fst zu Hohenlohe-Oehringen
+#1962.08.02={holder=100003011} # 2e) KRAFT Hans Konrad Fst zu Hohenlohe-Oehringen
+## HOHENLOHE		1002106
 
 
 ## BARTENSTEIN		1002084
@@ -2275,9 +3460,9 @@
 	dynasty=1002035
 	religion=catholic culture=german
 	father=100001980	# Albrecht Wolfgang von Hohenlohe
-	mother=100092743	# GFN Sophie Amalie von Nassau-Saarbrücken
+	mother=100037335	# Sofie Amalie v. Nassau-Weilburg
 	1696.10.20={birth=yes}
-	1723.01.25={add_spouse=100092742}	# GFN Eleonore von Nassau-Saarbrücken
+	1723.01.25={add_spouse=100037332}	# Eleonore v. Nassau-Weilburg
 	1765.01.16={death=yes}
 }
 	100001703={	# 1a) CHRISTIAN ALBRECHT LUDWIG Fst zu Hohenlohe-Langenburg, Gf von Gleichen (Langenburg 27 Mar 1726-Ludwigsruhe 4 Jul 1789); m.Gedern 13 Apr 1761 Karoline Pss zu Stolberg-Gedern (Gedern 27 Jun 1732-Langenburg 28 May 1796)
@@ -2285,7 +3470,7 @@
 		dynasty=1002035
 		religion=catholic culture=german
 		father=100001702	# Ludwig zu Hohenlohe-Langenburg
-		mother=100092742	# GFN Eleonore von Nassau-Saarbrücken
+		mother=100037332	# Eleonore v. Nassau-Weilburg
 		1726.03.27={birth=yes}
 		1761.04.13={add_spouse=100094303}	# PSS Karoline zu Stolberg-Gedern
 		1789.07.04={death=yes}
@@ -2730,7 +3915,7 @@
 					1872.02.10={death=yes}
 				}
 			100001749={	# 8c) Luise Charlotte Johanna (Langenburg 22 Aug 1799-Koschentin, Upper Silesia 17 Jan 1881); m.Langenburg 19 Apr 1819 Adolf Pr zu Hohenlohe-Ingelfingen (Breslau 29 Jan 1797-Koschentin 24 Apr 1873)
-				name="Luise Charlotte"
+				name=Luise
 				female=yes
 				dynasty=1002035
 				religion=catholic culture=german
@@ -2794,7 +3979,7 @@
 		dynasty=1002035
 		religion=catholic culture=german
 		father=100001702	# Ludwig zu Hohenlohe-Langenburg
-		mother=100092742	# GFN Eleonore von Nassau-Saarbrücken
+		mother=100037332	# Eleonore v. Nassau-Weilburg
 		1732.12.20={birth=yes}
 		1777.08.05={death=yes}
 	}
@@ -2804,7 +3989,7 @@
 		dynasty=1002035
 		religion=catholic culture=german
 		father=100001702	# Ludwig zu Hohenlohe-Langenburg
-		mother=100092742	# GFN Eleonore von Nassau-Saarbrücken
+		mother=100037332	# Eleonore v. Nassau-Weilburg
 		1734.07.22={birth=yes}
 		1813.09.20={death=yes}
 	}
@@ -2814,7 +3999,7 @@
 		dynasty=1002035
 		religion=catholic culture=german
 		father=100001702	# Ludwig zu Hohenlohe-Langenburg
-		mother=100092742	# GFN Eleonore von Nassau-Saarbrücken
+		mother=100037332	# Eleonore v. Nassau-Weilburg
 		1750.05.16={birth=yes}
 		1794.10.24={death=yes}
 	}
