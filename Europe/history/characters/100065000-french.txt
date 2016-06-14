@@ -25,6 +25,7 @@
 ##  100068400-100068741		Harcourt			 			  1007024
 ##  100068750-100068814		Rohan				 			  1007025
 ##  100068825-xxx			de Rochechouart-Mortemart		  1007026
+##  100068975-xxx			MacMahon						  1007027	
 #################################################################################################
 
 
@@ -17764,6 +17765,27 @@
 		1783.04.10={birth=yes}
 		1837.10.05={death=yes}
 	}
+		100083220={ # Charles de Morny (1832-10 Mar 1865); m.7 Jan 1857 Sophia Trubetzkoy (25 Mar 1838-9 Aug 1896) %%
+			name=Charles
+			dynasty=1007059
+			religion=catholic culture=frankish
+			trait=bastard
+			mother=100065023	# Hortense de Beauharnais
+			1832.01.01={birth=yes}
+			1857.01.07={add_spouse=100017408}	# Sophia Trubetzkoy
+			1865.03.10={death=yes}
+		}
+			100026035={ # Marie Eugénie (Paris 25 May 1857-Paris 26 Jun 1883); m.17 Jan 1877 José Ramon Osorio (Madrid 21 Aug 1854-1919) %%
+				name="Marie Eugénie"
+				female=yes
+				dynasty=1007059
+				religion=catholic culture=frankish
+				father=100083220	# Charles de Morny
+				mother=100017408	# Sophia Trubetzkoy
+				1857.05.25={birth=yes}  # Paris
+				1883.06.26={death=yes}  # Paris
+			}
+
 ##	Beauharnais			1007011				100067200		
 
 
@@ -18699,12 +18721,12 @@
 				}
 			100065529={	# 3c) Anne Marie Henriette (Paris 8 Jun 1865-château de Pontcallec 22 Oct 1934); m.Paris 30 Aug 1888 Guy de Durfot-Civrac, Duc de Lorge (d.26 Jul 1912)
 				name="Anne Marie"
+				female=yes
 				dynasty=1007009
 				religion=catholic culture=frankish
 				father=100065524	# Henri de Cossé-Brissac
 				mother=100082027	# Louise Marie Mathéa de Beau de Robiac
 				1865.06.08={birth=yes}
-				1888.08.30={add_spouse=100082561}	# DUC Guy de Durfort-Civrac
 				1934.10.22={death=yes}
 			}
 		100065530={	# 2b) Marie Berthe (17 Sep 1825-25 Jan 1896); m.29 May 1849 Emile Cte de Robien (11 Sep 1814-19 Jun 1861)
