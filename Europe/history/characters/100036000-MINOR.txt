@@ -2375,25 +2375,6 @@
 		1975.08.27={death=yes}
 	}
 
-100092589={ # Maximilian von Loë (15 Jan 1801-5 May 1850); m.1840 Maria Anna v. Schönborn (31 Jan 1809-26 Jun 1856) %%
-	name=Maximilian
-	dynasty=1002220
-	religion=lutheran culture=german
-	1801.01.15={birth=yes}
-	1840.01.01={add_spouse=100005343}	# Maria Anna v. Schönborn
-	1850.05.05={death=yes}
-}
-	100095626={ # Anna (Allner an der Sieg 21 Nov 1840-Aigen bei Salzburg 2 Jul 1924); m.5 Jun 1860 Ludwig v. Waldburg zu Zeil u.Trauchburg (Zeil 19 Aug 1827-Salzburg 19 Jan 1897) %%
-		name=Anna
-		female=yes
-		dynasty=1002220
-		religion=catholic culture=german
-		father=100092589	# Maximilian von Loë
-		mother=100005343	# Maria Anna v. Schönborn
-		1840.11.21={birth=yes}  # Allner an der Sieg
-		1924.07.02={death=yes}  # Aigen bei Salzburg
-	}
-	
 100092591={ # Edmund von Loë (Düsseldorf 29 Aug 1749-Wissen 30 May 1813) %%
 	name=Edmund
 	dynasty=1002220
@@ -2405,8 +2386,7 @@
 		name=Friedrich
 		dynasty=1002220
 		religion=catholic culture=german
-		father=100098658	# Maximilian von Loë
-		mother=100008603	# Therese von Arco
+		father=100092591	# Edmund von Loë
 		1787.08.03={birth=yes}	# Mheer, Holl.-Limburg
 		1849.12.27={death=yes}	# Wissen
 	}
@@ -2428,12 +2408,13 @@
 				1861.05.28={birth=yes}  # Wissen
 				1899.04.14={death=yes}  # Bozen
 			}
-				100196270={ # Friedrich von Loë (Bandung, Java 5 Jul 1893-Schriesheim, Baden 17 Nov 1955) %%
+				100196270={ # Friedrich (Siegburg 5 Jul 1893-Bonn 17 Nov 1955) %%
 					name=Friedrich
 					dynasty=1002220
 					religion=lutheran culture=german
-					1893.07.05={birth=yes}  # Bandung, Java
-					1955.11.17={death=yes}  # Schriesheim, Baden
+					father=100198658	# Friedrich Leopold von Loë
+					1893.07.05={birth=yes}	# Siegburg
+					1955.11.17={death=yes}	# Bonn
 				}
 					100096270={ # Felix (Bandung, Java 9 Apr 1924-Schriesheim, Baden 22 May 1998); m.6 Apr 1961 Karla Henckel v.Donnersmarck (b.4 Apr 1940) %%
 						name=Felix
@@ -2444,7 +2425,7 @@
 						1961.04.06={add_spouse=100001286}	# Karla Henckel v.Donnersmarck
 						1998.05.22={death=yes}  # Schriesheim, Baden
 					}
-						100180248={ # Maximilian (b.1 Jun 1965); m.11 May 1991 Stefanie-Christina zu Sayn-Wittgenstein-Berleburg (b.25 Dec 1966) %%
+						100180248={ # Maximilian (b.Ludwigshafen 1 Jun 1965); m.11 May 1991 Stefanie-Christina zu Sayn-Wittgenstein-Berleburg (b.25 Dec 1966) %%
 							name=Maximilian
 							dynasty=1002220
 							religion=catholic culture=german
@@ -2481,6 +2462,25 @@
 		1797.12.02={birth=yes}	# Wissen
 		1865.02.15={death=yes}	# Drassburg
 	}
+	100092589={ # Maximilian (15 Jan 1801-5 May 1850); m.1840 Maria Anna v. Schönborn (31 Jan 1809-26 Jun 1856) %%
+		name=Maximilian
+		dynasty=1002220
+		religion=lutheran culture=german
+		father=100092591	# Edmund von Loë
+		1801.01.15={birth=yes}
+		1840.01.01={add_spouse=100005343}	# Maria Anna v. Schönborn
+		1850.05.05={death=yes}
+	}
+		100095626={ # Anna (Allner an der Sieg 21 Nov 1840-Aigen bei Salzburg 2 Jul 1924); m.5 Jun 1860 Ludwig v. Waldburg zu Zeil u.Trauchburg (Zeil 19 Aug 1827-Salzburg 19 Jan 1897) %%
+			name=Anna
+			female=yes
+			dynasty=1002220
+			religion=catholic culture=german
+			father=100092589	# Maximilian von Loë
+			mother=100005343	# Maria Anna v. Schönborn
+			1840.11.21={birth=yes}  # Allner an der Sieg
+			1924.07.02={death=yes}  # Aigen bei Salzburg
+		}
 	100192591={ # Marie (26 May 1804-1 Mar 1871); m.9 May 1829 Johann Peter zu Stolberg-Stolberg (27 Jul 1797-7 Apr 1874) %%
 		name=Marie
 		female=yes
@@ -2491,4 +2491,3 @@
 		1871.03.01={death=yes}
 	}
 
-	

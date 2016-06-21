@@ -39,7 +39,7 @@
 				father=100008183	# Johann Ludwig v. Isenburg
 				mother=100037150	# Luise v. Nassau-Siegen
 				1657.08.03={birth=yes}  # Offenbach
-				1679.11.13={add_spouse=100008188}	# GFN Anna Amalie zu Isenburg-Büdingen
+				1679.11.13={add_spouse=100008612}	# Anna v. Isenburg
 				1700.12.06={add_spouse=100008189}	# FRAU Anna Ernestine von Quernheim
 				1709.03.16={add_spouse=100003612}	# Wilhelmine Elisabeth zu Leiningen
 				1711.03.08={death=yes}  # Birstein
@@ -50,7 +50,7 @@
 					dynasty=1002018
 					religion=catholic culture=german
 					father=100008187	# Wilhelm Moritz v. Isenburg
-					mother=100008188	# GFN Anna Amalie zu Isenburg-Büdingen
+					mother=100008612	# Anna v. Isenburg
 					1688.07.23={birth=yes}  # Birstein
 					1712.01.09={add_spouse=100008196}	# BGGFN Amalie Lusie zu Dohna-Lauck
 					1725.04.02={add_spouse=100008197}	# GFN Philippine Luise zu Stolberg-Gedern
@@ -127,141 +127,660 @@
 										1937.03.31={add_spouse=100008212}	# Mariangela Aloisi
 										1989.01.09={death=yes}  # München
 									}
-	100008213={ # 2a) Johann Ernst, in Büdingen (Birstein 21 Jun 1625-Büdingen 18 Oct 1673); m.Wächtersbach 21 Jun 1650 Marie Charlotte Gfn von Erbach-Erbach (Erbach 24 Mar 1631-Meerholz 8 Jun 1693)
-		name="Johann Ernst"
+	# ISENBURG 6 -> Gf Johann Ernst von Isenburg-Büdingen in Wächtersbach, *Birstein 21.6.1625, +Büdingen 8.10.1673; m.Wächtersbach 15.6.1650 Gfn Marie Charlotte von Erbach-Erbach (*Erbach 24.3.1631, +Meerholz 8.6.1693);
+### EARLY
+
+
+### ISENBURG6
+100008213={ # Gf Johann Ernst von Isenburg-Büdingen in Wächtersbach, *Birstein 21.6.1625, +Büdingen 8.10.1673; m.Wächtersbach 15.6.1650 Gfn Marie Charlotte von Erbach-Erbach (*Erbach 24.3.1631, +Meerholz 8.6.1693)
+	name="Johann Ernst"
+	dynasty=1002018
+	religion=catholic culture=german
+	father=100008176	# Wolfgang Ernst v. Isenburg
+	mother=100008179	# GFN Juliane zu Sayn-Wittgenstein
+	1625.06.21={birth=yes}  # Birstein
+	1650.06.15={add_spouse=100008214}	# GFN Marie Charlotte zu Erbach-Erbach
+	1673.10.08={death=yes}  # Büdingen
+}
+	100008215={ # A6. Johann Kasimir, Gf zu Isenburg und Büdingen in Büdingen, *Wächtersbach 10.7.1660, +Culemborg 23.9.1693; m.Offenbach 12.4.1685 Gfn Sophie Elisabeth zu Isenburg-Birstein (*10.7.1650 +3.9.1692)
+		name="Johann Kasimir"
 		dynasty=1002018
 		religion=catholic culture=german
-		father=100008176	# Wolfgang Ernst v. Isenburg
-		mother=100008179	# GFN Juliane zu Sayn-Wittgenstein
-		1625.06.21={birth=yes}  # Birstein
-		1650.06.21={add_spouse=100008214}	# GFN Marie Charlotte zu Erbach-Erbach
-		1673.10.18={death=yes}  # Büdingen
+		father=100008213	# Johann Ernst v. Isenburg
+		mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
+		1660.07.10={birth=yes}  # Wächtersbach
+		1685.04.12={add_spouse=100008216}	# GFN Sophie Elisabeth zu Isenburg-Birstein
+		1693.09.23={death=yes}  # Culemborg
 	}
-		100008215={ # 1b) Johann Kasimir Gf zu Isenburg u.Büdingen in Büdingen (Wächtersbach 10 Jul 1660-Culemborg 23 Sep 1693, bur Büdingen); m.Offenbach 12 Apr 1683 Sophie Elisabeth Gfn zu Isenburg-Birstein (1650-1692)
-			name="Johann Kasimir"
+		100008011={ # B1. Johann Ernst II, Gf zu Isenburg und Büdingen in Büdingen, *Büdingen 3.4.1683, +of smallpox at Büdingen 31.5.1708
+			name="Johann Ernst"
 			dynasty=1002018
 			religion=catholic culture=german
-			father=100008213	# Johann Ernst v. Isenburg
-			mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
-			1660.07.10={birth=yes}  # Wächtersbach
-			1683.04.12={add_spouse=100008216}	# GFN Sophie Elisabeth zu Isenburg-Birstein
-			1693.09.23={death=yes}  # Culemborg
+			father=100008215	# Johann Kasimir v. Isenburg
+			mother=100008216	# GFN Sophie Elisabeth zu Isenburg-Birstein
+			1683.04.03={birth=yes}  # Büdingen
+			1708.05.31={death=yes}  # of smallpox at Büdingen
 		}
-			100008217={ # 1c) Ernst Kasimir I, in Büdingen (Büdingen 12 May 1687-Christinenhof bei Büdingen 15 Oct 1749, bur Büdingen); m.Gedern 9 Aug 1708 Christine Eleonore Gfn zu Stolberg-Gedern (Gedern 12 Sep 1692-Büdingen 30 Jan 1745)
-				name="Ernst Kasimir"
+		100008012={ # B3. Philipp Ernst, *Büdingen 23.4.1686, +of smallpox at Baden 30.10.1705
+			name="Philipp Ernst"
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008215	# Johann Kasimir v. Isenburg
+			mother=100008216	# GFN Sophie Elisabeth zu Isenburg-Birstein
+			1686.04.23={birth=yes}  # Büdingen
+			1705.10.30={death=yes}  # of smallpox at Baden
+		}
+		100008217={ # B4. Ernst Kasimir, I Gf zu Isenburg und Büdingen in Büdingen, *Büdingen 12.5.1687, +Christinenhof bei Büdingen 15.10.1749; m.Gedern 8.8.1708 Gfn Christine Eleonore zu Stolberg-Gedern (*12.9.1692 +30.1.1745)
+			name=Ernst
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008215	# Johann Kasimir v. Isenburg
+			mother=100008216	# GFN Sophie Elisabeth zu Isenburg-Birstein
+			1687.05.12={birth=yes}  # Büdingen
+			1708.08.08={add_spouse=100008218}	# GFN Christine Eleonore zu Stolberg-Gedern
+			1749.10.15={death=yes}  # Christinenhof_bei_Büdingen
+		}
+			100008014={ # C1. Ludwig Kasimir, *Büdingen 25.8.1710, +Büdingen 15.12.1775; m.Christinenhof 24.9.1768 Gfn Auguste Friederike zu Stolberg-Wernigerode (*4.9.1743 +9.1.1783)
+				name="Ludwig Kasimir"
 				dynasty=1002018
 				religion=catholic culture=german
-				father=100008215	# Johann Kasimir v. Isenburg
-				mother=100008216	# GFN Sophie Elisabeth zu Isenburg-Birstein
-				1687.05.12={birth=yes}  # Büdingen
-				1708.08.09={add_spouse=100008218}	# GFN Christine Eleonore zu Stolberg-Gedern
-				1749.10.15={death=yes}  # Christinenhof bei Büdingen
+				father=100008217	# Ernst v. Isenburg
+				mother=100008218	# GFN Christine Eleonore zu Stolberg-Gedern
+				1710.08.25={birth=yes}  # Büdingen
+				1768.09.24={add_spouse=100092535}	# GFN Auguste Friederike zu Stolberg-Wernigerode
+				1775.12.15={death=yes}  # Büdingen
 			}
-				100008219={ # 1d) Ernst Dietrich (Büdingen 30 Oct 1717-Büdingen 26 Sep 1758); m.Birstein 15 Aug 1752 Dorothea Wilhelmine Gfn zu Isenburg-Birstein (1723-1777)
-					name="Ernst Dietrich"
+			100008015={ # C3. Gustav Friedrich, *Gedern 7.8.1715, +Gedern 12.2.1768; 1m: Brahetrolleborg, Fünen 21.11.1749 Gfn Dorothea Benedikta von Reventlow (*Brahetrolleborg 13.10.1734, +Büdingen 20.12.1766); 2m: Wernigerode 5.12.1767 Gfn Auguste Friederike zu Stolberg-Wernigerode (*4.9.1743 +9.1.1783)
+				name="Gustav Friedrich"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008217	# Ernst v. Isenburg
+				mother=100008218	# GFN Christine Eleonore zu Stolberg-Gedern
+				1715.08.07={birth=yes}  # Gedern
+				1749.11.21={add_spouse=100093041}	# GFN Dorothea Benedikta von Reventlow
+				1767.12.05={add_spouse=100092535}	# GFN Auguste Friederike zu Stolberg-Wernigerode
+				1768.02.12={death=yes}  # Gedern
+			}
+				100008016={ # D5. Christine Wilhelmine, *Copenhagen 24.6.1756, +Bergheim 13.11.1826; m.Büdingen 5.3.1772 Gf Josias Wilhelm von Waldeck-Bergheim (*16.10.1733 +4.6.1788)
+					name="Christine Wilhelmine"
+					female=yes
+					dynasty=1002018
+					religion=catholic culture=danish
+					father=100008015	# Gustav Friedrich v. Isenburg
+					mother=100093041	# GFN Dorothea Benedikta von Reventlow
+					1756.06.24={birth=yes}  # Copenhagen
+					1826.11.13={death=yes}  # Bergheim
+				}
+				100008017={ # D6. Auguste Caroline, *Copenhagen 15.3.1758, +König, Odenwald 22.4.1815; m.Bergheim 4.9.1778 Gf Franz Carl zu Erbach-Schönberg (*28.7.1724 +29.9.1788)
+					name="Auguste Caroline"
+					female=yes
+					dynasty=1002018
+					religion=catholic culture=danish
+					father=100008015	# Gustav Friedrich v. Isenburg
+					mother=100093041	# GFN Dorothea Benedikta von Reventlow
+					1758.03.15={birth=yes}  # Copenhagen
+					1815.04.22={death=yes}  # König Odenwald
+				}
+			100008018={ # C4. Ernst Dietrich, *Büdingen 30.10.1717, +Büdingen 26.12.1758; m.Birstein 15.8.1752 Gfn Dorothea Wilhelmine zu Isenburg-Birstein (*23.9.1723 +15.8.1777)
+				name="Ernst Dietrich"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008217	# Ernst v. Isenburg
+				mother=100008218	# GFN Christine Eleonore zu Stolberg-Gedern
+				1717.10.30={birth=yes}  # Büdingen
+				1752.08.15={add_spouse=100008266}	# Dorothea Wilhelmine v. Isenburg
+				1758.12.26={death=yes}  # Büdingen
+			}
+				100008221={ # D1. Ernst Kasimir II, Gf zu Isenburg und Büdingen in Büdingen, *Büdingen 25.2.1757, +Büdingen 25.2.1801; m.Burgsteinfurt 25.7.1779 Gfn Eleonore zu Bentheim und Steinfurt (*26.4.1754 +18.2.1827)
+					name="Ernst Kasimir"
 					dynasty=1002018
 					religion=catholic culture=german
-					father=100008217	# Ernst Kasimir v. Isenburg
-					mother=100008218	# GFN Christine Eleonore zu Stolberg-Gedern
-					1717.10.30={birth=yes}  # Büdingen
-					1752.08.15={add_spouse=100008266}	# Dorothea v. Isenburg
-					1758.09.26={death=yes}  # Büdingen
+					father=100008018	# Ernst Dietrich v. Isenburg
+					mother=100008266	# Dorothea Wilhelmine v. Isenburg
+					1757.02.25={birth=yes}  # Büdingen
+					1779.07.25={add_spouse=100000376}	# Eleonore zu Bentheim u.Steinfurt
+					1801.02.25={death=yes}  # Büdingen
 				}
-					100008221={ # 1e) Ernst Kasimir II, in Büdingen (Büdingen 25 Feb 1757-Büdingen 25 Feb 1801); m.Burgsteinfurt 25 Jul 1779 Eleonore Gfn zu Bentheim und Steinfurt (Burgsteinfurt 26 Apr 1754-Büdingen 18 Feb 1827)
-						name="Ernst Kasimir"
+					# SECTION 4 -> 1f) Ernst Casimir, cr 1840 Fürst zu Isenburg und Büdingen (Büdingen 20 Jan 1781-Büdingen 1 Dec 1852); m.Zwingenberg 10 May 1804 Ferdinande Gfn zu Erbach-Schönberg (Zwingenberg 23 Jul 1784-Büdingen 24 Sep 1848); for his issue see Section 4, below
+					100008397={ # E6. Charlotte Friederike Amalie, *Büdingen 9.9.1782, +Büdingen 13.1.1843
+						name=Charlotte
+						female=yes
 						dynasty=1002018
 						religion=catholic culture=german
-						father=100008219	# Ernst Dietrich v. Isenburg
-						mother=100008266	# Dorothea v. Isenburg
-						1757.02.25={birth=yes}  # Büdingen
-						1779.07.25={add_spouse=100000376}	# Eleonore zu Bentheim u.Steinfurt
-						1801.02.25={death=yes}  # Büdingen
+						father=100008221	# Ernst Kasimir v. Isenburg
+						mother=100000376	# Eleonore zu Bentheim u.Steinfurt
+						1782.09.09={birth=yes}  # Büdingen
+						1843.01.13={death=yes}  # Büdingen
 					}
-						# SECTION 4 -> 1f) Ernst Casimir, cr 1840 Fürst zu Isenburg und Büdingen (Büdingen 20 Jan 1781-Büdingen 1 Dec 1852); m.Zwingenberg 10 May 1804 Ferdinande Gfn zu Erbach-Schönberg (Zwingenberg 23 Jul 1784-Büdingen 24 Sep 1848); for his issue see Section 4, below
-		100008225={ # 2b) Ferdinand Maximilian I Gf zu Isenburg und Büdingen in Wächtersbach (Büdingen 3 Jan 1662-Wächtersbach 14 Mar 1703); m.Berleburg 1 Jul 1685 Albertine Marie Gfn zu Sayn-Wittgenstein-Berleburg (Berleburg 29 Jan 1663-Wächtersbach 29 Nov 1711)
+					100008394={ # E2. Karl Ludwig Wilhelm, *Büdingen 8.4.1785, +Heidelberg 13.1.1839
+						name=Karl
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008221	# Ernst Kasimir v. Isenburg
+						mother=100000376	# Eleonore zu Bentheim u.Steinfurt
+						1785.04.08={birth=yes}  # Büdingen
+						1839.01.13={death=yes}  # Heidelberg
+					}
+					100008395={ # E4. Christian Ludwig Karl Wilhelm Ferdinand, *Büdingen 16.8.1788, +Büdingen 3.2.1840
+						name=Christian
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008221	# Ernst Kasimir v. Isenburg
+						mother=100000376	# Eleonore zu Bentheim u.Steinfurt
+						1788.08.16={birth=yes}  # Büdingen
+						1840.02.03={death=yes}  # Büdingen
+					}
+					100008398={ # E7. Dorothea Luise Karoline Anna, *Büdingen 31.12.1790, +Büdingen 5.2.1857
+						name=Dorothea
+						female=yes
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008221	# Ernst Kasimir v. Isenburg
+						mother=100000376	# Eleonore zu Bentheim u.Steinfurt
+						1790.12.31={birth=yes}  # Büdingen
+						1857.02.05={death=yes}  # Büdingen
+					}
+				100008399={ # D3. Dorothea Luise Karoline, *Büdingen 14.9.1758, +Büdingen 24.3.1784
+					name=Dorothea
+					female=yes
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008018	# Ernst Dietrich v. Isenburg
+					mother=100008266	# Dorothea Wilhelmine v. Isenburg
+					1758.09.14={birth=yes}  # Büdingen
+					1784.03.24={death=yes}  # Büdingen
+				}
+			100008400={ # C7. Auguste Caroline, *Büdingen 15.7.1722, +Wächtersbach 30.11.1758; m.Thiergarten 6.7.1750 Gf Ferdinand Kasimir zu Ysenburg-Wächtersbach (*19.1.1716 +16.9.1778)
+				name="Auguste Caroline"
+				female=yes
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008217	# Ernst v. Isenburg
+				mother=100008218	# GFN Christine Eleonore zu Stolberg-Gedern
+				1722.07.15={birth=yes}  # Büdingen
+				1758.11.30={death=yes}  # Wächtersbach
+			}
+		100008406={ # B7. Ernestine Luise, *Büdingen 25.9.1690, +Büdingen 17.1.1720
+			name="Ernestine Luise"
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008215	# Johann Kasimir v. Isenburg
+			mother=100008216	# GFN Sophie Elisabeth zu Isenburg-Birstein
+			1690.09.25={birth=yes}  # Büdingen
+			1720.01.17={death=yes}  # Büdingen
+		}
+		100008408={ # B8. Albertine Ernestine, *Thiergarten 25.8.1692, +Wächtersbach 11.6.1724; m.Büdingen 28.5.1713 Gf Ferdinand Maximilian zu Isenburg-Wächtersbach (*12.1.1692 +21.4.1755)
+			name="Albertine Ernestine"
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008215	# Johann Kasimir v. Isenburg
+			mother=100008216	# GFN Sophie Elisabeth zu Isenburg-Birstein
+			1692.08.25={birth=yes}  # Thiergarten
+			1724.06.11={death=yes}  # Wächtersbach
+		}
+	100008415={ # A7. Ferdinand Maximilian I Gf zu Ysenburg und Büdingen in Wächtersbach, *Büdingen 3.1.1662, +Wächtersbach 14.3.1703; m.Berleburg 1.7.1685 Gfn Albertine Marie zu Sayn-Wittgenstein-Berleburg (*Berleburg 29.1.1663, +Wächtersbach 29.11.1711)
+		name="Ferdinand Maximilian"
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008213	# Johann Ernst v. Isenburg
+		mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
+		1662.01.03={birth=yes}  # Büdingen
+		1685.07.01={add_spouse=100004444}	# Albertine zu Sayn-Wittgenstein-Berleburg
+		1703.03.14={death=yes}  # Wächtersbach
+	}
+	100008490={ # B10. Marie Charlotte, *Wächtersbach 13.7.1687, +Berleburg 12.8.1716; m.Wächtersbach 18.2.1711 Gf Casimir zu Sayn-Wittgenstein-Berleburg (*31.1.1687 +5.6.1741)
+			name="Marie Charlotte"
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008415	# Ferdinand Maximilian v. Isenburg
+			mother=100004444	# Albertine zu Sayn-Wittgenstein-Berleburg
+			1687.07.13={birth=yes}  # Wächtersbach
+			1716.08.12={death=yes}  # Berleburg
+		}
+		100008416={ # B3. Ferdinand Maximilian II Gf zu Ysenburg und Büdingen in Wächtersbach, *Wächtersbach 12.1.1692, +Wächtersbach 21.4.1755; 1m: Büdingen 28.5.1713 Gfn Albertine Ernestine zu Isenburg und Büdingen (*25.8.1692 +11.6.1724); 2m: Gedern 7.12.1725 Gfn Ernestine Wilhelmine zu Stolberg-Gedern (*29.1.1695 +7.5.1759)
 			name="Ferdinand Maximilian"
 			dynasty=1002018
 			religion=catholic culture=german
-			father=100008213	# Johann Ernst v. Isenburg
-			mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
-			1662.01.03={birth=yes}  # Büdingen
-			1685.07.01={add_spouse=100004444}	# Albertine zu Sayn-Wittgenstein-Berleburg
-			1703.03.14={death=yes}  # Wächtersbach
+			father=100008415	# Ferdinand Maximilian v. Isenburg
+			mother=100004444	# Albertine zu Sayn-Wittgenstein-Berleburg
+			1692.01.12={birth=yes}  # Wächtersbach
+			1713.05.28={add_spouse=100008408}	# Albertine Ernestine v. Isenburg
+			1725.12.07={add_spouse=100008229}	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
+			1755.04.21={death=yes}  # Wächtersbach
 		}
-			100008227={ # 1c) Ferdinand Maximilian II (Wächtersbach 12 Jan 1692-Wächtersbach 22 Apr 1755); m.1st Büdingen 28 May 1713 Albertine Ernestine Gfn zu Isenburg und Büdingen (1692-1724); m.2d Gedern 13 Dec 1725 Ernestine Wilhelmine Gfn zu Stolberg-Gedern (Gedern 29 Jan 1695-Wächtersbach 7/8 May 1759)
-				name="Ferdinand Maximilian"
+			100008419={ # C1. Ferdinand Kasimir I Gf zu Ysenburg und Büdingen in Wächtersbach, *Wächtersbach 19.1.1716, +Assenheim 16.9.1778; m.Thiergarten 6.7.1750 Gfn Auguste Caroline zu Isenburg und Büdingen (*15.7.1722 +30.11.1758)
+				name="Ferdinand Kasimir"
 				dynasty=1002018
 				religion=catholic culture=german
-				father=100008225	# Ferdinand Maximilian v. Isenburg
-				mother=100004444	# Albertine zu Sayn-Wittgenstein-Berleburg
-				1692.01.12={birth=yes}  # Wächtersbach
-				1713.05.28={add_spouse=100008228}	# GFN Albertine Ernestine zu Isenburg-Büdingen
-				1725.12.13={add_spouse=100008229}	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
-				1755.04.22={death=yes}  # Wächtersbach
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008408	# Albertine Ernestine v. Isenburg
+				1716.01.19={birth=yes}  # Wächtersbach
+				1750.07.06={add_spouse=100008400}	# Auguste Caroline v. Isenburg
+				1778.09.16={death=yes}  # Assenheim
 			}
-				100008230={ # 1d) Ludwig Maximilian (Wächtersbach 28 Aug 1741-Wächtersbach 23 Jun 1805); m.Wittgenstein 26 Apr 1789 Auguste Gfn zu Sayn-Wittgenstein-Hohenstein (Wittgenstein 27 Feb 1763-Wächtersbach 20 Apr 1800)
-					name="Ludwig Maximilian"
+				100008422={ # D1. Ferdinand Kasimir II Gf zu Ysenburg und Büdingen in Wächtersbach, *Wächtersbach 17.10.1752, +Wächtersbach 1.12.1780; m.Siegen 29.4.1775 Gfn Auguste zu Bentheim und Steinfurt (*Burgsteinfurt 23.9.1755, +Wiesbaden 15.11.1798)
+					name="Ferdinand Kasimir"
 					dynasty=1002018
 					religion=catholic culture=german
-					father=100008227	# Ferdinand Maximilian v. Isenburg
-					mother=100008229	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
-					1741.08.28={birth=yes}  # Wächtersbach
-					1789.04.26={add_spouse=100008231}	# GFN Auguste zu Sayn-Wittgenstein-Hohenstein
-					1805.06.23={death=yes}  # Wächtersbach
+					father=100008419	# Ferdinand Kasimir v. Isenburg
+					mother=100008400	# Auguste Caroline v. Isenburg
+					1752.10.17={birth=yes}  # Wächtersbach
+					1775.04.29={add_spouse=100000377}	# Auguste zu Bentheim u.Steinfurt
+					1780.12.01={death=yes}  # Wächtersbach
 				}
-					100008232={ # 1e) Adolf, resigned 1847 (Wächtersbach 26 Jul 1795-Frankfurt 22 Aug 1859, bur Wächtersbach); m.Philippseich 14 Oct 1823 Philippine Gfn zu Ysenburg-Philippseich (1798-1877)
-						name=Adolf
-						dynasty=1002018
-						religion=catholic culture=german
-						father=100008230	# Ludwig Maximilian v. Isenburg
-						mother=100008231	# GFN Auguste zu Sayn-Wittgenstein-Hohenstein
-						1795.07.26={birth=yes}  # Wächtersbach
-						1823.10.14={add_spouse=100008233}	# GFN Philippine zu Isenburg-Philippseich
-						1859.08.22={death=yes}  # Frankfurt
-					}
-						# SECTION 5 -> 1f) Ferdinand Maximilian I, cr 1865 Fürst zu Ysenburg und Büdingen (Wächtersbach 24 Oct 1824-Wächtersbach 5 Jun 1903); m.Wilhelmshöhe 17 Jul 1849 Pss Auguste von Hanau (Niederdorfelden 21 Sep 1829-Halle 18 Sep 1887); for his issue see Section 5, below
-		100008236={ # 3b) Georg Albrecht Gf zu Isenburg und Büdingen in Meerholz (Büdingen 1 May 1664-Meerholz 11 Feb 1724); m.11 Jul 1691 Amalie Henriette Gfn zu Sayn-Wittgenstein-Berleburg (24 Feb 1664-Meerholz 9 Feb 1733)
-			name="Georg Albrecht"
+			100008423={ # C2. Albrecht August, *Wächtersbach 14.4.1717, +Wächtersbach 25.11.1782; 1m: Almelo 22.4.1756 Sophie Dorothea Gfn van Rechteren (*15.8.1706, +Wächtersbach 23.10.1758); 2m: Meiningen 19.6.1765 Ldgfn Charlotte von Hessen-Philippsthal-Barchfeld (*Grave, Gelderland 26.4.1725, +Bückeburg 9.1.1798)
+				name="Albrecht August"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008408	# Albertine Ernestine v. Isenburg
+				1717.04.14={birth=yes}  # Wächtersbach
+				1756.04.22={add_spouse=100099322}	# GFN Sophie Dorothea van Rechteren
+				1765.06.19={add_spouse=100099323}	# LDGFN Charlotte von Hessen-Philippsthal-Barchfeld
+				1782.11.25={death=yes}  # Wächtersbach
+			}
+			100008438={ # C11. Henriette Luise, *Wächtersbach 17.5.1718, +Wächtersbach 8.6.1784
+				name="Henriette Luise"
+				female=yes
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008408	# Albertine Ernestine v. Isenburg
+				1718.05.17={birth=yes}  # Wächtersbach
+				1784.06.08={death=yes}  # Wächtersbach
+			}
+			100008425={ # C3. Wilhelm Reinhard, *Wächtersbach 5.5.1719, +Wächtersbach 15.8.1785; m.Wächtersbach 20.2.1784 Gfn Auguste zu Bentheim und Steinfurt (*Burgsteinfurt 23.9.1755, +Wiesbaden 15.11.1798)
+				name="Wilhelm Reinhard"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008408	# Albertine Ernestine v. Isenburg
+				1719.05.05={birth=yes}  # Wächtersbach
+				1784.02.20={add_spouse=100000377}	# Auguste zu Bentheim u.Steinfurt
+				1785.08.15={death=yes}  # Wächtersbach
+			}
+			100008427={ # C4. Carl Ludwig, *Wächtersbach 8.4.1720, +Knauthain 16.4.1758; m.Steinort 1749 Charlotte Gfn von Lehndorff (*Steinort 1726, +Königsberg 1762)
+				name="Carl Ludwig"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008408	# Albertine Ernestine v. Isenburg
+				1720.04.08={birth=yes}  # Wächtersbach
+				1749.01.01={add_spouse=100099325}	# GFN Charlotte von Lehndorff
+				1758.04.16={death=yes}  # Knauthain
+			}
+				100008428={ # D2. Luise Ernestine Ferdinande Sophie, *1750, +1812; m.Sanditten 1776 Gf Friedrich Leopold von Schlieben (+1799)
+					name=Luise
+					female=yes
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008427	# Carl Ludwig v. Isenburg
+					mother=100099325	# GFN Charlotte von Lehndorff
+					1750.01.01={birth=yes}
+					1812.01.01={death=yes}
+				}
+				100008430={ # D3. Marie Albertine Juliane Henriette, *1752, +Steinort 1774
+					name=Marie
+					female=yes
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008427	# Carl Ludwig v. Isenburg
+					mother=100099325	# GFN Charlotte von Lehndorff
+					1752.01.01={birth=yes}
+					1774.01.01={death=yes}  # Steinort
+				}
+			100008431={ # C5. Wolfgang Ernst, *Wächtersbach 3.4.1721, +Wächtersbach 26.5.1751
+				name="Wolfgang Ernst"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008408	# Albertine Ernestine v. Isenburg
+				1721.04.03={birth=yes}  # Wächtersbach
+				1751.05.26={death=yes}  # Wächtersbach
+			}
+			100008433={ # C6. Adolf I, *Wächtersbach 20.8.1722, +Wächtersbach 19.4.1798
+				name=Adolf
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008408	# Albertine Ernestine v. Isenburg
+				1722.08.20={birth=yes}  # Wächtersbach
+				1798.04.19={death=yes}  # Wächtersbach
+			}
+			100008435={ # C7. Christian Ernst, *Wächtersbach 13.2.1728, +Wächtersbach 6.8.1786
+				name="Christian Ernst"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008229	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
+				1728.02.13={birth=yes}  # Wächtersbach
+				1786.08.06={death=yes}  # Wächtersbach
+			}
+			100008436={ # C8. Friedrich August, *Wächtersbach 14.4.1732, +Wächtersbach 7.1.1768
+				name="Friedrich August"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008229	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
+				1732.04.14={birth=yes}  # Wächtersbach
+				1768.01.07={death=yes}  # Wächtersbach
+			}
+			100008440={ # C15. Christine, *Wächtersbach 23.3.1733, +Fulda 14.5.1788
+				name=Christine
+				female=yes
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008229	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
+				1733.03.23={birth=yes}  # Wächtersbach
+				1788.05.14={death=yes}  # Fulda
+			}
+			100008442={ # C16. Luise Charlotte, *Wächtersbach 20.4.1736, +Wächtersbach 4.1.1793
+				name="Luise Charlotte"
+				female=yes
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008229	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
+				1736.04.20={birth=yes}  # Wächtersbach
+				1793.01.04={death=yes}  # Wächtersbach
+			}
+			100008444={ # C17. Auguste, *Wächtersbach 29.4.1738, +Wächtersbach 17.4.1805
+				name=Auguste
+				female=yes
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008229	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
+				1738.04.29={birth=yes}  # Wächtersbach
+				1805.04.17={death=yes}  # Wächtersbach
+			}
+			100008230={ # C9. Ludwig Maximilian, *Wächtersbach 28.7.1741, +Wächtersbach 23.6.1805; m.Wittgenstein 26.4.1789 Gfn Auguste zu Sayn-Wittgenstein-Hohenstein (*Wittgenstein 27.7.1763, +Wächtersbach 20.4.1800); for his descendants see HERE
+				name="Ludwig Maximilian"
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008416	# Ferdinand Maximilian v. Isenburg
+				mother=100008229	# GFN Ernestine Wilhelmine zu Stolberg-Gedern
+				1741.07.28={birth=yes}  # Wächtersbach
+				1789.04.26={add_spouse=100008231}	# GFN Auguste zu Sayn-Wittgenstein-Hohenstein
+				1805.06.23={death=yes}  # Wächtersbach
+			}
+				100008232={ # 1e) Adolf, resigned 1847 (Wächtersbach 26 Jul 1795-Frankfurt 22 Aug 1859, bur Wächtersbach); m.Philippseich 14 Oct 1823 Philippine Gfn zu Ysenburg-Philippseich (1798-1877)
+					name=Adolf
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008230	# Ludwig Maximilian v. Isenburg
+					mother=100008231	# GFN Auguste zu Sayn-Wittgenstein-Hohenstein
+					1795.07.26={birth=yes}  # Wächtersbach
+					1823.10.14={add_spouse=100008233}	# GFN Philippine zu Ysenburg-Philippseich
+					1859.08.22={death=yes}  # Frankfurt
+				}
+					# SECTION 5 -> 1f) Ferdinand Maximilian I, cr 1865 Fürst zu Ysenburg und Büdingen (Wächtersbach 24 Oct 1824-Wächtersbach 5 Jun 1903); m.Wilhelmshöhe 17 Jul 1849 Pss Auguste von Hanau (Niederdorfelden 21 Sep 1829-Halle 18 Sep 1887); for his issue see Section 5, below
+		100008488={ # B6. Wilhelm, Gf zu Ysenburg und Büdingen in Wächtersbach zu Ronneburg, *Wächtersbach 3.5.1700, +Gelnhausen 14.2.1747, bur Gelnhausen; m.Dürkheim 1730 Gfn Johanna Polyxene zu Leiningen-Dagsburg-Hartenburg (*1709, +Gelnhausen 1750)
+			name=Wilhelm
 			dynasty=1002018
 			religion=catholic culture=german
-			father=100008213	# Johann Ernst v. Isenburg
-			mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
-			1664.05.01={birth=yes}  # Büdingen
-			1691.07.11={add_spouse=100004447}	# Amalie Henriette zu Sayn-Wittgenstein-Berleburg
-			1724.02.11={death=yes}  # Meerholz
+			father=100008415	# Ferdinand Maximilian v. Isenburg
+			mother=100004444	# Albertine zu Sayn-Wittgenstein-Berleburg
+			1700.05.03={birth=yes}  # Wächtersbach
+			1730.01.01={add_spouse=100003364}	# Johanna Polyxene zu Leiningen
+			1747.02.14={death=yes}  # Gelnhausen
 		}
-			100008238={ # 1c) Karl Friedrich (Meerholz 27 Nov 1700-Meerholz 14 Mar 1774); m.Assenheim 24 Feb 1725 Friederike Gfn zu Solms-Assenheim (Gaildorf 23 Sep 1703-Meerholz 1 Jun 1762)
-				name="Karl Friedrich"
+	100008492={ # A8. Georg Albrecht Gf zu Isenburg und Büdingen in Meerholz, *Büdingen 1.5.1664, +Meerholz 11.2.1724; m.1691 Gfn Amalie Henriette zu Sayn-Wittgenstein-Berleburg (*14.2.1664, +Meerholz 9.2.1733)
+		name="Georg Albrecht"
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008213	# Johann Ernst v. Isenburg
+		mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
+		1664.05.01={birth=yes}  # Büdingen
+		1691.01.01={add_spouse=100004447}	# Amalie Henriette zu Sayn-Wittgenstein-Berleburg
+		1724.02.11={death=yes}  # Meerholz
+	}
+		100008542={ # B5. Charlotte Amalie, *Meerholz 1.9.1692, +Birstein 10.1.1752; 1m: Meerholz 6.7.1713 Gf Ernst Karl zu Isenburg-Marienborn (*11.4.1691 +22.5.1717); 2m: Marienborn bei Linz 22.5.1725 Wolfgang Ernst I zu Isenburg (*5.4.1686 +15.4.1754)
+			name="Charlotte Amalie"
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008492	# Georg Albrecht v. Isenburg
+			mother=100004447	# Amalie Henriette zu Sayn-Wittgenstein-Berleburg
+			1692.09.01={birth=yes}  # Meerholz
+			1752.01.10={death=yes}  # Birstein
+		}
+		100008493={ # B3. Karl Friedrich, *Meerholz 27.11.1700, +Meerholz 14.3.1774; m.Assenheim 24.2.1725 Gfn Friederike zu Solms-Assenheim (*23.9.1703 +1.6.1762)
+			name="Karl Friedrich"
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008492	# Georg Albrecht v. Isenburg
+			mother=100004447	# Amalie Henriette zu Sayn-Wittgenstein-Berleburg
+			1700.11.27={birth=yes}  # Meerholz
+			1725.02.24={add_spouse=100006186}	# Friederike von Solms-Rödelheim u.Assenheim
+			1774.03.14={death=yes}  # Meerholz
+		}
+			100008494={ # C3. Johann Friedrich Wilhelm, *Meerholz 2.5.1729, +Meerholz 4.5.1802; m.Grumbach 11.6.1762 Gfn Caroline von Salm, Wild- und Rheingfn in Grumbach (*Meerholz 20.4.1734, +Meerholz 11.5.1791)
+				name="Johann Friedrich"
 				dynasty=1002018
 				religion=catholic culture=german
-				father=100008236	# Georg Albrecht v. Isenburg
-				mother=100004447	# Amalie Henriette zu Sayn-Wittgenstein-Berleburg
-				1700.11.27={birth=yes}  # Meerholz
-				1725.02.24={add_spouse=100006186}	# Eleonore von Solms-Rödelheim u.Assenheim
-				1774.03.14={death=yes}  # Meerholz
+				father=100008493	# Karl Friedrich v. Isenburg
+				mother=100006186	# Friederike von Solms-Rödelheim u.Assenheim
+				1729.05.02={birth=yes}  # Meerholz
+				1762.06.11={add_spouse=100004710}	# GFN Carolin von Salm
+				1802.05.04={death=yes}  # Meerholz
 			}
-				100008240={ # 1d) Johann Friedrich Wilhelm (Meerholz 2 May 1729-Meerholz 4 May 1802); m.Grumbach 11 Jun 1762 Caroline Gfn von Salm, Wild- und Rheingfin in Grumbach (Meerholz 20 Apr 1734-Meerholz 11 May 1791)
-					name=Johann
+				100008495={ # D1. Karl Wilhelm Ludwig, *Meerholz 7.5.1763, +Meerholz 17.4.1832; m.Wittgenstein 29.3.1785 Gfn Caroline zu Sayn-Wittgenstein-Hohenstein (*Wittgenstein 13.9.1764, +Frankfurt 28.4.1833)
+					name=Karl
 					dynasty=1002018
 					religion=catholic culture=german
-					father=100008238	# Karl Friedrich v. Isenburg
-					mother=100006186	# Eleonore von Solms-Rödelheim u.Assenheim
-					1729.05.02={birth=yes}  # Meerholz
-					1762.06.11={add_spouse=100008241}	# GFN Carolin von Salm
-					1802.05.04={death=yes}  # Meerholz
+					father=100008494	# Johann v. Isenburg
+					mother=100004710	# GFN Carolin von Salm
+					1763.05.07={birth=yes}  # Meerholz
+					1785.03.29={add_spouse=100099333}	# GFN Caroline zu Sayn-Wittgenstein-Hohenstein
+					1832.04.17={death=yes}  # Meerholz
 				}
-					100008242={ # 1e) Joseph Friedrich Wilhelm Albrecht (Meerholz 10 May 1772-Meerholz 14 Mar 1822); m.Castell 22 Oct 1818 Dorothea Gfn zu Castell-Castell (Castell 10 Jan 1796-Meerholz 6 Sep 1864)
-						name=Joseph
+					100008498={ # E4. Caroline Luise Friederike Elisabeth Henriette Charlotte, *Meerholz 24.1.1786, +Unterliederbach 2.4.1850
+						name=Caroline
+						female=yes
 						dynasty=1002018
 						religion=catholic culture=german
-						father=100008240	# Johann v. Isenburg
-						mother=100008241	# GFN Carolin von Salm
-						1772.05.10={birth=yes}  # Meerholz
-						1818.10.22={add_spouse=100008243}	# Dorothea v. Castell-Castell
-						1822.03.14={death=yes}  # Meerholz
+						father=100008495	# Karl v. Isenburg
+						mother=100099333	# GFN Caroline zu Sayn-Wittgenstein-Hohenstein
+						1786.01.24={birth=yes}  # Meerholz
+						1850.04.02={death=yes}  # Unterliederbach
 					}
-						# SECTION 6 -> 1f) Carl Friedrich Kasimir Adolf Ludwig (Meerholz 26 Oct 1819-Meerholz 30 Mar 1900); m.1st Castell 9 Jun 1846 Johanna Gfn zu Castell-Castell (Castell 8 Feb 1822-Meerholz 29 Mar 1863); m.2nd Büdingen 21 Nov 1865 Pss Anna zu Isenburg und Büdingen (1843-1912); for his issue see Section 6, below
-### EARLY
+					100008496={ # E1. Georg Karl Friedrich Ludwig Ernst Adolf, *Meerholz 27.5.1787, +Heidelberg 12.7.1808
+						name=Georg
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008495	# Karl v. Isenburg
+						mother=100099333	# GFN Caroline zu Sayn-Wittgenstein-Hohenstein
+						1787.05.27={birth=yes}  # Meerholz
+						1808.07.12={death=yes}  # Heidelberg
+					}
+					100008499={ # E5. Antoinette Luise Friederike Elisabeth Caroline, *Meerholz 17.1.1790, +Meerholz 27.8.1826
+						name=Antoinette
+						female=yes
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008495	# Karl v. Isenburg
+						mother=100099333	# GFN Caroline zu Sayn-Wittgenstein-Hohenstein
+						1790.01.17={birth=yes}  # Meerholz
+						1826.08.27={death=yes}  # Meerholz
+					}
+					100008500={ # E6. Luise Wilhelmine Sophie Emilie, *Meerholz 25.3.1793, +Frankfurt 30.1.1866
+						name=Luise
+						female=yes
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008495	# Karl v. Isenburg
+						mother=100099333	# GFN Caroline zu Sayn-Wittgenstein-Hohenstein
+						1793.03.25={birth=yes}  # Meerholz
+						1866.01.30={death=yes}  # Frankfurt
+					}
+					100008497={ # E3. Friedrich Ludwig Franz Adolf Karl, *Meerholz 4.5.1796, +Göttingen 14.2.1818
+						name=Friedrich
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008495	# Karl v. Isenburg
+						mother=100099333	# GFN Caroline zu Sayn-Wittgenstein-Hohenstein
+						1796.05.04={birth=yes}  # Meerholz
+						1818.02.14={death=yes}  # Göttingen
+					}
+				100008534={ # D7. Luise Christiane Eleonore, *Meerholz 23.4.1770, +Meerholz 30.11.1808; m.Meerholz 23.12.1784 Gf Alexander von Pückler-Limpurg (*15.7.1751 +30.3.1820)
+					name=Luise
+					female=yes
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008494	# Johann v. Isenburg
+					mother=100004710	# GFN Carolin von Salm
+					1770.04.23={birth=yes}  # Meerholz
+					1808.11.30={death=yes}  # Meerholz
+				}
+				100008508={ # D5. Joseph Friedrich Wilhelm Albrecht, *Meerholz 10.5.1772, +Meerholz 14.3.1822; m.Castell 22.10.1818 Gfn Dorothea zu Castell-Castell (*Castell 10.1.1796, +Meerholz 6.9.1864)
+					name=Joseph
+					dynasty=1002018
+					religion=catholic culture=german
+					father=100008494	# Johann v. Isenburg
+					mother=100004710	# GFN Carolin von Salm
+					1772.05.10={birth=yes}  # Meerholz
+					1818.10.22={add_spouse=100008243}	# Dorothea v. Castell-Castell
+					1822.03.14={death=yes}  # Meerholz
+				}
+					# SECTION 6 -> 1f) Carl Friedrich Kasimir Adolf Ludwig (Meerholz 26 Oct 1819-Meerholz 30 Mar 1900); m.1st Castell 9 Jun 1846 Johanna Gfn zu Castell-Castell (Castell 8 Feb 1822-Meerholz 29 Mar 1863); m.2nd Büdingen 21 Nov 1865 Pss Anna zu Isenburg und Büdingen (1843-1912); for his issue see Section 6, below	
+					100008532={ # E2. BERTHA Amalie Caroline Ferdinande, *Meerholz 14.6.1821, +Montreux 8.11.1875; m.Meerholz 10.1.1841 Gf Georg Kasimir zu Ysenburg-Philippseich (*15.4.1794 +26.4.1875)
+						name=Bertha
+						female=yes
+						dynasty=1002018
+						religion=catholic culture=german
+						father=100008508	# Joseph v. Isenburg
+						mother=100008243	# Dorothea v. Castell-Castell
+						1821.06.14={birth=yes}  # Meerholz
+						1875.11.08={death=yes}  # Montreux
+					}
+			100008539={ # C4. Amandus Wilhelm Christian Belgikus, *Meerholz 1.3.1738, +Meerholz 10.12.1758
+				name=Amandus
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008493	# Karl Friedrich v. Isenburg
+				mother=100006186	# Friederike von Solms-Rödelheim u.Assenheim
+				1738.03.01={birth=yes}  # Meerholz
+				1758.12.10={death=yes}  # Meerholz
+			}
+			100008540={ # C5. Friedrich Ludwig Karl Albrecht, *Meerholz 25.6.1739, +k.a.Sangerhausen 23.7.1758
+				name=Friedrich
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008493	# Karl Friedrich v. Isenburg
+				mother=100006186	# Friederike von Solms-Rödelheim u.Assenheim
+				1739.06.25={birth=yes}  # Meerholz
+				1758.07.23={death=yes}  # Sangerhausen
+			}
+			100008541={ # C12. Christine Luise Charlotte, *Meerholz 22.11.1742, +Meerholz 20.3.1808; m.Meerholz 31.8.1766 Gf Friedrich Ludwig von Waldeck-Bergheim (*20.7.1732 +9.4.1771)
+				name=Christine
+				female=yes
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008493	# Karl Friedrich v. Isenburg
+				mother=100006186	# Friederike von Solms-Rödelheim u.Assenheim
+				1742.11.22={birth=yes}  # Meerholz
+				1808.03.20={death=yes}  # Meerholz
+			}
+		100008584={ # B6. Albertine Henriette, *Meerholz 4.7.1703, +Hohenlimburg 25.9.1749; m.Meerholz 5.9.1727 Gf Moritz Kasimir zu Bentheim-Tecklenburg-Rheda (*8.3.1701 +2.6.1768)
+			name="Albertine Henriette"
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008492	# Georg Albrecht v. Isenburg
+			mother=100004447	# Amalie Henriette zu Sayn-Wittgenstein-Berleburg
+			1703.07.04={birth=yes}  # Meerholz
+			1749.09.25={death=yes}  # Hohenlimburg
+		}
+	100008613={ # A12. Luise Albertine, *Büdingen 15.8.1665, +Oberhof bei Büdingen 18.1.1754
+		name="Luise Albertine"
+		female=yes
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008213	# Johann Ernst v. Isenburg
+		mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
+		1665.08.15={birth=yes}  # Büdingen
+		1754.01.18={death=yes}  # Oberhof_bei_Büdingen
+	}
+	100008586={ # A9. Karl August Gf zu Ysenburg und Büdingen in Marienborn, *Büdingen 27.1.1667, +Marienborn bei Mainz 16.3.1725, bur Marienborn bei Mainz; m.Laubach 5.5.1690 Gfn Anna Belgika Florentine zu Solms-Laubach (*9.9.1663 +21.4.1707)
+		name="Karl August"
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008213	# Johann Ernst v. Isenburg
+		mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
+		1667.01.27={birth=yes}  # Büdingen
+		1690.05.05={add_spouse=100006681}	# Anna Belgika von Solms-Laubach
+		1725.03.16={death=yes}  # Marienborn_bei_Mainz
+	}
+		100008598={ # B1. Ernst Karl, *Laubach 11.4.1691, +Marienborn bei Mainz 22.5.1717, bur Marienborn bei Mainz; m.Meerholz 6.7.1713 Gfn Charlotte Amalie zu Isenburg-Büdingen in Meerholz (*1.9.1692 +10.1.1752)
+			name="Ernst Karl"
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008586	# Karl August v. Isenburg
+			mother=100006681	# Anna Belgika von Solms-Laubach
+			1691.04.11={birth=yes}  # Laubach
+			1713.07.06={add_spouse=100008542}	# Charlotte Amalie v. Isenburg
+			1717.05.22={death=yes}  # Marienborn_bei_Mainz
+		}
+			100008601={ # C1. Amalia Belgica, *Marienborn 29.2.1716, +Offenbach 2.1.1799; m.Birstein 3.5.1733 Gf Wilhelm Emich Christoph zu Isenburg-Birstein (*5.10.1708 +31.1.1741)
+				name="Amalia Belgica"
+				female=yes
+				dynasty=1002018
+				religion=catholic culture=german
+				father=100008598	# Ernst Karl v. Isenburg
+				mother=100008542	# Charlotte Amalie v. Isenburg
+				1716.02.29={birth=yes}  # Marienborn
+				1799.01.02={death=yes}  # Offenbach
+			}
+		100008610={ # B3. Elisabeth Charlotte, *Marienborn 7.11.1695, +Birstein 23.9.1723; m.Marienborn 27.1.1719 Fst Wolfgang Ernst I zu Isenburg und Büdingen (*5.4.1686 +15.4.1754)
+			name="Elisabeth Charlotte"
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008586	# Karl August v. Isenburg
+			mother=100006681	# Anna Belgika von Solms-Laubach
+			1695.11.07={birth=yes}  # Marienborn
+			1723.09.23={death=yes}  # Birstein
+		}
+		100008611={ # B4. Auguste Florentine, *Marienborn 23.3.1697, +Almelo 18.10.1729, bur Almelo; m.Marienborn 11.9.1722 Gf Philipp Adolf van Rechteren (*19.2.1699 +4.11.1771)
+			name="Auguste Florentine"
+			female=yes
+			dynasty=1002018
+			religion=catholic culture=german
+			father=100008586	# Karl August v. Isenburg
+			mother=100006681	# Anna Belgika von Solms-Laubach
+			1697.03.23={birth=yes}  # Marienborn
+			1729.10.18={death=yes}  # Almelo
+		}
+	100008612={ # A10. Anna Amalia, *Meerholz 13/23.10.1653, +Birstein 12.3.1700; m.Birstein 3.11.1679 Gf Wilhelm Moritz von Isenburg-Birstein (*24.7.1657 +8.3.1711)
+		name=Anna
+		female=yes
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008213	# Johann Ernst v. Isenburg
+		mother=100008214	# GFN Marie Charlotte zu Erbach-Erbach
+		1700.03.12={birth=yes}
+		1775.01.01={death=yes}  # Birstein
+	}
+#1655.06.21={holder=100008213} # Gf Johann Ernst von Isenburg-Büdingen in Wächtersbach
+#1673.10.08={holder=100008008} # A4. Friedrich Wilhelm
+#1676.06.21={holder=100008215} # A6. Johann Kasimir
+#1693.09.23={holder=100008011} # B1. Johann Ernst II
+#1708.05.31={holder=100008217} # B4. Ernst Kasimir
+#1749.10.15={holder=100008014} # C1. Ludwig Kasimir
+#1775.12.15={holder=100008221} # D1. Ernst Kasimir II
+#1801.02.25={holder=100008020} # E1. ERNST CASIMIR I
+#1852.12.01={holder=100008021} # F1. ERNST CASIMIR II Fürst zu Ysenburg und Büdingen
+#1861.02.16={holder=100008022} # G1. BRUNO Casimir Albert Emil Ferdinand Fürst zu Ysenburg und Büdingen
+#1906.01.26={holder=100008023} # H2. WOLFGANG Fürst zu Ysenburg und Büdingen
+#1920.07.29={holder=100008199} # G1. Gustav ALFRED Fürst zu Ysenburg und Büdingen
+#1922.05.03={holder=100008200} # H1. CARL GUSTAV Fürst zu Ysenburg und Büdingen
+#1941.05.15={holder=100008226} # H2. Ernst DIETHER
+### ISENBURG6
 
 
 ### SECTION 1: Birstein
@@ -270,29 +789,29 @@
 	dynasty=1002018
 	religion=catholic culture=german
 	father=100008187	# Wilhelm Moritz v. Isenburg
-	mother=100008188	# GFN Anna Amalie zu Isenburg-Büdingen
+	mother=100008612	# Anna v. Isenburg
 	1686.04.05={birth=yes}  # Birstein
 	1707.11.27={add_spouse=100003311}	# Friederike Elisabeth zu Leiningen
-	1719.01.27={add_spouse=100008193}	# GFN Elisabeth Charlotte zu Isenburg
-	1725.05.22={add_spouse=100008194}	# GFN Charlotte Amalie zu Isenburg
+	1719.01.27={add_spouse=100008610}	# Elisabeth Charlotte v. Isenburg
+	1725.05.22={add_spouse=100008542}	# Charlotte Amalie v. Isenburg
 	1754.04.15={death=yes}  # Birstein
 }
 	100008253={ # 1a) Wilhelm Emich Christoph (Birstein 5 Oct 1708-Wenings 31 Jan 1741); m.Birstein 3 May 1733 Amalia Belgika Gfin zu Isenburg-Büdingen (Marienborn 29 Feb 1716-Offenbach 2 Jan 1799)
-		name=Wilhelm
+		name="Wilhelm Emich"
 		dynasty=1002018
 		religion=catholic culture=german
 		father=100008249	# Wolfgang Ernst v. Isenburg
 		mother=100003311	# Friederike Elisabeth zu Leiningen
 		1708.10.05={birth=yes}  # Birstein
-		1733.05.03={add_spouse=100008254}	# GFN Amalia Belgika zu Isenburg-Büdingen
+		1733.05.03={add_spouse=100008601}	# Amalia Belgica v. Isenburg
 		1741.01.31={death=yes}  # Wenings
 	}
 		100008255={ # 1b) WOLFGANG ERNST II Fst zu Isenburg u.Büdingen (Birstein 17 Nov 1735-Offenbach 3 Feb 1803); m.1st Schaumburg 20 Sep 1760 Pss Sophie Charlotte of Anhalt-Bernburg-Schaumburg-Hoym (Schloß Schaumburg 3 Apr 1743-Birstein 5 Oct 1781, bur Offenbach); m.2nd Greiz 20 Aug 1783 Ernestine Pss Reuss in Greiz (Greiz 20 Jan 1756-Offenbach 2 Dec 1819)
 			name="Wolfgang Ernst"
 			dynasty=1002018
 			religion=catholic culture=german
-			father=100008253	# Wilhelm v. Isenburg
-			mother=100008254	# GFN Amalia Belgika zu Isenburg-Büdingen
+			father=100008253	# Wilhelm Emich v. Isenburg
+			mother=100008601	# Amalia Belgica v. Isenburg
 			1735.11.17={birth=yes}  # Birstein
 			1760.09.20={add_spouse=100008256}	# Sophie Charlotte von Anhalt-Bernburg-Schaumburg-Hoym
 			1783.08.20={add_spouse=100003607}	# Ernestine Reuß
@@ -734,8 +1253,8 @@
 			name="Christian Moritz"
 			dynasty=1002018
 			religion=catholic culture=german
-			father=100008253	# Wilhelm v. Isenburg
-			mother=100008254	# GFN Amalia Belgika zu Isenburg-Büdingen
+			father=100008253	# Wilhelm Emich v. Isenburg
+			mother=100008601	# Amalia Belgica v. Isenburg
 			1739.07.16={birth=yes}
 			1782.08.17={add_spouse=100008259}	# GFN Luise Christiane Winkel
 			1799.07.18={death=yes}  # Nenndorf am Deister
@@ -771,12 +1290,12 @@
 		1748.11.22={death=yes}  # Laubach
 	}
 	100008266={ # 9a) Dorothea Wilhelmine Albertine (Birstein 23 Sep 1723-Büdingen 10 Feb 1777); m.Birstein 15 Aug 1752 Ernst Dietrich Gf zu Isenburg-Büdingen (d.26 Sep 1758)
-		name=Dorothea
+		name="Dorothea Wilhelmine"
 		female=yes
 		dynasty=1002018
 		religion=catholic culture=german
 		father=100008249	# Wolfgang Ernst v. Isenburg
-		mother=100008193	# GFN Elisabeth Charlotte zu Isenburg
+		mother=100008610	# Elisabeth Charlotte v. Isenburg
 		1723.09.23={birth=yes}  # Birstein
 		1777.02.10={death=yes}  # Büdingen
 	}
@@ -785,7 +1304,7 @@
 		dynasty=1002018
 		religion=catholic culture=german
 		father=100008249	# Wolfgang Ernst v. Isenburg
-		mother=100008194	# GFN Charlotte Amalie zu Isenburg
+		mother=100008542	# Charlotte Amalie v. Isenburg
 		1730.12.13={birth=yes}  # Birstein
 		1776.01.01={add_spouse=100008269}	# GFN Caroline Franziska von Parkstein
 		1804.10.11={death=yes}  # Mannheim
@@ -843,7 +1362,7 @@
 
 
 ### SECTION 4: zu Ysenburg u.Büdingen in Büdingen 
-100002420={	# ERNST CASIMIR I Fst zu Ysenburg und Büdingen (Büdingen 20 Jan 1781-Büdingen 1 Dec 1852); m.Zwingenberg 10 May 1804 Ferdinande Gfn zu Erbach-Schönberg (Zwingenberg 23 Jul 1784-Büdingen 24 Sep 1848)
+100008020={	# ERNST CASIMIR I Fst zu Ysenburg und Büdingen (Büdingen 20 Jan 1781-Büdingen 1 Dec 1852); m.Zwingenberg 10 May 1804 Ferdinande Gfn zu Erbach-Schönberg (Zwingenberg 23 Jul 1784-Büdingen 24 Sep 1848)
 	name="Ernst Casimir"
 	dynasty=1002018
 	religion=lutheran culture=german
@@ -853,244 +1372,244 @@
 	1804.05.10={add_spouse=100008672}	# Ferdinande von Erbach-Fürstenau
 	1852.12.01={death=yes}  # Büdingen
 }
-	100002422={	# 2a) ERNST CASIMIR II Fst zu Ysenburg und Büdingen (Büdingen 14 Dec 1806-Büdingen 16 Feb 1861); m.Beerfelden 8 Sep 1836 Thekla Gfn zu Erbach-Fürstenau (Fürstenau 9 Mar 1815-Büdingen 13 Mar 1874)
+	100008021={	# 2a) ERNST CASIMIR II Fst zu Ysenburg und Büdingen (Büdingen 14 Dec 1806-Büdingen 16 Feb 1861); m.Beerfelden 8 Sep 1836 Thekla Gfn zu Erbach-Fürstenau (Fürstenau 9 Mar 1815-Büdingen 13 Mar 1874)
 		name="Ernst Casimir"
 		dynasty=1002018
 		religion=lutheran culture=german
-		father=100002420	# Ernst Casimir v. Isenburg
+		father=100008020	# Ernst Casimir v. Isenburg
 		mother=100008672	# Ferdinande von Erbach-Fürstenau
 		1806.12.14={birth=yes}  # Büdingen
 		1836.09.08={add_spouse=100008699}	# Thekla von Erbach-Fürstenau
 		1861.02.16={death=yes}  # Büdingen
 	}
-		100002423={	# 1b) BRUNO Casimir Albert Emil Ferdinand Fst zu Ysenburg und Büdingen (Büdingen 14 Jun 1837-Büdingen 26 Jan 1906); m.1st Lich 31 Jul 1862 Mathilde Pss zu Solms-Hohensolms-Lich (Lich 12 Dec 1842-Büdingen 11 Sep 1867); m.2nd Rüdenhausen 30 Sep 1869 Bertha Gfn zu Castell-Rüdenhausen (Rüdenhausen 4 Jul 1845-Büdingen 5 Jul 1927)
+		100008022={	# 1b) BRUNO Casimir Albert Emil Ferdinand Fst zu Ysenburg und Büdingen (Büdingen 14 Jun 1837-Büdingen 26 Jan 1906); m.1st Lich 31 Jul 1862 Mathilde Pss zu Solms-Hohensolms-Lich (Lich 12 Dec 1842-Büdingen 11 Sep 1867); m.2nd Rüdenhausen 30 Sep 1869 Bertha Gfn zu Castell-Rüdenhausen (Rüdenhausen 4 Jul 1845-Büdingen 5 Jul 1927)
 			name=Bruno
 			dynasty=1002018
 			religion=lutheran culture=german
-			father=100002422	# Ernst Casimir v. Isenburg
+			father=100008021	# Ernst Casimir v. Isenburg
 			mother=100008699	# Thekla von Erbach-Fürstenau
 			1837.06.14={birth=yes}  # Büdingen
 			1862.07.31={add_spouse=100005818}	# Mathilde von Solms-Hohensolms-Lich
 			1869.09.30={add_spouse=100094400}	# GFN Bertha zu Castell-Rüdenhausen
 			1906.01.26={death=yes}  # Büdingen
 		}
-			100002424={	# 1c) Hedwig (Büdingen 1 Nov 1863-Ortenberg 1 Jul 1925); m.1st Büdingen 27 Sep 1883 Botho Fst zu Stolberg-Rossla (Rossla 12 Jul 1850-Rossla 8 Nov 1893); m.2nd Rossla 31 Aug 1902 Kuno Gf zu Stolberg-Rossla (Rossla 11 May 1862-Frankfurt 13 Jul 1921)
+			100008024={	# 1c) Hedwig (Büdingen 1 Nov 1863-Ortenberg 1 Jul 1925); m.1st Büdingen 27 Sep 1883 Botho Fst zu Stolberg-Rossla (Rossla 12 Jul 1850-Rossla 8 Nov 1893); m.2nd Rossla 31 Aug 1902 Kuno Gf zu Stolberg-Rossla (Rossla 11 May 1862-Frankfurt 13 Jul 1921)
 				name=Hedwig
 				female=yes
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002423	# Bruno v. Isenburg
+				father=100008022	# Bruno v. Isenburg
 				mother=100005818	# Mathilde von Solms-Hohensolms-Lich
 				1863.11.01={birth=yes}  # Büdingen
 				1925.07.01={death=yes}  # Ortenberg
 			}
-			100002425={	# 2c) Elisabeth (Büdingen 21 Dec 1864-Heilsberg 16 Nov 1946); m.Büdingen 25 Sep 1889 Rudolf Frhr von Thüngen (Thüngen 26 Apr 1855-Heilsberg 16 Feb 1929)
+			100008031={	# 2c) Elisabeth (Büdingen 21 Dec 1864-Heilsberg 16 Nov 1946); m.Büdingen 25 Sep 1889 Rudolf Frhr von Thüngen (Thüngen 26 Apr 1855-Heilsberg 16 Feb 1929)
 				name=Elisabeth
 				female=yes
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002423	# Bruno v. Isenburg
+				father=100008022	# Bruno v. Isenburg
 				mother=100005818	# Mathilde von Solms-Hohensolms-Lich
 				1864.12.21={birth=yes}  # Büdingen
 				1946.11.16={death=yes}  # Heilsberg
 			}
-			100002426={	# 3c) Emma (Büdingen 28 Aug 1870-Laubach 13 Dec 1944); m.Büdingen 14 Apr 1898 Otto Gf zu Solms-Laubach (Laubach 26 May 1860-Laubach 9 Sep 1904)
+			100008037={	# 3c) Emma (Büdingen 28 Aug 1870-Laubach 13 Dec 1944); m.Büdingen 14 Apr 1898 Otto Gf zu Solms-Laubach (Laubach 26 May 1860-Laubach 9 Sep 1904)
 				name=Emma
 				female=yes
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002423	# Bruno v. Isenburg
+				father=100008022	# Bruno v. Isenburg
 				mother=100094400	# GFN Bertha zu Castell-Rüdenhausen
 				1870.08.28={birth=yes}  # Büdingen
 				1944.12.13={death=yes}  # Laubach
 			}
-			100002428={	# 5c) WOLFGANG Fst zu Ysenburg und Büdingen (Büdingen 30 Mar 1877-Gößweinstein 29 Jul 1920); m.Sommerhausen 26 Sep 1901 Adelheid Gfn von Rechteren-Limpurg (Einersheim 31 Mar 1881-Würzburg 27 Dec 1970)
+			100008023={	# 5c) WOLFGANG Fst zu Ysenburg und Büdingen (Büdingen 30 Mar 1877-Gößweinstein 29 Jul 1920); m.Sommerhausen 26 Sep 1901 Adelheid Gfn von Rechteren-Limpurg (Einersheim 31 Mar 1881-Würzburg 27 Dec 1970)
 				name=Wolfgang
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002423	# Bruno v. Isenburg
+				father=100008022	# Bruno v. Isenburg
 				mother=100094400	# GFN Bertha zu Castell-Rüdenhausen
 				1877.03.30={birth=yes}  # Büdingen
 				1901.09.26={add_spouse=100037223}	# Adelheid van Rechteren-Limpurg
 				1920.07.29={death=yes}  # Gößweinstein
 			}
-			100002429={	# 6c) Thekla (Büdingen 16 Oct 1878-Mistelbach, Austria 22 Feb 1950); m.Büdingen 9 May 1901 Manfred Fst von Collalto u.San Salvatore (San_Salvatore 18 Jan 1870-Ungarschitz, Moravia 22 Jul 1940)
+			100008170={	# 6c) Thekla (Büdingen 16 Oct 1878-Mistelbach, Austria 22 Feb 1950); m.Büdingen 9 May 1901 Manfred Fst von Collalto u.San Salvatore (San_Salvatore 18 Jan 1870-Ungarschitz, Moravia 22 Jul 1940)
 				name=Thekla
 				female=yes
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002423	# Bruno v. Isenburg
+				father=100008022	# Bruno v. Isenburg
 				mother=100094400	# GFN Bertha zu Castell-Rüdenhausen
 				1878.10.16={birth=yes}  # Büdingen
 				1950.02.22={death=yes}  # Mistelbach Austria
 			}
-			100002430={	# 7c) Mathilde (Büdingen 26 Mar 1880-Herrnsheim 25 Apr 1947); m.Büdingen 11 Apr 1907 Cornelius Frhr von Heyl zu Herrnsheim (Worms 27 Jul 1874-Herrnsheim 18 Feb 1954)
+			100008171={	# 7c) Mathilde (Büdingen 26 Mar 1880-Herrnsheim 25 Apr 1947); m.Büdingen 11 Apr 1907 Cornelius Frhr von Heyl zu Herrnsheim (Worms 27 Jul 1874-Herrnsheim 18 Feb 1954)
 				name=Mathilde
 				female=yes
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002423	# Bruno v. Isenburg
+				father=100008022	# Bruno v. Isenburg
 				mother=100094400	# GFN Bertha zu Castell-Rüdenhausen
 				1880.03.26={birth=yes}  # Büdingen
 				1947.04.25={death=yes}  # Herrnsheim
 			}
-			100002432={	# 9c) Hertha (Büdingen 27 Dec 1883-Glücksburg 30 May 1972); m.Büdingen 15 Sep 1920 Albert Pr of Schleswig-Holstein (Kiel 15 Mar 1863-Glücksburg 23 Apr 1948)
+			100008173={	# 9c) Hertha (Büdingen 27 Dec 1883-Glücksburg 30 May 1972); m.Büdingen 15 Sep 1920 Albert Pr of Schleswig-Holstein (Kiel 15 Mar 1863-Glücksburg 23 Apr 1948)
 				name=Hertha
 				female=yes
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002423	# Bruno v. Isenburg
+				father=100008022	# Bruno v. Isenburg
 				mother=100094400	# GFN Bertha zu Castell-Rüdenhausen
 				1883.12.27={birth=yes}  # Büdingen
 				1972.05.30={death=yes}  # Glücksburg
 			}
-			100002433={	# 10c) Anna (Büdingen 10 Feb 1886-Detmold 8 Feb 1980); m.1st Büdingen 21 Nov 1911 Ernst Gf u.Edler Hr zur Lippe-Weißenfeld (Dresden 3 Jan 1870-k.a.Goldap 11 Sep 1914); m.2nd Büdingen 26 Apr 1922 Leopold Fst zur Lippe (Obercassel 30 May 1871-Detmold 30 Dec 1949)
+			100008174={	# 10c) Anna (Büdingen 10 Feb 1886-Detmold 8 Feb 1980); m.1st Büdingen 21 Nov 1911 Ernst Gf u.Edler Hr zur Lippe-Weißenfeld (Dresden 3 Jan 1870-k.a.Goldap 11 Sep 1914); m.2nd Büdingen 26 Apr 1922 Leopold Fst zur Lippe (Obercassel 30 May 1871-Detmold 30 Dec 1949)
 				name=Anna
 				female=yes
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002423	# Bruno v. Isenburg
+				father=100008022	# Bruno v. Isenburg
 				mother=100094400	# GFN Bertha zu Castell-Rüdenhausen
 				1886.02.10={birth=yes}  # Büdingen
 				1980.02.08={death=yes}  # Detmold
 			}
-		100002434={	# 2b) Adalbert (Büdingen 17 Feb 1839-Kennenberg 29 Aug 1885); m.Wächtersbach 18 Nov 1875 Alexandra Pss zu Ysenburg u.Büdingen in Wächtersbach (Wächtersbach 28 Dec 1855-München 24 Oct 1932)
+		100008175={	# 2b) Adalbert (Büdingen 17 Feb 1839-Kennenberg 29 Aug 1885); m.Wächtersbach 18 Nov 1875 Alexandra Pss zu Ysenburg u.Büdingen in Wächtersbach (Wächtersbach 28 Dec 1855-München 24 Oct 1932)
 			name=Adalbert
 			dynasty=1002018
 			religion=lutheran culture=german
-			father=100002422	# Ernst Casimir v. Isenburg
+			father=100008021	# Ernst Casimir v. Isenburg
 			mother=100008699	# Thekla von Erbach-Fürstenau
 			1839.02.17={birth=yes}  # Büdingen
 			1875.11.18={add_spouse=100008363}	# Alexandra v. Isenburg
 			1877.01.01={remove_spouse=100008363}
 			1885.08.29={death=yes}  # Kennenberg
 		}
-		100002350={	# 3b) Emma Ferdinande Emilie (Büdingen 23 Feb 1841-Rüdenhausen 22 Apr 1926); m.Büdingen 17 May 1859 Wolfgang Fst zu Castell-Rüdenhausen (Rüdenhausen 21 Apr 1830-Rüdenhausen 13 Jan 1913)
+		100008185={	# 3b) Emma Ferdinande Emilie (Büdingen 23 Feb 1841-Rüdenhausen 22 Apr 1926); m.Büdingen 17 May 1859 Wolfgang Fst zu Castell-Rüdenhausen (Rüdenhausen 21 Apr 1830-Rüdenhausen 13 Jan 1913)
 			name=Emma
 			female=yes
 			dynasty=1002018
 			religion=lutheran culture=german
-			father=100002422	# Ernst Casimir v. Isenburg
+			father=100008021	# Ernst Casimir v. Isenburg
 			mother=100008699	# Thekla von Erbach-Fürstenau
 			1841.02.23={birth=yes}  # Büdingen
 			1926.04.22={death=yes}  # Rüdenhausen
 		}
-		100002351={	# 4b) Agnes Marie Luitgarde (Büdingen 20 Mar 1843-Meerholz 17 Oct 1912); m.Büdingen 21 Nov 1865 Karl Gf zu Ysenburg u.Büdingen in Meerholz (Castell 8 Feb 1822-Meerholz 29 Mar 1863)
+		100008190={	# 4b) Agnes Marie Luitgarde (Büdingen 20 Mar 1843-Meerholz 17 Oct 1912); m.Büdingen 21 Nov 1865 Karl Gf zu Ysenburg u.Büdingen in Meerholz (Castell 8 Feb 1822-Meerholz 29 Mar 1863)
 			name=Agnes
 			female=yes
 			dynasty=1002018
 			religion=lutheran culture=german
-			father=100002422	# Ernst Casimir v. Isenburg
+			father=100008021	# Ernst Casimir v. Isenburg
 			mother=100008699	# Thekla von Erbach-Fürstenau
 			1843.03.20={birth=yes}  # Büdingen
 			1912.10.17={death=yes}  # Meerholz
 		}
-		100002352={	# 5b) Lothar (Büdingen 27 Sep 1851-Wiesbaden 23 Feb 1888); m.Almelo 19 Aug 1875 Jacqueline Worbert Gfn van Wassenaer Starrenburg (Almelo 8 May 1853-Brussels 5 Aug 1930)
+		100008178={	# 5b) Lothar (Büdingen 27 Sep 1851-Wiesbaden 23 Feb 1888); m.Almelo 19 Aug 1875 Jacqueline Worbert Gfn van Wassenaer Starrenburg (Almelo 8 May 1853-Brussels 5 Aug 1930)
 			name=Lothar
 			dynasty=1002018
 			religion=lutheran culture=german
-			father=100002422	# Ernst Casimir v. Isenburg
+			father=100008021	# Ernst Casimir v. Isenburg
 			mother=100008699	# Thekla von Erbach-Fürstenau
 			1851.09.27={birth=yes}  # Büdingen
 			1875.08.19={add_spouse=100091371}	# CSS Jacqueline van Wassenaer-Starrenburg
 			1888.02.23={death=yes}  # Wiesbaden
 		}
-	100002353={	# 3a) Marie (Büdingen 4 Oct 1808-Lich 11 Oct 1872); m.Büdingen 10 May 1829 Ludwig Fst zu Solms-Hohensolms-Lich (Lich 24 Jan 1805-Lich 29 Feb 1880)
+	100008391={	# 3a) Marie (Büdingen 4 Oct 1808-Lich 11 Oct 1872); m.Büdingen 10 May 1829 Ludwig Fst zu Solms-Hohensolms-Lich (Lich 24 Jan 1805-Lich 29 Feb 1880)
 		name=Marie
 		female=yes
 		dynasty=1002018
 		religion=lutheran culture=german
-		father=100002420	# Ernst Casimir v. Isenburg
+		father=100008020	# Ernst Casimir v. Isenburg
 		mother=100008672	# Ferdinande von Erbach-Fürstenau
 		1808.10.04={birth=yes}  # Büdingen
 		1872.10.11={death=yes}  # Lich
 	}
-	100002355={	# 5a) Gustav (Büdingen 17 Feb 1813-Oldenburg 1 Jan 1883); m.Mosbach bei Mainz 31 Oct 1840 Bertha von Holleben (Eisleben 16 Nov 1818-Büdingen 30 Nov 1904)
+	100008192={	# 5a) Gustav (Büdingen 17 Feb 1813-Oldenburg 1 Jan 1883); m.Mosbach bei Mainz 31 Oct 1840 Bertha von Holleben (Eisleben 16 Nov 1818-Büdingen 30 Nov 1904)
 		name=Gustav
 		dynasty=1002018
 		religion=lutheran culture=german
-		father=100002420	# Ernst Casimir v. Isenburg
+		father=100008020	# Ernst Casimir v. Isenburg
 		mother=100008672	# Ferdinande von Erbach-Fürstenau
 		1813.02.17={birth=yes}  # Büdingen
 		1840.10.31={add_spouse=100092305}	# Bertha von Holleben
 		1883.01.01={death=yes}  # Oldenburg
 	}
-		100002356={	# 1b) Gustav ALFRED Fst zu Ysenburg und Büdingen, renounced 30 Jul 1920 (Büdingen 31 Dec 1841-Büdingen 3 May 1922); m.Rüdenhausen 17 Jul 1870 Luitgard Gfn zu Castell-Rüdenhausen (Rüdenhausen 23 Aug 1843-Büdingen 4 Jun 1927)
+		100008199={	# 1b) Gustav ALFRED Fst zu Ysenburg und Büdingen, renounced 30 Jul 1920 (Büdingen 31 Dec 1841-Büdingen 3 May 1922); m.Rüdenhausen 17 Jul 1870 Luitgard Gfn zu Castell-Rüdenhausen (Rüdenhausen 23 Aug 1843-Büdingen 4 Jun 1927)
 			name=Alfred
 			dynasty=1002018
 			religion=lutheran culture=german
-			father=100002355	# Gustav v. Isenburg
+			father=100008192	# Gustav v. Isenburg
 			mother=100092305	# Bertha von Holleben
 			1841.12.31={birth=yes}  # Büdingen
 			1870.07.17={add_spouse=100094401}	# GFN Luitgard zu Castell-Rüdenhausen
 			1922.05.03={death=yes}  # Büdingen
 		}
-			100002357={	# 1c) Anna Marie (Frankfurt 2 Jan 1874-Giessen 20 Sep 1942)
+			100008317={	# 1c) Anna Marie (Frankfurt 2 Jan 1874-Giessen 20 Sep 1942)
 				name=Anna
 				female=yes
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002356	# Alfred v. Isenburg
+				father=100008199	# Alfred v. Isenburg
 				mother=100094401	# GFN Luitgard zu Castell-Rüdenhausen
 				1874.01.02={birth=yes}  # Frankfurt
 				1942.09.20={death=yes}  # Giessen
 			}
-			100002358={	# 2c) CARL GUSTAV Fst zu Ysenburg und Büdingen (Frankfurt 11 Sep 1875-Büdingen 15 May 1941); m.Burg Schwalenberg 16 Sep 1920 Marie Pss zur Lippe (Oberkassel 21 Jun 1890-Büdingen 27 Nov 1973)
+			100008200={	# 2c) CARL GUSTAV Fst zu Ysenburg und Büdingen (Frankfurt 11 Sep 1875-Büdingen 15 May 1941); m.Burg Schwalenberg 16 Sep 1920 Marie Pss zur Lippe (Oberkassel 21 Jun 1890-Büdingen 27 Nov 1973)
 				name="Carl Gustav"
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002356	# Alfred v. Isenburg
+				father=100008199	# Alfred v. Isenburg
 				mother=100094401	# GFN Luitgard zu Castell-Rüdenhausen
 				1875.09.11={birth=yes}  # Frankfurt
 				1920.09.16={add_spouse=100002698}	# Marie zur Lippe
 				1941.05.15={death=yes}  # Büdingen
 			}
-			100002359={	# 3c) Ernst Diether (Frankfurt 30 Mar 1881-Büdingen 21 Apr 1965); m.Neustrelitz 25 Jan 1930 Sigrid Gfn von Blumenthal (Potsdam 13 Jan 1909-Büdingen 1 May 1964)
+			100008226={	# 3c) Ernst Diether (Frankfurt 30 Mar 1881-Büdingen 21 Apr 1965); m.Neustrelitz 25 Jan 1930 Sigrid Gfn von Blumenthal (Potsdam 13 Jan 1909-Büdingen 1 May 1964)
 				name="Ernst Diether"
 				dynasty=1002018
 				religion=lutheran culture=german
-				father=100002356	# Alfred v. Isenburg
+				father=100008199	# Alfred v. Isenburg
 				mother=100094401	# GFN Luitgard zu Castell-Rüdenhausen
 				1881.03.30={birth=yes}  # Frankfurt
 				1930.01.25={add_spouse=100091656}	# GFN Sigrid von Blumenthal
 				1965.04.21={death=yes}  # Büdingen
 			}
-				100002413={	# 1d) Luitgard Sigrid Melanie Anna Marie (b.Gießen 30 Oct 1930); m.(civ) Frankfurt (rel) Kranichstein bei Darmstadt 12 Dec 1959 Friedrich Karl Bunn (b.Frankfurt 22 Sep 1933)
+				100008234={	# 1d) Luitgard Sigrid Melanie Anna Marie (b.Gießen 30 Oct 1930); m.(civ) Frankfurt (rel) Kranichstein bei Darmstadt 12 Dec 1959 Friedrich Karl Bunn (b.Frankfurt 22 Sep 1933)
 					name=Luitgard
 					female=yes
 					dynasty=1002018
 					religion=lutheran culture=german
-					father=100002359	# Ernst Diether v. Isenburg
+					father=100008226	# Ernst Diether v. Isenburg
 					mother=100091656	# GFN Sigrid von Blumenthal
 					1930.10.30={birth=yes}  # Gießen
 					2007.01.01={death=yes}  # EST.
 				}
-				100002408={	# 2d) Heilwig Helene Lonny Carola (b.Büdingen 15 Sep 1933); m.Colchester, Essex 15 Sep 1959 Udo Janssen (b.Esens, Ostfriesland 21 Sep 1931)
+				100008237={	# 2d) Heilwig Helene Lonny Carola (b.Büdingen 15 Sep 1933); m.Colchester, Essex 15 Sep 1959 Udo Janssen (b.Esens, Ostfriesland 21 Sep 1931)
 					name=Heilwig
 					female=yes
 					dynasty=1002018
 					religion=lutheran culture=german
-					father=100002359	# Ernst Diether v. Isenburg
+					father=100008226	# Ernst Diether v. Isenburg
 					mother=100091656	# GFN Sigrid von Blumenthal
 					1933.09.15={birth=yes}  # Büdingen
 					2010.01.01={death=yes}  # EST.
 				}
-				100002406={	# 3d) Jutta Thekla Felizitas Marie Luise Sophie (Büdingen 28 Feb 1936-Büdingen 21 Dec 2003); m.Frankfurt 10 Nov 1962 (div 1986) Herwart Neuhaus (b.Herne, Westfalen 13 Jan 1935)
+				100008239={	# 3d) Jutta Thekla Felizitas Marie Luise Sophie (Büdingen 28 Feb 1936-Büdingen 21 Dec 2003); m.Frankfurt 10 Nov 1962 (div 1986) Herwart Neuhaus (b.Herne, Westfalen 13 Jan 1935)
 					name="Jutta Thekla"
 					female=yes
 					dynasty=1002018
 					religion=lutheran culture=german
-					father=100002359	# Ernst Diether v. Isenburg
+					father=100008226	# Ernst Diether v. Isenburg
 					mother=100091656	# GFN Sigrid von Blumenthal
 					1936.02.28={birth=yes}  # Büdingen
 					2003.12.21={death=yes}  # Büdingen
 				}
-	100002402={	# 6a) Ida (Büdingen 10 Mar 1817-Büdingen 31 Jul 1900); m.Büdingen 20 Oct 1836 Reinhard Gf zu Solms-Laubach (Laubach 11 Aug 1801-Mannheim 29 Oct 1870)
+	100008393={	# 6a) Ida (Büdingen 10 Mar 1817-Büdingen 31 Jul 1900); m.Büdingen 20 Oct 1836 Reinhard Gf zu Solms-Laubach (Laubach 11 Aug 1801-Mannheim 29 Oct 1870)
 		name=Ida
 		female=yes
 		dynasty=1002018
 		religion=lutheran culture=german
-		father=100002420	# Ernst Casimir v. Isenburg
+		father=100008020	# Ernst Casimir v. Isenburg
 		mother=100008672	# Ferdinande von Erbach-Fürstenau
 		1817.03.10={birth=yes}  # Büdingen
 		1900.07.31={death=yes}  # Büdingen
@@ -1108,7 +1627,7 @@
 	dynasty=1002018
 	religion=catholic culture=german
 	father=100008232	# Adolf v. Isenburg
-	mother=100008233	# GFN Philippine zu Isenburg-Philippseich
+	mother=100008233	# GFN Philippine zu Ysenburg-Philippseich
 	1824.10.24={birth=yes}  # Wächtersbach
 	1849.07.17={add_spouse=100008235}	# Auguste von Hanau
 	1903.06.05={death=yes}  # Wächtersbach
@@ -1413,60 +1932,6 @@
 		1863.01.18={birth=yes}  # Wächtersbach
 		1945.11.27={death=yes}  # Baden-Baden
 	}
-
-#######
-100093504={ #            Domenico                  Aloisi                                   (1867-1945)
-	name="Domenico Aloisi"
-	dynasty=0
-	religion=catholic culture=german
-	1867.07.21={birth=yes}  # San Sebastian Spain
-	1910.06.23={add_spouse=100008347}	# Maria v. Isenburg
-	1945.05.15={death=yes}  # Pisignano Italy
-}
-100090547={ #            Stefanie                  Bittner                                  (1977-    )
-	name="Stefanie Bittner"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1977.02.05={birth=yes}  # Flensburg
-}
-100093500={ #            Alexandra                 Pohle                                    (1967-    )
-	name="Alexandra Pohle"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1967.08.14={birth=yes}  # Heidelberg
-}
-100093508={ #            Hans                      Rausch                                   (1886-1961)
-	name="Hans Rausch"
-	dynasty=0
-	religion=catholic culture=german
-	1886.10.08={birth=yes}  # Worms
-	1919.01.09={add_spouse=100008360}	# Anna v. Isenburg
-	1941.01.01={remove_spouse=100008360}
-	1961.04.22={death=yes}  # Rheinbach
-}
-100090223={ #            Michael Max               Senfft von Pilsach                       (1989-    )
-	name="Michael Max Senfft von Pilsach"
-	dynasty=0
-	religion=catholic culture=german
-	1989.01.01={birth=yes}
-	2014.07.19={add_spouse=100008331}	# Felizitas-Magdalena v. Isenburg
-}
-100093498={ #            Chantal                   Toelle                                   (1975-    )
-	name="Chantal Toelle"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1975.10.07={birth=yes}  # Hamburg
-}
-100086133={ #            Sophie                    de Bois                                  (1970-    )
-	name="Sophie de Bois"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1970.08.09={birth=yes}
-}
 #1854.10.24={holder=100008321} # FERDINAND MAXIMILIAN
 #1903.06.05={holder=100008322} # FRIEDRICH WILHELM
 #1933.04.20={holder=100008324} # OTTO FRIEDRICH
@@ -1475,67 +1940,87 @@
 
 
 ### SECTION 6: zu Ysenburg u.Büdingen in Meerholz
-100008280={ # CARL Friedrich Casimir Adolf Ludwig Gf zu Ysenburg u.Büdingen in Meerholz (Meerholz 26 Oct 1819-Meerholz 30 Mar 1900); m.1st Castell 9 Jun 1846 Johanne Gfn zu Castell-Castell (Castell 8 Feb 1822-Meerholz 29 Mar 1863); m.2nd Büdingen 21 Nov 1865 Agnes Pss zu Ysenburg u.Büdingen in Büdingen (Büdingen 20 Mar 1843-Meerholz 17 Oct 1912)
-	name=Carl
+100008513={ # E1. KARL Friedrich Casimir Adolf Ludwig Gf zu Ysenburg und Büdingen in Meerholz, *Meerholz 26.10.1819, +Meerholz 30.3.1900; 1m: Castell 9.6.1846 Gfn Johanne zu Castell-Castell (*Castell 8.2.1822, +Meerholz 29.3.1863); 2m: Büdingen 21.11.1865 Pss Agnes zu Ysenburg u.Büdingen in Büdingen (*Büdingen 20.3.1843, +Meerholz 17.10.1912)
+	name=Karl
 	dynasty=1002018
 	religion=catholic culture=german
-	father=100008242	# Joseph v. Isenburg
+	father=100008508	# Joseph v. Isenburg
 	mother=100008243	# Dorothea v. Castell-Castell
 	1819.10.26={birth=yes}  # Meerholz
 	1846.06.09={add_spouse=100000527}	# Johanna v. Castell-Castell
-	1865.11.21={add_spouse=100002351}	# Agnes v. Isenburg
+	1865.11.21={add_spouse=100008190}	# Agnes v. Isenburg
 	1900.03.30={death=yes}  # Meerholz
 }
-	100008283={ # 1a) Friedrich Casimir Wolfgang Adolf Georg Ferdinand Julius Heinrich (Meerholz 10 Aug 1847-Meran 29 Mar 1889); m.Greiz 20 Jul 1875 Marie Pss Reuss, Ä.L. (Greiz 29 Mar 1855-Gettenbach 31 Dec 1909)
+	100008514={ # F1. FRIEDRICH Kasimir Wolfgang Adolf Georg Ferdinand Julius Heinrich, *Meerholz 10.8.1847, +Meran 29.3.1889; m.Greiz 20.7.1875 Pss Marie Reuss (*Greiz 29.3.1855, +Gettenbach 31.12.1909)
 		name=Friedrich
 		dynasty=1002018
 		religion=catholic culture=german
-		father=100008280	# Carl v. Isenburg
+		father=100008513	# Karl v. Isenburg
 		mother=100000527	# Johanna v. Castell-Castell
 		1847.08.10={birth=yes}  # Meerholz
 		1875.07.20={add_spouse=100003602}	# Marie Reuß
 		1889.03.29={death=yes}  # Meran
 	}
-	100008289={ # 6a) GUSTAV Clemens Friedrich Carl Ludwig Gf zu Ysenburg u.Büdingen in Meerholz (Meerholz 18 Feb 1863-Meerholz 28 Apr 1929); m.Gauernitz, Saxony 17 Apr 1896 Thekla Pss von Schönburg-Waldenburg (Gauernitz 7 Aug 1867-Crvenica 28 Apr 1939)
+	100008519={ # F6. HELENE Emilie Dorothea Ida Adelheid Berta Elise Jenny Luise Karoline Philippine, *Meerholz 30.9.1848, +Meerholz 3.11.1920
+		name=Helene
+		female=yes
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008513	# Karl v. Isenburg
+		mother=100000527	# Johanna v. Castell-Castell
+		1848.09.30={birth=yes}  # Meerholz
+		1920.11.03={death=yes}  # Meerholz
+	}
+	100008521={ # F7. KLOTHILDE Feodora Thekla, *Meerholz 19.3.1852, +Meerholz 21.3.1922
+		name=Klothilde
+		female=yes
+		dynasty=1002018
+		religion=catholic culture=german
+		father=100008513	# Karl v. Isenburg
+		mother=100000527	# Johanna v. Castell-Castell
+		1852.03.19={birth=yes}  # Meerholz
+		1922.03.21={death=yes}  # Meerholz
+	}
+	100008518={ # F4. Gustav Klemens Friedrich Karl Ludwig Gf zu Ysenburg und Büdingen in Meerholz, *Meerholz 18.2.1863, +Meerholz 28.4.1929; m.Gauernitz, Saxony 17.4.1896 Pss Thekla von Schönburg-Waldenburg (*Gauernitz 7.8.1867, +Crvenica 28.4.1939)
 		name=Gustav
 		dynasty=1002018
 		religion=catholic culture=german
-		father=100008280	# Carl v. Isenburg
+		father=100008513	# Karl v. Isenburg
 		mother=100000527	# Johanna v. Castell-Castell
 		1863.02.18={birth=yes}  # Meerholz
 		1896.04.17={add_spouse=100005518}	# Thekla von Schönburg
 		1929.04.28={death=yes}  # Meerholz
 	}
-	100008292={ # 8a) Irmgard (Meerholz 11 Jul 1868-Nordhausen 4 Jul 1918); m.Meerholz 19 May 1897 Wolfgang Fst zu Stolberg (Stolberg 15 Apr 1849-Rottleberode 27 Jan 1903)
+	100008522={ # F8. IRMGARD Thekla Berta Emma Helene, *Meerholz 11.7.1868, +Nordhausen 4.7.1918, bur Stolberg; m.Meerholz 19.5.1897 Fst Wolfgang zu Stolberg (*Stolberg 15.4.1849, +Rottleberode 27.1.1903)
 		name=Irmgard
 		female=yes
 		dynasty=1002018
 		religion=catholic culture=german
-		father=100008280	# Carl v. Isenburg
-		mother=100002351	# Agnes v. Isenburg
+		father=100008513	# Karl v. Isenburg
+		mother=100008190	# Agnes v. Isenburg
 		1868.07.11={birth=yes}  # Meerholz
 		1918.07.04={death=yes}  # Nordhausen
 	}
-	100008294={ # 9a) Gisela Bertha Adelheid Klotilde Emma Klementine (Meerholz 27 May 1871-Gelnhausen 22 Jun 1964); m.Meerholz 10 Jan 1895 Friedrich Wilhelm Pr zur Lippe (Neudorf 16 Jul 1858-k.a.Liège 6 Aug 1914)
+	100008523={ # F9. GISELA Bertha Adelheid Klotilde Emma Klementine, *Meerholz 27.5.1871, +Gelnhausen 22.6.1964; m.Meerholz 10.1.1895 Pr Friedrich Wilhelm zur Lippe (*Neudorf 16.7.1858, +k.a.Liège 6.8.1914)
 		name=Gisela
 		female=yes
 		dynasty=1002018
 		religion=catholic culture=german
-		father=100008280	# Carl v. Isenburg
-		mother=100002351	# Agnes v. Isenburg
+		father=100008513	# Karl v. Isenburg
+		mother=100008190	# Agnes v. Isenburg
 		1871.05.27={birth=yes}  # Meerholz
 		1964.06.22={death=yes}  # Gelnhausen
 	}
-	100008297={ # 11a) Ortrud (Meerholz 15 Jan 1879-Gotha 28 Apr 1918); m.Meerholz 14 Oct 1906 Albert Pr of Schleswig-Holstein (Kiel 15 Mar 1863-Glücksburg 23 Apr 1948)
+	100008530={ # F11. ORTRUD Agnes Maria Auguste Klara, *Meerholz 15.1.1879, +Gotha 28.4.1918; m.Meerholz 14.10.1906 Pr Albert von Schleswig-Holstein (*Kiel 15.3.1863, +Glücksburg 23.4.1948)
 		name=Ortrud
 		female=yes
 		dynasty=1002018
 		religion=catholic culture=german
-		father=100008280	# Carl v. Isenburg
-		mother=100002351	# Agnes v. Isenburg
+		father=100008513	# Karl v. Isenburg
+		mother=100008190	# Agnes v. Isenburg
 		1879.01.15={birth=yes}  # Meerholz
 		1918.04.28={death=yes}  # Gotha
 	}
-#1849.10.26={holder=100008280} # CARL
-#1900.03.30={holder=100008289} # GUSTAV
+#1849.10.26={holder=100008513} # CARL
+#1900.03.30={holder=100008518} # GUSTAV
 ### SECTION 6: zu Ysenburg u.Büdingen in Meerholz
