@@ -2083,20 +2083,22 @@
 		1870.05.30={add_spouse=100008303}	# Anastasia von Wrede
 		1904.08.28={death=yes}  # Coburg
 	}
-		100194236={ # Friedrich (1871-1940) %%
-			name=Friedrich
+		100194236={
+			name="Friedrich zu Ortenburg"
 			dynasty=1002213
 			religion=lutheran culture=german
 			father=100096491	# Friedrich zu Ortenburg
 			mother=100008303	# Anastasia von Wrede
-			1871.01.01={birth=yes}
-			1940.01.01={death=yes}
+			1871.07.23={birth=yes}  # Coburg
+			1905.07.26={add_spouse=100003824}	# Ilka
+			1940.03.04={death=yes}  # Bayerhof
 		}
 			100194239={ # Alfred Friedrich (1906-1973) %%
 				name="Alfred Friedrich"
 				dynasty=1002213
 				religion=lutheran culture=german
 				father=100194236	# Friedrich zu Ortenburg
+				mother=100003824
 				1906.01.01={birth=yes}
 				1973.01.01={death=yes}
 			}
@@ -2114,6 +2116,7 @@
 				dynasty=1002213
 				religion=lutheran culture=german
 				father=100194236	# Friedrich zu Ortenburg
+				mother=100003824
 				1913.12.03={birth=yes}
 				2002.03.05={death=yes}
 			}
@@ -2490,4 +2493,58 @@
 		1804.05.26={birth=yes}
 		1871.03.01={death=yes}
 	}
+
+100083407={ # Edward Gordon Douglas-Penannt (20 Jun 1800-31 Mar 1886); m.26 Jan 1846 Maria Louisa FitzRoy (18 Apr 1818-10 May 1912) %%
+	name="Edward Gordon"
+	dynasty=1009028
+	religion=anglican culture=english
+	1800.06.20={birth=yes}
+	1846.01.26={add_spouse=100061162}	# Maria Louisa FitzRoy
+	1886.03.31={death=yes}
+}
+	100183409={ # George Sholto (30 Sep 1836-10 Mar 1907) %%
+		name="George Sholto"
+		dynasty=1009028
+		religion=anglican culture=english
+		father=100083407	# Edward Gordon Douglas-Penannt
+		1836.09.30={birth=yes}
+		1907.03.10={death=yes}
+	}
+		100083409={ # Edward Sholto (10 Jun 1864-22 Aug 1927); m.6 Dec 1887 Blanche Georgiana FitzRoy (1865-28 Nov 1944) %%
+			name="Edward Sholto"
+			dynasty=1009028
+			religion=anglican culture=english
+			father=100183409	# George Sholto Douglas-Penannt
+			1864.06.10={birth=yes}
+			1887.12.06={add_spouse=100061295}	# Blanche Georgiana FitzRoy
+			1927.08.22={death=yes}
+		}
+	100183410={ # Archibald (1837-1884) %%
+		name=Archibald
+		dynasty=1009028
+		religion=anglican culture=english
+		father=100083407	# Edward Gordon Douglas-Penannt
+		1837.01.01={birth=yes}
+		1884.01.01={death=yes}
+	}
+		100083410={ # Muriel (1869-1962); m.19 Nov 1891 Edward Algernon FitzRoy (24 Jul 1869-3 Mar 1943) %%
+			name=Muriel
+			female=yes
+			dynasty=1009028
+			religion=anglican culture=english
+			father=100183410	# Archibald Douglas-Penannt
+			1869.01.01={birth=yes}
+			1962.01.01={death=yes}
+		}
+	100083408={ # Eva (1851-3 Jan 1934); m.31 Aug 1871 William Frederick Seymour (8 Dec 1838-9 Feb 1915) %%
+		name=Eva
+		female=yes
+		dynasty=1009028
+		religion=anglican culture=english
+		father=100083407	# Edward Gordon Douglas-Penannt
+		mother=100061162	# Maria Louisa FitzRoy
+		1851.01.01={birth=yes}
+		1934.01.03={death=yes}
+	}
+
 

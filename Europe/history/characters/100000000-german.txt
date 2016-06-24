@@ -5686,20 +5686,20 @@
 					1734.01.01={death=yes}
 				}
 					100007039={	# 1e) Franz Ernst Joseph Anton (1704-1781); m.1729 Maria Eleonore Gfin zu Königsegg-Rothenfels (1711-1766)
-						name=Franz
+						name="Franz Ernst"
 						dynasty=1002067
 						religion=catholic culture=german
 						father=100007038	# Ernst Jakob v. Waldburg
 						mother=100095758	# FRN Anna Luise von Waldburg
-						1704.01.01={birth=yes}
+						1704.12.07={birth=yes}
 						1729.01.01={add_spouse=100095849}	# GFN Maria Eleonore zu Königsegg-Rothenfels
-						1781.01.01={death=yes}
+						1781.04.05={death=yes}
 					}
 						100007040={	# 1f) Eberhard I, cr 1803 Fürst von Waldburg zu Zeil-Wurzach (1730-1807); m.1767 Maria Katharina Gfin Fugger von Glött (1744-1796)
 							name=Eberhard
 							dynasty=1002067
 							religion=catholic culture=german
-							father=100007039	# Franz v. Waldburg
+							father=100007039	# Franz Ernst v. Waldburg
 							mother=100095849	# GFN Maria Eleonore zu Königsegg-Rothenfels
 							1730.01.01={birth=yes}
 							1767.01.01={add_spouse=100094866}	# GFN Maria Katharina Fugger von Glött
@@ -5715,10 +5715,10 @@
 								1793.01.01={add_spouse=100094865}	# Maria Walpurga Fugger von Babenhausen
 								1800.01.01={death=yes}
 							}
-#1576.01.01={holder=100002801} # Jakob Freiherr von Waldburg 
+#1576.01.01={holder=100003849} # Jakob Freiherr von Waldburg 
 #1589.01.01={holder=100002803} # 1a) Heinrich
-#1637.01.01={holder=100002805} # 1b) Maximilian Willibald 
-#1667.01.01={holder=100002808} # 1c) Johann Maria Franz Eusebius 
+#1637.01.01={holder=100003882} # 1b) Maximilian Willibald 
+#1667.01.01={holder=100003896} # 1c) Johann Maria Franz Eusebius 
 #1724.01.01={holder=100002811} # 1d) Maximilian Maria 
 #1748.01.01={holder=100002850} # 1e) Gebhard Xaver Johann Joseph Ignaz Willibald Eusebius 
 #1791.01.01={holder=100002863} # 1f) Joseph Anton Xaver Eusebius Maria Wunibald
@@ -14135,7 +14135,7 @@
 				father=100005262	# Anselm Franz v. Schönborn
 				mother=100092708	# GFN Maria Theresia von Montfort-Tettnang
 				1727.01.17={birth=yes}
-				1751.08.01={add_spouse=100004276}	# Marie Elisabeth zu Salm
+				1751.08.01={add_spouse=100004276}	# Maria Elisabeth zu Salm
 				1776.06.16={add_spouse=100025005}	# Marie Therese v. Colloredo-Mannsfeld
 				1801.07.25={death=yes}
 			}
@@ -14144,8 +14144,8 @@
 					female=yes
 					dynasty=1002043
 					religion=lutheran culture=german
-					father=100005264	# Egon v. Schönborn
-					mother=100004276	# Marie Elisabeth zu Salm
+					father=100005264	# Egon Franz v. Schönborn
+					mother=100004276	# Maria Elisabeth zu Salm
 					1754.09.20={birth=yes}
 					1797.08.25={death=yes}
 				}
@@ -14154,8 +14154,8 @@
 					female=yes
 					dynasty=1002043
 					religion=lutheran culture=german
-					father=100005264	# Egon v. Schönborn
-					mother=100004276	# Marie Elisabeth zu Salm
+					father=100005264	# Egon Franz v. Schönborn
+					mother=100004276	# Maria Elisabeth zu Salm
 					1758.06.07={birth=yes}
 					1838.02.23={death=yes}
 				}
@@ -14164,8 +14164,8 @@
 					female=yes
 					dynasty=1002043
 					religion=lutheran culture=german
-					father=100005264	# Egon v. Schönborn
-					mother=100004276	# Marie Elisabeth zu Salm
+					father=100005264	# Egon Franz v. Schönborn
+					mother=100004276	# Maria Elisabeth zu Salm
 					1763.07.28={birth=yes}
 					1825.10.20={death=yes}
 				}
@@ -14505,13 +14505,13 @@
 				1948.07.02={death=yes}
 			}
 			100003352={	# 5c) Wanda Auguste (2 Dec 1867-10 Mar 1930); m.17 Jun 1886 Ernst Alban Ludwig Fst zu Löwenstein-Wertheim-Freudenberg (25 Sep 1854-20 Apr 1931)
-				name="Wanda Auguste"
+				name=Wanda
+				female=yes
 				dynasty=1002042
 				religion=lutheran culture=german
 				father=100003329	# Wilhelm v. Putbus
 				mother=100003340	# Wanda v. Putbus
 				1867.12.02={birth=yes}
-				1886.06.17={add_spouse=100094207}	# FST Ernst Alban zu Löwenstein-Wertheim-Freudenberg
 				1930.03.10={death=yes}
 			}
 	100003342={	# 3a) Asta Luise (12 Jun 1812-27 Mar 1850); m.4 Sep 1836 Georg Albert Karl von Veltheim (d.1874)
@@ -15329,6 +15329,628 @@
 
 
 ##  100000000	Löwenstein-Wertheim 		1002039
+100002710={ # JOHANN KARL LUDWIG Gf zu Löwenstein-Wertheim-Virneburg, Fürst zu Löwenstein-Wertheim-Freudenberg 19 Nov 1812 (Wertheim 10 Jan 1740-Wertheim 16 Feb 1816); m.Schloß Wilhelmsburg, Barchfeld 6 Aug 1764 Dorothea Maria Landgravine of Hesse-Philippsthal-Barchfeld (Ypres 30 Dec 1738-Wertheim 26 Sep 1799)
+	name=Johann
+	dynasty=1002113
+	religion=catholic culture=german
+	1740.01.10={birth=yes}  # Wertheim
+	1764.08.06={add_spouse=100083406}	# Dorothea of Hesse-Philippsthal-Barchfeld
+	1816.02.16={death=yes}  # Wertheim
+}
+	100002711={ # 2a) Marie Karoline Friederike Luise (10 Dec 1766-17 Nov 1830); m.1st 5 Sep 1783 (div 1791) Johann Wilhelm Gf zu Schaumburg-Lippe (d.5 Apr 1799); m.2nd 4 Jun 1791 Johann Bertram Gf von Gronsfeld-Diepenbroick (d.3 Dec 1805)
+		name=Marie
+		female=yes
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100002710	# Johann
+		mother=100083406	# Dorothea of Hesse-Philippsthal-Barchfeld
+		1766.12.10={birth=yes}
+		1830.11.17={death=yes}
+	}
+	100002712={ # 5a) Sophie Amalie Charlotte (Wertheim 2 Apr 1771-Rüdenhausen 25 May 1823); m.1st Castell 30 Apr 1788 Albrecht Friedrich Karl Gf zu Castell-Castell (Remlingen 2 May 1766-Castell 11 Apr 1810); m.2nd Castell 2 Aug 1812 Christian Friedrich Gf zu Castell-Rüdenhausen (Remlingen 21 Apr 1772-Rüdenhausen 28 Mar 1850)
+		name=Sophie
+		female=yes
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100002710	# Johann
+		mother=100083406	# Dorothea of Hesse-Philippsthal-Barchfeld
+		1771.04.02={birth=yes}  # Wertheim
+		1823.05.25={death=yes}  # Rüdenhausen
+	}
+	100002713={ # 7a) Wilhelmine (Wertheim 23 Apr 1774-Rüdenhausen 25 Jun 1817); m.Wertheim 10 Jan 1802 Josias Gf zu Waldeck u.Pyrmont (Bergheim 13 May 1774-Bergheim 9 Jun 1829)
+		name=Wilhelmine
+		female=yes
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100002710	# Johann
+		mother=100083406	# Dorothea of Hesse-Philippsthal-Barchfeld
+		1774.04.23={birth=yes}  # Wertheim
+		1817.06.25={death=yes}  # Rüdenhausen
+	}
+	100002720={ # 8a) GEORG Wilhelm Ludwig Fst zu Löwenstein-Wertheim-Freudenberg (Wertheim 15 Nov 1775-Wertheim 26 Jul 1855); m.1st Burgfarrnbach 26 Aug 1800 Ernestine Luise Gfn von Pückler u.Limpurg (Stuttgart 24 Jun 1784-Wertheim 26 Jun 1824); m.2nd Wächtersbach 22 Jan 1827 Charlotte Sophie Henriette Luise Gfn von Ysenburg-Büdingen in Philippseich (Philippseich 25 Jun 1803-Frankfurt 11 Mar 1874)
+		name=Georg
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100002710	# Johann
+		mother=100083406	# Dorothea of Hesse-Philippsthal-Barchfeld
+		1775.11.15={birth=yes}  # Wertheim
+		1800.08.26={add_spouse=100093520}	# Ernestine Luise von Pückler u.Limpurg
+		1827.01.22={add_spouse=100094077}	# Charlotte Sophie von Ysenburg-Büdingen in Philippseich
+		1855.07.26={death=yes}  # Wertheim
+	}
+		100002723={ # 2b) ADOLF Carl Constantin Friedrich Ludwig Vollrath Philipp Fst zu Löwenstein-Wertheim-Freudenberg (Nürnberg 9 Dec 1805-Würzburg 9 Aug 1861); m.(morganatically) Bendorf 18 Apr 1831 Katharina Schlund (Wertheim 3 Sep 1807-Coburg 9 Apr 1877)
+			name=Adolf
+			dynasty=1002113
+			religion=catholic culture=german
+			father=100002720	# Georg
+			mother=100093520	# Ernestine Luise von Pückler u.Limpurg
+			1805.12.09={birth=yes}  # Nürnberg
+			1831.04.18={add_spouse=100094229}	# Katharina Schlund
+			1861.08.09={death=yes}  # Würzburg
+		}
+		100002724={ # 3b) Malwina Christine (Wertheim 27 Dec 1808-Kolberg 18 Feb 1879); m.1st Wertheim 30 Sep 1828 (div 1851) Vollrath Friedrich Gf zu Ysenburg-Büdingen in Philippseich (Philippseich 15 Sep 1800-Wächtersbach 9 Jan 1864); m.2nd Aschaffenburg 24 Jul 1854 Antonio Bartolomeo Pires, Visconde Queluz
+			name="Malwina Christine"
+			female=yes
+			dynasty=1002113
+			religion=catholic culture=german
+			father=100002720	# Georg
+			mother=100093520	# Ernestine Luise von Pückler u.Limpurg
+			1808.12.27={birth=yes}  # Wertheim
+			1879.02.18={death=yes}  # Kolberg
+		}
+	100002802={ # 12a) Wilhelm Ernst Ludwig Carl (Wertheim 27 Apr 1783-Blankenberge, nr Ostende 15 Aug 1847); m.Oppenweiler 26 Jul 1812 Dorothea Christine von Kahlden (Tangrin, Mecklenburg 8 Nov 1791-Siebleben bei Gotha 16 Dec 1862)
+		name=Wilhelm
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100002710	# Johann
+		mother=100083406	# Dorothea of Hesse-Philippsthal-Barchfeld
+		1783.04.27={birth=yes}  # Wertheim
+		1812.07.26={add_spouse=100094376}	# Dorothea Christine von Kahlden
+		1847.08.15={death=yes}  # Blankenberge nr Ostende
+	}
+		100002804={ # 1b) WILHELM Paul Ludwig Fst zu Löwenstein-Wertheim-Freudenberg (Stuttgart 19 Mar 1817-Karlsruhe 10 Mar 1887); m.1st Pillnitz bei Dresden 20 Apr 1852 Olga Clara Gfn von Schönburg-Forderglauchau (Wechselburg 28 Jan 1831-Frankfurt 16 Mar 1868); m.2nd (morganatically) Paris 25 May 1870 Bertha Hagen (26 Mar 1845-Seeburg bei Luzern 21 Aug 1895)
+			name=Wilhelm
+			dynasty=1002113
+			religion=catholic culture=german
+			father=100002802	# Wilhelm
+			mother=100094376	# Dorothea Christine von Kahlden
+			1817.03.19={birth=yes}  # Stuttgart
+			1852.04.20={add_spouse=100094452}	# Olga Clara von Schönburg-Forderglauchau
+			1870.05.25={add_spouse=100094571}	# Bertha Hagen
+			1887.03.10={death=yes}  # Karlsruhe
+		}
+			100002805={ # 1c) ERNST ALBAN LUDWIG Fst zu Löwenstein-Wertheim-Freudenberg (Dresden 25 Sep 1854-Kreuzwertheim 20 Apr 1931); m.Putbus 17 Jun 1886 Wanda Gfn von Wylich u.Lottum (Berlin 2 Dec 1867-Kreuzwertheim 10 Mar 1930)
+				name=Ernst
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1854.09.25={birth=yes}  # Dresden
+				1886.06.17={add_spouse=100003352}	# Wanda von Wylich u.Lottum
+				1931.04.20={death=yes}  # Kreuzwertheim
+			}
+			100002806={ # 2c) Alfred Ludwig Wilhelm Leopold (Siebleben 19 Oct 1855-Langenzell 20 Apr 1925); m.Frankfurt 9 Feb 1880 Pauline Gfn von Reichenbach-Lessonitz (Frankfurt 5 Jun 1858-Langenzell 21 Oct 1927)
+				name=Alfred
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1855.10.19={birth=yes}  # Siebleben
+				1880.02.09={add_spouse=100094611}	# Pauline von Reichenbach-Lessonitz
+				1925.04.20={death=yes}  # Langenzell
+			}
+				100002808={ # 1d) Olga Amalie Wilhelmine Ernestine Marie Pauline (Bonn 25 Oct 1880-Heidelberg 1 Jul 1961); m.1st Langenzell 5 Oct 1898 (div 1920) Heinrich Pr von Schönburg-Waldenburg (Droyssig 8 Jun 1863-Rheda 28 Dec 1945); m.2nd Frankfurt 22 Oct 1920 Wolfgang Pr zu Löwenstein-Wertheim-Freudenberg (1890-1945)
+					name=Olga
+					female=yes
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002806	# Alfred
+					mother=100094611	# Pauline von Reichenbach-Lessonitz
+					1880.10.25={birth=yes}  # Bonn
+					1961.07.01={death=yes}  # Heidelberg
+				}
+				100002809={ # 2d) Pauline (Heidelberg 16 Oct 1881-Miltitz 24 Apr 1945); m.Frankfurt 24 Feb 1900 Ulrich Pr von Schönburg-Waldenburg (Hermsdorf 25 Aug 1869-Guteborn 1 Dec 1939)
+					name=Pauline
+					female=yes
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002806	# Alfred
+					mother=100094611	# Pauline von Reichenbach-Lessonitz
+					1881.10.16={birth=yes}  # Heidelberg
+					1945.04.24={death=yes}  # Miltitz
+				}
+				100003669={ # 3d) Amélie Karoline Ludovika Gabriele (Langenzell 24 Jun 1883-Hochburg 23 Sep 1978); m.Langenzell 5 Oct 1903 Otto Friedrich Gf zu Castell-Castell (Castell 12 May 1868-Hochburg 8 Jul 1939)
+					name=Amélie
+					female=yes
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002806	# Alfred
+					mother=100094611	# Pauline von Reichenbach-Lessonitz
+					1883.06.24={birth=yes}  # Langenzell
+					1978.09.23={death=yes}  # Hochburg
+				}
+				100003673={ # 4d) Madeleine Wilhelmine Felice Ludovika (Langenzell 8 Mar 1885-Garmisch-Partenkirchen 30 Jan 1976); m.Langenzell 21 Nov 1902 Richard Fst zu Sayn-Wittgenstein-Berleburg (Berleburg 27 May 1882-nr Hanau 25 Apr 1925)
+					name=Madeleine
+					female=yes
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002806	# Alfred
+					mother=100094611	# Pauline von Reichenbach-Lessonitz
+					1885.03.08={birth=yes}  # Langenzell
+					1976.01.30={death=yes}  # Garmisch-Partenkirchen
+				}
+				100003824={ # 5d) Ilka Wilhelmine Auguste Adolfine (Langenzell 9 Jan 1887-Schweinfurt 31 Mar 1971); m.Langenzell 26 Jul 1905 Friedrich Gf zu Ortenburg (Coburg 23 Jul 1871-Bayerhof 4 Mar 1940)
+					name=Ilka
+					female=yes
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002806	# Alfred
+					mother=100094611	# Pauline von Reichenbach-Lessonitz
+					1887.01.09={birth=yes}  # Langenzell
+					1971.03.31={death=yes}  # Schweinfurt
+				}
+				100003840={ # 6d) Elisabeth Ferdinande (Langenzell 5 May 1890-Frankfurt 9 Mar 1953); m.1st Langenzell 25 Sep 1909 (div 1923) Otto-Konstantin Pr zu Sayn-Wittgenstein-Berleburg (Munich 11 Jun 1878-Bad Ischl 16 Nov 1955); m.2nd Frankfurt 28 Mar 1930 Richard Merton (Frankfurt 1 Dec 1881-Frankfurt 6 Jan 1960)
+					name="Elisabeth Ferdinande"
+					female=yes
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002806	# Alfred
+					mother=100094611	# Pauline von Reichenbach-Lessonitz
+					1890.05.05={birth=yes}  # Langenzell
+					1953.03.09={death=yes}  # Frankfurt
+				}
+				100003841={ # 7d) UDO Amelung Karl Friedrich Wilhelm Oleg Paul Fst zu Löwenstein-Wertheim-Freudenberg (Langenzell 8 Sep 1896-Bad Mergentheim 28 Dec 1980); m.Castell 3 May 1922 Margarete Gfn zu Castell-Castell (Castell 27 Oct 1899-Wertheim 24 Dec 1969)
+					name="Udo _Amelung"
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002806	# Alfred
+					mother=100094611	# Pauline von Reichenbach-Lessonitz
+					1896.09.08={birth=yes}  # Langenzell
+					1922.05.03={add_spouse=100000566}	# Margarete zu Castell-Castell
+					1980.12.28={death=yes}  # Bad Mergentheim
+				}
+					100003843={ # 1e) Ameli Gertrud Pauline Antonie Madeleine Wanda Elisabeth (Frankfurt 4 Mar 1923-Kiel 26 Mar 2016); m.Kreuzwertheim 7 Aug 1951 Anton Gunther, Duke of Oldenburg (Lensahn 16 Jan 1923-Güldenstein 20 Sep 2014)
+						name=Ameli
+						female=yes
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100003841	# Udo _Amelung
+						mother=100000566	# Margarete zu Castell-Castell
+						1923.03.04={birth=yes}  # Frankfurt
+						2016.03.26={death=yes}  # Kiel
+					}
+					100003845={ # 2e) ALFRED-ERNST Friedrich Karl Richard Otto Konstantin Kasimir Bernhard Fst zu Löwenstein-Wertheim-Freudenberg (Schloß Triefenstein 19 Sep 1924-Kreuzwertheim 13 Jan 2010); m.Kreuzwertheim 9 Sep 1950 Ruth-Erika von Buggenhagen (Buggenhagen 25 Jun 1922-15 Oct 2009)
+						name=ALFRED-ERNST
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100003841	# Udo _Amelung
+						mother=100000566	# Margarete zu Castell-Castell
+						1924.09.19={birth=yes}  # Schloß Triefenstein
+						1950.09.09={add_spouse=100099313}	# Ruth-Erika von Buggenhagen
+						2010.01.13={death=yes}  # Kreuzwertheim
+					}
+						100003846={ # 1f) LUDWIG Udo Hans Peter Alfred Fst zu Löwenstein-Wertheim-Freudenberg (b.Kreuzwertheim 24 May 1951); m.1st (civ) Kreuzwertheim 28 May 1976 (rel) Behringersdorf bei Nürnberg 29 May 1976 Verena von Stülpnagel (Sigmaringen 31 Jan 1952-Kreuzwertheim 26 Oct 1985); m.2nd (civ) Kreuzwertheim 4 Aug 1987 (rel) Schöntal an der Jagst 12 Sep 1987 Elisabeth Gfn von Waldburg-Wolfegg-Waldsee (b.Möckmühl 7 Jun 1962)
+							name=Ludwig
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003845	# ALFRED-ERNST
+							mother=100099313	# Ruth-Erika von Buggenhagen
+							1951.05.24={birth=yes}  # Kreuzwertheim
+							1976.05.28={add_spouse=100099314}	# Verena von Stülpnagel
+							1987.08.04={add_spouse=100006915}	# Elisabeth von Waldburg-Wolfegg-Waldsee
+						}
+							100003884={ # 1g) Sophie Amelie Margarita Alexandra Monika Isabel (b.Wertheim 1 Sep 1988)
+								name=Sophie
+								female=yes
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003846	# Ludwig
+								mother=100006915	# Elisabeth von Waldburg-Wolfegg-Waldsee
+								1988.09.01={birth=yes}  # Wertheim
+							}
+							100003886={ # 2g) Amelie Anastasia Sylvia Alexandra Ruth Elisabeth (b.Wertheim 15 Aug 1990)
+								name=Amelie
+								female=yes
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003846	# Ludwig
+								mother=100006915	# Elisabeth von Waldburg-Wolfegg-Waldsee
+								1990.08.15={birth=yes}  # Wertheim
+							}
+							100003889={ # 3g) Ludwig Hubertus Alfred-Ernst Sebastian Carl Roman Erbpr zu Löwenstein-Wertheim-Freudenberg (b.Wertheim 30 Jun 1994)
+								name=Ludwig
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003846	# Ludwig
+								mother=100006915	# Elisabeth von Waldburg-Wolfegg-Waldsee
+								1994.06.30={birth=yes}  # Wertheim
+							}
+						100003891={ # 2f) Ameli Margarete Marielies Ingeborg (b.Kreuzwertheim 20 Feb 1953); m.(civ) Kreuzwertheim 5 May 1978 (rel) Wertheim 6 May 1978 Constantin von Brandenstein-Zeppelin (b.Biberach an der Riss 22 Jun 1953)
+							name=Ameli
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003845	# ALFRED-ERNST
+							mother=100099313	# Ruth-Erika von Buggenhagen
+							1953.02.20={birth=yes}  # Kreuzwertheim
+						}
+						100003892={ # 3f) Dorothee Antonie Brigitte Pauline (b.Kreuzwertheim 30 Dec 1955); m.Kreuzwertheim (civ) 12 Oct 1984 (rel) 13 Oct 1984 Christoph Schücking (b.Kassel 5 Nov 1951)
+							name=Dorothee
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003845	# ALFRED-ERNST
+							mother=100099313	# Ruth-Erika von Buggenhagen
+							1955.12.30={birth=yes}  # Kreuzwertheim
+						}
+						100003893={ # 4f) Udo Alexander Richard Albrecht (b.Kreuzwertheim 17 Jun 1957); m.Kreuzwertheim 23 Aug 1984 Isabel von Bergen (b.Bad Homburg 30 Sep 1957)
+							name=Udo
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003845	# ALFRED-ERNST
+							mother=100099313	# Ruth-Erika von Buggenhagen
+							1957.06.17={birth=yes}  # Kreuzwertheim
+							1984.08.23={add_spouse=100099320}	# Isabel von Bergen
+						}
+							100003894={ # 1g) Viktoria Elisabeth Georgia Susanne Dorothee (b.Heidelberg 12 Feb 1990)
+								name=Viktoria
+								female=yes
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003893	# Udo
+								mother=100099320	# Isabel von Bergen
+								1990.02.12={birth=yes}  # Heidelberg
+							}
+							100003895={ # 2g) Georg Ludwig Bernd Ulrich (b.Heidelberg 16 May 1993)
+								name=Georg
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003893	# Udo
+								mother=100099320	# Isabel von Bergen
+								1993.05.16={birth=yes}  # Heidelberg
+							}
+							100003897={ # 3g) Philipp Constantin Gisbert Falk André (b.Heidelberg 11 Jun 1998)
+								name=Philipp
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003893	# Udo
+								mother=100099320	# Isabel von Bergen
+								1998.06.11={birth=yes}  # Heidelberg
+							}
+						100003898={ # 5f) Ruth Marie-Luise Orlinda Heidelind (b.Kreuzwertheim 30 Dec 1959); m.Freiburg 13 Sep 1991 (rel) Kreuzwertheim 14 Sep 1991 Herbert Köppl (b.Freising 9 May 1950)
+							name=Ruth
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003845	# ALFRED-ERNST
+							mother=100099313	# Ruth-Erika von Buggenhagen
+							1959.12.30={birth=yes}  # Kreuzwertheim
+						}
+					100003899={ # 3e) Gertrud Olga Ilka Emma Agnes Magdalena Mechthild (Langenzell 24 Jan 1926-4 Feb 2011); m.Kreuzwertheim 7 Aug 1951 Peter, Duke of Oldenburg (b.Lensahn 7 Aug 1926)
+						name=Gertrud
+						female=yes
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100003841	# Udo _Amelung
+						mother=100000566	# Margarete zu Castell-Castell
+						1926.01.24={birth=yes}  # Langenzell
+						2011.02.04={death=yes}
+					}
+					100003903={ # 4e) Pauline Elisabeth Renata Luitgard (b.Heidelberg 9 Jun 1928); m.Tegernsee 29 Dec 1956 Hans Gunther Horst (Oldenburg 23 Oct 1913-Tegernsee 7 Mar 1989)
+						name=Pauline
+						female=yes
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100003841	# Udo _Amelung
+						mother=100000566	# Margarete zu Castell-Castell
+						1928.06.09={birth=yes}  # Heidelberg
+						2005.01.01={death=yes}  # EST.
+					}
+			100003906={ # 3c) Vollrath (Siebleben 30 Nov 1856-Kleingemünd 2 May 1919)
+				name=Vollrath
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1856.11.30={birth=yes}  # Siebleben
+				1919.05.02={death=yes}  # Kleingemünd
+			}
+			100003909={ # 4c) Karl (Heidelberg 6 Apr 1858-Berlin 22 Dec 1928)
+				name=Karl
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1858.04.06={birth=yes}  # Heidelberg
+				1928.12.22={death=yes}  # Berlin
+			}
+			100003931={ # 5c) Friedrich Ernst Ludwig (Munich 23 Feb 1860-Neckargemünd 6 Jan 1920); m.Finsbury, London 13 Apr 1893 Hedwig Aloysia Müller (Bürs 13 Feb 1862-Prien 13 Jan 1949)
+				name=Friedrich
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1860.02.23={birth=yes}  # Munich
+				1893.04.13={add_spouse=100099329}	# Hedwig Aloysia Müller
+				1920.01.06={death=yes}  # Neckargemünd
+			}
+			100003961={ # 6c) Marie (Kreuzwertheim 14 Dec 1861-Büdingen 26 Apr 1941); m.Triefenstein 10 Oct 1882 Friedrich Gf zur Lippe-Biesterfeld (Mechernich 10 May 1852-Oberkassel 15 Aug 1892)
+				name=Marie
+				female=yes
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1861.12.14={birth=yes}  # Kreuzwertheim
+				1941.04.26={death=yes}  # Büdingen
+			}
+			100003962={ # 7c) Wilhelm Gustav Ludwig (Kreuzwertheim 25 Jan 1863-Tilsit 17 Aug 1915); m.Baden-Baden 26 Nov 1887 Luise Frn von Fabrice (Heidelberg 16 Apr 1859-Munich 19 May 1927)
+				name=Wilhelm
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1863.01.25={birth=yes}  # Kreuzwertheim
+				1887.11.26={add_spouse=100099341}	# Luise von Fabrice
+				1915.08.17={death=yes}  # Tilsit
+			}
+				100003964={ # 1d) Wolfgang Wilhelm Gustav Karl Ludwig (Drehnow 25 Nov 1890-Pulawy 8/9 Jul 1945); m.1st Frankfurt 22 Oct 1920 (div 1938) Olga Pss zu Löwenstein-Wertheim-Freudenberg (1880-1961); m.2nd Lindau 17 Nov 1938 Eugenie von Fortenbach (Würzburg 14 Aug 1900-Vilsbiburg 6 Sep 1982)
+					name=Wolfgang
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100003962	# Wilhelm
+					mother=100099341	# Luise von Fabrice
+					1890.11.25={birth=yes}  # Drehnow
+					1920.10.22={add_spouse=100002808}	# Olga zu Löwenstein-Wertheim-Freudenberg
+					1938.01.01={remove_spouse=100002808}
+					1938.11.17={add_spouse=100099348}	# Eugenie von Fortenbach
+					1945.07.08={death=yes}  # Pulawy
+				}
+					100003967={ # 1e) Wolfram Hubertus Wilhelm Heinrich (b.Berlin 21 Oct 1941); m.1st Grünwald Apr 1974 (div 1984) Elisa Christiane Schwennicke (Berlin 19 Jun 1941-Pöcking 8 Aug 2006); m.2nd Steindorf 10 Jun 1997 Barbara Maria Glossner (b.Augsburg 22 Dec 1951)
+						name=Wolfram
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100003964	# Wolfgang
+						mother=100099348	# Eugenie von Fortenbach
+						1941.10.21={birth=yes}  # Berlin
+						1974.04.01={add_spouse=100099350}	# Elisa Christiane Schwennicke
+						1984.01.01={remove_spouse=100099350}
+						1997.06.10={add_spouse=100099351}	# Barbara Glossner
+					}
+						100003968={ # 1f) Wolfram Michael Nikolaus Friedrich Jakob (b.Munich 12 Jun 1980)
+							name=Wolfram
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003967	# Wolfram
+							mother=100099350	# Elisa Christiane Schwennicke
+							1980.06.12={birth=yes}  # Munich
+						}
+				100003969={ # 2d) Alban Alfred Klemens Bernhard Wilhelm Ludwig (Drehnow 14 Aug 1892-Salzburg 6 Mar 1964)
+					name=Alban
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100003962	# Wilhelm
+					mother=100099341	# Luise von Fabrice
+					1892.08.14={birth=yes}  # Drehnow
+					1964.03.06={death=yes}  # Salzburg
+				}
+				100003970={ # 3d) Erika Ernestine Wanda Frida Adele Bernhardine (Drehnow 23 Dec 1896-Bad Reichenhall 28 Jun 1976/8); m.1st Bonn 20 Apr 1918 (div 1937) Wolfgang Frhr von Waldenfels (Hofgeismar 21 Apr 1889-Fürstenau 1 Feb 1940); m.2nd Meerane, Saxony 30 Aug 1937 (div 1954) Walter Nitzschke (Meerane 19 Mar 1904-    )
+					name=Erika
+					female=yes
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100003962	# Wilhelm
+					mother=100099341	# Luise von Fabrice
+					1896.12.23={birth=yes}  # Drehnow
+					1976.06.28={death=yes}  # Bad Reichenhall
+				}
+			100003979={ # 8c) Ludwig (Kreuzwertheim 19 Jul 1864-k.a.Furageros, Philippines 26 Mar 1899); m.London 15 May 1897 Lady Anne Savile (London 25 May 1864-d.at sea 31 Aug 1927)
+				name=Ludwig
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1864.07.19={birth=yes}  # Kreuzwertheim
+				1897.05.15={add_spouse=100099356}	# Anne Savile
+				1899.03.26={death=yes}
+			}
+			100003980={ # 9c) Adele (Kreuzwertheim 24 Mar 1866-Polnisch-Wartenberg 15 Oct 1890); m.Triefenstein 20 Jun 1885 Gustav Pr Biron von Kurland (Dresden 17 Oct 1859-Wartenberg 8 Jan 1941)
+				name=Adele
+				female=yes
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002804	# Wilhelm
+				mother=100094452	# Olga Clara von Schönburg-Forderglauchau
+				1866.03.24={birth=yes}  # Kreuzwertheim
+				1890.10.15={death=yes}  # Polnisch-Wartenberg
+			}
+		100003981={ # 3b) Leopold Emil Ludwig Konrad (Geneva 26 Nov 1827-Munich 13 Mar 1893); m.Hamburg 4 Aug 1861 Amalie Wollrabe (Detmold 3 Mar 1836-Munich 14 Mar 1909)
+			name=Leopold
+			dynasty=1002114
+			religion=catholic culture=german
+			father=100002802	# Wilhelm
+			mother=100094376	# Dorothea Christine von Kahlden
+			1827.11.26={birth=yes}  # Geneva
+			1861.08.04={add_spouse=100099358}	# Amalie Wollrabe
+			1893.03.13={death=yes}  # Munich
+		}
+			100003982={ # 1c) Waltraut Gfn von Löwenstein-Scharffeneck (Teplitz 23 Oct 1861-Gadebusch 26 Apr 1936)
+				name=Waltraut
+				female=yes
+				dynasty=1002114
+				religion=catholic culture=german
+				father=100003981	# Leopold
+				mother=100099358	# Amalie Wollrabe
+				1861.10.23={birth=yes}  # Teplitz
+				1936.04.26={death=yes}  # Gadebusch
+			}
+			100003983={ # 2c) Maria Gfn von Löwenstein-Scharffeneck (Frankfurt 22 Apr 1864-Prague 24 May 1903)
+				name=Maria
+				female=yes
+				dynasty=1002114
+				religion=catholic culture=german
+				father=100003981	# Leopold
+				mother=100099358	# Amalie Wollrabe
+				1864.04.22={birth=yes}  # Frankfurt
+				1903.05.24={death=yes}  # Prague
+			}
+			100003984={ # 3c) Friedrich Gf von Löwenstein-Scharffeneck (Sommerau 13 Sep 1865-Naples 27 May 1893)
+				name=Friedrich
+				dynasty=1002114
+				religion=catholic culture=german
+				father=100003981	# Leopold
+				mother=100099358	# Amalie Wollrabe
+				1865.09.13={birth=yes}  # Sommerau
+				1893.05.27={death=yes}  # Naples
+			}
+			100003998={ # 5c) Bertha Gfn von Löwenstein-Scharffeneck (Sommerau 4 Mar 1867-Aix-en-Provence 21 Aug 1893)
+				name=Bertha
+				female=yes
+				dynasty=1002114
+				religion=catholic culture=german
+				father=100003981	# Leopold
+				mother=100099358	# Amalie Wollrabe
+				1867.03.04={birth=yes}  # Sommerau
+				1893.08.21={death=yes}  # Aix_en_Provence
+			}
+			100003985={ # 4c) Maximilian Gf von Löwenstein-Scharffeneck (Patzau 13 Jul 1871-Vienna 11 Apr 1952); m.1st Munich 4 Nov 1895 (div 1912) Constance Frn von Worms (London 8 Apr 1875-London 10 Oct 1963); m.2nd Ansbach 20 Dec 1915 Adelheid Frn von Berlichingen (Guttenstein 13 Aug 1883-Vienna 9 Jun 1970)
+				name=Maximilian
+				dynasty=1002114
+				religion=catholic culture=german
+				father=100003981	# Leopold
+				mother=100099358	# Amalie Wollrabe
+				1871.07.13={birth=yes}  # Patzau
+				1895.11.04={add_spouse=100099359}	# Constance von Worms
+				1912.01.01={remove_spouse=100099359}
+				1915.12.20={add_spouse=100099360}	# Adelheid von Berlichingen
+				1952.04.11={death=yes}  # Vienna
+			}
+				100003986={ # 1d) Sophie Gfn von Löwenstein-Scharffeneck (Munich 11 Dec 1896-Görz Sep 1978); m.Vienna 8 Mar 1927 (div 1938) Arbeno Maria Gf von Attems (Cilli 2 Jun 1898-9 Oct 1968)
+					name=Sophie
+					female=yes
+					dynasty=1002114
+					religion=catholic culture=german
+					father=100003985	# Maximilian
+					mother=100099359	# Constance von Worms
+					1896.12.11={birth=yes}  # Munich
+					1978.09.01={death=yes}  # Görz
+				}
+				100003987={ # 2d) Franziska Gfn von Löwenstein-Scharffeneck (Oberau an der Lorsach 25 Aug 1899-    ); m.Vienna 27 Jun 1922 Otto Nirenstein (Vienna 1894-New York 30 Nov 1978)
+					name=Franziska
+					female=yes
+					dynasty=1002114
+					religion=catholic culture=german
+					father=100003985	# Maximilian
+					mother=100099359	# Constance von Worms
+					1899.08.25={birth=yes}  # Oberau an der Lorsach
+					1974.01.01={death=yes}  # EST.
+				}
+				100003988={ # 3d) Johannes Gf von Löwenstein-Scharffeneck (Munich 3 Dec 1901-Halifax, Nova Scotia 27 Mar 1980); m.1st Velky Slavkov, Czechoslovakia 16 Aug 1923 (div 1958) Emma Rizzoli (17 Aug 1896-    ); m.2nd London 10 Aug 1959 Henriette Klementine Jost (London 16 Jan 1908-London Sep 1986)
+					name=Johannes
+					dynasty=1002114
+					religion=catholic culture=german
+					father=100003985	# Maximilian
+					mother=100099359	# Constance von Worms
+					1901.12.03={birth=yes}  # Munich
+					1923.08.16={add_spouse=100099364}	# Emma Rizzoli
+					1958.01.01={remove_spouse=100099364}
+					1959.08.10={add_spouse=100099365}	# Henriette Klementine Jost
+					1980.03.27={death=yes}  # Halifax Nova Scotia
+				}
+				100003989={ # 4d) Leopold Gf von Löwenstein-Scharffeneck (Salzburg 13 Mar 1903-Ventimiglia 6 Sep 1974); m.1st London 22 Jun 1932 (rel) Munich 6 Jul 1932 (div 1947) Bianca Fischler Gfn von Treuberg (Munich 29 Sep 1913-London 14 May 1984); m.2nd London 6 Aug 1947 Diana Gollancz (London 18 Dec 1921-London 1 Apr 1967)
+					name=Leopold
+					dynasty=1002114
+					religion=catholic culture=german
+					father=100003985	# Maximilian
+					mother=100099359	# Constance von Worms
+					1903.03.13={birth=yes}  # Salzburg
+					1932.06.22={add_spouse=100099367}	# Bianca Fischler von Treuberg
+					1947.01.01={remove_spouse=100099367}
+					1947.08.06={add_spouse=100099371}	# Diana Gollancz
+					1974.09.06={death=yes}  # Ventimiglia
+				}
+					100003990={ # 1e) Rupprecht Gf von Löwenstein-Scharffeneck [he has assumed the title Prinz zu Löwenstein-Wertheim-Freudenberg] (Palma de Mallorca 24 Aug 1933-20 May 2014); m.London 18 Jul 1957 Josephine Clara Lowry-Corry (b.London 26 Jan 1931)
+						name=Rupprecht
+						dynasty=1002114
+						religion=catholic culture=german
+						father=100003989	# Leopold
+						mother=100099367	# Bianca Fischler von Treuberg
+						1933.08.24={birth=yes}  # Palma de Mallorca
+						1957.07.18={add_spouse=100099376}	# Josephine Clara Lowry-Corry
+						2014.05.20={death=yes}
+					}
+						100003991={ # 1f) Rudolf Gf von Löwenstein-Scharffeneck (b.London 17 Nov 1957)
+							name=Rudolf
+							dynasty=1002114
+							religion=catholic culture=english
+							father=100003990	# Rupprecht
+							mother=100099376	# Josephine Clara Lowry-Corry
+							1957.11.17={birth=yes}  # London
+						}
+						100003992={ # 2f) Konrad Gf von Löwenstein-Scharffeneck (b.London 26 Nov 1958)
+							name=Konrad
+							dynasty=1002114
+							religion=catholic culture=english
+							father=100003990	# Rupprecht
+							mother=100099376	# Josephine Clara Lowry-Corry
+							1958.11.26={birth=yes}  # London
+						}
+						100003993={ # 3f) Maria Theodora Gfn von Löwenstein-Scharffeneck (b.London 11 Jul 1966); m.Brompton Oratory, London 26 Sep 1998 Cte Manfredi della Gherardesca (b.Florence 5 Aug 1961)
+							name="Maria Theodora"
+							female=yes
+							dynasty=1002114
+							religion=catholic culture=english
+							father=100003990	# Rupprecht
+							mother=100099376	# Josephine Clara Lowry-Corry
+							1966.07.11={birth=yes}  # London
+						}
+				100003994={ # 5d) Hubertus Gf von Löwenstein-Scharffeneck [he assumed the title Prinz zu Löwenstein-Wertheim-Freudenberg] (Schloß Schönworth 14 Oct 1906-Bonn 28 Nov 1984); m.Palermo 4 Apr 1929 Helga Schuylenburg (Loftus, Norway 21 Aug 1910-Berlin 23 Nov 2004)
+					name=Hubertus
+					dynasty=1002114
+					religion=catholic culture=german
+					father=100003985	# Maximilian
+					mother=100099359	# Constance von Worms
+					1906.10.14={birth=yes}  # Schloß Schönworth
+					1929.04.04={add_spouse=100099379}	# Helga Schuylenburg
+					1984.11.28={death=yes}  # Bonn
+				}
+					100003995={ # 1e) Maria-Elisabeth Gfn von Löwenstein-Scharffeneck (New York 26 Nov 1939-Berlin 13 Dec 2007); m.Gernot Wilhelm Michael Renauer (1940-1994)
+						name=Maria-Elisabeth
+						female=yes
+						dynasty=1002114
+						religion=catholic culture=english
+						father=100003994	# Hubertus
+						mother=100099379	# Helga Schuylenburg
+						1939.11.26={birth=yes}  # New York
+						2007.12.13={death=yes}  # Berlin
+					}
+					100003996={ # 2e) Konstanze Gfn von Löwenstein-Scharffeneck (b.Franklin, New Jersey 4 Jul 1942); m.Bonn-Bad Godesberg 12 Aug 1969 (div 1978) Manfred Schmidt-Werthern (b.Trauenstein 12 Aug 1944)
+						name=Konstanze
+						female=yes
+						dynasty=1002114
+						religion=catholic culture=german
+						father=100003994	# Hubertus
+						mother=100099379	# Helga Schuylenburg
+						1942.07.04={birth=yes}  # Franklin New Jersey
+					}
+					100003997={ # 3e) Margarete Gfn von Löwenstein-Scharffeneck (b.Wertheim 3 Oct 1948); m.Botho von Schwarzkopf
+						name=Margarete
+						female=yes
+						dynasty=1002114
+						religion=catholic culture=german
+						father=100003994	# Hubertus
+						mother=100099379	# Helga Schuylenburg
+						1948.10.03={birth=yes}  # Wertheim
+					}
+#1770.01.10={holder=100002710} # JOHANN KARL LUDWIG Gf zu Löwenstein-Wertheim-Virneburg
+#1816.02.16={holder=100002720} # 8a) GEORG Wilhelm Ludwig Fst zu Löwenstein-Wertheim-Freudenberg 
+#1855.07.26={holder=100002723} # 2b) ADOLF Carl Constantin Friedrich Ludwig Vollrath Philipp Fst zu Löwenstein-Wertheim-Freudenberg 
+#1861.08.09={holder=100002804} # 1b) WILHELM Paul Ludwig Fst zu Löwenstein-Wertheim-Freudenberg 
+#1887.03.10={holder=100002805} # 1c) ERNST ALBAN LUDWIG Fst zu Löwenstein-Wertheim-Freudenberg 
+#1931.04.20={holder=100003841} # 7d) UDO Amelung Karl Friedrich Wilhelm Oleg Paul Fst zu Löwenstein-Wertheim-Freudenberg 
+#1980.12.28={holder=100003845} # 2e) ALFRED-ERNST Friedrich Karl Richard Otto Konstantin Kasimir Bernhard Fst zu Löwenstein-Wertheim-Freudenberg 
+#2010.01.13={holder=100003846} # 1f) LUDWIG Udo Hans Peter Alfred Fst zu Löwenstein-Wertheim-Freudenberg 
+
 100002726={	# DOMINIK KONSTANTIN Fürst zu Löwenstein-Wertheim-Rochefort (Nancy 16 Apr 1762-Frankfurt 18 Apr 1814); m.1st Bartenstein 9 May 1780 Marie Leopoldine Pss zu Hohenlohe-Bartenstein (Bartenstein 15 Jul 1761-Kleinheubach 15 Feb 1807); m.2nd Konstanz 15 Apr 1807 Maria Crescentia Gfn zu Königsegg-Rothenfels (Immenstadt 30 Jan 1786-Miltenberg am Main 13 Dec 1821)
 	name="Dominik Konstantin"
 	dynasty=1002039
@@ -16046,100 +16668,134 @@
 
 
 ## Mendez de Vigo
-100200035={ # Don Jaime Mendez de Vigo y del Arco
-	name=Jaime
+100026069={ # Santiago Mendez de Vigo (Oviedo, Asturias 1790-Madrid 9 Jan 1860); m.1811 Ana Isabel Osorio (Madrid 9 Jul 1791-Madrid 18 Feb 1870) %%
+	name=Santiago
 	dynasty=1001506
 	religion=catholic culture=castillan
-	1933.11.23={birth=yes}
-	1968.09.22={add_spouse=100002743}	# Monika Maria v. Löwenstein-Wertheim
+	1790.01.01={birth=yes}	# Oviedo, Asturias
+	1811.01.01={add_spouse=100026071}	# Ana Isabel Osorio
+	1820.01.01={remove_spouse=100026071}
+	1860.01.09={death=yes}	# Madrid
 }
-	100200036={	# 1g) Carlos Manuel Mendez de Vigo y Löwenstein-Wertheim-Rosenberg, b.München 27 Jul 1969; m.Strobl am Wolfgangsee 3 May 1997 Katharina Pss von Hohenberg (b.Vienna 9 Mar 1969)
-		name="Carlos Manuel"
+	100126069={ # Felipe (b.1829) %%
+		name=Felipe
 		dynasty=1001506
 		religion=catholic culture=castillan
-		father=100200035	# Jaime Mendez de Vigo
-		mother=100002743	# Monika Maria v. Löwenstein-Wertheim
-		1969.03.09={birth=yes}
-		1997.05.03={add_spouse=100021387}	# Katharina v. Hohenberg
+		father=100026069	# Santiago Mendez de Vigo
+		1829.01.01={birth=yes}
+		1900.01.09={death=yes}	# EST.
 	}
-		100200037={	# 1h) Emanuel Cristobal Andreas Pedro Damian Maria Mendez de Vigo y Hohenberg, b.Bielefeld 21 Feb 1999
-			name=Emanuel
+		100126070={ # Manuel (1858-1959) %%
+			name=Manuel
 			dynasty=1001506
 			religion=catholic culture=castillan
-			father=100200036	# Carlos Manuel Mendez de Vigo
-			mother=100021387	# Katharina v. Hohenberg
-			1999.02.21={birth=yes}
+			father=100126069	# Felipe Mendez de Vigo
+			1858.01.01={birth=yes}
+			1959.01.01={death=yes}
 		}
-		100200038={	# 2h) Fernando Javier Maximílian Alfonso María Méndez de Vigo y Hohenberg, b.New York 1 Aug 2000
-			name=Fernando
-			dynasty=1001506
-			religion=catholic culture=castillan
-			father=100200036	# Carlos Manuel Mendez de Vigo
-			mother=100021387	# Katharina v. Hohenberg
-			2000.08.01={birth=yes}
-		}
-		100100039={	# 3h) Livia Theresa Leticia Monika Maria Mendez de Vigo y Hohenberg (b.London 13 Apr 2002)
-			name=Livia
-			female=yes
-			dynasty=1001506
-			religion=catholic culture=castillan
-			father=100200036	# Carlos Manuel Mendez de Vigo
-			mother=100021387	# Katharina v. Hohenberg
-			2002.04.13={birth=yes}
-		}
-		100100040={	# 4h) Alfonso Mendez de Vigo y Hohenberg, b.London 9 Sep 2003
-			name=Alfonso
-			dynasty=1001506
-			religion=catholic culture=castillan
-			father=100200036	# Carlos Manuel Mendez de Vigo
-			mother=100021387	# Katharina v. Hohenberg
-			2003.09.09={birth=yes}
-		}
-		100100041={	# 5h) Clemente Mendez de Vigo y Hohenberg, b.2007
-			name=Clemente
-			dynasty=1001506
-			religion=catholic culture=castillan
-			father=100200036	# Carlos Manuel Mendez de Vigo
-			mother=100021387	# Katharina v. Hohenberg
-			2007.01.01={birth=yes}
-		}
-	100100042={	# 2g) Maria del Pilar Mendez de Vigo y Löwenstein-Wertheim-Rosenberg, b.München 20 Oct 1970; m.Bronnbach an der Tauber 20 Jan 2001 Paul Wladimir Duke of Oldenburg (b.Lübeck 16 Aug 1969)
-		name="Maria del Pilar"
-		female=yes
-		dynasty=1001506
-		religion=catholic culture=castillan
-		father=100200035	# Jaime Mendez de Vigo
-		mother=100002743	# Monika Maria v. Löwenstein-Wertheim
-		1970.10.20={birth=yes}
-	}
-	100100043={	# 3g) Cristobal Mendez de Vigo y Löwenstein-Wertheim-Rosenberg, b.München 7 Feb 1972; m.Seville 18 Sep 1999 Tatiana de Salinas y Harnden (b.Madrid 14 May 1975)
-		name=Cristobal
-		dynasty=1001506
-		religion=catholic culture=castillan
-		father=100200035	# Jaime Mendez de Vigo
-		mother=100002743	# Monika Maria v. Löwenstein-Wertheim
-		1972.02.07={birth=yes}
-	}
-		100100044={	# 1h) Jaime Mendez de Vigo y Salinas (b.23 Mar 2004)
-			name=Jaime
-			dynasty=1001506
-			religion=catholic culture=castillan
-			father=100100043	# Cristobal Mendez de Vigo
-			2004.03.23={birth=yes}
-		}
-		100100045={	# 2h) Pia Mendez de Vigo y Salinas (b.15 Nov 2005)
-			name=Pia
-			female=yes
-			dynasty=1001506
-			religion=catholic culture=castillan
-			father=100100043	# Cristobal Mendez de Vigo
-			2005.11.15={birth=yes}
-		}
-		100200046={	# 3h) Mateo Pablo Mendez de Vigo y Salinas (b.18 Nov 2008)
-			name="Mateo Pablo"
-			dynasty=1001506
-			religion=catholic culture=castillan
-			father=100100043	# Cristobal Mendez de Vigo
-			2008.11.18={birth=yes}
-		}
+			100126071={ # Manuel (1892-1938) %%
+				name=Manuel
+				dynasty=1001506
+				religion=catholic culture=castillan
+				father=100126070	# Manuel Mendez de Vigo
+				1892.01.01={birth=yes}
+				1938.01.01={death=yes}
+			}
+				100200035={ # Jaime (b.23 Nov 1933); m.22 Sep 1968 Monika Maria v. Löwenstein-Wertheim (b.28 Apr 1939) %%
+					name=Jaime
+					dynasty=1001506
+					religion=catholic culture=castillan
+					father=100126071	# Manuel Mendez de Vigo
+					1933.11.23={birth=yes}
+					1968.09.22={add_spouse=100002743}	# Monika Maria v. Löwenstein-Wertheim
+				}
+					100200036={	# 1g) Carlos Manuel Mendez de Vigo y Löwenstein-Wertheim-Rosenberg, b.München 27 Jul 1969; m.Strobl am Wolfgangsee 3 May 1997 Katharina Pss von Hohenberg (b.Vienna 9 Mar 1969)
+						name="Carlos Manuel"
+						dynasty=1001506
+						religion=catholic culture=castillan
+						father=100200035	# Jaime Mendez de Vigo
+						mother=100002743	# Monika Maria v. Löwenstein-Wertheim
+						1969.03.09={birth=yes}
+						1997.05.03={add_spouse=100021387}	# Katharina v. Hohenberg
+					}
+						100200037={	# 1h) Emanuel Cristobal Andreas Pedro Damian Maria Mendez de Vigo y Hohenberg, b.Bielefeld 21 Feb 1999
+							name=Emanuel
+							dynasty=1001506
+							religion=catholic culture=castillan
+							father=100200036	# Carlos Manuel Mendez de Vigo
+							mother=100021387	# Katharina v. Hohenberg
+							1999.02.21={birth=yes}
+						}
+						100200038={	# 2h) Fernando Javier Maximílian Alfonso María Méndez de Vigo y Hohenberg, b.New York 1 Aug 2000
+							name=Fernando
+							dynasty=1001506
+							religion=catholic culture=castillan
+							father=100200036	# Carlos Manuel Mendez de Vigo
+							mother=100021387	# Katharina v. Hohenberg
+							2000.08.01={birth=yes}
+						}
+						100100039={	# 3h) Livia Theresa Leticia Monika Maria Mendez de Vigo y Hohenberg (b.London 13 Apr 2002)
+							name=Livia
+							female=yes
+							dynasty=1001506
+							religion=catholic culture=castillan
+							father=100200036	# Carlos Manuel Mendez de Vigo
+							mother=100021387	# Katharina v. Hohenberg
+							2002.04.13={birth=yes}
+						}
+						100100040={	# 4h) Alfonso Mendez de Vigo y Hohenberg, b.London 9 Sep 2003
+							name=Alfonso
+							dynasty=1001506
+							religion=catholic culture=castillan
+							father=100200036	# Carlos Manuel Mendez de Vigo
+							mother=100021387	# Katharina v. Hohenberg
+							2003.09.09={birth=yes}
+						}
+						100100041={	# 5h) Clemente Mendez de Vigo y Hohenberg, b.2007
+							name=Clemente
+							dynasty=1001506
+							religion=catholic culture=castillan
+							father=100200036	# Carlos Manuel Mendez de Vigo
+							mother=100021387	# Katharina v. Hohenberg
+							2007.01.01={birth=yes}
+						}
+					100100042={	# 2g) Maria del Pilar Mendez de Vigo y Löwenstein-Wertheim-Rosenberg, b.München 20 Oct 1970; m.Bronnbach an der Tauber 20 Jan 2001 Paul Wladimir Duke of Oldenburg (b.Lübeck 16 Aug 1969)
+						name="Maria del Pilar"
+						female=yes
+						dynasty=1001506
+						religion=catholic culture=castillan
+						father=100200035	# Jaime Mendez de Vigo
+						mother=100002743	# Monika Maria v. Löwenstein-Wertheim
+						1970.10.20={birth=yes}
+					}
+					100100043={	# 3g) Cristobal Mendez de Vigo y Löwenstein-Wertheim-Rosenberg, b.München 7 Feb 1972; m.Seville 18 Sep 1999 Tatiana de Salinas y Harnden (b.Madrid 14 May 1975)
+						name=Cristobal
+						dynasty=1001506
+						religion=catholic culture=castillan
+						father=100200035	# Jaime Mendez de Vigo
+						mother=100002743	# Monika Maria v. Löwenstein-Wertheim
+						1972.02.07={birth=yes}
+					}
+						100100044={	# 1h) Jaime Mendez de Vigo y Salinas (b.23 Mar 2004)
+							name=Jaime
+							dynasty=1001506
+							religion=catholic culture=castillan
+							father=100100043	# Cristobal Mendez de Vigo
+							2004.03.23={birth=yes}
+						}
+						100100045={	# 2h) Pia Mendez de Vigo y Salinas (b.15 Nov 2005)
+							name=Pia
+							female=yes
+							dynasty=1001506
+							religion=catholic culture=castillan
+							father=100100043	# Cristobal Mendez de Vigo
+							2005.11.15={birth=yes}
+						}
+						100200046={	# 3h) Mateo Pablo Mendez de Vigo y Salinas (b.18 Nov 2008)
+							name="Mateo Pablo"
+							dynasty=1001506
+							religion=catholic culture=castillan
+							father=100100043	# Cristobal Mendez de Vigo
+							2008.11.18={birth=yes}
+						}
 ## Mendez de Vigo
