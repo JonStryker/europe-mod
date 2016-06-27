@@ -346,7 +346,7 @@
 		1821.02.27={death=yes}
 	}
 		100001458={# 1b) Marie Friederike (Hanau 14 Sep 1768-Hanau 17 Apr 1839); m.Kassel 29 Nov 1794 (div 1817) Alexis Pr von Anhalt-Bernburg (Ballenstedt 12 Jun 1767-Ballenstedt 24 Mar 1834)
-			name="Marie Friederike"
+			name=Friederike
 			female=yes
 			dynasty=1002103
 			religion=catholic culture=german
@@ -808,7 +808,7 @@
 								religion=lutheran culture=finnish
 								father=100001523	# Karl v. Hessen-Kassel
 								mother=100118679	# Yvonne Szapáry de Muraszombath, Széchysziget et Szapár
-								1969.08.15={birth=yes}
+								1971.04.01={birth=yes}
 							}
 						100001526={# 4f) Rainer Christoph Friedrich, b.Kronberg 18 Nov 1939
 							name=Rainer
@@ -919,30 +919,12 @@
 		1725.11.24={add_spouse=100007421}	# Karoline Christine v. Wettin
 		1770.05.08={death=yes}
 	}
-		100092225={ # Charlotte Amalie (Philippstal 11 Aug 1730-Meiningen 7 Sep 1801); m.26 Sep 1750 Anton Ulrich v. Wettin (Meiningen 22 Oct 1687-Frankfurt 27 Jan 1763) %%
-			name="Charlotte Amalie"
-			female=yes
-			dynasty=1002104
-			religion=catholic culture=german
-			father=100092224	# Karl v. Hessen-Philippsthal
-			mother=100007421	# Karoline Christine v. Wettin
-			1730.08.11={birth=yes}  # Philippstal
-			1801.09.07={death=yes}  # Meiningen
-		}
-	100108401={ # Wilhelm (1692-1761) %%
-		name=Wilhelm
-		dynasty=1002104
-		religion=lutheran culture=german
-		father=100108402	# Philipp v. Hessen-Philippsthal
-		mother=100006676	# Katharina Amalia von Solms-Laubach
-		1692.01.01={birth=yes}
-		1761.01.01={death=yes}
-	}
 		100008401={ # WILHELM, Landgf von Hessen-Philippsthal 8 May 1770 (Philippsthal 29 Aug 1726-Philippsthal 8 Aug 1810); m.Tournai 22 Jun 1755 Ulrike Landgfn von Hessen-Philippsthal-Barchfeld (Ypern 27 Apr 1732-Bückeburg 2 Feb 1795)
 			name=Wilhelm
 			dynasty=1002104
 			religion=lutheran culture=german
-			father=100108401	# Wilhelm v. Hessen-Philippsthal
+			father=100092224	# Karl v. Hessen-Philippsthal
+			mother=100007421	# Karoline Christine v. Wettin
 			1726.08.29={birth=yes}  # Philippsthal
 			1755.06.22={add_spouse=100008402}	# Ulrike v. Hessen-Philippsthal
 			1810.08.08={death=yes}  # Philippsthal
@@ -1054,6 +1036,43 @@
 						1853.02.03={birth=yes}  # Philippsthal
 						1916.09.03={death=yes}  # Jena
 					}
+		100092225={ # Charlotte Amalie (Philippstal 11 Aug 1730-Meiningen 7 Sep 1801); m.26 Sep 1750 Anton Ulrich v. Wettin (Meiningen 22 Oct 1687-Frankfurt 27 Jan 1763) %%
+			name="Charlotte Amalie"
+			female=yes
+			dynasty=1002104
+			religion=catholic culture=german
+			father=100092224	# Karl v. Hessen-Philippsthal
+			mother=100007421	# Karoline Christine v. Wettin
+			1730.08.11={birth=yes}  # Philippstal
+			1801.09.07={death=yes}  # Meiningen
+		}
+	100108401={ # Wilhelm (1692-1761) %%
+		name=Wilhelm
+		dynasty=1002104
+		religion=lutheran culture=german
+		father=100108402	# Philipp v. Hessen-Philippsthal
+		mother=100006676	# Katharina Amalia von Solms-Laubach
+		1692.01.01={birth=yes}
+		1761.01.01={death=yes}
+	}
+		100099323={ # Charlotte (Grave Gelderland 26 Apr 1725-Bückeburg 9 Jan 1798); m.19 Jun 1765 Albrecht August v. Isenburg (Wächtersbach 14 Apr 1717-Wächtersbach 25 Nov 1782) %%
+			name=Charlotte
+			female=yes
+			dynasty=1002104
+			religion=catholic culture=german
+			father=100108401	# Wilhelm v. Hessen-Philippsthal
+			1725.04.26={birth=yes}  # Grave Gelderland
+			1798.01.09={death=yes}  # Bückeburg
+		}
+		100099370={ # Friedrich (Grave 13 Feb 1727-Barchfeld 13 Nov 1777); m.15 Jan 1772 Sophie Henriette zu Salm (14 May 1740-20 Feb 1800) %%
+			name=Friedrich
+			dynasty=0
+			religion=catholic culture=german
+			father=100108401	# Wilhelm v. Hessen-Philippsthal
+			1727.02.13={birth=yes}  # Grave
+			1772.01.15={add_spouse=100004749}	# Sophie Henriette zu Salm
+			1777.11.13={death=yes}	# Barchfeld
+		}
 		100008402={ # Ulrike (Ypern 27 Apr 1732-Bückeburg 2 Feb 1795); m.22 Jun 1755 Wilhelm v. Hessen-Philippsthal (Philippsthal 29 Aug 1726-Philippsthal 8 Aug 1810) %%
 			name=Ulrike
 			female=yes
@@ -2254,6 +2273,8 @@
 		mother=100092540	# Magdalene Elisabeth von Leiningen-Westerburg
 		1625.11.13={birth=yes}
 		1650.04.21={add_spouse=100001638}	# Sofie Eleonore v. Hessen
+		1665.04.02={add_spouse=100000110}	# Anna Elisabeth
+		1672.01.01={remove_spouse=100000110}
 		1681.08.27={death=yes}
 	}
 		100092215={ # Christine Wilhelmine (Bingenheim 30 Mar 1653-Grabow 16 May 1722); m.28 May 1671 Friedrich v. Mecklenburg (13 Feb 1638-28 Apr 1688) %%
@@ -2449,6 +2470,369 @@
 				1777.05.02={death=yes}
 			}		
 ## V: HESSEN-HOMBURG
+
+
+## RHEINFELS-ROTENBURG
+100001504={ # Ernst Landgraf von Hessen-Rheinfels-Rotenburg, *Kassel 17.12.1623, +Köln 12.5.1693; 1m: Frankfurt 1647 Maria Eleonor Gfn von Solms-Lich (*6.12.1632 +2.8.1689); 2m: Rheinfels 1690 Alexandrine von Dürnizl (+Köln 1754)
+	name=Ernst
+	dynasty=1002115
+	religion=catholic culture=german
+	father=100001541	# Moritz v. Hessen-Kassel
+	mother=100037055	# Juliane v. Nassau-Siegen
+	1623.12.17={birth=yes}  # Kassel
+	1647.01.01={add_spouse=100007188}	# Marie Eleonore von Solms-Braunfels
+	1690.01.01={add_spouse=100093120}	# Alexandrine von Dürnizl
+	1693.05.12={death=yes}  # Köln
+}
+	100001542={ # A1. Wilhelm, *Kassel 5/15.5.1648, +Langenschwalbach 20.11.1725; m.Wertheim 21.2.1669 Gfn Marie Anna von Löwenstein-Wertheim-Rochefort (*Dusseldorf 8.6.1652, +Oberlahnstein 10.10.1688)
+		name=Wilhelm
+		dynasty=1002115
+		religion=catholic culture=german
+		father=100001504	# Ernst v. Hessen-Rheinfels-Rotenburg
+		mother=100007188	# Marie Eleonore von Solms-Braunfels
+		1648.05.05={birth=yes}
+		1669.02.21={add_spouse=100094205}	# GFN Marie Anna von Löwenstein-Wertheim-Rochefort
+		1725.11.20={death=yes}  # Langenschwalbach
+	}
+		100001699={ # B3. Marie Eleonore, *Rheinfels 15.9.1675, +Sulzbach 27.1.1720; m.Lobositz 9.6.1692 Theodor Pfgf von Sulzbach (*1659 +1732)
+			name="Marie Eleonore"
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001542	# Wilhelm v. Hessen-Rheinfels-Rotenburg
+			mother=100094205	# GFN Marie Anna von Löwenstein-Wertheim-Rochefort
+			1675.09.15={birth=yes}  # Rheinfels
+			1720.01.27={death=yes}  # Sulzbach
+		}
+		100001754={ # B8. Ernestine Aloysia, *Rheinfels 13/23.10.1681, +Frankfurt 23.9.1732; m.1719 Roberto, Cde de la Cerda de Villa Longa
+			name=Ernestine
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001542	# Wilhelm v. Hessen-Rheinfels-Rotenburg
+			mother=100094205	# GFN Marie Anna von Löwenstein-Wertheim-Rochefort
+			1681.10.13={birth=yes}
+			1732.09.23={death=yes}  # Frankfurt
+		}
+		100001701={ # B4. Elisabeth Katharina Felicitas, *Rheinfels 4/14.2.1677, +Diez an der Lahn 15.5.1739; 1m: Lobositz, Bohemia 18.10.1695 Franz Alexander Fst von Nassau-Hadamar (*1674, +1711); 2m: Nürnberg 6.9.1727 Gf Anton Ferdinand von Attems (*1694 +14.2.1738)
+			name="Elisabeth Katharina"
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001542	# Wilhelm v. Hessen-Rheinfels-Rotenburg
+			mother=100094205	# GFN Marie Anna von Löwenstein-Wertheim-Rochefort
+			1677.02.04={birth=yes}	# Rheinfels
+			1739.05.15={death=yes}  # Diez an der Lahn
+		}
+		100001545={ # B1. Ernst Leopold, *Langenschwalbach 15/25.6.1684, +Rotenburg 29.11.1749; m.Frankfurt 9.11.1704 Pss Eleonore zu Löwenstein-Wertheim-Rochefort (*1686, +Rotenburg 22.2.1753)
+			name=Ernst
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001542	# Wilhelm v. Hessen-Rheinfels-Rotenburg
+			mother=100094205	# GFN Marie Anna von Löwenstein-Wertheim-Rochefort
+			1684.06.15={birth=yes}
+			1704.11.09={add_spouse=100094206}	# PSS Eleonore zu Löwenstein-Wertheim-Rochefort
+			1749.11.29={death=yes}  # Rotenburg
+		}
+			100001548={ # C1. Josef, *Langenschwalbach 23.9.1705, +Rotenburg 24.6.1744; m.Anholt 9.3.1726 Pss Christine zu Salm-Neufville (*Anholt 29.4.1707, +Hoogstraeten 19.8.1775)
+				name=Josef
+				dynasty=1002115
+				religion=catholic culture=german
+				father=100001545	# Ernst v. Hessen-Rheinfels-Rotenburg
+				mother=100094206	# PSS Eleonore zu Löwenstein-Wertheim-Rochefort
+				1705.09.23={birth=yes}  # Langenschwalbach
+				1726.03.09={add_spouse=100004107}	# Christine zu Salm
+				1744.06.24={death=yes}  # Rotenburg
+			}
+				100001549={ # D2. Anna Viktoria, *Rotenburg 25.2.1728, +Paris 9.1.1792; 1m: Zabern 24.12.1745 Charles de Rohan, Pr de Soubise (*16.7.1715 +1.7.1787); 2m: 30.1.1795 Jean François Morel (+Paris 27.10.1810)
+					name="Anna Viktoria"
+					female=yes
+					dynasty=1002115
+					religion=catholic culture=german
+					father=100001548	# Josef v. Hessen-Rheinfels-Rotenburg
+					mother=100004107	# Christine zu Salm
+					1728.02.25={birth=yes}  # Rotenburg
+					1792.01.09={death=yes}  # Paris
+				}
+				100001550={ # D3. Maria Ludovika Eleonore, *Rotenburg 18.4.1729, +Anholt 6.1.1800; m.Hoogstraeten 16.3.1756 Fst Maximilian zu Salm-Salm (*1732 +1773)
+					name="Maria Ludovika"
+					female=yes
+					dynasty=1002115
+					religion=catholic culture=german
+					father=100001548	# Josef v. Hessen-Rheinfels-Rotenburg
+					mother=100004107	# Christine zu Salm
+					1729.04.18={birth=yes}  # Rotenburg
+					1800.01.06={death=yes}  # Anholt
+				}
+			100001648={ # C5. Polyxena Christina Johannetta, *Langenschwalbach 21.9.1706, +Turin 13.1.1735; m.Thorn 20.8.1724 King Charles Emanuel of Sardinia (*1701 +1773)
+				name="Polyxena Christina"
+				female=yes
+				dynasty=1002115
+				religion=catholic culture=german
+				father=100001545	# Ernst v. Hessen-Rheinfels-Rotenburg
+				mother=100094206	# PSS Eleonore zu Löwenstein-Wertheim-Rochefort
+				1706.09.21={birth=yes}  # Langenschwalbach
+				1735.01.13={death=yes}  # Turin
+			}
+			100001551={ # C3. Franciscus Alexander, *Langenschwalbach 7.12.1710, +k.a.Grotzka, Serbia 22.7.1739
+				name="Franciscus Alexander"
+				dynasty=1002115
+				religion=catholic culture=german
+				father=100001545	# Ernst v. Hessen-Rheinfels-Rotenburg
+				mother=100094206	# PSS Eleonore zu Löwenstein-Wertheim-Rochefort
+				1710.12.07={birth=yes}  # Langenschwalbach
+				1739.07.22={death=yes}  # Grotzka Serbia
+			}
+			100001649={ # C8. Eleonore Philippina Christina Sophie, *Rotenburg 17.10.1712, +Neuburg an der Donau 23.5.1759; m.Mannheim 25.1.1731 Johann Christian Pfgf von Sulzbach (*1700, +1733)
+				name=Eleonore
+				female=yes
+				dynasty=1002115
+				religion=catholic culture=german
+				father=100001545	# Ernst v. Hessen-Rheinfels-Rotenburg
+				mother=100094206	# PSS Eleonore zu Löwenstein-Wertheim-Rochefort
+				1712.10.17={birth=yes}  # Rotenburg
+				1759.05.23={death=yes}  # Neuburg_an_der_Donau
+			}
+			100001696={ # C9. Karoline, *Rotenburg 18.8.1714, +Paris 14.6.1741; m.Sarri, nr Châlons 22.7.1728 Louis Henri, Pr de Conde (*1692 +1740)
+				name=Karoline
+				female=yes
+				dynasty=1002115
+				religion=catholic culture=german
+				father=100001545	# Ernst v. Hessen-Rheinfels-Rotenburg
+				mother=100094206	# PSS Eleonore zu Löwenstein-Wertheim-Rochefort
+				1714.08.18={birth=yes}  # Rotenburg
+				1741.06.14={death=yes}  # Paris
+			}
+			100001635={ # C4. Konstantin, *Rotenburg 24.5.1716, +Schloß Wildeckbei Rotenburg 30.12.1778; 1m: Brühl 25.8.1745 Gfn Sofie von Starhemberg (*London 17/28.10.1722, +Strassburg 12.12.1773); 2m: Rotenburg 27.5.1775 Marie Jeannette de Bombelles (*Bitsch 22.10.1751, +Ancy-le-Frame 28.11.1822)
+				name=Konstantin
+				dynasty=1002115
+				religion=catholic culture=german
+				father=100001545	# Ernst v. Hessen-Rheinfels-Rotenburg
+				mother=100094206	# PSS Eleonore zu Löwenstein-Wertheim-Rochefort
+				1716.05.24={birth=yes}  # Rotenburg
+				1745.08.25={add_spouse=100094211}	# GFN Sofie von Starhemberg
+				1775.01.01={remove_spouse=100094211}
+				1775.05.27={add_spouse=100094212}	# Marie Jeannette de Bombelles
+				1778.12.30={death=yes}  # Schloß Wildeckbei Rotenburg
+			}
+				100001636={ # D1. Karl Emanuel, *Langenschwalbach 5.6.1746, +Frankfurt 23.3.1812; m.Schloß Felsberg 1.9.1771 Pss Leopoldine von Liechtenstein (*30.1.1754 +16.10.1823)
+					name="Karl Emanuel"
+					dynasty=1002115
+					religion=catholic culture=german
+					father=100001635	# Konstantin v. Hessen-Rheinfels-Rotenburg
+					mother=100094211	# GFN Sofie von Starhemberg
+					1746.06.05={birth=yes}  # Langenschwalbach
+					1771.09.01={add_spouse=100022705}	# Leopoldina v. Liechtenstein
+					1812.03.23={death=yes}  # Frankfurt
+				}
+					100001641={ # E1. Viktor Amadeus Ldgf von Hessen-Rheinfels-Rotenburg, Hg von Ratibor and Corvey, *Rotenburg 2.9.1779, +Schloß Zembowitz 12.11.1834; 1m: Praha 20.10.1799 Pss Leopoldine von Fürstenberg (*10.4.1781, +Praha 7.6.1806); 2m: Langenburg 10.9.1812 Pss Elisabeth zu Hohenlohe-Langenburg (*Langenburg 22.11.1790, +Holitsch 6.10.1830); 3m: Gerlachsheim 19.11.1831 Pss Eleonore zu Salm-Reifferscheidt-Krautheim (*Heubach 13.7.1799, +Raitz 10.11.1851)
+						name="Viktor Amadeus"
+						dynasty=1002115
+						religion=catholic culture=german
+						father=100001636	# Karl Emanuel v. Hessen-Rheinfels-Rotenburg
+						mother=100022705	# Leopoldina v. Liechtenstein
+						1779.09.02={birth=yes}  # Rotenburg
+						1799.10.20={add_spouse=100094215}	# PSS Leopoldine von Fürstenberg
+						1812.09.10={add_spouse=100001705}	# Elise Eleonore zu Hohenlohe-Langenburg
+						1831.11.19={add_spouse=100004096}	# Eleonore zu Salm-Reifferscheidt
+						1834.11.12={death=yes}  # Schloß Zembowitz
+					}
+					100001642={ # E2. Marie Adelheid Klotilde, *Rotenburg 12.9.1787, +Mannheim 6.1.1869; m.Wildeck 9.9.1811 Karl August Fst zu Hohenlohe-Bartenstein (*1788 +1844)
+						name=Klotilde
+						female=yes
+						dynasty=1002115
+						religion=catholic culture=german
+						father=100001636	# Karl Emanuel v. Hessen-Rheinfels-Rotenburg
+						mother=100022705	# Leopoldina v. Liechtenstein
+						1787.09.12={birth=yes}  # Rotenburg
+						1869.01.06={death=yes}  # Mannheim
+					}
+				100001645={ # D6. Klementine Franziska Ernestina Leopoldina, Abbess in Süsteren, *Rotenburg 5.6.1747, +Verdun 6.7.1813
+					name=Klementine
+					female=yes
+					dynasty=1002115
+					religion=catholic culture=german
+					father=100001635	# Konstantin v. Hessen-Rheinfels-Rotenburg
+					mother=100094211	# GFN Sofie von Starhemberg
+					1747.06.05={birth=yes}  # Rotenburg
+					1813.07.06={death=yes}  # Verdun
+				}
+				100001646={ # D7. Maria Hedwig Eleonora, *Rotenburg 26.6.1748, +Paris 25.7.1801; m.Carlsbourg 17.7.1766 Jacques Leopold de la Tour d'Auvergne, Pr de Bouillon (*15.1.1746 +7.2.1802)
+					name=Maria
+					female=yes
+					dynasty=1002115
+					religion=catholic culture=german
+					father=100001635	# Konstantin v. Hessen-Rheinfels-Rotenburg
+					mother=100094211	# GFN Sofie von Starhemberg
+					1748.06.26={birth=yes}  # Rotenburg
+					1801.07.25={death=yes}  # Paris
+				}
+				100001643={ # D4. Karl, *Rotenburg 10.1.1752, +Frankfurt 19.5.1821
+					name=Karl
+					dynasty=1002115
+					religion=catholic culture=german
+					father=100001635	# Konstantin v. Hessen-Rheinfels-Rotenburg
+					mother=100094211	# GFN Sofie von Starhemberg
+					1752.01.10={birth=yes}  # Rotenburg
+					1821.05.19={death=yes}  # Frankfurt
+				}
+				100001647={ # D8. Maria Antonie Friederica Josepha, *Rotenburg 31.3.1753, +Rotenburg 3.9.1823
+					name=Maria
+					female=yes
+					dynasty=1002115
+					religion=catholic culture=german
+					father=100001635	# Konstantin v. Hessen-Rheinfels-Rotenburg
+					mother=100094211	# GFN Sofie von Starhemberg
+					1753.03.31={birth=yes}  # Rotenburg
+					1823.09.03={death=yes}  # Rotenburg
+				}
+				100001644={ # D5. Ernst, *Rotenburg 28.9.1758, +k.a.in Caucasus 27.10.1784; m.Burgsteinfurt 22.11.1781 Christine von Bardeleben (*Kassel 2.5.1765, +Darmstadt 20.1.1835)
+					name=Ernst
+					dynasty=1002115
+					religion=catholic culture=german
+					father=100001635	# Konstantin v. Hessen-Rheinfels-Rotenburg
+					mother=100094211	# GFN Sofie von Starhemberg
+					1758.09.28={birth=yes}  # Rotenburg
+					1781.11.22={add_spouse=100094617}	# Christine von Bardeleben
+					1784.10.27={death=yes}  # in Caucasus
+				}
+			100001698={ # C10. Christine Henriette, *Rotenburg 21.11.1717, +Turin 1.9.1778; m.Turin 4.5.1740 Pr Louis Victor di Savoia-Carignano (*1721 +1778)
+				name="Christine Henriette"
+				female=yes
+				dynasty=1002115
+				religion=catholic culture=german
+				father=100001545	# Ernst v. Hessen-Rheinfels-Rotenburg
+				mother=100094206	# PSS Eleonore zu Löwenstein-Wertheim-Rochefort
+				1717.11.21={birth=yes}  # Rotenburg
+				1778.09.01={death=yes}  # Turin
+			}
+	100001756={ # A2. Karl Ldgf von Hessen-Wanfried, *Rheinfels 24.7.1649, +Langenschwalbach 3.3.1711; 1m: Bedburg 24.1.1669 Sofie Magdalene Gfn zu Salm-Reifferscheidt (*Bedburg 17.6.1649, +Venice 4.4.1675); 2m: Vöhl 4.6.1678 Alexandrine Juliane Gfn von Leiningen-Dagsburg (*Heidesheim 21.8.1651, +Wanfried 19.4.1703)
+		name=Karl
+		dynasty=1002115
+		religion=catholic culture=german
+		father=100001504	# Ernst v. Hessen-Rheinfels-Rotenburg
+		mother=100007188	# Marie Eleonore von Solms-Braunfels
+		1649.07.24={birth=yes}  # Rheinfels
+		1669.01.24={add_spouse=100004063}	# Sophie Magdalena zu Salm-Reifferscheidt
+		1678.06.04={add_spouse=100099315}	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+		1711.03.03={death=yes}  # Langenschwalbach
+	}
+		100001763={ # B8. [1m.] Marie Eleonore Anna, *Rheinfels 3/13.10.1670, +Langenschwalbach 10.2.1671
+			name=Marie
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100004063	# Sophie Magdalena zu Salm-Reifferscheidt
+			1671.02.10={birth=yes}
+			1746.01.01={death=yes}  # Langenschwalbach
+		}
+		100001758={ # B3. [1m.] Friedrich, *Wanfried 24.5.1673, +nr Mohacs 25.10.1692
+			name=Friedrich
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100004063	# Sophie Magdalena zu Salm-Reifferscheidt
+			1673.05.24={birth=yes}  # Wanfried
+			1692.10.25={death=yes}  # nr Mohacs
+		}
+		100001761={ # B4. [1m.] Philipp, *12.6.1674, +Cambiano, nr Turin 28.8.1694
+			name=Philipp
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100004063	# Sophie Magdalena zu Salm-Reifferscheidt
+			1674.06.12={birth=yes}
+			1694.08.28={death=yes}  # Cambiano nr Turin
+		}
+		100001786={ # B9. [2m.] Charlotte Amalie, *Kassel 26.2.1679, +Paris 18.2.1722; m.Köln 15.9.1694 Ferenc II Rákóczi, Fürst von Siebenbürgen (*27.3.1676 +8.4.1735)
+			name="Charlotte Amalie"
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100099315	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+			1679.02.26={birth=yes}  # Kassel
+			1722.02.18={death=yes}  # Paris
+		}
+		100001983={ # B10. [2m.] Sofie Leopoldine, *Wanfried 17.7.1681, +Wetzlar 18.4.1724; m.Kl.Altenburg 12.6.1700 Philipp Karl Gf von Hohenlohe-Bartenstein (*1668 +1729)
+			name="Sofie Leopoldine"
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100099315	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+			1681.07.17={birth=yes}  # Wanfried
+			1724.04.18={death=yes}  # Wetzlar
+		}
+		100002047={ # B11. [2m.] Marie Anna Johanna Ludovica, *Wanfried 8.1.1685, +Erfurt 11.6.1764; m.Erfurt 15.7.1703 Daniel von Ingenheim (*1666 +Erfurt 22.1.1723)
+			name=Marie
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100099315	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+			1685.01.08={birth=yes}  # Wanfried
+			1764.06.11={death=yes}  # Erfurt
+		}
+		100002048={ # B13. [2m.] Christine Franziska Polyxena, *Wanfried 23.5.1688, +Kleinheubach 17.7.1728; m.Rotenburg 28.2.1712 Fürst Dominikus Marquard zu Löwenstein-Wertheim (*1690 +1735)
+			name=Christine
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100099315	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+			1688.05.23={birth=yes}  # Wanfried
+			1728.07.17={death=yes}  # Kleinheubach
+		}
+		100001762={ # B7. [2m.] Christian, *Wanfried 1.VII.1689, +Eschwege 21.10.1755; m.Nürnberg 11.8.1731 Marie Franziska Gfn von Hohenlohe-Bartenstein (*Bartenstein 17.8.1698, +Frankfurt 11.12.1757)
+			name=Christian
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100099315	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+			1689.07.01={birth=yes}  # Wanfried
+			1731.08.11={add_spouse=100099332}	# GFN Marie Franziska zu Hohenlohe-Bartenstein
+			1755.10.21={death=yes}  # Eschwege
+		}
+		100002084={ # B14. [2m.] Juliane Elisabeth Anna Luise, *Wanfried 20.10.1690, +Stirum 13.6.1724; m.1718 Christian Otto Gf von Limburg-Stirum (*1694 +1749)
+			name=Juliane
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100099315	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+			1690.10.20={birth=yes}  # Wanfried
+			1724.06.13={death=yes}  # Stirum
+		}
+		100002088={ # B15. [2m.] Eleonora Bernhardine Franziska Barbara, *21.2.1695, +Wetzlar 14.8.1768; m.1.VI.1717 Hermann Friedrich Gf von Bentheim-Steinfurt (*1693 +1731)
+			name=Eleonora
+			female=yes
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100099315	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+			1695.02.21={birth=yes}
+			1768.08.14={death=yes}  # Wetzlar
+		}
+		100001757={ # B2. [1m.] Wilhelm, *Langenschwalbach 6/16.8.1671, +Rheinfels 1.4.1731; m.Sulzbach 19.9.1719 Ernestine Elisabeth Pfgfn von Sulzbach (*Sulzbach 15.5.1697, +Marburg 14.4.1775)
+			name=Wilhelm
+			dynasty=1002115
+			religion=catholic culture=german
+			father=100001756	# Karl v. Hessen-Rheinfels-Rotenburg
+			mother=100099315	# GFN Alexandrine Juliane von Leiningen-Dagsburg
+			1671.06.01={birth=yes}
+			1719.09.19={add_spouse=100007728}	# Ernestine Elisabeth v. Wittelsbach
+			1731.04.01={death=yes}  # Rheinfels
+		}
+	
+#1653.12.17={holder=100001504} # Ernst Landgraf von Hessen-Rheinfels-Rotenburg
+#1693.05.12={holder=100001756} # A2. Karl Ldgf von Hessen-Wanfried
+#1711.03.03={holder=100001762} # B7. [2m.] Christian
+#1755.10.21={holder=100001757} # B2. [1m.] Wilhelm
+#1806.01.01={holder=100001545} # B1. Ernst Leopold
+#1824.01.01={holder=100001641} # E1. Viktor Amadeus Ldgf von Hessen-Rheinfels-Rotenburg
+## RHEINFELS-ROTENBURG
 
 
 # von Hanau-Hor'ovice (Hessen)
