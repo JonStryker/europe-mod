@@ -38,6 +38,14 @@
 	1715.09.25={birth=yes}  # Schaumburg
 	1792.02.04={death=yes}  # Schaumburg
 }
+100008256={ # Pss    	 Sophie Charlotte 		   von Anhalt-Bernburg-Schaumburg-Hoym		(1743-1781)
+	name="Sophie Charlotte von Anhalt-Bernburg-Schaumburg-Hoym"
+	female=yes
+	dynasty=1002089
+	religion=catholic culture=german
+	1743.04.03={birth=yes}  # Schloß Schaumburg
+	1781.10.05={death=yes}  # Birstein
+}
 100095426={ # Pss        Johanna Charlotte         von Anhalt-Dessau                        (1682-1750)     3
 	name="Johanna Charlotte von Anhalt-Dessau"
 	female=yes
@@ -51,7 +59,7 @@
 	dynasty=0
 	religion=catholic culture=german
 	1694.11.29={birth=yes}
-	1721.12.11={add_spouse=100000398}	# Friederike Henriette
+	1721.12.11={add_spouse=100000398}	# Friederike Henriette von Anhalt-Bernburg
 	1725.06.27={add_spouse=100037091}	# Charlotte Friederike v. Nassau-Siegen
 	1728.11.19={death=yes}
 }
@@ -165,7 +173,7 @@
 	dynasty=0
 	religion=catholic culture=german
 	1734.08.08={birth=yes}
-	1764.05.27={add_spouse=100000393}	# Friederike
+	1764.05.27={add_spouse=100000393}	# Friederike von Anhalt-Bernburg
 	1793.03.03={death=yes}
 }
 100094145={ # Duke       Johann                    von Sachsen-Lauenburg                    (1439-1507)
@@ -208,7 +216,6 @@
 	1407.01.01={birth=yes}
 	1465.10.10={death=yes}  # Bayreuth
 }
-
 
 ### EARLY
 100000054={	# E1. Fst Bernhard V, +1415; m.Elisabeth von Hohnstein (+1426)
@@ -360,25 +367,25 @@
 	dynasty=1002119
 	religion=catholic culture=german
 	1510.01.01={birth=yes}
-	1540.02.08={add_spouse=100007541}	# Sibylle von Sachsen-Freiberg
+	1540.02.08={add_spouse=100007541}	# Sibylla v. Wettin
 	1581.03.19={death=yes}  # Buxtehude
 }
 	100000019={ # A2. Duke Magnus II of Saxe-Lauenburg, *1543, +Ratzeburg 14.5.1603; m.Stockholm 4.7.1568 Pss Sofie of Sweden (*29.10.1547 +17.3.1611)
 		name=Magnus
 		dynasty=1002119
 		religion=catholic culture=german
-		father=100000018	# Franz
-		mother=100007541	# Sibylle von Sachsen-Freiberg
+		father=100000018	# Franz von Sachsen-Lauenburg
+		mother=100007541	# Sibylla v. Wettin
 		1543.01.01={birth=yes}
-		1568.07.04={add_spouse=100012314}	# Sofie of Sweden
+		1568.07.04={add_spouse=100012314}	# Sophie Vasa
 		1603.05.14={death=yes}  # Ratzeburg
 	}
 		100000024={ # B2. Gustav, *Schloss Västeraas 31.8.1570, +Stockholm 11.11.1597
 			name=Gustav
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000019	# Magnus
-			mother=100012314	# Sofie of Sweden
+			father=100000019	# Magnus von Sachsen-Lauenburg
+			mother=100012314	# Sophie Vasa
 			1570.08.31={birth=yes}  # Schloss Västeraas
 			1597.11.11={death=yes}  # Stockholm
 		}
@@ -387,8 +394,8 @@
 		female=yes
 		dynasty=1002119
 		religion=catholic culture=german
-		father=100000018	# Franz
-		mother=100007541	# Sibylle von Sachsen-Freiberg
+		father=100000018	# Franz von Sachsen-Lauenburg
+		mother=100007541	# Sibylla v. Wettin
 		1543.03.11={birth=yes}  # Lüneburg
 		1586.04.05={death=yes}  # Herzberg
 	}
@@ -396,10 +403,10 @@
 		name=Franz
 		dynasty=1002119
 		religion=catholic culture=german
-		father=100000018	# Franz
-		mother=100007541	# Sibylle von Sachsen-Freiberg
+		father=100000018	# Franz von Sachsen-Lauenburg
+		mother=100007541	# Sibylla v. Wettin
 		1547.08.10={birth=yes}  # Ratzeburg
-		1574.12.26={add_spouse=100090546}	# Margarete of Pomerania
+		1574.12.26={add_spouse=100090546}	# Margarete von Pommern
 		1582.11.10={add_spouse=100092158}	# Marie von Braunschweig-Wolfenbüttel
 		1619.07.02={death=yes}  # Lauenburg
 	}
@@ -407,11 +414,11 @@
 			name=August
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
-			mother=100090546	# Margarete of Pomerania
+			father=100000031	# Franz von Sachsen-Lauenburg
+			mother=100090546	# Margarete von Pommern
 			1577.02.17={birth=yes}  # Ratzeburg
-			1621.03.05={add_spouse=100005821}	# Elisabeth Sofie von Holstein-Gottorp
-			1633.06.04={add_spouse=100094144}	# Katharina von Oldenburg
+			1621.03.05={add_spouse=100005821}	# Elisabeth Sophie v. Oldenburg-Gottorf
+			1633.06.04={add_spouse=100094144}	# GFN Katharina von Oldenburg
 			1656.01.18={death=yes}  # Lauenburg
 		}
 			100000110={ # C5. Anna Elisabeth, *23.8.1624, +Philippeck 27.5.1688; m.Lübeck 2.4.1665 (div 1672) Ldgve Wilhelm Christof von Hesse-Homburg (*1625 +1681)
@@ -419,8 +426,8 @@
 				female=yes
 				dynasty=1002119
 				religion=catholic culture=german
-				father=100000066	# August
-				mother=100005821	# Elisabeth Sofie von Holstein-Gottorp
+				father=100000066	# August von Sachsen-Lauenburg
+				mother=100005821	# Elisabeth Sophie v. Oldenburg-Gottorf
 				1624.08.23={birth=yes}
 				1688.05.27={death=yes}  # Philippeck
 			}
@@ -429,8 +436,8 @@
 				female=yes
 				dynasty=1002119
 				religion=catholic culture=german
-				father=100000066	# August
-				mother=100005821	# Elisabeth Sofie von Holstein-Gottorp
+				father=100000066	# August von Sachsen-Lauenburg
+				mother=100005821	# Elisabeth Sophie v. Oldenburg-Gottorf
 				1625.07.30={birth=yes}
 				1703.08.01={death=yes}  # Ratzeburg
 			}
@@ -438,8 +445,8 @@
 				name="Johann Adolf"
 				dynasty=1002119
 				religion=catholic culture=german
-				father=100000066	# August
-				mother=100005821	# Elisabeth Sofie von Holstein-Gottorp
+				father=100000066	# August von Sachsen-Lauenburg
+				mother=100005821	# Elisabeth Sophie v. Oldenburg-Gottorf
 				1626.10.22={birth=yes}
 				1646.04.23={death=yes}  # Ratzeburg
 			}
@@ -447,8 +454,8 @@
 			name=Philipp
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
-			mother=100090546	# Margarete of Pomerania
+			father=100000031	# Franz von Sachsen-Lauenburg
+			mother=100090546	# Margarete von Pommern
 			1578.08.17={birth=yes}  # Ratzeburg
 			1605.04.18={death=yes}  # Lauenburg
 		}
@@ -457,8 +464,8 @@
 			female=yes
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
-			mother=100090546	# Margarete of Pomerania
+			father=100000031	# Franz von Sachsen-Lauenburg
+			mother=100090546	# Margarete von Pommern
 			1580.04.18={birth=yes}  # Ratzeburg
 			1611.04.18={death=yes}
 		}
@@ -466,30 +473,30 @@
 			name="Franz Julius"
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1584.09.13={birth=yes}
-			1620.05.14={add_spouse=100094156}	# Agnes von Württemberg
+			1620.05.14={add_spouse=100094156}	# DSS Agnes von Württemberg
 			1634.10.08={death=yes}  # Vienna
 		}
 		100000162={ # B4. [2m.] Duke Julius Heinrich, of Saxe-Lauenburg, *Wolfenbüttel 9.4.1586, +Prague 20.11.1665; 1m: Grabow 7.3.1617 Anna von Ostfriesland (*26.6.1562 +21.4.1621); 2m: Theusing 27.2.1628 Pss Elisabeth Sofie von Brandenburg (*Berlin 13.7.1589, +Frankfurt 24.12.1629); 3m: Vienna 18.8.1632 Anna Magdalene, Frn von Lobkowitz (+7.9.1668)
 			name="Julius Heinrich"
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1586.04.09={birth=yes}  # Wolfenbüttel
-			1617.03.07={add_spouse=100094159}	# Anna von Ostfriesland
-			1628.02.27={add_spouse=100002639}	# Elisabeth Sofie von Brandenburg
-			1632.08.18={add_spouse=100094210}	# Anna Magdalene von Lobkowitz
+			1617.03.07={add_spouse=100081510}	# Anna Cirksena
+			1628.02.27={add_spouse=100002639}	# Elisabeth Sophie v. Hohenzollern
+			1632.08.18={add_spouse=100094210}	# FRN Anna Magdalene von Lobkowicz
 			1665.11.20={death=yes}  # Prague
 		}
 			100000163={ # C1. [2m.] Duke Franz Erdmann, of Saxe-Lauenburg, *Theusing 25.2.1629, +Schwarzenbek 30.7.1666; m.1653/54 Sibylle Hedwig von Sachsen-Lauenburg (*30.7.1625 +1.8.1703)
 				name="Franz Erdmann"
 				dynasty=1002119
 				religion=catholic culture=german
-				father=100000162	# Julius Heinrich
-				mother=100002639	# Elisabeth Sofie von Brandenburg
+				father=100000162	# Julius Heinrich von Sachsen-Lauenburg
+				mother=100002639	# Elisabeth Sophie v. Hohenzollern
 				1629.02.25={birth=yes}  # Theusing
 				1653.01.01={add_spouse=100000138}	# Sibylle Hedwig von Sachsen-Lauenburg
 				1666.07.30={death=yes}  # Schwarzenbek
@@ -499,8 +506,8 @@
 				female=yes
 				dynasty=1002119
 				religion=catholic culture=german
-				father=100000162	# Julius Heinrich
-				mother=100094210	# Anna Magdalene von Lobkowitz
+				father=100000162	# Julius Heinrich von Sachsen-Lauenburg
+				mother=100094210	# FRN Anna Magdalene von Lobkowicz
 				1635.07.10={birth=yes}  # Regensburg
 				1701.12.01={death=yes}  # Vienna
 			}
@@ -508,10 +515,10 @@
 				name="Julius Franz"
 				dynasty=1002119
 				religion=catholic culture=bohemian
-				father=100000162	# Julius Heinrich
-				mother=100094210	# Anna Magdalene von Lobkowitz
+				father=100000162	# Julius Heinrich von Sachsen-Lauenburg
+				mother=100094210	# FRN Anna Magdalene von Lobkowicz
 				1641.09.16={birth=yes}  # Prague
-				1668.04.09={add_spouse=100007724}	# Hedwig von Sulzbach
+				1668.04.09={add_spouse=100007724}	# Hedwig v. Wittelsbach
 				1689.09.30={death=yes}  # Reichstadt
 			}
 				100000165={ # D2. Anna Marie Franziska, *Neuhaus an der Elbe 13.6.1672, +Reichstadt 15.10.1741; 1m: Raudnitz 29.10.1690 Philipp Wilhelm, Pfgf von Neuburg (*1668 +1693); 2m: Düsseldorf 2.7.1697 Giovanni di Medici (*1671 +Florence 9.7.1737)
@@ -519,8 +526,8 @@
 					female=yes
 					dynasty=1002119
 					religion=catholic culture=german
-					father=100000164	# Julius Franz
-					mother=100007724	# Hedwig von Sulzbach
+					father=100000164	# Julius Franz von Sachsen-Lauenburg
+					mother=100007724	# Hedwig v. Wittelsbach
 					1672.06.13={birth=yes}
 					1741.10.15={death=yes}  # Reichstadt
 				}
@@ -529,8 +536,8 @@
 					female=yes
 					dynasty=1002119
 					religion=catholic culture=german
-					father=100000164	# Julius Franz
-					mother=100007724	# Hedwig von Sulzbach
+					father=100000164	# Julius Franz von Sachsen-Lauenburg
+					mother=100007724	# Hedwig v. Wittelsbach
 					1675.01.21={birth=yes}  # Ratzeburg
 					1733.07.10={death=yes}  # Ettlingen
 				}
@@ -538,7 +545,7 @@
 			name="Ernst Ludwig"
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1587.06.07={birth=yes}
 			1620.07.15={death=yes}  # Aschau
@@ -548,7 +555,7 @@
 			female=yes
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1588.10.15={birth=yes}
 			1635.06.04={death=yes}
@@ -558,7 +565,7 @@
 			female=yes
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1589.12.26={birth=yes}
 			1630.12.01={death=yes}  # Norburg
@@ -567,7 +574,7 @@
 			name="Joachim Sigismund"
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1593.05.31={birth=yes}
 			1629.04.10={death=yes}
@@ -576,19 +583,19 @@
 			name="Franz Karl"
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1594.05.02={birth=yes}
-			1628.09.19={add_spouse=100002621}	# Agnes von Brandenburg
-			1639.08.27={add_spouse=100002354}	# Katharina von Brandenburg
-			1650.02.09={add_spouse=100095843}	# Christine Elisabeth von Meggau
+			1628.09.19={add_spouse=100002621}	# Agnes v. Hohenzollern
+			1639.08.27={add_spouse=100002354}	# Katharine v. Hohenzollern
+			1650.02.09={add_spouse=100095843}	# GFN Christine Elisabeth von Meggau
 			1660.11.30={death=yes}  # Neuhaus
 		}
 		100000171={ # B8. [2m.] Rudolf Maximilian, *18.6.1596, +Lübeck 1.10.1647; m.Anna Caterina de Dulcina
 			name="Rudolf Maximilian"
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1596.06.18={birth=yes}
 			1621.01.01={add_spouse=100095855}	# Anna Caterina de Dulcina
@@ -599,7 +606,7 @@
 			female=yes
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1597.08.07={birth=yes}
 			1644.08.29={death=yes}
@@ -608,10 +615,10 @@
 			name="Franz Albrecht"
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1598.10.31={birth=yes}
-			1640.02.21={add_spouse=100002938}	# Christine Margarete of Mecklenburg-Güstrow
+			1640.02.21={add_spouse=100002938}	# Christine Margarete v. Mecklenburg
 			1642.06.10={death=yes}  # Schweidnitz
 		}
 		100000321={ # B18. [2m.] Sofie Hedwig, *Lauenburg 24.5.1601, +Glücksburg 21.2.1660; m.Neuhaus 23.5.1624 Duke Philipp von Holstein-Glücksburg (*1584 +1663)
@@ -619,7 +626,7 @@
 			female=yes
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1601.05.24={birth=yes}  # Lauenburg
 			1660.02.21={death=yes}  # Glücksburg
@@ -628,10 +635,10 @@
 			name="Franz Heinrich"
 			dynasty=1002119
 			religion=catholic culture=german
-			father=100000031	# Franz
+			father=100000031	# Franz von Sachsen-Lauenburg
 			mother=100092158	# Marie von Braunschweig-Wolfenbüttel
 			1604.04.09={birth=yes}
-			1637.12.13={add_spouse=100037101}	# Marie Juliane von Nassau-Siegen
+			1637.12.13={add_spouse=100037101}	# Marie Juliane v. Nassau-Siegen
 			1658.11.26={death=yes}
 		}
 			100000174={ # C5. Erdmuthe Sofie, *5.6.1644, +Billwerder 22.8.1689; m.31.10.1665 Duke Gustav Rudolf of Mecklenburg-Schwerin (*26.2.1632 +14.5.1670)
@@ -639,8 +646,8 @@
 				female=yes
 				dynasty=1002119
 				religion=catholic culture=german
-				father=100000173	# Franz Heinrich
-				mother=100037101	# Marie Juliane von Nassau-Siegen
+				father=100000173	# Franz Heinrich von Sachsen-Lauenburg
+				mother=100037101	# Marie Juliane v. Nassau-Siegen
 				1644.06.05={birth=yes}
 				1689.08.22={death=yes}  # Billwerder
 			}
@@ -649,8 +656,8 @@
 				female=yes
 				dynasty=1002119
 				religion=catholic culture=german
-				father=100000173	# Franz Heinrich
-				mother=100037101	# Marie Juliane von Nassau-Siegen
+				father=100000173	# Franz Heinrich von Sachsen-Lauenburg
+				mother=100037101	# Marie Juliane v. Nassau-Siegen
 				1646.08.08={birth=yes}  # Marienfliess
 				1709.01.26={death=yes}  # Franzhagen
 			}
@@ -658,18 +665,18 @@
 					name="Carl Siegmund"
 					dynasty=1002119
 					religion=catholic culture=german
-					father=100000247	# Eleonore Charlotte
-					mother=100000247	# Eleonore Charlotte
+					father=100000247	# Eleonore Charlotte von Sachsen-Lauenburg
+					mother=100000247	# Eleonore Charlotte von Sachsen-Lauenburg
 					1675.07.18={birth=yes}  # Meissen
-					1716.09.24={add_spouse=100098727}	# Magdalena Franziska Schmidt von Kirchenberg
+					1716.09.24={add_spouse=100098727}	# FRN Magdalena Franziska Schmidt von Kirchenberg
 					1760.09.01={death=yes}  # Altenburg
 				}
 	100000322={ # A5. Moritz, *1551, +Buxtehude 2.11.1612; m.25.11.1581 (div 1582) Katharine von Spörck
 		name=Moritz
 		dynasty=1002119
 		religion=catholic culture=german
-		father=100000018	# Franz
-		mother=100007541	# Sibylle von Sachsen-Freiberg
+		father=100000018	# Franz von Sachsen-Lauenburg
+		mother=100007541	# Sibylla v. Wettin
 		1551.01.01={birth=yes}
 		1581.11.25={add_spouse=100099095}	# Katharine von Spörck
 		1582.01.01={remove_spouse=100099095}
@@ -680,8 +687,8 @@
 		female=yes
 		dynasty=1002119
 		religion=catholic culture=german
-		father=100000018	# Franz
-		mother=100007541	# Sibylle von Sachsen-Freiberg
+		father=100000018	# Franz von Sachsen-Lauenburg
+		mother=100007541	# Sibylla v. Wettin
 		1552.01.01={birth=yes}  # Lauenburg
 		1620.10.12={death=yes}  # Schernebeck
 	}
@@ -690,8 +697,8 @@
 		female=yes
 		dynasty=1002119
 		religion=catholic culture=german
-		father=100000018	# Franz
-		mother=100007541	# Sibylle von Sachsen-Freiberg
+		father=100000018	# Franz von Sachsen-Lauenburg
+		mother=100007541	# Sibylla v. Wettin
 		1554.01.01={birth=yes}  # EST.
 		1594.07.01={death=yes}
 	}
@@ -859,7 +866,7 @@
 						father=100000107	# Joachim Ernst von Anhalt
 						mother=100008137	# Eleonore v. Württemberg
 						1579.06.17={birth=yes}  # Dessau
-						1606.10.31={add_spouse=100091625}	# GFN Amoena Amalie zu Bentheim-Tecklenburg-Steinfurt
+						1606.10.31={add_spouse=100001111}	# Amöne Amalia zu Bentheim-Tecklenburg
 						1626.09.12={add_spouse=100003041}	# Sofie zur Lippe
 						1650.01.07={death=yes}
 					}
@@ -868,7 +875,7 @@
 							dynasty=1002014
 							religion=catholic culture=german
 							father=100000114	# Ludwig von Anhalt
-							mother=100091625	# GFN Amoena Amalie zu Bentheim-Tecklenburg-Steinfurt
+							mother=100001111	# Amöne Amalia zu Bentheim-Tecklenburg
 							1607.10.19={birth=yes}
 							1624.03.15={death=yes}
 						}
@@ -879,7 +886,7 @@
 							father=100000114	# Ludwig von Anhalt
 							mother=100003041	# Sofie zur Lippe
 							1628.08.03={birth=yes}
-							1663.08.25={add_spouse=100000480}	# PSS Elisabeth Charlotte von Anhalt-Harzgerode
+							1663.08.25={add_spouse=100000480}	# Elisabeth Charlotte von Anhalt-Bernburg
 							1665.04.13={death=yes}
 						}
 						100000117={	# F3. Luise Amoena, *28.11.1609, +Harderwyck, Geldern 26.3.1625
@@ -888,7 +895,7 @@
 							dynasty=1002014
 							religion=catholic culture=german
 							father=100000114	# Ludwig von Anhalt
-							mother=100091625	# GFN Amoena Amalie zu Bentheim-Tecklenburg-Steinfurt
+							mother=100001111	# Amöne Amalia zu Bentheim-Tecklenburg
 							1609.11.28={birth=yes}
 							1625.03.26={death=yes}  # Harderwyck Geldern
 						}
@@ -1059,37 +1066,37 @@
 	father=100000107	# Joachim Ernst von Anhalt
 	mother=100091599	# GFN Agnes von Barby
 	1568.05.11={birth=yes}  # Bernburg
-	1595.07.02={add_spouse=100082093}	# Anna von Bentheim-Tecklenburg had issue:
+	1595.07.02={add_spouse=100000668}	# Anna zu Bentheim-Tecklenburg
 	1630.04.17={death=yes}  # Bernburg
 }
 	100000135={ # A2. Christian II Fürst von Anhalt-Bernburg (1630-56), *Amberg 11.8.1599, +Bernburg 22.9.1656; m.Ahrensbök 28.2.1625 Pss Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön (*Sonderburg 14.2.1603 +Ballenstedt 5.1.1675)
 		name=Christian
 		dynasty=1002120
 		religion=catholic culture=german
-		father=100000109	# Christian
-		mother=100082093	# Anna von Bentheim-Tecklenburg had issue:
+		father=100000109	# Christian von Anhalt-Bernburg
+		mother=100000668	# Anna zu Bentheim-Tecklenburg
 		1599.08.11={birth=yes}  # Amberg
-		1625.02.28={add_spouse=100005599}	# Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön
+		1625.02.28={add_spouse=100005599}	# Eleonore Sophie von Oldenburg
 		1656.09.22={death=yes}  # Bernburg
 	}
 		100000383={ # B6. Viktor Amadeus, Fürst von Anhalt-Bernburg (1656-1718), *Harzgerode 6.10.1634, +Bernburg 14.2.1718; m.Meisenheim am Glan 16.10.1667 Elisabeth von der Pfalz, Pfgfn von Zweibrücken (*Meisenheim 22.3.1642, +Bernburg 18.4.1677)
 			name="Viktor Amadeus"
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000135	# Christian
-			mother=100005599	# Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön
+			father=100000135	# Christian von Anhalt-Bernburg
+			mother=100005599	# Eleonore Sophie von Oldenburg
 			1634.10.06={birth=yes}  # Harzgerode
-			1667.10.16={add_spouse=100007740}	# Elisabeth von der Pfalz von Zweibrücken
+			1667.10.16={add_spouse=100007740}	# Elisabeth v. Wittelsbach
 			1718.02.14={death=yes}  # Bernburg
 		}
 			100000384={ # C1. Karl Friedrich Fürst von Anhalt-Bernburg (1718-21), *Bernburg 13.7.1668, +Ballenstedt 22.4.1721; 1m: Bernburg 25.6.1692 Gfn Sofie Albertine von Solms-Sonnenwalde (*2.10.1672 +12.6.1708); 2m: Bernburg 1.5.1715 Wilhelmine Charlotte Nüssler (*Harzgerode 10.5.1683 +Gernrode 30.5.1740)
 				name="Karl Friedrich"
 				dynasty=1002120
 				religion=catholic culture=german
-				father=100000383	# Viktor Amadeus
-				mother=100007740	# Elisabeth von der Pfalz von Zweibrücken
+				father=100000383	# Viktor Amadeus von Anhalt-Bernburg
+				mother=100007740	# Elisabeth v. Wittelsbach
 				1668.07.13={birth=yes}  # Bernburg
-				1692.06.25={add_spouse=100006749}	# Sofie Albertine von Solms-Sonnenwalde
+				1692.06.25={add_spouse=100006749}	# Sophie Albertine von Solms-Sonnenwalde
 				1715.05.01={add_spouse=100094143}	# Wilhelmine Charlotte Nüssler
 				1721.04.22={death=yes}  # Ballenstedt
 			}
@@ -1098,8 +1105,8 @@
 					female=yes
 					dynasty=1002120
 					religion=catholic culture=german
-					father=100000384	# Karl Friedrich
-					mother=100006749	# Sofie Albertine von Solms-Sonnenwalde
+					father=100000384	# Karl Friedrich von Anhalt-Bernburg
+					mother=100006749	# Sophie Albertine von Solms-Sonnenwalde
 					1693.03.31={birth=yes}  # Bernburg
 					1774.07.07={death=yes}  # Arnstadt
 				}
@@ -1108,8 +1115,8 @@
 					female=yes
 					dynasty=1002120
 					religion=catholic culture=german
-					father=100000384	# Karl Friedrich
-					mother=100006749	# Sofie Albertine von Solms-Sonnenwalde
+					father=100000384	# Karl Friedrich von Anhalt-Bernburg
+					mother=100006749	# Sophie Albertine von Solms-Sonnenwalde
 					1696.05.21={birth=yes}  # Bernburg
 					1762.07.22={death=yes}  # Sondershausen
 				}
@@ -1118,8 +1125,8 @@
 					female=yes
 					dynasty=1002120
 					religion=catholic culture=german
-					father=100000384	# Karl Friedrich
-					mother=100006749	# Sofie Albertine von Solms-Sonnenwalde
+					father=100000384	# Karl Friedrich von Anhalt-Bernburg
+					mother=100006749	# Sophie Albertine von Solms-Sonnenwalde
 					1697.11.03={birth=yes}  # Bernburg
 					1767.06.22={death=yes}  # Harzgerode
 				}
@@ -1127,11 +1134,11 @@
 					name="Viktor Friedrich"
 					dynasty=1002120
 					religion=catholic culture=german
-					father=100000384	# Karl Friedrich
-					mother=100006749	# Sofie Albertine von Solms-Sonnenwalde
+					father=100000384	# Karl Friedrich von Anhalt-Bernburg
+					mother=100006749	# Sophie Albertine von Solms-Sonnenwalde
 					1700.09.20={birth=yes}  # Bernburg
-					1724.11.20={add_spouse=100000149}	# Luise of Anhalt-Dessau
-					1733.05.22={add_spouse=100002224}	# Albertine of Brandenburg-Schwedt
+					1724.11.20={add_spouse=100000149}	# Luise von Anhalt
+					1733.05.22={add_spouse=100002224}	# Albertine v. Hohenzollern
 					1750.11.13={add_spouse=100094214}	# Konstanze Schmidt
 					1765.05.18={death=yes}  # Bernburg
 				}
@@ -1140,8 +1147,8 @@
 						female=yes
 						dynasty=1002120
 						religion=catholic culture=german
-						father=100000385	# Viktor Friedrich
-						mother=100000149	# Luise of Anhalt-Dessau
+						father=100000385	# Viktor Friedrich von Anhalt-Bernburg
+						mother=100000149	# Luise von Anhalt
 						1732.06.29={birth=yes}  # Bernburg
 						1786.10.06={death=yes}  # Schloß Baruth
 					}
@@ -1149,20 +1156,20 @@
 						name=Friedrich
 						dynasty=1002120
 						religion=catholic culture=german
-						father=100000385	# Viktor Friedrich
-						mother=100002224	# Albertine of Brandenburg-Schwedt
+						father=100000385	# Viktor Friedrich von Anhalt-Bernburg
+						mother=100002224	# Albertine v. Hohenzollern
 						1735.08.15={birth=yes}  # Bernburg
-						1763.06.04={add_spouse=100005590}	# Luise von Schleswig-Holstein-Sonderburg-Plön
+						1763.06.04={add_spouse=100005590}	# Luise von Oldenburg
 						1796.04.09={death=yes}  # Schloss Ballenstedt
 					}
 						100000387={ # F1. ALEXIUS Friedrich Christian, Fürst von Anhalt-Bernburg (1796-34), *Ballenstedt 12.6.1767, +Ballenstet 24.3.1834; 1m: Kassel 29.11.1794 (div 1817) Pss Friederike of Hesse-Kassel (*Hanau 14.9.1768 +Hanau 17.4.1839); 2m: Ballenstedt 11.1.1818 Dorothea von Sonnenberg (*Bernburg 23.1.1781, +Ballenstedt 23.5.1818); 3m: Bernburg 2.5.1819 Ernestine von Sonnenberg (*Bernburg 19.2.1789, +Ballenstedt 28.9.1845)
 							name=Alexius
 							dynasty=1002120
 							religion=catholic culture=german
-							father=100000386	# Friedrich
-							mother=100005590	# Luise von Schleswig-Holstein-Sonderburg-Plön
+							father=100000386	# Friedrich von Anhalt-Bernburg
+							mother=100005590	# Luise von Oldenburg
 							1767.06.12={birth=yes}  # Ballenstedt
-							1794.11.29={add_spouse=100001458}	# Friederike of Hesse-Kassel
+							1794.11.29={add_spouse=100001458}	# Friederike v. Hessen-Kassel
 							1817.01.01={remove_spouse=100001458}
 							1818.01.11={add_spouse=100094409}	# Dorothea von Sonnenberg
 							1819.05.02={add_spouse=100094414}	# Ernestine von Sonnenberg
@@ -1173,8 +1180,8 @@
 								female=yes
 								dynasty=1002120
 								religion=catholic culture=german
-								father=100000387	# Alexius
-								mother=100001458	# Friederike of Hesse-Kassel
+								father=100000387	# Alexius von Anhalt-Bernburg
+								mother=100001458	# Friederike v. Hessen-Kassel
 								1799.10.30={birth=yes}  # Ballenstedt
 								1882.12.09={death=yes}  # Schloss Eller
 							}
@@ -1182,10 +1189,10 @@
 								name="Alexander Karl"
 								dynasty=1002120
 								religion=catholic culture=german
-								father=100000387	# Alexius
-								mother=100001458	# Friederike of Hesse-Kassel
+								father=100000387	# Alexius von Anhalt-Bernburg
+								mother=100001458	# Friederike v. Hessen-Kassel
 								1805.03.02={birth=yes}  # Ballenstedt
-								1834.10.30={add_spouse=100004896}	# Friederike of Schleswig-Holstein-Sonderburg-Glücksburg
+								1834.10.30={add_spouse=100004896}	# Friederike v. Schleswig-Holstein-Sonderburg-Glücksburg
 								1863.08.19={death=yes}  # Hoym
 							}
 						100000390={ # F2. Pauline Christine Wilhelmine, *Ballenstedt 23.2.1769, +Detmold 29.12.1820; m.Ballenstedt 2.1.1796 Fst Leopold zur Lippe-Detmold (*Detmold 2.12.1767, +Detmold 4.4.1802)
@@ -1193,8 +1200,8 @@
 							female=yes
 							dynasty=1002120
 							religion=catholic culture=german
-							father=100000386	# Friedrich
-							mother=100005590	# Luise von Schleswig-Holstein-Sonderburg-Plön
+							father=100000386	# Friedrich von Anhalt-Bernburg
+							mother=100005590	# Luise von Oldenburg
 							1769.02.23={birth=yes}  # Ballenstedt
 							1820.12.29={death=yes}  # Detmold
 						}
@@ -1203,8 +1210,8 @@
 						female=yes
 						dynasty=1002120
 						religion=catholic culture=german
-						father=100000385	# Viktor Friedrich
-						mother=100002224	# Albertine of Brandenburg-Schwedt
+						father=100000385	# Viktor Friedrich von Anhalt-Bernburg
+						mother=100002224	# Albertine v. Hohenzollern
 						1737.08.25={birth=yes}  # Bernburg
 						1777.04.26={death=yes}  # Sondershausen
 					}
@@ -1213,8 +1220,8 @@
 						female=yes
 						dynasty=1002120
 						religion=catholic culture=german
-						father=100000385	# Viktor Friedrich
-						mother=100002224	# Albertine of Brandenburg-Schwedt
+						father=100000385	# Viktor Friedrich von Anhalt-Bernburg
+						mother=100002224	# Albertine v. Hohenzollern
 						1744.08.28={birth=yes}  # Ballenstedt
 						1827.04.12={death=yes}  # Schloß Coswig
 					}
@@ -1223,8 +1230,8 @@
 						female=yes
 						dynasty=1002120
 						religion=catholic culture=german
-						father=100000385	# Viktor Friedrich
-						mother=100002224	# Albertine of Brandenburg-Schwedt
+						father=100000385	# Viktor Friedrich von Anhalt-Bernburg
+						mother=100002224	# Albertine v. Hohenzollern
 						1746.11.14={birth=yes}  # Bernburg
 						1823.05.18={death=yes}  # Coswig
 					}
@@ -1233,8 +1240,8 @@
 					female=yes
 					dynasty=1002120
 					religion=catholic culture=german
-					father=100000384	# Karl Friedrich
-					mother=100006749	# Sofie Albertine von Solms-Sonnenwalde
+					father=100000384	# Karl Friedrich von Anhalt-Bernburg
+					mother=100006749	# Sophie Albertine von Solms-Sonnenwalde
 					1702.01.24={birth=yes}  # Bernburg
 					1723.04.04={death=yes}  # Köthen
 				}
@@ -1242,11 +1249,11 @@
 				name=Lebrecht
 				dynasty=1002120
 				religion=catholic culture=german
-				father=100000383	# Viktor Amadeus
-				mother=100007740	# Elisabeth von der Pfalz von Zweibrücken
+				father=100000383	# Viktor Amadeus von Anhalt-Bernburg
+				mother=100007740	# Elisabeth v. Wittelsbach
 				1669.06.28={birth=yes}  # Bernburg
-				1692.04.12={add_spouse=100037165}	# Charlotte of Nassau-Dillenburg
-				1702.06.27={add_spouse=100098825}	# Eberhardine van Weede
+				1692.04.12={add_spouse=100037165}	# Charlotte v. Nassau-Siegen
+				1702.06.27={add_spouse=100098825}	# FRN Eberhardine van Weede
 				1725.09.14={add_spouse=100098962}	# Sofie von Ingersleben
 				1727.05.17={death=yes}  # Bad Ems
 			}
@@ -1254,8 +1261,8 @@
 				name="Johann Georg"
 				dynasty=1002120
 				religion=catholic culture=german
-				father=100000383	# Viktor Amadeus
-				mother=100007740	# Elisabeth von der Pfalz von Zweibrücken
+				father=100000383	# Viktor Amadeus von Anhalt-Bernburg
+				mother=100007740	# Elisabeth v. Wittelsbach
 				1674.02.14={birth=yes}  # Bernburg
 				1691.09.09={death=yes}  # Leuze
 			}
@@ -1264,8 +1271,8 @@
 			female=yes
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000135	# Christian
-			mother=100005599	# Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön
+			father=100000135	# Christian von Anhalt-Bernburg
+			mother=100005599	# Eleonore Sophie von Oldenburg
 			1635.10.28={birth=yes}  # Bernburg
 			1685.09.10={death=yes}  # Gandersheim
 		}
@@ -1274,8 +1281,8 @@
 			female=yes
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000135	# Christian
-			mother=100005599	# Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön
+			father=100000135	# Christian von Anhalt-Bernburg
+			mother=100005599	# Eleonore Sophie von Oldenburg
 			1636.12.23={birth=yes}  # Plön
 			1659.10.05={death=yes}  # Bernburg
 		}
@@ -1284,8 +1291,8 @@
 			female=yes
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000135	# Christian
-			mother=100005599	# Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön
+			father=100000135	# Christian von Anhalt-Bernburg
+			mother=100005599	# Eleonore Sophie von Oldenburg
 			1639.06.06={birth=yes}  # Bernburg
 			1688.10.13={death=yes}  # Quedlinburg
 		}
@@ -1294,8 +1301,8 @@
 			female=yes
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000135	# Christian
-			mother=100005599	# Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön
+			father=100000135	# Christian von Anhalt-Bernburg
+			mother=100005599	# Eleonore Sophie von Oldenburg
 			1640.09.13={birth=yes}  # Bernburg
 			1704.04.25={death=yes}  # Sonnewalde
 		}
@@ -1303,8 +1310,8 @@
 			name="Karl Ursinus"
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000135	# Christian
-			mother=100005599	# Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön
+			father=100000135	# Christian von Anhalt-Bernburg
+			mother=100005599	# Eleonore Sophie von Oldenburg
 			1642.04.18={birth=yes}  # Bernburg
 			1660.01.04={death=yes}  # Parma
 		}
@@ -1313,8 +1320,8 @@
 			female=yes
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000135	# Christian
-			mother=100005599	# Eleonore Sofie von Schleswig-Holstein-Sonderburg-Plön
+			father=100000135	# Christian von Anhalt-Bernburg
+			mother=100005599	# Eleonore Sophie von Oldenburg
 			1647.03.19={birth=yes}  # Bernburg
 			1680.09.03={death=yes}  # Bernstadt
 		}
@@ -1323,8 +1330,8 @@
 		female=yes
 		dynasty=1002120
 		religion=catholic culture=german
-		father=100000109	# Christian
-		mother=100082093	# Anna von Bentheim-Tecklenburg had issue:
+		father=100000109	# Christian von Anhalt-Bernburg
+		mother=100000668	# Anna zu Bentheim-Tecklenburg
 		1600.08.07={birth=yes}  # Amberg
 		1657.07.17={death=yes}  # Strelitz
 	}
@@ -1333,8 +1340,8 @@
 		female=yes
 		dynasty=1002120
 		religion=catholic culture=german
-		father=100000109	# Christian
-		mother=100082093	# Anna von Bentheim-Tecklenburg had issue:
+		father=100000109	# Christian von Anhalt-Bernburg
+		mother=100000668	# Anna zu Bentheim-Tecklenburg
 		1602.02.10={birth=yes}  # Amberg
 		1648.08.15={death=yes}  # Strelitz
 	}
@@ -1343,8 +1350,8 @@
 		female=yes
 		dynasty=1002120
 		religion=catholic culture=german
-		father=100000109	# Christian
-		mother=100082093	# Anna von Bentheim-Tecklenburg had issue:
+		father=100000109	# Christian von Anhalt-Bernburg
+		mother=100000668	# Anna zu Bentheim-Tecklenburg
 		1604.06.15={birth=yes}  # Amberg
 		1640.09.01={death=yes}  # Bernburg
 	}
@@ -1353,8 +1360,8 @@
 		female=yes
 		dynasty=1002120
 		religion=catholic culture=german
-		father=100000109	# Christian
-		mother=100082093	# Anna von Bentheim-Tecklenburg had issue:
+		father=100000109	# Christian von Anhalt-Bernburg
+		mother=100000668	# Anna zu Bentheim-Tecklenburg
 		1606.01.14={birth=yes}
 		1635.10.17={death=yes}  # Bernburg
 	}
@@ -1362,22 +1369,22 @@
 		name=Friedrich
 		dynasty=1002120
 		religion=catholic culture=german
-		father=100000109	# Christian
-		mother=100082093	# Anna von Bentheim-Tecklenburg had issue:
+		father=100000109	# Christian von Anhalt-Bernburg
+		mother=100000668	# Anna zu Bentheim-Tecklenburg
 		1613.11.16={birth=yes}  # Ensdorf
-		1642.08.10={add_spouse=100037217}	# Johanna Elisabeth von Nassau-Hadamar
-		1657.05.26={add_spouse=100002843}	# Marie Elisabeth zur Lippe-Detmold
+		1642.08.10={add_spouse=100037217}	# Johanna Elisabeth v. Nassau-Siegen
+		1657.05.26={add_spouse=100002843}	# Anna Katharine zur Lippe
 		1670.06.30={death=yes}  # Plötzkau
 	}
 		100000476={ # B1. Wilhelm Ludwig Fürst von Anhalt-Harzgerode (1670-1709), *Harzgerode 18.8.1643, +Harzgerode 14.10.1709; 1m: Laubach 25.7.1671 Gfn Elisabeth Albertine zu Solms-Laubach (*Kassel 6.3.1631, +Harzgerode 2.1.1693); 2m: Frederiksborg, nr Copenhagen 20.10.1695 Pss Sofie Auguste of Nassau-Dillenburg (*Dillenburg 28.4.1666, +Usingen 14.1.1733)
 			name="Wilhelm Ludwig"
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000454	# Friedrich
-			mother=100037217	# Johanna Elisabeth von Nassau-Hadamar
+			father=100000454	# Friedrich von Anhalt-Bernburg
+			mother=100037217	# Johanna Elisabeth v. Nassau-Siegen
 			1643.08.18={birth=yes}  # Harzgerode
-			1671.07.25={add_spouse=100006683}	# Elisabeth Albertine zu Solms-Laubach
-			1695.10.20={add_spouse=100037123}	# Sofie Auguste of Nassau-Dillenburg
+			1671.07.25={add_spouse=100006683}	# Elisabeth Albertine von Solms-Laubach
+			1695.10.20={add_spouse=100037123}	# Sofie Auguste v. Nassau-Siegen
 			1709.10.14={death=yes}  # Harzgerode
 		}
 		100000480={ # B3. Elisabeth Charlotte, *Harzgerode 11.2.1647, +Osterholm 20.1.1723; 1m: Köthen 25.8.1663 Fst Wilhelm Ludwig von Anhalt-Köthen (*3.8.1638 +13.4.1665); 2m: Plötzkau 6.10.1666 Herzog August von Schleswig-Holstein-Norburg (*9.5.1635 +17.9.1699)
@@ -1385,8 +1392,8 @@
 			female=yes
 			dynasty=1002120
 			religion=catholic culture=german
-			father=100000454	# Friedrich
-			mother=100037217	# Johanna Elisabeth von Nassau-Hadamar
+			father=100000454	# Friedrich von Anhalt-Bernburg
+			mother=100037217	# Johanna Elisabeth v. Nassau-Siegen
 			1647.02.11={birth=yes}  # Harzgerode
 			1723.01.20={death=yes}  # Osterholm
 		}
@@ -1395,8 +1402,8 @@
 		female=yes
 		dynasty=1002120
 		religion=catholic culture=german
-		father=100000109	# Christian
-		mother=100082093	# Anna von Bentheim-Tecklenburg had issue:
+		father=100000109	# Christian von Anhalt-Bernburg
+		mother=100000668	# Anna zu Bentheim-Tecklenburg
 		1615.09.16={birth=yes}  # Amberg
 		1673.12.27={death=yes}  # Dessau
 	}
@@ -1405,8 +1412,8 @@
 		female=yes
 		dynasty=1002120
 		religion=catholic culture=german
-		father=100000109	# Christian
-		mother=100082093	# Anna von Bentheim-Tecklenburg had issue:
+		father=100000109	# Christian von Anhalt-Bernburg
+		mother=100000668	# Anna zu Bentheim-Tecklenburg
 		1617.08.11={birth=yes}  # Amberg
 		1656.05.07={death=yes}  # Bernburg
 	}
@@ -1461,7 +1468,7 @@
 		mother=100008001	# Dorothea v. Wittelsbach
 		1596.09.07={birth=yes}  # Dessau
 		1623.05.18={add_spouse=100085426}	# Agnes v. Hessen-Kassel
-		1651.07.14={add_spouse=100000487}	# PSS Sofie Margarete von Anhalt-Bernburg
+		1651.07.14={add_spouse=100000487}	# Sofie Margarete von Anhalt-Bernburg
 		1660.09.15={death=yes}  # Dessau
 	}
 		100000027={ # 4b) Johann Georg II Fst von Anhalt-Dessau, 1677 zu Wörlitz, Kleutsch u.Radegast (Dessau 7 Nov 1627-Berlin 17 Aug 1693); m.Groningen 9 Jul 1659 Pss Henriette Katharine von Nassau-Orange (Tha Hague 31 Jan 1637-Schloß Oranienbaum 3/4 Nov 1708)
@@ -1725,16 +1732,6 @@
 	1793.10.29={add_spouse=100070116}	# Amalie v. Nassau-Weilburg
 	1812.04.22={death=yes}  # Schaumburg
 }
-	100008256={ # Sophie Charlotte (Schloß Schaumburg 3 Apr 1743-Birstein 5 Oct 1781); m.20 Sep 1760 Wolfgang Ernst v. Isenburg (Birstein 17 Nov 1735-Offenbach 3 Feb 1803) %%
-		name="Sophie Charlotte"
-		female=yes
-		dynasty=1002089
-		religion=catholic culture=german
-		father=100108256	# Viktor von Anhalt-Bernburg-Schaumburg-Hoym
-		mother=100070116	# Amalie v. Nassau-Weilburg
-		1743.04.03={birth=yes}  # Schloß Schaumburg
-		1781.10.05={death=yes}  # Birstein
-	}
 	100091542={ # Hermine (2 Dec 1797-14 Sep 1817); m.30 Aug 1815 Joseph v. Habsburg-Lothringen (9 Mar 1776-13 Jan 1847) %%
 		name=Hermine
 		female=yes

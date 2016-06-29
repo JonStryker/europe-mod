@@ -259,7 +259,7 @@
 				1660.04.04={death=yes}
 			}
 				100098981={ # 2g) Sophie Wilhelmine, cr Fstn 1678 (Aurich 17 Oct 1659-Bernstadt 4 Feb 1698); m.Hamburg 7 Dec 1695 Christian Ulrich Duke von Württemberg-Öls (d.1704)
-					name="Juliane Luise"
+					name="Sophie Wilhelmine"
 					female=yes
 					dynasty=1008026
 					religion=catholic culture=german
@@ -312,6 +312,15 @@
 							1734.05.25={add_spouse=100002492}	# Wilhelmine Sophie v. Hohenzollern
 							1744.05.25={death=yes}
 						}
+					100198981={ # 9h) Juliane Luise (Aurich 13 Jun 1698-Ahrensbök 6 Feb 1740); m.Braunschweig 17 Feb 1721 Joachim Friedrich, Duke of Holstein-Plön (d.1722)
+						name="Juliane Luise"
+						female=yes
+						dynasty=1008026
+						religion=catholic culture=german
+						father=100198730	# Christian Eberhard Cirksena
+						1698.06.13={birth=yes}  # Aurich
+						1740.02.06={death=yes}  # Ahrensbök
+					}
 	100081511={ # 11d) Maria (25 Apr 1582-Dannenberg 9 Jul 1616); m.Dannenberg 25 Apr 1613 Julius Ernst, Duke von Braunschweig-Dannenberg (d.26 Oct 1636)
 		name=Marie
 		female=yes
@@ -1331,79 +1340,97 @@
 		1925.04.11={death=yes}
 	}
 
-100097949={ # Johann v. Buquoy de Longueval (28 Jun 1741-12 Apr 1803); m.9 Apr 1765 Maria Theresia v. Paar (1746-21 May 1818) %%
-	name=Johann
-	dynasty=1002208
-	religion=catholic culture=german
-	1741.06.28={birth=yes}
-	1765.04.09={add_spouse=100024052}	# Maria Theresia v. Paar
-	1803.04.12={death=yes}
+100093338={ # Karl Cajetan (11 Feb 1670-16 Nov 1750); m.6 Jul 1700 Philippina Elisabeth Barbara Pálffy ab Erdõd (1670-5 Aug 1732) %%
+	name="Karl Cajetan"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1670.02.11={birth=yes}
+	1700.07.06={add_spouse=100118222}	# Philippina Elisabeth Barbara Pálffy ab Erdõd
+	1750.11.16={death=yes}
 }
-	100197949={ # Georg Franz August (1781-1851) %%
-		name="Georg Franz August"
-		dynasty=1002208
-		religion=catholic culture=german
-		father=100097949	# Johann v. Buquoy de Longueval
-		1781.01.01={birth=yes}
-		1851.01.01={death=yes}
+	100193338={ # Franz Leopold (1703-10 Oct 1767) %%
+		name="Franz Leopold"
+		dynasty=0
+		religion=catholic culture=hungarian
+		father=100093338	# Karl Cajetan
+		mother=100118222	# Philippina Elisabeth Barbara Pálffy ab Erdõd
+		1703.01.01={birth=yes}
+		1767.10.10={death=yes}
 	}
-		100091734={ # Georg Johann Heinrich (2 Aug 1814-2 Sep 1882); m.30 May 1847 Sophie Therese zu Oettingen-Wallerstein (6 Jan 1829-27 Apr 1897) %%
-			name="Georg Johann Heinrich"
+		100097949={ # Johann (28 Jun 1741-12 Apr 1803); m.9 Apr 1765 Maria Theresia v. Paar (1746-21 May 1818) %%
+			name=Johann
 			dynasty=1002208
 			religion=catholic culture=german
-			father=100197949	# Georg Franz August v. Buquoy de Longueval
-			1814.08.02={birth=yes}
-			1847.05.30={add_spouse=100003081}	# Sophie Therese zu Oettingen-Wallerstein
-			1882.09.02={death=yes}
+			father=100193338	# Franz Leopold
+			1741.06.28={birth=yes}
+			1765.04.09={add_spouse=100024052}	# Maria Theresia v. Paar
+			1803.04.12={death=yes}
 		}
-			100086388={ # Karl (24 Sep 1854-9 Aug 1917); m.1 May 1878 Philippine Czernin v.u.zu Chudenitz (29 Nov 1858-6 Aug 1937) %%
-				name=Karl
+			100197949={ # Georg Franz August (1781-1851) %%
+				name="Georg Franz August"
 				dynasty=1002208
 				religion=catholic culture=german
-				father=100091734	# Georg Johann Heinrich v. Buquoy de Longueval
-				mother=100003081	# Sophie Therese zu Oettingen-Wallerstein
-				1854.09.24={birth=yes}
-				1878.05.01={add_spouse=100086387}	# Philippine Czernin v.u.zu Chudenitz
-				1917.08.09={death=yes}
+				father=100097949	# Johann v. Buquoy de Longueval
+				1781.01.01={birth=yes}
+				1851.01.01={death=yes}
 			}
-			100191734={ # Ferdinand Maria Heinrich (1856-1909) %%
-				name="Ferdinand Maria Heinrich"
-				dynasty=1002208
-				religion=catholic culture=german
-				father=100091734	# Georg Johann Heinrich v. Buquoy de Longueval
-				mother=100003081	# Sophie Therese zu Oettingen-Wallerstein
-				1856.01.01={birth=yes}
-				1909.01.01={death=yes}
-			}
-				100085972={ # Karl-Georg (9 Mar 1885-17 May 1952); m.7 Jul 1914 Marie Valerie Kinsky von Wchinitz u.Tettau (28 Aug 1896-24 Jan 1963) %%
-					name=Karl-Georg
+				100091734={ # Georg Johann Heinrich (2 Aug 1814-2 Sep 1882); m.30 May 1847 Sophie Therese zu Oettingen-Wallerstein (6 Jan 1829-27 Apr 1897) %%
+					name="Georg Johann Heinrich"
 					dynasty=1002208
-					religion=catholic culture=bohemian
-					father=100191734	# Ferdinand Maria Heinrich v. Buquoy de Longueval
-					1885.03.09={birth=yes}
-					1914.07.07={add_spouse=100085971}	# Marie Valerie Kinsky von Wchinitz u.Tettau
-					1952.05.17={death=yes}
+					religion=catholic culture=german
+					father=100197949	# Georg Franz August v. Buquoy de Longueval
+					1814.08.02={birth=yes}
+					1847.05.30={add_spouse=100003081}	# Sophie Therese zu Oettingen-Wallerstein
+					1882.09.02={death=yes}
 				}
-					100091735={ # Henriette (4 Aug 1917-3 Mar 1967); m.18 Jun 1950 Wolfgang zu Oettingen-Wallerstein (1 Aug 1924-4 Apr 2001) %%
-						name=Henriette
+					100086388={ # Karl (24 Sep 1854-9 Aug 1917); m.1 May 1878 Philippine Czernin v.u.zu Chudenitz (29 Nov 1858-6 Aug 1937) %%
+						name=Karl
+						dynasty=1002208
+						religion=catholic culture=german
+						father=100091734	# Georg Johann Heinrich v. Buquoy de Longueval
+						mother=100003081	# Sophie Therese zu Oettingen-Wallerstein
+						1854.09.24={birth=yes}
+						1878.05.01={add_spouse=100086387}	# Philippine Czernin v.u.zu Chudenitz
+						1917.08.09={death=yes}
+					}
+					100191734={ # Ferdinand Maria Heinrich (1856-1909) %%
+						name="Ferdinand Maria Heinrich"
+						dynasty=1002208
+						religion=catholic culture=german
+						father=100091734	# Georg Johann Heinrich v. Buquoy de Longueval
+						mother=100003081	# Sophie Therese zu Oettingen-Wallerstein
+						1856.01.01={birth=yes}
+						1909.01.01={death=yes}
+					}
+						100085972={ # Karl-Georg (9 Mar 1885-17 May 1952); m.7 Jul 1914 Marie Valerie Kinsky von Wchinitz u.Tettau (28 Aug 1896-24 Jan 1963) %%
+							name=Karl-Georg
+							dynasty=1002208
+							religion=catholic culture=bohemian
+							father=100191734	# Ferdinand Maria Heinrich v. Buquoy de Longueval
+							1885.03.09={birth=yes}
+							1914.07.07={add_spouse=100085971}	# Marie Valerie Kinsky von Wchinitz u.Tettau
+							1952.05.17={death=yes}
+						}
+							100091735={ # Henriette (4 Aug 1917-3 Mar 1967); m.18 Jun 1950 Wolfgang zu Oettingen-Wallerstein (1 Aug 1924-4 Apr 2001) %%
+								name=Henriette
+								female=yes
+								dynasty=1002208
+								religion=catholic culture=german
+								father=100085972	# Karl-Georg v. Buquoy de Longueval
+								mother=100085971	# Marie Valerie Kinsky von Wchinitz u.Tettau
+								1917.08.04={birth=yes}
+								1967.03.03={death=yes}
+							}
+					100091736={ # Gabriela (Wien 11 Nov 1859-Wien 21 May 1934); m.15 Jun 1881 Joseph Philipp v. Thun u.Hohenstein (27 Mar 1856-11 Jul 1932) %%
+						name=Gabriela
 						female=yes
 						dynasty=1002208
 						religion=catholic culture=german
-						father=100085972	# Karl-Georg v. Buquoy de Longueval
-						mother=100085971	# Marie Valerie Kinsky von Wchinitz u.Tettau
-						1917.08.04={birth=yes}
-						1967.03.03={death=yes}
+						father=100091734	# Georg Johann Heinrich v. Buquoy de Longueval
+						mother=100003081	# Sophie Therese zu Oettingen-Wallerstein
+						1859.11.11={birth=yes}	# Wien
+						1934.05.21={death=yes}	# Wien
 					}
-			100091736={ # Gabriela (Wien 11 Nov 1859-Wien 21 May 1934); m.15 Jun 1881 Joseph Philipp v. Thun u.Hohenstein (27 Mar 1856-11 Jul 1932) %%
-				name=Gabriela
-				female=yes
-				dynasty=1002208
-				religion=catholic culture=german
-				father=100091734	# Georg Johann Heinrich v. Buquoy de Longueval
-				mother=100003081	# Sophie Therese zu Oettingen-Wallerstein
-				1859.11.11={birth=yes}	# Wien
-				1934.05.21={death=yes}	# Wien
-			}
 					
 100092718={ # Ernst v. Moÿ de Sons (München 1 Feb 1917-Stepperg 2 Oct 1988); m.1 Feb 1942 Maria v.u.zu Eltz gt Faust v.Stromberg (Haid 2 Sep 1920-Salzburg 13 Dec 1999) %%
 	name=Ernst
@@ -2547,4 +2574,98 @@
 		1934.01.03={death=yes}
 	}
 
+100083598={ # A1. LIPÓT József, cr Graf Edelsheim-Gyulai de Marosnémeth et Nádaska, *Salzburg 1.11.1863, +Budapest 1.8.1928; m.Budapest 11.9.1886 Pss Irma Odescalchi de Szerém (*Nyírbakta 11.1.1863, +Budapest 7.5.1924)
+	name=Lipót
+	dynasty=1011483
+	religion=catholic culture=hungarian
+	1863.11.01={birth=yes}
+	1886.09.11={add_spouse=100071698}	# Irma Paulina Odescalchi
+	1928.08.01={death=yes}
+}
+	100096585={ # B1. LIPÓT Ferenc György Gyula, *Brezovicza 6.7.1888, +Cannes 17.5.1981; 1m: Budapest 9.11.1912 (div 1920) Gfn Gabriella Pejacsevich de Verocze (*Eszék 4.1.1894, +Vevey, Schweiz 7.1.1977); 2m: Nyitra 18.5.1920 Ella Rothkugel von Rollershausen (*Budapest 9.8.1899)
+		name=Lipót
+		dynasty=1011483
+		religion=catholic culture=hungarian
+		father=100083598	# Lipót Edelsheim-Gyulai de Marosnémeth et Nádaska
+		mother=100071698	# Irma Paulina Odescalchi
+		1888.07.06={birth=yes}  # Brezovica
+		1912.11.09={add_spouse=100136124}	# Gabriella Pejacevic
+		1920.01.01={remove_spouse=100136124}
+		1981.05.17={death=yes}  # Cannes
+	}
+		100196585={ # C1. [1m.] ÉVA Mária Theodóra Anna, *Felsoelefánt 4.9.1913; 1m: Felsoelefánt 3.3.1934 (div 1945) Gf Ádám Kendeffy de Malomvíz (*Oraljaboldogfalva 3.2.1908, +Budapest 29.5.1988); 2m: Budapest 9.12.1948 (div 1958) István Gaál (*Baja 1904, +Budapest 29.5.1975)
+			name=female=yes
+			dynasty=1011483
+			religion=catholic culture=hungarian
+			father=100096585	# Lipót Edelsheim-Gyulai de Marosnémeth et Nádaska
+			mother=100136124	# Gabriella Pejacevic
+			1913.09.04={birth=yes}	# Felsoelefánt
+			1990.01.01={death=yes}	# EST.
+		}
+		100196586={ # C2. [1m.] MARITTA (MÁRIA) Paulina Alexandra, *Budapest 16.6.1915; m.Budapest 13.7.1940 György Darányi de Pusztaszentgyörgy et Tetétlen (*Budapest 6.10.1901, +Köln 24.7.1980)
+			name=female=yes
+			dynasty=1011483
+			religion=catholic culture=hungarian
+			father=100096585	# Lipót Edelsheim-Gyulai de Marosnémeth et Nádaska
+			mother=100136124	# Gabriella Pejacevic
+			1915.06.16={birth=yes}	# Budapest
+			1990.01.01={death=yes}	# EST.
+		}
+		100196587={ # C3. [1m.] ILONA (ILY) Mária Andrea Gabriella, *Budapest 14.1.1918; 1m: Budapest 27.4.1940 István Horthy de Nagybánya (*Pola 9.12.1904, +Alexejewska 20.8.1942), Kormányzóhelyettes (1942); 2m: London 8.7.1954 John Bowden (*Beckenham 25.9.1915)
+			name=female=yes
+			dynasty=1011483
+			religion=catholic culture=hungarian
+			father=100096585	# Lipót Edelsheim-Gyulai de Marosnémeth et Nádaska
+			mother=100136124	# Gabriella Pejacevic
+			1918.01.14={birth=yes}	# Budapest
+			1990.01.01={death=yes}	# EST.
+		}
+	100092230={ # A2. PAULA Ilona, *Abbazia 6.1.1893, +Budapest 21.6.1935; m.Budapest 3.12.1914 Gf Sándor Teleki de Szék (*Budapest 23.10.1885, +Landeck 24.12.1950)
+		name=Paula
+		female=yes
+		dynasty=1011483
+		religion=catholic culture=hungarian
+		father=100083598	# Lipót Edelsheim-Gyulai de Marosnémeth et Nádaska
+		mother=100071698	# Irma Paulina Odescalchi
+		1893.01.06={birth=yes}  # Abbazia
+		1935.06.21={death=yes}  # Budapest
+	}
+	100192230={ # A3. ILONA (LILLY) Karolina, *Felsoelefánt 10.7.1896, +Budapest 12.4.1935; m.Budapest 16.1.1922 Károly Barcza de Nagyalásony (*Budapest 4.11.1894, +Boston, Mass., USA 21.1.1963)
+		name=Ilona
+		female=yes
+		dynasty=1011483
+		religion=catholic culture=hungarian
+		father=100083598	# Lipót Edelsheim-Gyulai de Marosnémeth et Nádaska
+		mother=100071698	# Irma Paulina Odescalchi
+		1896.07.10={birth=yes}  # Felsoelefánt
+		1935.04.12={death=yes}  # Budapest
+	}
 
+100089261={ # Ivan ( ca.1717-2 May 1786); m.1742 Maria Golizyn (18 Feb 1718-17 Jun 1780) %%
+	name=Ivan
+	dynasty=0
+	religion=orthodox culture=russian
+	1717.01.01={birth=yes}	# EST.
+	1742.01.01={add_spouse=100016155}	# Maria Golizyn
+	1786.05.02={death=yes}
+}	
+	100089252={ # Ivan ( ca.1765-30 Nov 1811); m.5 Feb 1790 Tatiana Golizyn (30 Sep 1769-8 Nov 1840) %%
+		name=Ivan
+		dynasty=1010023
+		religion=orthodox culture=russian
+		father=100089261	# Ivan
+		mother=100016155	# Maria Golizyn
+		1765.01.01={birth=yes}	# EST.
+		1790.02.05={add_spouse=100016180}	# Tatiana Golizyn
+		1811.11.30={death=yes}
+	}	
+		100089251={ # Anna (17 Oct 1803-7 Mar 1828); m.19 Apr 1825 Jurij Trubetzkoy (1807-26 Jun 1850) %%
+			name=Anna
+			female=yes
+			dynasty=1010023
+			religion=orthodox culture=russian
+			father=100089252	# Ivan Prozorovsky
+			mother=100016180	# Tatiana Golizyn
+			1803.10.17={birth=yes}
+			1828.03.07={death=yes}
+		}
