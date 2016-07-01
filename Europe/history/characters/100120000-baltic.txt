@@ -419,20 +419,22 @@
 	1566.03.12={add_spouse=100002879}	# Anna v. Mecklenburg
 	1587.05.27={death=yes}
 }
-	100191563={ # D2. Wilhelm, Duke of Courland and Livonia (1639-40), *Mitau 20.7.1574, +Kokelow 17.4.1640; m.Königsberg 22.10.1609 Sofia von Preussen (*31.3.1582 +24.12.1610)
+	100094530={ # D2. Wilhelm, Duke of Courland and Livonia (1639-40), *Mitau 20.7.1574, +Kokelow 17.4.1640; m.Königsberg 22.10.1609 Sofia von Preussen (*31.3.1582 +24.12.1610)
 		name=Wilhelm
 		dynasty=1002107
 		religion=catholic culture=german
 		father=100092409	# Gotthard Kettler
 		mother=100002879	# Anna v. Mecklenburg
-		1574.07.20={birth=yes}
-		1640.04.17={death=yes}
+		1574.07.20={birth=yes}	# Mitau
+		1609.10.22={add_spouse=100003839}	# Sophie v. Hohenzollern
+		1640.04.17={death=yes}	# Kokelow
 	}
 		100091563={ # E1. Jakob, Duke of Courland and Livonia (1640-82), *Goldingen 7.11.1610, +Mitau 31.12.1682/1.1.1682; m.Königsberg 7/9.10.1645 Luise Charlotte von Brandenburg (*3.9.1617 +29.8.1676)
 			name=Jakob
 			dynasty=1002107
 			religion=catholic culture=german
-			father=100191563	# Wilhelm Kettler
+			father=100094530	# Wilhelm Kettler
+			mother=100003839	# Sophie v. Hohenzollern
 			1610.10.28={birth=yes}
 			1645.10.09={add_spouse=100002204}	# Luise Charlotte v. Hohenzollern
 			1682.01.01={death=yes}
