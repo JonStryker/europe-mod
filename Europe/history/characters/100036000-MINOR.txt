@@ -1769,32 +1769,66 @@
 		2009.01.01={death=yes}  # EST.
 	}
 
-100195255={ # Ivo Maximilian Gustav Sedlnitzky-Odrowaz v.Choltitz (11 Jun 1889-5 Jan 1946) %%
-	name="Ivo Maximilian Gustav"
+100195256={ # Franz Seraph Sedlnitzky-Odrowaz v.Choltitz (b.15 Apr 1817) %%
+	name="Franz Seraph"
 	dynasty=1013008
 	religion=catholic culture=bohemian
-	1889.06.11={birth=yes}
-	1946.01.05={death=yes}
+	1817.04.15={birth=yes}
+	1890.01.01={death=yes}	# EST.
 }
-	100095255={ # Marie-Gabrielle (Pillham bei Ruhstorf 23 Apr 1920-12 Jan 2011); m.27 May 1941 Kasimir Esterházy de Galántha (Salzburg 13 Jul 1906-Ering 6 Dec 1999) %%
-		name=Marie-Gabrielle
+	100097456={ # Aloisia (Wien 2 Oct 1852-Alt Röhrsdorf 19 Apr 1924); m.2 Aug 1871 Stanislaus v. Hoyos (Mariaenzersdorf 20 Aug 1845-Oberlauterbach 24 Oct 1918) %%
+		name=Aloisia
 		female=yes
 		dynasty=1013008
-		religion=catholic culture=bohemian
-		father=100195255	# Ivo Maximilian Gustav Sedlnitzky-Odrowaz v.Choltitz
-		1920.04.23={birth=yes}  # Pillham bei Ruhstorf
-		2011.01.12={death=yes}
+		religion=catholic culture=german
+		father=100195256	# Franz Seraph Sedlnitzky-Odrowaz v.Choltitz
+		1852.10.02={birth=yes}  # Wien
+		1924.04.19={death=yes}  # Alt Röhrsdorf
 	}
-	100090112={ # Zita (b.6 Aug 1921); m.3 Jun 1947 Christoph v. Thun u.Hohenstein (10 Nov 1918-3 Aug 1990) %%
-		name=Zita
+	100090111={ # Elisabeth (24 Mar 1854-8 Apr 1941); m.3 Aug 1878 Franz Anton v. Thun u.Hohenstein (14 Nov 1845-10 Feb 1922) %%
+		name=Elisabeth
 		female=yes
 		dynasty=1013008
-		religion=catholic culture=bohemian
-		father=100195255	# Ivo Maximilian Gustav Sedlnitzky-Odrowaz v.Choltitz
-		1921.08.06={birth=yes}
-		2001.01.01={death=yes}	# EST.
+		religion=catholic culture=german
+		father=100195256	# Franz Seraph Sedlnitzky-Odrowaz v.Choltitz
+		1854.03.24={birth=yes}
+		1941.04.08={death=yes}
 	}
-	
+	100190111={ # Ferdinand (1857-1941) %%
+		name=Ferdinand
+		dynasty=1013008
+		religion=catholic culture=german
+		father=100195256	# Franz Seraph Sedlnitzky-Odrowaz v.Choltitz
+		1857.01.01={birth=yes}
+		1941.01.01={death=yes}
+	}
+		100195255={ # Ivo Maximilian Gustav (11 Jun 1889-5 Jan 1946) %%
+			name="Ivo Maximilian Gustav"
+			dynasty=1013008
+			religion=catholic culture=bohemian
+			father=100190111	# Ferdinand Sedlnitzky-Odrowaz v.Choltitz
+			1889.06.11={birth=yes}
+			1946.01.05={death=yes}
+		}
+			100095255={ # Marie-Gabrielle (Pillham bei Ruhstorf 23 Apr 1920-12 Jan 2011); m.27 May 1941 Kasimir Esterházy de Galántha (Salzburg 13 Jul 1906-Ering 6 Dec 1999) %%
+				name=Marie-Gabrielle
+				female=yes
+				dynasty=1013008
+				religion=catholic culture=bohemian
+				father=100195255	# Ivo Maximilian Gustav Sedlnitzky-Odrowaz v.Choltitz
+				1920.04.23={birth=yes}  # Pillham bei Ruhstorf
+				2011.01.12={death=yes}
+			}
+			100090112={ # Zita (b.6 Aug 1921); m.3 Jun 1947 Christoph v. Thun u.Hohenstein (10 Nov 1918-3 Aug 1990) %%
+				name=Zita
+				female=yes
+				dynasty=1013008
+				religion=catholic culture=bohemian
+				father=100195255	# Ivo Maximilian Gustav Sedlnitzky-Odrowaz v.Choltitz
+				1921.08.06={birth=yes}
+				2001.01.01={death=yes}	# EST.
+			}
+		
 100093506={ # Thilo v. Trotha (Callenberg 27 Jul 1882-Skopau 14 Dec 1969); m.14 Apr 1916 Ida Auguste v. Isenburg (Wächtersbach 9 Aug 1885-Stuttgart 18 Oct 1964) %%
 	name=Thilo
 	dynasty=1002210
@@ -1824,8 +1858,8 @@
 		1966.06.29={death=yes}
 	}
 
-100187913={ # Franz Mayr v.Melnhof Mayr v.Melnhof (1854-1893) %%
-	name="Franz Mayr v.Melnhof"
+100187913={ # Franz Mayr v.Melnhof (1854-1893) %%
+	name=Franz
 	dynasty=1002212
 	religion=catholic culture=german
 	1854.01.01={birth=yes}
@@ -1835,7 +1869,7 @@
 		name=Franz
 		dynasty=1002212
 		religion=catholic culture=german
-		father=100187913	# Franz Mayr v.Melnhof Mayr v.Melnhof
+		father=100187913	# Franz Mayr v.Melnhof
 		1888.06.24={birth=yes}  # Hietzing
 		1918.08.29={add_spouse=100001882}	# Marie Franziska zu Hohenlohe-Waldenburg-Schillingsfürst
 		1958.12.30={death=yes}  # Frohnleiten
@@ -1854,7 +1888,7 @@
 		name=Friedrich
 		dynasty=1002212
 		religion=catholic culture=german
-		father=100187913	# Franz Mayr v.Melnhof Mayr v.Melnhof
+		father=100187913	# Franz Mayr v.Melnhof
 		1892.07.07={birth=yes}
 		1919.02.01={add_spouse=100020494}	# Maria-Anna v. Meran
 		1959.03.07={death=yes}
