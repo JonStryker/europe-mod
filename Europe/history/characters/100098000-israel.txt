@@ -1,21 +1,289 @@
 ##ÄNSI
 
-100198000={ # Benjamin Netanyahu (b.21 Oct 1949); m.1991 Sara Ben-Artzi (b.5 Nov 1958) %%
-	name=Benjamin
+## NETANYAHU
+100198026={ # Nathan Netanyahu (15 Jul 1879-4 Feb 1935) %%
+	name=Nathan
 	dynasty=4126
-	dna=dgaddabdaaj
-	properties=ah0aoc00000
-	martial=7 diplomacy=6 intrigue=10 stewardship=5 learning=4
+	religion=jewish culture=israeli
+	1879.07.15={birth=yes}
+	1935.02.04={death=yes}
+}
+	100198002={ # Bentzion (25 Mar 1910-30 Apr 2012); m.1944 Tzila Segal (28 Aug 1912-1 Feb 2000) %%
+		name=Bentzion
+		dynasty=4126
+		religion=jewish culture=israeli
+		father=100198026	# Natan Netanyahu
+		1910.03.25={birth=yes}
+		1944.01.01={add_spouse=100198003}	# Tzila Segal
+		2012.04.30={death=yes}
+	}
+		100198010={ # Yonatan (13 Mar 1946-4 Jul 1976) %%
+			name=Yonatan
+			dynasty=4126
+			martial=12
+			religion=jewish
+			culture=israeli
+			trait=brilliant_strategist
+			father=100198002	# Bentzion Netanyahu
+			mother=100198003	# Tzila Segal
+			1946.03.13={birth=yes}
+			1976.07.04={death={death_reason=death_battle}}
+		}
+		100198000={ # Benjamin (b.21 Oct 1949); m.1991 Sara Ben-Artzi (b.5 Nov 1958) %%
+			name=Benjamin
+			dynasty=4126
+			dna=dgaddabdaaj
+			properties=ah0aoc00000
+			martial=7 diplomacy=6 intrigue=10 stewardship=5 learning=4
+			religion=jewish
+			culture=israeli
+			trait=charismatic_negotiator trait=quick trait=envious trait=ambitious
+			trait=paranoid trait=proud trait=patient
+			father=100198002	# Bentzion Netanyahu
+			mother=100198003	# Tzila Segal
+			1949.10.21={birth=yes}
+			1991.01.01={add_spouse=100198001}	# Sara Ben-Artzi
+		}
+			100198005={ # Noa (b.1982); m.5 Oct 2005 Daniel Rot (b.1982) %%
+				name=Noa
+				female=yes
+				dynasty=4126
+				religion=jewish culture=israeli
+				father=100198000	# Benjamin Netanyahu
+				1982.01.01={birth=yes}
+				2005.10.05={add_spouse=100198006}	# Daniel Rot
+			}
+			100198004={ # Yair (b.1992) %%
+				name=Yair
+				dynasty=4126
+				religion=jewish culture=israeli
+				father=100198000	# Benjamin Netanyahu
+				mother=100198001	# Sara Ben-Artzi
+				1992.01.01={birth=yes}
+			}
+			100198009={ # Avner (b.1995) %%
+				name=Avner
+				dynasty=4126
+				martial=2
+				diplomacy=7
+				stewardship=4
+				intrigue=2
+				learning=10
+				religion=jewish
+				culture=israeli
+				trait=scholarly_theologian
+				trait=quick
+				trait=brave
+				trait=proud
+				trait=content
+				father=100198000	# Benjamin Netanyahu
+				mother=100198001	# Sara Ben-Artzi
+				1995.01.01={birth=yes}
+				2015.01.01={employer=100198000}
+			}
+		100198011={ # Ido (b.1952) %%
+			name=Ido
+			dynasty=4126
+			religion=jewish culture=israeli
+			father=100198002	# Bentzion Netanyahu
+			mother=100198003	# Tzila Segal
+			1952.01.01={birth=yes}
+			2015.01.01={employer=100098000}
+		}
+## NETANYAHU	
+
+## ROT
+100198006={ # Daniel Rot (b.1982); m.5 Oct 2005 Noa Netanyahu (b.1982) %%
+	name=Daniel
+	dynasty=4213
+	martial=0
+	diplomacy=3
+	stewardship=3
+	intrigue=4
+	learning=7
 	religion=jewish
 	culture=israeli
-	trait=charismatic_negotiator trait=quick trait=envious trait=ambitious
-	trait=paranoid trait=proud trait=patient
-	father=100198002	# Bentzion Netanyahu
-	mother=100198003	# Tzila Segal
-	1949.10.21={birth=yes}
-	1991.01.01={add_spouse=100198001}	# Sara Ben-Artzi
+	trait=detached_priest
+	trait=zealous
+	trait=humble
+	1982.01.01={birth=yes}
+	2005.10.05={add_spouse=100198005}	# Noa Netanyahu
+	2015.01.01={employer=100098000}
 }
+	100198007={ # Shmuel (b.2009) %%
+		name=Shmuel
+		dynasty=4213
+		religion=jewish culture=israeli
+		father=100198006	# Daniel Rot
+		mother=100198005	# Noa Netanyahu
+		2009.01.01={birth=yes}
+		2015.01.01={employer=100098000}
+	}
+	100198008={ # David (b.10 Aug 2011) %%
+		name=David
+		dynasty=4213
+		religion=jewish culture=israeli
+		father=100198006	# Daniel Rot
+		mother=100198005	# Noa Netanyahu
+		2011.08.10={birth=yes}
+		2015.01.01={employer=100098000}
+	}
+## ROT
 
+## RABIN
+100198088={ # Yitzhak Rabin (1 Mar 1922-4 Nov 1995) %%
+	name=Yitzhak
+	dynasty=4146
+	martial=15 diplomacy=11 stewardship=8 intrigue=5 learning=6
+	religion=jewish culture=israeli
+	trait=brilliant_strategist trait=brave trait=kind trait=ambitious trait=diligent
+	1922.03.01={birth=yes}
+	1995.11.04={death={death_reason=death_murder killer=100098089}}
+}
+	100198090={ # Dalia (b.19 Mar 1950) %%
+		name=Dalia
+		female=yes
+		dynasty=4146
+		religion=jewish culture=israeli
+		martial=8 diplomacy=7 stewardship=5 intrigue=6 learning=5
+		trait=charismatic_negotiator trait=diligent trait=just trait=patient
+		father=100198088	# Itzhak Rabin
+		1950.03.19={birth=yes}
+		2015.01.01={employer=100098012}
+	}
+		100198091={ # Noa (b.20 Mar 1977) %%
+			name=Noa
+			female=yes
+			dynasty=4146
+			religion=jewish culture=israeli
+			martial=5 diplomacy=8 stewardship=6 intrigue=6 learning=9
+			trait=charismatic_negotiator trait=honest trait=cynical trait=just trait=content
+			mother=100198090	# Dalia Rabin
+			1977.03.20={birth=yes}
+			2015.01.01={employer=100098012}
+		}
+			100198093={ # Omer (b.2009) %%
+				name=Omer
+				dynasty=4146
+				religion=jewish culture=israeli
+				father=100198092	# Eldad Rotman
+				mother=100198091	# Noa Rabin
+				2009.01.01={birth=yes}
+				2015.01.01={employer=100098012}
+			}
+			100198094={ # Yael (b.4 Jun 2011) %%
+				name=Yael
+				female=yes
+				dynasty=4146
+				religion=jewish culture=israeli
+				father=100198092	# Eldad Rotman
+				mother=100198091	# Noa Rabin
+				2011.06.04={birth=yes}
+				2015.01.01={employer=100098012}
+			}
+## RABIN
+
+## LAPID
+100198032={ # Tommy Lapid (27 Dec 1931-1 Jun 2008); m.1960 Shulamit Giladi (b.9 Nov 1934) %%
+	name=Tommy
+	dynasty=4093
+	religion=jewish culture=israeli
+	father=100198035	# Meir Lapid
+	1931.12.27={birth=yes}
+	1960.01.01={add_spouse=100198033}	# Shulamit Giladi
+	2008.06.01={death=yes}
+}
+	100198027={ # Yair (b.5 Nov 1963); m.1990 Lihi Man (b.12 May 1968) %%
+		name=Yair
+		dynasty=4093
+		religion=jewish culture=israeli
+		father=100198032	# Yosef 'Tommy' Lapid
+		mother=100198033	# Shulamit Giladi
+		1963.11.05={birth=yes}
+		1990.01.01={add_spouse=100198028}	# Lihi Man
+		2013.01.01={add_claim=k_israel}
+	}
+		100198030={ # Yoav (b.1987) %%
+			name=Yoav
+			dynasty=4093
+			martial=4
+			diplomacy=11
+			stewardship=5
+			intrigue=3
+			learning=8
+			religion=jewish
+			culture=israeli
+			trait=grey_eminence
+			trait=gregarious
+			trait=quick
+			trait=humble
+			trait=content
+			trait=cynical
+			father=100198027	# Yair Lapid
+			1987.01.01={birth=yes}
+			2015.01.01={employer=100198027}
+		}
+		100198029={ # Lior (b.1996) %%
+			name=Lior
+			dynasty=4093
+			martial=3
+			diplomacy=7
+			stewardship=4
+			intrigue=7
+			learning=3
+			religion=jewish
+			culture=israeli
+			trait=charismatic_negotiator
+			trait=just
+			trait=kind
+			trait=trusting
+			trait=slothful
+			father=100198027	# Yair Lapid
+			mother=100198028	# Lihi Man
+			1996.01.01={birth=yes}
+			2015.01.01={employer=100198027}
+		}
+		100198031={ # Yael (b.10 Jan 1997) %%
+			name=Yael
+			female=yes
+			dynasty=4093
+			martial=1
+			diplomacy=1
+			stewardship=0
+			intrigue=0
+			learning=1
+			religion=jewish
+			culture=israeli
+			trait=naive_appeaser
+			trait=imbecile
+			trait=kind
+			trait=trusting
+			father=100198027	# Yair Lapid
+			mother=100198028	# Lihi Man
+			1997.01.10={birth=yes}
+			2015.01.01={employer=100198027}
+		}
+## LAPID
+
+100198028={ # Lihi Man (b.12 May 1968); m.1990 Yair Lapid (b.5 Nov 1963) %%
+	name=Lihi
+	female=yes
+	dynasty=4216
+	martial=4
+	diplomacy=9
+	stewardship=5
+	intrigue=6
+	learning=7
+	religion=jewish
+	culture=israeli
+	trait=scholarly_theologian
+	trait=gregarious
+	trait=honest
+	trait=just
+	trait=envious
+	1968.05.12={birth=yes}
+	1990.01.01={add_spouse=100198027}	# Yair Lapid
+}
 100198001={ # Sara Ben-Artzi (b.5 Nov 1958); m.1991 Benjamin Netanyahu (b.21 Oct 1949) %%
 	name=Sara
 	female=yes
@@ -37,29 +305,6 @@
 	1958.11.05={birth=yes}
 	1991.01.01={add_spouse=100198000}	# Benjamin Netanyahu
 }
-
-100198002={ # Bentzion Netanyahu (25 Mar 1910-30 Apr 2012); m.1944 Tzila Segal (28 Aug 1912-1 Feb 2000) %%
-	name=Bentzion
-	dynasty=4126
-	martial=2
-	diplomacy=7
-	intrigue=5
-	stewardship=6
-	learning=15
-	religion=jewish
-	culture=israeli
-	trait=mastermind_theologian
-	trait=genius
-	trait=scholar
-	trait=diligent
-	trait=content
-	trait=patient
-	trait=shy
-	father=100198026	# Natan Netanyahu
-	1910.03.25={birth=yes}
-	1944.01.01={add_spouse=100198003}	# Tzila Segal
-	2012.04.30={death=yes}
-}
 100198003={ # Tzila Segal (28 Aug 1912-1 Feb 2000); m.1944 Bentzion Netanyahu (25 Mar 1910-30 Apr 2012) %%
 	name=Tzila
 	female=yes
@@ -77,174 +322,6 @@
 	1912.08.28={birth=yes}
 	1944.01.01={add_spouse=100198002}	# Bentzion Netanyahu
 	2000.02.01={death=yes}
-}
-100198004={ # Yair Netanyahu (b.1992) %%
-	name=Yair
-	dynasty=4126
-	martial=2
-	diplomacy=11
-	stewardship=7
-	intrigue=8
-	learning=6
-	religion=jewish
-	culture=israeli
-	trait=charismatic_negotiator
-	trait=hedonist
-	trait=lustful
-	trait=diligent
-	trait=ambitious
-	trait=shy
-	father=100198000	# Benjamin Netanyahu
-	mother=100198001	# Sara Ben-Artzi
-	1992.01.01={birth=yes}
-	2015.01.01={employer=100198000}
-}
-100198005={ # Noa Netanyahu (b.1982); m.5 Oct 2005 Daniel Rot (b.1982) %%
-	name=Noa
-	female=yes
-	dynasty=4126
-	martial=2
-	diplomacy=2
-	stewardship=4
-	intrigue=3
-	learning=10
-	religion=jewish
-	culture=israeli
-	trait=thrifty_clerk
-	trait=humble
-	trait=shy
-	trait=zealous
-	trait=temperate
-	father=100198000	# Benjamin Netanyahu
-	1982.01.01={birth=yes}
-	2005.10.05={add_spouse=100198006}	# Daniel Rot
-}
-100198006={ # Daniel Rot (b.1982); m.5 Oct 2005 Noa Netanyahu (b.1982) %%
-	name=Daniel
-	dynasty=4213
-	martial=0
-	diplomacy=3
-	stewardship=3
-	intrigue=4
-	learning=7
-	religion=jewish
-	culture=israeli
-	trait=detached_priest
-	trait=zealous
-	trait=humble
-	1982.01.01={birth=yes}
-	2005.10.05={add_spouse=100198005}	# Noa Netanyahu
-	2015.01.01={employer=100098000}
-}
-100198007={ # Shmuel Rot (b.2009) %%
-	name=Shmuel
-	dynasty=4213
-	martial=0
-	diplomacy=0
-	stewardship=1
-	intrigue=0
-	learning=3
-	religion=jewish
-	culture=israeli
-	father=100198006	# Daniel Rot
-	mother=100198005	# Noa Netanyahu
-	2009.01.01={birth=yes}
-	2015.01.01={employer=100098000}
-}
-100198008={ # David Rot (b.10 Aug 2011) %%
-	name=David
-	dynasty=4213
-	martial=0
-	diplomacy=0
-	stewardship=0
-	intrigue=0
-	learning=1
-	religion=jewish
-	culture=israeli
-	father=100198006	# Daniel Rot
-	mother=100198005	# Noa Netanyahu
-	2011.08.10={birth=yes}
-	2015.01.01={employer=100098000}
-}
-100198009={ # Avner Netanyahu (b.1995) %%
-	name=Avner
-	dynasty=4126
-	martial=2
-	diplomacy=7
-	stewardship=4
-	intrigue=2
-	learning=10
-	religion=jewish
-	culture=israeli
-	trait=scholarly_theologian
-	trait=quick
-	trait=brave
-	trait=proud
-	trait=content
-	father=100198000	# Benjamin Netanyahu
-	mother=100198001	# Sara Ben-Artzi
-	1995.01.01={birth=yes}
-	2015.01.01={employer=100198000}
-}
-100198026={ # Natan Netanyahu (15 Jul 1879-4 Feb 1935) %%
-	name=Natan
-	dynasty=4126
-	martial=3
-	diplomacy=7
-	stewardship=2
-	intrigue=4
-	learning=11
-	religion=jewish
-	culture=israeli
-	trait=mastermind_theologian
-	trait=brave
-	trait=zealous
-	trait=ambitious
-	1879.07.15={birth=yes}
-	1935.02.04={death=yes}
-}
-100198010={ # Yonatan Netanyahu (13 Mar 1946-4 Jul 1976) %%
-	name=Yonatan
-	dynasty=4126
-	martial=13
-	diplomacy=4
-	stewardship=1
-	intrigue=2
-	learning=5
-	religion=jewish
-	culture=israeli
-	trait=brilliant_strategist
-	trait=brave
-	trait=patient
-	trait=strong
-	trait=strategist
-	trait=unyielding_leader
-	trait=organizer
-	trait=inspiring_leader
-	father=100198002	# Bentzion Netanyahu
-	mother=100198003	# Tzila Segal
-	1946.03.13={birth=yes}
-	1976.07.04={death={death_reason=death_battle}}
-}
-100198011={ # Ido Netanyahu (b.1952) %%
-	name=Ido
-	dynasty=4126
-	martial=5
-	diplomacy=3
-	stewardship=1
-	intrigue=1
-	learning=9
-	religion=jewish
-	culture=israeli
-	trait=dutiful_cleric
-	trait=content
-	trait=flanker
-	trait=honest
-	trait=humble
-	father=100198002	# Bentzion Netanyahu
-	mother=100198003	# Tzila Segal
-	1952.01.01={birth=yes}
-	2015.01.01={employer=100098000}
 }
 100198012={ # Itzhak Herzog (b.22 Sep 1960); m.1990 Michal (b.1 Nov 1961) %%
 	name=Itzhak
@@ -527,132 +604,6 @@
 	mother=100094483	# Michal
 	1999.01.01={birth=yes}
 	2015.01.01={employer=1000980012}
-}
-100198027={ # Yair Lapid (b.5 Nov 1963); m.1990 Lihi Man (b.12 May 1968) %%
-	name=Yair
-	dynasty=4093
-	martial=6
-	diplomacy=9
-	stewardship=7
-	intrigue=5
-	learning=2
-	religion=jewish
-	culture=israeli
-	trait=charismatic_negotiator
-    trait=fair
-	trait=brave
-	trait=diligent
-	trait=proud
-	trait=just
-	trait=gregarious
-	trait=ambitious
-	trait=poet
-	father=100198032	# Yosef 'Tommy' Lapid
-	mother=100198033	# Shulamit Giladi
-	1963.11.05={birth=yes}
-	1990.01.01={add_spouse=100198028}	# Lihi Man
-	2013.01.01={add_claim=k_israel}
-}
-
-100198028={ # Lihi Man (b.12 May 1968); m.1990 Yair Lapid (b.5 Nov 1963) %%
-	name=Lihi
-	female=yes
-	dynasty=4216
-	martial=4
-	diplomacy=9
-	stewardship=5
-	intrigue=6
-	learning=7
-	religion=jewish
-	culture=israeli
-	trait=scholarly_theologian
-	trait=gregarious
-	trait=honest
-	trait=just
-	trait=envious
-	1968.05.12={birth=yes}
-	1990.01.01={add_spouse=100198027}	# Yair Lapid
-}
-100198029={ # Lior Lapid (b.1996) %%
-	name=Lior
-	dynasty=4093
-	martial=3
-	diplomacy=7
-	stewardship=4
-	intrigue=7
-	learning=3
-	religion=jewish
-	culture=israeli
-	trait=charismatic_negotiator
-	trait=just
-	trait=kind
-	trait=trusting
-	trait=slothful
-	father=100198027	# Yair Lapid
-	mother=100198028	# Lihi Man
-	1996.01.01={birth=yes}
-	2015.01.01={employer=100198027}
-}
-100198030={ # Yoav Lapid (b.1987) %%
-	name=Yoav
-	dynasty=4093
-	martial=4
-	diplomacy=11
-	stewardship=5
-	intrigue=3
-	learning=8
-	religion=jewish
-	culture=israeli
-	trait=grey_eminence
-	trait=gregarious
-	trait=quick
-	trait=humble
-	trait=content
-	trait=cynical
-	father=100198027	# Yair Lapid
-	1987.01.01={birth=yes}
-	2015.01.01={employer=100198027}
-}
-100198031={ # Yael Lapid (b.10 Jan 1997) %%
-	name=Yael
-	female=yes
-	dynasty=4093
-	martial=1
-	diplomacy=1
-	stewardship=0
-	intrigue=0
-	learning=1
-	religion=jewish
-	culture=israeli
-	trait=naive_appeaser
-	trait=imbecile
-	trait=kind
-	trait=trusting
-	father=100198027	# Yair Lapid
-	mother=100198028	# Lihi Man
-	1997.01.10={birth=yes}
-	2015.01.01={employer=100198027}
-}
-100198032={ # Yosef 'Tommy' Lapid (27 Dec 1931-1 Jun 2008); m.1960 Shulamit Giladi (b.9 Nov 1934) %%
-	name="Yosef 'Tommy'"
-	dynasty=4093
-	martial=3
-	diplomacy=12
-	stewardship=6
-	intrigue=4
-	learning=5
-	religion=jewish
-	culture=israeli
-	trait=grey_eminence
-	trait=cynical
-	trait=honest
-	trait=just
-	trait=ambitious
-	trait=gluttonous
-	father=100198035	# Meir Lapid
-	1931.12.27={birth=yes}
-	1960.01.01={add_spouse=100198033}	# Shulamit Giladi
-	2008.06.01={death=yes}
 }
 100198033={ # Shulamit Giladi (b.9 Nov 1934); m.1960 Yosef 'Tommy' Lapid (27 Dec 1931-1 Jun 2008) %%
 	name=Shulamit
@@ -1708,24 +1659,7 @@
 	1898.05.03={birth=yes}
 	1978.12.03={death=yes}
 }
-100198088={ # Itzhak Rabin (1 Mar 1922-4 Nov 1995) %%
-	name=Itzhak
-	dynasty=4146
-	martial=15
-	diplomacy=11
-	stewardship=8
-	intrigue=5
-	learning=6
-	religion=jewish
-	culture=israeli
-	trait=brilliant_strategist
-	trait=brave
-	trait=kind
-	trait=ambitious
-	trait=diligent
-	1922.03.01={birth=yes}
-	1995.11.04={death={death_reason=death_murder killer=100098089}}
-}
+
 100198089={ # Yigal Amir (b.3 May 1970) %%
 	name=Yigal
 	dynasty=4232
@@ -1742,45 +1676,6 @@
 	trait=arbitrary
 	trait=cruel
 	1970.05.03={birth=yes}
-}
-100198090={ # Dalia Rabin (b.19 Mar 1950) %%
-	name=Dalia
-	female=yes
-	dynasty=4146
-	martial=8
-	diplomacy=7
-	stewardship=5
-	intrigue=6
-	learning=5
-	religion=jewish
-	culture=israeli
-	trait=charismatic_negotiator
-	trait=diligent
-	trait=just
-	trait=patient
-	father=100198088	# Itzhak Rabin
-	1950.03.19={birth=yes}
-	2015.01.01={employer=100098012}
-}
-100198091={ # Noa Rabin (b.20 Mar 1977) %%
-	name=Noa
-	female=yes
-	dynasty=4146
-	martial=5
-	diplomacy=8
-	stewardship=6
-	intrigue=6
-	learning=9
-	religion=jewish
-	culture=israeli
-	trait=charismatic_negotiator
-	trait=honest
-	trait=cynical
-	trait=just
-	trait=content
-	mother=100198090	# Dalia Rabin
-	1977.03.20={birth=yes}
-	2015.01.01={employer=100098012}
 }
 100198092={ # Eldad Rotman (b.1975) %%
 	name=Eldad
@@ -1809,37 +1704,7 @@
 	}
 	2015.01.01={employer=100098012}
 }
-100198093={ # Omer Rabin (b.2009) %%
-	name=Omer
-	dynasty=4146
-	martial=0
-	diplomacy=1
-	stewardship=1
-	intrigue=0
-	learning=1
-	religion=jewish
-	culture=israeli
-	father=100198092	# Eldad Rotman
-	mother=100198091	# Noa Rabin
-	2009.01.01={birth=yes}
-	2015.01.01={employer=100098012}
-}
-100198094={ # Yael Rabin (b.4 Jun 2011) %%
-	name=Yael
-	female=yes
-	dynasty=4146
-	martial=0
-	diplomacy=1
-	stewardship=0
-	intrigue=0
-	learning=0
-	religion=jewish
-	culture=israeli
-	father=100198092	# Eldad Rotman
-	mother=100198091	# Noa Rabin
-	2011.06.04={birth=yes}
-	2015.01.01={employer=100098012}
-}
+
 100198095={ # Menachem Talbot (16 Aug 1913-9 Mar 1992) %%
 	name=Menachem
 	dynasty=4020
