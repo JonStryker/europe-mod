@@ -106,7 +106,7 @@
 				mother=100002059	# Dorothea v. Hohenzollern
 				1471.10.07={birth=yes}
 				1502.04.10={add_spouse=100002446}	# Anna v. Hohenzollern
-				1518.10.09={add_spouse=100092327}	# Sophie von Pommern
+				1518.10.09={add_spouse=100010401}	# Sophie von Pommern
 				1533.04.10={death=yes}  # Gottorf
 			}
 				100003182={ # 1b) Christian III, King von Denmark and Norway (Gottorf 12 Aug 1503-Kolding 1 Jan 1559); m.Lauenburg 29 Oct 1525 Pss Dorothea von Sachsen-Lauenburg (9 Jul 1511-Sonderburg 7 Oct 1571)
@@ -456,16 +456,7 @@
 							1570.11.26={birth=yes}  # Sonderburg
 							1633.06.14={death=yes}
 						}
-						100005263={ # 4d) Alexander von Schleswig-Holstein-Sonderburg (Sonderburg 20 Feb 1573-Sonderburg 13 May 1627); m.Oldenburg 26 Nov 1604 Dorothea Gfn von Schwarzburg-Sondershausen (Sondershausen 23 Aug 1579-Gamelgaard 5 Jul 1639); for their descendants see Part 4
-							name=Alexander
-							dynasty=224
-							religion=lutheran culture=danish
-							father=100005148	# Johann von Oldenburg
-							mother=100091698	# PSS Elisabeth von Braunschweig-Grubenhagen
-							1573.02.20={birth=yes}  # Sonderburg
-							1604.11.26={add_spouse=100009159}	# Dorothea v. Schwarzburg-Sondershausen
-							1627.05.13={death=yes}  # Sonderburg
-						}
+						# old3 -> 4d) Alexander von Schleswig-Holstein-Sonderburg (Sonderburg 20 Feb 1573-Sonderburg 13 May 1627); m.Oldenburg 26 Nov 1604 Dorothea Gfn von Schwarzburg-Sondershausen (Sondershausen 23 Aug 1579-Gamelgaard 5 Jul 1639); for their descendants see Part 4
 						100005296={ # 7d) Johann Adolf, Duke von Holstein-Norburg (Sonderburg 17 Sep 1576-Norburg 21 Feb 1624)
 							name="Johann Adolf"
 							dynasty=224
@@ -633,7 +624,7 @@
 									1673.05.05={birth=yes}  # Glücksburg
 									1699.02.15={add_spouse=100007463}	# Christiane v. Wettin
 									1722.09.02={add_spouse=100098970}	# GFN Katharine Christine von Ahlefeld
-									1726.08.01={add_spouse=100198971}	# Charlotte von Oldenburg
+									1726.08.01={add_spouse=100009345}	# Charlotte von Oldenburg
 									1729.11.12={death=yes}  # Glücksburg
 								}
 									100005367={ # 1g) Christiane Ernestine (Glücksburg 7 Nov 1699-Glücksburg 27 Jun 1742)
@@ -1014,7 +1005,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100003297	# Frederik von Oldenburg
-					mother=100092327	# Sophie von Pommern
+					mother=100010401	# Sophie von Pommern
 					1521.06.29={birth=yes}  # Hadersleben
 					1580.10.01={death=yes}  # Hansburg
 				}
@@ -1024,7 +1015,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100003297	# Frederik von Oldenburg
-					mother=100092327	# Sophie von Pommern
+					mother=100010401	# Sophie von Pommern
 					1524.10.14={birth=yes}
 					1586.10.15={death=yes}  # Gjedser
 				}
@@ -1035,7 +1026,7 @@
 					dynasty=224
 					religion=lutheran culture=danish
 					father=100003297	# Frederik von Oldenburg
-					mother=100092327	# Sophie von Pommern
+					mother=100010401	# Sophie von Pommern
 					1528.01.01={birth=yes}
 					1575.11.11={death=yes}  # Schönberg Mecklenburg
 				}
@@ -1053,8 +1044,452 @@
 ### EARLY
 
 
+## old3
+100005263={ # Duke Alexander of Schleswig-Holstein-Sonderburg (Sonderburg 20 Feb 1573-Sonderburg 13 May 1627); m.Oldenburg 26 Nov 1604 Dorothea Gfn von Schwarzburg-Sondershausen (Sondershausen 23 Aug 1579-Gamelgaard 5 Jul 1639)
+	name=Alexander
+	dynasty=224
+	religion=catholic culture=german
+	father=100005148	# Johann von Oldenburg
+	mother=100091698	# PSS Elisabeth von Braunschweig-Grubenhagen
+	1573.02.20={birth=yes}  # Sonderburg
+	1604.11.26={add_spouse=100009159}	# Dorothea v. Schwarzburg-Sondershausen
+	1627.05.13={death=yes}  # Sonderburg
+}
+	100004300={ # 1a) Johann Christian of Schleswig-Holstein-Sonderburg (Beck 26 Apr 1607-Sonderburg 28 Jun 1653); m.4 Nov 1634 Anna Gfn von Oldenburg (Delmenhorst 28 Mar 1605-Weimar 12 Dec 1688)
+		name="Johann Christian"
+		dynasty=224
+		religion=catholic culture=german
+		father=100005263	# Alexander von Oldenburg
+		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		1607.04.26={birth=yes}  # Beck
+		1634.11.04={add_spouse=100085666}	# GFN Anna von Oldenburg
+		1653.06.28={death=yes}  # Sonderburg
+	}
+		100008195={ # 1b) Dorothea Auguste (Sonderburg 30 Sep 1636-Vöhl 18 Sep 1662); m.Sonderburg 5 Mar 1661 Ldgve Georg III of Hesse-Darmstadt (d.19 Jul 1676)
+			name="Dorothea Auguste"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100004300	# Johann Christian von Oldenburg
+			mother=100085666	# GFN Anna von Oldenburg
+			1636.09.30={birth=yes}  # Sonderburg
+			1662.09.18={death=yes}  # Vöhl
+		}
+		100008198={ # 2b) Christiane Elisabeth (Sonderburg 23 Jun 1638-Weimar 7 Jun 1679); m.Weimar 14 Aug 1656 Duke Johann Ernst of Saxe-Weimar (d.15 May 1683)
+			name="Christiane Elisabeth"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100004300	# Johann Christian von Oldenburg
+			mother=100085666	# GFN Anna von Oldenburg
+			1638.06.23={birth=yes}  # Sonderburg
+			1679.06.07={death=yes}  # Weimar
+		}
+		100008201={ # 4b) Christian Adolf, Duke of Schleswig-Holstein-Sonderburg, zu Franzhagen (Sonderburg 3 Jun 1641-Hamburg 11 Jan 1702); m.Franzhagen 31 Oct/1 Nov 1676 Pss Eleonore Charlotte of Saxe-Lauenburg (Marienflies, Brandenburg 8 Aug 1646-Franzhagen 26 Jan 1709)
+			name="Christian Adolf"
+			dynasty=224
+			religion=catholic culture=german
+			father=100004300	# Johann Christian von Oldenburg
+			mother=100085666	# GFN Anna von Oldenburg
+			1641.06.03={birth=yes}  # Sonderburg
+			1676.11.01={add_spouse=100000247}	# Eleonore Charlotte von Sachsen-Lauenburg
+			1702.01.11={death=yes}  # Hamburg
+		}
+			100008203={ # 1c) Leopold Christian, Duke of Schleswig-Holstein-Sonderburg-Franzhagen (Franzhagen 25 Aug 1678-Hamburg 13 Jul 1707); m.Anna Sophia N
+				name="Leopold Christian"
+				dynasty=224
+				religion=catholic culture=german
+				father=100008201	# Christian Adolf von Oldenburg
+				mother=100000247	# Eleonore Charlotte von Sachsen-Lauenburg
+				1678.08.25={birth=yes}  # Franzhagen
+				1707.07.13={death=yes}  # Hamburg
+			}
+			100008207={ # 2c) Ludwig Karl, Duke of Schleswig-Holstein-Sonderburg-Franzhagen (Franzhagen 4 Jun 1684-Franzhagen 11 Oct 1708); m.Ottensen 20 Dec 1705 Barbara Dorothea von Winterfeld (Tüzen 4 Sep 1670-Hamburg 27 Apr 1739)
+				name="Ludwig Karl"
+				dynasty=224
+				religion=catholic culture=german
+				father=100008201	# Christian Adolf von Oldenburg
+				mother=100000247	# Eleonore Charlotte von Sachsen-Lauenburg
+				1684.06.04={birth=yes}  # Franzhagen
+				1708.10.11={death=yes}  # Franzhagen
+			}
+	100008209={ # 2a) Alexander Heinrich (Beck 12 Sep 1608-Tobitschau 5 Sep 1667); m.Sonderburg 1643 Dorothea Heshusius
+		name="Alexander Heinrich"
+		dynasty=224
+		religion=catholic culture=german
+		father=100005263	# Alexander von Oldenburg
+		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		1608.09.12={birth=yes}  # Beck
+		1643.01.01={add_spouse=100086472}	# Dorothea Heshusius
+		1667.09.05={death=yes}  # Tobitschau
+	}
+		100008211={ # 3b) Auguste Sibylle (6 Jan 1649-3 Apr 1672); m.Ernst Gf von Gelhorn (d.4 Apr 1679)
+			name="Auguste Sibylle"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100008209	# Alexander Heinrich von Oldenburg
+			mother=100086472	# Dorothea Heshusius
+			1649.01.06={birth=yes}
+			1672.04.03={death=yes}
+		}
+		100009291={ # 4b) Marie Sibylle (12 Apr 1650-1714); m.1st by 1694 Ferdinand Oktavian Gf von Wrbna u.Freudenthal (d.21 Dec 1695); m.2d 1711 Ct Karl Anton Gianini (d.Vienna 1742)
+			name="Marie Sibylle"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100008209	# Alexander Heinrich von Oldenburg
+			mother=100086472	# Dorothea Heshusius
+			1650.04.12={birth=yes}
+			1714.01.01={death=yes}
+		}
+		100009298={ # 6b) Georg Christian (31 Dec 1653-k.a.Peterwerdein 22 Aug 1691)
+			name="Georg Christian"
+			dynasty=224
+			religion=catholic culture=german
+			father=100008209	# Alexander Heinrich von Oldenburg
+			mother=100086472	# Dorothea Heshusius
+			1653.12.31={birth=yes}
+			1691.08.22={death=yes}  # Peterwerdein
+		}
+		100009300={ # 9b) Marie Anna Eleonore Charlotte (10 Oct 1659-Olmütz 5 Apr 1691; bur St.Jakob, Olmütz); m.Ferdinand Julius Gf von Salm-Neuburg (d.3 Aug 1697)
+			name=Marie
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100008209	# Alexander Heinrich von Oldenburg
+			mother=100086472	# Dorothea Heshusius
+			1659.10.10={birth=yes}
+			1691.04.05={death=yes}  # Olmütz
+		}
+	100009331={ # 3a) Ernst Günther, Duke of Schleswig-Holstein-Sonderburg-Augustenburg (Beck 14 Oct 1609-Augustenburg 18 Jan 1689); m.Copenhagen 15 Jun 1651 Pss Auguste of Schleswig-Holstein-Glücksburg (27 Jun 1633-26 May 1701)
+		name="Ernst Günther"
+		dynasty=224
+		religion=catholic culture=german
+		father=100005263	# Alexander von Oldenburg
+		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		1609.10.14={birth=yes}  # Beck
+		1651.06.15={add_spouse=100005536}	# Auguste von Oldenburg
+		1689.01.18={death=yes}  # Augustenburg
+	}
+		100009332={ # 1b) Friedrich, Duke of Schleswig-Holstein-Sonderburg-Augustenburg (10 Dec 1652-k.a.Steinkerque 3 Aug 1692); m.Gottorp 1/6 Jan 1692 Anna Christine Bereuter
+			name=Friedrich
+			dynasty=224
+			religion=catholic culture=german
+			father=100009331	# Ernst Günther von Oldenburg
+			mother=100005536	# Auguste von Oldenburg
+			1652.12.10={birth=yes}
+			1692.08.03={death=yes}  # Steinkerque
+		}
+		100009333={ # 3b) Philipp Ernst (Copenhagen 24 Oct 1655-k.a.Stettin 8 Sep 1677)
+			name="Philipp Ernst"
+			dynasty=224
+			religion=catholic culture=danish
+			father=100009331	# Ernst Günther von Oldenburg
+			mother=100005536	# Auguste von Oldenburg
+			1655.10.24={birth=yes}  # Copenhagen
+			1677.09.08={death=yes}  # Stettin
+		}
+		100009334={ # 5b) Luise Charlotte (Augustenburg 13 Apr 1658-Königsberg 2 May 1740); m.Augustenburg 1685 Duke Friedrich Ludwig of Holstein-Sonderburg-Beck (d.7 Mar 1728)
+			name="Luise Charlotte"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100009331	# Ernst Günther von Oldenburg
+			mother=100005536	# Auguste von Oldenburg
+			1658.04.13={birth=yes}  # Augustenburg
+			1740.05.02={death=yes}  # Königsberg
+		}
+		100009335={ # 7b) Duke Ernst August of Holstein-Sonderburg-Augustenburg (Sonderburg 3 Oct 1660-Hamburg 11 Mar 1731); m.Köln 1695 Marie Therese Frn von Velbrück (d.Sonderburg 1712)
+			name="Ernst August"
+			dynasty=224
+			religion=catholic culture=german
+			father=100009331	# Ernst Günther von Oldenburg
+			mother=100005536	# Auguste von Oldenburg
+			1660.10.03={birth=yes}  # Sonderburg
+			1731.03.11={death=yes}  # Hamburg
+		}
+		100009336={ # 8b) Dorothea Luise, Abbess of Itzehoe (11 Oct 1663-2 Apr 1721)
+			name="Dorothea Luise"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100009331	# Ernst Günther von Oldenburg
+			mother=100005536	# Auguste von Oldenburg
+			1663.10.11={birth=yes}
+			1721.04.02={death=yes}
+		}
+		100009337={ # 9b) Friedrich Wilhelm (Sonderburg 18 Nov 1668-Augustenburg 2 Jun 1714); m.Hamburg 8 Nov 1694 Sofie Amalie Gfn von Ahlefeld zu Langeland (Altona 12 Jun 1675-Sonderburg 24 Feb 1741)
+			name="Friedrich Wilhelm"
+			dynasty=224
+			religion=catholic culture=german
+			father=100009331	# Ernst Günther von Oldenburg
+			mother=100005536	# Auguste von Oldenburg
+			1668.11.18={birth=yes}  # Sonderburg
+			1694.11.08={add_spouse=100003367}	# Sophie Amalie zu Leiningen
+			1714.06.02={death=yes}  # Augustenburg
+		}
+			100009338={ # 1c) Christian August, Duke of Schleswig-Holstein-Sonderburg-Augustenburg (Augustenburg 4 Aug 1696-Augustenburg 28 Jan 1754); m.Kalundborg 21 Jul 1720 Friederike Luise Gfn von Danneskiold-Samsøe (Oct 1699-Sonderburg 2 Dec 1744)
+				name="Christian August"
+				dynasty=224
+				religion=catholic culture=german
+				father=100009337	# Friedrich Wilhelm von Oldenburg
+				mother=100003367	# Sophie Amalie zu Leiningen
+				1696.08.04={birth=yes}  # Augustenburg
+				1720.07.21={add_spouse=100004968}	# Friederike Luise Danneskiold-Samsøe
+				1754.01.28={death=yes}  # Augustenburg
+			}
+				# Schleswig-Holstein-Sonderburg-Augustenburg -> 1d) Friedrich Christian I, Duke of Schleswig-Holstein-Sonderburg-Augustenburg (6 Apr 1721-Augustenburg 13 Nov 1794); m.Reinfeld 26 May 1762 Pss Charlotte of Holstein-Plön (23 Apr 1744-11 Oct 1770); for his descendants, see here
+				100009340={ # 2d) Emil August (Augustenburg 3 Aug 1722-Augustenburg 6 dec 1786)
+					name="Emil August"
+					dynasty=224
+					religion=catholic culture=german
+					father=100009338	# Christian August von Oldenburg
+					mother=100004968	# Friederike Luise Danneskiold-Samsøe
+					1722.08.03={birth=yes}  # Augustenburg
+					1786.12.06={death=yes}  # Augustenburg
+				}
+				100009341={ # 4d) Sophie Charlotte (Augustenburg 31 May 1725-Gravenstein 7 Oct 1752)
+					name="Sophie Charlotte"
+					female=yes
+					dynasty=224
+					religion=catholic culture=german
+					father=100009338	# Christian August von Oldenburg
+					mother=100004968	# Friederike Luise Danneskiold-Samsøe
+					1725.05.31={birth=yes}  # Augustenburg
+					1752.10.07={death=yes}  # Gravenstein
+				}
+				100009342={ # 5d) Christine Ulrike (Augustenburg 15 Mar 1727-Augustenburg 20 Dec 1794)
+					name="Christine Ulrike"
+					female=yes
+					dynasty=224
+					religion=catholic culture=german
+					father=100009338	# Christian August von Oldenburg
+					mother=100004968	# Friederike Luise Danneskiold-Samsøe
+					1727.03.15={birth=yes}  # Augustenburg
+					1794.12.20={death=yes}  # Augustenburg
+				}
+				100009343={ # 6d) Sofie Magdalene (Augustenburg 23 May 1731-Augustenburg 2 Jul 1799)
+					name="Sofie Magdalene"
+					female=yes
+					dynasty=224
+					religion=catholic culture=german
+					father=100009338	# Christian August von Oldenburg
+					mother=100004968	# Friederike Luise Danneskiold-Samsøe
+					1731.05.23={birth=yes}  # Augustenburg
+					1799.07.02={death=yes}  # Augustenburg
+				}
+				100009344={ # 7d) Charlotte Amalie (Augustenburg 24 Jan 1736-Augustenburg 22 Mar 1815)
+					name="Charlotte Amalie"
+					female=yes
+					dynasty=224
+					religion=catholic culture=german
+					father=100009338	# Christian August von Oldenburg
+					mother=100004968	# Friederike Luise Danneskiold-Samsøe
+					1736.01.24={birth=yes}  # Augustenburg
+					1815.03.22={death=yes}  # Augustenburg
+				}
+			100009345={ # 2c) Charlotte Marie (Augustenburg 5 Sep 1697-Augustenburg 30 Apr 1760); m.Augustenburg 17 Oct 1726 Duke Philipp Ernst of Holstein-Glücksburg (d.12 Nov 1729)
+				name=Charlotte
+				female=yes
+				dynasty=224
+				religion=catholic culture=german
+				father=100009337	# Friedrich Wilhelm von Oldenburg
+				mother=100003367	# Sophie Amalie zu Leiningen
+				1697.09.05={birth=yes}  # Augustenburg
+				1760.04.30={death=yes}  # Augustenburg
+			}
+			100009346={ # 3c) Sofie Luise (Augustenburg 21 Mar 1699-Augustenburg 16 Oct 1765)
+				name="Sofie Luise"
+				female=yes
+				dynasty=224
+				religion=catholic culture=german
+				father=100009337	# Friedrich Wilhelm von Oldenburg
+				mother=100003367	# Sophie Amalie zu Leiningen
+				1699.03.21={birth=yes}  # Augustenburg
+				1765.10.16={death=yes}  # Augustenburg
+			}
+	100009347={ # 4a) Georg Friedrich (18 Dec 1611-23 Aug 1676)
+		name="Georg Friedrich"
+		dynasty=224
+		religion=catholic culture=german
+		father=100005263	# Alexander von Oldenburg
+		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		1611.12.18={birth=yes}
+		1676.08.23={death=yes}
+	}
+	# Schleswig-Holstein-Sonderburg-Beck -> 5a) August Philipp, Duke of Schleswig-Holstein-Sonderburg-Beck (15 Nov 1612-Beck 6 May 1675); m.1st Delmenhorst 19 Jan 1645 Klara Gfn von Oldenburg (19 Apr 1606-Beck 15 Jan 1647); m.2nd Jun 1649 Sidonie Gfn von Oldenburg (10 Jun 1611-Beck 23 Apr 1650); m.3rd Beck Beck 12 Apr 1651 Marie Sibylle Gfn von Nassau-Saarbrücken (6 Oct 1628-Alverdissen 9 Apr 1699)
+	100009378={ # 9a) Sophie Katharine (28 Jun 1617-Neuenburg 22 Nov 1696; bur St.Lamberti, Oldenburg); m.Oldenburg 30 May 1635 Anton Gunther Gf von Oldenburg (d.29 Jun 1667)
+		name="Sophie Katharine"
+		female=yes
+		dynasty=224
+		religion=catholic culture=german
+		father=100005263	# Alexander von Oldenburg
+		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		1617.06.28={birth=yes}
+		1696.11.22={death=yes}  # Neuenburg
+	}
+	100009379={ # 11a) Philipp Ludwig, Duke of Schleswig-Holstein-Sonderburg-Wiesenburg (Beck 27 Oct 1620-Schneeberg 10 Mar 1689); m.1st Lemgo 15 Nov 1643 Katharina Gfn von Waldeck-Wildenburg (20 Oct 1612-Köln 24 Nov 1649); m.2nd Homburg 5 May 1650 Ldgvine Anna Margarete of Hesse-Homburg (Homburg 31 Aug 1629-Oberkotzau 3 Aug 1686); m.3rd Greiz 26 Jul 1688 Magdalene Christine Gfn Reuss zu Obergreiz (Greiz 3 Aug 1652-Dölau 18 Dec 1697)
+		name=Philipp
+		dynasty=224
+		religion=catholic culture=german
+		father=100005263	# Alexander von Oldenburg
+		mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
+		1620.10.27={birth=yes}  # Beck
+		1643.11.15={add_spouse=100086571}	# GFN Katharina von Waldeck-Wildenburg
+		1650.05.05={add_spouse=100086573}	# LDGVINE Anna Margarete von Hessen-Homburg
+		1688.07.26={add_spouse=100003611}	# Magdalene Christine Reuß
+		1689.03.10={death=yes}  # Schneeberg
+	}
+		100009380={ # 1b) Dorothea Elisabeth (Paderborn 1645-Vienna 7 Jan 1725); m.1st Linz 30 Oct 1661 Georg Ludwig Gf von Sinzendorf (d.Vienna 14 Dec 1681); m.2nd 1682 Ludwig Gf de Bussy de Rabutin, Marquis de Frémonville (d.16 Nov 1716)
+			name="Dorothea Elisabeth"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086571	# GFN Katharina von Waldeck-Wildenburg
+			1645.01.01={birth=yes}  # Paderborn
+			1725.01.07={death=yes}  # Vienna
+		}
+		100009381={ # 2b) Friedrich, Duke of Schleswig-Holstein-Sonderburg-Wiesenburg (*Hasselhecke 2 Feb 1651-Wiesenburg 7 Oct 1724); m.Brieg 14 Jul 1672 (div 1680) Pss Charlotte of Liegnitz  (Brieg 2 Dec 1652-Breslau 24 Dec 1707)
+			name=Friedrich
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086573	# LDGVINE Anna Margarete von Hessen-Homburg
+			1651.02.02={birth=yes}  # Hasselhecke
+			1672.07.14={add_spouse=100112435}	# Karolina legnicki
+			1680.01.01={remove_spouse=100112435}
+			1724.10.07={death=yes}  # Wiesenburg
+		}
+			100009382={ # 1c) Leopold, Duke of Schleswig-Holstein-Sonderburg-Wiesenburg (Brieg 12 Jan 1674-Vienna 4 Mar 1744); m.Vienna 28 Feb 1713 Pss Marie Elisabeth von Liechtenstein (9 May 1683-Vienna 8 May 1744; bur St.Stephan, Vienna)
+				name=Leopold
+				dynasty=224
+				religion=catholic culture=german
+				father=100009381	# Friedrich von Oldenburg
+				mother=100112435	# Karolina legnicki
+				1674.01.12={birth=yes}  # Brieg
+				1713.02.28={add_spouse=100086586}	# Marie Elisabeth v. Liechtenstein
+				1744.03.04={death=yes}  # Vienna
+			}
+				100009383={ # 1d) Marie Therese Anna (Vienna 19 Dec 1713-Oettingen 14 Jul 1745); m.Schloß Wetzdorf 23 May 1735 Fst Johann Alois I zu Oettingen-Oettingen und Oettingen-Spielberg (d.1780)
+					name=Therese
+					female=yes
+					dynasty=224
+					religion=catholic culture=german
+					father=100009382	# Leopold von Oldenburg
+					mother=100086586	# Marie Elisabeth v. Liechtenstein
+					1713.12.19={birth=yes}  # Vienna
+					1745.07.14={death=yes}  # Oettingen
+				}
+				100009384={ # 2d) Maria Eleonore Katharina (18 Dec 1715-Brünn 18 Apr 1760); m.Lilienfel, Austria 17 May 1731 Giuseppe Gonzaga, Duke of Guastalla (d.Guastalla 16 Aug 1746)
+					name=Maria
+					female=yes
+					dynasty=224
+					religion=catholic culture=german
+					father=100009382	# Leopold von Oldenburg
+					mother=100086586	# Marie Elisabeth v. Liechtenstein
+					1715.12.18={birth=yes}
+					1760.04.18={death=yes}  # Brünn
+				}
+				100009385={ # 3d) Maria Gabriele Felizitas (Vienna 2 Sep 1716-convent Ste-Walburge, Eichstätt, Bavaria 13 Jun 1798); m.Schloß Wetzdorf 23 May 1735 Karl Fridrich Ldgf zu Fürstenberg (d.Messkirch 4 Apr 1744)
+					name=Maria
+					female=yes
+					dynasty=224
+					religion=catholic culture=german
+					father=100009382	# Leopold von Oldenburg
+					mother=100086586	# Marie Elisabeth v. Liechtenstein
+					1716.09.02={birth=yes}  # Vienna
+					1798.06.13={death=yes}  # convent Ste-Walburge Eichstätt Bavaria
+				}
+				100009386={ # 4d) Marie Charlotte Antonie (Vienna 18 Feb 1718-Horazdiowitz 4 Jun 1765);m.Vienna 25 Jul 1736 Fst Karl Thomas zu Löwenstein-Wertheim-Rosenberg (d.1789)
+					name=Marie
+					female=yes
+					dynasty=224
+					religion=catholic culture=german
+					father=100009382	# Leopold von Oldenburg
+					mother=100086586	# Marie Elisabeth v. Liechtenstein
+					1718.02.18={birth=yes}  # Vienna
+					1765.06.04={death=yes}  # Horazdiowitz
+				}
+		100009387={ # 4b) Sophie Elisabeth (Homburg 4 May 1653-Schleusingen 19 Aug 1684); m.Wiesenburg 14 Jun 1676 Duke Moritz of Saxe-Zeitz (d.4 Dec 1681)
+			name="Sophie Elisabeth"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086573	# LDGVINE Anna Margarete von Hessen-Homburg
+			1653.05.04={birth=yes}  # Homburg
+			1684.08.19={death=yes}  # Schleusingen
+		}
+		100009388={ # 5b) Karl Ludwig (Homburg vor der Höhe 8 Apr 1654-1690)
+			name="Karl Ludwig"
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086573	# LDGVINE Anna Margarete von Hessen-Homburg
+			1654.04.08={birth=yes}  # Homburg vor der Höhe
+			1690.01.01={death=yes}
+		}
+		100009389={ # 6b) Eleonore Margarete (Lissberg 28 May 1655-Vienna 16 Aug 1702); m.Wilfersdorf 1 Oct 1673 Fst Maximilian II von Liechtenstein (d.21 Apr 1709)
+			name="Eleonore Margarete"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086573	# LDGVINE Anna Margarete von Hessen-Homburg
+			1655.05.28={birth=yes}  # Lissberg
+			1702.08.16={death=yes}  # Vienna
+		}
+		100009390={ # 11b) Wilhelm Christian (Lissberg 15 Jun 1661-Ochsenkopf 23 Feb 1711)
+			name="Wilhelm Christian"
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086573	# LDGVINE Anna Margarete von Hessen-Homburg
+			1661.06.15={birth=yes}  # Lissberg
+			1711.02.23={death=yes}  # Ochsenkopf
+		}
+		100009391={ # 13b) Magdalene Sofie (Wiesenburg 30 May 1664-Wetzdorf 25 Oct 1720)
+			name="Magdalene Sofie"
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086573	# LDGVINE Anna Margarete von Hessen-Homburg
+			1664.05.30={birth=yes}  # Wiesenburg
+			1720.10.25={death=yes}  # Wetzdorf
+		}
+		100009392={ # 14b) Anna Friederike Philippine (Wiesenburg 4 Jul 1665-Neustadt an der Orla 25 Feb 1748); m.Schloß Moritzburg 27 Feb 1702 Duke Friedrich Heinrich of Saxe-Zeitz (d.18 Dec 1713)
+			name=Anna
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086573	# LDGVINE Anna Margarete von Hessen-Homburg
+			1665.07.04={birth=yes}  # Wiesenburg
+			1748.02.25={death=yes}  # Neustadt_an_der_Orla
+		}
+		100009393={ # 15b) Johanne Magdalene Luise (Wiesenburg 24 Jun 1668-Neustadt an der Orla 3 Aug 1732)
+			name=Johanne
+			female=yes
+			dynasty=224
+			religion=catholic culture=german
+			father=100009379	# Philipp von Oldenburg
+			mother=100086573	# LDGVINE Anna Margarete von Hessen-Homburg
+			1668.06.24={birth=yes}  # Wiesenburg
+			1732.08.03={death=yes}  # Neustadt_an_der_Orla
+		}
+#1603.02.20={holder=100005263} # Duke Alexander of Schleswig-Holstein-Sonderburg 
+#1627.05.13={holder=100004300} # 1a) Johann Christian of Schleswig-Holstein-Sonderburg 
+#1653.06.28={holder=100008201} # 4b) Christian Adolf
+#1702.01.11={holder=100008203} # 1c) Leopold Christian
+#1707.07.13={holder=100008207} # 2c) Ludwig Karl
+## old3
+
+
 ### BECK		 	| 1002034 | 100012930-100012999
-100004975={	# August Philipp, Duke of Schleswig-Holstein-Sonderburg-Beck (15 Nov 1612-6 May 1675); 
+100009348={	# August Philipp, Duke of Schleswig-Holstein-Sonderburg-Beck (15 Nov 1612-6 May 1675); 
 			# m.1st Delmenhorst 19 Jan 1645 Klara Gfn von Oldenburg (19 Apr 1606-Beck 15 Jan 1647); 
 			# m.2nd Jun 1649 Sidonie Gfn von Oldenburg (10 Jun 1611-Beck 23 Apr 1650); 
 			# m.3rd Beck Beck 12 Apr 1651 Marie Sibylle Gfn von Nassau-Saarbrücken (6 Oct 1628-Alverdissen 9 Apr 1699)
@@ -1064,148 +1499,148 @@
 	father=100005263	# Alexander von Oldenburg
 	mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
 	1612.11.15={birth=yes}
-	1645.01.19={add_spouse=100094396}	# GFN Klara von Oldenburg
-	1649.06.01={add_spouse=100094397}	# GFN Sidonie von Oldenburg
+	1645.01.19={add_spouse=100086525}	# GFN Klara von Oldenburg
+	1649.06.01={add_spouse=100086530}	# GFN Sidonie von Oldenburg
 	1651.04.12={add_spouse=100037321}	# Marie Sibylle v. Nassau-Weilburg
 	1675.05.06={death=yes}
 }
-	100004976={	# 1b) Sophie Luise (Beck 15 Apr 1650-Bremen 4 Dec 1714); m.3 Apr 1674 Friedrich Gf zur Lippe-Brake (d.13 Jan 1684)
+	100009349={	# 1b) Sophie Luise (Beck 15 Apr 1650-Bremen 4 Dec 1714); m.3 Apr 1674 Friedrich Gf zur Lippe-Brake (d.13 Jan 1684)
 		name="Sophie Luise"
 		female=yes
 		dynasty=1002034
 		religion=lutheran culture=german
-		father=100004975	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
-		mother=100094397	# GFN Sidonie von Oldenburg
+		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
+		mother=100086530	# GFN Sidonie von Oldenburg
 		1650.04.15={birth=yes}
 		1714.12.04={death=yes}
 	}
-	100004977={	# 2b) August, Duke of Schleswig-Holstein-Sonderburg-Beck (Beck 13 Feb 1652-Bonn 26 Sep 1689); m.Beck Aug 1676 Hedwig Luise Gfn zur Lippe-Alverdissen (Bückeburg 7 May 1650-Beck 18 Mar 1731)
+	100009350={	# 2b) August, Duke of Schleswig-Holstein-Sonderburg-Beck (Beck 13 Feb 1652-Bonn 26 Sep 1689); m.Beck Aug 1676 Hedwig Luise Gfn zur Lippe-Alverdissen (Bückeburg 7 May 1650-Beck 18 Mar 1731)
 		name=August
 		dynasty=1002034
 		religion=lutheran culture=german
-		father=100004975	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
+		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
 		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
 		1652.02.13={birth=yes}
-		1676.08.01={add_spouse=100003036}	# Hedwig Luise zur Lippe
+		1676.08.01={add_spouse=100003036}	# Hedwig Luise zu Schaumburg-Lippe
 		1689.09.26={death=yes}
 	}
-		100004979={	# 2c) Friedrich Wilhelm I, Duke of Schleswig-Holstein-Sonderburg-Beck (Haus Beck, Westphalen 2 May 1682-k.a.Francavilla, Sicily 26 Jun 1719); m.München 8 Feb 1708 Marie Antonie Josefa Isnardi di Castello Ctsa di Sanfré (bap München 15 Oct 1692-Vienna 18 Feb 1762)
+		100009352={	# 2c) Friedrich Wilhelm I, Duke of Schleswig-Holstein-Sonderburg-Beck (Haus Beck, Westphalen 2 May 1682-k.a.Francavilla, Sicily 26 Jun 1719); m.München 8 Feb 1708 Marie Antonie Josefa Isnardi di Castello Ctsa di Sanfré (bap München 15 Oct 1692-Vienna 18 Feb 1762)
 			name="Friedrich Wilhelm"
 			dynasty=1002034
 			religion=lutheran culture=german
-			father=100004977	# August v. Schleswig-Holstein-Sonderburg-Beck
-			mother=100003036	# Hedwig Luise zur Lippe
+			father=100009350	# August v. Schleswig-Holstein-Sonderburg-Beck
+			mother=100003036	# Hedwig Luise zu Schaumburg-Lippe
 			1682.05.02={birth=yes}
-			1708.02.08={add_spouse=100085468}	# Marie Antonie Isnardi di Castello
+			1708.02.08={add_spouse=100085468}	# CTSA Marie Antonie Isnardi di Castello
 			1719.06.26={death=yes}
 		}
-			100004980={	# 4d) Maria Anna Josepha Leopoldine (Linz 2 Aug 1717-Turin 7 Feb 1789); m.Vienna 4 Aug 1735 Emanuel de Souza y Calharis (d.Lisbon Jan 1759)
+			100009353={	# 4d) Maria Anna Josepha Leopoldine (Linz 2 Aug 1717-Turin 7 Feb 1789); m.Vienna 4 Aug 1735 Emanuel de Souza y Calharis (d.Lisbon Jan 1759)
 				name="Maria Anna"
 				female=yes
 				dynasty=1002034
 				religion=lutheran culture=german
-				father=100004979	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
-				mother=100085468	# Marie Antonie Isnardi di Castello
+				father=100009352	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
+				mother=100085468	# CTSA Marie Antonie Isnardi di Castello
 				1717.08.02={birth=yes}
 				1789.02.07={death=yes}
 			}
-			100004981={	# 5d) Johanna Amalie (Lodi 3 Dec 1719-Vienna 30 Oct 1774); m.Vienna 26 Sep 1740 Emanuel Tellez de Silva de Tarouca Duc de Silva Cde de Silva-Tarouca (d.Vienna 8 Mar 1771)
+			100009354={	# 5d) Johanna Amalie (Lodi 3 Dec 1719-Vienna 30 Oct 1774); m.Vienna 26 Sep 1740 Emanuel Tellez de Silva de Tarouca Duc de Silva Cde de Silva-Tarouca (d.Vienna 8 Mar 1771)
 				name="Johanna Amalie"
 				female=yes
 				dynasty=1002034
 				religion=lutheran culture=german
-				father=100004979	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
-				mother=100085468	# Marie Antonie Isnardi di Castello
+				father=100009352	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
+				mother=100085468	# CTSA Marie Antonie Isnardi di Castello
 				1719.12.03={birth=yes}
 				1774.10.30={death=yes}
 			}
-	100004982={	# 3b) Friedrich Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck (Beck 6 Apr 1653-Königsberg 7 Mar 1728;bur Königsberg); m.Augustenburg 1 Jan 1685 Pss Luise Charlotte of Schleswig-Holstein-Sonderburg-Augustenburg (13 Apr 1658-2 May 1740)
+	100009355={	# 3b) Friedrich Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck (Beck 6 Apr 1653-Königsberg 7 Mar 1728;bur Königsberg); m.Augustenburg 1 Jan 1685 Pss Luise Charlotte of Schleswig-Holstein-Sonderburg-Augustenburg (13 Apr 1658-2 May 1740)
 		name="Friedrich Ludwig"
 		dynasty=1002034
 		religion=lutheran culture=german
-		father=100004975	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
+		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
 		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
 		1653.04.06={birth=yes}
-		1685.01.01={add_spouse=100092796}	# PSS Luise Charlotte von Oldenburg
+		1685.01.01={add_spouse=100009334}	# Luise Charlotte von Oldenburg
 		1728.03.07={death=yes}
 	}
-		100004983={	# 1c) Dorothea (Augustenburg 4 Dec 1685-Stáfló, Sweden 25 Dec 1761); m.Reinfeld 16 Apr 1709 Mgve Georg Friedrich Karl of Brandenburg-Kulmbach (d.17 May 1735)
+		100009356={	# 1c) Dorothea (Augustenburg 4 Dec 1685-Stáfló, Sweden 25 Dec 1761); m.Reinfeld 16 Apr 1709 Mgve Georg Friedrich Karl of Brandenburg-Kulmbach (d.17 May 1735)
 			name=Dorothea
 			female=yes
 			dynasty=1002034
 			religion=lutheran culture=german
-			father=100004982	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
-			mother=100092796	# PSS Luise Charlotte von Oldenburg
+			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			mother=100009334	# Luise Charlotte von Oldenburg
 			1685.12.04={birth=yes}
 			1761.12.25={death=yes}
 		}
-		100004984={	# 2c) Friedrich Wilhelm II, Duke of Schleswig-Holstein-Sonderburg-Beck (Potsdam 18 Jun 1687-Königsberg 11 Nov 1749); m.1st Luise-Felizitas von Loss Gfn Dabrowa; m.2nd Schlodien 5 Nov 1721 Ursula Anna Bggfn u.Gfn zu Dohna-Schlodien (Carwinden 31 Dec 1700-Königsberg 17 Mar 1761)
+		100009357={	# 2c) Friedrich Wilhelm II, Duke of Schleswig-Holstein-Sonderburg-Beck (Potsdam 18 Jun 1687-Königsberg 11 Nov 1749); m.1st Luise-Felizitas von Loss Gfn Dabrowa; m.2nd Schlodien 5 Nov 1721 Ursula Anna Bggfn u.Gfn zu Dohna-Schlodien (Carwinden 31 Dec 1700-Königsberg 17 Mar 1761)
 			name="Friedrich Wilhelm"
 			dynasty=1002034
 			religion=lutheran culture=german
-			father=100004982	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
-			mother=100092796	# PSS Luise Charlotte von Oldenburg
+			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			mother=100009334	# Luise Charlotte von Oldenburg
 			1687.06.18={birth=yes}
-			1712.01.01={add_spouse=100092581}	# GFN Luise-Felizitas von Loss
-			1721.01.01={remove_spouse=100092581}
-			1721.11.05={add_spouse=100094090}	# BGGFN Ursula Anna zu Dohna-Schlodien
+			1712.01.01={add_spouse=100086544}	# GFN Luise-Felizitas von Loss
+			1721.01.01={remove_spouse=100086544}
+			1721.11.05={add_spouse=100086547}	# BGGFN Ursula Anna zu Dohna-Schlodien
 			1749.11.11={death=yes}
 		}
-			100004985={	# 1d) Sophie Charlotte (Schlodien 31 Dec 1722-Hamburg 7 Aug 1763); m.1st Königsberg 23 Jan 1738 Alexander Emil Bggf u.Gf zu Dohna-Wartenburg-Schlodien (k.a.6 Oct 1745); m.2nd Prökelwitz 1 Jan 1750 Duke Georg Ludwig of Holstein-Gottorp (d.7 Sep 1763)
+			100009358={	# 1d) Sophie Charlotte (Schlodien 31 Dec 1722-Hamburg 7 Aug 1763); m.1st Königsberg 23 Jan 1738 Alexander Emil Bggf u.Gf zu Dohna-Wartenburg-Schlodien (k.a.6 Oct 1745); m.2nd Prökelwitz 1 Jan 1750 Duke Georg Ludwig of Holstein-Gottorp (d.7 Sep 1763)
 				name="Sophie Charlotte"
 				female=yes
 				dynasty=1002034
 				religion=lutheran culture=german
-				father=100004984	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
-				mother=100094090	# BGGFN Ursula Anna zu Dohna-Schlodien
+				father=100009357	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
+				mother=100086547	# BGGFN Ursula Anna zu Dohna-Schlodien
 				1722.12.31={birth=yes}
 				1763.08.07={death=yes}
 			}
-			100004986={	# 2d) Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Beck (Schlodien 4 Nov 1723-k.a.Prague 6 May 1757)
+			100009359={	# 2d) Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Beck (Schlodien 4 Nov 1723-k.a.Prague 6 May 1757)
 				name="Friedrich Wilhelm"
 				dynasty=1002034
 				religion=lutheran culture=german
-				father=100004984	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
-				mother=100094090	# BGGFN Ursula Anna zu Dohna-Schlodien
+				father=100009357	# Friedrich Wilhelm v. Schleswig-Holstein-Sonderburg-Beck
+				mother=100086547	# BGGFN Ursula Anna zu Dohna-Schlodien
 				1723.11.04={birth=yes}
 				1757.05.06={death=yes}
 			}
-		100004987={	# 5c) Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck (18 Sep 1690-Königsberg 22 Sep 1774); m.Dresden 10 Aug 1730 (div 1733) Anna Karoline Orzelska Css of Saxony (Nov 1707-Avignon 27 Sep 1769)
+		100009360={	# 5c) Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck (18 Sep 1690-Königsberg 22 Sep 1774); m.Dresden 10 Aug 1730 (div 1733) Anna Karoline Orzelska Css of Saxony (Nov 1707-Avignon 27 Sep 1769)
 			name="Karl Ludwig"
 			dynasty=1002034
 			religion=lutheran culture=german
-			father=100004982	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
-			mother=100092796	# PSS Luise Charlotte von Oldenburg
+			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			mother=100009334	# Luise Charlotte von Oldenburg
 			1690.09.18={birth=yes}
 			1730.08.10={add_spouse=100007573}	# Anna Karolina v. Wettin
 			1733.01.01={remove_spouse=100007573}
 			1774.09.22={death=yes}
 		}
-			100004988={	# 1d) Karl Friedrich (Dresden 5 Jan 1732-Strassburg 21 Feb 1772)
+			100009361={	# 1d) Karl Friedrich (Dresden 5 Jan 1732-Strassburg 21 Feb 1772)
 				name="Karl Friedrich"
 				dynasty=1002034
 				religion=lutheran culture=german
-				father=100004987	# Karl Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+				father=100009360	# Karl Ludwig v. Schleswig-Holstein-Sonderburg-Beck
 				mother=100007573	# Anna Karolina v. Wettin
 				1732.01.05={birth=yes}
 				1772.02.21={death=yes}
 			}
-		100004989={	# 8c) Luise Albertine (Königsberg 27 Apr 1694-10 Jan 1773); m.Königsberg 6 May 1737 Albert Siegmund von Seeguth-Stanislawsky (d.1768)
+		100009363={	# 8c) Luise Albertine (Königsberg 27 Apr 1694-10 Jan 1773); m.Königsberg 6 May 1737 Albert Siegmund von Seeguth-Stanislawsky (d.1768)
 			name="Luise Albertine"
 			female=yes
 			dynasty=1002034
 			religion=lutheran culture=german
-			father=100004982	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
-			mother=100092796	# PSS Luise Charlotte von Oldenburg
+			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			mother=100009334	# Luise Charlotte von Oldenburg
 			1694.04.27={birth=yes}
 			1773.01.10={death=yes}
 		}
-		100004990={	# 9c) Peter August, Duke of Schleswig-Holstein-Sonderburg-Beck (Königsberg 7 Dec 1696-Reval 24 Feb 1775); m.1st Rinteln 3 Sep 1723 Ldgvine Sofie of Hesse-Philippsthal (Philippsthal 6 Apr 1695-Marburg 8 May 1728); m.2nd St.Petersburg 15 Mar 1742 Css Natalie Golovine (4 Sep 1724-8 Jan 1767)
+		100009364={	# 9c) Peter August, Duke of Schleswig-Holstein-Sonderburg-Beck (Königsberg 7 Dec 1696-Reval 24 Feb 1775); m.1st Rinteln 3 Sep 1723 Ldgvine Sofie of Hesse-Philippsthal (Philippsthal 6 Apr 1695-Marburg 8 May 1728); m.2nd St.Petersburg 15 Mar 1742 Css Natalie Golovine (4 Sep 1724-8 Jan 1767)
 			name="Peter August"
 			dynasty=1002034
 			religion=lutheran culture=german
-			father=100004982	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
-			mother=100092796	# PSS Luise Charlotte von Oldenburg
+			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			mother=100009334	# Luise Charlotte von Oldenburg
 			1696.12.07={birth=yes}
 			1723.09.03={add_spouse=100192223}	# Sofie v. Hessen-Philippsthal
 			1742.03.15={add_spouse=100084284}	# CSS Natalie Golovin
@@ -1216,130 +1651,71 @@
 				female=yes
 				dynasty=1002034
 				religion=lutheran culture=german
-				father=100004990	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
+				father=100009364	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
 				mother=100192223	# Sofie v. Hessen-Philippsthal
 				1726.05.20={birth=yes}
 				1795.01.01={death=yes}  # EST.
 			}
-			100004992={	# 3d) Karl Anton August (Marburg 10 Aug 1727-Stettin 8 Aug 1759); m.Königsberg 30 May 1754 Friederike Bggfn u.Gfn zu Dohna-Leistenau (Königsberg 3 Jul 1738-Wolde, Mecklenburg 21 Apr 1786)
+			100009366={	# 3d) Karl Anton August (Marburg 10 Aug 1727-Stettin 8 Aug 1759); m.Königsberg 30 May 1754 Friederike Bggfn u.Gfn zu Dohna-Leistenau (Königsberg 3 Jul 1738-Wolde, Mecklenburg 21 Apr 1786)
 				name="Karl Anton"
 				dynasty=1002034
 				religion=lutheran culture=german
-				father=100004990	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
+				father=100009364	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
 				mother=100192223	# Sofie v. Hessen-Philippsthal
 				1727.08.10={birth=yes}
-				1754.05.30={add_spouse=100094083}	# BGGFN Friederike zu Dohna-Leistenau
+				1754.05.30={add_spouse=100009186}	# Friederike zu Dohna-Schlobitten
 				1759.08.08={death=yes}
 			}
-				#100012975={	# 1e) Friedrich Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck (Königsberg 20 Aug 1757-Wellinsgbüttel 24 Apr 1816); m.Königsberg 9 Mar 1780 Friederike Gfn von Schlieben (Königsberg 28 Feb 1757-Schleswig 17 Dec 1827)
-			100004994={	# 6d) Katharine (23 Feb 1750-Berlin 10 Dec 1811); m.Riga 8 Jan 1767 Pr Ivan Bariatinsky (d.24 Dec 1811)
+				# Schleswig-Holstein-Sonderburg-Beck -> 1e) Friedrich Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck (Königsberg 20 Aug 1757-Wellinsgbüttel 24 Apr 1816); m.Königsberg 9 Mar 1780 Friederike Gfn von Schlieben (Königsberg 28 Feb 1757-Schleswig 17 Dec 1827)
+			100009368={	# 6d) Katharine (23 Feb 1750-Berlin 10 Dec 1811); m.Riga 8 Jan 1767 Pr Ivan Bariatinsky (d.24 Dec 1811)
 				name=Katharine
 				female=yes
 				dynasty=1002034
 				religion=lutheran culture=german
-				father=100004990	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
+				father=100009364	# Peter August v. Schleswig-Holstein-Sonderburg-Beck
 				mother=100084284	# CSS Natalie Golovin
 				1750.02.23={birth=yes}
 				1811.12.10={death=yes}
 			}
-		100004995={	# 10c) Sophie Henriette (Minden 28 Dec 1698-Königsberg 10 Jan 1768); m.Königsberg 11 Aug 1736 Albert Christof Bggf u.Gf zu Dohna-Schlobitten (d.13 May 1752)
-			name="Sophie Henriette"
+		100009369={	# 10c) Sophie Henriette (Minden 28 Dec 1698-Königsberg 10 Jan 1768); m.Königsberg 11 Aug 1736 Albert Christof Bggf u.Gf zu Dohna-Schlobitten (d.13 May 1752)
+			name=Henriette
 			female=yes
 			dynasty=1002034
 			religion=lutheran culture=german
-			father=100004982	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
-			mother=100092796	# PSS Luise Charlotte von Oldenburg
+			father=100009355	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
+			mother=100009334	# Luise Charlotte von Oldenburg
 			1698.12.28={birth=yes}
 			1768.01.10={death=yes}
-		}
-		100004996={	# 12c) Friederike Sophie (bap Königsberg 27 Mar 1701-    )
-			name="Friederike Sophie"
-			dynasty=1002034
-			religion=lutheran culture=german
-			father=100004982	# Friedrich Ludwig v. Schleswig-Holstein-Sonderburg-Beck
-			mother=100092796	# PSS Luise Charlotte von Oldenburg
-			1701.03.27={birth=yes}
-			1769.01.01={death=yes}  # EST.
 		}
 	100004997={	# 4b) Dorothea Amalie (Beck 1656-Bückeburg 9 Nov 1739); m.Beck 31 Dec 1686 Philipp Ernst Gf zur Lippe-Alverdissen (d.1723)
 		name="Dorothea Amalie"
 		female=yes
 		dynasty=1002034
 		religion=lutheran culture=german
-		father=100004975	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
+		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
 		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
 		1656.01.01={birth=yes}  # Beck
 		1739.11.09={death=yes}  # Bückeburg
 	}
-	100005002={	# 9b) Anton Gunther (10 May 1666-Hertogenbusch 1 Sep 1744)
-		name="Anton Gunther"
-		dynasty=1002034
-		religion=lutheran culture=german
-		father=100004975	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
-		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
-		1666.05.10={birth=yes}
-		1744.09.01={death=yes}
-	}
-	100005003={	# 10b) Ernst Kasimir (Beck 10 Jan 1668-Zetnek, Hungary 5 Feb 1695); m.1693 Marie Christine Gfn von Prösing (d.8 Mar 1696)
+	100009376={	# 10b) Ernst Kasimir (Beck 10 Jan 1668-Zetnek, Hungary 5 Feb 1695); m.1693 Marie Christine Gfn von Prösing (d.8 Mar 1696)
 		name="Ernst Kasimir"
 		dynasty=1002034
 		religion=lutheran culture=german
-		father=100004975	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
+		father=100009348	# August Philipp v. Schleswig-Holstein-Sonderburg-Beck
 		mother=100037321	# Marie Sibylle v. Nassau-Weilburg
 		1668.01.10={birth=yes}
-		1693.01.01={add_spouse=100092888}	# GFN Marie Christine von Prösing
+		1693.01.01={add_spouse=100086567}	# GFN Marie Christine von Prösing
 		1695.02.05={death=yes}
 	}
 ### BECK		 	| 1002034 | 100012930-100012999
 
 
 ### AUGUSTENBG		| 1002027 | 100013400-xxx
-100003162={ # Ernst Günther von Oldenburg (14 Oct 1609-18 Jan 1689); m.15 Jun 1651 Auguste von Oldenburg (Glücksburg 27 Jun 1633-Augustenburg 26 May 1701) %%
-	name="Ernst Günther" #  47774/ernest-gunther-duke-of-schleswig-holstein-sonderburg-augustenburg/
-	dynasty=224
-	religion=lutheran culture=danish
-	father=100005263	# Alexander von Oldenburg
-	mother=100009159	# Dorothea v. Schwarzburg-Sondershausen
-	1609.10.14={birth=yes}
-	1651.06.15={add_spouse=100005536}	# Auguste von Oldenburg
-	1689.01.18={death=yes}
-}
-	100003159={ # Frederik William (18 Nov 1668-3 Jun 1714); m.1693 Sophie Amalie zu Leiningen (Altona 12 Jun 1675-Sonderburg 24 Dec 1741) %%
-		name="Frederik William" #  192457/frederick-william-duke-of-schleswig-holstein-sonderburg-augustenburg/
-		dynasty=224
-		religion=lutheran culture=danish
-		father=100003162	# Ernst Günther von Oldenburg
-		mother=100005536	# Auguste von Oldenburg
-		1668.11.18={birth=yes}
-		1693.01.01={add_spouse=100003367}	# Sophie Amalie zu Leiningen
-		1714.06.03={death=yes}
-	}
-		100003161={ # Christian August (4 Aug 1696-28 Jan 1754); m.1721 Friederike Luise Danneskiold-Samsøe (1 Oct 1699-Sonderburg 2 Dec 1744) %%
-			name="Christian August" #  1564459/christian-august-duke-of-schleswig-holstein-sonderburg-augustenburg/
-			dynasty=224
-			religion=lutheran culture=danish
-			father=100003159	# Frederik William von Oldenburg
-			mother=100003367	# Sophie Amalie zu Leiningen
-			1696.08.04={birth=yes}
-			1721.01.01={add_spouse=100004968}	# Friederike Luise Danneskiold-Samsøe
-			1754.01.28={death=yes}
-		}
-		100198971={ # Charlotte (1697-1760); m.1 Aug 1726 Philipp Ernst von Oldenburg (Glücksburg 5 May 1673-Glücksburg 12 Nov 1729) %%
-			name=Charlotte
-			female=yes
-			dynasty=224
-			religion=catholic culture=german
-			father=100003159	# Frederik William von Oldenburg
-			mother=100003367	# Sophie Amalie zu Leiningen
-			1697.01.01={birth=yes}
-			1760.01.01={death=yes}
-		}
-
-100004750={# FRIEDRICH CHRISTIAN I, Duke of Schleswig-Holstein-Sonderburg-Augustenburg 20 Jan 1754 (6 Apr 1721-Augustenburg 13 Nov 1794); m.Reinfeld 26 May 1762 Charlotte Pss of Holstein-Plön (Plön 23 Apr 1744-Augustenburg 11 Oct 1770)
+100009339={# FRIEDRICH CHRISTIAN I, Duke of Schleswig-Holstein-Sonderburg-Augustenburg 20 Jan 1754 (6 Apr 1721-Augustenburg 13 Nov 1794); m.Reinfeld 26 May 1762 Charlotte Pss of Holstein-Plön (Plön 23 Apr 1744-Augustenburg 11 Oct 1770)
 	name="Friedrich Christian"
 	dynasty=1002027
 	religion=lutheran culture=german
-	father=100003161	# Christian August von Oldenburg
+	father=100009338	# Christian August von Oldenburg
 	mother=100004968	# Friederike Luise Danneskiold-Samsøe
 	1721.04.06={birth=yes}
 	1762.05.26={add_spouse=100005589}	# Charlotte von Oldenburg
@@ -1350,7 +1726,7 @@
 		female=yes
 		dynasty=1002027
 		religion=lutheran culture=german
-		father=100004750	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+		father=100009339	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
 		mother=100005589	# Charlotte von Oldenburg
 		1764.02.17={birth=yes}
 		1815.08.02={death=yes}
@@ -1359,7 +1735,7 @@
 		name="Friedrich Christian"
 		dynasty=1002027
 		religion=lutheran culture=german
-		father=100004750	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+		father=100009339	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
 		mother=100005589	# Charlotte von Oldenburg
 		1765.09.28={birth=yes}
 		1786.05.27={add_spouse=100003170}	# Louise von Oldenburg
@@ -1588,7 +1964,7 @@
 		name="Friedrich Karl"
 		dynasty=1002027
 		religion=lutheran culture=german
-		father=100004750	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+		father=100009339	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
 		mother=100005589	# Charlotte von Oldenburg
 		1767.03.08={birth=yes}
 		1801.09.29={add_spouse=100093028}	# Sophie Eleonore von Scheel
@@ -1656,7 +2032,7 @@
 		name="Christian August"
 		dynasty=1002027
 		religion=lutheran culture=german
-		father=100004750	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
+		father=100009339	# Friedrich Christian v. Schleswig-Holstein-Sonderburg-Augustenburg
 		mother=100005589	# Charlotte von Oldenburg
 		1768.07.09={birth=yes}
 		1810.05.28={death=yes}
@@ -1827,14 +2203,14 @@
 
 
 ### OLDENBURG/SH | 1002021 | 100013000-100013099
-100004891={# FRIEDRICH Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck 22 Mar 1775 (Königsberg 20 Aug 1757-Wellingsbüttel 24 Apr 1816); m.Königsberg 9 Mar 1780 Friederike Gfn von Schlieben (Königsberg 28 Feb 1757-Schleswig 17 Dec 1827)
+100009367={# FRIEDRICH Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck 22 Mar 1775 (Königsberg 20 Aug 1757-Wellingsbüttel 24 Apr 1816); m.Königsberg 9 Mar 1780 Friederike Gfn von Schlieben (Königsberg 28 Feb 1757-Schleswig 17 Dec 1827)
 	name=Friedrich
 	dynasty=1002021
 	religion=lutheran culture=german
-	father=100004992	# Karl Anton v. Schleswig-Holstein-Sonderburg-Beck
-	mother=100094083	# BGGFN Friederike zu Dohna-Leistenau
+	father=100009366	# Karl Anton v. Schleswig-Holstein-Sonderburg-Beck
+	mother=100009186	# Friederike zu Dohna-Schlobitten
 	1757.08.20={birth=yes}
-	1780.03.09={add_spouse=100093042}	# GFN Friederike von Schlieben
+	1780.03.09={add_spouse=100086560}	# GFN Friederike von Schlieben
 	1816.04.24={death=yes}
 }
 	100004892={# 1a) Elisabeth Friederike Sophie Amelie Charlotte (Stargard 13 Dec 1780-Gnadenberg 19 Jan 1862); m.Leipzig 23 Feb 1800 Samuel Frhr von Richthofen (6 Jan 1769-25 Feb 1808)
@@ -1842,8 +2218,8 @@
 		female=yes
 		dynasty=1002021
 		religion=lutheran culture=german
-		father=100004891	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
-		mother=100093042	# GFN Friederike von Schlieben
+		father=100009367	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+		mother=100086560	# GFN Friederike von Schlieben
 		1780.12.13={birth=yes}
 		1862.01.19={death=yes}
 	}
@@ -1852,8 +2228,8 @@
 		female=yes
 		dynasty=1002021
 		religion=lutheran culture=german
-		father=100004891	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
-		mother=100093042	# GFN Friederike von Schlieben
+		father=100009367	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+		mother=100086560	# GFN Friederike von Schlieben
 		1783.09.28={birth=yes}
 		1803.11.24={death=yes}
 	}
@@ -1861,8 +2237,8 @@
 		name="Friedrich Wilhelm"
 		dynasty=1002021
 		religion=lutheran culture=german
-		father=100004891	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
-		mother=100093042	# GFN Friederike von Schlieben
+		father=100009367	# Friedrich v. Schleswig-Holstein-Sonderburg-Glücksburg
+		mother=100086560	# GFN Friederike von Schlieben
 		1785.01.04={birth=yes}
 		1810.01.26={add_spouse=100001492}	# Luise v. Hessen-Kassel
 		1831.02.17={death=yes}
@@ -2022,7 +2398,7 @@
 							father=100004908	# Peter v. Schleswig-Holstein-Sonderburg-Glücksburg
 							mother=100004689	# Marie-Alix v. Schaumburg-Lippe
 							1949.08.22={birth=yes}
-							1981.09.23={add_spouse=100002628}	# Elisabeth zur Lippe
+							1981.09.23={add_spouse=100002628}	# Elisabeth zu Schaumburg-Lippe
 						}
 							100004911={# 1g) Sophie (b.Eckernförde 9 Oct 1983)
 								name=Sophie
@@ -2030,7 +2406,7 @@
 								dynasty=1002021
 								religion=lutheran culture=german
 								father=100004910	# Christoph v. Schleswig-Holstein-Sonderburg-Glücksburg
-								mother=100002628	# Elisabeth zur Lippe
+								mother=100002628	# Elisabeth zu Schaumburg-Lippe
 								1983.10.09={birth=yes}
 							}
 							100004912={# 2g) Friedrich Ferdinand (b.Eckernförde 19 Jul 1985)
@@ -2038,7 +2414,7 @@
 								dynasty=1002021
 								religion=lutheran culture=german
 								father=100004910	# Christoph v. Schleswig-Holstein-Sonderburg-Glücksburg
-								mother=100002628	# Elisabeth zur Lippe
+								mother=100002628	# Elisabeth zu Schaumburg-Lippe
 								1985.07.19={birth=yes}
 							}
 							100004913={# 3g) Constantin (b.Eckernförde 14 Jul 1986)
@@ -2046,7 +2422,7 @@
 								dynasty=1002021
 								religion=lutheran culture=german
 								father=100004910	# Christoph v. Schleswig-Holstein-Sonderburg-Glücksburg
-								mother=100002628	# Elisabeth zur Lippe
+								mother=100002628	# Elisabeth zu Schaumburg-Lippe
 								1986.07.14={birth=yes}
 							}
 							100004914={# 4g) Leopold (b.Eckernförde 5 Sep 1991)
@@ -2054,7 +2430,7 @@
 								dynasty=1002021
 								religion=lutheran culture=german
 								father=100004910	# Christoph v. Schleswig-Holstein-Sonderburg-Glücksburg
-								mother=100002628	# Elisabeth zur Lippe
+								mother=100002628	# Elisabeth zu Schaumburg-Lippe
 								1991.09.05={birth=yes}
 							}
 						100004915={# 3f) Alexander (b.Bienebek 9 Jul 1953); m.München 29 Aug 1994 3 Sep 1994 Barbara Beata Fertsch (Friedberg 27 Jul 1961-28 Apr 2009)
@@ -3043,7 +3419,7 @@
 	dynasty=1002019
 	religion=lutheran culture=danish
 	father=100003297	# Frederik von Oldenburg
-	mother=100092327	# Sophie von Pommern
+	mother=100010401	# Sophie von Pommern
 	1526.01.25={birth=yes}  # Flensburg
 	1564.12.16={add_spouse=100192204}	# Christine v. Hessen
 	1586.10.01={death=yes}  # Gottorf
@@ -3372,7 +3748,7 @@
 			father=100003238	# Christian v. Oldenburg-Gottorf
 			mother=100000268	# Albertine von Baden
 			1719.03.16={birth=yes}
-			1750.01.01={add_spouse=100004985}	# Sophie Charlotte v. Schleswig-Holstein-Sonderburg-Beck
+			1750.01.01={add_spouse=100009358}	# Sophie Charlotte v. Schleswig-Holstein-Sonderburg-Beck
 			1763.09.07={death=yes}
 		}
 			100003247={# 3c) PETER I Friedrich Ludwig, Duke of Oldenburg on the holder of his cousin Wilhelm in 1823, he had actually administered the duchy since 1785 because of Wilhelm's mental disability (Riesenburg 17 Jan 1755-Wiesbaden 21 May 1829); m.Château d'Etupes 26 Jun 1781 Friederike, Dss of Württemberg (Treptow 27 Jul 1765-Eutin 24 Nov 1785)
@@ -3380,7 +3756,7 @@
 				dynasty=1002019
 				religion=lutheran culture=german
 				father=100003245	# Georg v. Oldenburg-Gottorf
-				mother=100004985	# Sophie Charlotte v. Schleswig-Holstein-Sonderburg-Beck
+				mother=100009358	# Sophie Charlotte v. Schleswig-Holstein-Sonderburg-Beck
 				1755.01.17={birth=yes}
 				1781.06.26={add_spouse=100008034}	# Friederike v. Württemberg
 				1829.05.21={death=yes}
@@ -4046,6 +4422,17 @@
 
 
 ## Danneskiold
+100004970={ # 10h) [illegitimate] Christiane Gyldenløve, Css von Samsøe (Copenhagen 7 Jul 1672-Gravenstein 12 Sep 1689); m.8 Nov 1686 Friedrich Gf von Ahlefeldt-Langeland (d.Regensburg 10 Jun 1708)
+	name="Christiane Gyldenloeve"
+	female=yes
+	dynasty=1013501
+	religion=lutheran culture=danish
+	father=100003316	# Christian von Oldenburg
+	mother=100192217	# Charlotte v. Hessen-Kassel
+	add_trait=bastard
+	1672.07.07={birth=yes}  # Copenhagen
+	1689.09.12={death=yes}  # Gravenstein
+}
 100003353={ # 8g) [illegitimate] Christian von Gyldenløve, Gf zu Samsøe (Copenhagen 28 Feb 1674-Odense 16 Jul 1703); m.1st Copenhagen 27 Nov 1696 Charlotte Amalie Gfn von Danneskjold (15 Nov 1682-Barseleng 7 Dec 1699); m.2nd Copenhagen 25 May 1701 Dorte Kreg til Jüllund (27 Sep 1675-Gisselfeld 10 Oct 1754)
 	name=Christian
 	dynasty=1013501
@@ -4058,17 +4445,6 @@
 	1701.05.25={add_spouse=100098580}	# Dorte Kreg til Jüllund
 	1703.07.16={death=yes}  # Odense
 }
-	100004970={ # 10h) [illegitimate] Christiane Gyldenløve, Css von Samsøe (Copenhagen 7 Jul 1672-Gravenstein 12 Sep 1689); m.8 Nov 1686 Friedrich Gf von Ahlefeldt-Langeland (d.Regensburg 10 Jun 1708)
-		name="Christiane Gyldenloeve"
-		female=yes
-		dynasty=1013501
-		religion=lutheran culture=danish
-		father=100003353	# Christian Danneskiold-Samsøe
-		mother=100005020	# Charlotte Amalia Løvendal
-		add_trait=bastard
-		1672.07.07={birth=yes}  # Copenhagen
-		1689.09.12={death=yes}  # Gravenstein
-	}
 	100004968={ # 4h) Friederike Luise (Oct 1699-Sonderburg 2 Dec 1744); m.Kalundborg 21 Jul 1720 Duke Christian August von Holstein-Sonderburg-Augustenburg (d.1754)
 		name="Friederike Luise"
 		female=yes

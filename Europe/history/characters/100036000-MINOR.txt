@@ -90,7 +90,7 @@
 				1952.02.17={birth=yes}
 				1983.02.04={add_spouse=100066374}	# Nathalie Laetitia Murat
 			}
-		100182738={ # François de Nicolaï (1919-1963) %%
+		100182738={ # François (1919-1963) %%
 			name=François
 			dynasty=1007050
 			religion=catholic culture=frankish
@@ -147,7 +147,16 @@
 			1956.02.04={add_spouse=100068692}	# Bernadette d'Harcourt
 			2004.01.01={death=yes}  # EST.
 		}
-	
+		100098129={ # Henriette (b.26 Jul 1933); m.3 Feb 1956 Jean d'Harcourt (16 Feb 1926-1994) %%
+			name=Henriette
+			female=yes
+			dynasty=1007050
+			religion=catholic culture=frankish
+			father=100182737	# Roger de Nicolaï
+			1933.07.26={birth=yes}
+			2010.01.01={death=yes}  # EST.
+		}
+
 100194265={ # Henri de Tulle (Tarbes 25 Feb 1880-Paris 9 Oct 1946); m.7 Feb 1906 Thérèse Ghislaine de Merode (Paris 18 Feb 1885-Chaussy 3 Jan 1962) %%
 	name=Henri
 	dynasty=1007051
@@ -177,24 +186,41 @@
 		1985.07.12={death=yes}
 	}
 
-100190971={ # Heinrich Thyssen-Bornemisza de Kászon et Impérfalva (2 Apr 1921-26 Apr 2002); m.1 Aug 1946 Teresa Amalia zur Lippe (21 Jul 1925-16 Jul 2008) %%
+100181874={ # Heinrich Thyssen-Bornemisza de Kászon et Impérfalva (31 Oct 1875-26 Jun 1947) %%
 	name=Heinrich
 	dynasty=1011783
-	religion=lutheran culture=german
-	1921.04.02={birth=yes}
-	1946.08.01={add_spouse=100002632}	# Teresa Amalia zur Lippe
-	1954.01.01={remove_spouse=100002632}
-	2002.04.26={death=yes}
+	religion=catholic culture=german
+	1875.10.31={birth=yes}
+	1947.06.26={death=yes}
 }
-	100190972={ # Francesca (b.7 Jun 1958); m.31 Jan 1993 Karl v. Habsburg-Lothringen (b.11 Jan 1961) %%
-		name=Francesca
+	100081874={ # Margit (22 Jun 1911-15 Sep 1989); m.17 Jun 1933 Iván Batthyány-Strattmann de Német-Ujvar (Kittsee 21 Apr 1910-Lugano 16 Jul 1985) %%
+		name=Margit
 		female=yes
 		dynasty=1011783
 		religion=catholic culture=german
-		father=100190971	# Heinrich Thyssen-Bornemisza de Kászon et Impérfalva
-		1958.06.07={birth=yes}
+		father=100181874	# Heinrich Thyssen-Bornemisza de Kászon et Impérfalva
+		1911.06.22={birth=yes}
+		1989.09.15={death=yes}
 	}
-	
+	100190971={ # Heinrich (Scheveningen 2 Apr 1921-Sant Feliu de Guíxols 26 Apr 2002); m.1 Aug 1946 Teresa zu Schaumburg-Lippe (21 Jul 1925-16 Jul 2008) %%
+		name=Heinrich
+		dynasty=1011783
+		religion=lutheran culture=german
+		father=100181874	# Heinrich Thyssen-Bornemisza de Kászon et Impérfalva
+		1921.04.02={birth=yes}	# Scheveningen
+		1946.08.01={add_spouse=100002632}	# Teresa zu Schaumburg-Lippe
+		1954.01.01={remove_spouse=100002632}
+		2002.04.26={death=yes}	# Sant Feliu de Guíxols
+	}
+		100190972={ # Francesca (b.7 Jun 1958); m.31 Jan 1993 Karl v. Habsburg-Lothringen (b.11 Jan 1961) %%
+			name=Francesca
+			female=yes
+			dynasty=1011783
+			religion=catholic culture=german
+			father=100190971	# Heinrich Thyssen-Bornemisza de Kászon et Impérfalva
+			1958.06.07={birth=yes}
+		}
+		
 100181509={ # 2c) Edzard II (24 Jun 1532-Aurich 27 Feb/1 Mar 1599); m.Stockholm 1 Oct 1559 Pss Catharina of Sweden (6 Jun 1539-Berum 21 Dec 1610)
 	name=Edzard
 	dynasty=1008026
@@ -1355,11 +1381,11 @@
 		1637.01.01={birth=yes}
 		1714.01.01={death=yes}
 	}
-		100193341={ # Karl Cajetan v. Buquoy de Longueval (11 Feb 1670-16 Nov 1750); m.6 Jul 1700 Philippina Elisabeth Barbara Pálffy ab Erdõd (1670-5 Aug 1732) %%
+		100193341={ # Karl Cajetan (11 Feb 1670-16 Nov 1750); m.6 Jul 1700 Philippina Elisabeth Barbara Pálffy ab Erdõd (1670-5 Aug 1732) %%
 			name="Karl Cajetan"
 			dynasty=1004505
 			religion=catholic culture=german
-			father=100193340
+			father=100193340	# Albert Karl v. Buquoy de Longueval
 			1670.02.11={birth=yes}
 			1700.07.06={add_spouse=100118222}	# Philippina Elisabeth Barbara Pálffy ab Erdõd
 			1750.11.16={death=yes}
@@ -1875,6 +1901,16 @@
 		1918.08.29={add_spouse=100001882}	# Marie Franziska zu Hohenlohe-Waldenburg-Schillingsfürst
 		1958.12.30={death=yes}  # Frohnleiten
 	}		
+		100087914={ # Franziska (12 Dec 1919-11 Apr 1964); m.13 Mar 1944 Heinrich Reuß (27 Jul 1919-7 Jun 1993) %%
+			name=Franziska
+			female=yes
+			dynasty=1002212
+			religion=lutheran culture=german
+			father=100187914	# Franz Mayr v.Melnhof
+			mother=100001882	# Marie Franziska zu Hohenlohe-Waldenburg-Schillingsfürst
+			1919.12.12={birth=yes}
+			1964.04.11={death=yes}
+		}
 		100196537={ # Maria (Pfannberg, Styria 27 Aug 1921-Frohnleiten 1996); m.14 May 1948 Johann v. Goëss (Carlsberg 23 Jun 1921-6 Dec 2015) %%
 			name=Maria
 			female=yes
@@ -2153,59 +2189,6 @@
 		1889.07.10={birth=yes}  # Ghent
 		1937.09.07={death=yes}  # Ostende
 	}
-
-100194238={ # Friedrich zu Ortenburg (1831-1904) %%
-	name=Friedrich
-	dynasty=1002213
-	religion=lutheran culture=german
-	1831.01.01={birth=yes}
-	1904.01.01={death=yes}
-}
-	100196491={ # Friedrich zu Ortenburg (Mühlhausen 3 Oct 1831-Coburg 28 Aug 1904); m.30 May 1870 Anastasia von Wrede (Cerlenkow, Russia 12 Aug 1840-Wiener Neustadt 28 Dec 1912) %%
-		name=Friedrich
-		dynasty=1002213
-		religion=catholic culture=german
-		1831.10.03={birth=yes}  # Mühlhausen
-		1870.05.30={add_spouse=100008303}	# Anastasia von Wrede
-		1904.08.28={death=yes}  # Coburg
-	}
-		100194236={ # Friedrich zu Ortenburg (Coburg 23 Jul 1871-Bayerhof 4 Mar 1940); m.26 Jul 1905 Ilka v. Löwenstein-Wertheim (Langenzell 9 Jan 1887-Schweinfurt 31 Mar 1971) %%
-			name="Friedrich zu Ortenburg"
-			dynasty=1002213
-			religion=lutheran culture=german
-			father=100196491	# Friedrich zu Ortenburg
-			mother=100008303	# Anastasia von Wrede
-			1871.07.23={birth=yes}  # Coburg
-			1905.07.26={add_spouse=100003824}	# Ilka v. Löwenstein-Wertheim
-			1940.03.04={death=yes}  # Bayerhof
-		}
-			100194239={ # Alfred Friedrich (1906-1973) %%
-				name="Alfred Friedrich"
-				dynasty=1002213
-				religion=lutheran culture=german
-				father=100194236	# Friedrich zu Ortenburg zu Ortenburg
-				mother=100003824	# Ilka v. Löwenstein-Wertheim
-				1906.01.01={birth=yes}
-				1973.01.01={death=yes}
-			}
-				100194240={ # Ilka (b.29 Jun 1942); m.9 Oct 1971 Johann v. Oldenburg-Gottorf (b.3 Jan 1940) %%
-					name=Ilka
-					female=yes
-					dynasty=1002213
-					religion=lutheran culture=german
-					father=100194239	# Alfred Friedrich zu Ortenburg
-					1942.06.29={birth=yes}
-				}
-			100194237={ # Pauline (3 Dec 1913-5 Mar 2002); m.17 Oct 1935 Theodor Georg zur Lippe (12 Aug 1907-24 Oct 1996) %%
-				name=Pauline
-				female=yes
-				dynasty=1002213
-				religion=lutheran culture=german
-				father=100194236	# Friedrich zu Ortenburg zu Ortenburg
-				mother=100003824	# Ilka v. Löwenstein-Wertheim
-				1913.12.03={birth=yes}
-				2002.03.05={death=yes}
-			}
 
 100195853={ # Georg Maria zu Lodron-Laterano u.Castelromano (b.29 May 1964) %%
 	name="Georg Maria"
@@ -2728,3 +2711,308 @@
 			1803.10.17={birth=yes}
 			1828.03.07={death=yes}
 		}
+
+100092229={ # Kasimir Berchtold (14 Apr 1877-14 Oct 1946); m.29 Apr 1905 Ilona Teleki de Szék (Budapest 23 Oct 1884-Bánréve 1 Oct 1967) %%
+	name=Kasimir
+	dynasty=1011382
+	religion=catholic culture=german
+	1877.04.14={birth=yes}
+	1905.04.29={add_spouse=100115880}	# Ilona Teleki de Szék
+	1946.10.14={death=yes}
+}
+	100086159={ # László (Nagy-Kázmér 19 Apr 1906-New York 27 Apr 1987); m.16 Nov 1928 Margarete von Degenfeld-Schonburg (Szirák 18 Jul 1909-Csörgö 8 Oct 1929) %%
+		name=László
+		dynasty=1011382
+		religion=catholic culture=german
+		father=100092229	# Kasimir Berchtold
+		mother=100115880	# Ilona Teleki de Szék
+		1906.04.19={birth=yes}  # Nagy-Kázmér
+		1928.11.16={add_spouse=100010089}	# Margarete von Degenfeld-Schonburg
+		1987.04.27={death=yes}  # New York
+	}
+100080561={ # Siegmund Berchtold (6 Feb 1834-19 Mar 1900); m.8 Jul 1860 Josephine v. Trauttmansdorff-Weinsberg (13 Jun 1835-28 Mar 1894) %%
+	name=Siegmund
+	dynasty=1011382
+	religion=catholic culture=german
+	1834.02.06={birth=yes}
+	1860.07.08={add_spouse=100023499}	# Josephine v. Trauttmansdorff-Weinsberg
+	1900.03.19={death=yes}
+}
+	100091628={ # Leopold (18 Apr 1863-21 Nov 1942); m.25 Jan 1893 Ferdinandine Johanna Károlyi de Nagykároly (4 Sep 1868-26 Aug 1955) %%
+		name=Leopold
+		dynasty=1011382
+		religion=catholic culture=german
+		father=100080561	# Siegmund Berchtold
+		mother=100023499	# Josephine v. Trauttmansdorff-Weinsberg
+		1863.04.18={birth=yes}
+		1893.01.25={add_spouse=100116144}	# Ferdinandine Johanna Károlyi de Nagykároly
+		1942.11.21={death=yes}
+	}
+		100097732={ # Sigismund (Buchlau 14 Apr 1900-Vienna 20 Jul 1979); m.20 Sep 1944 Maria v. Wurmbrand-Stuppach (Vienna 3 Feb 1914-Monte Carlo 29 Apr 2003) %%
+			name=Sigismund
+			dynasty=1011382
+			religion=catholic culture=german
+			father=100091628	# Leopold Berchtold
+			mother=100116144	# Ferdinandine Johanna Károlyi de Nagykároly
+			1900.04.14={birth=yes}  # Buchlau
+			1944.09.20={add_spouse=100023764}	# Maria v. Wurmbrand-Stuppach
+			1949.01.01={remove_spouse=100023764}
+			1979.07.20={death=yes}  # Vienna
+		}
+
+100092136={ # Hanno von Halem (Schwetz 11 Jun 1906-Schaan/Liechtenstein 13 Feb 1994); m.4 Jun 1935 Eugenie zu Stolberg-Stolberg (22 Jun 1914-3 Nov 2002) %%
+	name=Hanno
+	dynasty=1002221
+	religion=lutheran culture=german
+	1906.06.11={birth=yes}	# Schwetz
+	1935.06.04={add_spouse=100006052}	# Eugenie zu Stolberg-Stolberg
+	1994.02.13={death=yes}	# Schaan/Liechtenstein
+}
+	100292138={ # Peter Michael (b.2 Mar 1936); m.3 May 1970 Maria Theresia v. Auersperg (b.Kärnten, Wolfsberg 18 Jul 1949) %%
+		name="Peter Michael"
+		dynasty=1002221
+		religion=lutheran culture=german
+		father=100092136	# Hanno von Halem
+		mother=100006052	# Eugenie zu Stolberg-Stolberg
+		1936.03.02={birth=yes}
+		1970.05.03={add_spouse=100296233}	# Maria Theresia v. Auersperg
+	}
+	100092139={ # Theda (b.9 Jan 1940); m.20 Aug 1963 Karl v. Trauttmansdorff-Weinsberg (13 Sep 1922-26 Aug 1990) %%
+		name=Theda
+		female=yes
+		dynasty=1002221
+		religion=catholic culture=german
+		father=100092136	# Hanno von Halem
+		mother=100006052	# Eugenie zu Stolberg-Stolberg
+		1940.01.09={birth=yes}
+	}
+	100092138={ # Franz Josef (b.11 Jun 1941); m.15 Jun 1974 Elisabeth v. Isenburg (b.5 Apr 1945) %%
+		name="Franz Josef"
+		dynasty=1002221
+		religion=lutheran culture=german
+		father=100092136	# Hanno von Halem
+		mother=100006052	# Eugenie zu Stolberg-Stolberg
+		1941.06.11={birth=yes}
+		1974.06.15={add_spouse=100002384}	# Elisabeth v. Isenburg
+	}
+	
+100098878={ # Christian Henrik Moltke (1833-20 Dec 1918); m.7 Dec 1865 Caroline Amalie Danneskiold-Samsøe (Copenhagen 10 May 1843-Copenhagen 4 Feb 1876) %%
+	name="Christian Henrik"
+	dynasty=1013503
+	religion=catholic culture=danish
+	1833.01.01={birth=yes}
+	1865.12.07={add_spouse=100004294}	# Caroline Amalie Danneskiold-Samsøe
+	1918.12.20={death=yes}
+}
+	100098852={ # Aage Wilhelm (18 Sep 1866-5 Nov 1943); m.16 Jul 1896 Elisabeth Danneskiold-Samsøe (Boller 16 Jul 1869-Vallø 3 Nov 1948) %%
+		name="Aage Wilhelm"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100098878	# Christian Henrik Moltke
+		mother=100004294	# Caroline Amalie Danneskiold-Samsøe
+		1866.09.18={birth=yes}
+		1896.07.16={add_spouse=100004284}	# Elisabeth Danneskiold-Samsøe
+		1943.11.05={death=yes}
+	}
+	100098887={ # Eiler (30 Sep 1870-13 Apr 1956); m.22 Jun 1929 Vibeke Danneskiold-Samsøe (Copenhagen 25 Apr 1896-30 Dec 1964) %%
+		name=Eiler
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100098878	# Christian Henrik Moltke
+		mother=100004294	# Caroline Amalie Danneskiold-Samsøe
+		1870.09.30={birth=yes}
+		1929.06.22={add_spouse=100004303}	# Vibeke Danneskiold-Samsøe
+		1956.04.13={death=yes}
+	}
+
+
+100196340={ # Carl Friedrich von Ledebur-Wicheln ( ca.1690-1746) %%
+	name="Carl Friedrich"
+	dynasty=1002222
+	religion=lutheran culture=german
+	1690.01.01={birth=yes}	# EST.
+	1746.01.01={death=yes}
+}
+	100092527={ # Kaspar Benedikt (15 Jun 1723-1 Feb 1801); m.1st 1755 Marie Anna v. Clary u.Aldringen (1730-1765); m.2nd 11 Jun 1766 Maria Josepha v. Clary u.Aldringen (2 Dec 1747-8 May 1778); m.3rd 5 Jun 1785 Marie von Solms-Sonnenwalde (Sonnenwalde 17 Aug 1756-Prague 9 Mar 1802) %%
+		name="Kaspar Benedikt"
+		dynasty=1002222
+		religion=catholic culture=german
+		father=100196340	# Carl Friedrich von Ledebur-Wicheln
+		1723.06.15={birth=yes}
+		1755.01.01={add_spouse=100024885}	# Marie Anna v. Clary u.Aldringen
+		1766.06.11={add_spouse=100024782}	# Maria Josepha v. Clary u.Aldringen
+		1785.06.05={add_spouse=100006695}	# Marie von Solms-Sonnenwalde
+		1801.02.01={death=yes}
+	}
+		100090541={ # Maria Sidonia (Prague 12 Oct 1774-Steinabrunn 28 Apr 1833); m.7 Apr 1801 Gundaccar v. Wurmbrand-Stuppach (Graz 30 May 1762-Vienna 20 Apr 1847) %%
+			name="Maria Sidonia"
+			female=yes
+			dynasty=1002222
+			religion=catholic culture=german
+			father=100092527	# Kaspar Benedikt von Ledebur-Wicheln
+			mother=100024782	# Maria Josepha v. Clary u.Aldringen
+			1774.10.12={birth=yes}  # Prague
+			1833.04.28={death=yes}  # Steinabrunn
+		}
+		100090224={ # Maria Josepha (Teplitz 2 Jul 1776-Liblin 16 Jun 1800); m.2 Mar 1794 Gundaccar v. Wurmbrand-Stuppach (Graz 30 May 1762-Vienna 20 Apr 1847) %%
+			name="Maria Josepha"
+			female=yes
+			dynasty=1002222
+			religion=catholic culture=german
+			father=100092527	# Kaspar Benedikt von Ledebur-Wicheln
+			mother=100024782	# Maria Josepha v. Clary u.Aldringen
+			1776.07.02={birth=yes}  # Teplitz
+			1800.06.16={death=yes}  # Liblin
+		}
+	100196339={ # Friedrich ( ca.1730-1777) %%
+		name=Friedrich
+		dynasty=1002222
+		religion=lutheran culture=german
+		father=100196340	# Carl Friedrich von Ledebur-Wicheln
+		1730.01.01={birth=yes}	# EST.
+		1777.01.01={death=yes}
+	}
+		100196338={ # August Clemens Engelbert (16 Dec 1772-28 Aug 1846) %%
+			name="August Clemens Engelbert"
+			dynasty=1002222
+			religion=lutheran culture=german
+			father=100196339	# Friedrich von Ledebur-Wicheln
+			1772.12.16={birth=yes}
+			1846.08.28={death=yes}
+		}
+			100096338={ # Fredine (Krzemusch 25 Oct 1805-Warmbrunn 20 Jan 1890); m.29 May 1831 Karl Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (Maiwaldau 29 May 1794-Breslau 29 Jun 1865) %%
+				name=Fredine
+				female=yes
+				dynasty=1002222
+				religion=catholic culture=german
+				father=100196338	# August Clemens Engelbert von Ledebur-Wicheln
+				1805.10.25={birth=yes}  # Krzemusch
+				1890.01.20={death=yes}  # Warmbrunn
+			}
+			100192526={ # Adolf Benno (Krzemusch 14 Jun 1812-Krzemusch 20 Oct 1886) %%
+				name="Adolf Benno"
+				dynasty=1002222
+				religion=catholic culture=german
+				father=100196338	# August Clemens Engelbert von Ledebur-Wicheln
+				1812.06.14={birth=yes}	# Krzemusch
+				1886.10.20={death=yes}	# Krzemusch
+			}
+				100086232={ # Johann (30 May 1842-14 May 1903); m.7 Jan 1868 Karoline Czernin v.u.zu Chudenitz (15 Feb 1847-14 Apr 1907) %%
+					name=Johann
+					dynasty=1002222
+					religion=catholic culture=bohemian
+					father=100192526	# Adolf Benno von Ledebur-Wicheln
+					1842.05.30={birth=yes}
+					1868.01.07={add_spouse=100186231}	# Karoline Czernin v.u.zu Chudenitz
+					1903.05.14={death=yes}
+				}
+					100186232={ # Adolf Maria Jaromir (Prag 2 Jan 1870-20 Feb 1949) %%
+						name="Adolf Maria Jaromir"
+						dynasty=1002222
+						religion=catholic culture=bohemian
+						father=100086232	# Johann von Ledebur-Wicheln
+						1870.01.02={birth=yes}	# Prag
+						1949.02.20={death=yes}
+					}
+						100192523={ # Karl Borromeu Joseph (Wien 15 Jan 1898-13 Jun 1974) %%
+							name="Karl Borromeu Joseph"
+							dynasty=1002222
+							religion=catholic culture=german
+							father=100186232	# Adolf Maria Jaromir von Ledebur-Wicheln
+							1898.01.15={birth=yes}	# Wien
+							1974.06.13={death=yes}
+						}	
+							100092523={ # Mario (b.28 Jul 1931); m.20 Jul 1959 Maria Valerie v. Habsburg-Lothringen (b.16 Jan 1931) %%
+								name=Mario
+								dynasty=1002222
+								religion=catholic culture=german
+								father=100192523	# Karl Borromeu Joseph von Ledebur-Wicheln
+								1931.07.28={birth=yes}
+								1959.07.20={add_spouse=100020991}	# Maria Valerie v. Habsburg-Lothringen
+							}
+							100192524={ # Christoph (b.23 Dec 1933) %%
+								name=Christoph
+								dynasty=1002222
+								religion=catholic culture=german
+								father=100192523	# Karl Borromeu Joseph von Ledebur-Wicheln
+								1933.12.23={birth=yes}
+							}
+								100092529={ # Stephan (b.15 Mar 1962); m.25 Sep 1988 Natalie Széchenyi de Sárvár-Felsõvidek (b.18 Oct 1966) %%
+									name=Stephan
+									dynasty=1002222
+									religion=catholic culture=german
+									father=100192524	# Christoph von Ledebur-Wicheln
+									1962.03.15={birth=yes}
+									1988.09.25={add_spouse=100116711}	# Natalie Széchenyi de Sárvár-Felsõvidek
+								}
+								100098704={ # Benedikt (b.Munich 20 Aug 1964); m.7 Oct 1991 Sofia z Valdštejna (b.Horn 17 Aug 1971) %%
+									name=Benedikt
+									dynasty=1002222
+									religion=catholic culture=german
+									father=100192524	# Christoph von Ledebur-Wicheln
+									1964.08.20={birth=yes}  # Munich
+									1991.10.07={add_spouse=100047415}	# Sofia z Valdštejna
+								}	
+						100092524={ # Hubertus (2 Sep 1901-5 Feb 1945); m.29 Jul 1940 Olga v. Windisch-Graetz (5 Mar 1893-30 Jan 1987) %%
+							name=Hubertus
+							dynasty=1002222
+							religion=catholic culture=german
+							father=100186232	# Adolf Maria Jaromir von Ledebur-Wicheln
+							1901.09.02={birth=yes}
+							1940.07.29={add_spouse=100022657}	# Olga v. Windisch-Graetz
+							1945.02.05={death=yes}
+						}
+					100195615={ # Eugen (Petersburg, Bohemia 14 Nov 1873-Leitmeritz 12 Nov 1945) %%
+						name=Eugen
+						dynasty=1002222
+						religion=catholic culture=german
+						father=100086232	# Johann von Ledebur-Wicheln
+						1873.11.14={birth=yes}	# Petersburg, Bohemia
+						1945.11.12={death=yes}	# Leitmeritz
+					}
+						100086033={ # Henriette (19 Dec 1910-29 Jun 2002); m.29 Jun 1933 Ferdinand Carl Kinsky von Wchinitz u.Tettau (30 Jan 1907-3 Jun 1969) %%
+							name=Henriette
+							female=yes
+							dynasty=1002222
+							religion=catholic culture=german
+							father=100195615	# Eugen von Ledebur-Wicheln
+							1910.12.19={birth=yes}
+							2002.06.29={death=yes}
+						}
+						100092525={ # Karoline (23 Mar 1912-29 Nov 1996); m.16 Nov 1936 Johannes v. Liechtenstein (18 May 1910-22 Jan 1975) %%
+							name=Karoline
+							female=yes
+							dynasty=1002222
+							religion=catholic culture=german
+							father=100195615	# Eugen von Ledebur-Wicheln
+							1912.03.23={birth=yes}
+							1996.11.29={death=yes}
+						}
+						100095615={ # Franziska (Milleschau 18 Jun 1913-Kißlegg 9 Apr 2002); m.19 Sep 1938 Johannes v. Waldburg zu Wolfegg u.Waldsee (Waldsee 10 Aug 1904-Kißlegg Allgau 17 May 1966) %%
+							name=Franziska
+							female=yes
+							dynasty=1002222
+							religion=catholic culture=german
+							father=100195615	# Eugen von Ledebur-Wicheln
+							1913.06.18={birth=yes}  # Milleschau
+							2002.04.09={death=yes}  # Kißlegg
+						}
+					100092528={ # Karoline (Petersburg, Bohemia 1 Jul 1875-Balatongyörök 4 Jan 1956); m.26 Apr 1897 Viktor Széchenyi de Sárvár-Felsõvidek (10 Jul 1871-19 Apr 1945) %%
+						name=Karoline
+						female=yes
+						dynasty=1002222
+						religion=catholic culture=german
+						father=100086232	# Johann von Ledebur-Wicheln
+						1875.07.01={birth=yes}	# Petersburg, Bohemia
+						1956.01.04={death=yes}	# Balatongyörök
+					}
+				100092526={ # Franz (16 Apr 1844-7 Oct 1893); m.14 May 1877 Leopoldine v. Thun u.Hohenstein (21 Jan 1857-4 Jul 1911) %%
+					name=Franz
+					dynasty=1002222
+					religion=catholic culture=bohemian
+					father=100192526	# Adolf Benno von Ledebur-Wicheln
+					1844.04.16={birth=yes}
+					1877.05.14={add_spouse=100023959}	# Leopoldine v. Thun u.Hohenstein
+					1893.10.07={death=yes}
+				}
+				
