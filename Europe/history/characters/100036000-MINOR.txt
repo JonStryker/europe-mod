@@ -462,16 +462,18 @@
 		1923.02.24={death=yes}
 	}
 	
-100186416={ # Dimitrie Kantemir (Iasi 26 Oct 1673-21 Aug 1723); m.1st 1707 Cassandra Cantacuzino (1682-Moskwa 11 May 1713); m.2nd 14 Oct 1717 Anastasia Trubetzkoy (4 Oct 1700-27 Nov 1755) %%
+100186416={ # B2. [2m.] Dimitrie Kantemir, Hospodar of Moldavia (1693)+(XI.1710-VII.1711), the first Romanian historian, geographer, and composer, -cr Prince of the Russian Empire (Serene Highness) 31.7.1711, -cr Reichsfürst 1723, *Galati 26.10.1673, +Dmitrovka 21.8.1723; 
+			# 1m: Jassy 9.5.1699 Pss Cassandra Cantacuzene (*1682, +11.5.1713); 
+			# 2m: St.Petersburg 14.1.1717 Pss Anastasia Trubecka (*14.10.1700, +27.11.1755)
 	name=Dimitrie
 	dynasty=1000005
 	religion=orthodox culture=russian
-	1673.10.26={birth=yes}	# Iasi
+	1673.10.26={birth=yes}	# Galati
 	1707.01.01={add_spouse=100030136}	# Cassandra Cantacuzino
 	1717.10.14={add_spouse=100017135}	# Anastasia Trubetzkoy
-	1723.08.21={death=yes}
+	1723.08.21={death=yes}	# Dmitrovka
 }
-	100186419={ # Konstantin (1698-19 Jan 1747); m.1723 Anastasia Golizyn (15 Oct 1698-12 Jan 1746) %%
+	100186419={ # C3. Pr Constantin, *1703, +19.1.1747; m.24.5.1724 Pss Anastasia Galitzine (*15.10.1698, +12.1.1746)
 		name=Konstantin
 		dynasty=1000005
 		religion=orthodox culture=russian
@@ -480,7 +482,7 @@
 		1723.01.01={add_spouse=100016149}	# Anastasia Golizyn
 		1747.01.19={death=yes}
 	}
-	100186423={ # Jekaterina (4 Nov 1720-2 Nov 1761); m.6 Nov 1751 Dmitri Golizyn (1721-19 Sep 1793) %%
+	100186423={ # C7. [2m.] Pss Ekaterina/Smaragda II, famed for her beauty, *19.11.1720, +Versailles 3.11.1761; m.St.Petersburg 6.11.1751 Pr Dmitri Mikhailovich Galitzine (*15.5.1721, +Vienna 19.9.1793)
 		name=Jekaterina
 		female=yes
 		dynasty=1000005
@@ -3015,4 +3017,105 @@
 					1877.05.14={add_spouse=100023959}	# Leopoldine v. Thun u.Hohenstein
 					1893.10.07={death=yes}
 				}
-				
+
+100082304={ # Luís de Figueroa (24 Oct 1890-17 Jul 1963); m.28 Jul 1929 María de Bourbon (26 Aug 1898-4 Jun 1989) %%
+	name=Luís
+	dynasty=1001511
+	religion=catholic culture=castillan
+	1890.10.24={birth=yes}
+	1929.07.28={add_spouse=100025288}	# María de Bourbon
+	1963.07.17={death=yes}
+}
+	100197497={ # Luís (Madrid 20 Nov 1918-Madrid 29 Nov 1987) %%
+		name=Luís
+		dynasty=1001511
+		religion=catholic culture=castillan
+		father=100082304	# Luís de Figueroa
+		1918.11.20={birth=yes}  # Madrid
+		1987.11.29={death=yes}  # Madrid
+	}
+		100097497={ # Luís (b.Madrid 5 Feb 1950); m.23 Aug 1973 Teresa zu Sayn-Wittgenstein-Berleburg (b.Sayn 25 Apr 1952) %%
+			name=Luís
+			dynasty=1001511
+			religion=catholic culture=castillan
+			father=100197497	# Luís de Figueroa
+			1950.02.05={birth=yes}  # Madrid
+			1973.08.23={add_spouse=100006239}	# Teresa zu Sayn-Wittgenstein-Berleburg
+			1983.01.01={remove_spouse=100006239}
+		}
+			100085244={ # Juan (b.Madrid, Madrid 19 Apr 1977); m.27 May 2006 Antoinette v. Seilern u.Aspang (b.Wien, Wien 15 Apr 1980) %%
+				name=Juan
+				dynasty=1001511
+				religion=catholic culture=castillan
+				father=100097497	# Luís de Figueroa
+				mother=100006239	# Teresa zu Sayn-Wittgenstein-Berleburg
+				1977.04.19={birth=yes}	# Madrid, Madrid
+				2006.05.27={add_spouse=100324457}	# Antoinette v. Seilern u.Aspang
+			}
+	100095897={ # Victoria Eugenia (b.11 Dec 1930); m.11 Aug 1955 Juan José de Suelves (3 Nov 1928-26 Jul 2004) %%
+		name="Victoria Eugenia"
+		female=yes
+		dynasty=1001511
+		religion=catholic culture=castillan
+		father=100082304	# Luís de Figueroa
+		mother=100025288	# María de Bourbon
+		1930.12.11={birth=yes}
+		2005.01.01={death=yes}  # EST.
+	}
+
+100192746={ # Thure Gabriel Bielke (1894-1940) %%
+	name="Thure Gabriel"
+	dynasty=1014035
+	religion=catholic culture=swedish
+	1894.01.01={birth=yes}
+	1940.01.01={death=yes}
+}
+	100092746={ # Gunilla (Vist 8 Jul 1919-27 Mar 2015); m.10 Oct 1942 Friedrich Fugger von Babenhausen (Potsdam 26 Nov 1914-Wellenburg 22 Dec 1979) %%
+		name=Gunilla
+		female=yes
+		dynasty=1014035
+		religion=catholic culture=swedish
+		father=100192746	# Thure Gabriel Bielke
+		1919.07.08={birth=yes}  # Vist
+		2015.03.27={death=yes}
+	}
+	100080650={ # Catharina (b.12 Nov 1930); m.22 Oct 1953 Johann Andreas v. Orsini u.Rosenberg (3 Jul 1926-18 Oct 2004) %%
+		name=Catharina
+		female=yes
+		dynasty=1014035
+		religion=catholic culture=swedish
+		father=100192746	# Thure Gabriel Bielke
+		1930.11.12={birth=yes}
+		2010.01.01={death=yes}	# EST.
+	}		
+
+100187599={ # Sergei Chernyshev-Bezobrazov (1894-New York 10 Sep 1972); m.7 May 1921 Elisaveta Dimitrievna Sheremetev (26 May 1893-20 Jun 1974) %%
+	name=Sergei
+	dynasty=1010025
+	religion=orthodox culture=russian
+	1894.01.01={birth=yes}
+	1921.05.07={add_spouse=100290203}	# Elisaveta Dimitrievna Sheremetev
+	1972.09.10={death=yes}	# New York
+}
+	100087599={ # Irina (b.Hauts-de-Seine, Neuilly-sur-Seine 26 Sep 1926); m.27 Nov 1949 Teimuraz Bagrationi-Muchraneli (Pavlovsk 21 Aug 1912-New York 10 Apr 1992) %%
+		name=Irina
+		female=yes
+		dynasty=1010025
+		religion=orthodox culture=russian
+		father=100187599	# Sergei Chernyshev-Bezobrazov
+		mother=100290203	# Elisaveta Dimitrievna Sheremetev
+		1926.09.26={birth=yes}	# Hauts-de-Seine, Neuilly-sur-Seine
+		2000.01.01={death=yes}	# EST.
+	}
+	100081429={ # Xenia (Île de France, Paris 11 Jun 1929-Île de France, Paris 20 Sep 1968); m.22 Jun 1953 Rudolf v. Habsburg-Lothringen (5 Sep 1919-15 May 2010) %%
+		name=Xenia
+		female=yes
+		dynasty=1010025
+		religion=catholic culture=german
+		father=100187599	# Sergei Chernyshev-Bezobrazov
+		mother=100290203	# Elisaveta Dimitrievna Sheremetev
+		1929.06.11={birth=yes}	# Île de France, Paris
+		1968.09.20={death=yes}	# Île de France, Paris
+	}
+	
+	
