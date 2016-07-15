@@ -9010,6 +9010,67 @@
 
 
 ##### Lobkowicz|1004001|100085000-100085499
+100099260={ # Frn        Sabina                    Popel z Lobkowicz                        (1583-1623)     1
+	name="Sabina Popel von Lobkowicz"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1583.11.02={birth=yes}
+	1623.06.03={death=yes}  # Prague
+}
+100092324={ #            Václav Vilém              Popel z Lobkowicz                        (1598-1626)     -
+	name="Václav Vilém Popel z Lobkowicz"
+	dynasty=0
+	religion=catholic culture=bohemian
+	1598.03.20={birth=yes}
+	1616.02.08={add_spouse=100024644}	# Margaretha Francisca v. Dietrichstein
+	1626.02.16={death=yes}
+}
+
+100194210={ # Wilhelm Lobkowicz (22 Dec 1575-2 Jan 1647) %%
+	name=Wilhelm
+	dynasty=1013012
+	religion=catholic culture=bohemian
+	1575.12.22={birth=yes}
+	1647.01.02={death=yes}
+}
+	100094210={ # Anna Magdalene (20 Jul 1609-7 Sep 1668); m.18 Aug 1632 Julius Heinrich von Sachsen-Lauenburg (Wolfenbüttel 9 Apr 1586-Prague 20 Nov 1665) %%
+		name="Anna Magdalene"
+		female=yes
+		dynasty=1013012
+		religion=catholic culture=bohemian
+		father=100194210	# Wilhelm Lobkowicz
+		1609.07.20={birth=yes}
+		1668.09.07={death=yes}
+	}
+	100194211={ # Christoph Ferdinand (1610-1658) %%
+		name="Christoph Ferdinand"
+		dynasty=1013012
+		religion=catholic culture=bohemian
+		father=100194210	# Wilhelm Lobkowicz
+		1610.01.01={birth=yes}
+		1658.01.01={death=yes}
+	}
+		100092315={ # Václav Ferdinand (1648-Passau 8 Oct 1697); m.12 Jun 1681 Maria Sophia v. Dietrichstein (1652-4 Nov 1711) %%
+			name="Václav Ferdinand"
+			dynasty=1013012
+			religion=catholic culture=bohemian
+			father=100194211	# Christoph Ferdinand Lobkowicz
+			1648.01.01={birth=yes}
+			1681.06.12={add_spouse=100024643}	# Maria Sophia v. Dietrichstein
+			1697.10.08={death=yes}	# Passau
+		}
+			100085008={ # Eleonore Charlotte (1 Apr 1685-3 Mar 1712); m.17 Oct 1703 Philipp Hyazinth Lobkowicz (25 Feb 1680-21 Dec 1737) %%
+				name="Eleonore Charlotte"
+				female=yes
+				dynasty=1013012
+				religion=catholic culture=bohemian
+				father=100092315	# Václav Ferdinand Lobkowicz
+				mother=100024643	# Maria Sophia v. Dietrichstein
+				1685.04.01={birth=yes}
+				1712.03.03={death=yes}
+			}
+
 100114234={ # Václav Eusebius Lobkowicz (30 Jan 1609-Raudnitz 22 Apr 1677); m.9 Feb 1653 Auguste Sophie v. Wittelsbach (Sulzbach 22 Nov 1624-Nürnberg 30 Apr 1682) %%
 	name="Václav Eusebius"
 	dynasty=1004001
@@ -9042,7 +9103,7 @@
 			father=100185000	# Ferdinand August Lobkowicz
 			mother=100037224	# Klaudia Franziska v. Nassau-Siegen
 			1680.02.25={birth=yes}
-			1703.10.17={add_spouse=100085008}	# GFN Eleonore Charlotte Popel von Lobkowicz
+			1703.10.17={add_spouse=100085008}	# Eleonore Charlotte Lobkowicz
 			1721.08.25={add_spouse=100085009}	# GFN Anna Maria von Althann
 			1737.12.21={death=yes}
 		}
