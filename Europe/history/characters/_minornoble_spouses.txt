@@ -1,4 +1,12 @@
-#[VALDSTEJNA, CHOTKOVA, CSAKY, THUN, FESTETICS, ORSINI, COLLOREDO, FUGGER, BATTHYANY]
+#[VALDSTEJNA, CHOTKOVA, CSAKY, AUERSPERG, THUN, FESTETICS, ORSINI, COLLOREDO, FUGGER, BATTHYANY]
+100092669={ # Frn        Maria Walburga            von Gudenus                              (1720-1743)     3
+	name="Maria Walburga von Gudenus"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1720.01.01={birth=yes}
+	1743.12.16={death=yes}
+}
 100094076={ # Frhr       Joseph                    von Gudenus                              (1755-1831)     -
 	name="Joseph von Gudenus"
 	dynasty=0
@@ -556,6 +564,51 @@
 	1974.11.15={add_spouse=100002978}	# Elisabeth Christine v. Mecklenburg
 }
 
+#[BANFFY, WALDECK, BETHLEN, HOYOS]
+100097432={ #            Karl Wilhelm              Schilling                                (1912-1987)     -
+	name="Karl Wilhelm Schilling"
+	dynasty=0
+	religion=catholic culture=german
+	1912.02.25={birth=yes}
+	1951.06.10={add_spouse=100023171}	# Ines v. Hoyos
+	1987.01.01={death=yes}
+}
+100098863={ # Bss        Josephine                 Schilling von Canstatt                   (1786-1861)     0
+	name="Josephine Schilling von Canstatt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1786.01.01={birth=yes}
+	1861.01.01={death=yes}  # EST.
+}
+100095473={ # Gfn        Karoline                  Schilling von Canstatt                   (1798-1866)     4
+	name="Karoline Schilling von Canstatt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1798.02.02={birth=yes}  # Mahlberg
+	1866.10.07={death=yes}  # Bergheim
+}
+100089977={ # Frhr       Wilhelm                   Schilling von Canstatt                   (1835-1888)  2  1
+	name="Wilhelm Schilling von Canstatt"
+	dynasty=0
+	religion=lutheran culture=german
+	1835.01.01={birth=yes}
+	1863.02.14={add_spouse=100007176}	# Auguste zu Waldeck u.Pyrmont
+	1865.01.19={add_spouse=100007177}	# Amalie zu Waldeck u.Pyrmont
+	1888.11.26={death=yes}	# Meran
+}
+100098377={ # Bss        Augusta                   Schilling von Canstatt                   (1868-1932)     0
+	name="Augusta Schilling von Canstatt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	father=100089977	# FRHR Wilhelm Schilling von Canstatt
+	mother=100007177	# Amalie zu Waldeck u.Pyrmont
+	1868.12.30={birth=yes}  # Hohen-Wettersbsch
+	1932.07.08={death=yes}  # Tiszaroff
+}
+
 #[ARCO, LEYEN, COLLOREDO, BIRON, SCHAFFGOTSCH]
 100095575={ # Frhr       Anton                     von Aretin                               (1847-1921)     -
 	name="Anton von Aretin"
@@ -679,6 +732,46 @@
 	religion=catholic culture=german
 	1920.01.09={birth=yes}	# Wien, Wien
 	2007.05.29={death=yes}
+}
+
+#[LEYEN, CZERNIN, AUERSPERG, LOBKOWICZ]
+100092709={ # Frhr       Heinrich                  von Gagern                               (1841-1894)     -
+	name="Heinrich von Gagern"
+	dynasty=0
+	religion=catholic culture=german
+	1841.01.01={birth=yes}
+	1874.08.19={add_spouse=100021743}	# Beatrix v. Auersperg
+	1894.03.09={death=yes}  # Mokritz
+}
+100092710={ # Frn        Ruth                      von Gagern                               (1919-1994)     2
+	name="Ruth von Gagern"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1919.01.07={birth=yes}  # Mokritz
+	1994.01.01={death=yes}  # EST.
+}
+100085409={ # Frhr       Michael                   von Gagern                               (1942-    )     -
+	name="Michael von Gagern"
+	dynasty=0
+	religion=catholic culture=bohemian
+	1942.09.18={birth=yes}
+	1985.07.26={add_spouse=100185408}	# Monika Lobkowicz
+}
+100086352={ # Frhr       Rikolt                    von Gagern                               (1965-    )     -
+	name="Rikolt von Gagern"
+	dynasty=0
+	religion=catholic culture=bohemian
+	1965.11.02={birth=yes}
+	1996.06.07={add_spouse=100186351}	# Monika Maria Czernin v.u.zu Chudenitz
+	2004.01.01={remove_spouse=100186351}
+}
+100098989={ # Frn        Elisabeth                 von Gagern                               (1969-    )     4
+	name="Elisabeth von Gagern"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1969.09.17={birth=yes}  # Salzburg
 }
 
 #[WALDBURG, HARDENBERG, SEILERN, KONIGSEGG, ELTZ]
@@ -955,16 +1048,6 @@
 	religion=catholic culture=german
 	1976.07.07={birth=yes}
 	2006.01.07={add_spouse=100024098}	# Katharina Julia v. Thun u.Hohenstein
-}
-
-#[SCHWARZENBERG, ARENBERG, THURN, ELTZ]
-100091214={ # Frhr       Hermann                   v.u.zu Guttenberg                        (1825-1882)     -
-	name="Hermann v.u.zu Guttenberg"
-	dynasty=0
-	religion=catholic culture=german
-	1825.01.01={birth=yes}
-	1853.06.08={add_spouse=100006557}	# Luise Sophie v. Thurn und Taxis
-	1882.04.25={death=yes}
 }
 
 #[ZICHY, PALFFY, HABSBURG]
@@ -1372,51 +1455,6 @@
 	1973.04.23={birth=yes}
 }
 
-#[BANFFY, WALDECK, BETHLEN, HOYOS]
-100097432={ #            Karl Wilhelm              Schilling                                (1912-1987)     -
-	name="Karl Wilhelm Schilling"
-	dynasty=0
-	religion=catholic culture=german
-	1912.02.25={birth=yes}
-	1951.06.10={add_spouse=100023171}	# Ines v. Hoyos
-	1987.01.01={death=yes}
-}
-100098863={ # Bss        Josephine                 Schilling von Canstatt                   (1786-1861)     0
-	name="Josephine Schilling von Canstatt"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1786.01.01={birth=yes}
-	1861.01.01={death=yes}  # EST.
-}
-100089977={ # Frhr       Wilhelm                   Schilling von Canstatt                   (1835-1888)  2  1
-	name="Wilhelm Schilling von Canstatt"
-	dynasty=0
-	religion=lutheran culture=german
-	1835.01.01={birth=yes}
-	1863.02.14={add_spouse=100007176}	# Auguste zu Waldeck u.Pyrmont
-	1865.01.19={add_spouse=100007177}	# Amalie zu Waldeck u.Pyrmont
-	1888.11.26={death=yes}	# Meran
-}
-100098377={ # Bss        Augusta                   Schilling von Canstatt                   (1868-1932)     0
-	name="Augusta Schilling von Canstatt"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	father=100089977	# FRHR Wilhelm Schilling von Canstatt
-	mother=100007177	# Amalie zu Waldeck u.Pyrmont
-	1868.12.30={birth=yes}  # Hohen-Wettersbsch
-	1932.07.08={death=yes}  # Tiszaroff
-}
-100095473={ # Gfn        Karoline                  Schilling von Canstatt                   (1798-1866)     4
-	name="Karoline Schilling von Canstatt"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1798.02.02={birth=yes}  # Mahlberg
-	1866.10.07={death=yes}  # Bergheim
-}
-
 #[HOHENBERG, TRAUTTMANSDORFF, CZERNIN, ALMASY]
 100097251={ # Frhr       Friedrich                 von Trauttenberg                         (1849-1918)     -
 	name="Friedrich von Trauttenberg"
@@ -1482,7 +1520,7 @@
 }
 
 #[DEGENFELD, HATZFELDT, SCHAFFGOTSCH]
-100091208={ # Frn        Maria Anna                von Venningen                            (1719-1794)     0
+100091208={ # Frn        Maria Anna                von Venningen                            (1719-1794)     1
 	name="Maria Anna von Venningen"
 	female=yes
 	dynasty=0
@@ -1800,30 +1838,6 @@
 	1886.01.24={birth=yes}  # Unterknöringen
 	1920.02.08={add_spouse=100008815}	# Marie von der Leyen und zu Hohengeroldseck
 	1965.09.27={death=yes}  # Munich
-}
-
-#[LEYEN, CZERNIN, LOBKOWICZ]
-100085409={ # Frhr       Michael                   von Gagern                               (1942-    )     -
-	name="Michael von Gagern"
-	dynasty=0
-	religion=catholic culture=bohemian
-	1942.09.18={birth=yes}
-	1985.07.26={add_spouse=100185408}	# Monika Lobkowicz
-}
-100086352={ # Frhr       Rikolt                    von Gagern                               (1965-    )     -
-	name="Rikolt von Gagern"
-	dynasty=0
-	religion=catholic culture=bohemian
-	1965.11.02={birth=yes}
-	1996.06.07={add_spouse=100186351}	# Monika Maria Czernin v.u.zu Chudenitz
-	2004.01.01={remove_spouse=100186351}
-}
-100098989={ # Frn        Elisabeth                 von Gagern                               (1969-    )     4
-	name="Elisabeth von Gagern"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1969.09.17={birth=yes}  # Salzburg
 }
 
 #[SALM, THUN, ORSINI]
@@ -2261,6 +2275,38 @@
 	1967.10.28={add_spouse=100005105}	# Marina v. Schoenaich-Carolath
 }
 
+100092541={ # Frhr       Wolfgang Siegmund         von Apfaltrern                           (1687-1723)     -
+	name="Wolfgang Siegmund von Apfaltrern"
+	dynasty=0
+	religion=catholic culture=german
+	1687.01.01={birth=yes}  # EST.
+	1712.01.01={add_spouse=100021680}	# Marie Josepha v. Auersperg
+	1723.01.01={death=yes}
+}
+100094010={ # Frn        Anne                      von Apfaltrern                           (1747-1796)     0
+	name="Anne von Apfaltrern"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1747.01.01={birth=yes}
+	1796.01.01={death=yes}
+}
+100093463={ # Frhr       Joachim                   Beck von Leopoldsdorf                    (1578-1605)     -
+	name="Joachim Beck von Leopoldsdorf"
+	dynasty=0
+	religion=catholic culture=german
+	1578.01.01={birth=yes}  # EST.
+	1603.01.01={add_spouse=100021878}	# Sophia v. Auersperg
+	1605.01.01={death=yes}
+}
+100086227={ #            Pauline Susanne           von Bek                                  (1815-1856)     5
+	name="Pauline Susanne von Bek"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1815.03.10={birth=yes}
+	1856.01.01={death=yes}
+}
 100098916={ # Frn        Anna                      von Beeß u.Chrostin                      (1849-1901)     0
 	name="Anna von Beeß u.Chrostin"
 	female=yes
@@ -2372,6 +2418,22 @@
 	religion=catholic culture=german
 	1953.06.22={birth=yes}  # Biberach an der Riss
 	1978.05.05={add_spouse=100003891}	# Ameli v. Löwenstein-Wertheim
+}
+100086342={ # Frn        Adolfine                  von Cortenbach                           (1594-1669)     1
+	name="Adolfine von Cortenbach"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1594.12.01={birth=yes}
+	1669.01.01={death=yes}  # EST.
+}
+100089304={ # Frn        Maria Anna                von Cortenbach                           (1758-1833)     1
+	name="Maria Anna von Cortenbach"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1758.12.21={birth=yes}
+	1833.09.12={death=yes}
 }
 100091797={ # Frn        Jutta                     von Cramm                                (1938-    )     4
 	name="Jutta von Cramm"
@@ -2494,6 +2556,22 @@
 	religion=lutheran culture=german
 	1939.11.30={birth=yes}
 }
+100092335={ #            Ludwig                    von Fleckenstein                         (1537-1577)     -
+	name="Ludwig von Fleckenstein"
+	dynasty=0
+	religion=catholic culture=german
+	1537.01.01={birth=yes}  # EST.
+	1562.01.01={add_spouse=100010627}	# Anna Sibylla von Hanau in Babenhausen
+	1577.01.01={death=yes}
+}
+100099193={ # Frn        Ursula                    von Fleckenstein                         (1553-1595)     5
+	name="Ursula von Fleckenstein"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1553.01.01={birth=yes}
+	1595.10.24={death=yes}
+}
 100083951={ # Frhr       Peter                     Forstner von Billau                      (1903-1988)     -
 	name="Peter Forstner von Billau"
 	dynasty=0
@@ -2524,6 +2602,22 @@
 	1858.10.27={birth=yes}  # Munich
 	1886.09.06={add_spouse=100008813}	# Julie von der Leyen und zu Hohengeroldseck
 	1913.11.22={death=yes}  # Ullstadt
+}
+100094374={ #            Karl                      von Frauenberg                           (1544-1569)     -
+	name="Karl von Frauenberg"
+	dynasty=0
+	religion=catholic culture=german
+	1544.01.01={birth=yes}  # EST.
+	1569.01.01={add_spouse=100024735}	# Benigna v. Lamberg
+	1569.12.10={death=yes}
+}
+100095746={ #            Maria Antonia             von und zu Fraunberg                     (1705-1773)     0
+	name="Maria Antonia von und zu Fraunberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1705.01.01={birth=yes}
+	1773.01.01={death=yes}  # EST.
 }
 100092074={ # Frn        Wilhelmine                von Geuder                               (1755-1790)     2
 	name="Wilhelmine von Geuder"
@@ -2883,6 +2977,38 @@
 	1822.02.16={add_spouse=100115655}	# Leopoldine Zichy de Zich et Vásonykõ
 	1856.01.26={death=yes}
 }
+100093097={ # Frhr       Guido                     Kübeck von Kübau                         (1829-1907)     -
+	name="Guido Kübeck von Kübau"
+	dynasty=0
+	religion=catholic culture=german
+	1829.01.13={birth=yes}
+	1865.05.31={add_spouse=100021815}	# Angelica v. Auersperg
+	1907.01.01={death=yes}
+}
+100097739={ # Frhr       Maximilian                Kübeck von Kübau                         (1868-1945)     -
+	name="Maximilian Kübeck von Kübau"
+	dynasty=0
+	religion=catholic culture=german
+	1868.06.08={birth=yes}
+	1901.02.14={add_spouse=100023773}	# Adalberta v. Wurmbrand-Stuppach
+	1945.02.26={death=yes}
+}
+100093134={ # Frn        Johanna Sidonia           Leiser auf Sitzenthal                    (1684-1761)     0
+	name="Johanna Sidonia Leiser auf Sitzenthal"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1684.01.01={birth=yes}
+	1761.01.01={death=yes}
+}
+100095282={ #            Klara Elisabeth           von Leysser                              (1638-1709)     0
+	name="Klara Elisabeth von Leysser"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1638.01.01={birth=yes}
+	1709.02.22={death=yes}
+}
 100092545={ # Frn        Auguste                   von Lenthe                               (1790-1873)     7
 	name="Auguste von Lenthe"
 	female=yes
@@ -2979,6 +3105,38 @@
 	1912.11.07={birth=yes}  # Wüstenahorn
 	2001.06.02={death=yes}  # Bartenstein
 }
+100094000={ # Frn        Karola                    Mordaxt von Portendorf                   (1703-1768)     0
+	name="Karola Mordaxt von Portendorf"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1703.09.04={birth=yes}
+	1768.11.24={death=yes}  # Rudolfswert
+}
+100092684={ # Frn        Maria Theresia            Mordaxt von Portendorf                   (1757-1797)     1
+	name="Maria Theresia Mordaxt von Portendorf"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1757.01.01={birth=yes}
+	1797.02.05={death=yes}
+}
+100092760={ # Frhr       Wolfgang                  Müller von Dietenhof                     (1913-1988)     -
+	name="Wolfgang Müller von Dietenhof"
+	dynasty=0
+	religion=catholic culture=german
+	1913.05.19={birth=yes}  # Graz
+	1944.04.19={add_spouse=100021730}	# Antonia v. Auersperg
+	1988.01.01={death=yes}  # EST.
+}
+100092723={ # Bss        Justine                   von Müller                               (1817-1845)     5
+	name="Justine von Müller"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1817.01.24={birth=yes}
+	1845.07.27={death=yes}
+}
 100092728={ # Frhr       Werner                    von Nagel                                (1800-1832)     -
 	name="Werner von Nagel"
 	dynasty=0
@@ -2994,6 +3152,21 @@
 	religion=lutheran culture=german
 	1837.01.01={birth=yes}
 	1909.04.18={death=yes}
+}
+100095781={ #            Ivonne                    von Opel                                 (1973-    )     3
+	name="Ivonne von Opel"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1973.06.13={birth=yes}  # Mainz
+}
+100094751={ #            Johanna Barbara           von Oppel                                (1633-1704)     4
+	name="Johanna Barbara von Oppel"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1633.01.01={birth=yes}  # EST.
+	1704.05.20={death=yes}
 }
 100094929={ # Frn        Maria Anna                von Ottenfels                            (1771-1825)     3
 	name="Maria Anna von Ottenfels"
@@ -3058,6 +3231,22 @@
 	1952.01.02={birth=yes}
 	1980.06.08={add_spouse=100020109}	# Maria v. Habsburg-Lothringen
 }
+100095674={ #            Marie Jakobe              von Raitenau                             (1591-1663)     1
+	name="Marie Jakobe von Raitenau"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1591.01.01={birth=yes}
+	1663.01.01={death=yes}
+}
+100093201={ #            Maria Theresia            von Raitenau                             (1667-1711)     4
+	name="Maria Theresia von Raitenau"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1667.01.01={birth=yes}
+	1711.01.01={death=yes}
+}
 100092923={ # Frn        Vincenzia                 von Rechbach                             (1760-1800)     0
 	name="Vincenzia von Rechbach"
 	female=yes
@@ -3090,6 +3279,22 @@
 	1934.11.20={add_spouse=100022553}	# Gabriele v. Windisch-Graetz
 	1939.05.02={death=yes}
 }
+100092208={ # Frn        Maria Karoline            von Reischach                            (1740-1782)     2
+	name="Maria Karoline von Reischach"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1740.10.08={birth=yes}  # Nancy
+	1782.10.11={death=yes}  # Wien
+}
+100092942={ # Frhr       Hugo                      von Reischach                            (1862-1934)     -
+	name="Hugo von Reischach"
+	dynasty=0
+	religion=catholic culture=german
+	1862.01.01={birth=yes}
+	1887.10.10={add_spouse=100001835}	# Margarete zu Hohenlohe-Waldenburg-Schillingsfürst
+	1934.08.12={death=yes}
+}
 100098194={ # Baron      Hermann                   von Rüling                               (1845-1919)     -
 	name="Hermann von Rüling"
 	dynasty=0
@@ -3106,7 +3311,7 @@
 	1938.07.24={add_spouse=100186402}	# Maria Anna Czernin v.u.zu Chudenitz
 	1986.10.15={death=yes}
 }
-100093030={ # Frn        Maria Theresia            von Scheibler                            (1814-1879)     6
+100093030={ # Frn        Maria Theresia            von Scheibler                            (1814-1879)     4
 	name="Maria Theresia von Scheibler"
 	female=yes
 	dynasty=0
@@ -3183,6 +3388,22 @@
 	1966.08.25={add_spouse=100010202}	# Anna Elisabeth von Mensdorff-Pouilly
 	2009.01.01={death=yes}  # EST.
 }
+100093562={ #            Anna                      Schweiger von Lerchenfeld                (1743-1817)     4
+	name="Anna Schweiger von Lerchenfeld"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1743.03.17={birth=yes}  # Laibach
+	1817.04.17={death=yes}  # Graz
+}
+100094092={ # Frhr       Karl Franz                Schweiger von Lerchenfeld                (1813-1858)     -
+	name="Karl Franz Schweiger von Lerchenfeld"
+	dynasty=0
+	religion=catholic culture=german
+	1813.01.01={birth=yes}  # EST.
+	1838.01.01={add_spouse=100021900}	# Sophia v. Auersperg
+	1858.01.01={death=yes}
+}
 100093126={ # Frn        Melanie                   von Seckendorff                          (1841-1919)     1
 	name="Melanie von Seckendorff"
 	female=yes
@@ -3229,6 +3450,22 @@
 	religion=catholic culture=german
 	1959.05.27={birth=yes}
 	1987.10.03={add_spouse=100023370}	# Bernadette v. Trauttmansdorff-Weinsberg
+}
+100094128={ #            Johann Albert             von Siegersdorf                          (1512-1587)     -
+	name="Johann Albert von Siegersdorf"
+	dynasty=0
+	religion=catholic culture=german
+	1512.01.01={birth=yes}
+	1532.01.01={add_spouse=100024700}	# Anastasia v. Lamberg
+	1587.01.01={death=yes}  # EST.
+}
+100097806={ # Frhr       Wolfgang Siegmund         von Siegersdorf                          (1624-1699)     -
+	name="Wolfgang Siegmund von Siegersdorf"
+	dynasty=0
+	religion=catholic culture=german
+	1624.01.01={birth=yes}
+	1649.01.01={add_spouse=100023947}	# Sidonia Elisabeth v. Wurmbrand-Stuppach
+	1699.01.01={death=yes}
 }
 100093153={ # Bss        Marie Luise               von Simolin-Wettberg                     (1874-1956)     0
 	name="Marie Luise von Simolin-Wettberg"
@@ -3420,7 +3657,7 @@
 	1967.05.06={add_spouse=100186569}	# Maria Johanna Czernin v.u.zu Chudenitz
 	2004.04.01={death=yes}
 }
-#[SCHAUMBURG, WALDBURG, SCHONBURG, ABENSBERG, MAILATH, OETTINGEN, BANFFY, ZICHY, NASSAU, WALDECK, MENSDORFF, WETTIN, HARCOURT, STOLBERG, POMMERN, CSAKY, THUN, SCHWARZENBERG, APPONYI, WENCKHEIM, SWIATOPELK, WREDE, LOWENSTEIN, DRASKOVICH, ARCO, BETHLEN, BLUCHER, BEAUHARNAIS, PUTBUS, SACHSEN, ELTZ, SZECHENYI, STERNBERKA, HESSEN, COLONNA, HATZFELDT, FESTETICS, BENTHEIM, POTOCKI, LONYAY, SALM, ESTERHAZY, HENCKEL, GOESS, ERBACH, VALDSTEJNA, DOHNA, KINSKY, LIMBURG, APRAXIN, CROY, STARHEMBERG, HOYOS, ORSINI, COLLOREDO, GAGARIN, GOLIZYN, KRAKOVSKY, ISENBURG, HANNOVER, WURTTEMBERG, WURMBRAND, THURN, FUGGER, SOLMS, LEININGEN, SEILERN, TRAUTTMANSDORFF, URSEL, AUERSPERG, LOBKOWICZ, BATTHYANY, ROHAN, HOHENZOLLERN, SCHONBORN, ANHALT, PEJACEVIC, SCHAFFGOTSCH, NOSTITZ, SOMERSET, DOUGLAS, SAYN, REUSS, PAAR, CZERNIN, HABSBURG, SCHWARZBURG, legnicki, BIRON, TELEKI, BEAUFORT, GUDENUS, WIED, FITZROY, HOHENLOHE, GRAMONT, DEGENFELD, LEYEN, LANTE, RECHTEREN, KONIGSEGG, CLARY, ERDODY, OLDENBURG, SCHLESWIG, ORTENBURG, METTERNICH, BRAUNSCHWEIG, TRUBETZKOY]
+#[WALDBURG, SCHAUMBURG, SCHONBURG, ABENSBERG, MAILATH, OETTINGEN, BANFFY, ZICHY, NASSAU, WALDECK, MENSDORFF, WETTIN, HARCOURT, STOLBERG, POMMERN, CSAKY, THUN, SCHWARZENBERG, APPONYI, WENCKHEIM, SWIATOPELK, WREDE, LOWENSTEIN, DRASKOVICH, ARCO, BETHLEN, BLUCHER, BEAUHARNAIS, PUTBUS, SACHSEN, ELTZ, SZECHENYI, STERNBERKA, HESSEN, COLONNA, HATZFELDT, FESTETICS, BENTHEIM, POTOCKI, LONYAY, SALM, ESTERHAZY, HENCKEL, GOESS, ERBACH, DIETRICHSTEIN, VALDSTEJNA, DOHNA, KINSKY, LIMBURG, APRAXIN, CROY, STARHEMBERG, HOYOS, ORSINI, COLLOREDO, GAGARIN, GOLIZYN, LAMBERG, KRAKOVSKY, ISENBURG, HANNOVER, WURTTEMBERG, WURMBRAND, THURN, FUGGER, SOLMS, LEININGEN, SEILERN, TRAUTTMANSDORFF, URSEL, AUERSPERG, LOBKOWICZ, BATTHYANY, ROHAN, HOHENZOLLERN, SCHONBORN, ANHALT, PEJACEVIC, SCHAFFGOTSCH, NOSTITZ, SOMERSET, DOUGLAS, SAYN, REUSS, PAAR, CZERNIN, HABSBURG, SCHWARZBURG, legnicki, TELEKI, BEAUFORT, GUDENUS, WIED, FITZROY, HOHENLOHE, GRAMONT, DEGENFELD, LEYEN, LANTE, RECHTEREN, KONIGSEGG, CLARY, ERDODY, OLDENBURG, SCHLESWIG, ORTENBURG, METTERNICH, TRUBETZKOY]
 100095419={ # Ritter     Alexander                 von Miller zu Aichholz                   (1966-    )     -
 	name="Alexander von Miller zu Aichholz"
 	dynasty=0
@@ -3435,6 +3672,14 @@
 	1913.05.26={birth=yes}  # Kraków
 	1946.08.15={add_spouse=100047452}	# Marianna z Valdštejna
 	1953.12.06={death=yes}  # Bad Gleichenberg, Steiermark
+}
+100099287={ # Gf         Anton                     von Knyphausen von Aldenburg             (1633-1680)     -
+	name="Anton von Knyphausen von Aldenburg"
+	dynasty=0
+	religion=catholic culture=german
+	1633.02.01={birth=yes}
+	1659.04.26={add_spouse=100005563}	# Auguste Johanna zu Sayn-Wittgenstein
+	1680.10.27={death=yes}
 }
 100096368={ # Gfn        Maria Vincentia           z Uhercic                                (1869-1919)     3
 	name="Maria Vincentia z Uhercic"
@@ -3707,6 +3952,15 @@
 	1806.01.01={add_spouse=100002352}	# Luise v. Hohenzollern-Hechingen
 	1833.10.13={death=yes}
 }
+100087912={ # Frhr       Karl                      Heidler von Egeregg                      (1866-1917)     -
+	name="Karl Heidler von Egeregg"
+	dynasty=0
+	religion=catholic culture=bohemian
+	1866.01.01={birth=yes}  # EST.
+	1891.05.04={add_spouse=100009426}	# Sophie v. Waldburg zu Zeil-Wurzach
+	1908.01.01={remove_spouse=100009426}
+	1917.07.10={death=yes}  # Kißlegg
+}
 100084833={ # Frn        Ilona                     Hentschel von Gilgenheimb                (1940-    )     2
 	name="Ilona Hentschel von Gilgenheimb"
 	female=yes
@@ -3729,6 +3983,14 @@
 	1863.03.23={birth=yes}
 	1892.06.18={add_spouse=100023867}	# Josephine v. Thun u.Hohenstein
 	1936.01.12={death=yes}
+}
+100092276={ # Frn        Maria Elisabeth           Hoffmann von Grünbühel                   (1660-1705)     2
+	name="Maria Elisabeth Hoffmann von Grünbühel"
+	female=yes
+	dynasty=0
+	religion=catholic culture=bohemian
+	1660.01.01={birth=yes}
+	1705.01.21={death=yes}
 }
 100088778={ # Edle       Eva                       Horsetzky                                (1948-    )     2
 	name="Eva Horsetzky"
@@ -3801,14 +4063,6 @@
 	1700.01.01={add_spouse=100021631}	# Regina v. Auersperg
 	1704.01.01={death=yes}
 }
-100097739={ # Frhr       Maximilian                Kübeck von Kübau                         (1868-1945)     -
-	name="Maximilian Kübeck von Kübau"
-	dynasty=0
-	religion=catholic culture=german
-	1868.06.08={birth=yes}
-	1901.02.14={add_spouse=100023773}	# Adalberta v. Wurmbrand-Stuppach
-	1945.02.26={death=yes}
-}
 100087122={ # Frhr       Wilhelm                   Künsberg                                 (1844-1909)     -
 	name="Wilhelm Künsberg"
 	dynasty=0
@@ -3816,6 +4070,14 @@
 	1844.01.01={birth=yes}
 	1869.10.05={add_spouse=100005338}	# Charlotte v. Schönborn
 	1909.06.18={death=yes}
+}
+100092719={ # Frn        Marie Anne                Langenmantel von Langenthal              (1760-1809)     0
+	name="Marie Anne Langenmantel von Langenthal"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1760.01.01={birth=yes}
+	1809.01.01={death=yes}
 }
 100097772={ # Frn        Anna Katharina            Low von Rozmital                         (1702-1796)     1
 	name="Anna Katharina Low von Rozmital"
@@ -3919,6 +4181,14 @@
 	1949.01.01={add_spouse=100012207}	# Madeleine Douglas
 	2002.01.01={death=yes}  # EST.
 }
+100094020={ # Frhr       Franz                     Rauber von Plankenstein                  (1714-1772)     -
+	name="Franz Rauber von Plankenstein"
+	dynasty=0
+	religion=catholic culture=german
+	1714.01.01={birth=yes}  # EST.
+	1739.01.01={add_spouse=100021887}	# Maria v. Auersperg
+	1772.01.01={death=yes}
+}
 100096435={ # Frn        Therese                   Revay von Reva                           (1816-1907)     1
 	name="Therese Revay von Reva"
 	female=yes
@@ -3998,6 +4268,14 @@
 	religion=catholic culture=german
 	1884.12.26={birth=yes}  # Klagenfurt
 	1959.01.01={death=yes}  # EST.
+}
+100098727={ # Frn        Magdalena Franziska       Schmidt von Kirchenberg                  (1689-1752)     0
+	name="Magdalena Franziska Schmidt von Kirchenberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1689.01.04={birth=yes}  # Hanau
+	1752.01.01={death=yes}  # Rautenberg
 }
 100095253={ # Frn        Antonia                   Schröffl von Mannsperg und Schöffenheimb (1797-1880)     6
 	name="Antonia Schröffl von Mannsperg und Schöffenheimb"
@@ -4213,6 +4491,14 @@
 	1841.01.09={birth=yes}  # Dobritschan
 	1887.06.01={death=yes}  # Graz
 }
+100092692={ # Frn        Marie Leonarda            Zois von Edelstein                       (1829-1914)     1
+	name="Marie Leonarda Zois von Edelstein"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1829.06.24={birth=yes}
+	1914.01.01={death=yes}
+}
 100094063={ # Frn        Irma                      Zornberg von Gallwitz                    (1842-1891)     4
 	name="Irma Zornberg von Gallwitz"
 	female=yes
@@ -4235,6 +4521,22 @@
 	religion=catholic culture=frankish
 	1959.01.01={birth=yes}
 	1984.07.07={add_spouse=100117410}	# Nathalia Esterházy de Galántha
+}
+100093093={ # Barone     Renato                    di Liveri                                (1919-1970)     -
+	name="Renato di Liveri"
+	dynasty=0
+	religion=catholic culture=neapolitan
+	1919.03.25={birth=yes}  # Napoli
+	1962.04.14={add_spouse=100021811}	# Maria-Henriette v. Auersperg
+	1970.01.26={death=yes}
+}
+100091214={ # Frhr       Hermann                   v.u.zu Guttenberg                        (1825-1882)     -
+	name="Hermann v.u.zu Guttenberg"
+	dynasty=0
+	religion=catholic culture=german
+	1825.01.01={birth=yes}
+	1853.06.08={add_spouse=100006557}	# Luise Sophie v. Thurn und Taxis
+	1882.04.25={death=yes}
 }
 100091221={ # Frhr       Karl                      v.u.zu Leoprechting                      (1818-1864)     -
 	name="Karl v.u.zu Leoprechting"
@@ -4317,7 +4619,7 @@
 	1836.08.20={birth=yes}
 	1921.08.30={death=yes}
 }
-100091207={ # Frn        Marie Sophie              von Bettendorff                          (1714-1753)     1
+100091207={ # Frn        Marie Sophie              von Bettendorff                          (1714-1753)     0
 	name="Marie Sophie von Bettendorff"
 	female=yes
 	dynasty=0
@@ -4332,6 +4634,14 @@
 	religion=catholic culture=german
 	1880.06.02={birth=yes}  # Ulm
 	1950.04.19={death=yes}  # Bad Cannstatt
+}
+100094086={ # Frn        Marie Rosalia             von Billichgrätz                         (1786-1836)     4
+	name="Marie Rosalia von Billichgrätz"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1786.03.07={birth=yes}
+	1836.01.01={death=yes}
 }
 100091655={ # Baron      Karl Friedrich            von Blixen-Fineke                        (1822-1873)     -
 	name="Karl Friedrich von Blixen-Fineke"
@@ -4647,14 +4957,6 @@
 	1786.11.05={add_spouse=100000969}	# Johanna v.u.zu Eltz gt Faust v.Stromberg
 	1830.07.19={death=yes}
 }
-100099193={ # Frn        Ursula                    von Fleckenstein                         (1553-1595)     5
-	name="Ursula von Fleckenstein"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1553.01.01={birth=yes}
-	1595.10.24={death=yes}
-}
 100091968={ # Frn        Aurora Katharina          von Formentini zu Talmein                (1609-1653)     2
 	name="Aurora Katharina von Formentini zu Talmein"
 	female=yes
@@ -4822,7 +5124,7 @@
 	1952.01.09={add_spouse=100065671}	# Marguerite Corisande de Gramont
 	1986.07.10={death=yes}
 }
-100099491={ # Frn        Maria Johanna             von Haagen                               (1698-1746)     1
+100099491={ # Frn        Maria Johanna             von Haagen                               (1698-1746)     2
 	name="Maria Johanna von Haagen"
 	female=yes
 	dynasty=0
@@ -4988,6 +5290,14 @@
 	1906.03.26={birth=yes}
 	1986.04.10={death=yes}
 }
+100092666={ # Frn        Maria Katharina           von Hochburg                             (1678-1732)     4
+	name="Maria Katharina von Hochburg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1678.01.01={birth=yes}
+	1732.01.01={death=yes}
+}
 100096274={ # Frn        Barbara Eleonore          von Hock                                 (1697-1753)     3
 	name="Barbara Eleonore von Hock"
 	female=yes
@@ -5060,6 +5370,14 @@
 	1865.02.25={add_spouse=100009135}	# Charlotte v. Schwarzburg-Sondershausen
 	1884.01.13={death=yes}  # Malaga
 }
+100094030={ # Frhr       Karl Ignaz                von Juritsch zu Strugg und Alt-Guttenberg (1718-1763)     -
+	name="Karl Ignaz von Juritsch zu Strugg und Alt-Guttenberg"
+	dynasty=0
+	religion=catholic culture=german
+	1718.01.01={birth=yes}
+	1743.01.01={add_spouse=100021888}	# Maria v. Auersperg
+	1763.01.01={death=yes}
+}
 100098167={ # Baron      Ivor                      von Kaas                                 (1842-1910)     -
 	name="Ivor von Kaas"
 	dynasty=0
@@ -5107,14 +5425,6 @@
 	religion=catholic culture=german
 	1898.07.03={birth=yes}
 	1952.06.20={death=yes}
-}
-100099287={ # Gf         Anton                     von Knyphausen von Aldenburg             (1633-1680)     -
-	name="Anton von Knyphausen von Aldenburg"
-	dynasty=0
-	religion=catholic culture=german
-	1633.02.01={birth=yes}
-	1659.04.26={add_spouse=100005563}	# Auguste Johanna zu Sayn-Wittgenstein
-	1680.10.27={death=yes}
 }
 100097379={ # Frhr       Johann Konrad             von Konradsheim                          (1902-1980)     -
 	name="Johann Konrad von Konradsheim"
@@ -5369,6 +5679,14 @@
 	1705.04.21={birth=yes}
 	1739.12.22={death=yes}
 }
+100089826={ # Frn        Anne Elisabeth            von Moscon auf Gurkfeld                  (1629-1677)     3
+	name="Anne Elisabeth von Moscon auf Gurkfeld"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1629.01.01={birth=yes}  # EST.
+	1677.01.01={death=yes}
+}
 100090665={ # Bss        Sophia Dorothea           von Mörsperg und Beffort                 (1624-1685)     4
 	name="Sophia Dorothea von Mörsperg und Beffort"
 	female=yes
@@ -5376,14 +5694,6 @@
 	religion=catholic culture=german
 	1624.01.01={birth=yes}
 	1685.04.11={death=yes}  # Arnstadt
-}
-100092723={ # Bss        Justine                   von Müller                               (1817-1845)     5
-	name="Justine von Müller"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1817.01.24={birth=yes}
-	1845.07.27={death=yes}
 }
 100091758={ # Frn        Maria Helene              von Münchhausen                          (1933-2010)     3
 	name="Maria Helene von Münchhausen"
@@ -5625,13 +5935,13 @@
 	1806.12.08={add_spouse=100037204}	# Karoline van Rechteren-Limpurg
 	1820.12.28={death=yes}
 }
-100092942={ # Frhr       Hugo                      von Reischach                            (1862-1934)     -
-	name="Hugo von Reischach"
+100092761={ # Frn        Elisabeth                 von Reichenau                            (1759-1791)     0
+	name="Elisabeth von Reichenau"
+	female=yes
 	dynasty=0
 	religion=catholic culture=german
-	1862.01.01={birth=yes}
-	1887.10.10={add_spouse=100001835}	# Margarete zu Hohenlohe-Waldenburg-Schillingsfürst
-	1934.08.12={death=yes}
+	1759.01.01={birth=yes}
+	1791.01.01={death=yes}
 }
 100097770={ # Frhr       Franz Josef               von Reisewitz                            (1728-1759)     -
 	name="Franz Josef von Reisewitz"
@@ -5736,6 +6046,22 @@
 	religion=lutheran culture=german
 	1948.01.08={birth=yes}
 }
+100093270={ # Frn        Anna                      von Rummel zu Waldau                     (1718-1778)     2
+	name="Anna von Rummel zu Waldau"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1718.01.01={birth=yes}
+	1778.01.01={death=yes}
+}
+100093137={ # Frhr       Georg Karl                von Russenstein zu Hopfenbach            (1654-1724)     -
+	name="Georg Karl von Russenstein zu Hopfenbach"
+	dynasty=0
+	religion=catholic culture=german
+	1654.01.01={birth=yes}  # EST.
+	1679.01.01={add_spouse=100021833}	# Franziska v. Auersperg
+	1724.01.01={death=yes}
+}
 100097552={ # Frhr       Wolfgang                  von Salmuth                              (1870-1944)     -
 	name="Wolfgang von Salmuth"
 	dynasty=0
@@ -5832,7 +6158,7 @@
 	1933.02.27={add_spouse=100008509}	# Charlotte von Arco
 	1999.07.06={death=yes}  # Prien
 }
-100092143={ # Frn        Antonia                   von Schmidburg                           (1846-1888)     2
+100092143={ # Frn        Antonia                   von Schmidburg                           (1846-1888)     4
 	name="Antonia von Schmidburg"
 	female=yes
 	dynasty=0
@@ -5871,6 +6197,14 @@
 	1672.06.12={birth=yes}
 	1727.04.25={death=yes}  # Öttingen
 }
+100089301={ # Frhr       Wilhelm Heinrich          von Schütz-Pflummern                     (1789-1819)     -
+	name="Wilhelm Heinrich von Schütz-Pflummern"
+	dynasty=0
+	religion=catholic culture=german
+	1789.01.01={birth=yes}  # EST.
+	1814.01.01={add_spouse=100009436}	# Maximiliana Johanna v. Waldburg zu Zeil-Wurzach
+	1819.08.23={death=yes}
+}
 100093127={ # Frn        Marie-Agnes               von Seebach                              (1940-    )     3
 	name="Marie-Agnes von Seebach"
 	female=yes
@@ -5884,14 +6218,6 @@
 	dynasty=0
 	religion=catholic culture=bohemian
 	1941.09.19={birth=yes}
-}
-100097806={ # Frhr       Wolfgang Siegmund         von Siegersdorf                          (1624-1699)     -
-	name="Wolfgang Siegmund von Siegersdorf"
-	dynasty=0
-	religion=catholic culture=german
-	1624.01.01={birth=yes}
-	1649.01.01={add_spouse=100023947}	# Sidonia Elisabeth v. Wurmbrand-Stuppach
-	1699.01.01={death=yes}
 }
 100095167={ # Frhr       Karl                      von Simbschen                            (1837-1865)     -
 	name="Karl von Simbschen"
@@ -6125,6 +6451,14 @@
 	1943.09.06={birth=yes}
 	1969.09.02={add_spouse=100006315}	# Bettina zu Stolberg-Wernigerode
 }
+100092539={ # Frhr       Johann Karl               von Valvasor zu Gallenegg                (1665-1741)     -
+	name="Johann Karl von Valvasor zu Gallenegg"
+	dynasty=0
+	religion=catholic culture=german
+	1665.01.01={birth=yes}  # EST.
+	1690.01.01={add_spouse=100021678}	# Anne v. Auersperg
+	1741.01.01={death=yes}
+}
 100097478={ # Frn        Eleonore                  von Vetsera                              (1907-1982)     0
 	name="Eleonore von Vetsera"
 	female=yes
@@ -6205,6 +6539,14 @@
 	1895.10.15={add_spouse=100010011}	# Julie von Degenfeld-Schonburg
 	1909.07.27={death=yes}  # Neubeuern
 }
+100092796={ # Frhr       Heinrich Johann           von Werneck                              (1660-1728)     -
+	name="Heinrich Johann von Werneck"
+	dynasty=0
+	religion=catholic culture=german
+	1660.01.01={birth=yes}  # EST.
+	1685.01.24={add_spouse=100021774}	# Maria Isabella v. Auersperg
+	1728.04.21={death=yes}  # Laibach
+}
 100098765={ # Baron      Andreas                   von Wernitz zu Salm-Kyrburg              (1944-    )     -
 	name="Andreas von Wernitz zu Salm-Kyrburg"
 	dynasty=0
@@ -6259,6 +6601,22 @@
 	religion=catholic culture=german
 	1819.12.20={birth=yes}  # Stuttgart
 	1883.01.13={death=yes}  # Tambach
+}
+100092233={ # Frhr       Franz Rudolf              von Wolkensberg                          (1746-1803)     -
+	name="Franz Rudolf von Wolkensberg"
+	dynasty=0
+	religion=catholic culture=german
+	1746.01.01={birth=yes}  # EST.
+	1771.01.01={add_spouse=100021650}	# Marie Anne v. Auersperg
+	1803.01.01={death=yes}
+}
+100093689={ # Frn        Marie Viktorie            von Wolkensperg                          (1792-1871)     0
+	name="Marie Viktorie von Wolkensperg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1792.09.06={birth=yes}  # Watsch
+	1871.11.01={death=yes}
 }
 100093486={ # Frhr       Wolff                     von Wolzogen und Neuhaus                 (1910-2003)     -
 	name="Wolff von Wolzogen und Neuhaus"
@@ -6355,962 +6713,3 @@
 	religion=lutheran culture=german
 	1968.09.22={birth=yes}
 }
-100094568={ #            Carles                    Andreu Alacreu                           (1988-    )     -
-	name="Carles Andreu Alacreu"
-	dynasty=0
-	religion=catholic culture=castillan
-	1988.01.01={birth=yes}  # EST.
-	2013.09.21={add_spouse=100008981}	# Sophie von Schönburg-Forderglauchau
-}
-100099555={ #            William                   Barwell-Barwell                          (1848-1923)     -
-	name="William Barwell-Barwell"
-	dynasty=0
-	religion=catholic culture=german
-	1848.01.01={birth=yes}  # EST.
-	1873.01.01={add_spouse=100009177}	# Lise zu Leiningen-Westerburg
-	1923.01.01={death=yes}  # EST.
-}
-100094408={ #            Juliet                    Beechy-Fowler                            (1966-    )     2
-	name="Juliet Beechy-Fowler"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1966.08.10={birth=yes}  # Hamburg
-}
-100086523={ #            Carl August               Bigot de Saint Quentin                   (1805-1884)     -
-	name="Carl August Bigot de Saint Quentin"
-	dynasty=0
-	religion=catholic culture=bohemian
-	1805.06.12={birth=yes}  # Neuburg an der Donau
-	1851.10.13={add_spouse=100047482}	# Karolina ze Šternberka
-	1884.09.08={death=yes}  # Kvasice
-}
-100086137={ #            Georg                     Béldi de Uzon                            (1910-1946)     -
-	name="Georg Béldi de Uzon"
-	dynasty=0
-	religion=catholic culture=german
-	1910.01.18={birth=yes}  # Sepsiszentgyörgy
-	1936.03.16={add_spouse=100010080}	# Helene von Degenfeld-Schonburg
-	1946.07.13={death=yes}  # Altenbeuern
-}
-100099547={ #            Gustav                    Cosulich de Pecine                       (1838-1887)     -
-	name="Gustav Cosulich de Pecine"
-	dynasty=0
-	religion=catholic culture=german
-	1838.01.01={birth=yes}  # EST.
-	1863.01.01={add_spouse=100009173}	# Charlotte zu Leiningen-Westerburg
-	1887.05.03={death=yes}
-}
-100092328={ #            Emile                     Delamothe de Girardin                    (1831-1881)     -
-	name="Emile Delamothe de Girardin"
-	dynasty=0
-	religion=catholic culture=german
-	1831.01.01={birth=yes}
-	1856.10.30={add_spouse=100070114}	# Wilhelmine Brunold v. Nassau-Weilburg
-	1872.01.01={remove_spouse=100070114}
-	1881.04.27={death=yes}  # Paris
-}
-100099481={ #            Antonia                   Eissner von Eisenstein                   (1718-1800)     0
-	name="Antonia Eissner von Eisenstein"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1718.01.01={birth=yes}
-	1800.01.01={death=yes}
-}
-100094840={ #            Maria Barbara             Everhardt von Lichtenhaag                (1692-1729)     0
-	name="Maria Barbara Everhardt von Lichtenhaag"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1692.01.01={birth=yes}
-	1729.01.01={death=yes}  # EST.
-}
-100099373={ #            Maria Christina           Firnhaber von Eberstein                  (1759-1799)     0
-	name="Maria Christina Firnhaber von Eberstein"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1759.05.01={birth=yes}
-	1799.01.01={death=yes}  # Paris
-}
-100086440={ #            Haug Georg                Gilg von Kuenheim                        (1934-2011)     -
-	name="Haug Georg Gilg von Kuenheim"
-	dynasty=0
-	religion=catholic culture=german
-	1934.05.29={birth=yes}  # Königsberg
-	1993.09.01={add_spouse=100008464}	# Friedel von Solms-Wildenfels
-	2011.01.01={death=yes}  # EST.
-}
-100086071={ #            Hans-Wolfgang             Herwarth von Bittenfeld                  (1871-1942)     -
-	name="Hans-Wolfgang Herwarth von Bittenfeld"
-	dynasty=0
-	religion=catholic culture=german
-	1871.05.23={birth=yes}  # Berlin
-	1916.12.09={add_spouse=100010011}	# Julie von Degenfeld-Schonburg
-	1922.01.01={remove_spouse=100010011}
-	1942.12.25={death=yes}  # Berlin
-}
-100091362={ #            Clara                     Huntingdon                               (1860-1928)     0
-	name="Clara Huntingdon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=bohemian
-	1860.01.01={birth=yes}
-	1928.12.17={death=yes}  # London
-}
-100086276={ #            Guillaume                 Hübsch von Grossthal                     (1955-    )     -
-	name="Guillaume Hübsch von Grossthal"
-	dynasty=0
-	religion=catholic culture=german
-	1955.11.13={birth=yes}  # Neuilly sur Seine
-	1985.05.11={add_spouse=100010161}	# Diane von Mensdorff-Pouilly
-}
-100086391={ #            Herve-Alexander           Perrin de Nelle                          (1971-    )     -
-	name="Herve-Alexander Perrin de Nelle"
-	dynasty=0
-	religion=catholic culture=german
-	1971.07.01={birth=yes}  # Munich
-	1999.12.13={add_spouse=100010293}	# Anna-Madeleine zu Ortenburg
-}
-100092000={ #            August                    Preyers                                  (1872-1916)     -
-	name="August Preyers"
-	dynasty=0
-	religion=catholic culture=bohemian
-	1872.01.01={birth=yes}  # EST.
-	1897.01.01={add_spouse=100010601}	# Margarete von Hatzfeldt
-	1916.01.01={death=yes}
-}
-100099263={ #            Helena Elisabeth          Raschin von Riesenburg                   (1632-1699)     1
-	name="Helena Elisabeth Raschin von Riesenburg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1632.01.01={birth=yes}
-	1699.09.20={death=yes}
-}
-100099596={ #            Magdalena                 Rogalla von Biberstein                   (1867-1940)     0
-	name="Magdalena Rogalla von Biberstein"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1867.01.01={birth=yes}
-	1940.01.01={death=yes}
-}
-100096375={ #            Marie Wilhelmine          Schirndinger von Schirnding              (1733-1803)     1
-	name="Marie Wilhelmine Schirndinger von Schirnding"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1733.11.10={birth=yes}
-	1803.01.01={death=yes}
-}
-100099586={ #            Charlotte Sophie          Scholz von Schmettau                     (1790-1860)     2
-	name="Charlotte Sophie Scholz von Schmettau"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1790.04.19={birth=yes}  # Berlin
-	1860.03.05={death=yes}  # Wien
-}
-100086757={ #            Hubertus                  Schulte-Heinemann                        (1960-    )     -
-	name="Hubertus Schulte-Heinemann"
-	dynasty=0
-	religion=catholic culture=bohemian
-	1960.11.07={birth=yes}  # Meschede
-	1987.05.08={add_spouse=100047512}	# Marie Anna ze Šternberka
-}
-100086771={ #            Joseph                    Schulze-Wartenhorst                      (1962-    )     -
-	name="Joseph Schulze-Wartenhorst"
-	dynasty=0
-	religion=catholic culture=german
-	1962.10.06={birth=yes}  # München
-	1995.08.26={add_spouse=100047518}	# Aglay ze Šternberka
-}
-100090223={ #            Michael Max               Senfft von Pilsach                       (1989-    )     -
-	name="Michael Max Senfft von Pilsach"
-	dynasty=0
-	religion=catholic culture=german
-	1989.01.01={birth=yes}
-	2014.07.19={add_spouse=100008331}	# Felizitas-Magdalena v. Isenburg
-}
-100086737={ #            Rueff                     Seutter von Lötzen                       (1906-1985)     -
-	name="Rueff Seutter von Lötzen"
-	dynasty=0
-	religion=catholic culture=german
-	1906.11.03={birth=yes}  # Wien
-	1951.05.06={add_spouse=100047506}	# Anna ze Šternberka
-	1985.04.01={death=yes}  # Innsbruck
-}
-100099595={ #            Josephine                 Spruner von Mertz                        (1835-1917)     1
-	name="Josephine Spruner von Mertz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1835.04.08={birth=yes}
-	1917.11.05={death=yes}
-}
-100095579={ #            Wilhelmine                Vojnits de Bajsa                         (1841-1873)     3
-	name="Wilhelmine Vojnits de Bajsa"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1841.06.23={birth=yes}  # Tajna
-	1873.09.01={death=yes}  # Aranyosmarót
-}
-100094544={ #            Johann                    Wolfart von Brederode                    (1594-1655)     -
-	name="Johann Wolfart von Brederode"
-	dynasty=0
-	religion=catholic culture=german
-	1594.01.01={birth=yes}  # EST.
-	1619.06.14={add_spouse=100037073}	# Anna v. Nassau-Siegen
-	1655.09.03={death=yes}  # Petersham
-}
-100094119={ #            Maria Nepomucena          Zadubsky von Schönthal                   (1757-1787)     2
-	name="Maria Nepomucena Zadubsky von Schönthal"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1757.11.18={birth=yes}  # Böhm-Budweis
-	1787.02.15={death=yes}  # Budwies
-}
-100086113={ #            Rosalie                   d'Espagne de Venevelles                  (1936-2013)     4
-	name="Rosalie d'Espagne de Venevelles"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1936.12.05={birth=yes}  # Paris
-	2013.01.01={death=yes}  # EST.
-}
-100086726={ #            Alexander Johann          van den Straten-Ponthoz                  (1882-1949)     -
-	name="Alexander Johann van den Straten-Ponthoz"
-	dynasty=0
-	religion=catholic culture=dutch
-	1882.08.29={birth=yes}  # Weinern
-	1907.10.10={add_spouse=100047499}	# Eleonora ze Šternberka
-	1949.02.23={death=yes}  # Wien
-}
-100092742={ #            Eberhard                  von Ammon                                (1885-1950)     -
-	name="Eberhard von Ammon"
-	dynasty=0
-	religion=catholic culture=german
-	1885.09.11={birth=yes}  # Magdeburg-Sudenburg
-	1915.01.27={add_spouse=100002346}	# Erika zu Hohenlohe-Oehringen
-	1933.01.01={remove_spouse=100002346}
-	1950.01.29={death=yes}  # Berlin-Charlottenburg
-}
-100094617={ #            Christine                 von Bardeleben                           (1765-1835)     0
-	name="Christine von Bardeleben"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1765.05.02={birth=yes}  # Kassel
-	1835.01.20={death=yes}  # Darmstadt
-}
-100099115={ #            Konstantin                von Beguelin                             (1897-1963)     -
-	name="Konstantin von Beguelin"
-	dynasty=0
-	religion=catholic culture=german
-	1897.04.19={birth=yes}  # Oppeln
-	1924.05.29={add_spouse=100008621}	# Mechtild zu Waldeck u.Pyrmont
-	1963.06.03={death=yes}  # Bonn
-}
-100086227={ #            Pauline Susanne           von Bek                                  (1815-1856)     5
-	name="Pauline Susanne von Bek"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1815.03.10={birth=yes}
-	1856.01.01={death=yes}
-}
-100099186={ #            Philipp Bernhard          von Bellin                               (1657-1732)     -
-	name="Philipp Bernhard von Bellin"
-	dynasty=0
-	religion=catholic culture=german
-	1657.01.01={birth=yes}  # EST.
-	1682.01.01={add_spouse=100003370}	# Sophie Juliane zu Leiningen
-	1732.01.01={death=yes}  # EST.
-}
-100099320={ #            Isabel                    von Bergen                               (1957-    )     3
-	name="Isabel von Bergen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1957.09.30={birth=yes}
-}
-100090546={ #            Helene                    von Bockenförde gt Schüngel              (1573-1648)     1
-	name="Helene von Bockenförde gt Schüngel"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1573.01.01={birth=yes}  # EST.
-	1648.01.01={death=yes}  # EST.
-}
-100094337={ #            Gertruda                  von Borkenau                             (1907-1995)     2
-	name="Gertruda von Borkenau"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1907.11.06={birth=yes}  # Berlin
-	1995.07.13={death=yes}  # Wien
-}
-100095707={ #            Olga                      von Braillard                            (1850-1937)     3
-	name="Olga von Braillard"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1850.01.13={birth=yes}
-	1937.10.20={death=yes}
-}
-100086413={ #            Ludwig                    von Breitenbuch                          (1935-2012)     -
-	name="Ludwig von Breitenbuch"
-	dynasty=0
-	religion=catholic culture=german
-	1935.09.23={birth=yes}
-	1970.06.27={add_spouse=100010311}	# Yvonne zu Ortenburg
-	2012.01.01={death=yes}  # EST.
-}
-100086114={ #            Johanna                   von Brempt                               (1569-1644)     1
-	name="Johanna von Brempt"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1569.01.01={birth=yes}  # EST.
-	1644.01.01={death=yes}  # EST.
-}
-100085841={ #            Adolph                    von Brenner-Frisach                      (1833-1908)     -
-	name="Adolph von Brenner-Frisach"
-	dynasty=0
-	religion=catholic culture=german
-	1833.01.01={birth=yes}
-	1858.01.01={add_spouse=100324478}	# Louise Anna Maria Johanna Nepomucena v. Seilern u.Aspang
-	1908.01.01={death=yes}	# EST.
-}
-100091538={ #            Bodo                      von Bruemmer                             (1916-1991)     -
-	name="Bodo von Bruemmer"
-	dynasty=0
-	religion=catholic culture=german
-	1916.01.01={birth=yes}  # EST.
-	1941.11.27={add_spouse=100010562}	# Barbara von Hatzfeldt
-	1957.01.01={remove_spouse=100010562}
-	1991.01.01={death=yes}  # EST.
-}
-100086404={ #            Ilsabe                    von Brünneck                             (1945-    )     3
-	name="Ilsabe von Brünneck"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1945.09.28={birth=yes}  # Hamburg
-}
-100099313={ #            Ruth-Erika                von Buggenhagen                          (1922-2009)     5
-	name="Ruth-Erika von Buggenhagen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1922.06.25={birth=yes}  # Buggenhagen
-	2009.10.15={death=yes}
-}
-100099247={ #            Luise Friederike          von Bähr                                 (1752-1820)     2
-	name="Luise Friederike von Bähr"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1752.01.01={birth=yes}
-	1820.01.01={death=yes}
-}
-100086451={ #            Erika                     von Böhn                                 (1892-1976)     3
-	name="Erika von Böhn"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1892.04.17={birth=yes}  # Sagerke Kr Stolp
-	1976.02.18={death=yes}  # Usingen
-}
-100094635={ #            Valerie                   von Carstanjen                           (1908-1979)     3
-	name="Valerie von Carstanjen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1908.04.03={birth=yes}  # Godesberg
-	1979.12.04={death=yes}  # Salzburg
-}
-100099004={ #            Lucius                    von Cary-Tardeven                        (1809-1854)     -
-	name="Lucius von Cary-Tardeven"
-	dynasty=0
-	religion=orthodox culture=german
-	1809.01.01={birth=yes}
-	1839.01.06={add_spouse=100023757}	# Amalia v. Starhemberg
-	1854.01.01={death=yes}
-}
-100099120={ #            Salome Johanna            von Dies                                 (1723-1761)     0
-	name="Salome Johanna von Dies"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1723.01.01={birth=yes}
-	1761.01.01={death=yes}
-}
-100089896={ #            Uschi                     von Ense                                 (1491-1523)     1
-	name="Uschi von Ense"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1491.01.01={birth=yes}  # EST.
-	1523.01.01={death=yes}  # EST.
-}
-100095487={ #            Kuno                      von Falkensten                           (1287-1334)     -
-	name="Kuno von Falkensten"
-	dynasty=0
-	religion=catholic culture=german
-	1287.01.01={birth=yes}  # EST.
-	1312.01.01={add_spouse=100037301}	# Anna von Nassau
-	1334.01.01={death=yes}
-}
-100099348={ #            Eugenie                   von Fortenbach                           (1900-1982)     1
-	name="Eugenie von Fortenbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1900.08.14={birth=yes}  # Würzburg
-	1982.09.06={death=yes}  # Vilsbiburg
-}
-100086076={ #            Ernestine Sophie          von Froreich                             (1719-1759)     0
-	name="Ernestine Sophie von Froreich"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1719.06.02={birth=yes}
-	1759.01.01={death=yes}  # Dramburg
-}
-100095862={ #            Anna                      von Gall                                 (1707-1760)     0
-	name="Anna von Gall"
-	female=yes
-	dynasty=0
-	religion=lutheran culture=german
-	1707.01.01={birth=yes}
-	1760.07.29={death=yes}  # Schwörstadt
-}
-100094639={ #            Johanna                   von Gemen                                (1427-1451)     1
-	name="Johanna von Gemen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1427.01.01={birth=yes}  # EST.
-	1451.01.01={death=yes}
-}
-100099251={ #            Karl                      von Geusau                               (1731-1775)     -
-	name="Karl von Geusau"
-	dynasty=0
-	religion=catholic culture=german
-	1731.01.01={birth=yes}  # EST.
-	1756.02.22={add_spouse=100006743}	# Elisabeth Christine von Solms-Sonnenwalde
-	1775.09.02={death=yes}  # Liebenwerda
-}
-100093267={ #            Lotte Valeska             von Glasenapp                            (1892-1967)     0
-	name="Lotte Valeska von Glasenapp"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1892.01.01={birth=yes}  # Berlin
-	1967.01.01={death=yes}  # EST.
-}
-100095667={ #            Johann Wilhelm            von Goebel                               (1705-1745)     -
-	name="Johann Wilhelm von Goebel"
-	dynasty=0
-	religion=lutheran culture=german
-	1705.01.01={birth=yes}  # EST.
-	1730.05.15={add_spouse=100002886}	# Sophia Dorothea zu Schaumburg-Lippe
-	1745.03.06={death=yes}  # Helmstedt
-}
-100086588={ #            Ernest                    von Habsburg                             (1377-1424)     -
-	name="Ernest von Habsburg"
-	dynasty=0
-	religion=catholic culture=german
-	1377.01.01={birth=yes}
-	1392.01.14={add_spouse=100010363}	# Margareta von Pommern
-	1424.06.10={death=yes}
-}
-100081938={ #            Johanna                   von Harff                                (1489-1555)     1
-	name="Johanna von Harff"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1489.01.01={birth=yes}  # EST.
-	1555.01.01={death=yes}
-}
-100099381={ #            Sophie Charlotte          von Hattig                               (1755-1830)     0
-	name="Sophie Charlotte von Hattig"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1755.01.01={birth=yes}  # EST.
-	1830.01.01={death=yes}  # EST.
-}
-100086732={ #            Adelheid                  von Heinsberg u.Blankenburg              (1279-1344)     3
-	name="Adelheid von Heinsberg u.Blankenburg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1279.01.01={birth=yes}  # EST.
-	1344.05.21={death=yes}
-}
-100089251={ #            N                         von Held                                 (1756-1790)     0
-	name="N von Held"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1756.01.01={birth=yes}  # EST.
-	1790.01.01={death=yes}
-}
-100082230={ #            Anna                      von Hohengeroldseck                      (1593-1649)     0
-	name="Anna von Hohengeroldseck"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1593.10.28={birth=yes}  # Schloss Hohengeroldseck
-	1649.05.25={death=yes}  # Basel
-}
-100099390={ #            Daniel                    von Ingenheim                            (1666-1723)     -
-	name="Daniel von Ingenheim"
-	dynasty=0
-	religion=catholic culture=german
-	1666.01.01={birth=yes}
-	1703.07.15={add_spouse=100002047}	# Marie v. Hessen-Rheinfels-Rotenburg
-	1723.01.22={death=yes}  # Erfurt
-}
-100098962={ #            Sofie                     von Ingersleben                          (1705-1726)     0
-	name="Sofie von Ingersleben"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1705.01.01={birth=yes}  # EST.
-	1726.03.31={death=yes}  # Hoym
-}
-100096900={ #            Klara                     von Jaeckel                              (1871-1965)     2
-	name="Klara von Jaeckel"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1871.05.22={birth=yes}  # Kassel
-	1965.12.13={death=yes}  # Bergheim
-}
-100094376={ #            Dorothea Christine        von Kahlden                              (1791-1862)     2
-	name="Dorothea Christine von Kahlden"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1791.11.08={birth=yes}  # Tangrin Mecklenburg
-	1862.12.16={death=yes}  # Siebleben_bei_Gotha
-}
-100086325={ #            Friedrich-Karl            von Kempis                               (1920-1996)     -
-	name="Friedrich-Karl von Kempis"
-	dynasty=0
-	religion=catholic culture=german
-	1920.08.13={birth=yes}  # Katzenelnbogen
-	1975.09.18={add_spouse=100010195}	# Johanna von Mensdorff-Pouilly
-	1996.01.01={death=yes}  # EST.
-}
-100092299={ #            Maria                     von Kink                                 (1919-1994)     2
-	name="Maria von Kink"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1919.11.17={birth=yes}  # Wien
-	1994.01.01={death=yes}  # EST.
-}
-100092563={ #            Alfons                    von Kloss                                (1953-    )     -
-	name="Alfons von Kloss"
-	dynasty=0
-	religion=catholic culture=german
-	1953.09.19={birth=yes}  # Graz
-	1979.08.20={add_spouse=100024304}	# Anna v. Gudenus
-}
-100099218={ #            Christian Adolf           von Köhler                               (1699-1764)     -
-	name="Christian Adolf von Köhler"
-	dynasty=0
-	religion=catholic culture=german
-	1699.01.01={birth=yes}  # EST.
-	1724.01.01={add_spouse=100003648}	# Sophie Charlotte zu Leiningen
-	1764.01.01={death=yes}
-}
-100099331={ #            Marie Katharina           von Leers                                (1753-1828)     1
-	name="Marie Katharina von Leers"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1753.04.10={birth=yes}
-	1828.01.01={death=yes}  # EST.
-}
-100095859={ #            Karl Georg                von Lieven                               (1775-1836)     -
-	name="Karl Georg von Lieven"
-	dynasty=0
-	religion=catholic culture=german
-	1775.01.01={birth=yes}  # EST.
-	1800.01.01={add_spouse=100004704}	# Charlotte zu Sayn-Wittgenstein
-	1836.01.01={death=yes}
-}
-100086006={ #            Elisabeth                 von Lindau-Ruppin                        (1296-1350)     3
-	name="Elisabeth von Lindau-Ruppin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1296.01.01={birth=yes}  # EST.
-	1350.02.01={death=yes}
-}
-100099255={ #            N                         von Luttitz                              (1722-1797)     -
-	name="N von Luttitz"
-	dynasty=0
-	religion=catholic culture=german
-	1722.01.01={birth=yes}  # EST.
-	1747.12.08={add_spouse=100006747}	# Wilhelmine Christiane von Solms-Sonnenwalde
-	1797.01.01={death=yes}  # EST.
-}
-100095858={ #            Apollonia                 von Löwenfinken                          (1748-1822)     3
-	name="Apollonia von Löwenfinken"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1748.01.01={birth=yes}
-	1822.06.16={death=yes}
-}
-100086389={ #            Jutta                     von Lücken                               (1906-1991)     5
-	name="Jutta von Lücken"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1906.06.21={birth=yes}  # Danzig
-	1991.12.23={death=yes}  # Schweinfurt
-}
-100099597={ #            Maximilian                von Madroux                              (1818-1877)     -
-	name="Maximilian von Madroux"
-	dynasty=0
-	religion=catholic culture=german
-	1818.01.01={birth=yes}  # EST.
-	1843.01.01={add_spouse=100009214}	# Karoline zu Leiningen-Westerburg
-	1877.03.13={death=yes}
-}
-100089836={ #            Maria-Domina              von Maltitz                              (1904-1997)     3
-	name="Maria-Domina von Maltitz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1904.10.23={birth=yes}  # Köln
-	1997.02.12={death=yes}  # Munich
-}
-100086110={ #            Friedrich Detlev          von Moltke                               (1750-1825)     -
-	name="Friedrich Detlev von Moltke"
-	dynasty=0
-	religion=catholic culture=german
-	1750.08.28={birth=yes}  # Schorsow
-	1777.01.01={add_spouse=100009186}	# Friederike zu Dohna-Schlobitten
-	1825.09.02={death=yes}
-}
-100085908={ #            Gabriele                  von Moreau                               (1925-2002)     2
-	name="Gabriele von Moreau"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1925.08.03={birth=yes}	# Schönach b. Straubing
-	2002.01.01={death=yes}  # EST.
-}
-100099540={ #            Hedwig                    von Nordeck                              (1877-1922)     0
-	name="Hedwig von Nordeck"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1877.10.27={birth=yes}
-	1922.10.15={death=yes}
-}
-100099016={ #            Elsa                      von Ondarza                              (1870-1960)     1
-	name="Elsa von Ondarza"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1870.07.19={birth=yes}  # Hamburg
-	1960.02.02={death=yes}  # Fisching
-}
-100095781={ #            Ivonne                    von Opel                                 (1973-    )     3
-	name="Ivonne von Opel"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1973.06.13={birth=yes}  # Mainz
-}
-100087104={ #            Anna                      von Palant                               (1650-1726)     1
-	name="Anna von Palant"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1650.01.01={birth=yes}  # EST.
-	1726.01.01={death=yes}
-}
-100091980={ #            Johanna                   von Polanen                              (1392-1445)     4
-	name="Johanna von Polanen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1392.01.10={birth=yes}
-	1445.05.15={death=yes}
-}
-100092356={ #            Marie-Esther              von Puttkamer                            (1903-1983)     0
-	name="Marie-Esther von Puttkamer"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1903.12.26={birth=yes}  # Nipkau
-	1983.06.11={death=yes}  # Fürstenau
-}
-100095674={ #            Marie Jakobe              von Raitenau                             (1591-1663)     1
-	name="Marie Jakobe von Raitenau"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1591.01.01={birth=yes}
-	1663.01.01={death=yes}
-}
-100098973={ #            Hella                     von Ramin                                (1883-1943)     0
-	name="Hella von Ramin"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1883.02.25={birth=yes}  # Verden an der Aller
-	1943.01.07={death=yes}  # Radewitz
-}
-100094637={ #            Katharina                 von Randerath                            (1363-1438)     2
-	name="Katharina von Randerath"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1363.01.01={birth=yes}  # EST.
-	1438.01.01={death=yes}  # EST.
-}
-100085944={ #            Aglaë                     von Reutter                              (1955-    )     4
-	name="Aglaë von Reutter"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1955.10.14={birth=yes}	# Hollerhof
-}
-100088036={ #            Alma Marianna             von Salisch                              (1688-1709)     1
-	name="Alma Marianna von Salisch"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1688.05.31={birth=yes}
-	1709.02.22={death=yes}  # Breda
-}
-100099225={ #            Johann Christoph          von Schaerffenberg                       (1633-1666)     -
-	name="Johann Christoph von Schaerffenberg"
-	dynasty=0
-	religion=catholic culture=german
-	1633.01.01={birth=yes}  # EST.
-	1658.01.01={add_spouse=100003659}	# Polyxena zu Leiningen
-	1666.01.01={death=yes}
-}
-100086065={ #            Ottonie                   von Schwartz                             (1882-1970)     1
-	name="Ottonie von Schwartz"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1882.05.25={birth=yes}  # Rimmerode
-	1970.03.19={death=yes}  # Hinterhör
-}
-100099389={ #            Botho                     von Schwarzkopf                          (1948-    )     -
-	name="Botho von Schwarzkopf"
-	dynasty=0
-	religion=catholic culture=german
-	1948.01.01={birth=yes}  # EST.
-	1973.01.01={add_spouse=100003997}	# Margarete v. Löwenstein-Scharffeneck
-}
-100094640={ #            Johann                    von Schöneck                             (1399-1474)     -
-	name="Johann von Schöneck"
-	dynasty=0
-	religion=catholic culture=german
-	1399.01.01={birth=yes}  # EST.
-	1424.01.01={add_spouse=100037281}	# Margarete von Nassau
-	1460.01.01={remove_spouse=100037281}
-	1474.01.01={death=yes}  # EST.
-}
-100086747={ #            Maximilian                von Seldeneck                            (1859-1912)     -
-	name="Maximilian von Seldeneck"
-	dynasty=0
-	religion=catholic culture=german
-	1859.01.01={birth=yes}  # EST.
-	1884.07.05={add_spouse=100010448}	# Anna von Königsegg-Aulendorf
-	1912.01.12={death=yes}  # Pettau
-}
-100097184={ #            Katharina                 von Siemens                              (1938-2015)     3
-	name="Katharina von Siemens"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1938.12.24={birth=yes}  # Berlin
-	2015.01.01={death=yes}  # EST.
-}
-100085966={ #            Karl                      von Sosnovicz                            (1940-    )     -
-	name="Karl von Sosnovicz"
-	dynasty=0
-	religion=catholic culture=german
-	1940.04.26={birth=yes}	# Wien, Wien
-	1973.08.14={add_spouse=100324474}	# Marie Helene v. Seilern u.Aspang
-}
-100099599={ #            Thomas                    von Stetten                              (1807-1849)     -
-	name="Thomas von Stetten"
-	dynasty=0
-	religion=catholic culture=german
-	1807.01.01={birth=yes}  # EST.
-	1832.01.01={add_spouse=100009215}	# Karoline zu Leiningen-Westerburg
-	1849.01.01={death=yes}
-}
-100086155={ #            Martha                    von Stojkovits                           (1895-1977)     0
-	name="Martha von Stojkovits"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1895.10.07={birth=yes}  # Várgede
-	1977.01.01={death=yes}  # Eybach
-}
-100086224={ #            Julius                    von Strada                               (1873-1920)     -
-	name="Julius von Strada"
-	dynasty=0
-	religion=catholic culture=german
-	1873.01.01={birth=yes}  # EST.
-	1898.12.22={add_spouse=100010104}	# Auguste von Degenfeld-Schonburg
-	1920.02.28={death=yes}  # Budapest
-}
-100099310={ #            Georg                     von Stuckrad                             (1783-1876)     -
-	name="Georg von Stuckrad"
-	dynasty=0
-	religion=catholic culture=german
-	1783.05.02={birth=yes}
-	1807.10.05={add_spouse=100008747}	# Karoline zu Waldeck u.Pyrmont
-	1876.06.05={death=yes}
-}
-100091523={ #            Marie                     von Stumm                                (1882-1954)     4
-	name="Marie von Stumm"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1882.04.21={birth=yes}
-	1954.04.18={death=yes}
-}
-100099314={ #            Verena                    von Stülpnagel                           (1952-1985)     0
-	name="Verena von Stülpnagel"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1952.01.31={birth=yes}  # Sigmaringen
-	1985.10.26={death=yes}  # Kreuzwertheim
-}
-100086779={ #            Konrad                    von Tannrede-Straussfurt                 (1364-1434)     -
-	name="Konrad von Tannrede-Straussfurt"
-	dynasty=0
-	religion=catholic culture=german
-	1364.01.01={birth=yes}
-	1396.01.01={add_spouse=100010422}	# Agnes von Pommern
-	1434.01.01={death=yes}
-}
-100086322={ #            Franz Lorenz              von Thadden                              (1924-1979)     -
-	name="Franz Lorenz von Thadden"
-	dynasty=0
-	religion=catholic culture=german
-	1924.05.06={birth=yes}  # Vahnerow
-	1950.09.21={add_spouse=100010193}	# Anna-Polixena von Mensdorff-Pouilly
-	1979.04.23={death=yes}  # air accident_in_Ecuador
-}
-100099245={ #            Sabine Louise             von Thümen                               (1713-1804)     3
-	name="Sabine Louise von Thümen"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1713.02.28={birth=yes}  # Blankensee
-	1804.08.12={death=yes}
-}
-100091706={ #            Elisabeth                 von Tschirschky u.Bögendorff             (1889-1975)     6
-	name="Elisabeth von Tschirschky u.Bögendorff"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1889.11.03={birth=yes}  # Vienna
-	1975.06.19={death=yes}  # Köln
-}
-100086539={ #            Maria                     von Velbrück                             (1623-1711)     1
-	name="Maria von Velbrück"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1623.01.01={birth=yes}  # EST.
-	1711.01.01={death=yes}
-}
-100098715={ #            Carolin Friederike        von Wendorff                             (1975-    )     4
-	name="Carolin Friederike von Wendorff"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1975.08.20={birth=yes}  # Preetz
-}
-100094636={ #            Meyna                     von Westerburg                           (1319-1380)     2
-	name="Meyna von Westerburg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1319.01.01={birth=yes}  # EST.
-	1380.01.01={death=yes}
-}
-100086769={ #            Agnes                     von Wunstorf                             (1410-1451)     1
-	name="Agnes von Wunstorf"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1410.01.01={birth=yes}  # EST.
-	1451.01.01={death=yes}
-}
-100093094={ #            Charlotte Bernhardine     von Zech und Rautenburg                  (1777-1841)     4
-	name="Charlotte Bernhardine von Zech und Rautenburg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1777.01.01={birth=yes}
-	1841.01.01={death=yes}
-}
-100099524={ #            Gertrud                   von Zelst                                (1641-1679)     4
-	name="Gertrud von Zelst"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1641.01.01={birth=yes}  # EST.
-	1679.03.26={death=yes}  # Vienna
-}
-100095746={ #            Maria Antonia             von und zu Fraunberg                     (1705-1773)     0
-	name="Maria Antonia von und zu Fraunberg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1705.01.01={birth=yes}
-	1773.01.01={death=yes}  # EST.
-}
-100098727={ # Frn        Magdalena Franziska       Schmidt von Kirchenberg                  (1689-1752)     0
-	name="Magdalena Franziska Schmidt von Kirchenberg"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1689.01.04={birth=yes}  # Hanau
-	1752.01.01={death=yes}  # Rautenberg
-}
-100086342={ # Frn        Adolfine                  von Cortenbach                           (1594-1669)     1
-	name="Adolfine von Cortenbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1594.12.01={birth=yes}
-	1669.01.01={death=yes}  # EST.
-}
-100089304={ # Frn        Maria Anna                von Cortenbach                           (1758-1833)     1
-	name="Maria Anna von Cortenbach"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	1758.12.21={birth=yes}
-	1833.09.12={death=yes}
-}
-
