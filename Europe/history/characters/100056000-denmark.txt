@@ -1,10 +1,64 @@
 #################################################################################################
 ##  100056000-1000xxxxx		Holstein til Ledreborg                 1013500
+##  100056100-1000xxxxx		Moltke-Hvitfeld                 	   1013504
 #################################################################################################
 
 
+##  100056100-1000xxxxx		Moltke-Hvitfeld                 	   1013504
+100056104={ # Adam Gottlob Moltke-Hvitfeld (1796-1876); m.1828 Gfn Else Razumovsky (1805-1892) %%
+	name="Adam Gottlob"
+	dynasty=1013504
+	religion=lutheran culture=danish
+	1796.01.01={birth=yes}
+	1828.01.01={add_spouse=100085701}	# GFN Else Razumovsky
+	1876.01.01={death=yes}
+}
+	100056103={ # Gebhard Leon (1829-1896); m.1863 Gfn Maria von Seebach (1843-1902) %%
+		name="Gebhard Leon"
+		dynasty=1013504
+		religion=lutheran culture=danish
+		father=100056104	# Adam Gottlob Moltke-Hvitfeld
+		mother=100085701	# GFN Else Razumovsky
+		1829.01.01={birth=yes}
+		1863.01.01={add_spouse=100085401}	# GFN Maria von Seebach
+		1896.01.01={death=yes}
+	}
+		100056102={ # Adam (31 Jul 1864-9 Oct 1944); m.29 Dec 1896 Louise Bonaparte (7 Feb 1873-22 Jan 1923) %%
+			name=Adam
+			dynasty=1013504
+			religion=lutheran culture=danish
+			father=100056103	# Gebhard Leon Moltke-Hvitfeld
+			mother=100085401	# GFN Maria von Seebach
+			1864.07.31={birth=yes}
+			1896.12.29={add_spouse=100065093}	# Louise Bonaparte
+			1944.10.09={death=yes}
+		}
+			100056105={ # Leon (Paris 14 Nov 1898-Nyborg 11 Jan 1976); m.6 Feb 1929 Tove Danneskiold-Samsøe (Rungsted 31 May 1909-Copenhagen 25 Feb 1984) %%
+				name=Leon
+				dynasty=1013504
+				religion=catholic culture=danish
+				father=100056102	# Adam Moltke-Hvitfeld
+				mother=100065093	# Louise Bonaparte
+				1898.11.14={birth=yes}	# Paris
+				1929.02.06={add_spouse=100004314}	# Tove Danneskiold-Samsøe
+				1976.01.11={death=yes}  # Nyborg
+			}
+			100056101={ # Adam Nicholas (1908-1991) %%
+				name="Adam Nicholas"
+				dynasty=1013504
+				religion=lutheran culture=danish
+				father=100056102	# Adam Moltke-Hvitfeld
+				mother=100065093	# Louise Bonaparte
+				1908.01.01={birth=yes}
+				1991.01.01={death=yes}
+			}
+
+#####
+##  100056100-1000xxxxx		Moltke-Hvitfeld                 	   1013504
+
+
 ##  100056000-1000xxxxx		Holstein til Ledreborg                 1013500
-100056011={ # Philip (1565-1640); m.1589 Anne von Maltzan (1565-1640)
+100056011={ # Philip Holstein til Ledreborg (1565-1640); m.1589 Anne von Maltzan (1565-1640) %%
 	name=Philip      # 1026255/philip-von-holstein/
 	dynasty=1013500
 	religion=lutheran culture=danish
@@ -12,7 +66,7 @@
 	1589.01.01={add_spouse=100085898}	# Anne von Maltzan
 	1640.01.01={death=yes}
 }
-	100056014={ # Berend (24 Dec 1590-19 Jan 1663); m.1617 Margrethe von Restorff (1590-1665)
+	100056014={ # Berend (24 Dec 1590-19 Jan 1663); m.1617 Margrethe von Restorff (1590-1665) %%
 		name=Berend      # 1026253/berend-lydeke-von-holstein/
 		dynasty=1013500
 		religion=lutheran culture=danish
@@ -22,7 +76,7 @@
 		1617.01.01={add_spouse=100085942}	# Margrethe von Restorff
 		1663.01.19={death=yes}
 	}
-		100056017={ # Johan (19 Dec 1618-Næstved 28 Dec 1675); m.1661 Sophia Hedevig von Petersdorff (Stettin 17 Dec 1629-Dobertin 5 Feb 1693)
+		100056017={ # Johan (19 Dec 1618-Næstved 28 Dec 1675); m.1661 Sophia Hedevig von Petersdorff (Stettin 17 Dec 1629-Dobertin 5 Feb 1693) %%
 			name=Johan       # 1026251/johan-von-holstein/
 			dynasty=1013500
 			religion=lutheran culture=danish
@@ -32,7 +86,7 @@
 			1661.01.01={add_spouse=100085936}	# Sophia Hedevig von Petersdorff
 			1675.12.28={death=yes}	# Næstved
 		}
-			100056022={ # Johann Georg (Möllenhagen 16 Feb 1662-København 26 Dec 1730); m.1693 Ida Frederikke Joachime von Bülow (1677-1723)
+			100056022={ # Johann Georg (Möllenhagen 16 Feb 1662-København 26 Dec 1730); m.1693 Ida Frederikke von Bülow (1677-1723) %%
 				name="Johann Georg" # 1026249/johann-georg-von-holstein/
 				dynasty=1013500
 				religion=lutheran culture=danish
@@ -42,7 +96,7 @@
 				1693.01.01={add_spouse=100085852}	# Ida Frederikke von Bülow
 				1730.12.26={death=yes}	# København
 			}
-				100056026={ # Johan Ludvig Carl Christian (Lütz, Mecklenburg 16 Sep 1694-København 29 Nov 1763); m.1734 Hedevig Christiansdatter Vind (1694-1769)
+				100056026={ # Johan Ludvig (Lütz, Mecklenburg 16 Sep 1694-København 29 Nov 1763); m.1734 Hedevig Christiansdatter Vind (1694-1769) %%
 					name="Johan Ludvig" 	# 1026247/johan-ludvig-carl-christian-tido-graf-holstein-ledreborg/
 					dynasty=1013500
 					religion=lutheran culture=danish
@@ -52,7 +106,7 @@
 					1734.01.01={add_spouse=100085826}	# Hedevig Christiansdatter Vind
 					1763.11.29={death=yes}	# København
 				}
-					100056031={ # Christian Frederik (København 10 May 1735-København 15 Jun 1799); m.1777 Charlotte Elisabeth Henriette rigfriherreinde zu Innhausen und Knyphausen (Ost Friesland 3 Feb 1741-Vallø 18 May 1809)
+					100056031={ # Christian Frederik (København 10 May 1735-København 15 Jun 1799); m.1777 Bss Charlotte zu Innhausen u.Knyphausen (Ost Friesland 3 Feb 1741-Vallø 18 May 1809) %%
 						name="Christian Frederik" # 1026245/christian-frederik-graf-holstein-ledreborg/
 						dynasty=1013500
 						religion=lutheran culture=danish
@@ -62,7 +116,7 @@
 						1777.01.01={add_spouse=100086015}	# BSS Charlotte zu Innhausen u.Knyphausen
 						1799.06.15={death=yes}	# København
 					}
-						100056034={ # Christian Edzard (København 29 Nov 1778-København 5 Jul 1853); m.1808 Sophie Charlotte Emilie rigfriherreinde zu Innhausen (8 Jun 1782-16 Aug 1852)
+						100056034={ # Christian Edzard (København 29 Nov 1778-København 5 Jul 1853); m.1808 Bss Sophie Charlotte Emilie zu Innhausen (8 Jun 1782-16 Aug 1852) %%
 							name="Christian Edzard" # 1026243/christian-edzard-graf-holstein-ledreborg/
 							dynasty=1013500
 							religion=lutheran culture=danish
@@ -72,7 +126,7 @@
 							1808.01.01={add_spouse=100086013}	# BSS Sophie Charlotte Emilie zu Innhausen
 							1853.07.05={death=yes}	# København
 						}
-							100056008={ # Christian Edzard Moritz (Ledreborg 29 Nov 1809-Ledreborg 22 Dec 1895); m.1838 Caroline Louise le Fèubre de Marpalu (Weissenburg, Elsass 7 Jul 1810-1885)
+							100056008={ # Christian (Ledreborg 29 Nov 1809-Ledreborg 22 Dec 1895); m.1838 Css Caroline Louise le Fèubre de Marpalu (Weissenburg, Elsass 7 Jul 1810-1885) %%
 								name=Christian		# 1026235/christian-edzard-moritz-graf-holstein-ledreborg/
 								dynasty=1013500
 								religion=lutheran culture=danish
@@ -82,7 +136,7 @@
 								1838.01.01={add_spouse=100085416}	# CSS Caroline Louise le Fèubre de Marpalu
 								1895.12.22={death=yes}	# Ledreborg
 							}
-								100056013={ # Ludvig (Hochberg, Würtemberg 10 Jun 1839-1 Mar 1912); m.19 Nov 1867 Henriette Frederikke Alexandrine Ingeborg de Løvenørn (Berlin, Berlin 11 Aug 1842-Ledreborg, Danmark 28 Oct 1915)
+								100056013={ # Ludvig (Hochberg, Würtemberg 10 Jun 1839-1 Mar 1912); m.19 Nov 1867 Henriette de Løvenørn (Berlin, Berlin 11 Aug 1842-Ledreborg, Danmark 28 Oct 1915) %%
 									name=Ludvig      # 534858/ludvig-graf-holstein-ledreborg/
 									dynasty=1013500
 									religion=lutheran culture=danish
@@ -92,7 +146,7 @@
 									1867.11.19={add_spouse=100085123}	# Henriette de Løvenørn
 									1912.03.01={death=yes}
 								}
-									100056003={ # Caroline Elisabeth Marie (22 Sep 1868-1943)
+									100056003={ # Caroline Elisabeth Marie (22 Sep 1868-1943) %%
 										name="Caroline Elisabeth Marie" # 1026238/caroline-elisabeth-marie-graefin-holstein-ledreborg/
 										female=yes
 										dynasty=1013500
@@ -102,7 +156,7 @@
 										1868.09.22={birth=yes}
 										1943.01.01={death=yes}
 									}
-									100056002={ # Elisabeth (22 Mar 1870-1945)
+									100056002={ # Elisabeth (22 Mar 1870-1945) %%
 										name=Elisabeth   # 1026239/elisabeth-graefin-holstein-ledreborg/
 										female=yes
 										dynasty=1013500
@@ -112,7 +166,7 @@
 										1870.03.22={birth=yes}
 										1945.01.01={death=yes}
 									}
-									100056040={ # Knud Bernhard Christian Maria (26 Sep 1871-1946)
+									100056040={ # Knud Bernhard Christian Maria (26 Sep 1871-1946) %%
 										name="Knud Bernhard Christian Maria" # 1026240/knud-bernhard-christian-maria-greve-holstein-ledreborg/
 										dynasty=1013500
 										religion=lutheran culture=danish
@@ -121,7 +175,7 @@
 										1871.09.26={birth=yes}
 										1946.01.01={death=yes}
 									}
-									100056038={ # Josef Johannes Ignatius Maria (5 Sep 1874-4 May 1951); m.1919 Louise Christina Hamilton (12 Feb 1887-26 Apr 1974)
+									100056038={ # Josef (5 Sep 1874-4 May 1951); m.1919 Louise Christina Hamilton (12 Feb 1887-26 Apr 1974) %%
 										name=Josef			# 1026241/josef-johannes-ignatius-maria-graf-holstein-ledreborg/
 										dynasty=1013500
 										religion=lutheran culture=danish
@@ -131,7 +185,7 @@
 										1919.01.01={add_spouse=100085296}	# Louise Christina Hamilton
 										1951.05.04={death=yes}
 									}
-										100056033={ # Knud (Ledreborg 2 Oct 1920-25 Jun 2001); m.6 Nov 1951 Marie Gabrielle de Luxembourg (b.Schloss Berg 2 Aug 1925)
+										100056033={ # Knud (Ledreborg 2 Oct 1920-25 Jun 2001); m.6 Nov 1951 Marie Gabrielle de Luxembourg (b.Schloss Berg 2 Aug 1925) $$
 											name=Knud        # 10059/knud-graf-von-holstein-ledrebog/
 											dynasty=1013500
 											religion=lutheran culture=danish
@@ -150,7 +204,7 @@
 												mother=100070273	# Marie Gabrielle di Borbone-Parma
 												1952.07.29={birth=yes}	# Ledreborg
 											}
-											100056046={ # Lydia (b.Ledreborg 22 Feb 1955); m.8 Aug 1980 Eric de Bourbon-Parme (b.Copenhagen 28 Aug 1953)
+											100056046={ # Lydia (b.Ledreborg 22 Feb 1955); m.8 Aug 1980 Eric de Bourbon-Parme (b.Copenhagen 28 Aug 1953) $$
 												name=Lydia       # 58723/lydia-von-holstein-ledreborg/
 												female=yes
 												dynasty=1013500
@@ -215,7 +269,7 @@
 											1920.10.02={birth=yes}	# Ledreborg
 											1996.01.01={death=yes}  # EST.
 										}
-										100056009={ # Brigitte Alexandra Maria (Ledreborg 29 Jun 1922-21 Aug 2009); m.9 Jun 1947 Jacques de Bourbon-Parme (Longwy 9 Jun 1922-Roskilde, desastre de automóvel 5 Nov 1964)
+										100056009={ # Brigitte Alexandra Maria (Ledreborg 29 Jun 1922-21 Aug 2009); m.9 Jun 1947 Jacques de Bourbon-Parme (Longwy 9 Jun 1922-Roskilde, desastre de automóvel 5 Nov 1964) $$
 											name=Brigitte			# 15036/brigitte-alexandra-maria-graefin-holstein-ledreborg/
 											female=yes
 											dynasty=1013500
@@ -323,7 +377,7 @@
 										1880.07.20={birth=yes}
 										1955.01.01={death=yes}
 									}
-								100198901={ # Eugenie (Ledreborg 6 Jun 1841-Ulriksholm 27 Nov 1925); m.20 Jun 1863 Frederik Danneskiold-Samsøe (Copenhagen 16 Sep 1837-Copenhagen 8 Dec 1895) %%
+								100056005={ # Eugenie (Ledreborg 6 Jun 1841-Ulriksholm 27 Nov 1925); m.20 Jun 1863 Frederik Danneskiold-Samsøe (Copenhagen 16 Sep 1837-Copenhagen 8 Dec 1895) %%
 									name=Eugenie
 									female=yes
 									dynasty=1013500

@@ -57,34 +57,26 @@
 
 
 ### TURMKMEN
-100203622={ # Gurbanguly
+100203622={ # Gurbanguly Berdimuhamedow (b.29 Jun 1957) %%
 	name=Gurbanguly
 	dynasty=10398
 	religion=sunni culture=turkmen
 	1957.06.29={birth=yes}
 }
-100052900={# Recep Tayyip	Cisse (1954-    )
-	name="Recep Tayyip"
-	dynasty=1030000
-	martial=9
-	diplomacy=3
-	stewardship=8
-	intrigue=12
-	learning=4
-	religion=sunni
-	culture=turkish
-	add_trait=intricate_webweaver
-	add_trait=quick
-	add_trait=ambitious
-	add_trait=proud
-	add_trait=diligent
-	add_trait=wroth
-	add_trait=deceitful
-	add_trait=arbitrary
-	add_trait=paranoid
-	1954.2.26={birth=yes}
-}
 ### TURMKMEN
+
+
+### TURKEY
+100052900={ # Recep Tayyip Erdoğan (b.Kasımpaşa, Istanbul 26 Feb 1954) %%
+	name="Recep Tayyip"
+	dynasty=1000007
+	martial=9 diplomacy=3 stewardship=8 intrigue=12 learning=4
+	religion=sunni culture=turkish
+	add_trait=intricate_webweaver add_trait=quick add_trait=ambitious add_trait=proud add_trait=diligent
+	add_trait=wroth add_trait=deceitful add_trait=arbitrary add_trait=paranoid
+	1954.2.26={birth=yes}	# Kasımpaşa, Istanbul
+}
+### TURKEY
 
 
 ### UZBEK
@@ -155,34 +147,105 @@
 
 
 ### TAJIK
-100203632={ # Emomali
+100203632={ # Emomali Rahmon (b.5 Oct 1952); m.1975 Azizmo Asadullayeva (b.1955) %%
 	name=Emomali
 	dynasty=10401
 	religion=sunni culture=tajik
 	1952.10.05={birth=yes}
 	1975.01.01={add_spouse=100203633}	# Azizmo Asadullayeva
 }
-100203633={ # Azizmo
-	name=Azizmo
-	dynasty=10402
-	female=yes
-	religion=sunni culture=tajik
-	1955.01.01={birth=yes}
-}
-100203634={ # Emoali
-	name=Emoali
-	dynasty=10401
-	religion=sunni culture=tajik
-	father=100203632	# Emomali Rahmon
-	mother=100203633	# Azizmo Asadullayeva
-	1979.01.01={birth=yes}
-}
-100203635={ # Akbar
-	name=Akbar
-	dynasty=10401
-	religion=sunni culture=tajik
-	father=100203632	# Emomali Rahmon
-	mother=100203633	# Azizmo Asadullayeva
-	1986.01.01={birth=yes}
-}
+	100203634={ # Emoali (b.1979) %%
+		name=Emoali
+		dynasty=10401
+		religion=sunni culture=tajik
+		father=100203632	# Emomali Rahmon
+		mother=100203633	# Azizmo Asadullayeva
+		1979.01.01={birth=yes}
+	}
+	100203635={ # Akbar (b.1986) %%
+		name=Akbar
+		dynasty=10401
+		religion=sunni culture=tajik
+		father=100203632	# Emomali Rahmon
+		mother=100203633	# Azizmo Asadullayeva
+		1986.01.01={birth=yes}
+	}
 ### TAJIK
+
+
+### AFGHAN
+100203617={ # Nadir Barakzai (9 Apr 1883-8 Nov 1933) %%
+	name=Nadir
+	dynasty=10397
+	religion=sunni culture=afghan
+	1883.04.09={birth=yes}
+	1933.11.08={death=yes}
+}
+	100203618={ # Mohammad Zahir (Kabul 15 Oct 1914-Kabul 23 Jul 2007) %%
+		name="Mohammad Zahir"
+		dynasty=10397
+		religion=sunni culture=afghan
+		father=100203617	# Nadir Barakzai
+		1914.10.15={birth=yes}	# Kabul
+		2007.07.23={death=yes}	# Kabul
+	}
+		100203619={ # Ahmad (b.Kabul 23 Nov 1934) %%
+			name=Ahmad
+			dynasty=10397
+			religion=sunni culture=afghan
+			father=100203618	# Mohammad Zahir Barakzai
+			1934.11.23={birth=yes}	# Kabul
+		}
+			100203620={ # Mohammad Zahir (b.1962) %%
+				name="Mohammad Zahir"
+				dynasty=10397
+				religion=sunni culture=afghan
+				father=100203619	# Ahmad Barakzai
+				1962.01.01={birth=yes}
+			}
+			100203621={ # Mohammad Emel (b.1969) %%
+				name="Mohammad Emel"
+				dynasty=10397
+				religion=sunni culture=afghan
+				father=100203619	# Ahmad Barakzai
+				1969.01.01={birth=yes}
+			}
+### AFGHAN
+
+
+### KAZAKHSTAN
+100203644={ # Nursultan Nazarbayev (b.Chemolgan 6 Jul 1940); m.1962 Sara Alpysqyzy (b.1941) %%
+	name=Nursultan
+	dynasty=10404
+	religion=sunni culture=turkish
+	1940.07.06={birth=yes}	# Chemolgan
+	1962.01.01={add_spouse=100203645}	# Sara Alpysqyzy
+}
+	100203646={ # Dariga (b.7 May 1963) %%
+		name=Dariga
+		dynasty=10404
+		religion=sunni culture=turkish
+		female=yes
+		father=100203644	# Nursultan Nazarbayev
+		mother=100203645	# Sara Alpysqyzy
+		1963.05.07={birth=yes}
+	}
+	100203647={ # Dinara (b.19 Aug 1967) %%
+		name=Dinara
+		dynasty=10404
+		religion=sunni culture=turkish
+		female=yes
+		father=100203644	# Nursultan Nazarbayev
+		mother=100203645	# Sara Alpysqyzy
+		1967.08.19={birth=yes}
+	}
+	100203648={ # Aliya (b.2 Mar 1980) %%
+		name=Aliya
+		dynasty=10404
+		religion=sunni culture=turkish
+		female=yes
+		father=100203644	# Nursultan Nazarbayev
+		mother=100203645	# Sara Alpysqyzy
+		1980.03.02={birth=yes}
+	}
+### KAZAKHSTAN

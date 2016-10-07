@@ -52,7 +52,7 @@
 			1866.05.02={birth=yes}  # Paris
 			1943.11.12={death=yes}  # Stockholm
 		}
-		100012362={ # 2b) CHARLES Louis Duc d'Otrante (Elghammar 21 Jun 1877-Elghammar 31 May 1950); m.Linköping 8 Jun 1906 (div 1931) Hedvig Ingeborg Madeleine Gfn Douglas (Gerstorp 2 Sep 1886-Drottningholm 21 Jul 1983)
+		100012362={ # 2b) CHARLES Louis Duc d'Otrante (Elghammar 21 Jun 1877-Elghammar 31 May 1950); m.Linköping 8 Jun 1906 (div 1931) Hedvig Ingeborg Madeleine Gfn Douglas (Gerstorp 2 Sep 1886-Drottningholm 21 Jul 1983) $$
 			name=Charles
 			dynasty=1014447
 			religion=lutheran culture=swedish
@@ -73,7 +73,7 @@
 				1907.03.09={birth=yes}  # Stockholm
 				2000.07.06={death=yes}
 			}
-			100012367={ # 2c) Margareta (Elghammar 28 Mar 1909-25 Aug 2005); m.Björnlunda 26 Jan 1934 Gustav Albrecht Fst zu Sayn-Wittgenstein-Berleburg (Berleburg 28 Feb 1907-1944)
+			100012367={ # 2c) Margareta (Elghammar 28 Mar 1909-25 Aug 2005); m.Björnlunda 26 Jan 1934 Gustav Albrecht Fst zu Sayn-Wittgenstein-Berleburg (Berleburg 28 Feb 1907-1944) $$
 				name=Margareta
 				female=yes
 				dynasty=1014447
@@ -147,7 +147,7 @@
 					mother=100096937	# Birgitta Helena Tham
 					1946.05.31={birth=yes}
 				}
-				100012380={ # 2d) Agneta Hélène Marie (b.Stockholm 12 Feb 1948); m.Stockholm 3 Oct 1970 Philipp-Reinhard Fst zu Solms-Hohensolms-Lich (Lich 27 Nov 1934-Lich 28 Jul 2015)
+				100012380={ # 2d) Agneta Hélène Marie (b.Stockholm 12 Feb 1948); m.Stockholm 3 Oct 1970 Philipp-Reinhard Fst zu Solms-Hohensolms-Lich (Lich 27 Nov 1934-Lich 28 Jul 2015) $$
 					name=Marie
 					female=yes
 					dynasty=1014447
@@ -199,7 +199,7 @@
     name=Eric
     dynasty=155
     religion=catholic culture=swedish
-    father=450500
+    father=450500	# Magnus af Bjälbo
     1339.01.01={birth=yes}
     1359.06.21={death=yes}
 }
@@ -207,16 +207,26 @@
     name=Haakon
     dynasty=155
     religion=catholic culture=swedish
-    father=450500
+    father=450500	# Magnus af Bjälbo
     1340.01.01={birth=yes}
     1359.01.01={add_spouse=100201686}	# Margrethe af Estrid
     1380.01.01={death=yes}
 }
+	100201685={ # Olaf (1 Dec 1370-23 Aug 1387) %%
+		name=Olaf
+		dynasty=155
+		religion=catholic culture=norwegian
+		father=100201781	# Haakon af Bjälbo
+		mother=100201686	# Margrethe af Estrid
+		1370.12.01={birth=yes}
+		1387.08.23={death=yes}
+	}
+
 100201783={ # Albert de Sully (1338-1 Apr 1412) %%
     name=Albert
     dynasty=94
     religion=catholic culture=german
-    mother=450508
+    mother=450508	# Eufemia af Bjälbo
     1338.01.01={birth=yes}
     1412.04.01={death=yes}
 }
@@ -231,7 +241,7 @@
 
 
 ##  100059000	DE LA GARDIE		1014079	
-100012111={	# Pontus de La Gardie, friherre till Ekholmen, *Russol 1520, +5.11.1585, bur Reval Domkyrka; m.Vadstena klosterkyrka 4.2.1580 Sophia Gyllenhielm (*1556, +Reval 20.6.1583)
+100012111={	# Pontus de La Gardie, friherre till Ekholmen, *Russol 1520, +5.11.1585; m.Vadstena klosterkyrka 4.2.1580 Sophia Gyllenhielm (*1556, +Reval 20.6.1583) $$
 	name=Pontus
 	dynasty=1014079
 	religion=lutheran culture=swedish
@@ -239,7 +249,7 @@
 	1580.02.04={add_spouse=100012300}	# Sophia Gyllenhielm Vasa
 	1585.11.05={death=yes}
 }
-	100012112={	# A1. Brita de La Gardie, *Abo slott, Finland 1.4.1581, +Stockholm 11.8.1645, bur 7.10.1645 Storkyrkan, Stockholm; 1m: Abo slott 25.9.1614 Jesper Mattson Cruus af Edeby (*1576/77, +Lemsjöholm 1622); 2m: Stockholm 25.10.1631 friherre Gabriel Gustafsson Oxenstierna af Eka och Lindö (*Reval 15.6.1587, +Tyresö slott 27.11.1640)
+	100012112={	# A1. Brita de La Gardie, *Abo slott, Finland 1.4.1581, +Stockholm 11.8.1645; 1m: Abo slott 25.9.1614 Jesper Mattson Cruus af Edeby (*1576/77, +Lemsjöholm 1622); 2m: Stockholm 25.10.1631 friherre Gabriel Gustafsson Oxenstierna af Eka och Lindö (*Reval 15.6.1587, +Tyresö slott 27.11.1640)
 		name=Brita
 		female=yes
 		dynasty=1014079
@@ -269,7 +279,7 @@
 			1647.08.20={add_spouse=100084972}	# GREVINNA Agneta Gustavsdotter Horn af Björneborg
 			1656.04.20={death=yes}
 		}
-	100012115={	# A2. Johan de La Gardie, friherre till Ekholmen 1585, Lord of Kjulaholmen, Rasik and Kareholm 1585, *Reval 3.5.1582, +Steninge 10.3.1640, bur 12.7.1640 Veckholms kyrka; 1m: 1609 Katarina Christiansdotter Oxenstierna af Eka och Lindö (*ca 1585, +6.3.1625); 2m: Stockholm 13.11.1635 Görvel Posse (*1600, +Stockholm 14.2.1671)
+	100012115={	# A2. Johan de La Gardie, friherre till Ekholmen 1585, Lord of Kjulaholmen, Rasik and Kareholm 1585, *Reval 3.5.1582, +Steninge 10.3.1640; 1m: 1609 Katarina Christiansdotter Oxenstierna af Eka och Lindö (*ca 1585, +6.3.1625); 2m: Stockholm 13.11.1635 Görvel Posse (*1600, +Stockholm 14.2.1671)
 		name=Johan
 		dynasty=1014079
 		religion=lutheran culture=swedish
@@ -280,7 +290,7 @@
 		1635.11.13={add_spouse=100089183}	# Görvel Posse
 		1640.03.10={death=yes}  # Steninge
 	}
-		100012116={	# B2. Beata, *Abo slott 26.8.1612, +28.10.1680, bur Brahekyrkan, Visingsö; m.1632 greve Lennart Torstenson (*Forstena 17.8.1603, +Stockholm 7.4.1651)
+		100012116={	# B2. Beata, *Abo slott 26.8.1612, +28.10.1680; m.1632 greve Lennart Torstenson (*Forstena 17.8.1603, +Stockholm 7.4.1651)
 			name=Beata
 			female=yes
 			dynasty=1014079
@@ -300,7 +310,7 @@
 			1615.05.08={birth=yes}
 			1647.10.01={death=yes}
 		}
-		100012118={	# B5. Catharina, *1616, +8.7.1680, bur Riddarholmskyrkan; m.24.11.1634 greve Fredrik Gustafsson Stenbock av Kronobäck-Öresten (*Länghem 22.3.1607, +29.7.1652)
+		100012118={	# B5. Catharina, *1616, +8.7.1680; m.24.11.1634 greve Fredrik Gustafsson Stenbock av Kronobäck-Öresten (*Länghem 22.3.1607, +29.7.1652)
 			name=Catharina
 			female=yes
 			dynasty=1014079
@@ -310,7 +320,7 @@
 			1616.01.01={birth=yes}
 			1680.07.08={death=yes}
 		}
-	100012119={	# A3. Jakob de La Gardie, 1. greve de La Gardie till Läckö 1625, friherre av Ekholmen 1640, Lord of Hapsal, Dagö, Kolck, Kida, Trogelow, Fellin, Tarwast, Udenkull, Sonnenburg Pa Ösel, Persöre, Nykarleby, Lappo and Ilmola (Reval 20.6.1583-Storgorethus 12.8.1652); m.Storkyrkoforsamlingen, Stockholm 24.6.1618 grevinna Ebba Magnusdotter Brahe (*Lärjeholm, Sweden 16.3.1596, +Södermalmshus 5.1.1674, bur 5.4.1674 Veckholms kyrka)
+	100012119={	# A3. Jakob de La Gardie, 1. greve de La Gardie till Läckö 1625, friherre av Ekholmen 1640, Lord of Hapsal, Dagö, Kolck, Kida, Trogelow, Fellin, Tarwast, Udenkull, Sonnenburg Pa Ösel, Persöre, Nykarleby, Lappo and Ilmola (Reval 20.6.1583-Storgorethus 12.8.1652); m.Storkyrkoforsamlingen, Stockholm 24.6.1618 grevinna Ebba Magnusdotter Brahe (*Lärjeholm, Sweden 16.3.1596, +Södermalmshus 5.1.1674)
 		name=Jakob
 		dynasty=1014079
 		religion=lutheran culture=swedish
@@ -320,7 +330,7 @@
 		1618.06.24={add_spouse=100080894}	# GREVINNA Ebba Magnusdotter Brahe
 		1652.08.12={death=yes}  # Storgorethus
 	}
-		100012120={	# B4. Magnus Gabriel de La Gardie, 2.greve de La Gardie, friherre av Ekholmen, *Reval 15.6.1622, +Venngarn 26.4.1686, bur 26.9.1686 Varnhemskyrkan, Östergötland; m.Stockholms slott 7.4.1647 Maria Euphrosyne von der Pfalz, Pfgfn von Kleeburg (*Stegeborg 14.2.1625, +Höjentorp, Sweden 24.10.1687)
+		100012120={	# B4. Magnus Gabriel de La Gardie, 2.greve de La Gardie, friherre av Ekholmen, *Reval 15.6.1622, +Venngarn 26.4.1686; m.Stockholms slott 7.4.1647 Maria Euphrosyne von der Pfalz, Pfgfn von Kleeburg (*Stegeborg 14.2.1625, +Höjentorp, Sweden 24.10.1687) $$
 			name="Magnus Gabriel"
 			dynasty=1014079
 			religion=lutheran culture=swedish
@@ -340,7 +350,7 @@
 				1673.10.04={add_spouse=100088739}	# Elisabet Axelsdotter Oxenstierna af Södermöre
 				1695.03.05={death=yes}  # Värnanäs
 			}
-			100012122={	# C7. Catharina Charlotta, *Ekholmen 18.3.1655, +Stade 15.9.1697, bur Mariakyrkan, Stade; m.Karlberg 9.2.1682 Graf Otto Wilhelm von Köningmarck (*Minden 3.1.1639, +k.a.Negroponte 15.9.1688)
+			100012122={	# C7. Catharina Charlotta, *Ekholmen 18.3.1655, +Stade 15.9.1697; m.Karlberg 9.2.1682 Graf Otto Wilhelm von Köningmarck (*Minden 3.1.1639, +k.a.Negroponte 15.9.1688)
 				name="Catharina Charlotta"
 				female=yes
 				dynasty=1014079
@@ -350,7 +360,7 @@
 				1655.03.18={birth=yes}  # Ekholmen
 				1697.09.15={death=yes}  # Stade
 			}
-			100012123={	# C8. Ebba Hedvig, *Stockholm 21.5.1659, +Käggleholm before 20.9.1700, bur there 24.3.1701; m.Jakobsdal 3.8.1684 greve Carl Gustaf Oxenstierna af Södermöre (*Stockholm 28.7.1655, +13.3.1686)
+			100012123={	# C8. Ebba Hedvig, *Stockholm 21.5.1659, +Käggleholm before 20.9.1700; m.Jakobsdal 3.8.1684 greve Carl Gustaf Oxenstierna af Södermöre (*Stockholm 28.7.1655, +13.3.1686)
 				name="Ebba Hedvig"
 				female=yes
 				dynasty=1014079
@@ -380,7 +390,7 @@
 			1653.01.11={add_spouse=100090446}	# FRN Ebba Larsdotter Sparre af Rossvik
 			1658.10.07={death=yes}  # Kobenhavn
 		}
-		100012126={	# B9. Pontus Frederik, *Runsa 4.10.1630, +Stockholm 9.10.1692, bur Västeras Domkyrka; m.Stade 13.7.1655 Gfn Beate Elisabet von Königsmarck (*ca 1637, +1723)
+		100012126={	# B9. Pontus Frederik, *Runsa 4.10.1630, +Stockholm 9.10.1692; m.Stade 13.7.1655 Gfn Beate Elisabet von Königsmarck (*ca 1637, +1723)
 			name="Pontus Frederik"
 			dynasty=1014079
 			religion=lutheran culture=swedish
@@ -390,16 +400,6 @@
 			1655.07.13={add_spouse=100092489}	# GFN Beate Elisabet von Königsmarck
 			1692.10.09={death=yes}  # Stockholm
 		}
-			100012127={	# C1. Ebba Maria, *28.3.1658, +19.7.1697
-				name=Ebba
-				female=yes
-				dynasty=1014079
-				religion=lutheran culture=swedish
-				father=100012126	# Pontus Frederik De la Gardie
-				mother=100092489	# GFN Beate Elisabet von Königsmarck
-				1658.03.28={birth=yes}
-				1697.07.19={death=yes}
-			}
 			100012128={	# C2. Johanna Eleanora, *26.6.1661, +27.2.1708; m.28.2.1691 greve Erik Gustaf Stenbock (*1662, +bef 13.11.1722)
 				name="Johanna Eleanora"
 				female=yes
@@ -410,7 +410,7 @@
 				1661.06.26={birth=yes}
 				1708.02.27={death=yes}
 			}
-		100012129={	# B10. Christina Catharina, *Stockholm 7.10.1632, +Runsta 16.11.1704, bur Strängnäs Domkyrka; 1m: Stockholms slott 21.3.1648 greve Gustaf Adolf Lewenhaupt (*Vinäs 24.3.1619, +Rautus 29.11.1656); 2m: Länghem 11.6.1658 greve Gustav Otto Stenbock af Bogesund (*Torpa 7.9.1614, +Stockholm 24.9.1685)
+		100012129={	# B10. Christina Catharina, *Stockholm 7.10.1632, +Runsta 16.11.1704; 1m: Stockholms slott 21.3.1648 greve Gustaf Adolf Lewenhaupt (*Vinäs 24.3.1619, +Rautus 29.11.1656); 2m: Länghem 11.6.1658 greve Gustav Otto Stenbock af Bogesund (*Torpa 7.9.1614, +Stockholm 24.9.1685)
 			name="Christina Catharina"
 			female=yes
 			dynasty=1014079
@@ -421,7 +421,7 @@
 			1704.11.16={death=yes}  # Runsta
 		}
 		100012130={	# B13. Axel Julius de La Gardie, friherre av Ekholmen, greve till Leckö & Arensburg, Lord of Tullgarn, Dagö, Kido, Tarwest, 
-					# *Stockholm 1.2.1637, +Stockholm 17.5.1710, bur Riddarholmskyrkan, Stockholm; 
+					# *Stockholm 1.2.1637, +Stockholm 17.5.1710; 
 					# m.Stockholm 15.12.1664 friherrinna Sofia Juliana Forbus (*1.7.1649, +24.9.1701)
 			name="Axel Julius"
 			dynasty=1014079
@@ -432,7 +432,7 @@
 			1664.12.15={add_spouse=100083938}	# FRN Sofia Juliana Forbus
 			1710.05.17={death=yes}  # Stockholm
 		}
-			100012131={	# C1. Adam Carl, greve af Friberg, *22.11.1665, +1.1.1721, bur Riddarholmskyrkan; m.Revals slott 22.7.1702 Anna Juliana Horn af Kanckas (*Reval 15.3.1667, +Friberg 5.2.1753)
+			100012131={	# C1. Adam Carl, greve af Friberg, *22.11.1665, +1.1.1721; m.Revals slott 22.7.1702 Anna Juliana Horn af Kanckas (*Reval 15.3.1667, +Friberg 5.2.1753)
 				name="Adam Carl"
 				dynasty=1014079
 				religion=lutheran culture=swedish
@@ -874,7 +874,7 @@
 							1799.04.24={birth=yes}
 							1827.05.02={death=yes}
 						}
-						100012168={	# F2. Claes Fredrik, *14.3.1801, +7.4.1844; m.grevinna Hedvig Johanna de La Gardie (*12.5.1819, +13.2.1884)
+						100012168={	# F2. Claes Fredrik, *14.3.1801, +7.4.1844; m.grevinna Hedvig Johanna de La Gardie (*12.5.1819, +13.2.1884) $$
 							name="Claes Fredrik"
 							dynasty=1014079
 							religion=lutheran culture=swedish
@@ -884,8 +884,8 @@
 							1840.01.01={add_spouse=100012170}	# Hedvig Johanna De la Gardie
 							1844.04.07={death=yes}
 						}
-					100012169={	# E5. Etienne Casimir, *17.3.1787, +18.3.1867; m.18.4.1818 Christina Charlotta Silfversparre (*23.1.1798, +1.3.1858)
-						name="Etienne Casimir"
+					100012169={	# E5. Étienne Casimir, *17.3.1787, +18.3.1867; m.18.4.1818 Christina Charlotta Silfversparre (*23.1.1798, +1.3.1858)
+						name="Étienne Casimir"
 						dynasty=1014079
 						religion=lutheran culture=swedish
 						father=100012138	# Pontus Fredrik De la Gardie
@@ -894,12 +894,12 @@
 						1818.04.18={add_spouse=100090265}	# Christina Charlotta Silfversparre
 						1867.03.18={death=yes}
 					}
-						100012170={	# F1. Hedvig Johanna, *12.5.1819, +13.2.1884; m.greve Claes Fredrik de La Gardie
+						100012170={	# F1. Hedvig Johanna, *12.5.1819, +13.2.1884; m.greve Claes Fredrik de La Gardie $$
 							name="Hedvig Johanna"
 							female=yes
 							dynasty=1014079
 							religion=lutheran culture=swedish
-							father=100012169	# Etienne Casimir De la Gardie
+							father=100012169	# Étienne Casimir De la Gardie
 							mother=100090265	# Christina Charlotta Silfversparre
 							1819.05.12={birth=yes}
 							1884.02.13={death=yes}
@@ -909,7 +909,7 @@
 							female=yes
 							dynasty=1014079
 							religion=lutheran culture=swedish
-							father=100012169	# Etienne Casimir De la Gardie
+							father=100012169	# Étienne Casimir De la Gardie
 							mother=100090265	# Christina Charlotta Silfversparre
 							1821.01.02={birth=yes}
 							1883.07.30={death=yes}  # Charlottenlund
@@ -1008,34 +1008,74 @@
 
 
 ## DOUGLAS				1014085		100006350
-100196530={ # Hugo Sholto Douglas (Aschersleben 19 Apr 1870-Berlin 19 Apr 1912) %%
-	name="Hugo Sholto"
+100296534={ # William Douglas (Dundee, UK 1640-Gmina Sepopol, Warmian-Masurian Voivodeship, Poland 6 Jan 1711) %%
+	name=William
 	dynasty=1014085
-	religion=lutheran culture=german
-	1870.04.19={birth=yes}  # Aschersleben
-	1912.04.19={death=yes}  # Berlin
+	religion=lutheran culture=english
+	1640.01.01={birth=yes}	# Dundee, UK
+	1711.01.06={death=yes}	# Gmina Sepopol, Warmian-Masurian Voivodeship, Poland
 }
-	100096530={ # Angus (Leopoldshall 16 Nov 1870-München 21 Oct 1938); m.21 Aug 1923 Mechtildis v. Schoenaich-Carolath (Frankfurt_an_der_Oder 5 Nov 1884-Bad Tölz 13 Oct 1978) %%
-		name=Angus
+	100296533={ # Wilhelm (6 Jun 1688-22 Dec 1754) %%
+		name=Wilhelm
 		dynasty=1014085
 		religion=lutheran culture=german
-		father=100196530	# Hugo Sholto Douglas
-		1870.11.16={birth=yes}  # Leopoldshall
-		1923.08.21={add_spouse=100005118}	# Mechtildis v. Schoenaich-Carolath
-		1938.10.21={death=yes}  # München
+		father=100296534	# William Douglas
+		1688.06.06={birth=yes}
+		1754.12.22={death=yes}
 	}
-		100091886={ # Angus (30 Jul 1913-1991); m.30 Jun 1948 Natalia Gagarin (15 Nov 1923-2002) %%
-			name=Angus
+		100296532={ # Georg Wilhelm (Gmina Sepopol, Warmian-Masurian Voivodeship, Poland 16 Feb 1724-Aschersleben 3 Nov 1794) %%
+			name="Georg Wilhelm"
 			dynasty=1014085
-			religion=orthodox culture=german
-			father=100096530	# Angus Douglas
-			1913.07.30={birth=yes}
-			1948.06.30={add_spouse=100015602}	# Natalia Gagarin
-			1954.01.01={remove_spouse=100015602}
-			1991.01.01={death=yes}
+			religion=lutheran culture=german
+			father=100296533	# Wilhelm Douglas
+			1724.02.16={birth=yes}	# Gmina Sepopol, Warmian-Masurian Voivodeship, Poland
+			1794.11.03={death=yes}  # Aschersleben
 		}
+			100296531={ # Georg William (6 Jul 1766-Aschersleben 5 Jan 1838) %%
+				name="Georg William"
+				dynasty=1014085
+				religion=lutheran culture=german
+				father=100296532	# Georg Wilhelm Douglas
+				1766.07.06={birth=yes}
+				1838.01.05={death=yes}  # Aschersleben
+			}
+				100296530={ # Georg Gustav (Aschersleben 28 Nov 1798-Aschersleben 5 Nov 1877) %%
+					name="Georg Gustav"
+					dynasty=1014085
+					religion=lutheran culture=german
+					father=100296531	# Georg William Douglas
+					1798.11.28={birth=yes}  # Aschersleben
+					1877.11.05={death=yes}  # Aschersleben
+				}
+					100196530={ # Hugo Sholto (Aschersleben 19 Apr 1837-Berlin 19 Apr 1912) %%
+						name="Hugo Sholto"
+						dynasty=1014085
+						religion=lutheran culture=german
+						father=100296530	# Georg Gustav Douglas
+						1837.04.19={birth=yes}  # Aschersleben
+						1912.04.19={death=yes}  # Berlin
+					}
+						100296535={ # Angus (Leopoldshall 16 Nov 1870-München 21 Oct 1938); m.21 Aug 1923 Mechtildis v. Schoenaich-Carolath (Frankfurt_an_der_Oder 5 Nov 1884-Bad Tölz 13 Oct 1978) %%
+							name=Angus
+							dynasty=1014085
+							religion=lutheran culture=german
+							father=100196530	# Hugo Sholto Douglas
+							1870.11.16={birth=yes}  # Leopoldshall
+							1923.08.21={add_spouse=100005118}	# Mechtildis v. Schoenaich-Carolath
+							1938.10.21={death=yes}  # München
+						}
+							100012286={ # Angus (30 Jul 1913-1991); m.30 Jun 1948 Natalia Gagarin (15 Nov 1923-2002) %%
+								name=Angus
+								dynasty=1014085
+								religion=orthodox culture=german
+								father=100296535	# Angus Douglas
+								1913.07.30={birth=yes}
+								1948.06.30={add_spouse=100015602}	# Natalia Gagarin
+								1954.01.01={remove_spouse=100015602}
+								1991.01.01={death=yes}
+							}
 
-100012275={ # Gustav Douglas (Stockholm 23 May 1648-Stockholm 24 Jul 1705); m.4 Aug 1680 Bertha Margaret grevine av Stenbock (Sverige, Guteborg 7 May 1661-Sverige, Stockholm 7 Sep 1735)
+100012275={ # Gustav Douglas (Stockholm 23 May 1648-Stockholm 24 Jul 1705); m.4 Aug 1680 Gfn Bertha Margaret av Stenbock (Sverige, Guteborg 7 May 1661-7 Sep 1735) %%
 	name=Gustav      # 17896/gustav-douglas/
 	dynasty=1014085
 	religion=lutheran culture=swedish
@@ -1043,7 +1083,7 @@
 	1680.08.04={add_spouse=100086356}	# GFN Bertha Margaret av Stenbock
 	1705.07.24={death=yes}	# Stockholm
 }
-	100012278={ # Johann Wilhelm (Stjärnorp 6 Jan 1683-Stjärnorp 8 Apr 1763); m.1720 Maria Houtman (Wologda 17 Sep 1682-25 Sep 1771)
+	100012278={ # Johann Wilhelm (Stjärnorp 6 Jan 1683-8 Apr 1763); m.1720 Maria Houtman (Wologda 17 Sep 1682-25 Sep 1771) %%
 		name="Johann Wilhelm" # 17899/johann-wilhelm-graf-von-douglas/
 		dynasty=1014085
 		religion=lutheran culture=swedish
@@ -1053,7 +1093,7 @@
 		1720.01.01={add_spouse=100096625}	# Maria Houtman
 		1763.04.08={death=yes}
 	}
-		100012280={ # Wilhelm Otto (26 Feb 1721-14 Sep 1776); m.1753 Eleanore Luise Sophie von Dohna-Carwinden (Sverige, Stockholm 27 Jan 1726-Sverige, Tolefors 30 Jan 1797)
+		100012280={ # Wilhelm Otto (26 Feb 1721-14 Sep 1776); m.1753 Eleanore Luise Sophie zu Dohna-Carwinden (Sverige, Stockholm 27 Jan 1726-30 Jan 1797) %%
 			name="Wilhelm Otto" # 17900/wilhelm-otto-graf-douglas/
 			dynasty=1014085
 			religion=lutheran culture=swedish
@@ -1063,7 +1103,7 @@
 			1753.01.01={add_spouse=100096821}	# Eleanore Luise Sophie zu Dohna-Carwinden
 			1776.09.14={death=yes}
 		}
-			100012282={ # Carl Wilhelm (4 Oct 1754-2 Nov 1822); m.1783 Marta Montgomery (22 Sep 1762-21 Aug 1839)
+			100012282={ # Carl Wilhelm (4 Oct 1754-2 Nov 1822); m.1783 Marta Montgomery (22 Sep 1762-21 Aug 1839) %%
 				name="Carl Wilhelm" # 17901/carl-wilhelm-graf-von-douglas/
 				dynasty=1014085
 				religion=lutheran culture=swedish
@@ -1073,7 +1113,7 @@
 				1783.01.01={add_spouse=100096690}	# Marta Montgomery
 				1822.11.02={death=yes}
 			}
-				100012283={ # Wilhelm Christoffer Robert (Kärrsjö, Östergötland 6 Aug 1784-Gerstorp, Östergötland 14 Feb 1844); m.1823 Madalena Lagerfeldt (Lagerlunda, Östergötland 28 Jun 1797-Gerstorp, Östergötland 16 Jan 1834)
+				100012283={ # Wilhelm Christoffer Robert (Kärrsjö, Östergötland 6 Aug 1784-14 Feb 1844); m.1823 Bss Madalena Lagerfeldt (Lagerlunda, Östergötland 28 Jun 1797-16 Jan 1834) %%
 					name="Wilhelm Christoffer Robert" # 17902/wilhelm-christoffer-robert-graf-von-douglas/
 					dynasty=1014085
 					religion=lutheran culture=swedish
@@ -1083,7 +1123,7 @@
 					1823.01.01={add_spouse=100096660}	# BSS Madalena Lagerfeldt
 					1844.02.14={death=yes}
 				}
-					100012284={ # Carl Israel (Katrineberg, Östergötland 20 Apr 1824-Villa Douglas, Constança 14 Jan 1898); m.1848 Luise von Langenstein und Gondelsheim (Karlsruhe, Karlsruhe 3 Mar 1825-Prefargier, Neuchatel 1900)
+					100012284={ # Carl Israel (Katrineberg, Östergötland 20 Apr 1824-14 Jan 1898); m.1848 Luise von Langenstein u.Gondelsheim (Karlsruhe, Karlsruhe 3 Mar 1825-Prefargier, Neuchatel 1900) %%
 						name="Carl Israel"	# 17903/carl-israel-graf-douglas/
 						dynasty=1014085
 						religion=lutheran culture=swedish
@@ -1093,7 +1133,7 @@
 						1848.01.01={add_spouse=100196844}	# Luise von Langenstein u.Gondelsheim
 						1898.01.14={death=yes}
 					}
-						100012245={ # Catharina (1 Jan 1847-1883); m.1874 Heinrich Gayling von Altheim (27 Nov 1847-31 Mar 1940)
+						100012245={ # Catharina (1847-1883); m.1874 Baron Heinrich Gayling von Altheim (27 Nov 1847-31 Mar 1940) %%
 							name=Catharina   # 397654/catharina-graefin-douglas/
 							female=yes
 							dynasty=1014085
@@ -1103,7 +1143,7 @@
 							1847.01.01={birth=yes}
 							1883.01.01={death=yes}
 						}
-						100012247={ # Charles Louis Wilhelm (18 Nov 1848-22 Apr 1908); m.1899 Waleska Weiss (22 Mar 1861-26 Sep 1927)
+						100012247={ # Charles Louis Wilhelm (18 Nov 1848-22 Apr 1908); m.1899 Waleska Weiss (22 Mar 1861-26 Sep 1927) %%
 							name="Charles Louis Wilhelm" # 397652/charles-louis-wilhelm-graf-douglas/
 							dynasty=1014085
 							religion=lutheran culture=swedish
@@ -1113,7 +1153,7 @@
 							1899.01.01={add_spouse=100096888}	# Waleska Weiss
 							1908.04.22={death=yes}
 						}
-						100012285={ # Ludvig (Zürich, Zurich, Riesbach 26 Nov 1849-Lysekil, Bohuslan 20 Jul 1916); m.1876 Anna Ehrensvärd (Stockholm, Stockholm  23 Aug 1855-Linköping 2 Apr 1930)
+						100012285={ # Ludvig (Zürich, Zurich, Riesbach 26 Nov 1849-20 Jul 1916); m.1876 Css Anna Ehrensvärd (Stockholm, Stockholm 23 Aug 1855-2 Apr 1930) %%
 							name=Ludvig      # 17904/ludvig-graf-douglas/
 							dynasty=1014085
 							religion=lutheran culture=swedish
@@ -1123,7 +1163,7 @@
 							1876.01.01={add_spouse=100096586}	# CSS Anna Ehrensvärd
 							1916.07.20={death=yes}
 						}
-							100012206={ # Louise (22 Nov 1878-2 Apr 1964); m.1901 Theodor Adelswärd (13 Oct 1860-29 Sep 1929)
+							100012206={ # Louise (22 Nov 1878-2 Apr 1964); m.1901 Baron Theodor Adelswärd (13 Oct 1860-29 Sep 1929) %%
 								name=Louise      # 379912/louise-graefin-douglas/
 								female=yes
 								dynasty=1014085
@@ -1133,7 +1173,7 @@
 								1878.11.22={birth=yes}
 								1964.04.02={death=yes}
 							}
-							100012204={ # Karl Robert (Constança, Suiça 24 Apr 1880-Langenstein, Baden 26 Aug 1955); m.1st 1906 Sofie von Fine Blaauw (Christiania 9 Jan 1886-20 Aug 1971); m.2nd 1939 Augusta Viktoria von Hohenzollern (Potsdam 19 Aug 1890-Munchhof 29 Aug 1966)
+							100012204={ # Robert (Constança, Suiça 24 Apr 1880-26 Aug 1955); m.1st 1906 Sofie von Fine Blaauw (Christiania 9 Jan 1886-20 Aug 1971); m.2nd 1939 Auguste Viktoria v. Hohenzollern-Sigmaringen (19 Aug 1890-29 Aug 1966) %%
 								name=Robert				# 17905/karl-robert-graf-douglas/
 								dynasty=1014085
 								religion=lutheran culture=swedish
@@ -1144,7 +1184,7 @@
 								1939.01.01={add_spouse=100002307}	# Auguste Viktoria v. Hohenzollern-Sigmaringen
 								1955.08.26={death=yes}
 							}
-								100012233={ # Wilhelm (Langenstein 18 May 1907-6 Jun 1987); m.1st 1937 Ursula baronin von Ellrichshausen (12 Mar 1913-8 Apr 1972); m.2nd 1938 Margit Bortfeld (21 Jun 1919-1994)
+								100012233={ # Wilhelm (Langenstein 18 May 1907-6 Jun 1987); m.1st 1937 Bss Ursula von Ellrichshausen (12 Mar 1913-8 Apr 1972); m.2nd 1938 Margit Bortfeld (21 Jun 1919-1994) %%
 									name=Wilhelm     # 266545/wilhelm-graf-douglas/
 									dynasty=1014085
 									religion=lutheran culture=swedish
@@ -1155,7 +1195,7 @@
 									1938.01.01={add_spouse=100093063}	# Margit Bortfeld
 									1987.06.06={death=yes}
 								}
-									100012229={ # Madeleine (b.Konstanz 10 Oct 1939); m.1st 1961 Christoph Albert Eugen Ferdinand von Malaisé (b.Nürnberg 25 Nov 1933); m.2nd 1973 John Denham (b.26 Nov 1929); m.3rd 2006 Raymond Hoffenberg (Port Elizabeth 16 Mar 1923-Oxford 22 Apr 2007)
+									100012229={ # Madeleine (b.Konstanz 10 Oct 1939); m.1st 1961 Christoph von Malaisé (b.Nürnberg 25 Nov 1933); m.2nd 1973 John Denham (b.26 Nov 1929); m.3rd 2006 Raymond Hoffenberg (Port Elizabeth 16 Mar 1923-22 Apr 2007) %%
 										name=Madeleine   # 632097/madeleine-graefin-douglas/
 										female=yes
 										dynasty=1014085
@@ -1165,7 +1205,7 @@
 										1939.10.10={birth=yes}	# Konstanz
 										2016.01.01={death=yes}  # EST.
 									}
-									100012227={ # Gunilla (b.Konstanz 16 Jul 1941); m.1965 Peter Henry Arthur Stanley (b.17 Mar 1939)
+									100012227={ # Gunilla (b.Konstanz 16 Jul 1941); m.1965 Peter Henry Arthur Stanley (b.17 Mar 1939) %%
 										name=Gunilla     # 632107/gunilla-graefin-douglas/
 										female=yes
 										dynasty=1014085
@@ -1174,29 +1214,29 @@
 										mother=100092081	# BSS Ursula von Ellrichshausen
 										1941.07.16={birth=yes}	# Konstanz
 									}
-									100012200={ # Axel (b.Constance 22 Jul 1943); m.1st 1970 Johanna von Sayn-Wittgenstein-Hohenstein (b.Wittgenstein 22 Oct 1948); m.2nd 1976 Karen-Marguerite von Kühlmann (b.Hersfeld 11 Oct 1946); m.3rd 2003 Johanna Ernst (b.1958)
+									100012200={ # Axel (b.Constance 22 Jul 1943); m.1st 1970 Johanna zu Sayn-Wittgenstein-Berleburg (b.Wittgenstein 22 Oct 1948); m.2nd 1976 Karen-Marguerite von Kühlmann (b.Hersfeld 11 Oct 1946); m.3rd 2003 Johanna Ernst (b.1958) %%
 										name=Axel        # 78214/axel-graf-douglas/
 										dynasty=1014085
 										religion=lutheran culture=german
 										father=100012233	# Wilhelm Douglas
 										mother=100092081	# BSS Ursula von Ellrichshausen
 										1943.07.22={birth=yes}	# Constance
-										1970.01.01={add_spouse=100004375}	# Johanna Elisabeth zu Sayn-Wittgenstein-Berleburg
+										1970.01.01={add_spouse=100004375}	# Johanna zu Sayn-Wittgenstein-Berleburg
 										1974.01.01={remove_spouse=100004375}
 										1976.01.01={add_spouse=100096843}	# Karen-Marguerite von Kühlmann
 										2002.01.01={remove_spouse=100096843}
 										2003.01.01={add_spouse=100096588}	# Johanna Ernst
 									}
-										100012202={ # Leonille (b.München, München 2 Jun 1972); m.14 Jun 2006 Philipp zu Stolberg-Wernigerode (b.Hessen, Frankfurt-am-Main 8 Jun 1967)
+										100012202={ # Leonille (b.München, München 2 Jun 1972); m.14 Jun 2006 Philipp zu Stolberg-Wernigerode (b.8 Jun 1967) %%
 											name=Leonille    # 386652/leonille-graefin-douglas/
 											female=yes
 											dynasty=1014085
 											religion=lutheran culture=german
 											father=100012200	# Axel Douglas
-											mother=100004375	# Johanna Elisabeth zu Sayn-Wittgenstein-Berleburg
+											mother=100004375	# Johanna zu Sayn-Wittgenstein-Berleburg
 											1972.06.02={birth=yes}	# München, München
 										}
-										100012231={ # Caroline (b.1979)
+										100012231={ # Caroline (b.1979) %%
 											name=Caroline    # 632122/caroline-graefin-douglas/
 											female=yes
 											dynasty=1014085
@@ -1205,7 +1245,7 @@
 											mother=100096843	# Karen-Marguerite von Kühlmann
 											1979.01.01={birth=yes}
 										}
-										100012230={ # Désirée (b.1981); m.2001 Georg Stadler (b.1981)
+										100012230={ # Désirée (b.1981); m.2006 Georg Stadler (b.1981) %%
 											name=Désirée     # 632123/desiree-graefin-douglas/
 											female=yes
 											dynasty=1014085
@@ -1214,7 +1254,7 @@
 											mother=100096843	# Karen-Marguerite von Kühlmann
 											1981.01.01={birth=yes}
 										}
-										100012234={ # Madeleine (b.1985)
+										100012234={ # Madeleine (b.1985) %%
 											name=Madeleine   # 632124/madeleine-graefin-douglas/
 											female=yes
 											dynasty=1014085
@@ -1232,7 +1272,7 @@
 										1952.12.15={birth=yes}	# Schloss Langenstein
 										1978.01.01={add_spouse=100096859}	# Theresia von Oppen
 									}
-										100012235={ # Clemens Axel John Matthias (b.Camperdown, Australia 12 Aug 1980); m.9 Jul 2011 Georgina zu Hohenlohe-Bartenstein (b.Bad Mergentheim 30 Sep 1982)
+										100012235={ # Clemens Axel John Matthias (b.Camperdown, Australia 12 Aug 1980); m.9 Jul 2011 Georgina zu Hohenlohe-Bartenstein (b.Bad Mergentheim 30 Sep 1982) $$
 											name=Clemens 		# 632127/clemens-axel-john-matthias-graf-douglas/
 											dynasty=1014085
 											religion=lutheran culture=german
@@ -1287,7 +1327,7 @@
 										2003.01.01={add_spouse=100086158}	# Helga Ambros
 										2010.11.27={death=yes}
 									}
-										100012201={ # Christina (b.Wien, Wien 10 Jul 1973); m.13 Dec 2008 Carl-Christian zu Solms-Hohensolms-Lich (b.Giessen 19 Mar 1975)
+										100012201={ # Christina (b.Wien, Wien 10 Jul 1973); m.13 Dec 2008 Carl-Christian zu Solms-Hohensolms-Lich (b.Giessen 19 Mar 1975) $$
 											name=Christina   # 632136/christina-graefin-douglas/
 											female=yes
 											dynasty=1014085
@@ -1329,7 +1369,7 @@
 										mother=100096774	# Anne-Marie Staehelin
 										1941.05.05={birth=yes}	# Berlin, Berlin
 									}
-									100012222={ # Beatrice (b.Konstanz 23 Aug 1944); m.1964 Rudolf von Blanckenstein (b.Battelau 8 Nov 1927)
+									100012222={ # Beatrice (b.Konstanz 23 Aug 1944); m.1964 Rudolf von Blanckenstein (b.Battelau 8 Nov 1927) $$
 										name=Beatrice    # 168171/beatrice-graefin-douglas/
 										female=yes
 										dynasty=1014085
@@ -1398,7 +1438,7 @@
 										father=100012255	# Robert Douglas
 										mother=100096787	# Mielikki Tapiovaara
 										1954.06.12={birth=yes}
-										1981.01.01={add_spouse=100096557}	# GFN Isabella Deym von Strítež
+										1981.01.01={add_spouse=100096557}	# GFN Isabella Deym ze Stríteže
 										2002.01.01={add_spouse=100096627}	# Susanne Höhe
 									}
 										100012261={ # Delphicus-Alexander Carl Robert Ludwig Archibald Douglas (b.8 Jul 1983)
@@ -1406,7 +1446,7 @@
 											dynasty=1014085
 											religion=lutheran culture=swedish
 											father=100012259	# Robert Douglas
-											mother=100096557	# GFN Isabella Deym von Strítež
+											mother=100096557	# GFN Isabella Deym ze Stríteže
 											1983.07.08={birth=yes}
 										}
 										100012260={ # Sarah (b.1986)
@@ -1483,7 +1523,7 @@
 											mother=100096822	# FRN Elisabeth Aurore von Essen
 											1968.05.01={birth=yes}
 										}
-									100012203={ # Elizabeth Christina (b.Stockholm, Stockholm  31 Dec 1940); m.24 Jan 1967 Max Manuel von Bayern (b.München 21 Jan 1937)
+									100012203={ # Elizabeth Christina (b.Stockholm, Stockholm  31 Dec 1940); m.24 Jan 1967 Max Manuel von Bayern (b.München 21 Jan 1937) $$
 										name="Elizabeth Christina" # 18899/elizabeth-christina-graefin-douglas/
 										female=yes
 										dynasty=1014085
@@ -1556,7 +1596,7 @@
 										mother=100096659	# BSS Margareta Lagerfeldt
 										1946.01.01={birth=yes}
 									}
-									100012205={ # Archibald (b.Sverige, Stockholm 27 Nov 1949); m.5 Dec 1992 Walburga von Österreich (b.Berg am Starnberger See 5 Oct 1958)
+									100012205={ # Archibald (b.Sverige, Stockholm 27 Nov 1949); m.5 Dec 1992 Walburga von Österreich (b.Berg am Starnberger See 5 Oct 1958) $$
 										name=Archibald   # 62790/archibald-graf-douglas/
 										dynasty=1014085
 										religion=lutheran culture=swedish
@@ -1942,12 +1982,12 @@
 							female=yes
 							dynasty=1042
 							religion=lutheran culture=swedish
-							father=100012301	# Johan Vasa
 							add_trait=bastard trait=brave
+							father=100012301	# Johan Vasa
 							1556.01.01={birth=yes}
 							1583.06.20={death=yes}  # Reval
 						}
-						100012320={	# 1f) Sigismund III (20 Jun 1566-Warsaw 30 Apr 1632); m.1st 31 May 1592 Anna of Austria (16 Aug 1573-10 Feb 1598); m.2nd 11 Dec 1605 Constantia of Austria (24 Dec 1588-10 Aug 1631)
+						100012320={	# 1f) Sigismund III (20 Jun 1566-Warsaw 30 Apr 1632); m.1st 31 May 1592 Anna of Austria (16 Aug 1573-10 Feb 1598); m.2nd 11 Dec 1605 Constantia of Austria (24 Dec 1588-10 Aug 1631) $$
 							name=Sigismund
 							dynasty=1042
 							religion=lutheran culture=swedish
@@ -1958,15 +1998,15 @@
 							1605.12.11={add_spouse=100021326}	# Konstanze v. Habsburg
 							1632.04.30={death=yes}  # Warsaw
 						}
-							100012321={	# 1g) Wladislaw IV Zygmunt, King of Poland 1632 (9 Jun 1595-20 May 1648); m.1st 12 Nov 1637 Cäcilia Renate of Autria (16 Jul 1611-24 Mar 1644); m.2nd 10 Mar 1646 Louisa Maria Gonzaga (18 Aug 1611-10 May 1667)
-								name=Wladislaw
+							100012321={	# 1g) Wladislaw IV Zygmunt, King of Poland 1632 (9 Jun 1595-20 May 1648); m.1st 12 Nov 1637 Cäcilia Renate of Autria (16 Jul 1611-24 Mar 1644); m.2nd 10 Mar 1646 Louisa Maria Gonzaga (18 Aug 1611-10 May 1667) $$
+								name=Ladislav
 								dynasty=1042
 								religion=lutheran culture=swedish
 								father=100012320	# Sigismund Vasa
 								mother=100021243	# Anna v. Habsburg
 								1595.06.09={birth=yes}
 								1637.11.12={add_spouse=100021305}	# Cäcilia Renata v. Habsburg
-								1646.03.10={add_spouse=100084301}	# Louisa Gonzaga
+								1646.03.10={add_spouse=100072480}	# Louisa Gonzaga
 								1648.05.20={death=yes}
 							}
 							100012322={	# 4g) Aleksander Karol (14 Nov 1614-19 Nov 1634)
@@ -1978,16 +2018,17 @@
 								1614.11.14={birth=yes}
 								1634.11.19={death=yes}
 							}
-							100012323={	# 5g) Jan Kazimierz, Cardinal 1646, King of Poland 1648, abdicated 1668, b.22 Mar 1609, d.as Abbot of St-Martin, Nevers 16 Dec 1672; m.31 May 1649 Louisa Maria Gonzaga (18 Aug 1611-10 May 1667)
+							100012323={	# 5g) Jan Kazimierz, King of Poland 1648, abdicated 1668, b.22 Mar 1609, d.as Abbot of St-Martin, Nevers 16 Dec 1672; m.31 May 1649 Louisa Maria Gonzaga (18 Aug 1611-10 May 1667) $$
 								name="Jan Kazimierz"
 								dynasty=1042
 								religion=catholic culture=polish
 								father=100012320	# Sigismund Vasa
 								mother=100021326	# Konstanze v. Habsburg
-								1611.08.18={birth=yes}
-								1675.01.01={death=yes}  # EST.
+								1609.03.22={birth=yes}
+								1649.05.29={add_spouse=100072480}	# Louisa Gonzaga
+								1672.12.16={death=yes}  # Nevers
 							}
-							100012308={	# 12g) Anna Katharina Konstantia (7 Aug 1619-8 Oct 1651); m.8 Jun 1642 Philipp Wilhelm Pfgf von Neuburg [later, Kfst von der Pfalz] (d.1690)
+							100012308={	# 12g) Anna Katharina Konstantia (7 Aug 1619-8 Oct 1651); m.8 Jun 1642 Philipp Wilhelm Pfgf von Neuburg [later, Kfst von der Pfalz] (d.1690) $$
 								name="Anna Katharina"
 								female=yes
 								dynasty=1042
@@ -1997,7 +2038,7 @@
 								1619.08.07={birth=yes}
 								1651.10.08={death=yes}
 							}
-						100012326={	# 2f) Johan, Duke of Östergotland (18 Apr 1589-5 Mar 1618); m.29 Nov 1612 Marie Elisabeth of Sweden (10 Mar 1596-7 Aug 1618)
+						100012326={	# 2f) Johan, Duke of Östergotland (18 Apr 1589-5 Mar 1618); m.29 Nov 1612 Marie Elisabeth of Sweden (10 Mar 1596-7 Aug 1618) $$
 							name=Johan
 							dynasty=1042
 							religion=lutheran culture=swedish
@@ -2016,7 +2057,7 @@
 						1542.07.25={birth=yes}
 						1595.06.26={death=yes}
 					}
-					100012327={	# 6e) Karl IX, King of Sweden 1604 (4 Oct 1550-30 Oct 1611); m.1st 11 May 1579 Anna Maria Pfgfn von Simmern (24 Jul 1561-29 Jul 1589); m.2nd 27 Aug 1592 Christine of Holstein-Gottorp (12 Apr 1573-8 Dec 1625)
+					100012327={	# 6e) Karl IX, King of Sweden 1604 (4 Oct 1550-30 Oct 1611); m.1st 11 May 1579 Anna Maria Pfgfn von Simmern (24 Jul 1561-29 Jul 1589); m.2nd 27 Aug 1592 Christine of Holstein-Gottorp (12 Apr 1573-8 Dec 1625) $$
 						name=Karl
 						dynasty=1042
 						religion=lutheran culture=swedish
@@ -2027,7 +2068,7 @@
 						1592.08.27={add_spouse=100005697}	# Christine v. Oldenburg-Gottorf
 						1611.10.30={death=yes}
 					}
-						100012328={	# 3f) Gustaf II Adolf, King of Sweden (Stockholm 9 Nov 1594-k.a.nr Lützen 6 Dec 1632); m.Stockholm 25 Nov 1620 Marie Eleonore of Brandenburg (11 Nov 1599-18 Mar 1655)
+						100012328={	# 3f) Gustaf II Adolf, King of Sweden (Stockholm 9 Nov 1594-k.a.nr Lützen 6 Dec 1632); m.Stockholm 25 Nov 1620 Marie Eleonore of Brandenburg (11 Nov 1599-18 Mar 1655) $$
 							name="Gustaf Adolf"
 							dynasty=1042
 							religion=lutheran culture=swedish
@@ -2057,7 +2098,7 @@
 							1601.04.22={birth=yes}
 							1622.01.25={death=yes}  # Narva
 						}
-						100012325={	# 7f) Katharina (10 Nov 1584-13 Dec 1638); m.11 Jun 1615 Johann Kasimir Pfgf von Zweibrücken (d.1652)
+						100012325={	# 7f) Katharina (10 Nov 1584-13 Dec 1638); m.11 Jun 1615 Johann Kasimir Pfgf von Zweibrücken (d.1652) $$
 							name=Katharina
 							female=yes
 							dynasty=1042
@@ -2067,7 +2108,7 @@
 							1584.11.10={birth=yes}
 							1638.12.13={death=yes}
 						}
-						100012311={	# 10f) Marie Elisabeth (10 Mar 1596-7 Aug 1618); m.29 Nov 1612 Johan of Sweden (18 Apr 1589-5 Mar 1618)
+						100012311={	# 10f) Marie Elisabeth (10 Mar 1596-7 Aug 1618); m.29 Nov 1612 Johan of Sweden (18 Apr 1589-5 Mar 1618) $$
 							name="Marie Elisabeth"
 							female=yes
 							dynasty=1042
@@ -2077,7 +2118,7 @@
 							1596.03.10={birth=yes}
 							1618.08.07={death=yes}
 						}
-					100012312={	# 7e) Katharina (6 Jun 1539-21 Dec 1610); m.1 Oct 1559 Edzard II Gf von Ostfriesland (d.1 Mar 1599)
+					100012312={	# 7e) Katharina (6 Jun 1539-21 Dec 1610); m.1 Oct 1559 Edzard II Gf von Ostfriesland (d.1 Mar 1599) $$
 						name=Katharina
 						female=yes
 						dynasty=1042
@@ -2097,7 +2138,7 @@
 						1540.11.16={birth=yes}
 						1627.01.27={death=yes}  # Brussels
 					}
-					100012330={	# 9e) Anna (19 Jun 1545-30 Mar 1610); m.20 Dec 1562 Georg Johann Pfgf von Veldenz (d.1592)
+					100012330={	# 9e) Anna (19 Jun 1545-30 Mar 1610); m.20 Dec 1562 Georg Johann Pfgf von Veldenz (d.1592) $$
 						name=Anna
 						female=yes
 						dynasty=1042
@@ -2107,7 +2148,7 @@
 						1545.06.19={birth=yes}
 						1610.03.30={death=yes}
 					}
-					100012314={	# 10e) Sophie (29 Oct 1547-17 Mar 1611); m.4 Jul 1568 Magnus II, Duke von Sachsen-Lauenburg (d.1603)
+					100012314={	# 10e) Sophie (29 Oct 1547-17 Mar 1611); m.4 Jul 1568 Magnus II, Duke von Sachsen-Lauenburg (d.1603) $$
 						name=Sophie
 						female=yes
 						dynasty=1042
@@ -2117,7 +2158,7 @@
 						1547.10.29={birth=yes}
 						1611.03.17={death=yes}
 					}
-					100012315={	# 11e) Elisabeth (4 Apr 1549-20 Nov 1597); m.7 May 1581 Duke Christoph of Mecklenburg (d.1592)
+					100012315={	# 11e) Elisabeth (4 Apr 1549-20 Nov 1597); m.7 May 1581 Duke Christoph of Mecklenburg (d.1592) $$
 						name=Elisabeth
 						female=yes
 						dynasty=1042
@@ -2139,7 +2180,7 @@
 
 
 ## Bernadotte|10253|100006000
-100012053={# Jean Baptiste Bernadotte (Pau 26 Jan 1763-Stockholm 8 Mar 1844); m.Sceaux 17 Aug 1798 Eugénie Bernhardine Désirée Clary (Marseilles 9 Nov 1777-Stockholm 17 Dec 1860)
+100012053={ # Jean Baptiste Bernadotte (Pau 26 Jan 1763-Stockholm 8 Mar 1844); m.Sceaux 17 Aug 1798 Eugénie Bernhardine Désirée Clary (Marseilles 9 Nov 1777-Stockholm 17 Dec 1860)
 	name="Jean Baptiste"
 	dynasty=10253
 	religion=lutheran culture=frankish
@@ -2148,7 +2189,7 @@
 	1818.02.05={name="Karl Johan"}
 	1844.03.08={death=yes}
 }
-	100012000={# 1a) Joseph François OSCAR I, King of Sweden and Norway (Paris 4 Jul 1799-Stockholm 8 Jul 1859); m.by proxy at München 22 May 1823 and in person at Stockholm 19 Jun 1823 Joséphine Dss von Leuchtenberg (Milan 14 Mar 1807-Stockholm 7 Jun 1876)
+	100012000={ # 1a) Joseph François OSCAR I, King of Sweden and Norway (Paris 4 Jul 1799-Stockholm 8 Jul 1859); m.by proxy at München 22 May 1823 and in person at Stockholm 19 Jun 1823 Joséphine Dss von Leuchtenberg (Milan 14 Mar 1807-Stockholm 7 Jun 1876) $$
 		name=Oscar
 		dynasty=10253
 		religion=lutheran culture=swedish
@@ -2159,7 +2200,7 @@
 		1823.05.22={add_spouse=100065002}	# Joséphine de Beauharnais
 		1859.07.08={death=yes}
 	}
-		100012054={# 1b) CARL XV Ludvig Eugen, King of Sweden and Norway (Stockholm 3 May 1826-Malmö 18 Sep 1872); m.Stockholm 19 Jun 1850 Luise Pss of the Netherlands (The Hague 5 Aug 1828-Stockholm 30 Mar 1871)
+		100012054={ # 1b) CARL XV Ludvig Eugen, King of Sweden and Norway (Stockholm 3 May 1826-Malmö 18 Sep 1872); m.Stockholm 19 Jun 1850 Luise Pss of the Netherlands (The Hague 5 Aug 1828-Stockholm 30 Mar 1871) $$
 			name=Karl
 			dynasty=10253
 			religion=lutheran culture=swedish
@@ -2169,7 +2210,7 @@
 			1850.06.19={add_spouse=100037078}	# Luise van Oranje-Nassau
 			1872.09.18={death=yes}
 		}
-			100012055={# 1c) Louise Josephine Eugenie (Stockholm 31 Oct 1851-Amalienborg 20 Mar 1926); m.Stockholm 28 Jul 1869 King Frederik VIII of Denmark (Copenhagen 3 Jun 1843-Hamburg 14 May 1912)
+			100012055={ # 1c) Louise Josephine Eugenie (Stockholm 31 Oct 1851-Amalienborg 20 Mar 1926); m.Stockholm 28 Jul 1869 King Frederik VIII of Denmark (Copenhagen 3 Jun 1843-Hamburg 14 May 1912) $$
 				name="Louise Josephine"
 				female=yes
 				dynasty=10253
@@ -2179,7 +2220,7 @@
 				1851.10.31={birth=yes}
 				1926.03.20={death=yes}
 			}
-		100012001={# 2b) Gustaf, Duke of Uppland (Stockholm 18 Jun 1827-Kristiania 24 Sep 1852)
+		100012001={ # 2b) Gustaf, Duke of Uppland (Stockholm 18 Jun 1827-Kristiania 24 Sep 1852)
 			name=Gustaf
 			dynasty=10253
 			religion=lutheran culture=swedish
@@ -2188,7 +2229,7 @@
 			1827.06.18={birth=yes}
 			1852.09.24={death=yes}
 		}
-		100012056={# 3b) OSCAR II Frederik, King of Sweden and Norway, was dethroned 7 Jun 1905 by the Norwegian Parliament and renounced the Norwegian throne 26 Oct 1905 (Stockholm 21 Jan 1829-Stockholm 8 Dec 1907); m.Biebrich 6 Jun 1857 Sophie Pss of Nassau (Biebrich 9 Jul 1836-Stockholm 30 Dec 1913)
+		100012056={ # 3b) OSCAR II Frederik, King of Sweden and Norway, was dethroned 7 Jun 1905 by the Norwegian Parliament and renounced the Norwegian throne 26 Oct 1905 (Stockholm 21 Jan 1829-Stockholm 8 Dec 1907); m.Biebrich 6 Jun 1857 Sophie Pss of Nassau (Biebrich 9 Jul 1836-Stockholm 30 Dec 1913) $$
 			name=Oscar
 			dynasty=10253
 			religion=lutheran culture=swedish
@@ -2198,7 +2239,7 @@
 			1857.06.06={add_spouse=100070111}	# Sophie v. Nassau-Weilburg
 			1907.12.08={death=yes}
 		}
-			100012002={# 1c) Oscar GUSTAF V Adolf, King of Sweden (Drottningholm 16 Jun 1858-Stockholm 29 Oct 1950); m.Karlsruhe 20 Sep 1881 Viktoria Pss of Baden (Karlsruhe 7 Aug 1862-Rome 4 Apr 1930)
+			100012002={ # 1c) Oscar GUSTAF V Adolf, King of Sweden (Drottningholm 16 Jun 1858-Stockholm 29 Oct 1950); m.Karlsruhe 20 Sep 1881 Viktoria Pss of Baden (Karlsruhe 7 Aug 1862-Rome 4 Apr 1930) $$
 				name=Gustaf
 				dynasty=10253
 				religion=lutheran culture=swedish
@@ -2208,7 +2249,7 @@
 				1881.09.20={add_spouse=100000264}	# Viktoria von Baden
 				1950.10.29={death=yes}
 			}
-				100012057={# 1d) Oscar Fredrik Vilhelm Olaf GUSTAF VI ADOLF, King of Sweden (Stockholm 11 Nov 1882-Helsingborg 15 Sep 1973); m.1st Windsor Castle 15 Jun 1905 Margaret Pss of Great Britain and Ireland, etc (Bagshot Park 15 Jan 1882-Stockholm 1 May 1920); m.2d St.James's Palace 3 Nov 1923 Lady Louise Mountbatten (Heiligenberg 13 Jul 1889-Stockholm 7 Mar 1965)
+				100012057={ # 1d) Oscar Fredrik Vilhelm Olaf GUSTAF VI ADOLF, King of Sweden (Stockholm 11 Nov 1882-Helsingborg 15 Sep 1973); m.1st Windsor Castle 15 Jun 1905 Margaret Pss of Great Britain and Ireland, etc (Bagshot Park 15 Jan 1882-Stockholm 1 May 1920); m.2d St.James's Palace 3 Nov 1923 Lady Louise Mountbatten (Heiligenberg 13 Jul 1889-Stockholm 7 Mar 1965) $$
 					name="Gustaf Adolf"
 					dynasty=10253
 					religion=lutheran culture=swedish
@@ -2219,7 +2260,7 @@
 					1923.11.03={add_spouse=100061951}	# Louise Mountbatten
 					1973.09.15={death=yes}
 				}
-					100012058={# 1e) Gustaf Adolf Oscar Fredrik Arthur Edmund, Duke of Westerbotten (Stockholm 20 Apr 1906-k.in air crash at Kastrup, Denmark 26 Jan 1947); m.Coburg 20 Oct 1932 Sibylle von Sachsen-Coburg-Gotha (Schloß Friedenstein 18 Jan 1908-Stockholm 28 Nov 1972)
+					100012058={ # 1e) Gustaf Adolf Oscar Fredrik Arthur Edmund, Duke of Westerbotten (Stockholm 20 Apr 1906-k.in air crash at Kastrup, Denmark 26 Jan 1947); m.Coburg 20 Oct 1932 Sibylle von Sachsen-Coburg-Gotha (Schloß Friedenstein 18 Jan 1908-Stockholm 28 Nov 1972) $$
 						name="Gustaf Adolf"
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2229,7 +2270,7 @@
 						1932.10.20={add_spouse=100003786}	# Sibylla v. Sachsen-Coburg u.Gotha
 						1947.01.26={death=yes}
 					}
-						100012059={# 1f) Margaretha Désirée Victoria (b.Haga 31 Oct 1934); m.Gärdslösa 30 Jun 1964 John Kenneth Ambler (Dorking, Surrey 6 Jun 1924-31 May 2008)
+						100012059={ # 1f) Margaretha Désirée Victoria (b.Haga 31 Oct 1934); m.Gärdslösa 30 Jun 1964 John Kenneth Ambler (Dorking, Surrey 6 Jun 1924-31 May 2008)
 							name=Margaretha
 							female=yes
 							dynasty=10253
@@ -2238,7 +2279,7 @@
 							mother=100003786	# Sibylla v. Sachsen-Coburg u.Gotha
 							1934.10.31={birth=yes}
 						}
-						100012003={# 2f) Birgitta Ingeborg Alice (b.Haga 19 Jan 1937); m.(civ) Stockholm 25 May 1961 (rel) Sigmaringen 30 May 1961 Johann Georg Pr von Hohenzollern (b.Sigmaringen 31 Jul 1932)
+						100012003={ # 2f) Birgitta Ingeborg Alice (b.Haga 19 Jan 1937); m.(civ) Stockholm 25 May 1961 (rel) Sigmaringen 30 May 1961 Johann Georg Pr von Hohenzollern (b.Sigmaringen 31 Jul 1932) $$
 							name=Birgitta
 							female=yes
 							dynasty=10253
@@ -2247,7 +2288,7 @@
 							mother=100003786	# Sibylla v. Sachsen-Coburg u.Gotha
 							1937.01.19={birth=yes}
 						}
-						100012004={# 3f) Désirée Elisabeth Sibylla (b.Haga 2 Jun 1938); m.Stockholm 5 Jun 1964 Baron Nils August Silfverschiold (b.Koberg, Sweden 31 May 1934)
+						100012004={ # 3f) Désirée Elisabeth Sibylla (b.Haga 2 Jun 1938); m.Stockholm 5 Jun 1964 Baron Nils August Silfverschiold (b.Koberg, Sweden 31 May 1934)
 							name=Désirée
 							female=yes
 							dynasty=10253
@@ -2256,7 +2297,7 @@
 							mother=100003786	# Sibylla v. Sachsen-Coburg u.Gotha
 							1938.06.02={birth=yes}
 						}
-						100012005={# 4f) Christina Louise Helena (b.Haga 3 Aug 1943); m.Stockholm 15 Jun 1974 Tord Magnuson (b.Stockholm 7 Apr 1941)
+						100012005={ # 4f) Christina Louise Helena (b.Haga 3 Aug 1943); m.Stockholm 15 Jun 1974 Tord Magnuson (b.Stockholm 7 Apr 1941)
 							name=Christina 
 							female=yes
 							dynasty=10253
@@ -2265,7 +2306,7 @@
 							mother=100003786	# Sibylla v. Sachsen-Coburg u.Gotha
 							1943.08.03={birth=yes}
 						}
-						100012006={# 5f) CARL XVI GUSTAF Folke Hubertus, King of Sweden (b.Haga 30 Apr 1946); m.Stockholm 19 Jun 1976 Silvia Renate Sommerlath (b.Heidelberg 23 Dec 1943)
+						100012006={ # 5f) CARL XVI GUSTAF Folke Hubertus, King of Sweden (b.Haga 30 Apr 1946); m.Stockholm 19 Jun 1976 Silvia Renate Sommerlath (b.Heidelberg 23 Dec 1943)
 							name="Carl Gustaf"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2274,7 +2315,7 @@
 							1946.04.30={birth=yes}
 							1976.06.19={add_spouse=100090411}	# Silvia Renate Sommerlath
 						}
-							100012007={# 1g) Victoria Ingrid Alice Désirée (b.Stockholm 14 Jul 1977); m.Stockholm 19 Jun 2010 Olof Daniel Westling (b.Örebro 15 Sep 1973)
+							100012007={ # 1g) Victoria Ingrid Alice Désirée (b.Stockholm 14 Jul 1977); m.Stockholm 19 Jun 2010 Olof Daniel Westling (b.Örebro 15 Sep 1973)
 								name=Victoria
 								female=yes
 								dynasty=10253
@@ -2284,7 +2325,7 @@
 								1977.07.14={birth=yes}
 								2010.06.19={add_spouse=100093734}	# Daniel Westling
 							}	
-								100012008={# 1h) Estelle (b. 23 Feb 2012)
+								100012008={ # 1h) Estelle (b. 23 Feb 2012)
 									name=Estelle
 									female=yes
 									dynasty=10253
@@ -2293,7 +2334,7 @@
 									mother=100012007	# Victoria Bernadotte
 									2012.02.23={birth=yes}
 								}
-							100012060={# 2g) Carl Philipp Edmund Bertil, Duke of Värmland (b.Stockholm 13 May 1979)
+							100012060={ # 2g) Carl Philipp Edmund Bertil, Duke of Värmland (b.Stockholm 13 May 1979)
 								name="Carl Philipp"
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2301,7 +2342,7 @@
 								mother=100090411	# Silvia Renate Sommerlath
 								1979.05.13={birth=yes}
 							}
-							100012009={# 3g) Madeleine Thérèse Amelie Josephine, Dss of Hälsingland and Gästrikland (b.Drottningholm 10 Jun 1982)
+							100012009={ # 3g) Madeleine Thérèse Amelie Josephine, Dss of Hälsingland and Gästrikland (b.Drottningholm 10 Jun 1982)
 								name=Madeleine
 								female=yes
 								dynasty=10253
@@ -2314,16 +2355,16 @@
 									effect={add_spouse_matrilineal=100085592}
 								}
 							}
-								100012033={# Leonore Bernadotte (2014-    )
+								100012033={ # Leonore (b.20 Feb 2014) %%
 									name=Leonore
+									female=yes
 									dynasty=10253
 									religion=lutheran culture=swedish
 									father=100085592	# Christopher O'Neill
 									mother=100012009	# Madeleine Bernadotte
-									female=yes
 									2014.02.20={birth=yes}
 								}
-					100012010={# 2e) Sigvard Oscar Fredrik, Duke of Uppland, renounced his titles and was cr Count af Wisborg 2 Jul 1951 (Drottningholm 7 Jun 1907-Stockholm 4 Feb 2002); m.1st London 8 Mar 1934 Erica Patzek (Wilmersdorf 12 Jul 1911-Berlin 30 Jul 2007); m.2d Copenhagen 26 Oct 1943 (div 1961) Sonia de Robbert (Copenhagen 12 Oct 1909-21 May 2004); m.3d Stockholm 30 Jul 1961 Marianne Lindberg (b.Helsingborg 25 Jul 1924)
+					100012010={ # 2e) Sigvard Oscar Fredrik, Duke of Uppland, renounced his titles and was cr Count af Wisborg 2 Jul 1951 (Drottningholm 7 Jun 1907-Stockholm 4 Feb 2002); m.1st London 8 Mar 1934 Erica Patzek (Wilmersdorf 12 Jul 1911-Berlin 30 Jul 2007); m.2d Copenhagen 26 Oct 1943 (div 1961) Sonia de Robbert (Copenhagen 12 Oct 1909-21 May 2004); m.3d Stockholm 30 Jul 1961 Marianne Lindberg (b.Helsingborg 25 Jul 1924)
 						name=Sigvard
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2337,7 +2378,7 @@
 						1961.07.30={add_spouse=100087420}	# Marianne Lindberg
 						2002.02.04={death=yes}
 					}
-						100012011={# 1f) Michael Sigvard, Ct Bernadotte af Wisborg (b.Copenhagen 21 Aug 1944); m.Stuttgart 6 Feb 1976 Christine Vellhöjer (b.Stuttgart 26 Apr 1947)
+						100012011={ # 1f) Michael Sigvard, Ct Bernadotte af Wisborg (b.Copenhagen 21 Aug 1944); m.Stuttgart 6 Feb 1976 Christine Vellhöjer (b.Stuttgart 26 Apr 1947)
 							name="Michael Sigvard"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2346,7 +2387,7 @@
 							1944.08.21={birth=yes}
 							1976.02.06={add_spouse=100091412}	# Christine Vellhöjer
 						}
-							100012061={# 1g) Kajsa Michaela Sophia, Css Bernadotte af Wisborg (b.Stuttgart 12 Oct 1980)
+							100012061={ # 1g) Kajsa Michaela Sophia, Css Bernadotte af Wisborg (b.Stuttgart 12 Oct 1980)
 								name="Kajsa Michaela"
 								female=yes
 								dynasty=10253
@@ -2355,7 +2396,7 @@
 								mother=100091412	# Christine Vellhöjer
 								1980.10.12={birth=yes}
 							}
-					100012012={# 3e) Ingrid Victoria Sofia Louise Margareta (Stockholm 28 Mar 1910-Fredensborg 7 Nov 2000); m.Stockholm 24 May 1935 King Frederik IX of Denmark (Sorgenfri 11 Mar 1899-Copenhagen 14 Jan 1972)
+					100012012={ # 3e) Ingrid Victoria Sofia Louise Margareta (Stockholm 28 Mar 1910-Fredensborg 7 Nov 2000); m.Stockholm 24 May 1935 King Frederik IX of Denmark (Sorgenfri 11 Mar 1899-Copenhagen 14 Jan 1972) $$
 						name=Ingrid
 						female=yes
 						dynasty=10253
@@ -2365,7 +2406,7 @@
 						1910.03.28={birth=yes}
 						2000.11.07={death=yes}
 					}
-					100012013={# 4e) Bertil Gustaf Oscar Carl Eugen, Duke of Halland (Stockholm 28 Feb 1912-Stockholm 5 Jan 1997); m.Drottningholm 7 Dec 1976 Lilian Davies (b.Swansea 30 Aug 1915)
+					100012013={ # 4e) Bertil Gustaf Oscar Carl Eugen, Duke of Halland (Stockholm 28 Feb 1912-Stockholm 5 Jan 1997); m.Drottningholm 7 Dec 1976 Lilian Davies (b.Swansea 30 Aug 1915)
 						name=Bertil
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2375,7 +2416,7 @@
 						1976.12.07={add_spouse=100081964}	# Lilian Davies
 						1997.01.05={death=yes}
 					}
-					100012014={# 5e) Carl Johan Arthur (b.Stockholm 31 Oct 1916); m.1st NewYork 19 Feb 1946 Kerstin Wijkmark (Stockholm 4 Oct 1910-Kungsberga 11 Sep 1987); m.2d Copenhagen 29 Sep 1988 Gunilla Css Wachtmeister af Johannishus (b.Lund 12 May 1923)
+					100012014={ # 5e) Carl Johan Arthur (b.Stockholm 31 Oct 1916); m.1st NewYork 19 Feb 1946 Kerstin Wijkmark (Stockholm 4 Oct 1910-Kungsberga 11 Sep 1987); m.2d Copenhagen 29 Sep 1988 Gunilla Css Wachtmeister af Johannishus (b.Lund 12 May 1923)
 						name="Carl Johan"
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2385,7 +2426,7 @@
 						1946.02.19={add_spouse=100093785}	# Kerstin Wijkmark
 						1988.09.29={add_spouse=100093565}	# CSS Gunilla Wachtmeister af Johannishus
 					}
-				100012015={# 2d) Carl Vilhelm Ludvig (Tullgarn, Sweden 17 Jun 1884-Stockholm 5 Jun 1965); m.Tsarskoe Selo 3 May 1908 (div 1914) Marie, Grand Dss of Russia (St.Petersburg 18 Apr 1890-Konstanz 13 Dec 1958)
+				100012015={ # 2d) Carl Vilhelm Ludvig (Tullgarn, Sweden 17 Jun 1884-Stockholm 5 Jun 1965); m.Tsarskoe Selo 3 May 1908 (div 1914) Marie, Grand Dss of Russia (St.Petersburg 18 Apr 1890-Konstanz 13 Dec 1958) $$
 					name="Carl Vilhelm"
 					dynasty=10253
 					religion=lutheran culture=swedish
@@ -2396,7 +2437,7 @@
 					1914.01.01={remove_spouse=100016987}
 					1965.06.05={death=yes}
 				}
-					100012016={# 1e) Gustaf Lennart Nicolaus Paul, renounced his rights and was cr Ct af Wisborg 2 Jul 1951 (Stockholm 8 May 1909-Schloß Mainau 21 Dec 2004); m.1st London 11 Mar 1932 (div 1972) Karin Nissvandt (Stockholm 7 Jul 1911-Konstanz 9 Sep 1991); m.2d Mainau 29 Apr 1972 Sonja Haunz (7 May 1944-Mainau 21 Oct 2008)
+					100012016={ # 1e) Gustaf Lennart Nicolaus Paul, renounced his rights and was cr Ct af Wisborg 2 Jul 1951 (Stockholm 8 May 1909-Schloß Mainau 21 Dec 2004); m.1st London 11 Mar 1932 (div 1972) Karin Nissvandt (Stockholm 7 Jul 1911-Konstanz 9 Sep 1991); m.2d Mainau 29 Apr 1972 Sonja Haunz (7 May 1944-Mainau 21 Oct 2008)
 						name="Gustaf Lennart"
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2408,7 +2449,7 @@
 						1972.04.29={add_spouse=100084731}	# Sonja Haunz
 						2004.12.21={death=yes}
 					}
-						100012017={# 1f) Birgitta, Css Bernadotte af Wisborg (b.Stockholm 3 May 1933); m.Mainau 11 Jun 1955 Friedrich Otto Straehl (Konstanz 20 Nov 1922-Kreuzlingen 13 Sep 2011)
+						100012017={ # 1f) Birgitta, Css Bernadotte af Wisborg (b.Stockholm 3 May 1933); m.Mainau 11 Jun 1955 Friedrich Otto Straehl (Konstanz 20 Nov 1922-Kreuzlingen 13 Sep 2011)
 							name=Birgitta
 							female=yes
 							dynasty=10253
@@ -2417,7 +2458,7 @@
 							mother=100088513	# Karin Nissvandt
 							1933.05.03={birth=yes}
 						}
-						100012018={# 2f) Maria Lovisa, Css Bernadotte af Wisborg (Stockholm 6 Nov 1935-Konstanz 24 May 1988); m.Mainau 11 Sep 1956 Rudolf Adolf Kautz (Engen 24 Aug 1930-Longboat Key, Florida 18 Oct 2007)
+						100012018={ # 2f) Maria Lovisa, Css Bernadotte af Wisborg (Stockholm 6 Nov 1935-Konstanz 24 May 1988); m.Mainau 11 Sep 1956 Rudolf Adolf Kautz (Engen 24 Aug 1930-Longboat Key, Florida 18 Oct 2007)
 							name="Maria Lovisa"
 							female=yes
 							dynasty=10253
@@ -2427,15 +2468,19 @@
 							1935.11.06={birth=yes}
 							1988.05.24={death=yes}
 						}
-						100012019={# 3f) Carl Johan (Jan) Gustaf Vilhelm, Ct Bernadotte af Wisborg (b.Stockholm 9 Jan 1941); m.1st Toro, Sweden 3 May 1965 (div 1967) Gunilla Stampe (Toro 3 Sep 1941-Savigny 22 May 2010); m.2d Mainau 26 Jun 1967 (div 1970) Anna Skarne (b.Stockholm 1 Apr 1944); m.3d Konstanz 23 Jun 1972 (div 1974) Annegret Thomssen (b.Bremen 15 Nov 1938); m.4th Diepolz 6 Sep 1974 Maritta Berg (Diepolz 7 Dec 1953-Waldenbruch 30 Sep 2001); m.5th London 15 Mar 1993 Gabrielle Kick (b.Weimar 29 Jun 1949); m.6th Forbach 11 Sep 2004 Christiane Grandmontagne (b.Rabat 17 Mar 1944)
+						100012019={ # 3f) Carl Johan (Jan) Gustaf Vilhelm, Ct Bernadotte af Wisborg (b.Stockholm 9 Jan 1941); 
+									# m.1st Toro, Sweden 	 3 May 1965 (div 1967) Gunilla Stampe (Toro 3 Sep 1941-Savigny 22 May 2010); 
+									# m.2d Mainau 			26 Jun 1967 (div 1970) Anna Skarne (b.Stockholm 1 Apr 1944); 
+									# m.3d Konstanz 		23 Jun 1972 (div 1974) Annegret Thomssen (b.Bremen 15 Nov 1938); 
+									# m.4th Diepolz  		 6 Sep 1974 Maritta Berg (Diepolz 7 Dec 1953-Waldenbruch 30 Sep 2001); 
+									# m.5th London 			15 Mar 1993 Gabrielle Kick (b.Weimar 29 Jun 1949); 
+									# m.6th Forbach 		11 Sep 2004 Christiane Grandmontagne (b.Rabat 17 Mar 1944)
 							name="Carl Johan"
 							dynasty=10253
 							religion=lutheran culture=swedish
 							father=100012016	# Gustaf Lennart Bernadotte
 							mother=100088513	# Karin Nissvandt
 							1941.01.09={birth=yes}
-							1965.05.03={add_spouse=100090503}	# Gunilla Stampe
-							1967.01.01={remove_spouse=100090503}
 							1967.06.26={add_spouse=100090294}	# Anna Skarne
 							1970.01.01={remove_spouse=100090294}
 							1972.06.23={add_spouse=100090958}	# Annegret Thomssen
@@ -2446,7 +2491,7 @@
 							2004.01.01={remove_spouse=100086804}
 							2004.09.11={add_spouse=100084392}	# Christiane Grandmontagne
 						}
-							100012020={# 1g) Sophia Magdalena, Css Bernadotte af Wisborg (b.Stockholm 3 May 1968); she has three children with Michael Söderström (b.Järfallä 2 Apr 1965)
+							100012020={ # 1g) Sophia Magdalena, Css Bernadotte af Wisborg (b.Stockholm 3 May 1968); she has three children with Michael Söderström (b.Järfallä 2 Apr 1965)
 								name="Sophia Magdalena"
 								female=yes
 								dynasty=10253
@@ -2455,7 +2500,7 @@
 								mother=100090294	# Anna Skarne
 								1968.05.03={birth=yes}
 							}
-							100012021={# 2g) Cia-Rosemarie, Css Bernadotte af Wisborg (b.Konstanz 30 Sep 1972); m.Konstanz 9 Jun 2006 Sven Roderburg (b.Hoyerswerda 2 Feb 1972)
+							100012021={ # 2g) Cia-Rosemarie, Css Bernadotte af Wisborg (b.Konstanz 30 Sep 1972); m.Konstanz 9 Jun 2006 Sven Roderburg (b.Hoyerswerda 2 Feb 1972)
 								name=Cia-Rosemarie
 								female=yes
 								dynasty=10253
@@ -2465,7 +2510,7 @@
 								1972.09.30={birth=yes}
 								2006.06.09={add_spouse=100089595}	# Sven Roderburg
 							}
-							100012022={# 3g) Alexander Wilhelm, Ct Bernadotte af Wisborg (b.Konstanz 25 Mar 1977); m.Stetten 15 May 2003 (rel) Mainau 20 Sep 2003 Carina Beate König (b.Würzburg 5 Dec 1981)
+							100012022={ # 3g) Alexander Wilhelm, Ct Bernadotte af Wisborg (b.Konstanz 25 Mar 1977); m.Stetten 15 May 2003 (rel) Mainau 20 Sep 2003 Carina Beate König (b.Würzburg 5 Dec 1981)
 								name="Alexander Wilhelm"
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2474,7 +2519,7 @@
 								1977.03.25={birth=yes}
 								2003.05.15={add_spouse=100087108}	# Carina Beate König
 							}
-								100012023={# 1h) Désirée Maritta Css Bernadotte af Wisborg (b.Sigmaringen 4 Nov 2006)
+								100012023={ # 1h) Désirée Maritta Css Bernadotte af Wisborg (b.Sigmaringen 4 Nov 2006)
 									name="Désirée Maritta"
 									female=yes
 									dynasty=10253
@@ -2483,7 +2528,7 @@
 									mother=100087108	# Carina Beate König
 									2006.11.04={birth=yes}
 								}
-								100012024={# 2h) Amélie Anastasia Css Bernadotte af Wisborg (b.2010)
+								100012024={ # 2h) Amélie Anastasia Css Bernadotte af Wisborg (b.2010)
 									name="Amélie Anastasia"
 									female=yes
 									dynasty=10253
@@ -2492,7 +2537,7 @@
 									mother=100087108	# Carina Beate König
 									2009.01.01={birth=yes}
 								}
-							100012062={# 4g) Stephan, Ct Bernadotte af Wisborg (b.Konstanz 4 Nov 1980)
+							100012062={ # 4g) Stephan, Ct Bernadotte af Wisborg (b.Konstanz 4 Nov 1980)
 								name=Stephan
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2500,7 +2545,7 @@
 								mother=100080566	# Maritta Berg
 								1980.11.04={birth=yes}
 							}
-						100012025={# 4f) Karin Cecilie, Css Bernadotte af Wisborg (b.Stockholm 9 Apr 1944); m.Mainau 31 Mar 1967 (div 1974) Hans Jörg Baenkler (b.Konstanz 24 Sep 1939)
+						100012025={ # 4f) Karin Cecilie, Css Bernadotte af Wisborg (b.Stockholm 9 Apr 1944); m.Mainau 31 Mar 1967 (div 1974) Hans Jörg Baenkler (b.Konstanz 24 Sep 1939)
 							name="Karin Cecilie"
 							female=yes
 							dynasty=10253
@@ -2509,7 +2554,7 @@
 							mother=100088513	# Karin Nissvandt
 							1944.04.09={birth=yes}
 						}
-						100012026={# 5f) Bettina, Css Bernadotte af Wisborg (b.Scherzingen 12 Mar 1974); m.Mariefred nr Schloß Gripsholm, Sweden 2 Aug 2004 (rel) Mainau 29 Oct 2004 Philipp Haug (b.Lindau 22 Oct 1972)
+						100012026={ # 5f) Bettina, Css Bernadotte af Wisborg (b.Scherzingen 12 Mar 1974); m.Mariefred nr Schloß Gripsholm, Sweden 2 Aug 2004 (rel) Mainau 29 Oct 2004 Philipp Haug (b.Lindau 22 Oct 1972)
 							name=Bettina
 							female=yes
 							dynasty=10253
@@ -2519,7 +2564,7 @@
 							1974.03.12={birth=yes}
 							2004.08.02={add_spouse=100084729}	# Philipp Haug
 						}
-						100012063={# 6f) Bjorn Wilhelm, Ct Bernadotte af Wisborg (b.Scherzingen, Switzerland 13 Jun 1975); m.Mainau 25 Apr 2009 (rel) Mainau 7 May 2009 Sandra Angerer (b.St.Gallen 12 Mar 1977)
+						100012063={ # 6f) Bjorn Wilhelm, Ct Bernadotte af Wisborg (b.Scherzingen, Switzerland 13 Jun 1975); m.Mainau 25 Apr 2009 (rel) Mainau 7 May 2009 Sandra Angerer (b.St.Gallen 12 Mar 1977)
 							name="Bjorn Wilhelm"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2528,7 +2573,7 @@
 							1975.06.13={birth=yes}
 							2009.04.25={add_spouse=100080158}	# Sandra Angerer
 						}
-						100012027={# 7f) Catherine, Css Bernadotte af Wisborg (b.Scherzingen 11 Apr 1977); m.Mainau 7 Jul 2007 Romuald Ruffing (b.Saarbrücken 8 Aug 1966)
+						100012027={ # 7f) Catherine, Css Bernadotte af Wisborg (b.Scherzingen 11 Apr 1977); m.Mainau 7 Jul 2007 Romuald Ruffing (b.Saarbrücken 8 Aug 1966)
 							name=Catherine
 							female=yes
 							dynasty=10253
@@ -2537,7 +2582,7 @@
 							mother=100084731	# Sonja Haunz
 							1977.04.11={birth=yes}
 						}
-						100012028={# 8f) Christian Wolfgang, Ct Bernadotte af Wisborg (b.Scherzingen 24 May 1979); m.22 May 2010 Christine Stoltmann (b.Duderstedt 7 Nov 1977)
+						100012028={ # 8f) Christian Wolfgang, Ct Bernadotte af Wisborg (b.Scherzingen 24 May 1979); m.22 May 2010 Christine Stoltmann (b.Duderstedt 7 Nov 1977)
 							name="Christian Wolfgang"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2546,7 +2591,7 @@
 							1979.05.24={birth=yes}
 							2010.05.22={add_spouse=100090620}	# Christine Stoltmann
 						}
-							100012064={# 1g) Maximilian Benedikt Ct Bernadotte af Wisborg (b.10 Aug 2010)
+							100012064={ # 1g) Maximilian Benedikt Ct Bernadotte af Wisborg (b.10 Aug 2010)
 								name="Maximilian Benedikt"
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2554,7 +2599,7 @@
 								mother=100090620	# Christine Stoltmann
 								2010.08.10={birth=yes}
 							}
-						100012029={# 9f) Diana, Css Bernadotte af Wisborg (b.Mainau 18 Apr 1982); m.Mainau 27 Sep 2003 Bernd Grawe (b.Konstanz 12 Mar 1966)
+						100012029={ # 9f) Diana, Css Bernadotte af Wisborg (b.Mainau 18 Apr 1982); m.Mainau 27 Sep 2003 Bernd Grawe (b.Konstanz 12 Mar 1966)
 							name=Diana
 							female=yes
 							dynasty=10253
@@ -2563,7 +2608,7 @@
 							mother=100084731	# Sonja Haunz
 							1982.04.18={birth=yes}
 						}
-				100012030={# 3d) Erik Gustaf Ludvig Albert (Stockholm 20 Apr 1889-Drottningholm 20 Sep 1918)
+				100012030={ # 3d) Erik Gustaf Ludvig Albert (Stockholm 20 Apr 1889-Drottningholm 20 Sep 1918)
 					name="Erik Gustaf"
 					dynasty=10253
 					religion=lutheran culture=swedish
@@ -2572,7 +2617,7 @@
 					1889.04.20={birth=yes}
 					1918.09.20={death=yes}
 				}
-			100012031={# 2c) Oscar Carl August (Drottningholm 15 Nov 1859-Stockholm 4 Oct 1953); m.Bournemouth 15 Mar 1888 Ebba Henrietta Munck af Fulkila (Jönköping 15 Mar 1858-Stockholm 16 Oct 1946)
+			100012031={ # 2c) Oscar Carl August (Drottningholm 15 Nov 1859-Stockholm 4 Oct 1953); m.Bournemouth 15 Mar 1888 Ebba Henrietta Munck af Fulkila (Jönköping 15 Mar 1858-Stockholm 16 Oct 1946)
 				name=Oscar
 				dynasty=10253
 				religion=lutheran culture=swedish
@@ -2582,7 +2627,7 @@
 				1888.03.15={add_spouse=100088289}	# Ebba Henrietta Munck af Fulkila
 				1953.10.04={death=yes}
 			}
-				100012032={# 1d) Maria Sophia Henrietta (b.Karlscrona 28 Feb 1889-Stockholm 19 Jun 1974)
+				100012032={ # 1d) Maria Sophia Henrietta (b.Karlscrona 28 Feb 1889-Stockholm 19 Jun 1974)
 					name=Maria
 					female=yes
 					dynasty=10253
@@ -2592,7 +2637,7 @@
 					1889.02.28={birth=yes}
 					1974.06.19={death=yes}
 				}
-				100012065={# 2d) Carl Oscar (Karlscrona 27 May 1890-Malmö 23 Apr 1977); m.1st Stockholm 15 Mar 1915 Marianne Bss de Geer af Leufsta (Frötuna 6 Oct 1893-31 Aug 1978); m.2d Grüdinge 20 Apr 1937 Gerty Börjesson (Södertälje 30 Oct 1910-Jönköping 10 Nov 2004)
+				100012065={ # 2d) Carl Oscar (Karlscrona 27 May 1890-Malmö 23 Apr 1977); m.1st Stockholm 15 Mar 1915 Marianne Bss de Geer af Leufsta (Frötuna 6 Oct 1893-31 Aug 1978); m.2d Grüdinge 20 Apr 1937 Gerty Börjesson (Södertälje 30 Oct 1910-Jönköping 10 Nov 2004)
 					name=Carl
 					dynasty=10253
 					religion=lutheran culture=swedish
@@ -2604,7 +2649,7 @@
 					1937.04.20={add_spouse=100081133}	# Gerty Börjesson
 					1977.04.23={death=yes}
 				}
-					100012066={# 1e) Dagmar Ebba Märtha Marianne (b.Stockholm 10 Apr 1916); m.Frötuna 16 Oct 1936 Nils Magnus von Arbin (Störkinge 17 Aug 1910-Tangestad 4 Mar 1985)
+					100012066={ # 1e) Dagmar Ebba Märtha Marianne (b.Stockholm 10 Apr 1916); m.Frötuna 16 Oct 1936 Nils Magnus von Arbin (Störkinge 17 Aug 1910-Tangestad 4 Mar 1985)
 						name=Dagmar
 						female=yes
 						dynasty=10253
@@ -2613,7 +2658,7 @@
 						mother=100082337	# BSS Marianne de Geer af Leufsta
 						1916.04.10={birth=yes}
 					}
-					100012034={# 3e) Oscar Carl Emanuel, Ct Bernadotte af Wisborg (b.Stockholm 12 Jul 1921); m.1st Bjornstorp 18 Mar 1944 (div 1950) Bss Ebba-Anna Gyllenkrok (b.Stockholm 26 Jul 1918); m.2d New York 18 Oct 1950 Gertrud Ollen (Stockholm 10 May 1916-Frötuna 18 Feb 1999)
+					100012034={ # 3e) Oscar Carl Emanuel, Ct Bernadotte af Wisborg (b.Stockholm 12 Jul 1921); m.1st Bjornstorp 18 Mar 1944 (div 1950) Bss Ebba-Anna Gyllenkrok (b.Stockholm 26 Jul 1918); m.2d New York 18 Oct 1950 Gertrud Ollen (Stockholm 10 May 1916-Frötuna 18 Feb 1999)
 						name=Oscar
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2624,7 +2669,7 @@
 						1950.01.01={remove_spouse=100084586}
 						1950.10.18={add_spouse=100088656}	# Gertrud Ollen
 					}
-						100012067={# 1f) Ebba Marianne Charlotte, Css Bernadotte af Wisborg (b.Stockholm 2 Mar 1945); m.1st Rasbo, Uppsala 14 Mar 1970 (div 2002) Pontus Reuterswärd (b.Kristinstad 28 May 1943); m.2d Bergsjöholm 23 Jun 2005 Lars Ahlström (b.Solna 13 Apr 1943)
+						100012067={ # 1f) Ebba Marianne Charlotte, Css Bernadotte af Wisborg (b.Stockholm 2 Mar 1945); m.1st Rasbo, Uppsala 14 Mar 1970 (div 2002) Pontus Reuterswärd (b.Kristinstad 28 May 1943); m.2d Bergsjöholm 23 Jun 2005 Lars Ahlström (b.Solna 13 Apr 1943)
 							name="Ebba Marianne"
 							female=yes
 							dynasty=10253
@@ -2633,7 +2678,7 @@
 							mother=100084586	# BSS Ebba-Anna Gyllenkrok
 							1945.03.02={birth=yes}
 						}
-						100012035={# 2f) Kristina, Css Bernadotte af Wisborg (b.Stockholm 21 Dec 1951); m.1st Rasbo 18 Jun 1977 (div) Baron Peder Langenskiöld (b.13 Mar 1950); m.Paris 31 Mar 1982 Lars Hedström (b.Göteborg 21 Aug 1947)
+						100012035={ # 2f) Kristina, Css Bernadotte af Wisborg (b.Stockholm 21 Dec 1951); m.1st Rasbo 18 Jun 1977 (div) Baron Peder Langenskiöld (b.13 Mar 1950); m.Paris 31 Mar 1982 Lars Hedström (b.Göteborg 21 Aug 1947)
 							name=Kristina
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2644,7 +2689,7 @@
 							1982.01.01={remove_spouse=100087182}
 							1982.03.31={add_spouse=100084768}	# Lars Hedström
 						}
-						100012068={# 3f) Birgitta, Css Bernadotte af Wisborg (b.Witullsberg 21 Dec 1953); m.1st Rasbo 31 May 1980 (div 1990) Richard van Helleputte (b.Montreuil-sous-Bois 5 Feb 1955)[?; m.2d 1992 Gunnar Sundquist (b.1951)]
+						100012068={ # 3f) Birgitta, Css Bernadotte af Wisborg (b.Witullsberg 21 Dec 1953); m.1st Rasbo 31 May 1980 (div 1990) Richard van Helleputte (b.Montreuil-sous-Bois 5 Feb 1955)[?; m.2d 1992 Gunnar Sundquist (b.1951)]
 							name=Birgitta
 							female=yes
 							dynasty=10253
@@ -2653,7 +2698,7 @@
 							mother=100088656	# Gertrud Ollen
 							1953.12.21={birth=yes}
 						}
-						100012036={# 4f) Carl Ludvig, Ct Bernadotte af Wisborg (b.Witullsberg 1 Jun 1955); m.Stockholm 23 May 1981 Charlotte Urban (b.Stockholm 24 Dec 1954)
+						100012036={ # 4f) Carl Ludvig, Ct Bernadotte af Wisborg (b.Witullsberg 1 Jun 1955); m.Stockholm 23 May 1981 Charlotte Urban (b.Stockholm 24 Dec 1954)
 							name="Carl Ludvig"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2662,7 +2707,7 @@
 							1955.06.01={birth=yes}
 							1981.05.23={add_spouse=100091174}	# Charlotte Urban
 						}
-							100012037={# 1g) Josephine Eva, Css Bernadotte af Wisborg (b.Stockholm 5 Jan 1984)
+							100012037={ # 1g) Josephine Eva, Css Bernadotte af Wisborg (b.Stockholm 5 Jan 1984)
 								name="Josephine Eva"
 								female=yes
 								dynasty=10253
@@ -2671,7 +2716,7 @@
 								mother=100091174	# Charlotte Urban
 								1984.01.05={birth=yes}
 							}
-							100012069={# 2g) Fredrika Jessica, Css Bernadotte af Wisborg (b.Stockholm 8 Aug 1985)
+							100012069={ # 2g) Fredrika Jessica, Css Bernadotte af Wisborg (b.Stockholm 8 Aug 1985)
 								name="Fredrika Jessica"
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2679,7 +2724,7 @@
 								mother=100091174	# Charlotte Urban
 								1985.08.08={birth=yes}
 							}
-							100012038={# 3g) Elsa Marianne, Css Bernadotte af Wisborg (b.Stockholm 22 Nov 1988)
+							100012038={ # 3g) Elsa Marianne, Css Bernadotte af Wisborg (b.Stockholm 22 Nov 1988)
 								name="Elsa Marianne"
 								female=yes
 								dynasty=10253
@@ -2688,7 +2733,7 @@
 								mother=100091174	# Charlotte Urban
 								1988.11.22={birth=yes}
 							}
-					100012070={# 4e) Märtha Elsa Catharina, Css Bernadotte af Wisborg (b.Stockholm 14 Apr 1926); m.Osmo 1948 Tore Henrik Nilert (Stockholm 9 Feb 1915-21 Oct 1997)
+					100012070={ # 4e) Märtha Elsa Catharina, Css Bernadotte af Wisborg (b.Stockholm 14 Apr 1926); m.Osmo 1948 Tore Henrik Nilert (Stockholm 9 Feb 1915-21 Oct 1997)
 						name=Catharina
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2697,7 +2742,7 @@
 						1926.04.14={birth=yes}
 						1948.01.01={add_spouse=100088506}	# Tore Henrik Nilert
 					}
-					100012071={# 5e) Claes Oscar Carl, Css Bernadotte af Wisborg (b.Frötuna 17 Jul 1942); m.Lund 22 Nov 1969 Birgitta Magnusson (b.30 May 1943)
+					100012071={ # 5e) Claes Oscar Carl, Css Bernadotte af Wisborg (b.Frötuna 17 Jul 1942); m.Lund 22 Nov 1969 Birgitta Magnusson (b.30 May 1943)
 						name=Claes
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2706,7 +2751,7 @@
 						1942.07.17={birth=yes}
 						1969.11.22={add_spouse=100087689}	# Birgitta Magnusson
 					}
-						100012072={# 1f) Carl Johan Edward, Ct Bernadotte af Wisborg (b.Stockholm 7 Dec 1970); m.Strängnäs 9 Jun 2001 Anna Erika Sofia Olsson (b.Uppsala 10 Jan 1971)
+						100012072={ # 1f) Carl Johan Edward, Ct Bernadotte af Wisborg (b.Stockholm 7 Dec 1970); m.Strängnäs 9 Jun 2001 Anna Erika Sofia Olsson (b.Uppsala 10 Jan 1971)
 							name="Carl Johan"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2715,7 +2760,7 @@
 							1970.12.07={birth=yes}
 							2001.06.09={add_spouse=100088660}	# Anna Erika Sofia Olsson
 						}
-							100012073={# 1g) Carl Wilhelm Olof Ct Bernadotte af Wisborg (b.Stockholm 26 Apr 2002)
+							100012073={ # 1g) Carl Wilhelm Olof Ct Bernadotte af Wisborg (b.Stockholm 26 Apr 2002)
 								name="Carl Vilhelm"
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2723,7 +2768,7 @@
 								mother=100088660	# Anna Erika Sofia Olsson
 								2002.04.26={birth=yes}
 							}
-							100012039={# 2g) Wilhelm Truls Olof Ct Bernadotte af Wisborg (b.Eskilstuna 14 Aug 2004)
+							100012039={ # 2g) Wilhelm Truls Olof Ct Bernadotte af Wisborg (b.Eskilstuna 14 Aug 2004)
 								name=Vilhelm
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2731,7 +2776,7 @@
 								mother=100088660	# Anna Erika Sofia Olsson
 								2004.08.14={birth=yes}
 							}
-							100012074={# 3g) Sophia Isa Louise Css Bernadotte af Wisborg (b.6 May 2006)
+							100012074={ # 3g) Sophia Isa Louise Css Bernadotte af Wisborg (b.6 May 2006)
 								name=Sophia
 								female=yes
 								dynasty=10253
@@ -2740,7 +2785,7 @@
 								mother=100088660	# Anna Erika Sofia Olsson
 								2006.05.06={birth=yes}
 							}
-						100012040={# 2f) Lovisa Maria Ingrid, Css Bernadotte af Wisborg (b.Viresjo 29 Nov 1973); m.Almesåkra kyrka, Småland 14 Aug 2004 Heinz Assmann (b.Vienna 21 May 1962)
+						100012040={ # 2f) Lovisa Maria Ingrid, Css Bernadotte af Wisborg (b.Viresjo 29 Nov 1973); m.Almesåkra kyrka, Småland 14 Aug 2004 Heinz Assmann (b.Vienna 21 May 1962)
 							name="Lovisa Maria"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2749,7 +2794,7 @@
 							1973.11.29={birth=yes}
 							2004.08.14={add_spouse=100080259}	# Heinz Assmann
 						}
-				100012041={# 3d) Ebba Sophia, Css Bernadotte af Wisborg (Karlscrona 17 May 1892-Stockholm 21 Jun 1936); m.Stockholm 14 May 1918 Baron Carl Fleetwood (Göteborg 19 Sep 1885-Strängnäs 19 Jan 1966)
+				100012041={ # 3d) Ebba Sophia, Css Bernadotte af Wisborg (Karlscrona 17 May 1892-Stockholm 21 Jun 1936); m.Stockholm 14 May 1918 Baron Carl Fleetwood (Göteborg 19 Sep 1885-Strängnäs 19 Jan 1966)
 					name=Sofia
 					female=yes
 					dynasty=10253
@@ -2759,7 +2804,7 @@
 					1892.05.17={birth=yes}
 					1936.06.21={death=yes}
 				}
-				100012042={# 4d) Elsa Victoria, Css Bernadotte af Wisborg (Stockholm 3 Aug 1893-Stockholm 17 Jul 1996); m.Grödinge 18 Sep 1929 Carl Axel Cedergren (Gaevle 26 Jul 1891-Stockholm 10 Jul 1971)
+				100012042={ # 4d) Elsa Victoria, Css Bernadotte af Wisborg (Stockholm 3 Aug 1893-Stockholm 17 Jul 1996); m.Grödinge 18 Sep 1929 Carl Axel Cedergren (Gaevle 26 Jul 1891-Stockholm 10 Jul 1971)
 					name=Elsa
 					dynasty=10253
 					religion=lutheran culture=swedish
@@ -2769,7 +2814,7 @@
 					1929.09.18={add_spouse=100081341}	# Carl Axel Cedergren
 					1996.07.17={death=yes}
 				}
-				100012043={# 5d) Folke, Ct Bernadotte af Wisborg (Stockholm 2 Jan 1895-assassinated at Jerusalem 17 Sep 1948); m. New York City 1 Dec 1928 Estelle Manville (Pleasantville, New York 26 Sep 1904-Stockholm 28 May 1984)
+				100012043={ # 5d) Folke, Ct Bernadotte af Wisborg (Stockholm 2 Jan 1895-assassinated at Jerusalem 17 Sep 1948); m. New York City 1 Dec 1928 Estelle Manville (Pleasantville, New York 26 Sep 1904-Stockholm 28 May 1984)
 					name=Folke
 					dynasty=10253
 					religion=lutheran culture=swedish
@@ -2779,7 +2824,7 @@
 					1928.12.01={add_spouse=100087786}	# Estelle Manville
 					1948.09.17={death=yes}
 				}
-					100012075={# 2e) Folke, Ct Bernadotte af Wisborg (b.Pleasantville, New York 8 Feb 1931); m.Grangärde 2 Jul 1955 Christine Glahns (b.Orebro 9 Jan 1932)
+					100012075={ # 2e) Folke, Ct Bernadotte af Wisborg (b.Pleasantville, New York 8 Feb 1931); m.Grangärde 2 Jul 1955 Christine Glahns (b.Orebro 9 Jan 1932)
 						name=Folke
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2788,7 +2833,7 @@
 						1931.02.08={birth=yes}
 						1955.07.02={add_spouse=100084223}	# Christine Glahns
 					}
-						100012076={# 1f) Anne Christine, Css Bernadotte af Wisborg (b.Uppsala 22 Nov 1956); m.Stockholm 26 May 1989 Per Larsen (b.19 Jun 1953)
+						100012076={ # 1f) Anne Christine, Css Bernadotte af Wisborg (b.Uppsala 22 Nov 1956); m.Stockholm 26 May 1989 Per Larsen (b.19 Jun 1953)
 							name="Anne Christine"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2797,7 +2842,7 @@
 							1956.11.22={birth=yes}
 							1989.05.26={add_spouse=100087208}	# Per Larsen
 						}
-						100012077={# 2f) Carl Folke, Ct Bernadotte af Wisborg (b.Uppsala 2 Dec 1958); m.Uppsala 12 Aug 2000 Birgitta Elisabeth Larsson (b.Böras 23 Feb 1959)
+						100012077={ # 2f) Carl Folke, Ct Bernadotte af Wisborg (b.Uppsala 2 Dec 1958); m.Uppsala 12 Aug 2000 Birgitta Elisabeth Larsson (b.Böras 23 Feb 1959)
 							name="Carl Folke"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2806,7 +2851,7 @@
 							1958.12.02={birth=yes}
 							2000.08.12={add_spouse=100087210}	# Birgitta Elisabeth Larsson
 						}
-							100012045={# 1g) Carl Folke Ct Bernadotte af Wisborg, b.Uppsala 22 Mar 1998
+							100012045={ # 1g) Carl Folke Ct Bernadotte af Wisborg, b.Uppsala 22 Mar 1998
 								name="Carl Folke"
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2814,7 +2859,7 @@
 								mother=100087210	# Birgitta Elisabeth Larsson
 								1998.03.22={birth=yes}
 							}
-							100012078={# 2g) William Erik Ct Bernadotte af Wisborg, b.Uppsala 4 Feb 2002
+							100012078={ # 2g) William Erik Ct Bernadotte af Wisborg, b.Uppsala 4 Feb 2002
 								name=William
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2822,7 +2867,7 @@
 								mother=100087210	# Birgitta Elisabeth Larsson
 								2002.02.04={birth=yes}
 							}
-						100012079={# 3f) Maria Estelle, Css Bernadotte af Wisborg (b.Uppsala 27 Apr 1962); m.Uppsala 14 May 1983 Umberto Ganfini (b.Siena 11 Nov 1955)
+						100012079={ # 3f) Maria Estelle, Css Bernadotte af Wisborg (b.Uppsala 27 Apr 1962); m.Uppsala 14 May 1983 Umberto Ganfini (b.Siena 11 Nov 1955)
 							name="Maria Estelle"
 							female=yes
 							dynasty=10253
@@ -2831,7 +2876,7 @@
 							mother=100084223	# Christine Glahns
 							1962.04.27={birth=yes}
 						}
-						100012080={# 4f) Gunnar Fredrik, Ct Bernadotte af Wisborg (b.Uppsala 24 Nov 1963); m.Uppsala 2 Jun 1990 Karin Lindsten (b.Uppsala 15 May 1963)
+						100012080={ # 4f) Gunnar Fredrik, Ct Bernadotte af Wisborg (b.Uppsala 24 Nov 1963); m.Uppsala 2 Jun 1990 Karin Lindsten (b.Uppsala 15 May 1963)
 							name="Gunnar Fredrik"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2840,7 +2885,7 @@
 							1963.11.24={birth=yes}
 							1990.06.02={add_spouse=100087427}	# Karin Lindsten
 						}
-							100012081={# 1g) Folke (Ockie) Klas Vilhem Ct Bernadotte af Wisborg (b.Uppsala 5 Aug 1996)
+							100012081={ # 1g) Folke (Ockie) Klas Vilhem Ct Bernadotte af Wisborg (b.Uppsala 5 Aug 1996)
 								name=Folke
 								dynasty=10253
 								religion=lutheran culture=swedish
@@ -2848,7 +2893,7 @@
 								mother=100087427	# Karin Lindsten
 								1996.08.05={birth=yes}
 							}
-							100012046={# 2g) Astrid Ruth Estelle, Css Bernadotte af Wisborg (b.Uppsala 10 Feb 1999)
+							100012046={ # 2g) Astrid Ruth Estelle, Css Bernadotte af Wisborg (b.Uppsala 10 Feb 1999)
 								name=Astrid
 								female=yes
 								dynasty=10253
@@ -2857,7 +2902,7 @@
 								mother=100087427	# Karin Lindsten
 								1999.02.10={birth=yes}
 							}
-					100012082={# 3e) Fredrik Oscar, Ct Bernadotte af Wisborg (Stockholm 10 Jan 1934-Stockholm 30 Aug 1944)
+					100012082={ # 3e) Fredrik Oscar, Ct Bernadotte af Wisborg (Stockholm 10 Jan 1934-Stockholm 30 Aug 1944)
 						name="Fredrik Oscar"
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2866,7 +2911,7 @@
 						1934.01.10={birth=yes}
 						1944.08.30={death=yes}
 					}
-					100012047={# 4e) Bertil Oscar, Ct Bernadotte af Wisborg (b.Stockholm 6 Oct 1935); m.1st Copenhagen 28 Sep 1966 Rose-Marie Heering (Copenhagen 7 Jun 1942-Stockholm 1 Nov 1967); m.2d London 27 May 1981 Jill Georgina Rhodes-Maddox (b.2 May 1947)
+					100012047={ # 4e) Bertil Oscar, Ct Bernadotte af Wisborg (b.Stockholm 6 Oct 1935); m.1st Copenhagen 28 Sep 1966 Rose-Marie Heering (Copenhagen 7 Jun 1942-Stockholm 1 Nov 1967); m.2d London 27 May 1981 Jill Georgina Rhodes-Maddox (b.2 May 1947)
 						name="Bertil Oscar"
 						dynasty=10253
 						religion=lutheran culture=swedish
@@ -2876,7 +2921,7 @@
 						1966.09.28={add_spouse=100084770}	# Rose-Marie Heering
 						1981.05.27={add_spouse=100089494}	# Jill Georgina Rhodes-Maddox
 					}
-						100012083={# 1f) Oscar Alexander, Ct Bernadotte af Wisborg (b.London 1 Mar 1982)
+						100012083={ # 1f) Oscar Alexander, Ct Bernadotte af Wisborg (b.London 1 Mar 1982)
 							name="Oscar Alexander"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2884,7 +2929,7 @@
 							mother=100089494	# Jill Georgina Rhodes-Maddox
 							1982.03.01={birth=yes}
 						}
-						100012048={# 2f) Edward Gustav, Ct Bernadotte af Wisborg (b.London 18 Apr 1983); m.29 May 2011 Nathalie Frediani
+						100012048={ # 2f) Edward Gustav, Ct Bernadotte af Wisborg (b.London 18 Apr 1983); m.29 May 2011 Nathalie Frediani
 							name="Edward Gustav"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2893,7 +2938,7 @@
 							1983.04.18={birth=yes}
 							2011.05.29={add_spouse=100083997}	# Nathalie Frediani
 						}
-						100012084={# 3f) Astrid Desirée Estelle, Css Bernadotte af Wisborg (b.London 9 Feb 1987)
+						100012084={ # 3f) Astrid Desirée Estelle, Css Bernadotte af Wisborg (b.London 9 Feb 1987)
 							name="Astrid Desirée Estelle"
 							dynasty=10253
 							religion=lutheran culture=swedish
@@ -2901,7 +2946,7 @@
 							mother=100089494	# Jill Georgina Rhodes-Maddox
 							1987.02.09={birth=yes}
 						}
-			100012049={# 3c) Oscar Carl Vilhelm (Stockholm 27 Feb 1861-Stockholm 24 Oct 1951); m.Copenhagen 27 Aug 1897 Ingeborg Pss of Denmark (Charlottenlund 2 Aug 1878-Stockholm 11 Mar 1958)
+			100012049={ # 3c) Oscar Carl Vilhelm (Stockholm 27 Feb 1861-Stockholm 24 Oct 1951); m.Copenhagen 27 Aug 1897 Ingeborg Pss of Denmark (Charlottenlund 2 Aug 1878-Stockholm 11 Mar 1958) $$
 				name=Carl
 				dynasty=10253
 				religion=lutheran culture=swedish
@@ -2911,7 +2956,7 @@
 				1897.08.27={add_spouse=100004859}	# Ingeborg v. Schleswig-Holstein-Sonderburg-Glücksburg
 				1951.10.24={death=yes}
 			}
-				100012050={# 1d) Margaretha Sophia Louisa Ingeborg (Stockholm 25 Jun 1899-Gentofte 3 Jan 1977); m.Stockholm 22 May 1919 Axel Pr of Denmark (Copenhagen 12 Aug 1888-Copenhagen 14 Jul 1964)
+				100012050={ # 1d) Margaretha Sophia Louisa Ingeborg (Stockholm 25 Jun 1899-Gentofte 3 Jan 1977); m.Stockholm 22 May 1919 Axel Pr of Denmark (Copenhagen 12 Aug 1888-Copenhagen 14 Jul 1964) $$
 					name=Margaretha
 					female=yes
 					dynasty=10253
@@ -2921,7 +2966,7 @@
 					1899.06.25={birth=yes}
 					1977.01.03={death=yes}
 				}
-				100012085={# 2d) Märtha Sophia Louisa Dagmar Thyra (Stockholm 28 Mar 1901-Oslo 5 Apr 1954); m.Oslo 21 Mar 1929 King Olav V of Norway (Appleton House 2 Jul 1903-Oslo 17 Jan 1991)
+				100012085={ # 2d) Märtha Sophia Louisa Dagmar Thyra (Stockholm 28 Mar 1901-Oslo 5 Apr 1954); m.Oslo 21 Mar 1929 King Olav V of Norway (Appleton House 2 Jul 1903-Oslo 17 Jan 1991) $$
 					name=Märtha
 					female=yes
 					dynasty=10253
@@ -2931,7 +2976,7 @@
 					1901.03.28={birth=yes}
 					1954.04.05={death=yes}
 				}
-				100012086={# 3d) Astrid Sophie Louisa Thyra (Stockholm 17 Nov 1905-k.in car wreck Küssnacht, Switzerland 29 Aug 1935); m.Brussels 10 Nov 1926 King Leopold III of the Belgians (Brussels 3 Nov 1901-Woluwe-St.Lambert 25 Sep 1983)
+				100012086={ # 3d) Astrid Sophie Louisa Thyra (Stockholm 17 Nov 1905-k.in car wreck Küssnacht, Switzerland 29 Aug 1935); m.Brussels 10 Nov 1926 King Leopold III of the Belgians (Brussels 3 Nov 1901-Woluwe-St.Lambert 25 Sep 1983) $$
 					name=Astrid
 					female=yes
 					dynasty=10253
@@ -2941,7 +2986,7 @@
 					1905.11.17={birth=yes}
 					1935.08.29={death=yes}
 				}
-				100012087={# 4d) Carl Gustaf Oscar Fredrik Christian, Duke of Östergötland, renounced his rights and was granted the title Pr Bernadotte by the King of the Belgians 6 Jul 1937 (Stockholm 10 Jan 1911-Malaga, Spain 27 Jun 2003); m.1st Kvillinge 6 Jul 1937 (div 1951) Css Elsa von Rosen (Stockholm 7 Feb 1904-Stockholm 15 Apr 1991); m.2d Danderyd 1 Nov 1954 (div 1961) Ann Margareta Larsson (Danderyd 22 Mar 1921-1975); m.3d Rabat 8 Jun 1978 Kristine Rivelsrud (b.Eidsfoss, Norway 22 Apr 1932)
+				100012087={ # 4d) Carl Gustaf Oscar Fredrik Christian, Duke of Östergötland, renounced his rights and was granted the title Pr Bernadotte by the King of the Belgians 6 Jul 1937 (Stockholm 10 Jan 1911-Malaga, Spain 27 Jun 2003); m.1st Kvillinge 6 Jul 1937 (div 1951) Css Elsa von Rosen (Stockholm 7 Feb 1904-Stockholm 15 Apr 1991); m.2d Danderyd 1 Nov 1954 (div 1961) Ann Margareta Larsson (Danderyd 22 Mar 1921-1975); m.3d Rabat 8 Jun 1978 Kristine Rivelsrud (b.Eidsfoss, Norway 22 Apr 1932)
 					name=Carl
 					dynasty=10253
 					religion=lutheran culture=swedish
@@ -2955,7 +3000,7 @@
 					1978.06.08={add_spouse=100089561}	# Kristine Rivelsrud
 					2003.06.27={death=yes}
 				}
-					100012088={# 1e) Madeleine Ingeborg Ella Astrid Elsa, Css Bernadotte (b.Stockholm 8 Oct 1938); m.Stockholm 6 Oct 1962 (div 1980) Charles Albert Ullens de Schooten Whettnall, cr 1962 Comte Ullens de Schooten Whettnall (primog) (Cairo 11 Nov 1927-Leuven 10 May 2006); m.2d Corfu 21 Nov 1981 Nicos Kogevinas (Corfu 6 Sep 1918-Geneva 4 Dec 2006)
+					100012088={ # 1e) Madeleine Ingeborg Ella Astrid Elsa, Css Bernadotte (b.Stockholm 8 Oct 1938); m.Stockholm 6 Oct 1962 (div 1980) Charles Albert Ullens de Schooten Whettnall, cr 1962 Comte Ullens de Schooten Whettnall (primog) (Cairo 11 Nov 1927-Leuven 10 May 2006); m.2d Corfu 21 Nov 1981 Nicos Kogevinas (Corfu 6 Sep 1918-Geneva 4 Dec 2006)
 						name="Madeleine Ingeborg"
 						female=yes
 						dynasty=10253
@@ -2964,7 +3009,7 @@
 						mother=100092967	# CSS Elsa von Rosen
 						1938.10.08={birth=yes}
 					}
-			100012051={# 4c) Eugen Napoleon Nicolaus, Duke of Nerike (Drottningholm 1 Aug 1865-Drottningholm 17 Aug 1947)
+			100012051={ # 4c) Eugen Napoleon Nicolaus, Duke of Nerike (Drottningholm 1 Aug 1865-Drottningholm 17 Aug 1947)
 				name="Eugen Napoleon"
 				dynasty=10253
 				religion=lutheran culture=swedish
@@ -2973,7 +3018,7 @@
 				1865.08.01={birth=yes}
 				1947.08.17={death=yes}
 			}
-		100012052={# 4b) Charlotte Eugenie Auguste Amalia Albertine (Stockholm 24 Apr 1830-Stockholm 23 Apr 1889)
+		100012052={ # 4b) Charlotte Eugenie Auguste Amalia Albertine (Stockholm 24 Apr 1830-Stockholm 23 Apr 1889)
 			name=Eugenie
 			female=yes
 			dynasty=10253
@@ -2983,7 +3028,7 @@
 			1830.04.24={birth=yes}
 			1889.04.23={death=yes}
 		}
-		100012089={# 5b) Carl Nikolaus August, Duke of Dalecarlia (Drottningholm 24 Aug 1831-Stockholm 4 Mar 1873); m.Altenburg 16 Apr 1864 Therese von Sachsen-Altenburg (Ansbach 21 Dec 1836-Stockholm 9 Nov 1914)
+		100012089={ # 5b) Carl Nikolaus August, Duke of Dalecarlia (Drottningholm 24 Aug 1831-Stockholm 4 Mar 1873); m.Altenburg 16 Apr 1864 Therese von Sachsen-Altenburg (Ansbach 21 Dec 1836-Stockholm 9 Nov 1914) $$
 			name=August
 			dynasty=10253
 			religion=lutheran culture=swedish

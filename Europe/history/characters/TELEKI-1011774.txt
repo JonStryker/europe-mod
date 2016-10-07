@@ -1,3 +1,12 @@
+100096529={ #            Györgyi                   Teleki                                   (1957-    )     0
+	name="Györgyi Teleki"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1957.04.25={birth=yes}
+}
+
+
 ##	EARLY
 100117150={ # Mihály Teleki de Szék, fl 1605-1615; m.Anna Garázda
 	name=Mihály
@@ -27,7 +36,17 @@
 			1662.01.01={add_spouse=100091157}	# Judit Weér de Köröstarcsa
 			1690.08.21={death=yes}  # Zernyest Háromszék Transylvania
 		}
-			100117398={ # C3. [2m.] Zsuzsanna; m.Mihály Vay de Vaja et Luskod (+1707)
+			100117302={ # C1. [2m.] Anna; 1m: Miklós Apaffy de Apanagyfalva; 2m: János Kemény de Magyargyeromonostor $$
+				name=Anna
+				female=yes
+				dynasty=1011774
+				religion=catholic culture=hungarian
+				father=100117384	# Mihály Teleki de Szék
+				mother=100091157	# Judit Weér de Köröstarcsa
+				1658.01.01={birth=yes}
+				1733.01.01={death=yes}  # EST.
+			}
+			100117398={ # C3. [2m.] Zsuzsanna; m.Mihály Vay de Vaja et Luskod (+1707) $$
 				name=Zsuzsanna
 				female=yes
 				dynasty=1011774
@@ -48,14 +67,14 @@
 				1746.01.01={death=yes}  # EST.
 			}
 			# I --> C6. [2m.] Mihály, Obergespan of Kolozs, *Sorostély 15.1.1671, +1720; m.Katalin Thoroczkay de Toroczkószentgyörgy (+18.2.1723); for their issue see HERE
-			100117418={ # C7. [2m.] László, Obergespan of Fejér, +1714; m.Anna Vay de Vaja et Luskod (fl 1716-19)
+			100117418={ # C7. [2m.] László, Obergespan of Fejér, +1714; m.Anna Vay de Vaja et Luskod (fl 1716-19) $$
 				name=László
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100117384	# Mihály Teleki de Szék
 				mother=100091157	# Judit Weér de Köröstarcsa
 				1665.01.01={birth=yes}  # EST.
-				1685.01.01={add_spouse=100097427}	# Anna Vay de Vaja et Luskod
+				1685.01.01={add_spouse=100118391}	# Anna Vay de Vaja
 				1714.01.01={death=yes}
 			}
 				100117422={ # D1. Zsuzsanna; m.Baron László Kemény de Magyargyerõmonostor
@@ -64,7 +83,7 @@
 					dynasty=1011774
 					religion=catholic culture=hungarian
 					father=100117418	# László Teleki de Szék
-					mother=100097427	# Anna Vay de Vaja et Luskod
+					mother=100118391	# Anna Vay de Vaja
 					1687.01.01={birth=yes}  # EST.
 					1750.01.01={death=yes}  # EST.
 				}
@@ -74,8 +93,8 @@
 				religion=catholic culture=hungarian
 				father=100117384	# Mihály Teleki de Szék
 				mother=100091157	# Judit Weér de Köröstarcsa
-				1677.01.01={birth=yes}  # EST.
-				1698.01.01={add_spouse=100098674}	# Borbála Kún de Osdola
+				1675.01.01={birth=yes}  # EST.
+				1698.01.01={add_spouse=100098674}	# Borbála Kuun de Osdola
 				1722.05.26={add_spouse=100116790}	# Katalin Bethlen de Bethlen
 				1732.10.31={death=yes}  # Drassó
 			}
@@ -85,7 +104,7 @@
 					dynasty=1011774
 					religion=catholic culture=hungarian
 					father=100117435	# József Teleki de Szék
-					mother=100098674	# Borbála Kún de Osdola
+					mother=100098674	# Borbála Kuun de Osdola
 					1699.01.01={birth=yes}  # EST.
 					1774.01.01={death=yes}  # EST.
 				}
@@ -133,7 +152,7 @@
 						1765.01.01={add_spouse=100098802}	# BSS Mária Wesselényi de Hadad
 						1792.01.01={death=yes}
 					}
-						100117486={ # F1. Mária, +Wien 23.4.1800; m.3.9.1788 Gf László Teleki de Szék (*Szirák 3.9.1764, +Pest 24.3.1821)
+						100117486={ # F1. Mária, +Wien 23.4.1800; m.3.9.1788 Gf László Teleki de Szék (*Szirák 3.9.1764, +Pest 24.3.1821) $$
 							name=Mária
 							female=yes
 							dynasty=1011774
@@ -143,7 +162,7 @@
 							1767.01.01={birth=yes}  # EST.
 							1800.04.23={death=yes}  # Wien
 						}
-						100117488={ # F2. Polexina; m.Gf János Kendeffy de Malomvíz
+						100117488={ # F2. Polexina; m.Gf János Kendeffy de Malomvíz $$
 							name=Polexina
 							female=yes
 							dynasty=1011774
@@ -153,7 +172,7 @@
 							1769.01.01={birth=yes}  # EST.
 							1844.01.01={death=yes}  # EST.
 						}
-						100117490={ # F3. Anna; m.Gf Maximilian von Degenfeld-Schonburg
+						100117490={ # F3. Anna; m.Gf Maximilian von Degenfeld-Schonburg $$
 							name=Anna
 							female=yes
 							dynasty=1011774
@@ -173,7 +192,7 @@
 					1705.01.01={birth=yes}  # EST.
 					1780.01.01={death=yes}  # EST.
 				}
-			100117493={ # C11. [2m.] Borbála; m.László Vay de Vaja et Luskod (fl 1703-25)
+			100117493={ # C11. [2m.] Borbála; m.László Vay de Vaja et Luskod (fl 1703-25) $$
 				name=Borbála
 				female=yes
 				dynasty=1011774
@@ -205,24 +224,24 @@
 	1696.01.01={add_spouse=100085593}	# Katalin Thoroczkay de Toroczkószentgyörgy
 	1720.01.01={death=yes}
 }
-	100115870={ # A1. János, *1697, +Vingárd 1772; m.Borbála Vay de Vaja
+	100115870={ # A1. János, *1697, +Vingárd 1772; m.Borbála Vay de Vaja $$
 		name=János
 		dynasty=1011774
 		religion=catholic culture=hungarian
 		father=100115864	# Mihály Teleki de Szék
 		mother=100085593	# Katalin Thoroczkay de Toroczkószentgyörgy
 		1697.01.01={birth=yes}
-		1722.01.01={add_spouse=100085655}	# Borbála Vay de Vaja
+		1722.01.01={add_spouse=100118393}	# Borbála Vay de Vaja
 		1772.01.01={death=yes}  # Vingárd
 	}
-		100115871={ # B1. Pál, Obergespan of Doboka, *1719, +Kolozsvár 18.10.1773; m.1740 Gfn Borbála Haller de Hallerkeö (*11.9.1719, +6.2.1770)
+		100115871={ # B1. Pál, Obergespan of Doboka, *1719, +Kolozsvár 18.10.1773; m.1740 Gfn Borbála Haller de Hallerkeö (*11.9.1719, +6.2.1770) $$
 			name=Pál
 			dynasty=1011774
 			religion=catholic culture=hungarian
 			father=100115870	# János Teleki de Szék
-			mother=100085655	# Borbála Vay de Vaja
+			mother=100118393	# Borbála Vay de Vaja
 			1719.01.01={birth=yes}
-			1740.01.01={add_spouse=100086029}	# GFN Borbála Haller de Hallerkeö
+			1740.01.01={add_spouse=100118262}	# Borbála Haller de Hallerkeö
 			1773.10.18={death=yes}  # Kolozsvár
 		}
 			100115981={ # C1. Ferenc, +1808; m.Bss Róza Thoroczkay de Toroczkószentgyörgy
@@ -230,7 +249,7 @@
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100115871	# Pál Teleki de Szék
-				mother=100086029	# GFN Borbála Haller de Hallerkeö
+				mother=100118262	# Borbála Haller de Hallerkeö
 				1742.01.01={birth=yes}  # EST.
 				1767.01.01={add_spouse=100086491}	# BSS Róza Thoroczkay de Toroczkószentgyörgy
 				1808.01.01={death=yes}
@@ -250,12 +269,12 @@
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100115871	# Pál Teleki de Szék
-				mother=100086029	# GFN Borbála Haller de Hallerkeö
+				mother=100118262	# Borbála Haller de Hallerkeö
 				1744.01.01={birth=yes}  # Paszmos
 				1769.01.01={add_spouse=100092106}	# Ágnes Dósa de Makfalva
 				1793.01.01={death=yes}
 			}
-				100115992={ # D4. Ferenc, *Paszmos 4.4.1785, +Paszmos 20.12.1831; m.Bratislava 22.4.1808 Gfn Karolina Teleki de Szék (*Bratislava 8.12.1780, +Nagysomkút 18.1.1867)
+				100115992={ # D4. Ferenc, *Paszmos 4.4.1785, +Paszmos 20.12.1831; m.Bratislava 22.4.1808 Gfn Karolina Teleki de Szék (*Bratislava 8.12.1780, +Nagysomkút 18.1.1867) $$
 					name=Ferenc
 					dynasty=1011774
 					religion=catholic culture=hungarian
@@ -275,15 +294,6 @@
 						1837.01.14={add_spouse=100092108}	# GFN Matild Haller de Hallerkeö
 						1875.02.14={death=yes}  # Nagysomkút
 					}
-						100116060={ # F1. GYULA Ferenc László, *3.12.1837
-							name=Gyula
-							dynasty=1011774
-							religion=catholic culture=hungarian
-							father=100116059	# Ede Teleki de Szék
-							mother=100092108	# GFN Matild Haller de Hallerkeö
-							1837.12.03={birth=yes}
-							1912.01.01={death=yes}  # EST.
-						}
 						100116087={ # F2. GIZELLA Anna Mária Franciska, *Kolozsvár 6.4.1839, +Nagysomkút 21.9.1909
 							name=Gizella
 							female=yes
@@ -294,7 +304,7 @@
 							1839.04.06={birth=yes}  # Kolozsvár
 							1909.09.21={death=yes}  # Nagysomkút
 						}
-						100116119={ # F3. Ede, *Paszmos 30.4.1841, +Budapest 31.5.1896; m.Trachenberg 20.6.1870 (div 1874) Gfn Hermina von Hatzfeld zu Trachenberg (*Trachenberg 13.5.1852, +Venezia 22.3.1906)
+						100116119={ # F3. Ede, *Paszmos 30.4.1841, +Budapest 31.5.1896; m.Trachenberg 20.6.1870 (div 1874) Gfn Hermina von Hatzfeld zu Trachenberg (*Trachenberg 13.5.1852, +Venezia 22.3.1906) $$
 							name=Ede
 							dynasty=1011774
 							religion=catholic culture=hungarian
@@ -305,7 +315,7 @@
 							1874.01.01={remove_spouse=100010595}
 							1896.05.31={death=yes}  # Budapest
 						}
-							100116134={ # G1. Elemér, *Trachenberg 8.7.1871, +Dés 3.9.1917; m.Beszterce 14.3.1897 Gfn Matild Teleki de Szék (*Paszmos 7.11.1872, +Alsóbalázsfalva 1.2.1919)
+							100116134={ # G1. Elemér, *Trachenberg 8.7.1871, +Dés 3.9.1917; m.Beszterce 14.3.1897 Gfn Matild Teleki de Szék (*Paszmos 7.11.1872, +Alsóbalázsfalva 1.2.1919) $$
 								name=Elemér
 								dynasty=1011774
 								religion=catholic culture=hungarian
@@ -314,16 +324,6 @@
 								1871.07.08={birth=yes}  # Trachenberg
 								1897.03.14={add_spouse=100116372}	# Matild Teleki de Szék
 								1917.09.03={death=yes}  # Dés
-							}
-							100116203={ # G2. Hermina
-								name=Hermina
-								female=yes
-								dynasty=1011774
-								religion=catholic culture=hungarian
-								father=100116119	# Ede Teleki de Szék
-								mother=100010595	# Hermine von Hatzfeldt
-								1873.01.01={birth=yes}  # EST.
-								1948.01.01={death=yes}  # EST.
 							}
 						100116205={ # F4. Géza, *Dés 28.9.1843, +Budapest 27.9.1913; m.Pest 28.8.1871 Irén Muratty (*Pest 15.10.1852, +Budapest 28.10.1941)
 							name=Géza
@@ -362,7 +362,7 @@
 									father=100116235	# Pál Teleki de Szék
 									mother=100092289	# GFN Johanna von Bissingen u.Nippenburg
 									1911.11.27={birth=yes}  # Budapest
-									1935.07.09={add_spouse=100092623}	# Jolán Darányi Pusztaszentgyörgy et Tetétlen
+									1935.07.09={add_spouse=100092623}	# Jolán Darányi de Pusztaszentgyörgy et Tetétlen
 									1943.01.01={remove_spouse=100092623}
 									1943.02.27={add_spouse=100093370}	# GFN Hanna Mikes de Zabola
 									1954.01.01={remove_spouse=100093370}
@@ -374,7 +374,7 @@
 										dynasty=1011774
 										religion=catholic culture=hungarian
 										father=100116239	# Géza Teleki de Szék
-										mother=100092623	# Jolán Darányi Pusztaszentgyörgy et Tetétlen
+										mother=100092623	# Jolán Darányi de Pusztaszentgyörgy et Tetétlen
 										1937.04.30={birth=yes}  # Budapest
 										1960.10.15={add_spouse=100093373}	# Laurilla Elisabeth Howie
 										2014.01.01={death=yes}  # EST.
@@ -403,7 +403,7 @@
 										dynasty=1011774
 										religion=catholic culture=hungarian
 										father=100116239	# Géza Teleki de Szék
-										mother=100092623	# Jolán Darányi Pusztaszentgyörgy et Tetétlen
+										mother=100092623	# Jolán Darányi de Pusztaszentgyörgy et Tetétlen
 										1940.02.18={birth=yes}  # Budapest
 									}
 									100116315={ # I3. [1m.] FRUZSINA Paula Jolánta, *Budapest 28.5.1942; m.Sydney 19.8.1964 Nigel Norman Mainwaring (*Sydney 4.10.1935)
@@ -412,7 +412,7 @@
 										dynasty=1011774
 										religion=catholic culture=hungarian
 										father=100116239	# Géza Teleki de Szék
-										mother=100092623	# Jolán Darányi Pusztaszentgyörgy et Tetétlen
+										mother=100092623	# Jolán Darányi de Pusztaszentgyörgy et Tetétlen
 										1942.05.28={birth=yes}  # Budapest
 									}
 									100116335={ # I4. [2m.] GÉZA Pál, *Kolozsvár 7.12.1943; m.Kauai, Hawaii 27.2.1981 Heather Lynn McGiffin (*Pittsburgh, Pennsylvania, USA 28.12.1953)
@@ -442,23 +442,23 @@
 							1868.05.13={add_spouse=100093382}	# Anna Cserényi de Alsóbalázsfalva
 							1873.08.08={death=yes}  # Teke
 						}
-							100116351={ # G1. Ferenc, *Paszmos 9.9.1870, +Kolozsvár 23.6.1925; m.Kolozsvár 9.1.1896 Bss Anna Bánffy de Losoncz (*Kolozsvár 10.6.1877, +Kolozsborsa 7.10.1907)
+							100116351={ # G1. Ferenc, *Paszmos 9.9.1870, +Kolozsvár 23.6.1925; m.Kolozsvár 9.1.1896 Bss Anna Bánffy de Losoncz (*Kolozsvár 10.6.1877, +Kolozsborsa 7.10.1907) $$
 								name=Ferenc
 								dynasty=1011774
 								religion=catholic culture=hungarian
 								father=100116348	# Andor Teleki de Szék
 								mother=100093382	# Anna Cserényi de Alsóbalázsfalva
 								1870.09.09={birth=yes}  # Paszmos
-								1896.01.09={add_spouse=100095428}	# BSS Anna Bánffy de Losoncz
+								1896.01.09={add_spouse=100117981}	# Anna Bánffy de Losoncz
 								1925.06.23={death=yes}  # Kolozsvár
 							}
-								100116362={ # H1. Erzsébet, *Kolozsvár 18.11.1896, +Munich 22.2.1981; m.Kolozsvár 29.4.1920 Gf Miksa von Degenfeld-Schonburg (*Erdõszáda 24.2.1884, +Munich 16.5.1983)
+								100116362={ # H1. Erzsébet, *Kolozsvár 18.11.1896, +Munich 22.2.1981; m.Kolozsvár 29.4.1920 Gf Miksa von Degenfeld-Schonburg (*Erdõszáda 24.2.1884, +Munich 16.5.1983) $$
 									name=Erzsébet
 									female=yes
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116351	# Ferenc Teleki de Szék
-									mother=100095428	# BSS Anna Bánffy de Losoncz
+									mother=100117981	# Anna Bánffy de Losoncz
 									1896.11.18={birth=yes}  # Kolozsvár
 									1981.02.22={death=yes}  # Munich
 								}
@@ -468,7 +468,7 @@
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116351	# Ferenc Teleki de Szék
-									mother=100095428	# BSS Anna Bánffy de Losoncz
+									mother=100117981	# Anna Bánffy de Losoncz
 									1901.03.13={birth=yes}  # Kolozsvár
 									1981.08.29={death=yes}  # Budapest
 								}
@@ -477,7 +477,7 @@
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116351	# Ferenc Teleki de Szék
-									mother=100095428	# BSS Anna Bánffy de Losoncz
+									mother=100117981	# Anna Bánffy de Losoncz
 									1902.09.11={birth=yes}  # Kolozsvár
 									1978.01.22={death=yes}  # Buenos Aires
 								}
@@ -486,11 +486,11 @@
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116351	# Ferenc Teleki de Szék
-									mother=100095428	# BSS Anna Bánffy de Losoncz
+									mother=100117981	# Anna Bánffy de Losoncz
 									1902.09.11={birth=yes}  # Kolozsvár
 									1980.11.27={death=yes}
 								}
-							100116372={ # G2. Matild, *Paszmos 7.11.1872, +Alsóbalázsfalva 1.2.1919; m.Beszterce 14.3.1897 Gf Elemér Teleki de Szék (*Trachenberg 8.7.1871, +Dés 3.9.1917)
+							100116372={ # G2. Matild, *Paszmos 7.11.1872, +Alsóbalázsfalva 1.2.1919; m.Beszterce 14.3.1897 Gf Elemér Teleki de Szék (*Trachenberg 8.7.1871, +Dés 3.9.1917) $$
 								name=Matild
 								female=yes
 								dynasty=1011774
@@ -539,7 +539,7 @@
 									1922.05.01={birth=yes}  # Kápolnás
 									1980.08.25={death=yes}  # Algyógy
 								}
-							100116390={ # G2. EDUARDINE Sarolta Irén Matild Róza, *Nagysomkút 13.5.1883, +Csombárd 30.6.1953; m.Nagysomkút 18.6.1905 Gf Domokos Teleki de Szék (*Kolozsvár 11.1.1880, +Csombárd 3.7.1955)
+							100116390={ # G2. EDUARDINE Sarolta Irén Matild Róza, *Nagysomkút 13.5.1883, +Csombárd 30.6.1953; m.Nagysomkút 18.6.1905 Gf Domokos Teleki de Szék (*Kolozsvár 11.1.1880, +Csombárd 3.7.1955) $$
 								name=Eduardine
 								female=yes
 								dynasty=1011774
@@ -579,7 +579,7 @@
 									1911.08.25={birth=yes}  # Szob
 									1983.05.04={death=yes}  # Szob
 								}
-								100116399={ # H3. MÁRIA Johanna Sarolta Paulina Lujza, *Budapest 5.11.1912, + Bregenz, Vorarlberg 3.6.1947; m.Budapest 23.5.1933 Gf Lajos Wenckheim (*Ó-Kígyós 14.5.1900, +Bregenz 8.7.1949)
+								100116399={ # H3. MÁRIA Johanna Sarolta Paulina Lujza, *Budapest 5.11.1912, + Bregenz, Vorarlberg 3.6.1947; m.Budapest 23.5.1933 Gf Lajos Wenckheim (*Ó-Kígyós 14.5.1900, +Bregenz 8.7.1949) $$
 									name=Mária
 									female=yes
 									dynasty=1011774
@@ -623,9 +623,9 @@
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100115871	# Pál Teleki de Szék
-				mother=100086029	# GFN Borbála Haller de Hallerkeö
+				mother=100118262	# Borbála Haller de Hallerkeö
 				1744.01.01={birth=yes}  # EST.
-				1769.01.01={add_spouse=100091662}	# GFN Klára Kornis de Göncz-Ruszka
+				1769.01.01={add_spouse=100091662}	# GFN Klára Kornis de Gönczruszka
 				1819.01.01={death=yes}  # EST.
 			}
 			100116418={ # C4. Anna; 1m: Baron Gergely Thoroczkay de Toróczkószentgyörgy; 2m: Baron Wilhelm Ozmann
@@ -634,7 +634,7 @@
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100115871	# Pál Teleki de Szék
-				mother=100086029	# GFN Borbála Haller de Hallerkeö
+				mother=100118262	# Borbála Haller de Hallerkeö
 				1749.01.01={birth=yes}  # EST.
 				1824.01.01={death=yes}  # EST.
 			}
@@ -644,18 +644,18 @@
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100115871	# Pál Teleki de Szék
-				mother=100086029	# GFN Borbála Haller de Hallerkeö
+				mother=100118262	# Borbála Haller de Hallerkeö
 				1749.01.01={birth=yes}
 				1815.04.07={death=yes}  # Kolozsvár
 			}
-		100116511={ # B2. János; 1m: Anna Vay de Vaja
+		100116511={ # B2. János; 1m: Anna Vay de Vaja $$
 			name=János
 			dynasty=1011774
 			religion=catholic culture=hungarian
 			father=100115870	# János Teleki de Szék
-			mother=100085655	# Borbála Vay de Vaja
-			1721.01.01={birth=yes}  # EST.
-			1754.01.01={add_spouse=100098749}	# Anna Vay de Vaja
+			mother=100118393	# Borbála Vay de Vaja
+			1720.01.01={birth=yes}  # EST.
+			1754.01.01={add_spouse=100118387}	# Anna Vay de Vaja
 			1796.01.01={death=yes}  # EST.
 		}
 			100116514={ # C3. József, *21.3.1755, +Sármás 1809; m.Gfn Mária Mikes de Zabola (*1760, +27.1.1846)
@@ -663,7 +663,7 @@
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100116511	# János Teleki de Szék
-				mother=100098749	# Anna Vay de Vaja
+				mother=100118387	# Anna Vay de Vaja
 				1755.03.21={birth=yes}
 				1780.01.01={add_spouse=100098751}	# GFN Mária Mikes de Zabola
 				1809.01.01={death=yes}  # Sármás
@@ -728,7 +728,7 @@
 								1921.06.16={add_spouse=100098759}	# Ferdinanda Liszt
 								1955.05.07={death=yes}  # Budapest
 							}
-							100116548={ # G3. Irma, *Kolozsvár 29.9.1898, +Budapest 10.11.1983; m.Kolozsvár 24.4.1926 Baron Dezsõ Bánffy de Losoncz (*Kolozsvár 18.2.1900, +Montana, Valais 18.1.1939)
+							100116548={ # G3. Irma, *Kolozsvár 29.9.1898, +Budapest 10.11.1983; m.Kolozsvár 24.4.1926 Baron Dezsõ Bánffy de Losoncz (*Kolozsvár 18.2.1900, +Montana, Valais 18.1.1939) $$
 								name=Irma
 								female=yes
 								dynasty=1011774
@@ -832,7 +832,10 @@
 									1920.03.13={birth=yes}  # Budapest
 									1996.01.01={death=yes}  # EST.
 								}
-							100116788={ # G4. Margit, *Koltó 3.6.1902, +Budapest 8.1.1962; 1m: Koltó 20.8.1922 (div 1924) Baron Dezsõ Bánffy de Losoncz (*Kolozsvár 18.2.1900, +Montana 18.1.1939); 2m: Koltó 30.8.1924 (div 1929) Miklós Torma de Csicsókeresztúr (*Déva 5.11.1902, +Marosvásárhely 24.12.1954); 3m: Batavia 14.1.1936 Pál Temesváry de Zákány (*Szeged 27.11.1892, +Balatonfüred 13.9.1970)
+							100116788={ # G4. Margit, *Koltó 3.6.1902, +Budapest 8.1.1962; 
+										# 1m: Koltó   20.8.1922 (div 1924)	Baron Dezsõ Bánffy de Losoncz 		(*Kolozsvár 18.2.1900, +Montana 18.1.1939); 
+										# 2m: Koltó   30.8.1924 (div 1929)	Miklós Torma de Csicsókeresztúr 	(*Déva 5.11.1902, +Marosvásárhely 24.12.1954); 
+										# 3m: Batavia 14.1.1936          	Pál Temesváry de Zákány				(*Szeged 27.11.1892, +Balatonfüred 13.9.1970)
 								name=Margit
 								female=yes
 								dynasty=1011774
@@ -916,8 +919,8 @@
 										mother=100098775	# Hajnal Hitter
 										1997.01.16={birth=yes}  # Budapest
 									}
-					100117137={ # E2. Róza; m.Gf Farkas Bethlen de Bethlen
-						name=Róza
+					100117137={ # E2. Róza; m.Gf Farkas Bethlen de Bethlen $$
+						name=Rózalia
 						female=yes
 						dynasty=1011774
 						religion=catholic culture=hungarian
@@ -942,7 +945,7 @@
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100116511	# János Teleki de Szék
-				mother=100098749	# Anna Vay de Vaja
+				mother=100118387	# Anna Vay de Vaja
 				1747.01.01={birth=yes}  # EST.
 				1832.01.01={death=yes}  # EST.
 			}
@@ -951,8 +954,8 @@
 			dynasty=1011774
 			religion=catholic culture=hungarian
 			father=100115870	# János Teleki de Szék
-			mother=100085655	# Borbála Vay de Vaja
-			1723.01.01={birth=yes}  # EST.
+			mother=100118393	# Borbála Vay de Vaja
+			1721.01.01={birth=yes}  # EST.
 			1748.01.01={add_spouse=100098782}	# Borbála Halász
 			1770.01.01={death=yes}
 		}
@@ -962,18 +965,18 @@
 			dynasty=1011774
 			religion=catholic culture=hungarian
 			father=100115870	# János Teleki de Szék
-			mother=100085655	# Borbála Vay de Vaja
-			1725.01.01={birth=yes}  # EST.
+			mother=100118393	# Borbála Vay de Vaja
+			1722.01.01={birth=yes}  # EST.
 			1791.01.01={death=yes}
 		}
-		100117294={ # B5. Sára; m.Gf Pál Bethlen de Bethlen
+		100117294={ # B5. Sára; m.Gf Pál Bethlen de Bethlen $$
 			name=Sára
 			female=yes
 			dynasty=1011774
 			religion=catholic culture=hungarian
 			father=100115870	# János Teleki de Szék
-			mother=100085655	# Borbála Vay de Vaja
-			1727.01.01={birth=yes}  # EST.
+			mother=100118393	# Borbála Vay de Vaja
+			1723.01.01={birth=yes}  # EST.
 			1802.01.01={death=yes}  # EST.
 		}
 		100117295={ # B6. Katalin; m.Gf János Lázár de Szárhegy (+1772)
@@ -982,17 +985,17 @@
 			dynasty=1011774
 			religion=catholic culture=hungarian
 			father=100115870	# János Teleki de Szék
-			mother=100085655	# Borbála Vay de Vaja
+			mother=100118393	# Borbála Vay de Vaja
 			1729.01.01={birth=yes}  # EST.
 			1758.01.01={death=yes}  # EST.
 		}
-		100117296={ # B7. Klára; m.before 1741 Gf Dávid Bethlen de Bethlen (+1779)
+		100117296={ # B7. Klára; m.before 1741 Gf Dávid Bethlen de Bethlen (+1779) $$
 			name=Klára
 			female=yes
 			dynasty=1011774
 			religion=catholic culture=hungarian
 			father=100115870	# János Teleki de Szék
-			mother=100085655	# Borbála Vay de Vaja
+			mother=100118393	# Borbála Vay de Vaja
 			1720.01.01={birth=yes}  # EST.
 			1770.10.01={death=yes}
 		}
@@ -1006,7 +1009,7 @@
 		1703.01.01={birth=yes}  # EST.
 		1778.01.01={death=yes}  # EST.
 	}
-	100117301={ # A4. Mihály, +10.9.1745; m.Gfn Klára Bethlen de Bethlen (+1755)
+	100117301={ # A4. Mihály, +10.9.1745; m.Gfn Klára Bethlen de Bethlen (+1755) $$
 		name=Mihály
 		dynasty=1011774
 		religion=catholic culture=hungarian
@@ -1088,7 +1091,7 @@
 					1806.07.03={birth=yes}  # Kõvárhosszúfalu
 					1862.10.23={death=yes}  # Paris
 				}
-				100117372={ # D3. Emma, *Kõvárhosszúfalu 11.9.1809, +Pálfalva 30.4.1893; m.Paris 14.5.1840 August De Gerando (*Lyon 4.4.1819, +Dresden 8.12.1849)
+				100117372={ # D3. Emma, *Kõvárhosszúfalu 11.9.1809, +Pálfalva 30.4.1893; m.Paris 14.5.1840 August De Gerando (*Lyon 4.4.1819, +Dresden 8.12.1849) $$
 					name=Emma
 					female=yes
 					dynasty=1011774
@@ -1110,7 +1113,7 @@
 					1865.01.15={add_spouse=100098796}	# Mária Tatár
 					1872.06.22={death=yes}  # Kendilóna
 				}
-					100117341={ # E1. Irén, *Kendilóna 27.11.1857, +Szatmárnémeti 17.10.1937; m.Kendilóna 17.12.1887 Attila De Gerando (*Pest 10.12.1847, +Pálfalva 13.10.1897)
+					100117341={ # E1. Irén, *Kendilóna 27.11.1857, +Szatmárnémeti 17.10.1937; m.Kendilóna 17.12.1887 Attila De Gerando (*Pest 10.12.1847, +Pálfalva 13.10.1897) $$
 						name=Irén
 						female=yes
 						dynasty=1011774
@@ -1120,7 +1123,7 @@
 						1857.11.27={birth=yes}  # Kendilóna
 						1937.10.17={death=yes}  # Szatmárnémeti
 					}
-					100117343={ # E2. Izabella, *Kendilóna 28.3.1861, +Rákospalota 16.2.1949; m.Kendilóna 10.10.1887 (div 1921) Gf Arvéd Teleki de Szék (*Pest 19.6.1865, +Nagyszeben 30.8.1942)
+					100117343={ # E2. Izabella, *Kendilóna 28.3.1861, +Rákospalota 16.2.1949; m.Kendilóna 10.10.1887 (div 1921) Gf Arvéd Teleki de Szék (*Pest 19.6.1865, +Nagyszeben 30.8.1942) $$
 						name=Izabella
 						female=yes
 						dynasty=1011774
@@ -1150,7 +1153,7 @@
 						1891.11.28={add_spouse=100098800}	# BSS Ilona Wesselényi de Hadad
 						1936.06.23={death=yes}  # Kolozsvár
 					}
-						100117349={ # F1. Éva, *Kolozsvár 30.8.1893, +Budapest 1.7.1984; m.Pusztanagyszenttamás 9.10.1920 Gf Dénes Almássy de Zsadány et Törökszentmiklós (*Kolozsvár 29.11.1892, +Budapest 17.12.1972)
+						100117349={ # F1. Éva, *Kolozsvár 30.8.1893, +Budapest 1.7.1984; m.Pusztanagyszenttamás 9.10.1920 Gf Dénes Almássy de Zsadány et Törökszentmiklós (*Kolozsvár 29.11.1892, +Budapest 17.12.1972) $$
 							name=Éva
 							female=yes
 							dynasty=1011774
@@ -1240,7 +1243,7 @@
 				father=100115856	# Károly Teleki de Szék
 				mother=100083376	# GFN Júlia Haller de Hallerkeö
 				1770.01.01={birth=yes}  # EST.
-				1795.01.01={add_spouse=100083939}	# Klára Macskási
+				1795.01.01={add_spouse=100083939}	# Klára Macskássy
 				1845.01.01={death=yes}
 			}
 			100115860={ # C2. Anna, *1772, +1836; m.1795 Gf Ignác Kornis de Gönczruszka (*1760 +1819)
@@ -1304,7 +1307,7 @@
 					1826.06.16={add_spouse=100089841}	# BSS Lujza Jeszenák de Királyfia
 					1857.02.19={death=yes}  # Pest
 				}
-					100115874={ # E1. Klementina, *9.3.1827, +Kolozsvár 18.4.1894; m.14.11.1847 Gf Domokos Teleki de Szék (*Marosvásárhely 1.4.1810, +Kolozsvár 1.5.1876)
+					100115874={ # E1. Klementina, *9.3.1827, +Kolozsvár 18.4.1894; m.14.11.1847 Gf Domokos Teleki de Szék (*Marosvásárhely 1.4.1810, +Kolozsvár 1.5.1876) $$
 						name=Klementina
 						female=yes
 						dynasty=1011774
@@ -1314,7 +1317,7 @@
 						1827.03.09={birth=yes}
 						1894.04.18={death=yes}  # Kolozsvár
 					}
-					100115876={ # E2. Sándor, *Budapest 11.12.1829, +Gyömrõ 3.8.1875; m.Gernyeszeg 19.9.1857 Gfn Jozefina Teleki de Szék (*20.10.1838 +21.1.1915)
+					100115876={ # E2. Sándor, *Budapest 11.12.1829, +Gyömrõ 3.8.1875; m.Gernyeszeg 19.9.1857 Gfn Jozefina Teleki de Szék (*20.10.1838 +21.1.1915) $$
 						name=Sándor
 						dynasty=1011774
 						religion=catholic culture=hungarian
@@ -1331,16 +1334,16 @@
 							father=100115876	# Sándor Teleki de Szék
 							mother=100116009	# Jozefina Teleki de Szék
 							1858.09.08={birth=yes}
-							1884.01.16={add_spouse=100092227}	# BSS Ilona Sennyey de Kis-Sennye
+							1884.01.16={add_spouse=100092227}	# BSS Ilona Sennyey de Kissennye
 							1921.04.15={death=yes}  # Révbér
 						}
-							100115880={ # G1. ILONA Jozefina Mária, *Budapest 23.10.1884, +Bánréve 1.10.1967; m.Budapest 29.4.1905 Gf Kázmér Berchtold von Ungerschütz (*14.4.1877 +14.10.1946)
+							100115880={ # G1. ILONA Jozefina Mária, *Budapest 23.10.1884, +Bánréve 1.10.1967; m.Budapest 29.4.1905 Gf Kázmér Berchtold von Ungerschütz (*14.4.1877 +14.10.1946) $$
 								name=Ilona
 								female=yes
 								dynasty=1011774
 								religion=catholic culture=hungarian
 								father=100115878	# Gyula Teleki de Szék
-								mother=100092227	# BSS Ilona Sennyey de Kis-Sennye
+								mother=100092227	# BSS Ilona Sennyey de Kissennye
 								1884.10.23={birth=yes}  # Budapest
 								1967.10.01={death=yes}  # Bánréve
 							}
@@ -1349,10 +1352,10 @@
 								dynasty=1011774
 								religion=catholic culture=hungarian
 								father=100115878	# Gyula Teleki de Szék
-								mother=100092227	# BSS Ilona Sennyey de Kis-Sennye
+								mother=100092227	# BSS Ilona Sennyey de Kissennye
 								1885.10.30={birth=yes}  # Budapest
 								1914.12.03={add_spouse=100192231}	# Paula Edelsheim-Gyulai de Marosnémeth et Nádaska
-								1949.12.13={add_spouse=100092231}	# BSS Luisa Pach zu Hansenheim und Hohen-Eppan
+								1949.12.13={add_spouse=100092231}	# BSS Luisa von Pach zu Hansenheim u.Hohen-Eppan
 								1950.12.24={death=yes}  # Landeck Tirol
 							}
 								100115884={ # H1. [1m.] Péter, *Budapest 14.9.1917, +Galambok 14.10.1938
@@ -1389,7 +1392,7 @@
 								dynasty=1011774
 								religion=catholic culture=hungarian
 								father=100115878	# Gyula Teleki de Szék
-								mother=100092227	# BSS Ilona Sennyey de Kis-Sennye
+								mother=100092227	# BSS Ilona Sennyey de Kissennye
 								1897.01.20={birth=yes}  # Budapest
 								1932.09.29={add_spouse=100092951}	# Maria Ludovica Bertolini
 								1972.10.28={add_spouse=100093005}	# Mary Katherine Hyde
@@ -1414,7 +1417,7 @@
 							1889.09.16={add_spouse=100093418}	# Júlia Szászy de Apaj
 							1945.08.27={death=yes}  # Budapest
 						}
-						100115898={ # F3. Margit, *Gyömrõ 2.12.1860, +Budapest 26.1.1922; m.Gyömrõ 6.9.1880 Gf Károly Khuen-Héderváry de Hédervár, Ban of Croatia-Dalmatia and Slavonia, (*Freywaldau 23.5.1849, +Budapest 16.2.1918)
+						100115898={ # F3. Margit, *Gyömrõ 2.12.1860, +Budapest 26.1.1922; m.Gyömrõ 6.9.1880 Gf Károly Khuen-Héderváry de Hédervár, Ban of Croatia-Dalmatia and Slavonia, (*Freywaldau 23.5.1849, +Budapest 16.2.1918) $$
 							name=Margit
 							female=yes
 							dynasty=1011774
@@ -1445,7 +1448,7 @@
 								1920.11.10={add_spouse=100093421}	# GFN Paulina Szirmay de Szirmabesenyõ, Csernek et Tarkeõ
 								1991.08.20={death=yes}  # London
 							}
-								100115904={ # H1. SAROLTA Erzsébet, *Budapest 29.3.1923; m.Brunnsee 2.6.1946 Conte Adinolfo Lucchesi Palli (*Brunnsee 18.6.1911)
+								100115904={ # H1. SAROLTA Erzsébet, *Budapest 29.3.1923; m.Brunnsee 2.6.1946 Conte Adinolfo Lucchesi Palli (*Brunnsee 18.6.1911) $$
 									name=Sarolta
 									female=yes
 									dynasty=1011774
@@ -1530,7 +1533,7 @@
 							1866.01.03={birth=yes}  # Gyömrõ
 							1925.12.16={death=yes}  # Budapest
 						}
-						100115921={ # F6. Katalin, *Gyömrõ 30.10.1869, +Balatonszombathely 9.12.1948; m.Gyömrõ 31.1.1888 Gf László Esterházy de Galántha (*22.6.1857 +3.10.1942)
+						100115921={ # F6. Katalin, *Gyömrõ 30.10.1869, +Balatonszombathely 9.12.1948; m.Gyömrõ 31.1.1888 Gf László Esterházy de Galántha (*22.6.1857 +3.10.1942) $$
 							name=Katalin
 							female=yes
 							dynasty=1011774
@@ -1540,7 +1543,7 @@
 							1869.10.30={birth=yes}  # Gyömrõ
 							1948.12.09={death=yes}  # Balatonszombathely
 						}
-						100115923={ # F7. Tibor, *Gyömrõ 18.5.1871, +Gyömrõ 26.9.1942; m.Budapest 17.7.1895 Gfn Alice Széchényi de Sárvár-felsõvidék (*Nagycenk 2.9.1871, +Pomáz 20.3.1945)
+						100115923={ # F7. Tibor, *Gyömrõ 18.5.1871, +Gyömrõ 26.9.1942; m.Budapest 17.7.1895 Gfn Alice Széchényi de Sárvár-felsõvidék (*Nagycenk 2.9.1871, +Pomáz 20.3.1945) $$
 							name=Tibor
 							dynasty=1011774
 							religion=catholic culture=hungarian
@@ -1550,7 +1553,7 @@
 							1895.07.17={add_spouse=100116756}	# Alice Széchenyi de Sárvár-Felsõvidek
 							1942.09.26={death=yes}  # Gyömrõ
 						}
-							100115925={ # G1. Béla, Obergespan of Zala, *Gyömrõ 2.10.1896, +Asunción del Paraguay 12.9.1969; m.Perbenyik 29.8.1921 Gfn Mária Mailáth de Székhely (*3.9.1897 +5.5.1963)
+							100115925={ # G1. Béla, Obergespan of Zala, *Gyömrõ 2.10.1896, +Asunción del Paraguay 12.9.1969; m.Perbenyik 29.8.1921 Gfn Mária Mailáth de Székhely (*3.9.1897 +5.5.1963) $$
 								name=Béla
 								dynasty=1011774
 								religion=catholic culture=hungarian
@@ -1720,7 +1723,7 @@
 										mother=100097292	# Natalia Vera Charykov
 										1974.06.01={birth=yes}
 									}
-							100115965={ # G3. JOHANNA Ferdinanda Crescencia Mária Terézia, *Gyömrõ 13.5.1901, +Budapest 24.2.1988; 1m: Gyömrõ 14.11.1924 Gf Viktor Hoyos-Wenckheim (*Pusztafás 9.10.1900, +Zürich 17.5.1925); 2m: Budapest 4.6.1927 Gf Béla Hoyos, Frhr zu Sprinzenstein (*Németlád 2.7.1901, +Budapest 23.8.1978)
+							100115965={ # G3. JOHANNA Ferdinanda Crescencia Mária Terézia, *Gyömrõ 13.5.1901, +Budapest 24.2.1988; 1m: Gyömrõ 14.11.1924 Gf Viktor Hoyos-Wenckheim (*Pusztafás 9.10.1900, +Zürich 17.5.1925); 2m: Budapest 4.6.1927 Gf Béla Hoyos, Frhr zu Sprinzenstein (*Németlád 2.7.1901, +Budapest 23.8.1978) $$
 								name=Johanna
 								female=yes
 								dynasty=1011774
@@ -1803,7 +1806,7 @@
 						1835.01.01={birth=yes}
 						1910.01.01={death=yes}
 					}
-				100115990={ # D7. [2m.] Auguszta, *Budapest 7.8.1813, +Szirál 16.7.1876; 1m: Budapest 31.10.1840 Gf Otto von Degenfeld-Schonburg (*21.7.1801 +14.2.1849); 2m: Pál Bozó
+				100115990={ # D7. [2m.] Auguszta, *Budapest 7.8.1813, +Szirál 16.7.1876; 1m: Budapest 31.10.1840 Gf Otto von Degenfeld-Schonburg (*21.7.1801 +14.2.1849); 2m: Pál Bozó $$
 					name=Auguszta
 					female=yes
 					dynasty=1011774
@@ -1823,7 +1826,7 @@
 				1777.01.01={birth=yes}  # EST.
 				1852.01.01={death=yes}
 			}
-			100115996={ # C4. József, *Szirák 25.12.1777, +Kolozsvár 7.4.1817; m.4.12.1801 Gfn Zsófia Teleki de Szék (*4.12.1784, +Gernyeszeg 10.8.1844)
+			100115996={ # C4. József, *Szirák 25.12.1777, +Kolozsvár 7.4.1817; m.4.12.1801 Gfn Zsófia Teleki de Szék (*4.12.1784, +Gernyeszeg 10.8.1844) $$
 				name=József
 				dynasty=1011774
 				religion=catholic culture=hungarian
@@ -1843,7 +1846,7 @@
 					1805.09.29={birth=yes}
 					1863.02.16={death=yes}  # Geszt
 				}
-				100116001={ # D5. Domokos, *Marosvásárhely 1.4.1810, +Kolozsvár 1.5.1876; 1m: Kolozsvár 5.7.1835 Bss Jozefa Bánffy de Losoncz (*Déva 31.10.1810, +Wien 20.10.1841); 2m: 14.11.1847 Gfn Klementina Teleki de Szék (*9.3.1827, +Kolozsvár 18.4.1894)
+				100116001={ # D5. Domokos, *Marosvásárhely 1.4.1810, +Kolozsvár 1.5.1876; 1m: Kolozsvár 5.7.1835 Bss Jozefa Bánffy de Losoncz (*Déva 31.10.1810, +Wien 20.10.1841); 2m: 14.11.1847 Gfn Klementina Teleki de Szék (*9.3.1827, +Kolozsvár 18.4.1894) $$
 					name=Domokos
 					dynasty=1011774
 					religion=catholic culture=hungarian
@@ -1854,7 +1857,7 @@
 					1847.11.14={add_spouse=100115874}	# Klementina Teleki de Szék
 					1876.05.01={death=yes}  # Kolozsvár
 				}
-					100116007={ # E1. [1m.] Zsófia, *Gernyeszeg 20.7.1836, +Bad Gleichenberg 12.7.1898; m.Kolozsvár 27.9.1854 Baron Béla Vay de Vaja (*29.9.1829 +17.8.1910)
+					100116007={ # E1. [1m.] Zsófia, *Gernyeszeg 20.7.1836, +Bad Gleichenberg 12.7.1898; m.Kolozsvár 27.9.1854 Baron Béla Vay de Vaja (*29.9.1829 +17.8.1910) $$
 						name=Zsófia
 						female=yes
 						dynasty=1011774
@@ -1864,7 +1867,7 @@
 						1836.07.20={birth=yes}  # Gernyeszeg
 						1898.07.12={death=yes}  # Bad Gleichenberg
 					}
-					100116009={ # E2. [1m.] Jozefina, *Kolozsvár 20.10.1838, +Gyömrõ 21.1.1915; m.Gernyeszeg 19.9.1857 Gf Sándor Teleki de Szék (*11.12.1829 +3.8.1875)
+					100116009={ # E2. [1m.] Jozefina, *Kolozsvár 20.10.1838, +Gyömrõ 21.1.1915; m.Gernyeszeg 19.9.1857 Gf Sándor Teleki de Szék (*11.12.1829 +3.8.1875) $$
 						name=Jozefina
 						female=yes
 						dynasty=1011774
@@ -1874,7 +1877,7 @@
 						1838.10.20={birth=yes}  # Kolozsvár
 						1915.01.21={death=yes}  # Gyömrõ
 					}
-					100116011={ # E3. [2m.] Ilona, *Gyömrõ 26.7.1849, +Kolozsvár 3.12.1914; m.Kolozsvár 5.1.1870 Gf István Bethlen de Bethlen (*8.3.1839 +28.10.1881)
+					100116011={ # E3. [2m.] Ilona, *Gyömrõ 26.7.1849, +Kolozsvár 3.12.1914; m.Kolozsvár 5.1.1870 Gf István Bethlen de Bethlen (*8.3.1839 +28.10.1881) $$
 						name=Ilona
 						female=yes
 						dynasty=1011774
@@ -1884,7 +1887,7 @@
 						1849.07.26={birth=yes}  # Gyömrõ
 						1914.12.03={death=yes}  # Kolozsvár
 					}
-					100116013={ # E4. [2m.] Géza, *Gyömrõ 4.9.1850, +Kolozsvár 14.2.1882; m.Bethlen 17.1.1878/Kolozsvár 21.1.1878 Gfn Margit Bethlen de Bethlen (*18.1.1858 +28.10.1929)
+					100116013={ # E4. [2m.] Géza, *Gyömrõ 4.9.1850, +Kolozsvár 14.2.1882; m.Bethlen 17.1.1878/Kolozsvár 21.1.1878 Gfn Margit Bethlen de Bethlen (*18.1.1858 +28.10.1929) $$
 						name=Géza
 						dynasty=1011774
 						religion=catholic culture=hungarian
@@ -1894,7 +1897,7 @@
 						1878.01.21={add_spouse=100117079}	# Margit Bethlen de Bethlen
 						1882.02.14={death=yes}  # Kolozsvár
 					}
-						100116016={ # F1. Domokos, *Kolozsvár 11.1.1880, +Csombárd 3.7.1955; m.Nagysomkút 18.6.1905 Gfn Eduardine Teleki de Szék (*Nagysomkút 13.5.1883, +Csombárd 30.6.1953)
+						100116016={ # F1. Domokos, *Kolozsvár 11.1.1880, +Csombárd 3.7.1955; m.Nagysomkút 18.6.1905 Gfn Eduardine Teleki de Szék (*Nagysomkút 13.5.1883, +Csombárd 30.6.1953) $$
 							name=Domokos
 							dynasty=1011774
 							religion=catholic culture=hungarian
@@ -2035,7 +2038,7 @@
 					1812.01.01={birth=yes}  # EST.
 					1841.01.01={death=yes}
 				}
-				100116049={ # D7. Zsófia (*Gernyeszeg 29.10.1815, +Buda-Pest 6.11.1852); m.Gf János Bethlen de Bethlen (*Kisbun 18.10.1811, +Kolozsvár 2.9.1879)
+				100116049={ # D7. Zsófia (*Gernyeszeg 29.10.1815, +Buda-Pest 6.11.1852); m.Gf János Bethlen de Bethlen (*Kisbun 18.10.1811, +Kolozsvár 2.9.1879) $$
 					name=Zsófia
 					female=yes
 					dynasty=1011774
@@ -2044,16 +2047,6 @@
 					mother=100116064	# Zsófia Teleki de Szék
 					1815.10.29={birth=yes}	# Gernyeszeg
 					1852.11.06={death=yes}	# Buda-Pest
-				}
-				100116050={ # D8. Jozefa; m.József Zeyk de Zeykfalva
-					name=Jozefa
-					female=yes
-					dynasty=1011774
-					religion=catholic culture=hungarian
-					father=100115996	# József Teleki de Szék
-					mother=100116064	# Zsófia Teleki de Szék
-					1816.01.01={birth=yes}  # EST.
-					1891.01.01={death=yes}
 				}
 		100116051={ # B9. Eszter; m.1757 Gf Zsigmond Thoroczkay de Toroczkószentgyörgy (*1732, +Toroczkószentgyörgy 30.1.1790)
 			name=Eszter
@@ -2095,16 +2088,6 @@
 			1777.09.11={add_spouse=100097340}	# GFN Sára Tholdy de Nagyszalonta et Feketebátor
 			1815.01.01={death=yes}
 		}
-			100116061={ # C2. Krisztina; m.Baron Mihály Bruckenthal
-				name=Krisztina
-				female=yes
-				dynasty=1011774
-				religion=catholic culture=hungarian
-				father=100116057	# Lajos Teleki de Szék
-				mother=100097340	# GFN Sára Tholdy de Nagyszalonta et Feketebátor
-				1777.01.01={birth=yes}  # EST.
-				1852.01.01={death=yes}
-			}
 			100116062={ # C3. Katalin, *Nagyszeben 24.10.1777, +Váradolaszi 7.8.1820; m.1795 László Tisza de Borosjenõ (*Geszt 1765, +Nagyvárad 4.10.1831)
 				name=Katalin
 				female=yes
@@ -2125,7 +2108,7 @@
 				1779.11.29={birth=yes}
 				1837.10.10={death=yes}  # Toroczkószentgyörgy
 			}
-			100116064={ # C5. Zsófia, *4.12.1784, +Gernyeszeg 10.8.1844; m.4.12.1801 Gf József Teleki de Szék (*Szirák 25.12.1777, +Kolozsvár 7.4.1817)
+			100116064={ # C5. Zsófia, *4.12.1784, +Gernyeszeg 10.8.1844; m.4.12.1801 Gf József Teleki de Szék (*Szirák 25.12.1777, +Kolozsvár 7.4.1817) $$
 				name=Zsófia
 				female=yes
 				dynasty=1011774
@@ -2150,15 +2133,15 @@
 			1796.01.01={add_spouse=100097348}	# GFN Zsuzsanna Kendeffy de Malomvíz
 			1824.01.01={death=yes}
 		}
-			100116066={ # C1. [2m.] Anna; m.Baron Simon Kemény de Magyargyerõmonostor
+			100116066={ # C1. [2m.] Anna; m.Baron Simon Kemény de Magyargyerõmonostor $$
 				name=Anna
 				female=yes
 				dynasty=1011774
 				religion=catholic culture=hungarian
 				father=100116065	# Domokos Teleki de Szék
 				mother=100116585	# Judit Bethlen de Bethlen
-				1780.12.01={birth=yes}
-				1848.01.01={death=yes}
+				1783.01.01={birth=yes}
+				1851.08.27={death=yes}	# Kolozsvár
 			}
 			100116067={ # C2. [3m.] Ráchel, *1795; m.Baron Pál Kemény de Magyargyerõmonostor
 				name=Ráchel
@@ -2170,7 +2153,7 @@
 				1795.01.01={birth=yes}
 				1870.01.01={death=yes}
 			}
-			100116068={ # C3. [3m.] Polexina, *1798; m.Baron Miklós Kemény de Magyargyerõmonostor
+			100116068={ # C3. [3m.] Polexina, *1798; m.Baron Miklós Kemény de Magyargyerõmonostor $$
 				name=Polexina
 				female=yes
 				dynasty=1011774
@@ -2288,7 +2271,7 @@
 			1779.01.01={add_spouse=100097359}	# GFN Fáni Serényi de Kis-Serény
 			1822.01.01={death=yes}
 		}
-			100116080={ # C1. Karolina, *Pozsony 8.12.1780, +Nagysomkút 18.1.1867; m.Pozsony 22.4.1808 Gf Ferenc Teleki de Szék (*Paszmos 4.4.1785, +Paszmos 20.12.1831)
+			100116080={ # C1. Karolina, *Pozsony 8.12.1780, +Nagysomkút 18.1.1867; m.Pozsony 22.4.1808 Gf Ferenc Teleki de Szék (*Paszmos 4.4.1785, +Paszmos 20.12.1831) $$
 				name=Karolina
 				female=yes
 				dynasty=1011774
@@ -2367,7 +2350,10 @@
 						1861.10.07={add_spouse=100097365}	# Gemma Kállay de Nagykálló
 						1888.07.24={death=yes}  # Tancs
 					}
-						100116089={ # F1. Arvéd, *Pest 19.6.1865, +Nagyszeben 30.8.1942; 1m: Kendilóna 8.10.1887 (div 1921) Gfn Izabella Teleki de Szék (*Kendilóna 28.3.1861, +Rákospalota 16.2.1949); 2m: Kolozsvár 15.3.1922 (div 1928) Ida Berenice Mitchell (*San Francisco 3.6.1871, +Marosvásárhely 24.2.1956); 3m: Kolozsvár 18.2.1928 Zsuzsanna Kovács (*Kolozsvár 25.9.1902)
+						100116089={ # F1. Arvéd, *Pest 19.6.1865, +Nagyszeben 30.8.1942; 
+									# 1m: Kendilóna 8.10.1887 (div 1921) Gfn Izabella Teleki de Szék (*Kendilóna 28.3.1861, +Rákospalota 16.2.1949); 
+									# 2m: Kolozsvár 15.3.1922 (div 1928) Ida Berenice Mitchell (*San Francisco 3.6.1871, +Marosvásárhely 24.2.1956); 
+									# 3m: Kolozsvár 18.2.1928 Zsuzsanna Kovács (*Kolozsvár 25.9.1902)
 							name=Arvéd
 							dynasty=1011774
 							religion=catholic culture=hungarian
@@ -2485,14 +2471,14 @@
 							1898.07.31={add_spouse=100097374}	# BSS Ilona Wesselényi de Hadad
 							1959.07.23={death=yes}  # Marosvásárhely
 						}
-							100116102={ # G1. Béla, *Kolozsvár 16.5.1899, +New York 7.2.1990; m.Annaliget 5.5.1930 Bss Anna Benz von Albkron (*Szepesmindszent 27.6.1905, +New York 16.12.1992)
+							100116102={ # G1. Béla, *Kolozsvár 16.5.1899, +New York 7.2.1990; m.Annaliget 5.5.1930 Bss Anna Benz von Albkron (*Szepesmindszent 27.6.1905, +New York 16.12.1992) $$
 								name=Béla
 								dynasty=1011774
 								religion=catholic culture=hungarian
 								father=100116101	# Arctur Teleki de Szék
 								mother=100097374	# BSS Ilona Wesselényi de Hadad
 								1899.05.16={birth=yes}  # Kolozsvár
-								1930.05.05={add_spouse=100097375}	# BSS Anna Benz von Albkron
+								1930.05.05={add_spouse=100082375}	# Anna Benz von Albkron
 								1990.02.07={death=yes}  # New York
 							}
 								100116104={ # H2. ÉVA Mária, *Marosvásárhely 29.4.1935; m.Visó Mihály Janicskó (*Gyöngy 5.7.1932)
@@ -2501,7 +2487,7 @@
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116102	# Béla Teleki de Szék
-									mother=100097375	# BSS Anna Benz von Albkron
+									mother=100082375	# Anna Benz von Albkron
 									1935.04.29={birth=yes}  # Marosvásárhely
 									2012.01.01={death=yes}  # EST.
 								}
@@ -2511,7 +2497,7 @@
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116102	# Béla Teleki de Szék
-									mother=100097375	# BSS Anna Benz von Albkron
+									mother=100082375	# Anna Benz von Albkron
 									1939.04.23={birth=yes}  # Kolozsvár
 									2016.01.01={death=yes}  # EST.
 								}
@@ -2520,7 +2506,7 @@
 									dynasty=1011774
 									religion=catholic culture=hungarian
 									father=100116102	# Béla Teleki de Szék
-									mother=100097375	# BSS Anna Benz von Albkron
+									mother=100082375	# Anna Benz von Albkron
 									1942.05.01={birth=yes}  # Zsibó
 									1967.01.01={add_spouse=100097378}	# Zsófia Erzsébet Schimert
 								}
@@ -2560,7 +2546,7 @@
 								1901.02.28={birth=yes}  # Kolozsvár
 								1993.11.14={death=yes}  # Wien
 							}
-							100116116={ # G3. Margit, *Kolozsvár 27.9.1904, +Aachen 4.8.1990; m.Tancs 1.9.1923 Gf László Bethlen de Bethlen (*Bethlen 11.4.1890, +Innsbruck 7.10.1967)
+							100116116={ # G3. Margit, *Kolozsvár 27.9.1904, +Aachen 4.8.1990; m.Tancs 1.9.1923 Gf László Bethlen de Bethlen (*Bethlen 11.4.1890, +Innsbruck 7.10.1967) $$
 								name=Margit
 								female=yes
 								dynasty=1011774
@@ -2570,7 +2556,7 @@
 								1904.09.27={birth=yes}  # Kolozsvár
 								1990.08.04={death=yes}  # Aachen
 							}
-							100116118={ # G4. Gemma, *Kolozsvár 28.8.1908; m.Tancs 15.1.1928 Gf Károly Teleki de Szék (*Kolozsvár 21.11.1899, +Toronto, Ontario, Canada 31.10.1977)
+							100116118={ # G4. Gemma, *Kolozsvár 28.8.1908; m.Tancs 15.1.1928 Gf Károly Teleki de Szék (*Kolozsvár 21.11.1899, +Toronto, Ontario, Canada 31.10.1977) $$
 								name=Gemma
 								female=yes
 								dynasty=1011774
@@ -2580,7 +2566,7 @@
 								1908.08.28={birth=yes}  # Kolozsvár
 								1983.01.01={death=yes}
 							}
-				100116122={ # D3. Lajos, *6.1.1807, +Sárpatak 3.9.1842; m.13.9.1834 Gfn Eszter Bethlen de Bethlen (*6.1.1813, +Kolozsvár 26.2.1865)
+				100116122={ # D3. Lajos, *6.1.1807, +Sárpatak 3.9.1842; m.13.9.1834 Gfn Eszter Bethlen de Bethlen (*6.1.1813, +Kolozsvár 26.2.1865) $$
 					name=Lajos
 					dynasty=1011774
 					religion=catholic culture=hungarian
@@ -2934,7 +2920,7 @@
 				1825.01.01={birth=yes}  # EST.
 				1900.01.01={death=yes}
 			}
-	100116207={ # A6. [2m.] Sámuel, Obergespan of Küküllõ, Bihar and Máramaros, *Gernyeszeg 17.11.1739, +Wien 7.8.1822; m.Drág 13.11.1769 Gfn Zsuzsanna Bethlen de Iktár (*Hadad 29.1.1754, +Marosvásárhely 10.11.1797)
+	100116050={ # A6. [2m.] Sámuel, Obergespan of Küküllõ, Bihar and Máramaros, *Gernyeszeg 17.11.1739, +Wien 7.8.1822; m.Drág 13.11.1769 Gfn Zsuzsanna Bethlen de Iktár (*Hadad 29.1.1754, +Marosvásárhely 10.11.1797)
 		name=Sámuel
 		dynasty=1011774
 		religion=catholic culture=hungarian
@@ -2949,22 +2935,22 @@
 			female=yes
 			dynasty=1011774
 			religion=catholic culture=hungarian
-			father=100116207	# Sámuel Teleki de Szék
+			father=100117829	# Sámuel Kemény de Magyargyerõmonostor
 			mother=100097411	# GFN Zsuzsanna Bethlen de Iktár
 			1787.01.01={birth=yes}  # EST.
 			1862.01.01={death=yes}
 		}
-		100116213={ # B3. Ferenc, *Nagyvárad 26.2.1787, +Sáromberke 11.12.1861; m.Cég 14.1.1810 Bss Erzsébet Bánffy de Losoncz (*28.7.1794 +21.8.1853)
+		100116213={ # B3. Ferenc, *Nagyvárad 26.2.1787, +Sáromberke 11.12.1861; m.Cég 14.1.1810 Bss Erzsébet Bánffy de Losoncz (*28.7.1794 +21.8.1853) $$
 			name=Ferenc
 			dynasty=1011774
 			religion=catholic culture=hungarian
-			father=100116207	# Sámuel Teleki de Szék
+			father=100117829	# Sámuel Kemény de Magyargyerõmonostor
 			mother=100097411	# GFN Zsuzsanna Bethlen de Iktár
 			1787.02.26={birth=yes}  # Nagyvárad
 			1810.01.14={add_spouse=100117496}	# Erzsébet Bánffy de Losoncz
 			1861.12.11={death=yes}  # Sáromberke
 		}
-			100116215={ # C1. Erzsébet, *Sáromberke 9.1.1812, +Budapest 9.5.1911; m.Gernyeszeg 1829 Baron Lajos Vay de Vaja (*8.11.1803 +25.3.1888)
+			100116215={ # C1. Erzsébet, *Sáromberke 9.1.1812, +Budapest 9.5.1911; m.Gernyeszeg 1829 Baron Lajos Vay de Vaja (*8.11.1803 +25.3.1888) $$
 				name=Erzsébet
 				female=yes
 				dynasty=1011774
@@ -2974,7 +2960,7 @@
 				1812.01.09={birth=yes}  # Sáromberke
 				1911.05.09={death=yes}  # Budapest
 			}
-			100116221={ # C2. Ágnes, *2.10.1814, +Budapest 15.2.1896; m.Sáromberke 2.9.1833 Pr Hermann von Waldeck (*12.10.1809, +6.10.1876)
+			100116221={ # C2. Ágnes, *2.10.1814, +Budapest 15.2.1896; m.Sáromberke 2.9.1833 Pr Hermann von Waldeck (*12.10.1809, +6.10.1876) $$
 				name=Ágnes
 				female=yes
 				dynasty=1011774
@@ -2984,7 +2970,7 @@
 				1814.10.02={birth=yes}
 				1896.02.15={death=yes}  # Budapest
 			}
-			100116222={ # C3. Róza, *Sáromberke 18.10.1818, +Golssen bei Berlin 30.6.1890; 1m: 25.9.1834 Gf Ernst von Wurmbrand-Stuppach (*12.3.1804, +Schwarzau 9.12.1846); 2m: Wien 1.11.1851 Fst Friedrich von Solms-Baruth (*19.5.1821, +19.4.1904)
+			100116222={ # C3. Róza, *Sáromberke 18.10.1818, +Golssen bei Berlin 30.6.1890; 1m: 25.9.1834 Gf Ernst von Wurmbrand-Stuppach (*12.3.1804, +Schwarzau 9.12.1846); 2m: Wien 1.11.1851 Fst Friedrich von Solms-Baruth (*19.5.1821, +19.4.1904) $$
 				name=Róza
 				female=yes
 				dynasty=1011774
@@ -2994,7 +2980,7 @@
 				1818.10.18={birth=yes}  # Sáromberke
 				1890.06.30={death=yes}  # Golssen bei Berlin
 			}
-			100116224={ # C4. SÁMUEL Ferenc, *30.10.1819, +Kolozsvár 11.4.1882; m.Koppánd 1842 Gfn Erzsébet Bethlen de Bethlen (*1818, +8.1.1860)
+			100116224={ # C4. SÁMUEL Ferenc, *30.10.1819, +Kolozsvár 11.4.1882; m.Koppánd 1842 Gfn Erzsébet Bethlen de Bethlen (*1818, +8.1.1860) $$
 				name=Sámuel
 				dynasty=1011774
 				religion=catholic culture=hungarian
@@ -3032,7 +3018,7 @@
 					1847.07.24={birth=yes}  # Sáromberke
 					1865.09.11={death=yes}  # Sáromberke
 				}
-				100116233={ # D4. Erzsébet, *Sáromberke 17.8.1853, +Kolozsvár 27.8.1937; m.Sáromberke 26.11.1878 Baron Zoltán Bánffy de Losoncz (*15.9.1841 +7.6.1892)
+				100116233={ # D4. Erzsébet, *Sáromberke 17.8.1853, +Kolozsvár 27.8.1937; m.Sáromberke 26.11.1878 Baron Zoltán Bánffy de Losoncz (*15.9.1841 +7.6.1892) $$
 					name=Erzsébet
 					female=yes
 					dynasty=1011774
