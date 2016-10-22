@@ -60,8 +60,8 @@
 	1964.03.04={birth=yes}
 	1988.10.09={add_spouse=100004469}	# Monika Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 }
-100092263={ #            Henry                     von Hoffman                              (1919-1948)     - [POTOCKI]
-	name="Henry von Hoffman"
+100092263={ #            Henry Heinrich            von Hoffman                              (1919-1948)     - [POTOCKI]
+	name="Henry Heinrich von Hoffman"
 	dynasty=0
 	religion=catholic culture=german
 	1919.01.01={birth=yes}
@@ -259,14 +259,6 @@
 	1847.04.06={add_spouse=100001630}	# Agnes v. Hessen
 	1883.01.21={death=yes}
 }
-100093473={ # Gf         Heinrich                  von Witzleben                            (1854-1933)     1 [REUSS]
-	name="Heinrich von Witzleben"
-	dynasty=0
-	religion=lutheran culture=german
-	1854.04.13={birth=yes}
-	1883.05.19={add_spouse=100003535}	# Marie Clementine Reuß
-	1933.12.22={death=yes}
-}
 100092906={ #            Anna                      von Witzleben                            (1857-1910)     3 [AUERSPERG]
 	name="Anna von Witzleben"
 	female=yes
@@ -274,16 +266,6 @@
 	religion=catholic culture=german
 	1857.09.16={birth=yes}  # Ober-Steinkirch
 	1910.07.11={death=yes}  # Wien
-}
-100093472={ #            Hilde                     von Witzleben                            (1884-1966)     5 [STOLBERG]
-	name="Hilde von Witzleben"
-	female=yes
-	dynasty=0
-	religion=catholic culture=german
-	father=100093473	# GF Heinrich von Witzleben
-	mother=100003535	# Marie Clementine Reuß
-	1884.03.29={birth=yes}  # Alt-Doebern
-	1966.10.20={death=yes}  # Dierdorf bei Selters
 }
 100093475={ #            Gisela                    von Witzleben                            (1922-2001)     0 [CLARY]
 	name="Gisela von Witzleben"
@@ -299,6 +281,24 @@
 	dynasty=0
 	religion=catholic culture=german
 	1941.08.05={birth=yes}  # Köln
+}
+100093473={ # Gf         Heinrich                  von Witzleben-Alt-Doebern                (1854-1933)     1 [REUSS]
+	name="Heinrich von Witzleben"
+	dynasty=0
+	religion=lutheran culture=german
+	1854.04.13={birth=yes}	# Magdeburg
+	1883.05.19={add_spouse=100003535}	# Marie Clementine Reuß
+	1933.12.22={death=yes}
+}
+100093472={ #            Hilde                     von Witzleben-Alt-Doebern                (1884-1966)     5 [STOLBERG]
+	name="Hilde von Witzleben"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	father=100093473	# GF Heinrich von Witzleben-Alt-Doebern
+	mother=100003535	# Marie Clementine Reuß
+	1884.03.29={birth=yes}  # Alt-Doebern
+	1966.10.20={death=yes}  # Dierdorf bei Selters
 }
 
 100093574={ #            Karol                     Wagner                                   (1880-1956)     - [POTOCKI]
@@ -453,7 +453,7 @@
 	name="Georg von Hagen"
 	dynasty=0
 	religion=catholic culture=german
-	1941.06.24={birth=yes}
+	1941.06.24={birth=yes}	# Augsburg
 	1968.04.27={add_spouse=100115689}	# Antonia Zichy de Zich et Vásonykõ
 }
 100092130={ #            Diana                     von Hagen                                (1972-    )     4 [REUSS]
@@ -461,7 +461,9 @@
 	female=yes
 	dynasty=0
 	religion=lutheran culture=german
-	1972.05.06={birth=yes}
+	father=100092131	# Georg von Hagen
+	mother=100115689	# Antonia Zichy de Zich et Vásonykõ
+	1972.05.06={birth=yes}	# Augsburg
 }
 100100516={ #            Margarethe                von der Hagen                            (1845-1932)     8 [DOHNA]
 	name="Margarethe von der Hagen"
@@ -6433,7 +6435,7 @@
 	dynasty=0
 	religion=catholic culture=german
 	1929.09.14={birth=yes}
-	1995.03.17={add_spouse=100001226}	# Christa-Maria v. Hardenberg
+	1995.03.17={add_spouse=100035018}	# Christa-Maria v. Hardenberg
 	2009.01.01={death=yes}  # EST.
 }
 100081531={ #            Alexander                 Clausen Schmidt                          (1924-1972)     - [ROSPIGLIOSI]
@@ -15405,8 +15407,8 @@
 	1895.05.31={birth=yes}
 	1970.01.01={death=yes}  # EST.
 }
-100091107={ #            Sophie                    Tschelitsche                             (1766-1822)     4 [POTOCKI]
-	name="Sophie Tschelitsche"
+100091107={ #            Sophie                    Czelicze                                 (1766-1822)     4 [POTOCKI]
+	name="Sophie Czelicze"
 	female=yes
 	dynasty=0
 	religion=catholic culture=german
@@ -16183,7 +16185,7 @@
 	dynasty=0
 	religion=catholic culture=german
 	1929.12.29={birth=yes}
-	1965.04.29={add_spouse=100060003}	# Elizabeth Alice Abel-Smith
+	1965.04.29={add_spouse=100036888}	# Elizabeth Alice Abel-Smith
 }
 100092639={ #            Stanislaus                Wisniewski                               (1859-1940)     - [HARRACH]
 	name="Stanislaus Wisniewski"
@@ -17542,7 +17544,7 @@
 	name="Wilhelm von Halem"
 	dynasty=0
 	religion=catholic culture=german
-	1941.02.20={birth=yes}
+	1941.02.20={birth=yes}	# Gleiwitz
 	1978.05.02={add_spouse=100003123}	# Rose-Marie zu Oettingen-Wallerstein
 }
 100100297={ #            Ludwig Wilhelm            von Harder                               (1859-1890)     - [GOLIZYN]
@@ -20265,7 +20267,7 @@
 	1944.01.01={birth=yes}
 	1969.01.01={add_spouse=100061880}	# Sylvia Valerie Montagu
 }
-100080976={ #            Niall                     Brooks                                   (1960-    )     - [HABSBURG]
+100180976={ #            Niall                     Brooks                                   (1960-    )     - [HABSBURG]
 	name="Niall Brooks"
 	dynasty=0
 	religion=catholic culture=english
@@ -25988,13 +25990,6 @@
 	1970.01.01={remove_spouse=100015874}
 	2007.01.01={death=yes}  # EST.
 }
-100097372={ #            Ruth                      Shipley MacMahon                         (1940-    )     4 [TELEKI]
-	name="Ruth Shipley MacMahon"
-	female=yes
-	dynasty=0
-	religion=catholic culture=english
-	1940.01.01={birth=yes}
-}
 100090213={ #            William                   Shipman                                  (1947-    )     - [GAGARIN]
 	name="William Shipman"
 	dynasty=0
@@ -26713,8 +26708,8 @@
 	dynasty=0
 	religion=catholic culture=english
 	1939.12.26={birth=yes}
-	1971.09.15={add_spouse=100118728}	# Maria Christina v. Reibnitz
-	1977.01.01={remove_spouse=100118728}
+	1971.09.15={add_spouse=100035024}	# Maria Christina v. Reibnitz
+	1977.01.01={remove_spouse=100035024}
 	2016.01.01={death=yes}  # EST.
 }
 100091101={ #            Ysabel Geraldine          Trujillo                                 (1945-    )     2 [TARNOWSKI]
@@ -28829,7 +28824,7 @@
 	1972.01.01={birth=yes}
 	1997.01.01={add_spouse=100067739}	# Alexandra Christine d’Ursel
 }
-100080977={ #            Daniel Patrick            Brooks                                   (1960-    )     - [ROHAN]
+100080976={ #            Daniel Patrick            Brooks                                   (1960-    )     - [ROHAN]
 	name="Daniel Patrick Brooks"
 	dynasty=0
 	religion=catholic culture=english
@@ -31186,14 +31181,6 @@
 	religion=catholic culture=frankish
 	1910.05.22={birth=yes}
 	1991.01.16={death=yes}
-}
-100087264={ #            Colette Marie             Le Compasseur de Créqui Montfort de Courtivron (1928-2008)     3 [ROHAN]
-	name="Colette Marie Le Compasseur de Créqui Montfort de Courtivron"
-	female=yes
-	dynasty=0
-	religion=catholic culture=frankish
-	1928.07.27={birth=yes}
-	2008.01.01={death=yes}	# EST.
 }
 100087266={ #            Pauline Laurette          Le Couteulx du Molay                     (1776-1802)     1 [NOAILLES]
 	name="Pauline Laurette Le Couteulx du Molay"
@@ -34480,7 +34467,6 @@
 }
 100081020={ #            Carlos                    Bruno                                    (1969-    )     0 [BATTHYANY]
 	name="Carlos Bruno"
-	female=yes
 	dynasty=0
 	religion=catholic culture=hungarian
 	1969.03.21={birth=yes}
@@ -36571,13 +36557,6 @@
 	1985.04.28={add_spouse=100115936}	# Maria-Alexandra Zichy de Zich et Vásonykõ
 	1987.01.01={remove_spouse=100115936}
 }
-100090757={ #            Maria Zsofia              Szaby                                    (1977-    )     0 [SZECHENYI]
-	name="Maria Zsofia Szaby"
-	female=yes
-	dynasty=0
-	religion=catholic culture=hungarian
-	1977.01.01={birth=yes}
-}
 100090777={ #            Georg                     Szele                                    (1928-2005)     - [SZECHENYI]
 	name="Georg Szele"
 	dynasty=0
@@ -38162,7 +38141,6 @@
 }
 100083767={ #            Emanuele                  Falco                                    (1929-2006)     0 [IMPERIALI]
 	name="Emanuele Falco"
-	female=yes
 	dynasty=0
 	religion=catholic culture=italian
 	1929.01.01={birth=yes}
@@ -43700,14 +43678,6 @@
 	1876.06.04={birth=yes}
 	1951.01.01={death=yes}  # EST.
 }
-100082612={ #            Louise                    Malakov                                  (1860-1935)     0 [ZAMOYSKI]
-	name="Louise Malakov"
-	female=yes
-	dynasty=0
-	religion=orthodox culture=russian
-	1860.03.05={birth=yes}
-	1935.12.25={death=yes}
-}
 100087734={ #            Helene                    Malin                                    (1930-2010)     4 [OBOLENSKY]
 	name="Helene Malin"
 	female=yes
@@ -45229,7 +45199,7 @@
 	name="Geneviève Lucie Burchard"
 	female=yes
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1896.03.02={birth=yes}	# Paris
 	1966.12.15={death=yes}	# Paris
 }
@@ -45237,7 +45207,7 @@
 	name="Adela Clarissa Caron"
 	female=yes
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1841.01.01={birth=yes}  # EST.
 	1916.01.01={death=yes}  # EST.
 }
@@ -45252,7 +45222,7 @@
 	name="Eliane Chalandon"
 	female=yes
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1919.12.01={birth=yes}
 	2006.04.09={death=yes}
 }
@@ -45267,7 +45237,7 @@
 	name="Claudine Cumberledge"
 	female=yes
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1939.03.24={birth=yes}  # Antibes
 	2016.01.01={death=yes}  # EST.
 }
@@ -45378,7 +45348,7 @@
 100084720={ #            Heinz Karl                Hasse                                    (1920-2000)     - [ZAMOYSKI]
 	name="Heinz Karl Hasse"
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=german
 	1920.10.20={birth=yes}
 	1960.04.30={add_spouse=100110581}	# Maria Izabella Zamoyski
 	2000.10.20={death=yes}  # EST.
@@ -45432,7 +45402,7 @@
 100085699={ #            Richard                   Jenner                                   (1922-1998)     - [POTOCKI]
 	name="Richard Jenner"
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=english
 	1922.01.01={birth=yes}
 	1947.01.01={add_spouse=100114173}	# Natalia Potocki
 	1956.01.01={remove_spouse=100114173}
@@ -45457,7 +45427,7 @@
 	name="Wendy Mary Kimpson"
 	female=yes
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=english
 	1924.05.08={birth=yes}  # Yadlethorpe
 	2010.01.01={death=yes}
 }
@@ -45565,7 +45535,7 @@
 100096378={ #            Eric                      Maxwell-Arnot                            (1921-1997)     - [RZEWUSKI]
 	name="Eric Maxwell-Arnot"
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=english
 	1921.01.01={birth=yes}  # EST.
 	1946.04.14={add_spouse=100112535}	# Maria Magdalena Rzewuski
 	1997.01.01={death=yes}  # EST.
@@ -45589,7 +45559,7 @@
 	name="Prudencienne Milmo"
 	female=yes
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1872.03.31={birth=yes}
 	1958.03.02={death=yes}
 }
@@ -45619,14 +45589,14 @@
 100088507={ #            Tore Björn                Nilsen-Solvoll                           (1948-    )     - [POTOCKI]
 	name="Tore Björn Nilsen-Solvoll"
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=swedish
 	1948.06.26={birth=yes}  # Hackel
 	1990.08.31={add_spouse=100114344}	# Anna Potocki
 }
 100088657={ #            Jean                      Ollier                                   (1916-1980)     - [LUBOMIRSKI]
 	name="Jean Ollier"
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1916.01.01={birth=yes}
 	1964.11.28={add_spouse=100111722}	# Elzbieta Lubomirski
 	1980.05.18={death=yes}
@@ -45672,7 +45642,7 @@
 100089217={ #            Jean Michel               Pradalié                                 (1942-    )     - [POTOCKI]
 	name="Jean Michel Pradalié"
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1942.10.30={birth=yes}
 	1983.12.31={add_spouse=100111609}	# Marguerite Potocki
 }
@@ -45694,7 +45664,7 @@
 100089703={ #            Louis                     Roy-de-Loulay                            (1843-1916)     - [SWIATOPELK]
 	name="Louis Roy-de-Loulay"
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1843.01.01={birth=yes}
 	1868.04.29={add_spouse=100112444}	# Anna Celina Swiatopelk-Czetwertynski
 	1916.01.01={death=yes}  # EST.
@@ -45777,7 +45747,7 @@
 	1880.01.01={birth=yes}
 	1955.01.01={death=yes}  # EST.
 }
-100090561={ #            Camilla                   Stefanska                                (1840-1902)     0 [SAYN]
+100090561={ #            Camilla                   Stefanski                                (1840-1902)     0 [SAYN]
 	name="Camilla Stefanska"
 	female=yes
 	dynasty=0
@@ -45870,7 +45840,7 @@
 	name="Marie Isabell Nadejda d'Almont"
 	female=yes
 	dynasty=0
-	religion=catholic culture=polish
+	religion=catholic culture=frankish
 	1952.03.20={birth=yes}  # St.Germain
 }
 100095449={ #            Henriette                 von Borzecki                             (1867-1942)     0 [PALFFY]
@@ -46137,10 +46107,11 @@
 }
 100081175={ #            José Carlos               Calmon de Brito                          (1967-    )     0 [ORLEAES]
 	name="José Carlos Calmon de Brito"
-	female=yes
 	dynasty=0
 	religion=catholic culture=portuguese
 	1967.01.01={birth=yes}
+	1992.10.01={add_spouse=100033539}	# Cristina de Orleães-Bragança
+	1996.01.01={remove_spouse=100033539}
 }
 100081270={ #            Theresa João Manuel       Carlos                                   (1973-    )     2 [HABSBURG]
 	name="Theresa João Manuel Carlos"
@@ -49302,4 +49273,393 @@
 	religion=orthodox culture=frankish
 	1848.03.11={birth=yes}  # Odessa
 	1923.05.03={death=yes}  # Mozambique
+}
+100098025={ #            Roland                    Pierre                                   (1932-2009)     - [LUBOMIRSKI]
+	name="Roland Pierre"
+	dynasty=0
+	religion=catholic culture=frankish
+	1932.01.01={birth=yes}
+	1958.12.08={add_spouse=100111312}	# Jolanta Lubomirski
+	2009.01.01={death=yes}  # EST.
+}
+100101266={ #            Lydia Gertrud             Reinwein                                 (1939-2016)     2 [PODSTATZKY]
+	name="Lydia Gertrud Reinwein"
+	female=yes
+	dynasty=0
+	religion=catholic culture=bohemian
+	1939.09.28={birth=yes}  # Eferding
+	2016.01.01={death=yes}  # EST.
+}
+100101216={ #            Ole Christian             Risom                                    (1919-1994)     - [RECHBERG]
+	name="Ole Christian Risom"
+	dynasty=0
+	religion=catholic culture=danish
+	1919.10.03={birth=yes}  # Copenhagen
+	1947.05.21={add_spouse=100011437}	# Agnes v. Rechberg u.Rothenlöwen zu Hohenrechberg
+	1994.01.01={death=yes}  # EST.
+}
+100095539={ #            Ariane                    Röhl                                     (1968-    )     1 [RECHBERG]
+	name="Ariane Röhl"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1968.05.19={birth=yes}
+}
+100101250={ #            Maria Antoinette          Schanzenbach                             (1811-1886)     1 [RECHBERG]
+	name="Maria Antoinette Schanzenbach"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1811.01.01={birth=yes}  # EST.
+	1886.01.01={death=yes}  # EST.
+}
+100084971={ #            Dorothea                  Schwark                                  (1945-    )     1 [STRACHWITZ]
+	name="Dorothea Schwark"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1945.01.01={birth=yes}
+}
+100101277={ #            Therese                   Stangel                                  (1943-    )     0 [PODSTATZKY]
+	name="Therese Stangel"
+	female=yes
+	dynasty=0
+	religion=catholic culture=bohemian
+	1943.01.01={birth=yes}  # EST.
+}
+100087561={ #            Yolande                   Lucciola                                 (1937-2014)     2 [TARNOWSKI]
+	name="Yolande Lucciola"
+	female=yes
+	dynasty=0
+	religion=catholic culture=english
+	1937.09.06={birth=yes}  # Montreal, Canada
+}
+100085056={ #            Adelaida                  Keller                                   (1817-1885)     4 [PLATER]
+	name="Adelaida Keller"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1817.01.01={birth=yes}
+	1885.01.01={death=yes}
+}
+100098090={ #            Johanna                   Kern                                     (1831-1913)     2 [JABLONOWSKI]
+	name="Johanna Kern"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1831.11.25={birth=yes}  # Wien
+	1913.10.13={death=yes}  # Wien
+}
+100096796={ #            Waclaw                    Hanski                                   (1778-1841)     - [RZEWUSKI]
+	name="Waclaw Hanski"
+	dynasty=0
+	religion=catholic culture=polish
+	1778.01.01={birth=yes}
+	1819.01.01={add_spouse=100112543}	# Ewelina Rzewuski
+	1841.01.01={death=yes}
+}
+100090543={ #            Zofia                     Horwatt                                  (1840-1919)     4 [TYSZKIEWICZ]
+	name="Zofia Horwatt"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1840.01.01={birth=yes}
+	1919.01.01={death=yes}
+}
+100081784={ #            Andrea                    Czarnocki-Lucheschi                      (1960-    )     - [HABSBURG]
+	name="Andrea Czarnocki-Lucheschi"
+	dynasty=0
+	religion=catholic culture=italian
+	1960.04.21={birth=yes}
+	1997.04.27={add_spouse=100020105}	# Isabella Maria v. Habsburg-Lothringen
+}
+100094552={ #            Klara Elzbieta            Bancroft                                 (1857-1883)     1 [TYSZKIEWICZ]
+	name="Klara Elzbieta Bancroft"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1857.01.01={birth=yes}
+	1883.01.01={death=yes}
+}
+100101529={ #            John                      Whitehead                                (1854-1902)     -
+	name="John Whitehead"
+	dynasty=0
+	religion=catholic culture=german
+	1854.11.23={birth=yes}  # Fiume
+	1887.01.01={add_spouse=100026053}	# Agathe v. Breunner
+	1902.04.09={death=yes}  # Wien
+}
+100101384={ #            Katarzyna                 Maurozzi                                 (1599-1669)     1 [POTOCKI]
+	name="Katarzyna Maurozzi"
+	female=yes
+	dynasty=0
+	religion=catholic culture=frankish
+	1599.01.01={birth=yes}
+	1669.01.01={death=yes}  # before
+}
+100087532={ #            Jadwiga                   Los                                      (1919-1995)     0 [POTOCKI]
+	name="Jadwiga Los"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1919.01.01={birth=yes}
+	1995.01.01={death=yes}  # EST.
+}
+100101372={ #            Karolina                  Keffler                                  (1809-1885)     0 [POTOCKI]
+	name="Karolina Keffler"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1809.01.01={birth=yes}  # EST.
+	1885.01.01={death=yes}
+}
+100084008={ #            Karin                     Frentzen                                 (1961-    )     0 [RADZIWILL]
+	name="Karin Frentzen"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1961.02.07={birth=yes}
+}
+100080361={ #            Arto                      Baltayan                                 (1963-    )     - [TARNOWSKI]
+	name="Arto Baltayan"
+	dynasty=0
+	religion=catholic culture=polish
+	1963.03.18={birth=yes}  # Alexandria, Egypt
+	1994.12.31={add_spouse=100111970}	# Krystyna Gabryela Tarnowski
+}
+100101383={ #            Wojciech Stanislaw        Wessel                                   (1628-1703)     - [POTOCKI]
+	name="Wojciech Stanislaw Wessel"
+	dynasty=0
+	religion=catholic culture=frankish
+	1628.01.01={birth=yes}
+	1648.01.01={add_spouse=100114077}	# Marianna Potocki
+	1703.01.01={death=yes}  # EST.
+}
+100090259={ #            Wojciech                  Sikora                                   (1956-    )     0 [CZARTORYSKI]
+	name="Wojciech Sikora"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1956.04.16={birth=yes}
+}
+100090260={ #            Dorota                    Sikorski                                 (1974-    )     2 [POTOCKI]
+	name="Dorota Sikorski"
+	female=yes
+	dynasty=0
+	religion=catholic culture=polish
+	1974.06.11={birth=yes}  # Warsaw
+}
+100101387={ #            Adam                      Smigielski                               (1700-1775)     - [POTOCKI]
+	name="Adam Smigielski"
+	dynasty=0
+	religion=catholic culture=polish
+	1700.01.01={birth=yes}
+	1720.01.01={add_spouse=100114057}	# Zofia Potocki
+	1775.01.01={death=yes}  # EST.
+}
+100101374={ #            Jan                       Smiotanka                                (1526-1601)     - [POTOCKI]
+	name="Jan Smiotanka"
+	dynasty=0
+	religion=catholic culture=frankish
+	1526.01.01={birth=yes}
+	1546.01.01={add_spouse=100114065}	# Elzbieta Potocki
+	1601.01.01={death=yes}  # EST.
+}
+100101148={ #            Gyozo                     Döme                                     (1932-    )     -
+	name="Gyozo Döme"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1932.03.08={birth=yes}  # Bekesszentandras
+	1961.04.30={add_spouse=100119170}	# Zsuzsanna Révay de Szklabina et Blatnicza
+	1962.11.08={remove_spouse=100119170}
+	2009.01.01={death=yes}  # EST.
+}
+100101149={ #            Levente                   Erdeos                                   (1935-    )     -
+	name="Levente Erdeos"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1935.08.23={birth=yes}  # Budapest
+	1963.02.07={add_spouse=100119170}	# Zsuzsanna Révay de Szklabina et Blatnicza
+	1970.07.15={remove_spouse=100119170}
+	2012.01.01={death=yes}  # EST.
+}
+100101151={ #            Susanne                   Holmstrand                               (1947-    )     2
+	name="Susanne Holmstrand"
+	female=yes
+	dynasty=0
+	religion=catholic culture=swedish
+	1947.01.18={birth=yes}  # Göteborg
+}
+100101147={ #            Lena Brigitta             Norrlender                               (1945-    )     2
+	name="Lena Brigitta Norrlender"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1945.05.08={birth=yes}  # Boras
+}
+100101145={ #            Peter Friedrich           Behncke                                  (1925-    )     -
+	name="Peter Friedrich Behncke"
+	dynasty=0
+	religion=catholic culture=norwegian
+	1925.11.24={birth=yes}  # Oslo
+	1959.05.30={add_spouse=100119165}	# Terézia Révay de Szklabina et Blatnicza
+	2002.01.01={death=yes}  # EST.
+}
+100082274={ #            István                    de Deréky                                (1907-1956)     - [ZICHY]
+	name="István de Deréky"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1907.04.16={birth=yes}
+	1948.01.10={add_spouse=100115593}	# Mária-Theresia Zichy de Zich et Vásonykõ
+	1956.07.29={death=yes}
+}
+100100763={ #            Zsuszanna                 de Bucsany                               (1643-1718)     1 [ESTERHAZY]
+	name="Zsuszanna de Bucsany"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1643.01.01={birth=yes}  # EST.
+	1718.01.01={death=yes}  # EST.
+}
+100093866={ #            Sylvia                    de Rella                                 (1875-1950)     0 [PALFFY]
+	name="Sylvia de Rella"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1875.01.01={birth=yes}
+	1950.01.01={death=yes}
+}
+100096415={ #            Zorka                     von Bogdan de Tisza-Hegyes               (1892-1967)     0 [SCHAFFGOTSCH]
+	name="Zorka von Bogdan de Tisza-Hegyes"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=hungarian
+	1892.10.17={birth=yes}  # Nagy-Kikinda
+	1967.01.01={death=yes}
+}
+100095830={ #            Rosalie Charlotte         Zimmermann de Chavannes                  (1861-1936)     0 [PALFFY]
+	name="Rosalie Charlotte Zimmermann de Chavannes"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1861.01.01={birth=yes}
+	1936.01.01={death=yes}
+}
+100089399={ #            László                    Szentendrey                              (1915-1990)     - [KEGLEVICH]
+	name="László Szentendrey"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1915.01.01={birth=yes}	# EST.
+	1940.01.01={add_spouse=100115423}	# Georgette Margit Keglevich de Buzin
+	1990.01.01={death=yes}	# EST.
+}
+100100775={ #            István                    Ruttkay                                  (1687-1762)     - [ESTERHAZY]
+	name="István Ruttkay"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1687.01.01={birth=yes}  # EST.
+	1712.01.01={add_spouse=100118536}	# Katalin Esterházy de Galántha
+	1762.01.01={death=yes}  # EST.
+}
+100089147={ #            Gladimar                  Popcev-Cardona                           (1961-    )     4 [KAROLYI]
+	name="Gladimar Popcev-Cardona"
+	female=yes
+	dynasty=0
+	religion=orthodox culture=bulgarian
+	1961.09.06={birth=yes}	# Caracas
+}
+100099114={ #            Gabriella                 Legaspi Velazquez                        (1967-    )     5 [CSAKY]
+	name="Gabriella Legaspi Velazquez"
+	female=yes
+	dynasty=0
+	religion=catholic culture=castillan
+	1967.05.21={birth=yes}
+}
+100094931={ #            Elemér                    Horváth                                  (1921-1997)     - [MAILATH]
+	name="Elemér Horváth"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1921.11.23={birth=yes}
+	1957.08.18={add_spouse=100118561}	# Margit Mailáth de Székhely
+	1997.01.01={death=yes}  # EST.
+}
+100097604={ #            Péter                     Nagy                                     (1819-1884)     - [WESSELENYI]
+	name="Péter Nagy"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1819.04.22={birth=yes}  # Kolozsvár
+	1849.11.10={add_spouse=100117784}	# Krisztina Wesselényi de Hadad
+	1884.09.16={death=yes}  # Kolozsvár
+}
+100099742={ #            Pál                       Nagy                                     (1929-1979)     - [KEMENY]
+	name="Pál Nagy"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1929.01.18={birth=yes}  # Szatmárnémeti
+	1955.01.01={add_spouse=100117875}	# Zsuzsanna Kemény de Magyargyerõmonostor
+	1979.06.04={death=yes}  # Marosvásárhely
+}
+100086146={ #            Barbara                   Nagy                                     (1960-    )     2 [DEGENFELD]
+	name="Barbara Nagy"
+	female=yes
+	dynasty=0
+	religion=catholic culture=hungarian
+	1960.01.06={birth=yes}
+}
+100092905={ #            Elek Agoston              de Kis-Joka                              (1884-1959)     - [AUERSPERG]
+	name="Elek Agoston de Kis-Joka"
+	dynasty=0
+	religion=catholic culture=german
+	1884.01.01={birth=yes}  # EST.
+	1909.01.01={add_spouse=100021801}	# Editha v. Auersperg
+	1959.01.01={death=yes}  # EST.
+}
+100092351={ #            Sándor                    Fekete                                   (1920-1996)     - [TELEKI]
+	name="Sándor Fekete"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1920.01.26={birth=yes}  # Eger
+	1948.12.29={add_spouse=100115886}	# Mária Teleki de Szék
+	1965.01.01={remove_spouse=100115886}
+	1996.01.01={death=yes}  # EST.
+}
+100085796={ #            Zoltán                    Tóth                                     (1899-1974)     - [CSAKY]
+	name="Zoltán Tóth"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1899.10.06={birth=yes}
+	1943.07.13={add_spouse=100118932}	# Róza Csáky de Körösszeg et Adorján
+	1974.01.01={death=yes}
+}
+100099877={ #            Ödön Béla                 Tóth                                     (1932-2009)     - [HALLER]
+	name="Ödön Béla Tóth"
+	dynasty=0
+	religion=catholic culture=hungarian
+	1932.11.16={birth=yes}  # Nagylóc
+	1961.01.01={add_spouse=100118158}	# Teodóra Haller de Hallerkeö
+	2009.01.01={death=yes}  # EST.
+}
+100081034={ #            Fritz                     Berg                                     (1930-    )     -
+	name="Fritz Berg"
+	dynasty=0
+	religion=catholic culture=german
+	1930.02.20={birth=yes}  # Wien
+	1956.09.13={add_spouse=100022528}	# Beatrix von Silva-Tarouca
+	2007.01.01={death=yes}  # EST.
+}
+100081030={ #            Anton                     Kraus                                    (1916-1991)     -
+	name="Anton Kraus"
+	dynasty=0
+	religion=catholic culture=german
+	1916.01.03={birth=yes}  # Flaschenhütte
+	1947.01.25={add_spouse=100022513}	# Theresia von Silva-Tarouca
+	1991.12.23={death=yes}  # Salzburg
+}
+100081031={ #            Georg                     Paul                                     (1922-1960)     -
+	name="Georg Paul"
+	dynasty=0
+	religion=catholic culture=german
+	1922.04.20={birth=yes}
+	1947.09.12={add_spouse=100022521}	# Maria Kunigunde von Silva-Tarouca
+	1960.05.20={death=yes}  # Übersee
 }
