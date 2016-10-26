@@ -720,7 +720,7 @@
 						1586.07.08={death=yes}  # Eibleben
 					}
 						100010705={ # F1. Gebhard VIII, Gf von Mansfeld-Arnstein, *1553, +1.2.1601
-							name="Gebhard [Gf von Mansfeld - Arnstein"
+							name=Gebhard
 							dynasty=12403
 							religion=catholic culture=german
 							father=100010704	# Johann Albrecht von Mansfeld
@@ -1323,15 +1323,6 @@
 
 
 ##	100003821	Matz von Spiegelfeld				1002083
-100002862={ # Gf         Karl                      Matz von Spiegelfeld                     (1880-1964)     0 $$
-	name="Karl Matz von Spiegelfeld"
-	dynasty=1002083
-	religion=catholic culture=bohemian
-	1880.05.06={birth=yes}
-	1912.07.27={add_spouse=100185828}	# Therese Marie Kinsky von Wchinitz u.Tettau
-	1964.04.20={death=yes}
-}
-
 100002860={ # Franz Xaver Matz von Spiegelfeld (Marburg, Steiermark 10 May 1802-Volders 20 Oct 1885); m.1857 Gfn Marie von Bussy-Mignot (Ebreichsdorf, Niederösterreich 24 Aug 1831-21 Nov 1902) %%
 	name="Franz Xaver" # 1850538/franz-xaver-matz-freiherr-von-spiegelfeld/
 	dynasty=1002083
@@ -1417,21 +1408,21 @@
 				1951.05.14={add_spouse=100023027}	# Sophie v. Starhemberg
 				2002.01.01={death=yes}  # EST.
 			}
-				100002856={ # Franz Xaver (b.26 May 1953); m.14 Mar 1981 Johanna Maria v. Meran (b.10 Oct 1959) %%
+				100002856={ # Franz Xaver (b.26 May 1953); m.14 Mar 1981 Johanna Maria von Meran (b.10 Oct 1959) %%
 					name="Franz Xaver"
 					dynasty=1002083
 					religion=catholic culture=german
 					father=100002855	# Alexander Matz von Spiegelfeld
 					mother=100023027	# Sophie v. Starhemberg
 					1953.05.26={birth=yes}
-					1981.03.14={add_spouse=100020445}	# Johanna Maria v. Meran
+					1981.03.14={add_spouse=100020445}	# Johanna Maria von Meran
 				}
 					100002852={ # Leopold (b.München, München 30 Sep 1983) %%
 						name=Leopold     # 387161/leopold-matz-graf-von-spiegelfeld/
 						dynasty=1002083
 						religion=catholic culture=german
 						father=100002856	# Franz Xaver Matz von Spiegelfeld
-						mother=100020445	# Johanna Maria v. Meran
+						mother=100020445	# Johanna Maria von Meran
 						1983.09.30={birth=yes}	#München, München
 					}
 					100002853={ # Philipp (b.München, München 18 Sep 1988) %%
@@ -1439,7 +1430,7 @@
 						dynasty=1002083
 						religion=catholic culture=german
 						father=100002856	# Franz Xaver Matz von Spiegelfeld
-						mother=100020445	# Johanna Maria v. Meran
+						mother=100020445	# Johanna Maria von Meran
 						1988.09.18={birth=yes}	#München, München
 					}
 				100002857={ # Matthias (b.Wien, Wien 27 Dec 1960); m.1985 Ludmilla v. Waldburg zu Wolfegg u.Waldsee (b.29 Jul 1964) %%
@@ -1478,13 +1469,14 @@
 						mother=100006907	# Ludmilla v. Waldburg zu Wolfegg u.Waldsee
 						1994.07.15={birth=yes}	#Wien, Wien
 					}
-	100003637={ # Heinrich (Linz an der_Donau 10 Oct 1864-Wagrain bei Vöcklabruck 25 Apr 1922) %%
+	100003637={ # Heinrich (Linz an der Donau 10 Oct 1864-Wagrain bei Vöcklabruck 25 Apr 1922); m.1897 Frn Bertha von und zu Schneeburg (1871-1943) %%
 		name=Heinrich
 		dynasty=1002083
 		religion=lutheran culture=german
 		father=100002860	# Franz Xaver Matz von Spiegelfeld
 		mother=100085021	# GFN Marie von Bussy-Mignot
-		1864.10.10={birth=yes}  # Linz an der_Donau
+		1864.10.10={birth=yes}  # Linz an der Donau
+		1897.01.01={add_spouse=100089463}	# FRN Bertha von und zu Schneeburg
 		1922.04.25={death=yes}	# Wagrain bei Vöcklabruck
 	}
 		100002864={ # Henriette (Linz an der_Donau 30 Aug 1895-Vöcklabruck Oberösterreich 28 Sep 1969); m.28 Jan 1920 Franz Xaver Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (Laibach 17 Jun 1890-Salzburg 3 Apr 1979) %%
@@ -1493,9 +1485,30 @@
 			dynasty=1002083
 			religion=lutheran culture=german
 			father=100003637	# Heinrich Matz von Spiegelfeld
+			mother=100089463	# FRN Bertha von und zu Schneeburg
 			1895.08.30={birth=yes}  # Linz an der_Donau
 			1969.09.28={death=yes}  # Vöcklabruck Oberösterreich
 		}
+		100037407={ # Sigmund (1898-1978); m.1923 Gfn Marie von Enzenberg zum Freyen und Jöchelsthurn (1900-1990) %%
+			name=Sigmund
+			dynasty=1002083
+			religion=catholic culture=german
+			father=100003637	# Heinrich Matz von Spiegelfeld
+			mother=100089463	# FRN Bertha von und zu Schneeburg
+			1898.01.01={birth=yes}
+			1923.01.01={add_spouse=100088377}	# GFN Marie von Enzenberg zum Freyen und Jöchelsthurn
+			1978.01.01={death=yes}
+		}
+			100037374={ # Christoph (Schwaz 28 May 1924-25 Jun 2014); m.5 May 1955 Angelika zu Lodron-Laterano u.Castelromano (Gmund 3 Jun 1923-13 Jun 2014) %%
+				name=Christoph
+				dynasty=1002083
+				religion=catholic culture=german
+				father=100037407	# Sigmund Matz von Spiegelfeld
+				mother=100088377	# GFN Marie von Enzenberg zum Freyen und Jöchelsthurn
+				1924.05.28={birth=yes}	# Schwaz
+				1955.05.05={add_spouse=100035137}	# Angelika zu Lodron-Laterano u.Castelromano
+				2014.06.25={death=yes}
+			}
 ##	100003821	Matz von Spiegelfeld				1002083
 
 
@@ -2031,21 +2044,21 @@
 									1955.07.21={add_spouse=100010194}	# Maria Alyosia von Mensdorff-Pouilly
 									1995.12.07={death=yes}  # München
 								}
-									100005122={ # 1i) Sebastian Karl Alexander Eduard Sieghard (b.Vienna 17 Sep 1957); m.Bodnegg 8 Sep 1984 Manuela-Franziska Gfn von Walderdorff (b.Stuttgart 11 Oct 1959)
+									100005122={ # 1i) Sebastian Karl Alexander Eduard Sieghard (b.Vienna 17 Sep 1957); m.Bodnegg 8 Sep 1984 Manuela-Franziska Gfn von Walderdorff (b.Stuttgart 11 Oct 1959) $$
 										name=Sebastian
 										dynasty=1002080
 										religion=lutheran culture=german
 										father=100005121	# Sieghard v. Schoenaich-Carolath
 										mother=100010194	# Maria Alyosia von Mensdorff-Pouilly
 										1957.09.17={birth=yes}
-										1984.09.08={add_spouse=100096535}	# Manuela-Franziska
+										1984.09.08={add_spouse=100011539}	# Manuela-Franziska von Walderdorff
 									}
 										100005123={ # 2j) Carl Nikolaus Maria Sieghard Wilderich Sebastian (b.Mutlangen 4 Aug 1986)
 											name=Carl
 											dynasty=1002080
 											religion=lutheran culture=german
 											father=100005122	# Sebastian v. Schoenaich-Carolath
-											mother=100096535	# Manuela-Franziska
+											mother=100011539	# Manuela-Franziska von Walderdorff
 											1986.08.04={birth=yes}
 										}
 										100005124={ # 3j) Sophie Marie Louise Mechtild Irmgard Franziska (b.Düsseldorf 8 Jun 1988)
@@ -2054,7 +2067,7 @@
 											dynasty=1002080
 											religion=lutheran culture=german
 											father=100005122	# Sebastian v. Schoenaich-Carolath
-											mother=100096535	# Manuela-Franziska
+											mother=100011539	# Manuela-Franziska von Walderdorff
 											1988.06.08={birth=yes}
 										}
 										100005125={ # 4j) Theresa Marie Johanna Dorothée Elisabeth Mechtild Louise (b.Düsseldorf 12 Sep 1990)
@@ -2063,7 +2076,7 @@
 											dynasty=1002080
 											religion=lutheran culture=german
 											father=100005122	# Sebastian v. Schoenaich-Carolath
-											mother=100096535	# Manuela-Franziska
+											mother=100011539	# Manuela-Franziska von Walderdorff
 											1990.09.12={birth=yes}
 										}
 										100005126={ # 5j) Huberta Marie Elisabeth Isabella Antoinette Mechtild (b.Düsseldorf 5 Feb 1993)
@@ -2072,7 +2085,7 @@
 											dynasty=1002080
 											religion=lutheran culture=german
 											father=100005122	# Sebastian v. Schoenaich-Carolath
-											mother=100096535	# Manuela-Franziska
+											mother=100011539	# Manuela-Franziska von Walderdorff
 											1993.02.05={birth=yes}
 										}
 										100005127={ # 6j) Marie Sigweis Andrea Mechtild Franziska (b.Ulm 10 Sep 1994)
@@ -2081,7 +2094,7 @@
 											dynasty=1002080
 											religion=lutheran culture=german
 											father=100005122	# Sebastian v. Schoenaich-Carolath
-											mother=100096535	# Manuela-Franziska
+											mother=100011539	# Manuela-Franziska von Walderdorff
 											1994.09.10={birth=yes}
 										}
 										100005128={ # 7j) Ludmilla Marie Helena Eleonore Mechtild Franziska (b.Ulm 24 Oct 1996)
@@ -2090,7 +2103,7 @@
 											dynasty=1002080
 											religion=lutheran culture=german
 											father=100005122	# Sebastian v. Schoenaich-Carolath
-											mother=100096535	# Manuela-Franziska
+											mother=100011539	# Manuela-Franziska von Walderdorff
 											1996.10.24={birth=yes}
 										}
 									100005129={ # 2i) Mechtildis Hedwig Johanna Giselda Marie (b.München 25 Feb 1960)
