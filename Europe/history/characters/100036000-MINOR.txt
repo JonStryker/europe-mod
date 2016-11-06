@@ -33,15 +33,6 @@
 		1697.01.01={birth=yes}
 		1760.01.01={death=yes}
 	}
-
-100092145={ # Bss        Jekaterina                Shafirov                                 (1734-1795)     1 [WOLKONSKY]
-	name="Jekaterina Shafirov"
-	female=yes
-	dynasty=0
-	religion=orthodox culture=russian
-	1734.01.01={birth=yes}
-	1795.01.01={death=yes}
-}	
 # SHAFIROV
 
 # WIELHORSKI
@@ -1096,6 +1087,8 @@
 	dynasty=1011783
 	religion=catholic culture=german
 	1875.10.31={birth=yes}
+	1906.01.04={add_spouse=100119445}	# Margit Bornemisza de Kászon
+	1931.01.01={remove_spouse=100119445}
 	1947.06.26={death=yes}
 }
 	100036721={ # F2. [1m.] MARGIT Gabriella Lujza, *Rechnitz (Rohonc) 21.6.1911, +Castagnola 15.9.1989; m.Gandria, Tessin 17.6.1933 Gf Iván Batthyány de Németújvár (*21.4.1910 +16.7.1985)
@@ -1104,6 +1097,7 @@
 		dynasty=1011783
 		religion=catholic culture=german
 		father=100036720	# Heinrich Thyssen-Bornemisza de Kászon et Impérfalva
+		mother=100119445	# Margit Bornemisza de Kászon
 		1911.06.22={birth=yes}
 		1989.09.15={death=yes}
 	}
@@ -1117,6 +1111,7 @@
 		dynasty=1011783
 		religion=lutheran culture=german
 		father=100036720	# Heinrich Thyssen-Bornemisza de Kászon et Impérfalva
+		mother=100119445	# Margit Bornemisza de Kászon
 		1921.04.02={birth=yes}	# Scheveningen
 		1946.08.01={add_spouse=100002632}	# Teresa zu Schaumburg-Lippe
 		1954.01.01={remove_spouse=100002632}
@@ -1941,7 +1936,7 @@
 		father=100035119	# Antun Rubido de Zagorja
 		mother=100116983	# Szidónia Erdõdy de Monyorókerék et Monoszló
 		1847.01.01={birth=yes}	# Razvor, Opcina Kumrovec, Krapina-Zagorje County, Croatia
-		1874.01.01={add_spouse=100380442}	# Stefánia Zichy de Zich et Vásonykõ
+		1874.01.01={add_spouse=100115317}	# Stefánia Zichy de Zich et Vásonykõ
 		1910.01.24={death=yes}	# Graz
 	}
 		100036832={ # Iván (17 Jun 1874-16 May 1964); m.1st 20 Nov 1916 Gisela Apponyi de Nagy-Apponyi (Bad Aussee 15 Jul 1886-Budapest 15 Oct 1918); m.2nd 5 May 1920 Erzsébet Zichy de Zich et Vásonykõ (27 Jul 1893-1 Mar 1972) %%
@@ -1949,7 +1944,7 @@
 			dynasty=1011708
 			religion=catholic culture=hungarian
 			father=100035118	# Radoslav Rubido-Zichy de Zagorja et Zich
-			mother=100380442	# Stefánia Zichy de Zich et Vásonykõ
+			mother=100115317	# Stefánia Zichy de Zich et Vásonykõ
 			1874.06.17={birth=yes}
 			1916.11.20={add_spouse=100117244}	# Gisela Apponyi de Nagy-Apponyi
 			1920.05.05={add_spouse=100115491}	# Erzsébet Zichy de Zich et Vásonykõ
@@ -1990,7 +1985,7 @@
 			dynasty=1011708
 			religion=catholic culture=hungarian
 			father=100035118	# Radoslav Rubido-Zichy de Zagorja et Zich
-			mother=100380442	# Stefánia Zichy de Zich et Vásonykõ
+			mother=100115317	# Stefánia Zichy de Zich et Vásonykõ
 			1878.01.01={birth=yes}
 			1956.01.01={death=yes}
 		}
@@ -2542,117 +2537,8 @@
 	}
 # CAMPAGNA
 	
-# SHEREMETEV
-100036820={ # 2f) Mikhail (1672-23 Sep 1714); m.Jewdokia Grigorievna Naryshkin (1675-23 Jan 1739)
-	name=Mikhail
-	dynasty=1010018
-	religion=orthodox culture=russian
-	1672.09.01={birth=yes}
-	1714.09.23={death=yes}
-}
-	100036821={ # 2g) Maria (11 Aug 1700-Apr 1782); m.Pr Aleksei Dolgoruky (d.1726)
-		name=Maria
-		female=yes
-		dynasty=1010018
-		religion=orthodox culture=russian
-		father=100036820
-		1700.08.11={birth=yes}
-		1782.04.29={death=yes}
-	}
-	100036871={ # 3g) Jekaterina (20 Nov 1707-21 Jan 1769); m.Mikhail Saltykov (d.6 Sep 1750)
-		name=Jekaterina
-		female=yes
-		dynasty=1010018
-		religion=orthodox culture=russian
-		father=100036820
-		1707.11.20={birth=yes}
-		1769.01.21={death=yes}
-	}
-	100035069={ # 4g) Aleksandra (4 Apr 1710-23 Feb 1750); m.Ct Fjodr Apraxin (d.2 Nov 1754)
-		name=Aleksandra
-		female=yes
-		dynasty=1010018
-		religion=orthodox culture=russian
-		father=100036820
-		1710.04.04={birth=yes}
-		1750.02.23={death=yes}
-	}	
-
-100036701={ # 2d) Pjotr, d.29 Apr 1690; m.1st 1643 Anna Feodorovna Wolynsky (d.12 Nov 1684); m.2nd Maria Ivanovna Schischkin
-	name=Petr
-	dynasty=1010012
-	religion=orthodox culture=russian
-	1620.01.01={birth=yes}	# EST.
-	1690.04.29={death=yes}
-}
-	100036696={ # 1e) Boris, 1706 Count Cheremetev (25 Apr 1652-10 Feb 1719); m.1st Jewdokia Alekseievna Tschirkov (d.20 Jun 1697); m.2nd ca 1713 Anna Petrovna Saltykov (9 Sep 1687-22 Jul 1728)
-		name=Boris
-		dynasty=1010012
-		religion=orthodox culture=russian
-		father=100036701	# Petr Sheremetev
-		1652.04.25={birth=yes}	# Moskau
-		1713.04.13={add_spouse=100017652}	# Anna Saltykov
-		1719.02.17={death=yes}	# Moskau
-	}
-		100036697={ # Natalia (1714-1 Jul 1771); m.5 Apr 1730 Ivan Dolgorukov (1708-26 Oct 1739) %%
-			name=Natalia
-			female=yes
-			dynasty=1010012
-			religion=orthodox culture=russian
-			father=100036696	# Boris Sheremetev
-			mother=100017652	# Anna Saltykov
-			1714.01.01={birth=yes}
-			1771.07.01={death=yes}
-		}
-		100036694={ # Vera (4 Sep 1716-25 Apr 1789); m.1722 Fjodr-Awram Stroganov (3 Apr 1697-10 Nov 1757) %%
-			name=Vera
-			female=yes
-			dynasty=1010012
-			religion=orthodox culture=russian
-			father=100036696	# Boris Sheremetev
-			mother=100017652	# Anna Saltykov
-			1716.09.04={birth=yes}
-			1789.04.25={death=yes}
-		}
-	100036700={ # 3e) Wassili (6 Jun 1659-19 Apr 1733); m.1st 1684 Pss Anastasia Semjonovna Zwenigorodsky (d.after 1696); m.2nd Pss Praskovia Mikhailovna Tscherkassky
-		name=Vasili
-		dynasty=1010012
-		religion=orthodox culture=russian
-		father=100036701	# Petr Sheremetev
-		1659.01.01={birth=yes}
-		1733.01.01={death=yes}
-	}
-		100036695={ # 6f) Sergei (31 May 1723-29 Mar 1773); m.Pss Natalia Galitzine (1731-1792)
-			name=Sergei
-			dynasty=1010012
-			religion=orthodox culture=russian
-			father=100036700	# Vasili Sheremetev
-			1725.01.01={birth=yes}	# EST.
-			1756.01.01={add_spouse=100016005}	# Natalia Golizyn
-			1773.03.29={death=yes}
-		}
-		100036698={ # 4f) Tatiana, d.1728; m.Baron Aleksander Stroganov (d.7 Feb 1754)
-			name="Dominika Tatyana"
-			female=yes
-			dynasty=1010012
-			religion=orthodox culture=russian
-			father=100036700	# Vasili Sheremetev
-			1706.01.08={birth=yes}
-			1728.04.13={death=yes}
-		}
-		100036699={ # 8f) Anna; m.Pr Nikolai Stcherbatov (d.1758)
-			name=Anna
-			female=yes
-			dynasty=1010012
-			religion=orthodox culture=russian
-			father=100036700	# Vasili Sheremetev
-			1694.01.01={birth=yes}	# EST.
-			1769.01.01={death=yes}	# EST.
-		}
-# SHEREMETEV
-
-# STROGANOV		
-100036450={ # Wladimir Stroganov (19 Jan 1899-29 Jun 1976); m.3 Aug 1935 Nadejda Miklachevsky Bobrinsky (5 Feb 1910-11 May 1988) %%
+# EPANCHIN
+100036450={ # Wladimir Epanchin (19 Jan 1899-29 Jun 1976); m.3 Aug 1935 Nadejda Miklachevsky Bobrinsky (5 Feb 1910-11 May 1988) %%
 	name=Wladimir
 	dynasty=1010019
 	religion=orthodox culture=russian
@@ -2664,7 +2550,7 @@
 		name=Nicolas
 		dynasty=1010019
 		religion=orthodox culture=russian
-		father=100036450	# Wladimir Stroganov
+		father=100036450	# Wladimir Epanchin
 		mother=100015030	# Nadejda Miklachevsky Bobrinsky
 		1939.01.01={birth=yes}
 		1964.01.01={add_spouse=100095013}	# Elbow Lake
@@ -2674,7 +2560,7 @@
 			female=yes
 			dynasty=1010019
 			religion=orthodox culture=russian
-			father=100036451	# Nicolas Stroganov
+			father=100036451	# Nicolas Epanchin
 			mother=100095013	# Elbow Lake
 			1971.01.01={birth=yes}
 		}
@@ -2682,7 +2568,7 @@
 			name=Peter
 			dynasty=1010019
 			religion=orthodox culture=russian
-			father=100036451	# Nicolas Stroganov
+			father=100036451	# Nicolas Epanchin
 			mother=100095013	# Elbow Lake
 			1972.01.01={birth=yes}
 		}
@@ -2690,7 +2576,7 @@
 		name=Alexis
 		dynasty=1010019
 		religion=orthodox culture=russian
-		father=100036450	# Wladimir Stroganov
+		father=100036450	# Wladimir Epanchin
 		mother=100015030	# Nadejda Miklachevsky Bobrinsky
 		1942.01.01={birth=yes}
 		1970.01.01={add_spouse=100095173}	# Betty Philips Cooper
@@ -2700,7 +2586,7 @@
 			female=yes
 			dynasty=1010019
 			religion=orthodox culture=russian
-			father=100036452	# Alexis Stroganov
+			father=100036452	# Alexis Epanchin
 			mother=100095173	# Betty Philips Cooper
 			1976.01.01={birth=yes}
 		}
@@ -2708,12 +2594,12 @@
 		name=Pavel
 		dynasty=1010019
 		religion=orthodox culture=russian
-		father=100036450	# Wladimir Stroganov
+		father=100036450	# Wladimir Epanchin
 		mother=100015030	# Nadejda Miklachevsky Bobrinsky
 		1945.01.01={birth=yes}
 		1975.01.01={add_spouse=100095815}	# Junell Woleslagle
 	}
-# STROGANOV	
+# EPANCHIN
 
 # WIMPFFEN
 100036124={ # Franz v. Wimpffen (1732-1800); m.1775 Marie Magdalena von Goy (1743-1820) %%
@@ -2894,7 +2780,7 @@
 					religion=catholic culture=german
 					father=100036906	# Franz Leopold v. Buquoy de Longueval
 					1741.06.28={birth=yes}
-					1765.04.09={add_spouse=100024052}	# Maria Theresia v. Törring-Jettenbach
+					1765.04.09={add_spouse=100024052}	# Maria Theresia v. Paar
 					1803.04.12={death=yes}
 				}
 				100035083={ # F7. Graf Leopold Albert Franz, *Gratzen 11.12.1744, +18.7.1795; m.30.4.1778 Franziska Theresia Trankviline de Preudhoumme d'Ailly /OR Adélaide Jeanne de Preudhoumme d'Ailly, Vctse de Nieuport (*11.10.1757, +1830)
@@ -2941,7 +2827,7 @@
 								1878.05.01={add_spouse=100186387}	# Philippine Czernin v.u.zu Chudenitz
 								1917.08.09={death=yes}
 							}
-							100036838={ # C3. Gf Ferdinand Maria Heinrich, *Wien 15.9.1856, +St.Peter bei Görz 27.9.1909; m.Baden bei Wien 30.8.1882 Henriette Cappy (*Ofen, Budapest 19.1.1857, +Nové Hrady 13.4.1929)
+							100036838={ # C3. Gf Ferdinand Maria Heinrich, *Wien 15.9.1856, +St.Peter bei Görz 27.9.1909, bur v Nové Hrady; m.Baden bei Wien 30.8.1882 Henriette Cappy (*Ofen, Budapest 19.1.1857, +Nové Hrady 13.4.1929)
 								name="Ferdinand Maria Heinrich"
 								dynasty=1004505
 								religion=catholic culture=german
@@ -2953,7 +2839,7 @@
 								100036776={ # D1. Gf Karl-Georg Heinrich Maria Ferdinand Joseph, *Wien 9.3.1885, +in prison hospital Brno-Mírov 17.5.1952; m.Wien 7.7.1914 Gfn Marie Valerie Kinská z Vchynic a Tetova (*28.8.1896 +24.1.1963) $$
 									name=Karl-Georg
 									dynasty=1004505
-									religion=catholic culture=german
+									religion=catholic culture=bohemian
 									father=100036838	# Ferdinand Maria Heinrich v. Buquoy de Longueval
 									1885.03.09={birth=yes}
 									1914.07.07={add_spouse=100185971}	# Marie Valerie Kinsky von Wchinitz u.Tettau
@@ -3064,12 +2950,12 @@
 # MOY
 
 # PIATTI
-100036835={ # Alfons Amadeus Piatti (Vienna 21 Feb 1866-Loosdorf 29 Sep 1940); m.23 Aug 1898 Gabriele v. Törring-Jettenbach (Kardasch-Recetz 22 Aug 1869-Loosdorf 11 Feb 1945) %%
+100036835={ # Alfons Amadeus Piatti (Vienna 21 Feb 1866-Loosdorf 29 Sep 1940); m.23 Aug 1898 Gabriele v. Paar (Kardasch-Recetz 22 Aug 1869-Loosdorf 11 Feb 1945) %%
 	name="Alfons Amadeus"
 	dynasty=1006201
 	religion=catholic culture=german
 	1866.02.21={birth=yes}  # Vienna
-	1898.08.23={add_spouse=100023998}	# Gabriele v. Törring-Jettenbach
+	1898.08.23={add_spouse=100023998}	# Gabriele v. Paar
 	1940.09.29={death=yes}  # Loosdorf
 }		
 	100035091={ # Ferdinand (Loosdorf 4 Jul 1899-Vienna 18 Mar 1980); m.23 Aug 1922 Anna Gabriele v. Collalto u.San Salvatore (Teschendorf 7 May 1904-Vienna 24 Feb 1994) %%
@@ -3077,7 +2963,7 @@
 		dynasty=1006201
 		religion=catholic culture=german
 		father=100036835	# Alfons Amadeus Piatti
-		mother=100023998	# Gabriele v. Törring-Jettenbach
+		mother=100023998	# Gabriele v. Paar
 		1899.07.04={birth=yes}  # Loosdorf
 		1922.08.23={add_spouse=100070765}	# Anna Gabriele v. Collalto u.San Salvatore
 		1980.03.18={death=yes}  # Vienna
@@ -3727,14 +3613,14 @@
 		1868.01.01={add_spouse=100035133}	# Antonia zu Lodron-Laterano u.Castelromano
 		1918.01.01={death=yes}
 	}
-		100035126={ # Paride (Trient 20 Jan 1869-Gmünd 20 Jun 1925); m.1903 Gfn Maria Welser von Welsersheimb (1873-1941) %%
+		100035126={ # Paride (Trient 20 Jan 1869-Gmünd 20 Jun 1925); m.1903 Gfn Maria Welser von Welserheimb (1873-1941) %%
 			name=Paride
 			dynasty=1002214
 			religion=catholic culture=german
 			father=100035127	# Karl Gaetan zu Lodron-Laterano u.Castelromano
 			mother=100035133	# Antonia zu Lodron-Laterano u.Castelromano
 			1869.01.20={birth=yes}	# Trient
-			1903.01.01={add_spouse=100035162}	# GFN Maria Welser von Welsersheimb
+			1903.01.01={add_spouse=100035162}	# GFN Maria Welser von Welserheimb
 			1925.06.20={death=yes}	# Gmünd
 		}
 			100035125={ # Maria Antoinette (Nogaredo 19 Mar 1904-Rovereto 16 Oct 1933); m.1930 Alberich zu Lodron-Laterano u.Castelromano (Gries, Bozen 11 Nov 1895-Meano 22 Sep 1979) %%
@@ -3743,7 +3629,7 @@
 				dynasty=1002214
 				religion=catholic culture=german
 				father=100035126	# Paride zu Lodron-Laterano u.Castelromano
-				mother=100035162	# GFN Maria Welser von Welsersheimb
+				mother=100035162	# GFN Maria Welser von Welserheimb
 				1904.03.19={birth=yes}	# Nogaredo
 				1933.10.16={death=yes}	# Rovereto
 			}
@@ -4436,7 +4322,7 @@
 		1935.04.12={death=yes}  # Budapest
 	}
 
-100036817={ # Ivan Stroganov ( ca.1717-2 May 1786); m.1742 Maria Golizyn (18 Feb 1718-17 Jun 1780) %%
+100036817={ # Ivan Prozorovsky ( ca.1717-2 May 1786); m.1742 Maria Golizyn (18 Feb 1718-17 Jun 1780) %%
 	name=Ivan
 	dynasty=1010023
 	religion=orthodox culture=russian
@@ -4448,7 +4334,7 @@
 		name=Ivan
 		dynasty=1010023
 		religion=orthodox culture=russian
-		father=100036817	# Ivan Stroganov
+		father=100036817	# Ivan Prozorovsky
 		mother=100016155	# Maria Golizyn
 		1765.01.01={birth=yes}	# EST.
 		1790.02.05={add_spouse=100016180}	# Tatiana Golizyn
@@ -4459,7 +4345,7 @@
 			female=yes
 			dynasty=1010023
 			religion=orthodox culture=russian
-			father=100036819	# Ivan Stroganov
+			father=100036819	# Ivan Prozorovsky
 			mother=100016180	# Tatiana Golizyn
 			1803.10.17={birth=yes}
 			1828.03.07={death=yes}
@@ -5069,12 +4955,12 @@
 		2010.01.01={death=yes}	# EST.
 	}		
 
-100036785={ # Sergei Chernyshev-Bezobrazov (1894-New York 10 Sep 1972); m.7 May 1921 Elisaveta Dimitrievna Sheremetev (26 May 1893-20 Jun 1974) %%
+100036785={ # Sergei Chernyshev-Bezobrazov (1894-New York 10 Sep 1972); m.7 May 1921 Jelisaveta Sheremetev (St.Petersburg 7 Jun 1893-New York 20 Jun 1974) %%
 	name=Sergei
 	dynasty=1010025
 	religion=orthodox culture=russian
 	1894.01.01={birth=yes}
-	1921.05.07={add_spouse=100290203}	# Elisaveta Dimitrievna Sheremetev
+	1921.05.07={add_spouse=100017794}	# Jelisaveta Sheremetev
 	1972.09.10={death=yes}	# New York
 }
 	100036783={ # Irina (b.Hauts-de-Seine, Neuilly-sur-Seine 26 Sep 1926); m.27 Nov 1949 Teimuraz Bagrationi-Muchraneli (Pavlovsk 21 Aug 1912-New York 10 Apr 1992) %%
@@ -5083,7 +4969,7 @@
 		dynasty=1010025
 		religion=orthodox culture=russian
 		father=100036785	# Sergei Chernyshev-Bezobrazov
-		mother=100290203	# Elisaveta Dimitrievna Sheremetev
+		mother=100017794	# Jelisaveta Sheremetev
 		1926.09.26={birth=yes}	# Hauts-de-Seine, Neuilly-sur-Seine
 		2000.01.01={death=yes}	# EST.
 	}
@@ -5093,7 +4979,7 @@
 		dynasty=1010025
 		religion=catholic culture=german
 		father=100036785	# Sergei Chernyshev-Bezobrazov
-		mother=100290203	# Elisaveta Dimitrievna Sheremetev
+		mother=100017794	# Jelisaveta Sheremetev
 		1929.06.11={birth=yes}	# Île de France, Paris
 		1968.09.20={death=yes}	# Île de France, Paris
 	}
@@ -5414,12 +5300,12 @@
 						}
 ## HERBERSTEIN
 
-100036397={ # Oswald von Kielmansegg (Herrenhausen 17 Jul 1838-Schrattenau 24 Sep 1896); m.28 Nov 1867 Leontine v. Törring-Jettenbach (Bechin 5 Nov 1844-Vienna 18 Apr 1912) %%
+100036397={ # Oswald von Kielmansegg (Herrenhausen 17 Jul 1838-Schrattenau 24 Sep 1896); m.28 Nov 1867 Leontine v. Paar (Bechin 5 Nov 1844-Vienna 18 Apr 1912) %%
 	name=Oswald
 	dynasty=1002224
 	religion=catholic culture=german
 	1838.07.17={birth=yes}  # Herrenhausen
-	1867.11.28={add_spouse=100024028}	# Leontine v. Törring-Jettenbach
+	1867.11.28={add_spouse=100024028}	# Leontine v. Paar
 	1896.09.24={death=yes}  # Schrattenau
 }
 	100036407={ # Eduard (Vienna 17 Feb 1874-Walshausen 10 Feb 1941); m.27 Apr 1907 Gabrielle von Wrede (Graz 5 May 1880-Lugano-Massagno 18 May 1966) %%
@@ -5427,7 +5313,7 @@
 		dynasty=1002224
 		religion=catholic culture=german
 		father=100036397	# Oswald von Kielmansegg
-		mother=100024028	# Leontine v. Törring-Jettenbach
+		mother=100024028	# Leontine v. Paar
 		1874.02.17={birth=yes}  # Vienna
 		1907.04.27={add_spouse=100008299}	# Gabrielle von Wrede
 		1941.02.10={death=yes}  # Walshausen
@@ -7917,40 +7803,6 @@
 					1992.07.10={add_spouse=100005404}	# Karoline von Schönburg
 				}
 
-100036534={ # Lev Naryshkin (1733-1799) %%
-	name=Lev
-	dynasty=100568
-	religion=orthodox culture=russian
-	1733.01.01={birth=yes}
-	1799.01.01={death=yes}
-}	
-	100036533={ # Aleksander (1760-1826) %%
-		name=Aleksander
-		dynasty=100568
-		rreligion=orthodox culture=russian
-		father=100036534	# Lev Naryshkin
-		1760.01.01={birth=yes}
-		1826.01.01={death=yes}
-	}
-		100036531={ # Lev (1785-Naples 17 Feb 1846); m.1828 Olga Potocki (1802-7 Oct 1861) %%
-			name=Lev
-			dynasty=100568
-			religion=orthodox culture=russian
-			father=100036533	# Aleksander Naryshkin
-			1785.01.01={birth=yes}
-			1828.01.01={add_spouse=100114153}	# Olga Potocki
-			1846.02.17={death=yes}  # Naples
-		}
-	100036532={ # Maria (1766-1886); m.1801 Franciszek Ksawery Lubomirski (1747-1819) %%
-		name=Maria
-		female=yes
-		dynasty=100568
-		religion=orthodox culture=russian
-		father=100036534	# Lev Naryshkin
-		1766.01.01={birth=yes}
-		1886.01.01={death=yes}
-	}
-
 100035032={ # Karl Josef v. Clam-Martinic (6 Sep 1760-26 Sep 1826); m.1791 Marie Anna Martinic (1768-Smecno 1 Apr 1832) %%
 	name="Karl Josef"
 	dynasty=1004562
@@ -8195,14 +8047,14 @@
 			1854.08.06={birth=yes}
 			1874.05.23={death=yes}  # Maxlrain
 		}
-		100036015={ # Heinrich (Haus Beye 17 Oct 1855-Tannheim 27 Nov 1910); m.1st 19 Jul 1881 Elisabeth _Afra v. Waldburg zu Zeil u.Trauchburg (Lissa Bohemia 8 Aug 1862-Tannheim Württemberg 8 Mar 1891); m.2nd 29 Mar 1892 Marie v. Waldburg zu Zeil u.Trauchburg (Krickenbeck 15 Aug 1865-Tannheim Württemberg 9 Feb 1952) %%
+		100036015={ # Heinrich (Haus Beye 17 Oct 1855-Tannheim 27 Nov 1910); m.1st 19 Jul 1881 Elisabeth v. Waldburg zu Zeil u.Trauchburg (Lissa Bohemia 8 Aug 1862-Tannheim Württemberg 8 Mar 1891); m.2nd 29 Mar 1892 Marie v. Waldburg zu Zeil u.Trauchburg (Krickenbeck 15 Aug 1865-Tannheim Württemberg 9 Feb 1952) %%
 			name=Heinrich
 			dynasty=1002240
 			religion=catholic culture=german
 			father=100036016	# Julius von Schaesberg
 			mother=100100145	# GFN Thekla von Hompesch-Bollheim
 			1855.10.17={birth=yes}  # Haus Beye
-			1881.07.19={add_spouse=100011134}	# Elisabeth  Afra v. Waldburg zu Zeil u.Trauchburg
+			1881.07.19={add_spouse=100011134}	# Elisabeth v. Waldburg zu Zeil u.Trauchburg
 			1892.03.29={add_spouse=100011135}	# Marie v. Waldburg zu Zeil u.Trauchburg
 			1910.11.27={death=yes}  # Tannheim
 		}
@@ -8211,7 +8063,7 @@
 				dynasty=1002240
 				religion=catholic culture=german
 				father=100036015	# Heinrich von Schaesberg
-				mother=100011134	# Elisabeth  Afra v. Waldburg zu Zeil u.Trauchburg
+				mother=100011134	# Elisabeth v. Waldburg zu Zeil u.Trauchburg
 				1882.12.22={birth=yes}  # Tannheim
 				1963.11.12={death=yes}  # Memmingen
 			}
@@ -8229,7 +8081,7 @@
 				dynasty=1002240
 				religion=catholic culture=german
 				father=100036015	# Heinrich von Schaesberg
-				mother=100011134	# Elisabeth  Afra v. Waldburg zu Zeil u.Trauchburg
+				mother=100011134	# Elisabeth v. Waldburg zu Zeil u.Trauchburg
 				1890.01.01={birth=yes}
 				1921.01.01={add_spouse=100095247}	# GFN Hermine von Redern
 				1971.01.01={death=yes}
@@ -8594,7 +8446,7 @@
 	dynasty=1010028
 	religion=orthodox culture=russian
 	1889.01.21={birth=yes}	# Jalta
-	1928.04.19={add_spouse=100017459}	# Olga Trubetzkoy
+	1928.04.19={add_spouse=100317459}	# Olga Trubetzkoy
 	1954.12.01={death=yes}	# Île de France, Paris
 }	
 	100036354={ # Serafim (b.Paris 24 Aug 1929); m.1961 Agnes von Hoenning-O'Carroll (b.Sünching 22 Oct 1936) %%
@@ -8602,7 +8454,7 @@
 		dynasty=1010028
 		religion=orthodox culture=russian
 		father=100036350	# Nikolai Miloradovich
-		mother=100017459	# Olga Trubetzkoy
+		mother=100317459	# Olga Trubetzkoy
 		1929.08.24={birth=yes}	# Paris
 		1961.01.01={add_spouse=100036950}	# Agnes von Hoenning-O'Carroll
 		2005.01.01={death=yes}	# EST.
@@ -8752,7 +8604,7 @@
 					mother=100093111	# GFN Juliane Mittrowsky von Mittrowitz
 					1896.04.17={birth=yes}
 					1928.12.29={add_spouse=100020496}	# Ladislaja Maria von Meran
-					1970.05.27={death=yes}1
+					1970.05.27={death=yes}
 				}
 					100036229={ # Nikolaus (Berlin 6 Dec 1929-St Georgen im Attergau 5 Mar 2016) %%
 						name=Nikolaus
@@ -10728,424 +10580,468 @@
 			1913.01.21={death=yes}	# Roma
 		}
 	
-100036277={ # Karl Joseph Strachwitz v.Groß-Zauche u.Camminetz (Sodow OS 3 Mar 1724-Sacrau 10 Jul 1810); m.1754 Marianna Bujakowski (1732-1775) %%
-	name="Karl Joseph"
-	dynasty=1002256
-	religion=catholic culture=german
-	1724.03.03={birth=yes}	# Sodow OS
-	1754.01.01={add_spouse=100085189}	# Marianna Bujakowski
-	1810.07.10={death=yes}	# Sacrau
-}
-	100036805={ # Ernst Joachim (Sacrau-Oberwitz 7 Sep 1755-Krawarn 5 Mar 1826) %%
-		name="Ernst Joachim"
-		dynasty=1002256
-		religion=catholic culture=german
-		father=100036277	# Karl Joseph Strachwitz v.Groß-Zauche u.Camminetz
-		mother=100085189	# Marianna Bujakowski
-		1755.09.07={birth=yes}	# Sacrau-Oberwitz
-		1826.03.05={death=yes}	# Krawarn
-	}
-		100036275={ # Franz (Kalinow 20 Sep 1782-Sacrau 23 Feb 1845); m.1816 Karoline Theresia Hentschel von Gilgenheimb (1790-1826) %%
-			name=Franz
-			dynasty=1002256
-			religion=catholic culture=german
-			father=100036805	# Ernst Joachim Strachwitz v.Groß-Zauche u.Camminetz
-			1782.09.20={birth=yes}	# Kalinow
-			1816.01.01={add_spouse=100084689}	# Karoline Theresia Hentschel von Gilgenheimb
-			1845.02.23={death=yes}	# Sacrau
-		}
-			100036250={ # Alexander (Sacrau 1817-Bertelsdorf 1866) %%
-				name=Alexander
-				dynasty=1002256
-				religion=catholic culture=german
-				father=100036275	# Franz Strachwitz v.Groß-Zauche u.Camminetz
-				mother=100084689	# Karoline Theresia Hentschel von Gilgenheimb
-				1817.01.01={birth=yes}	# Sacrau
-				1866.01.01={death=yes}	# Bertelsdorf
-			}
-				100036249={ # Hermann (Gleiwitz 1846-Groß-Reichenau 1919); m.1895 Bss Emma von Landsberg-Velen (1868-1940) %%
-					name=Hermann
-					dynasty=1002256
-					religion=catholic culture=german
-					father=100036250	# Alexander Strachwitz v.Groß-Zauche u.Camminetz
-					1846.01.01={birth=yes}	# Gleiwitz
-					1895.01.01={add_spouse=100086592}	# BSS Emma von Landsberg-Velen
-					1919.01.01={death=yes}	# Groß-Reichenau
-				}
-					100036248={ # Rudolf (3 Jan 1896-Gross-Reichenau 13 Aug 1969); m.1946 Barbara Greene (1907-1991) %%
-						name=Rudolf
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036249	# Hermann Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100086592	# BSS Emma von Landsberg-Velen
-						1896.01.03={birth=yes}
-						1946.01.01={add_spouse=100086503}	# Barbara Greene
-						1969.08.13={death=yes}	# Gross-Reichenau
-					}
-						100036247={ # Rupert (b.Luzern, Schweiz 30 Apr 1947); m.5 Oct 1974 Franziska Elisabeth von Hanau (b.27 Oct 1954) %%
-							name=Rupert
-							dynasty=1002256
-							religion=catholic culture=german
-							father=100036248	# Rudolf Strachwitz v.Groß-Zauche u.Camminetz
-							mother=100086503	# Barbara Greene
-							1947.04.30={birth=yes}	# Luzern, Schweiz
-							1974.10.05={add_spouse=100515297}	# Franziska Elisabeth von Hanau
-							1986.01.01={remove_spouse=100515297}
-						}
-					100036267={ # Arthur (18 Dec 1905-8 Oct 1996); m.12 Feb 1944 Maria Theresia v. Liechtenstein (14 Jan 1908-30 Sep 1973) %%
-						name=Arthur
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036249	# Hermann Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100086592	# BSS Emma von Landsberg-Velen
-						1905.12.18={birth=yes}
-						1944.02.12={add_spouse=100022784}	# Maria Theresia v. Liechtenstein
-						1996.10.08={death=yes}
-					}
-				100036271={ # Alfred (Bertelsdorf 25 Sep 1854-Bertelsdorf 23 Apr 1926); m.1 May 1878 Alice Henckel v.Donnersmarck (Wiesenau Carinthia 16 Jun 1859-Bertelsdorf Kreis Lauban 13 Sep 1927) %%
-					name=Alfred
-					dynasty=1002256
-					religion=catholic culture=german
-					father=100036250	# Alexander Strachwitz v.Groß-Zauche u.Camminetz
-					1854.09.25={birth=yes}  # Bertelsdorf
-					1878.05.01={add_spouse=100001397}	# Alice Henckel v.Donnersmarck
-					1926.04.23={death=yes}  # Bertelsdorf
-				}
-					100036272={ # Beatrice (1890-1967) %%
-						name=Beatrice
-						female=yes
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036271	# Alfred Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100001397	# Alice Henckel v.Donnersmarck
-						1890.01.01={birth=yes}
-						1967.01.01={death=yes}
-					}		
-		100036260={ # Karl Hans (Peterwitz 1792-Peterwitz 1863); m.1822 Louise von Schimony-Schimonsky (1803-1835) %%
-			name="Karl Hans"
-			dynasty=1002256
-			religion=catholic culture=german
-			father=100036805	# Ernst Joachim Strachwitz v.Groß-Zauche u.Camminetz
-			1792.01.01={birth=yes}	# Peterwitz
-			1822.01.01={add_spouse=100092327}	# Louise von Schimony-Schimonsky
-			1863.01.01={death=yes}	# Peterwitz
-		}
-			100036259={ # Georg (1823-1888); m.1857 Css Walpurga Praschma (1830-1889) %%
-				name=Georg
-				dynasty=1002256
-				religion=catholic culture=german
-				father=100036260	# Karl Hans Strachwitz v.Groß-Zauche u.Camminetz
-				mother=100092327	# Louise von Schimony-Schimonsky
-				1823.01.01={birth=yes}
-				1857.01.01={add_spouse=100090636}	# CSS Walpurga Praschma
-				1888.01.01={death=yes}
-			}
-				100036269={ # Ludwig (Falkenberg 17 Jun 1858-Peterwitz 6 Jun 1928); m.22 Aug 1882 Karoline Blücher von Wallstadt (Radun 29 Dec 1863-Peterwitz 31 Dec 1943) %%
-					name=Ludwig
-					dynasty=1002256
-					religion=catholic culture=german
-					trait=twin
-					father=100036259	# Georg Strachwitz v.Groß-Zauche u.Camminetz
-					mother=100090636	# CSS Walpurga Praschma
-					1858.06.17={birth=yes}  # Falkenberg
-					1882.08.22={add_spouse=100000455}	# Karoline Blücher von Wallstadt
-					1928.06.06={death=yes}  # Peterwitz
-				}
-				100036258={ # Friedrich (Falkenberg 17 Jun 1858-Schräbsdorf 12 Nov 1923); m.1895 Css Frida von Soden-Fraunhofen (1870-1956) %%
-					name=Friedrich
-					dynasty=1002256
-					religion=catholic culture=german
-					trait=twin
-					father=100036259	# Georg Strachwitz v.Groß-Zauche u.Camminetz
-					mother=100090636	# CSS Walpurga Praschma
-					1858.06.17={birth=yes}  # Falkenberg
-					1895.01.01={add_spouse=100085762}	# CSS Frida von Soden-Fraunhofen
-					1923.11.12={death=yes}	# Schräbsdorf
-				}
-					100036257={ # Maria Franziska (Schräbsdorf 22 Sep 1896-München 16 Oct 1974); m.1 May 1918 Wolfgang v. Rechberg u.Rothenlöwen zu Hohenrechberg (Elkofen 7 Dec 1883-Ebersberg 25 Dec 1971) %%
-						name="Maria Franziska"
-						female=yes
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036258	# Friedrich Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100085762	# CSS Frida von Soden-Fraunhofen
-						1896.09.22={birth=yes}	# Schräbsdorf
-						1974.10.16={death=yes}	# München
-					}
-		100036264={ # Karl (1796-1866) %%
-			name=Karl
-			dynasty=1002256
-			religion=catholic culture=german
-			father=100036805	# Ernst Joachim Strachwitz v.Groß-Zauche u.Camminetz
-			1796.01.01={birth=yes}
-			1866.01.01={death=yes}
-		}
-			100036263={ # Hugo (1826-1904); m.1866 Frn Gertrude von Brentano (1842-1874) %%
-				name=Hugo
-				dynasty=1002256
-				religion=catholic culture=german
-				father=100036264	# Karl Strachwitz v.Groß-Zauche u.Camminetz
-				1826.01.01={birth=yes}
-				1866.01.01={add_spouse=100099293}	# FRN Gertrude von Brentano
-				1904.01.01={death=yes}
-			}
-				100036262={ # Friedrich (1867-1927); m.14 Feb 1898 Karoline v. Thurn und Taxis (26 Sep 1875-10 Dec 1940) %%
-					name=Friedrich
-					dynasty=1002256
-					religion=catholic culture=german
-					father=100036263	# Hugo Strachwitz v.Groß-Zauche u.Camminetz
-					mother=100099293	# FRN Gertrude von Brentano
-					1867.01.01={birth=yes}
-					1898.02.14={add_spouse=100006596}	# Karoline v. Thurn und Taxis
-					1927.01.01={death=yes}
-				}
-					100036266={ # Hugo (Zdounek 26 Feb 1900-21 Feb 1978); m.9 Jul 1929 Anna Maria Czernin v.u.zu Chudenitz (31 Jul 1905-10 Nov 1993) %%
-						name=Hugo
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036262	# Friedrich Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100006596	# Karoline v. Thurn und Taxis
-						1900.02.26={birth=yes}	# Zdounek
-						1929.07.09={add_spouse=100186454}	# Anna Maria Czernin v.u.zu Chudenitz
-						1978.02.21={death=yes}
-					}
-					100036265={ # Maria Caroline (Zdounky 12 Jul 1901-Boskovice 5 Dec 1971); m.24 May 1923 Alfons-Karl von Mensdorff-Pouilly (Boskovice 20 Jul 1891-Boskovice 7 Oct 1973) %%
-						name="Maria Caroline"
-						female=yes
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036262	# Friedrich Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100006596	# Karoline v. Thurn und Taxis
-						1901.07.12={birth=yes}  # Zdounky
-						1971.12.05={death=yes}  # Boskovice
-					}
-					100036261={ # Friedrich (2 Jun 1904-22 Jan 1985); m.26 Jan 1937 Antonia Lobkowicz (8 Aug 1914-18 Oct 2003) %%
-						name=Friedrich
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036262	# Friedrich Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100006596	# Karoline v. Thurn und Taxis
-						1904.06.02={birth=yes}
-						1937.01.26={add_spouse=100185188}	# Antonia Lobkowicz
-						1985.01.22={death=yes}
-					}
-			100036270={ # Felix (Lassoth 15 Nov 1846-Neiße 25 Feb 1892); m.7 Jun 1881 Eleonora Henckel v.Donnersmarck (Breslau 13 Jan 1858-Meran 14 Jan 1909) %%
-				name=Felix
-				dynasty=1002256
-				religion=catholic culture=german
-				father=100036264	# Karl Strachwitz v.Groß-Zauche u.Camminetz
-				1846.11.15={birth=yes}  # Lassoth
-				1881.06.07={add_spouse=100001277}	# Eleonora Henckel v.Donnersmarck
-				1892.02.25={death=yes}  # Neiße
-			}
-	100036276={ # Karl (1770-1837); m.1798 Therese Leutrum von Ertringen (1775-1806) %%
-		name=Karl
-		dynasty=1002256
-		religion=catholic culture=german
-		father=100036277	# Karl Joseph Strachwitz v.Groß-Zauche u.Camminetz
-		mother=100085189	# Marianna Bujakowski
-		1770.01.01={birth=yes}
-		1798.01.01={add_spouse=100083406}	# Therese Leutrum von Ertringen
-		1837.01.01={death=yes}
-	}
-		100036274={ # Ernst Karl (1799-1869); m.1832 Frn Mathilde von Erstenberg zum Freyenthurm (1803-1878) %%
-			name="Ernst Karl"
-			dynasty=1002256
-			religion=catholic culture=german
-			father=100036276	# Karl Strachwitz v.Groß-Zauche u.Camminetz
-			mother=100083406	# Therese Leutrum von Ertringen
-			1799.01.01={birth=yes}
-			1832.01.01={add_spouse=100082094}	# FRN Mathilde von Erstenberg zum Freyenthurm
-			1869.01.01={death=yes}
-		}
-			100036254={ # Karl (Kaminietz 7 Jan 1833-Kaminietz 12 Dec 1895); m.1867 Css Luise Auguste von Hohenthal (1840-1922) %%
-				name=Karl
-				dynasty=1002256
-				religion=catholic culture=german
-				father=100036274	# Ernst Karl Strachwitz v.Groß-Zauche u.Camminetz
-				mother=100082094	# FRN Mathilde von Erstenberg zum Freyenthurm
-				1833.01.07={birth=yes}	# Kaminietz
-				1867.01.01={add_spouse=100091991}	# CSS Luise Auguste von Hohenthal
-				1895.12.12={death=yes}	# Kaminietz
-			}
-				100036253={ # Adolf (1868-1923); m.1st 1897 Frn Valentine Gabriele von Reitzenstein (1877-1938); m.2nd 1901 Css Ruth Elisabeth von Schmettow (1879-1966) %%
-					name=Adolf
-					dynasty=1002256
-					religion=catholic culture=german
-					father=100036254	# Karl Strachwitz v.Groß-Zauche u.Camminetz
-					mother=100091991	# CSS Luise Auguste von Hohenthal
-					1868.01.01={birth=yes}
-					1897.01.01={add_spouse=100091870}	# FRN Valentine Gabriele von Reitzenstein
-					1901.01.01={add_spouse=100086367}	# CSS Ruth Elisabeth von Schmettow
-					1923.01.01={death=yes}
-				}
-					100036252={ # Arthur (1898-1976); m.1934 Dorothea Gertrud Güttler (1897-1965) %%
-						name=Arthur
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036253	# Adolf Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100091870	# FRN Valentine Gabriele von Reitzenstein
-						1898.01.01={birth=yes}
-						1934.01.01={add_spouse=100090644}	# Dorothea Gertrud Güttler
-						1976.01.01={death=yes}
-					}
-						100036251={ # Monika (b.1935); m.9 May 1962 Hermann v. Hessen (b.Herleshausen 21 Aug 1935) %%
-							name=Monika
-							female=yes
-							dynasty=1002256
-							religion=catholic culture=german
-							father=100036252	# Arthur Strachwitz v.Groß-Zauche u.Camminetz
-							mother=100090644	# Dorothea Gertrud Güttler
-							1935.01.01={birth=yes}
-							2012.01.01={death=yes}  # EST.
-						}
-					100036245={ # Ernst-Joachim (1902-1953); m.1943 Margarethe Fiebig (1910-1974) %%
-						name=Ernst-Joachim
-						dynasty=1002256
-						religion=catholic culture=german
-						father=100036253	# Adolf Strachwitz v.Groß-Zauche u.Camminetz
-						mother=100086367	# CSS Ruth Elisabeth von Schmettow
-						1902.01.01={birth=yes}
-						1943.01.01={add_spouse=100085510}	# Margarethe Fiebig
-						1953.01.01={death=yes}
-					}
-						100036244={ # Friedrich Franz (b.1944); m.1978 Dorothea Schwark (b.1945) %%
-							name="Friedrich Franz"
-							dynasty=1002256
-							religion=catholic culture=german
-							father=100036245	# Ernst-Joachim Strachwitz v.Groß-Zauche u.Camminetz
-							mother=100085510	# Margarethe Fiebig
-							1944.01.01={birth=yes}
-							1978.01.01={add_spouse=100084971}	# Dorothea Schwark
-						}
-							100036243={ # Michaela (b.19 Mar 1979); m.16 Aug 2003 Alexander Biron (b.18 Sep 1972) %%
-								name=Michaela
-								female=yes
-								dynasty=1002256
-								religion=catholic culture=german
-								father=100036244	# Friedrich Franz Strachwitz v.Groß-Zauche u.Camminetz
-								mother=100084971	# Dorothea Schwark
-								1979.03.19={birth=yes}
-							}
-
-100036810={ # Johann Friedrich Strachwitz v.Groß-Zauche u.Camminetz (21 Jul 1722-8 Oct 1789) %%
+## STRACHWITZ
+100035186={ # Johann Friedrich Strachwitz v.Groß-Zauche u.Camminetz (1679-1731) %%
 	name="Johann Friedrich"
 	dynasty=1002256
 	religion=catholic culture=german
-	1722.07.21={birth=yes}
-	1789.10.08={death=yes}
+	1679.01.01={birth=yes}
+	1731.01.01={death=yes}
 }
-	100036809={ # Anton (Bruschewitz 8 Jun 1760-Kostau, Byczyna, Powiat Kluczborski, Woiwodschaft Oppeln, Pl 4 Oct 1851) %%
-		name=Anton
+	100036810={ # Johann Friedrich (21 Jul 1722-8 Oct 1789) %%
+		name="Johann Friedrich"
 		dynasty=1002256
 		religion=catholic culture=german
-		father=100036810	# Johann Friedrich Strachwitz v.Groß-Zauche u.Camminetz
-		1760.06.08={birth=yes}	# Bruschewitz
-		1851.10.04={death=yes}	# Kostau, Byczyna, Powiat Kluczborski, Woiwodschaft Oppeln, Pl
+		father=100035186	# Johann Friedrich Strachwitz v.Groß-Zauche u.Camminetz
+		1722.07.21={birth=yes}
+		1789.10.08={death=yes}
 	}
-		100036808={ # Anton (Bruschewitz 2 Jul 1793-Bruschewitz 2 Jan 1851) %%
+		100036809={ # Anton (Bruschewitz 8 Jun 1760-Kostau, Byczyna, Powiat Kluczborski, Woiwodschaft Oppeln, Pl 4 Oct 1851) %%
 			name=Anton
 			dynasty=1002256
 			religion=catholic culture=german
-			father=100036809	# Anton Strachwitz v.Groß-Zauche u.Camminetz
-			1793.07.02={birth=yes}	# Bruschewitz
-			1851.01.02={death=yes}	# Bruschewitz
+			father=100036810	# Johann Friedrich Strachwitz v.Groß-Zauche u.Camminetz
+			1760.06.08={birth=yes}	# Bruschewitz
+			1851.10.04={death=yes}	# Kostau, Byczyna, Powiat Kluczborski, Woiwodschaft Oppeln, Pl
 		}
-			100036807={ # Mauritz (Bruschewitz 27 May 1822-Opotschno 19 Jun 1881) %%
-				name=Mauritz
+			100036808={ # Anton (Bruschewitz 2 Jul 1793-Bruschewitz 2 Jan 1851) %%
+				name=Anton
 				dynasty=1002256
 				religion=catholic culture=german
-				father=100036808	# Anton Strachwitz v.Groß-Zauche u.Camminetz
-				1822.05.27={birth=yes}	# Bruschewitz
-				1881.06.19={death=yes}	# Opotschno
+				father=100036809	# Anton Strachwitz v.Groß-Zauche u.Camminetz
+				1793.07.02={birth=yes}	# Bruschewitz
+				1851.01.02={death=yes}	# Bruschewitz
 			}
-				100036806={ # Mauritz (Bruschewitz 25 Sep 1870-Breslau 6 Sep 1939) %%
+				100036807={ # Mauritz (Bruschewitz 27 May 1822-Opotschno 19 Jun 1881) %%
 					name=Mauritz
 					dynasty=1002256
 					religion=catholic culture=german
-					father=100036807	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
-					1870.09.25={birth=yes}	# Bruschewitz
-					1939.09.06={death=yes}	# Breslau
+					father=100036808	# Anton Strachwitz v.Groß-Zauche u.Camminetz
+					1822.05.27={birth=yes}	# Bruschewitz
+					1881.06.19={death=yes}	# Opotschno
 				}
-					100036256={ # Mauritz (Bruschewitz 12 Dec 1898-Camp Asbest, Sverdlovsk Oblast 10 Dec 1953); m.8 Sep 1936 Bss Elisabeth von Landsberg-Velen (1905-1987) %%
+					100036806={ # Mauritz (Bruschewitz 25 Sep 1870-Breslau 6 Sep 1939) %%
 						name=Mauritz
 						dynasty=1002256
 						religion=catholic culture=german
-						father=100036806	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
-						1898.12.12={birth=yes}	# Bruschewitz
-						1936.09.08={add_spouse=100090642}	# BSS Elisabeth von Landsberg-Velen
-						1953.12.10={death=yes}	# Camp Asbest, Sverdlovsk Oblast
+						father=100036807	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
+						1870.09.25={birth=yes}	# Bruschewitz
+						1939.09.06={death=yes}	# Breslau
 					}
-						100036268={ # Marie-Elisabeth (24 Oct 1927-21 Jan 2012); m.20 Feb 1954 Wolfgang Günther zu Stolberg-Stolberg (5 Aug 1922-7 Feb 1993) %%
-							name=Marie-Elisabeth
-							female=yes
+						100036256={ # Mauritz (Bruschewitz 12 Dec 1898-Camp Asbest, Sverdlovsk Oblast 10 Dec 1953); m.8 Sep 1936 Bss Elisabeth von Landsberg-Velen (1905-1987) %%
+							name=Mauritz
 							dynasty=1002256
 							religion=catholic culture=german
-							father=100036256	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
-							mother=100090642	# BSS Elisabeth von Landsberg-Velen
-							1927.10.24={birth=yes}
-							2012.01.21={death=yes}
+							father=100036806	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
+							1898.12.12={birth=yes}	# Bruschewitz
+							1936.09.08={add_spouse=100090642}	# BSS Elisabeth von Landsberg-Velen
+							1953.12.10={death=yes}	# Camp Asbest, Sverdlovsk Oblast
 						}
-						100036255={ # Wolfram (Maserwitz 10 Aug 1933-4 Nov 2010); m.10 Aug 1962 Anna de Croÿ (b.24 Feb 1943) %%
-							name=Wolfram
-							dynasty=1002256
-							religion=catholic culture=german
-							father=100036256	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
-							mother=100090642	# BSS Elisabeth von Landsberg-Velen
-							1933.08.10={birth=yes}	# Maserwitz
-							1962.08.10={add_spouse=100000680}	# Anna de Croÿ
-							2010.11.04={death=yes}
-						}
-							100036246={ # Wolfram (b.Detmold 9 Jul 1963); m.1990 Caroline v. Montgelas (b.25 Jun 1966) %%
+							100036268={ # Marie-Elisabeth (24 Oct 1927-21 Jan 2012); m.20 Feb 1954 Wolfgang Günther zu Stolberg-Stolberg (5 Aug 1922-7 Feb 1993) %%
+								name=Marie-Elisabeth
+								female=yes
+								dynasty=1002256
+								religion=catholic culture=german
+								father=100036256	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
+								mother=100090642	# BSS Elisabeth von Landsberg-Velen
+								1927.10.24={birth=yes}
+								2012.01.21={death=yes}
+							}
+							100036255={ # Wolfram (Maserwitz 10 Aug 1933-4 Nov 2010); m.10 Aug 1962 Anna de Croÿ (b.24 Feb 1943) %%
 								name=Wolfram
 								dynasty=1002256
 								religion=catholic culture=german
-								father=100036255	# Wolfram Strachwitz v.Groß-Zauche u.Camminetz
-								mother=100000680	# Anna de Croÿ
-								1963.07.09={birth=yes}	# Detmold
-								1990.01.01={add_spouse=100036801}	# Caroline v. Montgelas
+								father=100036256	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
+								mother=100090642	# BSS Elisabeth von Landsberg-Velen
+								1933.08.10={birth=yes}	# Maserwitz
+								1962.08.10={add_spouse=100000680}	# Anna de Croÿ
+								2010.11.04={death=yes}
 							}
-								100036802={ # Madeleine (b.München 21 Feb 1997) %%
-									name=Madeleine
+								100036246={ # Wolfram (b.Detmold 9 Jul 1963); m.1990 Caroline v. Montgelas (b.25 Jun 1966) %%
+									name=Wolfram
 									dynasty=1002256
 									religion=catholic culture=german
-									father=100036246	# Wolfram Strachwitz v.Groß-Zauche u.Camminetz
-									mother=100036801	# Caroline v. Montgelas
-									1997.02.21={birth=yes}	# München
+									father=100036255	# Wolfram Strachwitz v.Groß-Zauche u.Camminetz
+									mother=100000680	# Anna de Croÿ
+									1963.07.09={birth=yes}	# Detmold
+									1990.01.01={add_spouse=100036801}	# Caroline v. Montgelas
 								}
-
-100036609={ # Kurt Strachwitz v.Groß-Zauche u.Camminetz (Meran 28 Feb 1890-Wien 28 Nov 1961) %%
-	name=Kurt
-	dynasty=1002256
-	religion=catholic culture=german
-	1890.02.28={birth=yes}	# Meran
-	1961.11.28={death=yes}	# Wien
-}
-	100036607={ # Maria Antonia (3 Sep 1922-17 Nov 2005); m.15 Jun 1948 Friedrich Wilhelm von Hanau (27 Apr 1923-16 Feb 1998) %%
-		name="Maria Antonia"
-		female=yes
+									100036802={ # Madeleine (b.München 21 Feb 1997) %%
+										name=Madeleine
+										dynasty=1002256
+										religion=catholic culture=german
+										father=100036246	# Wolfram Strachwitz v.Groß-Zauche u.Camminetz
+										mother=100036801	# Caroline v. Montgelas
+										1997.02.21={birth=yes}	# München
+									}
+	100036277={ # Karl Joseph (Sodow OS 3 Mar 1724-Sacrau 10 Jul 1810); m.1754 Marianna Bujakowski (1732-1775) %%
+		name="Karl Joseph"
 		dynasty=1002256
 		religion=catholic culture=german
-		father=100036609	# Kurt Strachwitz v.Groß-Zauche u.Camminetz
-		1922.09.03={birth=yes}
-		2005.11.17={death=yes}
+		father=100035186	# Johann Friedrich Strachwitz v.Groß-Zauche u.Camminetz
+		1724.03.03={birth=yes}	# Sodow OS
+		1754.01.01={add_spouse=100085189}	# Marianna Bujakowski
+		1810.07.10={death=yes}	# Sacrau
 	}
-	100036610={ # Oswald (b.London 3 Jan 1925) %%
-		name=Oswald
-		dynasty=1002256
-		religion=catholic culture=german
-		father=100036609	# Kurt Strachwitz v.Groß-Zauche u.Camminetz
-		1925.01.03={birth=yes}	# London
-		2005.01.01={death=yes}	# EST.
-	}
-		100036608={ # James Rupert (b.London 16 May 1965); m.12 Sep 1997 Katharina Elisabeth von Solms-Laubach (b.11 Feb 1964) %%
-			name="James Rupert"
+		100036805={ # Ernst Joachim (Sacrau-Oberwitz 7 Sep 1755-Krawarn 5 Mar 1826) %%
+			name="Ernst Joachim"
 			dynasty=1002256
 			religion=catholic culture=german
-			father=100036610	# Oswald Strachwitz v.Groß-Zauche u.Camminetz
-			1965.05.16={birth=yes}	# London
-			1997.09.12={add_spouse=100005649}	# Katharina Elisabeth von Solms-Laubach
+			father=100036277	# Karl Joseph Strachwitz v.Groß-Zauche u.Camminetz
+			mother=100085189	# Marianna Bujakowski
+			1755.09.07={birth=yes}	# Sacrau-Oberwitz
+			1826.03.05={death=yes}	# Krawarn
 		}
+			100036275={ # Franz (Kalinow 20 Sep 1782-Sacrau 23 Feb 1845); m.1816 Karoline Theresia Hentschel von Gilgenheimb (1790-1826) %%
+				name=Franz
+				dynasty=1002256
+				religion=catholic culture=german
+				father=100036805	# Ernst Joachim Strachwitz v.Groß-Zauche u.Camminetz
+				1782.09.20={birth=yes}	# Kalinow
+				1816.01.01={add_spouse=100084689}	# Karoline Theresia Hentschel von Gilgenheimb
+				1845.02.23={death=yes}	# Sacrau
+			}
+				100036250={ # Alexander (Sacrau 1817-Bertelsdorf 1866) %%
+					name=Alexander
+					dynasty=1002256
+					religion=catholic culture=german
+					father=100036275	# Franz Strachwitz v.Groß-Zauche u.Camminetz
+					mother=100084689	# Karoline Theresia Hentschel von Gilgenheimb
+					1817.01.01={birth=yes}	# Sacrau
+					1866.01.01={death=yes}	# Bertelsdorf
+				}
+					100036249={ # Hermann (Gleiwitz 1846-Groß-Reichenau 1919); m.1895 Bss Emma von Landsberg-Velen (1868-1940) %%
+						name=Hermann
+						dynasty=1002256
+						religion=catholic culture=german
+						father=100036250	# Alexander Strachwitz v.Groß-Zauche u.Camminetz
+						1846.01.01={birth=yes}	# Gleiwitz
+						1895.01.01={add_spouse=100086592}	# BSS Emma von Landsberg-Velen
+						1919.01.01={death=yes}	# Groß-Reichenau
+					}
+						100036248={ # Rudolf (3 Jan 1896-Gross-Reichenau 13 Aug 1969); m.1946 Barbara Greene (1907-1991) %%
+							name=Rudolf
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036249	# Hermann Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100086592	# BSS Emma von Landsberg-Velen
+							1896.01.03={birth=yes}
+							1946.01.01={add_spouse=100086503}	# Barbara Greene
+							1969.08.13={death=yes}	# Gross-Reichenau
+						}
+							100036247={ # Rupert (b.Luzern, Schweiz 30 Apr 1947); m.5 Oct 1974 Franziska Elisabeth von Hanau (b.27 Oct 1954) %%
+								name=Rupert
+								dynasty=1002256
+								religion=catholic culture=german
+								father=100036248	# Rudolf Strachwitz v.Groß-Zauche u.Camminetz
+								mother=100086503	# Barbara Greene
+								1947.04.30={birth=yes}	# Luzern, Schweiz
+								1974.10.05={add_spouse=100515297}	# Franziska Elisabeth von Hanau
+								1986.01.01={remove_spouse=100515297}
+							}
+						100036267={ # Arthur (18 Dec 1905-8 Oct 1996); m.12 Feb 1944 Maria Theresia v. Liechtenstein (14 Jan 1908-30 Sep 1973) %%
+							name=Arthur
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036249	# Hermann Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100086592	# BSS Emma von Landsberg-Velen
+							1905.12.18={birth=yes}
+							1944.02.12={add_spouse=100022784}	# Maria Theresia v. Liechtenstein
+							1996.10.08={death=yes}
+						}
+					100036271={ # Alfred (Bertelsdorf 25 Sep 1854-Bertelsdorf 23 Apr 1926); m.1 May 1878 Alice Henckel v.Donnersmarck (Wiesenau Carinthia 16 Jun 1859-Bertelsdorf Kreis Lauban 13 Sep 1927) %%
+						name=Alfred
+						dynasty=1002256
+						religion=catholic culture=german
+						father=100036250	# Alexander Strachwitz v.Groß-Zauche u.Camminetz
+						1854.09.25={birth=yes}  # Bertelsdorf
+						1878.05.01={add_spouse=100001397}	# Alice Henckel v.Donnersmarck
+						1926.04.23={death=yes}  # Bertelsdorf
+					}
+						100036272={ # Beatrice (1890-1967) %%
+							name=Beatrice
+							female=yes
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036271	# Alfred Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100001397	# Alice Henckel v.Donnersmarck
+							1890.01.01={birth=yes}
+							1967.01.01={death=yes}
+						}		
+			100036260={ # Karl Hans (Peterwitz 1792-Peterwitz 1863); m.1822 Louise von Schimony-Schimonsky (1803-1835) %%
+				name="Karl Hans"
+				dynasty=1002256
+				religion=catholic culture=german
+				father=100036805	# Ernst Joachim Strachwitz v.Groß-Zauche u.Camminetz
+				1792.01.01={birth=yes}	# Peterwitz
+				1822.01.01={add_spouse=100092327}	# Louise von Schimony-Schimonsky
+				1863.01.01={death=yes}	# Peterwitz
+			}
+				100036259={ # Georg (1823-1888); m.1857 Css Walpurga Praschma (1830-1889) %%
+					name=Georg
+					dynasty=1002256
+					religion=catholic culture=german
+					father=100036260	# Karl Hans Strachwitz v.Groß-Zauche u.Camminetz
+					mother=100092327	# Louise von Schimony-Schimonsky
+					1823.01.01={birth=yes}
+					1857.01.01={add_spouse=100090636}	# CSS Walpurga Praschma
+					1888.01.01={death=yes}
+				}
+					100036269={ # Ludwig (Falkenberg 17 Jun 1858-Peterwitz 6 Jun 1928); m.22 Aug 1882 Karoline Blücher von Wallstadt (Radun 29 Dec 1863-Peterwitz 31 Dec 1943) %%
+						name=Ludwig
+						dynasty=1002256
+						religion=catholic culture=german
+						trait=twin
+						father=100036259	# Georg Strachwitz v.Groß-Zauche u.Camminetz
+						mother=100090636	# CSS Walpurga Praschma
+						1858.06.17={birth=yes}  # Falkenberg
+						1882.08.22={add_spouse=100000455}	# Karoline Blücher von Wallstadt
+						1928.06.06={death=yes}  # Peterwitz
+					}
+						100035187={ # Ludwig (Schräbsdorf 5 Jul 1906-Bogota 17 Nov 1957) %%
+							name=Ludwig
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036269	# Ludwig Strachwitz v.Groß-Zauche u.Camminetz
+							1906.07.05={birth=yes}	# Schräbsdorf
+							1957.11.17={death=yes}	# Bogota
+						}
+							100035185={ # Vita (b.Berlin 22 Apr 1931); m.3 Apr 1956 László Hadik de Futak (Budapest 7 May 1932-Boston 31 Jul 1973) %%
+								name=Vita
+								female=yes
+								dynasty=1002256
+								religion=catholic culture=german
+								father=100035187	# Ludwig Strachwitz v.Groß-Zauche u.Camminetz
+								1931.04.22={birth=yes}  # Berlin
+								2008.01.01={death=yes}  # EST.
+							}
+					100036258={ # Friedrich (Falkenberg 17 Jun 1858-Schräbsdorf 12 Nov 1923); m.1895 Css Frida von Soden-Fraunhofen (1870-1956) %%
+						name=Friedrich
+						dynasty=1002256
+						religion=catholic culture=german
+						trait=twin
+						father=100036259	# Georg Strachwitz v.Groß-Zauche u.Camminetz
+						mother=100090636	# CSS Walpurga Praschma
+						1858.06.17={birth=yes}  # Falkenberg
+						1895.01.01={add_spouse=100085762}	# CSS Frida von Soden-Fraunhofen
+						1923.11.12={death=yes}	# Schräbsdorf
+					}
+						100036257={ # Maria Franziska (Schräbsdorf 22 Sep 1896-München 16 Oct 1974); m.1 May 1918 Wolfgang v. Rechberg u.Rothenlöwen zu Hohenrechberg (Elkofen 7 Dec 1883-Ebersberg 25 Dec 1971) %%
+							name="Maria Franziska"
+							female=yes
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036258	# Friedrich Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100085762	# CSS Frida von Soden-Fraunhofen
+							1896.09.22={birth=yes}	# Schräbsdorf
+							1974.10.16={death=yes}	# München
+						}
+			100036264={ # Karl (1796-1866) %%
+				name=Karl
+				dynasty=1002256
+				religion=catholic culture=german
+				father=100036805	# Ernst Joachim Strachwitz v.Groß-Zauche u.Camminetz
+				1796.01.01={birth=yes}
+				1866.01.01={death=yes}
+			}
+				100036263={ # Hugo (1826-1904); m.1866 Frn Gertrude von Brentano (1842-1874) %%
+					name=Hugo
+					dynasty=1002256
+					religion=catholic culture=german
+					father=100036264	# Karl Strachwitz v.Groß-Zauche u.Camminetz
+					1826.01.01={birth=yes}
+					1866.01.01={add_spouse=100099293}	# FRN Gertrude von Brentano
+					1904.01.01={death=yes}
+				}
+					100036262={ # Friedrich (1867-1927); m.14 Feb 1898 Karoline v. Thurn und Taxis (26 Sep 1875-10 Dec 1940) %%
+						name=Friedrich
+						dynasty=1002256
+						religion=catholic culture=german
+						father=100036263	# Hugo Strachwitz v.Groß-Zauche u.Camminetz
+						mother=100099293	# FRN Gertrude von Brentano
+						1867.01.01={birth=yes}
+						1898.02.14={add_spouse=100006596}	# Karoline v. Thurn und Taxis
+						1927.01.01={death=yes}
+					}
+						100036266={ # Hugo (Zdounek 26 Feb 1900-21 Feb 1978); m.9 Jul 1929 Anna Maria Czernin v.u.zu Chudenitz (31 Jul 1905-10 Nov 1993) %%
+							name=Hugo
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036262	# Friedrich Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100006596	# Karoline v. Thurn und Taxis
+							1900.02.26={birth=yes}	# Zdounek
+							1929.07.09={add_spouse=100186454}	# Anna Maria Czernin v.u.zu Chudenitz
+							1978.02.21={death=yes}
+						}
+						100036265={ # Maria Caroline (Zdounky 12 Jul 1901-Boskovice 5 Dec 1971); m.24 May 1923 Alfons-Karl von Mensdorff-Pouilly (Boskovice 20 Jul 1891-Boskovice 7 Oct 1973) %%
+							name="Maria Caroline"
+							female=yes
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036262	# Friedrich Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100006596	# Karoline v. Thurn und Taxis
+							1901.07.12={birth=yes}  # Zdounky
+							1971.12.05={death=yes}  # Boskovice
+						}
+						100036261={ # Friedrich (2 Jun 1904-22 Jan 1985); m.26 Jan 1937 Antonia Lobkowicz (8 Aug 1914-18 Oct 2003) %%
+							name=Friedrich
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036262	# Friedrich Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100006596	# Karoline v. Thurn und Taxis
+							1904.06.02={birth=yes}
+							1937.01.26={add_spouse=100185188}	# Antonia Lobkowicz
+							1985.01.22={death=yes}
+						}
+				100036270={ # Felix (Lassoth 15 Nov 1846-Neiße 25 Feb 1892); m.7 Jun 1881 Eleonora Henckel v.Donnersmarck (Breslau 13 Jan 1858-Meran 14 Jan 1909) %%
+					name=Felix
+					dynasty=1002256
+					religion=catholic culture=german
+					father=100036264	# Karl Strachwitz v.Groß-Zauche u.Camminetz
+					1846.11.15={birth=yes}  # Lassoth
+					1881.06.07={add_spouse=100001277}	# Eleonora Henckel v.Donnersmarck
+					1892.02.25={death=yes}  # Neiße
+				}
+		100036276={ # Karl (1770-1837); m.1798 Therese Leutrum von Ertringen (1775-1806) %%
+			name=Karl
+			dynasty=1002256
+			religion=catholic culture=german
+			father=100036277	# Karl Joseph Strachwitz v.Groß-Zauche u.Camminetz
+			mother=100085189	# Marianna Bujakowski
+			1770.01.01={birth=yes}
+			1798.01.01={add_spouse=100083406}	# Therese Leutrum von Ertringen
+			1837.01.01={death=yes}
+		}
+			100036274={ # Ernst Karl (1799-1869); m.1832 Frn Mathilde von Erstenberg zum Freyenthurm (1803-1878) %%
+				name="Ernst Karl"
+				dynasty=1002256
+				religion=catholic culture=german
+				father=100036276	# Karl Strachwitz v.Groß-Zauche u.Camminetz
+				mother=100083406	# Therese Leutrum von Ertringen
+				1799.01.01={birth=yes}
+				1832.01.01={add_spouse=100082094}	# FRN Mathilde von Erstenberg zum Freyenthurm
+				1869.01.01={death=yes}
+			}
+				100036254={ # Karl (Kaminietz 7 Jan 1833-Kaminietz 12 Dec 1895); m.1867 Css Luise Auguste von Hohenthal (1840-1922) %%
+					name=Karl
+					dynasty=1002256
+					religion=catholic culture=german
+					father=100036274	# Ernst Karl Strachwitz v.Groß-Zauche u.Camminetz
+					mother=100082094	# FRN Mathilde von Erstenberg zum Freyenthurm
+					1833.01.07={birth=yes}	# Kaminietz
+					1867.01.01={add_spouse=100091991}	# CSS Luise Auguste von Hohenthal
+					1895.12.12={death=yes}	# Kaminietz
+				}
+					100036253={ # Adolf (1868-1923); m.1st 1897 Frn Valentine Gabriele von Reitzenstein (1877-1938); m.2nd 1901 Css Ruth Elisabeth von Schmettow (1879-1966) %%
+						name=Adolf
+						dynasty=1002256
+						religion=catholic culture=german
+						father=100036254	# Karl Strachwitz v.Groß-Zauche u.Camminetz
+						mother=100091991	# CSS Luise Auguste von Hohenthal
+						1868.01.01={birth=yes}
+						1897.01.01={add_spouse=100091870}	# FRN Valentine Gabriele von Reitzenstein
+						1901.01.01={add_spouse=100086367}	# CSS Ruth Elisabeth von Schmettow
+						1923.01.01={death=yes}
+					}
+						100036252={ # Arthur (1898-1976); m.1934 Dorothea Gertrud Güttler (1897-1965) %%
+							name=Arthur
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036253	# Adolf Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100091870	# FRN Valentine Gabriele von Reitzenstein
+							1898.01.01={birth=yes}
+							1934.01.01={add_spouse=100090644}	# Dorothea Gertrud Güttler
+							1976.01.01={death=yes}
+						}
+							100036251={ # Monika (b.1935); m.9 May 1962 Hermann v. Hessen (b.Herleshausen 21 Aug 1935) %%
+								name=Monika
+								female=yes
+								dynasty=1002256
+								religion=catholic culture=german
+								father=100036252	# Arthur Strachwitz v.Groß-Zauche u.Camminetz
+								mother=100090644	# Dorothea Gertrud Güttler
+								1935.01.01={birth=yes}
+								2012.01.01={death=yes}  # EST.
+							}
+						100036245={ # Ernst-Joachim (1902-1953); m.1943 Margarethe Fiebig (1910-1974) %%
+							name=Ernst-Joachim
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036253	# Adolf Strachwitz v.Groß-Zauche u.Camminetz
+							mother=100086367	# CSS Ruth Elisabeth von Schmettow
+							1902.01.01={birth=yes}
+							1943.01.01={add_spouse=100085510}	# Margarethe Fiebig
+							1953.01.01={death=yes}
+						}
+							100036244={ # Friedrich Franz (b.1944); m.1978 Dorothea Schwark (b.1945) %%
+								name="Friedrich Franz"
+								dynasty=1002256
+								religion=catholic culture=german
+								father=100036245	# Ernst-Joachim Strachwitz v.Groß-Zauche u.Camminetz
+								mother=100085510	# Margarethe Fiebig
+								1944.01.01={birth=yes}
+								1978.01.01={add_spouse=100084971}	# Dorothea Schwark
+							}
+								100036243={ # Michaela (b.19 Mar 1979); m.16 Aug 2003 Alexander Biron (b.18 Sep 1972) %%
+									name=Michaela
+									female=yes
+									dynasty=1002256
+									religion=catholic culture=german
+									father=100036244	# Friedrich Franz Strachwitz v.Groß-Zauche u.Camminetz
+									mother=100084971	# Dorothea Schwark
+									1979.03.19={birth=yes}
+								}
+			100035183={ # Mauritz (1804-1881) %%
+				name=Mauritz 
+				dynasty=1002256
+				religion=catholic culture=german
+				father=100036276	# Karl Strachwitz v.Groß-Zauche u.Camminetz
+				mother=100083406	# Therese Leutrum von Ertringen
+				1804.01.01={birth=yes}
+				1881.01.01={death=yes}
+			}
+				100035184={ # Zando (1839-1921) %%
+					name=Zando
+					dynasty=1002256
+					religion=catholic culture=german
+					father=100035183	# Mauritz Strachwitz v.Groß-Zauche u.Camminetz
+					1839.01.01={birth=yes}
+					1921.01.01={death=yes}
+				}
+					100036609={ # Kurt (Meran 28 Feb 1890-Wien 28 Nov 1961) %%
+						name=Kurt
+						dynasty=1002256
+						religion=catholic culture=german
+						father=100035184	# Zando Strachwitz v.Groß-Zauche u.Camminetz
+						1890.02.28={birth=yes}	# Meran
+						1961.11.28={death=yes}	# Wien
+					}
+						100036607={ # Maria Antonia (3 Sep 1922-17 Nov 2005); m.15 Jun 1948 Friedrich Wilhelm von Hanau (27 Apr 1923-16 Feb 1998) %%
+							name="Maria Antonia"
+							female=yes
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036609	# Kurt Strachwitz v.Groß-Zauche u.Camminetz
+							1922.09.03={birth=yes}
+							2005.11.17={death=yes}
+						}
+						100036610={ # Oswald (b.London 3 Jan 1925) %%
+							name=Oswald
+							dynasty=1002256
+							religion=catholic culture=german
+							father=100036609	# Kurt Strachwitz v.Groß-Zauche u.Camminetz
+							1925.01.03={birth=yes}	# London
+							2005.01.01={death=yes}	# EST.
+						}
+							100036608={ # James Rupert (b.London 16 May 1965); m.12 Sep 1997 Katharina Elisabeth von Solms-Laubach (b.11 Feb 1964) %%
+								name="James Rupert"
+								dynasty=1002256
+								religion=catholic culture=german
+								father=100036610	# Oswald Strachwitz v.Groß-Zauche u.Camminetz
+								1965.05.16={birth=yes}	# London
+								1997.09.12={add_spouse=100005649}	# Katharina Elisabeth von Solms-Laubach
+							}
+## STRACHWITZ
 
 ## DADVISARD		
 100036306={ # Gustave Dadvisard (1806-1879); m.2 Jul 1835 Thérèse de Gramont (23 Jun 1815-1879) %%
@@ -11206,7 +11102,6 @@
 				dynasty=1007074
 				religion=catholic culture=frankish
 				father=100036568	# Charles Dadvisard
-				mother=100066987	# Nathalie d’Oultremont
 				1919.12.25={birth=yes}  # Tours
 				1944.12.06={add_spouse=100066987}	# Nathalie d’Oultremont
 				2004.02.17={death=yes}
@@ -11250,6 +11145,7 @@
 		1961.10.25={add_spouse=100068892}	# Gabrielle de Rochechouart-Mortemart
 		1972.06.16={death=yes}  # Vierzy
 	}
+	
 100036478={ # Joseph de La Tour du Pin (b. ca.1840) %%
 	name=Joseph
 	dynasty=1007075
@@ -11274,6 +11170,8 @@
 			1933.06.19={add_spouse=100000699}	# Maximilienne Jeanne de Croÿ
 			1979.07.12={death=yes}
 		}
+## DE LA TOUR
+			
 100036280={ # Henri de La Tour du Pin (b.1823); m.1851 Emilie Celeste de Montault-des-Iles (1822-1857) %%
 	name=Henri
 	dynasty=1007075
@@ -11431,7 +11329,7 @@
 	}		
 
 ## ECONOMO
-100036471={ # Ioannes Andreas Economo von San Serff (Thessaloniki 20 Mar 1834-Wien 27 Apr 1910) %%
+100036471={ # Ioannes Andreas Economo von San Serff (Thessaloniki. 20 Mar 1834-Wien 27 Apr 1910) %%
 	name="Ioannes Andreas"
 	dynasty=1004602
 	religion=orthodox culture=greek
