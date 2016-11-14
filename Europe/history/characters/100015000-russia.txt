@@ -24,11 +24,89 @@
 ##  100019336-100019893		NARYSHKIN                         1010035	 275		 46/243 = 18,93%
 ##  100019614-100019659		BELOSSELSKY-BELOZERSKY            1010036	  46		  5/ 29 = 17,24%
 ##  100019660-100019883		BARIATINSKY                       1010037	 224		 16/152 = 10,53%
-##  100019950- 				Meshchersky						  1010038
+##  100019950- 				MESHCHERSKY						  1010038
 ##  100020100- 				BUTURLIN						  1010039
-##  100018000- 				Prozorovsky						  1010040
+##  100018000- 				PROZOROVSKY						  1010040
 #######################################################################################################
 
+# Vorontsov-Dashkov
+100101912={ # Ilarion Ivanovich (09.09.1760-30.03.1790), gentleman of the bedchamber, was married to Irina Ivanovna Ismailova (1768-1848), their son Ivan (1790-1854), chief master of ceremonies at the court of the Emperor Nicholas I of (1789) ; after the death of the last of the princes Dashkovs , with the consent of the Emperor Alexander I of , in 1807, I became known as Count Vorontsov-Dashkov.
+	name="Ivan Vorontsov-Dashkov"
+	dynasty=0
+	religion=orthodox culture=russian
+	1790.06.02={birth=yes}
+	1837.01.01={add_spouse=100019369}	# Aleksandra Naryshkin
+	1854.03.18={death=yes}
+}
+	# Irina (1835-1924), philanthropist, he was married to Lieutenant General, Adjutant General Count F. Paskevich .
+	100101741={ # Hilarion ( on May 27 1837  - January 25 1916 ), General of Cavalry, one of Russia's largest landowners.
+		name="Illarion Ivanovich Vorontsov-Dashkov"
+		dynasty=0
+		religion=orthodox culture=russian
+		father=100101912
+		mother=100019369
+		1837.03.17={birth=yes}  # Sankt Petersburg
+		1867.01.29={add_spouse=100019113}	# Elisaveta Shuvalov
+		1916.01.15={death=yes}  # Woronzow Castle Alupka
+	}
+		# Ivan (1868-1897) - aide-de-camp , Colonel of the Life Guards Hussar Regiment , the great-grandfather of actress Anne Vjazemski
+		100090208={ # Alexandra (1869-1959) - married to the Moscow governor, Major General gr. P. P. Shuvalov
+			name="Alexandra Illarionovna Vorontsov-Dashkov"
+			female=yes
+			dynasty=0
+			religion=orthodox culture=russian
+			father=100101741
+			mother=100019113
+			1869.04.28={birth=yes}
+			1959.07.10={death=yes}  # Paris
+		}
+		# Sofia (1870-1953) - married d.s.s., Chamberlain E. P. Demidov Prince of San Donato
+		100101961={ # Maria (1871-1927) - married to a member of the 4th State Duma , d.s.s. Earl B. V. Musin-Pushkin
+			name="Maria Ilarionovna Vorontsov-Dashkov"
+			female=yes
+			dynasty=0
+			religion=orthodox culture=russian
+			father=100101741
+			mother=100019113
+			1871.11.06={birth=yes}  # Meran
+			1927.09.13={death=yes}  # Salies-de-Béarn
+		}
+		100101744={ # Irina (1872-1959) - married to the adjutant, Colonel Count D. S. Sheremetev
+			name="Irina Ilarionovna Vorontsov-Dashkov"
+			female=yes
+			dynasty=0
+			religion=catholic culture=russian
+			father=100101741
+			mother=100019113
+			1872.12.02={birth=yes}  # St.Petersburg
+			1959.01.03={death=yes}  # Roma
+		}
+		# Roman (1874-1893) - a midshipman
+		100101109={ # Hilarion (1877-1932) - commander of Kabardian Cavalry Regiment , George Knight.
+			name="Ilarion Vorontsov-Dashkov"
+			dynasty=0
+			religion=orthodox culture=russian
+			father=100101741
+			mother=100019113
+			1877.01.01={birth=yes}  # Tsarskoye Selo
+			1900.09.10={add_spouse=100019365}	# Irina Wassilievna Naryshkin
+			1932.04.20={death=yes}	# Paris
+		}
+			# Roman (1901-1960)
+			100093548={ # Maria (1903-1997), married Prince Nikita Alexandrovich .
+				name="Maria Vorontsov-Dashkov"
+				female=yes
+				dynasty=0
+				religion=orthodox culture=russian
+				1903.02.13={birth=yes}
+				1997.06.15={death=yes}
+			}
+			# Michael (1904-2003)
+			# Alexander (1905-1987)
+			# Hilarion (1911-1982)
+		# Alexander (1881-1938) - adjutant, Colonel of the Life Guards Hussar Regiment. He was married to Princess Anne Ilyinichna Chavchavadze (1891-1943), granddaughter of Major General Prince David Chavchavadze Alexandrovich . Married sons were born: Hilary Alexander [5] .
+# Vorontsov-Dashkov		
+		
 
 ##  100018000- 				Prozorovsky						  1010040
 100019818={ # Prince Wassili Aleksandrovich Prosorovsky (fl 1581) m.Pss Agrafena Constantinovna Wolkonsky (d.1619) and had issue: $$
@@ -616,7 +694,7 @@
 							1699.01.01={death=yes}  # EST.
 						}
 							100020177={ # 1g) Ivan fl 1712; m.Akulina Chitrovo
-								name=Ivan
+								name="Ivan _fl"
 								dynasty=1010039
 								religion=orthodox culture=russian
 								father=100020169	# Fjodr Buturlin
@@ -771,23 +849,23 @@
 			dynasty=1010039
 			religion=orthodox culture=russian
 			father=100020181	# Polujecht Buturlin
-			1475.01.01={birth=yes}
-			1530.01.01={death=yes}
+			1490.01.01={birth=yes}
+			1555.01.01={death=yes}
 		}
 			100020185={ # 1c) Andrei fl 1539
 				name=Andrei
 				dynasty=1010039
 				religion=orthodox culture=russian
 				father=100020183	# Ivan Buturlin
-				1500.01.01={birth=yes}  # EST.
-				1560.01.01={death=yes}  # EST.
+				1528.01.01={birth=yes}  # EST.
+				1603.01.01={death=yes}  # EST.
 			}
 				100020187={ # 1d) Fjodr, k.a.after 1562
 					name=Fjodr
 					dynasty=1010039
 					religion=orthodox culture=russian
 					father=100020185	# Andrei Buturlin
-					1523.01.01={birth=yes}
+					1493.01.01={birth=yes}
 					1563.01.01={death=yes}
 				}
 					100020189={ # 1e) Wassili fl 1622
@@ -837,7 +915,7 @@
 							religion=orthodox culture=russian
 							father=100020189	# Wassili Buturlin
 							1604.01.01={birth=yes}
-							1674.01.01={death=yes}
+							1673.07.07={death=yes}
 						}
 							100020282={ # 1g) Ivan; m.Pss Stepanida Ivanovna Wolkonsky
 								name=Ivan
@@ -1369,24 +1447,24 @@
 						dynasty=1010039
 						religion=orthodox culture=russian
 						father=100020340	# Matwei Buturlin
-						1580.01.01={birth=yes}	# EST.
-						1630.01.01={death=yes}	# EST.
+						1580.01.01={birth=yes}
+						1630.01.01={death=yes}
 					}
-						100020343={ # 1f) Ivan; m.Pss Maria Romanovna Posharsky
+						100020343={ # 1f) Ivan (b.1625); m.Pss Maria Romanovna Posharsky
 							name=Ivan
 							dynasty=1010039
 							religion=orthodox culture=russian
 							father=100020341	# Ivan Buturlin
-							1600.01.01={birth=yes}	# EST.
-							1630.01.01={add_spouse=100102308}	# PSS Maria Romanovna Posharsky
-							1635.01.01={death=yes}  # EST.
+							1625.01.01={birth=yes}
+							1650.01.01={add_spouse=100102308}	# PSS Maria Romanovna Posharsky
+							1690.01.01={death=yes}  # EST.
 						}
 						100020345={ # 2f) Jemelian, d.20 Dec 1649; m.1st Jekaterina Wassilievna N (d.1649); m.2nd Praskovia Ivanovna N (d.1688)
 							name=Jemelian
 							dynasty=1010039
 							religion=orthodox culture=russian
 							father=100020341	# Ivan Buturlin
-							1602.01.01={birth=yes}  # EST.
+							1627.01.01={birth=yes}  # EST.
 							1649.12.20={death=yes}
 						}
 							100020351={ # 1g) Samson, d.15 Dec 1684
@@ -1394,7 +1472,7 @@
 								dynasty=1010039
 								religion=orthodox culture=russian
 								father=100020345	# Jemelian Buturlin
-								1640.01.01={birth=yes}
+								1614.01.01={birth=yes}
 								1684.12.15={death=yes}
 							}
 								100020353={ # 1h) Ivan, d.1704/12; m.N Mitrofanovna Tugarinov
@@ -1403,7 +1481,7 @@
 									religion=orthodox culture=russian
 									father=100020351	# Samson Buturlin
 									1680.01.01={birth=yes}
-									1744.01.01={death=yes}	# EST.
+									1760.01.01={death=yes}	# EST.
 								}
 									100020360={ # 1i) Mikhail (2 Nov 1733-9 May 1794); m.Ctsa Elisabeta Santi (d.12 Oct 1810)
 										name=Mikhail
@@ -2144,10 +2222,10 @@
 	name=Aleksander
 	dynasty=1010037
 	religion=orthodox culture=russian
-	1460.01.01={birth=yes}  # EST.
+	1455.01.01={birth=yes}  # EST.
 	1535.01.01={death=yes}  # EST.
 }
-	100019661={ # 1a) Grigori (b.1482)
+	100019661={ # 1a) Grigori
 		name=Grigori
 		dynasty=1010037
 		religion=orthodox culture=russian
@@ -2155,7 +2233,7 @@
 		1482.01.01={birth=yes}
 		1557.01.01={death=yes}  # EST.
 	}
-		100019662={ # 1b) Wassili (b.1510)
+		100019662={ # 1b) Wassili
 			name=Wassili
 			dynasty=1010037
 			religion=orthodox culture=russian
@@ -2163,7 +2241,7 @@
 			1510.01.01={birth=yes}
 			1585.01.01={death=yes}  # EST.
 		}
-			100019663={ # 1c) Dmitri (b.1537)
+			100019663={ # 1c) Dmitri
 				name=Dmitri
 				dynasty=1010037
 				religion=orthodox culture=russian
@@ -2171,7 +2249,7 @@
 				1537.01.01={birth=yes}
 				1612.01.01={death=yes}  # EST.
 			}
-				100019664={ # 1d) Semjon (b.1565)
+				100019664={ # 1d) Semjon
 					name=Semjon
 					dynasty=1010037
 					religion=orthodox culture=russian
@@ -2179,7 +2257,7 @@
 					1565.01.01={birth=yes}
 					1640.01.01={death=yes}  # EST.
 				}
-					100019665={ # 1e) Afanassi (b.1590)
+					100019665={ # 1e) Afanassi
 						name=Afanassi
 						dynasty=1010037
 						religion=orthodox culture=russian
@@ -2187,7 +2265,7 @@
 						1590.01.01={birth=yes}
 						1665.01.01={death=yes}  # EST.
 					}
-						100019666={ # 1f) Danila (1615-1696)
+						100019666={ # 1f) Danila, d.1696
 							name=Danila
 							dynasty=1010037
 							religion=orthodox culture=russian
@@ -2195,7 +2273,7 @@
 							1615.01.01={birth=yes}
 							1696.01.01={death=yes}
 						}
-						100019667={ # 2f) Aleksei (b.1616)
+						100019667={ # 2f) Aleksei
 							name=Aleksei
 							dynasty=1010037
 							religion=orthodox culture=russian
@@ -2203,22 +2281,22 @@
 							1616.01.01={birth=yes}
 							1691.01.01={death=yes}  # EST.
 						}
-							100019668={ # 1g) Pjotr (1640-1697; m.Maria Feodorovna Lopukhin
-								name="Pjotr _("
+							100019668={ # 1g) Pjotr, d.1697; m.Maria Feodorovna Lopukhin
+								name=Pjotr
 								dynasty=1010037
 								religion=orthodox culture=russian
 								father=100019667	# Aleksei Bariatinsky
 								1640.01.01={birth=yes}  # EST.
 								1665.01.01={add_spouse=100080197}	# Maria Feodorovna Lopukhin
-								1715.01.01={death=yes}  # EST.
+								1697.01.01={death=yes}
 							}
-							100019669={ # 2g) Fjodr (1642-1683)
+							100019669={ # 2g) Fjodr (b.1642, d.after 1683)
 								name=Fjodr
 								dynasty=1010037
 								religion=orthodox culture=russian
 								father=100019667	# Aleksei Bariatinsky
 								1642.01.01={birth=yes}
-								1683.01.01={death=yes}
+								1685.01.01={death=yes}
 							}
 							100019670={ # 3g) Agrafena, d.1720; m.Pjotr Naumov
 								name=Agrafena
@@ -2487,28 +2565,28 @@
 								1653.01.01={birth=yes}
 								1728.01.01={death=yes}  # EST.
 							}
-			100019699={ # 3c) Ivan (d.1580)
+			100019699={ # 3c) Ivan
 				name=Ivan
 				dynasty=1010037
 				religion=orthodox culture=russian
 				father=100019662	# Wassili Bariatinsky
-				1543.01.01={birth=yes}  # EST.
-				1580.01.01={death=yes}
+				1532.01.01={birth=yes}  # EST.
+				1580.01.01={death=yes}  # EST.
 			}
-				100019700={ # 1d) Pjotr (d.1605)
+				100019700={ # 1d) Pjotr
 					name=Pjotr
 					dynasty=1010037
 					religion=orthodox culture=russian
 					father=100019699	# Ivan Bariatinsky
-					1535.01.01={birth=yes}
-					1605.01.01={death=yes}
+					1552.01.01={birth=yes}  # EST.
+					1605.01.01={death=yes}  # EST.
 				}
 					100019701={ # 1e) Nikita, d.1629/30; m.Jewfimija N
 						name=Nikita
 						dynasty=1010037
 						religion=orthodox culture=russian
 						father=100019700	# Pjotr Bariatinsky
-						1559.01.01={birth=yes}
+						1580.01.01={birth=yes}
 						1629.01.01={death=yes}
 					}
 						100019702={ # 1f) Fjodr, d.1670; m.1st Pss Irina Mikhailovna Kozlowsky (d.28 Jul 1648); m.2nd Maria Borisovna Pushkin
@@ -2516,28 +2594,28 @@
 							dynasty=1010037
 							religion=orthodox culture=russian
 							father=100019701	# Nikita Bariatinsky
-							1600.01.01={birth=yes}
-							1625.01.01={add_spouse=100093776}	# PSS Irina Mikhailovna Kozlovsky
-							1635.01.01={add_spouse=100093851}	# Maria Borisovna Pushkin
+							1620.01.01={birth=yes}
+							1645.01.01={add_spouse=100093776}	# PSS Irina Mikhailovna Kozlovsky
+							1649.01.01={add_spouse=100093851}	# Maria Borisovna Pushkin
 							1670.01.01={death=yes}
 						}
-						100019703={ # 2f) Jurij, d.1685; m.2nd Stepanida Wassilievna Grjaznov
+						100019703={ # 2f) Jurij, d.1685; m.1st NN; m.2nd Stepanida Wassilievna Grjaznov
 							name=Jurij
 							dynasty=1010037
 							religion=orthodox culture=russian
 							father=100019701	# Nikita Bariatinsky
-							1629.01.01={birth=yes}  # EST.
-							1653.01.01={add_spouse=100094176}	# Stepanida Wassilievna Grjaznov
+							1621.01.01={birth=yes}  # EST.
+							1651.01.01={add_spouse=100094176}	# Stepanida Wassilievna Grjaznov
 							1685.01.01={death=yes}
 						}
-							100019704={ # 1g) Fjodr (1650-1696); m.1st 1675 Anna Wladimirovna Slobin (+1684); m.2nd 1685 Pss Anna Danilovna Weliko-Gagin
+							100019704={ # 1g) Fjodr, d.1696; m.1st Anna Wladimirovna Slobin; m.2nd 1685 Pss Anna Danilovna Weliko-Gagin
 								name=Fjodr
 								dynasty=1010037
 								religion=orthodox culture=russian
 								father=100019703	# Jurij Bariatinsky
 								mother=100094176	# Stepanida Wassilievna Grjaznov
-								1650.01.01={birth=yes}
-								1675.01.01={add_spouse=100094570}	# Anna Wladimirovna Slobin
+								1655.01.01={birth=yes}
+								1677.01.01={add_spouse=100094570}	# Anna Wladimirovna Slobin
 								1685.01.01={add_spouse=100094607}	# PSS Anna Danilovna Weliko-Gagin
 								1696.01.01={death=yes}
 							}
@@ -3006,7 +3084,7 @@
 													1855.10.28={add_spouse=100102076}	# Maria Apollinarovna Butenjev
 													1904.05.08={death=yes}  # Rome
 												}
-													100019753={ # 1m) Ivan (Rome 9 Apr 1857-Jun 1915); m.24 Feb 1888 Pss maria Bariatinsky (1855-1937) $$
+													100019753={ # 1m) Ivan (Rome 9 Apr 1857-Jun 1915); m.24 Feb 1888 Pss Maria Bariatinsky (1855-1937) $$
 														name=Ivan
 														dynasty=1010037
 														religion=orthodox culture=italian
@@ -3147,7 +3225,7 @@
 								1682.07.18={death=yes}
 							}
 							100019767={ # 3g) Anna, d.1718; m.1st 1684 Pr Prochor Dolgoruky; m.2nd Tikhon Streschniev (d.15 Jan 1719)
-								name="Anna _("
+								name=Anna
 								female=yes
 								dynasty=1010037
 								religion=orthodox culture=russian
@@ -3210,34 +3288,34 @@
 					dynasty=1010037
 					religion=orthodox culture=russian
 					father=100019773	# Wassili Bariatinsky
-					1559.01.01={birth=yes}
-					1621.01.01={death=yes}  # EST.
+					1555.01.01={birth=yes}  # EST.
+					1610.01.01={death=yes}  # EST.
 				}
 					100019775={ # 1e) Wassili; m.Anissia N
 						name=Wassili
 						dynasty=1010037
 						religion=orthodox culture=russian
 						father=100019774	# Roman Bariatinsky
-						1585.01.01={birth=yes}
-						1634.01.01={death=yes}
+						1587.01.01={birth=yes}  # EST.
+						1634.01.01={death=yes}  # EST.
 					}
-						100019797={ # 2f) Nikita (1600-after 1654); m.Matrijona Jelizarewna
+						100019797={ # 2f) Nikita, d.after 1654; m.Matrijona Jelizarewna, widow of Aleksei Rylov (and later wife of Pr Ossip Anfreivich Dejev)
 							name=Nikita
 							dynasty=1010037
 							religion=orthodox culture=russian
 							father=100019775	# Wassili Bariatinsky
-							1600.01.01={birth=yes}
-							1625.01.01={add_spouse=100102236}	# Matrijona Jelizarewna
+							1608.01.01={birth=yes}  # EST.
+							1629.01.01={add_spouse=100102236}	# Matrijona Jelizarewna
 							1655.01.01={death=yes}
 						}
 							100019798={ # 1g) Jelena fl 1669/1719; m.Pr Bogdan Sibirsky
-								name="Jelena _fl"
+								name=Jelena
 								female=yes
 								dynasty=1010037
 								religion=orthodox culture=russian
 								father=100019797	# Nikita Bariatinsky
 								mother=100102236	# Matrijona Jelizarewna
-								1627.01.01={birth=yes}  # EST.
+								1630.01.01={birth=yes}  # EST.
 								1692.01.01={death=yes}  # EST.
 							}
 						100019776={ # 1f) Dmitri fl 1669
@@ -3436,8 +3514,8 @@
 						dynasty=1010037
 						religion=orthodox culture=russian
 						father=100019774	# Roman Bariatinsky
-						1615.01.01={birth=yes}  # fl
-						1681.01.01={death=yes}  # EST.
+						1595.01.01={birth=yes}  # EST.
+						1650.01.01={death=yes}  # EST.
 					}
 						100019812={ # 1f) Ivan (1615-1 Jul 1701); m.Jefymia Alekseievna Kaschintzev
 							name=Ivan
@@ -3471,7 +3549,7 @@
 						dynasty=1010037
 						religion=orthodox culture=russian
 						father=100019774	# Roman Bariatinsky
-						1607.01.01={birth=yes}  # EST.
+						1590.01.01={birth=yes}  # EST.
 						1680.01.01={death=yes}  # EST.
 					}
 						100019800={ # 1f) Fjodr fl 1629/47 (b.1605); m.Praskovia N
@@ -3479,7 +3557,7 @@
 							dynasty=1010037
 							religion=orthodox culture=russian
 							father=100019799	# Akim Bariatinsky
-							1625.01.01={birth=yes}
+							1610.01.01={birth=yes}
 							1669.01.01={death=yes}  # EST.
 						}
 							100019801={ # 1g) Pjotr, d.after 1659; m.Maria N
@@ -3487,7 +3565,7 @@
 								dynasty=1010037
 								religion=orthodox culture=russian
 								father=100019800	# Fjodr Bariatinsky
-								1640.01.01={birth=yes}
+								1630.01.01={birth=yes}
 								1665.01.01={death=yes}
 							}
 								100019802={ # 1h) Andrei, d.1670
@@ -3552,17 +3630,17 @@
 									1682.01.01={add_spouse=100102244}	# Jelena Ivanovna Plemiannikov
 									1726.01.01={death=yes}
 								}
-							100019809={ # 2g) Ossip (1625-after 1690); m.1st 1651 Praskovia Fjodrovna Neldiov
+							100019809={ # 2g) Ossip, d.after 1690; m.1st 1651 Praskovia, dau of Fjodr Neldiov; m.2nd Wassilissa N, widow of Wassili Tjakpin
 								name=Ossip
 								dynasty=1010037
 								religion=orthodox culture=russian
 								father=100019800	# Fjodr Bariatinsky
-								1625.01.01={birth=yes}
+								1631.01.01={birth=yes}	# EST.
 								1651.01.01={add_spouse=100102245}	# Praskovia Fjodrovna Neldiov
 								1691.01.01={death=yes}
 							}
 								100019810={ # 1h) Ivan, d.3 May 1708; m.1st 1682 Pss Wassilissa Jurievna Wolkonsky (d.1699); m.2nd 1699 Maria Grigorievna Kultukov
-									name="Ivan _("
+									name=Ivan
 									dynasty=1010037
 									religion=orthodox culture=russian
 									father=100019809	# Ossip Bariatinsky
@@ -3577,7 +3655,7 @@
 		dynasty=1010037
 		religion=orthodox culture=russian
 		father=100019660	# Aleksander Bariatinsky
-		1485.01.01={birth=yes}
+		1486.01.01={birth=yes}
 		1544.01.01={death=yes}  # EST.
 	}
 		100019819={ # 2b) Mikhail
@@ -4388,7 +4466,7 @@
 					1921.01.05={death=yes}  # Paris
 				}
 					100019633={ # 1f) [ex 1] Constantine (St.Petersburg 25 Jan 1899-k.by Soviets at Kiev 5 Jan 1918)
-						name=Constantine
+						name=Constantin
 						dynasty=1010036
 						religion=orthodox culture=russian
 						father=100019632	# Hesper Belosselsky-Belozersky
@@ -4407,7 +4485,7 @@
 						1998.01.25={death=yes}  # Lourdes
 					}
 					100019635={ # 3f) [ex 2] Georges Moulin (St.Petersburg 12 Nov 1913-Meudon 24 Mar 2005); m.Meudon 16 Apr 1953 Alexandra Anatolievna Kondratiev (Antibes 16 Sep 1931-La Garenne-Colombes 17 May 1995)
-						name=Georges
+						name=Giorgi
 						dynasty=1010036
 						religion=orthodox culture=russian
 						father=100019632	# Hesper Belosselsky-Belozersky
@@ -4486,7 +4564,7 @@
 								female=yes
 								dynasty=1010036
 								religion=orthodox culture=russian
-								father=100019646	# Patrick Belosselsky-Belozersky
+								father=100019647
 								1987.10.30={birth=yes}
 							}
 							100019650={ # Antoine (b.18 May 1989) %%
@@ -4518,7 +4596,7 @@
 								female=yes
 								dynasty=1010036
 								religion=orthodox culture=russian
-								father=100019646	# Patrick Belosselsky-Belozersky
+								father=100019648
 								1985.10.26={birth=yes}
 							}
 						100019652={ # Diane (b.27 May 1967) %%
@@ -10151,7 +10229,7 @@
 										mother=100019679	# Anastasia Stepanovna Bariatinsky
 										1750.01.01={birth=yes}  # EST.
 										1783.01.01={add_spouse=100101730}	# Nadezhda Jakowlevna Zubatov
-										1825.01.01={death=yes}  # EST.
+										1820.01.01={death=yes}  # EST.
 									}
 										100017781={ # 1j) Nikolai (25 Feb 1784-24 May 1847); m.25 Jan 1807 Jekaterina Ivanovna Jakovlev (1787-25 Jan 1829)
 											name=Nikolai
@@ -10393,7 +10471,7 @@
 													2013.03.09={death=yes}
 												}
 													100017838={ # 1m) Constantine (b.1963); m.Jane Marie Parker (b.1961)
-														name=Constantine
+														name=Constantin
 														dynasty=1010012
 														religion=orthodox culture=russian
 														father=100017834	# Nikita Sheremetev
@@ -14054,7 +14132,7 @@
 								100018666={ # 3h) Sophia (Kiev 10 Apr 1896-Neuilly 12 Feb 1974)
 									name=Sophia
 									female=yes
-									dynasty=1010030
+									dynasty=1010031
 									religion=orthodox culture=russian
 									father=100018657	# Wadim Repnin
 									mother=100089968	# Nadezhda Wladimorovna Semichov
@@ -14064,7 +14142,7 @@
 							100018667={ # Olga (Jagotin 9 Aug 1872-Seeon 27 Apr 1953); m.5 May 1895 Giorgi de Beauharnais (10 Dec 1872-9 Aug 1929) %%
 								name=Olga
 								female=yes
-								dynasty=1010030
+								dynasty=1010031
 								religion=orthodox culture=russian
 								father=100018656	# Nikolai Repnin
 								mother=100018607	# Sophia Ditrievna Wolkonsky
@@ -14074,7 +14152,7 @@
 						100018670={ # 4f) Warwara (1840-Belrin 23 Apr 1922); m.20 Sep 1867 Ct Wassili Kapnist (d.17 May 1915)
 							name=Warwara
 							female=yes
-							dynasty=1010030
+							dynasty=1010031
 							religion=orthodox culture=russian
 							father=100018655	# Wassili Repnin
 							mother=100089922	# Jelisaveta Petrovna Balabin
@@ -14084,7 +14162,7 @@
 					100018671={ # 2e) Aleksandra, d.8 Oct 1836; m.Ct Aleksander Grigorievich Kuschaliev-Bezborodko (d.1855)
 						name=Aleksandra
 						female=yes
-						dynasty=1010030
+						dynasty=1010031
 						religion=orthodox culture=russian
 						father=100018654	# Nikolai Repnin
 						mother=100089892	# CSS Warwara Alekseievna Razumovsky
@@ -14094,7 +14172,7 @@
 					100018673={ # 6e) Jelisaveta (1817-1855); m.Pawel Ivanovich Krivtzov (d.1844)
 						name=Jelisaveta
 						female=yes
-						dynasty=1010030
+						dynasty=1010031
 						religion=orthodox culture=russian
 						father=100018654	# Nikolai Repnin
 						mother=100089892	# CSS Warwara Alekseievna Razumovsky
@@ -14146,9 +14224,9 @@
 							religion=orthodox culture=russian
 							father=100018678	# Mikhail Wolkonsky
 							mother=100018613	# Jelisaveta Grigorievna Wolkonsky
-							1860.05.04={birth=yes}
+							1860.05.04={birth=yes}	# Tallinn
 							1936.07.08={add_spouse=100091515}	# Mary Walker Fearn
-							1943.10.24={death=yes}  # Paris
+							1937.10.25={death=yes}  # Hot Springs
 						}
 						100018680={ # Pjotr (17 Sep 1861-1948); m.23 May 1890 Jelisaveta Shakhovsky (24 Dec 1867-Les Mesnils 28 Oct 1950) %%
 							name=Pjotr
@@ -14158,7 +14236,7 @@
 							mother=100018613	# Jelisaveta Grigorievna Wolkonsky
 							1861.09.17={birth=yes}
 							1890.05.23={add_spouse=100018396}	# Jelisaveta Shakhovsky
-							1948.01.01={death=yes}
+							1947.09.11={death=yes}
 						}
 							100018681={ # 1g) Mikhail (22 Jul 1891-    ); m.1st 26 sep 1918 Pss Ksenia Wiazemsky (d.Yalta 13 Jan 1920); m.2nd 27 Oct 1920 Tamara Wladimirovna Sergeev (15 Feb 1900-    )
 								name=Mikhail
@@ -14166,10 +14244,10 @@
 								religion=orthodox culture=russian
 								father=100018680	# Pjotr Wolkonsky
 								mother=100018396	# Jelisaveta Shakhovsky
-								1891.07.22={birth=yes}
+								1891.07.22={birth=yes}	# Castle Fall, Tallinn
 								1918.09.26={add_spouse=100091546}	# PSS Ksenia Vyazemsky
 								1920.10.27={add_spouse=100091569}	# Tamara Wladimirovna Sergeev
-								1966.01.01={death=yes}  # EST.
+								1961.09.18={death=yes}  # Moskwa
 							}
 								100018682={ # 1h) Aleksander (Bucharest 23 Oct 1921-    )
 									name=Aleksander
@@ -14178,35 +14256,35 @@
 									father=100018681	# Mikhail Wolkonsky
 									mother=100091569	# Tamara Wladimirovna Sergeev
 									1921.10.23={birth=yes}  # Bucharest
-									1997.01.01={death=yes}  # EST.
+									1954.01.01={death=yes}  # EST.
 								}
-								100018683={ # 2h) Andrei (1934-    )
+								100018683={ # 2h) Andrei (1933-    )
 									name=Andrei
 									dynasty=1010030
 									religion=orthodox culture=russian
 									father=100018681	# Mikhail Wolkonsky
 									mother=100091569	# Tamara Wladimirovna Sergeev
-									1934.01.01={birth=yes}
-									2011.01.01={death=yes}  # EST.
+									1933.02.14={birth=yes}	# Geneva
+									2008.09.16={death=yes}  # Aix-en-Provence
 								}
-									100018684={ # 1i) Peter
-										name=Peter
+									100018684={ # 1i) Peeter
+										name=Peeter
 										dynasty=1010030
-										religion=orthodox culture=russian
+										religion=lutheran culture=estonian
 										father=100018683	# Andrei Wolkonsky
-										1959.01.01={birth=yes}  # EST.
+										1954.09.12={birth=yes}  # Tallinn
 									}
 										100018687={ # 3j) Emmanuel
 											name=Emmanuel
 											dynasty=1010030
-											religion=orthodox culture=russian
+											religion=lutheran culture=estonian
 											father=100018684	# Peter Wolkonsky
 											1984.01.01={birth=yes}  # EST.
 										}
 										100018686={ # 2j) Michael
 											name=Michael
 											dynasty=1010030
-											religion=orthodox culture=russian
+											religion=lutheran culture=estonian
 											father=100018684	# Peter Wolkonsky
 											1984.01.01={birth=yes}  # EST.
 										}
@@ -14214,7 +14292,7 @@
 											name=Elisabeth
 											female=yes
 											dynasty=1010030
-											religion=orthodox culture=russian
+											religion=lutheran culture=estonian
 											father=100018684	# Peter Wolkonsky
 											1984.01.01={birth=yes}  # EST.
 										}
@@ -16208,6 +16286,29 @@
 
 
 ##	100018100-100018xxx		Lopukhin									1010020
+100318102={
+	name=Mikhail
+	dynasty=1010020
+	religion=orthodox culture=russian
+	1900.01.01={birth=yes}	# EST
+	1960.01.01={death=yes}	# EST
+}
+	100318103={
+		name=Oleg
+		dynasty=1010020
+		religion=orthodox culture=russian
+		father=100318101
+		1924.01.01={birth=yes}
+		1993.01.01={death=yes}
+	}
+		100318104={
+			name=Vadim
+			dynasty=1010020
+			religion=orthodox culture=russian
+			father=100318103
+			1955.01.01={birth=yes}	# Arkhangelsk
+		}
+
 100018101={ # Alferi Wassilievich Lopukhin
 	name=Alferi
 	dynasty=1010020
@@ -18826,7 +18927,7 @@
 														1991.03.12={death=yes}  # Lagny_sur_Marne
 													}
 													100017877={ # 3m) Ksenia (St.Petersburg 12 Oct 1912-25 Feb 2005); m.1st Paris 4 Jul 1939 (div 1958) Baron Andrei Lüdinghausen gt Wolff (Tiflis 20 Jul 1912-Antonina, Brazil 8 Dec 1982); m.2nd Mexico 20 Jun 1959 Eric Maedel (Vienna 21 Jun 1916)
-														name=Ksenia
+														name=Xenia
 														female=yes
 														dynasty=1010017
 														religion=orthodox culture=russian
@@ -18835,6 +18936,15 @@
 														1912.10.12={birth=yes}  # St.Petersburg
 														2005.02.25={death=yes}
 													}
+														100317877={
+															name=Hélène
+															female=yes
+															dynasty=1010017
+															religion=orthodox culture=russian
+															father=100092442
+															mother=100017877
+															1942.08.20={birth=yes}  # Paris
+														}
 													100017878={ # 4m) Sophia (St.Petersburg 24 Jun 1914-21 Jul 1996); m.1st Paris 21 Nov 1946 (div 1952) Paul Reweliotty (Senigallia, Italy 29 May 1910); m.2nd São Paulo 1953 Mikhail Stamoglou (Odessa 1906-São Paulo 15 Jun 1972)
 														name=Sophia
 														female=yes
@@ -19550,8 +19660,77 @@
 															father=100017982	# Sergei Shcherbatov
 															mother=100097639	# Jelisaveta Sergeievna Plautin
 															1903.08.01={birth=yes}  # Fenijevia
-															1921.01.01={death=yes}
+															1980.01.01={death=yes}	# Novosibirsk
 														}
+															100317987={
+																name=Ari
+																dynasty=1010017
+																religion=orthodox culture=russian
+																father=100017987	# Sergei Shcherbatov
+																1929.01.01={birth=yes}
+																2000.01.01={death=yes}	# EST.
+															}
+																100317989={
+																	name=Alexander
+																	dynasty=1010017
+																	religion=orthodox culture=russian
+																	father=100317987	# Sergei Shcherbatov
+																	1950.01.01={birth=yes}
+																}
+																	100317789={
+																		name=Elena
+																		female=yes
+																		dynasty=1010017
+																		religion=orthodox culture=russian
+																		father=100317989	# Sergei Shcherbatov
+																		1976.01.01={birth=yes}
+																	}
+																	100317790={
+																		name=Lyudmila
+																		female=yes
+																		dynasty=1010017
+																		religion=orthodox culture=russian
+																		father=100317989	# Sergei Shcherbatov
+																		1982.01.01={birth=yes}
+																	}
+															100317988={
+																name=Juri
+																dynasty=1010017
+																religion=orthodox culture=russian
+																father=100017987	# Sergei Shcherbatov
+																1931.01.01={birth=yes}
+																2005.01.01={death=yes}	# EST.
+															}
+																100317990={
+																	name=Tatiana
+																	female=yes
+																	dynasty=1010017
+																	religion=orthodox culture=russian
+																	father=100317988
+																	1953.01.01={birth=yes}
+																}
+																100317991={
+																	name=Vasili
+																	dynasty=1010017
+																	religion=orthodox culture=russian
+																	father=100317988
+																	1955.01.01={birth=yes}
+																}
+																	100327991={
+																		name=Vitali
+																		dynasty=1010017
+																		religion=orthodox culture=russian
+																		father=100317991
+																		1955.01.01={birth=yes}
+																	}
+																	100327992={
+																		name=Irina
+																		female=yes
+																		dynasty=1010017
+																		religion=orthodox culture=russian
+																		father=100317991
+																		1955.01.01={birth=yes}
+																	}
 														100017988={ # 6n) Tatiana (Preobrashenskoie 23 Oct 1905-1 Apr 2000); m.N Scheviakov (d.1935)
 															name=Tatiana
 															female=yes
@@ -22515,7 +22694,7 @@
 		1664.01.01={birth=yes}
 		1715.12.31={death=yes}
 	}
-	100017497={ # 4a) Ct Andrei (2 Oct 1667-26 Jun 1732)
+	100017497={ # 4a) Andrei, 1722 Count Apraxin (2 Oct 1767-26 Jun 1732); m.Akulina Feodorovna N (d.18 Aug 1743)
 		name=Andrei
 		dynasty=1010013
 		religion=orthodox culture=russian
@@ -22551,7 +22730,7 @@
 				1754.02.06={add_spouse=100097020}	# CSS Anna Pavlovna Yagushinsky
 				1775.01.01={remove_spouse=100097020}
 				1776.01.01={add_spouse=100097021}	# CSS Jelisaveta Kirillovna Razumovsky
-				1813.01.01={death=yes}  # EST.
+				1813.01.01={death=yes}
 			}
 				100017502={ # 5d) Kirill (28 Mar 1779-28 Sep 1822)
 					name=Kirill
@@ -22604,15 +22783,6 @@
 							mother=100097074	# Anna Ivanovna Mazarsky
 							1849.05.08={birth=yes}  # Vienna
 							1924.01.17={death=yes}  # Dresden
-						}
-						100017507={ # 2f) Aleksander (14 Feb 1851-    )
-							name=Aleksander
-							dynasty=1010013
-							religion=orthodox culture=russian
-							father=100017505	# Dmitri Apraxin
-							mother=100097074	# Anna Ivanovna Mazarsky
-							1851.02.14={birth=yes}
-							1926.01.01={death=yes}
 						}
 						100017508={ # 4f) Jelisaveta (Kiev 14 Oct 1854-    ); m.Tessino 30 Sep 1879 Wilhelm Renner (d.1892)
 							name=Jelisaveta
@@ -22922,7 +23092,7 @@
 									mother=100019748	# Jelisaveta Bariatinsky
 									1910.01.14={birth=yes}  # Woronesh
 									1934.02.04={add_spouse=100097108}	# Sophie von Bünting
-									1941.01.01={death=yes}  # missing_in_Estonia
+									1941.01.01={death=yes}  # missing in Estonia
 								}
 									100017544={ # 2i) Nicolas, b.Reval 19 Apr 1930; m.Ixelles 12 Nov 1960 Maria del Carmen Lopez de Vadillos (b.Jaen 17 May 1935)
 										name=Nicolas
@@ -22932,7 +23102,6 @@
 										mother=100097108	# Sophie von Bünting
 										1930.04.19={birth=yes}  # Reval
 										1960.11.12={add_spouse=100097109}	# Maria del Carmen Lopez de Vadillos
-										2007.01.01={death=yes}  # EST.
 									}
 										100017545={ # 1j) Maria; m.Nicolas Drusin
 											name=Maria
@@ -26424,14 +26593,6 @@
 									1721.01.01={birth=yes}
 									1773.12.12={death=yes}
 								}
-#1460.01.01={holder=100126501} # Ivan Dolgoruky 
-#1490.01.01={holder=100126502} # 1a) Pr Wladimir Dolgoruky 
-#1535.01.01={holder=100126503} # 1b) Semjon 
-#1565.01.01={holder=100126504} # 1c) Andrei 
-#1585.01.01={holder=100126505} # 2d) Ivan 
-#1590.04.20={holder=100126506} # 2e) Fjodr 
-#1664.01.01={holder=100126507} # 1f) Jakov 
-#1720.06.29={holder=100126515} # 1g) Wassili
 ##  100126500		Dolgorukov			1010006
 
 
@@ -30569,9 +30730,261 @@
 		dynasty=1010026
 		religion=catholic culture=russian
 		father=100019489	# Aleksander Shakhovsky
-		1485.01.01={birth=yes}
+		1490.01.01={birth=yes}
 		1550.01.01={death=yes}
 	}
+		100319505={ # 2b) Ivan
+			name=Ivan
+			dynasty=1010026
+			religion=catholic culture=russian
+			father=100019505	# Aleksander Shakhovsky
+			1520.01.01={birth=yes}
+			1550.01.01={death=yes}
+		}
+			100319506={ # 1c) Leonti fl 1620
+				name=Ivan
+				dynasty=1010026
+				religion=catholic culture=russian
+				father=100319505
+				1550.01.01={birth=yes}
+				1620.01.01={death=yes}
+			}
+				100019885={ # 2d) Ivan
+					name=Ivan
+					dynasty=1010026
+					religion=catholic culture=russian
+					father=100319506
+					1580.01.01={birth=yes}
+					1640.01.01={death=yes}
+				}
+					100019886={ # 1e) Perfilij fl 1690
+						name=Perfilij
+						dynasty=1010026
+						religion=catholic culture=russian
+						father=100019885	# Ivan Shakhovsky
+						1610.01.01={birth=yes}
+						1690.01.01={death=yes}
+					}	
+						100018316={ # 1f) Ivan (1638-1716); m.1st 1683 Pss Jekaterina Alekseievna Zwenigorodsky (+1705); m.2nd 1706 Pss Tatiana Feodorovna Korkodinov (d.1719)
+							name=Ivan
+							dynasty=1010026
+							religion=catholic culture=russian
+							father=100019886	# Perfilij Shakhovsky
+							1638.01.01={birth=yes}
+							1683.01.01={add_spouse=100085832}	# PSS Jekaterina Alekseievna Zwenigorodsky
+							1706.01.01={add_spouse=100086017}	# PSS Tatiana Feodorovna Korkodinov
+							1716.01.01={death=yes}
+						}
+							100018317={ # 1g) Pjotr, d.1706; m.1700 Irina Jakowlevna Pushkin
+								name=Pjotr
+								dynasty=1010026
+								religion=catholic culture=russian
+								father=100018316	# Ivan Shakhovsky
+								mother=100085832	# PSS Jekaterina Alekseievna Zwenigorodsky
+								1684.01.01={birth=yes}  # EST.
+								1700.01.01={add_spouse=100089458}	# Irina Jakowlevna Pushkin
+								1706.01.01={death=yes}
+							}
+								100018318={ # 1h) Jakow (8 Oct 1705-23 Jul 1777); m.1st Pss Aleksandra Alekseievna Putiatin; m.2nd after 1741 Jewdokia Famjantzyn
+									name=Jakow
+									dynasty=1010026
+									religion=catholic culture=russian
+									father=100018317	# Pjotr Shakhovsky
+									mother=100089458	# Irina Jakowlevna Pushkin
+									1705.10.08={birth=yes}
+									1730.01.01={add_spouse=100089462}	# PSS Aleksandra Alekseievna Putiatin
+									1742.01.01={add_spouse=100089465}	# Jewdokia Famjantzyn
+									1777.07.23={death=yes}
+								}
+									100018319={ # 1i) Fjedor, d.29 Dec 1782; m.Anna Aleksandrovna Sobakin (1738-1791)
+										name=Fjedor
+										dynasty=1010026
+										religion=catholic culture=russian
+										father=100018318	# Jakow Shakhovsky
+										mother=100089462	# PSS Aleksandra Alekseievna Putiatin
+										1736.01.01={birth=yes}  # EST.
+										1763.01.01={add_spouse=100089466}	# Anna Aleksandrovna Sobakin
+										1782.12.29={death=yes}
+									}
+										100018320={ # 1j) Jakow (16 Apr 1768-5 Sep 1836)
+											name=Jakow
+											dynasty=1010026
+											religion=catholic culture=russian
+											father=100018319	# Fjedor Shakhovsky
+											mother=100089466	# Anna Aleksandrovna Sobakin
+											1768.04.16={birth=yes}
+											1836.09.05={death=yes}
+										}
+										100018321={ # 2j) Pjotr (17 Mar 1773-9 Oct 1841); m.1st Pss Jelisaveta Borisovna Shakhovsky (1773-1796); m.2nd Anna Semjonovna Jekulin (23 Oct 1783-27 Oct 1843)
+											name=Pjotr
+											dynasty=1010026
+											religion=catholic culture=russian
+											father=100018319	# Fjedor Shakhovsky
+											mother=100089466	# Anna Aleksandrovna Sobakin
+											1773.03.17={birth=yes}
+											1794.02.01={add_spouse=100018339}	# Jelisaveta Shakhovsky
+											1797.01.01={add_spouse=100089468}	# Anna Semjonovna Jekulin
+											1841.10.09={death=yes}
+										}
+											100018322={ # 1k) Warwara (1 Feb 1795-5 Jan 1871); m.1st Ct Pawel Shuvalov (d.1823); m.2nd 1827 Pierre Amédée Charles Guillaume, Cte de Polier; m.3rd Georg Wilhelm Wilding, 1835 Pr di Radali (d.Wiesbaden 6 Sep 1841)
+												name=Warwara
+												female=yes
+												dynasty=1010026
+												religion=catholic culture=russian
+												father=100018321	# Pjotr Shakhovsky
+												mother=100018339	# Jelisaveta Shakhovsky
+												1795.02.01={birth=yes}
+												1871.01.05={death=yes}
+											}
+										100018323={ # 3j) Natalia (25 Nov 1779-9 Aug 1807); m.Pr Aleksander Galitzine (d.1821) $$
+											name=Natalia
+											female=yes
+											dynasty=1010026
+											religion=catholic culture=russian
+											father=100018319	# Fjedor Shakhovsky
+											mother=100089466	# Anna Aleksandrovna Sobakin
+											1779.11.25={birth=yes}
+											1807.08.09={death=yes}
+										}
+									100018324={ # 2i) Anna (1738-1809); m.Pr Fjedor Galitzine (d.1782) $$
+										name=Anna
+										female=yes
+										dynasty=1010026
+										religion=catholic culture=russian
+										father=100018318	# Jakow Shakhovsky
+										mother=100089462	# PSS Aleksandra Alekseievna Putiatin
+										1738.01.01={birth=yes}
+										1809.01.01={death=yes}
+									}
+									100018325={ # 3i) Maria (1741-1829); m.Nikolai Saltykov (d.1805) $$
+										name=Maria
+										female=yes
+										dynasty=1010026
+										religion=catholic culture=russian
+										father=100018318	# Jakow Shakhovsky
+										mother=100089462	# PSS Aleksandra Alekseievna Putiatin
+										1741.01.01={birth=yes}
+										1829.11.13={death=yes}
+									}
+							100018327={ # 2g) Aleksei (1688-26 Apr 1737); m.1st Pss Jewdokia Feodorovna Lvov (1687-2 Jun 1713); m.2nd 10 Nov 1721 Tatiana Dmitrievna Arseniev
+								name=Aleksei
+								dynasty=1010026
+								religion=catholic culture=russian
+								father=100018316	# Ivan Shakhovsky
+								mother=100085832	# PSS Jekaterina Alekseievna Zwenigorodsky
+								1688.01.01={birth=yes}
+								1713.01.01={add_spouse=100092132}	# PSS Jewdokia Feodorovna Lvov
+								1721.11.10={add_spouse=100092371}	# Tatiana Dmitrievna Arseniev
+								1737.04.26={death=yes}
+							}
+								100018328={ # 1h) Nikolai (ca 1725-suicide 1766)
+									name=Nikolai
+									dynasty=1010026
+									religion=catholic culture=russian
+									father=100018327	# Aleksei Shakhovsky
+									mother=100092371	# Tatiana Dmitrievna Arseniev
+									1725.01.01={birth=yes}
+									1766.01.01={death=yes}  # suicide
+								}
+								100018329={ # 2h) Natalia, d.after 1766; m.1st Nikolai Streshniev (d.1745); m.2nd Fjedor Passer
+									name=Natalia
+									female=yes
+									dynasty=1010026
+									religion=catholic culture=russian
+									father=100018327	# Aleksei Shakhovsky
+									mother=100092371	# Tatiana Dmitrievna Arseniev
+									1726.01.01={birth=yes}  # EST.
+									1768.01.01={death=yes}
+								}
+								100018330={ # 3h) Agrafena (16 Jun 1728-19 Apr 1782); m.30 Jan 1764 Leonti Feodorovich Karabanov (d.1775)
+									name=Agrafena
+									female=yes
+									dynasty=1010026
+									religion=catholic culture=russian
+									father=100018327	# Aleksei Shakhovsky
+									mother=100092371	# Tatiana Dmitrievna Arseniev
+									1728.06.16={birth=yes}
+									1782.04.19={death=yes}
+								}
+							100018331={ # 3g) Mikhail (1707-1762); m.1725 Pss Jewdokia Andreievna Prosorovsky $$
+								name=Mikhail
+								dynasty=1010026
+								religion=catholic culture=russian
+								father=100018316	# Ivan Shakhovsky
+								mother=100086017	# PSS Tatiana Feodorovna Korkodinov
+								1707.01.01={birth=yes}
+								1725.01.01={add_spouse=100019930}	# Jewdokia Prozorovsky
+								1762.01.01={death=yes}
+							}
+								100018332={ # 1h) Aleksei; m.Natalia Jelagin
+									name=Aleksei
+									dynasty=1010026
+									religion=catholic culture=russian
+									father=100018331	# Mikhail Shakhovsky
+									mother=100019930	# Jewdokia Prozorovsky
+									1727.01.01={birth=yes}  # EST.
+									1768.01.01={add_spouse=100094098}	# Natalia Jelagin
+									1802.01.01={death=yes}  # EST.
+								}
+									100018334={ # 2i) Nikolai (1765-14 Jul 1839)
+										name=Nikolai
+										dynasty=1010026
+										religion=catholic culture=russian
+										father=100018332	# Aleksei Shakhovsky
+										mother=100094098	# Natalia Jelagin
+										1765.01.01={birth=yes}
+										1839.07.14={death=yes}
+									}
+									100018336={ # 4i) Maria, d.22 Apr 1803; m.Pjotr Buturlin (d.1828)
+										name="Maria Alekseievna"
+										female=yes
+										dynasty=1010026
+										religion=catholic culture=russian
+										father=100018332	# Aleksei Shakhovsky
+										mother=100094098	# Natalia Jelagin
+										1769.01.01={birth=yes}  # EST.
+										1803.04.22={death=yes}
+									}
+							100018337={ # 4g) Grigori, d.10 Jan 1774; m.Maria Ilarionovna Kashkarov
+								name=Grigori
+								dynasty=1010026
+								religion=catholic culture=russian
+								father=100018316	# Ivan Shakhovsky
+								mother=100085832	# PSS Jekaterina Alekseievna Zwenigorodsky
+								1695.01.01={birth=yes}  # EST.
+								1742.01.01={add_spouse=100094177}	# Maria Ilarionovna Kashkarov
+								1774.01.10={death=yes}
+							}
+								100018340={ # 2h) Nikolai, d.1824; m.Pss Warwara Alekseievna Galitzine (22 Apr 1750-9 Jun 1779) $$
+									name=Nikolai
+									dynasty=1010026
+									religion=catholic culture=russian
+									father=100018337	# Grigori Shakhovsky
+									mother=100094177	# Maria Ilarionovna Kashkarov
+									1754.01.01={birth=yes}
+									1775.01.01={add_spouse=100015949}	# Warwara Golizyn
+									1824.01.01={death=yes}
+								}
+								100018338={ # 1h) Boris, d.25 Feb 1813; m.Bss Warwara Aleksandrovna Stroganov (2 Dec 1748-29 Oct 1823) $$
+									name=Boris
+									dynasty=1010026
+									religion=catholic culture=russian
+									father=100018337	# Grigori Shakhovsky
+									mother=100094177	# Maria Ilarionovna Kashkarov
+									1743.01.01={birth=yes}	# EST.
+									1773.01.01={add_spouse=100015147}	# Varvara Stroganov
+									1813.02.25={death=yes}
+								}
+									100018339={ # 1i) Jelisaveta (Moscow 29 Nov 1773-25 Oct 1796); m.1st Paris 14 Feb 1792 (div 1794) Louis Marie, Duc d’Arenberg (d.1795); m.2nd Pr Pjotr Shakhovsky (above) $$
+										name=Jelisaveta
+										female=yes
+										dynasty=1010026
+										religion=catholic culture=russian
+										father=100018338	# Boris Shakhovsky
+										mother=100015147	# Varvara Stroganov
+										1773.11.29={birth=yes}  # Moscow
+										1796.10.25={death=yes}
+									}		
 		100018335={ # 3b) Pjotr
 			name=Pjotr
 			dynasty=1010026
@@ -31579,242 +31992,6 @@
 														1899.01.01={add_spouse=100100080}	# Aleksandra Mikhailovna Onou
 														1954.08.17={death=yes}  # Larçay
 													}
-													
-100019885={ # 2d) Ivan
-	name=Ivan
-	dynasty=1010026
-	religion=catholic culture=russian
-	1585.01.01={birth=yes}
-	1640.01.01={death=yes}
-}
-	100019886={ # 1e) Perfilij fl 1690
-		name=Perfilij
-		dynasty=1010026
-		religion=catholic culture=russian
-		father=100019885	# Ivan Shakhovsky
-		1613.01.01={birth=yes}
-		1692.01.01={death=yes}
-	}	
-		100018316={ # 1f) Ivan (1638-1716); m.1st 1683 Pss Jekaterina Alekseievna Zwenigorodsky (+1705); m.2nd 1706 Pss Tatiana Feodorovna Korkodinov (d.1719)
-			name=Ivan
-			dynasty=1010026
-			religion=catholic culture=russian
-			father=100019886	# Perfilij Shakhovsky
-			1638.01.01={birth=yes}
-			1683.01.01={add_spouse=100085832}	# PSS Jekaterina Alekseievna Zwenigorodsky
-			1706.01.01={add_spouse=100086017}	# PSS Tatiana Feodorovna Korkodinov
-			1716.01.01={death=yes}
-		}
-			100018317={ # 1g) Pjotr, d.1706; m.1700 Irina Jakowlevna Pushkin
-				name=Pjotr
-				dynasty=1010026
-				religion=catholic culture=russian
-				father=100018316	# Ivan Shakhovsky
-				mother=100085832	# PSS Jekaterina Alekseievna Zwenigorodsky
-				1684.01.01={birth=yes}  # EST.
-				1700.01.01={add_spouse=100089458}	# Irina Jakowlevna Pushkin
-				1706.01.01={death=yes}
-			}
-				100018318={ # 1h) Jakow (8 Oct 1705-23 Jul 1777); m.1st Pss Aleksandra Alekseievna Putiatin; m.2nd after 1741 Jewdokia Famjantzyn
-					name=Jakow
-					dynasty=1010026
-					religion=catholic culture=russian
-					father=100018317	# Pjotr Shakhovsky
-					mother=100089458	# Irina Jakowlevna Pushkin
-					1705.10.08={birth=yes}
-					1730.01.01={add_spouse=100089462}	# PSS Aleksandra Alekseievna Putiatin
-					1742.01.01={add_spouse=100089465}	# Jewdokia Famjantzyn
-					1777.07.23={death=yes}
-				}
-					100018319={ # 1i) Fjedor, d.29 Dec 1782; m.Anna Aleksandrovna Sobakin (1738-1791)
-						name=Fjedor
-						dynasty=1010026
-						religion=catholic culture=russian
-						father=100018318	# Jakow Shakhovsky
-						mother=100089462	# PSS Aleksandra Alekseievna Putiatin
-						1736.01.01={birth=yes}  # EST.
-						1763.01.01={add_spouse=100089466}	# Anna Aleksandrovna Sobakin
-						1782.12.29={death=yes}
-					}
-						100018320={ # 1j) Jakow (16 Apr 1768-5 Sep 1836)
-							name=Jakow
-							dynasty=1010026
-							religion=catholic culture=russian
-							father=100018319	# Fjedor Shakhovsky
-							mother=100089466	# Anna Aleksandrovna Sobakin
-							1768.04.16={birth=yes}
-							1836.09.05={death=yes}
-						}
-						100018321={ # 2j) Pjotr (17 Mar 1773-9 Oct 1841); m.1st Pss Jelisaveta Borisovna Shakhovsky (1773-1796); m.2nd Anna Semjonovna Jekulin (23 Oct 1783-27 Oct 1843)
-							name=Pjotr
-							dynasty=1010026
-							religion=catholic culture=russian
-							father=100018319	# Fjedor Shakhovsky
-							mother=100089466	# Anna Aleksandrovna Sobakin
-							1773.03.17={birth=yes}
-							1794.02.01={add_spouse=100018339}	# Jelisaveta Shakhovsky
-							1797.01.01={add_spouse=100089468}	# Anna Semjonovna Jekulin
-							1841.10.09={death=yes}
-						}
-							100018322={ # 1k) Warwara (1 Feb 1795-5 Jan 1871); m.1st Ct Pawel Shuvalov (d.1823); m.2nd 1827 Pierre Amédée Charles Guillaume, Cte de Polier; m.3rd Georg Wilhelm Wilding, 1835 Pr di Radali (d.Wiesbaden 6 Sep 1841)
-								name=Warwara
-								female=yes
-								dynasty=1010026
-								religion=catholic culture=russian
-								father=100018321	# Pjotr Shakhovsky
-								mother=100018339	# Jelisaveta Shakhovsky
-								1795.02.01={birth=yes}
-								1871.01.05={death=yes}
-							}
-						100018323={ # 3j) Natalia (25 Nov 1779-9 Aug 1807); m.Pr Aleksander Galitzine (d.1821) $$
-							name=Natalia
-							female=yes
-							dynasty=1010026
-							religion=catholic culture=russian
-							father=100018319	# Fjedor Shakhovsky
-							mother=100089466	# Anna Aleksandrovna Sobakin
-							1779.11.25={birth=yes}
-							1807.08.09={death=yes}
-						}
-					100018324={ # 2i) Anna (1738-1809); m.Pr Fjedor Galitzine (d.1782) $$
-						name=Anna
-						female=yes
-						dynasty=1010026
-						religion=catholic culture=russian
-						father=100018318	# Jakow Shakhovsky
-						mother=100089462	# PSS Aleksandra Alekseievna Putiatin
-						1738.01.01={birth=yes}
-						1809.01.01={death=yes}
-					}
-					100018325={ # 3i) Maria (1741-1829); m.Nikolai Saltykov (d.1805) $$
-						name=Maria
-						female=yes
-						dynasty=1010026
-						religion=catholic culture=russian
-						father=100018318	# Jakow Shakhovsky
-						mother=100089462	# PSS Aleksandra Alekseievna Putiatin
-						1741.01.01={birth=yes}
-						1829.11.13={death=yes}
-					}
-			100018327={ # 2g) Aleksei (1688-26 Apr 1737); m.1st Pss Jewdokia Feodorovna Lvov (1687-2 Jun 1713); m.2nd 10 Nov 1721 Tatiana Dmitrievna Arseniev
-				name=Aleksei
-				dynasty=1010026
-				religion=catholic culture=russian
-				father=100018316	# Ivan Shakhovsky
-				mother=100085832	# PSS Jekaterina Alekseievna Zwenigorodsky
-				1688.01.01={birth=yes}
-				1713.01.01={add_spouse=100092132}	# PSS Jewdokia Feodorovna Lvov
-				1721.11.10={add_spouse=100092371}	# Tatiana Dmitrievna Arseniev
-				1737.04.26={death=yes}
-			}
-				100018328={ # 1h) Nikolai (ca 1725-suicide 1766)
-					name=Nikolai
-					dynasty=1010026
-					religion=catholic culture=russian
-					father=100018327	# Aleksei Shakhovsky
-					mother=100092371	# Tatiana Dmitrievna Arseniev
-					1725.01.01={birth=yes}
-					1766.01.01={death=yes}  # suicide
-				}
-				100018329={ # 2h) Natalia, d.after 1766; m.1st Nikolai Streshniev (d.1745); m.2nd Fjedor Passer
-					name=Natalia
-					female=yes
-					dynasty=1010026
-					religion=catholic culture=russian
-					father=100018327	# Aleksei Shakhovsky
-					mother=100092371	# Tatiana Dmitrievna Arseniev
-					1726.01.01={birth=yes}  # EST.
-					1768.01.01={death=yes}
-				}
-				100018330={ # 3h) Agrafena (16 Jun 1728-19 Apr 1782); m.30 Jan 1764 Leonti Feodorovich Karabanov (d.1775)
-					name=Agrafena
-					female=yes
-					dynasty=1010026
-					religion=catholic culture=russian
-					father=100018327	# Aleksei Shakhovsky
-					mother=100092371	# Tatiana Dmitrievna Arseniev
-					1728.06.16={birth=yes}
-					1782.04.19={death=yes}
-				}
-			100018331={ # 3g) Mikhail (1707-1762); m.1725 Pss Jewdokia Andreievna Prosorovsky $$
-				name=Mikhail
-				dynasty=1010026
-				religion=catholic culture=russian
-				father=100018316	# Ivan Shakhovsky
-				mother=100086017	# PSS Tatiana Feodorovna Korkodinov
-				1707.01.01={birth=yes}
-				1725.01.01={add_spouse=100019930}	# Jewdokia Prozorovsky
-				1762.01.01={death=yes}
-			}
-				100018332={ # 1h) Aleksei; m.Natalia Jelagin
-					name=Aleksei
-					dynasty=1010026
-					religion=catholic culture=russian
-					father=100018331	# Mikhail Shakhovsky
-					mother=100019930	# Jewdokia Prozorovsky
-					1727.01.01={birth=yes}  # EST.
-					1768.01.01={add_spouse=100094098}	# Natalia Jelagin
-					1802.01.01={death=yes}  # EST.
-				}
-					100018334={ # 2i) Nikolai (1765-14 Jul 1839)
-						name=Nikolai
-						dynasty=1010026
-						religion=catholic culture=russian
-						father=100018332	# Aleksei Shakhovsky
-						mother=100094098	# Natalia Jelagin
-						1765.01.01={birth=yes}
-						1839.07.14={death=yes}
-					}
-					100018336={ # 4i) Maria, d.22 Apr 1803; m.Pjotr Buturlin (d.1828)
-						name="Maria Alekseievna"
-						female=yes
-						dynasty=1010026
-						religion=catholic culture=russian
-						father=100018332	# Aleksei Shakhovsky
-						mother=100094098	# Natalia Jelagin
-						1769.01.01={birth=yes}  # EST.
-						1803.04.22={death=yes}
-					}
-			100018337={ # 4g) Grigori, d.10 Jan 1774; m.Maria Ilarionovna Kashkarov
-				name=Grigori
-				dynasty=1010026
-				religion=catholic culture=russian
-				father=100018316	# Ivan Shakhovsky
-				mother=100085832	# PSS Jekaterina Alekseievna Zwenigorodsky
-				1695.01.01={birth=yes}  # EST.
-				1742.01.01={add_spouse=100094177}	# Maria Ilarionovna Kashkarov
-				1774.01.10={death=yes}
-			}
-				100018340={ # 2h) Nikolai, d.1824; m.Pss Warwara Alekseievna Galitzine (22 Apr 1750-9 Jun 1779) $$
-					name=Nikolai
-					dynasty=1010026
-					religion=catholic culture=russian
-					father=100018337	# Grigori Shakhovsky
-					mother=100094177	# Maria Ilarionovna Kashkarov
-					1754.01.01={birth=yes}
-					1775.01.01={add_spouse=100015949}	# Warwara Golizyn
-					1824.01.01={death=yes}
-				}
-				100018338={ # 1h) Boris, d.25 Feb 1813; m.Bss Warwara Aleksandrovna Stroganov (2 Dec 1748-29 Oct 1823) $$
-					name=Boris
-					dynasty=1010026
-					religion=catholic culture=russian
-					father=100018337	# Grigori Shakhovsky
-					mother=100094177	# Maria Ilarionovna Kashkarov
-					1743.01.01={birth=yes}	# EST.
-					1773.01.01={add_spouse=100015147}	# Varvara Stroganov
-					1813.02.25={death=yes}
-				}
-					100018339={ # 1i) Jelisaveta (Moscow 29 Nov 1773-25 Oct 1796); m.1st Paris 14 Feb 1792 (div 1794) Louis Marie, Duc d’Arenberg (d.1795); m.2nd Pr Pjotr Shakhovsky (above) $$
-						name=Jelisaveta
-						female=yes
-						dynasty=1010026
-						religion=catholic culture=russian
-						father=100018338	# Boris Shakhovsky
-						mother=100015147	# Varvara Stroganov
-						1773.11.29={birth=yes}  # Moscow
-						1796.10.25={death=yes}
-					}
 ##  100018315-xxx			Shakhovsky                        1010026
 
 
@@ -41336,7 +41513,7 @@
 							1881.03.13={death=yes}
 						}
 							100016953={ # 2g) Nikolaj, Tsarevich (Tsarskoie Selo 20 Sep 1843-Nice 24 Apr 1865)
-								name="Nikolaj Tsarevich"
+								name=Nikolaj
 								dynasty=100397
 								religion=orthodox culture=russian
 								father=100016951	# Alexander Romanov
@@ -41434,7 +41611,7 @@
 								}
 								100016963={ # 5h) MICHAEL II, Emperor and Autocrat (St.Petersburg 22 Nov 1878-Perm 13 Jul 1918); 
 											# m.Vienna 16 Oct 1912 Natalia Sheremetevskya, cr Pss Romanovskaya-Brassova (Moskwa 27 Jun 1880-Paris 26 Feb 1952)
-									name=Mihail
+									name=Michail
 									dynasty=100397
 									religion=orthodox culture=russian
 									father=100016954	# Alexander Romanov
@@ -41523,7 +41700,7 @@
 											1953.12.23={birth=yes}
 										}
 											100016972={ # 1k) George, Grand Duke of Russia, Pr of Prussia (b.Madrid 13 Mar 1981); as only child and heir of his mother, George has been accorded the Imperial title Grand Duke of Russia together with the formal appellation of Imperial Highness, but does not use his Prussian Royal Title and Style.
-												name=Georgii
+												name=Georgi
 												dynasty=100397
 												religion=orthodox culture=russian
 												father=100002023	# Franz Wilhelm v. Hohenzollern
@@ -41841,7 +42018,7 @@
 										2003.10.24={add_spouse=100091424}	# Katharina Verhagen
 									}
 							100017004={ # 10g) Pss Olga Yurievsky (St.Petersburg 8 Nov 1873-Wiesbaden 10 Aug 1925); m.Nice 12 May 1895 Georg Gf von Merenberg (Wiesbaden 13 Feb 1871-Wiesbaden 31 May 1948)
-								name="Olga Yurievsky"
+								name=Olga
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
@@ -41851,7 +42028,7 @@
 								1925.08.10={death=yes}
 							}
 							100017005={ # 12g) Pss Ekaterina Yurievska (St.Petersburg 9 Sep 1878-North Hayling, England 22 Dec 1959); m.1st Biarritz 18 Oct 1901 Pr Alexander Bariatinsky (22 May 1870-Florence 6 Mar 1910); m.2d Yalta 9 Oct 1916 (div 1924) Pr Sergei Obolensky (Tsarskoie-Selo 20 Sep 1890-Grosse Pointe, Michigan 29 Sep 1978)
-								name="Ekaterina Yurievska"
+								name=Ekaterina
 								female=yes
 								dynasty=100397
 								religion=orthodox culture=russian
@@ -42179,7 +42356,7 @@
 											1961.04.12={birth=yes}
 										}
 									100017038={ # 2i) Pr Dmitri Romanov (b.Cap d'Antibes 4 Mar 1926); m.1st Copenhagen 21 Jan 1959 Johanna von Kauffmann (Copenhagen 1 Jun 1936-Copenhagen 13 May 1989); m.2d Bogoyavlensky, Kostromo, Russia 28 Jul 1993 Dorrit Reventlow (b.Récife, Brazil 22 Apr 1942)
-										name=Dmitri
+										name=Dimitri
 										dynasty=100397
 										religion=orthodox culture=russian
 										father=100017033	# Roman Romanov
