@@ -1,14 +1,3 @@
-## 100114000	POTOCKI					1012006
-100097381={ # E1. Protazy (Prot) Antoni, wojewoda kijowski 1791, starost guzowski, +1801; m.(div) Marianna Lubomirska $$
-	name="Protazy Antoni"
-	dynasty=1012006
-	religion=catholic culture=polish
-	1761.09.11={birth=yes}	# Guzów
-	1798.01.01={add_spouse=100111234}	# Marianna Lubomirski
-	1798.02.01={remove_spouse=100111234}
-	1801.01.01={death=yes}
-}
-
 #potocki1
 100114000={ # Jakub Potocki, podsedek halicki 1535, podkomorzy halicki 1543, *ca 1481, +before 1551; 
 			# 1m: ca 1515 Katarzyna Jemielnicka (+before 1544); 
@@ -49,7 +38,7 @@
 				father=100114005	# Jakub Potocki
 				mother=100085489	# Jadwiga Prusinowski
 				1581.01.01={birth=yes}  # EST.
-				1626.01.01={add_spouse=100086369}	# Zofia Firlejów
+				1626.01.01={add_spouse=100086369}	# Zofia Firlej
 				1641.02.01={add_spouse=100087229}	# Elzbieta Kazanowski
 				1651.01.01={death=yes}
 			}
@@ -58,7 +47,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114007	# Mikolaj Potocki
-					mother=100086369	# Zofia Firlejów
+					mother=100086369	# Zofia Firlej
 					1627.01.01={birth=yes}  # EST.
 					1647.01.01={add_spouse=100089081}	# Katarzyna Ostroróg
 					1658.01.01={death=yes}
@@ -68,9 +57,8 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114007	# Mikolaj Potocki
-					mother=100086369	# Zofia Firlejów
+					mother=100086369	# Zofia Firlej
 					1628.01.01={birth=yes}  # EST.
-					1657.01.01={add_spouse=100089082}	# Katarzyna Wybranowski
 					1670.01.01={add_spouse=100089083}	# Swietoslawa Dunin Rajecki
 					1674.01.01={death=yes}
 				}
@@ -398,36 +386,43 @@
 			1732.01.01={add_spouse=100088155}	# Ludwika Mniszech
 			1751.05.07={death=yes}  # Zalosce
 		}
-			100114014={ # C1. [1m.] Stanislaw, +1760, straznik wielki litewski 1728, wojewoda smolenski 1735, wojewoda kijowski 1744, wojewoda poznanski 1756, starosta halicki, kolomyjski i sniatynski; 1m: 1719 Marianna Laszczówna (+1731); 2m: 1733 Helena Zamoyska (+1761)
+			100114014={ # C1. [1m.] Stanislaw, +1760, straznik wielki litewski, wojewoda smolenski, kijowski, poznanski; 1m: 1719 Marianna Laszczówna (+1731); 2m: 1733 Helena Zamoyska (+1761)
 				name=Stanislaw
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100114010	# Józef Potocki
 				mother=100087349	# Wiktoria Leszczynski
-				1698.01.01={birth=yes}  # EST.
-				1719.01.01={add_spouse=100101331}	# Marianna Laszczówna
+				1698.05.14={birth=yes}
 				1733.01.01={add_spouse=100110334}	# Helena Zamoyski
-				1760.01.01={death=yes}
+				1760.02.08={death=yes}	# Halicz
 			}
 				100114015={ # D1. [1m.] Antoni, starosta kolomyjski i halicki, +1756; m.1740 Marianna Czapska
 					name=Antoni
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114014	# Stanislaw Potocki
-					mother=100101331	# Marianna Laszczówna
-					1721.01.01={birth=yes}  # EST.
+					1720.01.01={birth=yes}  # EST.
 					1740.01.01={add_spouse=100101345}	# Marianna Czapski
 					1756.01.01={death=yes}
 				}
-				100114020={ # D2. [2m.] Józef, krajczy koronny 1767, starosta lezajski, rotmistrz chorazy usarski, +1802; m.1760 Anna Teresa Ossolinska (+after 1802)
+				100114051={ # D2. [1m.] Anna, +1772; m.1742 Franciszek Salezy Potocki, wojewoda wolynski i kijowski (+1772)
+					name=Anna
+					female=yes
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=100114014	# Stanislaw Potocki
+					1722.01.01={birth=yes}  # EST.
+					1772.01.01={death=yes}
+				}
+				100114020={ # D3. [2m.] Józef, krajczy koronny 1767, starosta lezajski, rotmistrz chorazy usarski, +1802; m.1760 Anna Teresa Ossolinska (+after 1802)
 					name=Józef
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114014	# Stanislaw Potocki
-					mother=100101331	# Marianna Laszczówna
-					1723.01.01={birth=yes}  # EST.
+					mother=100110334	# Helena Zamoyski
+					1734.01.01={birth=yes}  # EST.
 					1760.01.01={add_spouse=100088708}	# Anna Teresa Ossolinski
-					1802.01.01={death=yes}
+					1802.12.14={death=yes}	# Wien
 				}
 					# potocki4 -> E1. Jan Nepomucen, kapitan inzynier wojsk koronnych, *Lezajsk 8.3.1761, +Uladowska 20.11.1815; 1m: Wilanów 9.5.1783 Pss Julia Lubomirska (*1760 +26.8.1799); 2m: Css Konstancja Potocka (*1781 +24.12.1852); for his issue see HERE
 					100114026={ # E2. Seweryn, rosyjski tajny radca, senator, czlonek Rady Panstwa, *1762, +1829; m.1786 Pss Anna Teofila Sapiezanka (*10.9.1758 +29.11.1813); he had issue
@@ -437,9 +432,19 @@
 						father=100114020	# Józef Potocki
 						mother=100088708	# Anna Teresa Ossolinski
 						1762.01.01={birth=yes}
-						1786.01.01={add_spouse=100089905}	# PSS Anna Teofila Sapieha
-						1829.01.01={death=yes}
+						1786.01.01={add_spouse=100111456}	# Anna Teofila Sapieha
+						1829.12.16={death=yes}
 					}
+						100114017={ # Leon ( ca.1788-St.Petersburg 22 Mar 1860); m.1820 Jelisaveta Golovin (1801-Paris 26 Oct 1867) %%
+							name=Leon
+							dynasty=1012006
+							religion=catholic culture=polish
+							father=100114026	# Seweryn Potocki
+							mother=100111456	# Anna Teofila Sapieha
+							1788.01.01={birth=yes}  # EST.
+							1820.01.01={add_spouse=100020667}	# Jelisaveta Golovin
+							1860.03.22={death=yes}  # St.Petersburg
+						}
 					100114028={ # E3. Maria Anna; m.Jan Ct Krasinski
 						name="Maria Anna"
 						female=yes
@@ -458,8 +463,8 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114014	# Stanislaw Potocki
-					mother=100101331	# Marianna Laszczówna
-					1729.01.01={birth=yes}  # EST.
+					mother=100110334	# Helena Zamoyski
+					1735.01.01={birth=yes}  # EST.
 					1769.01.01={add_spouse=100110346}	# Urszula Zamoyski
 					1780.01.01={remove_spouse=100110346}
 					1787.01.01={add_spouse=100101369}	# Anna Mycielski
@@ -477,16 +482,6 @@
 						1829.05.14={add_spouse=100101372}	# Karolina Keffler
 						1853.01.15={death=yes}  # Warsaw
 					}
-				100114051={ # D6. [1m.] Anna, +1772; m.1742 Franciszek Salezy Potocki, wojewoda wolynski i kijowski (+1772) $$
-					name=Anna
-					female=yes
-					dynasty=1012006
-					religion=catholic culture=polish
-					father=100114014	# Stanislaw Potocki
-					mother=100101331	# Marianna Laszczówna
-					1731.01.01={birth=yes}  # EST.
-					1772.01.01={death=yes}
-				}
 				100114052={ # D7. [2m.] Wiktoria; m.Ludwik Pociej, straznik wielki litewski
 					name=Wiktoria
 					female=yes
@@ -494,7 +489,7 @@
 					religion=catholic culture=polish
 					father=100114014	# Stanislaw Potocki
 					mother=100110334	# Helena Zamoyski
-					1734.01.01={birth=yes}  # EST.
+					1737.01.01={birth=yes}  # EST.
 					1808.01.01={death=yes}  # EST.
 				}
 				100114056={ # D8. [2m.] Ludwika; m.Ignacy Cetner, wojewoda belski
@@ -504,7 +499,7 @@
 					religion=catholic culture=polish
 					father=100114014	# Stanislaw Potocki
 					mother=100110334	# Helena Zamoyski
-					1735.01.01={birth=yes}  # EST.
+					1738.01.01={birth=yes}  # EST.
 					1810.01.01={death=yes}  # EST.
 				}
 			100114057={ # C2. [1m.] Zofia; 1m: Adam Smigielski, starosta gnieznienski; 2m: Dominik Piotr Kossakowski, kasztelan podlaski
@@ -549,14 +544,14 @@
 			1723.01.01={add_spouse=100101395}	# Marcjanna Oginski
 			1749.01.01={death=yes}
 		}
-			100114063={ # C1. [1m.] Franciszek Ksawery, starosta sokalski, +1731; m.1723 Elzbieta Branicka (+1746) $$
+			100114063={ # C1. [1m.] Franciszek Ksawery, starosta sokalski, +1731; m.1723 Elzbieta Branicka (+1746)
 				name="Franciszek Ksawery"
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100114061	# Michal Potocki
 				mother=100101394	# Zofia Aniela Czarniecki
 				1691.01.01={birth=yes}  # EST.
-				1723.01.01={add_spouse=100298043}	# Elzbieta Branicki
+				1723.01.01={add_spouse=100110167}	# Elzbieta Branicki
 				1731.01.01={death=yes}
 			}
 			100114064={ # C2. [1m.] Feliks, kasztelan slonski 1762, starosta krasnostawski, +1766; m.before 1747 Marianna Danilowiczówna (+after 1775)
@@ -606,7 +601,6 @@
 				father=100114061	# Michal Potocki
 				mother=100101394	# Zofia Aniela Czarniecki
 				1695.01.01={birth=yes}  # EST.
-				1755.01.01={add_spouse=100101403}	# Ludwika Szaniawski
 				1779.01.01={death=yes}
 			}
 			100114086={ # C4. [2m.] Piotr, kasztelan lubelski, +after 1794; m.Katarzyna Parysówna (+after 1803)
@@ -616,7 +610,6 @@
 				father=100114061	# Michal Potocki
 				mother=100101394	# Zofia Aniela Czarniecki
 				1697.01.01={birth=yes}  # EST.
-				1752.01.01={add_spouse=100101404}	# Katarzyna Parysówna
 				1795.01.01={death=yes}
 			}
 		100114025={ # B2. [1m.] Józef, straznik wielki koronny 1720, starosta belski i ropczycki, +1723; m.before 1720 Teofila Teresa Cetnerówna (+1741)
@@ -710,17 +703,15 @@
 			father=100114022	# Feliks Kazimierz Potocki
 			mother=100111219	# Krystyna Lubomirski
 			1669.01.01={birth=yes}  # EST.
-			1688.01.01={add_spouse=100101420}	# Marianna Liniewski
 			1719.01.01={add_spouse=100083443}	# Konstancja Drucki-Podberezki
 			1747.01.01={death=yes}
 		}
-			100114154={ # C2. [1m.] Joanna, *1689, +1726; m.1707 Pr Stanislaw Wincenty Jablonowski (*1694 +1754) $$
+			100114154={ # C2. [1m.] Joanna, *1689, +1726; m.1707 Pr Stanislaw Wincenty Jablonowski (*1694 +1754)
 				name=Joanna
 				female=yes
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100114033	# Jerzy Potocki
-				mother=100101420	# Marianna Liniewski
 				1689.01.01={birth=yes}
 				1726.01.01={death=yes}
 			}
@@ -847,7 +838,7 @@
 							father=100114132	# Aleksander Stanislaw Potocki
 							mother=100091149	# CSS Anna Tyszkiewicz
 							1812.01.01={birth=yes}  # EST.
-							1854.05.03={add_spouse=100189898}	# Maria Sapieha
+							1854.05.03={add_spouse=100111411}	# Maria Sapieha
 							1887.12.11={death=yes}  # Brzezany
 						}
 							100114141={ # G1. Ct Jakub, *Brzezany 1863, +Helenów 28.9.1934; m.Warszawa 8.3.1899 (div 1912) Css Teresa Zamoyska (*26.5.1876, +12.12.1960) $$
@@ -855,7 +846,7 @@
 								dynasty=1012006
 								religion=catholic culture=polish
 								father=100114139	# Stanislaw Potocki
-								mother=100189898	# Maria Sapieha
+								mother=100111411	# Maria Sapieha
 								1863.01.01={birth=yes}  # Brzezany
 								1899.03.08={add_spouse=100110386}	# Tereza Zamoyski
 								1912.01.01={remove_spouse=100110386}
@@ -867,7 +858,7 @@
 								dynasty=1012006
 								religion=catholic culture=polish
 								father=100114139	# Stanislaw Potocki
-								mother=100189898	# Maria Sapieha
+								mother=100111411	# Maria Sapieha
 								1864.10.02={birth=yes}  # Brzezany
 								1883.03.21={death=yes}  # Vienna
 							}
@@ -1042,7 +1033,34 @@
 			1693.02.01={add_spouse=100090840}	# Teresa Tarlo
 			1714.01.01={death=yes}
 		}
-			# 1e) Ct Jozef Potocki (Lviv 1695-Siemienowka 21 Dec 1764); m.1st Constance Morsztyn (ca 1705-1734); m.2nd 1736 Css Pelagia Potocki (d.after 1794)
+			# potocki6 -> 1e) Ct Jozef Potocki (Lviv 1695-Siemienowka 21 Dec 1764); m.1st Constance Morsztyn (ca 1705-1734); m.2nd 1736 Css Pelagia Potocki (d.after 1794)
+			100214190={	# C2. [2m.] Antoni Michal, podstoli litewski, wojewoda belski), marszalek królowej, +1766; m.1730 Ludwika Maria Sapiezanka (*1695 +1768)
+				name="Antoni Michal"
+				dynasty=1012006
+				religion=catholic culture=polish
+				father=100114047	# Aleksander Potocki
+				mother=100090840	# Teresa Tarlo
+				1700.01.01={birth=yes}  # EST.
+				1766.01.01={death=yes}
+			}
+				100214191={ # D1. Jan Prosper, starost guzowski, general lejtnant wojsk koronnych, +1761/62; m.1760 Paula Szembekówna (+1797)
+					name="Jan Prosper"
+					dynasty=1012006
+					religion=catholic culture=polish
+					father=100214190	# Antoni Michal Potocki
+					1735.01.01={birth=yes}  # EST.
+					1762.01.01={death=yes}
+				}
+					100114013={ # E1. Protazy (Prot) Antoni, wojewoda kijowski 1791, starost guzowski, +1801; m.(div) Marianna Lubomirska $$
+						name="Protazy Antoni"
+						dynasty=1012006
+						religion=catholic culture=polish
+						father=100214191	# Jan Prosper Potocki
+						1761.09.11={birth=yes}	# Guzów
+						1798.01.01={add_spouse=100111234}	# Marianna Lubomirski
+						1798.02.01={remove_spouse=100111234}
+						1801.01.01={death=yes}
+					}
 		100114053={	# B4. [2m.] Stefan, podkomorzy halicki, krajczy koronny 1703, referendarz koronny 1710, wojewoda pomorski 1724, wojewoda mazowiecki 1726, starost lwowski (1726-29), marszalek nadworny koronny 1726, starost czerkaski i trembowelski, +1730; 1m: Urszula Bieganowska (+1692); 2m: 1696 (div) Konstancja Denhoffówna; 3m: 1711 Teresa Katska (+1746)
 			name=Stefan
 			dynasty=1012006
@@ -1074,7 +1092,7 @@
 					1778.09.21={add_spouse=100081780}	# Teresa Luisa Czapski
 					1812.05.10={death=yes}  # Koniecpol
 				}
-					# 1g) Ct Michal Potocki (Warsaw 27 Oct 1779-29 Aug 1855); m.Warsaw 5 May 1805 Ludwika Ostrowska (Warsaw 14 Mar 1787-22 Jun 1855)
+					# potocki7 -> 1g) Ct Michal Potocki (Warsaw 27 Oct 1779-29 Aug 1855); m.Warsaw 5 May 1805 Ludwika Ostrowska (Warsaw 14 Mar 1787-22 Jun 1855)
 		100114011={ # B9. [2m.] Anna; 1m: Michal Florian Rzewuski, podskarbi nadworny koronny; 2m: Kasper Kunicki, podczaszy czerniechowski
 			name=Anna
 			female=yes
@@ -1389,7 +1407,7 @@
 		father=100114024	# Jan Potocki
 		mother=100111250	# Julia Lubomirski
 		1787.05.27={birth=yes}
-		1816.12.19={add_spouse=100180908}	# Zofia Branicki
+		1816.12.19={add_spouse=100110143}	# Zofia Branicki
 		1832.01.30={death=yes}
 	}
 		100111559={	# B1. Ct Adam Józef Mateusz, *Lancut 26.2.1815, +Krzeszowice 15.6.1872; m.Drezno 26.10.1847 Katarzyna Css Branicka (*Lubomir, Wolynia 10.12.1825, +Krzeszowice 30.9.1907) $$
@@ -1397,9 +1415,9 @@
 			dynasty=1012006
 			religion=catholic culture=polish
 			father=100111556	# Artur Potocki
-			mother=100180908	# Zofia Branicki
+			mother=100110143	# Zofia Branicki
 			1822.02.24={birth=yes}
-			1847.10.26={add_spouse=100180914}	# Katarzyna Branicki
+			1847.10.26={add_spouse=100110160}	# Katarzyna Branicki
 			1872.06.15={death=yes}
 		}
 			100111561={	# C1. Css Róza, *Kraków 7.1.1848, +Rogalin 21.8.1937;  $$
@@ -1410,7 +1428,7 @@
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100111559	# Adam Potocki
-				mother=100180914	# Katarzyna Branicki
+				mother=100110160	# Katarzyna Branicki
 				1848.01.07={birth=yes}
 				1937.08.21={death=yes}
 			}
@@ -1419,7 +1437,7 @@
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100111559	# Adam Potocki
-				mother=100180914	# Katarzyna Branicki
+				mother=100110160	# Katarzyna Branicki
 				1850.06.14={birth=yes}
 				1877.07.07={add_spouse=100111685}	# Roza Lubomirski
 				1890.03.01={death=yes}
@@ -1450,7 +1468,7 @@
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100111559	# Adam Potocki
-				mother=100180914	# Katarzyna Branicki
+				mother=100110160	# Katarzyna Branicki
 				1851.11.07={birth=yes}
 				1927.01.29={death=yes}
 			}
@@ -1460,7 +1478,7 @@
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100111559	# Adam Potocki
-				mother=100180914	# Katarzyna Branicki
+				mother=100110160	# Katarzyna Branicki
 				1855.10.22={birth=yes}
 				1934.03.08={death=yes}
 			}
@@ -1469,9 +1487,9 @@
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100111559	# Adam Potocki
-				mother=100180914	# Katarzyna Branicki
+				mother=100110160	# Katarzyna Branicki
 				1861.06.10={birth=yes}
-				1889.10.29={add_spouse=100091142}	# Krystyna Tyszkiewicz-Lohojski
+				1889.10.29={add_spouse=100112682}	# Krystyna Tyszkiewicz-Lohojski
 				1908.04.12={death=yes}
 			}
 				100111577={	# 1d) Katarzyna (Krzeszowice 16 Oct 1890-2 Feb 1977); m.Vienna 21 Jul 1917 Pr Leon Sapieha-Kodenski (Krasiczyn 19 Dec 1883-27 Sep 1944) $$
@@ -1480,7 +1498,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1890.10.16={birth=yes}
 					1977.02.02={death=yes}
 				}
@@ -1490,7 +1508,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1891.11.21={birth=yes}
 					1918.11.07={death=yes}
 				}
@@ -1500,7 +1518,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1893.02.09={birth=yes}
 					1962.01.01={death=yes}
 				}
@@ -1510,7 +1528,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1894.09.24={birth=yes}
 					1963.02.23={death=yes}
 				}
@@ -1519,7 +1537,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1896.12.01={birth=yes}
 					1919.11.19={add_spouse=100083212}	# Marie Helena Dembinski
 					1966.11.16={death=yes}
@@ -1593,7 +1611,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1899.07.14={birth=yes}
 					1930.01.08={add_spouse=100111994}	# Maria Tarnowski
 					1941.12.10={death=yes}
@@ -1603,7 +1621,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1900.07.18={birth=yes}
 					1926.06.23={add_spouse=100111950}	# Zofia Tarnowski
 					1939.09.28={death=yes}
@@ -1832,7 +1850,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1903.01.01={birth=yes}
 					1940.01.01={death=yes}
 				}
@@ -1842,7 +1860,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100111575	# Andrzej Potocki
-					mother=100091142	# Krystyna Tyszkiewicz-Lohojski
+					mother=100112682	# Krystyna Tyszkiewicz-Lohojski
 					1904.09.21={birth=yes}
 					1967.05.30={death=yes}
 				}
@@ -1852,7 +1870,7 @@
 				dynasty=1012006
 				religion=catholic culture=polish
 				father=100111559	# Adam Potocki
-				mother=100180914	# Katarzyna Branicki
+				mother=100110160	# Katarzyna Branicki
 				1863.09.28={birth=yes}
 				1953.02.15={death=yes}
 			}
@@ -1896,7 +1914,7 @@
 	1805.03.14={death=yes}  # Tulczyn
 }
 	100114066={	# 1a) Pelagia-Roza (31 Aug 1775-Paris 1846); m.1st 1793 Pr Franz Sapieha-Siewierski (1772-30 May 1829); m.2nd Pr Pawel Sapieha-Kodenski (1781-1846)
-		name=Pelagia-Roza
+		name="Pelagia Róza"
 		female=yes
 		dynasty=1012006
 		religion=catholic culture=polish
@@ -2205,14 +2223,14 @@
 				1847.10.06={birth=yes}  # Peczara
 				1901.12.06={death=yes}  # Odessa
 			}
-	100114129={	# 8a) Stanislaw Septym (7 Sep 1785-St.Petersburg 1831); m.1813 Katarzyna Branicki $$
+	100114129={	# 8a) Stanislaw Septym (7 Sep 1785-St.Petersburg 1831); m.1813 Katarzyna Branicki
 		name="Stanislaw Septym"
 		dynasty=1012006
 		religion=catholic culture=polish
 		father=100114062	# Stanislaw Feliks Potocki
 		mother=100088156	# CSS Józefina Amalia Mniszech
 		1785.09.07={birth=yes}
-		1813.01.01={add_spouse=100280926}	# Katarzyna Branicki
+		1813.01.01={add_spouse=100110223}	# Katarzyna Branicki
 		1831.01.01={death=yes}  # St.Petersburg
 	}
 		100114131={	# 1b) Aleksandra (26 Mar 1818-6 Jan 1897); m.1839 Ct August Potocki (17 Mar 1805-30 Jan 1867) $$
@@ -2221,7 +2239,7 @@
 			dynasty=1012006
 			religion=catholic culture=polish
 			father=100114129	# Stanislaw Septym Potocki
-			mother=100280926	# Katarzyna Branicki
+			mother=100110223	# Katarzyna Branicki
 			1818.03.26={birth=yes}
 			1897.01.06={death=yes}
 		}
@@ -2348,7 +2366,7 @@
 		}
 #potocki5
 
-# IV
+#potocki6
 100114190={	# Ct Jozef Potocki (Lviv 1695-Siemienowka 21 Dec 1764); m.1st Constance Morsztyn (ca 1705-1734); m.2nd 1736 Css Pelagia Potocki (d.after 1794)
 	name=Jozef
 	dynasty=1012006
@@ -2367,7 +2385,7 @@
 		father=100114190	# Jozef Potocki
 		mother=100114158	# Pelagia Potocki
 		1737.01.01={birth=yes}
-		1767.01.01={add_spouse=100201394}	# Elzbieta Wielopolski
+		1767.01.01={add_spouse=100112862}	# Elzbieta Wielopolski
 		1775.01.01={add_spouse=100111655}	# Ludwika Lubomirski
 		1816.09.29={death=yes}
 	}
@@ -2399,7 +2417,7 @@
 				father=100114211	# Antoni Potocki
 				mother=100114076	# Roza Potocki
 				1805.01.01={birth=yes}  # Tulczyn
-				1830.01.01={add_spouse=100111401}	# Therese Sapieha
+				1830.01.01={add_spouse=100111472}	# Teresa Sapieha
 				1847.11.23={death=yes}  # Bialocerkiew
 			}
 				100114218={	# 1d) Róza Marianna (Tomaszpol 12 Feb 1831-Podzamcze 21 Apr 1890); m.Warsaw 10 Jun 1851 Ct Stanislaw Zamoyski (Vienna 13 Aug 1820-Podzamcze  25 Jun 1889) $$
@@ -2408,7 +2426,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114216	# Przemyslaw Potocki
-					mother=100111401	# Therese Sapieha
+					mother=100111472	# Teresa Sapieha
 					1831.02.12={birth=yes}  # Tomaszpol
 					1890.04.21={death=yes}  # Podzamcze
 				}
@@ -2417,7 +2435,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114216	# Przemyslaw Potocki
-					mother=100111401	# Therese Sapieha
+					mother=100111472	# Teresa Sapieha
 					1837.05.05={birth=yes}  # Tomaszpol
 					1865.01.01={add_spouse=100083557}	# CSS Anna Dzialynski
 					1884.01.24={death=yes}  # Krakow
@@ -2543,7 +2561,7 @@
 							mother=100090759	# Maria Helena Szajer
 							1906.05.30={birth=yes}  # Zdroj
 							1930.05.15={add_spouse=100088587}	# Mary Amy O'Dell
-							1932.12.19={add_spouse=100088342}	# CSS Anna Mycielski
+							1932.12.19={add_spouse=100113129}	# Anna Maria Mycielski
 							1994.11.08={death=yes}  # Warsaw
 						}
 							100114269={	# 1g) Jerzy (Lvov 3 Mar 1932-Hindukush, Afghanistan 4 Sep 1966)
@@ -2561,7 +2579,7 @@
 								dynasty=1012006
 								religion=catholic culture=polish
 								father=100114266	# Ignacy Potocki
-								mother=100088342	# CSS Anna Mycielski
+								mother=100113129	# Anna Maria Mycielski
 								1935.08.06={birth=yes}  # Krakow
 								2012.01.01={death=yes}  # EST.
 							}
@@ -2570,7 +2588,7 @@
 								dynasty=1012006
 								religion=catholic culture=polish
 								father=100114266	# Ignacy Potocki
-								mother=100088342	# CSS Anna Mycielski
+								mother=100113129	# Anna Maria Mycielski
 								1940.11.15={birth=yes}  # Luczanowice
 								1968.08.10={add_spouse=100110236}	# Maria Krystyna Czartoryski
 							}
@@ -3229,7 +3247,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114216	# Przemyslaw Potocki
-					mother=100111401	# Therese Sapieha
+					mother=100111472	# Teresa Sapieha
 					1841.01.01={birth=yes}
 					1869.01.01={add_spouse=100093981}	# Anna Zakaszewski
 					1901.01.01={death=yes}
@@ -3261,7 +3279,6 @@
 			father=100114407	# Dominyk Potocki
 			mother=100081800	# Anna Czosnowski
 			1780.01.01={birth=yes}
-			1805.01.01={add_spouse=100087853}	# Ludwika Marynowski
 			1863.01.01={death=yes}
 		}
 		100114411={	# 2b) Marceli Marian (8 Sep 1781-Vienna 14 Mar 1851); m.1800 Therese Oborska (d.Vienna 1862)
@@ -3663,7 +3680,9 @@
 				1805.01.01={birth=yes}
 				1830.06.03={death=yes}
 			}
-# V
+#potocki6
+			
+#potocki7
 100114484={	# Ct Michal [Karel?] Potocki (Warsaw 27 Oct 1779-29 Aug 1855); m.Warsaw 5 May 1805 Ludwika Ostrowska (Warsaw 14 Mar 1787-22 Jun 1855)
 	name=Michal
 	dynasty=1012006
@@ -4057,7 +4076,7 @@
 				father=100114563	# Roderyk Potocki
 				mother=100088499	# Marie Niezabitowski
 				1868.03.20={birth=yes}  # Warsaw
-				1897.09.09={add_spouse=100180924}	# Julia Branicki
+				1897.09.09={add_spouse=100110156}	# Julia Branicki
 				1958.03.29={death=yes}  # Montresor
 			}
 				100114567={	# 1d) Anna Julia (Warsaw 12 Aug 1898-Krakow 4 Oct 1982); m.27 Jun 1922 Pawel Zoltowski (24 Dec 1889-Krakow 25 Aug 1985)
@@ -4066,7 +4085,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114565	# Henryk Stefan Potocki
-					mother=100180924	# Julia Branicki
+					mother=100110156	# Julia Branicki
 					1898.08.12={birth=yes}  # Warsaw
 					1982.10.04={death=yes}  # Krakow
 				}
@@ -4075,7 +4094,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114565	# Henryk Stefan Potocki
-					mother=100180924	# Julia Branicki
+					mother=100110156	# Julia Branicki
 					1900.07.04={birth=yes}
 					1922.10.24={add_spouse=100114551}	# Alberta Potocki
 					1945.06.08={death=yes}  # Krakow
@@ -4085,7 +4104,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114565	# Henryk Stefan Potocki
-					mother=100180924	# Julia Branicki
+					mother=100110156	# Julia Branicki
 					1903.10.14={birth=yes}  # Chrzastów
 					1930.09.15={add_spouse=100112066}	# Gabryela Tarnowski
 					1973.12.21={death=yes}  # Washington
@@ -4157,7 +4176,7 @@
 					dynasty=1012006
 					religion=catholic culture=polish
 					father=100114565	# Henryk Stefan Potocki
-					mother=100180924	# Julia Branicki
+					mother=100110156	# Julia Branicki
 					1912.10.30={birth=yes}
 					1981.06.02={death=yes}
 				}
@@ -4355,4 +4374,4 @@
 			1850.11.08={birth=yes}
 			1935.05.12={death=yes}
 		}
-## 100114000	POTOCKI					1012006
+#potocki7

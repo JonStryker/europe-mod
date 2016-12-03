@@ -1,29 +1,41 @@
-## LINIE Albrecht III., Herzog von Österreich
-100022001={ # Albrecht v. Habsburg (9 Sep 1349-29 Aug 1395) %%
+#habsburg2
+100022001={ # C3. Duke ALBRECHT III "mit dem Copfe" of Austria and Styria (1365-95), in Inner-Istria and the Windische Mark 1374, *Wien 9.9.1348, +Laxenburg 29.8.1395, bur Wien; 1m: after 19.3.1366 Elisabeth of Bohemia (*19.4.1358 +4.9.1373); 2m: Wien 4.3.1375 Beatrix von Nürnberg (*1362 +10.6.1414)
 	name=Albrecht
 	dynasty=51
 	religion=catholic culture=german
 	father=462020	# Albrecht v. Habsburg
-	1349.09.09={birth=yes}
+	1348.09.09={birth=yes}
 	1395.08.29={death=yes}
 }
-	100022002={ # Albrecht (9 Sep 1377-14 Sep 1404) %%
+	100022002={ # D1. Duke ALBRECHT IV "das Weltwunder" of Austria (1395-1404), *Wien 19.9.1377, +Klosterneuburg 14.9.1404, bur Wien; m.Wien 24.4.1390 Johanna of Bavaria (*1377 +17.10.1410)
 		name=Albrecht
 		dynasty=51
 		religion=catholic culture=german
 		father=100022001	# Albrecht v. Habsburg
 		1377.09.09={birth=yes}
+		1390.04.24={add_spouse=100011814}	# Johanna v. Wittelsbach
 		1404.09.14={death=yes}
 	}
-		100022003={ # Albrecht (8 Aug 1397-27 Oct 1439) %%
+		100022006={ # E1. Margarete, *Wien 26.6.1395, +Burghausen 24.12.1447, bur Raitenhaslach; m.Landshut 25.11.1412 Duke Heinrich IV of Bavaria (*1386 +30.7.1450)
+			name=Margarete
+			female=yes
+			dynasty=51
+			religion=catholic culture=german
+			father=100022002	# Albrecht v. Habsburg
+			mother=100011814	# Johanna v. Wittelsbach
+			1395.06.26={birth=yes}
+			1447.12.24={death=yes}
+		}
+		100022003={ # E2. Duke ALBRECHT V of Austria (1404-39), German King (19.3.1438-1439) as Albrecht II -cr Prague 29.7.1438, King of Bohemia (1437-39) as Albrecht, King of Hungary (1437-39) as Albert -cr 1.1.1438, Mkgf of Moravia (1423-39), *Wien 16.8.1397, +Langendorf +27.10.1439, bur Székesfehérvár; m.Wien 26.4.1422 Elisabeth of Bohemia (*28.2.1409 +19.12.1442)
 			name=Albrecht
 			dynasty=51
 			religion=catholic culture=german
 			father=100022002	# Albrecht v. Habsburg
+			mother=100011814	# Johanna v. Wittelsbach
 			1397.08.08={birth=yes}
 			1439.10.27={death=yes}
 		}
-			100021237={ # Elisabeth (1436-30 Aug 1505); m.10 Feb 1454 Kazimierz Jogailaitis (30 Nov 1427-7 Jun 1492) %%
+			100021237={ # F4. Elisabeth, *Wien 1435/36, +Cracow 30.8.1505, bur Cracow; m.Cracow 10.3.1454 King Casimir IV of Poland (*30.11.1427 +7.6.1492)
 				name=Elisabeth
 				female=yes
 				dynasty=51
@@ -32,11 +44,8 @@
 				1436.01.01={birth=yes}
 				1505.08.30={death=yes}
 			}
-## LINIE Albrecht III., Herzog von Österreich
 
-			
-## LINIE Leopold III, Herzog von Österreich	
-100022000={ # Leopold v. Habsburg (1351-1386); m.1376 Viridis Visconti (1350-1425) %%
+100022000={ # C4. Duke LEOPOLD III of Austria and Styria (1365-86), Duke in Styria, Carinthia, Carniola and Istria, Ct of Tyrol, etc (1379-86), Hr von Terst 1382, *Wien 1.11.1351, +k.a.Sempach 9.7.1386, bur Königsfelden; m.Wien 23.2.1365 Viridis Visconti (*ca 1350, +Sittich, Carniola by 1.3.1414)
 	name=Leopold
 	dynasty=51
 	religion=catholic culture=german
@@ -46,7 +55,7 @@
 	1376.01.01={add_spouse=100091467}	# Viridis Visconti
 	1386.01.01={death=yes}
 }
-	100022010={ # Ernst (1377-1424) %%
+	100022010={ # D3. ERNST I "der Eiserne", Duke of Styria, Carinthia, Carniola and Tyrol (1406-24), *Bruck an der Muhr 1377, +Bruck an der Muhr 10.6.1424; 1m: Bruck an der Muhr 14.1.1392 Margarete of Pomerania (*1366 +12.6.1410); 2m: Cracow 25.1.1412 Cimburga of Masovia (*1394 +28.9.1429)
 		name=Ernst
 		dynasty=51
 		religion=catholic culture=german
@@ -55,7 +64,7 @@
 		1377.01.01={birth=yes}
 		1424.01.01={death=yes}
 	}
-		100022020={ # Friedrich (21 Sep 1415-19 Aug 1493); m.1452 Leonor de Avis (Torres Novas Vedras 8 Sep 1436-Wiener Neustadt 3 Sep 1476) %%
+		100022020={ # E1. Duke FRIEDRICH V of Austria (1457-93), Duke of Styria, Carinthia, Carniola and Tyrol (1424-93), Archduke of Austria from 1453, Emperor (1452-93) as Friedrich III, *Innsbruck 21.9.1415, +Linz 19.8.1493, bur Wien; m.Rome 16.3.1452 Infanta Leonor of Portugal (*8.9.1436 +3.9.1476)
 			name=Friedrich
 			dynasty=51
 			religion=catholic culture=german
@@ -64,7 +73,18 @@
 			1452.01.01={add_spouse=100025818}	# Leonor de Avis
 			1493.08.19={death=yes}
 		}
-		100021233={ # Katharina (1424-11 Sep 1493); m.1445 Karl von Baden (1420-24 Feb 1475) %%
+			# habsburg4 -> F2. Archduke MAXIMILIAN I of Austria (1493-1519), German King (1486 co/1493-1519), Holy Roman Emperor (1508-19), *Burg zu Neustadt 22.3.1459, +Wels 12.1.1519; 1m: Ghent 19/20.8.1477 Marie of Burgundy, heiress of Burgundy and the Netherlands (*13.2.1457 +27.3.1482); 2m: Hall, Tyrol 16.3.1494 Blanca Maria Sforza (*5.4.1472 +31.12.1510); for his descendants see HERE
+			100022005={ # F5. Kunigunde, *Burg zu Wiener Neustadt 16.3.1465, +Munich 6.8.1520; m.Innsbruck 3.1.1487 Duke Albrecht IV of Bavaria (*15.12.1447 +10.3.1508)
+				name=Kunigunde
+				female=yes
+				dynasty=51
+				religion=catholic culture=german
+				father=100022020	# Friedrich v. Habsburg
+				mother=100025818	# Leonor de Avis
+				1465.03.16={birth=yes}
+				1520.08.06={death=yes}
+			}
+		100021233={ # E8. Katharina, *Wiener Neustadt 1424, +Schloss Hohenbaden/Hochbaden 11.9.1493, bur Baden-Baden; m.Pforzheim 15.7.1447 Mgve Karl I of Baden (+24.2.1475)
 			name=Katharina		#  /en/name/10346/katharina-of-austria/
 			female=yes
 			dynasty=51
@@ -73,7 +93,7 @@
 			1424.01.01={birth=yes}
 			1493.09.11={death=yes}
 		}
-	100020007={ # Friedrich (1382-24 Jun 1439); m.1410 Pss Anna von Braunschweig (1390-1465) %%
+	100020007={ # D4. Duke FRIEDRICH IV in Tyrol (1402-39), in Laufenburg 1408, *1382, +Innsbruck 24.6.1439, bur Stams; 1m: Innsbruck 24.12.1407 Elisabeth von Pfalz (*by 27.10.1381 +31.12.1408); 2m: Innsbruck by 11.6.1411 Anna von Braunschweig-Göttingen (*1390 +Innsbruck 10.8.1432)
 		name=Friedrich #  /en/name/10339/frederick-iv-duke-of-austria-count-of-tirol/
 		dynasty=51
 		religion=catholic culture=german
@@ -83,7 +103,7 @@
 		1410.01.01={add_spouse=100091697}	# PSS Anna von Braunschweig
 		1439.06.24={death=yes}
 	}
-		100020004={ # Sigismund (26 Oct 1427-4 Mar 1496); m.24 Feb 1484 Katharina v. Wettin (Meissen 24 Jul 1468-Göttingen 10 Feb 1524) %%
+		100020004={ # E2. Archduke Sigmund of Austria, he inherited 1450 the family territories in Swabia and Switzerland, *Innsbruck 26.10.1427, +Innsbruck 4.3.1496, bur Stams; 1m: 12.2.1449 Pss Eleanor of Scotland (*26.10.1433 +3.8.1480); 2m: Innsbruck 24.2.1484 Katharina of Saxony (*24.7.1468 +10.2.1524)
 			name=Sigismund #  /en/name/1858/sigismund-von-oesterreich-graf-von-tirol/
 			dynasty=51
 			religion=catholic culture=german
@@ -93,10 +113,42 @@
 			1484.02.24={add_spouse=100007368}	# Katharina v. Wettin
 			1496.03.04={death=yes}
 		}
-## LINIE Leopold III, Herzog von Österreich	
-		
-		
-## Earlier Habsburgs|51|100021100
+
+11009={ # C6. Margarete, *Wien 1346, +Brünn 14.1.1366; 1m: Passau 4.9.1359 Gf Meinhard III of Tyrol, Duke in Bavaria (*9.2.1344 +13.1.1363); 2m: Wien 6/26.2.1364 Mgve Johann Heinrich of Moravia (*12.2.1322 +12.11.1375)
+	name=Margarete
+	female=yes
+	dynasty=51
+	religion=catholic culture=german
+	father=462020	# Albrecht v. Habsburg
+	mother=462033	# Johanna Scarponnois
+	1346.01.01={birth=yes}
+	1366.01.14={death=yes}
+}
+
+11013={ # B12. Jutta, +Wien III.1329; m.Baden 26.4.1319 Gf Ludwig VI von Oettingen (+29.9.1346)
+	name=Jutta
+	female=yes
+	dynasty=51
+	religion=catholic culture=german
+	father=462023	# Albrecht v. Habsburg
+	mother=462713	# Elisabeth Meinhardiner
+	1299.01.01={birth=yes}  # EST.
+	1329.03.01={death=yes}
+}
+#habsburg2	
+	
+#habsburg3
+100099965={ # B1. [2m.] Gf Rudolf III von Habsburg-Laufenburg, Hr zu Rapperswil, *15.2.1270, +Montpellier 22.1.1315; 1m: before 12.3.1296 Elisabeth von Rapperswil (+10.4.1309); 2m: Maria von Oettingen (+10.6.1369)
+	name="Rudolf von Habsburg-Laufenburg"
+	dynasty=0
+	religion=catholic culture=german
+	1270.02.15={birth=yes}
+	1312.01.01={add_spouse=100012489}	# Maria von Oettingen
+	1315.01.22={death=yes}
+}
+#habsburg3
+	
+#habsburg4
 100021100={ # Maximilian I (Burg zu Neustadt 22 Mar 1459-Wels 12 Jan 1519); m.1st Ghent 20 Aug 1477 Marie of Burgundy (Brussels 13 Feb 1457-Bruges 27 Mar 1482); m.2nd Hall 16 Mar 1494 Blanca Maria (Milan 5 Apr 1472-Innsbruck 31 Dec 1510)
 	name=Maximilian
 	dynasty=51
@@ -549,7 +601,7 @@
 				father=100021160	# Ferdinand v. Habsburg
 				mother=100111863	# Anna Jogailaitis
 				1540.06.03={birth=yes}
-				1571.08.26={add_spouse=100091197}	# PSS Maria von Bayern
+				1571.08.26={add_spouse=100011747}	# Maria v. Wittelsbach
 				1590.07.10={death=yes}
 			}
 				100021243={ # 2d) Anna (Graz 16 Aug 1573-Warsaw 10 Feb 1598); m.31 May 1592 King Zygmunt III of Poland (d.30 Apr 1632) $$
@@ -558,7 +610,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1573.08.16={birth=yes}
 					1598.02.10={death=yes}
 				}
@@ -568,7 +620,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1574.11.10={birth=yes}
 					1621.04.06={death=yes}
 				}
@@ -578,7 +630,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1576.01.04={birth=yes}
 					1599.06.29={death=yes}
 				}
@@ -587,7 +639,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1578.07.09={birth=yes}
 					1600.04.23={add_spouse=100007973}	# Maria Anna v. Wittelsbach
 					1622.02.04={add_spouse=100072466}	# Eleonora Gonzaga
@@ -813,7 +865,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1582.09.25={birth=yes}
 					1620.01.28={death=yes}
 				}
@@ -822,7 +874,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1583.11.17={birth=yes}
 					1616.02.18={death=yes}
 				}
@@ -832,7 +884,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1584.12.25={birth=yes}
 					1611.10.03={death=yes}
 				}
@@ -841,7 +893,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1586.10.09={birth=yes}
 					1626.04.19={add_spouse=100072452}	# Claudia de Medici
 					1632.09.13={death=yes}
@@ -911,7 +963,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1588.12.24={birth=yes}
 					1631.07.10={death=yes}
 				}
@@ -921,7 +973,7 @@
 					dynasty=51
 					religion=catholic culture=german
 					father=100021240	# Karl v. Habsburg
-					mother=100091197	# PSS Maria von Bayern
+					mother=100011747	# Maria v. Wittelsbach
 					1589.10.07={birth=yes}
 					1631.11.01={death=yes}
 				}
@@ -965,7 +1017,7 @@
 		1480.01.10={birth=yes}
 		1530.12.01={death=yes}
 	}
-#Earlier Habsburgs|51|100021100
+#habsburg4
 
 
 ## HAB-LOT

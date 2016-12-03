@@ -6085,29 +6085,38 @@
 ##  1006022		BONCOMPAGNI-LUDOVISI							100073150
 
 
-##  1006021		Collalto										100073050		
-100070750={	# Cte Eduardo II di Collalto, m. Anna Maria di Collalto
+##  1006021		Collalto										100073050	
+100081416={ # Gfn        Juliane                   von Collalto und San Salvatore           (1623-1647)     1
+	name="Juliane von Collalto und San Salvatore"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1623.01.01={birth=yes}
+	1647.01.01={death=yes}
+}
+	
+100070750={	# Cte Odoardo II di Collalto (25 May 1682-1749); m.Anna Maria di Collalto
 	name=Eduardo
 	dynasty=1006021
 	religion=catholic culture=italian
-	1682.01.01={birth=yes}
+	1682.05.25={birth=yes}
 	1710.01.01={add_spouse=100094776}	# Anna di Collalto
 	1749.01.01={death=yes}
 }
-	100070751={	# 1a) Antonio Octavio, d.1793; m.Laura Nani
-		name="Antonio Octavio"
+	100070751={	# 1a) Antonio Ottaviano (1719-1793); m.Laura Nani
+		name="Antonio Ottaviano"
 		dynasty=1006021
 		religion=catholic culture=italian
 		father=100070750	# Eduardo v. Collalto u.San Salvatore
 		mother=100094776	# Anna di Collalto
-		1719.01.01={birth=yes}
-		1793.01.01={death=yes}
+		1719.05.26={birth=yes}	# Roncade
+		1793.01.29={death=yes}	# Wien
 	}
 		100070752={	# 1b) EDUARD, cr 1822 Fürst von Collalto u.San Salvatore (28 Apr 1748-5 Feb 1833); m.27 Oct 1782 Cecilia Ctsa Gradenigo (12 Feb 1762-24 Jan 1827)
 			name=Odoardo
 			dynasty=1006021
 			religion=catholic culture=italian
-			father=100070751	# Antonio Octavio v. Collalto u.San Salvatore
+			father=100070751	# Antonio Ottaviano v. Collalto u.San Salvatore
 			1748.04.28={birth=yes}
 			1782.10.27={add_spouse=100094900}	# CTSA Cecilia Gradenigo
 			1833.02.05={death=yes}
@@ -6373,7 +6382,7 @@
 		religion=catholic culture=italian
 		father=100070750	# Eduardo v. Collalto u.San Salvatore
 		mother=100094776	# Anna di Collalto
-		1721.01.01={birth=yes}
+		1721.10.23={birth=yes}
 		1780.01.01={death=yes}  # EST.
 	}
 ##  1006021		Collalto										100073050		
@@ -14724,7 +14733,7 @@
 				father=100071652	# Innocenzo Odescalchi
 				mother=100192402	# Anna Luisa Keglevich de Buzin
 				1805.09.20={birth=yes}
-				1841.07.11={add_spouse=100180907}	# Zofia Katarzyna Branicki
+				1841.07.11={add_spouse=100110141}	# Zofia Katarzyna Branicki
 				1885.11.11={death=yes}
 			}
 				100071654={	# 1d) Baldassare Ladislao Constantino Carlo Ignazio Giovanni, Pr Odescalchi, etc (Rome 24 Jun 1844-Civitavecchia 5 Sep 1909); m.Florence 14 Jul 1881 Emilia dei Conti Rucellai (Florence 8 Dec 1857-Rome 29 Feb 1940)
@@ -14732,7 +14741,7 @@
 					dynasty=1006007
 					religion=catholic culture=italian
 					father=100071653	# Livio Odescalchi
-					mother=100180907	# Zofia Katarzyna Branicki
+					mother=100110141	# Zofia Katarzyna Branicki
 					1844.06.24={birth=yes}
 					1881.07.14={add_spouse=100089715}	# CTE Emilia Rucellai
 					1909.09.05={death=yes}
@@ -14997,7 +15006,7 @@
 					dynasty=1006007
 					religion=catholic culture=italian
 					father=100071653	# Livio Odescalchi
-					mother=100180907	# Zofia Katarzyna Branicki
+					mother=100110141	# Zofia Katarzyna Branicki
 					1846.12.07={birth=yes}
 					1922.10.21={death=yes}
 				}
@@ -15007,7 +15016,7 @@
 					dynasty=1006007
 					religion=catholic culture=italian
 					father=100071653	# Livio Odescalchi
-					mother=100180907	# Zofia Katarzyna Branicki
+					mother=100110141	# Zofia Katarzyna Branicki
 					1851.12.06={birth=yes}
 					1917.03.07={death=yes}
 				}
@@ -15169,7 +15178,7 @@
 						father=100071699	# Arturo Odescalchi
 						mother=100035053	# Eugenie Lo Presti di Fontana d'Angioli
 						1863.04.25={birth=yes}
-						1887.05.14={add_spouse=100094021}	# BSS Ilona Zeyk de Zeykfalva
+						1887.05.14={add_spouse=100035439}	# Ilona Zeyk de Zeykfalva
 						1938.08.01={death=yes}
 					}
 						100071701={	# 1f) Anna Eugenie Agnes Maria Dolores (Preßburg 7 Feb 1889-Budapest 1 Jan 1960); m.1st Klausenburg 14 Dec 1910 Zoltan Baron Panffy von Losoncz; m.2nd 20 Aug 1931 Franz Balafy von Belvath
@@ -15178,7 +15187,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071700	# Livio Odescalchi
-							mother=100094021	# BSS Ilona Zeyk de Zeykfalva
+							mother=100035439	# Ilona Zeyk de Zeykfalva
 							1889.02.07={birth=yes}
 							1960.01.01={death=yes}
 						}
@@ -15187,7 +15196,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071700	# Livio Odescalchi
-							mother=100094021	# BSS Ilona Zeyk de Zeykfalva
+							mother=100035439	# Ilona Zeyk de Zeykfalva
 							1896.09.19={birth=yes}  # Szolcsány
 							1921.10.05={add_spouse=100117182}	# Klára Andrássy de Csíkszentkirály
 							1950.01.01={remove_spouse=100117182}
@@ -15246,7 +15255,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071700	# Livio Odescalchi
-							mother=100094021	# BSS Ilona Zeyk de Zeykfalva
+							mother=100035439	# Ilona Zeyk de Zeykfalva
 							1898.10.16={birth=yes}
 							1950.01.01={death=yes}  # EST.
 						}
@@ -20640,7 +20649,7 @@
 							1635.11.15={birth=yes}  # Torino
 							1663.04.29={death=yes}  # Parma
 						}
-						100070146={ # F6. Adelaide Enrichetta, *Torino 6.11.1636, +Munich 18.3.1676, bur there; m.Munich 25.6.1652 Elector Ferdinand Maria of Bavaria (*31.10.1636 +26.5.1679) $$
+						100070146={ # F6. Adelaide Enrichetta, *Torino 6.11.1636, +Munich 18.3.1676; m.Munich 25.6.1652 Elector Ferdinand Maria of Bavaria (*31.10.1636 +26.5.1679) $$
 							name="Adelaide Henriette"
 							female=yes
 							dynasty=240
@@ -20973,7 +20982,7 @@
 				1540.01.01={add_spouse=100101053}	# Jeanne Françoise de Foix
 				1580.09.20={death=yes}  # Pressigny_en_Touraine
 			}
-				100070394={ # D1. Henriette de Savoie-Villars, heiress of Villars, *1541/42, +Soissons 14.10.1611, bur there; 1m: 26.6.1560 Melchior de Prez, sn de Montpezat (+1572); 2m: Chateau Meudon 6.8.1576 Charles de Lorraine, Duc de Mayenne (*Meudon 26.3.1554 +Soissons 4.10.1611)
+				100070394={ # D1. Henriette de Savoie-Villars, heiress of Villars, *1541/42, +Soissons 14.10.1611; 1m: 26.6.1560 Melchior de Prez, sn de Montpezat (+1572); 2m: Chateau Meudon 6.8.1576 Charles de Lorraine, Duc de Mayenne (*Meudon 26.3.1554 +Soissons 4.10.1611)
 					name=Henriette
 					female=yes
 					dynasty=240
