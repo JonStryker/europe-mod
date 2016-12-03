@@ -4,57 +4,345 @@
 #################################################################################################
 
 
-##  100056100-1000xxxxx		Moltke-Hvitfeld                 	   1013504
-100056104={ # Adam Gottlob Moltke-Hvitfeld (1796-1876); m.1828 Gfn Else Razumovsky (1805-1892) %%
-	name="Adam Gottlob"
-	dynasty=1013504
-	religion=lutheran culture=danish
-	1796.01.01={birth=yes}
-	1828.01.01={add_spouse=100085701}	# GFN Else Razumovsky
-	1876.01.01={death=yes}
+##  100056100-1000xxxxx		Moltke			                 	   1013504
+100088176={ #            Margareta                 Moltke                                   (1378-1413)     2
+	name="Margareta Moltke"
+	female=yes
+	dynasty=0
+	religion=lutheran culture=swedish
+	1378.01.01={birth=yes}
+	1413.01.01={death=yes}
 }
-	100056103={ # Gebhard Leon (1829-1896); m.1863 Gfn Maria von Seebach (1843-1902) %%
-		name="Gebhard Leon"
-		dynasty=1013504
-		religion=lutheran culture=danish
-		father=100056104	# Adam Gottlob Moltke-Hvitfeld
-		mother=100085701	# GFN Else Razumovsky
-		1829.01.01={birth=yes}
-		1863.01.01={add_spouse=100085401}	# GFN Maria von Seebach
-		1896.01.01={death=yes}
+100086748={ # Gfn        Olga                      Moltke                                   (1832-1906)     2
+	name="Olga Moltke"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1832.05.24={birth=yes}  # Karlsruhe
+	1906.08.25={death=yes}  # Graz
+}
+100098888={ # Lehnsgfn   Rose                      Moltke                                   (1864-1954)     0
+	name="Rose Moltke"
+	female=yes
+	dynasty=0
+	religion=catholic culture=danish
+	1864.11.14={birth=yes}  # Nørager
+	1954.09.11={death=yes}  # Frederiksberg
+}
+100086110={ #            Friedrich Detlev          von Moltke                               (1750-1825)     -
+	name="Friedrich Detlev von Moltke"
+	dynasty=0
+	religion=catholic culture=german
+	1750.08.28={birth=yes}  # Schorsow
+	1777.01.01={add_spouse=100009186}	# Friederike zu Dohna-Schlobitten
+	1825.09.02={death=yes}
+}
+
+100399955={ # Adam Gottlob Count Moltke ( 31. May 1798 - 11. June 1863 ) was a landowner to Espe and Bonderup , Chamberlain and General War Commissioner.
+	name="Adam Gottlob"
+	dynasty=1013503
+	religion=catholic culture=danish
+	1798.05.31={birth=yes}
+	1863.06.11={death=yes}
+}
+	100398855={ # Otto Joachim Vilhelm greve Moltke (9. september 1828 på Grønholt – 17. februar 1868 på Espe) var en dansk godsejer,
+		name=Otto
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100399955	# Adam Gottlob Moltke
+		1828.09.09={birth=yes}
+		1868.02.17={death=yes}
 	}
-		100056102={ # Adam (31 Jul 1864-9 Oct 1944); m.29 Dec 1896 Louise Bonaparte (7 Feb 1873-22 Jan 1923) %%
-			name=Adam
+		100398888={ # Rosalie komtesse Moltke (6. juni 1866 på Espe – 9. oktober 1924 i Preetz)
+			name="Rosalie Agnes"
+			female=yes
+			dynasty=1013503
+			religion=catholic culture=danish
+			father=100398855	# Otto Moltke
+			1866.03.03={birth=yes}  # Espe
+			1924.10.09={death=yes}  # Preetz, Schleswig-Holstein, Germany
+		}
+		100399956={ # Adam Gottlob greve Moltke (1868-1958) $$
+			name="Adam Gottlob"
+			dynasty=1013503
+			religion=catholic culture=danish
+			father=100398855	# Otto Moltke
+			1868.07.27={birth=yes}  # Espe
+			1892.10.18={add_spouse=100004285}	# Ingeborg Danneskiold-Samsøe
+			1926.01.01={remove_spouse=100004285}
+			1958.06.30={death=yes}  # Espe
+		}
+
+#(1746-1792) Adam Gottlob lensgreve Moltke
+#(1792-1818) Joachim Godske lensgreve Moltke
+#(1818-1864) August Adam Wilhelm lensgreve Moltke
+#(1864-1875) Frederik Georg Julius lensgreve Moltke
+#(1875-1936) Frederik Christian lensgreve Moltke
+#(1936-1968) Christian Frederik Gustav lensgreve Moltke
+#(1968-1989) Hans Hemming Joachim Christian lensgreve Moltke
+#(1989-) Christian Georg Peter lensgreve Moltke
+	
+100498855={ # Adam Gottlob Moltke (Mecklenburg 10 Nov 1710-Bregentved bei Haslev 25 Sep 1792) %%
+	name="Adam Gottlob"
+	dynasty=1013503
+	religion=catholic culture=danish
+	father=100398855	# Otto Moltke
+	1710.11.10={birth=yes}	# Mecklenburg
+	1792.09.25={death=yes}	# Bregentved bei Haslev
+}
+	100498856={ # grev Christian Frederik Moltke til Turebyholm (1736-1771)
+		name="Christian Frederik"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1736.01.01={birth=yes}
+		1771.01.01={death=yes}
+	}
+	100498857={ # grev Caspar Herman Gottlob Moltke til Dronninggård og Dronninglund (1738-1800)
+		name="Caspar Herman Gottlob"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1738.01.01={birth=yes}
+		1800.01.01={death=yes}
+	}
+	100498858={ # grev Christian Magnus Frederik Moltke til Nør (1741-1813), der blev stamfader til greverne Moltke af Nør
+		name="Christian Magnus Frederik"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1741.01.01={birth=yes}
+		1813.01.01={death=yes}
+	}
+	#	Adam Gottlob Ditlev Moltke (1765-1843), greve af Nør, forfatter
+	#		Carl Moltke (1798-1866), greve af Nør, minister
+	#			Adam Henrik Carl Moltke (1828-1913), greve af Nør, kammerherre, østrigsk major
+	#				Carl Poul Oscar Moltke (1869-1935), greve af Nør, udenrigsminister, ambassadør
+	#		Magnus Theodor Moltke (1806-1860), greve, godsejer
+	#		Adam Friedrich Adamson Moltke (1816-1885), greve, regeringspræsident
+	#	Joachim Moltke (1769-1820), greve
+	#		Adam Gottlob Ditlev Moltke (1803-1852), greve
+	#			Oskar Peter August Moltke (1828-1882), greve
+	#			Harald Viggo Moltke (1871-1960), greve, dansk maler
+	#	Magnus Moltke (1783-1864), greve, overretsråd
+	100498859={ # grev Frederik Ludvig Moltke (1745-1824), som kaldtes "den lærde Moltke"
+		name="Frederik Ludvig"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1745.01.01={birth=yes}
+		1824.01.01={death=yes}
+	}
+	100498860={ # grev Joachim Godske Moltke (1746-1818), der arvede Grevskabet Bregentved
+		name="Joachim Godske"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1746.01.01={birth=yes}
+		1818.01.01={death=yes}
+	}
+		100498871={ # August Adam Wilhelm lensgreve Moltke (25. august 1785 på Einsidelsborg på Fyn – 15. februar 1864 i København) var lensgreve til Bregentved og Danmarks 1. statsminister efter indførelsen af Junigrundloven.
+			name="August Adam"
+			dynasty=1013503
+			religion=catholic culture=danish
+			father=100498860	# Joachim Godske Moltke
+			1785.08.25={birth=yes}	# Fyn
+			1864.02.15={death=yes}	# København
+		}
+			100498870={ # Frederik "Fritz" Georg Julius lensgreve Moltke (27. februar 1825 i København – 1. oktober 1875 på Bregentved) var en dansk godsejer og udenrigsminister.
+				name=Frederik
+				dynasty=1013503
+				religion=catholic culture=danish
+				father=100498871	# August Adam Moltke
+				1825.02.27={birth=yes}	# Turebyholm
+				1875.10.01={death=yes}
+			}
+				100498869={ # Frederik Christian lensgreve Moltke (20. januar 1854 på Turebyholm – 23. oktober 1936) var en dansk godsejer, politiker, kammerherre og hofjægermester, bror til Hemming Moltke.
+					name=Frederik
+					dynasty=1013503
+					religion=catholic culture=danish
+					father=100498870	# Frederik Moltke
+					1854.01.20={birth=yes}	# Turebyholm
+					1936.10.23={death=yes}
+				}
+				100498868={ # Hemming Vilhelm greve Moltke (12. september 1861 på Turebyholm – 8. november 1927 på Marienborg) var en dansk godsejer, yngre bror til Frederik Moltke og far til Christian Moltke.
+					name=Hemming
+					dynasty=1013503
+					religion=catholic culture=danish
+					father=100498870	# Frederik Moltke
+					1861.09.12={birth=yes}	# Turebyholm
+					1927.11.08={death=yes}	# Marienborg
+				}
+					100498867={ # Christian Frederik Gustav lensgreve Moltke (19. april 1895 på Marienborg – 17. april 1968 i Hillerød) var en dansk godsejer, far til Hans Hemming Joachim Christian Moltke.
+						name=Christian
+						dynasty=1013503
+						religion=catholic culture=danish
+						father=100498868	# Hemming Moltke
+						1895.04.19={birth=yes}	# Marienborg
+						1968.04.17={death=yes}	# Hillerød
+					}
+						100498866={ # Hans Hemming Joachim Christian Count Moltke ( 18. June 1925 in Frederiksberg - 10. august 2005 ) was a Danish landowner 
+							name="Hans Hemming"
+							dynasty=1013503
+							religion=catholic culture=danish
+							father=100498867	# Christian Moltke
+							1925.06.10={birth=yes}	# Frederiksberg
+							2005.08.20={death=yes}
+						}
+							100498865={ # Christian Georg Peter (b.Haslev 5 Jun 1959) %%
+								name="Christian Georg Peter"
+								dynasty=1013503
+								religion=catholic culture=danish
+								father=100498866	# Hans Hemming Moltke
+								1959.06.05={birth=yes}	# Haslev
+							}
+			100036433={ # Christian Henrik (13. maj 1833 i København – 21. december 1918 på Lystrup); m.7 Dec 1865 Caroline Amalie Danneskiold-Samsøe (Copenhagen 10 May 1843-Copenhagen 4 Feb 1876) $$
+				name="Christian Henrik"
+				dynasty=1013503
+				religion=catholic culture=danish
+				father=100498871	# August Adam Moltke
+				1833.05.13={birth=yes}	# København
+				1865.12.07={add_spouse=100004294}	# Caroline Amalie Danneskiold-Samsøe
+				1918.12.21={death=yes}	# Lystrup
+			}
+				100036434={ # Aage Wilhelm (18 Sep 1866-5 Nov 1943); m.16 Jul 1896 Elisabeth Danneskiold-Samsøe (Boller 16 Jul 1869-Vallø 3 Nov 1948) %%
+					name="Aage Wilhelm"
+					dynasty=1013503
+					religion=catholic culture=danish
+					father=100036433	# Christian Henrik Moltke
+					mother=100004294	# Caroline Amalie Danneskiold-Samsøe
+					1866.09.18={birth=yes}
+					1896.07.16={add_spouse=100004284}	# Elisabeth Danneskiold-Samsøe
+					1943.11.05={death=yes}
+				}
+				100036432={ # Eiler (30 Sep 1870-13 Apr 1956); m.22 Jun 1929 Vibeke Danneskiold-Samsøe (Copenhagen 25 Apr 1896-30 Dec 1964) %%
+					name=Eiler
+					dynasty=1013503
+					religion=catholic culture=danish
+					father=100036433	# Christian Henrik Moltke
+					mother=100004294	# Caroline Amalie Danneskiold-Samsøe
+					1870.09.30={birth=yes}
+					1929.06.22={add_spouse=100004303}	# Vibeke Danneskiold-Samsøe
+					1956.04.13={death=yes}
+				}
+	100498861={ # grev Adam Gottlob Ferdinand Moltke (1748-1820)
+		name="Adam Gottlob Ferdinand"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1748.01.01={birth=yes}
+		1820.01.01={death=yes}
+	}
+	100498862={ # grev Gebhard Moltke (1764-1851) til Stamhuset Moltkenborg, der ved patent af 12. juli 1843 fik navnet Moltke-Huitfeldt og et nyt våben med de to slægters mærker i
+		name=Gebhard
+		dynasty=1013504
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1764.01.01={birth=yes}
+		1851.01.01={death=yes}
+	}
+		100056104={ # Adam Gottlob greve Moltke-Huitfeldt (10. juni 1798 – 23. marts 1876 på Glorup); m.1828 Gfn Else Razumovsky (1805-1892)
+			name="Adam Gottlob"
 			dynasty=1013504
 			religion=lutheran culture=danish
-			father=100056103	# Gebhard Leon Moltke-Hvitfeld
-			mother=100085401	# GFN Maria von Seebach
-			1864.07.31={birth=yes}
-			1896.12.29={add_spouse=100065093}	# Louise Bonaparte
-			1944.10.09={death=yes}
+			father=100498862	# Gebhard Moltke-Huitfeldt
+			1798.06.10={birth=yes}
+			1828.01.01={add_spouse=100085701}	# GFN Else Razumovsky
+			1876.03.23={death=yes}	# Glorup
 		}
-			100056105={ # Leon (Paris 14 Nov 1898-Nyborg 11 Jan 1976); m.6 Feb 1929 Tove Danneskiold-Samsøe (Rungsted 31 May 1909-Copenhagen 25 Feb 1984) %%
-				name=Leon
-				dynasty=1013504
-				religion=catholic culture=danish
-				father=100056102	# Adam Moltke-Hvitfeld
-				mother=100065093	# Louise Bonaparte
-				1898.11.14={birth=yes}	# Paris
-				1929.02.06={add_spouse=100004314}	# Tove Danneskiold-Samsøe
-				1976.01.11={death=yes}  # Nyborg
-			}
-			100056101={ # Adam Nicholas (1908-1991) %%
-				name="Adam Nicholas"
+			100056103={ # Gebhard Léon (23. april 1829 i Paris – 28. november 1896 sammesteds); m.1863 Gfn Maria von Seebach (1843-1902)
+				name="Gebhard Léon"
 				dynasty=1013504
 				religion=lutheran culture=danish
-				father=100056102	# Adam Moltke-Hvitfeld
-				mother=100065093	# Louise Bonaparte
-				1908.01.01={birth=yes}
-				1991.01.01={death=yes}
+				father=100056104	# Adam Gottlob Moltke-Huitfeldt
+				mother=100085701	# GFN Else Razumovsky
+				1829.04.23={birth=yes}
+				1863.01.01={add_spouse=100085401}	# GFN Maria von Seebach
+				1896.11.28={death=yes}	# sammesteds
 			}
-
-#####
-##  100056100-1000xxxxx		Moltke-Hvitfeld                 	   1013504
+				100056102={ # Adam (31 Jul 1864-9 Oct 1944); m.29 Dec 1896 Louise Bonaparte (7 Feb 1873-22 Jan 1923) %%
+					name=Adam
+					dynasty=1013504
+					religion=lutheran culture=danish
+					father=100056103	# Gebhard Léon Moltke-Huitfeldt
+					mother=100085401	# GFN Maria von Seebach
+					1864.07.31={birth=yes}
+					1896.12.29={add_spouse=100065093}	# Louise Bonaparte
+					1944.10.09={death=yes}
+				}
+					100056105={ # Leon (Paris 14 Nov 1898-Nyborg 11 Jan 1976); m.6 Feb 1929 Tove Danneskiold-Samsøe (Rungsted 31 May 1909-Copenhagen 25 Feb 1984) %%
+						name=Leon
+						dynasty=1013504
+						religion=catholic culture=danish
+						father=100056102	# Adam Moltke-Huitfeldt
+						mother=100065093	# Louise Bonaparte
+						1898.11.14={birth=yes}	# Paris
+						1929.02.06={add_spouse=100004314}	# Tove Danneskiold-Samsøe
+						1976.01.11={death=yes}  # Nyborg
+					}
+					100056101={ # Adam Nicholas (1908-1991) %%
+						name="Adam Nicholas"
+						dynasty=1013504
+						religion=lutheran culture=danish
+						father=100056102	# Adam Moltke-Huitfeldt
+						mother=100065093	# Louise Bonaparte
+						1908.01.01={birth=yes}
+						1991.01.01={death=yes}
+					}
+	100498863={ # grev Otto Joachim Moltke (1770-1853), som blev stamfader for greverne Moltke af Espe
+		name="Otto Joachim"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1770.01.01={birth=yes}
+		1853.01.01={death=yes}
+	}
+	#	Adam Gottlob Moltke (1798-1863), generalkrigskommisær og kammerherre
+	#		Otto Joachim Vilhelm Moltke (1828-1868), greve
+	#		Vilhelm Imanuel Johannes Carl Moltke (1830-?), greve
+	#		Thusnelda Moltke (1843-1926), skolebestyrerinde og komtesse
+	#	Vilhelm Mathias Moltke (1801-1864), greve, amtmand
+	100498864={ # Carl Emil Moltke (1773-1858), fra hvem greverne Moltke af Nørager nedstammer.
+		name="Carl Emil"
+		dynasty=1013503
+		religion=catholic culture=danish
+		father=100498855	# Adam Gottlob Moltke
+		1773.01.01={birth=yes}
+		1858.01.01={death=yes}
+	}
+		100499864={ # Adam Georg Ernst Heinrich greve Moltke (2. januar 1822 i London – 26. marts 1896 på Nørager) var en dansk godsejer og diplomat.
+			name=Ernst
+			dynasty=1013503
+			religion=catholic culture=danish
+			father=100498864	# Carl Emil Moltke
+			1822.01.02={birth=yes}	# London
+			1896.03.26={death=yes}	# Nørager
+		}
+			100499865={ # Viggo Vilhelm greve Moltke (10. december 1862 på Nørager – 7. januar 1943) var en dansk slotspræst, bror til Otto og Aage Moltke.
+				name=Viggo
+				dynasty=1013503
+				religion=catholic culture=danish
+				father=100499864	# Ernst Moltke
+				1862.12.10={birth=yes}	# Nørager
+				1943.01.07={death=yes}
+			}
+				100499867={ # Kai Vilhelm greve Moltke (født 28. november 1902 i Sønder Jernløse, Holbæk, død 10. september 1979 i Herlev), søn af Viggo Moltke og Helga Bonnevie Hoff, var en dansk politiker, forfatter og greve
+					name=Kai
+					dynasty=1013503
+					religion=catholic culture=danish
+					father=100499865	# Viggo Moltke
+					1902.11.27={birth=yes}	# Sønder Jernløse, Holbæk
+					1979.09.10={death=yes}	# Herlev
+				}
+			100499866={ # Aage greve Moltke (30. december 1868 i Sæby – 9. august 1942 i Tønder) var en dansk officer
+				name=Aage
+				dynasty=1013503
+				religion=catholic culture=danish
+				father=100499864	# Ernst Moltke
+				1868.12.30={birth=yes}	# Sæby
+				1942.08.09={death=yes}	# Tønder
+			}
+#  100056100-1000xxxxx		Moltke			                 	   1013504
 
 
 ##  100056000-1000xxxxx		Holstein til Ledreborg                 1013500
