@@ -19,7 +19,7 @@
 	1771.03.08={death=yes}  # Vienna
 }
 	# I1. Franz Stephan, Graf von Silva-Tarouca, conte di Sanfré, *Wien 30.1.1750, +Wien 5.3.1797; m.Wien 30.1.1772 Gfn Maria Christina von Schönborn-Heussenstamm (*Wien 20.9.1754, +Wien 25.8.1797); for their issue see HERE
-	100097797={ # I2. Maria Theresia Josefa Johanna Teles de Silva-Tarouca Gräfin von Silva-Tarouca, *Wien 30.12.1741; m.Gf Franz Georg Josef von Wurmbrand-Stuppach (*Graz 4.4.1737, +Wien 9.3.1806)
+	100097797={ # I2. Maria Theresia Josefa Johanna Teles de Silva-Tarouca Gräfin von Silva-Tarouca, *Wien 30.12.1741; m.Gf Franz Georg Josef von Wurmbrand-Stuppach (*Graz 4.4.1737, +Wien 9.3.1806) $$
 		name="Maria Theresia"
 		female=yes
 		dynasty=1004603
@@ -885,7 +885,7 @@
 						father=100033740	# Francisco de Ponte de Lima
 						mother=100101449	# Emília Pecquet da Silva
 						1857.01.01={birth=yes}
-						1906.01.01={add_spouse=100101455}	# Amélia Ferreira
+						1893.01.01={add_spouse=100101455}	# Amélia Ferreira
 						1932.01.01={death=yes}  # EST.
 					}
 						100033743={ # F1. Emília de Jesus de Melo Breyner, *1894; m.1923 Alfredo Aires de Castro de Freitas Leal (*1875, +1935)
@@ -1067,7 +1067,7 @@
 											name=Vicente
 											dynasty=1001006
 											religion=catholic culture=portuguese
-											father=100033761	# Maria de Ponte de Lima
+											father=100101468	# Bernardo Champalimaud Simoes
 											mother=100033761	# Maria de Ponte de Lima
 											2006.01.01={birth=yes}
 										}
@@ -1238,19 +1238,19 @@
 								}
 								100033781={ # H6. Lourenço Maria Pereira de Mello Breyner, *1963; m.1991 Ana Paula Morgado Gamito da Ponte (*1964)
 									name=Lourenço
-									female=yes
 									dynasty=1001006
 									religion=catholic culture=portuguese
 									father=100033770	# Tomás de Ponte de Lima
 									mother=100101473	# Maria Teresa de Jesus Assunçao Pereira
 									1963.01.01={birth=yes}
+									1991.01.01={add_spouse=100101479}	# Ana Paula Morgado Gamito da Ponte
 								}
 									100033782={ # I1. Francisco Maria Gamito da Ponte de Mello Breyner, *1994
 										name=Francisco
 										dynasty=1001006
 										religion=catholic culture=portuguese
 										father=100033781	# Lourenço de Ponte de Lima
-										mother=100033781	# Lourenço de Ponte de Lima
+										mother=100101479	# Ana Paula Morgado Gamito da Ponte
 										1994.01.01={birth=yes}
 									}
 								100033783={ # H7. Maria da Assunçao Pereira de Mello Breyner, *1964; m.Pedro Andrade Rocha (*1960)
@@ -1565,254 +1565,288 @@
 
 
 ## AVIS
-## capet53
-100200950={ # João de Avis (11 Apr 1357-14 Aug 1433) %%
-	name=João
-	dynasty=10178
-	religion=catholic culture=portuguese
-	father=459501	# Pedro de Bourgogne
-	1357.04.11={birth=yes}
-	1433.08.14={death=yes}
-}
-	100025033={ # DUARTE, King of Portugal, *Viseu 31.10.1391, +Thomar 13.9.1438; m.Coimbra 22.9.1428 Leonor of Aragon (*1400 +Toledo 19.2.1445);
-		name=Duarte
+#capet48
+#459501 = B3. PEDRO I "the Cruel", King of Potugal (1357-67), *Coimbra 18.4.1320, +killed Estremos 18.1.1367; 1m: Alfayate 1325 (annulled 1330) Blanca of Castile (+1375); 2m: Lisbon 1339 Costanza (*aft.1315/ca 1323 +1345) dau.of Juan Manuel de Castilla, Pr de Villena, Duque de Penafiel y de Escalona; 3m: secretly in 1346, and openly at Braganca 1354, Inez (*ca 1327, +murdered Coimbra 1355, bur Alcobace) illeg.dau.of Pedro de Castro, sn de Lemos; the children of 3m. were excluded from the succession to the throne, which, ironically, went to their illegitimate brother, Joao I
+	100200950={ # C8. [illegitimate by Teresa Gille Lourenco] King JOAO I "the False" of Portugal (1385-1433), *Lisbon 11.4.1358, +there of the plague 14.8.1433, bur Batalla; m.Oporto 11.2.1387 Philippa of Lancaster (*31.3.1360 +19.7.1415)
+		name=João
 		dynasty=10178
 		religion=catholic culture=portuguese
-		father=100200950	# João de Avis
-		1391.10.31={birth=yes}  # Viseu
-		1428.09.22={add_spouse=100095229}	# Leonor of Aragon
-		1438.09.13={death=yes}  # Thomar
+		father=459501	# Pedro de Bourgogne
+		1357.04.11={birth=yes}
+		1433.08.14={death=yes}
 	}
-		100025575={ # A2. AFONSO V, King of Portugal, *Sintra 15.1.1432, +Sintra 28.8.1481; 1m: 1448 Isabella of Portugal (*1432 +Evora 2.12.1455); 2m: Placentia 30.5.1475 (div 1479) Juana Bertrandilla (*28.8.1459 +Coimbra 1530), dau.of King Enrique IV of Castile
-			name=Afonso
+#capet48
+
+#capet53
+100025033={ # DUARTE, King of Portugal, *Viseu 31.10.1391, +Thomar 13.9.1438; m.Coimbra 22.9.1428 Leonor of Aragon (*1400 +Toledo 19.2.1445);
+	name=Duarte
+	dynasty=10178
+	religion=catholic culture=portuguese
+	father=100200950	# João de Avis
+	1391.10.31={birth=yes}  # Viseu
+	1428.09.22={add_spouse=100095229}	# Leonor of Aragon
+	1438.09.13={death=yes}  # Thomar
+}
+	100025575={ # A2. AFONSO V, King of Portugal, *Sintra 15.1.1432, +Sintra 28.8.1481; 1m: 1448 Isabella of Portugal (*1432 +Evora 2.12.1455); 2m: Placentia 30.5.1475 (div 1479) Juana Bertrandilla (*28.8.1459 +Coimbra 1530), dau.of King Enrique IV of Castile
+		name=Afonso
+		dynasty=10178
+		religion=catholic culture=portuguese
+		father=100025033	# Duarte de Avis
+		mother=100095229	# Leonor of Aragon
+		1432.01.15={birth=yes}  # Sintra
+		1448.01.01={add_spouse=100095230}	# Isabella of Portugal
+		1475.05.30={add_spouse=100100610}	# Juana Bertrandilla
+		1481.08.28={death=yes}  # Sintra
+	}
+		100025588={ # B3. Joana, Regent of Portugal, *Lisbon 6.2.1452, +Aveiro 12.5.1490
+			name="Joana [Regent of Portugal"
+			female=yes
 			dynasty=10178
 			religion=catholic culture=portuguese
-			father=100025033	# Duarte de Avis
-			mother=100095229	# Leonor of Aragon
-			1432.01.15={birth=yes}  # Sintra
-			1448.01.01={add_spouse=100095230}	# Isabella of Portugal
-			1475.05.30={add_spouse=100100610}	# Juana Bertrandilla
-			1481.08.28={death=yes}  # Sintra
+			father=100025575	# Afonso de Avis
+			mother=100095230	# Isabella of Portugal
+			1452.02.06={birth=yes}  # Lisbon
+			1490.05.12={death=yes}  # Aveiro
 		}
-			100025588={ # B3. Joana, Regent of Portugal, *Lisbon 6.2.1452, +Aveiro 12.5.1490
-				name="Joana [Regent of Portugal"
-				female=yes
-				dynasty=10178
-				religion=catholic culture=portuguese
-				father=100025575	# Afonso de Avis
-				mother=100095230	# Isabella of Portugal
-				1452.02.06={birth=yes}  # Lisbon
-				1490.05.12={death=yes}  # Aveiro
-			}
-			100025577={ # B2. JOÃO II "the Severe", King of Portugal, Regent in Portugal, *Lisbon 5.5.1455, +Alvora 25.10.1495; m.Setubal I.1471 Infta Leonor of Portugal (*Beja 2.5.1458 +Lisbon 17.11.1525) $$
-				name=João
-				dynasty=10178
-				religion=catholic culture=portuguese
-				father=100025575	# Afonso de Avis
-				mother=100095230	# Isabella of Portugal
-				1455.05.05={birth=yes}  # Lisbon
-				1471.01.01={add_spouse=100025800}	# Leonor de Avis
-				1495.10.25={death=yes}  # Alvora
-			}
-				100025578={ # C1. Afonso, *Lisbon 18.5.1475, +nr Santarem 13.7.1491; m.Estremos 3.11.1490 Pss Isabella of Spain (*Duenas 2.10.1470, +Saragossa 28.8.1498) $$
-					name=Afonso
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025577	# João de Avis
-					mother=100025800	# Leonor de Avis
-					1475.05.18={birth=yes}  # Lisbon
-					1490.11.03={add_spouse=100200898}	# Isabel de Trastámara
-					1491.07.13={death=yes}  # nr Santarem
-				}
-				100025579={ # C3. Jorge de Lancastre, duque de Coimbra (*Abrantes 1481, +Setubal 1550); for his issue see HERE
-					name=Jorge
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025577	# João de Avis
-					mother=100025800	# Leonor de Avis
-					1481.01.01={birth=yes}  # Abrantes
-					1550.01.01={death=yes}  # Setubal
-				}
-		100025589={ # A3. Fernando, duque de Beja, de Salvaterra e de Viseu, *Almeirim 17.11.1433, +Setubal 18.9.1470; m.Alcocavas 1452 Brites of Portugal (*1430, +30.9.1506)
-			name=Fernando
+		100025577={ # B2. JOÃO II "the Severe", King of Portugal, Regent in Portugal, *Lisbon 5.5.1455, +Alvora 25.10.1495; m.Setubal I.1471 Infta Leonor of Portugal (*Beja 2.5.1458 +Lisbon 17.11.1525) $$
+			name=João
 			dynasty=10178
 			religion=catholic culture=portuguese
-			father=100025033	# Duarte de Avis
-			mother=100095229	# Leonor of Aragon
-			1433.11.17={birth=yes}  # Almeirim
-			1452.01.01={add_spouse=100100644}	# Brites of Portugal
-			1470.09.18={death=yes}  # Setubal
+			father=100025575	# Afonso de Avis
+			mother=100095230	# Isabella of Portugal
+			1455.05.05={birth=yes}  # Lisbon
+			1471.01.01={add_spouse=100025800}	# Leonor de Avis
+			1495.10.25={death=yes}  # Alvora
 		}
-			100025800={ # B8. Leonor, *Beja 1458, +Lisbon 1525; m.Setbubal 1471 King João II of Portugal (* 5.5.1455, +25.10.1495) $$
-				name=Leonor
-				female=yes
+			100025578={ # C1. Afonso, *Lisbon 18.5.1475, +nr Santarem 13.7.1491; m.Estremos 3.11.1490 Pss Isabella of Spain (*Duenas 2.10.1470, +Saragossa 28.8.1498) $$
+				name=Afonso
 				dynasty=10178
 				religion=catholic culture=portuguese
-				father=100025589	# Fernando de Avis
-				mother=100100644	# Brites of Portugal
-				1458.01.01={birth=yes}  # Beja
-				1525.01.01={death=yes}  # Lisbon
+				father=100025577	# João de Avis
+				mother=100025800	# Leonor de Avis
+				1475.05.18={birth=yes}  # Lisbon
+				1490.11.03={add_spouse=100200898}	# Isabel de Trastámara
+				1491.07.13={death=yes}  # nr Santarem
 			}
-			100025810={ # B9. Isabella, *1459, +1521; m.1472 Duque Fernando II de Braganca (*1430 +22.6.1485)
-				name=Isabella
-				female=yes
+			100025579={ # C3. Jorge de Lancastre, duque de Coimbra (*Abrantes 1481, +Setubal 1550); for his issue see HERE
+				name=Jorge
 				dynasty=10178
 				religion=catholic culture=portuguese
-				father=100025589	# Fernando de Avis
-				mother=100100644	# Brites of Portugal
-				1459.01.01={birth=yes}
-				1521.01.01={death=yes}
+				father=100025577	# João de Avis
+				mother=100025800	# Leonor de Avis
+				1481.01.01={birth=yes}  # Abrantes
+				1550.01.01={death=yes}  # Setubal
 			}
-			100025617={ # B7. MANOEL I, King of Portugal and Algarves, sn de Guinee, *Alcocheta 1.6.1469, +Lisbon 13.12.1521; 1m: Valencia d'Alcantara X.1497 Pss Isabella of the Asturias (*1470 +15.8.1498) dau.of Fernando II of Aragon; 2m: Alcazar de Sal 30.10.1500 Pss Maria of the Asturias (*29.6.1482 +7.3.1517); 3m: Lisbon 25.11.1518 Eleonore of Spain (*1498 +18.2.1558)
-				name=Manoel
-				dynasty=10178
-				religion=catholic culture=portuguese
-				father=100025589	# Fernando de Avis
-				mother=100100644	# Brites of Portugal
-				1469.06.01={birth=yes}  # Alcocheta
-				1497.10.01={add_spouse=100100657}	# PSS Isabella of the Asturias
-				1500.10.30={add_spouse=100100658}	# PSS Maria of the Asturias
-				1518.11.25={add_spouse=100100659}	# Eleonore of Spain
-				1521.12.13={death=yes}  # Lisbon
-			}
-				100025625={ # C2. JOÃO III, King of Portugal and Algarves, *Lisbon 6.6.1502, +Lisbon 2.6.1557; m.Salamanca II.1525 Catarina of Spain (*14.1.1507 +12.2.1578) $$
-					name=João
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025617	# Manoel de Avis
-					mother=100100658	# PSS Maria of the Asturias
-					1502.06.06={birth=yes}  # Lisbon
-					1525.02.01={add_spouse=100021337}	# Katharina v. Habsburg
-					1557.06.02={death=yes}  # Lisbon
-				}
-					100025969={ # D7. Maria Manuela, *Coimbra 15.10.1527 +Valladolid 12.8.1545; m.Almeria 1543 King Felipe II of Spain (*21.5.1527 +13.9.1598) $$
-						name="Maria Manuela"
-						female=yes
-						dynasty=10178
-						religion=catholic culture=portuguese
-						father=100025625	# João de Avis
-						mother=100021337	# Katharina v. Habsburg
-						1527.10.15={birth=yes}  # Coimbra
-						1545.08.12={death=yes}  # Valladolid
-					}
-					100025633={ # D5. João, *Evora 3.6.1537, +Lisbon 2.1.1554; m.Toro 7.12.1552 Juana von Habsburg (*27.6.1537 +7.9.1573) $$
-						name=João
-						dynasty=10178
-						religion=catholic culture=portuguese
-						father=100025625	# João de Avis
-						mother=100021337	# Katharina v. Habsburg
-						1537.06.03={birth=yes}  # Evora
-						1552.12.07={add_spouse=100021156}	# Juana v. Habsburg
-						1554.01.02={death=yes}  # Lisbon
-					}
-						100025643={ # E1. SEBASTIÃO King of Portugal, *Lisbon 20.1.1554, +k.a.in a naval battle nr Alcacer 4.8.1578
-							name=Sebastião
-							dynasty=10178
-							religion=catholic culture=portuguese
-							father=100025633	# João de Avis
-							mother=100021156	# Juana v. Habsburg
-							1554.01.20={birth=yes}  # Lisbon
-							1578.08.04={death=yes}  # in naval battle nr Alcacer
-						}
-				100025759={ # C10. Isabella, *Lisbon 24.10.1503, +Toledo 1.5.1539; m.Seville 11.3.1526 Emperor Karl V (*24.2.1500 +21.9.1558) $$
-					name=Isabella
-					female=yes
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025617	# Manoel de Avis
-					mother=100100658	# PSS Maria of the Asturias
-					1503.10.24={birth=yes}  # Lisbon
-					1539.05.01={death=yes}  # Toledo
-				}
-				100025761={ # C11. Maria Brites, Cts d'Asti, *Lisbon 31.12.1504, +Nice 8.1.1538; m.Villefranche 8.4.1520 Duke Carlo III of Savoy (*1486 +1553) $$
-					name="Maria Brites"
-					female=yes
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025617	# Manoel de Avis
-					mother=100100658	# PSS Maria of the Asturias
-					1504.12.31={birth=yes}  # Lisbon
-					1538.01.08={death=yes}  # Nice
-				}
-				100025648={ # C3. Luiz, Duque de Beja, sn de Serpa, de Moura, d'Almeida, *Abrantes 3.3.1506, +Quinta de Marvilla 17.11.1555
-					name=Luiz
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025617	# Manoel de Avis
-					mother=100100658	# PSS Maria of the Asturias
-					1506.03.03={birth=yes}  # Abrantes
-					1555.11.17={death=yes}  # Quinta de_Marvilla
-				}
-				100025664={ # C4. Fernando, Duque de Guarda e de Francoso, *Abrantes 5.6.1507, +Abrantes 7.11.1534; m.1530 Guyomare, Cdsa de Marialva e Loule (+Abrantes 1534) dau.of Francesco de Coutinho, Cde de Marialva, by Brites de Menezes, Cdsa de Loule
-					name=Fernando
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025617	# Manoel de Avis
-					mother=100100658	# PSS Maria of the Asturias
-					1507.06.05={birth=yes}  # Abrantes
-					1530.01.01={add_spouse=100100663}	# CDSA Guyomare de Marialva e Loule
-					1534.11.07={death=yes}  # there
-				}
-				100025678={ # C6. HENRIQUE I King of Potugal and Algarves, *Lisbon 31.1.1512, +Almeria 31.1.1580
-					name=Henrique
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025617	# Manoel de Avis
-					mother=100100658	# PSS Maria of the Asturias
-					1512.01.31={birth=yes}  # Lisbon
-					1580.01.31={death=yes}  # Almeria
-				}
-				100025679={ # C7. Duarte, Duque de Guimaraes, *Lisbon 7.9.1515, +Lisbon 20.10.1540; m.Villa Vicosa 1537 Isabella (*ca 1512, +Villa Vicosa 1576) dau.of Jaime, Duque de Braganca
-					name=Duarte
-					dynasty=10178
-					religion=catholic culture=portuguese
-					father=100025617	# Manoel de Avis
-					mother=100100658	# PSS Maria of the Asturias
-					1515.09.07={birth=yes}  # Lisbon
-					1537.01.01={add_spouse=100100664}	# DSS Isabella de Braganca
-					1540.10.20={death=yes}  # Lisbon
-				}
-					100025682={ # D2. Maria, *Lisbon 8.12.1538, +Parma 9.7.1577; m.Brussels 11.11.1565 Alessandro Farnese, Duke of Parma (*27.8.1545 +3.12.1592) $$
-						name=Maria
-						female=yes
-						dynasty=10178
-						religion=catholic culture=portuguese
-						father=100025679	# Duarte de Avis
-						mother=100100664	# DSS Isabella de Braganca
-						1538.12.08={birth=yes}  # Lisbon
-						1577.07.09={death=yes}  # Parma
-					}
-					100025718={ # D3. Catarina, *Lisbon 1540, +Villa Vicosa 1614; m.1563 João, Duque de Braganca (+1583) $$
-						name=Catarina
-						female=yes
-						dynasty=10178
-						religion=catholic culture=portuguese
-						father=100025679	# Duarte de Avis
-						mother=100100664	# DSS Isabella de Braganca
-						1540.01.01={birth=yes}  # Lisbon
-						1614.01.01={death=yes}  # Villa Vicosa
-					}
-		100025818={ # A7. Leonor, *Torres Novas Vedras 8.9.1436, +Wiener Neustadt 3.9.1476; m.Rome 1452 Emperor Friedrich III (*21.9.1415 +19.8.1493) $$
+	100025589={ # A3. Fernando, duque de Beja, de Salvaterra e de Viseu, *Almeirim 17.11.1433, +Setubal 18.9.1470; m.Alcocavas 1452 Brites of Portugal (*1430, +30.9.1506)
+		name=Fernando
+		dynasty=10178
+		religion=catholic culture=portuguese
+		father=100025033	# Duarte de Avis
+		mother=100095229	# Leonor of Aragon
+		1433.11.17={birth=yes}  # Almeirim
+		1452.01.01={add_spouse=100100644}	# Brites of Portugal
+		1470.09.18={death=yes}  # Setubal
+	}
+		100025800={ # B8. Leonor, *Beja 1458, +Lisbon 1525; m.Setbubal 1471 King João II of Portugal (* 5.5.1455, +25.10.1495) $$
 			name=Leonor
 			female=yes
 			dynasty=10178
 			religion=catholic culture=portuguese
-			father=100025033	# Duarte de Avis
-			mother=100095229	# Leonor of Aragon
-			1436.09.08={birth=yes}  # Torres Novas Vedras
-			1476.09.03={death=yes}  # Wiener Neustadt
+			father=100025589	# Fernando de Avis
+			mother=100100644	# Brites of Portugal
+			1458.01.01={birth=yes}  # Beja
+			1525.01.01={death=yes}  # Lisbon
 		}
-		100025820={ # A9. Juana, *Monte Oliveto nr Almada-Tojal 31.3.1439, +Madrid 13.6.1475; m.Cordoba 20.5.1455 King Enrique IV of Castile (+1474); she was mother of 2 illegitimate children by Pedro "el Mozo" de Castilla
-			name=Juana
+		100025810={ # B9. Isabella, *1459, +1521; m.1472 Duque Fernando II de Braganca (*1430 +22.6.1485)
+			name=Isabella
 			female=yes
 			dynasty=10178
 			religion=catholic culture=portuguese
-			father=100025033	# Duarte de Avis
-			mother=100095229	# Leonor of Aragon
-			1439.03.31={birth=yes}  # Monte Oliveto nr Almada-Tojal
-			1475.06.13={death=yes}  # Madrid
+			father=100025589	# Fernando de Avis
+			mother=100100644	# Brites of Portugal
+			1459.01.01={birth=yes}
+			1521.01.01={death=yes}
 		}
-## capet53
+		100025617={ # B7. MANOEL I, King of Portugal and Algarves, sn de Guinee, *Alcocheta 1.6.1469, +Lisbon 13.12.1521; 1m: Valencia d'Alcantara X.1497 Pss Isabella of the Asturias (*1470 +15.8.1498) dau.of Fernando II of Aragon; 2m: Alcazar de Sal 30.10.1500 Pss Maria of the Asturias (*29.6.1482 +7.3.1517); 3m: Lisbon 25.11.1518 Eleonore of Spain (*1498 +18.2.1558)
+			name=Manoel
+			dynasty=10178
+			religion=catholic culture=portuguese
+			father=100025589	# Fernando de Avis
+			mother=100100644	# Brites of Portugal
+			1469.06.01={birth=yes}  # Alcocheta
+			1497.10.01={add_spouse=100100657}	# PSS Isabella of the Asturias
+			1500.10.30={add_spouse=100100658}	# PSS Maria of the Asturias
+			1518.11.25={add_spouse=100100659}	# Eleonore of Spain
+			1521.12.13={death=yes}  # Lisbon
+		}
+			100025625={ # C2. JOÃO III, King of Portugal and Algarves, *Lisbon 6.6.1502, +Lisbon 2.6.1557; m.Salamanca II.1525 Catarina of Spain (*14.1.1507 +12.2.1578) $$
+				name=João
+				dynasty=10178
+				religion=catholic culture=portuguese
+				father=100025617	# Manoel de Avis
+				mother=100100658	# PSS Maria of the Asturias
+				1502.06.06={birth=yes}  # Lisbon
+				1525.02.01={add_spouse=100021337}	# Katharina v. Habsburg
+				1557.06.02={death=yes}  # Lisbon
+			}
+				100025969={ # D7. Maria Manuela, *Coimbra 15.10.1527 +Valladolid 12.8.1545; m.Almeria 1543 King Felipe II of Spain (*21.5.1527 +13.9.1598) $$
+					name="Maria Manuela"
+					female=yes
+					dynasty=10178
+					religion=catholic culture=portuguese
+					father=100025625	# João de Avis
+					mother=100021337	# Katharina v. Habsburg
+					1527.10.15={birth=yes}  # Coimbra
+					1545.08.12={death=yes}  # Valladolid
+				}
+				100025633={ # D5. João, *Evora 3.6.1537, +Lisbon 2.1.1554; m.Toro 7.12.1552 Juana von Habsburg (*27.6.1537 +7.9.1573) $$
+					name=João
+					dynasty=10178
+					religion=catholic culture=portuguese
+					father=100025625	# João de Avis
+					mother=100021337	# Katharina v. Habsburg
+					1537.06.03={birth=yes}  # Evora
+					1552.12.07={add_spouse=100021156}	# Juana v. Habsburg
+					1554.01.02={death=yes}  # Lisbon
+				}
+					100025643={ # E1. SEBASTIÃO King of Portugal, *Lisbon 20.1.1554, +k.a.in a naval battle nr Alcacer 4.8.1578
+						name=Sebastião
+						dynasty=10178
+						religion=catholic culture=portuguese
+						father=100025633	# João de Avis
+						mother=100021156	# Juana v. Habsburg
+						1554.01.20={birth=yes}  # Lisbon
+						1578.08.04={death=yes}  # in naval battle nr Alcacer
+					}
+			100025759={ # C10. Isabella, *Lisbon 24.10.1503, +Toledo 1.5.1539; m.Seville 11.3.1526 Emperor Karl V (*24.2.1500 +21.9.1558) $$
+				name=Isabella
+				female=yes
+				dynasty=10178
+				religion=catholic culture=portuguese
+				father=100025617	# Manoel de Avis
+				mother=100100658	# PSS Maria of the Asturias
+				1503.10.24={birth=yes}  # Lisbon
+				1539.05.01={death=yes}  # Toledo
+			}
+			100025761={ # C11. Maria Brites, Cts d'Asti, *Lisbon 31.12.1504, +Nice 8.1.1538; m.Villefranche 8.4.1520 Duke Carlo III of Savoy (*1486 +1553) $$
+				name="Maria Brites"
+				female=yes
+				dynasty=10178
+				religion=catholic culture=portuguese
+				father=100025617	# Manoel de Avis
+				mother=100100658	# PSS Maria of the Asturias
+				1504.12.31={birth=yes}  # Lisbon
+				1538.01.08={death=yes}  # Nice
+			}
+			100025648={ # C3. Luiz, Duque de Beja, sn de Serpa, de Moura, d'Almeida, *Abrantes 3.3.1506, +Quinta de Marvilla 17.11.1555
+				name=Luiz
+				dynasty=10178
+				religion=catholic culture=portuguese
+				father=100025617	# Manoel de Avis
+				mother=100100658	# PSS Maria of the Asturias
+				1506.03.03={birth=yes}  # Abrantes
+				1555.11.17={death=yes}  # Quinta de_Marvilla
+			}
+				# capet56 -> D1. [illegitimate son by Violanta "la Pelicana" Gomez (born a Jew, died as a nun at Almorta)] Antonio de Portugal; recognized by England and other powers as King of Portugal in 1580; he and his descendants, known as "the Portuguese Princes", were political pawns for the next few decades as Spain conquered Portugal and the powers threatened to restore these princes; for his descendants see HERE
+			100025664={ # C4. Fernando, Duque de Guarda e de Francoso, *Abrantes 5.6.1507, +Abrantes 7.11.1534; m.1530 Guyomare, Cdsa de Marialva e Loule (+Abrantes 1534) dau.of Francesco de Coutinho, Cde de Marialva, by Brites de Menezes, Cdsa de Loule
+				name=Fernando
+				dynasty=10178
+				religion=catholic culture=portuguese
+				father=100025617	# Manoel de Avis
+				mother=100100658	# PSS Maria of the Asturias
+				1507.06.05={birth=yes}  # Abrantes
+				1530.01.01={add_spouse=100100663}	# CDSA Guyomare de Marialva e Loule
+				1534.11.07={death=yes}  # there
+			}
+			100025678={ # C6. HENRIQUE I King of Potugal and Algarves, *Lisbon 31.1.1512, +Almeria 31.1.1580
+				name=Henrique
+				dynasty=10178
+				religion=catholic culture=portuguese
+				father=100025617	# Manoel de Avis
+				mother=100100658	# PSS Maria of the Asturias
+				1512.01.31={birth=yes}  # Lisbon
+				1580.01.31={death=yes}  # Almeria
+			}
+			100025679={ # C7. Duarte, Duque de Guimaraes, *Lisbon 7.9.1515, +Lisbon 20.10.1540; m.Villa Vicosa 1537 Isabella (*ca 1512, +Villa Vicosa 1576) dau.of Jaime, Duque de Braganca
+				name=Duarte
+				dynasty=10178
+				religion=catholic culture=portuguese
+				father=100025617	# Manoel de Avis
+				mother=100100658	# PSS Maria of the Asturias
+				1515.09.07={birth=yes}  # Lisbon
+				1537.01.01={add_spouse=100100664}	# DSS Isabella de Braganca
+				1540.10.20={death=yes}  # Lisbon
+			}
+				100025682={ # D2. Maria, *Lisbon 8.12.1538, +Parma 9.7.1577; m.Brussels 11.11.1565 Alessandro Farnese, Duke of Parma (*27.8.1545 +3.12.1592) $$
+					name=Maria
+					female=yes
+					dynasty=10178
+					religion=catholic culture=portuguese
+					father=100025679	# Duarte de Avis
+					mother=100100664	# DSS Isabella de Braganca
+					1538.12.08={birth=yes}  # Lisbon
+					1577.07.09={death=yes}  # Parma
+				}
+				100025718={ # D3. Catarina, *Lisbon 1540, +Villa Vicosa 1614; m.1563 João, Duque de Braganca (+1583) $$
+					name=Catarina
+					female=yes
+					dynasty=10178
+					religion=catholic culture=portuguese
+					father=100025679	# Duarte de Avis
+					mother=100100664	# DSS Isabella de Braganca
+					1540.01.01={birth=yes}  # Lisbon
+					1614.01.01={death=yes}  # Villa Vicosa
+				}
+	100025818={ # A7. Leonor, *Torres Novas Vedras 8.9.1436, +Wiener Neustadt 3.9.1476; m.Rome 1452 Emperor Friedrich III (*21.9.1415 +19.8.1493) $$
+		name=Leonor
+		female=yes
+		dynasty=10178
+		religion=catholic culture=portuguese
+		father=100025033	# Duarte de Avis
+		mother=100095229	# Leonor of Aragon
+		1436.09.08={birth=yes}  # Torres Novas Vedras
+		1476.09.03={death=yes}  # Wiener Neustadt
+	}
+	100025820={ # A9. Juana, *Monte Oliveto nr Almada-Tojal 31.3.1439, +Madrid 13.6.1475; m.Cordoba 20.5.1455 King Enrique IV of Castile (+1474); she was mother of 2 illegitimate children by Pedro "el Mozo" de Castilla
+		name=Juana
+		female=yes
+		dynasty=10178
+		religion=catholic culture=portuguese
+		father=100025033	# Duarte de Avis
+		mother=100095229	# Leonor of Aragon
+		1439.03.31={birth=yes}  # Monte Oliveto nr Almada-Tojal
+		1475.06.13={death=yes}  # Madrid
+	}
+#capet53
+
+#capet56
+100223051={ # Antonio, batard de Portugal, *Lisbon 1531, +Paris 1595, bur there, was recognized by some powers as King of Portugal; he and his descendants, known as the Portugese Princes, were used as political pawns for the powers, but never successfully; he had illegitimate children:
+	name=Antonio
+	dynasty=1001007
+	religion=catholic culture=german
+	trait=bastard
+	father=100025648	# Luiz de Avis
+	1531.01.01={birth=yes}  # Lisbon
+	1595.01.01={death=yes}	# Paris
+}
+	100303051={ # A1. [by Anna Barbosa] Manuel, "Prince" de Portugal, *Tangier 1568, +Brussels 22.6.1638; 1m: The Hague 7.11.1597 Pss Emilia of Orange-Nassau (*Köln 10.4.1569, +Geneva 16.3.1629, bur there); 2m: Brussels 3.4.1630 Luisa Osorio (+ca 18.2.1649, bur Brussels)
+		name=Manuel
+		dynasty=1001007
+		religion=catholic culture=german
+		father=100223051	# Antonio de Portugal
+		1568.01.01={birth=yes}  # Tangier
+		1638.06.22={death=yes}	# Brussels
+	}
+		100223052={ # B1. Manuel II, duque de Beja, Gov of Orange and Steenwijck, *Delft 24.2.1600, +Schagen 27.10.1666, bur Delft; m.Delft 14.12.1646 Gfn Johanna von Hanau-Münzenberg (*1610 +Delft 13.9.1673) $$
+			name=Manuel
+			dynasty=1001007
+			religion=catholic culture=german
+			father=100303051	# Manuel de Portugal
+			1600.02.11={birth=yes}  # Delft
+			1646.07.11={add_spouse=100012733}	# Johanna von Hanau
+			1660.10.27={death=yes}	# Schagen
+		}
+#capet56
 ## AVIS
 
 
@@ -2554,7 +2588,7 @@
 	1675.07.25={add_spouse=100066581}	# Marguerite de Lorraine
 	1727.01.29={death=yes}
 }
-	100033429={ # Luís Ambrósio (1679-1700) %%
+	100033429={ # A1. Luís Ambrósio (1679-1700) %%
 		name="Luís Ambrósio"
 		dynasty=1001002
 		religion=catholic culture=portuguese
@@ -2563,7 +2597,7 @@
 		1679.01.01={birth=yes}
 		1700.01.01={death=yes}
 	}
-	100033428={ # Jayme (1 Sep 1684-29 May 1749); m.11 Aug 1739 Henriette de Lorraine (3 Oct 1724-Pedrocous 31 May 1761) %%
+	100033428={ # A2. Jayme (1 Sep 1684-29 May 1749); m.11 Aug 1739 Henriette de Lorraine (3 Oct 1724-Pedrocous 31 May 1761) %%
 		name=Jayme
 		dynasty=1001002
 		religion=catholic culture=portuguese
@@ -2573,7 +2607,7 @@
 		1739.08.11={add_spouse=100066552}	# Henriette de Lorraine
 		1749.05.29={death=yes}
 	}
-		100033427={ # Nuno Caetano (1741-1771) %%
+		100033427={ # B1. Nuno Caetano (1741-1771) %%
 			name="Nuno Caetano"
 			dynasty=1001002
 			religion=catholic culture=portuguese
@@ -2582,7 +2616,7 @@
 			1741.01.01={birth=yes}
 			1771.01.01={death=yes}
 		}
-			100033426={ # Miguel Caetano (1765-1808) %%
+			100033426={ # C1. Miguel Caetano (1765-1808) %%
 				name="Miguel Caetano"
 				dynasty=1001002
 				religion=catholic culture=portuguese
@@ -2590,7 +2624,7 @@
 				1765.01.01={birth=yes}
 				1808.01.01={death=yes}
 			}
-				100033425={ # Nuno Caetano (1799-1837) %%
+				100033425={ # D1. Nuno Caetano (1799-1837) %%
 					name="Nuno Caetano"
 					dynasty=1001002
 					religion=catholic culture=portuguese
@@ -2598,7 +2632,7 @@
 					1799.01.01={birth=yes}
 					1837.01.01={death=yes}
 				}
-					100033424={ # Maria da Piedade (1827-1898) %%
+					100033424={ # E1. Maria da Piedade (1827-1898) %%
 						name="Maria da Piedade"
 						female=yes
 						dynasty=1001002
@@ -2674,7 +2708,7 @@
 											mother=100033410	# Maria Graziela Álvares Pereira de Melo
 											1977.11.21={birth=yes}
 										}
-									100033431={ # Jaime (b.1946) %%
+									100033431={ # I3. Jaime (b.1946) %%
 										name=Jaime
 										dynasty=1001002
 										religion=catholic culture=portuguese
@@ -3561,7 +3595,7 @@
 	1377.08.10={birth=yes}
 	1461.12.15={death=yes}
 }
-	100200962={ # Fernando (1403-1 Apr 1478) %%
+	100200962={ # A1. Fernando (1403-1 Apr 1478) %%
 		name=Fernando
 		dynasty=100188
 		religion=catholic culture=portuguese
@@ -3569,7 +3603,7 @@
 		1403.01.01={birth=yes}
 		1478.04.01={death=yes}
 	}
-		100200963={ # Fernando (1430-20 Jun 1483) %%
+		100200963={ # B1. Fernando (1430-20 Jun 1483) %%
 			name=Fernando
 			dynasty=100188
 			religion=catholic culture=portuguese
@@ -3577,7 +3611,7 @@
 			1430.01.01={birth=yes}
 			1483.06.20={death=yes}
 		}
-			100200964={ # Jaime (1479-20 Sep 1532) %%
+			100200964={ # C1. Jaime (1479-20 Sep 1532) %%
 				name=Jaime
 				dynasty=100188
 				religion=catholic culture=portuguese
@@ -3585,7 +3619,7 @@
 				1479.01.01={birth=yes}
 				1532.09.20={death=yes}
 			}
-				100200965={ # Teodósio (1505-22 Dec 1563) %%
+				100200965={ # D1. Teodósio (1505-22 Dec 1563) %%
 					name=Teodósio
 					dynasty=100188
 					religion=catholic culture=portuguese
@@ -3593,7 +3627,7 @@
 					1505.01.01={birth=yes}
 					1563.12.22={death=yes}
 				}
-					100200966={ # João (1543-22 Feb 1583); m.1563 Catarina de Avis (Lisbon 1540-Villa Vicosa 1614) %%
+					100200966={ # E1. João (1543-22 Feb 1583); m.1563 Catarina de Avis (Lisbon 1540-Villa Vicosa 1614) %%
 						name=João
 						dynasty=100188
 						religion=catholic culture=portuguese
@@ -3602,7 +3636,7 @@
 						1563.01.01={add_spouse=100025718}	# Catarina de Avis
 						1583.02.22={death=yes}
 					}
-						100033123={ # Teodósio (28 Apr 1568-29 Nov 1630) %%
+						100033123={ # F1. Teodósio (28 Apr 1568-29 Nov 1630) %%
 							name=Teodósio
 							dynasty=100188
 							religion=catholic culture=portuguese
@@ -3619,7 +3653,7 @@
 								1604.03.19={birth=yes}
 								1656.11.06={death=yes}
 							}
-								100033001={ # Teodósio (8 Feb 1634-6 Dec 1653) %%
+								100033001={ # H1. Teodósio (8 Feb 1634-6 Dec 1653) %%
 									name=Teodósio
 									dynasty=100188
 									religion=catholic culture=portuguese
@@ -3627,7 +3661,7 @@
 									1634.02.08={birth=yes}
 									1653.12.06={death=yes}
 								}
-								100200395={ # Catarina (25 Nov 1638-31 Dec 1705); m.23 Apr 1662 Charles Stewart (29 May 1630-6 Feb 1685) %%
+								100200395={ # H2. Catarina (25 Nov 1638-31 Dec 1705); m.23 Apr 1662 Charles Stewart (29 May 1630-6 Feb 1685) %%
 									name=Catarina
 									dynasty=100188
 									female=yes
@@ -4173,8 +4207,8 @@
 	name=Ferdinand
 	dynasty=1002015
 	religion=catholic culture=german
-	father=100003799	# Ferdinand Georg August v. Sachsen-Coburg u.Gotha
-	mother=100086900	# PSS Maria Antonie Koháry
+	father=100003799	# Ferdinand v. Sachsen-Coburg u.Gotha
+	mother=100119952	# Maria Antonie Koháry de Csábrág
 	1816.10.29={birth=yes}
 	1836.04.09={add_spouse=100033030}	# Maria de Braganza
 	1869.06.10={add_spouse=100084832}	# Elise Friederike Hensler
@@ -4295,6 +4329,15 @@
 	1883.01.15={add_spouse=100115188}	# Agnes Antonia Batthyány-Strattmann de Német-Ujvar
 	1930.08.05={death=yes}
 }
+100103557={ # Gf         Johann                    Taxis di Bordogna e Valnigra             (1833-1889)     -
+	name="Johann Taxis von Bordogna und Valnigra"
+	dynasty=0
+	religion=catholic culture=german
+	1833.01.22={birth=yes}  # Brandeis
+	1855.08.22={add_spouse=100026242}	# Marie v. Attems
+	1889.01.30={death=yes}  # Gries_bei_Bozen
+}
+
 100090866={ # Frhr       Lamoral                   Taxis di Bordogna e Valnigra             (1900-1966)     0
 	name="Lamoral Taxis di Bordogna e Valnigra"
 	dynasty=0
@@ -4303,7 +4346,7 @@
 	1930.10.06={add_spouse=100003820}	# Theresia v. Sachsen-Coburg u.Gotha
 	1966.01.28={death=yes}
 }
-	100194446={ # Carlo (b.Gmunden 16 Jul 1931); m.17 Feb 1969 Walburga Rosa v. Habsburg-Lothringen (b.23 Jul 1942) %%
+	100194446={ # A1. Carlo (b.Gmunden 16 Jul 1931); m.17 Feb 1969 Walburga Rosa v. Habsburg-Lothringen (b.23 Jul 1942) %%
 		name=Carlo
 		dynasty=1001005
 		religion=catholic culture=portuguese

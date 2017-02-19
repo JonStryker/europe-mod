@@ -194,34 +194,46 @@
 ##  100012350-xxx			Fouché d'Otrante					        1014447
 
 
-##  KINGS
-100201780={ # Eric af Bjälbo (1339-21 Jun 1359) %%
-    name=Eric
-    dynasty=155
-    religion=catholic culture=swedish
-    father=450500	# Magnus af Bjälbo
-    1339.01.01={birth=yes}
-    1359.06.21={death=yes}
-}
-100201781={ # Haakon af Bjälbo (1340-1380); m.1359 Margrethe af Estrid (1 Mar 1353-28 Oct 1412) %%
-    name=Haakon
-    dynasty=155
-    religion=catholic culture=swedish
-    father=450500	# Magnus af Bjälbo
-    1340.01.01={birth=yes}
-    1359.01.01={add_spouse=100201686}	# Margrethe af Estrid
-    1380.01.01={death=yes}
-}
-	100201685={ # Olaf (1 Dec 1370-23 Aug 1387) %%
-		name=Olaf
+## BJÄLBO
+#450500 = Magnus Eriksson
+	100201780={ # A0. Erik af Bjälbo (1339-21 Jun 1359); m.25 Oct 1356 Beatrix v. Wittelsbach (1344-25 Dec 1359) %%
+		name=Erik
 		dynasty=155
-		religion=catholic culture=norwegian
-		father=100201781	# Haakon af Bjälbo
-		mother=100201686	# Margrethe af Estrid
-		1370.12.01={birth=yes}
-		1387.08.23={death=yes}
+		religion=catholic culture=swedish
+		father=450500	# Magnus af Bjälbo
+		1339.01.01={birth=yes}
+		1356.10.25={add_spouse=100011820}	# Beatrix v. Wittelsbach
+		1359.06.21={death=yes}
 	}
+	100201781={ # A0. Håkan af Bjälbo (1340-1380); m.1359 Margrethe af Estrid (1 Mar 1353-28 Oct 1412) %%
+		name=Håkan
+		dynasty=155
+		religion=catholic culture=swedish
+		father=450500	# Magnus af Bjälbo
+		1340.01.01={birth=yes}
+		1359.01.01={add_spouse=100201686}	# Margrethe af Estrid
+		1380.01.01={death=yes}
+	}
+		100201685={ # B1. Olaf (1 Dec 1370-23 Aug 1387) %%
+			name=Olaf
+			dynasty=155
+			religion=catholic culture=norwegian
+			father=100201781	# Håkan af Bjälbo
+			mother=100201686	# Margrethe af Estrid
+			1370.12.01={birth=yes}
+			1387.08.23={death=yes}
+		}
 
+#450504 = Birger
+	33339={ # A0. Ingeburg (1258-30 Jun 1302) %%
+		name=Ingeburg
+		female=yes
+		dynasty=0
+		religion=catholic culture=swedish
+		1258.01.01={birth=yes}
+		1302.06.30={death=yes}
+	}
+			
 100201783={ # Albert de Sully (1338-1 Apr 1412) %%
     name=Albert
     dynasty=94
@@ -237,7 +249,7 @@
     1409.10.05={birth=yes}
     1470.05.14={death=yes}
 }
-##  KINGS
+## BJÄLBO
 
 
 ##  100059000	DE LA GARDIE		1014079	
@@ -634,7 +646,7 @@
 									1893.11.29={birth=yes}
 									1968.01.01={death=yes}  # EST.
 								}
-							100012110={ # Pontus Axel (1850-4 May 1926) %%
+							100012110={ # G2. Pontus Axel (1850-4 May 1926) %%
 								name="Pontus Axel" # 1398635/pontus-axel-de-la-gardie/
 								dynasty=1014079
 								religion=lutheran culture=swedish
@@ -643,7 +655,7 @@
 								1850.01.01={birth=yes}
 								1926.05.04={death=yes}
 							}
-								100012105={ # Carl-Gustaf (1874-1944); m.1899 Adele Anais Jacquier (1874-1957) %%
+								100012105={ # H1. Carl-Gustaf (1874-1944); m.1899 Adele Anais Jacquier (1874-1957) %%
 									name=Carl-Gustaf 	# 1398640/carl-gustaf-magnus-baltzar-de-la-gardie/
 									dynasty=1014079
 									religion=lutheran culture=swedish
@@ -652,7 +664,7 @@
 									1899.01.01={add_spouse=100085520}	# Adele Anais Jacquier
 									1944.01.01={death=yes}
 								}
-									100012108={ # Adele (26 Oct 1912-1987); m.1937 Gunnar Boman (1912-1970) %%
+									100012108={ # I1. Adele (26 Oct 1912-1987); m.1937 Gunnar Boman (1912-1970) %%
 										name=Adele			# 1398649/adele-yvonne-elisabeth-christina-de-la-gardie/
 										female=yes
 										dynasty=1014079
@@ -662,7 +674,7 @@
 										1912.10.26={birth=yes}
 										1987.01.01={death=yes}
 									}
-									100012109={ # Axel (1 Apr 1918-1993); m.1943 Britta Margareta Sofia Follin (12 Jun 1919-1994) %%
+									100012109={ # I2. Axel (1 Apr 1918-1993); m.1943 Britta Margareta Sofia Follin (12 Jun 1919-1994) %%
 										name=Axel			# 1398651/axel-leon-gosta-robert-de-la-gardie/
 										dynasty=1014079
 										religion=lutheran culture=swedish
@@ -672,7 +684,7 @@
 										1943.01.01={add_spouse=100083929}	# Britta Margareta Sofia Follin
 										1993.01.01={death=yes}
 									}
-										100012106={ # Carl (b.15 Nov 1946); m.1971 Annika Teresia Gerhardsson (b.19 Sep 1950) %%
+										100012106={ # J1. Carl (b.15 Nov 1946); m.1971 Annika Teresia Gerhardsson (b.19 Sep 1950) %%
 											name=Carl			# 1398653/carl-gustaf-robert-de-la-gardie/
 											dynasty=1014079
 											religion=lutheran culture=swedish
@@ -681,7 +693,7 @@
 											1946.11.15={birth=yes}
 											1971.01.01={add_spouse=100084172}	# Annika Teresia Gerhardsson
 										}
-											100012104={ # Helen Teresia (b.18 Jul 1975) %%
+											100012104={ # K1. Helen Teresia (b.18 Jul 1975) %%
 												name="Helen Teresia" # 1398659/helen-teresia-de-la-gardie/
 												female=yes
 												dynasty=1014079
@@ -690,7 +702,7 @@
 												mother=100084172	# Annika Teresia Gerhardsson
 												1975.07.18={birth=yes}
 											}
-											100012101={ # Louise Teresia Margareta (b.24 May 1978) %%
+											100012101={ # K2. Louise Teresia Margareta (b.24 May 1978) %%
 												name="Louise Teresia Margareta" # 1398660/louise-teresia-margareta-de-la-gardie/
 												female=yes
 												dynasty=1014079
@@ -699,7 +711,7 @@
 												mother=100084172	# Annika Teresia Gerhardsson
 												1978.05.24={birth=yes}
 											}
-										100012107={ # Margaretha Christina (b.14 May 1948); m.1971 Stig Erik Björklund (b.18 Oct 1946) %%
+										100012107={ # J2. Margaretha Christina (b.14 May 1948); m.1971 Stig Erik Björklund (b.18 Oct 1946) %%
 											name="Margaretha Christina" # 1398655/margaretha-christina-de-la-gardie/
 											female=yes
 											dynasty=1014079
@@ -708,7 +720,7 @@
 											mother=100083929	# Britta Margareta Sofia Follin
 											1948.05.14={birth=yes}
 										}
-										100012103={ # Carl Magnus (b.3 May 1952); m.1977 Marie Elisabeth Larsson (b.1952) %%
+										100012103={ # J3. Carl Magnus (b.3 May 1952); m.1977 Marie Elisabeth Larsson (b.1952) %%
 											name="Carl Magnus" # 1398657/carl-magnus-gosta-de-la-gardie/
 											dynasty=1014079
 											religion=lutheran culture=swedish
@@ -717,7 +729,7 @@
 											1952.05.03={birth=yes}
 											1977.01.01={add_spouse=100087213}	# Marie Elisabeth Larsson
 										}
-											100012100={ # Carl Fredrik Robert (b.25 Jan 1980) %%
+											100012100={ # K1. Carl Fredrik Robert (b.25 Jan 1980) %%
 												name="Carl Fredrik Robert" # 1398661/carl-fredrik-robert-de-la-gardie/
 												dynasty=1014079
 												religion=lutheran culture=swedish
@@ -725,7 +737,7 @@
 												mother=100087213	# Marie Elisabeth Larsson
 												1980.01.25={birth=yes}
 											}
-											100012102={ # Marie Charlott Sofie (b.10 Feb 1982) %%
+											100012102={ # K2. Marie Charlott Sofie (b.10 Feb 1982) %%
 												name="Marie Charlott Sofie" # 1398662/marie-charlott-sofie-de-la-gardie/
 												female=yes
 												dynasty=1014079
@@ -1015,7 +1027,7 @@
 	1640.01.01={birth=yes}	# Dundee, UK
 	1711.01.06={death=yes}	# Gmina Sepopol, Warmian-Masurian Voivodeship, Poland
 }
-	100296533={ # Wilhelm (6 Jun 1688-22 Dec 1754) %%
+	100296533={ # A1. Wilhelm (6 Jun 1688-22 Dec 1754) %%
 		name=Wilhelm
 		dynasty=1014085
 		religion=lutheran culture=german
@@ -1023,7 +1035,7 @@
 		1688.06.06={birth=yes}
 		1754.12.22={death=yes}
 	}
-		100296532={ # Georg Wilhelm (Gmina Sepopol, Warmian-Masurian Voivodeship, Poland 16 Feb 1724-Aschersleben 3 Nov 1794) %%
+		100296532={ # B1. Georg Wilhelm (Gmina Sepopol, Warmian-Masurian Voivodeship, Poland 16 Feb 1724-Aschersleben 3 Nov 1794) %%
 			name="Georg Wilhelm"
 			dynasty=1014085
 			religion=lutheran culture=german
@@ -1031,7 +1043,7 @@
 			1724.02.16={birth=yes}	# Gmina Sepopol, Warmian-Masurian Voivodeship, Poland
 			1794.11.03={death=yes}  # Aschersleben
 		}
-			100296531={ # Georg William (6 Jul 1766-Aschersleben 5 Jan 1838) %%
+			100296531={ # C1. Georg William (6 Jul 1766-Aschersleben 5 Jan 1838) %%
 				name="Georg William"
 				dynasty=1014085
 				religion=lutheran culture=german
@@ -1039,7 +1051,7 @@
 				1766.07.06={birth=yes}
 				1838.01.05={death=yes}  # Aschersleben
 			}
-				100296530={ # Georg Gustav (Aschersleben 28 Nov 1798-Aschersleben 5 Nov 1877) %%
+				100296530={ # D1. Georg Gustav (Aschersleben 28 Nov 1798-Aschersleben 5 Nov 1877) %%
 					name="Georg Gustav"
 					dynasty=1014085
 					religion=lutheran culture=german
@@ -1047,7 +1059,7 @@
 					1798.11.28={birth=yes}  # Aschersleben
 					1877.11.05={death=yes}  # Aschersleben
 				}
-					100196530={ # Hugo Sholto (Aschersleben 19 Apr 1837-Berlin 19 Apr 1912) %%
+					100196530={ # E1. Hugo Sholto (Aschersleben 19 Apr 1837-Berlin 19 Apr 1912) %%
 						name="Hugo Sholto"
 						dynasty=1014085
 						religion=lutheran culture=german
@@ -1055,7 +1067,7 @@
 						1837.04.19={birth=yes}  # Aschersleben
 						1912.04.19={death=yes}  # Berlin
 					}
-						100296535={ # Angus (Leopoldshall 16 Nov 1870-München 21 Oct 1938); m.21 Aug 1923 Mechtildis v. Schoenaich-Carolath (Frankfurt_an_der_Oder 5 Nov 1884-Bad Tölz 13 Oct 1978) %%
+						100296535={ # F1. Angus (Leopoldshall 16 Nov 1870-München 21 Oct 1938); m.21 Aug 1923 Mechtildis v. Schoenaich-Carolath (Frankfurt_an_der_Oder 5 Nov 1884-Bad Tölz 13 Oct 1978) %%
 							name=Angus
 							dynasty=1014085
 							religion=lutheran culture=german
@@ -1064,7 +1076,7 @@
 							1923.08.21={add_spouse=100005118}	# Mechtildis v. Schoenaich-Carolath
 							1938.10.21={death=yes}  # München
 						}
-							100012286={ # Angus (30 Jul 1913-1991); m.30 Jun 1948 Natalia Gagarin (15 Nov 1923-2002) %%
+							100012286={ # G1. Angus (30 Jul 1913-1991); m.30 Jun 1948 Natalia Gagarin (15 Nov 1923-2002) %%
 								name=Angus
 								dynasty=1014085
 								religion=orthodox culture=german
@@ -1083,7 +1095,7 @@
 	1680.08.04={add_spouse=100086356}	# GFN Bertha Margaret av Stenbock
 	1705.07.24={death=yes}	# Stockholm
 }
-	100012278={ # Johann Wilhelm (Stjärnorp 6 Jan 1683-8 Apr 1763); m.1720 Maria Houtman (Wologda 17 Sep 1682-25 Sep 1771) %%
+	100012278={ # A1. Johann Wilhelm (Stjärnorp 6 Jan 1683-8 Apr 1763); m.1720 Maria Houtman (Wologda 17 Sep 1682-25 Sep 1771) %%
 		name="Johann Wilhelm" # 17899/johann-wilhelm-graf-von-douglas/
 		dynasty=1014085
 		religion=lutheran culture=swedish
@@ -1093,7 +1105,7 @@
 		1720.01.01={add_spouse=100096625}	# Maria Houtman
 		1763.04.08={death=yes}
 	}
-		100012280={ # Wilhelm Otto (26 Feb 1721-14 Sep 1776); m.1753 Eleanore Luise Sophie zu Dohna-Carwinden (Sverige, Stockholm 27 Jan 1726-30 Jan 1797) %%
+		100012280={ # B1. Wilhelm Otto (26 Feb 1721-14 Sep 1776); m.1753 Eleanore Luise Sophie zu Dohna-Carwinden (Sverige, Stockholm 27 Jan 1726-30 Jan 1797) %%
 			name="Wilhelm Otto" # 17900/wilhelm-otto-graf-douglas/
 			dynasty=1014085
 			religion=lutheran culture=swedish
@@ -1103,7 +1115,7 @@
 			1753.01.01={add_spouse=100096821}	# Eleanore Luise Sophie zu Dohna-Carwinden
 			1776.09.14={death=yes}
 		}
-			100012282={ # Carl Wilhelm (4 Oct 1754-2 Nov 1822); m.1783 Marta Montgomery (22 Sep 1762-21 Aug 1839) %%
+			100012282={ # C1. Carl Wilhelm (4 Oct 1754-2 Nov 1822); m.1783 Marta Montgomery (22 Sep 1762-21 Aug 1839) %%
 				name="Carl Wilhelm" # 17901/carl-wilhelm-graf-von-douglas/
 				dynasty=1014085
 				religion=lutheran culture=swedish
@@ -1113,7 +1125,7 @@
 				1783.01.01={add_spouse=100096690}	# Marta Montgomery
 				1822.11.02={death=yes}
 			}
-				100012283={ # Wilhelm Christoffer Robert (Kärrsjö, Östergötland 6 Aug 1784-14 Feb 1844); m.1823 Bss Madalena Lagerfeldt (Lagerlunda, Östergötland 28 Jun 1797-16 Jan 1834) %%
+				100012283={ # D1. Wilhelm Christoffer Robert (Kärrsjö, Östergötland 6 Aug 1784-14 Feb 1844); m.1823 Bss Madalena Lagerfeldt (Lagerlunda, Östergötland 28 Jun 1797-16 Jan 1834) %%
 					name="Wilhelm Christoffer Robert" # 17902/wilhelm-christoffer-robert-graf-von-douglas/
 					dynasty=1014085
 					religion=lutheran culture=swedish
@@ -1123,7 +1135,7 @@
 					1823.01.01={add_spouse=100096660}	# BSS Madalena Lagerfeldt
 					1844.02.14={death=yes}
 				}
-					100012284={ # Carl Israel (Katrineberg, Östergötland 20 Apr 1824-14 Jan 1898); m.1848 Luise von Langenstein u.Gondelsheim (Karlsruhe, Karlsruhe 3 Mar 1825-Prefargier, Neuchatel 1900) %%
+					100012284={ # E1. Carl Israel (Katrineberg, Östergötland 20 Apr 1824-14 Jan 1898); m.1848 Luise von Langenstein u.Gondelsheim (Karlsruhe, Karlsruhe 3 Mar 1825-Prefargier, Neuchatel 1900) %%
 						name="Carl Israel"	# 17903/carl-israel-graf-douglas/
 						dynasty=1014085
 						religion=lutheran culture=swedish
@@ -1133,7 +1145,7 @@
 						1848.01.01={add_spouse=100196844}	# Luise von Langenstein u.Gondelsheim
 						1898.01.14={death=yes}
 					}
-						100012245={ # Catharina (1847-1883); m.1874 Baron Heinrich Gayling von Altheim (27 Nov 1847-31 Mar 1940) %%
+						100012245={ # F1. Catharina (1847-1883); m.1874 Baron Heinrich Gayling von Altheim (27 Nov 1847-31 Mar 1940) %%
 							name=Catharina   # 397654/catharina-graefin-douglas/
 							female=yes
 							dynasty=1014085
@@ -1143,7 +1155,7 @@
 							1847.01.01={birth=yes}
 							1883.01.01={death=yes}
 						}
-						100012247={ # Charles Louis Wilhelm (18 Nov 1848-22 Apr 1908); m.1899 Waleska Weiss (22 Mar 1861-26 Sep 1927) %%
+						100012247={ # F2. Charles Louis Wilhelm (18 Nov 1848-22 Apr 1908); m.1899 Waleska Weiss (22 Mar 1861-26 Sep 1927) %%
 							name="Charles Louis Wilhelm" # 397652/charles-louis-wilhelm-graf-douglas/
 							dynasty=1014085
 							religion=lutheran culture=swedish
@@ -1153,7 +1165,7 @@
 							1899.01.01={add_spouse=100096888}	# Waleska Weiss
 							1908.04.22={death=yes}
 						}
-						100012285={ # Ludvig (Zürich, Zurich, Riesbach 26 Nov 1849-20 Jul 1916); m.1876 Css Anna Ehrensvärd (Stockholm, Stockholm 23 Aug 1855-2 Apr 1930) %%
+						100012285={ # F3. Ludvig (Zürich, Zurich, Riesbach 26 Nov 1849-20 Jul 1916); m.1876 Css Anna Ehrensvärd (Stockholm, Stockholm 23 Aug 1855-2 Apr 1930) %%
 							name=Ludvig      # 17904/ludvig-graf-douglas/
 							dynasty=1014085
 							religion=lutheran culture=swedish
@@ -1163,7 +1175,7 @@
 							1876.01.01={add_spouse=100096586}	# CSS Anna Ehrensvärd
 							1916.07.20={death=yes}
 						}
-							100012206={ # Louise (22 Nov 1878-2 Apr 1964); m.1901 Baron Theodor Adelswärd (13 Oct 1860-29 Sep 1929) %%
+							100012206={ # G1. Louise (22 Nov 1878-2 Apr 1964); m.1901 Baron Theodor Adelswärd (13 Oct 1860-29 Sep 1929) %%
 								name=Louise      # 379912/louise-graefin-douglas/
 								female=yes
 								dynasty=1014085
@@ -1173,7 +1185,7 @@
 								1878.11.22={birth=yes}
 								1964.04.02={death=yes}
 							}
-							100012204={ # Robert (Constança, Suiça 24 Apr 1880-26 Aug 1955); m.1st 1906 Sofie von Fine Blaauw (Christiania 9 Jan 1886-20 Aug 1971); m.2nd 1939 Auguste Viktoria v. Hohenzollern-Sigmaringen (19 Aug 1890-29 Aug 1966) %%
+							100012204={ # G2. Robert (Constança, Suiça 24 Apr 1880-26 Aug 1955); m.1st 1906 Sofie von Fine Blaauw (Christiania 9 Jan 1886-20 Aug 1971); m.2nd 1939 Auguste Viktoria v. Hohenzollern-Sigmaringen (19 Aug 1890-29 Aug 1966) %%
 								name=Robert				# 17905/karl-robert-graf-douglas/
 								dynasty=1014085
 								religion=lutheran culture=swedish
@@ -1184,7 +1196,7 @@
 								1939.01.01={add_spouse=100002307}	# Auguste Viktoria v. Hohenzollern-Sigmaringen
 								1955.08.26={death=yes}
 							}
-								100012233={ # Wilhelm (Langenstein 18 May 1907-6 Jun 1987); m.1st 1937 Bss Ursula von Ellrichshausen (12 Mar 1913-8 Apr 1972); m.2nd 1938 Margit Bortfeld (21 Jun 1919-1994) %%
+								100012233={ # H1. Wilhelm (Langenstein 18 May 1907-6 Jun 1987); m.1st 1937 Bss Ursula von Ellrichshausen (12 Mar 1913-8 Apr 1972); m.2nd 1938 Margit Bortfeld (21 Jun 1919-1994) %%
 									name=Wilhelm     # 266545/wilhelm-graf-douglas/
 									dynasty=1014085
 									religion=lutheran culture=swedish
@@ -1195,7 +1207,7 @@
 									1938.01.01={add_spouse=100093063}	# Margit Bortfeld
 									1987.06.06={death=yes}
 								}
-									100012229={ # Madeleine (b.Konstanz 10 Oct 1939); m.1st 1961 Christoph von Malaisé (b.Nürnberg 25 Nov 1933); m.2nd 1973 John Denham (b.26 Nov 1929); m.3rd 2006 Raymond Hoffenberg (Port Elizabeth 16 Mar 1923-22 Apr 2007) %%
+									100012229={ # I1. Madeleine (b.Konstanz 10 Oct 1939); m.1st 1961 Christoph von Malaisé (b.Nürnberg 25 Nov 1933); m.2nd 1973 John Denham (b.26 Nov 1929); m.3rd 2006 Raymond Hoffenberg (Port Elizabeth 16 Mar 1923-22 Apr 2007) %%
 										name=Madeleine   # 632097/madeleine-graefin-douglas/
 										female=yes
 										dynasty=1014085
@@ -1205,7 +1217,7 @@
 										1939.10.10={birth=yes}	# Konstanz
 										2016.01.01={death=yes}  # EST.
 									}
-									100012227={ # Gunilla (b.Konstanz 16 Jul 1941); m.1965 Peter Henry Arthur Stanley (b.17 Mar 1939) %%
+									100012227={ # I2. Gunilla (b.Konstanz 16 Jul 1941); m.1965 Peter Henry Arthur Stanley (b.17 Mar 1939) %%
 										name=Gunilla     # 632107/gunilla-graefin-douglas/
 										female=yes
 										dynasty=1014085
@@ -1214,7 +1226,7 @@
 										mother=100092081	# BSS Ursula von Ellrichshausen
 										1941.07.16={birth=yes}	# Konstanz
 									}
-									100012200={ # Axel (b.Constance 22 Jul 1943); m.1st 1970 Johanna zu Sayn-Wittgenstein-Berleburg (b.Wittgenstein 22 Oct 1948); m.2nd 1976 Karen-Marguerite von Kühlmann (b.Hersfeld 11 Oct 1946); m.3rd 2003 Johanna Ernst (b.1958) %%
+									100012200={ # I3. Axel (b.Constance 22 Jul 1943); m.1st 1970 Johanna zu Sayn-Wittgenstein-Berleburg (b.Wittgenstein 22 Oct 1948); m.2nd 1976 Karen-Marguerite von Kühlmann (b.Hersfeld 11 Oct 1946); m.3rd 2003 Johanna Ernst (b.1958) %%
 										name=Axel        # 78214/axel-graf-douglas/
 										dynasty=1014085
 										religion=lutheran culture=german
@@ -1227,7 +1239,7 @@
 										2002.01.01={remove_spouse=100096843}
 										2003.01.01={add_spouse=100096588}	# Johanna Ernst
 									}
-										100012202={ # Leonille (b.München, München 2 Jun 1972); m.14 Jun 2006 Philipp zu Stolberg-Wernigerode (b.8 Jun 1967) %%
+										100012202={ # J1. Leonille (b.München, München 2 Jun 1972); m.14 Jun 2006 Philipp zu Stolberg-Wernigerode (b.8 Jun 1967) %%
 											name=Leonille    # 386652/leonille-graefin-douglas/
 											female=yes
 											dynasty=1014085
@@ -1236,7 +1248,7 @@
 											mother=100004375	# Johanna zu Sayn-Wittgenstein-Berleburg
 											1972.06.02={birth=yes}	# München, München
 										}
-										100012231={ # Caroline (b.1979) %%
+										100012231={ # J2. Caroline (b.1979) %%
 											name=Caroline    # 632122/caroline-graefin-douglas/
 											female=yes
 											dynasty=1014085
@@ -1245,7 +1257,7 @@
 											mother=100096843	# Karen-Marguerite von Kühlmann
 											1979.01.01={birth=yes}
 										}
-										100012230={ # Désirée (b.1981); m.2006 Georg Stadler (b.1981) %%
+										100012230={ # J3. Désirée (b.1981); m.2006 Georg Stadler (b.1981) %%
 											name=Désirée     # 632123/desiree-graefin-douglas/
 											female=yes
 											dynasty=1014085
@@ -1254,7 +1266,7 @@
 											mother=100096843	# Karen-Marguerite von Kühlmann
 											1981.01.01={birth=yes}
 										}
-										100012234={ # Madeleine (b.1985) %%
+										100012234={ # J4. Madeleine (b.1985) %%
 											name=Madeleine   # 632124/madeleine-graefin-douglas/
 											female=yes
 											dynasty=1014085
@@ -1943,7 +1955,7 @@
 					father=100012305	# Erik Vasa
 					mother=100087687	# Cecilia Månsdotter Eka
 					1496.05.12={birth=yes}
-					1531.09.24={add_spouse=100094369}	# Katharina von Sachsen-Lauenburg
+					1531.09.24={add_spouse=100002359}	# Katharina von Sachsen-Lauenburg
 					1536.10.01={add_spouse=100083692}	# Margareta Eriksdotter
 					1560.09.29={death=yes}  # Stockholm
 				}
@@ -1952,7 +1964,7 @@
 						dynasty=1042
 						religion=lutheran culture=swedish
 						father=100012306	# Gustaf Vasa
-						mother=100094369	# Katharina von Sachsen-Lauenburg
+						mother=100002359	# Katharina von Sachsen-Lauenburg
 						1533.12.13={birth=yes}
 						1568.07.04={add_spouse=100087634}	# Katharina Månsdotter
 						1577.02.26={death=yes}
@@ -1977,7 +1989,7 @@
 						1585.02.21={add_spouse=100080680}	# Gunilla Bjelke
 						1592.11.17={death=yes}
 					}
-						100012300={ # Sophia Gyllenhielm (1556-Reval 20 Jun 1583); m.4 Feb 1580 Pontus De la Gardie (Russol 1520-5 Nov 1585) %%
+						100012300={ # F1. Sophia Gyllenhielm (1556-Reval 20 Jun 1583); m.4 Feb 1580 Pontus De la Gardie (Russol 1520-5 Nov 1585) %%
 							name="Sophia Gyllenhielm"
 							female=yes
 							dynasty=1042
@@ -2128,8 +2140,8 @@
 						1539.06.06={birth=yes}
 						1610.12.21={death=yes}
 					}
-					100012313={	# 8e) Cäcilia (16 Nov 1540-Brussels 27 Jan 1627); m.18 Jun 1564 Christoph I Mgve of Baden (d.1575)
-						name=Cäcilia
+					100012313={	# 8e) Cäcilia (16 Nov 1540-Brussels 27 Jan 1627); m.18 Jun 1564 Christoph I Mgve of Baden (d.1575) $$
+						name=Caecilie
 						female=yes
 						dynasty=1042
 						religion=lutheran culture=swedish
@@ -2355,7 +2367,7 @@
 									effect={add_spouse_matrilineal=100085592}
 								}
 							}
-								100012033={ # Leonore (b.20 Feb 2014) %%
+								100012033={ # H1. Leonore (b.20 Feb 2014) %%
 									name=Leonore
 									female=yes
 									dynasty=10253

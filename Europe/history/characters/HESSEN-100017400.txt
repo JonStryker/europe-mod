@@ -5,116 +5,117 @@
 ######################################################
 
 
-#brabant6										
-100001531={ # C2. Hermann II Ldgf von Hessen (1367-1413) till 1377 with Heinrich II, *ca 1342, +10.6.1413; 1m: Kassel 30.1./11.2.1377 Johanna von Nassau-Weilburg (*1362 +Marburg 1.1.1383); 2m: Kulmbach 15.10.1383 Margarete von Nürnberg (+Gudensberg 15.1.1406)
-	name=Herman #  68554/herman-ii-Landgr-of-hesse/
-	dynasty=1002012
-	religion=catholic culture=german
-	father=33403	# Ludwig Reginar
-	1342.01.01={birth=yes}
-	1383.01.01={add_spouse=100092288}	# Margarethe von Hohenzollern
-	1413.06.10={death=yes}
-}
-	100004338={ # D7. Margarete, *Marburg 1389, +Rotenburg 1446; m.Kassel 30.1.1409 Hg Heinrich II von Braunschweig-Lüneburg (+1416) $$
-		name=Margarete
-		female=yes
+#brabant6
+#33403 = B3. Ludwig II Ldgf von Hessen, +2.2.1345; m.X.1340 Elisabeth von Sponheim										
+	100001531={ # C2. Hermann II Ldgf von Hessen (1367-1413) till 1377 with Heinrich II, *ca 1342, +10.6.1413; 1m: Kassel 30.1./11.2.1377 Johanna von Nassau-Weilburg (*1362 +Marburg 1.1.1383); 2m: Kulmbach 15.10.1383 Margarete von Nürnberg (+Gudensberg 15.1.1406) $$
+		name=Herman #  68554/herman-ii-Landgr-of-hesse/
 		dynasty=1002012
 		religion=catholic culture=german
-		father=100001531	# Herman v. Hessen
-		mother=100092288	# Margarethe von Hohenzollern
-		1389.01.01={birth=yes}
-		1446.01.01={death=yes}
+		father=33403	# Ludwig Reginar
+		1342.01.01={birth=yes}
+		1383.01.01={add_spouse=100092288}	# Margarethe von Hohenzollern v. Hohenzollern
+		1413.06.10={death=yes}
 	}
-	100001546={ # D4. Ludwig III Ldgf von Hessen (1413-58), *Spangenberg 6.2.1402, +Spangenberg 17.2.1458; m.Kassel 8.9.1433 Anna von Sachsen (*5.6.1420 +17.9.1462)
-		name=Ludwig #  60894/ludwig-i-Landgr-of-hesse/
-		dynasty=1002012
-		religion=catholic culture=german
-		father=100001531	# Herman v. Hessen
-		mother=100092288	# Margarethe von Hohenzollern
-		1402.02.06={birth=yes}
-		1436.09.13={add_spouse=100092987}	# Anna von Sachsen
-		1458.01.17={death=yes}
-	}
-		100001475={ # E1. Ludwig IV Ldgf von Hessen-Kassel (1458-71), *7.9.1438, +Reichenbach 8.11.1471; m.Marburg 18.8.1454 Matilda von Württemberg (+6.6.1495) $$
-			name=Ludwig 		# 34905/ludwig-ii-Landgr-of-hesse/
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001546	# Ludwig v. Hessen
-			mother=100092987	# Anna von Sachsen
-			1438.09.07={birth=yes}
-			1454.04.28={add_spouse=100008097}	# Matilde v. Württemberg
-			1471.11.08={death=yes}
-		}
-			100192206={ # F1. Wilhelm I Ldgf von Hessen-Kassel (1471-93), *4.7.1466, +Kassel 8.2.1515; m.Münden 17.2.1488 Anna von Braunschweig-Wolfenbüttel (*1460 +Worms 16.5.1520) $$
-				name=Wilhelm
-				dynasty=1002012
-				religion=catholic culture=german
-				father=100001475	# Ludwig v. Hessen
-				mother=100008097	# Matilde v. Württemberg
-				1466.01.01={birth=yes}
-				1488.02.17={add_spouse=100009411}	# Anna v. Braunschweig
-				1515.02.08={death=yes}  # Kassel
-			}
-				100192207={ # G5. Elisabeth, *1503, +Lauingen 4.1.1563; 1m: Meisenheim 16.10.1525 Pfgf Ludwig II von Zweibrücken (*1502 +1532); 2m: 9.1.1541 Georg Pfgf von Simmern (*1518 +1569) $$
-					name=Elisabeth
-					female=yes
-					dynasty=1002012
-					religion=catholic culture=german
-					father=100192206	# Wilhelm v. Hessen
-					mother=100009411	# Anna v. Braunschweig
-					1503.01.01={birth=yes}
-					1563.01.04={death=yes}  # Lauingen
-				}
-			100001547={ # F2. Wilhelm II Ldgf von Hessen-Kassel (1493-1509), *29.4.1469, +Kassel 11.7.1509; 1m: 5/15.10.1497 Yolande de Lorraine (+21.5.1500); 2m: Kassel 20.10.1500 Anna von Mecklenburg (*1485 +Ródelheim 12.5.1525) $$
-				name=Wilhelm #  2274/wilhelm-ii-Landgr-of-hesse/
-				dynasty=1002012
-				religion=lutheran culture=german
-				father=100001475	# Ludwig v. Hessen
-				mother=100008097	# Matilde v. Württemberg
-				1469.03.29={birth=yes}
-				1497.01.01={add_spouse=100066118}	# Yolande de Lorraine
-				1500.10.20={add_spouse=100002908}	# Anna v. Mecklenburg
-				1509.07.11={death=yes}  # Kassel
-			}
-				# brabant7 -> G2. Philipp I "der Grossmüthige" Ldgf von Hessen-Kassel (1509-67), *Marburg 13.11.1504, +Kassel 31.3.1567; 1m: Dresden 11.12.1523 Christine von Sachsen (*25.12.1505, +Kassel 15.4.1549); 2m: (morganatically) Rotenburg an der Fulda 4.3.1540 Margarete von der Saale (*1522 +Spangenberg 6.7.1566); for his descendants see HERE
-				100192209={ # G3. Elisabeth, *Marburg 4.3.1502, +Schmalkalden 6.12.1557, bur Marburg; m.Kassel 20.5.1519 Hg Johann von Sachsen (*1498 +1537) $$
-					name=Elisabeth
-					female=yes
-					dynasty=1002012
-					religion=catholic culture=german
-					father=100001547	# Wilhelm v. Hessen
-					mother=100002908	# Anna v. Mecklenburg
-					1502.03.04={birth=yes}  # Marburg
-					1557.12.06={death=yes}  # Schmalkalden
-				}
-		100292735={ # E2. Heinrich III Ldgf von Hessen-Marburg (1458-83), *15.10.1440, +Marburg 13.1.1483; m.St.Goar 24.1.1458 Anna Gfn von Katzenelnbogen (*5.9.1443, +Marburg 16.2.1494)
-			name=Heinrich
-			dynasty=1002012
-			religion=catholic culture=german
-			father=100001546	# Ludwig v. Hessen
-			mother=100092987	# Anna von Sachsen
-			1440.10.15={birth=yes}
-			1483.01.13={death=yes}
-		}
-			100092735={ # F4. Elisabeth, *Marburg V.1466, +Köln 17.6.1523; m.Marburg 11.2.1482 Gf Johann V von Nassau-Dillenburg (*1455 +1516)
-				name=Elisabeth
-				female=yes
-				dynasty=0
-				religion=catholic culture=german
-				father=100292735	# Heinrich v. Hessen
-				1466.05.01={birth=yes}  # Marburg
-				1523.01.17={death=yes}  # Köln
-			}
-		100001892={ # E5. Elisabeth, *1453, +22.4.1489; m.1464 Gf Johann III von Nassau-Weilburg (*1441 +1480) $$
-			name=Elisabeth
+		100004338={ # D7. Margarete, *Marburg 1389, +Rotenburg 1446; m.Kassel 30.1.1409 Hg Heinrich II von Braunschweig-Lüneburg (+1416) $$
+			name=Margarete
 			female=yes
 			dynasty=1002012
 			religion=catholic culture=german
-			father=100001546	# Ludwig v. Hessen
-			mother=100092987	# Anna von Sachsen
-			1453.01.01={birth=yes}
-			1489.04.22={death=yes}
+			father=100001531	# Herman v. Hessen
+			mother=100092288	# Margarethe von Hohenzollern v. Hohenzollern
+			1389.01.01={birth=yes}
+			1446.01.01={death=yes}
 		}
+		100001546={ # D4. Ludwig III Ldgf von Hessen (1413-58), *Spangenberg 6.2.1402, +Spangenberg 17.2.1458; m.Kassel 8.9.1433 Anna von Sachsen (*5.6.1420 +17.9.1462)
+			name=Ludwig #  60894/ludwig-i-Landgr-of-hesse/
+			dynasty=1002012
+			religion=catholic culture=german
+			father=100001531	# Herman v. Hessen
+			mother=100092288	# Margarethe von Hohenzollern v. Hohenzollern
+			1402.02.06={birth=yes}
+			1436.09.13={add_spouse=100092987}	# Anna von Sachsen
+			1458.01.17={death=yes}
+		}
+			100001475={ # E1. Ludwig IV Ldgf von Hessen-Kassel (1458-71), *7.9.1438, +Reichenbach 8.11.1471; m.Marburg 18.8.1454 Matilda von Württemberg (+6.6.1495) $$
+				name=Ludwig 		# 34905/ludwig-ii-Landgr-of-hesse/
+				dynasty=1002012
+				religion=catholic culture=german
+				father=100001546	# Ludwig v. Hessen
+				mother=100092987	# Anna von Sachsen
+				1438.09.07={birth=yes}
+				1454.04.28={add_spouse=100008097}	# Matilde v. Württemberg
+				1471.11.08={death=yes}
+			}
+				100192206={ # F1. Wilhelm I Ldgf von Hessen-Kassel (1471-93), *4.7.1466, +Kassel 8.2.1515; m.Münden 17.2.1488 Anna von Braunschweig-Wolfenbüttel (*1460 +Worms 16.5.1520) $$
+					name=Wilhelm
+					dynasty=1002012
+					religion=catholic culture=german
+					father=100001475	# Ludwig v. Hessen
+					mother=100008097	# Matilde v. Württemberg
+					1466.01.01={birth=yes}
+					1488.02.17={add_spouse=100009411}	# Anna v. Braunschweig
+					1515.02.08={death=yes}  # Kassel
+				}
+					100192207={ # G5. Elisabeth, *1503, +Lauingen 4.1.1563; 1m: Meisenheim 16.10.1525 Pfgf Ludwig II von Zweibrücken (*1502 +1532); 2m: 9.1.1541 Georg Pfgf von Simmern (*1518 +1569) $$
+						name=Elisabeth
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100192206	# Wilhelm v. Hessen
+						mother=100009411	# Anna v. Braunschweig
+						1503.01.01={birth=yes}
+						1563.01.04={death=yes}  # Lauingen
+					}
+				100001547={ # F2. Wilhelm II Ldgf von Hessen-Kassel (1493-1509), *29.4.1469, +Kassel 11.7.1509; 1m: 5/15.10.1497 Yolande de Lorraine (+21.5.1500); 2m: Kassel 20.10.1500 Anna von Mecklenburg (*1485 +Ródelheim 12.5.1525) $$
+					name=Wilhelm #  2274/wilhelm-ii-Landgr-of-hesse/
+					dynasty=1002012
+					religion=lutheran culture=german
+					father=100001475	# Ludwig v. Hessen
+					mother=100008097	# Matilde v. Württemberg
+					1469.03.29={birth=yes}
+					1497.01.01={add_spouse=100066118}	# Yolande de Lorraine
+					1500.10.20={add_spouse=100002908}	# Anna v. Mecklenburg
+					1509.07.11={death=yes}  # Kassel
+				}
+					# brabant7 -> G2. Philipp I "der Grossmüthige" Ldgf von Hessen-Kassel (1509-67), *Marburg 13.11.1504, +Kassel 31.3.1567; 1m: Dresden 11.12.1523 Christine von Sachsen (*25.12.1505, +Kassel 15.4.1549); 2m: (morganatically) Rotenburg an der Fulda 4.3.1540 Margarete von der Saale (*1522 +Spangenberg 6.7.1566); for his descendants see HERE
+					100192209={ # G3. Elisabeth, *Marburg 4.3.1502, +Schmalkalden 6.12.1557, bur Marburg; m.Kassel 20.5.1519 Hg Johann von Sachsen (*1498 +1537) $$
+						name=Elisabeth
+						female=yes
+						dynasty=1002012
+						religion=catholic culture=german
+						father=100001547	# Wilhelm v. Hessen
+						mother=100002908	# Anna v. Mecklenburg
+						1502.03.04={birth=yes}  # Marburg
+						1557.12.06={death=yes}  # Schmalkalden
+					}
+			100292735={ # E2. Heinrich III Ldgf von Hessen-Marburg (1458-83), *15.10.1440, +Marburg 13.1.1483; m.St.Goar 24.1.1458 Anna Gfn von Katzenelnbogen (*5.9.1443, +Marburg 16.2.1494)
+				name=Heinrich
+				dynasty=1002012
+				religion=catholic culture=german
+				father=100001546	# Ludwig v. Hessen
+				mother=100092987	# Anna von Sachsen
+				1440.10.15={birth=yes}
+				1483.01.13={death=yes}
+			}
+				100092735={ # F4. Elisabeth, *Marburg V.1466, +Köln 17.6.1523; m.Marburg 11.2.1482 Gf Johann V von Nassau-Dillenburg (*1455 +1516)
+					name=Elisabeth
+					female=yes
+					dynasty=0
+					religion=catholic culture=german
+					father=100292735	# Heinrich v. Hessen
+					1466.05.01={birth=yes}  # Marburg
+					1523.01.17={death=yes}  # Köln
+				}
+			100001892={ # E5. Elisabeth, *1453, +22.4.1489; m.1464 Gf Johann III von Nassau-Weilburg (*1441 +1480) $$
+				name=Elisabeth
+				female=yes
+				dynasty=1002012
+				religion=catholic culture=german
+				father=100001546	# Ludwig v. Hessen
+				mother=100092987	# Anna von Sachsen
+				1453.01.01={birth=yes}
+				1489.04.22={death=yes}
+			}
 #brabant6
 																					
 #brabant7 - I: HESSEN-KASSEL
@@ -473,14 +474,14 @@
 				1698.09.08={birth=yes}  # Darmstadt
 				1777.03.22={death=yes}  # Darmstadt
 			}
-		100001591={	# B5. Philipp, *Darmstadt 20.7.1671, +Vienna 11.8.1736; m.Brussels 24.3.1693 Pss Marie Therese von Croy (*3.11.1673 +20.2.1714)
+		100001591={	# B5. Philipp, *Darmstadt 20.7.1671, +Vienna 11.8.1736; m.Brussels 24.3.1693 Pss Marie Therese von Croy (*3.11.1673 +20.2.1714) $$
 			name=Philipp
 			dynasty=1002012
 			religion=catholic culture=german
 			father=100001573	# Ludwig v. Hessen
 			mother=100007428	# Elisabeth Dorothea v. Wettin
 			1671.07.20={birth=yes}  # Darmstadt
-			1693.03.24={add_spouse=100082257}	# PSS Marie Therese de Croÿ
+			1693.03.24={add_spouse=100012757}	# Marie Therese de Croÿ
 			1736.08.11={death=yes}  # Vienna
 		}
 			100001596={	# C3. Leopold, an imperial Field Marshal, *Mantua 11.4.1708, +Piacenza 27.10.1764; m.Piacenza 1740 Henriette Marie d'Este (*27.5.1702, +Piacenza 30.1.1777) $$
@@ -488,7 +489,7 @@
 				dynasty=1002012
 				religion=catholic culture=german
 				father=100001591	# Philipp v. Hessen
-				mother=100082257	# PSS Marie Therese de Croÿ
+				mother=100012757	# Marie Therese de Croÿ
 				1708.04.11={birth=yes}  # Mantua
 				1740.01.01={add_spouse=100071356}	# Henriette d'Este
 				1764.10.27={death=yes}  # Piacenza
@@ -499,7 +500,7 @@
 				dynasty=1002012
 				religion=catholic culture=german
 				father=100001591	# Philipp v. Hessen
-				mother=100082257	# PSS Marie Therese de Croÿ
+				mother=100012757	# Marie Therese de Croÿ
 				1706.02.06={birth=yes}  # Vienna
 				1784.01.23={death=yes}  # Parma
 			}
@@ -687,10 +688,10 @@
 			1772.08.08={birth=yes}
 			1784.07.20={death=yes}
 		}
-		100001462={ # 4b) WILHELM II, Elector von Hessen (Hanau 28 Jul 1777-Frankfurt 20 Nov 1847); 
-					# m.1st Berlin 13 Feb 1797 Auguste Pss of Prussia (Potsdam 1 May 1780-Kassel 19 Feb 1841); 
-					# m.2d (morganatically) Schloß Bisenz, Moravia 8 Jul 1841 Emilie Ortlöpp, cr 1821 "Gfn von Reichenbach-Lessonitz" (Berlin 13 May 1791-Frankfurt 12 Feb 1843);
-					# m.3d (morganatically) Wilhelmsbad 28 Aug 1843 Caroline Frn von Berlepsch, cr Frn von Bergen 1844 and Gfn von Bergen 1846 (Hersfeld 9 Jan 1820-Knauthayn 21 Feb 1877)
+		100001462={ # F2. WILHELM II Kurfürst von Hessen (1821-47), *Hanau 28.7.1777, +Frankfurt 20.11.1847; 
+					# 1m: Berlin 13.2.1797 Auguste Pss von Preussen (*Potsdam 1.5.1780, +Kassel 19.2.1841); 
+					# 2m: (morganatically) Schloss Bisenz, Moravia 8.7.1841 Emilie Ortlöpp, cr 1821 "Gfn von Reichenbach-Lessonitz" (*Berlin 13.5.1791, +Frankfurt 12.2.1843); there were 8 children born of this marriage before the marriage itself occurred, and they were apparently subsequently legitimated; these children of the second marriage bore the title Graf/Gräfin von Reichenbach-Lessonitz; 
+					# 3m: (morganatically) Wilhelmsbad 28.8.1843 Caroline Frn von Berlepsch, cr Frfrau von Bergen 1844 and Gfn von Bergen 1846 (*Hersfeld 9.1.1820, +Knauthayn 21.2.1877)
 			name=Wilhelm
 			dynasty=1002103
 			religion=catholic culture=german
@@ -701,7 +702,7 @@
 			1843.08.28={add_spouse=100091634}	# FRN Caroline von Berlepsch
 			1847.11.20={death=yes}
 		}
-			100001464={ # 2c) Karoline Friederike Wilhelmine (Philippsruhe 29 Jul 1799-Kassel 28 Nov 1854)
+			100001464={ # G4. [1m.] KAROLINE Friederike Wilhelmine, *Philippsruhe 29.7.1799, +Kassel 28.11.1854
 				name="Karoline Friederike"
 				female=yes
 				dynasty=1002103
@@ -711,8 +712,7 @@
 				1799.07.29={birth=yes}
 				1854.11.28={death=yes}
 			}
-			100001465={ # 4c) FRIEDRICH WILHELM, Elector von Hessen (Philippsruhe 20 Aug 1802-Prague 6 Jun 1875) 
-						# m.(morganatically) Rellingshausen 26 Jun 1831 Gertrud Falkenstein, cr Gfn von Schaumburg 1831 and von Hanau und zu Horowitz (Serene Highness) 1862 (Bonn 18 May 1803-Prague 9 Jul 1882); their issue bore the titles Prince[ss] von Hanau u.zu Horowitz, Graf/Gräfin von Schaumburg; the head of this line was Fst von Hanau, but the eldest son, Friedrich Wilhelm, and his issue were bypassed until all other sons and their issue male had died
+			100001465={ # G2. [1m.] FRIEDRICH WILHELM Kurfürst von Hessen (1847-66), *Philippsruhe 20.8.1802, +Prague 6.6.1875; m.(morganatically) Rellingshausen 26.6.1831 Gertrud Falkenstein, cr Gfn von Schaumburg 1831 and Pss von Hanau und zu Horowitz (Serene Highness) 1862 (*Bonn 18.5.1803, +Prague 9.7.1882); for his issue see HERE
 				name="Friedrich Wilhelm"
 				dynasty=1002103
 				religion=catholic culture=german
@@ -726,7 +726,7 @@
 				1875.06.06={death=yes}
 			}
 				### HANAUER
-			100001480={ # 5c) Marie Friederike Wilhelmine Christine (Kassel 6 Sep 1804-Meiningen 1 Jan 1888); m.Kassel 23 Mar 1825 Duke Bernhard II von Sachsen-Meiningen (Meiningen 17 Dec 1800-Meiningen 3 Dec 1882) $$
+			100001480={ # G6. [1m.] MARIE Friederike Wilhelmine Christine, *Kassel/Hanau 6.9.1804, +Meiningen 4.1.1888; m.Kassel 23.3.1825 Hg Bernhard II von Sachsen-Meiningen (*17.12.1800 +3.12.1882) $$
 				name=Marie
 				female=yes
 				dynasty=1002103
@@ -736,6 +736,24 @@
 				1804.09.06={birth=yes}
 				1887.01.01={death=yes}
 			}
+			100294611={ # G9. [2m.] Wilhelm, Gf von Reichenbach-Lessonitz, *Kassel 29.6.1824, +Neufchâtel, Switzerland 19.1.1866; m.Karlsruhe 19.3.1857 Helene Amelie Frn Goeler von Ravensburg (*Karlsruhe 27.4.1838, +Frankfurt 14.3.1912)
+				name=Wilhelm
+				dynasty=1002280
+				religion=catholic culture=german
+				trait=bastard
+				father=100001462	# Wilhelm v. Hessen-Kassel
+				1824.06.29={birth=yes}  # Kassel
+				1866.01.19={death=yes}  # Neufchâtel
+			}
+				100294612={ # H1. PAULINE Victoria Caroline Wilhelmine Emilie, Gfn von Reichenbach-Lessonitz, *Frankfurt 6.5.1858, +Langenzell 21.10.1927; m.Frankfurt 9.2.1880 Alfred Fst zu Löwenstein-Wertheim-Freudenberg (*Siebleben 19.10.1855, +Langenzell 20.4.1925) $$
+					name=Pauline
+					female=yes
+					dynasty=1002280
+					religion=catholic culture=german
+					father=100294611	# Wilhelm von Reichenbach-Lessonitz
+					1858.06.05={birth=yes}  # Frankfurt
+					1927.10.21={death=yes}  # Langenzell
+				}
 	100001486={ # 3a) Karl (Kassel 19 Dec 1744-Luisenlund 17 Aug 1836); m.Copenhagen 30 Aug 1766 Pss Lovisa of Denmark (Christiansborg 30 Jan 1750-Gottorp 12 Jan 1831) $$
 		name=Karl
 		dynasty=1002103
@@ -971,7 +989,7 @@
 									mother=100091944	# GFN Floria-Franziska von Faber-Castell
 									2007.03.26={birth=yes}
 								}
-								100001564={ # August (b.24 Aug 2012) %%
+								100001564={ # H3. August (b.24 Aug 2012) %%
 									name=August
 									dynasty=1002103
 									religion=lutheran culture=german
@@ -1210,14 +1228,14 @@
 
 
 #brabant8 - Hessen-Kassel
-100001463={ # Wilhelm V Landgraf von Hessen-Kassel (1627-37), *Kassel 13.2.1602, +Leer, Ostfriesland 21.9.1637; m.Kassel 1619 Amalie Elisabeth Gfn von Hanau-Münzenberg (*29.1.1602 +8.8.1651)
+100001463={ # Wilhelm V Landgraf von Hessen-Kassel (1627-37), *Kassel 13.2.1602, +Leer, Ostfriesland 21.9.1637; m.Kassel 1619 Amalie Elisabeth Gfn von Hanau-Münzenberg (*29.1.1602 +8.8.1651) $$
 	name=Wilhelm 		# 3760/wilhelm-v-landgraf-von-hessen-kassel/
 	dynasty=1002103
 	religion=lutheran culture=german
 	father=100001541	# Moritz v. Hessen-Kassel
 	mother=100006896	# Agnes von Solms-Sonnenwalde
 	1602.02.13={birth=yes}
-	1619.11.21={add_spouse=100092149}	# GFN Amalie Elisabeth von Hanau-Münzenberg
+	1619.11.21={add_spouse=100012728}	# Amalie Elisabeth von Hanau
 	1637.09.21={death=yes}
 }
 	100192218={ # A10. Charlotte, *Kassel 20.11.1627, +Heidelberg 16.3.1686; m.Kassel 12.2.1650 (div 1657) Kfst Karl Ludwig I von der Pfalz (*1617 +1680) $$
@@ -1226,7 +1244,7 @@
 		dynasty=1002103
 		religion=catholic culture=german
 		father=100001463	# Wilhelm v. Hessen-Kassel
-		mother=100092149	# GFN Amalie Elisabeth von Hanau-Münzenberg
+		mother=100012728	# Amalie Elisabeth von Hanau
 		1627.11.20={birth=yes}  # Kassel
 		1686.03.16={death=yes}  # Heidelberg
 	}
@@ -1235,7 +1253,7 @@
 		dynasty=1002103
 		religion=lutheran culture=german
 		father=100001463	# Wilhelm v. Hessen-Kassel
-		mother=100092149	# GFN Amalie Elisabeth von Hanau-Münzenberg
+		mother=100012728	# Amalie Elisabeth von Hanau
 		1629.05.23={birth=yes}
 		1649.07.09={add_spouse=100002347}	# Hedwig Sophia v. Hohenzollern
 		1663.07.16={death=yes}
@@ -1246,7 +1264,7 @@
 			dynasty=1002103
 			religion=catholic culture=danish
 			father=100001500	# Wilhelm v. Hessen-Kassel
-			mother=100092149	# GFN Amalie Elisabeth von Hanau-Münzenberg
+			mother=100012728	# Amalie Elisabeth von Hanau
 			1650.04.27={birth=yes}
 			1714.03.27={death=yes}
 		}
@@ -1416,7 +1434,7 @@
 				1764.09.04={birth=yes}  # Philippsthal
 				1794.07.06={death=yes}  # Nivelles
 			}
-			100008410={ # C5. Ldgve LUDWIG of Hesse-Philippsthal (1810-16), *Philippsthal 8.10.1766, +Naples 16.2.1816; m.Süsteren 21.1.1791 Marie Franziska Gfn Berghe von Trips (*Hemmersbach 8.8.1771, +Munich 3.5.1805)
+			100008410={ # C5. Ldgve LUDWIG of Hesse-Philippsthal (1810-16), *Philippsthal 8.10.1766, +Naples 16.2.1816; m.Süsteren 21.1.1791 Marie Franziska Gfn Berghe von Trips (*Hemmersbach 8.8.1771, +München 3.5.1805)
 				name=Ludwig
 				dynasty=1002104
 				religion=lutheran culture=german
@@ -2503,7 +2521,7 @@
 		1691.11.15={add_spouse=100092542}	# GFN Sophia Sibylla von Leiningen-Westerburg-Oberbronn
 		1708.01.24={death=yes}
 	}
-		100001552={ # Charlotte Dorothea Sophie (17 Jun 1672-29 Aug 1738); m.4 Nov 1694 Johann Ernst v. Wettin (Weimar 22 Jun 1664-Weimar 10 May 1707) %%
+		100001552={ # B1. Charlotte Dorothea Sophie (17 Jun 1672-29 Aug 1738); m.4 Nov 1694 Johann Ernst v. Wettin (Weimar 22 Jun 1664-Weimar 10 May 1707) %%
 			name="Charlotte Dorothea Sophie" #  4502/charlotte-dorothea-sophie-landgraefin-von-hessen-homburg/
 			female=yes
 			dynasty=1002012
@@ -2739,8 +2757,8 @@
 			1681.10.13={birth=yes}
 			1732.09.23={death=yes}  # Frankfurt
 		}
-		100001701={ # B4. Elisabeth Katharina Felicitas, *Rheinfels 4/14.2.1677, +Diez an der Lahn 15.5.1739; 1m: Lobositz, Bohemia 18.10.1695 Franz Alexander Fst von Nassau-Hadamar (*1674, +1711); 2m: Nürnberg 6.9.1727 Gf Anton Ferdinand von Attems (*1694 +14.2.1738)
-			name="Elisabeth Katharina"
+		100001701={ # B4. Elisabeth Katharina Felicitas, *Rheinfels 4/14.2.1677, +Diez an der Lahn 15.5.1739; 1m: Lobositz, Bohemia 18.10.1695 Franz Alexander Fst von Nassau-Hadamar (*1674, +1711); 2m: Nürnberg 6.9.1727 Gf Anton Ferdinand von Attems (*1694 +14.2.1738) $$
+			name=Elisabeth
 			female=yes
 			dynasty=1002115
 			religion=catholic culture=german
@@ -3011,7 +3029,7 @@
 			1688.05.23={birth=yes}  # Wanfried
 			1728.07.17={death=yes}  # Kleinheubach
 		}
-		100001762={ # B7. [2m.] Christian, *Wanfried 1.VII.1689, +Eschwege 21.10.1755; m.Nürnberg 11.8.1731 Marie Franziska Gfn von Hohenlohe-Bartenstein (*Bartenstein 17.8.1698, +Frankfurt 11.12.1757)
+		100001762={ # B7. [2m.] Christian, *Wanfried 1.VII.1689, +Eschwege 21.10.1755; m.Nürnberg 11.8.1731 Marie Franziska Gfn von Hohenlohe-Bartenstein (*Bartenstein 17.8.1698, +Frankfurt 11.12.1757) $$
 			name=Christian
 			dynasty=1002115
 			religion=catholic culture=german
@@ -3094,7 +3112,7 @@
 	1875.04.08={add_spouse=100082737}	# Ludowika Gloede
 	1889.05.14={death=yes}
 }
-	100517427={ # 1e) Pr Friedrich August (Wiesbaden 14 Apr 1864-Brünn 26 Apr 1940); 
+	100518919={ # 1e) Pr Friedrich August (Wiesbaden 14 Apr 1864-Brünn 26 Apr 1940);  $$
 			   # m.1st Vienna 6 Jul 1899 (div 1922) Hildegard Gfn Almásy de Zsadány et Török-Szent-Miklós (Zsadány, Hungary 10 Mar 1879-Augsburg 1 Feb 1933); 
 			   # m.2d München 12 Dec 1932 Christine-Ernestine Detzer (München 29 Jan 1894-München 10 Jan 1978)
 		name="Friedrich August"
@@ -3103,7 +3121,7 @@
 		father=100518918	# Friedrich Wilhelm von Hanau
 		mother=100082737	# Ludowika Gloede
 		1864.04.14={birth=yes}
-		1899.07.06={add_spouse=100080104}	# GFN Hildegard Almásy de Zsadány et Törökszentmiklós
+		1899.07.06={add_spouse=100116360}	# Hildegard Almásy de Zsadány et Törökszentmiklós
 		1940.04.26={death=yes}
 	}
 		100196161={ # 1f) Friedrich Wilhelm Tassilo Ludwig Hubertus Heinrich (Söcking bei Starnberg 27 Dec 1900-München 12 Oct 1971);  $$
@@ -3111,8 +3129,8 @@
 			name="Friedrich Wilhelm"
 			dynasty=1002219
 			religion=catholic culture=german
-			father=100517427	# Friedrich August von Hanau
-			mother=100080104	# GFN Hildegard Almásy de Zsadány et Törökszentmiklós
+			father=100518919	# Friedrich August von Hanau
+			mother=100116360	# Hildegard Almásy de Zsadány et Törökszentmiklós
 			1900.12.27={birth=yes}
 			1921.08.01={add_spouse=100008794}	# Maria Theresia Fugger von Babenhausen
 			1971.10.12={death=yes}
@@ -3254,8 +3272,8 @@
 			name="Tassilo Karl"
 			dynasty=1002219
 			religion=catholic culture=german
-			father=100517427	# Friedrich August von Hanau
-			mother=100080104	# GFN Hildegard Almásy de Zsadány et Törökszentmiklós
+			father=100518919	# Friedrich August von Hanau
+			mother=100116360	# Hildegard Almásy de Zsadány et Törökszentmiklós
 			1901.12.21={birth=yes}
 			1932.05.16={death=yes}
 		}
@@ -3264,8 +3282,8 @@
 			female=yes
 			dynasty=1002219
 			religion=catholic culture=german
-			father=100517427	# Friedrich August von Hanau
-			mother=100080104	# GFN Hildegard Almásy de Zsadány et Törökszentmiklós
+			father=100518919	# Friedrich August von Hanau
+			mother=100116360	# Hildegard Almásy de Zsadány et Törökszentmiklós
 			1903.03.12={birth=yes}
 			1990.04.12={death=yes}
 		}
@@ -3274,8 +3292,8 @@
 			female=yes
 			dynasty=1002219
 			religion=catholic culture=german
-			father=100517427	# Friedrich August von Hanau
-			mother=100080104	# GFN Hildegard Almásy de Zsadány et Törökszentmiklós
+			father=100518919	# Friedrich August von Hanau
+			mother=100116360	# Hildegard Almásy de Zsadány et Törökszentmiklós
 			1913.04.22={birth=yes}
 			1986.09.08={death=yes}
 		}

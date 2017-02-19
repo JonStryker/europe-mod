@@ -1,4 +1,4 @@
-###### AUTO GENERATED CONTENT (c) CKTools v18 ######
+###### AUTO GENERATED CONTENT (c) CKTools v19 ######
 
 
 
@@ -813,6 +813,7 @@ e_austria = {
 			c_suedtirol = { # 39
 				color={ 208 64 224 }
 				color2={ 255 255 255 }
+				italian="Alto Adige"
 				
 				b_bozen = {
 				}
@@ -828,6 +829,7 @@ e_austria = {
 			c_trento = { # 38
 				color={ 208 191 96 }
 				color2={ 255 255 255 }
+				german=Trient
 				
 				b_trento = {
 				}
@@ -877,7 +879,26 @@ e_austria = {
 		capital = 40 # c_budapest
 		culture = hungarian
 		german=Ungarn
+		hungarian="Magyar Királyság"
 		
+		c_szabolcs = { # 1438
+			color={ 21 129 129 }
+			color2={ 255 255 255 }
+			german=Saboltsch
+			
+			b_nyiregyhaza_2 = {
+			}
+			b_kisvarda = {
+			}
+			b_fehergyarmat = {
+			}
+			b_kisvarda_2 = {
+			}
+			b_mateszalka = {
+			}
+			b_nyirbator = {
+			}
+		}
 		d_budapest = {
 			color={ 71 234 219 }
 			color2={ 255 255 255 }
@@ -885,7 +906,7 @@ e_austria = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 40 province_id = 41 } }
+					any_demesne_province = { OR = { province_id = 40 province_id = 41 province_id = 1439 } }
 				}
 			}
 			capital = 40 # c_budapest
@@ -907,10 +928,9 @@ e_austria = {
 				b_hatvan = {
 				}
 			}
-			c_miskolc = { # 41
+			c_borsod_abauj = { # 41
 				color={ 208 97 224 }
 				color2={ 255 255 255 }
-				german=Mischkolz
 				
 				b_miskolc = {
 				}
@@ -921,6 +941,18 @@ e_austria = {
 				b_mezoekoevesd = {
 				}
 			}
+			c_nograd_heves = { # 1439
+				color={ 138 37 153 }
+				color2={ 255 255 255 }
+				german=Neuburg-Hewesch
+				
+				b_eger_2 = {
+				}
+				b_salgotarjan = {
+				}
+				b_balassagyarmat = {
+				}
+			}
 		}
 		d_alfoeld = {
 			color={ 142 87 106 }
@@ -929,15 +961,14 @@ e_austria = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 42 province_id = 43 province_id = 44 province_id = 45 } }
+					any_demesne_province = { OR = { province_id = 42 province_id = 43 province_id = 44 province_id = 45 province_id = 1438 } }
 				}
 			}
-			capital = 42 # c_kecskemet
+			capital = 42 # c_bacs_kiskun
 			
-			c_kecskemet = { # 42
+			c_bacs_kiskun = { # 42
 				color={ 132 97 101 }
 				color2={ 255 255 255 }
-				german=Ketschkemet
 				
 				b_kecskemet = {
 				}
@@ -948,7 +979,7 @@ e_austria = {
 				b_nagykoroes = {
 				}
 			}
-			c_bekescsaba = { # 45
+			c_bekes  = { # 45
 				color={ 80 96 223 }
 				color2={ 255 255 255 }
 				romanian=Bichisciaba
@@ -962,10 +993,25 @@ e_austria = {
 				b_mezotur = {
 				}
 			}
-			c_debrecen = { # 43
+			c_csongrad_csanad = { # 44
+				color={ 144 160 160 }
+				color2={ 255 255 255 }
+				romanian=Ciongrad-Cenad
+				serbian=?ongrad
+				
+				b_szeged = {
+				}
+				b_mako = {
+				}
+				b_hodmezovasamely = {
+				}
+				b_szentes = {
+				}
+			}
+			c_hajdu = { # 43
 				color={ 16 159 159 }
 				color2={ 255 255 255 }
-				german=Debrezin
+				german=Heiduck
 				
 				b_debrecen = {
 				}
@@ -978,18 +1024,22 @@ e_austria = {
 				b_hajduszoboszlo = {
 				}
 			}
-			c_szeged = { # 44
-				color={ 144 160 160 }
+			c_szabolcs = { # 1438
+				color={ 21 129 129 }
 				color2={ 255 255 255 }
-				romanian=Seghedin
+				german=Saboltsch
 				
-				b_szeged = {
+				b_nyiregyhaza_2 = {
 				}
-				b_mako = {
+				b_kisvarda = {
 				}
-				b_hodmezovasamely = {
+				b_fehergyarmat = {
 				}
-				b_szentes = {
+				b_kisvarda_2 = {
+				}
+				b_mateszalka = {
+				}
+				b_nyirbator = {
 				}
 			}
 		}
@@ -1003,12 +1053,12 @@ e_austria = {
 					any_demesne_province = { OR = { province_id = 46 province_id = 47 province_id = 48 province_id = 49 province_id = 50 province_id = 51 } }
 				}
 			}
-			capital = 46 # c_szekesfehervar
+			capital = 46 # c_fejer_veszprem
 			
-			c_szekesfehervar = { # 46
+			c_fejer_veszprem = { # 46
 				color={ 207 223 223 }
 				color2={ 255 255 255 }
-				german=Stuhlweißenburg
+				german=Weißenburg-Wesprim
 				
 				b_szekesfehervar = {
 				}
@@ -1021,38 +1071,10 @@ e_austria = {
 				b_siofok = {
 				}
 			}
-			c_gyoer = { # 50
-				color={ 113 95 93 }
-				color2={ 255 255 255 }
-				german=Raab
-				
-				b_gyoer = {
-				}
-				b_tatabanya = {
-				}
-				b_papa = {
-				}
-				b_tata = {
-				}
-			}
-			c_kaposvar = { # 51
-				color={ 176 33 33 }
-				color2={ 255 255 255 }
-				german=Ruppertsburg
-				
-				b_kaposvar = {
-				}
-				b_nagykanizsa = {
-				}
-				b_nagyatad = {
-				}
-				b_marcali = {
-				}
-			}
-			c_pecs = { # 49
+			c_baranya = { # 49
 				color={ 207 32 32 }
 				color2={ 255 255 255 }
-				german=Fünfkirchen
+				german=Branau
 				
 				b_pecs = {
 				}
@@ -1065,10 +1087,10 @@ e_austria = {
 				b_siklos = {
 				}
 			}
-			c_sopron = { # 47
+			c_gyoer_sopron = { # 47
 				color={ 240 224 1 }
 				color2={ 255 255 255 }
-				german=Ödenburg
+				german=Raab-Ödenburg
 				
 				b_sopron = {
 				}
@@ -1079,10 +1101,38 @@ e_austria = {
 				b_kapuvar = {
 				}
 			}
-			c_zalaegerszeg = { # 48
+			c_komarom_esztergom = { # 50
+				color={ 113 95 93 }
+				color2={ 255 255 255 }
+				german=Komorn-Gran
+				
+				b_gyoer = {
+				}
+				b_tatabanya = {
+				}
+				b_papa = {
+				}
+				b_tata = {
+				}
+			}
+			c_somogy_tolna = { # 51
+				color={ 176 33 33 }
+				color2={ 255 255 255 }
+				german=Schomodei-Tolnau
+				
+				b_kaposvar = {
+				}
+				b_nagykanizsa = {
+				}
+				b_nagyatad = {
+				}
+				b_marcali = {
+				}
+			}
+			c_zala_vas = { # 48
 				color={ 113 97 128 }
 				color2={ 255 255 255 }
-				german=Egersee
+				german=Zala-Eisenburg
 				
 				b_zalaegerszeg = {
 				}
@@ -1109,6 +1159,10 @@ e_bilad_as_sam = {
 		
 		capital = 962 # c_damascus
 		culture = levantine_arabic
+		maghreb_arabic=Suriya
+		bedouin_arabic=Suriya
+		levantine_arabic=Suriya
+		egyptian_arabic=Suriya
 		
 		d_damascus = {
 			color={ 214 27 219 }
@@ -1126,8 +1180,10 @@ e_bilad_as_sam = {
 				color={ 224 17 224 }
 				color2={ 255 255 255 }
 				kurdish=Sam
-				iraqi=Dimašq
+				maghreb_arabic=Dimašq
+				bedouin_arabic=Dimašq
 				levantine_arabic=Dimašq
+				egyptian_arabic=Dimašq
 				
 				b_damascus = {
 				}
@@ -1145,8 +1201,10 @@ e_bilad_as_sam = {
 			c_al_suwayda = { # 966
 				color={ 128 176 32 }
 				color2={ 255 255 255 }
-				iraqi=as-Suwayda’
+				maghreb_arabic=as-Suwayda’
+				bedouin_arabic=as-Suwayda’
 				levantine_arabic=as-Suwayda’
+				egyptian_arabic=as-Suwayda’
 				
 				b_as_suwayda = {
 				}
@@ -1168,8 +1226,10 @@ e_bilad_as_sam = {
 			c_daraa = { # 964
 				color={ 135 5 135 }
 				color2={ 255 255 255 }
-				iraqi=Dar'a
+				maghreb_arabic=Dar'a
+				bedouin_arabic=Dar'a
 				levantine_arabic=Dar'a
+				egyptian_arabic=Dar'a
 				
 				b_daraa = {
 				}
@@ -1181,8 +1241,10 @@ e_bilad_as_sam = {
 			c_golan_heights = { # 963
 				color={ 230 89 230 }
 				color2={ 255 255 255 }
-				iraqi=al-Gawlan
+				maghreb_arabic=al-Gawlan
+				bedouin_arabic=al-Gawlan
 				levantine_arabic=al-Gawlan
+				egyptian_arabic=al-Gawlan
 				
 				b_katzrin = {
 				}
@@ -1194,8 +1256,10 @@ e_bilad_as_sam = {
 			c_homs = { # 965
 				color={ 0 48 160 }
 				color2={ 255 255 255 }
-				iraqi=Hims
+				maghreb_arabic=Hims
+				bedouin_arabic=Hims
 				levantine_arabic=Hims
+				egyptian_arabic=Hims
 				
 				b_homs = {
 				}
@@ -1225,8 +1289,10 @@ e_bilad_as_sam = {
 				color={ 122 22 121 }
 				color2={ 255 255 255 }
 				kurdish=Heleb
-				iraqi=Halab
+				maghreb_arabic=Halab
+				bedouin_arabic=Halab
 				levantine_arabic=Halab
+				egyptian_arabic=Halab
 				
 				b_aleppo = {
 				}
@@ -1252,8 +1318,10 @@ e_bilad_as_sam = {
 			c_hama = { # 968
 				color={ 224 144 96 }
 				color2={ 255 255 255 }
-				iraqi=Hamah
+				maghreb_arabic=Hamah
+				bedouin_arabic=Hamah
 				levantine_arabic=Hamah
+				egyptian_arabic=Hamah
 				
 				b_hamah = {
 				}
@@ -1285,9 +1353,11 @@ e_bilad_as_sam = {
 				color={ 97 144 96 }
 				color2={ 255 255 255 }
 				greek=Laodikeia
+				maghreb_arabic=al-Ladiqiyya
 				turkish=Lazkiye
-				iraqi=al-Ladiqiyya
+				bedouin_arabic=al-Ladiqiyya
 				levantine_arabic=al-Ladiqiyya
+				egyptian_arabic=al-Ladiqiyya
 				
 				b_latakia = {
 				}
@@ -1303,8 +1373,10 @@ e_bilad_as_sam = {
 			c_tartus = { # 971
 				color={ 11 190 7 }
 				color2={ 255 255 255 }
-				iraqi=Tartus
+				maghreb_arabic=Tartus
+				bedouin_arabic=Tartus
 				levantine_arabic=Tartus
+				egyptian_arabic=Tartus
 				
 				b_tartus = {
 				}
@@ -1333,8 +1405,10 @@ e_bilad_as_sam = {
 			c_deir_ez_zor = { # 972
 				color={ 220 242 35 }
 				color2={ 255 255 255 }
-				iraqi="Dair az-Zaur"
+				maghreb_arabic="Dair az-Zaur"
+				bedouin_arabic="Dair az-Zaur"
 				levantine_arabic="Dair az-Zaur"
+				egyptian_arabic="Dair az-Zaur"
 				
 				b_deir_ez_zor = {
 				}
@@ -1351,8 +1425,10 @@ e_bilad_as_sam = {
 				color={ 193 209 63 }
 				color2={ 255 255 255 }
 				kurdish=Hesîçe
-				iraqi=al-Hasaka
+				maghreb_arabic=al-Hasaka
+				bedouin_arabic=al-Hasaka
 				levantine_arabic=al-Hasaka
+				egyptian_arabic=al-Hasaka
 				
 				b_al_hasakah = {
 				}
@@ -1378,8 +1454,10 @@ e_bilad_as_sam = {
 			c_al_raqqah = { # 974
 				color={ 115 126 26 }
 				color2={ 255 255 255 }
-				iraqi=ar-Raqqah
+				maghreb_arabic=ar-Raqqah
+				bedouin_arabic=ar-Raqqah
 				levantine_arabic=ar-Raqqah
+				egyptian_arabic=ar-Raqqah
 				
 				b_ar_raqqah = {
 				}
@@ -1726,8 +1804,10 @@ e_bilad_as_sam = {
 			c_beirut = { # 975
 				color={ 199 236 203 }
 				color2={ 255 255 255 }
-				iraqi=Bairut
+				maghreb_arabic=Bairut
+				bedouin_arabic=Bairut
 				levantine_arabic=Bairut
+				egyptian_arabic=Bairut
 				
 				b_beirut = {
 				}
@@ -2105,6 +2185,7 @@ e_ceskoslovensko = {
 				color={ 81 97 97 }
 				color2={ 255 255 255 }
 				german=Pressburg
+				hungarian=Pozsony
 				
 				b_bratislava = {
 				}
@@ -2175,7 +2256,7 @@ e_ceskoslovensko = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 130 } }
+					any_demesne_province = { OR = { province_id = 130 province_id = 1440 } }
 				}
 			}
 			capital = 130 # c_felvidek
@@ -2192,6 +2273,18 @@ e_ceskoslovensko = {
 				b_dunaszerdahely = {
 				}
 				b_mukacheve = {
+				}
+			}
+			c_gemer = { # 1440
+				color={ 35 138 14 }
+				color2={ 255 255 255 }
+				hungarian=Gömör
+				
+				b_rimaszombat = {
+				}
+				b_szepsi = {
+				}
+				b_torna = {
 				}
 			}
 		}
@@ -3494,6 +3587,8 @@ e_france = {
 		
 		capital = 153 # c_paris
 		culture = frankish
+		german=Frankreich
+		italian=Francia
 		
 		d_ile_de_france = {
 			color={ 154 86 5 }
@@ -3580,9 +3675,9 @@ e_france = {
 					any_demesne_province = { OR = { province_id = 168 } }
 				}
 			}
-			capital = 168 # c_anjou
+			capital = 168 # c_angers
 			
-			c_anjou = { # 168
+			c_angers = { # 168
 				color={ 80 160 64 }
 				color2={ 255 255 255 }
 				
@@ -3668,30 +3763,28 @@ e_france = {
 			}
 		}
 		d_champagne = {
-			color={ 229 10 218 }
+			color={ 193 15 178 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 158 province_id = 159 province_id = 160 province_id = 164 } }
+					any_demesne_province = { OR = { province_id = 158 province_id = 159 province_id = 160 province_id = 164 province_id = 1608 } }
 				}
 			}
-			capital = 158 # c_troyes
+			capital = 1608 # c_troyes
 			
-			c_troyes = { # 158
-				color={ 239 0 223 }
+			c_troyes = { # 1608
+				color={ 183 25 173 }
 				color2={ 255 255 255 }
 				
 				b_troyes = {
 				}
-				b_ste_savine = {
+				b_troyes_2 = {
 				}
-				b_st_dizler = {
+				b_troyes_3 = {
 				}
-				b_romilly = {
-				}
-				b_vitrey_le_francois = {
+				b_troyes_4 = {
 				}
 			}
 			c_chalons = { # 159
@@ -3735,6 +3828,17 @@ e_france = {
 				b_nogent = {
 				}
 			}
+			c_meaux = { # 158
+				color={ 239 0 223 }
+				color2={ 255 255 255 }
+				
+				b_meaux_2 = {
+				}
+				b_meaux_3 = {
+				}
+				b_meaux_4 = {
+				}
+			}
 		}
 		d_corsica = {
 			color={ 249 54 37 }
@@ -3747,10 +3851,12 @@ e_france = {
 				}
 			}
 			capital = 161 # c_corsica
+			frankish=Corse
 			
 			c_corsica = { # 161
 				color={ 239 64 32 }
 				color2={ 255 255 255 }
+				frankish=Corse
 				
 				b_ajaccio = {
 				}
@@ -3882,29 +3988,40 @@ e_france = {
 				}
 			}
 		}
-		d_nivernais = {
-			color={ 230 138 219 }
+		d_nevers = {
+			color={ 234 234 60 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 211 } }
+					any_demesne_province = { OR = { province_id = 211 province_id = 1607 } }
 				}
 			}
-			capital = 211 # c_nevers
+			capital = 211 # c_nivernais
 			
-			c_nevers = { # 211
-				color={ 240 128 224 }
+			c_nivernais = { # 211
+				color={ 244 224 65 }
 				color2={ 255 255 255 }
 				
-				b_moulins = {
-				}
 				b_nevers = {
 				}
 				b_varennes = {
 				}
 				b_yzeure = {
+				}
+				b_nivernais = {
+				}
+			}
+			c_bourbonnais = { # 1607
+				color={ 240 128 224 }
+				color2={ 255 255 255 }
+				
+				b_moulins = {
+				}
+				b_bourbonnais = {
+				}
+				b_bourbonnais_2 = {
 				}
 			}
 		}
@@ -3919,6 +4036,7 @@ e_france = {
 				}
 			}
 			capital = 171 # c_rouen
+			german=Normandie
 			frankish=Normandie
 			
 			c_rouen = { # 171
@@ -3939,6 +4057,7 @@ e_france = {
 			c_alencon = { # 173
 				color={ 16 32 192 }
 				color2={ 255 255 255 }
+				italian=Alenzone
 				
 				b_alencon = {
 				}
@@ -4096,56 +4215,6 @@ e_france = {
 				}
 			}
 		}
-		d_poitou = {
-			color={ 198 42 187 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 169 province_id = 202 province_id = 1558 } }
-				}
-			}
-			capital = 202 # c_poitiers
-			
-			c_poitiers = { # 202
-				color={ 208 32 192 }
-				color2={ 255 255 255 }
-				
-				b_poiters = {
-				}
-				b_chatellerault = {
-				}
-				b_thouars = {
-				}
-				b_chauvigny = {
-				}
-			}
-			c_la_roche = { # 169
-				color={ 63 116 175 }
-				color2={ 255 255 255 }
-				
-				b_la_roche = {
-				}
-				b_olonne_sur_mer = {
-				}
-				b_les_sables_dolonne = {
-				}
-				b_aizenay = {
-				}
-			}
-			c_niort = { # 1558
-				color={ 57 129 42 }
-				color2={ 255 255 255 }
-				
-				b_niort = {
-				}
-				b_bressuire = {
-				}
-				b_parthenay = {
-				}
-			}
-		}
 		d_touraine = {
 			color={ 218 22 69 }
 			color2={ 255 255 255 }
@@ -4187,7 +4256,7 @@ e_france = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 184 province_id = 185 } }
+					any_demesne_province = { OR = { province_id = 184 province_id = 188 province_id = 193 province_id = 195 province_id = 1587 } }
 				}
 			}
 			capital = 184 # c_bordeaux
@@ -4209,126 +4278,7 @@ e_france = {
 				b_blanquefort = {
 				}
 			}
-			c_mont_de_marsan = { # 185
-				color={ 112 160 128 }
-				color2={ 255 255 255 }
-				
-				b_mont_de_marsan = {
-				}
-				b_dax = {
-				}
-				b_st_paul_les_dax = {
-				}
-				b_aire_sur_ladour = {
-				}
-				b_tartas = {
-				}
-			}
-		}
-		d_auvergne = {
-			color={ 102 202 91 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 189 } }
-				}
-			}
-			capital = 189 # c_clermont_ferrand
-			
-			c_clermont_ferrand = { # 189
-				color={ 112 192 96 }
-				color2={ 255 255 255 }
-				
-				b_clermont_ferrand = {
-				}
-				b_issoire = {
-				}
-				b_st_flour = {
-				}
-				b_brioude = {
-				}
-			}
-		}
-		d_gramont = {
-			color={ 230 42 123 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 186 } }
-				}
-			}
-			capital = 186 # c_gramont
-			
-			c_gramont = { # 186
-				color={ 240 32 128 }
-				color2={ 255 255 255 }
-				
-				b_gramont = {
-				}
-				b_pau = {
-				}
-				b_bayonne = {
-				}
-				b_orthez = {
-				}
-			}
-		}
-		d_languedoc = {
-			color={ 154 86 133 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 190 province_id = 191 province_id = 192 province_id = 193 } }
-				}
-			}
-			capital = 190 # c_montpellier
-			
-			c_montpellier = { # 190
-				color={ 144 96 128 }
-				color2={ 255 255 255 }
-				
-				b_montepellier = {
-				}
-				b_sete = {
-				}
-				b_beziers = {
-				}
-				b_frontignam = {
-				}
-				b_lunel = {
-				}
-			}
-			c_carcassone = { # 191
-				color={ 207 159 191 }
-				color2={ 255 255 255 }
-				
-				b_carcassone = {
-				}
-				b_narbonne = {
-				}
-				b_castelnaudary = {
-				}
-			}
-			c_perpignan = { # 192
-				color={ 16 96 192 }
-				color2={ 255 255 255 }
-				
-				b_perpignan = {
-				}
-				b_prades = {
-				}
-				b_thuir = {
-				}
-				b_st_cyprien = {
-				}
-			}
-			c_rodez = { # 193
+			c_aveyron = { # 193
 				color={ 16 96 128 }
 				color2={ 255 255 255 }
 				
@@ -4341,28 +4291,15 @@ e_france = {
 				b_mazamet = {
 				}
 			}
-		}
-		d_le_midi = {
-			color={ 26 86 69 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 194 province_id = 195 province_id = 196 } }
-				}
-			}
-			capital = 194 # c_foix
-			
-			c_foix = { # 194
-				color={ 16 96 64 }
+			c_cahors = { # 188
+				color={ 48 224 0 }
 				color2={ 255 255 255 }
 				
-				b_pamiers = {
+				b_cahors = {
 				}
-				b_st_gaudens = {
+				b_gourdan = {
 				}
-				b_st_girons = {
+				b_caussade = {
 				}
 			}
 			c_montauban = { # 195
@@ -4378,19 +4315,256 @@ e_france = {
 				b_caussade_2 = {
 				}
 			}
-			c_toulouse = { # 196
+			c_perigord = { # 1587
+				color={ 79 26 128 }
+				color2={ 255 255 255 }
+				
+				b_perigueux = {
+				}
+				b_bergerac = {
+				}
+				b_sarlat_la_caneda = {
+				}
+				b_coulounieix_chamiers = {
+				}
+				b_trelissac = {
+				}
+			}
+		}
+		d_auvergne = {
+			color={ 77 140 56 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 189 province_id = 1599 } }
+				}
+			}
+			capital = 189 # c_clermont_ferrand
+			
+			c_clermont_ferrand = { # 189
+				color={ 67 150 51 }
+				color2={ 255 255 255 }
+				
+				b_clermont_ferrand = {
+				}
+				b_issoire = {
+				}
+				b_st_flour = {
+				}
+				b_brioude = {
+				}
+			}
+			c_cantal = { # 1599
+				color={ 112 192 96 }
+				color2={ 255 255 255 }
+				
+				b_aurillac_2 = {
+				}
+				b_cantal = {
+				}
+				b_cantal_2 = {
+				}
+			}
+		}
+		d_foix = {
+			color={ 92 235 116 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 192 province_id = 1596 } }
+				}
+			}
+			capital = 1596 # c_foix
+			
+			c_foix = { # 1596
+				color={ 102 225 121 }
+				color2={ 255 255 255 }
+				
+				b_foix = {
+				}
+				b_foix_2 = {
+				}
+				b_foix_3 = {
+				}
+			}
+			c_roussillon = { # 192
+				color={ 16 96 192 }
+				color2={ 255 255 255 }
+				
+				b_perpignan = {
+				}
+				b_prades = {
+				}
+				b_thuir = {
+				}
+				b_st_cyprien = {
+				}
+			}
+		}
+		d_gascogne = {
+			color={ 58 86 133 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 185 province_id = 186 province_id = 194 province_id = 196 } }
+				}
+			}
+			capital = 196 # c_armagnac
+			
+			c_armagnac = { # 196
 				color={ 48 96 128 }
+				color2={ 255 255 255 }
+				
+				b_auch = {
+				}
+				b_armagnac = {
+				}
+			}
+			c_bearn = { # 186
+				color={ 240 32 128 }
+				color2={ 255 255 255 }
+				
+				b_gramont = {
+				}
+				b_pau = {
+				}
+				b_bayonne = {
+				}
+				b_orthez = {
+				}
+			}
+			c_dax = { # 185
+				color={ 112 160 128 }
+				color2={ 255 255 255 }
+				
+				b_mont_de_marsan = {
+				}
+				b_dax = {
+				}
+				b_st_paul_les_dax = {
+				}
+				b_aire_sur_ladour = {
+				}
+				b_tartas = {
+				}
+			}
+			c_hautes_pyrenees = { # 194
+				color={ 16 96 64 }
+				color2={ 255 255 255 }
+				
+				b_tarbes = {
+				}
+				b_pamiers = {
+				}
+				b_st_gaudens = {
+				}
+				b_st_girons = {
+				}
+			}
+		}
+		d_languedoc = {
+			color={ 60 123 193 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 187 province_id = 190 province_id = 191 province_id = 214 province_id = 1585 province_id = 1593 province_id = 1594 } }
+				}
+			}
+			capital = 214 # c_toulouse
+			
+			c_toulouse = { # 214
+				color={ 50 133 188 }
 				color2={ 255 255 255 }
 				
 				b_toulouse = {
 				}
-				b_auch = {
+				b_auch_2 = {
 				}
 				b_muret = {
 				}
 				b_blagnac = {
 				}
 				b_colomiers = {
+				}
+			}
+			c_ardeche = { # 1594
+				color={ 176 192 224 }
+				color2={ 255 255 255 }
+				
+				b_privas = {
+				}
+				b_ardeche = {
+				}
+				b_ardeche_2 = {
+				}
+			}
+			c_aude = { # 191
+				color={ 207 159 191 }
+				color2={ 255 255 255 }
+				
+				b_carcassone = {
+				}
+				b_narbonne = {
+				}
+				b_castelnaudary = {
+				}
+			}
+			c_gard = { # 1585
+				color={ 222 150 25 }
+				color2={ 255 255 255 }
+				
+				b_gard = {
+				}
+				b_gard_2 = {
+				}
+				b_gard_3 = {
+				}
+			}
+			c_herault = { # 190
+				color={ 144 96 128 }
+				color2={ 255 255 255 }
+				
+				b_montepellier = {
+				}
+				b_sete = {
+				}
+				b_beziers = {
+				}
+				b_frontignam = {
+				}
+				b_lunel = {
+				}
+			}
+			c_lozere = { # 187
+				color={ 240 192 96 }
+				color2={ 255 255 255 }
+				
+				b_aurillac = {
+				}
+				b_villefranche_de_rouerge = {
+				}
+				b_decazeville = {
+				}
+				b_mende = {
+				}
+			}
+			c_tarn = { # 1593
+				color={ 159 189 47 }
+				color2={ 255 255 255 }
+				
+				b_albi_2 = {
+				}
+				b_tarn = {
+				}
+				b_tarn_2 = {
 				}
 			}
 		}
@@ -4401,12 +4575,12 @@ e_france = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 198 } }
+					any_demesne_province = { OR = { province_id = 198 province_id = 199 } }
 				}
 			}
-			capital = 198 # c_limoges
+			capital = 198 # c_limousin
 			
-			c_limoges = { # 198
+			c_limousin = { # 198
 				color={ 176 96 0 }
 				color2={ 255 255 255 }
 				
@@ -4419,19 +4593,6 @@ e_france = {
 				b_aixe_sur_vienne = {
 				}
 			}
-		}
-		d_marche = {
-			color={ 58 86 5 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 199 } }
-				}
-			}
-			capital = 199 # c_marche
-			
 			c_marche = { # 199
 				color={ 48 96 0 }
 				color2={ 255 255 255 }
@@ -4442,18 +4603,35 @@ e_france = {
 				}
 			}
 		}
-		d_saintonge = {
-			color={ 90 22 197 }
+		d_poitou = {
+			color={ 249 54 5 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 200 province_id = 201 } }
+					any_demesne_province = { OR = { province_id = 169 province_id = 200 province_id = 201 province_id = 202 province_id = 1558 province_id = 1606 } }
 				}
 			}
-			capital = 200 # c_angouleme
+			capital = 1606 # c_la_rochelle
 			
+			c_la_rochelle = { # 1606
+				color={ 239 64 0 }
+				color2={ 255 255 255 }
+				
+				b_la_rochelle = {
+				}
+				b_rochefort = {
+				}
+				b_surgeres  = {
+				}
+				b_marans = {
+				}
+				b_fouras = {
+				}
+				b_aigrefeuille  = {
+				}
+			}
 			c_angouleme = { # 200
 				color={ 80 32 192 }
 				color2={ 255 255 255 }
@@ -4467,91 +4645,52 @@ e_france = {
 				b_rouillac = {
 				}
 			}
-			c_la_rochelle = { # 201
+			c_la_roche = { # 169
+				color={ 63 116 175 }
+				color2={ 255 255 255 }
+				
+				b_la_roche = {
+				}
+				b_olonne_sur_mer = {
+				}
+				b_les_sables_dolonne = {
+				}
+				b_aizenay = {
+				}
+			}
+			c_niort = { # 1558
+				color={ 57 129 42 }
+				color2={ 255 255 255 }
+				
+				b_niort_2 = {
+				}
+				b_bressuire = {
+				}
+				b_parthenay = {
+				}
+			}
+			c_poitiers = { # 202
+				color={ 208 32 192 }
+				color2={ 255 255 255 }
+				
+				b_poiters = {
+				}
+				b_chatellerault = {
+				}
+				b_thouars = {
+				}
+				b_chauvigny = {
+				}
+			}
+			c_saintes = { # 201
 				color={ 208 160 64 }
 				color2={ 255 255 255 }
 				
-				b_la_rochelle = {
-				}
-				b_rochefort = {
-				}
-				b_niort_2 = {
-				}
-				b_saintes = {
+				b_niort = {
 				}
 				b_royan = {
 				}
-			}
-		}
-		d_uzes = {
-			color={ 212 160 20 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1585 } }
-				}
-			}
-			capital = 1585 # c_gard
-			
-			c_gard = { # 1585
-				color={ 222 150 25 }
-				color2={ 255 255 255 }
-				
-				b_gard = {
-				}
-				b_gard_2 = {
-				}
-				b_gard_3 = {
-				}
-			}
-		}
-		d_xxx = {
-			color={ 230 202 91 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 187 province_id = 188 province_id = 1587 } }
-				}
-			}
-			capital = 187 # c_aurillac
-			
-			c_aurillac = { # 187
-				color={ 240 192 96 }
-				color2={ 255 255 255 }
-				
-				b_aurillac = {
-				}
-				b_villefranche_de_rouerge = {
-				}
-				b_decazeville = {
-				}
-				b_mende = {
-				}
-			}
-			c_ayen = { # 1587
-				color={ 79 26 128 }
-				color2={ 255 255 255 }
-				
-				b_ayen = {
-				}
-				b_ayen_2 = {
-				}
-				b_ayen_3 = {
-				}
-			}
-			c_cahors = { # 188
-				color={ 48 224 0 }
-				color2={ 255 255 255 }
-				
-				b_cahors = {
-				}
-				b_gourdan = {
-				}
-				b_caussade = {
+				b_saintes = {
 				}
 			}
 		}
@@ -4563,6 +4702,7 @@ e_france = {
 		capital = 220 # c_brest
 		culture = breton
 		frankish=Bretagne
+		breton=Breizh
 		
 		d_brittany = {
 			color={ 198 234 123 }
@@ -4576,6 +4716,7 @@ e_france = {
 			}
 			capital = 220 # c_brest
 			frankish=Bretagne
+			breton=Breizh
 			
 			c_brest = { # 220
 				color={ 208 224 128 }
@@ -4649,45 +4790,51 @@ e_france = {
 		}
 	}
 	k_burgundy = {
-		color={ 210 158 81 }
+		color={ 19 222 208 }
 		color2={ 255 255 255 }
 		
-		capital = 208 # c_dijon
-		culture = frankish
+		capital = 215 # c_marseille
+		culture = meridional
 		german=Burgund
 		frankish=Bourgogne
+		italian=Borgogna
 		
-		d_burgundy = {
-			color={ 230 138 91 }
+		d_provence = {
+			color={ 39 202 218 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 203 province_id = 207 province_id = 208 province_id = 210 } }
+					any_demesne_province = { OR = { province_id = 213 province_id = 215 province_id = 216 } }
 				}
 			}
-			capital = 208 # c_dijon
-			german=Burgund
-			frankish=Bourgogne
+			capital = 215 # c_marseille
+			italian=Provenza
 			
-			c_dijon = { # 208
-				color={ 240 128 96 }
+			c_marseille = { # 215
+				color={ 49 192 223 }
 				color2={ 255 255 255 }
+				italian=Marsiglia
 				
-				b_dijon = {
+				b_marseille = {
 				}
-				b_genlis = {
+				b_martigues = {
 				}
-				b_beaune = {
+				b_aix_en_provence = {
 				}
-				b_montbard = {
+				b_arles = {
+				}
+				b_marignane = {
 				}
 			}
-			c_ain = { # 203
-				color={ 176 64 96 }
+			c_digne = { # 213
+				color={ 176 64 224 }
 				color2={ 255 255 255 }
+				italian=Digna
 				
+				b_digne_les_bains = {
+				}
 				b_st_etienne = {
 				}
 				b_firminy = {
@@ -4699,9 +4846,68 @@ e_france = {
 				b_rive_de_gier = {
 				}
 			}
+			c_toulon = { # 216
+				color={ 48 64 224 }
+				color2={ 255 255 255 }
+				italian=Tolone
+				
+				b_toulon = {
+				}
+				b_hyeres = {
+				}
+				b_la_seyne_sur_mer = {
+				}
+				b_la_ciotat = {
+				}
+				b_aubagne = {
+				}
+			}
+		}
+		d_burgundy = {
+			color={ 230 138 91 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 207 province_id = 208 province_id = 210 province_id = 1609 } }
+				}
+			}
+			capital = 208 # c_dijon
+			german=Burgund
+			frankish=Bourgogne
+			italian=Borgogna
+			
+			c_dijon = { # 208
+				color={ 240 128 96 }
+				color2={ 255 255 255 }
+				italian=Digione
+				
+				b_dijon = {
+				}
+				b_genlis = {
+				}
+				b_beaune = {
+				}
+				b_montbard = {
+				}
+			}
+			c_ain = { # 1609
+				color={ 176 64 96 }
+				color2={ 255 255 255 }
+				italian=Idano
+				
+				b_bourg_en_bresse = {
+				}
+				b_ain = {
+				}
+				b_ain_2 = {
+				}
+			}
 			c_auxerre = { # 207
 				color={ 112 0 224 }
 				color2={ 255 255 255 }
+				italian=Ausserra
 				
 				b_auxerre = {
 				}
@@ -4715,6 +4921,7 @@ e_france = {
 			c_macon = { # 210
 				color={ 109 120 150 }
 				color2={ 255 255 255 }
+				italian=Macone
 				
 				b_macon = {
 				}
@@ -4727,29 +4934,42 @@ e_france = {
 			}
 		}
 		d_dauphine = {
-			color={ 58 182 101 }
+			color={ 54 119 77 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 204 province_id = 206 } }
+					any_demesne_province = { OR = { province_id = 203 province_id = 204 province_id = 206 } }
 				}
 			}
 			capital = 204 # c_grenoble
+			italian=Delfinato
 			
 			c_grenoble = { # 204
-				color={ 48 192 96 }
+				color={ 44 129 72 }
 				color2={ 255 255 255 }
+				italian=Granopoli
 				
 				b_grenoble = {
 				}
 				b_briancon = {
 				}
 			}
+			c_haute_alpes = { # 203
+				color={ 48 192 96 }
+				color2={ 255 255 255 }
+				italian=Gapo
+				
+				b_gap = {
+				}
+				b_haute_alpes = {
+				}
+			}
 			c_valence = { # 206
 				color={ 112 64 96 }
 				color2={ 255 255 255 }
+				italian=Valenza
 				
 				b_valence = {
 				}
@@ -4772,10 +4992,12 @@ e_france = {
 				}
 			}
 			capital = 166 # c_besancon
+			italian="Franca Contea"
 			
 			c_besancon = { # 166
 				color={ 240 0 96 }
 				color2={ 255 255 255 }
+				italian=Besanzone
 				
 				b_besancon = {
 				}
@@ -4786,9 +5008,10 @@ e_france = {
 				b_lure = {
 				}
 			}
-			c_lons = { # 209
+			c_jura = { # 209
 				color={ 112 128 96 }
 				color2={ 255 255 255 }
+				italian=Giura
 				
 				b_lons_le_saunier = {
 				}
@@ -4798,7 +5021,7 @@ e_france = {
 				}
 			}
 		}
-		d_lyonnaise = {
+		d_lyonnais = {
 			color={ 229 74 91 }
 			color2={ 255 255 255 }
 			
@@ -4813,6 +5036,7 @@ e_france = {
 			c_lyon = { # 205
 				color={ 239 64 96 }
 				color2={ 255 255 255 }
+				italian=Lione
 				
 				b_lyon = {
 				}
@@ -4827,82 +5051,6 @@ e_france = {
 				b_meyzieu = {
 				}
 				b_st_priest = {
-				}
-			}
-		}
-		d_provence = {
-			color={ 166 202 219 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 212 province_id = 213 province_id = 214 province_id = 215 province_id = 216 } }
-				}
-			}
-			capital = 212 # c_avignon
-			
-			c_avignon = { # 212
-				color={ 176 192 224 }
-				color2={ 255 255 255 }
-				
-				b_avignon = {
-				}
-				b_nimes = {
-				}
-				b_cavaillon = {
-				}
-			}
-			c_digne = { # 213
-				color={ 176 64 224 }
-				color2={ 255 255 255 }
-				
-				b_digne_les_bains = {
-				}
-			}
-			c_frejus = { # 214
-				color={ 176 192 96 }
-				color2={ 255 255 255 }
-				
-				b_frejus = {
-				}
-				b_st_raphael = {
-				}
-				b_draguignan = {
-				}
-				b_ste_maxime = {
-				}
-				b_mandeilieu_la_napoule = {
-				}
-			}
-			c_marseille = { # 215
-				color={ 49 192 223 }
-				color2={ 255 255 255 }
-				
-				b_marseille = {
-				}
-				b_martigues = {
-				}
-				b_aix_en_provence = {
-				}
-				b_arles = {
-				}
-				b_marignane = {
-				}
-			}
-			c_toulon = { # 216
-				color={ 48 64 224 }
-				color2={ 255 255 255 }
-				
-				b_toulon = {
-				}
-				b_hyeres = {
-				}
-				b_la_seyne_sur_mer = {
-				}
-				b_la_ciotat = {
-				}
-				b_aubagne = {
 				}
 			}
 		}
@@ -4921,7 +5069,7 @@ e_france = {
 			c_chambery = { # 218
 				color={ 208 0 224 }
 				color2={ 255 255 255 }
-				italian=Ciamberì
+				italian=Sciamberì
 				
 				b_chambery_les_bains = {
 				}
@@ -4932,11 +5080,12 @@ e_france = {
 				b_belley = {
 				}
 			}
-			c_annency = { # 217
+			c_annecy = { # 217
 				color={ 107 75 164 }
 				color2={ 255 255 255 }
+				italian=Anessi
 				
-				b_annency = {
+				b_annecy = {
 				}
 				b_annemasse = {
 				}
@@ -4957,6 +5106,31 @@ e_france = {
 				b_monaco = {
 				}
 				b_grasse = {
+				}
+			}
+		}
+		d_venaissin = {
+			color={ 126 12 161 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 212 } }
+				}
+			}
+			capital = 212 # c_avignon
+			
+			c_avignon = { # 212
+				color={ 116 22 156 }
+				color2={ 255 255 255 }
+				italian=Avignone
+				
+				b_avignon = {
+				}
+				b_nimes = {
+				}
+				b_cavaillon = {
 				}
 			}
 		}
@@ -5029,7 +5203,10 @@ e_germany = {
 			c_prignitz = { # 227
 				color={ 97 192 160 }
 				color2={ 255 255 255 }
+				polish=Przestawilk
 				
+				b_pritzwalk = {
+				}
 				b_wittenberge = {
 				}
 				b_perleberg = {
@@ -5124,7 +5301,65 @@ e_germany = {
 				}
 			}
 		}
-		d_ostpreussen = {
+		d_pommern = {
+			color={ 35 164 30 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 243 province_id = 244 province_id = 245 } }
+				}
+			}
+			capital = 243 # c_stettin
+			polish=Pomorze
+			
+			c_stettin = { # 243
+				color={ 25 174 25 }
+				color2={ 255 255 255 }
+				polish=Szczecin
+				
+				b_stettin = {
+				}
+				b_wolin = {
+				}
+				b_police = {
+				}
+				b_goleniow = {
+				}
+				b_gryfino = {
+				}
+			}
+			c_koeslin = { # 245
+				color={ 128 1 160 }
+				color2={ 255 255 255 }
+				polish=Koszalin
+				
+				b_koeslin = {
+				}
+				b_ustka = {
+				}
+				b_slupsk = {
+				}
+				b_slawno = {
+				}
+			}
+			c_kolberg = { # 244
+				color={ 160 192 32 }
+				color2={ 255 255 255 }
+				polish=Kolobrzeg
+				
+				b_kolberg = {
+				}
+				b_bialogard = {
+				}
+				b_karlino = {
+				}
+				b_swidwin = {
+				}
+			}
+		}
+		d_prussia = {
 			color={ 75 23 165 }
 			color2={ 255 255 255 }
 			
@@ -5135,6 +5370,7 @@ e_germany = {
 				}
 			}
 			capital = 237 # c_koenigsberg
+			german=Ostpreußen
 			
 			c_koenigsberg = { # 237
 				color={ 65 33 160 }
@@ -5234,64 +5470,6 @@ e_germany = {
 				}
 			}
 		}
-		d_pommern = {
-			color={ 35 164 30 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 243 province_id = 244 province_id = 245 } }
-				}
-			}
-			capital = 243 # c_stettin
-			polish=Pomorze
-			
-			c_stettin = { # 243
-				color={ 25 174 25 }
-				color2={ 255 255 255 }
-				polish=Szczecin
-				
-				b_stettin = {
-				}
-				b_wolin = {
-				}
-				b_police = {
-				}
-				b_goleniow = {
-				}
-				b_gryfino = {
-				}
-			}
-			c_koeslin = { # 245
-				color={ 128 1 160 }
-				color2={ 255 255 255 }
-				polish=Koszalin
-				
-				b_koeslin = {
-				}
-				b_ustka = {
-				}
-				b_slupsk = {
-				}
-				b_slawno = {
-				}
-			}
-			c_kolberg = { # 244
-				color={ 160 192 32 }
-				color2={ 255 255 255 }
-				polish=Kolobrzeg
-				
-				b_kolberg = {
-				}
-				b_bialogard = {
-				}
-				b_karlino = {
-				}
-				b_swidwin = {
-				}
-			}
-		}
 		d_silesia = {
 			color={ 120 87 132 }
 			color2={ 255 255 255 }
@@ -5384,6 +5562,7 @@ e_germany = {
 			c_stralsund = { # 235
 				color={ 86 116 82 }
 				color2={ 255 255 255 }
+				polish=Strzalów
 				
 				b_stralsund = {
 				}
@@ -5403,6 +5582,7 @@ e_germany = {
 			c_greifswald = { # 236
 				color={ 160 65 33 }
 				color2={ 255 255 255 }
+				polish=Gryfia
 				
 				b_greifswald = {
 				}
@@ -5833,7 +6013,7 @@ e_germany = {
 		culture = german
 		german=Sachsen
 		
-		d_sachsen = {
+		d_saxony = {
 			color={ 131 73 109 }
 			color2={ 255 255 255 }
 			
@@ -5844,6 +6024,7 @@ e_germany = {
 				}
 			}
 			capital = 260 # c_dresden
+			german=Sachsen
 			
 			c_dresden = { # 260
 				color={ 121 83 104 }
@@ -5959,6 +6140,7 @@ e_germany = {
 			c_dessau = { # 230
 				color={ 138 68 140 }
 				color2={ 255 255 255 }
+				polish=Desawa
 				
 				b_dessau = {
 				}
@@ -6144,7 +6326,7 @@ e_germany = {
 				}
 				b_bad_oldesloe = {
 				}
-				b_neuestadt = {
+				b_neustadt_2 = {
 				}
 				b_segeburg = {
 				}
@@ -6264,7 +6446,7 @@ e_germany = {
 				}
 				b_vaihingen = {
 				}
-				b_oehringen = {
+				b_ohringen = {
 				}
 				b_crailsheim = {
 				}
@@ -6411,7 +6593,7 @@ e_germany = {
 				}
 				b_villingen_schwenningen = {
 				}
-				b_ueberlingen = {
+				b_uberlingen = {
 				}
 			}
 			c_pfalz = { # 314
@@ -7078,7 +7260,7 @@ e_greece = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 347 province_id = 348 province_id = 349 province_id = 350 province_id = 351 province_id = 352 } }
+					any_demesne_province = { OR = { province_id = 347 province_id = 348 province_id = 349 province_id = 352 } }
 				}
 			}
 			capital = 347 # c_salonika
@@ -7102,17 +7284,6 @@ e_greece = {
 				b_servia = {
 				}
 				b_servia_2 = {
-				}
-			}
-			c_alexandroupoli = { # 351
-				color={ 240 32 32 }
-				color2={ 255 255 255 }
-				
-				b_alexandroupoli = {
-				}
-				b_orestiada = {
-				}
-				b_didimoticho = {
 				}
 			}
 			c_edessa = { # 352
@@ -7150,17 +7321,6 @@ e_greece = {
 				b_ormilia = {
 				}
 				b_kassandrino = {
-				}
-			}
-			c_xanthi = { # 350
-				color={ 97 129 210 }
-				color2={ 255 255 255 }
-				
-				b_xanthi = {
-				}
-				b_komotini = {
-				}
-				b_echinos = {
 				}
 			}
 		}
@@ -7476,6 +7636,48 @@ e_greece = {
 				b_kozani = {
 				}
 				b_ptolemaida = {
+				}
+			}
+		}
+		d_western_thrace = {
+			color={ 87 139 205 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 350 province_id = 351 } }
+				}
+			}
+			capital = 350 # c_xanthi
+			greek="Dytikí Thráki"
+			turkish="Bati Trakya"
+			bulgarian="Zapadna Trakiya"
+			
+			c_xanthi = { # 350
+				color={ 97 129 210 }
+				color2={ 255 255 255 }
+				turkish=?skeçe
+				bulgarian=Ksanti
+				
+				b_xanthi = {
+				}
+				b_komotini = {
+				}
+				b_echinos = {
+				}
+			}
+			c_evros = { # 351
+				color={ 240 32 32 }
+				color2={ 255 255 255 }
+				turkish=Dedeagaç
+				bulgarian=Dedeagach
+				
+				b_alexandroupoli = {
+				}
+				b_orestiada = {
+				}
+				b_didimoticho = {
 				}
 			}
 		}
@@ -10193,6 +10395,7 @@ e_iran = {
 		
 		capital = 811 # c_dushanbe
 		culture = tajik
+		tajik=Toçikiston
 		
 		d_tajikistan = {
 			color={ 186 134 37 }
@@ -10205,6 +10408,7 @@ e_iran = {
 				}
 			}
 			capital = 811 # c_dushanbe
+			tajik=Toçikiston
 			
 			c_dushanbe = { # 811
 				color={ 176 144 32 }
@@ -11413,7 +11617,7 @@ e_jugoslavija = {
 			}
 		}
 	}
-	k_bosna_i_hercegovina = {
+	k_bosnia = {
 		color={ 51 190 145 }
 		color2={ 255 255 255 }
 		
@@ -11673,7 +11877,7 @@ e_jugoslavija = {
 				color2={ 255 255 255 }
 				german=Karlstadt
 				italian=Carlostadio
-				hungarian=Károlyváros
+				hungarian=Modrus-Fiume
 				
 				b_karlovac = {
 				}
@@ -11689,6 +11893,7 @@ e_jugoslavija = {
 				color2={ 255 255 255 }
 				german=Zengg
 				italian=Segna
+				hungarian=Lika-Kravaba
 				
 				b_senj = {
 				}
@@ -11777,6 +11982,7 @@ e_jugoslavija = {
 				color2={ 255 255 255 }
 				german=Zara
 				italian=Zara
+				hungarian=Zára
 				
 				b_zadar = {
 				}
@@ -11822,6 +12028,7 @@ e_jugoslavija = {
 				color={ 176 97 192 }
 				color2={ 255 255 255 }
 				croatian=Pula
+				hungarian=Póla
 				
 				b_pola = {
 				}
@@ -11842,10 +12049,12 @@ e_jugoslavija = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1063 province_id = 1064 province_id = 1065 province_id = 1066 } }
+					any_demesne_province = { OR = { province_id = 916 province_id = 1063 province_id = 1064 province_id = 1065 province_id = 1066 } }
 				}
 			}
 			capital = 1063 # c_bjelovar
+			croatian=Slavonija
+			serbian=Slavonija
 			
 			c_bjelovar = { # 1063
 				color={ 81 160 33 }
@@ -11861,19 +12070,38 @@ e_jugoslavija = {
 				b_pitomaca = {
 				}
 			}
+			c_baranja = { # 916
+				color={ 198 123 20 }
+				color2={ 255 255 255 }
+				german=Branau
+				hungarian=Baranya
+				
+				b_beli_manastir = {
+				}
+				b_darda = {
+				}
+				b_knezevi_vinogradi = {
+				}
+			}
 			c_osijek = { # 1065
 				color={ 144 97 33 }
 				color2={ 255 255 255 }
-				german=Esseg
-				hungarian=Eszék
+				german=Virovititz
+				hungarian=Verõcze
 				
 				b_osijek = {
 				}
+				b_?akovo = {
+				}
+				b_nasice = {
+				}
 				b_valpovo = {
 				}
-				b_cepin = {
+				b_belisce = {
 				}
 				b_donji_miholjac = {
+				}
+				b_cepin = {
 				}
 			}
 			c_pozega = { # 1064
@@ -13242,6 +13470,7 @@ e_netherlands = {
 				color={ 1 128 97 }
 				color2={ 255 255 255 }
 				german=Brüssel
+				frankish=Bruxelles
 				
 				b_brussel = {
 				}
@@ -14727,6 +14956,49 @@ e_poland_lithuania = {
 				}
 			}
 		}
+		d_holy_cross = {
+			color={ 106 246 228 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 551 province_id = 552 } }
+				}
+			}
+			capital = 551 # c_radom
+			german=Heiligkreuz
+			polish=Swietokrzyskie
+			
+			c_radom = { # 551
+				color={ 96 0 223 }
+				color2={ 255 255 255 }
+				
+				b_radom = {
+				}
+				b_pionki = {
+				}
+				b_kozienice = {
+				}
+				b_lipsko = {
+				}
+				b_przysucha = {
+				}
+			}
+			c_kielce = { # 552
+				color={ 208 160 224 }
+				color2={ 255 255 255 }
+				
+				b_kielce = {
+				}
+				b_starachowice = {
+				}
+				b_jedrejow = {
+				}
+				b_staszow = {
+				}
+			}
+		}
 		d_lodz = {
 			color={ 77 136 223 }
 			color2={ 255 255 255 }
@@ -14818,6 +15090,7 @@ e_poland_lithuania = {
 			c_siedlce = { # 540
 				color={ 64 223 32 }
 				color2={ 255 255 255 }
+				russian=Sedltse
 				
 				b_siedlce = {
 				}
@@ -14862,6 +15135,7 @@ e_poland_lithuania = {
 			c_bialystok = { # 541
 				color={ 192 97 33 }
 				color2={ 255 255 255 }
+				lt=Balstoge
 				
 				b_bialystok = {
 				}
@@ -14882,47 +15156,6 @@ e_poland_lithuania = {
 				b_augustow = {
 				}
 				b_sejny = {
-				}
-			}
-		}
-		d_swietokrzyskie = {
-			color={ 106 246 228 }
-			color2={ 255 255 255 }
-			
-			allow = {
-				OR = {
-					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 551 province_id = 552 } }
-				}
-			}
-			capital = 551 # c_radom
-			
-			c_radom = { # 551
-				color={ 96 0 223 }
-				color2={ 255 255 255 }
-				
-				b_radom = {
-				}
-				b_pionki = {
-				}
-				b_kozienice = {
-				}
-				b_lipsko = {
-				}
-				b_przysucha = {
-				}
-			}
-			c_kielce = { # 552
-				color={ 208 160 224 }
-				color2={ 255 255 255 }
-				
-				b_kielce = {
-				}
-				b_starachowice = {
-				}
-				b_jedrejow = {
-				}
-				b_staszow = {
 				}
 			}
 		}
@@ -16256,6 +16489,7 @@ e_romania = {
 		capital = 620 # c_bucuresti
 		culture = romanian
 		german=Walachei
+		romanian=Româneasc?
 		
 		d_muntenia = {
 			color={ 166 234 27 }
@@ -16269,6 +16503,7 @@ e_romania = {
 			}
 			capital = 620 # c_bucuresti
 			german=Muntenien
+			hungarian=Munténia
 			
 			c_bucuresti = { # 620
 				color={ 176 224 32 }
@@ -16322,7 +16557,7 @@ e_romania = {
 				color2={ 255 255 255 }
 				german=Tergowiste
 				
-				b_tirgoviste = {
+				b_targoviste = {
 				}
 				b_moreni = {
 				}
@@ -16408,7 +16643,7 @@ e_romania = {
 				color={ 224 33 33 }
 				color2={ 255 255 255 }
 				
-				b_tirgu_jiu = {
+				b_targu_jiu = {
 				}
 				b_turnu_severin = {
 				}
@@ -16444,7 +16679,7 @@ e_romania = {
 				german=Kischinau
 				russian=Kishinyov
 				
-				b_chisinaus = {
+				b_chisinau = {
 				}
 				b_tighina = {
 				}
@@ -16632,6 +16867,8 @@ e_romania = {
 		
 		capital = 628 # c_cluj
 		culture = romanian
+		german=Siebenbürgen
+		hungarian=Erdély
 		
 		d_western_transylvania = {
 			color={ 198 234 155 }
@@ -16669,7 +16906,7 @@ e_romania = {
 				
 				b_alba_iulia = {
 				}
-				b_auid = {
+				b_aiud = {
 				}
 				b_zlatna = {
 				}
@@ -16678,13 +16915,15 @@ e_romania = {
 				b_varfurile = {
 				}
 			}
-			c_deva = { # 629
+			c_hunedoara = { # 629
 				color={ 208 224 33 }
 				color2={ 255 255 255 }
+				german=Eisenmarkt
+				hungarian=Hunyad
 				
 				b_deva = {
 				}
-				b_honedora = {
+				b_hunedoara = {
 				}
 				b_orastie = {
 				}
@@ -16702,13 +16941,14 @@ e_romania = {
 					any_demesne_province = { OR = { province_id = 635 province_id = 636 } }
 				}
 			}
-			capital = 635 # c_temesvar
+			capital = 635 # c_timis
 			hungarian=Bánság
 			
-			c_temesvar = { # 635
+			c_timis = { # 635
 				color={ 144 224 33 }
 				color2={ 255 255 255 }
-				german=Temeschburg
+				german=Temesch
+				hungarian=Temes
 				
 				b_temesvar = {
 				}
@@ -16743,7 +16983,7 @@ e_romania = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 637 province_id = 638 province_id = 639 } }
+					any_demesne_province = { OR = { province_id = 637 province_id = 638 province_id = 639 province_id = 1592 } }
 				}
 			}
 			capital = 637 # c_oradea
@@ -16757,13 +16997,30 @@ e_romania = {
 				
 				b_oradea = {
 				}
-				b_arad = {
-				}
 				b_alesd = {
 				}
 				b_lipova = {
 				}
 				b_gurahot = {
+				}
+				b_oradea_2 = {
+				}
+			}
+			c_arad = { # 1592
+				color={ 109 175 19 }
+				color2={ 255 255 255 }
+				
+				b_arad = {
+				}
+				b_pecica = {
+				}
+				b_santana = {
+				}
+				b_vladimirescu = {
+				}
+				b_lipova_2 = {
+				}
+				b_ineu = {
 				}
 			}
 			c_bistrita = { # 639
@@ -16832,15 +17089,15 @@ e_romania = {
 				german=Hermannstadt
 				romanian=Sibiu
 				
-				b_nagyszeben = {
-				}
 				b_sibiu = {
 				}
-				b_baj = {
+				b_blaj = {
 				}
 				b_medias = {
 				}
 				b_sighisoara = {
+				}
+				b_agnita = {
 				}
 			}
 			c_targu_mures = { # 633
@@ -16866,7 +17123,7 @@ e_romania = {
 				
 				b_udvarhely = {
 				}
-				b_miercurea_cuic = {
+				b_miercurea_ciuc = {
 				}
 				b_gheorgheni = {
 				}
@@ -17550,6 +17807,7 @@ e_russia = {
 			c_viipuri = { # 692
 				color={ 32 128 1 }
 				color2={ 255 255 255 }
+				russian=Vyborg
 				
 				b_viipuri = {
 				}
@@ -18684,6 +18942,7 @@ e_russia = {
 			c_qazan = { # 741
 				color={ 223 160 160 }
 				color2={ 255 255 255 }
+				russian=Kazan
 				
 				b_qazan = {
 				}
@@ -18697,6 +18956,7 @@ e_russia = {
 			c_cistay = { # 742
 				color={ 160 96 32 }
 				color2={ 255 255 255 }
+				russian=Chistopol
 				
 				b_cistay = {
 				}
@@ -18895,6 +19155,7 @@ e_scandinavia = {
 		
 		capital = 849 # c_helsinki
 		culture = finnish
+		russian=Finlyandia
 		
 		d_helsinki = {
 			color={ 214 202 219 }
@@ -18954,7 +19215,7 @@ e_scandinavia = {
 			c_mikkeli = { # 852
 				color={ 64 192 64 }
 				color2={ 255 255 255 }
-				swedish="S:t Michel"
+				swedish="St Michel"
 				
 				b_mikkeli = {
 				}
@@ -19394,11 +19655,11 @@ e_scandinavia = {
 				b_hagfors = {
 				}
 			}
-			c_oerebro = { # 880
+			c_orebro = { # 880
 				color={ 248 228 0 }
 				color2={ 255 255 255 }
 				
-				b_oerebro = {
+				b_orebro = {
 				}
 				b_kumla = {
 				}
@@ -19407,7 +19668,7 @@ e_scandinavia = {
 				b_lindesburg = {
 				}
 			}
-			c_oestergoetland = { # 879
+			c_ostergoetland = { # 879
 				color={ 192 192 224 }
 				color2={ 255 255 255 }
 				
@@ -19584,11 +19845,11 @@ e_scandinavia = {
 				b_lulea = {
 				}
 			}
-			c_oestersund = { # 884
+			c_ostersund = { # 884
 				color={ 65 192 192 }
 				color2={ 255 255 255 }
 				
-				b_oestersund = {
+				b_ostersund = {
 				}
 				b_braecke = {
 				}
@@ -21007,6 +21268,7 @@ e_turan = {
 		
 		capital = 807 # c_ahal
 		culture = turkmen
+		turkmen=Türkmenistan
 		
 		d_turkmenistan = {
 			color={ 181 185 155 }
@@ -21019,6 +21281,7 @@ e_turan = {
 				}
 			}
 			capital = 807 # c_ahal
+			turkmen=Türkmenistan
 			
 			c_ahal = { # 807
 				color={ 191 175 160 }
@@ -21088,6 +21351,7 @@ e_turkey = {
 				}
 			}
 			capital = 497 # c_constantinople
+			turkish=Marmara
 			
 			c_constantinople = { # 497
 				color={ 240 160 32 }
@@ -21158,12 +21422,12 @@ e_turkey = {
 				b_igneada = {
 				}
 			}
-			c_ueskuedar = { # 995
+			c_uskuedar = { # 995
 				color={ 48 160 96 }
 				color2={ 255 255 255 }
 				greek=Ouskountár
 				
-				b_ueskuedar = {
+				b_uskuedar = {
 				}
 				b_kartel = {
 				}
@@ -21171,7 +21435,7 @@ e_turkey = {
 				}
 				b_beykoz = {
 				}
-				b_uskuedar = {
+				b_uskuedar_2 = {
 				}
 				b_maltepe = {
 				}
@@ -21317,7 +21581,7 @@ e_turkey = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1001 province_id = 1002 province_id = 1003 province_id = 1004 province_id = 1005 province_id = 1006 } }
+					any_demesne_province = { OR = { province_id = 1001 province_id = 1002 province_id = 1003 province_id = 1004 province_id = 1006 } }
 				}
 			}
 			capital = 1001 # c_izmir
@@ -21394,6 +21658,34 @@ e_turkey = {
 				b_akhisar = {
 				}
 				b_alasehir = {
+				}
+			}
+		}
+		d_cibyrrhaeot = {
+			color={ 234 6 37 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1005 province_id = 1009 } }
+				}
+			}
+			capital = 1009 # c_antalya
+			
+			c_antalya = { # 1009
+				color={ 224 16 32 }
+				color2={ 255 255 255 }
+				
+				b_antalya = {
+				}
+				b_manavgat = {
+				}
+				b_alanya = {
+				}
+				b_serik = {
+				}
+				b_elmalia = {
 				}
 			}
 			c_mugla = { # 1005
@@ -21660,7 +21952,7 @@ e_turkey = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1007 province_id = 1008 province_id = 1009 province_id = 1010 } }
+					any_demesne_province = { OR = { province_id = 1007 province_id = 1008 province_id = 1010 } }
 				}
 			}
 			capital = 1007 # c_konya
@@ -21677,21 +21969,6 @@ e_turkey = {
 				b_eregli = {
 				}
 				b_aksaray = {
-				}
-			}
-			c_antalya = { # 1009
-				color={ 224 16 32 }
-				color2={ 255 255 255 }
-				
-				b_antalya = {
-				}
-				b_manavgat = {
-				}
-				b_alanya = {
-				}
-				b_serik = {
-				}
-				b_elmalia = {
 				}
 			}
 			c_burdur = { # 1008
@@ -21743,7 +22020,7 @@ e_turkey = {
 				}
 				b_fatsa = {
 				}
-				b_uenye = {
+				b_unye = {
 				}
 				b_dereli = {
 				}
@@ -21860,6 +22137,9 @@ k_albania = {
 	
 	capital = 1089 # c_tirana
 	culture = albanian
+	croatian=Albanija
+	serbian=Albanija
+	sq=Shqipërise
 	
 	d_tirana = {
 		color={ 198 170 92 }
@@ -21892,7 +22172,10 @@ k_albania = {
 			color={ 199 113 224 }
 			color2={ 255 255 255 }
 			greek=Dyrrachion
+			croatian=Dra?
+			slovene=Dra?
 			italian=Durazzo
+			serbian=Dra?
 			
 			b_durres = {
 			}
@@ -21909,7 +22192,9 @@ k_albania = {
 			color={ 81 160 97 }
 			color2={ 255 255 255 }
 			greek=Scodra
+			croatian=Skadar
 			italian=Scutari
+			serbian=Skadar
 			
 			b_shkoder = {
 			}
@@ -21937,7 +22222,9 @@ k_albania = {
 			color={ 113 192 224 }
 			color2={ 255 255 255 }
 			greek=Avlóna
+			croatian=Valona
 			italian=Valona
+			serbian=Valona
 			
 			b_vlore = {
 			}
@@ -21952,7 +22239,9 @@ k_albania = {
 			color={ 123 224 113 }
 			color2={ 255 255 255 }
 			greek=Argyrókastro
+			croatian=?irokastra
 			italian=Argirocastro
+			serbian=?irokastra
 			
 			b_gjirokaster = {
 			}
@@ -22252,6 +22541,7 @@ k_bulgaria = {
 	
 	capital = 1094 # c_sofia
 	culture = bulgarian
+	bulgarian=Balgarija
 	
 	d_sofia = {
 		color={ 218 87 38 }
@@ -23638,6 +23928,7 @@ k_estonia = {
 			color={ 128 160 33 }
 			color2={ 255 255 255 }
 			german=Reval
+			russian=Reval
 			
 			b_tallin = {
 			}
@@ -23674,7 +23965,7 @@ k_estonia = {
 			b_kunda = {
 			}
 		}
-		c_oesel = { # 56
+		c_osel = { # 56
 			color={ 96 64 224 }
 			color2={ 255 255 255 }
 			ugricbaltic=Saaremaa

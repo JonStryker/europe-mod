@@ -414,12 +414,23 @@ e_mongol_empire = {
 	
 	short_name = yes
 	
-	capital = 903 # Samarkand
+	capital = 1457 # Kara-khorum
 	
-	# Always exists
 	landless = yes
 	
-#	tribe = yes
+	allow = {
+		always = no
+	}
+	
+	culture = mongol
+	religion = tengri_pagan
+}
+
+e_chagatai = {
+	color = { 200 200 200 }
+	color2 = { 0 250 250 }
+	
+	capital = 903 # Samarkand
 	
 	allow = {
 		always = no
@@ -1221,7 +1232,7 @@ d_sunni_cuman_company = {
 	
 	# Parent Religion 
 	religion = sunni
-	culture = cuman
+	culture = khazar
 	
 	mercenary = yes
 
@@ -1667,6 +1678,7 @@ d_catalan_company = {
 	# Hire Trigger
 	allow = {
 		religion_group = christian
+		year = 950
 	}
 	
 	# Parent Religion 
@@ -1897,6 +1909,7 @@ d_rus_company = {
 	
 	# Hire Trigger
 	allow = {
+		year = 950
 		OR = {
 			religion_group = pagan_group
 			religion_group = christian
@@ -2129,6 +2142,7 @@ d_catalan_band = {
 	# Hire Trigger
 	allow = {
 		religion_group = christian
+		year = 950
 	}
 	
 	# Parent Religion 
@@ -2163,6 +2177,12 @@ d_saxon_band = {
 	
 	# Hire Trigger
 	allow = {
+		OR = {
+			NOT = { year = 1100 }
+			any_independent_ruler = {
+				culture = saxon
+			}
+		}
 		religion_group = christian
 	}
 	
@@ -2226,6 +2246,7 @@ d_rus_band = {
 	
 	# Hire Trigger
 	allow = {
+		year = 950
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
@@ -2454,7 +2475,7 @@ d_scottish_band = {
 	
 	# Hire Trigger
 	allow = {
-		always = yes
+		year = 950
 	}
 	
 	# Parent Religion 
@@ -2912,7 +2933,6 @@ d_ghanan_band = {
 	mercenary_type = ghanan_band_composition
 }
 
-
 # TITULAR DUCHIES
 d_abbasid = {
 	color = { 19 180 16 }
@@ -2958,6 +2978,9 @@ d_braganza = {
 }
 d_butrinto = {
 	color = { 148 68 154 }
+}
+d_campania = {
+	color = { 226 204 228 }
 }
 d_catalonia = {
 	color = { 255 210 57 }
@@ -3013,6 +3036,21 @@ d_el-arish = {
 }
 d_erzerum = {
 	color = { 103 84 255 }
+}
+d_estonia = {
+	color = { 94 60 22 }
+	
+	capital	= 378 # Reval
+	
+	allow = {
+		always = no
+	}
+	
+#	tribe = yes
+	
+	culture = ugricbaltic
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
 }
 d_galatia = {
 	color = { 244 75 185 }
@@ -3121,6 +3159,9 @@ d_sami = {
 	foa = "HIGH_CHIEF_FOA"
 }
 
+d_krakow = {
+	color = { 253 129 129 }
+}
 d_laodikeia = {
 	color = { 163 52 125 }
 }
@@ -3137,6 +3178,9 @@ d_lettigalians = {
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 }
+d_luristan = {
+	color = { 77 114 183 }
+}
 d_lut = {
 	color = { 119 170 29 }
 }
@@ -3148,6 +3192,9 @@ d_mar = {
 }
 d_milano = {
 	color = { 252 238 227 }
+}
+d_minsk = {
+	color = { 175 44 44 }
 }
 
 d_muromians = {
@@ -3206,6 +3253,9 @@ d_pruthenians = {
 }
 d_qom = {
 	color = { 188 229 116 }
+}
+d_romagna = {
+	color = { 243 234 157 }
 }
 d_salamanca = {
 	color = { 251 229 34 }
@@ -3325,6 +3375,12 @@ d_meshcheras = {
 	title = "HIGH_CHIEF"
 	foa = "HIGH_CHIEF_FOA"
 }
+d_ural = {
+	color = { 208 178 78 }
+}
+d_varna = {
+	color = { 208 93 251 }
+}
 d_wielkopolska = {
 	color = { 252 144 144 }
 }
@@ -3354,9 +3410,264 @@ d_zara = {
 d_zaragoza = {
 	color = { 80 220 10 }
 }
+d_zemigalians = {
+	color = { 183 21 21 }
+	culture = lettigallish
+#	tribe = yes
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_lendians = { # aka Ledzianie or Lechs
+	color={ 245 163 176 }
+	color2={ 255 255 255 }
+	culture = polish
+#	tribe = yes
+	
+	capital = 527 # Krakowskie
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_kryvians = { # aka Krivichi
+	color = { 128 133 104 }
+	color2={ 255 255 255 }
+	
+	culture = russian
+#	tribe = yes
+	
+	capital = 419 # Polotsk
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_ilmenians = { # aka Ilmen Slavs
+	color = { 70 120 40 }
+	color2={ 255 255 255 }
+	
+	culture = russian
+#	tribe = yes
+	
+	capital = 414 # Novgorod
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_severians = { # aka Severiane
+	color = { 120 155 40 }
+	color2={ 255 255 255 }
+	
+	culture = russian
+#	tribe = yes
+	
+	capital = 567 # Novgorod Seversky
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_vyatichi = {
+	color={ 169 183 125 }
+	color2={ 255 255 255 }
+	
+	culture = russian
+#	tribe = yes
+	
+	capital = 570 # Tver
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_dregovichi = { 
+	color={ 100 100 20 }
+	color2={ 255 255 255 }
+	
+	culture = russian
+#	tribe = yes
+	
+	capital = 548 # Pinsk
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_radimichi = { 
+	color={ 110 136 68 }
+	color2={ 255 255 255 }
+	
+	culture = russian
+#	tribe = yes
+	
+	capital = 551 # Mstislavl
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_glomacze = { # Aka Dolomici
+	color={ 215 143 156 }
+	color2={ 255 255 255 }
+	
+	culture = pommeranian
+#	tribe = yes
+	
+	capital = 312 # Meissen
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_sorbs = {
+	color={ 170 205 110 }
+	color2={ 255 255 255 }
+	
+	culture = pommeranian
+#	tribe = yes
+	
+	capital = 364 # Luzycka
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
+
+d_obotrites = {
+	color={ 100 110 20 }
+	color2={ 255 255 255 }
+	
+	culture = pommeranian
+#	tribe = yes
+	
+	capital = 260 # Mecklenburg
+	
+	allow = {
+		always = no
+	}
+	
+	title = "HIGH_CHIEF"
+	foa = "HIGH_CHIEF_FOA"
+}
 
 # TITULAR KINGDOMS
 
+k_pechenegs = {
+	color = { 173 150 43 }
+	color2 = { 0 128 128 }
+	
+	capital = 543 # Oleshye
+	
+#	tribe = yes
+	culture = pecheneg
+	
+	allow = {
+		always = no
+	}
+}
+
+k_almohad = {
+	color = { 0 105 56 }
+}
+k_al-murabitids = {
+	color = { 10 105 56 }
+}
+
+k_beni_helal = {
+	color = { 128 163 56 }
+}
+k_fatimids = {
+	# OBSOLETE
+	color={ 10 140 4 }
+	color2={ 200 200 0 }
+#	capital	= 796 # Cairo
+	culture = egyptian_arabic
+	
+	allow = {
+		always = no
+	}
+}
+k_hammadid = {
+	color = { 149 180 17 }
+}
+k_kafsid = {
+	color = { 109 130 20 }
+}
+k_marinid = {
+	color = { 46 255 5 }
+}
+k_bosnia = {
+	color = { 16 125 74 }
+	culture = serbian
+}
+
+e_seljuk_turks = { # Seljuk Turks
+	color={ 99 168 74 }
+	
+	short_name = yes
+	
+	capital = 646 # Esfahan
+	culture = turkish
+	
+#	tribe = yes
+	
+#	landless = yes
+	
+	allow = {
+		always = no
+	}
+}
+k_zenata = {
+	color = { 0 71 189 }
+}
+k_zirid = {
+	color = { 90 195 49 }
+}
+k_ziyanids = {
+	color = { 5 76 194 }
+}
 k_avaria = {
 	color={ 250 120 90 }  # Only for the CoA
 	culture = avar
@@ -3555,7 +3866,7 @@ d_paulician = {
 	
 	# Regnal names
 	male_names = {
-		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Gabriel Dionysios Dositheos 
+		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos 
 		Eustathios Eustratios Euthymios Gabriel Gennadios Georgios Gerasimos Germanos Gregorios Ieremias 
 		Ignatios Ioakeim Ioannes Ioseph Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon 
 		Leontios Loukas Makarios Manuel Markos Matthaios Maximos Meletios Methodios Metrophanes Michael 
@@ -3590,7 +3901,7 @@ d_monothelite = {
 	
 	# Regnal names
 	male_names = {
-		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Gabriel Dionysios Dositheos 
+		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos 
 		Eustathios Eustratios Euthymios Gabriel Gennadios Georgios Gerasimos Germanos Gregorios Ieremias 
 		Ignatios Ioakeim Ioannes Ioseph Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon 
 		Leontios Loukas Makarios Manuel Markos Matthaios Maximos Meletios Methodios Metrophanes Michael 
@@ -3603,7 +3914,7 @@ d_fraticelli = {
 	color={ 198 249 255 }
 	color2={ 220 220 0 }
 	
-	capital = 367 # Rome
+	capital = 333 # Rome
 	
 	title = "POPE"
 	foa = "POPE_FOA"
@@ -3629,13 +3940,12 @@ d_fraticelli = {
 	
 	# Regnal names
 	male_names = {
-		Ioannes:21 Gregorius:16 Benedictus:15 Clemens:14 Innocentius:13 Leo:13 Pius:12 
-		Stephanus:9 Bonifacius:8 Urbanus:8 Alexander:7 Hadrianus:6 Paulus:6
-		Coelestinus:5 Nicolaus:5 Sixtus:5 Felix:3 Sergius:4 Anastasius:4 Honorius:4 Eugenius:4 Silvester:3 Victor:3
-		"Ioannes Paulus":2 Lucius:1 Callixtus:1 Martinus:1 Iulius:1 Pelagius:1 Adeodatus:1 Theodorus:1 Marinus:1 Agapetus:1 Damasus:1 Paschalis:2
-		Gelasius:1 Marcellus:1 Anacletus:1 Evaristus:1 Telesphorus:1 Hyginus:1 Anicetus:1 Marcus:1 Hilarius:1 
-		Simplicius:1 Symmachus:1 Hormisdas:1 Silverius:1 Vigilius:1 Sabinianus:1 Severinus:1 Vitalianus:1 Donus:1 Agatho:1
-		Conon:1 Sisinnius:1 Constantinus:1 Zacharias:1 Valentinus:1 Formosus:1 Romanus:1 Lando:1 Franciscus:1
+		John Gregory Benedict Clement Innocent Leo Pius Stephen Boniface Urban Alexander Adrian Paul
+		Celestine Martin Nicholas Sixtus Felix Sergius Anastasius Honorius Eugene Sylvester Victor
+		Lucius Callixtus Julius Pelagius Adeodatus Theodore Marinus Agapetus Damasus Paschal
+		Gelasius Marcellus "John Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
+		Simplicius Symmachus Hormisdas Silverius Vigilius Sabinian Severinus Vitalian Donus Agatho
+		Conon Sisinnius Constantine Zachary Valentine Formosus Romanus Lando
 	}
 }
 
@@ -3668,7 +3978,7 @@ d_iconoclast = {
 	
 	# Regnal names
 	male_names = {
-		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Gabriel Dionysios Dositheos 
+		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Dionysios Dositheos 
 		Eustathios Eustratios Euthymios Gabriel Gennadios Georgios Gerasimos Germanos Gregorios Ieremias 
 		Ignatios Ioakeim Ioannes Ioseph Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon 
 		Leontios Loukas Makarios Manuel Markos Matthaios Maximos Meletios Methodios Metrophanes Michael 
@@ -4007,14 +4317,19 @@ e_mexikha = {
 	religion = aztec
 }
 
-d_gotland = {
-	color={ 60 70 235 }
-	color2={ 255 255 255 }
-	
-	capital = 301 # Gotland
-	
-	dignity = 10
-}
+#d_hansa = {
+#	color={ 142 142 142 }
+#	color2={ 255 255 255 }
+#	
+#	allow = {
+#		always = no
+#	}
+#	
+#	capital = 262 # Lübeck
+#	
+#	dignity = 10
+#}
+
 
 d_socotra = {
 	color={ 142 255 85 }

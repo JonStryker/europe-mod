@@ -74,7 +74,7 @@
 100092685={ # Pfgf       Adolf                     bei Rhein                                (1300-1327)     - [OETTINGEN]
 	name="Adolf bei Rhein"
 	dynasty=0
-	religion=catholic culture=frankish
+	religion=catholic culture=german
 	1300.09.27={birth=yes}
 	1320.08.01={add_spouse=100012340}	# Irmgard von Oettingen
 	1327.01.29={death=yes}
@@ -172,68 +172,67 @@
 	dynasty=0
 	religion=catholic culture=pomeranian
 	1383.01.01={birth=yes}
-	1407.08.12={add_spouse=100010355}	# Katharina von Pommern
+	1407.08.12={add_spouse=100010355}	# Katharina Gryfita
 	1443.03.13={death=yes}
 }
 
 
 #wittel2
-# 	Rudolf I
-	# A2. Adolf
-		# B1. Ruprecht II
-			100007965={ # C3. Ruprecht III "Klem", Pfgf bei Rhein (1398-1410), German King (21.8.1400-1410), *Amberg 5.5.1352, +Schloß Landskron 18.5.1410; m.Amberg 27.6.1374 Elisabeth von Nürnberg (*1358 +26.7.1411)
-				name=Ruprecht
+#462739 = B1. Ruprecht II, Pfgf bei Rhein (1390-98) u.in der Oberpfalz 1329, *Amberg 12.5.1325, +Amberg 6.1.1398, bur Schönau; m.before X.1348 Beatrix of Sicily (*1326 +12.10.1365, bur Schönau)
+	100007965={ # C3. Ruprecht III "Klem", Pfgf bei Rhein (1398-1410), German King (21.8.1400-1410), *Amberg 5.5.1352, +Schloß Landskron 18.5.1410; m.Amberg 27.6.1374 Elisabeth von Nürnberg (*1358 +26.7.1411)
+		name=Ruprecht
+		dynasty=217
+		religion=catholic culture=german
+		father=462739	# Ruprecht v. Wittelsbach
+		1352.01.01={birth=yes}
+		1410.01.01={death=yes}
+	}
+		100007975={	# D5. Pfgf Stefan in Simmern und Zweibrücken 1410, in Veldenz u.Sponheim 1444, *23.6.1385, +Simmern 14.2.1459; m.Heidelberg 1410 Anna von Veldenz (*ca 1390, +Wachenheim 1439)
+			name=Stefan
+			dynasty=217
+			religion=catholic culture=german
+			father=100007965	# Ruprecht v. Wittelsbach
+			1385.01.01={birth=yes}
+			1410.06.13={add_spouse=100092068}	# GFN Anna von Geroldseck
+			1459.02.14={death=yes}  # Simmern
+		}
+			100007977={	# E1. Pfgf Friedrich I von Simern (1444-80), *19.11.1417, +Simmern 29.11.1480, bur Ravengiersburg; m.Lobith 1454 Margarete of Geldern (*1436 +Simmern 2.11.1486, bur Ravengiersburg)
+				name=Friedrich
 				dynasty=217
 				religion=catholic culture=german
-				father=462739	# Ruprecht v. Wittelsbach
-				1352.01.01={birth=yes}
-				1410.01.01={death=yes}
+				father=100007975	# Stefan v. Wittelsbach
+				mother=100092068	# GFN Anna von Geroldseck
+				1417.04.24={birth=yes}
+				1454.08.16={add_spouse=100091908}	# DSS Margarete von Egmond
+				1480.04.29={death=yes}  # Simmern
 			}
-				100007975={	# D5. Pfgf Stefan in Simmern und Zweibrücken 1410, in Veldenz u.Sponheim 1444, *23.6.1385, +Simmern 14.2.1459; m.Heidelberg 1410 Anna von Veldenz (*ca 1390, +Wachenheim 1439)
-					name=Stefan
+				100007978={	# F3. Pfgf Johann I von Simmern (1480-1509), *15.5.1459, +Starkenburg 27.1.1509, bur Simmern; m.1481 Gfn Johanna von Nassau-Saarbrücken (*1464 +1521, bur Simmern)
+					name=Johann
 					dynasty=217
 					religion=catholic culture=german
-					father=100007965	# Ruprecht v. Wittelsbach
-					1385.01.01={birth=yes}
-					1410.06.13={add_spouse=100092068}	# GFN Anna von Geroldseck
-					1459.02.14={death=yes}  # Simmern
+					father=100007977	# Friedrich v. Wittelsbach
+					mother=100091908	# DSS Margarete von Egmond
+					1459.05.15={birth=yes}
+					1481.09.29={add_spouse=100092745}	# GFN Johanna von Nassau-Saarbrücken
+					1509.01.17={death=yes}  # Starkenburg
 				}
-					100007976={	# 1a) Anna (b.1413, d.after 1468); m.by 10 Mar 1435 Vinzenz Gf von Mörs und Saarwerden (d.20 Apr 1499)
-						name=Anna
-						female=yes
-						dynasty=217
-						religion=catholic culture=german
-						father=100007975	# Stefan v. Wittelsbach
-						mother=100092068	# GFN Anna von Geroldseck
-						1413.01.01={birth=yes}
-						1469.01.01={death=yes}
-					}
-					100007977={	# 3a) Friedrich I Pfgf von Simern (24 Apr 1417-Simmern 29 Apr 1480); m.Lobith 16 Aug 1454 Dss Margarete von Egmond (1436-Simmern 2 Nov 1486)
-						name=Friedrich
-						dynasty=217
-						religion=catholic culture=german
-						father=100007975	# Stefan v. Wittelsbach
-						mother=100092068	# GFN Anna von Geroldseck
-						1417.04.24={birth=yes}
-						1454.08.16={add_spouse=100091908}	# DSS Margarete von Egmond
-						1480.04.29={death=yes}  # Simmern
-					}
-						100007978={	# 4b) Johann I Pfgf von Simmern (15 May 1459-Starkenburg 17 Jan 1509); m.29 Sep 1481 Johanna Gfn von Nassau-Saarbrücken (14 Apr 1464-7 May 1521)
-							name=Johann
-							dynasty=217
-							religion=catholic culture=german
-							father=100007977	# Friedrich v. Wittelsbach
-							mother=100091908	# DSS Margarete von Egmond
-							1459.05.15={birth=yes}
-							1481.09.29={add_spouse=100092745}	# GFN Johanna von Nassau-Saarbrücken
-							1509.01.17={death=yes}  # Starkenburg
-						}
-							# wittel3 -> G2. Pfgf Johann II von Simmern (1509-57), *Simmern 20.3.1492, +Simmern 18.5.1557; 1m: Trarbach 1508 Beatrix of Baden (*1492 +1535); 2m: Schloss Dhaun 17.8.1554 Gfn Marie Jakobine von Öttingen (*1525 +13.12.1575); for their descendants see HERE
-					# wittel4 -> E4. Pfgf Ludwig I "der Schwarze" von Zweibrücken und Veldenz (1444-89), *1424, +Simmern 19.7.1489; m.Luxemburg 20.3.1454 Johanna von Croy (*I.1435 +18.6.1504); for their descendants see HERE
+					# wittel3 -> G2. Pfgf Johann II von Simmern (1509-57), *Simmern 20.3.1492, +Simmern 18.5.1557; 1m: Trarbach 1508 Beatrix of Baden (*1492 +1535); 2m: Schloss Dhaun 17.8.1554 Gfn Marie Jakobine von Öttingen (*1525 +13.12.1575); for their descendants see HERE
+			# wittel4 ->  E4. Pfgf Ludwig I "der Schwarze" von Zweibrücken und Veldenz (1444-89), *1424, +Simmern 19.7.1489; m.Luxemburg 20.3.1454 Johanna von Croy (*I.1435 +18.6.1504); for their descendants see HERE
+			100007976={	# E6. Anna, *1413, +after 1468, bur Köln; m.before 10.3.1435 Vinzenz, Gf von Mörs und Saarwerden (+1499)
+				name=Anna
+				female=yes
+				dynasty=217
+				religion=catholic culture=german
+				father=100007975	# Stefan v. Wittelsbach
+				mother=100092068	# GFN Anna von Geroldseck
+				1413.01.01={birth=yes}
+				1469.01.01={death=yes}
+			}
+			
 #wittel2
 
 #wittel3
-100007979={	# Pfgf Johann II von Simmern (1509-57), *Simmern 20.3.1492, +Simmern 18.5.1557; 1m: Trarbach 1508 Beatrix of Baden (*1492 +1535); 2m: Schloss Dhaun 17.8.1554 Gfn Marie Jakobine von Öttingen (*1525 +13.12.1575)
+100007979={	# Pfgf Johann II von Simmern (1509-57), *Simmern 20.3.1492, +Simmern 18.5.1557; 1m: Trarbach 1508 Beatrix of Baden (*1492 +1535); 2m: Schloss Dhaun 17.8.1554 Gfn Marie Jakobine von Öttingen (*1525 +13.12.1575) $$
 	name=Johann
 	dynasty=217
 	religion=catholic culture=german
@@ -244,7 +243,7 @@
 	1554.08.17={add_spouse=100012465}	# Marie Jakobine von Oettingen
 	1557.05.18={death=yes}  # Simmern
 }
-	100007980={	# A1. Friedrich III "der Fromme", Kfst von der Pfalz (1559-76), *Simmern 14.2.1515, +Heidelberg 26.10.1576; 1m: Crailsheim 1537 Marie of Brandenburg-Kulmbach (*1519 +1567); 2m: Heidelberg 1569 Amalie von Neuenahr (*ca 1540 +Alpen 1602/12)
+	100007980={	# A1. Friedrich III "der Fromme", Kfst von der Pfalz (1559-76), *Simmern 14.2.1515, +Heidelberg 26.10.1576; 1m: Crailsheim 1537 Marie of Brandenburg-Kulmbach (*1519 +1567); 2m: Heidelberg 1569 Amalie von Neuenahr (*ca 1540 +Alpen 1602/12) $$
 		name=Friedrich
 		dynasty=217
 		religion=catholic culture=german
@@ -254,7 +253,7 @@
 		1537.06.12={add_spouse=100003620}	# Marie v. Hohenzollern
 		1576.10.26={death=yes}  # Heidelberg
 	}
-		100007981={	# B1. Kfst Ludwig VI von der Pfalz (1576-83), *Simmern 4.7.1539, +Heidelberg 22.10.1583; 1m: Marburg 1560 Elisabeth of Hesse (*Kassel 1539 +Heidelberg 1582); 2m: Heidelberg 12.7.1583 Gfn Anna von Ostfriesland (*26.6.1562 +21.4.1621)
+		100007981={	# B1. Kfst Ludwig VI von der Pfalz (1576-83), *Simmern 4.7.1539, +Heidelberg 22.10.1583; 1m: Marburg 1560 Elisabeth of Hesse (*Kassel 1539 +Heidelberg 1582); 2m: Heidelberg 12.7.1583 Gfn Anna von Ostfriesland (*26.6.1562 +21.4.1621) $$
 			name=Ludwig
 			dynasty=217
 			religion=catholic culture=german
@@ -275,7 +274,7 @@
 				1561.07.24={birth=yes}  # Heidelberg
 				1589.07.29={death=yes}  # Eskilstuna
 			}
-			100007984={	# C4. Friedrich IV, Kfst von der Pfalz (1583-1610), *Amberg 5.3.1574, +Heidelberg 9.9.1610; m.Dillenburg 1593 Pss Luise Juliane of Orange-Nassau (*31.3.1576 +15.3.1644)
+			100007984={	# C4. Friedrich IV, Kfst von der Pfalz (1583-1610), *Amberg 5.3.1574, +Heidelberg 9.9.1610; m.Dillenburg 1593 Pss Luise Juliane of Orange-Nassau (*31.3.1576 +15.3.1644) $$
 				name=Friedrich
 				dynasty=217
 				religion=catholic culture=german
@@ -285,7 +284,7 @@
 				1593.06.13={add_spouse=100037250}	# Luise Juliane von Nassau
 				1610.09.09={death=yes}  # Heidelberg
 			}
-				100007985={	# D5. Luise Juliane, *Heidelberg 16.7.1594, +Meisenheim 28.4.1640; m.Heidelberg 1612 Pfgf Johann II von Zweibrücken (*1584 +1635)
+				100007985={	# D5. Luise Juliane, *Heidelberg 16.7.1594, +Meisenheim 28.4.1640; m.Heidelberg 1612 Pfgf Johann II von Zweibrücken (*1584 +1635) $$
 					name="Luise Juliane"
 					female=yes
 					dynasty=217
@@ -295,7 +294,7 @@
 					1594.07.16={birth=yes}  # Heidelberg
 					1640.04.28={death=yes}  # Meisenheim
 				}
-				100007928={	# D1. Friedrich V, Kfst von der Pfalz (1610-23), King of Bohemia (26.8.1619-9.11.1620) -cr 2.11.1619 - dit Winterkönig, *Jagdschloß Deinschwang nr Amberg 16/26.8.1596, +Mainz 29.11.1632; m.London 14.2.1613 Pss Elizabeth of England (*19.8.1596 +13.2.1662)
+				100007928={	# D1. Friedrich V, Kfst von der Pfalz (1610-23), King of Bohemia (26.8.1619-9.11.1620) -cr 2.11.1619 - dit Winterkönig, *Jagdschloß Deinschwang nr Amberg 16/26.8.1596, +Mainz 29.11.1632; m.London 14.2.1613 Pss Elizabeth of England (*19.8.1596 +13.2.1662) $$
 					name=Friedrich
 					dynasty=217
 					religion=catholic culture=german
@@ -349,7 +348,7 @@
 							name=Luise
 							female=yes
 							dynasty=217
-							religion=catholic culture=frankish
+							religion=catholic culture=german
 							father=100007989	# Eduard v. Wittelsbach
 							mother=100072482	# Anna Gonzaga
 							1647.06.01={birth=yes}  # Paris
@@ -359,7 +358,7 @@
 							name="Anna Henriette"
 							female=yes
 							dynasty=217
-							religion=catholic culture=frankish
+							religion=catholic culture=german
 							father=100007989	# Eduard v. Wittelsbach
 							mother=100072482	# Anna Gonzaga
 							1648.03.13={birth=yes}  # Paris
@@ -369,7 +368,7 @@
 							name="Benedikta Henriette"
 							female=yes
 							dynasty=217
-							religion=catholic culture=frankish
+							religion=catholic culture=german
 							father=100007989	# Eduard v. Wittelsbach
 							mother=100072482	# Anna Gonzaga
 							1652.07.23={birth=yes}  # Paris
@@ -505,7 +504,7 @@
 		1541.01.09={add_spouse=100192207}	# Elisabeth v. Hessen
 		1569.05.17={death=yes}  # Simmern
 	}
-	100007700={	# 7d) Elisabeth (13 Feb 1520-18 Feb 1564); m.Fürstenau 9 Jan 1535 Georg Gf von Erbach (d.Erbach 27 Aug 1569)
+	100007700={	# 7d) Elisabeth (13 Feb 1520-18 Feb 1564); m.Fürstenau 9 Jan 1535 Georg Gf von Erbach (d.Erbach 27 Aug 1569) $$
 		name=Elisabeth
 		female=yes
 		dynasty=217
@@ -537,7 +536,7 @@
 		1528.06.13={birth=yes}
 		1578.06.19={death=yes}  # Antwerp
 	}
-	100007703={	# 12d) Helene (13 Jun 1533-Hanau 5 Feb 1579); m.Heidelberg 23 Nov 1551 Philipp Gf von Hanau-Münzenberg (d.14 Nov 1561)
+	100007703={	# 12d) Helene (13 Jun 1533-Hanau 5 Feb 1579); m.Heidelberg 23 Nov 1551 Philipp Gf von Hanau-Münzenberg (d.14 Nov 1561) $$
 		name=Helene
 		female=yes
 		dynasty=217
@@ -550,32 +549,32 @@
 #wittel3
 
 #wittel4
-100007704={	# Pfgf Ludwig I von Zweibrücken und Veldenz (1444-89), *1424, *1424, +Simmern 19.7.1489; m.Luxemburg 20.3.1454 Johanna von Croy (*I.1435 +18.6.1504)
+100007704={	# Pfgf Ludwig I von Zweibrücken und Veldenz (1444-89), *1424, *1424, +Simmern 19.7.1489; m.Luxemburg 20.3.1454 Johanna von Croy (*I.1435 +18.6.1504) $$
 	name=Ludwig
 	dynasty=217
 	religion=catholic culture=german
 	father=100007975	# Stefan v. Wittelsbach
 	mother=100092068	# GFN Anna von Geroldseck
 	1424.01.01={birth=yes}
-	1454.03.20={add_spouse=100082258}	# CSS Johanna de Croÿ
+	1454.03.20={add_spouse=100012860}	# Jeanne de Croÿ
 	1489.07.19={death=yes}
 }
-	100007705={	# 1b) Margarete (10 Jul 1456-7 Sep 1527); m.1470 Philipp Gf von Nassau-Idstein (d.16 Jun 1509)
+	100007705={	# 1b) Margarete (10 Jul 1456-7 Sep 1527); m.1470 Philipp Gf von Nassau-Idstein (d.16 Jun 1509) $$
 		name=Margarete
 		female=yes
 		dynasty=217
 		religion=catholic culture=german
 		father=100007704	# Ludwig v. Wittelsbach
-		mother=100082258	# CSS Johanna de Croÿ
+		mother=100012860	# Jeanne de Croÿ
 		1456.07.10={birth=yes}
 		1527.09.07={death=yes}
 	}
-	100007706={	# A1. Kaspar, Pfgf von Zweibrücken u.Veldenz, *11.7.1458, +Nohfelden VII/VIII.1527; m.Zweibrücken 1478 Amalie of Brandenburg (*1461 +Baden-Baden 1481)
+	100007706={	# A1. Kaspar, Pfgf von Zweibrücken u.Veldenz, *11.7.1458, +Nohfelden VII/VIII.1527; m.Zweibrücken 1478 Amalie of Brandenburg (*1461 +Baden-Baden 1481) $$
 		name=Kaspar
 		dynasty=217
 		religion=catholic culture=german
 		father=100007704	# Ludwig v. Wittelsbach
-		mother=100082258	# CSS Johanna de Croÿ
+		mother=100012860	# Jeanne de Croÿ
 		1458.07.11={birth=yes}
 		1478.04.19={add_spouse=100003885}	# Amalie v. Hohenzollern
 		1527.01.01={death=yes}  # Nohfelden Jul/Aug
@@ -585,12 +584,12 @@
 		dynasty=217
 		religion=catholic culture=german
 		father=100007704	# Ludwig v. Wittelsbach
-		mother=100082258	# CSS Johanna de Croÿ
+		mother=100012860	# Jeanne de Croÿ
 		1462.11.26={birth=yes}
 		1499.01.21={add_spouse=100094153}	# GFN Margarete zu Hohenlohe-Neuenstein
 		1514.10.31={death=yes}  # Zweibrücken
 	}
-		100007962={	# B1. Pfgf Ludwig II von Zweibrücken (1514-32), *Zweibrücken 14.9.1502, +Zweibrücken 3.12.1532; m.Kassel 1525 Elisabeth of Hesse (*1503 +Lauingen 1563)
+		100007962={	# B1. Pfgf Ludwig II von Zweibrücken (1514-32), *Zweibrücken 14.9.1502, +Zweibrücken 3.12.1532; m.Kassel 1525 Elisabeth of Hesse (*1503 +Lauingen 1563) $$
 			name=Ludwig
 			dynasty=217
 			religion=catholic culture=german
@@ -1239,7 +1238,7 @@
 					father=100007707	# Wolfgang v. Wittelsbach
 					mother=100192208	# Anna v. Hessen
 					1560.09.04={birth=yes}  # Neuburg
-					1586.02.23={add_spouse=100007253}	# Dorothea v. Braunschweig
+					1586.02.23={add_spouse=100012181}	# Dorothea v. Braunschweig-Lüneburg
 					1600.12.16={death=yes}  # Birkenfeld
 				}
 					100007762={	# 1f) Georg Wilhelm Pfgf von Birkenfeld (Ansbach 6 Aug 1591-Birkenfeld 25 Dec 1669); 
@@ -1250,7 +1249,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007761	# Karl v. Wittelsbach
-						mother=100007253	# Dorothea v. Braunschweig
+						mother=100012181	# Dorothea v. Braunschweig-Lüneburg
 						1591.08.06={birth=yes}  # Ansbach
 						1616.11.30={add_spouse=100007252}	# Dorothea von Solms-Braunfels
 						1641.11.30={add_spouse=100007615}	# Juliane zu Salm
@@ -1284,7 +1283,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007761	# Karl v. Wittelsbach
-						mother=100007253	# Dorothea v. Braunschweig
+						mother=100012181	# Dorothea v. Braunschweig-Lüneburg
 						1593.03.29={birth=yes}  # Ansbach
 						1676.11.16={death=yes}  # Neuenstein
 					}
@@ -1293,7 +1292,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007761	# Karl v. Wittelsbach
-						mother=100007253	# Dorothea v. Braunschweig
+						mother=100012181	# Dorothea v. Braunschweig-Lüneburg
 						1598.09.03={birth=yes}  # Birkenfeld
 						1630.11.14={add_spouse=100007737}	# Magdalene Katharine v. Wittelsbach
 						1648.10.20={add_spouse=100092189}	# GFN Marie Johanna von Helfenstein
@@ -1689,572 +1688,502 @@
 		dynasty=217
 		religion=catholic culture=german
 		father=100007704	# Ludwig v. Wittelsbach
-		mother=100082258	# CSS Johanna de Croÿ
+		mother=100012860	# Jeanne de Croÿ
 		1469.01.01={birth=yes}
 		1500.06.23={death=yes}
 	}
 #wittel4
 
 #wittel9
-462740={ # Duke LUDWIG IV "der Bayer" of Bavaria in Upper Bavaria in Lower Bavaria, King of Italy, German King, Emperor, *1.4.1282, +Puch bei Fürstenfeldbruck 11.10.1347; 1m: ca 1309 Beatrix of Schweidnitz (*ca 1292 +24.8.1322); 2m: Köln 25.2.1324 Margaret of Hainault, Css of Hainault, Holland and Seeland (*1311 +23.6.1356)
-	name=Ludwig
-	dynasty=217
-	martial=7 diplomacy=5 intrigue=5 stewardship=6 
-	trait=temperate trait=proud trait=diligent trait=amateurish_plotter
-	religion=catholic culture=german
-	1282.04.01={birth=yes}
-	1309.01.01={add_spouse=161902}	# Beatrix of Schweidnitz
-	1324.02.25={add_spouse=462741}	# CSS Margaret of Hainault and Seeland
-	1347.10.11={death=yes}  # Puch bei Fürstenfeldbruck
-}
-	462731={ # A1. LUDWIG V, Mgve of Brandenburg, Duke of Carinthia and Ct of Tirol, Duke of Bavaria in Upper Bavaria, *V.1315, +Zorneding 18.9.1361; 1m: 1324 Pss Margaret of Denmark (*1305 +Berlin 1340); 2m: Schloß Tirol 10.2.1342 Margaret Maultasch of Carinthia, Css of Tirol (*Schloss Tirol 1318, +Vienna 3.10.1369)
-		name=Ludwig
+#462731 = A1. LUDWIG V, Mgve of Brandenburg (1323-51), Duke of Carinthia and Ct of Tirol (1349-61), Duke of Bavaria in Upper Bavaria (1347-61), *V.1315/VII.1316, +Zorneding 18.9.1361, bur Munich; 1m: 1324 Pss Margaret of Denmark (*1305 +1340, bur Berlin); 2m: Schloß Tirol 10.2.1342 Margaret Maultasch of Carinthia, Css of Tirol (*Schloss Tirol 1318, +Vienna 3.10.1369, bur Vienna)
+	100009231={ # B2. MEINHARD, Duke of Upper Bavaria, Ct of Tirol, *Landshut 9.2.1344, +Schloß Tirol 13.1.1363; m.Passau 1359 Margaret of Austria (*1346, +14.1.1366) $$
+		name=Meinhard
 		dynasty=217
 		religion=catholic culture=german
-		father=462740	# Ludwig v. Wittelsbach
-		mother=161902	# Beatrix of Schweidnitz
-		1315.05.01={birth=yes}
-		1324.01.02={add_spouse=451522}	# PSS Margaret of Denmark
-		1342.02.10={add_spouse=100087853}	# CSS Margaret Maultasch Meinhardiner
-		1361.09.18={death=yes}  # Zorneding
+		father=462731	# Ludwig v. Wittelsbach
+		1344.02.09={birth=yes}  # Landshut
+		1359.01.01={add_spouse=100211009}	# Margarete v. Habsburg
+		1363.01.13={death=yes}  # Schloß Tirol
 	}
-		100009231={ # B2. MEINHARD, Duke of Upper Bavaria, Ct of Tirol, *Landshut 9.2.1344, +Schloß Tirol 13.1.1363; m.Passau 1359 Margaret of Austria (*1346, +14.1.1366)
-			name=Meinhard
-			dynasty=217
-			religion=catholic culture=german
-			father=462731	# Ludwig v. Wittelsbach
-			mother=100087853	# CSS Margaret Maultasch Meinhardiner
-			1344.02.09={birth=yes}  # Landshut
-			1359.01.01={add_spouse=11009}	# Margarete v. Habsburg
-			1363.01.13={death=yes}  # Schloß Tirol
-		}
-	462730={ # A2. Duke STEFAN II of Bavaria, in Lower Bavaria, *1.10.1319, +Landshut 10.5.1375; 1m: 27.6.1328 Pss Elizabetta of Sicily (*ca 1309 +Landshut 31.3.1349); 2m: Landshut 14.2.1359 Margarete von Nürnberg (*ca 1333 +19.9.1377)
+	
+#462730 = A2. Duke STEFAN II of Bavaria (1347-75), in Lower Bavaria, *autumn 1319, +Landshut 10.5.1375, bur Munich; 1m: 27.6.1328 Pss Elizabetta of Sicily (*ca 1309 +Landshut 31.3.1349, bur Munich) dau.of Friedrich II, King of Sicily; 2m: Landshut 14.2.1359 Margarete von Nürnberg (*ca1333 +19.9.1377, bur Munich), dau.of Johann II von Nürnberg
+	100009994={ # B1. Duke STEFAN III "der Kneißl" of Bavaria, in Ingolstadt 1392, *ca 1337, +Niederschönenfeld bei Donauwörth 25.9.1413; 1m: 13.10.1364 Taddea Visconti (*1350 +28.9.1381); 2m: Köln 16.1.1401 Css Elisabeth of Cleves (*ca 1378, +after 2.7.1430)
 		name=Stefan
 		dynasty=217
 		religion=catholic culture=german
-		father=462740	# Ludwig v. Wittelsbach
-		mother=161902	# Beatrix of Schweidnitz
-		1319.10.01={birth=yes}
-		1328.06.27={add_spouse=100093525}	# PSS Elizabetta de Barcelona
-		1375.05.10={death=yes}  # Landshut
+		father=462730	# Stefan v. Wittelsbach
+		1337.01.01={birth=yes}
+		1364.10.13={add_spouse=100097404}	# Taddea Visconti
+		1401.01.16={add_spouse=100097419}	# CSS Elisabeth of Cleves
+		1413.09.25={death=yes}  # Niederschönenfeld_bei_Donauwörth
 	}
-		100009994={ # B1. Duke STEFAN III "der Kneißl" of Bavaria, in Ingolstadt 1392, *ca 1337, +Niederschönenfeld bei Donauwörth 25.9.1413; 1m: 13.10.1364 Taddea Visconti (*1350 +28.9.1381); 2m: Köln 16.1.1401 Css Elisabeth of Cleves (*ca 1378, +after 2.7.1430)
-			name=Stefan
+		100011547={ # C1. Duke LUDWIG VII "der Gebartete" of Bavaria, in Ingolstadt, Cte de Mortain 1416, *20.12.1365/1368-69, +in jail in Burghausen 1.5.1447; 1m: Paris 1.10.1402 Anne de Bourbon (*after 1380 +IX.1408); 2m: Paris 1.10.1413 Catherine d'Alençon (*after 1395 +25.6.1462)
+			name=Ludwig
 			dynasty=217
 			religion=catholic culture=german
-			father=462730	# Stefan v. Wittelsbach
-			mother=100093525	# PSS Elizabetta de Barcelona
-			1337.01.01={birth=yes}
-			1364.10.13={add_spouse=100097404}	# Taddea Visconti
-			1401.01.16={add_spouse=100097419}	# CSS Elisabeth of Cleves
-			1413.09.25={death=yes}  # Niederschönenfeld_bei_Donauwörth
+			father=100009994	# Stefan v. Wittelsbach
+			mother=100097404	# Taddea Visconti
+			1365.12.20={birth=yes}
+			1402.10.01={add_spouse=100097424}	# Anne de Bourbon
+			1413.10.01={add_spouse=100097666}	# Catherine d'Alençon
+			1447.05.01={death=yes}  # EST.
 		}
-			100011565={ # C2. Isabeau Elisabeth, *1369, +Paris 24.9.1435; m.Amiens 1385 King Charles VI of France (*3.12.1368 +22.10.1422)
-				name="Isabeau Elisabeth"
-				female=yes
-				dynasty=217
-				religion=catholic culture=german
-				father=100009994	# Stefan v. Wittelsbach
-				mother=100097404	# Taddea Visconti
-				1369.01.01={birth=yes}
-				1435.09.24={death=yes}  # Paris
-			}
-			100011547={ # C1. Duke LUDWIG VII "der Gebartete" of Bavaria, in Ingolstadt, Cte de Mortain 1416, *20.12.1365/1368-69, +in jail in Burghausen 1.5.1447; 1m: Paris 1.10.1402 Anne de Bourbon (*after 1380 +IX.1408); 2m: Paris 1.10.1413 Catherine d'Alençon (*after 1395 +25.6.1462)
+			100011564={ # D1. Duke LUDWIG VIII "der Höckrige" of Bavaria, in Ingolstadt, *Paris 1.9.1403, +Ingolstadt 7.4.1445; m.Ingolstadt 1441 Margarete of Brandenburg (*1410 +24.7.1465) $$
 				name=Ludwig
 				dynasty=217
 				religion=catholic culture=german
-				father=100009994	# Stefan v. Wittelsbach
-				mother=100097419	# CSS Elisabeth of Cleves
-				1365.12.20={birth=yes}
-				1402.10.01={add_spouse=100097424}	# Anne de Bourbon
-				1413.10.01={add_spouse=100097666}	# Catherine d'Alençon
-				1447.05.01={death=yes}  # EST.
+				father=100011547	# Ludwig v. Wittelsbach
+				mother=100097424	# Anne de Bourbon
+				1403.09.01={birth=yes}  # Paris
+				1441.01.01={add_spouse=100002061}	# Margarete v. Hohenzollern
+				1445.04.07={death=yes}  # Ingolstadt
 			}
-				100011564={ # D1. Duke LUDWIG VIII "der Höckrige" of Bavaria, in Ingolstadt, *Paris 1.9.1403, +Ingolstadt 7.4.1445; m.Ingolstadt 1441 Margarete of Brandenburg (*1410 +24.7.1465)
-					name=Ludwig
-					dynasty=217
-					religion=catholic culture=frankish
-					father=100011547	# Ludwig v. Wittelsbach
-					mother=100097424	# Anne de Bourbon
-					1403.09.01={birth=yes}  # Paris
-					1441.01.01={add_spouse=100002061}	# Margarete v. Hohenzollern
-					1445.04.07={death=yes}  # Ingolstadt
-				}
-		100011804={ # B4. Agnes, *1338; m.ca 1356 King James of Cyprus (*1334 +1398)
-			name=Agnes
+		100011565={ # C2. Isabeau Elisabeth, *1369, +Paris 24.9.1435; m.Amiens 1385 King Charles VI of France (*3.12.1368 +22.10.1422) $$
+			name="Isabeau Elisabeth"
 			female=yes
 			dynasty=217
 			religion=catholic culture=german
-			father=462730	# Stefan v. Wittelsbach
-			mother=100093525	# PSS Elizabetta de Barcelona
-			1338.01.01={birth=yes}
-			1413.01.01={death=yes}  # EST.
+			father=100009994	# Stefan v. Wittelsbach
+			mother=100097404	# Taddea Visconti
+			1369.01.01={birth=yes}
+			1435.09.24={death=yes}  # Paris
 		}
-		100011582={ # B2. Duke Friedrich II of Bavaria-Landshut, *1339, +Budweis 4.12.1393; 1m: 1360 Anna von Neuffen (*1327 +15.10.1380); 2m: Landshut 2.9.1381 Maddalena Visconti (*1361 +17.7.1404)
-			name=Friedrich
+	100011804={ # B4. Agnes, *1338; m.ca 1356 King James of Cyprus (*1334 +1398)
+		name=Agnes
+		female=yes
+		dynasty=217
+		religion=catholic culture=german
+		father=462730	# Stefan v. Wittelsbach
+		1338.01.01={birth=yes}
+		1413.01.01={death=yes}  # EST.
+	}
+	100011582={ # B2. Duke Friedrich II of Bavaria-Landshut, *1339, +Budweis 4.12.1393; 1m: 1360 Anna von Neuffen (*1327 +15.10.1380); 2m: Landshut 2.9.1381 Maddalena Visconti (*1361 +17.7.1404)
+		name=Friedrich
+		dynasty=217
+		religion=catholic culture=german
+		father=462730	# Stefan v. Wittelsbach
+		1339.01.01={birth=yes}
+		1360.01.01={add_spouse=100097887}	# Anna von Neuffen
+		1381.09.02={add_spouse=100098056}	# Maddalena Visconti
+		1393.12.04={death=yes}  # Budweis
+	}
+		100011594={ # C3. Elisabeth Isabella, *1361, +Milan 17.1.1382; m.Marco Visconti (+1382)
+			name="Elisabeth Isabella"
+			female=yes
 			dynasty=217
 			religion=catholic culture=german
-			father=462730	# Stefan v. Wittelsbach
-			mother=100093525	# PSS Elizabetta de Barcelona
-			1339.01.01={birth=yes}
-			1360.01.01={add_spouse=100097887}	# Anna von Neuffen
-			1381.09.02={add_spouse=100098056}	# Maddalena Visconti
-			1393.12.04={death=yes}  # Budweis
+			father=100011582	# Friedrich v. Wittelsbach
+			mother=100097887	# Anna von Neuffen
+			1361.01.01={birth=yes}
+			1382.01.17={death=yes}  # Milan
 		}
-			100011594={ # C3. Elisabeth Isabella, *1361, +Milan 17.1.1382; m.Marco Visconti (+1382)
-				name="Elisabeth Isabella"
-				female=yes
-				dynasty=217
-				religion=catholic culture=german
-				father=100011582	# Friedrich v. Wittelsbach
-				mother=100097887	# Anna von Neuffen
-				1361.01.01={birth=yes}
-				1382.01.17={death=yes}  # Milan
-			}
-			100011597={ # C4. Elisabeth, *1383, +Ansbach 13.11.1442; m.Schongau 1401 Elector Friedrich I of Brandenburg (*1371 +1440)
-				name=Elisabeth
-				female=yes
-				dynasty=217
-				religion=catholic culture=german
-				father=100011582	# Friedrich v. Wittelsbach
-				mother=100098056	# Maddalena Visconti
-				1383.01.01={birth=yes}
-				1442.11.13={death=yes}  # Ansbach
-			}
-			100011583={ # C1. Duke Heinrich XVI "der Reiche" of Bavaria-Landshut, *1386, +Landshut 30.7.1450; m.Landshut 25.11.1412 Margarete of Austria (*26.6.1395 +24.12.1447)
-				name=Heinrich
-				dynasty=217
-				religion=catholic culture=german
-				father=100011582	# Friedrich v. Wittelsbach
-				mother=100098056	# Maddalena Visconti
-				1386.01.01={birth=yes}
-				1412.11.25={add_spouse=100022006}	# Margarete v. Habsburg
-				1450.07.30={death=yes}  # Landshut
-			}
-				100011590={ # D4. Johanna, *1413, +Mosbach 20.7.1444; m.Burghausen 1430 Pfgf Otto I von Mosbach (*1390 +1461)
-					name=Johanna
-					female=yes
-					dynasty=217
-					religion=catholic culture=german
-					father=100011583	# Heinrich v. Wittelsbach
-					mother=100022006	# Margarete v. Habsburg
-					1413.01.01={birth=yes}
-					1444.07.20={death=yes}  # Mosbach
-				}
-				100011584={ # D3. Duke Ludwig IX "der Reiche" of Bavaria in Ingolstadt, in Landshut, *Burghausen 23.2.1417, +Landshut 18.1.1479; m.Landshut 1452 Pss Amalia of Saxony (*1435 +1502)
-					name=Ludwig
-					dynasty=217
-					religion=catholic culture=german
-					father=100011583	# Heinrich v. Wittelsbach
-					mother=100022006	# Margarete v. Habsburg
-					1417.02.23={birth=yes}  # Burghausen
-					1452.01.01={add_spouse=100098060}	# PSS Amalia von Sachsen
-					1479.01.18={death=yes}  # Landshut
-				}
-					100011585={ # E1. Duke Georg "der Reiche" of Bavaria in Landshut and Ingolstadt, *Landshut 15.8.1455, +Ingolstadt 1.12.1503; m.Landshut 15.11.1475 Pss Hedwig of Poland (*21.9.1457 +18.2.1502)
-						name=Georg
-						dynasty=217
-						religion=catholic culture=german
-						father=100011584	# Ludwig v. Wittelsbach
-						mother=100098060	# PSS Amalia von Sachsen
-						1455.08.15={birth=yes}  # Landshut
-						1475.11.15={add_spouse=100111867}	# Jadwiga Jogailaitis
-						1503.12.01={death=yes}  # Ingolstadt
-					}
-						100011586={ # F4. Elisabeth, *1478, +Landshut 15.9.1504; m.Heidelberg 1499 Pfgf Ruprecht von Der Pfalz (*1481 +1504)
-							name=Elisabeth
-							female=yes
-							dynasty=217
-							religion=catholic culture=german
-							father=100011585	# Georg v. Wittelsbach
-							mother=100111867	# Jadwiga Jogailaitis
-							1478.01.01={birth=yes}
-							1504.09.15={death=yes}  # Landshut
-						}
-					100011589={ # E3. Margarete, *Amberg 7.11.1456, +Heidelberg 24.1.1501; m.Amberg 1474 Philipp, Kfst von der Pfalz (*1448 +1508)
-						name=Margarete
-						female=yes
-						dynasty=217
-						religion=catholic culture=german
-						father=100011584	# Ludwig v. Wittelsbach
-						mother=100098060	# PSS Amalia von Sachsen
-						1456.11.07={birth=yes}  # Amberg
-						1501.01.24={death=yes}  # Heidelberg
-					}
-				100011591={ # D5. Elisabeth, *1419, +Landshut 1.1.1451; m.Stuttgart 1445 Ulrich V of Württemberg (*1413 +1480)
-					name=Elisabeth
-					female=yes
-					dynasty=217
-					religion=catholic culture=german
-					father=100011583	# Heinrich v. Wittelsbach
-					mother=100022006	# Margarete v. Habsburg
-					1419.01.01={birth=yes}
-					1451.01.01={death=yes}  # Landshut
-				}
-			100011598={ # C6. Magdalene, *1388, +1410; m.1404 Gf Johann Meinhard VII von Görz (*1378/80 +by 22.5.1430)
-				name=Magdalene
-				female=yes
-				dynasty=217
-				religion=catholic culture=german
-				father=100011582	# Friedrich v. Wittelsbach
-				mother=100098056	# Maddalena Visconti
-				1388.01.01={birth=yes}
-				1410.01.01={death=yes}
-			}
-		100011602={ # B3. Duke JOHANN II of Bavaria-Munich, *ca 1341, +Munich 8.8.1397; m.1372 Katharina von Görz (*1350 +31.5.1391)
-			name=Johann
+		100011597={ # C4. Elisabeth, *1383, +Ansbach 13.11.1442; m.Schongau 1401 Elector Friedrich I of Brandenburg (*1371 +1440) $$
+			name=Elisabeth
+			female=yes
 			dynasty=217
 			religion=catholic culture=german
-			father=462730	# Stefan v. Wittelsbach
-			mother=100093525	# PSS Elizabetta de Barcelona
-			1341.01.01={birth=yes}
-			1372.01.01={add_spouse=100099226}	# Katharina von Görz
-			1397.08.08={death=yes}  # Munich
+			father=100011582	# Friedrich v. Wittelsbach
+			mother=100098056	# Maddalena Visconti
+			1383.01.01={birth=yes}
+			1442.11.13={death=yes}  # Ansbach
 		}
-			100011618={ # C1. Duke ERNST I of Bavaria-Munich, *1373, +Munich 2.7.1438; m.Pfaffenhofen 26.1.1395 Elisabetta Visconti (*1374 +Munich 2.2.1432)
-				name=Ernst
+		100011583={ # C1. Duke Heinrich XVI "der Reiche" of Bavaria-Landshut, *1386, +Landshut 30.7.1450; m.Landshut 25.11.1412 Margarete of Austria (*26.6.1395 +24.12.1447) $$
+			name=Heinrich
+			dynasty=217
+			religion=catholic culture=german
+			father=100011582	# Friedrich v. Wittelsbach
+			mother=100098056	# Maddalena Visconti
+			1386.01.01={birth=yes}
+			1412.11.25={add_spouse=100022006}	# Margarete v. Habsburg
+			1450.07.30={death=yes}  # Landshut
+		}
+			100011590={ # D4. Johanna, *1413, +Mosbach 20.7.1444; m.Burghausen 1430 Pfgf Otto I von Mosbach (*1390 +1461)
+				name=Johanna
+				female=yes
 				dynasty=217
 				religion=catholic culture=german
-				father=100011602	# Johann v. Wittelsbach
-				mother=100099226	# Katharina von Görz
-				1373.01.01={birth=yes}
-				1395.01.26={add_spouse=100099300}	# Elisabetta Visconti
-				1438.07.02={death=yes}  # Munich
+				father=100011583	# Heinrich v. Wittelsbach
+				mother=100022006	# Margarete v. Habsburg
+				1413.01.01={birth=yes}
+				1444.07.20={death=yes}  # Mosbach
 			}
-				100011619={ # D1. Duke ALBRECHT III "der Fromme" of Bavaria-Munich, *Munich 23.3.1401, +Munich 29.2.1460; m.Munich 6.11.1435 Anna von Braunschweig-Grubenhagen (*1415 +14.10.1474)
-					name=Albrecht
+			100011584={ # D3. Duke Ludwig IX "der Reiche" of Bavaria in Ingolstadt, in Landshut, *Burghausen 23.2.1417, +Landshut 18.1.1479; m.Landshut 1452 Pss Amalia of Saxony (*1435 +1502)
+				name=Ludwig
+				dynasty=217
+				religion=catholic culture=german
+				father=100011583	# Heinrich v. Wittelsbach
+				mother=100022006	# Margarete v. Habsburg
+				1417.02.23={birth=yes}  # Burghausen
+				1452.01.01={add_spouse=100098060}	# PSS Amalia von Sachsen
+				1479.01.18={death=yes}  # Landshut
+			}
+				100011585={ # E1. Duke Georg "der Reiche" of Bavaria in Landshut and Ingolstadt, *Landshut 15.8.1455, +Ingolstadt 1.12.1503; m.Landshut 15.11.1475 Pss Hedwig of Poland (*21.9.1457 +18.2.1502) $$
+					name=Georg
 					dynasty=217
 					religion=catholic culture=german
-					father=100011618	# Ernst v. Wittelsbach
-					mother=100099300	# Elisabetta Visconti
-					1401.03.23={birth=yes}  # Munich
-					1435.11.06={add_spouse=100086602}	# Anna von Braunschweig-Grubenhagen
-					1460.02.29={death=yes}  # Munich
+					father=100011584	# Ludwig v. Wittelsbach
+					mother=100098060	# PSS Amalia von Sachsen
+					1455.08.15={birth=yes}  # Landshut
+					1475.11.15={add_spouse=100111867}	# Jadwiga Jogailaitis
+					1503.12.01={death=yes}  # Ingolstadt
 				}
-					100011685={ # E1. Duke JOHANN IV of Bavaria-Munich, *Munich 4.10.1437, +Haidhausen 18.11.1463
-						name="Johann [of Bavaria - Munich"
-						dynasty=217
-						religion=catholic culture=german
-						father=100011619	# Albrecht v. Wittelsbach
-						mother=100086602	# Anna von Braunschweig-Grubenhagen
-						1437.10.04={birth=yes}  # Munich
-						1463.11.18={death=yes}  # Haidhausen
-					}
-					100011687={ # E3. Duke SIGMUND of Bavaria-Munich, *Straubing 26.7.1439, +Schloß Blutenberg 1.2.1501
-						name=Sigmund
-						dynasty=217
-						religion=catholic culture=german
-						father=100011619	# Albrecht v. Wittelsbach
-						mother=100086602	# Anna von Braunschweig-Grubenhagen
-						1439.07.26={birth=yes}  # Straubing
-						1501.02.01={death=yes}  # Schloß Blutenberg
-					}
-					100011798={ # E8. Margarete, *Munich 1.1.1442, +Mantova 14.10.1479; m.Mantua 10.5.1463 Federigo I Gonzaga, Marchese of Mantua (*25.6.1441 +14.7.1484)
-						name=Margarete
-						female=yes
-						dynasty=217
-						religion=catholic culture=german
-						father=100011619	# Albrecht v. Wittelsbach
-						mother=100086602	# Anna von Braunschweig-Grubenhagen
-						1442.01.01={birth=yes}  # Munich
-						1479.10.14={death=yes}  # Mantova
-					}
-					100011799={ # E9. Elisabeth, *2.2.1443, +Leipzig 5.3.1486; m.Leipzig 19.11.1460 Elector Ernst of Saxony (*1441 +1486)
+					100011586={ # F4. Elisabeth, *1478, +Landshut 15.9.1504; m.Heidelberg 1499 Pfgf Ruprecht von Der Pfalz (*1481 +1504)
 						name=Elisabeth
 						female=yes
 						dynasty=217
 						religion=catholic culture=german
-						father=100011619	# Albrecht v. Wittelsbach
-						mother=100086602	# Anna von Braunschweig-Grubenhagen
-						1443.02.02={birth=yes}
-						1486.03.05={death=yes}  # Leipzig
+						father=100011585	# Georg v. Wittelsbach
+						mother=100111867	# Jadwiga Jogailaitis
+						1478.01.01={birth=yes}
+						1504.09.15={death=yes}  # Landshut
 					}
-					100011690={ # E5. Duke ALBRECHT IV "der Weisse" of Bavaria in Munich, in Ingolstadt u.Landshut, *Munich 15.12.1447, +Munich 10.3.1508; m.Innsbruck 3.1.1487 Archdss Kunigunde of Austria (*16.3.1465, +6.8.1520)
-						name=Albrecht
-						dynasty=217
-						religion=catholic culture=german
-						father=100011619	# Albrecht v. Wittelsbach
-						mother=100086602	# Anna von Braunschweig-Grubenhagen
-						1447.12.15={birth=yes}  # Munich
-						1487.01.03={add_spouse=100022005}	# Kunigunde v. Habsburg
-						1508.03.10={death=yes}  # Munich
-					}
-						100011794={ # F5. Sibylle, *16.6.1489, +Heidelberg 18.4.1519; m.Heidelberg 1511 Kfst Ludwig V von der Pfalz (*1478 +1544)
-							name=Sibylle
-							female=yes
-							dynasty=217
-							religion=catholic culture=german
-							father=100011690	# Albrecht v. Wittelsbach
-							mother=100022005	# Kunigunde v. Habsburg
-							1489.06.16={birth=yes}
-							1519.04.18={death=yes}  # Heidelberg
-						}
-						100011795={ # F6. Sabine, *24.4.1492, +Nürtingen 30.8.1564; m.Stuttgart 1511 Gf Ulrich VI von Württemberg (*1487 +1550)
-							name=Sabine
-							female=yes
-							dynasty=217
-							religion=catholic culture=german
-							father=100011690	# Albrecht v. Wittelsbach
-							mother=100022005	# Kunigunde v. Habsburg
-							1492.04.24={birth=yes}
-							1564.08.30={death=yes}  # Nürtingen
-						}
-						100011726={ # F1. Duke WILHELM IV of Bavaria, *Munich 13.11.1493, +Munich 7.3.1550; m.Munich 3.10.1522 Marie Jakobäa of Baden-Sponheim (*1507 +1580)
-							name=Wilhelm
-							dynasty=217
-							religion=catholic culture=german
-							father=100011690	# Albrecht v. Wittelsbach
-							mother=100022005	# Kunigunde v. Habsburg
-							1493.11.13={birth=yes}  # Munich
-							1522.10.03={add_spouse=100003234}	# Marie Jakobäa von Baden
-							1550.03.07={death=yes}  # Munich
-						}
-							100011730={ # G2. Duke ALBRECHT V "der Grossmüthige" of Bavaria, *Munich 29.2.1528, +Munich 24.10.1579; m.Regensburg 4.7.1546 Archdss Anna of Austria (*7.7.1528 +17.10.1590)
-								name=Albrecht
-								dynasty=217
-								religion=catholic culture=german
-								father=100011726	# Wilhelm v. Wittelsbach
-								mother=100003234	# Marie Jakobäa von Baden
-								1528.02.29={birth=yes}  # Munich
-								1546.07.04={add_spouse=100021188}	# Anna v. Habsburg
-								1579.10.24={death=yes}  # Munich
-							}
-								# wittel11 -> H2. Duke WILHELM V "der Fromme" of Bavaria, *Landshut 29.9.1548, +Schleissheim 17.2.1626; m.Munich 22.2.1568 Renée de Lorraine (*20.4.1544 +22.5.1602); for their descendants See HERE
-								100011744={ # H3. Ferdinand, *Landshut 20.1.1550, +Munich 30.1.1608; m.Munich 1586 (morganatically) Marie von Pettenbeck (*Munich 1574 +Munich 1614); their children were created Grafen von Wartenberg; See HERE
-									name=Ferdinand
-									dynasty=217
-									religion=catholic culture=german
-									father=100011730	# Albrecht v. Wittelsbach
-									mother=100021188	# Anna v. Habsburg
-									1550.01.20={birth=yes}  # Landshut
-									1608.01.30={death=yes}  # Munich
-								}
-								100011747={ # H6. Marie Anne, *Munich 21.3.1551, +Graz 29.4.1608; m.Vienna 26.8.1571 Archduke Karl von Steyer (*Vienna 3.6.1540 +Graz 10.7.1590)
-									name=Maria
-									female=yes
-									dynasty=217
-									religion=catholic culture=german
-									father=100011730	# Albrecht v. Wittelsbach
-									mother=100021188	# Anna v. Habsburg
-									1551.03.21={birth=yes}  # Munich
-									1608.04.29={death=yes}  # Graz
-								}
-								100011748={ # H7. Maximiliana Maria, *Munich 4.7.1552, +Munich 11.7.1614
-									name=Maximiliana
-									female=yes
-									dynasty=217
-									religion=catholic culture=german
-									father=100011730	# Albrecht v. Wittelsbach
-									mother=100021188	# Anna v. Habsburg
-									1552.07.04={birth=yes}  # Munich
-									1614.07.11={death=yes}  # Munich
-								}
-							100011749={ # G4. Matilde, *12.7.1532, +Baden-Baden 1/2.11.1565; m.Regensburg 1557 Mgve Philibert of Baden-Baden (*1536 +k.a.1569)
-								name=Matilde
-								female=yes
-								dynasty=217
-								religion=catholic culture=german
-								father=100011726	# Wilhelm v. Wittelsbach
-								mother=100003234	# Marie Jakobäa von Baden
-								1532.07.12={birth=yes}
-								1565.11.02={death=yes}  # Baden-Baden
-							}
-						100011750={ # F2. Duke LUDWIG X of Bavaria-Landshut, *Grünwald 18.9.1495, +Landshut 22.4.1545
-							name=Ludwig
-							dynasty=217
-							religion=catholic culture=german
-							father=100011690	# Albrecht v. Wittelsbach
-							mother=100022005	# Kunigunde v. Habsburg
-							1495.09.18={birth=yes}  # Grünwald
-							1545.04.22={death=yes}  # Landshut
-						}
-						100011796={ # F8. Susanne, *2.4.1502, +Neuburg 23.4.1543; 1m: Augsburg 1518 Mgve Kasimir of Brandenburg (*1481 +1527); 2m: Neuburg 1529 Otto Heinrich, Kfst von der Pfalz (*1502 +1559)
-							name=Susanne
-							female=yes
-							dynasty=217
-							religion=catholic culture=german
-							father=100011690	# Albrecht v. Wittelsbach
-							mother=100022005	# Kunigunde v. Habsburg
-							1502.04.02={birth=yes}
-							1543.04.23={death=yes}  # Neuburg
-						}
-					100011797={ # E6. Duke CHRISTOPH of Bavaria, *6.1.1449, +Rhodos 8.8.1493
-						name=Christoph
-						dynasty=217
-						religion=catholic culture=german
-						father=100011619	# Albrecht v. Wittelsbach
-						mother=100086602	# Anna von Braunschweig-Grubenhagen
-						1449.01.06={birth=yes}
-						1493.08.08={death=yes}  # Rhodos
-					}
-				100011800={ # D2. Beatrix, *ca 1403, +Neumarkt 12.3.1447; 1m: Ortenburg 1424 Gf Hermann III von Cilli (+1426; 2m: Riedenburg 1428 Pfgf Johann von Neuburg (*1383 +1443)
-					name=Beatrix
+				100011589={ # E3. Margarete, *Amberg 7.11.1456, +Heidelberg 24.1.1501; m.Amberg 1474 Philipp, Kfst von der Pfalz (*1448 +1508)
+					name=Margarete
 					female=yes
 					dynasty=217
 					religion=catholic culture=german
-					father=100011618	# Ernst v. Wittelsbach
-					mother=100099300	# Elisabetta Visconti
-					1403.01.01={birth=yes}
-					1447.03.12={death=yes}  # Neumarkt
+					father=100011584	# Ludwig v. Wittelsbach
+					mother=100098060	# PSS Amalia von Sachsen
+					1456.11.07={birth=yes}  # Amberg
+					1501.01.24={death=yes}  # Heidelberg
 				}
-				100011801={ # D3. Elisabeth, *ca 1406, +Heidelberg 5.3.1468; 1m: Mainz 1430 Duke Adolf II of Berg (*before 1408 +1437); 2m: Worms 1440 Hesso, Gf von Leiningen (+1467)
+			100011591={ # D5. Elisabeth, *1419, +Landshut 1.1.1451; m.Stuttgart 1445 Ulrich V of Württemberg (*1413 +1480) $$
+				name=Elisabeth
+				female=yes
+				dynasty=217
+				religion=catholic culture=german
+				father=100011583	# Heinrich v. Wittelsbach
+				mother=100022006	# Margarete v. Habsburg
+				1419.01.01={birth=yes}
+				1451.01.01={death=yes}  # Landshut
+			}
+		100011598={ # C6. Magdalene, *1388, +1410; m.1404 Gf Johann Meinhard VII von Görz (*1378/80 +by 22.5.1430)
+			name=Magdalene
+			female=yes
+			dynasty=217
+			religion=catholic culture=german
+			father=100011582	# Friedrich v. Wittelsbach
+			mother=100098056	# Maddalena Visconti
+			1388.01.01={birth=yes}
+			1410.01.01={death=yes}
+		}
+	100011602={ # B3. Duke JOHANN II of Bavaria-München, *ca 1341, +München 8.8.1397; m.1372 Katharina von Görz (*1350 +31.5.1391)
+		name=Johann
+		dynasty=217
+		religion=catholic culture=german
+		father=462730	# Stefan v. Wittelsbach
+		1341.01.01={birth=yes}
+		1372.01.01={add_spouse=100099226}	# Katharina von Görz
+		1397.08.08={death=yes}  # München
+	}
+		100011618={ # C1. Duke ERNST I of Bavaria-München, *1373, +München 2.7.1438; m.Pfaffenhofen 26.1.1395 Elisabetta Visconti (*1374 +München 2.2.1432)
+			name=Ernst
+			dynasty=217
+			religion=catholic culture=german
+			father=100011602	# Johann v. Wittelsbach
+			mother=100099226	# Katharina von Görz
+			1373.01.01={birth=yes}
+			1395.01.26={add_spouse=100099300}	# Elisabetta Visconti
+			1438.07.02={death=yes}  # München
+		}
+			100011619={ # D1. Duke ALBRECHT III "der Fromme" of Bavaria-München, *München 23.3.1401, +München 29.2.1460; m.München 6.11.1435 Anna von Braunschweig-Grubenhagen (*1415 +14.10.1474) $$
+				name=Albrecht
+				dynasty=217
+				religion=catholic culture=german
+				father=100011618	# Ernst v. Wittelsbach
+				mother=100099300	# Elisabetta Visconti
+				1401.03.23={birth=yes}  # München
+				1435.11.06={add_spouse=100012818}	# Anna Welf
+				1460.02.29={death=yes}  # München
+			}
+				100011685={ # E1. Duke JOHANN IV of Bavaria-München, *München 4.10.1437, +Haidhausen 18.11.1463
+					name="Johann [of Bavaria - München"
+					dynasty=217
+					religion=catholic culture=german
+					father=100011619	# Albrecht v. Wittelsbach
+					mother=100012818	# Anna Welf
+					1437.10.04={birth=yes}  # München
+					1463.11.18={death=yes}  # Haidhausen
+				}
+				100011687={ # E3. Duke SIGMUND of Bavaria-München, *Straubing 26.7.1439, +Schloß Blutenberg 1.2.1501
+					name=Sigmund
+					dynasty=217
+					religion=catholic culture=german
+					father=100011619	# Albrecht v. Wittelsbach
+					mother=100012818	# Anna Welf
+					1439.07.26={birth=yes}  # Straubing
+					1501.02.01={death=yes}  # Schloß Blutenberg
+				}
+				100011798={ # E8. Margarete, *München 1.1.1442, +Mantova 14.10.1479; m.Mantua 10.5.1463 Federigo I Gonzaga, Marchese of Mantua (*25.6.1441 +14.7.1484)
+					name=Margarete
+					female=yes
+					dynasty=217
+					religion=catholic culture=german
+					father=100011619	# Albrecht v. Wittelsbach
+					mother=100012818	# Anna Welf
+					1442.01.01={birth=yes}  # München
+					1479.10.14={death=yes}  # Mantova
+				}
+				100011799={ # E9. Elisabeth, *2.2.1443, +Leipzig 5.3.1486; m.Leipzig 19.11.1460 Elector Ernst of Saxony (*1441 +1486) $$
 					name=Elisabeth
 					female=yes
 					dynasty=217
 					religion=catholic culture=german
-					father=100011618	# Ernst v. Wittelsbach
-					mother=100099300	# Elisabetta Visconti
-					1406.01.01={birth=yes}
-					1468.03.05={death=yes}  # Heidelberg
+					father=100011619	# Albrecht v. Wittelsbach
+					mother=100012818	# Anna Welf
+					1443.02.02={birth=yes}
+					1486.03.05={death=yes}  # Leipzig
 				}
-			100011803={ # C3. Sofie, *1376, +Pressburg 26.9.1425; m.Prague 2.5.1389 King Wenzel IV of Bohemia (*26.2.1361 +16.8.1419)
-				name=Sofie
+				100011690={ # E5. Duke ALBRECHT IV "der Weisse" of Bavaria in München, in Ingolstadt u.Landshut, *München 15.12.1447, +München 10.3.1508; m.Innsbruck 3.1.1487 Archdss Kunigunde of Austria (*16.3.1465, +6.8.1520) $$
+					name=Albrecht
+					dynasty=217
+					religion=catholic culture=german
+					father=100011619	# Albrecht v. Wittelsbach
+					mother=100012818	# Anna Welf
+					1447.12.15={birth=yes}  # München
+					1487.01.03={add_spouse=100022005}	# Kunigunde v. Habsburg
+					1508.03.10={death=yes}  # München
+				}
+					100011794={ # F5. Sibylle, *16.6.1489, +Heidelberg 18.4.1519; m.Heidelberg 1511 Kfst Ludwig V von der Pfalz (*1478 +1544)
+						name=Sibylle
+						female=yes
+						dynasty=217
+						religion=catholic culture=german
+						father=100011690	# Albrecht v. Wittelsbach
+						mother=100022005	# Kunigunde v. Habsburg
+						1489.06.16={birth=yes}
+						1519.04.18={death=yes}  # Heidelberg
+					}
+					100011795={ # F6. Sabine, *24.4.1492, +Nürtingen 30.8.1564; m.Stuttgart 1511 Gf Ulrich VI von Württemberg (*1487 +1550) $$
+						name=Sabine
+						female=yes
+						dynasty=217
+						religion=catholic culture=german
+						father=100011690	# Albrecht v. Wittelsbach
+						mother=100022005	# Kunigunde v. Habsburg
+						1492.04.24={birth=yes}
+						1564.08.30={death=yes}  # Nürtingen
+					}
+					100011726={ # F1. Duke WILHELM IV of Bavaria, *München 13.11.1493, +München 7.3.1550; m.München 3.10.1522 Marie Jakobäa of Baden-Sponheim (*1507 +1580) $$
+						name=Wilhelm
+						dynasty=217
+						religion=catholic culture=german
+						father=100011690	# Albrecht v. Wittelsbach
+						mother=100022005	# Kunigunde v. Habsburg
+						1493.11.13={birth=yes}  # München
+						1522.10.03={add_spouse=100003234}	# Marie Jakobäa von Baden
+						1550.03.07={death=yes}  # München
+					}
+						100011730={ # G2. Duke ALBRECHT V "der Grossmüthige" of Bavaria, *München 29.2.1528, +München 24.10.1579; m.Regensburg 4.7.1546 Archdss Anna of Austria (*7.7.1528 +17.10.1590) $$
+							name=Albrecht
+							dynasty=217
+							religion=catholic culture=german
+							father=100011726	# Wilhelm v. Wittelsbach
+							mother=100003234	# Marie Jakobäa von Baden
+							1528.02.29={birth=yes}  # München
+							1546.07.04={add_spouse=100021188}	# Anna v. Habsburg
+							1579.10.24={death=yes}  # München
+						}
+							# wittel11 -> H2. Duke WILHELM V "der Fromme" of Bavaria, *Landshut 29.9.1548, +Schleissheim 17.2.1626; m.München 22.2.1568 Renée de Lorraine (*20.4.1544 +22.5.1602); for their descendants See HERE
+							100011744={ # H3. Ferdinand, *Landshut 20.1.1550, +München 30.1.1608; m.München 1586 (morganatically) Marie von Pettenbeck (*München 1574 +München 1614); their children were created Grafen von Wartenberg; See HERE
+								name=Ferdinand
+								dynasty=217
+								religion=catholic culture=german
+								father=100011730	# Albrecht v. Wittelsbach
+								mother=100021188	# Anna v. Habsburg
+								1550.01.20={birth=yes}  # Landshut
+								1608.01.30={death=yes}  # München
+							}
+							100011747={ # H6. Marie Anne, *München 21.3.1551, +Graz 29.4.1608; m.Vienna 26.8.1571 Archduke Karl von Steyer (*Vienna 3.6.1540 +Graz 10.7.1590) $$
+								name=Maria
+								female=yes
+								dynasty=217
+								religion=catholic culture=german
+								father=100011730	# Albrecht v. Wittelsbach
+								mother=100021188	# Anna v. Habsburg
+								1551.03.21={birth=yes}  # München
+								1608.04.29={death=yes}  # Graz
+							}
+							100011748={ # H7. Maximiliana Maria, *München 4.7.1552, +München 11.7.1614
+								name=Maximiliana
+								female=yes
+								dynasty=217
+								religion=catholic culture=german
+								father=100011730	# Albrecht v. Wittelsbach
+								mother=100021188	# Anna v. Habsburg
+								1552.07.04={birth=yes}  # München
+								1614.07.11={death=yes}  # München
+							}
+						100011749={ # G4. Matilde, *12.7.1532, +Baden-Baden 1/2.11.1565; m.Regensburg 1557 Mgve Philibert of Baden-Baden (*1536 +k.a.1569) $$
+							name=Matilde
+							female=yes
+							dynasty=217
+							religion=catholic culture=german
+							father=100011726	# Wilhelm v. Wittelsbach
+							mother=100003234	# Marie Jakobäa von Baden
+							1532.07.12={birth=yes}
+							1565.11.02={death=yes}  # Baden-Baden
+						}
+					100011750={ # F2. Duke LUDWIG X of Bavaria-Landshut, *Grünwald 18.9.1495, +Landshut 22.4.1545
+						name=Ludwig
+						dynasty=217
+						religion=catholic culture=german
+						father=100011690	# Albrecht v. Wittelsbach
+						mother=100022005	# Kunigunde v. Habsburg
+						1495.09.18={birth=yes}  # Grünwald
+						1545.04.22={death=yes}  # Landshut
+					}
+					100011796={ # F8. Susanne, *2.4.1502, +Neuburg 23.4.1543; 1m: Augsburg 1518 Mgve Kasimir of Brandenburg (*1481 +1527); 2m: Neuburg 1529 Otto Heinrich, Kfst von der Pfalz (*1502 +1559)
+						name=Susanne
+						female=yes
+						dynasty=217
+						religion=catholic culture=german
+						father=100011690	# Albrecht v. Wittelsbach
+						mother=100022005	# Kunigunde v. Habsburg
+						1502.04.02={birth=yes}
+						1543.04.23={death=yes}  # Neuburg
+					}
+				100011797={ # E6. Duke CHRISTOPH of Bavaria, *6.1.1449, +Rhodos 8.8.1493
+					name=Christoph
+					dynasty=217
+					religion=catholic culture=german
+					father=100011619	# Albrecht v. Wittelsbach
+					mother=100012818	# Anna Welf
+					1449.01.06={birth=yes}
+					1493.08.08={death=yes}  # Rhodos
+				}
+			100011800={ # D2. Beatrix, *ca 1403, +Neumarkt 12.3.1447; 1m: Ortenburg 1424 Gf Hermann III von Cilli (+1426; 2m: Riedenburg 1428 Pfgf Johann von Neuburg (*1383 +1443)
+				name=Beatrix
 				female=yes
 				dynasty=217
 				religion=catholic culture=german
-				father=100011602	# Johann v. Wittelsbach
-				mother=100099226	# Katharina von Görz
-				1376.01.01={birth=yes}
-				1425.09.26={death=yes}  # Pressburg
+				father=100011618	# Ernst v. Wittelsbach
+				mother=100099300	# Elisabetta Visconti
+				1403.01.01={birth=yes}
+				1447.03.12={death=yes}  # Neumarkt
 			}
-			100011802={ # C2. Duke Wilhelm III of Bavaria-Munich, *Munich 1375 +Munich 1435; m.Basel 1433 Margarete of Cleves (*1416 +Stuttgart 1444)
-				name=Wilhelm
+			100011801={ # D3. Elisabeth, *ca 1406, +Heidelberg 5.3.1468; 1m: Mainz 1430 Duke Adolf II of Berg (*before 1408 +1437); 2m: Worms 1440 Hesso, Gf von Leiningen (+1467)
+				name=Elisabeth
+				female=yes
 				dynasty=217
 				religion=catholic culture=german
-				father=100011602	# Johann v. Wittelsbach
-				mother=100099226	# Katharina von Görz
-				1375.01.01={birth=yes}  # Munich
-				1433.01.01={add_spouse=100102588}	# Margarete of Cleves
-				1435.01.01={death=yes}  # Munich
+				father=100011618	# Ernst v. Wittelsbach
+				mother=100099300	# Elisabetta Visconti
+				1406.01.01={birth=yes}
+				1468.03.05={death=yes}  # Heidelberg
 			}
-	462745={ # A4. Wilhelm I, Duke of Bavaria-Straubing, Ct of Holland and Seeland, Ct of Hainault, *Frankfurt 1330, +Le Quesnoy 1388; m.London 1352 Matilda of Lancaster (*1335 +1362)
-		name=Wilhelm
-		dynasty=217
-		religion=catholic culture=german
-		father=462740	# Ludwig v. Wittelsbach
-		mother=462741	# CSS Margaret of Hainault and Seeland
-		1330.01.01={birth=yes}  # Frankfurt
-		1352.01.01={add_spouse=100102742}	# Matilda of Lancaster
-		1388.01.01={death=yes}  # Le Quesnoy
-	}
-	462744={ # A3. Ludwig VI "der Römer", Duke of Upper Bavaria, Mgve of Brandenburg, *Rome 12.5.1330, +Berlin 14.5.1365; 1m: ca 25.7.1345 Pss Kunigunde of Poland (*before 16.5.1335 +Berlin 26.4.1357); 2m: 1360 Ingeborg of Mecklenburg (*ca 1340 +after 25.7.1395)
-		name=Ludwig
-		dynasty=217
-		religion=catholic culture=italian
-		father=462740	# Ludwig v. Wittelsbach
-		mother=462741	# CSS Margaret of Hainault and Seeland
-		1330.05.12={birth=yes}  # Rome
-		1345.07.25={add_spouse=100102663}	# PSS Kunigunde Piast
-		1360.01.01={add_spouse=100002913}	# Ingeborg v. Mecklenburg
-		1365.05.14={death=yes}  # Berlin
-	}
-	462746={ # A5. Albrecht I, Duke of Bavaria-Straubing, Ct of Holland, Seeland and Hainault, regent, *Munich 25.7.1336, +The Hague 13.12.1404; 
-			# 1m: Passau after 19.7.1353 Margarete of Brieg (*1342/3 +The Hague 18/22.2.1386; 
-			# 2m: Heusden 1394 Margarete of Cleves (*ca 1375 +Haus Kleve, nr Haarlem 1412)
-		name=Albrecht
-		dynasty=217
-		religion=catholic culture=german
-		father=462740	# Ludwig v. Wittelsbach
-		mother=462741	# CSS Margaret of Hainault and Seeland
-		1336.07.25={birth=yes}  # Munich
-		1354.07.19={add_spouse=100102751}	# Margarete of Brieg
-		1394.01.01={add_spouse=100102752}	# Margarete of Cleves
-		1404.12.13={death=yes}  # The Hague
-	}
-		100011812={ # B5. Johanna, *1356, +Karlstein 31.12.1386; m.29.9.1370 Wenzel IV of Luxemburg, King of Bohemia, German king (*26.2.1361 +16.8.1419)
-			name=Johanna
+		100011803={ # C3. Sofie, *1376, +Pressburg 26.9.1425; m.Prague 2.5.1389 King Wenzel IV of Bohemia (*26.2.1361 +16.8.1419)
+			name=Sofie
 			female=yes
 			dynasty=217
 			religion=catholic culture=german
-			father=462746	# Albrecht v. Wittelsbach
-			mother=100102751	# Margarete of Brieg
-			1356.01.01={birth=yes}
-			1386.12.31={death=yes}  # Karlstein
+			father=100011602	# Johann v. Wittelsbach
+			mother=100099226	# Katharina von Görz
+			1376.01.01={birth=yes}
+			1425.09.26={death=yes}  # Pressburg
 		}
-		100011811={ # B4. Katharina, *ca 1361, +Hattem 1400; m.Geertruidenberg 1379 Duke Wilhelm of Jülich and Geldern (+Arnhem 1402)
-			name=Katharina
-			female=yes
-			dynasty=217
-			religion=catholic culture=german
-			father=462746	# Albrecht v. Wittelsbach
-			mother=100102751	# Margarete of Brieg
-			1361.01.01={birth=yes}
-			1400.01.01={death=yes}  # Hattem
-		}
-		100011813={ # B6. Margarete, *1363, +Dijon 23.1.1423; m.Cambrai 1385 Duc Jean de Bourgogne (*28.5.1371 +10.9.1419)
-			name=Margarete
-			female=yes
-			dynasty=217
-			religion=catholic culture=german
-			father=462746	# Albrecht v. Wittelsbach
-			mother=100102751	# Margarete of Brieg
-			1363.01.01={birth=yes}
-			1423.01.23={death=yes}  # Dijon
-		}
-		100011808={ # B1. Ct Wilhelm II of Holland, Hainault and Seeland, *5.4.1365, +château de Bouchain 30.5.1417; m.Cambrai 12.4.1385 Marguerite de Bourgogne (*X.1374 +8.3.1441)
+		100011802={ # C2. Duke Wilhelm III of Bavaria-München, *München 1375 +München 1435; m.Basel 1433 Margarete of Cleves (*1416 +Stuttgart 1444)
 			name=Wilhelm
 			dynasty=217
 			religion=catholic culture=german
-			father=462746	# Albrecht v. Wittelsbach
-			mother=100102751	# Margarete of Brieg
-			1365.04.05={birth=yes}
-			1385.04.12={add_spouse=100102754}	# Marguerite de Bourgogne
-			1417.05.30={death=yes}  # château de_Bouchain
+			father=100011602	# Johann v. Wittelsbach
+			mother=100099226	# Katharina von Görz
+			1375.01.01={birth=yes}  # München
+			1433.01.01={add_spouse=100102588}	# Margarete of Cleves
+			1435.01.01={death=yes}  # München
 		}
-			100011809={ # C1. Css Jakobäa of Hainault, Holland and Seeland, *Le Quesnoy 1401, +murdered Schloß Teilingen 1436; 1m: The Hague 1415 Jean, Dauphin of France (*1398 +1417); 2m: The Hague 1418 (div 1422) Jean de Bourgogne, Duke of Brabant (+1427); 3m: 1422 (div 1425) Humphrey, Duke of Gloucester (+1447); 4m: The Hague 1432 Frank von Borsselen, Gf von Ostervant (+1470)
-				name=Jakobäa
-				female=yes
-				dynasty=217
-				religion=catholic culture=german
-				father=100011808	# Wilhelm v. Wittelsbach
-				mother=100102754	# Marguerite de Bourgogne
-				1401.01.01={birth=yes}  # Le Quesnoy
-				1436.01.01={death=yes}  # murdered Schloß Teilingen
-			}
-		100011814={ # B7. Johanna, *Munich 1373, +Vienna 17.10.1410; m.Vienna 1390 Duke Albrecht IV of Austria (*1377 +1404)
-			name=Johanna
+
+#462746 = A5. Albrecht I, Duke of Bavaria-Straubing (1347-1404), Ct of Holland, Seeland and Hainault (1358-1404), regent till 1389, *Munich 25.7.1336, +The Hague 13.12.1404; 1m: Passau aft.19.7.1353 Margarete of Brieg (*1342/3 +The Hague 18/22.2.1386; 2m: Heusden 1394 Margarete of Cleves (*ca 1375 +Haus Kleve, nr Haarlem 1412)		
+	100011812={ # B5. Johanna, *1356, +Karlstein 31.12.1386; m.29.9.1370 Wenzel IV of Luxemburg, King of Bohemia, German king (*26.2.1361 +16.8.1419)
+		name=Johanna
+		female=yes
+		dynasty=217
+		religion=catholic culture=german
+		father=462746	# Albrecht v. Wittelsbach
+		1356.01.01={birth=yes}
+		1386.12.31={death=yes}  # Karlstein
+	}
+	100011811={ # B4. Katharina, *ca 1361, +Hattem 1400; m.Geertruidenberg 1379 Duke Wilhelm of Jülich and Geldern (+Arnhem 1402)
+		name=Katharina
+		female=yes
+		dynasty=217
+		religion=catholic culture=german
+		father=462746	# Albrecht v. Wittelsbach
+		1361.01.01={birth=yes}
+		1400.01.01={death=yes}  # Hattem
+	}
+	100011813={ # B6. Margarete, *1363, +Dijon 23.1.1423; m.Cambrai 1385 Duc Jean de Bourgogne (*28.5.1371 +10.9.1419)
+		name=Margarete
+		female=yes
+		dynasty=217
+		religion=catholic culture=german
+		father=462746	# Albrecht v. Wittelsbach
+		1363.01.01={birth=yes}
+		1423.01.23={death=yes}  # Dijon
+	}
+	100011808={ # B1. Ct Wilhelm II of Holland, Hainault and Seeland, *5.4.1365, +château de Bouchain 30.5.1417; m.Cambrai 12.4.1385 Marguerite de Bourgogne (*X.1374 +8.3.1441)
+		name=Wilhelm
+		dynasty=217
+		religion=catholic culture=german
+		father=462746	# Albrecht v. Wittelsbach
+		1365.04.05={birth=yes}
+		1385.04.12={add_spouse=100102754}	# Marguerite de Bourgogne
+		1417.05.30={death=yes}  # château de_Bouchain
+	}
+		100011809={ # C1. Css Jakobäa of Hainault, Holland and Seeland, *Le Quesnoy 1401, +murdered Schloß Teilingen 1436; 1m: The Hague 1415 Jean, Dauphin of France (*1398 +1417); 2m: The Hague 1418 (div 1422) Jean de Bourgogne, Duke of Brabant (+1427); 3m: 1422 (div 1425) Humphrey, Duke of Gloucester (+1447); 4m: The Hague 1432 Frank von Borsselen, Gf von Ostervant (+1470)
+			name=Jakobäa
 			female=yes
 			dynasty=217
 			religion=catholic culture=german
-			father=462746	# Albrecht v. Wittelsbach
-			mother=100102751	# Margarete of Brieg
-			1373.01.01={birth=yes}  # Munich
-			1410.10.17={death=yes}  # Vienna
+			father=100011808	# Wilhelm v. Wittelsbach
+			mother=100102754	# Marguerite de Bourgogne
+			1401.01.01={birth=yes}  # Le Quesnoy
+			1436.01.01={death=yes}  # murdered Schloß Teilingen
 		}
-		100011810={ # B3. Johann, Duke of Bavaria-Straubing, Ct of Hainault, Holland and Seeland, *1374, +of poisoning at The Hague 6.1.1425; m.1418 Elisabeth of Bohemia (*1390 +3.8.1451)
-			name=Johann
-			dynasty=217
-			religion=catholic culture=german
-			father=462746	# Albrecht v. Wittelsbach
-			mother=100102751	# Margarete of Brieg
-			1374.01.01={birth=yes}
-			1418.01.01={add_spouse=100102769}	# Elisabeth von Luxemburg
-			1425.01.06={death=yes}  # of poisoning at The Hague
-		}
-	100011815={ # A6. OTTO V "der Faule", Duke of Bavaria, Mgve of Brandenburg, *Munich 1340/2, +Schloß Wolfstein 15.11.1379; m.Prague 19.3.1366 Katharina of Luxemburg (*1342 + 20.5.1386/1395)
+	100011814={ # B7. Johanna, *München 1373, +Vienna 17.10.1410; m.Vienna 1390 Duke Albrecht IV of Austria (*1377 +1404) $$
+		name=Johanna
+		female=yes
+		dynasty=217
+		religion=catholic culture=german
+		father=462746	# Albrecht v. Wittelsbach
+		1373.01.01={birth=yes}  # München
+		1410.10.17={death=yes}  # Vienna
+	}
+	100011810={ # B3. Johann, Duke of Bavaria-Straubing, Ct of Hainault, Holland and Seeland, *1374, +of poisoning at The Hague 6.1.1425; m.1418 Elisabeth of Bohemia (*1390 +3.8.1451)
+		name=Johann
+		dynasty=217
+		religion=catholic culture=german
+		father=462746	# Albrecht v. Wittelsbach
+		1374.01.01={birth=yes}
+		1418.01.01={add_spouse=100102769}	# Elisabeth von Luxemburg
+		1425.01.06={death=yes}  # of poisoning at The Hague
+	}
+
+#462740 = Duke LUDWIG IV "der Bayer" of Bavaria in Upper Bavaria (1294-47) in Lower Bavaria (1340-47), King of Italy (1327-47), German King (25.11.1314-1347), Emperor (14.1.1328-1347), *1.4.1282, +Puch bei Fürstenfeldbruck 11.10.1347, bur Munich; 1m: ca 1309 Beatrix of Schweidnitz (*ca 1292 +24.8.1322); 2m: Köln 25.2.1324 Margaret of Hainault, Css of Hainault, Holland and Seeland (*1311 +23.6.1356); (NOTE) His issue:	
+	100011815={ # A6. OTTO V "der Faule", Duke of Bavaria, Mgve of Brandenburg, *München 1340/2, +Schloß Wolfstein 15.11.1379; m.Prague 19.3.1366 Katharina of Luxemburg (*1342 + 20.5.1386/1395)
 		name=Otto
 		dynasty=217
 		religion=catholic culture=german
 		father=462740	# Ludwig v. Wittelsbach
-		mother=462741	# CSS Margaret of Hainault and Seeland
-		1341.01.01={birth=yes}	# Munich
+		mother=462741	# Marguerite d'Avesnes
+		1341.01.01={birth=yes}	# München
 		1366.03.19={add_spouse=100102789}	# Katharina von Luxemburg
 		1379.11.15={death=yes}  # Schloß Wolfstein
 	}
-	100011820={ # A14. Beatrix, *1344, +25.12.1359; m.before 25.10.1356 King Erik XII of Sweden (*1339 +1359)
+	100011820={ # A14. Beatrix, *1344, +25.12.1359; m.before 25.10.1356 King Erik XII of Sweden (*1339 +1359) $$
 		name=Beatrix
 		female=yes
 		dynasty=217
 		religion=catholic culture=german
 		father=462740	# Ludwig v. Wittelsbach
-		mother=462741	# CSS Margaret of Hainault and Seeland
+		mother=462741	# Marguerite d'Avesnes
 		1344.01.01={birth=yes}
 		1359.12.25={death=yes}
 	}
 #wittel9
 
 #wittel11
-100007935={	# Duke WILHELM V "der Fromme" of Bavaria (1579-97), *Landshut 29.9.1548, +Schleissheim 17.2.1626; m.Munich 22.2.1568 Renée de Lorraine (*20.4.1544 +22.5.1602)
+100007935={	# Duke WILHELM V "der Fromme" of Bavaria (1579-97), *Landshut 29.9.1548, +Schleissheim 17.2.1626; m.München 22.2.1568 Renée de Lorraine (*20.4.1544 +22.5.1602) $$
 	name=Wilhelm
 	dynasty=217
 	religion=catholic culture=german
@@ -2264,7 +2193,7 @@
 	1568.02.22={add_spouse=100066101}	# Renée de Lorraine
 	1626.02.07={death=yes}  # Schleissheim
 }
-	100007938={	# A2. MAXIMILIAN I, Elector of Bavaria (1598-1651), having been awarded the electorate (25.2.1623) forfeited by his cousin, Kfst Friedrich V von der Pfalz, *Munich 17.4.1573, +Ingolstadt 22.9.1651; 1m: Nancy 1595 Elizabeth de Lorraine (*1574 +1635); 2m: Vienna 15.7.1635 Archdss Maria Anna of Austria (*13.1.1610 +25.9.1665)
+	100007938={	# A2. MAXIMILIAN I, Elector of Bavaria (1598-1651), having been awarded the electorate (25.2.1623) forfeited by his cousin, Kfst Friedrich V von der Pfalz, *München 17.4.1573, +Ingolstadt 22.9.1651; 1m: Nancy 1595 Elizabeth de Lorraine (*1574 +1635); 2m: Vienna 15.7.1635 Archdss Maria Anna of Austria (*13.1.1610 +25.9.1665) $$
 		name=Maximilian
 		dynasty=217
 		religion=catholic culture=german
@@ -2275,7 +2204,7 @@
 		1635.07.15={add_spouse=100021303}	# Maria Anna v. Habsburg
 		1651.09.27={death=yes}  # Ingolstadt
 	}
-		100007941={	# B1. Ferdinand Maria, Elector of Bavaria (1651-79), *Munich 31.10.1636, +Schleissheim nr Munich 26.5.1679; m.Munich 25.6.1652 Pss Adelaide Henriette of Savoy (*6.11.1636 +18.3.1676)
+		100007941={	# B1. Ferdinand Maria, Elector of Bavaria (1651-79), *München 31.10.1636, +Schleissheim nr München 26.5.1679; m.München 25.6.1652 Pss Adelaide Henriette of Savoy (*6.11.1636 +18.3.1676) $$
 			name=Ferdinand
 			dynasty=217
 			religion=catholic culture=german
@@ -2285,7 +2214,7 @@
 			1652.06.25={add_spouse=100070146}	# Adelaide Henriette de Savoie
 			1679.05.26={death=yes}  # Schleissheim
 		}
-			100007945={	# C5. Marie Anna Christine Victoria, *Munich 28.11.1660, +Versailles 20.4.1690; m.München 28 Jan 1680, Louis, Dauphin of France (*1.11.1661 +14.4.1711)
+			100007945={	# C5. Marie Anna Christine Victoria, *München 28.11.1660, +Versailles 20.4.1690; m.München 28 Jan 1680, Louis, Dauphin of France (*1.11.1661 +14.4.1711) $$
 				name="Marie Anna"
 				female=yes
 				dynasty=217
@@ -2295,7 +2224,7 @@
 				1660.11.17={birth=yes}  # München
 				1690.04.20={death=yes}  # Versailles
 			}
-			100007949={	# C1. MAXIMILIAN II EMANUEL, Elector of Bavaria (1679-1726), Stattholder in Holland (1691-), *Munich 11.7.1662, +Munich 26.2.1726; 1m: Vienna 1685 Archdss Marie Antonie of Austria (*18.1.1669 +24.12.1692); 2m: Wesel 2.1.1695 Therese Kunigunde Sobieska, Pss of Poland (*4.3.1676, +10.3.1730)
+			100007949={	# C1. MAXIMILIAN II EMANUEL, Elector of Bavaria (1679-1726), Stattholder in Holland (1691-), *München 11.7.1662, +München 26.2.1726; 1m: Vienna 1685 Archdss Marie Antonie of Austria (*18.1.1669 +24.12.1692); 2m: Wesel 2.1.1695 Therese Kunigunde Sobieska, Pss of Poland (*4.3.1676, +10.3.1730) $$
 				name=Maximilian
 				dynasty=217
 				religion=catholic culture=german
@@ -2315,17 +2244,17 @@
 					1692.10.28={birth=yes}  # Vienna
 					1699.02.06={death=yes}  # Brussels
 				}
-				100007957={	# D4. KARL ALBRECHT, Elector of Bavaria (1726-45), *Brussels 6.8.1697, +Munich 20.1.1745; elected Emperor KARL VII (12.2.1742-1745) and King of Bohemia (1741-45) cr 7.12.1741, after the death without male issue of his father-in-law and uncle, the Emperors Josef I and Karl VI. However, Bavaria was ill-equipped to support the imperial splendor, and France proved a lukewarm ally. His cousin Maria Theresa eventually defeated him and secured the imperial crown for her husband, Francis Stephen of Lorraine; m.Vienna 5.10.1722 Archdss Marie Amalie of Austria (*22.10.1701 +11.12.1756)
+				100007957={	# D4. KARL ALBRECHT, Elector of Bavaria (1726-45), *Brussels 6.8.1697, +München 20.1.1745; elected Emperor KARL VII (12.2.1742-1745) and King of Bohemia (1741-45) cr 7.12.1741, after the death without male issue of his father-in-law and uncle, the Emperors Josef I and Karl VI. However, Bavaria was ill-equipped to support the imperial splendor, and France proved a lukewarm ally. His cousin Maria Theresa eventually defeated him and secured the imperial crown for her husband, Francis Stephen of Lorraine; m.Vienna 5.10.1722 Archdss Marie Amalie of Austria (*22.10.1701 +11.12.1756) $$
 					name="Karl Albrecht"
 					dynasty=217
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100007949	# Maximilian v. Wittelsbach
 					mother=100036560	# Teresa Kunigunde Sobieski
 					1697.08.06={birth=yes}  # Brussels
 					1722.10.05={add_spouse=100021278}	# Maria Amalia v. Habsburg
 					1745.01.20={death=yes}  # München
 				}
-					100007958={	# E4. Maria Antonia Walburga Symphorosa, *Schloß Nymphenburg 18.7.1724, +Dresden 23.4.1780; m.Dresden 20.6.1747 Elector Friedrich Christian of Saxony (*5.9.1722 +17.12.1763)
+					100007958={	# E4. Maria Antonia Walburga Symphorosa, *Schloß Nymphenburg 18.7.1724, +Dresden 23.4.1780; m.Dresden 20.6.1747 Elector Friedrich Christian of Saxony (*5.9.1722 +17.12.1763) $$
 						name="Maria Antonia"
 						female=yes
 						dynasty=217
@@ -2335,7 +2264,7 @@
 						1724.07.18={birth=yes}  # Nymphenburg
 						1780.04.23={death=yes}  # Dresden
 					}
-					100007961={	# E1. MAXIMILIAN III JOSEF Karl, Elector of Bavaria (1745-77), *Munich 28.3.1727, +Munich 30.12.1777; he was succeeded as Elector of Bavaria by his distant cousin, Karl Theodor of Sulzbach, Elector Palatine; m.Munich 1747 Pss Maria Anna of Saxony (*29.8.1728 +17.2.1797)
+					100007961={	# E1. MAXIMILIAN III JOSEF Karl, Elector of Bavaria (1745-77), *München 28.3.1727, +München 30.12.1777; he was succeeded as Elector of Bavaria by his distant cousin, Karl Theodor of Sulzbach, Elector Palatine; m.München 1747 Pss Maria Anna of Saxony (*29.8.1728 +17.2.1797) $$
 						name=Maximilian
 						dynasty=217
 						religion=catholic culture=german
@@ -2345,7 +2274,7 @@
 						1747.07.09={add_spouse=100007552}	# Marie Anna v. Wettin
 						1777.12.30={death=yes}  # München
 					}
-					100007964={	# E6. Marie Anna Josepha Augusta, *Nymphenburg 7.8.1734, +Munich 7.5.1776; m.Ettlingen 1755 Mgve Ludwig Georg of Baden-Baden (*1702 +Rastatt 1761)
+					100007964={	# E6. Marie Anna Josepha Augusta, *Nymphenburg 7.8.1734, +München 7.5.1776; m.Ettlingen 1755 Mgve Ludwig Georg of Baden-Baden (*1702 +Rastatt 1761) $$
 						name="Maria Josefa"
 						female=yes
 						dynasty=217
@@ -2355,7 +2284,7 @@
 						1734.08.07={birth=yes}  # Nymphenburg
 						1776.05.07={death=yes}  # München
 					}
-					100007966={	# E7. Josepha Maria Antonia Walburga, *Munich 30.3.1739, +Vienna 28.5.1767, Vienna; m.Vienna 23.1.1765 Emperor Josef II (*13.3.1741 +20.2.1790)
+					100007966={	# E7. Josepha Maria Antonia Walburga, *München 30.3.1739, +Vienna 28.5.1767, Vienna; m.Vienna 23.1.1765 Emperor Josef II (*13.3.1741 +20.2.1790) $$
 						name=Josepha
 						female=yes
 						dynasty=217
@@ -2369,7 +2298,7 @@
 				100007967={	# 6e) Philipp Moritz Maria, Elekt of Paderborn and Münster 1719 (Brussels 5 Aug 1698-Rome 12 Mar 1719)
 					name="Philipp Moritz"
 					dynasty=217
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100007949	# Maximilian v. Wittelsbach
 					mother=100036560	# Teresa Kunigunde Sobieski
 					1698.08.05={birth=yes}  # Brussels
@@ -2378,7 +2307,7 @@
 				100007968={	# 7e) Ferdinand Maria Innocenz (Brussels 5 Aug 1699-München 9 Dec 1738); m.Reichstadt 5 Feb 1719 Anna Maria Pfgfn von Neuburg (Reichstadt 30 Jan 1693-Ahausen 12 Sep 1751) $$
 					name=Ferdinand
 					dynasty=217
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100007949	# Maximilian v. Wittelsbach
 					mother=100036560	# Teresa Kunigunde Sobieski
 					1699.08.05={birth=yes}  # Brussels
@@ -2424,7 +2353,7 @@
 			1668.04.24={add_spouse=100069273}	# Mauricette Fébronie de la Tour d’Auvergne
 			1705.03.20={death=yes}  # Türkheim Swabia
 		}
-	100007973={	# A8. Maria Anna, *Munich 8.12.1574, +Graz 8.3.1616; m.Graz 23.4.1600 Emperor Ferdinand II von Habsburg (*9.7.1578 +15.2.1637)
+	100007973={	# A8. Maria Anna, *München 8.12.1574, +Graz 8.3.1616; m.Graz 23.4.1600 Emperor Ferdinand II von Habsburg (*9.7.1578 +15.2.1637) $$
 		name="Maria Anna"
 		female=yes
 		dynasty=217
@@ -2434,7 +2363,7 @@
 		1574.12.08={birth=yes}  # München
 		1616.03.08={death=yes}  # Graz
 	}
-	100007974={	# A6. Albrecht VI "der Leuchtenberger", Ldgf von Leuchtenberg, *Munich 13.5.1584, +Munich 5.7.1666; m.Munich 27.4.1612 Ldgfn Mechthildis von Leuchtenberg (*Pfreimd 15.10.1588, +Laufen 1.6.1634)
+	100007974={	# A6. Albrecht VI "der Leuchtenberger", Ldgf von Leuchtenberg, *München 13.5.1584, +München 5.7.1666; m.München 27.4.1612 Ldgfn Mechthildis von Leuchtenberg (*Pfreimd 15.10.1588, +Laufen 1.6.1634)
 		name=Albrecht
 		dynasty=217
 		religion=catholic culture=german
@@ -2444,7 +2373,7 @@
 		1612.02.26={add_spouse=100092552}	# LANDGFN Mechtildis von Leuchtenberg
 		1666.07.05={death=yes}  # München
 	}
-	100007983={	# A10. Magdalene, *Munich 4.7.1587, +Neuburg a.d.Donau 25.9.1628; m.Munich 11.11.1613 Pfgf Wolfgang Wilhelm von Neuburg (*4.11.1578 +20.3.1653)
+	100007983={	# A10. Magdalene, *München 4.7.1587, +Neuburg a.d.Donau 25.9.1628; m.München 11.11.1613 Pfgf Wolfgang Wilhelm von Neuburg (*4.11.1578 +20.3.1653) $$
 		name=Magdalena
 		female=yes
 		dynasty=217
@@ -2473,7 +2402,7 @@
 	1723.01.01={birth=yes}
 	1780.01.01={death=yes}
 }
-	100292307={ # A1. Maximilian Josef Graf von Holnstein aus Bayern, *29.5.1760, +1838; 1m: 18.2.1784 Gfn Caroline von Bretzenheim (*27.1.1769, +27.6.1786); 2m: Schwarzenfels 1.11.1793 Pss Maria Josepha zu Hohenlohe-Schillingsfürst (*3.4.1774 +20.9.1824)
+	100292307={ # A1. Maximilian Josef Graf von Holnstein aus Bayern, *29.5.1760, +1838; 1m: 18.2.1784 Gfn Caroline von Bretzenheim (*27.1.1769, +27.6.1786); 2m: Schwarzenfels 1.11.1793 Pss Maria Josepha zu Hohenlohe-Schillingsfürst (*3.4.1774 +20.9.1824) $$
 		name="Maximilian Joseph"
 		dynasty=1002265
 		religion=catholic culture=german
@@ -2482,7 +2411,7 @@
 		1793.11.01={add_spouse=100001872}	# Maria Josepha zu Hohenlohe-Waldenburg-Schillingsfürst
 		1838.01.01={death=yes}
 	}
-	100292308={ # A3. Gf Klemens August, *1763, +20 Oct 1814; m.23 Jan 1785 Gfn Antonie Marie von Toerring-Jettenbach (29 Nov 1761-Liebenstein, Bohemia 20 Oct 1814)
+	100292308={ # A3. Gf Klemens August, *1763, +20 Oct 1814; m.23 Jan 1785 Gfn Antonie Marie von Toerring-Jettenbach (29 Nov 1761-Liebenstein, Bohemia 20 Oct 1814) $$
 		name="Klemens August"
 		dynasty=1002265
 		religion=catholic culture=german
@@ -2491,7 +2420,7 @@
 		1785.01.23={add_spouse=100001438}	# Antonia v. Toerring-Jettenbach
 		1814.10.20={death=yes}
 	}
-	100292309={ # A6. Gf Sigismund, *1768, +1804; m.1787 Gfn Josepha Anna Fugger von Zinneburg (1764 +1846)
+	100292309={ # A6. Gf Sigismund, *1768, +1804; m.1787 Gfn Josepha Anna Fugger von Zinneburg (1764 +1846) $$
 		name=Sigismund
 		dynasty=1002265
 		religion=catholic culture=german
@@ -2502,11 +2431,813 @@
 	}
 #wittel12
 
+#wittel15
+100302820={ # B5. Friedrich I Gf von Löwenstein, *1502, +1541; m.1524 Helene von Königsegg (*1509 +1566; their descendants were counts von Löwenstein
+	name=Friedrich
+	dynasty=1002610
+	religion=catholic culture=german
+	1502.01.01={birth=yes}
+	1541.12.01={death=yes}
+}
+	100300464={ # C1. Wolfgang Gf von Löwenstein-Scharffeneck, *1527, +1571; m.1551 Rosalie von Hewen (*1530 +1581)
+		name=Wolfgang
+		dynasty=1002610
+		religion=catholic culture=german
+		father=100302820	# Friedrich v. Löwenstein-Wertheim-Rochefort
+		1527.01.01={birth=yes}
+		1571.12.01={death=yes}
+	}
+		100302827={ # D2. Wolfgang II Gf von Löwenstein-Scharffeneck, *1555, +1596; m.1585 Gfn Katharina Anastasia von Waldeck (*1566 +1635) $$
+			name=Wolfgang
+			dynasty=1002610
+			religion=catholic culture=german
+			father=100300464	# Wolfgang v. Löwenstein-Wertheim-Rochefort
+			1555.08.19={birth=yes}
+			1585.10.18={add_spouse=100010779}	# Katharina Anastasia zu Waldeck u.Pyrmont
+			1596.11.29={death=yes}
+		}
+			100302829={ # E1. Georg Ludwig, *Habitzheim 29.1.1587, +Erfurt 3.1.1633; m.Arolsen 2.3.1620 Gfn Elisabeth Juliane von Erbach (*Erbach 13.1.1600, +Saalfeld 29.5.1640) $$
+				name="Georg Ludwig"
+				dynasty=1002610
+				religion=catholic culture=german
+				father=100302827	# Wolfgang v. Löwenstein-Wertheim-Rochefort
+				mother=100010779	# Katharina Anastasia zu Waldeck u.Pyrmont
+				1587.01.29={birth=yes}  # Habitzheim
+				1620.03.02={add_spouse=100011923}	# Elisabeth Juliana von Erbach
+				1633.01.03={death=yes}  # Erfurt
+			}
+	100302830={ # C2. Fridrich II, *1528, +1569; m.1561 Amalie of Baden (*1513 +1594) $$
+		name=Friedrich
+		dynasty=1002610
+		religion=catholic culture=german
+		father=100302820	# Friedrich v. Löwenstein-Wertheim-Rochefort
+		1528.01.01={birth=yes}
+		1561.01.01={add_spouse=100004400}	# Amalie von Baden
+		1569.12.01={death=yes}
+	}
+	100302821={ # C3. Ludwig III Gf zu Löwenstein-Wertheim, Stattholder of Styria, Carinthia and Carniola, *Vaihingen 17.2.1530, +Wertheim 13.3.1611; m.2.9.1566 Gfn Anna zu Stolberg, heiress of Wertheim (*1531/48 !roglo! +Breuberg 2.11.1599) $$
+		name=Ludwig
+		dynasty=1002610
+		religion=catholic culture=german
+		father=100302820	# Friedrich v. Löwenstein-Wertheim-Rochefort
+		1530.02.17={birth=yes}
+		1566.09.02={add_spouse=100009702}	# Anna zu Stolberg-Stolberg
+		1611.03.13={death=yes}
+	}
+		100385165={ # D1. Christoph Ludwig Gf zu Löwenstein-Wertheim-Virenburg, *Wertheim 3.5.1568, +Wertheim 17.2.1618; m.27.4.1592 Gfn Elisabeth von Manderscheid, heiress of Virneburg (*27.7.1569 +26.10.1621)
+			name=Ludwig
+			dynasty=1002610
+			religion=catholic culture=german
+			father=100302821	# Ludwig v. Löwenstein-Wertheim-Rochefort
+			mother=100009702	# Anna zu Stolberg-Stolberg
+			1568.05.03={birth=yes}
+			1618.02.17={death=yes}
+		}
+			100302828={ # E1. Friedrich Ludwig, *Löwenstein 1598, +Heilbronn 1657; 1m: Wernigerode 1622 Gfn Anna Hedwig zu Stolberg (*1599 +Landau 1634); 2m: 1636 Gfn Agnes Maria von Tübingen (*1599 +1638); 3m: Stuttgart 1644 Frn Anna Sidonia von Teuffenbach (*Graz 1623 +Wertheim 1657) $$
+				name="Friedrich Ludwig"
+				dynasty=1002610
+				religion=catholic culture=german
+				father=100385165	# Ludwig v. Löwenstein-Wertheim-Rochefort
+				1598.03.02={birth=yes}
+				1622.09.29={add_spouse=100009708}	# Anna Hedwig zu Stolberg-Stolberg
+				1657.06.11={death=yes}
+			}
+				100302825={ # F1. Ludwig Ernst, *Wertheim 1627, +Wertheim 1681; m.Homburg 1661 Gfn Katharina Elisabeth von Sayn-Wittgenstein (*Wittgenstein 1639 +Wertheim 1671) $$
+					name="Ludwig Ernst"
+					dynasty=1002610
+					religion=catholic culture=german
+					father=100302828	# Friedrich Ludwig v. Löwenstein-Wertheim-Rochefort
+					mother=100009708	# Anna Hedwig zu Stolberg-Stolberg
+					1627.01.01={birth=yes}
+					1661.01.01={add_spouse=100004643}	# Katharina Elisabeth zu Sayn-Wittgenstein-Berleburg
+					1681.01.01={death=yes}
+				}
+					100397427={ # G2. Eucharius Kasimir, *Wertheim 1668, +Esslingen 1698; m.Gaildorf 1693 Gfn Juliana Dorothea von Limpurg-Gaildorf (*Schloß Schmiedefeld 1677 +Gaildorf 1734)
+						name="Eucharius Kasimir"
+						dynasty=1002610
+						religion=catholic culture=german
+						father=100302825	# Ludwig Ernst v. Löwenstein-Wertheim-Rochefort
+						mother=100004643	# Katharina Elisabeth zu Sayn-Wittgenstein-Berleburg
+						1668.01.01={birth=yes}  # Wertheim
+						1698.12.01={death=yes}  # Schleiz
+					}
+						100302824={ # H1. Juliana Dorothea Luisa, *Wertheim 1694, +Schleiz 1734; m.Gaildorf 1721 Gf Heinrich I Reuss zu Schleiz (+1744) $$
+							name="Juliane Dorothea"
+							female=yes
+							dynasty=1002610
+							religion=catholic culture=german
+							father=100397427	# Eucharius Kasimir v. Löwenstein-Wertheim-Rochefort
+							1694.07.08={birth=yes}  # Wertheim
+							1734.02.15={death=yes}  # Schleiz
+						}
+				100302823={ # F2. Friedrich Eberhard, *Wertheim 1629, +Wertheim 1683; 1m: Brake 1667 Gfn Ottilie zur Lippe-Brake (*Brake 1639, +Löwenstein 1680); 2m: Waldenburg 1681 Gfn Susanne Sophie von Hohenlohe-Waldenburg (*1648 +1691) $$
+					name="Friedrich Eberhard"
+					dynasty=1002610
+					religion=catholic culture=german
+					father=100302828	# Friedrich Ludwig v. Löwenstein-Wertheim-Rochefort
+					mother=100009708	# Anna Hedwig zu Stolberg-Stolberg
+					1629.08.12={birth=yes}
+					1667.08.26={add_spouse=100002951}	# Ottilie zu Schaumburg-Lippe
+					1681.03.25={add_spouse=100003999}	# Susanna von Hohenlohe in Öhringen
+					1683.03.23={death=yes}
+				}
+				100302822={ # F4. Albrecht, *Wertheim 1647, +Löwenstein 1688; m.Greifenstein 1670 Gfn Charlotte Ernestina au Solms, (+Greifenstein (*Greifenstein 1646 +Braunfels 1720) $$
+					name=Albrecht
+					dynasty=1002610
+					religion=catholic culture=german
+					father=100302828	# Friedrich Ludwig v. Löwenstein-Wertheim-Rochefort
+					1647.01.01={birth=yes}
+					1670.04.19={add_spouse=100005885}	# Charlotte Ernestina von Solms-Braunfels
+					1688.01.01={death=yes}
+				}
+		100302826={ # D5. Wolfgang Ernst zu Löwenstein-Wertheim, *5.8.1578, +26.5.1636; m.1625 Gfn Barbara von Hohenlohe-Waldenburg (*1592 +1665) $$
+			name="Wolfgang Ernst"
+			dynasty=1002610
+			religion=catholic culture=german
+			father=100302821	# Ludwig v. Löwenstein-Wertheim-Rochefort
+			mother=100009702	# Anna zu Stolberg-Stolberg
+			1578.08.05={birth=yes}
+			1625.03.09={add_spouse=100005683}	# Barbara von Hohenlohe in Öhringen
+			1636.05.26={death=yes}
+		}
+		# wittel17 -> D7. Gf Johann Dietrich von Löwenstein-Wertheim-Rochefort, *31.1.1585, +6.3.1644; 1m: 1610 Josina von der Marck (de La Mark) (*3.1.1583 +26.2.1626); 2m: morganatically, 1626 Maria Sibylla von Dummermünden (+1656); for his descendants See HERE
+#wittel15
+
+#wittel16
+100394223={ # Heinrich Friedrich Graf von Löwenstein-Wertheim-Virneburg, *Löwenstein 1682 +Wertheim 1721; m.1703 Gfn Amöne Sophie von Limpurg (*1684 +1746)
+	name="Heinrich Friedrich"
+	dynasty=1002113
+	religion=catholic culture=german
+	1682.01.01={birth=yes}
+	1721.12.01={death=yes}
+}
+	100394227={ # A1. Johann Ludwig Vollrath, *Wertheim 14.4.1705, +Wertheim 4.2.1790; m.Burgfarrnbach 7.12.1738 Gfn Friederike zu Erbach-Erbach (*Erbach 6.7.1722, +Wertheim 29.12.1786) $$
+		name="Johann Ludwig"
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100394223	# Heinrich Friedrich v. Löwenstein-Wertheim
+		1705.04.14={birth=yes}  # Wertheim
+		1738.12.07={add_spouse=100011876}	# Friederike von Erbach
+		1790.02.04={death=yes}  # Wertheim
+	}
+		100002710={ # B1. Johann Karl Ludwig, Gf zu Löwenstein-Wertheim-Virneburg, -cr Fürst zu Löwenstein-Wertheim-Freudenberg 19.11.1812, *10.1.1740, +16.2.1816; m.Barchfeld 6.8.1764 Landgravine Dorothea Maria of Hesse-Philippsthal-Barchfeld (*30.12.1738, +26.9.1799) $$
+			name=Johann
+			dynasty=1002113
+			religion=catholic culture=german
+			father=100394227	# Johann Ludwig v. Löwenstein-Wertheim
+			mother=100011876	# Friederike von Erbach
+			1740.01.10={birth=yes}  # Wertheim
+			1764.08.06={add_spouse=100208403}	# Dorothea von Hessen-Philippsthal-Barchfeld v. Hessen-Philippsthal
+			1816.02.16={death=yes}  # Wertheim
+		}
+			100002711={ # 2a) Marie Karoline Friederike Luise (10 Dec 1766-17 Nov 1830); m.1st 5 Sep 1783 (div 1791) Johann Wilhelm Gf zu Schaumburg-Lippe (d.5 Apr 1799); m.2nd 4 Jun 1791 Johann Bertram Gf von Gronsfeld-Diepenbroick (d.3 Dec 1805)
+				name=Karoline
+				female=yes
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002710	# Johann v. Löwenstein-Wertheim
+				mother=100208403	# Dorothea von Hessen-Philippsthal-Barchfeld v. Hessen-Philippsthal
+				1766.12.10={birth=yes}
+				1830.11.17={death=yes}
+			}
+			100002712={ # 5a) Sophie Amalie Charlotte (Wertheim 2 Apr 1771-Rüdenhausen 25 May 1823); m.1st Castell 30 Apr 1788 Albrecht Friedrich Karl Gf zu Castell-Castell (Remlingen 2 May 1766-Castell 11 Apr 1810); m.2nd Castell 2 Aug 1812 Christian Friedrich Gf zu Castell-Rüdenhausen (Remlingen 21 Apr 1772-Rüdenhausen 28 Mar 1850) $$
+				name=Sophie
+				female=yes
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002710	# Johann v. Löwenstein-Wertheim
+				mother=100208403	# Dorothea von Hessen-Philippsthal-Barchfeld v. Hessen-Philippsthal
+				1771.04.02={birth=yes}  # Wertheim
+				1823.05.25={death=yes}  # Rüdenhausen
+			}
+			100002713={ # 7a) Wilhelmine (Wertheim 23 Apr 1774-Rüdenhausen 25 Jun 1817); m.Wertheim 10 Jan 1802 Josias Gf zu Waldeck u.Pyrmont (Bergheim 13 May 1774-Bergheim 9 Jun 1829) $$
+				name=Wilhelmine
+				female=yes
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002710	# Johann v. Löwenstein-Wertheim
+				mother=100208403	# Dorothea von Hessen-Philippsthal-Barchfeld v. Hessen-Philippsthal
+				1774.04.23={birth=yes}  # Wertheim
+				1817.06.25={death=yes}  # Rüdenhausen
+			}
+			100002720={ # 8a) GEORG Wilhelm Ludwig Fst zu Löwenstein-Wertheim-Freudenberg (Wertheim 15 Nov 1775-Wertheim 26 Jul 1855); m.1st Burgfarrnbach 26 Aug 1800 Ernestine Luise Gfn von Pückler u.Limpurg (Stuttgart 24 Jun 1784-Wertheim 26 Jun 1824); m.2nd Wächtersbach 22 Jan 1827 Charlotte Sophie Henriette Luise Gfn von Ysenburg-Büdingen in Philippseich (Philippseich 25 Jun 1803-Frankfurt 11 Mar 1874) $$
+				name=Georg
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002710	# Johann v. Löwenstein-Wertheim
+				mother=100208403	# Dorothea von Hessen-Philippsthal-Barchfeld v. Hessen-Philippsthal
+				1775.11.15={birth=yes}  # Wertheim
+				1800.08.26={add_spouse=100011963}	# Ernestine Luise von Pückler-Limpurg
+				1827.01.22={add_spouse=100009294}	# Charlotte Sophie v. Isenburg
+				1855.07.26={death=yes}  # Wertheim
+			}
+				100002723={ # 2b) ADOLF Carl Constantin Friedrich Ludwig Vollrath Philipp Fst zu Löwenstein-Wertheim-Freudenberg (Nürnberg 9 Dec 1805-Würzburg 9 Aug 1861); m.(morganatically) Bendorf 18 Apr 1831 Katharina Schlund (Wertheim 3 Sep 1807-Coburg 9 Apr 1877)
+					name=Adolf
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002720	# Georg v. Löwenstein-Wertheim
+					mother=100011963	# Ernestine Luise von Pückler-Limpurg
+					1805.12.09={birth=yes}  # Nürnberg
+					1831.04.18={add_spouse=100094229}	# Katharina Schlund
+					1861.08.09={death=yes}  # Würzburg
+				}
+				100002724={ # 3b) Malwina Christine (Wertheim 27 Dec 1808-Kolberg 18 Feb 1879); m.1st Wertheim 30 Sep 1828 (div 1851) Vollrath Friedrich Gf zu Ysenburg-Büdingen in Philippseich (Philippseich 15 Sep 1800-Wächtersbach 9 Jan 1864); m.2nd Aschaffenburg 24 Jul 1854 Antonio Bartolomeo Pires, Visconde Queluz
+					name=Malwina
+					female=yes
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002720	# Georg v. Löwenstein-Wertheim
+					mother=100011963	# Ernestine Luise von Pückler-Limpurg
+					1808.12.27={birth=yes}  # Wertheim
+					1879.02.18={death=yes}  # Kolberg
+				}
+			100002802={ # 12a) Wilhelm Ernst Ludwig Carl (Wertheim 27 Apr 1783-Blankenberge, nr Ostende 15 Aug 1847); m.Oppenweiler 26 Jul 1812 Dorothea Christine von Kahlden (Tangrin, Mecklenburg 8 Nov 1791-Siebleben bei Gotha 16 Dec 1862)
+				name=Wilhelm
+				dynasty=1002113
+				religion=catholic culture=german
+				father=100002710	# Johann v. Löwenstein-Wertheim
+				mother=100208403	# Dorothea von Hessen-Philippsthal-Barchfeld v. Hessen-Philippsthal
+				1783.04.27={birth=yes}  # Wertheim
+				1812.07.26={add_spouse=100094376}	# Dorothea Christine von Kahlden
+				1847.08.15={death=yes}  # Blankenberge nr Ostende
+			}
+				100002804={ # 1b) WILHELM Paul Ludwig Fst zu Löwenstein-Wertheim-Freudenberg (Stuttgart 19 Mar 1817-Karlsruhe 10 Mar 1887); m.1st Pillnitz bei Dresden 20 Apr 1852 Olga Clara Gfn von Schönburg-Forderglauchau (Wechselburg 28 Jan 1831-Frankfurt 16 Mar 1868); m.2nd (morganatically) Paris 25 May 1870 Bertha Hagen (26 Mar 1845-Seeburg bei Luzern 21 Aug 1895) $$
+					name=Wilhelm
+					dynasty=1002113
+					religion=catholic culture=german
+					father=100002802	# Wilhelm v. Löwenstein-Wertheim
+					mother=100094376	# Dorothea Christine von Kahlden
+					1817.03.19={birth=yes}  # Stuttgart
+					1852.04.20={add_spouse=100008963}	# Olga-Klara von Schönburg-Forderglauchau
+					1887.03.10={death=yes}  # Karlsruhe
+				}
+					100002805={ # 1c) ERNST ALBAN LUDWIG Fst zu Löwenstein-Wertheim-Freudenberg (Dresden 25 Sep 1854-Kreuzwertheim 20 Apr 1931); m.Putbus 17 Jun 1886 Wanda Gfn von Wylich u.Lottum (Berlin 2 Dec 1867-Kreuzwertheim 10 Mar 1930) $$
+						name=Ernst
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1854.09.25={birth=yes}  # Dresden
+						1886.06.17={add_spouse=100003352}	# Wanda v. Putbus
+						1931.04.20={death=yes}  # Kreuzwertheim
+					}
+					100002806={ # 2c) Alfred Ludwig Wilhelm Leopold (Siebleben 19 Oct 1855-Langenzell 20 Apr 1925); m.Frankfurt 9 Feb 1880 Pauline Gfn von Reichenbach-Lessonitz (Frankfurt 5 Jun 1858-Langenzell 21 Oct 1927) $$
+						name=Alfred
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1855.10.19={birth=yes}  # Siebleben
+						1880.02.09={add_spouse=100294612}	# Pauline von Reichenbach-Lessonitz
+						1925.04.20={death=yes}  # Langenzell
+					}
+						100002808={ # 1d) Olga Amalie Wilhelmine Ernestine Marie Pauline (Bonn 25 Oct 1880-Heidelberg 1 Jul 1961); m.1st Langenzell 5 Oct 1898 (div 1920) Heinrich Pr von Schönburg-Waldenburg (Droyssig 8 Jun 1863-Rheda 28 Dec 1945); m.2nd Frankfurt 22 Oct 1920 Wolfgang Pr zu Löwenstein-Wertheim-Freudenberg (1890-1945) $$
+							name=Olga
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100002806	# Alfred v. Löwenstein-Wertheim
+							mother=100294612	# Pauline von Reichenbach-Lessonitz
+							1880.10.25={birth=yes}  # Bonn
+							1961.07.01={death=yes}  # Heidelberg
+						}
+						100002809={ # 2d) Pauline (Heidelberg 16 Oct 1881-Miltitz 24 Apr 1945); m.Frankfurt 24 Feb 1900 Ulrich Pr von Schönburg-Waldenburg (Hermsdorf 25 Aug 1869-Guteborn 1 Dec 1939) $$
+							name=Pauline
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100002806	# Alfred v. Löwenstein-Wertheim
+							mother=100294612	# Pauline von Reichenbach-Lessonitz
+							1881.10.16={birth=yes}  # Heidelberg
+							1945.04.24={death=yes}  # Miltitz
+						}
+						100003669={ # 3d) Amélie Karoline Ludovika Gabriele (Langenzell 24 Jun 1883-Hochburg 23 Sep 1978); m.Langenzell 5 Oct 1903 Otto Friedrich Gf zu Castell-Castell (Castell 12 May 1868-Hochburg 8 Jul 1939) $$
+							name=Amélie
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100002806	# Alfred v. Löwenstein-Wertheim
+							mother=100294612	# Pauline von Reichenbach-Lessonitz
+							1883.06.24={birth=yes}  # Langenzell
+							1978.09.23={death=yes}  # Hochburg
+						}
+						100003673={ # 4d) Madeleine Wilhelmine Felice Ludovika (Langenzell 8 Mar 1885-Garmisch-Partenkirchen 30 Jan 1976); m.Langenzell 21 Nov 1902 Richard Fst zu Sayn-Wittgenstein-Berleburg (Berleburg 27 May 1882-nr Hanau 25 Apr 1925) $$
+							name=Madeleine
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100002806	# Alfred v. Löwenstein-Wertheim
+							mother=100294612	# Pauline von Reichenbach-Lessonitz
+							1885.03.08={birth=yes}  # Langenzell
+							1976.01.30={death=yes}  # Garmisch-Partenkirchen
+						}
+						100003824={ # 5d) Ilka Wilhelmine Auguste Adolfine (Langenzell 9 Jan 1887-Schweinfurt 31 Mar 1971); m.Langenzell 26 Jul 1905 Friedrich Gf zu Ortenburg (Coburg 23 Jul 1871-Bayerhof 4 Mar 1940) $$
+							name=Ilka
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100002806	# Alfred v. Löwenstein-Wertheim
+							mother=100294612	# Pauline von Reichenbach-Lessonitz
+							1887.01.09={birth=yes}  # Langenzell
+							1971.03.31={death=yes}  # Schweinfurt
+						}
+						100003840={ # 6d) Elisabeth Ferdinande (Langenzell 5 May 1890-Frankfurt 9 Mar 1953); m.1st Langenzell 25 Sep 1909 (div 1923) Otto-Konstantin Pr zu Sayn-Wittgenstein-Berleburg (München 11 Jun 1878-Bad Ischl 16 Nov 1955); m.2nd Frankfurt 28 Mar 1930 Richard Merton (Frankfurt 1 Dec 1881-Frankfurt 6 Jan 1960)
+							name=Elisabeth
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100002806	# Alfred v. Löwenstein-Wertheim
+							mother=100294612	# Pauline von Reichenbach-Lessonitz
+							1890.05.05={birth=yes}  # Langenzell
+							1953.03.09={death=yes}  # Frankfurt
+						}
+						100003841={ # 7d) UDO Amelung Karl Friedrich Wilhelm Oleg Paul Fst zu Löwenstein-Wertheim-Freudenberg (Langenzell 8 Sep 1896-Bad Mergentheim 28 Dec 1980); m.Castell 3 May 1922 Margarete Gfn zu Castell-Castell (Castell 27 Oct 1899-Wertheim 24 Dec 1969) $$
+							name=Udo
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100002806	# Alfred v. Löwenstein-Wertheim
+							mother=100294612	# Pauline von Reichenbach-Lessonitz
+							1896.09.08={birth=yes}  # Langenzell
+							1922.05.03={add_spouse=100000566}	# Margarete v. Castell-Castell
+							1980.12.28={death=yes}  # Bad Mergentheim
+						}
+							100003843={ # 1e) Ameli Gertrud Pauline Antonie Madeleine Wanda Elisabeth (Frankfurt 4 Mar 1923-Kiel 26 Mar 2016); m.Kreuzwertheim 7 Aug 1951 Anton Gunther, Duke of Oldenburg (Lensahn 16 Jan 1923-Güldenstein 20 Sep 2014) $$
+								name=Ameli
+								female=yes
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003841	# Udo v. Löwenstein-Wertheim
+								mother=100000566	# Margarete v. Castell-Castell
+								1923.03.04={birth=yes}  # Frankfurt
+								2016.03.26={death=yes}  # Kiel
+							}
+							100003845={ # 2e) ALFRED-ERNST Friedrich Karl Richard Otto Konstantin Kasimir Bernhard Fst zu Löwenstein-Wertheim-Freudenberg (Schloß Triefenstein 19 Sep 1924-Kreuzwertheim 13 Jan 2010); m.Kreuzwertheim 9 Sep 1950 Ruth-Erika von Buggenhagen (Buggenhagen 25 Jun 1922-15 Oct 2009)
+								name=Alfred-Ernst
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003841	# Udo v. Löwenstein-Wertheim
+								mother=100000566	# Margarete v. Castell-Castell
+								1924.09.19={birth=yes}  # Schloß Triefenstein
+								1950.09.09={add_spouse=100099313}	# Ruth-Erika von Buggenhagen
+								2010.01.13={death=yes}  # Kreuzwertheim
+							}
+								100003846={ # 1f) LUDWIG Udo Hans Peter Alfred Fst zu Löwenstein-Wertheim-Freudenberg (b.Kreuzwertheim 24 May 1951); m.1st (civ) Kreuzwertheim 28 May 1976 (rel) Behringersdorf bei Nürnberg 29 May 1976 Verena von Stülpnagel (Sigmaringen 31 Jan 1952-Kreuzwertheim 26 Oct 1985); m.2nd (civ) Kreuzwertheim 4 Aug 1987 (rel) Schöntal an der Jagst 12 Sep 1987 Elisabeth Gfn von Waldburg-Wolfegg-Waldsee (b.Möckmühl 7 Jun 1962)
+									name=Ludwig
+									dynasty=1002113
+									religion=catholic culture=german
+									father=100003845	# Alfred-Ernst v. Löwenstein-Wertheim
+									mother=100099313	# Ruth-Erika von Buggenhagen
+									1951.05.24={birth=yes}  # Kreuzwertheim
+									1976.05.28={add_spouse=100099314}	# Verena von Stülpnagel
+									1987.08.04={add_spouse=100006915}	# Elisabeth v. Waldburg zu Wolfegg u.Waldsee
+								}
+									100003884={ # 1g) Sophie Amelie Margarita Alexandra Monika Isabel (b.Wertheim 1 Sep 1988)
+										name=Sophie
+										female=yes
+										dynasty=1002113
+										religion=catholic culture=german
+										father=100003846	# Ludwig v. Löwenstein-Wertheim
+										mother=100006915	# Elisabeth v. Waldburg zu Wolfegg u.Waldsee
+										1988.09.01={birth=yes}  # Wertheim
+									}
+									100003886={ # 2g) Amelie Anastasia Sylvia Alexandra Ruth Elisabeth (b.Wertheim 15 Aug 1990)
+										name=Amelie
+										female=yes
+										dynasty=1002113
+										religion=catholic culture=german
+										father=100003846	# Ludwig v. Löwenstein-Wertheim
+										mother=100006915	# Elisabeth v. Waldburg zu Wolfegg u.Waldsee
+										1990.08.15={birth=yes}  # Wertheim
+									}
+									100003889={ # 3g) Ludwig Hubertus Alfred-Ernst Sebastian Carl Roman Erbpr zu Löwenstein-Wertheim-Freudenberg (b.Wertheim 30 Jun 1994)
+										name=Ludwig
+										dynasty=1002113
+										religion=catholic culture=german
+										father=100003846	# Ludwig v. Löwenstein-Wertheim
+										mother=100006915	# Elisabeth v. Waldburg zu Wolfegg u.Waldsee
+										1994.06.30={birth=yes}  # Wertheim
+									}
+								100003891={ # 2f) Ameli Margarete Marielies Ingeborg (b.Kreuzwertheim 20 Feb 1953); m.(civ) Kreuzwertheim 5 May 1978 (rel) Wertheim 6 May 1978 Constantin von Brandenstein-Zeppelin (b.Biberach an der Riss 22 Jun 1953) $$
+									name=Ameli
+									female=yes
+									dynasty=1002113
+									religion=catholic culture=german
+									father=100003845	# Alfred-Ernst v. Löwenstein-Wertheim
+									mother=100099313	# Ruth-Erika von Buggenhagen
+									1953.02.20={birth=yes}  # Kreuzwertheim
+								}
+								100003892={ # 3f) Dorothee Antonie Brigitte Pauline (b.Kreuzwertheim 30 Dec 1955); m.Kreuzwertheim (civ) 12 Oct 1984 (rel) 13 Oct 1984 Christoph Schücking (b.Kassel 5 Nov 1951)
+									name=Dorothee
+									female=yes
+									dynasty=1002113
+									religion=catholic culture=german
+									father=100003845	# Alfred-Ernst v. Löwenstein-Wertheim
+									mother=100099313	# Ruth-Erika von Buggenhagen
+									1955.12.30={birth=yes}  # Kreuzwertheim
+								}
+								100003893={ # 4f) Udo Alexander Richard Albrecht (b.Kreuzwertheim 17 Jun 1957); m.Kreuzwertheim 23 Aug 1984 Isabel von Bergen (b.Bad Homburg 30 Sep 1957)
+									name=Udo
+									dynasty=1002113
+									religion=catholic culture=german
+									father=100003845	# Alfred-Ernst v. Löwenstein-Wertheim
+									mother=100099313	# Ruth-Erika von Buggenhagen
+									1957.06.17={birth=yes}  # Kreuzwertheim
+									1984.08.23={add_spouse=100099320}	# Isabel von Bergen
+								}
+									100003894={ # 1g) Viktoria Elisabeth Georgia Susanne Dorothee (b.Heidelberg 12 Feb 1990)
+										name=Viktoria
+										female=yes
+										dynasty=1002113
+										religion=catholic culture=german
+										father=100003893	# Udo v. Löwenstein-Wertheim
+										mother=100099320	# Isabel von Bergen
+										1990.02.12={birth=yes}  # Heidelberg
+									}
+									100003895={ # 2g) Georg Ludwig Bernd Ulrich (b.Heidelberg 16 May 1993)
+										name=Georg
+										dynasty=1002113
+										religion=catholic culture=german
+										father=100003893	# Udo v. Löwenstein-Wertheim
+										mother=100099320	# Isabel von Bergen
+										1993.05.16={birth=yes}  # Heidelberg
+									}
+									100003897={ # 3g) Philipp Constantin Gisbert Falk André (b.Heidelberg 11 Jun 1998)
+										name=Philipp
+										dynasty=1002113
+										religion=catholic culture=german
+										father=100003893	# Udo v. Löwenstein-Wertheim
+										mother=100099320	# Isabel von Bergen
+										1998.06.11={birth=yes}  # Heidelberg
+									}
+								100003898={ # 5f) Ruth Marie-Luise Orlinda Heidelind (b.Kreuzwertheim 30 Dec 1959); m.Freiburg 13 Sep 1991 (rel) Kreuzwertheim 14 Sep 1991 Herbert Köppl (b.Freising 9 May 1950)
+									name=Ruth
+									female=yes
+									dynasty=1002113
+									religion=catholic culture=german
+									father=100003845	# Alfred-Ernst v. Löwenstein-Wertheim
+									mother=100099313	# Ruth-Erika von Buggenhagen
+									1959.12.30={birth=yes}  # Kreuzwertheim
+								}
+							100003899={ # 3e) Gertrud Olga Ilka Emma Agnes Magdalena Mechthild (Langenzell 24 Jan 1926-4 Feb 2011); m.Kreuzwertheim 7 Aug 1951 Peter, Duke of Oldenburg (b.Lensahn 7 Aug 1926) $$
+								name=Gertrud
+								female=yes
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003841	# Udo v. Löwenstein-Wertheim
+								mother=100000566	# Margarete v. Castell-Castell
+								1926.01.24={birth=yes}  # Langenzell
+								2011.02.04={death=yes}
+							}
+							100003903={ # 4e) Pauline Elisabeth Renata Luitgard (b.Heidelberg 9 Jun 1928); m.Tegernsee 29 Dec 1956 Hans Gunther Horst (Oldenburg 23 Oct 1913-Tegernsee 7 Mar 1989)
+								name=Pauline
+								female=yes
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003841	# Udo v. Löwenstein-Wertheim
+								mother=100000566	# Margarete v. Castell-Castell
+								1928.06.09={birth=yes}  # Heidelberg
+								2005.01.01={death=yes}  # EST.
+							}
+					100003906={ # 3c) Vollrath (Siebleben 30 Nov 1856-Kleingemünd 2 May 1919)
+						name=Vollrath
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1856.11.30={birth=yes}  # Siebleben
+						1919.05.02={death=yes}  # Kleingemünd
+					}
+					100003909={ # 4c) Karl (Heidelberg 6 Apr 1858-Berlin 22 Dec 1928)
+						name=Karl
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1858.04.06={birth=yes}  # Heidelberg
+						1928.12.22={death=yes}  # Berlin
+					}
+					100003931={ # 5c) Friedrich Ernst Ludwig (München 23 Feb 1860-Neckargemünd 6 Jan 1920); m.Finsbury, London 13 Apr 1893 Hedwig Aloysia Müller (Bürs 13 Feb 1862-Prien 13 Jan 1949)
+						name=Friedrich
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1860.02.23={birth=yes}  # München
+						1893.04.13={add_spouse=100099329}	# Hedwig Aloysia Müller
+						1920.01.06={death=yes}  # Neckargemünd
+					}
+					100003961={ # 6c) Marie (Kreuzwertheim 14 Dec 1861-Büdingen 26 Apr 1941); m.Triefenstein 10 Oct 1882 Friedrich Gf zur Lippe-Biesterfeld (Mechernich 10 May 1852-Oberkassel 15 Aug 1892) $$
+						name=Marie
+						female=yes
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1861.12.14={birth=yes}  # Kreuzwertheim
+						1941.04.26={death=yes}  # Büdingen
+					}
+					100003962={ # 7c) Wilhelm Gustav Ludwig (Kreuzwertheim 25 Jan 1863-Tilsit 17 Aug 1915); m.Baden-Baden 26 Nov 1887 Luise Frn von Fabrice (Heidelberg 16 Apr 1859-München 19 May 1927)
+						name=Wilhelm
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1863.01.25={birth=yes}  # Kreuzwertheim
+						1887.11.26={add_spouse=100099341}	# FRN Luise von Fabrice
+						1915.08.17={death=yes}  # Tilsit
+					}
+						100003964={ # 1d) Wolfgang Wilhelm Gustav Karl Ludwig (Drehnow 25 Nov 1890-Pulawy 8/9 Jul 1945); m.1st Frankfurt 22 Oct 1920 (div 1938) Olga Pss zu Löwenstein-Wertheim-Freudenberg (1880-1961); m.2nd Lindau 17 Nov 1938 Eugenie von Fortenbach (Würzburg 14 Aug 1900-Vilsbiburg 6 Sep 1982)
+							name=Wolfgang
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003962	# Wilhelm v. Löwenstein-Wertheim
+							mother=100099341	# FRN Luise von Fabrice
+							1890.11.25={birth=yes}  # Drehnow
+							1920.10.22={add_spouse=100002808}	# Olga v. Löwenstein-Wertheim
+							1938.01.01={remove_spouse=100002808}
+							1938.11.17={add_spouse=100099348}	# Eugenie von Fortenbach
+							1945.07.08={death=yes}  # Pulawy
+						}
+							100003967={ # 1e) Wolfram Hubertus Wilhelm Heinrich (b.Berlin 21 Oct 1941); m.1st Grünwald Apr 1974 (div 1984) Elisa Christiane Schwennicke (Berlin 19 Jun 1941-Pöcking 8 Aug 2006); m.2nd Steindorf 10 Jun 1997 Barbara Maria Glossner (b.Augsburg 22 Dec 1951)
+								name=Wolfram
+								dynasty=1002113
+								religion=catholic culture=german
+								father=100003964	# Wolfgang v. Löwenstein-Wertheim
+								mother=100099348	# Eugenie von Fortenbach
+								1941.10.21={birth=yes}  # Berlin
+								1974.04.01={add_spouse=100099350}	# Elisa Christiane Schwennicke
+								1984.01.01={remove_spouse=100099350}
+								1997.06.10={add_spouse=100099351}	# Barbara Glossner
+							}
+								100003968={ # 1f) Wolfram Michael Nikolaus Friedrich Jakob (b.München 12 Jun 1980)
+									name=Wolfram
+									dynasty=1002113
+									religion=catholic culture=german
+									father=100003967	# Wolfram v. Löwenstein-Wertheim
+									mother=100099350	# Elisa Christiane Schwennicke
+									1980.06.12={birth=yes}  # München
+								}
+						100003969={ # 2d) Alban Alfred Klemens Bernhard Wilhelm Ludwig (Drehnow 14 Aug 1892-Salzburg 6 Mar 1964)
+							name=Alban
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003962	# Wilhelm v. Löwenstein-Wertheim
+							mother=100099341	# FRN Luise von Fabrice
+							1892.08.14={birth=yes}  # Drehnow
+							1964.03.06={death=yes}  # Salzburg
+						}
+						100003970={ # 3d) Erika Ernestine Wanda Frida Adele Bernhardine (Drehnow 23 Dec 1896-Bad Reichenhall 28 Jun 1976/8); m.1st Bonn 20 Apr 1918 (div 1937) Wolfgang Frhr von Waldenfels (Hofgeismar 21 Apr 1889-Fürstenau 1 Feb 1940); m.2nd Meerane, Saxony 30 Aug 1937 (div 1954) Walter Nitzschke (Meerane 19 Mar 1904-    )
+							name=Erika
+							female=yes
+							dynasty=1002113
+							religion=catholic culture=german
+							father=100003962	# Wilhelm v. Löwenstein-Wertheim
+							mother=100099341	# FRN Luise von Fabrice
+							1896.12.23={birth=yes}  # Drehnow
+							1976.06.28={death=yes}  # Bad Reichenhall
+						}
+					100003979={ # 8c) Ludwig (Kreuzwertheim 19 Jul 1864-k.a.Furageros, Philippines 26 Mar 1899); m.London 15 May 1897 Lady Anne Savile (London 25 May 1864-d.at sea 31 Aug 1927)
+						name=Ludwig
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1864.07.19={birth=yes}  # Kreuzwertheim
+						1897.05.15={add_spouse=100099356}	# LADY Anne Savile
+						1899.03.26={death=yes}
+					}
+					100003980={ # 9c) Adele (Kreuzwertheim 24 Mar 1866-Polnisch-Wartenberg 15 Oct 1890); m.Triefenstein 20 Jun 1885 Gustav Pr Biron von Kurland (Dresden 17 Oct 1859-Wartenberg 8 Jan 1941) $$
+						name=Adele
+						female=yes
+						dynasty=1002113
+						religion=catholic culture=german
+						father=100002804	# Wilhelm v. Löwenstein-Wertheim
+						mother=100008963	# Olga-Klara von Schönburg-Forderglauchau
+						1866.03.24={birth=yes}  # Kreuzwertheim
+						1890.10.15={death=yes}  # Polnisch-Wartenberg
+					}
+				100003981={ # 3b) Leopold Emil Ludwig Konrad (Geneva 26 Nov 1827-München 13 Mar 1893); m.Hamburg 4 Aug 1861 Amalie Wollrabe (Detmold 3 Mar 1836-München 14 Mar 1909)
+					name=Leopold
+					dynasty=1002114
+					religion=catholic culture=german
+					father=100002802	# Wilhelm v. Löwenstein-Wertheim
+					mother=100094376	# Dorothea Christine von Kahlden
+					1827.11.26={birth=yes}  # Geneva
+					1861.08.04={add_spouse=100099358}	# Amalie Wollrabe
+					1893.03.13={death=yes}  # München
+				}
+					100003982={ # 1c) Waltraut Gfn von Löwenstein-Scharffeneck (Teplitz 23 Oct 1861-Gadebusch 26 Apr 1936)
+						name=Waltraut
+						female=yes
+						dynasty=1002114
+						religion=catholic culture=german
+						father=100003981	# Leopold v. Löwenstein-Scharffeneck
+						mother=100099358	# Amalie Wollrabe
+						1861.10.23={birth=yes}  # Teplitz
+						1936.04.26={death=yes}  # Gadebusch
+					}
+					100003983={ # 2c) Maria Gfn von Löwenstein-Scharffeneck (Frankfurt 22 Apr 1864-Prague 24 May 1903)
+						name=Maria
+						female=yes
+						dynasty=1002114
+						religion=catholic culture=german
+						father=100003981	# Leopold v. Löwenstein-Scharffeneck
+						mother=100099358	# Amalie Wollrabe
+						1864.04.22={birth=yes}  # Frankfurt
+						1903.05.24={death=yes}  # Prague
+					}
+					100003985={ # 4c) Maximilian Gf von Löwenstein-Scharffeneck (Patzau 13 Jul 1871-Vienna 11 Apr 1952); m.1st München 4 Nov 1895 (div 1912) Constance Frn von Worms (London 8 Apr 1875-London 10 Oct 1963); m.2nd Ansbach 20 Dec 1915 Adelheid Frn von Berlichingen (Guttenstein 13 Aug 1883-Vienna 9 Jun 1970)
+						name=Maximilian
+						dynasty=1002114
+						religion=catholic culture=german
+						father=100003981	# Leopold v. Löwenstein-Scharffeneck
+						mother=100099358	# Amalie Wollrabe
+						1871.07.13={birth=yes}  # Patzau
+						1895.11.04={add_spouse=100099359}	# FRN Constance von Worms
+						1912.01.01={remove_spouse=100099359}
+						1915.12.20={add_spouse=100099360}	# FRN Adelheid von Berlichingen
+						1952.04.11={death=yes}  # Vienna
+					}
+						100003986={ # 1d) Sophie Gfn von Löwenstein-Scharffeneck (München 11 Dec 1896-Görz Sep 1978); m.Vienna 8 Mar 1927 (div 1938) Arbeno Maria Gf von Attems (Cilli 2 Jun 1898-9 Oct 1968) $$
+							name=Sophie
+							female=yes
+							dynasty=1002114
+							religion=catholic culture=german
+							father=100003985	# Maximilian v. Löwenstein-Scharffeneck
+							mother=100099359	# FRN Constance von Worms
+							1896.12.11={birth=yes}  # München
+							1978.09.01={death=yes}  # Görz
+						}
+						100003987={ # 2d) Franziska Gfn von Löwenstein-Scharffeneck (Oberau an der Lorsach 25 Aug 1899-    ); m.Vienna 27 Jun 1922 Otto Nirenstein (Vienna 1894-New York 30 Nov 1978)
+							name=Franziska
+							female=yes
+							dynasty=1002114
+							religion=catholic culture=german
+							father=100003985	# Maximilian v. Löwenstein-Scharffeneck
+							mother=100099359	# FRN Constance von Worms
+							1899.08.25={birth=yes}  # Oberau an der Lorsach
+							1974.01.01={death=yes}  # EST.
+						}
+						100003988={ # 3d) Johannes Gf von Löwenstein-Scharffeneck (München 3 Dec 1901-Halifax, Nova Scotia 27 Mar 1980); m.1st Velky Slavkov, Czechoslovakia 16 Aug 1923 (div 1958) Emma Rizzoli (17 Aug 1896-    ); m.2nd London 10 Aug 1959 Henriette Klementine Jost (London 16 Jan 1908-London Sep 1986)
+							name=Johannes
+							dynasty=1002114
+							religion=catholic culture=german
+							father=100003985	# Maximilian v. Löwenstein-Scharffeneck
+							mother=100099359	# FRN Constance von Worms
+							1901.12.03={birth=yes}  # München
+							1923.08.16={add_spouse=100099364}	# Emma Rizzoli
+							1958.01.01={remove_spouse=100099364}
+							1959.08.10={add_spouse=100099365}	# Henriette Klementine Jost
+							1980.03.27={death=yes}  # Halifax Nova Scotia
+						}
+						100003989={ # 4d) Leopold Gf von Löwenstein-Scharffeneck (Salzburg 13 Mar 1903-Ventimiglia 6 Sep 1974); m.1st London 22 Jun 1932 (rel) München 6 Jul 1932 (div 1947) Bianca Fischler Gfn von Treuberg (München 29 Sep 1913-London 14 May 1984); m.2nd London 6 Aug 1947 Diana Gollancz (London 18 Dec 1921-London 1 Apr 1967)
+							name=Leopold
+							dynasty=1002114
+							religion=catholic culture=german
+							father=100003985	# Maximilian v. Löwenstein-Scharffeneck
+							mother=100099359	# FRN Constance von Worms
+							1903.03.13={birth=yes}  # Salzburg
+							1932.06.22={add_spouse=100099367}	# GFN Bianca Fischler von Treuberg
+							1947.01.01={remove_spouse=100099367}
+							1947.08.06={add_spouse=100099371}	# Diana Gollancz
+							1974.09.06={death=yes}  # Ventimiglia
+						}
+							100003990={ # 1e) Rupprecht Gf von Löwenstein-Scharffeneck [he has assumed the title Prinz zu Löwenstein-Wertheim-Freudenberg] (Palma de Mallorca 24 Aug 1933-20 May 2014); m.London 18 Jul 1957 Josephine Clara Lowry-Corry (b.London 26 Jan 1931)
+								name=Rupprecht
+								dynasty=1002114
+								religion=catholic culture=german
+								father=100003989	# Leopold v. Löwenstein-Scharffeneck
+								mother=100099367	# GFN Bianca Fischler von Treuberg
+								1933.08.24={birth=yes}  # Palma de Mallorca
+								1957.07.18={add_spouse=100099376}	# Josephine Clara Lowry-Corry
+								2014.05.20={death=yes}
+							}
+								100003991={ # 1f) Rudolf Gf von Löwenstein-Scharffeneck (b.London 17 Nov 1957)
+									name=Rudolf
+									dynasty=1002114
+									religion=catholic culture=english
+									father=100003990	# Rupprecht v. Löwenstein-Scharffeneck
+									mother=100099376	# Josephine Clara Lowry-Corry
+									1957.11.17={birth=yes}  # London
+								}
+								100003992={ # 2f) Konrad Gf von Löwenstein-Scharffeneck (b.London 26 Nov 1958)
+									name=Konrad
+									dynasty=1002114
+									religion=catholic culture=english
+									father=100003990	# Rupprecht v. Löwenstein-Scharffeneck
+									mother=100099376	# Josephine Clara Lowry-Corry
+									1958.11.26={birth=yes}  # London
+								}
+								100003993={ # 3f) Maria Theodora Gfn von Löwenstein-Scharffeneck (b.London 11 Jul 1966); m.Brompton Oratory, London 26 Sep 1998 Cte Manfredi della Gherardesca (b.Florence 5 Aug 1961)
+									name="Maria Theodora"
+									female=yes
+									dynasty=1002114
+									religion=catholic culture=english
+									father=100003990	# Rupprecht v. Löwenstein-Scharffeneck
+									mother=100099376	# Josephine Clara Lowry-Corry
+									1966.07.11={birth=yes}  # London
+								}
+						100003994={ # 5d) Hubertus Gf von Löwenstein-Scharffeneck [he assumed the title Prinz zu Löwenstein-Wertheim-Freudenberg] (Schloß Schönworth 14 Oct 1906-Bonn 28 Nov 1984); m.Palermo 4 Apr 1929 Helga Schuylenburg (Loftus, Norway 21 Aug 1910-Berlin 23 Nov 2004)
+							name=Hubertus
+							dynasty=1002114
+							religion=catholic culture=german
+							father=100003985	# Maximilian v. Löwenstein-Scharffeneck
+							mother=100099359	# FRN Constance von Worms
+							1906.10.14={birth=yes}  # Schloß Schönworth
+							1929.04.04={add_spouse=100099379}	# Helga Schuylenburg
+							1984.11.28={death=yes}  # Bonn
+						}
+							100003995={ # 1e) Maria-Elisabeth Gfn von Löwenstein-Scharffeneck (New York 26 Nov 1939-Berlin 13 Dec 2007); m.Gernot Wilhelm Michael Renauer (1940-1994)
+								name=Maria-Elisabeth
+								female=yes
+								dynasty=1002114
+								religion=catholic culture=english
+								father=100003994	# Hubertus v. Löwenstein-Scharffeneck
+								mother=100099379	# Helga Schuylenburg
+								1939.11.26={birth=yes}  # New York
+								2007.12.13={death=yes}  # Berlin
+							}
+							100003996={ # 2e) Konstanze Gfn von Löwenstein-Scharffeneck (b.Franklin, New Jersey 4 Jul 1942); m.Bonn-Bad Godesberg 12 Aug 1969 (div 1978) Manfred Schmidt-Werthern (b.Trauenstein 12 Aug 1944)
+								name=Konstanze
+								female=yes
+								dynasty=1002114
+								religion=catholic culture=german
+								father=100003994	# Hubertus v. Löwenstein-Scharffeneck
+								mother=100099379	# Helga Schuylenburg
+								1942.07.04={birth=yes}  # Franklin New Jersey
+							}
+		100394224={ # B5. Charlotte, *Wertheim 1743, +Assenheim 1800; m.Wertheim 1761 Ernst Gf zu Solms-Assenheim $$
+			name="Amöne Charlotte"
+			female=yes
+			dynasty=1002113
+			religion=catholic culture=german
+			father=100394227	# Johann Ludwig v. Löwenstein-Wertheim
+			mother=100011876	# Friederike von Erbach
+			1743.02.14={birth=yes}  # Wertheim
+			1800.06.01={death=yes}  # Assenheim
+		}
+	100394225={ # A2. Friedrich Ludwig, *Wertheim 14.3.1706, +Wertheim 2.1.1796; 1m: Erbach 5.11.1738 Gfn Sophie Christine zu Erbach-Erbach (*Erbach 5.11.1716, +Wertheim 15.12.1741); 2m: Assenheim 1743 Gfn Sophie Luise zu Solms-Assenheim (*Assenheim 1709 +Wertheim 1773) $$
+		name="Friedrich Ludwig"
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100394223	# Heinrich Friedrich v. Löwenstein-Wertheim
+		1706.03.14={birth=yes}  # Wertheim
+		1738.11.05={add_spouse=100011875}	# Sophie von Erbach
+		1743.06.13={add_spouse=100006187}	# Sophie von Solms-Rödelheim u.Assenheim
+		1796.01.02={death=yes}  # Wertheim
+	}
+	100399168={ # A5. Karl Ludwig, *Wertheim 1712, +Wertheim 1779; m.Prague 1742 Anna Charlotte Deym, Frn von Stritez (*1722 +Wertheim 1793)
+		name="Karl Ludwig"
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100394223	# Heinrich Friedrich v. Löwenstein-Wertheim
+		1712.01.01={birth=yes}
+		1779.12.01={death=yes}
+	}
+		100394228={ # B1. Friedrich Karl Gottlob, -cr Fürst zu Löwenstein-Wertheim-Freudenberg 1812, *Wertheim 1743, +Kreuzwertheim 1825; m.Grumbach 1779 Gfn Franziska Juliane zu Salm-Grumbach (*Grumbach 1744 +Kreuzwertheim 1820) $$
+			name="Friedrich Karl"
+			dynasty=1002113
+			religion=catholic culture=german
+			father=100399168	# Karl Ludwig v. Löwenstein-Wertheim
+			1754.01.01={birth=yes}  # EST.
+			1779.03.25={add_spouse=100006894}	# Franziska zu Salm
+			1825.01.01={death=yes}
+		}
+		100394229={ # B6. Friederike Karoline, *Wertheim 1757, +Kirchberg 1839; m.Wertheim 1778 Pr Friedrich Karl zu Hohenlohe-Kirchberg (*1751 +1791) $$
+			name="Friederike Karoline"
+			female=yes
+			dynasty=1002113
+			religion=catholic culture=german
+			father=100399168	# Karl Ludwig v. Löwenstein-Wertheim
+			1757.03.17={birth=yes}
+			1839.12.19={death=yes}
+		}
+	100394226={ # A6. Johann Philipp, *Wertheim 28.8.1713, +Wertheim 12.4.1757; m.Markt-Einersheim 1743 Gfn Sophie Henriette von Schönburg-Waldenburg (*4.7.1718 +12.4.1757) $$
+		name="Johann Philipp zu Löwenstein-Wertheim-Virneburg"
+		dynasty=1002113
+		religion=catholic culture=german
+		father=100394223	# Heinrich Friedrich v. Löwenstein-Wertheim
+		1718.01.01={birth=yes}
+		1743.07.12={add_spouse=100005448}	# Sophie von Schönburg
+		1757.04.01={death=yes}
+	}
+#1770.01.10={holder=100002710} # JOHANN KARL LUDWIG Gf zu Löwenstein-Wertheim-Virneburg
+#1816.02.16={holder=100002720} # 8a) GEORG Wilhelm Ludwig Fst zu Löwenstein-Wertheim-Freudenberg 
+#1855.07.26={holder=100002723} # 2b) ADOLF Carl Constantin Friedrich Ludwig Vollrath Philipp Fst zu Löwenstein-Wertheim-Freudenberg 
+#1861.08.09={holder=100002804} # 1b) WILHELM Paul Ludwig Fst zu Löwenstein-Wertheim-Freudenberg 
+#1887.03.10={holder=100002805} # 1c) ERNST ALBAN LUDWIG Fst zu Löwenstein-Wertheim-Freudenberg 
+#1931.04.20={holder=100003841} # 7d) UDO Amelung Karl Friedrich Wilhelm Oleg Paul Fst zu Löwenstein-Wertheim-Freudenberg 
+#1980.12.28={holder=100003845} # 2e) ALFRED-ERNST Friedrich Karl Richard Otto Konstantin Kasimir Bernhard Fst zu Löwenstein-Wertheim-Freudenberg 
+#2010.01.13={holder=100003846} # 1f) LUDWIG Udo Hans Peter Alfred Fst zu Löwenstein-Wertheim-Freudenberg 
+#wittel16
+
 #wittel17
 100008028={ # Gf Johann Dietrich von Löwenstein-Wertheim-Rochefort, *31.1.1585, +6.3.1644; 1m: 1610 Josina von der Marck (*1583 +1626); 2m: (morganatically) 1626 Maria Sibylla von Dummermünden (+1656)
 	name="Johann Dietrich"
 	dynasty=1002610
-	religion=catholic culture=frankish
+	religion=catholic culture=german
+	father=100302821	# Ludwig v. Löwenstein-Wertheim-Rochefort
+	mother=100009702	# Anna zu Stolberg-Stolberg
 	1585.01.31={birth=yes}
 	1610.01.01={add_spouse=100081621}	# Josina von der Marck
 	1644.03.06={death=yes}
@@ -2515,7 +3246,7 @@
 		name="Josina Walburga"
 		female=yes
 		dynasty=1002610
-		religion=catholic culture=frankish
+		religion=catholic culture=german
 		father=100008028	# Johann Dietrich v. Löwenstein-Wertheim-Rochefort
 		mother=100081621	# Josina von der Marck
 		1615.01.01={birth=yes}  # Rochefort
@@ -2524,7 +3255,7 @@
 	100008040={ # A4. Ferdinand Karl, *Rochefort 1616, +Wertheim 1672; m.Köln 1651 Gfn Anna Maria von Fürstenberg (*Konstanz 1634 +Prague 1705) $$
 		name="Ferdinand Karl"
 		dynasty=1002610
-		religion=catholic culture=frankish
+		religion=catholic culture=german
 		father=100008028	# Johann Dietrich v. Löwenstein-Wertheim-Rochefort
 		mother=100081621	# Josina von der Marck
 		1616.01.01={birth=yes}  # Rochefort
@@ -2545,16 +3276,16 @@
 			name="Ernestine Barbara"
 			female=yes
 			dynasty=1002610
-			religion=catholic culture=frankish
+			religion=catholic culture=german
 			father=100008040	# Ferdinand Karl v. Löwenstein-Wertheim-Rochefort
 			mother=100010344	# Anna v. Fürstenberg
 			1654.11.23={birth=yes}  # Wertheim
 			1698.12.09={death=yes}  # Wien
 		}
-		100008099={ # B1. Fürst Maximilian Karl Albert, zu Löwenstein-Wertheim-Rochefort, Stattholder of Milan, *Rochefort 1656, +Milan 1718; m.Innsbruck 1678 Gfn Polyxena Maria Khuen von Lichtenberg und Belasi (+Munich 1712)
+		100008099={ # B1. Fürst Maximilian Karl Albert, zu Löwenstein-Wertheim-Rochefort, Stattholder of Milan, *Rochefort 1656, +Milan 1718; m.Innsbruck 1678 Gfn Polyxena Maria Khuen von Lichtenberg und Belasi (+München 1712)
 			name=Maximilian
 			dynasty=1002610
-			religion=catholic culture=frankish
+			religion=catholic culture=german
 			father=100008040	# Ferdinand Karl v. Löwenstein-Wertheim-Rochefort
 			mother=100010344	# Anna v. Fürstenberg
 			1656.01.01={birth=yes}  # Rochefort
@@ -2584,7 +3315,7 @@
 			100008119={ # C6. Fürst Dominikus Marquard, *Wertheim 1690, +Venice 1735; m.Rotenburg 1712 Ldgvine Christina of Hesse-Rheinfels (*23.5.1688 +17.7.1728) $$
 				name="Dominikus Marquard"
 				dynasty=1002610
-				religion=catholic culture=frankish
+				religion=catholic culture=german
 				father=100008099	# Maximilian v. Löwenstein-Wertheim-Rochefort
 				mother=100082212	# GFN Polyxena Khuen von Lichtenberg und Belasi
 				1690.01.01={birth=yes}  # Wertheim
@@ -2594,7 +3325,7 @@
 				100008133={ # D1. Fst Karl Thomas, *Augsburg 1714, +Kleinheubach 1789; 1m: St.Veit bei Wien 1736 Pss Marie Charlotte of Holstein-Wiesenburg (*Wien 1718 +Horazdiowitz 1765); 2m: Kleinheubach 1770 Maria Josepha von Stipplin (*Neuhaus bei Mergentheim 1735 +Horazdiowitz 1799) $$
 					name="Karl Thomas"
 					dynasty=1002610
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100008119	# Dominikus Marquard v. Löwenstein-Wertheim-Rochefort
 					mother=100002048	# Christine v. Hessen-Rheinfels-Rotenburg
 					1714.01.01={birth=yes}  # Augsburg
@@ -2605,7 +3336,7 @@
 						name=Leopoldine
 						female=yes
 						dynasty=1002610
-						religion=catholic culture=frankish
+						religion=catholic culture=german
 						father=100008133	# Karl Thomas v. Löwenstein-Wertheim-Rochefort
 						mother=100009386	# Marie Charlotte von Oldenburg
 						1739.12.28={birth=yes}  # Wertheim
@@ -2623,7 +3354,7 @@
 				100008160={ # D4. Pr Franz Karl, *Wertheim 1717, +Elsch, Bohemia 1750; m.Elsch 1749 Frn Josepha Schirndinger von Schirnding (*Elsch 1721 +Elsch 1788)
 					name="Franz Karl"
 					dynasty=1002610
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100008119	# Dominikus Marquard v. Löwenstein-Wertheim-Rochefort
 					mother=100002048	# Christine v. Hessen-Rheinfels-Rotenburg
 					1717.01.01={birth=yes}  # Wertheim
@@ -2633,7 +3364,7 @@
 					100008187={ # E1. Pr Joseph Anton, *Elsch 1750, +Schwäbisch-Gmünd 1772
 						name="Joseph Anton"
 						dynasty=1002610
-						religion=catholic culture=frankish
+						religion=catholic culture=german
 						father=100008160	# Franz Karl v. Löwenstein-Wertheim-Rochefort
 						mother=100082819	# FRN Josepha Schirndinger von Schirnding
 						1750.01.01={birth=yes}  # Elsch
@@ -2642,7 +3373,7 @@
 				100008210={ # D5. Pr Christian Philipp, *Wertheim 1719, +Lohr am Main 1781; m.Puttelange-aux-Lacs 1773 Françoise de Humbert (*Puttelange 1724 +Luxemburg 1793)
 					name="Christian Philipp"
 					dynasty=1002610
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100008119	# Dominikus Marquard v. Löwenstein-Wertheim-Rochefort
 					mother=100002048	# Christine v. Hessen-Rheinfels-Rotenburg
 					1719.01.01={birth=yes}  # Wertheim
@@ -2651,7 +3382,7 @@
 				100008255={ # D6. Pr Joseph Johann, *Zebau, Bohemia 1720, +Aschaffenburg 1788; m.Frankfurt 1750 Frn Dorothea Theresia von Hausen und Gleichenstorff (*1718 +Aschaffenburg 1802)
 					name="Joseph Johann"
 					dynasty=1002610
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100008119	# Dominikus Marquard v. Löwenstein-Wertheim-Rochefort
 					mother=100002048	# Christine v. Hessen-Rheinfels-Rotenburg
 					1720.01.01={birth=yes}  # Zebau Bohemia
@@ -2662,7 +3393,7 @@
 					name="Sophie Wilhelmine"
 					female=yes
 					dynasty=1002610
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100008119	# Dominikus Marquard v. Löwenstein-Wertheim-Rochefort
 					mother=100002048	# Christine v. Hessen-Rheinfels-Rotenburg
 					1721.08.07={birth=yes}  # Kleinheubach
@@ -2673,7 +3404,7 @@
 					name=Leopoldine
 					female=yes
 					dynasty=1002610
-					religion=catholic culture=frankish
+					religion=catholic culture=german
 					father=100008119	# Dominikus Marquard v. Löwenstein-Wertheim-Rochefort
 					mother=100002048	# Christine v. Hessen-Rheinfels-Rotenburg
 					1726.01.01={birth=yes}  # Fürth
@@ -2683,7 +3414,7 @@
 			name="Amalia Theresia"
 			female=yes
 			dynasty=1002610
-			religion=catholic culture=frankish
+			religion=catholic culture=german
 			father=100008040	# Ferdinand Karl v. Löwenstein-Wertheim-Rochefort
 			mother=100010344	# Anna v. Fürstenberg
 			1659.01.01={birth=yes}  # Wertheim
@@ -2693,7 +3424,7 @@
 			name="Magdalene Elisabeth"
 			female=yes
 			dynasty=1002610
-			religion=catholic culture=frankish
+			religion=catholic culture=german
 			father=100008040	# Ferdinand Karl v. Löwenstein-Wertheim-Rochefort
 			mother=100010344	# Anna v. Fürstenberg
 			1662.08.17={birth=yes}  # Wertheim
@@ -2703,17 +3434,17 @@
 			name=Sophia
 			female=yes
 			dynasty=1002610
-			religion=catholic culture=frankish
+			religion=catholic culture=german
 			father=100008040	# Ferdinand Karl v. Löwenstein-Wertheim-Rochefort
 			mother=100010344	# Anna v. Fürstenberg
 			1664.01.01={birth=yes}  # Wertheim
 			1736.01.01={death=yes}  # Paris
 		}
-		100009652={ # B13. Christina Therese, *Wertheim 1665, +Rumburg 1730; 1m: Wertheim 1687 Duke Albert of Saxe-Weissenfels (+1692); 2m: Lowositz, Bohemia 1695 Pr Philipp Erasmus von Liechtenstein (+1704)
+		100009652={ # B13. Christina Therese, *Wertheim 1665, +Rumburg 1730; 1m: Wertheim 1687 Duke Albert of Saxe-Weissenfels (+1692); 2m: Lowositz, Bohemia 1695 Pr Philipp Erasmus von Liechtenstein (+1704) $$
 			name="Christina Therese"
 			female=yes
 			dynasty=1002610
-			religion=catholic culture=frankish
+			religion=catholic culture=german
 			father=100008040	# Ferdinand Karl v. Löwenstein-Wertheim-Rochefort
 			mother=100010344	# Anna v. Fürstenberg
 			1665.01.01={birth=yes}  # Wertheim
@@ -2722,7 +3453,7 @@
 		100009511={ # B6. Wilhelm, *24.5.1669, +Budapest 17.10.1695; m.1692 Gfn Katharina von Waldstein-Wartenberg (*1672 +26.10.1733)
 			name=Wilhelm
 			dynasty=1002610
-			religion=catholic culture=frankish
+			religion=catholic culture=german
 			father=100008040	# Ferdinand Karl v. Löwenstein-Wertheim-Rochefort
 			mother=100010344	# Anna v. Fürstenberg
 			1669.05.24={birth=yes}
@@ -2733,7 +3464,7 @@
 		name="Dorothea Katharina"
 		female=yes
 		dynasty=1002610
-		religion=catholic culture=frankish
+		religion=catholic culture=german
 		father=100008028	# Johann Dietrich v. Löwenstein-Wertheim-Rochefort
 		mother=100081621	# Josina von der Marck
 		1618.01.01={birth=yes}  # Rochefort
@@ -2750,8 +3481,8 @@
 #wittel18
 100008256={ # Pr Theodor Alexander zu Löwenstein-Wertheim-Rochefort, *Kleinheubach 1722, +Rothenburg 1780; m.Strasburg 1751 Gfn Katharine Luise Elenore zu Leiningen-Dagsburg-Hartenburg (*Emichsburg 1735, +Puttelange-les-Farschwiller 1805) $$
 	name="Theodor Alexander"
-	dynasty=1002610
-	religion=catholic culture=frankish
+	dynasty=1002039
+	religion=catholic culture=german
 	father=100008119	# Dominikus Marquard v. Löwenstein-Wertheim-Rochefort
 	mother=100002048	# Christine v. Hessen-Rheinfels-Rotenburg
 	1722.01.01={birth=yes}  # Kleinheubach
@@ -2762,7 +3493,7 @@
 		name="Dominik Konstantin"
 		dynasty=1002039
 		religion=catholic culture=german
-		father=100008256	# Theodor Alexander v. Löwenstein-Wertheim-Rochefort
+		father=100008256	# Theodor Alexander v. Löwenstein-Wertheim-Rosenberg
 		mother=100003361	# Katharina Luise zu Leiningen
 		1762.04.16={birth=yes}
 		1780.05.09={add_spouse=100001765}	# Marie Leopoldine zu Hohenlohe-Bartenstein
@@ -3365,7 +4096,7 @@
 				1804.12.29={birth=yes}
 				1869.08.06={death=yes}
 			}
-			100002794={	# 3b) Adelheid Eulalie Luise Marie (Kleinheubach 19 Dec 1806-Sichrow 6 Nov 1884); m.Haid 28 May 1826 Camille Fst Rohan (Brussels 19 Dec 1800-Sichrow 13 Sep 1892)
+			100002794={	# 3b) Adelheid Eulalie Luise Marie (Kleinheubach 19 Dec 1806-Sichrow 6 Nov 1884); m.Haid 28 May 1826 Camille Fst Rohan (Brussels 19 Dec 1800-Sichrow 13 Sep 1892) $$
 				name=Adelheid
 				female=yes
 				dynasty=1002039
@@ -3405,7 +4136,7 @@
 				1820.08.31={birth=yes}
 				1895.02.18={death=yes}
 			}
-		100002798={	# B2. Pr Constantin, *Wertheim 26.3.1786, +Munich 9.5.1844; m.Kleinheubach 31.7.1821 his niece, Pss Leopoldine zu Löwenstein-Wertheim-Rosenberg (*1804 +1869) $$
+		100002798={	# B2. Pr Constantin, *Wertheim 26.3.1786, +München 9.5.1844; m.Kleinheubach 31.7.1821 his niece, Pss Leopoldine zu Löwenstein-Wertheim-Rosenberg (*1804 +1869) $$
 			name="Constantin Ludwig"
 			dynasty=1002039
 			religion=catholic culture=german
@@ -3448,7 +4179,7 @@
 		female=yes
 		dynasty=1002039
 		religion=catholic culture=german
-		father=100008256	# Theodor Alexander v. Löwenstein-Wertheim-Rochefort
+		father=100008256	# Theodor Alexander v. Löwenstein-Wertheim-Rosenberg
 		mother=100003361	# Katharina Luise zu Leiningen
 		1769.01.02={birth=yes}
 		1786.11.29={death=yes}
@@ -4103,7 +4834,7 @@
 						1955.10.17={add_spouse=100020965} 	# Theresa v. Habsburg-Lothringen
 						2011.09.12={death=yes}
 					}
-						100007852={ # 1f) Maria-Theresia Anna Walburga Irmingard, b.Hohenschwangau 10 Sep 1956; m.Starnberg 21 Jun 1977 (rel) Andechs bei Starnberg 23 Jul 1977 Thomas Gf Kornis von Göncz-Ruszka (b.Budapest 4 Oct 1949)
+						100007852={ # 1f) Maria-Theresia Anna Walburga Irmingard, b.Hohenschwangau 10 Sep 1956; m.Starnberg 21 Jun 1977 (rel) Andechs bei Starnberg 23 Jul 1977 Thomas Gf Kornis von Göncz-Ruszka (b.Budapest 4 Oct 1949) $$
 							name=Maria-Theresia
 							female=yes
 							dynasty=217
@@ -4120,14 +4851,14 @@
 							mother=100020965	# Theresa v. Habsburg-Lothringen
 							1957.09.21={birth=yes}
 						}
-						100007854={ # 3f) Elisabeth Maria Immaculata Anastasia, b.Leutstetten 22 Jan 1959; m.(civ) Horn, Lower Austria 9 May 1986 (rel) Eberau 24 May 1986 Andreas Gf von Kuefstein (b.Vienna 9 Aug 1954)
-							name="Elisabeth Maria"
+						100007854={ # 3f) Elisabeth Maria Immaculata Anastasia, b.Leutstetten 22 Jan 1959; m.(civ) Horn, Lower Austria 9 May 1986 (rel) Eberau 24 May 1986 Andreas Gf von Kuefstein (b.Vienna 9 Aug 1954) $$
+							name=Elisabeth
 							female=yes
 							dynasty=217
 							religion=catholic culture=german
 							father=100007851	# Rasso v. Wittelsbach
 							mother=100020965	# Theresa v. Habsburg-Lothringen
-							1959.01.01={birth=yes}
+							1959.01.22={birth=yes}
 						}
 						100007855={ # 4f) Wolfgang Rupprecht Maria Theodor, b.Leutstetten 28 Jan 1960; m.Starnberg 16 Nov 1990 Beatrice Gfn zu Lodron-Laterano u.Castelromano (b.Vienna 29 May 1964) $$
 							name=Wolfgang
