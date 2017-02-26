@@ -563,6 +563,7 @@ e_austria = {
 				b_schoenbrunn = {
 				}
 				b_wien = {
+					frankish=Vienne
 				}
 				b_favoriten = {
 				}
@@ -749,6 +750,7 @@ e_austria = {
 				slovene=Gradec
 				
 				b_graz = {
+					slovene=Gradec
 				}
 				b_kapfenberg = {
 				}
@@ -832,6 +834,7 @@ e_austria = {
 				german=Trient
 				
 				b_trento = {
+					german=Trient
 				}
 				b_rovereto = {
 				}
@@ -881,20 +884,6 @@ e_austria = {
 		german=Ungarn
 		hungarian="Magyar Királyság"
 		
-		c_bekes = { # 45
-			color={ 80 96 223 }
-			color2={ 255 255 255 }
-			romanian=Bichisciaba
-			
-			b_bekescsaba = {
-			}
-			b_szolnok = {
-			}
-			b_oroshaza = {
-			}
-			b_mezotur = {
-			}
-		}
 		d_budapest = {
 			color={ 71 234 219 }
 			color2={ 255 255 255 }
@@ -902,7 +891,7 @@ e_austria = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 40 province_id = 41 province_id = 1439 } }
+					any_demesne_province = { OR = { province_id = 40 province_id = 41 province_id = 42 province_id = 1439 } }
 				}
 			}
 			capital = 40 # c_budapest
@@ -922,6 +911,19 @@ e_austria = {
 				b_jaszberery = {
 				}
 				b_hatvan = {
+				}
+			}
+			c_bacs_kiskun = { # 42
+				color={ 132 97 101 }
+				color2={ 255 255 255 }
+				
+				b_kecskemet = {
+				}
+				b_tiszafoeldvar = {
+				}
+				b_kiskunhalas = {
+				}
+				b_nagykoroes = {
 				}
 			}
 			c_borsod_abauj = { # 41
@@ -951,28 +953,31 @@ e_austria = {
 			}
 		}
 		d_alfoeld = {
-			color={ 142 87 106 }
+			color={ 26 149 164 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 42 province_id = 43 province_id = 44 province_id = 45 province_id = 1438 } }
+					any_demesne_province = { OR = { province_id = 43 province_id = 44 province_id = 45 province_id = 1438 } }
 				}
 			}
-			capital = 42 # c_bacs_kiskun
+			capital = 43 # c_hajdu
 			
-			c_bacs_kiskun = { # 42
-				color={ 132 97 101 }
+			c_hajdu = { # 43
+				color={ 16 159 159 }
 				color2={ 255 255 255 }
+				german=Heiduck
 				
-				b_kecskemet = {
+				b_debrecen = {
 				}
-				b_tiszafoeldvar = {
+				b_nyiregyhaza = {
 				}
-				b_kiskunhalas = {
+				b_karcag = {
 				}
-				b_nagykoroes = {
+				b_hajduboeszoermeny = {
+				}
+				b_hajduszoboszlo = {
 				}
 			}
 			c_bekes = { # 45
@@ -1002,22 +1007,6 @@ e_austria = {
 				b_hodmezovasamely = {
 				}
 				b_szentes = {
-				}
-			}
-			c_hajdu = { # 43
-				color={ 16 159 159 }
-				color2={ 255 255 255 }
-				german=Heiduck
-				
-				b_debrecen = {
-				}
-				b_nyiregyhaza = {
-				}
-				b_karcag = {
-				}
-				b_hajduboeszoermeny = {
-				}
-				b_hajduszoboszlo = {
 				}
 			}
 			c_szabolcs = { # 1438
@@ -1181,6 +1170,11 @@ e_bilad_as_sam = {
 				egyptian_arabic=Dimašq
 				
 				b_damascus = {
+					kurdish=Sam
+					maghreb_arabic=Dimašq
+					bedouin_arabic=Dimašq
+					levantine_arabic=Dimašq
+					egyptian_arabic=Dimašq
 				}
 				b_qatana = {
 				}
@@ -1227,6 +1221,10 @@ e_bilad_as_sam = {
 				egyptian_arabic=Dar'a
 				
 				b_daraa = {
+					maghreb_arabic=Dar'a
+					bedouin_arabic=Dar'a
+					levantine_arabic=Dar'a
+					egyptian_arabic=Dar'a
 				}
 				b_nawa = {
 				}
@@ -1257,6 +1255,10 @@ e_bilad_as_sam = {
 				egyptian_arabic=Hims
 				
 				b_homs = {
+					maghreb_arabic=Hims
+					bedouin_arabic=Hims
+					levantine_arabic=Hims
+					egyptian_arabic=Hims
 				}
 				b_al_mukharram = {
 				}
@@ -1290,6 +1292,11 @@ e_bilad_as_sam = {
 				egyptian_arabic=Halab
 				
 				b_aleppo = {
+					kurdish=Heleb
+					maghreb_arabic=Halab
+					bedouin_arabic=Halab
+					levantine_arabic=Halab
+					egyptian_arabic=Halab
 				}
 				b_manbij = {
 				}
@@ -1355,6 +1362,12 @@ e_bilad_as_sam = {
 				egyptian_arabic=al-Ladiqiyya
 				
 				b_latakia = {
+					greek=Laodikeia
+					maghreb_arabic=al-Ladiqiyya
+					turkish=Lazkiye
+					bedouin_arabic=al-Ladiqiyya
+					levantine_arabic=al-Ladiqiyya
+					egyptian_arabic=al-Ladiqiyya
 				}
 				b_jablah = {
 				}
@@ -1374,6 +1387,10 @@ e_bilad_as_sam = {
 				egyptian_arabic=Tartus
 				
 				b_tartus = {
+					maghreb_arabic=Tartus
+					bedouin_arabic=Tartus
+					levantine_arabic=Tartus
+					egyptian_arabic=Tartus
 				}
 				b_ash_shaykh_badr = {
 				}
@@ -1406,6 +1423,10 @@ e_bilad_as_sam = {
 				egyptian_arabic="Dair az-Zaur"
 				
 				b_deir_ez_zor = {
+					maghreb_arabic="Dair az-Zaur"
+					bedouin_arabic="Dair az-Zaur"
+					levantine_arabic="Dair az-Zaur"
+					egyptian_arabic="Dair az-Zaur"
 				}
 				b_al_bukamal = {
 				}
@@ -1426,6 +1447,11 @@ e_bilad_as_sam = {
 				egyptian_arabic=al-Hasaka
 				
 				b_al_hasakah = {
+					kurdish=Hesîçe
+					maghreb_arabic=al-Hasaka
+					bedouin_arabic=al-Hasaka
+					levantine_arabic=al-Hasaka
+					egyptian_arabic=al-Hasaka
 				}
 				b_al_qamishli = {
 				}
@@ -1805,6 +1831,10 @@ e_bilad_as_sam = {
 				egyptian_arabic=Bairut
 				
 				b_beirut = {
+					maghreb_arabic=Bairut
+					bedouin_arabic=Bairut
+					levantine_arabic=Bairut
+					egyptian_arabic=Bairut
 				}
 				b_borj_al_brajne = {
 				}
@@ -1989,6 +2019,7 @@ e_ceskoslovensko = {
 				german=Prag
 				
 				b_praha = {
+					german=Prag
 				}
 				b_pribram = {
 				}
@@ -2005,6 +2036,7 @@ e_ceskoslovensko = {
 				german=Budweis
 				
 				b_ceske_budejovice = {
+					german=Budweis
 				}
 				b_ceske_krumlov = {
 				}
@@ -2017,6 +2049,7 @@ e_ceskoslovensko = {
 				german=Königgrätz
 				
 				b_hradec_kralove = {
+					german=Königgrätz
 				}
 				b_pardubice = {
 				}
@@ -2031,6 +2064,7 @@ e_ceskoslovensko = {
 				german=Karlsbad
 				
 				b_karlovy_vary = {
+					german=Karlsbad
 				}
 				b_karlovarsky = {
 				}
@@ -2045,6 +2079,7 @@ e_ceskoslovensko = {
 				german=Pilsen
 				
 				b_plzen = {
+					german=Pilsen
 				}
 				b_klatovy = {
 				}
@@ -2059,6 +2094,7 @@ e_ceskoslovensko = {
 				german=Aussig
 				
 				b_usti_nad_labem = {
+					german=Aussig
 				}
 				b_librec = {
 				}
@@ -2086,6 +2122,7 @@ e_ceskoslovensko = {
 				german=Brünn
 				
 				b_brno = {
+					german=Brünn
 				}
 				b_hodonin = {
 				}
@@ -2102,6 +2139,7 @@ e_ceskoslovensko = {
 				german=Olmütz
 				
 				b_olomouc = {
+					german=Olmütz
 				}
 				b_prostejov = {
 				}
@@ -2131,6 +2169,7 @@ e_ceskoslovensko = {
 				german=Teschen
 				
 				b_opava = {
+					german=Troppau
 				}
 				b_krnov = {
 				}
@@ -2183,6 +2222,8 @@ e_ceskoslovensko = {
 				hungarian=Pozsony
 				
 				b_bratislava = {
+					german=Pressburg
+					hungarian=Pozsony
 				}
 				b_trnava = {
 				}
@@ -2200,6 +2241,8 @@ e_ceskoslovensko = {
 				hungarian=Besztercebánya
 				
 				b_banska_bystrica = {
+					german=Neusohl
+					hungarian=Besztercebánya
 				}
 				b_poprad = {
 				}
@@ -2216,6 +2259,7 @@ e_ceskoslovensko = {
 				german=Neutra
 				
 				b_nitra = {
+					german=Neutra
 				}
 				b_hlohovec = {
 				}
@@ -2233,6 +2277,8 @@ e_ceskoslovensko = {
 				hungarian=Trencsén
 				
 				b_trencin = {
+					german=Trentschin
+					hungarian=Trencsén
 				}
 				b_nove_mesto = {
 				}
@@ -2262,6 +2308,7 @@ e_ceskoslovensko = {
 				german=Oberungarn
 				
 				b_felvidek = {
+					german=Oberungarn
 				}
 				b_nagymegyer = {
 				}
@@ -2301,6 +2348,7 @@ e_ceskoslovensko = {
 				german=Kaschau
 				
 				b_kosice = {
+					german=Kaschau
 				}
 				b_presov = {
 				}
@@ -2315,6 +2363,7 @@ e_ceskoslovensko = {
 				german=Ruthenien
 				
 				b_uzhhorod = {
+					german=Ruthenien
 				}
 				b_komarno = {
 				}
@@ -3133,6 +3182,7 @@ e_espana = {
 				german=Saragossa
 				
 				b_zaragoza = {
+					german=Saragossa
 				}
 				b_utebo = {
 				}
@@ -4055,6 +4105,7 @@ e_france = {
 				italian=Alenzone
 				
 				b_alencon = {
+					italian=Alenzone
 				}
 				b_belleme = {
 				}
@@ -4813,6 +4864,7 @@ e_france = {
 				italian=Marsiglia
 				
 				b_marseille = {
+					italian=Marsiglia
 				}
 				b_martigues = {
 				}
@@ -4847,6 +4899,7 @@ e_france = {
 				italian=Tolone
 				
 				b_toulon = {
+					italian=Tolone
 				}
 				b_hyeres = {
 				}
@@ -4879,6 +4932,7 @@ e_france = {
 				italian=Digione
 				
 				b_dijon = {
+					italian=Digione
 				}
 				b_genlis = {
 				}
@@ -4895,6 +4949,7 @@ e_france = {
 				b_bourg_en_bresse = {
 				}
 				b_ain = {
+					italian=Idano
 				}
 				b_ain_2 = {
 				}
@@ -4905,6 +4960,7 @@ e_france = {
 				italian=Ausserra
 				
 				b_auxerre = {
+					italian=Ausserra
 				}
 				b_sens = {
 				}
@@ -4919,6 +4975,7 @@ e_france = {
 				italian=Macone
 				
 				b_macon = {
+					italian=Macone
 				}
 				b_paray_le_monial = {
 				}
@@ -4947,6 +5004,7 @@ e_france = {
 				italian=Granopoli
 				
 				b_grenoble = {
+					italian=Granopoli
 				}
 				b_briancon = {
 				}
@@ -4959,6 +5017,7 @@ e_france = {
 				b_gap = {
 				}
 				b_haute_alpes = {
+					italian=Gapo
 				}
 			}
 			c_valence = { # 206
@@ -4967,6 +5026,7 @@ e_france = {
 				italian=Valenza
 				
 				b_valence = {
+					italian=Valenza
 				}
 				b_bourg_de_peage = {
 				}
@@ -4995,6 +5055,7 @@ e_france = {
 				italian=Besanzone
 				
 				b_besancon = {
+					italian=Besanzone
 				}
 				b_montbeliard = {
 				}
@@ -5034,6 +5095,7 @@ e_france = {
 				italian=Lione
 				
 				b_lyon = {
+					italian=Lione
 				}
 				b_villefrance_sur_saone = {
 				}
@@ -5081,6 +5143,7 @@ e_france = {
 				italian=Anessi
 				
 				b_annecy = {
+					italian=Anessi
 				}
 				b_annemasse = {
 				}
@@ -5093,6 +5156,7 @@ e_france = {
 				italian=Nizza
 				
 				b_nice = {
+					italian=Nizza
 				}
 				b_antibes = {
 				}
@@ -5115,6 +5179,7 @@ e_france = {
 				}
 			}
 			capital = 212 # c_avignon
+			italian=Venassino
 			
 			c_avignon = { # 212
 				color={ 116 22 156 }
@@ -5122,6 +5187,7 @@ e_france = {
 				italian=Avignone
 				
 				b_avignon = {
+					italian=Avignone
 				}
 				b_nimes = {
 				}
@@ -5260,6 +5326,7 @@ e_germany = {
 				polish="Strzelce Nowe"
 				
 				b_neustrelitz = {
+					polish="Strzelce Nowe"
 				}
 				b_waren = {
 				}
@@ -5287,6 +5354,7 @@ e_germany = {
 				polish=Kostrzyn
 				
 				b_kuestrin = {
+					polish=Kostrzyn
 				}
 				b_gorzow_wielkopolski = {
 				}
@@ -5315,6 +5383,7 @@ e_germany = {
 				polish=Szczecin
 				
 				b_stettin = {
+					polish=Szczecin
 				}
 				b_wolin = {
 				}
@@ -5331,6 +5400,7 @@ e_germany = {
 				polish=Koszalin
 				
 				b_koeslin = {
+					polish=Koszalin
 				}
 				b_ustka = {
 				}
@@ -5345,6 +5415,7 @@ e_germany = {
 				polish=Kolobrzeg
 				
 				b_kolberg = {
+					polish=Kolobrzeg
 				}
 				b_bialogard = {
 				}
@@ -5375,6 +5446,9 @@ e_germany = {
 				polish=Królewiec
 				
 				b_koenigsberg = {
+					russian=Kaliningrad
+					lithuanian=Karaliaucius
+					polish=Królewiec
 				}
 				b_baltiysk = {
 				}
@@ -5389,6 +5463,7 @@ e_germany = {
 				polish=Olsztyn
 				
 				b_allenstein = {
+					polish=Olsztyn
 				}
 				b_bartoszyce = {
 				}
@@ -5403,6 +5478,7 @@ e_germany = {
 				polish=Gdansk
 				
 				b_danzig = {
+					polish=Gdansk
 				}
 				b_gdynia = {
 				}
@@ -5423,6 +5499,7 @@ e_germany = {
 				polish=Elblag
 				
 				b_elbing = {
+					polish=Elblag
 				}
 				b_malbork = {
 				}
@@ -5439,6 +5516,9 @@ e_germany = {
 				polish=Gabin
 				
 				b_gumbinnen = {
+					russian=Gusev
+					lithuanian=Gumbine
+					polish=Gabin
 				}
 				b_chernyakhovsk = {
 				}
@@ -5454,6 +5534,8 @@ e_germany = {
 				polish=Klajpeda
 				
 				b_memel = {
+					lithuanian=Klaipeda
+					polish=Klajpeda
 				}
 				b_silute = {
 				}
@@ -5485,6 +5567,7 @@ e_germany = {
 				polish=Wroclaw
 				
 				b_breslau = {
+					polish=Wroclaw
 				}
 				b_lubin = {
 				}
@@ -5499,6 +5582,7 @@ e_germany = {
 				polish=Katowice
 				
 				b_kattowitz = {
+					polish=Katowice
 				}
 				b_gliwice = {
 				}
@@ -5517,6 +5601,7 @@ e_germany = {
 				polish=Legnica
 				
 				b_liegnitz = {
+					polish=Legnica
 				}
 				b_walbrzych = {
 				}
@@ -5531,6 +5616,7 @@ e_germany = {
 				polish=Opole
 				
 				b_oppeln = {
+					polish=Opole
 				}
 				b_krapowice = {
 				}
@@ -5560,6 +5646,7 @@ e_germany = {
 				polish=Strzalów
 				
 				b_stralsund = {
+					polish=Strzalów
 				}
 				b_grimmen = {
 				}
@@ -5580,6 +5667,7 @@ e_germany = {
 				polish=Gryfia
 				
 				b_greifswald = {
+					polish=Gryfia
 				}
 				b_anklam = {
 				}
@@ -6027,6 +6115,7 @@ e_germany = {
 				polish=Drezno
 				
 				b_dresden = {
+					polish=Drezno
 				}
 				b_coswig = {
 				}
@@ -6047,6 +6136,7 @@ e_germany = {
 				polish="Kamienica Saska"
 				
 				b_chemnitz = {
+					polish="Kamienica Saska"
 				}
 				b_zwickau = {
 				}
@@ -6063,6 +6153,7 @@ e_germany = {
 				polish=Lipsk
 				
 				b_leipzig = {
+					polish=Lipsk
 				}
 				b_torgau = {
 				}
@@ -6110,6 +6201,7 @@ e_germany = {
 				polish=Dziewin
 				
 				b_magdeburg = {
+					polish=Dziewin
 				}
 				b_burg = {
 				}
@@ -6138,6 +6230,7 @@ e_germany = {
 				polish=Desawa
 				
 				b_dessau = {
+					polish=Desawa
 				}
 				b_lutherstadt_wittenburg = {
 				}
@@ -6154,6 +6247,7 @@ e_germany = {
 				polish=Dobrogóra
 				
 				b_halle = {
+					polish=Dobrogóra
 				}
 				b_merseburg = {
 				}
@@ -6183,6 +6277,7 @@ e_germany = {
 				polish=Jarobród
 				
 				b_erfurt = {
+					polish=Jarobród
 				}
 				b_muehlhausen = {
 				}
@@ -6495,6 +6590,7 @@ e_germany = {
 				german=Straßburg
 				
 				b_strasbourg = {
+					german=Straßburg
 				}
 				b_kehl = {
 				}
@@ -6653,6 +6749,7 @@ e_germany = {
 				b_betzdorf = {
 				}
 				b_luxemburg = {
+					frankish=Luxembourg
 				}
 				b_mersch = {
 				}
@@ -7027,6 +7124,7 @@ e_germany = {
 				b_ruesselsheim = {
 				}
 				b_limburg = {
+					frankish=Limbourg
 				}
 				b_eltville = {
 				}
@@ -7052,6 +7150,7 @@ e_germany = {
 				english=Cologne
 				
 				b_koeln = {
+					english=Cologne
 				}
 				b_berg = {
 				}
@@ -7656,6 +7755,8 @@ e_greece = {
 				bulgarian=Ksanti
 				
 				b_xanthi = {
+					turkish=?skeçe
+					bulgarian=Ksanti
 				}
 				b_komotini = {
 				}
@@ -7704,6 +7805,7 @@ e_greece = {
 				turkish=Lefkosa
 				
 				b_leukosia = {
+					turkish=Lefkosa
 				}
 				b_larnaca = {
 				}
@@ -7720,6 +7822,7 @@ e_greece = {
 				turkish=Gazimagusa
 				
 				b_ammochostos = {
+					turkish=Gazimagusa
 				}
 				b_kyrenia = {
 				}
@@ -7734,6 +7837,7 @@ e_greece = {
 				turkish=Limasol
 				
 				b_lemesos = {
+					turkish=Limasol
 				}
 				b_akrotiri = {
 				}
@@ -10485,6 +10589,8 @@ e_italy = {
 				b_castel_santangelo = {
 				}
 				b_roma = {
+					german=Rom
+					english=Rome
 				}
 				b_vatican = {
 				}
@@ -10602,6 +10708,7 @@ e_italy = {
 				german=Florenz
 				
 				b_firenze = {
+					german=Florenz
 				}
 				b_prato = {
 				}
@@ -10680,6 +10787,9 @@ e_italy = {
 				english=Naples
 				
 				b_napoli = {
+					greek=Neapolis
+					german=Neapel
+					english=Naples
 				}
 				b_torre_del_greco = {
 				}
@@ -10971,6 +11081,7 @@ e_italy = {
 				german=Venedig
 				
 				b_venezia = {
+					german=Venedig
 				}
 				b_mestre = {
 				}
@@ -10991,6 +11102,7 @@ e_italy = {
 				german=Padua
 				
 				b_padova = {
+					german=Padua
 				}
 				b_rovigo = {
 				}
@@ -11132,6 +11244,7 @@ e_italy = {
 				german=Mailand
 				
 				b_milan = {
+					german=Mailand
 				}
 				b_monza = {
 				}
@@ -11398,6 +11511,8 @@ e_jugoslavija = {
 				hungarian=Nándorfehérvár
 				
 				b_beograd = {
+					german=Belgrad
+					hungarian=Nándorfehérvár
 				}
 				b_zemun = {
 				}
@@ -11472,6 +11587,7 @@ e_jugoslavija = {
 				serbian=Priština
 				
 				b_prishtine = {
+					serbian=Priština
 				}
 				b_kosovska_mitrovica = {
 				}
@@ -11565,13 +11681,18 @@ e_jugoslavija = {
 				}
 			}
 			capital = 1042 # c_novi_sad
+			german=Woiwodina
+			hungarian=Vajdaság
 			
 			c_novi_sad = { # 1042
 				color={ 17 224 33 }
 				color2={ 255 255 255 }
 				german=Neusatz
+				hungarian=Újvidék
 				
 				b_novi_sad = {
+					german=Neusatz
+					hungarian=Újvidék
 				}
 				b_subotica = {
 				}
@@ -11582,32 +11703,46 @@ e_jugoslavija = {
 				b_fotug = {
 				}
 			}
-			c_mitrovica = { # 1043
-				color={ 144 33 97 }
-				color2={ 255 255 255 }
-				
-				b_mitrovica = {
-				}
-				b_sabac = {
-				}
-				b_ruma = {
-				}
-				b_indija = {
-				}
-				b_ilok = {
-				}
-			}
 			c_pancevo = { # 1044
 				color={ 98 105 152 }
 				color2={ 255 255 255 }
+				hungarian=Pancsova
 				
 				b_pancevo = {
+					hungarian=Pancsova
 				}
 				b_zrenjanin = {
 				}
 				b_kikinda = {
 				}
 				b_bela_crkva = {
+				}
+			}
+			c_syrmia = { # 1043
+				color={ 144 33 97 }
+				color2={ 255 255 255 }
+				german=Syrmien
+				croatian=Srijem
+				hungarian=Szerém
+				serbian=Srem
+				
+				b_mitrovica = {
+					hungarian=Szávaszentdemeter
+				}
+				b_stara_pazova = {
+					hungarian=Ópázova
+				}
+				b_sid = {
+					hungarian=Sid
+				}
+				b_zemun_2 = {
+					hungarian=Zimony
+				}
+				b_ruma = {
+					hungarian=Árpatarló
+				}
+				b_indhija = {
+					hungarian=India
 				}
 			}
 		}
@@ -11765,6 +11900,7 @@ e_jugoslavija = {
 				italian=Dulcigno
 				
 				b_ulcinj = {
+					italian=Dulcigno
 				}
 				b_stari_bar = {
 				}
@@ -11794,6 +11930,7 @@ e_jugoslavija = {
 				italian=Cattaro
 				
 				b_kotor = {
+					italian=Cattaro
 				}
 				b_tivat = {
 				}
@@ -11808,6 +11945,7 @@ e_jugoslavija = {
 				german=Nixitz
 				
 				b_niksic = {
+					german=Nixitz
 				}
 				b_savnik = {
 				}
@@ -11857,6 +11995,10 @@ e_jugoslavija = {
 				hungarian=Zágráb
 				
 				b_zagreb = {
+					greek=Ágranon
+					german=Agram
+					italian=Zagabria
+					hungarian=Zágráb
 				}
 				b_samobor = {
 				}
@@ -11875,6 +12017,9 @@ e_jugoslavija = {
 				hungarian=Modrus-Fiume
 				
 				b_karlovac = {
+					german=Karlstadt
+					italian=Carlostadio
+					hungarian=Modrus-Fiume
 				}
 				b_duga_resa = {
 				}
@@ -11891,6 +12036,9 @@ e_jugoslavija = {
 				hungarian=Lika-Kravaba
 				
 				b_senj = {
+					german=Zengg
+					italian=Segna
+					hungarian=Lika-Kravaba
 				}
 				b_gospic = {
 				}
@@ -11905,6 +12053,7 @@ e_jugoslavija = {
 				hungarian=Sziszek
 				
 				b_sisak = {
+					hungarian=Sziszek
 				}
 				b_petrinja = {
 				}
@@ -11922,6 +12071,8 @@ e_jugoslavija = {
 				hungarian=Varasd
 				
 				b_varazdin = {
+					german=Warasdin
+					hungarian=Varasd
 				}
 				b_cakovec = {
 				}
@@ -11949,6 +12100,7 @@ e_jugoslavija = {
 				italian=Spalato
 				
 				b_split = {
+					italian=Spalato
 				}
 				b_trogir = {
 				}
@@ -11964,6 +12116,8 @@ e_jugoslavija = {
 				italian=Ragusa
 				
 				b_dubrovnik = {
+					german=Ragusa
+					italian=Ragusa
 				}
 				b_makarska = {
 				}
@@ -11980,6 +12134,9 @@ e_jugoslavija = {
 				hungarian=Zára
 				
 				b_zadar = {
+					german=Zara
+					italian=Zara
+					hungarian=Zára
 				}
 				b_jablanac = {
 				}
@@ -12026,6 +12183,8 @@ e_jugoslavija = {
 				hungarian=Póla
 				
 				b_pola = {
+					croatian=Pula
+					hungarian=Póla
 				}
 				b_rovinj = {
 				}
@@ -12057,8 +12216,9 @@ e_jugoslavija = {
 				hungarian=Belovár
 				
 				b_bjelovar = {
+					hungarian=Belovár
 				}
-				b_durdevac = {
+				b_dhurdhevac = {
 				}
 				b_virovitica = {
 				}
@@ -12085,8 +12245,9 @@ e_jugoslavija = {
 				hungarian=Verõcze
 				
 				b_osijek = {
+					german=Essegg
 				}
-				b_?akovo = {
+				b_dhakovo = {
 				}
 				b_nasice = {
 				}
@@ -12106,6 +12267,8 @@ e_jugoslavija = {
 				hungarian=Pozsega
 				
 				b_pozega = {
+					german=Poschegg
+					hungarian=Pozsega
 				}
 				b_nova_gradiska = {
 				}
@@ -12121,6 +12284,8 @@ e_jugoslavija = {
 				hungarian=Vukovár
 				
 				b_vukovar = {
+					german=Wukowar
+					hungarian=Vukovár
 				}
 				b_vincovci = {
 				}
@@ -12139,6 +12304,25 @@ e_jugoslavija = {
 		culture = bulgarian
 		serbian=Makedonija
 		
+		c_tetovo = { # 1598
+			color={ 10 61 44 }
+			color2={ 255 255 255 }
+			sq=Tetovë
+			
+			b_tetovo_2 = {
+			}
+			b_gostivar = {
+			}
+			b_ohrid_2 = {
+				sq=Ohër
+			}
+			b_debar = {
+				sq=Dibër
+			}
+			b_velesta = {
+				sq=Veleshtë
+			}
+		}
 		d_makedonija = {
 			color={ 7 234 155 }
 			color2={ 255 255 255 }
@@ -12146,7 +12330,7 @@ e_jugoslavija = {
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 1047 province_id = 1048 } }
+					any_demesne_province = { OR = { province_id = 1047 province_id = 1048 province_id = 1598 } }
 				}
 			}
 			capital = 1047 # c_skopje
@@ -12154,8 +12338,12 @@ e_jugoslavija = {
 			c_skopje = { # 1047
 				color={ 17 224 160 }
 				color2={ 255 255 255 }
+				turkish=Üsküp
+				sq=Shkupi
 				
 				b_skopje = {
+					turkish=Üsküp
+					sq=Shkupi
 				}
 				b_kumanovo = {
 				}
@@ -12167,14 +12355,38 @@ e_jugoslavija = {
 			c_bitola = { # 1048
 				color={ 224 17 139 }
 				color2={ 255 255 255 }
+				greek=Monastíri
+				turkish=Manast?r
 				
 				b_bitola = {
+					greek=Monastíri
+					turkish=Manast?r
 				}
 				b_prilep = {
 				}
 				b_ohrid = {
 				}
 				b_tetovo = {
+					sq=Tetovë
+				}
+			}
+			c_tetovo = { # 1598
+				color={ 10 61 44 }
+				color2={ 255 255 255 }
+				sq=Tetovë
+				
+				b_tetovo_2 = {
+				}
+				b_gostivar = {
+				}
+				b_ohrid_2 = {
+					sq=Ohër
+				}
+				b_debar = {
+					sq=Dibër
+				}
+				b_velesta = {
+					sq=Veleshtë
 				}
 			}
 		}
@@ -12204,14 +12416,19 @@ e_jugoslavija = {
 				german=Laibach
 				
 				b_ljubljana = {
+					german=Laibach
 				}
 				b_domzale = {
+					german=Domschale
 				}
 				b_kranj = {
+					german=Krainburg
 				}
 				b_kamnik = {
+					german="Stein in Krain"
 				}
 				b_radovljica = {
+					german=Radmannsdorf
 				}
 			}
 			c_gorizia = { # 1079
@@ -12220,6 +12437,7 @@ e_jugoslavija = {
 				german=Görz
 				
 				b_gorizia = {
+					german=Görz
 				}
 				b_sa_vito_al_palmanova = {
 				}
@@ -12235,15 +12453,20 @@ e_jugoslavija = {
 				color2={ 255 255 255 }
 				german=Adelsberg
 				
+				b_nova_gorica = {
+					german=Neu-Görz
+				}
 				b_postojna = {
+					german=Adelsberg
 				}
 				b_koper = {
+					german=Gafers
 				}
-				b_izola = {
+				b_ajdovscina = {
+					german=Haidenschaft
 				}
 				b_gorica = {
-				}
-				b_dolenji = {
+					german=Görz
 				}
 			}
 			c_stajerska = { # 1076
@@ -12253,9 +12476,20 @@ e_jugoslavija = {
 				
 				b_maribor = {
 				}
-				b_mourska_sobota = {
+				b_ptuj = {
+					german=Pettau
 				}
-				b_pragersko = {
+				b_celje = {
+					german=Cilli
+				}
+				b_velenje = {
+					german=Wöllan
+				}
+				b_brezice = {
+					german=Rann
+				}
+				b_slovenj_gradec = {
+					german=Windischgraz
 				}
 			}
 			c_trieste = { # 1078
@@ -12264,16 +12498,13 @@ e_jugoslavija = {
 				german=Triest
 				
 				b_trieste = {
+					german=Triest
 				}
 				b_muggia = {
 				}
 				b_cervignano_del_friuli = {
 				}
 				b_monfalcone = {
-				}
-				b_grado = {
-				}
-				b_sezana = {
 				}
 			}
 		}
@@ -12308,8 +12539,10 @@ e_maghreb = {
 			c_al_jazaer = { # 1
 				color={ 32 239 64 }
 				color2={ 255 255 255 }
+				frankish=Alger
 				
-				b_algeirs = {
+				b_al_jazaer = {
+					frankish=Alger
 				}
 				b_bilda = {
 				}
@@ -12976,6 +13209,7 @@ e_maghreb = {
 				moroccan=ar-Ribat
 				
 				b_rabat = {
+					moroccan=ar-Ribat
 				}
 				b_sale = {
 				}
@@ -13138,6 +13372,7 @@ e_maghreb = {
 				moroccan="ad-Dar al-bayda"
 				
 				b_casablanca = {
+					moroccan="ad-Dar al-bayda"
 				}
 				b_mohammedia = {
 				}
@@ -13468,6 +13703,8 @@ e_netherlands = {
 				frankish=Bruxelles
 				
 				b_brussel = {
+					german=Brüssel
+					frankish=Bruxelles
 				}
 				b_vilvoorde = {
 				}
@@ -13488,6 +13725,7 @@ e_netherlands = {
 				frankish=Anvers
 				
 				b_antwerpen = {
+					frankish=Anvers
 				}
 				b_brasschaat = {
 				}
@@ -13508,6 +13746,7 @@ e_netherlands = {
 				frankish=Bruges
 				
 				b_brugge = {
+					frankish=Bruges
 				}
 				b_oostende = {
 				}
@@ -13526,6 +13765,7 @@ e_netherlands = {
 				frankish=Gand
 				
 				b_gent = {
+					frankish=Gand
 				}
 				b_lokeren = {
 				}
@@ -13544,6 +13784,7 @@ e_netherlands = {
 				frankish=Limbourg
 				
 				b_hasselt = {
+					frankish=Limbourg
 				}
 				b_genk = {
 				}
@@ -13573,6 +13814,7 @@ e_netherlands = {
 				dutch=Namen
 				
 				b_namur = {
+					dutch=Namen
 				}
 				b_gembloux = {
 				}
@@ -13587,6 +13829,7 @@ e_netherlands = {
 				german=Arel
 				
 				b_arlon = {
+					german=Arel
 				}
 				b_bastogne = {
 				}
@@ -13599,6 +13842,7 @@ e_netherlands = {
 				german=Karolingen
 				
 				b_charleroi = {
+					german=Karolingen
 				}
 				b_binche = {
 				}
@@ -13627,6 +13871,8 @@ e_netherlands = {
 				german=Lüttich
 				
 				b_liege = {
+					dutch=Luik
+					german=Lüttich
 				}
 				b_seraing = {
 				}
@@ -13645,6 +13891,7 @@ e_netherlands = {
 				dutch=Doornik
 				
 				b_tournai = {
+					dutch=Doornik
 				}
 				b_ronse = {
 				}
@@ -13799,6 +14046,8 @@ e_netherlands = {
 				frankish=Groningue
 				
 				b_groningen = {
+					german=Gröningen
+					frankish=Groningue
 				}
 				b_delfzijl = {
 				}
@@ -14862,6 +15111,7 @@ e_poland_lithuania = {
 				b_zamek_krolewski = {
 				}
 				b_warszawa = {
+					german=Warschau
 				}
 				b_pruszkow = {
 				}
@@ -14944,6 +15194,7 @@ e_poland_lithuania = {
 				b_kruchta = {
 				}
 				b_gniezno = {
+					german=Gnesen
 				}
 				b_katedra_gnieznieska = {
 				}
@@ -15027,6 +15278,7 @@ e_poland_lithuania = {
 				german=Kalisch
 				
 				b_kalisz = {
+					german=Kalisch
 				}
 				b_ostrow_wielkopolski = {
 				}
@@ -15088,6 +15340,7 @@ e_poland_lithuania = {
 				russian=Sedltse
 				
 				b_siedlce = {
+					russian=Sedltse
 				}
 				b_biala_podlaska = {
 				}
@@ -15117,6 +15370,7 @@ e_poland_lithuania = {
 				german=Lomscha
 				
 				b_lomza = {
+					german=Lomscha
 				}
 				b_ostroleka = {
 				}
@@ -15133,6 +15387,7 @@ e_poland_lithuania = {
 				lt=Balstoge
 				
 				b_bialystok = {
+					lt=Balstoge
 				}
 				b_bialowieza = {
 				}
@@ -15147,6 +15402,7 @@ e_poland_lithuania = {
 				german=Suwalken
 				
 				b_suwalki = {
+					german=Suwalken
 				}
 				b_augustow = {
 				}
@@ -15205,6 +15461,7 @@ e_poland_lithuania = {
 				b_artus = {
 				}
 				b_torun = {
+					german=Thorn
 				}
 				b_kosciol_akademicki = {
 				}
@@ -15268,6 +15525,7 @@ e_poland_lithuania = {
 				polish=Sluck
 				
 				b_slutsk = {
+					polish=Sluck
 				}
 				b_babruysk = {
 				}
@@ -15310,6 +15568,7 @@ e_poland_lithuania = {
 				polish=Baranowicze
 				
 				b_baranovichi = {
+					polish=Baranowicze
 				}
 				b_nyasvizh = {
 				}
@@ -15350,6 +15609,7 @@ e_poland_lithuania = {
 				polish=Postawy
 				
 				b_pastavy = {
+					polish=Postawy
 				}
 				b_braslaw = {
 				}
@@ -15388,6 +15648,7 @@ e_poland_lithuania = {
 				polish=Orsza
 				
 				b_orsha = {
+					polish=Orsza
 				}
 				b_mstsislaw = {
 				}
@@ -15402,6 +15663,7 @@ e_poland_lithuania = {
 				polish=Homel
 				
 				b_gomel = {
+					polish=Homel
 				}
 				b_zhlobin = {
 				}
@@ -15416,6 +15678,7 @@ e_poland_lithuania = {
 				polish=Mohylew
 				
 				b_mogilev = {
+					polish=Mohylew
 				}
 				b_barysaw = {
 				}
@@ -15430,6 +15693,7 @@ e_poland_lithuania = {
 				polish=Polock
 				
 				b_polotsk = {
+					polish=Polock
 				}
 				b_navapolotsk = {
 				}
@@ -15442,6 +15706,7 @@ e_poland_lithuania = {
 				polish=Witebsk
 				
 				b_vitebsk = {
+					polish=Witebsk
 				}
 				b_osintorf = {
 				}
@@ -15476,6 +15741,7 @@ e_poland_lithuania = {
 				german=Lemberg
 				
 				b_lvov = {
+					german=Lemberg
 				}
 				b_stryy = {
 				}
@@ -15493,6 +15759,8 @@ e_poland_lithuania = {
 				polish=Ivano-Frankivsk
 				
 				b_stanislavov = {
+					german=Stanislau
+					polish=Ivano-Frankivsk
 				}
 				b_kolomyya = {
 				}
@@ -15509,6 +15777,7 @@ e_poland_lithuania = {
 				polish=Stryj
 				
 				b_stryi = {
+					polish=Stryj
 				}
 				b_skole = {
 				}
@@ -15526,6 +15795,8 @@ e_poland_lithuania = {
 				polish=Tarnopol
 				
 				b_ternopil = {
+					german=Tarnopol
+					polish=Tarnopol
 				}
 				b_zbarazh = {
 				}
@@ -15554,6 +15825,7 @@ e_poland_lithuania = {
 				german=Krakau
 				
 				b_krakow = {
+					german=Krakau
 				}
 				b_skawina = {
 				}
@@ -15574,6 +15846,7 @@ e_poland_lithuania = {
 				german=Bielitz-Biala
 				
 				b_bielsko = {
+					german=Bielitz-Biala
 				}
 				b_zywiec = {
 				}
@@ -15590,6 +15863,7 @@ e_poland_lithuania = {
 				german="Neu Sandez"
 				
 				b_novy_sacz = {
+					german="Neu Sandez"
 				}
 				b_gorlice = {
 				}
@@ -15604,6 +15878,7 @@ e_poland_lithuania = {
 				german=Premissel
 				
 				b_przemysl = {
+					german=Premissel
 				}
 				b_rzeszow = {
 				}
@@ -15618,6 +15893,7 @@ e_poland_lithuania = {
 				german=Tarnau
 				
 				b_tarnow = {
+					german=Tarnau
 				}
 				b_debica = {
 				}
@@ -15656,6 +15932,8 @@ e_poland_lithuania = {
 				polish=Wilno
 				
 				b_vilnius = {
+					german=Wilna
+					polish=Wilno
 				}
 				b_druskininkai = {
 				}
@@ -15672,6 +15950,7 @@ e_poland_lithuania = {
 				polish=Kowno
 				
 				b_kaunas = {
+					polish=Kowno
 				}
 				b_alytus = {
 				}
@@ -15687,6 +15966,8 @@ e_poland_lithuania = {
 				polish=Mariampol
 				
 				b_marijampole = {
+					german=Mariampol
+					polish=Mariampol
 				}
 				b_sakiai = {
 				}
@@ -15700,6 +15981,8 @@ e_poland_lithuania = {
 				polish=Polaga
 				
 				b_palanga = {
+					german=Polangen
+					polish=Polaga
 				}
 				b_klaipeda = {
 				}
@@ -15715,6 +15998,8 @@ e_poland_lithuania = {
 				polish=Poniewiez
 				
 				b_panevezys = {
+					german=Ponewesch
+					polish=Poniewiez
 				}
 				b_ukmerge = {
 				}
@@ -15730,6 +16015,8 @@ e_poland_lithuania = {
 				polish=Szawle
 				
 				b_siauliai = {
+					german=Schaulen
+					polish=Szawle
 				}
 				b_jonsiskies = {
 				}
@@ -16092,6 +16379,7 @@ e_poland_lithuania = {
 				polish=Kowel
 				
 				b_kovel = {
+					polish=Kowel
 				}
 				b_novovolynsk = {
 				}
@@ -16484,7 +16772,7 @@ e_romania = {
 		capital = 620 # c_bucuresti
 		culture = romanian
 		german=Walachei
-		romanian=Româneasc?
+		romanian=Româneasca
 		
 		d_muntenia = {
 			color={ 166 234 27 }
@@ -16507,6 +16795,8 @@ e_romania = {
 				hungarian=Bukarest
 				
 				b_bucuresti = {
+					german=Bukarest
+					hungarian=Bukarest
 				}
 				b_bolintin = {
 				}
@@ -16564,7 +16854,7 @@ e_romania = {
 				}
 			}
 		}
-		d_dobrogea = {
+		d_karvuna = {
 			color={ 186 87 38 }
 			color2={ 255 255 255 }
 			
@@ -16576,6 +16866,7 @@ e_romania = {
 			}
 			capital = 626 # c_constanta
 			german=Dobrudscha
+			romanian=Dobrogea
 			
 			c_constanta = { # 626
 				color={ 176 97 33 }
@@ -16583,6 +16874,7 @@ e_romania = {
 				german=Konstanz
 				
 				b_constanta = {
+					german=Konstanz
 				}
 				b_navodari = {
 				}
@@ -16624,6 +16916,7 @@ e_romania = {
 				german=Krajowa
 				
 				b_craiova = {
+					german=Krajowa
 				}
 				b_slatina = {
 				}
@@ -16675,6 +16968,8 @@ e_romania = {
 				russian=Kishinyov
 				
 				b_chisinau = {
+					german=Kischinau
+					russian=Kishinyov
 				}
 				b_tighina = {
 				}
@@ -16692,6 +16987,8 @@ e_romania = {
 				russian=Belzy
 				
 				b_balti = {
+					german=Belz
+					russian=Belzy
 				}
 				b_drochia = {
 				}
@@ -16752,6 +17049,9 @@ e_romania = {
 				polish=Suczawa
 				
 				b_suceava = {
+					german=Sotschen
+					hungarian=Szucsáva
+					polish=Suczawa
 				}
 				b_radauti = {
 				}
@@ -16767,6 +17067,8 @@ e_romania = {
 				romanian=Cernauti
 				
 				b_czernowitz = {
+					ukrainian=Chernivtsi
+					romanian=Cernauti
 				}
 				b_kelmentsi = {
 				}
@@ -16796,6 +17098,7 @@ e_romania = {
 				german=Jassy
 				
 				b_iasi = {
+					german=Jassy
 				}
 				b_vaslui = {
 				}
@@ -16811,6 +17114,8 @@ e_romania = {
 				hungarian=Bákó
 				
 				b_bacau = {
+					german=Barchau
+					hungarian=Bákó
 				}
 				b_piatra_neamt = {
 				}
@@ -16828,6 +17133,8 @@ e_romania = {
 				hungarian=Botosán
 				
 				b_botosani = {
+					german=Botoschan
+					hungarian=Botosán
 				}
 				b_dorohoi = {
 				}
@@ -16844,6 +17151,7 @@ e_romania = {
 				german=Galatz
 				
 				b_galati = {
+					german=Galatz
 				}
 				b_focsani = {
 				}
@@ -16865,7 +17173,7 @@ e_romania = {
 		german=Siebenbürgen
 		hungarian=Erdély
 		
-		d_western_transylvania = {
+		d_cluj = {
 			color={ 198 234 155 }
 			color2={ 255 255 255 }
 			
@@ -16900,6 +17208,7 @@ e_romania = {
 				german=Karlsburg
 				
 				b_alba_iulia = {
+					german=Karlsburg
 				}
 				b_aiud = {
 				}
@@ -16919,6 +17228,8 @@ e_romania = {
 				b_deva = {
 				}
 				b_hunedoara = {
+					german=Eisenmarkt
+					hungarian=Hunyad
 				}
 				b_orastie = {
 				}
@@ -16962,6 +17273,9 @@ e_romania = {
 				serbian=Rešica
 				
 				b_resicabanya = {
+					german=Reschitz
+					romanian=Resita
+					serbian=Rešica
 				}
 				b_resita = {
 				}
@@ -16991,6 +17305,8 @@ e_romania = {
 				hungarian=Nagyvárad
 				
 				b_oradea = {
+					german=Großwardein
+					hungarian=Nagyvárad
 				}
 				b_alesd = {
 				}
@@ -17025,6 +17341,8 @@ e_romania = {
 				hungarian=Beszterce
 				
 				b_bistrita = {
+					german=Bistritz
+					hungarian=Beszterce
 				}
 				b_baia_mare = {
 				}
@@ -17040,6 +17358,8 @@ e_romania = {
 				hungarian=Szatmárnémeti
 				
 				b_satu_mare = {
+					german=Sathmar
+					hungarian=Szatmárnémeti
 				}
 				b_zalau = {
 				}
@@ -17049,35 +17369,18 @@ e_romania = {
 				}
 			}
 		}
-		d_eastern_transylvania = {
-			color={ 58 86 101 }
+		d_sieben_stuehle = {
+			color={ 71 234 155 }
 			color2={ 255 255 255 }
 			
 			allow = {
 				OR = {
 					lower_tier_than = KING
-					any_demesne_province = { OR = { province_id = 631 province_id = 632 province_id = 633 province_id = 634 } }
+					any_demesne_province = { OR = { province_id = 631 province_id = 632 } }
 				}
 			}
-			capital = 631 # c_brasso
+			capital = 632 # c_nagyszeben
 			
-			c_brasso = { # 631
-				color={ 48 96 96 }
-				color2={ 255 255 255 }
-				german=Kronstadt
-				hungarian=Gyulafehérvár
-				
-				b_brasso = {
-				}
-				b_sacele = {
-				}
-				b_campulung = {
-				}
-				b_rasnoy = {
-				}
-				b_codela = {
-				}
-			}
 			c_nagyszeben = { # 632
 				color={ 81 224 160 }
 				color2={ 255 255 255 }
@@ -17095,6 +17398,38 @@ e_romania = {
 				b_agnita = {
 				}
 			}
+			c_brasso = { # 631
+				color={ 48 96 96 }
+				color2={ 255 255 255 }
+				german=Kronstadt
+				hungarian=Gyulafehérvár
+				
+				b_brasso = {
+					german=Kronstadt
+					hungarian=Gyulafehérvár
+				}
+				b_sacele = {
+				}
+				b_campulung = {
+				}
+				b_rasnoy = {
+				}
+				b_codela = {
+				}
+			}
+		}
+		d_szekelyfoeld = {
+			color={ 59 87 165 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 633 province_id = 634 } }
+				}
+			}
+			capital = 633 # c_targu_mures
+			
 			c_targu_mures = { # 633
 				color={ 49 97 160 }
 				color2={ 255 255 255 }
@@ -17102,6 +17437,8 @@ e_romania = {
 				hungarian=Marosvásárhely
 				
 				b_targu_mures = {
+					german=Neumarkt
+					hungarian=Marosvásárhely
 				}
 				b_tarnaveni = {
 				}
@@ -17117,6 +17454,8 @@ e_romania = {
 				romanian=Odorheiu
 				
 				b_udvarhely = {
+					german=Oderhellen
+					romanian=Odorheiu
 				}
 				b_miercurea_ciuc = {
 				}
@@ -17160,6 +17499,7 @@ e_russia = {
 				german=Moskau
 				
 				b_moskva = {
+					german=Moskau
 				}
 				b_khimki = {
 				}
@@ -17805,6 +18145,7 @@ e_russia = {
 				russian=Vyborg
 				
 				b_viipuri = {
+					russian=Vyborg
 				}
 				b_priozersk = {
 				}
@@ -18940,6 +19281,7 @@ e_russia = {
 				russian=Kazan
 				
 				b_qazan = {
+					russian=Kazan
 				}
 				b_novocheboksarsk = {
 				}
@@ -18954,6 +19296,7 @@ e_russia = {
 				russian=Chistopol
 				
 				b_cistay = {
+					russian=Chistopol
 				}
 				b_nizhnekamsk = {
 				}
@@ -19086,6 +19429,7 @@ e_scandinavia = {
 				german=Aalburg
 				
 				b_aalborg = {
+					german=Aalburg
 				}
 				b_norresundby = {
 				}
@@ -19102,6 +19446,7 @@ e_scandinavia = {
 				german=Arenhusen
 				
 				b_aarhus = {
+					german=Arenhusen
 				}
 				b_randers = {
 				}
@@ -19118,6 +19463,7 @@ e_scandinavia = {
 				german=Esberg
 				
 				b_esbjerg = {
+					german=Esberg
 				}
 				b_kolding = {
 				}
@@ -19170,6 +19516,7 @@ e_scandinavia = {
 				swedish=Helsingfors
 				
 				b_helsinki = {
+					swedish=Helsingfors
 				}
 				b_espoo = {
 				}
@@ -19186,6 +19533,7 @@ e_scandinavia = {
 				swedish=Tavastehus
 				
 				b_haemeenlinna = {
+					swedish=Tavastehus
 				}
 				b_lahti = {
 				}
@@ -19213,6 +19561,7 @@ e_scandinavia = {
 				swedish="St Michel"
 				
 				b_mikkeli = {
+					swedish="St Michel"
 				}
 				b_lappeenranta = {
 				}
@@ -19240,6 +19589,7 @@ e_scandinavia = {
 				swedish=Uleåborg
 				
 				b_oulu = {
+					swedish=Uleåborg
 				}
 				b_raahe = {
 				}
@@ -19252,6 +19602,7 @@ e_scandinavia = {
 				swedish=Enare
 				
 				b_inari = {
+					swedish=Enare
 				}
 			}
 			c_kajaani = { # 858
@@ -19260,6 +19611,7 @@ e_scandinavia = {
 				swedish=Kajana
 				
 				b_kajaani = {
+					swedish=Kajana
 				}
 			}
 			c_kuopio = { # 860
@@ -19277,6 +19629,7 @@ e_scandinavia = {
 				swedish=Torneå
 				
 				b_tornio = {
+					swedish=Torneå
 				}
 			}
 		}
@@ -19298,6 +19651,7 @@ e_scandinavia = {
 				swedish=Åbo
 				
 				b_turku = {
+					swedish=Åbo
 				}
 				b_bjorneborg = {
 				}
@@ -19321,6 +19675,7 @@ e_scandinavia = {
 				swedish=Tammerfors
 				
 				b_tampere = {
+					swedish=Tammerfors
 				}
 				b_nokia = {
 				}
@@ -19333,6 +19688,7 @@ e_scandinavia = {
 				swedish=Vasa
 				
 				b_vaasa = {
+					swedish=Vasa
 				}
 				b_kokkola = {
 				}
@@ -19404,6 +19760,7 @@ e_scandinavia = {
 				danish=Christiania
 				
 				b_oslo = {
+					danish=Christiania
 				}
 				b_moss = {
 				}
@@ -19521,6 +19878,7 @@ e_scandinavia = {
 				german=Drontheim
 				
 				b_trondheim = {
+					german=Drontheim
 				}
 				b_stjordalshalser = {
 				}
@@ -19725,6 +20083,9 @@ e_scandinavia = {
 				english=Gothenburg
 				
 				b_goeteborg = {
+					german=Gotenburg
+					danish=Gøteborg
+					english=Gothenburg
 				}
 				b_kungsbacka = {
 				}
@@ -20666,6 +21027,7 @@ e_the_united_kingdom = {
 				scottish="Dùn Èideann"
 				
 				b_edinburgh = {
+					scottish="Dùn Èideann"
 				}
 				b_grangemouth = {
 				}
@@ -20682,6 +21044,7 @@ e_the_united_kingdom = {
 				scottish="Dùn Phris"
 				
 				b_dumfries = {
+					scottish="Dùn Phris"
 				}
 				b_galashiels = {
 				}
@@ -20696,6 +21059,7 @@ e_the_united_kingdom = {
 				scottish=Glaschu
 				
 				b_glasgow = {
+					scottish=Glaschu
 				}
 				b_kilmarnock = {
 				}
@@ -20752,6 +21116,7 @@ e_the_united_kingdom = {
 				scottish="Obar Dheathain"
 				
 				b_aberdeen = {
+					scottish="Obar Dheathain"
 				}
 				b_montrose = {
 				}
@@ -20768,6 +21133,7 @@ e_the_united_kingdom = {
 				scottish="Dùn Dèagh"
 				
 				b_dundee = {
+					scottish="Dùn Dèagh"
 				}
 				b_st_andrews = {
 				}
@@ -20782,6 +21148,7 @@ e_the_united_kingdom = {
 				scottish="Inbhir Nis"
 				
 				b_inverness = {
+					scottish="Inbhir Nis"
 				}
 				b_wick = {
 				}
@@ -20792,6 +21159,7 @@ e_the_united_kingdom = {
 				scottish=Sruighlea
 				
 				b_stirling = {
+					scottish=Sruighlea
 				}
 				b_alloa = {
 				}
@@ -20829,6 +21197,7 @@ e_the_united_kingdom = {
 				welsh=Caerdydd
 				
 				b_cardiff = {
+					welsh=Caerdydd
 				}
 				b_newport = {
 				}
@@ -20845,6 +21214,7 @@ e_the_united_kingdom = {
 				welsh=Aberteifi
 				
 				b_cardigan = {
+					welsh=Aberteifi
 				}
 				b_carmarthan = {
 				}
@@ -20859,6 +21229,7 @@ e_the_united_kingdom = {
 				welsh=Caergybi
 				
 				b_holyhead = {
+					welsh=Caergybi
 				}
 				b_llandudno = {
 				}
@@ -21354,6 +21725,7 @@ e_turkey = {
 				turkish=Istanbul
 				
 				b_constantinople = {
+					turkish=Istanbul
 				}
 				b_hagia_sophia = {
 				}
@@ -21391,6 +21763,8 @@ e_turkey = {
 				turkish=Gelibolu
 				
 				b_gallipoli = {
+					greek=Kallípolis
+					turkish=Gelibolu
 				}
 				b_tekirdag = {
 				}
@@ -21407,6 +21781,7 @@ e_turkey = {
 				bulgarian=Lozengrad
 				
 				b_kirklareli = {
+					bulgarian=Lozengrad
 				}
 				b_lueleburgaz = {
 				}
@@ -21423,6 +21798,7 @@ e_turkey = {
 				greek=Ouskountár
 				
 				b_uskuedar = {
+					greek=Ouskountár
 				}
 				b_kartel = {
 				}
@@ -21587,6 +21963,7 @@ e_turkey = {
 				greek=Smyrna
 				
 				b_izmir = {
+					greek=Smyrna
 				}
 				b_aydin = {
 				}
@@ -21603,6 +21980,7 @@ e_turkey = {
 				greek=Balikesír
 				
 				b_balikesir = {
+					greek=Balikesír
 				}
 				b_bandirma = {
 				}
@@ -21619,6 +21997,7 @@ e_turkey = {
 				greek=Tsanákkale
 				
 				b_canakkale = {
+					greek=Tsanákkale
 				}
 				b_biga = {
 				}
@@ -21769,6 +22148,7 @@ e_turkey = {
 				greek=Proúsa
 				
 				b_bursa = {
+					greek=Proúsa
 				}
 				b_inegoel = {
 				}
@@ -21785,6 +22165,7 @@ e_turkey = {
 				greek=Akroïnón
 				
 				b_afyon = {
+					greek=Akroïnón
 				}
 				b_bolvadin = {
 				}
@@ -21799,6 +22180,7 @@ e_turkey = {
 				greek=Dorílaion
 				
 				b_eskishehir = {
+					greek=Dorílaion
 				}
 				b_mihaliccik = {
 				}
@@ -21815,6 +22197,7 @@ e_turkey = {
 				greek=Nikomídia
 				
 				b_izmit = {
+					greek=Nikomídia
 				}
 				b_adapazari = {
 				}
@@ -21833,6 +22216,7 @@ e_turkey = {
 				greek=Kioutákhia
 				
 				b_kuetahya = {
+					greek=Kioutákhia
 				}
 				b_usak = {
 				}
@@ -21958,6 +22342,7 @@ e_turkey = {
 				greek=Ikónion
 				
 				b_konya = {
+					greek=Ikónion
 				}
 				b_karaman = {
 				}
@@ -22063,6 +22448,7 @@ e_turkey = {
 				greek=Trapezous
 				
 				b_trabzon = {
+					greek=Trapezous
 				}
 				b_akcaabat = {
 				}
@@ -22167,12 +22553,17 @@ k_albania = {
 			color={ 199 113 224 }
 			color2={ 255 255 255 }
 			greek=Dyrrachion
-			croatian=Dra?
-			slovene=Dra?
+			croatian=Drac
+			slovene=Drac
 			italian=Durazzo
-			serbian=Dra?
+			serbian=Drac
 			
 			b_durres = {
+				greek=Dyrrachion
+				croatian=Drac
+				slovene=Drac
+				italian=Durazzo
+				serbian=Drac
 			}
 			b_kavaje = {
 			}
@@ -22192,6 +22583,10 @@ k_albania = {
 			serbian=Skadar
 			
 			b_shkoder = {
+				greek=Scodra
+				croatian=Skadar
+				italian=Scutari
+				serbian=Skadar
 			}
 			b_bajram = {
 			}
@@ -22222,6 +22617,10 @@ k_albania = {
 			serbian=Valona
 			
 			b_vlore = {
+				greek=Avlóna
+				croatian=Valona
+				italian=Valona
+				serbian=Valona
 			}
 			b_fier = {
 			}
@@ -22234,11 +22633,15 @@ k_albania = {
 			color={ 123 224 113 }
 			color2={ 255 255 255 }
 			greek=Argyrókastro
-			croatian=?irokastra
+			croatian=Ðirokastra
 			italian=Argirocastro
-			serbian=?irokastra
+			serbian=Ðirokastra
 			
 			b_gjirokaster = {
+				greek=Argyrókastro
+				croatian=Ðirokastra
+				italian=Argirocastro
+				serbian=Ðirokastra
 			}
 			b_korce = {
 			}
@@ -22628,6 +23031,8 @@ k_bulgaria = {
 			italian=Filippopoli
 			
 			b_plovdiv = {
+				greek=Filipúpolis
+				italian=Filippopoli
 			}
 			b_pazardzhik = {
 			}
@@ -23976,6 +24381,7 @@ k_estonia = {
 			german=Pernau
 			
 			b_paernu = {
+				german=Pernau
 			}
 			b_moisakuela = {
 			}
@@ -24443,6 +24849,7 @@ k_ireland = {
 			irish="Baile Átha Cliath"
 			
 			b_dublin = {
+				irish="Baile Átha Cliath"
 			}
 			b_dun_laoghaire = {
 			}
@@ -24459,6 +24866,7 @@ k_ireland = {
 			irish="Cill Dara"
 			
 			b_kildare = {
+				irish="Cill Dara"
 			}
 			b_laoise = {
 			}
@@ -24473,6 +24881,7 @@ k_ireland = {
 			irish="Loch Garman"
 			
 			b_wexford = {
+				irish="Loch Garman"
 			}
 			b_kilkenny = {
 			}
@@ -24553,6 +24962,7 @@ k_ireland = {
 			irish=Corcaigh
 			
 			b_cork = {
+				irish=Corcaigh
 			}
 			b_blarney = {
 			}
@@ -24567,6 +24977,7 @@ k_ireland = {
 			irish=Luimneach
 			
 			b_limerick = {
+				irish=Luimneach
 			}
 			b_tralee = {
 			}
@@ -24581,6 +24992,7 @@ k_ireland = {
 			irish="Port Láirge"
 			
 			b_waterford = {
+				irish="Port Láirge"
 			}
 			b_clonmel = {
 			}
@@ -24606,6 +25018,7 @@ k_ireland = {
 			irish="Béal Feirste"
 			
 			b_belfast = {
+				irish="Béal Feirste"
 			}
 			b_bangor = {
 			}
@@ -24622,6 +25035,7 @@ k_ireland = {
 			irish="Ard Mhacha"
 			
 			b_armagh = {
+				irish="Ard Mhacha"
 			}
 			b_newry = {
 			}
@@ -24639,6 +25053,8 @@ k_ireland = {
 			anglo_irish=Derry
 			
 			b_londonderry = {
+				irish=Doire
+				anglo_irish=Derry
 			}
 			b_coleraine = {
 			}
@@ -24904,6 +25320,7 @@ k_latvia = {
 			german=Dünaburg
 			
 			b_daugavpils = {
+				german=Dünaburg
 			}
 			b_kraslava = {
 			}
@@ -24916,6 +25333,7 @@ k_latvia = {
 			german=Wolmar
 			
 			b_valmiera = {
+				german=Wolmar
 			}
 			b_valka = {
 			}
@@ -24957,6 +25375,7 @@ k_latvia = {
 			german=Libau
 			
 			b_liepaja = {
+				german=Libau
 			}
 			b_priekule = {
 			}
@@ -24971,6 +25390,7 @@ k_latvia = {
 			german=Windau
 			
 			b_ventspils = {
+				german=Windau
 			}
 			b_roja = {
 			}
@@ -25540,6 +25960,8 @@ k_schweiz = {
 			italian=Berna
 			
 			b_bern = {
+				frankish=Berne
+				italian=Berna
 			}
 			b_thun = {
 			}
@@ -25559,6 +25981,8 @@ k_schweiz = {
 			italian=Basilea
 			
 			b_basel = {
+				frankish=Bâle
+				italian=Basilea
 			}
 			b_aarau = {
 			}
@@ -25574,6 +25998,8 @@ k_schweiz = {
 			italian=Ginevra
 			
 			b_geneve = {
+				german=Genf
+				italian=Ginevra
 			}
 			b_vernier = {
 			}
@@ -25591,6 +26017,8 @@ k_schweiz = {
 			italian=Neocastello
 			
 			b_neuchatel = {
+				german=Neuenburg
+				italian=Neocastello
 			}
 			b_biel = {
 			}
@@ -25637,6 +26065,7 @@ k_schweiz = {
 			italian=Zurigo
 			
 			b_zuerich = {
+				italian=Zurigo
 			}
 			b_winterthur = {
 			}
@@ -25673,6 +26102,9 @@ k_schweiz = {
 			italian=Lucerna
 			
 			b_luzern = {
+				frankish=Lucerne
+				english=Lucerne
+				italian=Lucerna
 			}
 			b_emmen_2 = {
 			}
