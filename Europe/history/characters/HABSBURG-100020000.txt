@@ -1,139 +1,150 @@
 #habsburg2
-100022001={ # C3. Duke ALBRECHT III "mit dem Copfe" of Austria and Styria (1365-95), in Inner-Istria and the Windische Mark 1374, *Wien 9.9.1348, +Laxenburg 29.8.1395, bur Wien; 1m: after 19.3.1366 Elisabeth of Bohemia (*19.4.1358 +4.9.1373); 2m: Wien 4.3.1375 Beatrix von Nürnberg (*1362 +10.6.1414)
-	name=Albrecht
-	dynasty=51
-	religion=catholic culture=german
-	father=462020	# Albrecht v. Habsburg
-	1348.09.09={birth=yes}
-	1395.08.29={death=yes}
-}
-	100022002={ # D1. Duke ALBRECHT IV "das Weltwunder" of Austria (1395-1404), *Wien 19.9.1377, +Klosterneuburg 14.9.1404, bur Wien; m.Wien 24.4.1390 Johanna of Bavaria (*1377 +17.10.1410) $$
-		name=Albrecht
-		dynasty=51
-		religion=catholic culture=german
-		father=100022001	# Albrecht v. Habsburg
-		1377.09.09={birth=yes}
-		1390.04.24={add_spouse=100011814}	# Johanna v. Wittelsbach
-		1404.09.14={death=yes}
-	}
-		100022006={ # E1. Margarete, *Wien 26.6.1395, +Burghausen 24.12.1447, bur Raitenhaslach; m.Landshut 25.11.1412 Duke Heinrich IV of Bavaria (*1386 +30.7.1450) $$
+#462023 =  A1. Duke ALBRECHT I of Austria, Styria, Carniola and the Windische Mark (1282-1308), German King (1298-1308) cr Aachen 27.7.1298, *VII.1255, +murdered at Königsfelden 1.5.1308, bur Wettingen; m.Wien 20.12.1274 Elisabeth (*1263, +Wien 28.10.1313) dau.of Gf Meinhard V von Görz-Tyrol
+	#462020 = B4. ALBRECHT II "der Weise", "der Lehme", Gf von Pfirt 1324, Duke of Austria, Styria, Carinthia, Carniola and South Tyrol (1330-58), *Habsburg 12.12.1298, +Wien 20.7.1358, bur Gaming; m.15.2.1324 Gfn Johanna von Pfirt (*1300 +15.11.1351)
+		100022001={ # C3. Duke ALBRECHT III "mit dem Copfe" of Austria and Styria (1365-95), in Inner-Istria and the Windische Mark 1374, *Wien 9.9.1348, +Laxenburg 29.8.1395, bur Wien; 1m: after 19.3.1366 Elisabeth of Bohemia (*19.4.1358 +4.9.1373); 2m: Wien 4.3.1375 Beatrix von Nürnberg (*1362 +10.6.1414)
+			name=Albrecht
+			dynasty=51
+			religion=catholic culture=german
+			father=462020	# Albrecht v. Habsburg
+			1348.09.09={birth=yes}
+			1395.08.29={death=yes}
+		}
+			100022002={ # D1. Duke ALBRECHT IV "das Weltwunder" of Austria (1395-1404), *Wien 19.9.1377, +Klosterneuburg 14.9.1404, bur Wien; m.Wien 24.4.1390 Johanna of Bavaria (*1377 +17.10.1410) $$
+				name=Albrecht
+				dynasty=51
+				religion=catholic culture=german
+				father=100022001	# Albrecht v. Habsburg
+				1377.09.09={birth=yes}
+				1390.04.24={add_spouse=100011814}	# Johanna v. Wittelsbach
+				1404.09.14={death=yes}
+			}
+				100022006={ # E1. Margarete, *Wien 26.6.1395, +Burghausen 24.12.1447, bur Raitenhaslach; m.Landshut 25.11.1412 Duke Heinrich IV of Bavaria (*1386 +30.7.1450) $$
+					name=Margarete
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100022002	# Albrecht v. Habsburg
+					mother=100011814	# Johanna v. Wittelsbach
+					1395.06.26={birth=yes}
+					1447.12.24={death=yes}
+				}
+				100022003={ # E2. Duke ALBRECHT V of Austria (1404-39), German King (19.3.1438-1439) as Albrecht II -cr Prague 29.7.1438, King of Bohemia (1437-39) as Albrecht, King of Hungary (1437-39) as Albert -cr 1.1.1438, Mkgf of Moravia (1423-39), *Wien 16.8.1397, +Langendorf +27.10.1439, bur Székesfehérvár; m.Wien 26.4.1422 Elisabeth of Bohemia (*28.2.1409 +19.12.1442)
+					name=Albrecht
+					dynasty=51
+					religion=catholic culture=german
+					father=100022002	# Albrecht v. Habsburg
+					mother=100011814	# Johanna v. Wittelsbach
+					1397.08.08={birth=yes}
+					1439.10.27={death=yes}
+				}
+					100321237={ # F2. LADISLAUS "Posthumus", Duke of Austria (1440-57), King of Hungary (1453-57) as László V -cr IV.1440, King of Bohemia (1453-57), *Komarom, Hungary 22.2.1440, +Prague 23.11.1457
+						name=Ladislaus
+						dynasty=51
+						religion=catholic culture=german
+						father=100022003	# Albrecht v. Habsburg
+						1440.02.22={birth=yes}
+						1457.11.23={death=yes}
+					}
+					100021237={ # F4. Elisabeth, *Wien 1435/36, +Cracow 30.8.1505, bur Cracow; m.Cracow 10.3.1454 King Casimir IV of Poland (*30.11.1427 +7.6.1492) $$
+						name=Elisabeth
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100022003	# Albrecht v. Habsburg
+						1436.01.01={birth=yes}
+						1505.08.30={death=yes}
+					}
+		100022000={ # C4. Duke LEOPOLD III of Austria and Styria (1365-86), Duke in Styria, Carinthia, Carniola and Istria, Ct of Tyrol, etc (1379-86), Hr von Terst 1382, *Wien 1.11.1351, +k.a.Sempach 9.7.1386, bur Königsfelden; m.Wien 23.2.1365 Viridis Visconti (*ca 1350, +Sittich, Carniola by 1.3.1414)
+			name=Leopold
+			dynasty=51
+			religion=catholic culture=german
+			father=462020	# Albrecht v. Habsburg
+			mother=462033	# Johanna Scarponnois
+			1351.01.01={birth=yes}
+			1376.01.01={add_spouse=100091467}	# Viridis Visconti
+			1386.01.01={death=yes}
+		}
+			100022010={ # D3. ERNST I "der Eiserne", Duke of Styria, Carinthia, Carniola and Tyrol (1406-24), *Bruck an der Muhr 1377, +Bruck an der Muhr 10.6.1424; 
+						# 1m: Bruck an der Muhr 14.1.1392 Margarete of Pomerania (*1366 +12.6.1410); 
+						# 2m: Cracow 25.1.1412 Cimburga of Masovia (*1394 +28.9.1429)
+				name=Ernst
+				dynasty=51
+				religion=catholic culture=german
+				father=100022000	# Leopold v. Habsburg
+				mother=100091467	# Viridis Visconti
+				1377.01.01={birth=yes}
+				1392.01.14={add_spouse=100010363}	# Margareta Gryfita
+				1424.06.10={death=yes}
+			}
+				100022020={ # E1. Duke FRIEDRICH V of Austria (1457-93), Duke of Styria, Carinthia, Carniola and Tyrol (1424-93), Archduke of Austria from 1453, Emperor (1452-93) as Friedrich III, *Innsbruck 21.9.1415, +Linz 19.8.1493, bur Wien; m.Rome 16.3.1452 Infanta Leonor of Portugal (*8.9.1436 +3.9.1476) $$
+					name=Friedrich
+					dynasty=51
+					religion=catholic culture=german
+					father=100022010	# Ernst v. Habsburg
+					1415.09.21={birth=yes}
+					1452.01.01={add_spouse=100025818}	# Leonor de Avis
+					1493.08.19={death=yes}
+				}
+					#habsburg4 -> F2. Archduke MAXIMILIAN I of Austria (1493-1519), German King (1486 co/1493-1519), Holy Roman Emperor (1508-19), *Burg zu Neustadt 22.3.1459, +Wels 12.1.1519; 1m: Ghent 19/20.8.1477 Marie of Burgundy, heiress of Burgundy and the Netherlands (*13.2.1457 +27.3.1482); 2m: Hall, Tyrol 16.3.1494 Blanca Maria Sforza (*5.4.1472 +31.12.1510); for his descendants see HERE
+					100022005={ # F5. Kunigunde, *Burg zu Wiener Neustadt 16.3.1465, +München 6.8.1520; m.Innsbruck 3.1.1487 Duke Albrecht IV of Bavaria (*15.12.1447 +10.3.1508) $$
+						name=Kunigunde
+						female=yes
+						dynasty=51
+						religion=catholic culture=german
+						father=100022020	# Friedrich v. Habsburg
+						mother=100025818	# Leonor de Avis
+						1465.03.16={birth=yes}
+						1520.08.06={death=yes}
+					}
+				100021233={ # E8. Katharina, *Wiener Neustadt 1424, +Schloss Hohenbaden/Hochbaden 11.9.1493, bur Baden-Baden; m.Pforzheim 15.7.1447 Mgve Karl I of Baden (+24.2.1475) $$
+					name=Katharina		# 10346/katharina-of-austria/
+					female=yes
+					dynasty=51
+					religion=catholic culture=german
+					father=100022010	# Ernst v. Habsburg
+					1424.01.01={birth=yes}
+					1493.09.11={death=yes}
+				}
+			100020007={ # D4. Duke FRIEDRICH IV in Tyrol (1402-39), in Laufenburg 1408, *1382, +Innsbruck 24.6.1439, bur Stams; 1m: Innsbruck 24.12.1407 Elisabeth von Pfalz (*by 27.10.1381 +31.12.1408); 2m: Innsbruck by 11.6.1411 Anna von Braunschweig-Göttingen (*1390 +Innsbruck 10.8.1432) $$
+				name=Friedrich 		# 10339/frederick-iv-duke-of-austria-count-of-tirol/
+				dynasty=51
+				religion=catholic culture=german
+				father=100022000	# Leopold v. Habsburg
+				mother=100091467	# Viridis Visconti
+				1382.01.01={birth=yes}
+				1411.06.11={add_spouse=100012725}	# Anna Welf
+				1439.06.24={death=yes}  # Innsbruck
+			}
+				100020004={ # E2. Archduke Sigmund of Austria, he inherited 1450 the family territories in Swabia and Switzerland, *Innsbruck 26.10.1427, +Innsbruck 4.3.1496, bur Stams; 1m: 12.2.1449 Pss Eleanor of Scotland (*26.10.1433 +3.8.1480); 2m: Innsbruck 24.2.1484 Katharina of Saxony (*24.7.1468 +10.2.1524) $$
+					name=Sigismund # 1858/sigismund-von-oesterreich-graf-von-tirol/
+					dynasty=51
+					religion=catholic culture=german
+					father=100020007	# Friedrich v. Habsburg
+					mother=100012725	# Anna Welf
+					1427.10.26={birth=yes}
+					1484.02.24={add_spouse=100007368}	# Katharina v. Wettin
+					1496.03.04={death=yes}
+				}
+		100211009={ # C6. Margarete, *Wien 1346, +Brünn 14.1.1366; 1m: Passau 4.9.1359 Gf Meinhard III of Tyrol, Duke in Bavaria (*9.2.1344 +13.1.1363); 2m: Wien 6/26.2.1364 Mgve Johann Heinrich of Moravia (*12.2.1322 +12.11.1375) $$
 			name=Margarete
 			female=yes
 			dynasty=51
 			religion=catholic culture=german
-			father=100022002	# Albrecht v. Habsburg
-			mother=100011814	# Johanna v. Wittelsbach
-			1395.06.26={birth=yes}
-			1447.12.24={death=yes}
+			father=462020	# Albrecht v. Habsburg
+			mother=462033	# Johanna Scarponnois
+			1346.01.01={birth=yes}
+			1366.01.14={death=yes}
 		}
-		100022003={ # E2. Duke ALBRECHT V of Austria (1404-39), German King (19.3.1438-1439) as Albrecht II -cr Prague 29.7.1438, King of Bohemia (1437-39) as Albrecht, King of Hungary (1437-39) as Albert -cr 1.1.1438, Mkgf of Moravia (1423-39), *Wien 16.8.1397, +Langendorf +27.10.1439, bur Székesfehérvár; m.Wien 26.4.1422 Elisabeth of Bohemia (*28.2.1409 +19.12.1442)
-			name=Albrecht
-			dynasty=51
-			religion=catholic culture=german
-			father=100022002	# Albrecht v. Habsburg
-			mother=100011814	# Johanna v. Wittelsbach
-			1397.08.08={birth=yes}
-			1439.10.27={death=yes}
-		}
-			100021237={ # F4. Elisabeth, *Wien 1435/36, +Cracow 30.8.1505, bur Cracow; m.Cracow 10.3.1454 King Casimir IV of Poland (*30.11.1427 +7.6.1492) $$
-				name=Elisabeth
-				female=yes
-				dynasty=51
-				religion=catholic culture=german
-				father=100022003	# Albrecht v. Habsburg
-				1436.01.01={birth=yes}
-				1505.08.30={death=yes}
-			}
-
-100022000={ # C4. Duke LEOPOLD III of Austria and Styria (1365-86), Duke in Styria, Carinthia, Carniola and Istria, Ct of Tyrol, etc (1379-86), Hr von Terst 1382, *Wien 1.11.1351, +k.a.Sempach 9.7.1386, bur Königsfelden; m.Wien 23.2.1365 Viridis Visconti (*ca 1350, +Sittich, Carniola by 1.3.1414)
-	name=Leopold
-	dynasty=51
-	religion=catholic culture=german
-	father=462020	# Albrecht v. Habsburg
-	mother=462033	# Johanna Scarponnois
-	1351.01.01={birth=yes}
-	1376.01.01={add_spouse=100091467}	# Viridis Visconti
-	1386.01.01={death=yes}
-}
-	100022010={ # D3. ERNST I "der Eiserne", Duke of Styria, Carinthia, Carniola and Tyrol (1406-24), *Bruck an der Muhr 1377, +Bruck an der Muhr 10.6.1424; 1m: Bruck an der Muhr 14.1.1392 Margarete of Pomerania (*1366 +12.6.1410); 2m: Cracow 25.1.1412 Cimburga of Masovia (*1394 +28.9.1429)
-		name=Ernst
+	100211013={ # B12. Jutta, +Wien III.1329; m.Baden 26.4.1319 Gf Ludwig VI von Oettingen (+29.9.1346) $$
+		name=Jutta
+		female=yes
 		dynasty=51
 		religion=catholic culture=german
-		father=100022000	# Leopold v. Habsburg
-		mother=100091467	# Viridis Visconti
-		1377.01.01={birth=yes}
-		1424.01.01={death=yes}
+		father=462023	# Albrecht v. Habsburg
+		mother=462713	# Elisabeth Meinhardiner
+		1299.01.01={birth=yes}  # EST.
+		1329.03.01={death=yes}
 	}
-		100022020={ # E1. Duke FRIEDRICH V of Austria (1457-93), Duke of Styria, Carinthia, Carniola and Tyrol (1424-93), Archduke of Austria from 1453, Emperor (1452-93) as Friedrich III, *Innsbruck 21.9.1415, +Linz 19.8.1493, bur Wien; m.Rome 16.3.1452 Infanta Leonor of Portugal (*8.9.1436 +3.9.1476) $$
-			name=Friedrich
-			dynasty=51
-			religion=catholic culture=german
-			father=100022010	# Ernst v. Habsburg
-			1415.09.21={birth=yes}
-			1452.01.01={add_spouse=100025818}	# Leonor de Avis
-			1493.08.19={death=yes}
-		}
-			# habsburg4 -> F2. Archduke MAXIMILIAN I of Austria (1493-1519), German King (1486 co/1493-1519), Holy Roman Emperor (1508-19), *Burg zu Neustadt 22.3.1459, +Wels 12.1.1519; 1m: Ghent 19/20.8.1477 Marie of Burgundy, heiress of Burgundy and the Netherlands (*13.2.1457 +27.3.1482); 2m: Hall, Tyrol 16.3.1494 Blanca Maria Sforza (*5.4.1472 +31.12.1510); for his descendants see HERE
-			100022005={ # F5. Kunigunde, *Burg zu Wiener Neustadt 16.3.1465, +München 6.8.1520; m.Innsbruck 3.1.1487 Duke Albrecht IV of Bavaria (*15.12.1447 +10.3.1508) $$
-				name=Kunigunde
-				female=yes
-				dynasty=51
-				religion=catholic culture=german
-				father=100022020	# Friedrich v. Habsburg
-				mother=100025818	# Leonor de Avis
-				1465.03.16={birth=yes}
-				1520.08.06={death=yes}
-			}
-		100021233={ # E8. Katharina, *Wiener Neustadt 1424, +Schloss Hohenbaden/Hochbaden 11.9.1493, bur Baden-Baden; m.Pforzheim 15.7.1447 Mgve Karl I of Baden (+24.2.1475) $$
-			name=Katharina		# 10346/katharina-of-austria/
-			female=yes
-			dynasty=51
-			religion=catholic culture=german
-			father=100022010	# Ernst v. Habsburg
-			1424.01.01={birth=yes}
-			1493.09.11={death=yes}
-		}
-	100020007={ # D4. Duke FRIEDRICH IV in Tyrol (1402-39), in Laufenburg 1408, *1382, +Innsbruck 24.6.1439, bur Stams; 1m: Innsbruck 24.12.1407 Elisabeth von Pfalz (*by 27.10.1381 +31.12.1408); 2m: Innsbruck by 11.6.1411 Anna von Braunschweig-Göttingen (*1390 +Innsbruck 10.8.1432) $$
-		name=Friedrich 		# 10339/frederick-iv-duke-of-austria-count-of-tirol/
-		dynasty=51
-		religion=catholic culture=german
-		father=100022000	# Leopold v. Habsburg
-		mother=100091467	# Viridis Visconti
-		1382.01.01={birth=yes}
-		1411.06.11={add_spouse=100012725}	# Anna Welf
-		1439.06.24={death=yes}  # Innsbruck
-	}
-		100020004={ # E2. Archduke Sigmund of Austria, he inherited 1450 the family territories in Swabia and Switzerland, *Innsbruck 26.10.1427, +Innsbruck 4.3.1496, bur Stams; 1m: 12.2.1449 Pss Eleanor of Scotland (*26.10.1433 +3.8.1480); 2m: Innsbruck 24.2.1484 Katharina of Saxony (*24.7.1468 +10.2.1524) $$
-			name=Sigismund # 1858/sigismund-von-oesterreich-graf-von-tirol/
-			dynasty=51
-			religion=catholic culture=german
-			father=100020007	# Friedrich v. Habsburg
-			mother=100012725	# Anna Welf
-			1427.10.26={birth=yes}
-			1484.02.24={add_spouse=100007368}	# Katharina v. Wettin
-			1496.03.04={death=yes}
-		}
-
-100211009={ # C6. Margarete, *Wien 1346, +Brünn 14.1.1366; 1m: Passau 4.9.1359 Gf Meinhard III of Tyrol, Duke in Bavaria (*9.2.1344 +13.1.1363); 2m: Wien 6/26.2.1364 Mgve Johann Heinrich of Moravia (*12.2.1322 +12.11.1375) $$
-	name=Margarete
-	female=yes
-	dynasty=51
-	religion=catholic culture=german
-	father=462020	# Albrecht v. Habsburg
-	mother=462033	# Johanna Scarponnois
-	1346.01.01={birth=yes}
-	1366.01.14={death=yes}
-}
-100211013={ # B12. Jutta, +Wien III.1329; m.Baden 26.4.1319 Gf Ludwig VI von Oettingen (+29.9.1346) $$
-	name=Jutta
-	female=yes
-	dynasty=51
-	religion=catholic culture=german
-	father=462023	# Albrecht v. Habsburg
-	mother=462713	# Elisabeth Meinhardiner
-	1299.01.01={birth=yes}  # EST.
-	1329.03.01={death=yes}
-}
 #habsburg2	
 	
 #habsburg3
@@ -147,7 +158,7 @@
 }
 #habsburg3
 	
-#habsburg4
+#habsburg4 > 2
 100021100={ # Maximilian I (Burg zu Neustadt 22 Mar 1459-Wels 12 Jan 1519); m.1st Ghent 20 Aug 1477 Marie of Burgundy (Brussels 13 Feb 1457-Bruges 27 Mar 1482); m.2nd Hall 16 Mar 1494 Blanca Maria (Milan 5 Apr 1472-Innsbruck 31 Dec 1510)
 	name=Maximilian
 	dynasty=51
@@ -166,7 +177,7 @@
 		father=100021100	# Maximilian v. Habsburg
 		mother=100083015	# DSS Marie de Valois-Bourgogne
 		1478.06.22={birth=yes}
-		1496.10.20={add_spouse=100200896}	# Queen Juana of Castile de Trastámara
+		1496.10.20={add_spouse=100200896}	# Juana de Trastámara
 		1506.09.25={death=yes}
 	}
 		100021105={ # 1b) Eleonore (Brussels 24 Nov 1498-Talavera 18 Feb 1558); m.1st Lisbon 7 Mar 1519 King Manoel of Portugal (1469-13 Dec 1521); m.2nd Captieux 1530 King François I of France (1494-31 Jul 1547) $$
@@ -175,7 +186,7 @@
 			dynasty=51
 			religion=catholic culture=german
 			father=100021103	# Felipe v. Habsburg
-			mother=100200896	# Queen Juana of Castile de Trastámara
+			mother=100200896	# Juana de Trastámara
 			1498.11.24={birth=yes}
 			1558.02.18={death=yes}
 		}
@@ -184,12 +195,12 @@
 			dynasty=51
 			religion=catholic culture=german
 			father=100021103	# Felipe v. Habsburg
-			mother=100200896	# Queen Juana of Castile de Trastámara
+			mother=100200896	# Juana de Trastámara
 			1500.02.24={birth=yes}
 			1526.03.11={add_spouse=100025759}	# Isabella de Avis
 			1558.09.21={death=yes}
 		}
-			100021110={ # 1c) Felipe II (Valladolid 21 May 1527-Escorial 13 Sep 1598); 
+			100021110={ # 1c) Felipe II (Valladolid 21 May 1527-Escorial 13 Sep 1598);  $$
 					   # m.1st Almeria 15 Nov 1543 Maria of Portugal(15 Oct 1527-12 Jul 1545); 
 					   # m.2nd Winchester 25 Jul 1554 Queen Mary I of England (Greenwich 8 Feb 1516-London 17 Nov 1558);
 					   # m.3rd Toledo 2 Feb 1559 Elisabeth of France (Fontainebleau 2 Apr 1545-Aranjuez 3 Oct 1568); 
@@ -201,7 +212,7 @@
 				mother=100025759	# Isabella de Avis
 				1527.05.21={birth=yes}
 				1543.11.15={add_spouse=100025969}	# Maria Manuela de Avis
-				1554.07.25={add_spouse=100085790}	# Mary Tudor
+				1554.07.25={add_spouse=100285790}	# Mary Tudor
 				1559.02.02={add_spouse=100167606}	# Élisabeth de Valois
 				1570.11.12={add_spouse=100021166}	# Anna v. Habsburg
 				1598.09.13={death=yes}
@@ -373,16 +384,16 @@
 			dynasty=51
 			religion=catholic culture=german
 			father=100021103	# Felipe v. Habsburg
-			mother=100200896	# Queen Juana of Castile de Trastámara
+			mother=100200896	# Juana de Trastámara
 			1501.07.18={birth=yes}
 			1526.01.19={death=yes}
 		}
-		100021160={ # 4b) Ferdinand I (Alcala de Henares 10 Mar 1503-Vienna 25 Jul 1564); m.Linz 27 May 1521 Anna of Hungary (Prague 23 Jul 1503-Prague 27 Jan 1547) $$
+		100021160={ # B2. FERDINAND I, Archduke of Austria (1519-64), King of Bohemia (1526-64) -elected 23.10.1526, cr Prague castle 24.2.1527, King of Hungary (1526-64) as Ferdinánd -elected 16.12.1526, cr 3.11.1527, King of Germany (1531-64), Holy Roman Emperor (1556-64), *Alcale de Henares, nr Madrid 10.3.1503, +Wien 25.7.1564; m.Linz 25.5.1521 Pss Anna Jagiello of Bohemia and Hungary (*23.7.1503 +27.1.1547); by this marriage the Habsburgs inherited Bohemia and Hungary
 			name=Ferdinand
 			dynasty=51
 			religion=catholic culture=german
 			father=100021103	# Felipe v. Habsburg
-			mother=100200896	# Queen Juana of Castile de Trastámara
+			mother=100200896	# Juana de Trastámara
 			1503.03.10={birth=yes}
 			1521.05.27={add_spouse=100111863}	# Anna Jogailaitis
 			1564.07.25={death=yes}
@@ -397,7 +408,7 @@
 				1526.06.09={birth=yes}
 				1545.06.15={death=yes}
 			}
-			100021164={ # 2c) Maximilian II (Vienna 31 Jul 1527-Regensburg 12 Oct 1576); m.Valladolid 13 Sep 1548 Maria of Austria $$
+			100021164={ # C1. MAXIMILIAN II, Viceroy of Spain (1548-50), Holy Roman Emperor (1564-76), King of Bohemia (1564-76) as Maxmilián -cr 1562, King of Hungary (1564-76) as Miksa -cr 8.9.1563, *Wien 31.7.1527, +Regensburg 12.10.1576, bur Prague; m.Valladolid 13.9.1548 Infanta Maria of Spain (*21.6.1528 +26.2.1603)
 				name=Maximilian
 				dynasty=51
 				religion=catholic culture=german
@@ -417,7 +428,7 @@
 					1549.11.02={birth=yes}
 					1580.10.26={death=yes}
 				}
-				100021169={ # 3d) Rudolf II (Vienna 18 May 1552-Prague 20 Jan 1612); he had the following illegitimate issue:
+				100021169={ # D2. RUDOLF II, Holy Roman Emperor (1576-1611), King of Bohemia (1576-1611), King of Hungary (1576-1608) -cr 25.9.1572, *Wien 18.7.1552, +Prague 20.1.1612, bur Prague; he had the following illegitimate kids:
 					name=Rudolf
 					dynasty=51
 					religion=catholic culture=german
@@ -426,11 +437,12 @@
 					1552.05.18={birth=yes}
 					1612.01.20={death=yes}
 				}
-					100021171={ # 6e) Charlotte (1588-12 Jan 1662); m.10 Feb 1608 Marquis François Thomas d'Oiselet (d.Besançon 5 Jan 1629)
+					100021171={ # E6. [by Euphemia von Rosenthal] Charlotte, Mgvine of Austria, +Malines 12.1.1662; m.10.5.1608 Marquis François Thomas d'Oiselet (+5.1.1629)
 						name=Charlotte
 						female=yes
 						dynasty=51
 						religion=catholic culture=german
+						trait=bastard
 						father=100021169	# Rudolf v. Habsburg
 						1588.01.01={birth=yes}
 						1662.01.12={death=yes}
@@ -530,7 +542,7 @@
 					father=100021190	# Ferdinand v. Habsburg
 					mother=100093704	# Philippine Welser
 					1560.11.22={birth=yes}
-					1601.03.04={add_spouse=100002830}	# Sibylle von der Mark
+					1601.03.04={add_spouse=100035988}	# Sibylle von der Mark
 					1618.10.31={death=yes}
 				}
 				100021227={ # 8d) Anna (Innsbruck 4 Oct 1585-Vienna 14 Dec 1618); m.Vienna 4 Dec 1611 Emperor Matthias $$
@@ -769,8 +781,8 @@
 								1708.04.23={add_spouse=100011942}	# Elisabeth Christine v. Braunschweig-Lüneburg
 								1740.10.20={death=yes}
 							}
-								## 2h) Maria Theresia (Vienna 13 May 1717-Vienna 29 Nov 1780); m.Vienna 12 Feb 1736 Duke Francis Stephen of Lorraine
-								100021290={ # 3h) Maria Anna (Vienna 14 Sep 1718-Brussels 16 Dec 1744); m.Vienna 7 Jan 1744 Charles of Lorraine (d.Tervueren 4 Jul 1780) $$
+								#habsburg5 -> H2. MARIA THERESIA, Queen of Bohemia (1740-80) as Marie Terezie, Queen of Hungary (1740-80) as Mária Terézia -cr 25.6.1741, *Wien 13.5.1717, +Wien 29.11.1780; m.Wien 12.2.1736 Duke Francis Stephen de Lorraine (*8.12.1708 +18.8.1765); for their descendants see HERE
+								100021290={ # H3. Maria Anna, *Wien 14.9.1718, +Brussels 16.12.1744, bur Kapuzinergruft, Wien; m.Wien 7.1.1744 Charles of Lorraine (*12.12.1712 +4.7.1780)
 									name="Maria Anna"
 									female=yes
 									dynasty=51
@@ -992,7 +1004,7 @@
 			dynasty=51
 			religion=catholic culture=german
 			father=100021103	# Felipe v. Habsburg
-			mother=100200896	# Queen Juana of Castile de Trastámara
+			mother=100200896	# Juana de Trastámara
 			1505.09.17={birth=yes}
 			1558.10.18={death=yes}
 		}
@@ -1002,7 +1014,7 @@
 			dynasty=51
 			religion=catholic culture=german
 			father=100021103	# Felipe v. Habsburg
-			mother=100200896	# Queen Juana of Castile de Trastámara
+			mother=100200896	# Juana de Trastámara
 			1507.01.14={birth=yes}
 			1578.02.12={death=yes}
 		}
@@ -1016,10 +1028,9 @@
 		1480.01.10={birth=yes}
 		1530.12.01={death=yes}
 	}
-#habsburg4
+#habsburg4 > 2
 
-
-## HAB-LOT
+#habsburg5 > 4
 100020006={ # Maria Theresia, Archduchess of Austria, daughter of Emperor Karl VI (Vienna 13 May 1717-Vienna 29 Nov 1780), m. Vienna 12 Feb 1736 Francis Stephen, Duke of Lorraine (Lothringen) (Lunéville 8 Dec 1708-Innsbruck 18 Aug 1765), who in 1745 became the Emperor FRANZ I. Their issue: $$
 	name="Maria Theresia"
 	female=yes
@@ -1827,7 +1838,7 @@
 									father=100020132	# Karl Ludwig v. Habsburg-Lothringen
 									mother=100066013	# Yolande de Ligne
 									1954.08.26={birth=yes}
-									1982.02.06={add_spouse=100070251}	# Marie Astrid di Borbone-Parma
+									1982.02.06={add_spouse=100070251}	# Marie Astrid v. Nassau-Weilburg
 								}
 									100020151={ # 1i) Marie Christine Anne Astrid Zita Charlotte, b.Brussels 31 Jul 1983; m.Malines 6 Dec 2008 Cte Rodolphe de Limburg-Stirum (b.Uccle 20 Mar 1979) $$
 										name="Marie Christine"
@@ -1835,7 +1846,7 @@
 										dynasty=1503
 										religion=catholic culture=german
 										father=100020149	# Carl Christian v. Habsburg-Lothringen
-										mother=100070251	# Marie Astrid di Borbone-Parma
+										mother=100070251	# Marie Astrid v. Nassau-Weilburg
 										1983.07.31={birth=yes}
 									}
 									100020153={ # 2i) Imre Emanuel Simeon Jean Carl Marcus d'Aviano, b.Geneva 8 Dec 1985
@@ -1843,7 +1854,7 @@
 										dynasty=1503
 										religion=catholic culture=german
 										father=100020149	# Carl Christian v. Habsburg-Lothringen
-										mother=100070251	# Marie Astrid di Borbone-Parma
+										mother=100070251	# Marie Astrid v. Nassau-Weilburg
 										1985.12.08={birth=yes}
 									}
 										100220153={ # 1j) Maria Stella Elizabeth Christiana Yolande Alberta of Austria (b.11 Nov 2013)
@@ -1867,7 +1878,7 @@
 										dynasty=1503
 										religion=catholic culture=german
 										father=100020149	# Carl Christian v. Habsburg-Lothringen
-										mother=100070251	# Marie Astrid di Borbone-Parma
+										mother=100070251	# Marie Astrid v. Nassau-Weilburg
 										1988.02.02={birth=yes}
 									}
 										100220154={ # 1j) Katarina Marie-Christine Fabiola of Austria (b. 22 December 2014)
@@ -1883,7 +1894,7 @@
 										dynasty=1503
 										religion=catholic culture=german
 										father=100020149	# Carl Christian v. Habsburg-Lothringen
-										mother=100070251	# Marie Astrid di Borbone-Parma
+										mother=100070251	# Marie Astrid v. Nassau-Weilburg
 										1990.01.01={birth=yes}
 									}
 									100020156={ # 5i) Gabriella Maria Pilar Yolande Joséphine-Charlotte, b.Geneva 26 Mar 1994
@@ -1891,7 +1902,7 @@
 										dynasty=1503
 										religion=catholic culture=german
 										father=100020149	# Carl Christian v. Habsburg-Lothringen
-										mother=100070251	# Marie Astrid di Borbone-Parma
+										mother=100070251	# Marie Astrid v. Nassau-Weilburg
 										1994.03.26={birth=yes}
 									}
 								100020157={ # 4h) Maria Constanza Anna Rosario Roberta, b.Beloeil 19 Oct 1957; m.(civ) Beloeil 18 Jun 1994 (rel) Brussels 10 Sep 1994 Franz Josef Fürst von Auersperg-Trautson (b.Salzburg 11 Dec 1954) $$
@@ -2152,14 +2163,14 @@
 									father=100020195	# Heinrich Karl v. Habsburg-Lothringen
 									mother=100036390	# Ludmilla von Galen
 									1965.05.28={birth=yes}
-									1999.05.22={add_spouse=100085811}	# GFN Katharina v. Hardenberg
+									1999.05.22={add_spouse=100085811}	# GFN Katharina von Hardenberg
 								}
 									100020204={ # 1i) Jakob-Maximilian, b.22 January 2002
 										name=Jakob-Maximilian
 										dynasty=1503
 										religion=catholic culture=german
 										father=100020202	# Ferdinand v. Habsburg-Lothringen
-										mother=100085811	# GFN Katharina v. Hardenberg
+										mother=100085811	# GFN Katharina von Hardenberg
 										2002.01.22={birth=yes}
 									}
 									100020205={ # 2i) Paulina, b.Berlin 14 Jan 2004
@@ -2167,7 +2178,7 @@
 										dynasty=1503
 										religion=catholic culture=german
 										father=100020202	# Ferdinand v. Habsburg-Lothringen
-										mother=100085811	# GFN Katharina v. Hardenberg
+										mother=100085811	# GFN Katharina von Hardenberg
 										2004.01.14={birth=yes}
 									}
 									100020206={ # 3i) Lara Sophie, b.Berlin 9 Oct 2007
@@ -2175,7 +2186,7 @@
 										dynasty=1503
 										religion=catholic culture=german
 										father=100020202	# Ferdinand v. Habsburg-Lothringen
-										mother=100085811	# GFN Katharina v. Hardenberg
+										mother=100085811	# GFN Katharina von Hardenberg
 										2007.10.09={birth=yes}
 									}
 								100020207={ # 4h) Konrad Erwein Felix Regula Maria, b.Zürich 11 Sep 1971; m.Anif, Austria 10 Dec 2005 Ashmita Goswami
@@ -2318,7 +2329,7 @@
 				1854.04.18={add_spouse=100020320}	# Elisabeth v. Habsburg-Lothringen
 				1874.11.20={death=yes}
 			}
-				100020236={ # 2d) Friedrich Maria Albrecht Wilhelm Karl Hg von Teschen (GroßSeelowitz 4 Jun 1856- UngarischAltenburg 30 Dec 1936); m.L'Hermitage, Belgium 8 Oct 1878 Isabella von Croÿ (Dülmen 27 Feb 1856-Budapest 5 Sep 1931) $$
+				100020236={ # 2d) Friedrich Maria Albrecht Wilhelm Karl Hg von Teschen (GroßSeelowitz 4 Jun 1856-Ungarisch Altenburg 30 Dec 1936); m.L'Hermitage, Belgium 8 Oct 1878 Isabella von Croÿ (Dülmen 27 Feb 1856-Budapest 5 Sep 1931) $$
 					name=Friedrich
 					dynasty=1503
 					religion=catholic culture=german
@@ -3761,8 +3772,7 @@
 		1756.12.08={birth=yes}
 		1801.06.27={death=yes}
 	}
-## HAB-LOT
-
+#habsburg5 > 4
 
 #MERAN
 100020508={ # Anna Maria Josephine von Meran (9 Jan 1804-4 Aug 1885); m.3 Sep 1823 Johann v. Habsburg-Lothringen (20 Jan 1782-11 May 1859) %%
@@ -4092,7 +4102,7 @@
 				father=100020430	# Johann Stephan von Meran
 				mother=100024930	# Ladislaja v. Lamberg
 				1896.02.09={birth=yes}
-				1919.07.06={add_spouse=100115549}	# Ilona Almásy de Zsadány et Törökszentmiklós
+				1919.07.06={add_spouse=100116012}	# Ilona Almásy de Zsadány et Törökszentmiklós
 				1970.02.21={death=yes}
 			}
 				100020488={ # 1f) Maria Ladislaja Helene Gfn von Meran (Körösladány 9 Mar 1920-Vienna 17 Apr 1992); m.Budapest 16 Oct 1944 (rel) 17 Oct 1944 Béla Rudnay de Rudnó et Divék-Ujfalu (Vienna 26 Oct 1918-Vienna 14 May 1991)
@@ -4101,7 +4111,7 @@
 					dynasty=1004010
 					religion=catholic culture=german
 					father=100020486	# Johann von Meran
-					mother=100115549	# Ilona Almásy de Zsadány et Törökszentmiklós
+					mother=100116012	# Ilona Almásy de Zsadány et Törökszentmiklós
 					1920.03.09={birth=yes}
 					1992.04.17={death=yes}
 				}
@@ -4110,7 +4120,7 @@
 					dynasty=1004010
 					religion=catholic culture=german
 					father=100020486	# Johann von Meran
-					mother=100115549	# Ilona Almásy de Zsadány et Törökszentmiklós
+					mother=100116012	# Ilona Almásy de Zsadány et Törökszentmiklós
 					1921.10.14={birth=yes}
 					1960.05.15={add_spouse=100083784}	# Ilona Farkas
 					1994.11.12={death=yes}
@@ -4121,7 +4131,7 @@
 					dynasty=1004010
 					religion=catholic culture=german
 					father=100020486	# Johann von Meran
-					mother=100115549	# Ilona Almásy de Zsadány et Törökszentmiklós
+					mother=100116012	# Ilona Almásy de Zsadány et Törökszentmiklós
 					1927.09.08={birth=yes}
 				}
 			100020494={ # 5e) Maria-Anna Johanna Theresia Franziska Huberta Antonia Gfn von Meran (Brandhof 14 Aug 1897-Glanegg 18 Jul 1983); m.Graz 1 Feb 1919 Friedrich Frhr Mayr von Melnhof (Himberg 7 Jul 1892-Marbella 7 Mar 1959) $$
@@ -4377,7 +4387,9 @@
 						mother=100089161	# Renata de Araujo Cintra Poppe
 						2004.03.19={birth=yes}
 					}
-				100020542={ # 3f) Anna-Maria Wendula Theodora Jelka Benita Teresa d`Avila Gfn von Meran (b.Chur 29 May 1957); m.1st St.Moritz 25 Aug 1980 (div 1982) Yves Manchec (b.Montreal 10 Jul 1950); m.2d Avignon 15 May 2004 Philippe Destremau (b.Luxeuil 29 Sep 1937)
+				100020542={ # 3f) Anna-Maria Wendula Theodora Jelka Benita Teresa d'Avila Gfn von Meran (b.Chur 29 May 1957); 
+							# m.1st St.Moritz 25 Aug 1980 (div 1982) Yves Manchec (b.Montreal 10 Jul 1950); 
+							# m.2nd Avignon 15 May 2004 Philippe Destremau (b.Luxeuil 29 Sep 1937)
 					name=Anna-Maria
 					female=yes
 					dynasty=1004010
@@ -4640,8 +4652,7 @@
 			1928.07.09={death=yes}
 		}
 #MERAN
-	
-	
+
 #Line Toscana|1503|100020700-
 100020700={ # Ferdinand, Archduke of Austria (Florence 6 May 1769-Florence 18 Jun 1824); m.1st 15 Aug 1790 Luisa Pss of Bourbon-Two Sicilies (Naples 27 Jul 1773-Vienna 19 Sep 1802); m.2d Florence 6 May 1821 Maria Pss of Saxony (Dresden 27 Apr 1796-Schloß Brandeis, Bohemia 3 Jan 1865) $$
 	name=Ferdinando
@@ -5724,7 +5735,7 @@
 						father=100020906	# Hubert Salvator v. Habsburg-Lothringen
 						mother=100003914	# Rosemary v. Salm-Salm
 						1927.11.27={birth=yes}
-						1955.06.18={add_spouse=100115114}	# Margit Kálnoky de Kõröspatak
+						1955.06.18={add_spouse=100120425}	# Margit Kálnoky de Kõröspatak
 						1999.03.26={death=yes}
 					}
 						100020910={ # 1f) Leopold Salvator Hubert Maria Rainer Judas Thaddäus Alexander Maximilian Stephan Franziskus Pius Alois (b.Vienna 16 Oct 1956)
@@ -5732,7 +5743,7 @@
 							dynasty=1503
 							religion=catholic culture=german
 							father=100020908	# Friedrich Salvator v. Habsburg-Lothringen
-							mother=100115114	# Margit Kálnoky de Kõröspatak
+							mother=100120425	# Margit Kálnoky de Kõröspatak
 							1956.10.16={birth=yes}
 						}
 						100020911={ # 2f) Marie Bernadette Christa Agnes Josepha Raphaela (b.Vienna 10 Feb 1958); m.(civ) Salzburg 24 Jun 1983 (rel) Schloß Persenbeug 9 Jul 1983 Rupert Wolff (b.Salzburg 16 May 1957)
@@ -5741,7 +5752,7 @@
 							dynasty=1503
 							religion=catholic culture=german
 							father=100020908	# Friedrich Salvator v. Habsburg-Lothringen
-							mother=100115114	# Margit Kálnoky de Kõröspatak
+							mother=100120425	# Margit Kálnoky de Kõröspatak
 							1958.02.10={birth=yes}
 						}
 						100020913={ # 3f) Alexander Salvator Maria Joseph Raphael Pius (b.Vienna 12 Apr 1959); m.Niederfladnitz 5 Jun 1993 Marie Gabriele Gfn von Waldstein (b.Vienna 14 Sep 1969) $$
@@ -5749,7 +5760,7 @@
 							dynasty=1503
 							religion=catholic culture=german
 							father=100020908	# Friedrich Salvator v. Habsburg-Lothringen
-							mother=100115114	# Margit Kálnoky de Kõröspatak
+							mother=100120425	# Margit Kálnoky de Kõröspatak
 							1959.04.12={birth=yes}
 							1993.06.05={add_spouse=100047422}	# Marie Gabrielle z Valdštejna
 						}
@@ -5791,7 +5802,7 @@
 							dynasty=1503
 							religion=catholic culture=german
 							father=100020908	# Friedrich Salvator v. Habsburg-Lothringen
-							mother=100115114	# Margit Kálnoky de Kõröspatak
+							mother=100120425	# Margit Kálnoky de Kõröspatak
 							1960.11.01={birth=yes}
 						}
 					100020921={ # 2e) Agnes Christina Franziska Karoline Theresia Raphaela Johanna Magdalena Huberta Josepha Ignatia (Schloß Persenbeug 14 Dec 1928-Vienna 31 Aug 2007); m.Schloß Persenbeug 17 Feb 1949 Karl Alfred Pr von und zu Liechtenstein (Frauenthal 16 Aug 1910-Hainburg 17 Nov 1985) $$
@@ -6268,67 +6279,66 @@
 	}
 #Line Toscana|1503|100020700-100021099
 
-
 #ALTENBURG
-100020989={ # 8d) Clemens Salvator Leopold Benedikt Antonius Maria Joseph Ignatius; he assumed the title Prinz von Altenburg 2 Apr 1931, and this title was confirmed on him and his children 15 Dec 1949 (Schloß Wallsee 6 Oct 1904-Salzburg 20 Aug 1974); m.Vienna 20 Feb 1930 Elisabeth Gfn Rességuier de Miremont (Niszko, Galicia 28 Oct 1906-Salzburg 9 Jul 2000)
+100020989={ # 8d) Clemens Salvator Leopold Benedikt Antonius Maria Joseph Ignatius; he assumed the title Prinz von Altenburg 2 Apr 1931, and this title was confirmed on him and his children 15 Dec 1949 (Schloß Wallsee 6 Oct 1904-Salzburg 20 Aug 1974); m.Vienna 20 Feb 1930 Elisabeth Gfn Rességuier de Miremont (Niszko, Galicia 28 Oct 1906-Salzburg 9 Jul 2000) $$
 	name="Clemens Salvator"
-	dynasty=1503
+	dynasty=1004567
 	religion=catholic culture=german
 	father=100020900	# Franz Salvator v. Habsburg-Lothringen
 	mother=100020053	# Marie Valerie v. Habsburg-Lothringen
 	1904.10.06={birth=yes}
-	1930.02.20={add_spouse=100089453}	# GFN Elisabeth Rességuier de Miremont
+	1930.02.20={add_spouse=100035337}	# Elisabeth Rességuier de Miremont
 	1974.08.20={death=yes}
 }
 	100020991={ # 1e) Maria Valerie Christiane Elisabeth Clementine Franziska Josepha Marcella von Altenburg (b.Vienna 16 Jan 1931); m.(civ) St.Gilgen 19 Jul 1959 (rel) Unterach am Attersee 20 Jul 1959 Mario Gf von Ledebur-Wicheln (b.St.Moritz 28 Jul 1931) $$
 		name="Maria Valerie"
 		female=yes
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1931.01.16={birth=yes}
 	}
 	100020993={ # 2e) Clemens Maria Franz Salvator Friedrich Christian Joseph Johannes a Mata Pr von Altenburg (b.Vienna 8 Feb 1932); m.(civ) St.Gilgen 16 Oct 1964 (rel) Unterach 17 Oct 1964 Laurence Costa de Beauregard (b.Neuilly 3 Jun 1942)
 		name="Clemens Maria"
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1932.02.08={birth=yes}
 		1964.10.17={add_spouse=100082036}	# Laurence de Beauregard
 	}
 		100020995={ # 1f) Philipp Maria Paul Pr von Altenburg (b.Salzburg 15 Mar 1966)
 			name="Philipp Maria"
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100020993	# Clemens Maria v. Habsburg-Lothringen
+			father=100020993	# Clemens Maria v. Altenburg
 			mother=100082036	# Laurence de Beauregard
 			1966.03.15={birth=yes}
 		}
 		100020996={ # 2f) Henriette Marie Caroline von Altenburg (b.Salzburg 16 Nov 1972); m.Salzburg 6 Nov 1998 (rel) Salzburg-Aigen 7 Nov 1998 Cte Guillaume Antoine Louis du Bessey de Contenson (b.Paris 16 May 1969)
 			name="Henriette Marie"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100020993	# Clemens Maria v. Habsburg-Lothringen
+			father=100020993	# Clemens Maria v. Altenburg
 			mother=100082036	# Laurence de Beauregard
 			1972.11.16={birth=yes}
 		}
 	100020998={ # 3e) Georg Adam Maria Friedrich Leopold Joseph Michael Pr von Altenburg (b.Vienna 23 Sep 1933); m.Salzburg 9 Feb 1963 (rel) St.Gilgen 17 Feb 1963 Maria Roswitha Wickl (b.Prague 2 Mar 1941)
 		name="Georg Adam"
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1933.09.23={birth=yes}
 		1963.02.09={add_spouse=100093769}	# Maria Roswitha Wickl
 	}
 		100021000={ # 1f) Georg Aegidius Clemens Ferdinand Maria von Altenburg (Salzburg 4 Jan 1964-20 Apr 2004)
 			name="Georg Aegidius"
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100020998	# Georg Adam v. Habsburg-Lothringen
+			father=100020998	# Georg Adam v. Altenburg
 			mother=100093769	# Maria Roswitha Wickl
 			1964.01.04={birth=yes}
 			2004.04.20={death=yes}
@@ -6336,17 +6346,17 @@
 		100021001={ # 2f) Maria Katharina Elisabeth Barbara Louise Josefine Carola Felicitas von Altenburg (b.Vienna 7 May 1967); m.St.Gilgen [or, Wolfgangsee, Salzburg] 9 Jun 1993 (rel) 12 Jun 1993 Ivo von Deskovic (b.Klosterneuburg 5 Oct 1962)
 			name="Maria Katharina"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100020998	# Georg Adam v. Habsburg-Lothringen
+			father=100020998	# Georg Adam v. Altenburg
 			mother=100093769	# Maria Roswitha Wickl
 			1967.05.07={birth=yes}
 		}
-		100021003={ # 3f) Stephan Georg Max Joseph Aegidius Ferdinand Maria Pr von Altenburg (b.Salzburg 20 Aug 1971); m.Frohnleiten 24 Jun 2000 Katharina Frn Mayr v.MelnhofSaurau (b.Vienna 19 Mar 1974) $$
+		100021003={ # 3f) Stephan Georg Max Joseph Aegidius Ferdinand Maria Pr von Altenburg (b.Salzburg 20 Aug 1971); m.Frohnleiten 24 Jun 2000 Katharina Frn Mayr v.Melnhof-Saurau (b.Vienna 19 Mar 1974) $$
 			name=Stephan
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100020998	# Georg Adam v. Habsburg-Lothringen
+			father=100020998	# Georg Adam v. Altenburg
 			mother=100093769	# Maria Roswitha Wickl
 			1971.08.20={birth=yes}
 			2000.06.24={add_spouse=100023490}	# Katharina v. Goëss
@@ -6354,230 +6364,230 @@
 			100021005={ # 1g) Maria-Elisabeth von Altenburg (b.Vienna 24 Mar 2001)
 				name=Maria-Elisabeth
 				female=yes
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021003	# Stephan v. Habsburg-Lothringen
+				father=100021003	# Stephan v. Altenburg
 				mother=100023490	# Katharina v. Goëss
 				2001.03.24={birth=yes}
 			}
 			100021006={ # 2g) Theresita von Altenburg (b.Vienna 23 Jul 2003)
 				name=Theresita
 				female=yes
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021003	# Stephan v. Habsburg-Lothringen
+				father=100021003	# Stephan v. Altenburg
 				mother=100023490	# Katharina v. Goëss
 				2003.07.23={birth=yes}
 			}
 	100021007={ # 4e) Peter Friedrich Christian Clemens Maria Leopold Joseph Matthäus Pr von Altenburg (Vienna 18 Sep 1935-9 Dec 2008); m.(civ) Retz 30 Sep 1965 (rel) Nieder-Fladnitz 2 Oct 1965 Juliane Gfn von Waldstein-Forni (b.Buchberg am Kamp 22 May 1940) $$
 		name=Peter
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1935.09.18={birth=yes}
 		1965.10.02={add_spouse=100047420}	# Juliane z Valdštejna
 		2008.12.09={death=yes}
 	}
 		100021009={ # 1f) Friedrich Eugen Clemens Petrus Maria Pr von Altenburg (b.München 9 Jul 1966); m.Hadersdorf am Kamp 16 Jun 2000 (rel) Etsdorf am Kamp, Lower Austria 8 Jul 2000 Gabriele Maria Alice Alse Christine Irene Antonia Gfn von Walterskirchen (b.Vienna 7 Oct 1965)
 			name="Friedrich Eugen"
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021007	# Peter v. Habsburg-Lothringen
+			father=100021007	# Peter v. Altenburg
 			mother=100047420	# Juliane z Valdštejna
 			1966.07.09={birth=yes}
 			2000.06.16={add_spouse=100093391}	# Gabriele von Walterskirchen
 		}
 			100021011={ # 1g) Emanuel Pr von Altenburg, b.Vienna 25 Mar 2002
 				name=Emanuel
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021009	# Friedrich Eugen v. Habsburg-Lothringen
+				father=100021009	# Friedrich Eugen v. Altenburg
 				mother=100093391	# Gabriele von Walterskirchen
 				2002.03.25={birth=yes}
 			}
 			100021012={ # 2g) Philippa von Altenburg, b.Vienna 10 Jun 2003
 				name=Philippa
 				female=yes
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021009	# Friedrich Eugen v. Habsburg-Lothringen
+				father=100021009	# Friedrich Eugen v. Altenburg
 				mother=100093391	# Gabriele von Walterskirchen
 				2003.06.10={birth=yes}
 			}
 			100021013={ # 3g) Marie Christine von Altenburg, b.Vienna 15 Sep 2004
 				name="Marie Christine"
 				female=yes
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021009	# Friedrich Eugen v. Habsburg-Lothringen
+				father=100021009	# Friedrich Eugen v. Altenburg
 				mother=100093391	# Gabriele von Walterskirchen
 				2004.09.15={birth=yes}
 			}
 			100021014={ # 4g) Sophie von Altenburg, b.Vienna 19 Jul 2006
 				name=Sophie
 				female=yes
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021009	# Friedrich Eugen v. Habsburg-Lothringen
+				father=100021009	# Friedrich Eugen v. Altenburg
 				mother=100093391	# Gabriele von Walterskirchen
 				2006.07.19={birth=yes}
 			}
 			100021015={ # 5g) Nikolaus (b.2008)
 				name=Nikolaus
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021009	# Friedrich Eugen v. Habsburg-Lothringen
+				father=100021009	# Friedrich Eugen v. Altenburg
 				mother=100093391	# Gabriele von Walterskirchen
 				2008.01.01={birth=yes}
 			}
 		100021016={ # 2f) Hemma Juliane Maria Elisabeth Clementine von Altenburg (b.München 22 May 1969); m.Graz 14 Sep 1996 Nikolaus August Franz Anton Maria Gf Ségur-Eltz (b.Vienna 19 Nov 1963)
 			name="Hemma Juliane"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021007	# Peter v. Habsburg-Lothringen
+			father=100021007	# Peter v. Altenburg
 			mother=100047420	# Juliane z Valdštejna
 			1969.05.22={birth=yes}
 		}
 		100021018={ # 3f) Leopold Maximilian Vinzenz Petrus Maria Pr von Altenburg (b.Graz 17 Mar 1971); m.1 Jan 2007 Juliane Zschau (b.1972)
 			name="Leopold Maximilian"
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021007	# Peter v. Habsburg-Lothringen
+			father=100021007	# Peter v. Altenburg
 			mother=100047420	# Juliane z Valdštejna
 			1971.03.17={birth=yes}
 			2007.01.01={add_spouse=100094067}	# Juliane Zschau
 		}
 			100021020={ # 1g) Emilia Danilea Ambrosia Juliane (b.Berlin 20 Mar 2008)
 				name="Emilia Danilea"
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021018	# Leopold Maximilian v. Habsburg-Lothringen
+				father=100021018	# Leopold Maximilian v. Altenburg
 				mother=100094067	# Juliane Zschau
 				2008.03.20={birth=yes}
 			}
 			100021021={ # 2g) Antonia (b.2009)
 				name=Antonia
 				female=yes
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021018	# Leopold Maximilian v. Habsburg-Lothringen
+				father=100021018	# Leopold Maximilian v. Altenburg
 				mother=100094067	# Juliane Zschau
 				2009.01.01={birth=yes}
 			}
 		100021022={ # 4f) Franziska Christiane Maria Elisabeth Juliane von Altenburg (b.Graz 17 May 1972)
 			name="Franziska Christiane"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021007	# Peter v. Habsburg-Lothringen
+			father=100021007	# Peter v. Altenburg
 			mother=100047420	# Juliane z Valdštejna
 			1972.05.17={birth=yes}
 		}
 		100021023={ # 5f) Maria Elisabeth Luise Juliane von Altenburg (b.Graz 5 Dec 1973)
 			name="Maria Elisabeth"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021007	# Peter v. Habsburg-Lothringen
+			father=100021007	# Peter v. Altenburg
 			mother=100047420	# Juliane z Valdštejna
 			1973.12.05={birth=yes}
 		}
 	100021024={ # 5e) Christoph Theodor Johannes Leopold Joseph Maria Vitalis Pr von Altenburg (Wallsee 28 Apr 1937-Australia 1 Aug 2008); m.Mona, New SouthWales 7 Feb 1970 Kirsty Mackay (b.Braidwood, NSW 8 Nov 1946)
 		name="Christoph Theodor"
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1937.04.28={birth=yes}
 		1970.02.07={add_spouse=100087657}	# Kirsty Mackay
 		2008.08.01={death=yes}
 	}
 		100021026={ # 1f) Sebastian Christoph Pr von Altenburg (b.Perth, Australia 9 Jul 1971); m.Sydney 28 Sep 1997 Megan Elizabeth Rees (b.Sydney 24 Nov 1971)
 			name="Sebastian Christoph"
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021024	# Christoph Theodor v. Habsburg-Lothringen
+			father=100021024	# Christoph Theodor v. Altenburg
 			mother=100087657	# Kirsty Mackay
 			1971.07.09={birth=yes}
 			1997.09.28={add_spouse=100089410}	# Megan Elizabeth Rees
 		}
 			100021028={ # 1g) Henry Jock Pr v.Altenburg (b.Katherine, Australia 5 Jun 2000)
 				name="Henry Jock"
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021026	# Sebastian Christoph v. Habsburg-Lothringen
+				father=100021026	# Sebastian Christoph v. Altenburg
 				mother=100089410	# Megan Elizabeth Rees
 				2000.06.05={birth=yes}
 			}
 			100021029={ # 2g) Anna Matilda Pss v.Altenburg (b.29 Jan 2002)
 				name="Anna Matilda"
 				female=yes
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021026	# Sebastian Christoph v. Habsburg-Lothringen
+				father=100021026	# Sebastian Christoph v. Altenburg
 				mother=100089410	# Megan Elizabeth Rees
 				2002.01.29={birth=yes}
 			}
 			100021030={ # 3g) Campel Pr v.Altenburg (b.23 Oct 2004)
 				name="Campel v.Altenburg"
-				dynasty=1503
+				dynasty=1004567
 				religion=catholic culture=german
-				father=100021026	# Sebastian Christoph v. Habsburg-Lothringen
+				father=100021026	# Sebastian Christoph v. Altenburg
 				mother=100089410	# Megan Elizabeth Rees
 				2004.10.23={birth=yes}
 			}
 		100021031={ # 2f) Matilda Elisabeth von Altenburg (b.Canberra 12 Nov 1975)
 			name="Matilda Elisabeth"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021024	# Christoph Theodor v. Habsburg-Lothringen
+			father=100021024	# Christoph Theodor v. Altenburg
 			mother=100087657	# Kirsty Mackay
 			1975.11.12={birth=yes}
 		}
 		100021032={ # 3f) Francesca Kirsty von Altenburg (b.Canberra 4 Apr 1979)
 			name="Francesca Kirsty"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021024	# Christoph Theodor v. Habsburg-Lothringen
+			father=100021024	# Christoph Theodor v. Altenburg
 			mother=100087657	# Kirsty Mackay
 			1979.04.04={birth=yes}
 		}
 	100021033={ # 6e) Elisabeth Christiane Maria Walburga Anna Magdalena von Altenburg (b.Vienna 11 Dec 1938)
 		name="Elisabeth Christiane"
 		female=yes
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1938.12.11={birth=yes}
 	}
 	100021034={ # 7e) Franz Josef Georg Clemens Maria Leopold Salvator Pr von Altenburg (b.Ischl 15 Mar 1941); m.Klagenfurt 3 May 1969 Christa Frn von Härdtl (b.St.Veit an der Glan, Carinthia 29 Jan 1945)
 		name="Franz Josef"
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1941.03.15={birth=yes}
 		1969.05.03={add_spouse=100092364}	# Christa von Härdtl
 	}
 		100021036={ # 1f) Maria Caecilia Elisabeth Therese Margarete von Altenburg (b.Gmunden 2 Apr 1970); m.Neukirchen 22 Oct 2011 Peter Putschek
 			name="Maria Caecilia"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021034	# Franz Josef v. Habsburg-Lothringen
+			father=100021034	# Franz Josef v. Altenburg
 			mother=100092364	# Christa von Härdtl
 			1970.04.02={birth=yes}
 		}
 		100021038={ # 2f) Augustin Franz Josef Maria Clemens Georg Salvator Pr von Altenburg (Gmunden 27 Oct 1971-Vienna 22 Jul 2006)
 			name="Augustin Franz"
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021034	# Franz Josef v. Habsburg-Lothringen
+			father=100021034	# Franz Josef v. Altenburg
 			mother=100092364	# Christa von Härdtl
 			1971.10.27={birth=yes}
 			2006.07.22={death=yes}
@@ -6585,27 +6595,27 @@
 		100021039={ # 3f) Amalia Maria Elisabeth von Altenburg (b.Vöcklabrück 13 Jan 1979) ; m.Neukirchen 16 Aug 2003 Nikzad Ziai (b.Teheran 27 Jul 1972)
 			name="Amalia Maria"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021034	# Franz Josef v. Habsburg-Lothringen
+			father=100021034	# Franz Josef v. Altenburg
 			mother=100092364	# Christa von Härdtl
 			1979.01.13={birth=yes}
 		}
 		100021041={ # 4f) Elisabeth Maria Caecilia Amalia Katharina von Altenburg (b.Vöcklabrück 9 Jun 1983)
 			name="Elisabeth Maria"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021034	# Franz Josef v. Habsburg-Lothringen
+			father=100021034	# Franz Josef v. Altenburg
 			mother=100092364	# Christa von Härdtl
 			1983.06.09={birth=yes}
 		}
 	100021042={ # 8e) Nikolaus Gottfried Salvator Maria Joseph Leopold Johannes Vianney Pr von Altenburg (b.Ischl 22 May 1942); m.1st Salzburg 28 Apr 1973 (div 2000) Suzanne Robinow (b.Washington 9 Nov 1946); m.2d Salzburg 5 Apr 2005 Brigitte Frn v.Waechter (b.Vienna 28 Mar 1956)
 		name="Nikolaus Gottfried"
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1942.05.22={birth=yes}
 		1973.04.28={add_spouse=100089579}	# Suzanne Robinow
 		2005.01.01={remove_spouse=100089579}
@@ -6613,9 +6623,9 @@
 	}
 		100021045={ # 1f) Florian Max Pr von Altenburg (b.München 17 Jan 1974); m.New York 10 May 2007 Maike Rosa Pollack (b.Berkeley, California 26 Jun 1976)
 			name="Florian Max"
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021042	# Nikolaus Gottfried v. Habsburg-Lothringen
+			father=100021042	# Nikolaus Gottfried v. Altenburg
 			mother=100089579	# Suzanne Robinow
 			1974.01.17={birth=yes}
 			2007.05.10={add_spouse=100089116}	# Maike Rosa Pollack
@@ -6623,62 +6633,61 @@
 		100021047={ # 2f) Anna Elisabeth von Altenburg (b.Salzburg 28 Mar 1977); m.Pierre Reboul
 			name="Anna Elisabeth"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021042	# Nikolaus Gottfried v. Habsburg-Lothringen
+			father=100021042	# Nikolaus Gottfried v. Altenburg
 			mother=100089579	# Suzanne Robinow
 			1977.03.28={birth=yes}
 		}
 	100021048={ # 9e) Johannes Maria Karl Salvator Leopold Ignatius Florian von Altenburg (b.Gmunden 21 Jan 1949); m.Vienna 26 Aug 1978 Eugenie Fundulus (b.Vienna 22 Sep 1953)
 		name="Johannes Maria"
-		dynasty=1503
+		dynasty=1004567
 		religion=catholic culture=german
-		father=100020989	# Clemens Salvator v. Habsburg-Lothringen
-		mother=100089453	# GFN Elisabeth Rességuier de Miremont
+		father=100020989	# Clemens Salvator v. Altenburg
+		mother=100035337	# Elisabeth Rességuier de Miremont
 		1949.01.21={birth=yes}
 		1978.08.26={add_spouse=100084056}	# Eugenie Fundulus
 	}
 		100021050={ # 1f) Maria Agnes von Altenburg (b.Vienna 15 Jun 1979); m.17 Jun 2006 Nikolaus von Einem (b.Berlin 25 Aug 1975)
 			name="Maria Agnes"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021048	# Johannes Maria v. Habsburg-Lothringen
+			father=100021048	# Johannes Maria v. Altenburg
 			mother=100084056	# Eugenie Fundulus
 			1979.06.15={birth=yes}
 		}
 		100021052={ # 2f) Maria Josepha von Altenburg (b.Vienna 20 Mar 1981); m.23 Aug 2008 Sebastian Frhr v.Eltz-Rübenach (b.29 Jun 1973)
 			name="Maria Josepha"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021048	# Johannes Maria v. Habsburg-Lothringen
+			father=100021048	# Johannes Maria v. Altenburg
 			mother=100084056	# Eugenie Fundulus
 			1981.03.20={birth=yes}
 		}
 		100021054={ # 3f) Clara Maria Johanna von Altenburg (b.Vienna 19 Sep 1983)
 			name="Clara Maria"
 			female=yes
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021048	# Johannes Maria v. Habsburg-Lothringen
+			father=100021048	# Johannes Maria v. Altenburg
 			mother=100084056	# Eugenie Fundulus
 			1983.09.19={birth=yes}
 		}
 		100021055={ # 4f) Franz Clemens Pr von Altenburg (b.Vienna 25 Sep 1985) $$
 			name="Franz Clemens"
-			dynasty=1503
+			dynasty=1004567
 			religion=catholic culture=german
-			father=100021048	# Johannes Maria v. Habsburg-Lothringen
+			father=100021048	# Johannes Maria v. Altenburg
 			mother=100084056	# Eugenie Fundulus
 			1985.09.25={birth=yes}
 			2015.08.29={add_spouse=100001240}	# Eleonore v. Toerring-Jettenbach
 		}
 #ALTENBURG
 
-
 #Hohenbergs|1002050|100020061
-100020061={ # 1e) Franz Ferdinand Karl Ludwig Joseph (Graz 18 Dec 1863-assassinated at Sarajevo 28 Jun 1914);  $$
+100020061={ # 1e) Franz Ferdinand Karl Ludwig Joseph (Graz 18 Dec 1863-assassinated at Sarajevo 28 Jun 1914);$$
 		   # m.(morganatically) at Reichstadt, Bohemia 1 Jul 1900 Sophie Gfn Chotek von Chotkowa, who was in 1905 cr Herzogin von Hohenberg (Durchlaucht) (Stuttgart 1 Mar 1868-assassinated at Sarajevo 28 Jun 1914)
 	name="Franz Ferdinand"
 	dynasty=1503
@@ -6718,7 +6727,7 @@
 			father=100021354	# Maximilian v. Hohenberg
 			mother=100007015	# Elisabeth Bona v. Waldburg zu Wolfegg u.Waldsee
 			1927.09.13={birth=yes}
-			1956.05.09={add_spouse=100070271}	# Elisabeth di Borbone-Parma
+			1956.05.09={add_spouse=100070271}	# Elisabeth v. Nassau-Weilburg
 			1977.08.16={death=yes}
 		}
 			100021358={	# 1h) Anna Charlotte Maximiliana Euphemia Maria Helena (b.Schloß Berg 18 Aug 1958); m.1st Luxemburg 15 Jul 1978 (rel) Artstetten 22 Jul 1978 (div 1998) Romée de la Poëze Cte d'Harambure (b.Düsseldorf 15 Jul 1949); m.2d Schloß Kornberg 9 Jul 2005 Andreas Gf von Bardeau (b.Graz 13 Feb 1957)
@@ -6727,7 +6736,7 @@
 				dynasty=1002050
 				religion=catholic culture=german
 				father=100021356	# Franz Ferdinand v. Hohenberg
-				mother=100070271	# Elisabeth di Borbone-Parma
+				mother=100070271	# Elisabeth v. Nassau-Weilburg
 				1958.08.18={birth=yes}
 			}
 		100021361={	# 2g) Princess Sophie Felicitas Elisabetha Bona Maria Antonia von Hohenberg (b. at Berg Castle 10 May 1960); m. at Marbach, Austria 17 Jun 1983 Jean Louis de Potesta, of the House of the Barons de Potesta, (b.Lüttich 8 Feb 1951)
@@ -6842,7 +6851,7 @@
 			father=100021354	# Maximilian v. Hohenberg
 			mother=100007015	# Elisabeth Bona v. Waldburg zu Wolfegg u.Waldsee
 			1931.02.04={birth=yes}
-			1962.04.11={add_spouse=100191757}	# Leontine v. Cassis-Faraone
+			1962.04.11={add_spouse=100022421}	# Leontine v. Cassis-Faraone
 			2008.01.01={death=yes}  # EST.
 		}
 			100021379={	# 1h) Margarete Elisabeth Juliana Maria (b.Vienna 19 Jun 1963); m.München 28 Dec 1990 (rel) Vienna 20 Apr 1991 Josef Carl Archduke of Austria (b.Feldafing 18 Mar 1960) $$
@@ -6851,7 +6860,7 @@
 				dynasty=1002050
 				religion=catholic culture=german
 				father=100021377	# Albrecht Philipp v. Hohenberg
-				mother=100191757	# Leontine v. Cassis-Faraone
+				mother=100022421	# Leontine v. Cassis-Faraone
 				1963.06.19={birth=yes}
 			}
 			100021381={	# 2h) Leo Johannes Maximilian Josef Koloman (b.Vienna 28 Sep 1964); m.Lisbon 3 Sep 1994 Rosalind Roque Alcoforado (b.New York 3 Jul 1964)
@@ -6859,7 +6868,7 @@
 				dynasty=1002050
 				religion=catholic culture=german
 				father=100021377	# Albrecht Philipp v. Hohenberg
-				mother=100191757	# Leontine v. Cassis-Faraone
+				mother=100022421	# Leontine v. Cassis-Faraone
 				1964.09.28={birth=yes}
 				1994.09.03={add_spouse=100089651}	# Rosalind Roque Alcoforado
 			}
@@ -6886,7 +6895,7 @@
 				dynasty=1002050
 				religion=catholic culture=german
 				father=100021377	# Albrecht Philipp v. Hohenberg
-				mother=100191757	# Leontine v. Cassis-Faraone
+				mother=100022421	# Leontine v. Cassis-Faraone
 				1966.04.29={birth=yes}
 			}
 			100021387={	# 4h) Katharina Aglae Franziska Maria (b.Vienna 9 Mar 1969); m.Strobl am Wolfgangsee 3 May 1997 Carlos Manuel Méndez de Vigo y Löwenstein-Wertheim-Rosenberg (b.München 27 Jul 1969) $$
@@ -6895,7 +6904,7 @@
 				dynasty=1002050
 				religion=catholic culture=german
 				father=100021377	# Albrecht Philipp v. Hohenberg
-				mother=100191757	# Leontine v. Cassis-Faraone
+				mother=100022421	# Leontine v. Cassis-Faraone
 				1969.03.09={birth=yes}
 			}
 		100021389={	# 4g) Johannes Andreas Josef Antonius Michael Severinus Alexander Hubertus (Artstetten 3 May 1933-Salzburg 11 Oct 2003); m.(civ) Salzburg 28 Aug 1969 (rel) Salzburg 11 Oct 1969 Elisabeth Meilinger-Rehrl (b.Bramberg-Weyerhof 30 May 1947)

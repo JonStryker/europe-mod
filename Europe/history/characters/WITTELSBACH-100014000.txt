@@ -55,6 +55,31 @@
 	1588.10.24={birth=yes}  # Pfreimd
 	1634.06.01={death=yes}  # Laufen
 }
+100094629={ # Landgfn    Elisabeth                 von Leuchtenberg                         (1330-1361)     3 [HENNEBERG]
+	name="Elisabeth von Leuchtenberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1330.01.01={birth=yes}  # EST.
+	1361.07.25={death=yes}
+}
+100094101={ # Landgfn    Anna                      von Leuchtenberg                         (1354-1423)     2 [SCHWARZBURG]
+	name="Anna von Leuchtenberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1354.01.01={birth=yes}
+	1423.01.24={death=yes}
+}
+100099407={ # Landgf     Johann                    von Leuchtenberg                         (1470-1531)     - [SCHWARZBURG]
+	name="Johann von Leuchtenberg"
+	dynasty=0
+	religion=catholic culture=german
+	1470.01.01={birth=yes}
+	1502.01.01={add_spouse=100011869}	# Margarete von Schwarzburg
+	1531.09.01={death=yes}
+}
+
 100095880={ # Pfgfn      Mechthild                 von Wittelsbach                          (1419-1482)     1 [WURTTEMBERG]
 	name="Mechthild von Wittelsbach"
 	female=yes
@@ -167,14 +192,6 @@
 	1529.01.01={add_spouse=100011796}	# Susanne v. Wittelsbach
 	1559.01.01={death=yes}
 }
-100086531={ # Pfgf       Johann                    in Neunburg vorm Wald u.Neumarkt         (1383-1443)     - [POMMERN]
-	name="Johann in Neunburg vorm Wald u.Neumarkt"
-	dynasty=0
-	religion=catholic culture=pomeranian
-	1383.01.01={birth=yes}
-	1407.08.12={add_spouse=100010355}	# Katharina Gryfita
-	1443.03.13={death=yes}
-}
 
 
 #wittel2
@@ -187,6 +204,24 @@
 		1352.01.01={birth=yes}
 		1410.01.01={death=yes}
 	}
+		100013254={ # D4. Johann, Pfgf in Neunburg vorm Wald u.Neumarkt 1410, *Neunburg vorm Wald 1383, +Benedictine Kloster Kastl, Oberpfalz 13/14.3.1443, bur Neunburg vorm Wald; 1m: Ripen 1407 Katharina of Pomerania-Stolp (*ca 1390 +1426); 2m: Riedenburg 1428 Beatrix of Bavaria (*ca 1403 +Neumarkt 1447) dau.of Duke Ernst of Bavaria $$
+			name=Johann
+			dynasty=217
+			religion=catholic culture=pomeranian
+			father=100007965	# Ruprecht v. Wittelsbach
+			1383.01.01={birth=yes}
+			1407.08.12={add_spouse=100010355}	# Katharina Gryfita
+			1443.03.13={death=yes}
+		}
+			100194231={ # E1. King CHRISTOPH III of Sweden and Denmark (10.4.1440-1448) and Norway (4.6.1441-1448), Pfgf von Neumarkt in der Oberpfalz (1443-48), *Neumarkt 26.2.1416, +Helsingborg 5.1.1448, bur Roeskilde, Seeland; m.Copenhagen 1445 Dorothea of Brandenburg (*1422 +25.11.1495); on Christoph's death, Christian of Oldenburg was chosen to succeed him; to solidify his claim, Christian married Dorothea
+				name=Christoph
+				dynasty=217
+				religion=catholic culture=german
+				father=100013254	# Johann v. Wittelsbach
+				mother=100010355	# Katharina Gryfita
+				1416.02.26={birth=yes}
+				1448.01.05={death=yes}
+			}
 		100007975={	# D5. Pfgf Stefan in Simmern und Zweibrücken 1410, in Veldenz u.Sponheim 1444, *23.6.1385, +Simmern 14.2.1459; m.Heidelberg 1410 Anna von Veldenz (*ca 1390, +Wachenheim 1439)
 			name=Stefan
 			dynasty=217
@@ -228,7 +263,6 @@
 				1413.01.01={birth=yes}
 				1469.01.01={death=yes}
 			}
-			
 #wittel2
 
 #wittel3
@@ -616,7 +650,7 @@
 					father=100007707	# Wolfgang v. Wittelsbach
 					mother=100192208	# Anna v. Hessen
 					1547.10.02={birth=yes}  # Zweibrücken
-					1574.09.27={add_spouse=100002828}	# Anna von der Mark
+					1574.09.27={add_spouse=100035987}	# Anna von der Mark
 					1614.08.22={death=yes}  # Neuburg
 				}
 					100007709={	# 1f) Anna Marie (Neuburg 18 Aug 1575-Dornburg/Saale 11 May 1643); m.Neuburg 9 Sep 1591 Duke Friedrich Wilhelm von Sachsen-Altenburg (d.Weimar 7 Jul 1602) $$
@@ -625,7 +659,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007708	# Philipp Ludwig v. Wittelsbach
-						mother=100002828	# Anna von der Mark
+						mother=100035987	# Anna von der Mark
 						1575.08.18={birth=yes}  # Neuburg
 						1643.05.11={death=yes}  # Dornburg/Saale
 					}
@@ -634,7 +668,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007708	# Philipp Ludwig v. Wittelsbach
-						mother=100002828	# Anna von der Mark
+						mother=100035987	# Anna von der Mark
 						1578.10.25={birth=yes}  # Neuburg
 						1613.11.11={add_spouse=100007983}	# Magdalena v. Wittelsbach
 						1631.11.01={add_spouse=100007738}	# Katharine Charlotte v. Wittelsbach
@@ -763,13 +797,13 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007708	# Philipp Ludwig v. Wittelsbach
-						mother=100002828	# Anna von der Mark
+						mother=100035987	# Anna von der Mark
 						1582.10.02={birth=yes}  # Neuburg
 						1620.07.15={add_spouse=100013053}	# Hedwig von Oldenburg
 						1632.08.14={death=yes}  # Windsheim
 					}
-						100007723={	# 1g) Anna Sophie (Sulzbach 6 Jul 1621-Hochhaus 25 May 1675); m.Nürnberg 9 May 1647 Joachim Ernst Gf von Oettingen (d.8 Aug 1659)
-							name="Anna Sophie"
+						100007723={	# 1g) Anna Sophie (Sulzbach 6 Jul 1621-Hochhaus 25 May 1675); m.Nürnberg 9 May 1647 Joachim Ernst Gf von Oettingen (d.8 Aug 1659) $$
+							name="Anna Sophia"
 							female=yes
 							dynasty=217
 							religion=catholic culture=german
@@ -905,7 +939,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007708	# Philipp Ludwig v. Wittelsbach
-						mother=100002828	# Anna von der Mark
+						mother=100035987	# Anna von der Mark
 						1587.08.23={birth=yes}  # Neuburg
 						1624.11.17={add_spouse=100192211}	# Sophie Agnes v. Hessen
 						1644.10.19={death=yes}  # Hilpoltstein
@@ -917,7 +951,7 @@
 					father=100007707	# Wolfgang v. Wittelsbach
 					mother=100192208	# Anna v. Hessen
 					1550.05.18={birth=yes}  # Meisenheim
-					1579.10.04={add_spouse=100002829}	# Magdalene von der Mark
+					1579.10.04={add_spouse=100035986}	# Magdalene von der Mark
 					1604.08.12={death=yes}  # Germersheim
 				}
 					100007735={	# 2f) Marie Elisabeth (Zweibrücken 7 Nov 1581-Lauterecken 18 Aug 1637); m.Zweibrücken 17 May 1601 Georg Gustav Pfgf von Veldenz (d.1634) $$
@@ -926,7 +960,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007734	# Johann v. Wittelsbach
-						mother=100002829	# Magdalene von der Mark
+						mother=100035986	# Magdalene von der Mark
 						1581.11.07={birth=yes}  # Zweibrücken
 						1637.08.18={death=yes}  # Lauterecken
 					}
@@ -935,7 +969,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007734	# Johann v. Wittelsbach
-						mother=100002829	# Magdalene von der Mark
+						mother=100035986	# Magdalene von der Mark
 						1584.03.26={birth=yes}  # Bergzabern
 						1604.08.26={add_spouse=100082852}	# Catherine de Rohan
 						1612.05.13={add_spouse=100007985}	# Luise Juliane v. Wittelsbach
@@ -1016,7 +1050,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007734	# Johann v. Wittelsbach
-						mother=100002829	# Magdalene von der Mark
+						mother=100035986	# Magdalene von der Mark
 						1590.06.10={birth=yes}  # Zweibrücken
 						1616.07.04={add_spouse=100037254}	# Amalie von Nassau
 						1681.09.30={death=yes}  # Montfort_en_Auxois
@@ -1066,7 +1100,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007734	# Johann v. Wittelsbach
-						mother=100002829	# Magdalene von der Mark
+						mother=100035986	# Magdalene von der Mark
 						1589.04.12={birth=yes}  # Zweibrücken
 						1615.06.21={add_spouse=100012325}	# Katharina Vasa
 						1652.06.08={death=yes}  # Schloß Stegeborg
@@ -1187,7 +1221,7 @@
 						dynasty=217
 						religion=catholic culture=german
 						father=100007734	# Johann v. Wittelsbach
-						mother=100002829	# Magdalene von der Mark
+						mother=100035986	# Magdalene von der Mark
 						1592.09.18={birth=yes}  # Zweibrücken
 						1655.05.18={death=yes}  # Düsseldorf
 					}
@@ -1221,7 +1255,7 @@
 					1587.02.26={add_spouse=100112408}	# Katarzyna Zofia legnicki
 					1597.12.17={death=yes}  # Schloß Friedrichsburg bei Vohenstrauss
 				}
-				100007760={	# 10e) Barbara (Neuburg 27 Jul 1559-Oettingen 5 Mar 1618); m.Oettingen 7 Nov 1591 Gottfried Gf von Oettingen (d.7 Sep 1622)
+				100007760={	# 10e) Barbara (Neuburg 27 Jul 1559-Oettingen 5 Mar 1618); m.Oettingen 7 Nov 1591 Gottfried Gf von Oettingen (d.7 Sep 1622) $$
 					name=Barbara
 					female=yes
 					dynasty=217
@@ -1241,7 +1275,7 @@
 					1586.02.23={add_spouse=100012181}	# Dorothea v. Braunschweig-Lüneburg
 					1600.12.16={death=yes}  # Birkenfeld
 				}
-					100007762={	# 1f) Georg Wilhelm Pfgf von Birkenfeld (Ansbach 6 Aug 1591-Birkenfeld 25 Dec 1669); 
+					100007762={	# 1f) Georg Wilhelm Pfgf von Birkenfeld (Ansbach 6 Aug 1591-Birkenfeld 25 Dec 1669);  $$
 								# m.1st Neuenstein 30 Nov 1616 Dorothea Gfn von Solms-Sonnenwalde (1586-Birkenfeld 5 Sep 1625); 
 								# m.2nd Schloß Birkenfeld 30 Nov 1641 (div 1642) Juliane, Wild- und Rheingfn von Dhaun-Grumbach (d.after 3 Jul 1647);
 								# m.3rd Schloß Hardenburg 8 Mar 1649 Anna Elisabeth Gfn von Oettingen (Oettingen 3 Nov 1603-Birkenfeld 3 Jun 1673)
@@ -1254,7 +1288,7 @@
 						1616.11.30={add_spouse=100007252}	# Dorothea von Solms-Braunfels
 						1641.11.30={add_spouse=100007615}	# Juliane zu Salm
 						1642.01.01={remove_spouse=100007615}
-						1649.03.08={add_spouse=100092790}	# GFN Anna Elisabeth zu Oettingen-Oettingen
+						1649.03.08={add_spouse=100012938}	# Anna Elisabeth von Oettingen
 						1669.12.25={death=yes}  # Birkenfeld
 					}
 						100007763={	# 4g) Maria Magdalena (Birkenfeld 8 Aug 1622-Auleben 27 Oct 1689); m.Heringen 29 Oct 1644 Anton Gunther Gf von Schwarzburg-Sondershausen (d.19 Aug 1666) $$
@@ -1348,16 +1382,60 @@
 									1721.03.09={birth=yes}  # Strassburg
 									1774.03.30={death=yes}  # Darmstadt
 								}
-								100007769={	# 2i) Christian IV, Hg von Zweibrücken (Bischweiler 6 Sep 1722-Jagdschloß Petersheim 5 Nov 1775); m.3 Sep 1757 Maria Johanna Camasse (Strassburg 2 Sep 1734-Paris 29 Dec 1807)
+								100007769={	# 2i) Christian IV, Hg von Zweibrücken (Bischweiler 6 Sep 1722-Jagdschloß Petersheim 5 Nov 1775); m.3 Sep 1757 Maria Johanna Camasse (Strassburg 2 Sep 1734-Paris 29 Dec 1807) $$
 									name=Christian
 									dynasty=217
 									religion=catholic culture=german
 									father=100007804	# Christian v. Wittelsbach
 									mother=100037328	# Karoline v. Nassau-Weilburg
 									1722.09.06={birth=yes}  # Bischweiler
-									1757.09.03={add_spouse=100081179}	# Maria Johanna Camasse
+									1757.09.03={add_spouse=100081179}	# Maria Johanna von Forbach
 									1775.11.05={death=yes}  # Jagdschloß Petersheim
 								}
+								100081179={ # H0. Maria Johanna von Forbach (Strassburg 2 Sep 1734-Paris 29 Dec 1807); m.3 Sep 1757 Christian v. Wittelsbach (Bischweiler 6 Sep 1722-Jagdschloß Petersheim 5 Nov 1775) %%
+									name="Maria Johanna"
+									female=yes
+									dynasty=1002294
+									religion=catholic culture=german
+									1734.09.02={birth=yes}  # Strassburg
+									1807.12.29={death=yes}  # Paris
+								}
+									100394379={ # 1j) Christian, cr Gf von Forbach 1770, Marquis de Deux-Ponts 1781 (Zweibrücken 20 Jul 1752-Munich 25 Oct 1817); m.Versailles 29 Jul 1783 Adelaide de Béthune (Paris 4 Mar 1761-Versailles 30 Apr 1823)
+										name=Christian
+										dynasty=1002294
+										religion=catholic culture=german
+										father=100007769	# Christian v. Wittelsbach
+										mother=100081179	# Maria Johanna von Forbach
+										1752.07.20={birth=yes}  # Zweibrücken
+										1817.10.25={death=yes}  # München
+									}
+										100094379={ # 3k) Casimire Marie Lusie Gfn von Forbach (23 Dec 1787-26 Mar 1846); m.1st 28 May 1808 Gustav Gf von Sayn-Wittgenstein (k.a.7 Sep 1812); m.2nd 19 Aug 1814 Anton Gf von Rechberg (d.4 Jan 1837) $$
+											name=Casimire
+											female=yes
+											dynasty=1002294
+											religion=catholic culture=german
+											father=100394379	# Christian von Forbach
+											1787.12.20={birth=yes}  # Forbach
+											1846.03.26={death=yes}  # München
+										}
+									100386746={ # 2j) Philipp [Wilhelm] Gf von Forbach 1770/5, Vcte de Deux-Ponts (Zweibrücken 18 Jun 1754-Munich 21 Jul 1807); m.Choisy-le-Roi 11 Jan 1780 Adelaide de Polastron (St.André 1760-Wiesbaden 25 Feb 1795)
+										name="Philipp Wilhelm"
+										dynasty=1002294
+										religion=catholic culture=german
+										father=100007769	# Christian v. Wittelsbach
+										mother=100081179	# Maria Johanna von Forbach
+										1754.06.18={birth=yes}  # Zweibrücken
+										1807.07.21={death=yes}  # München
+									}
+										100086746={ # 1k) Christian  Marianne Wilhelm August Franz Gf von Forbach (Forbach 30 Aug 1782-Munich 25 Apr 1859); m.1st Munich 10 Jun 1816 Christina Frn von Guttenberg (Steinenhausen 24 Jul 1798-Munich 26 Apr 1817); m.2nd Donzdorf 4 Aug 1818 Karoline Gfn von Rechberg (Regensburg 25 Jun 1798-Donzdorf 12 Jan 1878) $$
+											name=Christian
+											dynasty=1002294
+											religion=catholic culture=german
+											father=100386746	# Philipp Wilhelm von Forbach
+											1782.08.30={birth=yes}  # Forbach
+											1818.01.04={add_spouse=100011357}	# Karoline v. Rechberg u.Rothenlöwen zu Hohenrechberg
+											1859.04.25={death=yes}  # München
+										}
 								100007806={	# 3i) Friedrich Michael Pfgf von Zweibrücken-Birkenfeld Gf von Rappoltstein (Rappoltsweiler 27 Feb 1724-Schwetzingen 15 Aug 1767); m.6 Feb 1746 Maria Franziska Dorothea Pfgfn von Sulzbach (1724-1794) $$
 									name="Friedrich Michael"
 									dynasty=217
@@ -1714,7 +1792,7 @@
 		father=462730	# Stefan v. Wittelsbach
 		1337.01.01={birth=yes}
 		1364.10.13={add_spouse=100097404}	# Taddea Visconti
-		1401.01.16={add_spouse=100097419}	# CSS Elisabeth of Cleves
+		1401.01.16={add_spouse=100097419}	# CSS Elisabeth von Kleve
 		1413.09.25={death=yes}  # Niederschönenfeld_bei_Donauwörth
 	}
 		100011547={ # C1. Duke LUDWIG VII "der Gebartete" of Bavaria, in Ingolstadt, Cte de Mortain 1416, *20.12.1365/1368-69, +in jail in Burghausen 1.5.1447; 1m: Paris 1.10.1402 Anne de Bourbon (*after 1380 +IX.1408); 2m: Paris 1.10.1413 Catherine d'Alençon (*after 1395 +25.6.1462)
@@ -1914,7 +1992,7 @@
 					1439.07.26={birth=yes}  # Straubing
 					1501.02.01={death=yes}  # Schloß Blutenberg
 				}
-				100011798={ # E8. Margarete, *München 1.1.1442, +Mantova 14.10.1479; m.Mantua 10.5.1463 Federigo I Gonzaga, Marchese of Mantua (*25.6.1441 +14.7.1484)
+				100011798={ # E8. Margarete, *München 1.1.1442, +Mantova 14.10.1479; m.Mantua 10.5.1463 Federigo I Gonzaga, Marchese of Mantua (*25.6.1441 +14.7.1484) $$
 					name=Margarete
 					female=yes
 					dynasty=217
@@ -2089,7 +2167,7 @@
 			father=100011602	# Johann v. Wittelsbach
 			mother=100099226	# Katharina von Görz
 			1375.01.01={birth=yes}  # München
-			1433.01.01={add_spouse=100102588}	# Margarete of Cleves
+			1433.01.01={add_spouse=100102588}	# Margarete von Kleve
 			1435.01.01={death=yes}  # München
 		}
 
@@ -3450,14 +3528,14 @@
 			1665.01.01={birth=yes}  # Wertheim
 			1730.01.01={death=yes}  # Rumburg
 		}
-		100009511={ # B6. Wilhelm, *24.5.1669, +Budapest 17.10.1695; m.1692 Gfn Katharina von Waldstein-Wartenberg (*1672 +26.10.1733)
+		100009511={ # B6. Wilhelm, *24.5.1669, +Budapest 17.10.1695; m.1692 Gfn Katharina von Waldstein-Wartenberg (*1672 +26.10.1733) $$
 			name=Wilhelm
 			dynasty=1002610
 			religion=catholic culture=german
 			father=100008040	# Ferdinand Karl v. Löwenstein-Wertheim-Rochefort
 			mother=100010344	# Anna v. Fürstenberg
 			1669.05.24={birth=yes}
-			1692.01.01={add_spouse=100094359}	# GFN Katharina von Waldstein-Wartenberg
+			1692.01.01={add_spouse=100047847}	# Katharina z Valdštejna
 			1695.10.17={death=yes}  # Budapest
 		}
 	100009655={ # A7. Dorothea Katharina, *Rochefort 1618, +1655; m.1641 Ferdinand, Gf von Manderscheid (+1670) $$
@@ -5073,7 +5151,7 @@
 						father=100007876	# Konrad v. Wittelsbach
 						mother=100072022	# Bona Margherita de Savoie
 						1925.07.16={birth=yes}
-						1970.11.16={add_spouse=100116924}	# Helene v. Khevenhüller-Metsch
+						1970.11.16={add_spouse=100025946}	# Helene v. Khevenhüller-Metsch
 						1997.01.01={death=yes}
 					}
 			100007879={ # 3c) Therese Charlotte Marianne Auguste (München 12 Nov 1850-Lindau 19 Sep 1925)
@@ -5175,7 +5253,7 @@
 						1920.08.15={birth=yes}
 						1942.08.31={add_spouse=100002310}	# Maria Adelgunde v. Hohenzollern-Sigmaringen
 						1950.01.01={remove_spouse=100002310}
-						1953.08.14={add_spouse=100116924}	# Helene v. Khevenhüller-Metsch
+						1953.08.14={add_spouse=100025946}	# Helene v. Khevenhüller-Metsch
 						1969.07.30={death=yes}
 					}
 						100007890={ # 1f) Leopold Rupprecht Ludwig Ferdinand Adalbert Friedrich Maria et omnes sancti, b.Umkirch bei Freiburg im Breisgau 21 Jun 1943; 

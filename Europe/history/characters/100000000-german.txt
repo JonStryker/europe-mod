@@ -1,24 +1,943 @@
 #######################################################################################################
-##  100000175-100295886		Arenberg                          1002040	  87		 35/ 59 = 59,32%
-##  100000326-100000914		Bentheim u.Steinfurt              1002079	  47		  9/ 35 = 25,71%
-##  100000449-100001113		Bentheim-Tecklenburg              1002125	  61		 30/ 47 = 63,83%
-##  100000675-100000902		Croÿ                              1002044	 228		 56/160 = 35,00%
-##  100000925-100001037		Eltz gt Faust v.Strombe           1002059	 113		 34/ 90 = 37,78%
-##  100001250-100184800		Henckel v.Donnersmarck            1002077	 197		 41/166 = 24,70%
-##  100002710-100003980		Löwenstein-Wertheim               1002113	  45		 22/ 45 = 48,89%
-##  100002725-100002800		Löwenstein-Wertheim-Rosenbe       1002039	  76		 29/ 50 = 58,00%
-##  100002850-100202864		Matz von Spiegelfeld              1002083	  19		 11/ 12 = 91,67%
-##  100003050-100203051		Neipperg                          1002101	  20		 18/ 18 = 100,00%
-##  100003300-100096344		Pilati von Thassul zu Daxberg     1002055	  11		  4/  7 = 57,14%
-##  100003325-100003352		Putbus                            1002042	  28		  3/ 24 = 12,50%
-##  100003981-100003998		Löwenstein-Scharffeneck           1002114	  18		  0/ 15 = 0,00%
-##  100004450-100296372		Schaffgotsch gt Semperfrei        1002078	 184		 51/147 = 34,69%
-##  100005025-100005143		Schoenaich-Carolath               1002080	 113		 23/ 93 = 24,73%
-##  100005150-100005351		Schönborn                         1002043	 194		 58/175 = 33,14%
-##  100007625-100197744		Wied                              1002066	  67		 28/ 49 = 57,14%
-##  100010635-100010764		Mansfeld                            12403	 129		 51/145 = 35,17%
-##  100026069-100200046		Mendez de Vigo                    1001506	  16		  4/  4 = 100,00%
-#######################################################################################################
+##  100000000-100000376		ANHALT                            1002014	 125	 95/138 = 68,84%	  252	[c_dessau, d_anhalt]
+##  100000003-100001441		TOERRING-JETTENBACH               1004564	  53	 10/ 35 = 28,57%	 1386	[]
+##  100000015-100000399		ANHALT-BERNBURG-HOYM              1002609	  23	 18/ 22 = 81,82%	  362	[]
+##  100000018-100191556		ANHALT-ZERBST                     1002076	  14	 14/ 16 = 87,50%	191525	[c_moskva, d_moskva, e_russia]
+##  100000019-100006853		SACHSEN-LAUENBURG                 1002119	  59	 50/ 69 = 72,46%	 6776	[]
+##  100000079-100009250		SOLMS-WILDENFELS                  1002130	  57	 14/ 40 = 35,00%	 9115	[]
+##  100000109-100000488		ANHALT-BERNBURG                   1002120	  34	 32/ 34 = 94,12%	  346	[]
+##  100000175-100295889		ARENBERG                          1002040	  90	 45/ 68 = 66,18%	295625	[c_hasselt]
+##  100000326-100000914		BENTHEIM U.STEINFURT              1002079	  46	  9/ 35 = 25,71%	  543	[c_lingen]
+##  100000449-100012931		BENTHEIM-TECKLENBURG              1002125	  91	 47/ 66 = 71,21%	12392	[c_lingen, e_the_united_kingdom]
+##  100000450-100000479		BLÜCHER VON WALLSTADT             1002056	  28	  5/ 21 = 23,81%	    2	[]
+##  100000675-100012870		CROŸ                              1002044	 317	104/263 = 39,54%	11879	[c_dortmund, c_lille]
+##  100000925-100001037		ELTZ GT FAUST V.STROMBE           1002059	 113	 37/ 90 = 41,11%	    0	[c_kreuznach]
+##  100001053-100011514		FÜRSTENBERG                       1002020	 161	 78/146 = 53,42%	10301	[c_fuerstenberg]
+##  100001125-100012136		HANNOVER                          1002081	  97	 51/ 78 = 65,38%	10915	[c_hannover, c_london, c_york, d_hannover, d_niederelbe, d_ostfriesland, d_york, e_india, e_the_united_kingdom, k_england, k_hannover, k_ireland, k_scotland]
+##  100001250-100184807		HENCKEL V.DONNERSMARCK            1002077	 197	 53/168 = 31,55%	183361	[c_breslau]
+##  100001650-100001776		HOHENLOHE-LANGENBURG              1002035	 114	 47/ 90 = 52,22%	   13	[c_avila, c_burgos, c_hohenlohe, c_oppeln, c_soria, c_valladolid]
+##  100001700-100002036		HOHENLOHE-BARTENSTEIN             1002084	  46	 21/ 39 = 53,85%	  291	[]
+##  100001800-100004430		HOHENLOHE-WALDENBURG-SCHILL       1002065	 166	 57/125 = 45,60%	 2465	[]
+##  100001976-100005581		WILD- UND RHEINGRAF ZU KYRBURG    1002608	  31	 24/ 39 = 61,54%	 3575	[c_aabenraa, d_holstein]
+##  100001979-100008851		HOHENLOHE IN ÖHRINGEN             1002116	 115	 83/109 = 76,15%	 6758	[]
+##  100002005-100003984		HOHENLOHE-OEHRINGEN               1002106	  80	 18/ 64 = 28,13%	 1900	[]
+##  100002130-100013102		LEININGEN-WESTERBURG              1002127	 104	 42/107 = 39,25%	10869	[e_the_united_kingdom]
+##  100002451-100233233		LEININGEN                         1002028	 108	 81/108 = 75,00%	230675	[]
+##  100002710-100399168		LÖWENSTEIN-WERTHEIM               1002113	  53	 35/ 55 = 63,64%	396406	[]
+##  100002725-100008256		LÖWENSTEIN-WERTHEIM-ROSENBE       1002039	  75	 33/ 53 = 62,26%	 5457	[c_pfalz]
+##  100002850-100202863		MATZ VON SPIEGELFELD              1002083	  20	 11/ 14 = 78,57%	199994	[]
+##  100003050-100203233		NEIPPERG                          1002101	  21	 24/ 24 = 100,00%	200163	[]
+##  100003181-100008796		HOHENLOHE-KIRCHBERG               1002109	  15	 13/ 21 = 61,90%	 5601	[]
+##  100003300-100003636		PILATI VON THASSUL ZU DAXBERG     1002055	  11	  4/  7 = 57,14%	  326	[]
+##  100003325-100003352		PUTBUS                            1002042	  28	  3/ 24 = 12,50%	    0	[c_greifswald, c_stralsund]
+##  100003400-100299916		REUSS                             1002037	 312	155/275 = 56,36%	296205	[b_greiz, c_reuss, e_the_united_kingdom]
+##  100003675-100003823		SACHSEN-COBURG U.GOTHA            1002015	 122	 66/111 = 59,46%	   27	[c_brussel, c_gotha, c_liegnitz, d_flanders, d_wallonie, k_belgium]
+##  100003825-100003838		SACHSEN-GESSAPHE                  1002010	  14	  3/  4 = 75,00%	    0	[c_oberlausitz]
+##  100003850-100003881		SACHSEN-ALTENBURG                 1002031	  32	 26/ 29 = 89,66%	    0	[c_altenburg]
+##  100003900-100004165		SALM-SALM                         1002045	  69	 29/ 60 = 48,33%	  197	[c_muenster, d_muenster]
+##  100003981-100003996		LÖWENSTEIN-SCHARFFENECK           1002114	  15	  1/ 14 = 7,14%	    1	[]
+##  100004000-100004146		SALM-REIFFERSCHEIDT               1002074	 123	 67/113 = 59,29%	   24	[c_aachen]
+##  100004042-100204143		SALM                              1002071	 156	 87/150 = 58,00%	199946	[c_aachen, c_luxemburg, d_luxemburg, k_luxemburg]
+##  100004054-100099333		SAYN-WITTGENSTEIN-HOHENSTEI       1002117	  37	 10/ 30 = 33,33%	95243	[]
+##  100004174-100299227		DAUN                              1002263	  19	 11/ 13 = 84,62%	295035	[]
+##  100004176-100004449		SALM-HORSTMAR                     1002072	  33	 14/ 25 = 56,00%	  241	[]
+##  100004214-100004389		SALM                              1002264	  18	  8/ 24 = 33,33%	  158	[]
+##  100004232-100004329		DAUN                                12431	  11	 12/ 14 = 85,71%	   87	[]
+##  100004336-100010885		SAYN-WITTGENSTEIN-BERLEBURG       1002041	 230	 91/205 = 44,39%	 6320	[c_siegen]
+##  100004439-100005571		SAYN-WITTGENSTEIN                 1002111	  32	 28/ 39 = 71,79%	 1101	[]
+##  100004450-100296371		SCHAFFGOTSCH GT SEMPERFREI V.U    1002078	 181	 62/149 = 41,61%	291741	[]
+##  100004629-100012891		SAYN                              1002118	  43	 24/ 49 = 48,98%	 8220	[]
+##  100005002-100194375		SOLMS-BRAUNFELS                   1002049	 147	 90/117 = 76,92%	189227	[]
+##  100005025-100005143		SCHOENAICH-CAROLATH               1002080	 107	 39/ 91 = 42,86%	   12	[]
+##  100005150-100005351		SCHÖNBORN                         1002043	 194	 75/180 = 41,67%	    8	[b_stephansdom, c_oberfranken]
+##  100005375-100005528		SCHÖNBURG                         1002063	 154	 82/144 = 56,94%	    0	[c_chemnitz, e_the_united_kingdom]
+##  100005550-100006753		SOLMS                             1002062	  14	  7/ 12 = 58,33%	 1190	[]
+##  100005600-100194461		SOLMS-LAUBACH                     1002053	 106	 37/ 72 = 51,39%	188756	[c_frankfurt]
+##  100005692-100006777		SAYN-WITTGENSTEIN-HACHENBUR       1002266	  24	 21/ 29 = 72,41%	 1062	[]
+##  100005700-100005765		SOLMS-BARUTH                      1002052	  66	 36/ 70 = 51,43%	    0	[c_niederlausitz]
+##  100005769-100006888		SOLMS-RÖDELHEIM U.ASSENHEI        1002094	  46	 22/ 39 = 56,41%	 1074	[]
+##  100005775-100005825		SOLMS-HOHENSOLMS-LICH             1002051	  49	 22/ 34 = 64,71%	    2	[c_wiesbaden]
+##  100005900-100009757		STOLBERG-STOLBERG                 1002029	 332	114/241 = 47,30%	 3526	[c_magdeburg]
+##  100006200-100006232		STOLBERG-ROSSLA                   1002058	  33	 15/ 23 = 65,22%	    0	[]
+##  100006250-100006754		STOLBERG-WERNIGERODE              1002054	 212	 59/157 = 37,58%	  293	[c_halle, e_the_united_kingdom]
+##  100006475-100006493		TECK                              1002022	  19	  7/ 13 = 53,85%	    0	[c_cambridgeshire]
+##  100006500-100006773		THURN UND TAXIS                   1002011	 156	 74/122 = 60,66%	  118	[c_oberpfalz]
+##  100006688-100205736		SOLMS-SONNENWALDE                 1002110	  88	 34/ 78 = 43,59%	198961	[]
+##  100006700-100006733		URACH                             1002017	  32	 10/ 20 = 50,00%	    2	[c_vilnius, d_lithuania, k_lithuania]
+##  100006752-100011184		WALDBURG ZU ZEIL U.TRAUCHBU       1002069	 136	 50/ 92 = 54,35%	 4297	[c_vorarlberg]
+##  100006794-100207285		SCHÖNBURG-GLAUCHAU                1002038	  67	 34/ 69 = 49,28%	200425	[c_salzburg, d_salzburg]
+##  100006900-100007018		WALDBURG ZU WOLFEGG U.WALDS       1002068	 114	 28/ 65 = 43,08%	    5	[c_ulm]
+##  100006947-100011382		WALDBURG ZU WOLFEGG UND ZEI       1002254	  71	 37/ 77 = 48,05%	 4365	[]
+##  100007038-100010964		WALDBURG                          1002067	  73	 30/ 75 = 40,00%	 3854	[]
+##  100007041-100009446		WALDBURG ZU ZEIL-WURZACH          1002070	  35	 15/ 27 = 55,56%	 2371	[]
+##  100007050-100010786		WALDECK U.PYRMONT                 1002023	 199	 97/179 = 54,19%	 3538	[c_korbach]
+##  100007201-100012735		BRAUNSCHWEIG-LÜNEBURG             1002269	  55	 57/ 64 = 89,06%	 5480	[]
+##  100007221-100007244		BRAUNSCHWEIG-BEVERN               1002092	  24	 20/ 20 = 100,00%	    0	[c_braunschweig]
+##  100007275-100007611		WETTIN                                528	 226	225/259 = 86,87%	  111	[c_meiningen, c_warszawa, d_helsinki, e_poland_lithuania, e_the_united_kingdom, k_lithuania]
+##  100007323-100007536		SACHSEN                           1002086	  56	 34/ 44 = 77,27%	  158	[c_dresden, c_leipzig, d_sachsen]
+##  100007412-100007524		SACHSEN-WEIMAR-EISENACH           1002085	  39	 22/ 37 = 59,46%	   74	[c_altenburg, c_weimar]
+##  100007627-100391678		WIED                              1002066	  77	 39/ 62 = 62,90%	383975	[c_mainz, k_albania]
+##  100007700-100011820		WITTELSBACH                           217	 351	281/361 = 77,84%	 3770	[c_augsburg, c_ingolstadt, c_muenchen, c_niederbayern, d_bavaria, d_franconia, k_bavaria, k_sweden]
+##  100008025-100011351		WÜRTTEMBERG                         12446	 225	158/203 = 77,83%	 3102	[c_stuttgart, d_wuerttemberg, k_wuerttemberg]
+##  100008028-100397427		LÖWENSTEIN-WERTHEIM-ROCHEFO       1002610	  38	 27/ 36 = 75,00%	389362	[]
+##  100008191-100008320		WREDE                             1002087	  49	 14/ 42 = 33,33%	   81	[]
+##  100008351-100009154		SCHWARZBURG-RUDOLSTADT            1002088	  36	 35/ 36 = 97,22%	  768	[]
+##  100008501-100009987		ARCO                              1002093	  91	 33/ 75 = 44,00%	 1396	[]
+##  100008626-100011924		ERBACH                            1002300	  63	 51/ 71 = 71,83%	 3236	[]
+##  100008627-100011907		SCHWARZBURG                          7230	  46	 20/ 51 = 39,22%	 3235	[]
+##  100008629-100194120		ERBACH-FÜRSTENAU                  1002095	  62	 32/ 46 = 69,57%	185430	[]
+##  100008644-100009159		SCHWARZBURG-SONDERSHAUSEN         1002126	  48	 34/ 38 = 89,47%	  468	[]
+##  100008647-100011905		ERBACH-ERBACH                     1002124	  32	 13/ 24 = 54,17%	 3227	[]
+##  100008702-100011315		NOSTITZ-RIENECK                   1002100	 103	 40/ 73 = 54,79%	 2511	[]
+##  100008751-100294865		FUGGER VON BABENHAUSEN            1002105	  48	 15/ 34 = 44,12%	286067	[]
+##  100008801-100008832		LEYEN UND ZU HOHENGERO            1002108	  30	 10/ 18 = 55,56%	    2	[]
+##  100008872-100009239		DOHNA-SCHLOBITTEN                 1002121	 108	 31/ 85 = 36,47%	  260	[]
+##  100008955-100009023		SCHÖNBURG-FORDERGLAUCHAU          1002122	  44	 16/ 29 = 55,17%	   25	[]
+##  100009351-100193689		BRAUNSCHWEIG                      1002091	  31	 34/ 41 = 82,93%	184308	[]
+##  100009709-100009927		DOHNA-SCHLODIEN                   1002247	 161	 25/123 = 20,33%	   58	[]
+##  100009780-100011031		FUGGER VON KIRCHBERG U.WEISSENH    1002251	 105	 22/103 = 21,36%	 1147	[]
+##  100010001-100010136		DEGENFELD-SCHONBURG               1002128	 130	 31/ 99 = 31,31%	    6	[]
+##  100010138-100010787		MENSDORFF-POUILLY                 1002129	 120	 28/ 76 = 36,84%	  530	[]
+##  100010260-100194240		ORTENBURG                         1002600	  62	 15/ 34 = 44,12%	183919	[]
+##  100010352-100011344		GRYFITA                               177	  63	 52/ 68 = 76,47%	  930	[]
+##  100010431-100010531		KÖNIGSEGG-AULENDORF               1002602	 100	 55/ 97 = 56,70%	    1	[c_darmstadt, c_giessen, d_hessen_bei_rhein]
+##  100010533-100010603		HATZFELDT                         1002604	  68	 16/ 63 = 25,40%	    3	[]
+##  100010605-100010633		HANAU IN BABENHAUSEN              1002605	  24	 26/ 33 = 78,79%	    5	[]
+##  100010620-100012741		HANAU                             1002219	  22	 22/ 26 = 84,62%	 2100	[]
+##  100010627-100294312		FÜRSTENBERG                       1002279	  25	 10/ 15 = 66,67%	283661	[]
+##  100010631-100012824		WELF                                  650	  34	 15/ 34 = 44,12%	 2160	[]
+##  100010635-100011543		MANSFELD                            12403	 129	 84/144 = 58,33%	  780	[]
+##  100010794-100011063		FUGGER                            1002252	 112	 55/124 = 44,35%	  158	[]
+##  100011151-100011289		DOHNA-LAUCK                       1002253	  57	 29/ 49 = 59,18%	   82	[]
+##  100011346-100011447		RECHBERG U.ROTHENLÖWEN ZU H       1002255	  69	 23/ 47 = 48,94%	   33	[]
+##  100011383-100211531		WALDERDORFF                       1002258	  32	 21/ 29 = 72,41%	200117	[]
+##  100011540-100011746		KORFF GT SCHMISING-KERSSEN        1002261	 182	 18/106 = 16,98%	   25	[]
+##  100011751-100011793		BISMARCK                           100447	  43	  6/ 34 = 17,65%	    0	[]
+##  100011959-100012099		PÜCKLER-LIMPURG                   1002271	  40	  5/ 30 = 16,67%	  101	[]
+##  100012183-100299179		PAPPENHEIM                        1002272	  56	 12/ 45 = 26,67%	286941	[]
+##  100012517-100012536		SCHLITZ GT VON GÖRTZ              1002273	  20	  8/ 20 = 40,00%	    0	[]
+##  100012537-100012562		LYNAR                             1002274	  23	  4/ 18 = 22,22%	    3	[]
+##  100012685-100012775		HOLSTEIN-SCHAUENBURG              1002277	  39	 20/ 39 = 51,28%	   52	[]
+##  100012777-100012804		HENNEBERG                            7290	  24	 15/ 29 = 51,72%	    4	[]
+##  100013108-100036631		SCHAESBERG                        1002240	  51	  8/ 38 = 21,05%	23473	[]
+##  100016925-100016933		ROMANOV                            100397	   5	  0/  0 =  NaN%	    4	[c_moskva, d_moskva, e_russia]
+##  100024732-100025899		SPEE                              1002242	 197	 24/104 = 23,08%	  971	[]
+##  100026069-100200045		MENDEZ DE VIGO                    1001506	  16	  4/  4 = 100,00%	173961	[]
+##  100062025-100062036		MOUNTBATTEN-WINDSOR               1009001	  12	  4/  8 = 50,00%	    0	[c_london, c_york, d_eastern_counties, d_highlands, d_midlands, d_south_east_england, d_ulster, d_wales, d_york, e_india, e_the_united_kingdom, k_england, k_scotland]
+##  100063300-100063346		WINDSOR                           1009000	  43	 10/ 23 = 43,48%	    4	[c_london, c_york, d_york, e_india, e_the_united_kingdom, k_england, k_ireland, k_scotland]
+##  100012000				STAUFFENBERG					  1002239
+####################################################################################################### 6415180
+
+
+##  100012000				STAUFFENBERG					  1002239
+#schenk5
+100087286={ # D1. Marie Sophie, *Berlin 23.9.1937; m.Wilflingen 24.4.1962 Alfred Claus Maria Schenk Gf von Stauffenberg (*8.11.1937, +28.10.1987)
+	name="Marie Sophie Schank von Stauffenberg"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1937.09.23={birth=yes}  # Berlin
+}
+#schenk5
+
+#schenk6
+100013125={ # Franz Ludwig Philipp Schenk Graf von Stauffenberg, *Bamberg 13.5.1801, +Würzburg 8.5.1881; m.Dom zu Würzburg 1.5.1824 Eleonore Gfn Butler von Clonebough gen. Haimhausen (*Raigenring 20.9.1807, +Würzburg 5.2.1861)
+	name=Franz
+	dynasty=1002239
+	religion=catholic culture=german
+	1801.05.13={birth=yes}  # Bamberg
+	1824.05.01={add_spouse=100080564}	# GFN Eleonore Butler von Clonebough gt Haimhausen
+	1881.05.08={death=yes}  # Würzburg
+}
+	100013127={ # A1. Anna Charlotte, *Würzburg 1.3.1825, +Innsbruck 3.9.1852; m.Karl Alexander Gf von Seinsheim (*15.10.1823, +Innsbruck 3.9.1852)
+		name="Anna Charlotte"
+		female=yes
+		dynasty=1002239
+		religion=catholic culture=german
+		father=100013125	# Franz Schenk von Stauffenberg
+		mother=100080564	# GFN Eleonore Butler von Clonebough gt Haimhausen
+		1825.03.01={birth=yes}  # Würzburg
+		1852.09.03={death=yes}  # Innsbruck
+	}
+	100013128={ # A2. Klemens, *Würzburg 12.8.1826, +Neckarhausen 16.11.1886; m.Mannheim 7.1.1857 Leopoldine Gfn von Oberndorff (*Mannheim 18.10.1831, +Jettingen 7.5.1919)
+		name=Klemens
+		dynasty=1002239
+		religion=catholic culture=german
+		father=100013125	# Franz Schenk von Stauffenberg
+		mother=100080564	# GFN Eleonore Butler von Clonebough gt Haimhausen
+		1826.08.12={birth=yes}  # Würzburg
+		1857.01.07={add_spouse=100083074}	# GFN Leopoldine von Oberndorff
+		1886.11.16={death=yes}  # Neckarhausen
+	}
+		100013129={ # B1. Gabriele Eleonore, *Amerdingen 24.12.1857, +Jettingen 4.1.1946
+			name="Gabriele Eleonore"
+			female=yes
+			dynasty=1002239
+			religion=catholic culture=german
+			father=100013128	# Klemens Schenk von Stauffenberg
+			mother=100083074	# GFN Leopoldine von Oberndorff
+			1857.12.24={birth=yes}  # Amerdingen
+			1946.01.04={death=yes}  # Jettingen
+		}
+		100013135={ # B2. Berthold Franz Ludwig Marie Friedrich Cajetan Gabriel, *Amerdingen 21.8.1859, +Würzburg, Franken 9.11.1944; m.Schloß Trockau 9.8.1884 Maria Theresia Frn Groß von Trockau (*Würzburg 11.2.1860, +Greifenstein 19.12.1943)
+			name=Berthold
+			dynasty=1002239
+			religion=catholic culture=german
+			father=100013128	# Klemens Schenk von Stauffenberg
+			mother=100083074	# GFN Leopoldine von Oberndorff
+			1859.08.21={birth=yes}  # Amerdingen
+			1884.08.09={add_spouse=100083246}	# FRN Maria Theresia Groß von Trockau
+			1944.11.09={death=yes}  # Würzburg Franken
+		}
+			100013138={ # C1. Klemens Markwart Berthold Maria Norbert, *Würzburg, Franken 2.6.1885, +Ludwigshafen 10.2.1949; m.Guttenberg 25.4.1911 Elisabeth Luise Marie Frn von und zu Guttenberg (*Würzburg 20.4.1891, +München 24.2.1946)
+				name=Klemens
+				dynasty=1002239
+				religion=catholic culture=german
+				father=100013135	# Berthold Schenk von Stauffenberg
+				mother=100083246	# FRN Maria Theresia Groß von Trockau
+				1885.06.02={birth=yes}  # Würzburg Franken
+				1911.04.25={add_spouse=100083295}	# FRN Elisabeth Luise von und zu Guttenberg
+				1949.02.10={death=yes}  # Ludwigshafen
+			}
+				100013143={ # D1. Marie Gabriele Luise Sofie, *München 18.7.1914
+					name=Marie
+					female=yes
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013138	# Klemens Schenk von Stauffenberg
+					mother=100083295	# FRN Elisabeth Luise von und zu Guttenberg
+					1914.07.18={birth=yes}  # München
+					1989.01.01={death=yes}  # EST.
+				}
+				100013160={ # D2. Karl Berthold Theodor Maximilian Maria, *München 24.2.1918, +k.a.Njakschewo, Russia 1.12.1941
+					name=Karl
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013138	# Klemens Schenk von Stauffenberg
+					mother=100083295	# FRN Elisabeth Luise von und zu Guttenberg
+					1918.02.24={birth=yes}  # München
+					1941.12.01={death=yes}  # Njakschewo Russia
+				}
+				100013161={ # D3. Markwart Sebastian Georg Wernher Klemens Maria, *München 7.3.1921; m.München 3.2.1948 Anna Edle von Rauscher auf Weeg (*München 13.12.1923)
+					name=Markwart
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013138	# Klemens Schenk von Stauffenberg
+					mother=100083295	# FRN Elisabeth Luise von und zu Guttenberg
+					1921.03.07={birth=yes}  # München
+					1948.02.03={add_spouse=100083404}	# EDLE Anna von Rauscher auf Weeg
+					1997.01.01={death=yes}  # EST.
+				}
+					100013166={ # E1. Elisabeth, *Jettingen 9.11.1948; m.Jettingen (civ) 20.9.1974 (rel) 28.9.1974 Alexander Nette (*München 24.8.1946)
+						name=Elisabeth
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013161	# Markwart Schenk von Stauffenberg
+						mother=100083404	# EDLE Anna von Rauscher auf Weeg
+						1948.11.09={birth=yes}  # Jettingen
+					}
+					100013174={ # E2. Marie Johanna, *Jettingen 31.3.1950; m.Jettingen (civ) 10.8.1984 (rel) 11.8.1984 Edward Lee Williams (*Boston, Mass 23.7.1955)
+						name="Marie Johanna"
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013161	# Markwart Schenk von Stauffenberg
+						mother=100083404	# EDLE Anna von Rauscher auf Weeg
+						1950.03.31={birth=yes}  # Jettingen
+					}
+					100013184={ # E3. Karl Berthold, *Pähl 19.8.1951; m.Kiel 8.5.1987 (rel) Jettingen 23.5.1987 (div 1997) Irina Lampe (*Kiel 10.10.1965)
+						name="Karl Berthold"
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013161	# Markwart Schenk von Stauffenberg
+						mother=100083404	# EDLE Anna von Rauscher auf Weeg
+						1951.08.19={birth=yes}  # Pähl
+						1987.05.08={add_spouse=100084625}	# Irina Lampe
+						1997.01.01={remove_spouse=100084625}
+					}
+						100013185={ # F1. Moritz, *München 8.8.1988
+							name=Moritz
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013184	# Karl Berthold Schenk von Stauffenberg
+							mother=100084625	# Irina Lampe
+							1988.08.08={birth=yes}  # München
+						}
+						100013186={ # F2. Clemens, *München 16.12.1990
+							name=Clemens
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013184	# Karl Berthold Schenk von Stauffenberg
+							mother=100084625	# Irina Lampe
+							1990.12.16={birth=yes}  # München
+						}
+					100013187={ # E4. Franz Philipp Georg, *Jettingen 22.6.1954; m.(civ) New York V.1990 (rel) Jettingen 16.6.1990 Alda Balestra (*Triest 14.8.1954)
+						name=Franz
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013161	# Markwart Schenk von Stauffenberg
+						mother=100083404	# EDLE Anna von Rauscher auf Weeg
+						1954.06.22={birth=yes}  # Jettingen
+						1990.06.16={add_spouse=100084792}	# Alda Balestra
+					}
+						100013188={ # F1. Serena Messaline Isabel Kirat, *New York 25.2.1995
+							name=Serena
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013187	# Franz Schenk von Stauffenberg
+							mother=100084792	# Alda Balestra
+							1995.02.25={birth=yes}
+						}
+						100013189={ # F2. Damian Christof Markwart Maria, *New York 28.5.1997
+							name=Damian
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013187	# Franz Schenk von Stauffenberg
+							mother=100084792	# Alda Balestra
+							1997.05.28={birth=yes}
+						}
+					100013190={ # E5. Georg, *Jettingen 6.12.1957; m.Berlin 28.12.1993 Christiane Philippi (*Hamburg 17.5.1963)
+						name=Georg
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013161	# Markwart Schenk von Stauffenberg
+						mother=100083404	# EDLE Anna von Rauscher auf Weeg
+						1957.12.06={birth=yes}  # Jettingen
+						1993.12.28={add_spouse=100084825}	# Christiane Philippi
+					}
+						100013191={ # F1. Julius Konrad Franz Jakob, *Berlin 17.8.1993
+							name=Julius
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013190	# Georg Schenk von Stauffenberg
+							mother=100084825	# Christiane Philippi
+							1993.08.17={birth=yes}  # Berlin
+						}
+						100013192={ # F2. Konrad Hans Paul Sebastian, *Berlin 4.5.1997
+							name=Konrad
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013190	# Georg Schenk von Stauffenberg
+							mother=100084825	# Christiane Philippi
+							1997.05.04={birth=yes}  # Berlin
+						}
+						100013193={ # F3. Franz Johan Peter Nikolaus, *Berlin 30.12.1998
+							name=Franz
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013190	# Georg Schenk von Stauffenberg
+							mother=100084825	# Christiane Philippi
+							1998.12.30={birth=yes}  # Berlin
+						}
+					100013194={ # E6. Philipp, *Jettingen 31.12.1960; 1m: Herbern 11.10.1983 (div 1996) Anette Peterson (*Baden-Baden 20.12.1961); 2m: Köln 26.7.1996 Marion Stoof (*Berlin 2.8.1964)
+						name=Philipp
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013161	# Markwart Schenk von Stauffenberg
+						mother=100083404	# EDLE Anna von Rauscher auf Weeg
+						1960.12.31={birth=yes}  # Jettingen
+						1983.10.11={add_spouse=100084877}	# Anette Peterson
+						1996.01.01={remove_spouse=100084877}
+						1996.07.26={add_spouse=100084890}	# Marion Stoof
+					}
+						100013195={ # F1. Johannes, *Augsburg 5.11.1983
+							name=Johannes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013194	# Philipp Schenk von Stauffenberg
+							mother=100084877	# Anette Peterson
+							1983.11.05={birth=yes}  # Augsburg
+						}
+						100013196={ # F2. Anna Katharina, *Augsburg 14.5.1986
+							name="Anna Katharina"
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013194	# Philipp Schenk von Stauffenberg
+							mother=100084877	# Anette Peterson
+							1986.05.14={birth=yes}  # Augsburg
+						}
+						100013197={ # F3. Alexandra Marie Isabelle, *Berlin 8.7.1999
+							name=Alexandra
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013194	# Philipp Schenk von Stauffenberg
+							mother=100084890	# Marion Stoof
+							1999.07.08={birth=yes}  # Berlin
+						}
+				100013198={ # D4. Otto Philipp Franz Christof Maria, *München 28.10.1926; m.Bamberg 17.9.1949 Oculi Frn von Lerchenfeld (*München 4.3.1923)
+					name=Otto
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013138	# Klemens Schenk von Stauffenberg
+					mother=100083295	# FRN Elisabeth Luise von und zu Guttenberg
+					1926.10.28={birth=yes}  # München
+					1949.09.17={add_spouse=100084899}	# Herta Emma Oculi von Lerchenfeld
+					2003.01.01={death=yes}  # EST.
+				}
+					100013199={ # E1. Christoph Markwart Maximilian Clemens Maria, *Bamberg 1.8.1950; m.Leutkirch 29.5.1987 Gfn Monika von Waldburg zu Zeil und Trauchburg (*Ravensburg 22.3.1961) $$
+						name=Christoph
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013198	# Otto Schenk von Stauffenberg
+						mother=100084899	# Herta Emma Oculi von Lerchenfeld
+						1950.08.01={birth=yes}  # Bamberg
+						1987.05.29={add_spouse=100011067}	# Monika v. Waldburg zu Zeil u.Trauchburg
+					}
+						100013200={ # F1. Maria Antonia Laurentia Mathilde Elisabeth, *Munich 21.7.1988
+							name=Maria
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013199	# Christoph Schenk von Stauffenberg
+							mother=100011067	# Monika v. Waldburg zu Zeil u.Trauchburg
+							1988.07.21={birth=yes}  # Munich
+						}
+						100013201={ # F2. Philipp Ernst Johannes Maria Florian, *Bamberg 4.5.1990
+							name=Philipp
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013199	# Christoph Schenk von Stauffenberg
+							mother=100011067	# Monika v. Waldburg zu Zeil u.Trauchburg
+							1990.05.04={birth=yes}  # Bamberg
+						}
+						100013202={ # F3. Sebastian Ludwig Rudolf Bonifazius Maria, *Bamberg 14.5.1992
+							name=Sebastian
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013199	# Christoph Schenk von Stauffenberg
+							mother=100011067	# Monika v. Waldburg zu Zeil u.Trauchburg
+							1992.05.14={birth=yes}  # Bamberg
+						}
+						100013203={ # F4. Maria Johanna Margareta Nicoletta, *Bamberg 18.1.1998
+							name=Maria
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013199	# Christoph Schenk von Stauffenberg
+							mother=100011067	# Monika v. Waldburg zu Zeil u.Trauchburg
+							1998.01.18={birth=yes}  # Bamberg
+						}
+					100013204={ # E2. Maria Beatrix, *Bamberg 13.12.1951; m.Heiligenstadt 31.8.1985 Louis-Ferdinand Gf von Zech sonst von Burckersroda (*Goseck 6.8.1944)
+						name="Maria Beatrix"
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013198	# Otto Schenk von Stauffenberg
+						mother=100084899	# Herta Emma Oculi von Lerchenfeld
+						1951.12.13={birth=yes}  # Bamberg
+					}
+					100013205={ # E3. Alexander Otto Philipp Eckhart Berthol Maria, *Bamberg 10.3.1954; m.Isny 7.9.1991 (rel) 8.9.1991 Maria-Anna Gfn von Quadt zu Wykradt und Isny (*Friedrichshafen, Baden-Württemberg 8.4.1960) $$
+						name=Alexander
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013198	# Otto Schenk von Stauffenberg
+						mother=100084899	# Herta Emma Oculi von Lerchenfeld
+						1954.03.10={birth=yes}  # Bamberg
+						1991.09.07={add_spouse=100037488}	# Maria-Anna von Quadt zu Wykradt u.Isny
+					}
+						100013206={ # F1. Franz Clemens Gabriel Ludwig Ghislain Maria, *Schongau 23.4.1993
+							name=Franz
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013205	# Alexander Schenk von Stauffenberg
+							mother=100037488	# Maria-Anna von Quadt zu Wykradt u.Isny
+							1993.04.23={birth=yes}  # Schongau
+						}
+						100013207={ # F2. Marie Isabelle Beatrix Georgina Johanna Ghislaine, *Schongau 24.6.1996
+							name=Marie
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013205	# Alexander Schenk von Stauffenberg
+							mother=100037488	# Maria-Anna von Quadt zu Wykradt u.Isny
+							1996.06.24={birth=yes}  # Schongau
+						}
+					100013208={ # E4. Maria Isabell, *Bamberg 10.3.1954
+						name="Maria Isabell"
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013198	# Otto Schenk von Stauffenberg
+						mother=100084899	# Herta Emma Oculi von Lerchenfeld
+						1954.03.10={birth=yes}  # Bamberg
+					}
+			100013209={ # C2. Leopoldine Johanna Anna Maria Marta, *Jettingen 29.7.1887, +28.4.1975; m.Jettingen 15.6.1907 Philipp Rudolf Gf von Ingelheim gen. Echter von und zu Mespelbrunn (*Geisenheim 7.3.1883, +Heidelberg 14.9.1933)
+				name=Leopoldine
+				female=yes
+				dynasty=1002239
+				religion=catholic culture=german
+				father=100013135	# Berthold Schenk von Stauffenberg
+				mother=100083246	# FRN Maria Theresia Groß von Trockau
+				1887.07.29={birth=yes}  # Jettingen
+				1975.04.28={death=yes}
+			}
+			100013210={ # C3. Markwart Sebastian Ludwig Philipp Maria, *Jettingen 12.5.1889, +4.4.1975; 1m: London 24.12.1912 Auguste L. Ellen Prautzsch (*Eilenburg 2.11.1885); 2m: Wiesbaden 14.5.1918 Olga Maria Böhl de Liagre (*Baden-Baden 9.5.1899, +1.12.1973)
+				name=Markwart
+				dynasty=1002239
+				religion=catholic culture=german
+				father=100013135	# Berthold Schenk von Stauffenberg
+				mother=100083246	# FRN Maria Theresia Groß von Trockau
+				1889.05.12={birth=yes}  # Jettingen
+				1912.12.24={add_spouse=100085751}	# Auguste Ellen Prautzsch
+				1917.01.01={remove_spouse=100085751}
+				1918.05.14={add_spouse=100085790}	# Olga Böhl de Liagre
+				1975.04.04={death=yes}
+			}
+				100013211={ # D1. Delia Marie Gabriele, *Stuttgart 4.3.1919; m.Schloss Greifenstein 26.7.1942 Fst Karl Friedrich zu Oettingen-Oettingen und Oettingen-Wallerstein (*23.5.1917 +30.3.1991) $$
+					name=Delia
+					female=yes
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013210	# Markwart Schenk von Stauffenberg
+					mother=100085790	# Olga Böhl de Liagre
+					1919.03.04={birth=yes}  # Stuttgart
+					1994.01.01={death=yes}  # EST.
+				}
+				100013212={ # D2. Marie Agnes Ines, *Bamberg 14.12.1920; m.Augsburg 30.12.1954 Hans Heinrich Linden
+					name=Marie
+					female=yes
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013210	# Markwart Schenk von Stauffenberg
+					mother=100085790	# Olga Böhl de Liagre
+					1920.12.14={birth=yes}  # Bamberg
+					1996.01.01={death=yes}  # EST.
+				}
+				100013213={ # D3. Alexandra Leopoldine Olga Maria, *Greifenstein 9.5.1922; m.Rolf Staelin (*9.6.1913, +19.2.1985)
+					name=Alexandra
+					female=yes
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013210	# Markwart Schenk von Stauffenberg
+					mother=100085790	# Olga Böhl de Liagre
+					1922.05.09={birth=yes}  # Greifenstein
+					1998.01.01={death=yes}  # EST.
+				}
+				100013214={ # D4. Alfred Berthold Anton Maria Georg, *Greifenstein 28.7.1923; m.München 30.8.1954 (div 3.12.1980) Gfn Gioia von Hochberg, Frn zu Fürstenstein (*München 11.10.1934)
+					name=Alfred
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013210	# Markwart Schenk von Stauffenberg
+					mother=100085790	# Olga Böhl de Liagre
+					1923.07.28={birth=yes}  # Greifenstein
+					1954.08.30={add_spouse=100086694}	# Gioia von Hochberg
+					1980.12.03={remove_spouse=100086694}
+					1999.01.01={death=yes}  # EST.
+				}
+					100013215={ # E1. Maria Christina Alexandra Beatrix, *Amerdingen 9.5.1955; m.Luzern 26.2.1982 Conrad Schloesser (*Tübingen 14.10.1944)
+						name=Maria
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013214	# Alfred Schenk von Stauffenberg
+						mother=100086694	# Gioia von Hochberg
+						1955.05.09={birth=yes}  # Amerdingen
+					}
+					100013216={ # E2. Clemens Rupert Markwart Georg Maria, *Amerdingen 20.5.1958; m.Pähl 18.4.1986 Bettina Scherping (*München 11.3.1952)
+						name=Clemens
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013214	# Alfred Schenk von Stauffenberg
+						mother=100086694	# Gioia von Hochberg
+						1958.05.20={birth=yes}  # Amerdingen
+						1986.04.18={add_spouse=100086817}	# Bettina Scherping
+					}
+						100013217={ # F1. Benedikt Stefan, *2.6.1987
+							name="Benedikt Stefan"
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013216	# Clemens Schenk von Stauffenberg
+							mother=100086817	# Bettina Scherping
+							1987.06.02={birth=yes}
+						}
+						100013219={ # F3. Marie Sophie, *München 31.7.1989
+							name="Marie Sophie"
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013216	# Clemens Schenk von Stauffenberg
+							mother=100086817	# Bettina Scherping
+							1989.07.31={birth=yes}  # München
+						}
+						100013218={ # F2. Philipp Sebastian, *München 31.7.1989
+							name="Philipp Sebastian"
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013216	# Clemens Schenk von Stauffenberg
+							mother=100086817	# Bettina Scherping
+							1989.07.31={birth=yes}  # München
+						}
+					100013220={ # E3. Bolko Hubertus Michael Maria, *München 30.7.1964
+						name=Bolko
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013214	# Alfred Schenk von Stauffenberg
+						mother=100086694	# Gioia von Hochberg
+						1964.07.30={birth=yes}  # München
+					}
+				100013221={ # D5. Klemens Anton, *Amerdingen 13.8.1929, +Bielefeld 30.12.1987; m.Vinsebeck bei Steinheim, Westphalen 4.8.1959 Clementine Gfn Wolff-Metternich zur Gracht (*München 5.8.1937)
+					name="Klemens Anton"
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013210	# Markwart Schenk von Stauffenberg
+					mother=100085790	# Olga Böhl de Liagre
+					1929.08.13={birth=yes}  # Amerdingen
+					1959.08.04={add_spouse=100086829}	# GFN Clementine Wolff-Metternich zur Gracht
+					1987.12.30={death=yes}  # Bielefeld
+				}
+					100013222={ # E1. Alexandra Petra Sofie, *Detmold 25.5.1960; m.(civ) 17.5.1985 (rel) Beuron 16.6.1985 Erbprinz Karl Friedrich von Hohenzollern (*20.4.1952) $$
+						name=Alexandra
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013221	# Klemens Anton Schenk von Stauffenberg
+						mother=100086829	# GFN Clementine Wolff-Metternich zur Gracht
+						1960.05.25={birth=yes}  # Detmold
+					}
+					100013223={ # E2. Claus Dominik Georg, *28.4.1964
+						name=Claus
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013221	# Klemens Anton Schenk von Stauffenberg
+						mother=100086829	# GFN Clementine Wolff-Metternich zur Gracht
+						1964.04.28={birth=yes}
+					}
+					100013224={ # E3. Clarissa Henrietta Franciska, *Sorengo 30.6.1965; m.Amerdingen 8.7.1990 Friedrich-Christian Frhr von Elverfeldt-Ulm (*Frankfurt am Main 27.12.1960)
+						name=Clarissa
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013221	# Klemens Anton Schenk von Stauffenberg
+						mother=100086829	# GFN Clementine Wolff-Metternich zur Gracht
+						1965.06.30={birth=yes}  # Sorengo
+					}
+			100013225={ # C4. Irma Anna Regina Josephina, *Würzburg 13.4.1898, +Würzburg 28.9.1932; m.Greifenstein 20.4.1921 Otto Frhr Gross von Trockau (*Würzburg 10.11.1890, +Trockau 21.2.1957)
+				name=Irma
+				female=yes
+				dynasty=1002239
+				religion=catholic culture=german
+				father=100013135	# Berthold Schenk von Stauffenberg
+				mother=100083246	# FRN Maria Theresia Groß von Trockau
+				1898.04.13={birth=yes}  # Würzburg
+				1932.09.28={death=yes}  # Würzburg
+			}
+		100013226={ # B3. Alfred Klemens Philipp Friedrich Justinian, *Amerdingen 27.9.1860, +Lautlingen 20.1.1936; m.Greifenstein 30.5.1904 Caroline Gfn von Üxküll-Gyllenband (*Wien 7.4.1875, +Lautlingen 3.6.1956), dau.of Alfred Richard August Gf von Üxküll-Gyllenband and Valerie Gfn von Hohenthal
+			name=Alfred
+			dynasty=1002239
+			religion=catholic culture=german
+			father=100013128	# Klemens Schenk von Stauffenberg
+			mother=100083074	# GFN Leopoldine von Oberndorff
+			1860.09.27={birth=yes}  # Amerdingen
+			1904.05.30={add_spouse=100087250}	# GFN Caroline von Uexküll-Gyllenband
+			1936.01.20={death=yes}  # Lautlingen
+		}
+			100013234={ # C2. Alexander Franz Clemens Maria, *Stuttgart 15.3.1905, +München 27.1.1964; 1m: Berlin-Wilmersdorf 11.8.1937 Melitta Schiller (*Krotoschin 9.1.1903, +Straubing 8.4.1945); 2m: 23.7.1949 Marlene Hoffmann (*Gr.Roppershausen 10.7.1913)
+				name=Alexander
+				dynasty=1002239
+				religion=catholic culture=german
+				father=100013226	# Alfred Schenk von Stauffenberg
+				mother=100087250	# GFN Caroline von Uexküll-Gyllenband
+				1905.03.15={birth=yes}  # Stuttgart
+				1937.08.11={add_spouse=100087379}	# Melitta Schiller
+				1964.01.27={death=yes}  # München
+			}
+			100013227={ # C1. Berthold Alfred Maria, *Stuttgart 15.3.1905, +Berlin 10.8.1944; m.Berlin-Zehlendorf 20.6.1936 Maria Mika Classen (*Marenskaja, Südrussland 5.2.1900, +Sigmaringen 13.9.1977)
+				name=Berthold
+				dynasty=1002239
+				religion=catholic culture=german
+				father=100013226	# Alfred Schenk von Stauffenberg
+				mother=100087250	# GFN Caroline von Uexküll-Gyllenband
+				1905.03.15={birth=yes}  # Stuttgart
+				1936.06.20={add_spouse=100087279}	# Maria Mika Classen
+				1944.08.10={death=yes}  # Berlin
+			}
+				100013228={ # D1. Alfred Claus Maria, *Tübingen 8.11.1937, +Berlin 28.10.1987; m.Wilflingen 24.4.1962 Marie Sophie Schank Frn von Stauffenberg (*Berlin 23.9.1937)
+					name=Alfred
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013227	# Berthold Schenk von Stauffenberg
+					mother=100087279	# Maria Mika Classen
+					1937.11.08={birth=yes}  # Tübingen
+					1962.04.24={add_spouse=100087286}	# Marie Sophie Schank von Stauffenberg
+					1987.10.28={death=yes}  # Berlin
+				}
+					100013229={ # E1. Berthold Franz Maria, *Riedlingen 26.5.1963; m.Maria Jesus Alejandra Carabias (*17.7.1961)
+						name=Berthold
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013228	# Alfred Schenk von Stauffenberg
+						mother=100087286	# Marie Sophie Schank von Stauffenberg
+						1963.05.26={birth=yes}  # Riedlingen
+						1988.01.01={add_spouse=100087287}	# Maria Alejandra Jesus Carabias
+					}
+						100013230={ # F1. Alfred Fedorico Maria
+							name=Alfred
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013229	# Berthold Schenk von Stauffenberg
+							mother=100087287	# Maria Alejandra Jesus Carabias
+							1990.01.01={birth=yes}  # EST.
+						}
+					100013231={ # E2. Philipp Friedrich Maria, *Neuilly 17.5.1964; m.in Lautlingen Bettina Baatz (*in Frankfurt a.M.)
+						name=Philipp
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013228	# Alfred Schenk von Stauffenberg
+						mother=100087286	# Marie Sophie Schank von Stauffenberg
+						1964.05.17={birth=yes}  # Neuilly
+						1989.01.01={add_spouse=100087315}	# Bettina Baatz
+					}
+					100013232={ # E3. Alexander Clemens Juan Maria, *Madrid 8.2.1967
+						name=Alexander
+						dynasty=1002239
+						religion=catholic culture=castillan
+						father=100013228	# Alfred Schenk von Stauffenberg
+						mother=100087286	# Marie Sophie Schank von Stauffenberg
+						1967.02.08={birth=yes}  # Madrid
+					}
+				100013233={ # D2. Elisabeth Caroline Margarete Maria, *13.6.1939; m.Piero Roberti (*26.12.1935)
+					name=Elisabeth
+					female=yes
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013227	# Berthold Schenk von Stauffenberg
+					mother=100087279	# Maria Mika Classen
+					1939.06.13={birth=yes}
+					2016.01.01={death=yes}  # EST.
+				}
+			100013235={ # C3. Claus Philipp Maria Justinian, *Jettingen 15.11.1907, +executed Berlin 20.7.1944, for more details see LINKS; m.Bamberg 26.9.1933 Nina Frn von Lerchenfeld (*Kaunas, Lithuania 27.8.1913, +Kirchlauter 2.4.2006)
+				name=Claus
+				dynasty=1002239
+				religion=catholic culture=german
+				father=100013226	# Alfred Schenk von Stauffenberg
+				mother=100087250	# GFN Caroline von Uexküll-Gyllenband
+				1907.11.15={birth=yes}  # Jettingen
+				1933.09.26={add_spouse=100087418}	# FRN Nina von Lerchenfeld
+				1944.07.20={death=yes}  # Berlin
+			}
+				100013236={ # D1. Berthold Maria, *Bamberg 3.7.1934; m.Thurn 22.9.1958 Mechthild Gfn Bentzel-Sturmfeder-Horneck (*Bamberg 27.1.1938)
+					name=Berthold
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013235	# Claus Schenk von Stauffenberg
+					mother=100087418	# FRN Nina von Lerchenfeld
+					1934.07.03={birth=yes}  # Bamberg
+					1958.09.22={add_spouse=100087425}	# GFN Mechthild Bentzel-Sturmfeder-Horneck
+					2011.01.01={death=yes}  # EST.
+				}
+					100013237={ # E1. Claus Philipp, *1.6.1959; m.Maryam Zahedi (*31.1.1962)
+						name="Claus Philipp"
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013236	# Berthold Schenk von Stauffenberg
+						mother=100087425	# GFN Mechthild Bentzel-Sturmfeder-Horneck
+						1959.06.01={birth=yes}
+					}
+					100013238={ # E2. Sebastian Heimrich, *2.12.1961
+						name="Sebastian Heimrich"
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013236	# Berthold Schenk von Stauffenberg
+						mother=100087425	# GFN Mechthild Bentzel-Sturmfeder-Horneck
+						1961.12.02={birth=yes}
+					}
+					100013239={ # E3. Gottfried, *8.10.1964
+						name=Gottfried
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013236	# Berthold Schenk von Stauffenberg
+						mother=100087425	# GFN Mechthild Bentzel-Sturmfeder-Horneck
+						1964.10.08={birth=yes}
+					}
+				100013240={ # D2. Heimeran, *Bamberg 9.7.1936
+					name=Heimeran
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013235	# Claus Schenk von Stauffenberg
+					mother=100087418	# FRN Nina von Lerchenfeld
+					1936.07.09={birth=yes}  # Bamberg
+					2013.01.01={death=yes}  # EST.
+				}
+				100013241={ # D3. Franz Ludwig Gustav, *Bamberg 4.5.1938; m.Guttenberg 25.5.1965 Elisabeth Frn von und zu Guttenberg (*Pähl 5.7.1944)
+					name=Franz
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013235	# Claus Schenk von Stauffenberg
+					mother=100087418	# FRN Nina von Lerchenfeld
+					1938.05.04={birth=yes}  # Bamberg
+					1965.05.25={add_spouse=100087482}	# FRN Elisabeth von Guttenberg
+				}
+					100013242={ # E1. Hans Caspar Erwein Claus Maria, *München 3.3.1966; m.Kirchlauter 16.8.1995 Gfn Maria Josefa von Waldburg zu Zeil und Hohenems (*Ravensburg 29.8.1964) $$
+						name="Hans Caspar"
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013241	# Franz Schenk von Stauffenberg
+						mother=100087482	# FRN Elisabeth von Guttenberg
+						1966.03.03={birth=yes}  # München
+						1995.08.16={add_spouse=100011176}	# Josefa v. Waldburg zu Zeil u.Trauchburg
+					}
+						100013243={ # F1. Maximilian Karl Christian Maria, *Frankfurt a.M. 15.1.1997
+							name=Maximilian
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013242	# Hans Caspar Schenk von Stauffenberg
+							mother=100011176	# Josefa v. Waldburg zu Zeil u.Trauchburg
+							1997.01.15={birth=yes}
+						}
+						100013244={ # F2. Lioba, *Frankfurt a.M. 18.7.1998
+							name=Lioba
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013242	# Hans Caspar Schenk von Stauffenberg
+							mother=100011176	# Josefa v. Waldburg zu Zeil u.Trauchburg
+							1998.07.18={birth=yes}
+						}
+						100013245={ # F3. Nikolaus, *Starnberg 6.12.2000
+							name=Nikolaus
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013242	# Hans Caspar Schenk von Stauffenberg
+							mother=100011176	# Josefa v. Waldburg zu Zeil u.Trauchburg
+							2000.12.06={birth=yes}  # Starnberg
+						}
+						100013246={ # F4. Josef, *Starnberg 22.7.2002
+							name=Josef
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013242	# Hans Caspar Schenk von Stauffenberg
+							mother=100011176	# Josefa v. Waldburg zu Zeil u.Trauchburg
+							2002.07.22={birth=yes}  # Starnberg
+						}
+					100013247={ # E2. Valerie Sofie, *München 4.6.1968; m.Kirchlauter 2.9.1990 Marcus von Mauchenheim gen. Bechtolsheim (*Murnau 31.10.1958)
+						name="Valerie Sofie"
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013241	# Franz Schenk von Stauffenberg
+						mother=100087482	# FRN Elisabeth von Guttenberg
+						1968.06.04={birth=yes}  # München
+					}
+					100013248={ # E3. Maximilian Karl, *München 27.10.1970; m.Kirchlauter 19.8.1995 Harriet von Randow (*München 27.11.1974)
+						name="Maximilian Karl"
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013241	# Franz Schenk von Stauffenberg
+						mother=100087482	# FRN Elisabeth von Guttenberg
+						1970.10.27={birth=yes}  # München
+						1995.08.19={add_spouse=100087647}	# Harriet von Randow
+					}
+						100013249={ # F1. Leopold, *München 30.7.1997
+							name=Leopold
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013248	# Maximilian Karl Schenk von Stauffenberg
+							mother=100087647	# Harriet von Randow
+							1997.07.30={birth=yes}  # München
+						}
+						100013250={ # F2. Antonia, *Starnberg 24.8.2001
+							name=Antonia
+							female=yes
+							dynasty=1002239
+							religion=catholic culture=german
+							father=100013248	# Maximilian Karl Schenk von Stauffenberg
+							mother=100087647	# Harriet von Randow
+							2001.08.24={birth=yes}  # Starnberg
+						}
+					100013251={ # E4. Maria Nina Michaela, *Bamberg 2.9.1982
+						name=Maria
+						female=yes
+						dynasty=1002239
+						religion=catholic culture=german
+						father=100013241	# Franz Schenk von Stauffenberg
+						mother=100087482	# FRN Elisabeth von Guttenberg
+						1982.09.02={birth=yes}  # Bamberg
+					}
+				100013252={ # D4. Valerie Ida Huberta Karoline Anna Maria, *Bamberg 15.11.1940, +München 4.6.1966; m.4.4.1964 Heino von l'Estcop (*6.4.1935)
+					name=Valerie
+					female=yes
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013235	# Claus Schenk von Stauffenberg
+					mother=100087418	# FRN Nina von Lerchenfeld
+					1940.11.15={birth=yes}  # Bamberg
+					1966.06.04={death=yes}  # München
+				}
+				100013253={ # D5. Konstanze, *Frankfurt 27.1.1945 (in prisson); m.8.4.1967 Dietrich von Schultheiß-Rechberg (*13.10.1937)
+					name=Konstanze
+					female=yes
+					dynasty=1002239
+					religion=catholic culture=german
+					father=100013235	# Claus Schenk von Stauffenberg
+					mother=100087418	# FRN Nina von Lerchenfeld
+					1945.01.27={birth=yes}  # Frankfurt
+				}
+		100013255={ # B5. Philipp, *Amerdingen 12.5.1864, +Baden-Baden 29.7.1945; m.Baden-Baden 12.10.1899 Lillian Schönhofen (*Chicago 2.6.1875, +Amerdingen 1.II.1959)
+			name=Philipp
+			dynasty=1002239
+			religion=catholic culture=german
+			father=100013128	# Klemens Schenk von Stauffenberg
+			mother=100083074	# GFN Leopoldine von Oberndorff
+			1864.05.12={birth=yes}  # Amerdingen
+			1899.10.12={add_spouse=100087667}	# Lillian Schönhofen
+			1945.07.29={death=yes}  # Baden-Baden
+		}
+			100013256={ # C1. Maria, *Amerdingen 28.9.1905, +Traunstein 2.3.1940; m.Amerdingen 12.1.1928 Adalbert Gf Kottulinsky Frhr von Kottulin und Krzizkowitz (*Salzburg 27.3.1904)
+				name=Maria
+				female=yes
+				dynasty=1002239
+				religion=catholic culture=german
+				father=100013255	# Philipp Schenk von Stauffenberg
+				mother=100087667	# Lillian Schönhofen
+				1905.09.28={birth=yes}  # Amerdingen
+				1940.03.02={death=yes}  # Traunstein
+			}
+	100013257={ # A3. Philipp, *Würzburg 24.11.1828, +Innsbruck 11.7.1895; m.Prague 22.4.1860 Pss Karoline Lobkowitz (*29.4.1835, +5.3.1881) $$
+		name=Philipp
+		dynasty=1002239
+		religion=catholic culture=german
+		father=100013125	# Franz Schenk von Stauffenberg
+		mother=100080564	# GFN Eleonore Butler von Clonebough gt Haimhausen
+		1828.11.24={birth=yes}  # Würzburg
+		1860.04.22={add_spouse=100185096}	# Caroline z Lobkowicz
+		1895.07.11={death=yes}  # Innsbruck
+	}
+		100013258={ # B1. Franz, *Konopischt 25.9.1861, +Schloß Orth bei Gmunden 27.6.1907; m.Gmunden 14.6.1887 Konstanze Irene Therese Gfn von Prokesch (*Düsternbrog 9.11.1861, +Kreuth 28.10.1921)
+			name=Franz
+			dynasty=1002239
+			religion=catholic culture=german
+			father=100013257	# Philipp Schenk von Stauffenberg
+			mother=100185096	# Caroline z Lobkowicz
+			1861.09.25={birth=yes}  # Konopischt
+			1887.06.14={add_spouse=100087711}	# GFN Konstanze Irene von Prokesch
+			1907.06.27={death=yes}  # Schloß Orth_bei_Gmunden
+		}
+		100013259={ # B4. Marie E.Wilhelmine Karoline, *Ingersdorf 8.7.1864, +Regensburg 24.2.1909
+			name=Marie
+			female=yes
+			dynasty=1002239
+			religion=catholic culture=german
+			father=100013257	# Philipp Schenk von Stauffenberg
+			mother=100185096	# Caroline z Lobkowicz
+			1864.07.08={birth=yes}  # Ingersdorf
+			1909.02.24={death=yes}  # Regensburg
+		}
+		100013260={ # B5. Eberhard Johann Nepomuk Cyryl, *Traunkirchen 19.5.1866, +Baiersdorf bei Graz 10.9.1917; m.Lienz 25.7.1894 Luise Gfn Terlago (*Frankfurt 12.8.1869, +Terlago 22.8.1952)
+			name=Eberhard
+			dynasty=1002239
+			religion=catholic culture=german
+			father=100013257	# Philipp Schenk von Stauffenberg
+			mother=100185096	# Caroline z Lobkowicz
+			1866.05.19={birth=yes}  # Traunkirchen
+			1894.07.25={add_spouse=100087803}	# GFN Luise Terlago
+			1917.09.10={death=yes}  # Baiersdorf_bei_Graz
+		}
+#schenk6
+##  100012000				STAUFFENBERG					  1002239
 
 
 ##  100010634				Mansfeld									12403	
@@ -267,7 +1186,7 @@
 									father=100010657	# Bruno von Mansfeld
 									mother=100098750	# Maria Magdalena zu Toerring-Seefeld
 									1639.11.22={birth=yes}
-									1663.11.25={add_spouse=100026310}	# Maria Anna von Harrach zu Rohrau u.Thannhausen
+									1663.11.25={add_spouse=100022107}	# Maria Anna von Harrach zu Rohrau u.Thannhausen
 									1692.09.12={death=yes}
 								}
 									100010660={ # I1. Karl Franz Adam Anton Gf von Mansfeld zu Vorderort, cr Fürst von Fondi 1715, *2.11.1678, +19.7.1717; m.31.5.1703 Maria Eleonore von Mansfeld (*16.10.1682, +24.5.1747) $$
@@ -275,7 +1194,7 @@
 										dynasty=12403
 										religion=catholic culture=german
 										father=100010659	# Franz Maximilian von Mansfeld
-										mother=100026310	# Maria Anna von Harrach zu Rohrau u.Thannhausen
+										mother=100022107	# Maria Anna von Harrach zu Rohrau u.Thannhausen
 										1678.11.02={birth=yes}
 										1703.05.31={add_spouse=100010671}	# Maria Eleonore von Mansfeld
 										1717.07.19={death=yes}
@@ -303,14 +1222,14 @@
 											1710.08.28={birth=yes}
 											1761.09.10={death=yes}  # Wien
 										}
-										100010661={ # J1. Heinrich Paul Franz II, Gf von Mansfeld zu Vorderort, Fürst von Fondi, *6.7.1712, +15.2.1780; 1m: Gfn Maria Josepha von Thun und Hohenstein (*9.9.1714 +17.9.1740); 2m: 9.4.1741 Gfn Marie Josefa Czernin z Chudenicz (*19.6.1722 +15.1.1772)
+										100010661={ # J1. Heinrich Paul Franz II, Gf von Mansfeld zu Vorderort, Fürst von Fondi, *6.7.1712, +15.2.1780; 1m: Gfn Maria Josepha von Thun und Hohenstein (*9.9.1714 +17.9.1740); 2m: 9.4.1741 Gfn Marie Josefa Czernin z Chudenicz (*19.6.1722 +15.1.1772) $$
 											name=Heinrich
 											dynasty=12403
 											religion=catholic culture=german
 											father=100010660	# Karl von Mansfeld
 											mother=100010671	# Maria Eleonore von Mansfeld
 											1712.07.06={birth=yes}
-											1737.01.01={add_spouse=100098967}	# GFN Maria Josepha von Thun u.Hohenstein
+											1737.01.01={add_spouse=100023947}	# Maria Josepha v. Thun u.Hohenstein
 											1741.04.09={add_spouse=100295906}	# Marie Josefa Anna Czernin v.u.zu Chudenitz
 											1780.02.15={death=yes}
 										}
@@ -319,7 +1238,7 @@
 												dynasty=12403
 												religion=catholic culture=german
 												father=100010661	# Heinrich von Mansfeld
-												mother=100098967	# GFN Maria Josepha von Thun u.Hohenstein
+												mother=100023947	# Maria Josepha v. Thun u.Hohenstein
 												1735.09.12={birth=yes}
 												1764.02.09={add_spouse=100098981}	# Elisabeth von Regal
 												1780.03.31={death=yes}
@@ -1332,6 +2251,14 @@
 
 
 ##	100003821	Matz von Spiegelfeld				1002083
+100084354={ # Gfn        Maria                     Matz von Spiegelfeld                     (1971-    )     3
+	name="Maria Matz von Spiegelfeld"
+	female=yes
+	dynasty=0
+	religion=catholic culture=german
+	1971.05.05={birth=yes}  # Wien
+}
+
 100002860={ # Franz Xaver Matz von Spiegelfeld (Marburg, Steiermark 10 May 1802-Volders 20 Oct 1885); m.1857 Gfn Marie de Bussy-Mignot (Ebreichsdorf, Niederösterreich 24 Aug 1831-21 Nov 1902) %%
 	name="Franz Xaver" # 1850538/franz-xaver-matz-freiherr-von-spiegelfeld/
 	dynasty=1002083
@@ -1375,7 +2302,7 @@
 		father=100002860	# Franz Xaver Matz von Spiegelfeld
 		mother=100085021	# GFN Marie de Bussy-Mignot
 		1862.04.30={birth=yes}	# Salzburg
-		1887.01.01={add_spouse=100025163}	# Maria Anna v. Attems
+		1887.01.01={add_spouse=100025165}	# Maria Anna v. Attems
 		1921.05.16={death=yes}
 	}
 		100002861={ # B1. Franz Xaver (St. Florian, Oberösterreich 16 Sep 1891-13 Aug 1976); m.1924 Maria-Gabrielle v. Goëss (Ebenthal 19 Jul 1893-Klagenfurt 23 Oct 1967) %%
@@ -1383,7 +2310,7 @@
 			dynasty=1002083
 			religion=catholic culture=german
 			father=100002858	# Karl Matz von Spiegelfeld
-			mother=100025163	# Maria Anna v. Attems
+			mother=100025165	# Maria Anna v. Attems
 			1891.09.16={birth=yes}	# St. Florian, Oberösterreich
 			1924.01.01={add_spouse=100023591}	# Maria-Gabrielle v. Goëss
 			1976.08.13={death=yes}
@@ -1395,7 +2322,7 @@
 				father=100002861	# Franz Xaver Matz von Spiegelfeld
 				mother=100023591	# Maria-Gabrielle v. Goëss
 				1923.08.11={birth=yes}  # Graz
-				1948.10.02={add_spouse=100025149}	# Therese v. Attems
+				1948.10.02={add_spouse=100025148}	# Therese v. Attems
 				1994.06.25={death=yes}  # Russia
 			}
 				100198712={ # D1. Marie Therese (b.Graz 1 Aug 1949); m.1 Mar 1969 Georg z Valdštejna (b.17 Dec 1942) %%
@@ -1404,7 +2331,7 @@
 					dynasty=1002083
 					religion=catholic culture=german
 					father=100198711	# Gisbert Matz von Spiegelfeld
-					mother=100025149	# Therese v. Attems
+					mother=100025148	# Therese v. Attems
 					1949.08.01={birth=yes}  # Graz
 				}
 			100002855={ # C2. Alexander (b.2 Nov 1925); m.14 May 1951 Sophie v. Starhemberg (Eisenkappel 14 Sep 1931-20 Jul 2006) %%
@@ -1635,7 +2562,7 @@
 								1867.05.17={birth=yes}  # Berlin
 								1911.09.21={death=yes}  # Berlin
 							}
-							100005080={ # 2g) Wanda Maria-Rosa Luise Aline Helene (Carolath 13 Feb 1887-Hamburg 1 Feb 1968); m.Carolath 22 Sep 1912 Friedrich Karl von der Schulenburg (Berlin 14 Jul 1881-k.a.Foucaucourt 12 Aug 1918)
+							100005080={ # 2g) Wanda Maria-Rosa Luise Aline Helene (Carolath 13 Feb 1887-Hamburg 1 Feb 1968); m.Carolath 22 Sep 1912 Friedrich Karl von der Schulenburg (Berlin 14 Jul 1881-k.a.Foucaucourt 12 Aug 1918) $$
 								name=Wanda
 								female=yes
 								dynasty=1002080
@@ -2239,14 +3166,14 @@
 								1888.06.05={birth=yes}  # Davos-Dorf
 								1980.04.18={death=yes}  # Burgsteinfurt
 							}
-							100005142={ # 2g) Georg Julius Rudolf (Davos-Dorf 24 May 1891-Haseldorf 19 Feb 1969); m.Preetz 20 May 1919 Agnes Gfn von Platen Hallermund (Kaden 15 Aug 1890-Haseldorf 3 Nov 1970)
+							100005142={ # 2g) Georg Julius Rudolf (Davos-Dorf 24 May 1891-Haseldorf 19 Feb 1969); m.Preetz 20 May 1919 Agnes Gfn von Platen Hallermund (Kaden 15 Aug 1890-Haseldorf 3 Nov 1970) $$
 								name=Georg
 								dynasty=1002080
 								religion=lutheran culture=german
 								father=100005140	# Emil v. Schoenaich-Carolath
 								mother=100096539	# Katharina von Knorring
 								1891.05.24={birth=yes}  # Davos-Dorf
-								1919.05.20={add_spouse=100096541}	# GFN Agnes von Platen Hallermund
+								1919.05.20={add_spouse=100036532}	# Agnes von Platen Hallermund
 								1969.02.19={death=yes}  # Haseldorf
 							}
 								100005143={ # 1h) Georg Alexander (Haseldorf 25 Mar 1920-k.a.Sapolje, Russia 6 Aug 1941)
@@ -2254,7 +3181,7 @@
 									dynasty=1002080
 									religion=lutheran culture=german
 									father=100005142	# Georg v. Schoenaich-Carolath
-									mother=100096541	# GFN Agnes von Platen Hallermund
+									mother=100036532	# Agnes von Platen Hallermund
 									1920.03.25={birth=yes}  # Haseldorf
 									1941.08.06={death=yes}
 								}
@@ -2264,7 +3191,7 @@
 									dynasty=1002080
 									religion=lutheran culture=german
 									father=100005142	# Georg v. Schoenaich-Carolath
-									mother=100096541	# GFN Agnes von Platen Hallermund
+									mother=100036532	# Agnes von Platen Hallermund
 									1921.07.19={birth=yes}
 									1997.01.01={death=yes}  # EST.
 								}
@@ -3246,14 +4173,14 @@
 				1701.05.08={add_spouse=100099528}	# Isabelle Justina von Horn
 				1713.03.10={death=yes}  # Schloß Steinfurt
 			}
-				100000903={ # 1d) Friedrich Belgicus Karl Gf zu Bentheim und Steinfurt (Steinfurt 24 Oct 1703-Steinfurt 7 Jun 1733); m.Detmold 4 Jun 1724 Franziska Charlotte Gfn zur Lippe-Detmold (Detmold 11 Nov 1704-Burgsteinfurt 12 Jun 1738)
-					name=Friedrich
+				100000903={ # 1d) Friedrich Belgicus Karl Gf zu Bentheim und Steinfurt (Steinfurt 24 Oct 1703-Steinfurt 7 Jun 1733); m.Detmold 4 Jun 1724 Franziska Charlotte Gfn zur Lippe-Detmold (Detmold 11 Nov 1704-Burgsteinfurt 12 Jun 1738) $$
+					name="Friedrich Karl"
 					dynasty=1002125
 					religion=catholic culture=hungarian
 					father=100000674	# Ernst Wilhelm zu Bentheim-Tecklenburg
 					mother=100099528	# Isabelle Justina von Horn
 					1703.10.24={birth=yes}  # Steinfurt
-					1724.06.04={add_spouse=100089946}	# GFN Franziska Charlotte zur Lippe-Detmold
+					1724.06.04={add_spouse=100013130}	# Franziska Charlotte zur Lippe-Detmold
 					1733.06.07={death=yes}  # Steinfurt
 				}
 					100000904={ # 1e) Amalie Isabella Sidonie (Steinfurt 25 Apr 1725-7 Aug 1782); m.2 Jul 1750 Moritz Kasimir Gf zu Bentheim-Tecklenburg (d.1768) $$
@@ -3261,8 +4188,8 @@
 						female=yes
 						dynasty=1002125
 						religion=catholic culture=hungarian
-						father=100000903	# Friedrich zu Bentheim-Tecklenburg
-						mother=100089946	# GFN Franziska Charlotte zur Lippe-Detmold
+						father=100000903	# Friedrich Karl zu Bentheim-Tecklenburg
+						mother=100013130	# Franziska Charlotte zur Lippe-Detmold
 						1725.04.25={birth=yes}  # Steinfurt
 						1782.08.07={death=yes}
 					}
@@ -3271,8 +4198,8 @@
 						female=yes
 						dynasty=1002125
 						religion=catholic culture=hungarian
-						father=100000903	# Friedrich zu Bentheim-Tecklenburg
-						mother=100089946	# GFN Franziska Charlotte zur Lippe-Detmold
+						father=100000903	# Friedrich Karl zu Bentheim-Tecklenburg
+						mother=100013130	# Franziska Charlotte zur Lippe-Detmold
 						1726.06.02={birth=yes}
 						1783.09.05={death=yes}
 					}
@@ -3280,8 +4207,8 @@
 						name=Karl
 						dynasty=1002125
 						religion=catholic culture=hungarian
-						father=100000903	# Friedrich zu Bentheim-Tecklenburg
-						mother=100089946	# GFN Franziska Charlotte zur Lippe-Detmold
+						father=100000903	# Friedrich Karl zu Bentheim-Tecklenburg
+						mother=100013130	# Franziska Charlotte zur Lippe-Detmold
 						1729.08.30={birth=yes}  # Nurgsteinfurt
 						1748.09.30={add_spouse=100037093}	# Charlotte Sophie v. Nassau-Siegen
 						1780.06.30={death=yes}
@@ -4142,7 +5069,7 @@
 	father=100004546	# Ernst Wilhelm Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 	mother=100096348	# GFN Maria Maximiliana von Götzen
 	1742.08.19={birth=yes}  # Brünn
-	1779.07.08={add_spouse=100299520}	# Maria Anna v. Khevenhüller-Metsch
+	1779.07.08={add_spouse=100026094}	# Maria Anna v. Khevenhüller-Metsch
 	1790.08.08={add_spouse=100096364}	# GFN Johanna Nepomucena von Blümegen
 	1825.05.27={death=yes}  # Brünn
 }
@@ -4338,7 +5265,7 @@
 			father=100004571	# Karl Gotthard Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 			mother=100096303	# GFN Anna von Hatzfeldt u.Gleichen
 			1732.06.22={birth=yes}
-			1764.01.09={add_spouse=100035345}	# GFN Anna Juliane von Stubenberg
+			1764.01.09={add_spouse=100090464}	# GFN Anna Juliane von Stubenberg
 			1808.01.30={death=yes}
 		}
 			100004573={ # 2c) Leopold Gotthard (Prague 2 Nov 1764-Breslau 24 Jan 1834); m.Graz 20 Jul 1791 Johanna Nepomucena Gfn von Wurmbrand-Stuppach (Graz 4 Jan 1774-Baden nr Vienna 28 Jul 1834) $$
@@ -4346,7 +5273,7 @@
 				dynasty=1002078
 				religion=lutheran culture=bohemian
 				father=100004572	# Johann Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-				mother=100035345	# GFN Anna Juliane von Stubenberg
+				mother=100090464	# GFN Anna Juliane von Stubenberg
 				1764.11.02={birth=yes}  # Prague
 				1791.07.20={add_spouse=100023843}	# Johanna v. Wurmbrand-Stuppach
 				1834.01.24={death=yes}  # Breslau
@@ -5296,7 +6223,7 @@
 				dynasty=1002078
 				religion=lutheran culture=german
 				father=100004572	# Johann Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-				mother=100035345	# GFN Anna Juliane von Stubenberg
+				mother=100090464	# GFN Anna Juliane von Stubenberg
 				1772.04.02={birth=yes}
 				1806.03.03={death=yes}
 			}
@@ -5492,7 +6419,7 @@
 						father=100004515	# Hermann Gotthard Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 						mother=100021579	# Auguste v. Auersperg
 						1860.07.20={birth=yes}  # Purgstall
-						1887.04.30={add_spouse=100118823}	# Eugenie Csáky de Körösszeg et Adorján
+						1887.04.30={add_spouse=100118971}	# Eugenie Csáky de Körösszeg et Adorján
 						1918.08.20={add_spouse=100096425}	# Hermine Benedikt
 						1943.11.15={death=yes}  # Purgstall
 					}
@@ -5502,7 +6429,7 @@
 							dynasty=1002078
 							religion=lutheran culture=german
 							father=100004516	# Herbert Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-							mother=100118823	# Eugenie Csáky de Körösszeg et Adorján
+							mother=100118971	# Eugenie Csáky de Körösszeg et Adorján
 							1889.04.04={birth=yes}  # Wiener Neustadt
 							1968.12.14={death=yes}  # Rauris
 						}
@@ -5511,7 +6438,7 @@
 							dynasty=1002078
 							religion=lutheran culture=german
 							father=100004516	# Herbert Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-							mother=100118823	# Eugenie Csáky de Körösszeg et Adorján
+							mother=100118971	# Eugenie Csáky de Körösszeg et Adorján
 							1892.02.08={birth=yes}
 							1913.02.10={death=yes}
 						}
@@ -5611,7 +6538,7 @@
 				father=100004501	# Joseph Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 				mother=100096411	# FRN Josepha Skrbenský z Hríšte
 				1813.10.01={birth=yes}  # Deitsch-Krawarn
-				1840.07.14={add_spouse=100119900}	# Teréz Révay de Szklabina et Blatnicza
+				1840.07.14={add_spouse=100115059}	# Teréz Révay de Szklabina et Blatnicza
 				1848.12.30={death=yes}  # Mor
 			}
 				100004529={ # 1d) Rudolf Gotthard (Budapest 19 Apr 1848-Vienna 27 Jan 1931); m.1st Agram 18 Oct 1873 (div 1908) Jela Gfn Jellacic de Buzim (Agram 27 Aug 1852-Novidvori 11 May 1926); m.2nd Budapest 5 Jan 1909 Hermine Fischhof-Seydl (Vienna 13 Dec 1861-    )
@@ -5619,7 +6546,7 @@
 					dynasty=1002078
 					religion=lutheran culture=hungarian
 					father=100004528	# Rudolf Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-					mother=100119900	# Teréz Révay de Szklabina et Blatnicza
+					mother=100115059	# Teréz Révay de Szklabina et Blatnicza
 					1848.04.19={birth=yes}  # Budapest
 					1873.10.18={add_spouse=100136222}	# Jela Jelacic Bužimski
 					1908.01.01={remove_spouse=100136222}
@@ -5985,7 +6912,7 @@
 						father=100001375	# Karol Henckel v.Donnersmarck
 						mother=100096175	# GFN Eugenie von Wengersky
 						1811.04.26={birth=yes}  # Siemianowitz
-						1830.08.01={add_spouse=100085812}	# GFN Laura v. Hardenberg
+						1830.08.01={add_spouse=100085812}	# GFN Laura von Hardenberg
 						1859.01.08={add_spouse=100096181}	# Laura von Kaszonyi
 						1890.10.04={death=yes}  # Vienna
 					}
@@ -5994,7 +6921,7 @@
 							dynasty=1002077
 							religion=lutheran culture=german
 							father=100001376	# Hugo Henckel v.Donnersmarck
-							mother=100085812	# GFN Laura v. Hardenberg
+							mother=100085812	# GFN Laura von Hardenberg
 							1832.07.31={birth=yes}  # Siemianowitz
 							1856.05.15={add_spouse=100096188}	# GFN Wanda von Gaschin
 							1908.04.02={death=yes}  # Brynnek
@@ -6181,7 +7108,7 @@
 							dynasty=1002077
 							religion=lutheran culture=german
 							father=100001376	# Hugo Henckel v.Donnersmarck
-							mother=100085812	# GFN Laura v. Hardenberg
+							mother=100085812	# GFN Laura von Hardenberg
 							1835.05.23={birth=yes}  # Siemianowitz
 							1858.08.04={add_spouse=100096206}	# GFN Maria von Schweinitz u.Krain
 							1914.12.18={death=yes}  # Breslau
@@ -6263,7 +7190,7 @@
 										father=100001403	# Lazarus Henckel v.Donnersmarck
 										mother=100001001	# Franziska v.u.zu Eltz gt Faust v.Stromberg
 										1928.11.07={birth=yes}  # Romolkwitz
-										1958.04.10={add_spouse=100070272}	# Marie Adelaide di Borbone-Parma
+										1958.04.10={add_spouse=100070272}	# Marie Adelaide v. Nassau-Weilburg
 										2007.12.21={add_spouse=100096214}	# Claire Regina Barclay-Hoess
 										2008.04.16={death=yes}  # Sliema Malta
 									}
@@ -6272,7 +7199,7 @@
 											dynasty=1002077
 											religion=lutheran culture=german
 											father=100001404	# Carl Josef Henckel v.Donnersmarck
-											mother=100070272	# Marie Adelaide di Borbone-Parma
+											mother=100070272	# Marie Adelaide v. Nassau-Weilburg
 											1959.03.30={birth=yes}
 											1995.06.17={add_spouse=100021385}	# Johanna v. Hohenberg
 										}
@@ -6315,7 +7242,7 @@
 											dynasty=1002077
 											religion=lutheran culture=german
 											father=100001404	# Carl Josef Henckel v.Donnersmarck
-											mother=100070272	# Marie Adelaide di Borbone-Parma
+											mother=100070272	# Marie Adelaide v. Nassau-Weilburg
 											1960.03.02={birth=yes}  # Schloß Berg
 											2007.10.28={death=yes}
 										}
@@ -6324,7 +7251,7 @@
 											dynasty=1002077
 											religion=lutheran culture=german
 											father=100001404	# Carl Josef Henckel v.Donnersmarck
-											mother=100070272	# Marie Adelaide di Borbone-Parma
+											mother=100070272	# Marie Adelaide v. Nassau-Weilburg
 											1961.11.13={birth=yes}
 											1998.09.12={add_spouse=100096216}	# Anna-Maria Merckens
 										}
@@ -6342,7 +7269,7 @@
 											dynasty=1002077
 											religion=lutheran culture=german
 											father=100001404	# Carl Josef Henckel v.Donnersmarck
-											mother=100070272	# Marie Adelaide di Borbone-Parma
+											mother=100070272	# Marie Adelaide v. Nassau-Weilburg
 											1965.08.04={birth=yes}
 										}
 									100001414={ # 2i) Maria Wilhelmina Elisabeth Felicitas Gregoria (b.Naklo 17 Nov 1929); m.Baden, Aargau 11 Nov 1954 Ernst Gf von Waldstein-Wartenberg (b.Hirschberg, Bohemia 30 Mar 1925) $$
@@ -6506,7 +7433,7 @@
 							dynasty=1002077
 							religion=lutheran culture=german
 							father=100001376	# Hugo Henckel v.Donnersmarck
-							mother=100085812	# GFN Laura v. Hardenberg
+							mother=100085812	# GFN Laura von Hardenberg
 							1836.11.20={birth=yes}  # Siemianowitz
 							1860.11.27={add_spouse=100004578}	# Eleonore Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
 							1921.07.27={death=yes}  # Wolfsberg
@@ -6708,7 +7635,7 @@
 							dynasty=1002077
 							religion=lutheran culture=german
 							father=100001376	# Hugo Henckel v.Donnersmarck
-							mother=100085812	# GFN Laura v. Hardenberg
+							mother=100085812	# GFN Laura von Hardenberg
 							1838.08.30={birth=yes}  # Siemianowitz
 							1931.11.22={death=yes}  # Schimmelwitz
 						}
@@ -6717,7 +7644,7 @@
 							dynasty=1002077
 							religion=lutheran culture=german
 							father=100001376	# Hugo Henckel v.Donnersmarck
-							mother=100085812	# GFN Laura v. Hardenberg
+							mother=100085812	# GFN Laura von Hardenberg
 							1840.04.25={birth=yes}  # Siemianowitz
 							1856.11.16={death=yes}  # Liegnitz
 						}
@@ -7688,7 +8615,6 @@
 
 
 ## 	100002600	Wied					   			1002066
-
 #runkel1
 100007681={ # Siegfried I von Runkel, fl 1159
     name=Siegfried   # 1801581/siegfried-i-herr-von-runkel/
@@ -7900,49 +8826,207 @@
 #runkel4
 
 #runkel5
-100007638={ # Friedrich "der Ältere" Graf zu Wied, *Seeburg 16.11.1618, +Neuwied 3.5.1698; 1m: 1.3.1639 Gfn Maria Juliana zu Leiningen-Westerburg (*28.8.1616 +16.7.1657); 2m: Greifenstein 20.10.1663 Gfn Philippina Sabina zu Hohenlohe-Waldenburg-Schillingsfürst (*26.2.1620 +24.11.1681); 3m: 12.9.1683 Gfn Maria Sabina zu Solms-Hohensolms (*29.7.1638 +19.1.1685); 4m: 5.6.1686 Gfn Konradine Luise zu Bentheim-Tecklenburg (*28.4.1647 +2.11.1705)
-	name=Friedrich   # 3899/friedrich-graf-von-wied/
+100007638={ # Friedrich "der Ältere" Graf zu Wied, *Seeburg 16.11.1618, +Neuwied 3.5.1698; 1m: 1.3.1639 Gfn Maria Juliana zu Leiningen-Westerburg (*28.8.1616 +16.7.1657); 2m: Greifenstein 20.10.1663 Gfn Philippina Sabina zu Hohenlohe-Waldenburg-Schillingsfürst (*26.2.1620 +24.11.1681); 3m: 12.9.1683 Gfn Maria Sabina zu Solms-Hohensolms (*29.7.1638 +19.1.1685); 4m: 5.6.1686 Gfn Konradine Luise zu Bentheim-Tecklenburg (*28.4.1647 +2.11.1705) $$
+	name=Friedrich   	# 3899/friedrich-graf-von-wied/
 	dynasty=1002066
 	religion=catholic culture=german
 	father=100007689	# Hermann zu Wied
 	mother=100007190	# Juliana Elisabeth von Solms-Braunfels
-	1618.11.16={birth=yes}
-	1639.03.20={add_spouse=100095620}	# GFN Maria Juliana von Leiningen-Westerburg
+	1618.11.16={birth=yes}  # Seeburg
+	1639.03.01={add_spouse=100013064}	# Marie Juliane zu Leiningen-Westerburg
 	1663.10.20={add_spouse=100005572}	# Philippine Sabine von Hohenlohe in Öhringen
-	1683.01.01={add_spouse=100007186}	# Marie Sabine von Solms-Braunfels
+	1683.09.12={add_spouse=100007186}	# Marie Sabine von Solms-Braunfels
 	1686.06.05={add_spouse=100000496}	# Konradine Luise zu Bentheim-Tecklenburg
-	1698.05.03={death=yes}
+	1698.05.03={death=yes}  # Neuwied
 }
-	100007677={ # A1. Georg Hermann Reinhard Graf zu Wied, *Seeburg 9.7.1640, +Altwied 7.6.1690; 1m: 1670 Anna Trajectina von Brederode (+23.2.1672); 2m: 1676 Gfn Johanna Elisabeth zu Leiningen-Westerburg (*27.1.1659 27.3.1708) $$
-		name="Georg Hermann" # 200045/georg-hermann-reinhard-graf-von-wied/
+	100007677={ # A1. Georg Hermann Reinhard Graf zu Wied, *Seeburg 9.7.1640, +Altwied 7.6.1690; 1m: 1670 Anna Trajectina von Brederode (+23.2.1672); 2m: 1676 Gfn Johanna Elisabeth zu Leiningen-Westerburg (*27.1.1659 27.3.1708)
+		name=Georg
 		dynasty=1002066
 		religion=catholic culture=german
 		father=100007638	# Friedrich zu Wied
-		mother=100095620	# GFN Maria Juliana von Leiningen-Westerburg
-		1640.07.09={birth=yes}
-		1675.01.01={add_spouse=100009229}	# Johanna Elisabeth zu Leiningen-Westerburg
-		1690.06.17={death=yes}
+		mother=100013064	# Marie Juliane zu Leiningen-Westerburg
+		1640.07.09={birth=yes}  # Seeburg
+		1670.01.01={add_spouse=100094359}	# Anna Trajectina von Brederode
+		1676.01.01={add_spouse=100009229}	# Johanna Elisabeth zu Leiningen-Westerburg
+		1690.06.07={death=yes}  # Altwied
 	}
 		100007690={ # B8. Sophia Sabina, *Waldenburg 10.11.1677, +Hartenstein 17.2.1710; m.Waldenburg 25.8.1698 Gf Georg Albrecht von Schönburg-Hartenstein (*25.5.1673 +15.8.1716) $$
-			name="Sophie Sabine" # 264149/sophie-sabine-graefin-von-wied/
+			name="Sophia Sabina"
 			female=yes
 			dynasty=1002066
 			religion=catholic culture=german
-			father=100007677	# Georg Hermann zu Wied
+			father=100007677	# Georg zu Wied
 			mother=100009229	# Johanna Elisabeth zu Leiningen-Westerburg
-			1677.11.10={birth=yes}
-			1710.02.17={death=yes}
+			1677.11.10={birth=yes}  # Waldenburg
+			1710.02.17={death=yes}  # Hartenstein
 		}
+		100012975={ # B3. Maximilian Heinrich Graf zu Wied, *1.5.1681, +in a duel 19.12.1706; m.Detmold 29.8.1704 Gfn Sophia Florentina zur Lippe-Detmold (*8.9.1683 +23.4.1758) $$
+			name="Maximilian Heinrich"
+			dynasty=1002066
+			religion=catholic culture=german
+			father=100007677	# Georg zu Wied
+			mother=100009229	# Johanna Elisabeth zu Leiningen-Westerburg
+			1681.05.01={birth=yes}
+			1704.08.29={add_spouse=100013146}	# Sophia Florentina zur Lippe-Detmold
+			1706.12.19={death=yes}  # in duel
+		}
+			100012976={ # C1. Johann Ludwig Adolf Graf zu Wied, *30.5.1705, +18.5.1762; 1m: 14.8.1726 Gfn Christina Luise von Ostfriesland, heiress of Criechingen, Rollingen, etc (*1.2.1710 +12.5.1732); 2m: 1733 Gfn Amalie Luise zu Sayn-Wittgenstein-Sayn (*1702 +1737)
+				name=Johann
+				dynasty=1002066
+				religion=catholic culture=german
+				father=100012975	# Maximilian Heinrich zu Wied
+				mother=100013146	# Sophia Florentina zur Lippe-Detmold
+				1705.05.30={birth=yes}
+				1726.08.14={add_spouse=100095770}	# Christina Luise von Ostfriesland
+				1733.01.01={add_spouse=100096878}	# GFN Amalie Luise zu Sayn-Wittgenstein-Sayn
+				1762.05.18={death=yes}
+			}
+				100012984={ # D6. Sophie Henriette Amalie, *22.2.1731, +24.2.1799; m.1752 Gf Leopold Ferdinand von Schwerin (+18.11.1757)
+					name=Sophie
+					female=yes
+					dynasty=1002066
+					religion=catholic culture=german
+					father=100012976	# Johann zu Wied
+					mother=100095770	# Christina Luise von Ostfriesland
+					1731.02.22={birth=yes}
+					1799.02.24={death=yes}
+				}
+				100012978={ # D2. Christian Ludwig, cr Fürst zu Wied 1791, *2.5.1732, +31.10.1791; m.23.6.1762 Gfn Charlotte Sophie Auguste zu Sayn-Wittgenstein-Sayn (*14.7.1741, +4.6.1803) $$
+					name="Christian Ludwig"
+					dynasty=1002066
+					religion=catholic culture=german
+					father=100012976	# Johann zu Wied
+					mother=100095770	# Christina Luise von Ostfriesland
+					1732.05.02={birth=yes}
+					1762.06.23={add_spouse=100005774}	# Charlotte Sophie zu Sayn-Wittgenstein-Hachenburg
+					1791.10.31={death=yes}
+				}
+					100012979={ # E1. Karl Ludwig Friedrich Alexander Fürst zu Wied, *Dierdorf 29.9.1763, +Dierdorf 9.3.1824; m.Kirchheimbolanden 4.9.1787 Pss Karoline Luise Friederike of Nassau-Weilburg (*Kirchheimbolanden 14.2.1770, +Wiesbaden 8.7.1828) $$
+						name="Karl Ludwig"
+						dynasty=1002066
+						religion=catholic culture=german
+						father=100012978	# Christian Ludwig zu Wied
+						mother=100005774	# Charlotte Sophie zu Sayn-Wittgenstein-Hachenburg
+						1763.09.29={birth=yes}  # Dierdorf
+						1787.09.04={add_spouse=100070115}	# Karoline Luise v. Nassau-Weilburg
+						1824.03.09={death=yes}  # Dierdorf
+					}
+					100012980={ # E3. Friedrich Ludwig Fürst zu Wied, *29.1.1770, +28.4.1824
+						name="Friedrich Ludwig"
+						dynasty=1002066
+						religion=catholic culture=german
+						father=100012978	# Christian Ludwig zu Wied
+						mother=100005774	# Charlotte Sophie zu Sayn-Wittgenstein-Hachenburg
+						1770.01.29={birth=yes}
+						1824.04.28={death=yes}
+					}
+					100012981={ # E5. Christian Friedrich Ludwig, *9.10.1773, +21.1.1811
+						name=Christian
+						dynasty=1002066
+						religion=catholic culture=german
+						father=100012978	# Christian Ludwig zu Wied
+						mother=100005774	# Charlotte Sophie zu Sayn-Wittgenstein-Hachenburg
+						1773.10.09={birth=yes}
+						1811.01.21={death=yes}
+					}
+			100012986={ # C2. Karl Wilhelm Alexander Emil, *19.6.1706, +30.11.1771
+				name=Karl
+				dynasty=1002066
+				religion=catholic culture=german
+				father=100012975	# Maximilian Heinrich zu Wied
+				mother=100013146	# Sophia Florentina zur Lippe-Detmold
+				1706.06.19={birth=yes}
+				1771.11.30={death=yes}
+			}
+		100012987={ # B5. Karl, *21.10.1684, +21.6.1764; m.Schaumburg 8.2.1707 Gfn Charlotte Albertine zur Lippe-Detmold (*14.10.1674 +13.7.1740) $$
+			name=Karl
+			dynasty=1002066
+			religion=catholic culture=german
+			father=100007677	# Georg zu Wied
+			mother=100009229	# Johanna Elisabeth zu Leiningen-Westerburg
+			1684.10.21={birth=yes}
+			1707.02.08={add_spouse=100013145}	# Charlotte Albertine zur Lippe-Detmold
+			1764.06.21={death=yes}
+		}
+			100012988={ # C3. Franz Karl Christoph, *Neuwied 17.10.1711, +Egmond 5.9.1757; m.Weidum 20.10.1738 Judith Maria van Aylva (*1698 +Neerrijgen 22.5.1756)
+				name=Franz
+				dynasty=1002066
+				religion=catholic culture=german
+				father=100012987	# Karl zu Wied
+				mother=100013145	# Charlotte Albertine zur Lippe-Detmold
+				1711.10.17={birth=yes}  # Neuwied
+				1738.10.20={add_spouse=100100195}	# Judith van Aylva
+				1757.09.05={death=yes}  # Egmond
+			}
+			100012989={ # C4. Heinrich Georg Friedrich, Governor of Milan, *19.10.1712, +23.2.1779
+				name=Heinrich
+				dynasty=1002066
+				religion=catholic culture=german
+				father=100012987	# Karl zu Wied
+				mother=100013145	# Charlotte Albertine zur Lippe-Detmold
+				1712.10.19={birth=yes}
+				1779.02.23={death=yes}
+			}
 		100009367={ # B10. Anna Sibylla, *8.4.1686, +13.10.1722; m.28.8.1715 Gf Christian Sigismund von Wurmbrand-Stuppach (*9.10.1673 +21.7.1737) $$
-			name="Anna Sibylle"
+			name="Anna Sibylla"
 			female=yes
 			dynasty=1002066
 			religion=catholic culture=german
-			father=100007677	# Georg Hermann zu Wied
+			father=100007677	# Georg zu Wied
 			mother=100009229	# Johanna Elisabeth zu Leiningen-Westerburg
 			1686.04.08={birth=yes}
 			1722.10.13={death=yes}
 		}
+		100012991={ # B6. Christian, *15.10.1687, +24.5.1754; m.2.11.1722 Gfn Regina Justina von Auersperg (*22.12.1676 +11.7.1749) $$
+			name=Christian
+			dynasty=1002066
+			religion=catholic culture=german
+			father=100007677	# Georg zu Wied
+			mother=100009229	# Johanna Elisabeth zu Leiningen-Westerburg
+			1687.10.15={birth=yes}
+			1722.11.02={add_spouse=100021631}	# Regina v. Auersperg
+			1754.05.24={death=yes}
+		}
+		100012994={ # B11. Sophia Amalie, *20.11.1690, +25.11.1761; m.1713 Gf Christoph Heinrich von Stein (+1731)
+			name="Sophia Amalie"
+			female=yes
+			dynasty=1002066
+			religion=catholic culture=german
+			father=100007677	# Georg zu Wied
+			mother=100009229	# Johanna Elisabeth zu Leiningen-Westerburg
+			1690.11.20={birth=yes}
+			1761.11.25={death=yes}
+		}
+	100013031={ # A9. Juliana Ernestina, *1647, +1672; m.Ferdinand Herr zu Innhausen und Knyphausen (+1699)
+		name="Juliana Ernestina"
+		female=yes
+		dynasty=1002066
+		religion=catholic culture=german
+		father=100007638	# Friedrich zu Wied
+		mother=100013064	# Marie Juliane zu Leiningen-Westerburg
+		1647.01.01={birth=yes}
+		1672.01.01={death=yes}
+	}
+	100013033={ # A11. Sibylla Christina, *1650, +18.7.1710; m.1694 Gf Hannibal von Heister (+1719)
+		name="Sibylla Christina"
+		female=yes
+		dynasty=1002066
+		religion=catholic culture=german
+		father=100007638	# Friedrich zu Wied
+		mother=100013064	# Marie Juliane zu Leiningen-Westerburg
+		1650.01.01={birth=yes}
+		1710.07.18={death=yes}
+	}
+	100013034={ # A12. Sophia Elisabeth, *8.11.1651, +1.3.1673; m.13.11.1669 Gf Georg Wilhelm zu Sayn-Wittgenstein-Berleburg (*28.9.1684 +25.5.1684) $$
+		name="Sophie Elisabeth"
+		female=yes
+		dynasty=1002066
+		religion=catholic culture=german
+		father=100007638	# Friedrich zu Wied
+		mother=100013064	# Marie Juliane zu Leiningen-Westerburg
+		1651.11.08={birth=yes}
+		1673.03.01={death=yes}
+	}
 	100007634={ # A8. Friedrich Wilhelm Graf zu Wied-Neuwied, *15.11.1684, +17.9.1737; m.24.8.1704 Luise Charlotte Bggfn und Gfn zu Dohna-Schlobitten (*5.1.1688 +25.5.1736) $$
 		name="Friedrich Wilhelm" # 4651/friedrich-wilhelm-graf-von-wied-neuwied/
 		dynasty=1002066
@@ -7953,416 +9037,427 @@
 		1704.08.24={add_spouse=100009236}	# Louise Charlotte zu Dohna-Schlobitten
 		1737.09.17={death=yes}
 	}
-#runkel5
-
-100007625={	# JOHANN FRIEDRICH ALEXANDER, cr 1784 Fürst zu Wied (18 Nov 1706-7 Aug 1791); m.2 Jan 1739 Karoline Bggfn von Kirchberg (19 Oct 1720-19 Jan 1795)
-	name="Johann Friedrich Alexander" # 4885/johann-friedrich-alexander-christian-fuerst-zu-wied/
-	dynasty=1002066
-	religion=catholic culture=german
-	father=100007634	# Friedrich Wilhelm zu Wied
-	mother=100009236	# Louise Charlotte zu Dohna-Schlobitten
-	1706.11.18={birth=yes}
-	1739.01.02={add_spouse=100095601}	# BGGFN Karoline von Kirchberg
-	1791.08.07={death=yes}
-}
-	100007626={	# 2a) Fst FRIEDRICH KARL zu Wied-Neuwied (25 Dec 1741-1 Mar 1809); m.26 Jan 1766 Marie Luise Wilhelmine Gfn zu Sayn-Wittgenstein-Berleburg (13 May 1747-15 Nov 1823) $$
-		name="Friedrich Karl" # 5169/friedrich-karl-fuerst-zu-wied/
-		dynasty=1002066
-		religion=catholic culture=german
-		father=100007625	# Johann Friedrich Alexander zu Wied
-		mother=100095601	# BGGFN Karoline von Kirchberg
-		1741.12.25={birth=yes}
-		1766.01.26={add_spouse=100010880}	# Maria Luise Wilhelmine zu Sayn-Wittgenstein-Berleburg
-		1809.03.01={death=yes}
-	}
-		100007627={	# 6b) Fst JOHANN KARL AUGUST zu Wied (26 May 1779-24 Apr 1836); m.Braunfels 11 Jun 1812 Pss Sophie Auguste zu Solms-Braunfels (Braunfels 24 Feb 1796-23 Jan 1855) $$
-			name="Johann August" # 5419/johann-august-carl-fuerst-zu-wied-graf-zu-isenburg/
+		100013000={ # B1. Johann Friedrich Alexander Christian, Graf von Isenburg, Herr von Runkel, cr Fürst zu Wied 29.5.1784, *Seeburg 18.11.1706, +Neuwied 7.8.1791; m.Hachenburg 2.1.1739 Karoline Bggfn von Kirchberg (*19.10.1720 +19.1.1795)
+			name=Johann			# 4885/johann-friedrich-alexander-christian-fuerst-zu-wied/
 			dynasty=1002066
 			religion=catholic culture=german
-			father=100007626	# Friedrich Karl zu Wied
-			mother=100010880	# Maria Luise Wilhelmine zu Sayn-Wittgenstein-Berleburg
-			1779.05.26={birth=yes}
-			1812.06.11={add_spouse=100008310}	# Sophie Auguste von Solms-Braunfels
-			1836.04.24={death=yes}
+			father=100007634	# Friedrich Wilhelm zu Wied
+			mother=100009236	# Louise Charlotte zu Dohna-Schlobitten
+			1706.11.18={birth=yes}  # Seeburg
+			1739.01.02={add_spouse=100095601}	# BGGFN Karoline von Kirchberg
+			1791.08.07={death=yes}  # Neuwied
 		}
-			100007628={	# 1c) Luitgarde (4 Mar 1813-9 Jun 1870); m.11 Sep 1832 Otto Gf zu Solms-Laubach (d.1872) $$
-				name=Luitgarde
+			# runkel6 -> C1. Friedrich Karl Fürst zu Wied-Neuwied, *Schloss Hachenburg 25.12.1741, +Freiburg 1.3.1809; m.Berleburg 26.1.1766 Gfn Marie Luise Wilhelmine zu Sayn-Wittgenstein-Berleburg (*13.5.1747 +15.11.1823); for their descendants see HERE
+		100013018={ # B3. Franz Karl Ludwig, *10.10.1710, +8.10.1765; m.1747 Sophia Luise Bggfn und Gfn zu Dohna-Carwinden (*9.10.1727 +19.3.1749) $$
+			name="Franz Carl"
+			dynasty=1002066
+			religion=catholic culture=german
+			father=100007634	# Friedrich Wilhelm zu Wied
+			mother=100009236	# Louise Charlotte zu Dohna-Schlobitten
+			1710.10.10={birth=yes}
+			1747.01.01={add_spouse=100013319}	# Sophie Louise von Dohna
+			1765.10.08={death=yes}
+		}
+#runkel5
+
+100013014={	# Friedrich Karl Fürst zu Wied, *Schloss Hachenburg 25.12.1741, +Freiburg 1.3.1809; m.Berleburg 26.1.1766 Gfn Marie Luise Wilhelmine zu Sayn-Wittgenstein-Berleburg (*13.5.1747 +15.11.1823 $$
+	name="Friedrich Karl" # 5169/friedrich-karl-fuerst-zu-wied/
+	dynasty=1002066
+	religion=catholic culture=german
+	father=100013000	# Johann zu Wied
+	mother=100095601	# BGGFN Karoline von Kirchberg
+	1741.12.25={birth=yes}
+	1766.01.26={add_spouse=100010880}	# Marie Luise zu Sayn-Wittgenstein-Berleburg
+	1809.03.01={death=yes}
+}
+	100007627={	# A3. Johann Karl August 3.Fürst zu Wied, *Neuwied 26.5.1779, +Neuwied 21.4.1836; m.Braunfels 11.6.1812 Pss Sophie Auguste zu Solms-Braunfels (*24.2.1796 +23.1.1855) $$
+		name="Johann August" # 5419/johann-august-carl-fuerst-zu-wied-graf-zu-isenburg/
+		dynasty=1002066
+		religion=catholic culture=german
+		father=100013014	# Friedrich Karl zu Wied
+		mother=100010880	# Marie Luise zu Sayn-Wittgenstein-Berleburg
+		1779.05.26={birth=yes}
+		1812.06.11={add_spouse=100008310}	# Sophie Auguste von Solms-Braunfels
+		1836.04.24={death=yes}
+	}
+		100007628={	# 1c) Luitgarde (4 Mar 1813-9 Jun 1870); m.11 Sep 1832 Otto Gf zu Solms-Laubach (d.1872) $$
+			name=Luitgarde
+			female=yes
+			dynasty=1002066
+			religion=catholic culture=german
+			father=100007627	# Johann August zu Wied
+			mother=100008310	# Sophie Auguste von Solms-Braunfels
+			1813.03.04={birth=yes}
+			1870.06.09={death=yes}
+		}
+		100007629={	# 2c) Wilhelm HERMANN Karl Fst zu Wied (Neuwied 22 May 1814-Neuwied 5 Mar 1864); m.Biebrich 20 Jun 1842 Marie Pss of Nassau-Weilburg (Biebrich 29 Jan 1825-Neuwied 24 Mar 1902) $$
+			name=Hermann 		# 5667/wilhelm-herman-karl-fuerst-zu-wied/
+			dynasty=1002066
+			religion=catholic culture=german
+			father=100007627	# Johann August zu Wied
+			mother=100008310	# Sophie Auguste von Solms-Braunfels
+			1814.05.22={birth=yes}  # Neuwied
+			1842.06.20={add_spouse=100070101}	# Marie Wilhelmine v. Nassau-Weilburg
+			1864.03.05={death=yes}  # Neuwied
+		}
+			100007630={	# 1d) Pauline Elisabeth Ottilie Luise (Neuwied 29 Dec 1843-Bucharest 3 Mar 1916); m.Neuwied 15 Nov 1869 Karl Pr von Hohenzollern (Schloß Sigmaringen 27 Apr 1839-Bucharest 10 Oct 1914) $$
+				name=Elisabeth
 				female=yes
 				dynasty=1002066
 				religion=catholic culture=german
-				father=100007627	# Johann August zu Wied
-				mother=100008310	# Sophie Auguste von Solms-Braunfels
-				1813.03.04={birth=yes}
-				1870.06.09={death=yes}
+				father=100007629	# Hermann zu Wied
+				mother=100070101	# Marie Wilhelmine v. Nassau-Weilburg
+				1843.12.29={birth=yes}  # Neuwied
+				1916.03.03={death=yes}  # Bucharest
 			}
-			100007629={	# 2c) Wilhelm HERMANN Karl Fst zu Wied (Neuwied 22 May 1814-Neuwied 5 Mar 1864); m.Biebrich 20 Jun 1842 Marie Pss of Nassau-Weilburg (Biebrich 29 Jan 1825-Neuwied 24 Mar 1902) $$
-				name=Hermann 		# 5667/wilhelm-herman-karl-fuerst-zu-wied/
+			100007631={	# 2d) WILHELM Adolph Maximilian Carl Fst zu Wied (Neuwied 22 Aug 1845-Neuwied 22 Oct 1907); m.Wassenaar 18 Jul 1871 Marie Pss of Netherlands (Paauw 5 Jul 1841-Neuwied 22 Jun 1910) $$
+				name=Wilhelm
 				dynasty=1002066
 				religion=catholic culture=german
-				father=100007627	# Johann August zu Wied
-				mother=100008310	# Sophie Auguste von Solms-Braunfels
-				1814.05.22={birth=yes}  # Neuwied
-				1842.06.20={add_spouse=100070101}	# Marie Wilhelmine v. Nassau-Weilburg
-				1864.03.05={death=yes}  # Neuwied
+				father=100007629	# Hermann zu Wied
+				mother=100070101	# Marie Wilhelmine v. Nassau-Weilburg
+				1845.08.22={birth=yes}  # Neuwied
+				1871.07.18={add_spouse=100037082}	# Wilhelmina van Oranje-Nassau
+				1907.10.22={death=yes}  # Neuwied
 			}
-				100007630={	# 1d) Pauline Elisabeth Ottilie Luise (Neuwied 29 Dec 1843-Bucharest 3 Mar 1916); m.Neuwied 15 Nov 1869 Karl Pr von Hohenzollern (Schloß Sigmaringen 27 Apr 1839-Bucharest 10 Oct 1914) $$
-					name=Elisabeth
-					female=yes
+				100007632={	# 1e) Wilhelm FRIEDRICH Hermann Otto Karl Fst zu Wied (Neuwied 27 Jun 1872-Neuwied 18 Jun 1945); m.Stuttgart 29 Oct 1898 Pauline Pss of Württemberg (Stuttgart 29 Dec 1877-Ludwigsburg 7 May 1965) $$
+					name=Friedrich
 					dynasty=1002066
 					religion=catholic culture=german
-					father=100007629	# Hermann zu Wied
-					mother=100070101	# Marie Wilhelmine v. Nassau-Weilburg
-					1843.12.29={birth=yes}  # Neuwied
-					1916.03.03={death=yes}  # Bucharest
+					father=100007631	# Wilhelm zu Wied
+					mother=100037082	# Wilhelmina van Oranje-Nassau
+					1872.06.27={birth=yes}  # Neuwied
+					1898.10.29={add_spouse=100008113}	# Pauline Olga v. Württemberg
+					1945.06.18={death=yes}  # Neuwied
 				}
-				100007631={	# 2d) WILHELM Adolph Maximilian Carl Fst zu Wied (Neuwied 22 Aug 1845-Neuwied 22 Oct 1907); m.Wassenaar 18 Jul 1871 Marie Pss of Netherlands (Paauw 5 Jul 1841-Neuwied 22 Jun 1910) $$
-					name=Wilhelm
-					dynasty=1002066
-					religion=catholic culture=german
-					father=100007629	# Hermann zu Wied
-					mother=100070101	# Marie Wilhelmine v. Nassau-Weilburg
-					1845.08.22={birth=yes}  # Neuwied
-					1871.07.18={add_spouse=100037082}	# Wilhelmina van Oranje-Nassau
-					1907.10.22={death=yes}  # Neuwied
-				}
-					100007632={	# 1e) Wilhelm FRIEDRICH Hermann Otto Karl Fst zu Wied (Neuwied 27 Jun 1872-Neuwied 18 Jun 1945); m.Stuttgart 29 Oct 1898 Pauline Pss of Württemberg (Stuttgart 29 Dec 1877-Ludwigsburg 7 May 1965) $$
-						name=Friedrich
+					100007633={	# 1f) Hermann Wilhelm Friedrich Erbpr zu Wied (Potsdam 18 Aug 1899-k.a.Rzeszow, Poland 5 Nov 1941); m.Neuwied 29 Apr 1930 Maria Antonia Gfn zu Stolberg-Wernigerode (Várpalota 6 Feb 1909-Dierdorf 24 Jan 2003) $$
+						name=Hermann
 						dynasty=1002066
 						religion=catholic culture=german
-						father=100007631	# Wilhelm zu Wied
-						mother=100037082	# Wilhelmina van Oranje-Nassau
-						1872.06.27={birth=yes}  # Neuwied
-						1898.10.29={add_spouse=100008113}	# Pauline Olga v. Württemberg
-						1945.06.18={death=yes}  # Neuwied
+						father=100007632	# Friedrich zu Wied
+						mother=100008113	# Pauline Olga v. Württemberg
+						1899.08.18={birth=yes}  # Potsdam
+						1930.04.29={add_spouse=100006311}	# Marie Antonia zu Stolberg-Wernigerode
+						1941.11.05={death=yes}
 					}
-						100007633={	# 1f) Hermann Wilhelm Friedrich Erbpr zu Wied (Potsdam 18 Aug 1899-k.a.Rzeszow, Poland 5 Nov 1941); m.Neuwied 29 Apr 1930 Maria Antonia Gfn zu Stolberg-Wernigerode (Várpalota 6 Feb 1909-Dierdorf 24 Jan 2003) $$
-							name=Hermann
+						100007635={	# 1g) FRIEDRICH WILHELM Heinrich Konstantin Fst zu Wied (Stuttgart 2 Jun 1931-Salmon Arm, British Columbia 28 Aug 2000); m.1st Arolsen (civ) 31 Aug 1958 (rel) 9 Sep 1958 (div 1962) Guda Pss zu Waldeck und Pyrmont (b.Arolsen 22 Aug 1939); m.2nd (civ) Neuwied 14 Jul 1967 (rel) Runkel 15 Jul 1967 Sophie Charlotte Pss zu Stolberg-Stolberg (b.Nordhausen 4 Oct 1943) $$
+							name="Friedrich Wilhelm"
 							dynasty=1002066
 							religion=catholic culture=german
-							father=100007632	# Friedrich zu Wied
-							mother=100008113	# Pauline Olga v. Württemberg
-							1899.08.18={birth=yes}  # Potsdam
-							1930.04.29={add_spouse=100006311}	# Marie Antonia zu Stolberg-Wernigerode
-							1941.11.05={death=yes}
+							father=100007633	# Hermann zu Wied
+							mother=100006311	# Marie Antonia zu Stolberg-Wernigerode
+							1931.06.02={birth=yes}  # Stuttgart
+							1958.08.31={add_spouse=100007123}	# Guda zu Waldeck u.Pyrmont
+							1962.01.01={remove_spouse=100007123}
+							1967.07.14={add_spouse=100006122}	# Sophie Charlotte zu Stolberg-Stolberg
+							2000.08.28={death=yes}  # Salmon Arm British Columbia
 						}
-							100007635={	# 1g) FRIEDRICH WILHELM Heinrich Konstantin Fst zu Wied (Stuttgart 2 Jun 1931-Salmon Arm, British Columbia 28 Aug 2000); m.1st Arolsen (civ) 31 Aug 1958 (rel) 9 Sep 1958 (div 1962) Guda Pss zu Waldeck und Pyrmont (b.Arolsen 22 Aug 1939); m.2nd (civ) Neuwied 14 Jul 1967 (rel) Runkel 15 Jul 1967 Sophie Charlotte Pss zu Stolberg-Stolberg (b.Nordhausen 4 Oct 1943) $$
-								name="Friedrich Wilhelm"
+							100007636={	# 1h) Johann Friedrich Alexander Hermann Josias Wilhelm, renounced rights as first-born son 4 Oct 2000 (b.Neuwied 29 Sep 1960)
+								name=Johann
 								dynasty=1002066
 								religion=catholic culture=german
-								father=100007633	# Hermann zu Wied
-								mother=100006311	# Marie Antonia zu Stolberg-Wernigerode
-								1931.06.02={birth=yes}  # Stuttgart
-								1958.08.31={add_spouse=100007123}	# Guda zu Waldeck u.Pyrmont
-								1962.01.01={remove_spouse=100007123}
-								1967.07.14={add_spouse=100006122}	# Sophie Charlotte zu Stolberg-Stolberg
-								2000.08.28={death=yes}  # Salmon Arm British Columbia
+								father=100007635	# Friedrich Wilhelm zu Wied
+								mother=100007123	# Guda zu Waldeck u.Pyrmont
+								1960.09.29={birth=yes}
 							}
-								100007636={	# 1h) Johann Friedrich Alexander Hermann Josias Wilhelm, renounced rights as first-born son 4 Oct 2000 (b.Neuwied 29 Sep 1960)
-									name=Johann
+							100007637={	# 2h) Friedrich August Maximilian Wilhelm CARL Fst zu Wied (Neuwied 27 Oct 1961-Neuwied 12 Mar 2015); m.Birstein 25 Apr 1998 Isabelle Pss von Isenburg (b.Frankfurt 26 Apr 1973) $$
+								name=Carl
+								dynasty=1002066
+								religion=catholic culture=german
+								father=100007635	# Friedrich Wilhelm zu Wied
+								mother=100007123	# Guda zu Waldeck u.Pyrmont
+								1961.10.27={birth=yes}  # Neuwied
+								1998.04.25={add_spouse=100002381}	# Isabelle v. Isenburg
+								2015.03.12={death=yes}  # Neuwied
+							}
+								100007639={	# 1i) Franz Alexander Friedrich Wilhelm MAXIMILIAN Fst zu Wied (b.Neuwied 10 Aug 1999)
+									name=Maximilian
 									dynasty=1002066
 									religion=catholic culture=german
-									father=100007635	# Friedrich Wilhelm zu Wied
-									mother=100007123	# Guda zu Waldeck u.Pyrmont
-									1960.09.29={birth=yes}
+									father=100007637	# Carl zu Wied
+									mother=100002381	# Isabelle v. Isenburg
+									1999.08.10={birth=yes}
 								}
-								100007637={	# 2h) Friedrich August Maximilian Wilhelm CARL Fst zu Wied (Neuwied 27 Oct 1961-Neuwied 12 Mar 2015); m.Birstein 25 Apr 1998 Isabelle Pss von Isenburg (b.Frankfurt 26 Apr 1973) $$
-									name=Carl
+								100007640={	# 2i) Franz Alexander Heinrich Konstantin Friedrich-Wilhelm (b.Neuwied 12 Jun 2001)
+									name=Franz
 									dynasty=1002066
 									religion=catholic culture=german
-									father=100007635	# Friedrich Wilhelm zu Wied
-									mother=100007123	# Guda zu Waldeck u.Pyrmont
-									1961.10.27={birth=yes}  # Neuwied
-									1998.04.25={add_spouse=100002381}	# Isabelle v. Isenburg
-									2015.03.12={death=yes}  # Neuwied
+									father=100007637	# Carl zu Wied
+									mother=100002381	# Isabelle v. Isenburg
+									2001.06.12={birth=yes}
 								}
-									100007639={	# 1i) Franz Alexander Friedrich Wilhelm MAXIMILIAN Fst zu Wied (b.Neuwied 10 Aug 1999)
-										name=Maximilian
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007637	# Carl zu Wied
-										mother=100002381	# Isabelle v. Isenburg
-										1999.08.10={birth=yes}
-									}
-									100007640={	# 2i) Franz Alexander Heinrich Konstantin Friedrich-Wilhelm (b.Neuwied 12 Jun 2001)
-										name=Franz
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007637	# Carl zu Wied
-										mother=100002381	# Isabelle v. Isenburg
-										2001.06.12={birth=yes}
-									}
-									100007641={	# 4i) Anastasia Isabelle Luise (b.Neuwied 2 Nov 2004)
-										name=Anastasia
-										female=yes
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007637	# Carl zu Wied
-										mother=100002381	# Isabelle v. Isenburg
-										2004.11.02={birth=yes}
-									}
-								100007642={	# 3h) Christina Elisabeth Sophie Wilhelmine Friederike (b.Neuwied 9 Jun 1970); m.Neuwied 8 Jun 1996 Wolf-Eckart Frhr von Gemmingen-Hornberg (b.Bamberg 21 Oct 1959)
-									name=Christina
+								100007641={	# 4i) Anastasia Isabelle Luise (b.Neuwied 2 Nov 2004)
+									name=Anastasia
 									female=yes
 									dynasty=1002066
 									religion=catholic culture=german
-									father=100007635	# Friedrich Wilhelm zu Wied
-									mother=100006122	# Sophie Charlotte zu Stolberg-Stolberg
-									1970.06.09={birth=yes}
+									father=100007637	# Carl zu Wied
+									mother=100002381	# Isabelle v. Isenburg
+									2004.11.02={birth=yes}
 								}
-								100007643={	# 4h) Wolff-Heinrich Friedrich Wilhelm Ello (b.Neuwied 12 Feb 1979)
-									name=Wolff-Heinrich
-									dynasty=1002066
-									religion=catholic culture=german
-									father=100007635	# Friedrich Wilhelm zu Wied
-									mother=100006122	# Sophie Charlotte zu Stolberg-Stolberg
-									1979.02.12={birth=yes}
-								}
-							100007644={	# 2g) Metfried Alexander Wilhelm Friedrich (b.Stuttgart 25 Apr 1935); m.(civ) Andernach 12 Feb 1968 (rel) Neuwied 14 Feb 1968 Felicitas Frn von der Pahlen (b.Linnich 31 Dec 1948)
-								name=Metfried
+							100007642={	# 3h) Christina Elisabeth Sophie Wilhelmine Friederike (b.Neuwied 9 Jun 1970); m.Neuwied 8 Jun 1996 Wolf-Eckart Frhr von Gemmingen-Hornberg (b.Bamberg 21 Oct 1959)
+								name=Christina
+								female=yes
 								dynasty=1002066
 								religion=catholic culture=german
-								father=100007633	# Hermann zu Wied
-								mother=100006311	# Marie Antonia zu Stolberg-Wernigerode
-								1935.04.25={birth=yes}
-								1968.02.12={add_spouse=100095469}	# FRN Felicitas von der Pahlen
-								2012.01.01={death=yes}  # EST.
+								father=100007635	# Friedrich Wilhelm zu Wied
+								mother=100006122	# Sophie Charlotte zu Stolberg-Stolberg
+								1970.06.09={birth=yes}
 							}
-								100007645={	# 1h) Friedrich Christian Hermann Wilhelm Alexis (b.Waldbröl 5 Aug 1968); m.Runkel 28 Jun 2002 (rel) 29 Jun 2002 Sibylle Garbe (b.Freiburg 29 Jun 1972)
+							100007643={	# 4h) Wolff-Heinrich Friedrich Wilhelm Ello (b.Neuwied 12 Feb 1979)
+								name=Wolff-Heinrich
+								dynasty=1002066
+								religion=catholic culture=german
+								father=100007635	# Friedrich Wilhelm zu Wied
+								mother=100006122	# Sophie Charlotte zu Stolberg-Stolberg
+								1979.02.12={birth=yes}
+							}
+						100007644={	# 2g) Metfried Alexander Wilhelm Friedrich (b.Stuttgart 25 Apr 1935); m.(civ) Andernach 12 Feb 1968 (rel) Neuwied 14 Feb 1968 Felicitas Frn von der Pahlen (b.Linnich 31 Dec 1948)
+							name=Metfried
+							dynasty=1002066
+							religion=catholic culture=german
+							father=100007633	# Hermann zu Wied
+							mother=100006311	# Marie Antonia zu Stolberg-Wernigerode
+							1935.04.25={birth=yes}
+							1968.02.12={add_spouse=100095469}	# FRN Felicitas von der Pahlen
+							2012.01.01={death=yes}  # EST.
+						}
+							100007645={	# 1h) Friedrich Christian Hermann Wilhelm Alexis (b.Waldbröl 5 Aug 1968); m.Runkel 28 Jun 2002 (rel) 29 Jun 2002 Sibylle Garbe (b.Freiburg 29 Jun 1972)
+								name=Friedrich
+								dynasty=1002066
+								religion=catholic culture=german
+								father=100007644	# Metfried zu Wied
+								mother=100095469	# FRN Felicitas von der Pahlen
+								1968.08.05={birth=yes}
+								2002.06.28={add_spouse=100094874}	# Sibylle Garbe
+							}
+								100007646={	# 1i) Ferdinand Constantin Georg Friedrich Wilhelm (b.Frankfurt 9 Oct 2003)
+									name=Ferdinand
+									dynasty=1002066
+									religion=catholic culture=german
+									father=100007645	# Friedrich zu Wied
+									mother=100094874	# Sibylle Garbe
+									2003.10.09={birth=yes}
+								}
+								100007647={	# 2i) Friedrich Conrad Leopold Günter Wilhelm (b.Frankfurt 5 Jan 2006)
 									name=Friedrich
 									dynasty=1002066
 									religion=catholic culture=german
-									father=100007644	# Metfried zu Wied
-									mother=100095469	# FRN Felicitas von der Pahlen
-									1968.08.05={birth=yes}
-									2002.06.28={add_spouse=100094874}	# Sibylle Garbe
+									father=100007645	# Friedrich zu Wied
+									mother=100094874	# Sibylle Garbe
+									2006.01.05={birth=yes}
 								}
-									100007646={	# 1i) Ferdinand Constantin Georg Friedrich Wilhelm (b.Frankfurt 9 Oct 2003)
-										name=Ferdinand
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007645	# Friedrich zu Wied
-										mother=100094874	# Sibylle Garbe
-										2003.10.09={birth=yes}
-									}
-									100007647={	# 2i) Friedrich Conrad Leopold Günter Wilhelm (b.Frankfurt 5 Jan 2006)
-										name=Friedrich
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007645	# Friedrich zu Wied
-										mother=100094874	# Sibylle Garbe
-										2006.01.05={birth=yes}
-									}
-									100007648={	# 3i) Friedrich Carl Metfried Alexander Wilhelm (b.Frankfurt 20 May 2007)
-										name=Friedrich
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007645	# Friedrich zu Wied
-										mother=100094874	# Sibylle Garbe
-										2007.05.20={birth=yes}
-									}
-									100007649={	# 4i) Friedrich Christian Franz Gustav Wilhelm Ulrich (b.Gelnhausen 17 Sep 2010)
-										name=Friedrich
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007645	# Friedrich zu Wied
-										mother=100094874	# Sibylle Garbe
-										2010.09.17={birth=yes}
-									}
-								100007650={	# 2h) Magnus Alexander Wilhelm Friedrich (b.Waldbröl 6 Jun 1972); m.München 23 Sep 2005 (rel) Runkel 2 Oct 2005 Marie-Therese Schroth (b.Exeter 8 Feb 1977)
-									name=Magnus
+								100007648={	# 3i) Friedrich Carl Metfried Alexander Wilhelm (b.Frankfurt 20 May 2007)
+									name=Friedrich
 									dynasty=1002066
 									religion=catholic culture=german
-									father=100007644	# Metfried zu Wied
-									mother=100095469	# FRN Felicitas von der Pahlen
-									1972.06.06={birth=yes}
-									2005.09.23={add_spouse=100095252}	# Marie-Therese Schroth
+									father=100007645	# Friedrich zu Wied
+									mother=100094874	# Sibylle Garbe
+									2007.05.20={birth=yes}
 								}
-									100007651={	# 1i) Sidonie Eva Katharina Marie-Therese (b.München 2008)
-										name=Sidonie
-										female=yes
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007650	# Magnus zu Wied
-										mother=100095252	# Marie-Therese Schroth
-										2008.01.01={birth=yes}
-									}
-									100007652={	# 2i) Charlotte Millicent Marie Antonie (b.München 2010)
-										name=Charlotte
-										female=yes
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007650	# Magnus zu Wied
-										mother=100095252	# Marie-Therese Schroth
-										2010.01.01={birth=yes}
-									}
-							100007653={	# 3g) Wilhelmine Friederike Elisabeth Henriette Anastasia Osterlind (b.Stuttgart 8 Apr 1939); m.Neuwied 7 Sep 1964 Werner von Klitzing (b.Hannover 3 Aug 1934)
+								100007649={	# 4i) Friedrich Christian Franz Gustav Wilhelm Ulrich (b.Gelnhausen 17 Sep 2010)
+									name=Friedrich
+									dynasty=1002066
+									religion=catholic culture=german
+									father=100007645	# Friedrich zu Wied
+									mother=100094874	# Sibylle Garbe
+									2010.09.17={birth=yes}
+								}
+							100007650={	# 2h) Magnus Alexander Wilhelm Friedrich (b.Waldbröl 6 Jun 1972); m.München 23 Sep 2005 (rel) Runkel 2 Oct 2005 Marie-Therese Schroth (b.Exeter 8 Feb 1977)
+								name=Magnus
+								dynasty=1002066
+								religion=catholic culture=german
+								father=100007644	# Metfried zu Wied
+								mother=100095469	# FRN Felicitas von der Pahlen
+								1972.06.06={birth=yes}
+								2005.09.23={add_spouse=100095252}	# Marie-Therese Schroth
+							}
+								100007651={	# 1i) Sidonie Eva Katharina Marie-Therese (b.München 2008)
+									name=Sidonie
+									female=yes
+									dynasty=1002066
+									religion=catholic culture=german
+									father=100007650	# Magnus zu Wied
+									mother=100095252	# Marie-Therese Schroth
+									2008.01.01={birth=yes}
+								}
+								100007652={	# 2i) Charlotte Millicent Marie Antonie (b.München 2010)
+									name=Charlotte
+									female=yes
+									dynasty=1002066
+									religion=catholic culture=german
+									father=100007650	# Magnus zu Wied
+									mother=100095252	# Marie-Therese Schroth
+									2010.01.01={birth=yes}
+								}
+						100007653={	# 3g) Wilhelmine Friederike Elisabeth Henriette Anastasia Osterlind (b.Stuttgart 8 Apr 1939); m.Neuwied 7 Sep 1964 Werner von Klitzing (b.Hannover 3 Aug 1934)
+							name=Wilhelmine
+							female=yes
+							dynasty=1002066
+							religion=catholic culture=german
+							father=100007633	# Hermann zu Wied
+							mother=100006311	# Marie Antonia zu Stolberg-Wernigerode
+							1939.04.08={birth=yes}
+						}
+					100007654={	# 2f) Dietrich Wilhelm Friedrich Karl Paul (Potsdam 30 Oct 1901-Ludwigsburg 8 Jan 1976); m.Berlin 8 Jul 1928 Julie Gfn Grote (Berlin 9 Oct 1902-Ludwigsburg 17 Feb 1988)
+						name=Dietrich
+						dynasty=1002066
+						religion=catholic culture=german
+						father=100007632	# Friedrich zu Wied
+						mother=100008113	# Pauline Olga v. Württemberg
+						1901.10.30={birth=yes}  # Potsdam
+						1928.07.08={add_spouse=100094904}	# GFN Julie Grote
+						1976.01.08={death=yes}  # Ludwigsburg
+					}
+						100007655={	# 1g) Wilhelm Friedrich Otto Hermann Maximilian (Hannover 30 May 1929-Agatharied-Hausham 5 Jun 2008)
+							name=Wilhelm
+							dynasty=1002066
+							religion=catholic culture=german
+							father=100007654	# Dietrich zu Wied
+							mother=100094904	# GFN Julie Grote
+							1929.05.30={birth=yes}  # Hannover
+							2008.06.05={death=yes}  # Agatharied-Hausham
+						}
+						100007656={	# 2g) Wilhelm Friedrich Ulrich (Stuttgart 12 Jun 1931-Rottach-Egern 12 Sep 2010); m.München 2 Dec 1968 Ilke Fischer (b.Bonn 9 Dec 1936)
+							name=Wilhelm
+							dynasty=1002066
+							religion=catholic culture=german
+							father=100007654	# Dietrich zu Wied
+							mother=100094904	# GFN Julie Grote
+							1931.06.12={birth=yes}  # Stuttgart
+							1968.12.02={add_spouse=100094849}	# Ilke Fischer
+							2010.09.12={death=yes}  # Rottach-Egern
+						}
+							100007657={	# 1h) Wilhelm Friedrich Ulrich (b.München 26 Jun 1970); m.Birmingham 1 Jul 2000 Clarissa Elizabeth Makepeace-Massingham (b.Evesham 8 Jul 1971)
+								name=Wilhelm
+								dynasty=1002066
+								religion=catholic culture=german
+								father=100007656	# Wilhelm zu Wied
+								mother=100094849	# Ilke Fischer
+								1970.06.26={birth=yes}
+								2000.07.01={add_spouse=100095058}	# Clarissa Elizabeth Makepeace-Massingham
+							}
+								100007659={	# 1i) Wilhelmn Friedrich Ulrich Maximilian Georg (b.London 9 May 2001)
+									name=Wilhelmn
+									dynasty=1002066
+									religion=catholic culture=german
+									father=100007657	# Wilhelm zu Wied
+									mother=100095058	# Clarissa Elizabeth Makepeace-Massingham
+									2001.05.09={birth=yes}
+								}
+								100007660={	# 2i) George Edward August Wilhelm (b.London 7 Mar 2004)
+									name=George
+									dynasty=1002066
+									religion=catholic culture=german
+									father=100007657	# Wilhelm zu Wied
+									mother=100095058	# Clarissa Elizabeth Makepeace-Massingham
+									2004.03.07={birth=yes}
+								}
+								100007661={	# 3i) Philipp Ulrich Edward Albert Wilhelm (b.3 Jun 2010)
+									name=Philipp
+									dynasty=1002066
+									religion=catholic culture=german
+									father=100007657	# Wilhelm zu Wied
+									mother=100095058	# Clarissa Elizabeth Makepeace-Massingham
+									2010.06.01={birth=yes}
+								}
+							100007662={	# 2h) Wilhelmine Friederike Pauline Elisabeth Marie (b.München 27 Dec 1973); m.Altshausen 11 Nov 1993 (rel) 12 Nov 1993 Friedrich, Duke of Württemberg (b.Friedrichshafen 1 Jun 1961) $$
 								name=Wilhelmine
 								female=yes
 								dynasty=1002066
 								religion=catholic culture=german
-								father=100007633	# Hermann zu Wied
-								mother=100006311	# Marie Antonia zu Stolberg-Wernigerode
-								1939.04.08={birth=yes}
+								father=100007656	# Wilhelm zu Wied
+								mother=100094849	# Ilke Fischer
+								1973.12.27={birth=yes}
 							}
-						100007654={	# 2f) Dietrich Wilhelm Friedrich Karl Paul (Potsdam 30 Oct 1901-Ludwigsburg 8 Jan 1976); m.Berlin 8 Jul 1928 Julie Gfn Grote (Berlin 9 Oct 1902-Ludwigsburg 17 Feb 1988)
-							name=Dietrich
+						100007663={	# 4g) Wilhelm Friedrich Dietrich Ludwig-Eugen (Stuttgart 27 Aug 1938-München 11 May 2001); m.München (civ) 30 May 1966 (rel) 8 Jun 1966 Helga Gemeinert (Sorau, Niederlausitz 7 May 1941-München 11 Dec 2004)
+							name=Wilhelm
 							dynasty=1002066
 							religion=catholic culture=german
-							father=100007632	# Friedrich zu Wied
-							mother=100008113	# Pauline Olga v. Württemberg
-							1901.10.30={birth=yes}  # Potsdam
-							1928.07.08={add_spouse=100094904}	# GFN Julie Grote
-							1976.01.08={death=yes}  # Ludwigsburg
+							father=100007654	# Dietrich zu Wied
+							mother=100094904	# GFN Julie Grote
+							1938.08.27={birth=yes}  # Stuttgart
+							1966.05.30={add_spouse=100094881}	# Helga Gemeinert
+							2001.05.11={death=yes}  # München
 						}
-							100007655={	# 1g) Wilhelm Friedrich Otto Hermann Maximilian (Hannover 30 May 1929-Agatharied-Hausham 5 Jun 2008)
+							100007664={	# 1h) Wilhelm Friedrich Dietrich Ludwig Karl Edzard (b.München 16 Jan 1968)
 								name=Wilhelm
 								dynasty=1002066
 								religion=catholic culture=german
-								father=100007654	# Dietrich zu Wied
-								mother=100094904	# GFN Julie Grote
-								1929.05.30={birth=yes}  # Hannover
-								2008.06.05={death=yes}  # Agatharied-Hausham
+								father=100007663	# Wilhelm zu Wied
+								mother=100094881	# Helga Gemeinert
+								1968.01.16={birth=yes}
 							}
-							100007656={	# 2g) Wilhelm Friedrich Ulrich (Stuttgart 12 Jun 1931-Rottach-Egern 12 Sep 2010); m.München 2 Dec 1968 Ilke Fischer (b.Bonn 9 Dec 1936)
-								name=Wilhelm
-								dynasty=1002066
-								religion=catholic culture=german
-								father=100007654	# Dietrich zu Wied
-								mother=100094904	# GFN Julie Grote
-								1931.06.12={birth=yes}  # Stuttgart
-								1968.12.02={add_spouse=100094849}	# Ilke Fischer
-								2010.09.12={death=yes}  # Rottach-Egern
-							}
-								100007657={	# 1h) Wilhelm Friedrich Ulrich (b.München 26 Jun 1970); m.Birmingham 1 Jul 2000 Clarissa Elizabeth Makepeace-Massingham (b.Evesham 8 Jul 1971)
-									name=Wilhelm
-									dynasty=1002066
-									religion=catholic culture=german
-									father=100007656	# Wilhelm zu Wied
-									mother=100094849	# Ilke Fischer
-									1970.06.26={birth=yes}
-									2000.07.01={add_spouse=100095058}	# Clarissa Elizabeth Makepeace-Massingham
-								}
-									100007659={	# 1i) Wilhelmn Friedrich Ulrich Maximilian Georg (b.London 9 May 2001)
-										name=Wilhelmn
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007657	# Wilhelm zu Wied
-										mother=100095058	# Clarissa Elizabeth Makepeace-Massingham
-										2001.05.09={birth=yes}
-									}
-									100007660={	# 2i) George Edward August Wilhelm (b.London 7 Mar 2004)
-										name=George
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007657	# Wilhelm zu Wied
-										mother=100095058	# Clarissa Elizabeth Makepeace-Massingham
-										2004.03.07={birth=yes}
-									}
-									100007661={	# 3i) Philipp Ulrich Edward Albert Wilhelm (b.3 Jun 2010)
-										name=Philipp
-										dynasty=1002066
-										religion=catholic culture=german
-										father=100007657	# Wilhelm zu Wied
-										mother=100095058	# Clarissa Elizabeth Makepeace-Massingham
-										2010.06.01={birth=yes}
-									}
-								100007662={	# 2h) Wilhelmine Friederike Pauline Elisabeth Marie (b.München 27 Dec 1973); m.Altshausen 11 Nov 1993 (rel) 12 Nov 1993 Friedrich, Duke of Württemberg (b.Friedrichshafen 1 Jun 1961) $$
-									name=Wilhelmine
-									female=yes
-									dynasty=1002066
-									religion=catholic culture=german
-									father=100007656	# Wilhelm zu Wied
-									mother=100094849	# Ilke Fischer
-									1973.12.27={birth=yes}
-								}
-							100007663={	# 4g) Wilhelm Friedrich Dietrich Ludwig-Eugen (Stuttgart 27 Aug 1938-München 11 May 2001); m.München (civ) 30 May 1966 (rel) 8 Jun 1966 Helga Gemeinert (Sorau, Niederlausitz 7 May 1941-München 11 Dec 2004)
-								name=Wilhelm
-								dynasty=1002066
-								religion=catholic culture=german
-								father=100007654	# Dietrich zu Wied
-								mother=100094904	# GFN Julie Grote
-								1938.08.27={birth=yes}  # Stuttgart
-								1966.05.30={add_spouse=100094881}	# Helga Gemeinert
-								2001.05.11={death=yes}  # München
-							}
-								100007664={	# 1h) Wilhelm Friedrich Dietrich Ludwig Karl Edzard (b.München 16 Jan 1968)
-									name=Wilhelm
-									dynasty=1002066
-									religion=catholic culture=german
-									father=100007663	# Wilhelm zu Wied
-									mother=100094881	# Helga Gemeinert
-									1968.01.16={birth=yes}
-								}
-					100007665={	# 3e) Wilhelm Friedrich Heinrich (Neuwied 26 Mar 1876-Arad 18 Apr 1945) $$
-						name=Wilhelm     	# 148895/wilhelm-zu-wied-fuerst-von-albanien/
-						dynasty=1002066
-						religion=catholic culture=german
-						father=100007631	# Wilhelm zu Wied
-						mother=100037082	# Wilhelmina van Oranje-Nassau
-						1876.03.26={birth=yes}  # Neuwied
-						1906.11.30={add_spouse=100005478}	# Sophie von Schönburg
-						1945.04.18={death=yes}  # Arad
-					}
-						100007658={ # Pss Marie Eleanore zu Wied         $$
-							name="Marie Eleanore" # 166367/marie-eleanore-prinzessin-zu-wied/
-							female=yes
-							dynasty=1002066
-							religion=catholic culture=german
-							father=100007665	# Wilhelm zu Wied
-							mother=100005478	# Sophie von Schönburg
-							1909.02.19={birth=yes}
-							1956.09.29={death=yes}
-						}
-					100007666={	# 4e) Wilhelm Friedrich Adolf Hermann Viktor (Neuwied 7 Dec 1877-Moosburg 1 Mar 1946); m.Schloß Wildenfels 6 Jun 1912 Gisela Gfn zu Solms-Wildenfels (Wildenfels 30 Dec 1891-Oberammergau 20 Aug 1976) $$
-						name=Wilhelm
-						dynasty=1002066
-						religion=catholic culture=german
-						father=100007631	# Wilhelm zu Wied
-						mother=100037082	# Wilhelmina van Oranje-Nassau
-						1877.12.07={birth=yes}  # Neuwied
-						1912.06.06={add_spouse=100008214}	# Gisela von Solms-Wildenfels
-						1946.03.01={death=yes}  # Moosburg
-					}
-						100007667={	# 1f) Marie Elisabeth Charlotte Sophie Anna Pauline Luise Solveig (Oslo 14 Mar 1913-Augsburg 30 Mar 1985)
-							name=Marie
-							female=yes
-							dynasty=1002066
-							religion=catholic culture=german
-							father=100007666	# Wilhelm zu Wied
-							mother=100008214	# Gisela von Solms-Wildenfels
-							1913.03.14={birth=yes}  # Oslo
-							1985.03.30={death=yes}  # Augsburg
-						}
-						100007668={	# 2f) Benigna-Viktoria Ingeborg Anna Wilhelmine (Oslo 23 Jul 1918-Oberammergau 16 Jan 1972); m.Berlin 19 Dec 1939 Ernst Hartmann Frhr von Schlotheim (Wiesbaden 27 Dec 1914-Wiesbaden 31 Oct 1952)
-							name=Benigna-Viktoria
-							female=yes
-							dynasty=1002066
-							religion=catholic culture=german
-							father=100007666	# Wilhelm zu Wied
-							mother=100008214	# Gisela von Solms-Wildenfels
-							1918.07.23={birth=yes}  # Oslo
-							1972.01.16={death=yes}  # Oberammergau
-						}
-					100007669={	# 5e) Wilhelmine Friederike Auguste Alexandrine Marie Elisabeth Luise (Neuwied 24 Oct 1880-Mon Repos 29 Aug 1965)
-						name=Wilhelmine
+				100007665={	# 3e) Wilhelm Friedrich Heinrich (Neuwied 26 Mar 1876-Arad 18 Apr 1945) $$
+					name=Wilhelm     	# 148895/wilhelm-zu-wied-fuerst-von-albanien/
+					dynasty=1002066
+					religion=catholic culture=german
+					father=100007631	# Wilhelm zu Wied
+					mother=100037082	# Wilhelmina van Oranje-Nassau
+					1876.03.26={birth=yes}  # Neuwied
+					1906.11.30={add_spouse=100005478}	# Sophie von Schönburg
+					1945.04.18={death=yes}  # Arad
+				}
+					100007658={ # Pss Marie Eleanore zu Wied         $$
+						name="Marie Eleanore" # 166367/marie-eleanore-prinzessin-zu-wied/
 						female=yes
 						dynasty=1002066
 						religion=catholic culture=german
-						father=100007631	# Wilhelm zu Wied
-						mother=100037082	# Wilhelmina van Oranje-Nassau
-						1880.10.24={birth=yes}  # Neuwied
-						1965.08.29={death=yes}  # Mon Repos
+						father=100007665	# Wilhelm zu Wied
+						mother=100005478	# Sophie von Schönburg
+						1909.02.19={birth=yes}
+						1956.09.29={death=yes}
 					}
-					100007670={	# 6e) Elisabeth (Neuwied 28 Jan 1883-Neuwied 14 Nov 1938)
-						name=Elisabeth
+				100007666={	# 4e) Wilhelm Friedrich Adolf Hermann Viktor (Neuwied 7 Dec 1877-Moosburg 1 Mar 1946); m.Schloß Wildenfels 6 Jun 1912 Gisela Gfn zu Solms-Wildenfels (Wildenfels 30 Dec 1891-Oberammergau 20 Aug 1976) $$
+					name=Wilhelm
+					dynasty=1002066
+					religion=catholic culture=german
+					father=100007631	# Wilhelm zu Wied
+					mother=100037082	# Wilhelmina van Oranje-Nassau
+					1877.12.07={birth=yes}  # Neuwied
+					1912.06.06={add_spouse=100008214}	# Gisela von Solms-Wildenfels
+					1946.03.01={death=yes}  # Moosburg
+				}
+					100007667={	# 1f) Marie Elisabeth Charlotte Sophie Anna Pauline Luise Solveig (Oslo 14 Mar 1913-Augsburg 30 Mar 1985)
+						name=Marie
 						female=yes
 						dynasty=1002066
 						religion=catholic culture=german
-						father=100007631	# Wilhelm zu Wied
-						mother=100037082	# Wilhelmina van Oranje-Nassau
-						1883.01.28={birth=yes}  # Neuwied
-						1938.11.14={death=yes}  # Neuwied
+						father=100007666	# Wilhelm zu Wied
+						mother=100008214	# Gisela von Solms-Wildenfels
+						1913.03.14={birth=yes}  # Oslo
+						1985.03.30={death=yes}  # Augsburg
 					}
+					100007668={	# 2f) Benigna-Viktoria Ingeborg Anna Wilhelmine (Oslo 23 Jul 1918-Oberammergau 16 Jan 1972); m.Berlin 19 Dec 1939 Ernst Hartmann Frhr von Schlotheim (Wiesbaden 27 Dec 1914-Wiesbaden 31 Oct 1952)
+						name=Benigna-Viktoria
+						female=yes
+						dynasty=1002066
+						religion=catholic culture=german
+						father=100007666	# Wilhelm zu Wied
+						mother=100008214	# Gisela von Solms-Wildenfels
+						1918.07.23={birth=yes}  # Oslo
+						1972.01.16={death=yes}  # Oberammergau
+					}
+				100007669={	# 5e) Wilhelmine Friederike Auguste Alexandrine Marie Elisabeth Luise (Neuwied 24 Oct 1880-Mon Repos 29 Aug 1965)
+					name=Wilhelmine
+					female=yes
+					dynasty=1002066
+					religion=catholic culture=german
+					father=100007631	# Wilhelm zu Wied
+					mother=100037082	# Wilhelmina van Oranje-Nassau
+					1880.10.24={birth=yes}  # Neuwied
+					1965.08.29={death=yes}  # Mon Repos
+				}
+				100007670={	# 6e) Elisabeth (Neuwied 28 Jan 1883-Neuwied 14 Nov 1938)
+					name=Elisabeth
+					female=yes
+					dynasty=1002066
+					religion=catholic culture=german
+					father=100007631	# Wilhelm zu Wied
+					mother=100037082	# Wilhelmina van Oranje-Nassau
+					1883.01.28={birth=yes}  # Neuwied
+					1938.11.14={death=yes}  # Neuwied
+				}
 #1736.11.18={holder=100002601} # JOHANN FRIEDRICH ALEXANDER
 #1791.08.07={holder=100002603} # 2a) Fst FRIEDRICH KARL zu Wied-Neuwied 
 #1809.03.01={holder=100002609} # 6b) Fst JOHANN KARL AUGUST zu Wied 
@@ -8372,107 +9467,6 @@
 #1945.06.18={holder=100002623} # 1g) FRIEDRICH WILHELM Heinrich Konstantin Fst zu Wied 
 #2000.08.28={holder=100002626} # 1h) Johann Friedrich Alexander Hermann Josias Wilhelm
 ## 	100002600	Wied					   			1002066
-
-
-## 				Revertera von Salandra   			1002064
-100003653={ # Friedrich Revertera von Salandra (Lemberg 21 Jan 1827-Brixen 28 Apr 1904); m.20 Apr 1863 Jelisaveta Buturlin (St.Petersburg 20 Apr 1843-Rome 6 Jan 1890) %%
-	name=Friedrich
-	dynasty=1002064
-	religion=orthodox culture=russian
-	1827.01.21={birth=yes}  # Lemberg
-	1863.04.20={add_spouse=100020150}	# Jelisaveta Buturlin
-	1904.04.28={death=yes}  # Brixen
-}
-	100003652={ # A1. Marie Therese (15 Oct 1864-27 May 1933); m.11 Nov 1907 Emanuel Széchenyi de Sárvár-Felsõvidek (30 Jul 1858-29 Dec 1926) %%
-		name="Marie Therese"
-		female=yes
-		dynasty=1002064
-		religion=catholic culture=german
-		father=100003653	# Friedrich Revertera von Salandra
-		mother=100020150	# Jelisaveta Buturlin
-		1864.10.15={birth=yes}
-		1933.05.27={death=yes}
-	}
-	100003650={ # A2. Nikolaus (13 Feb 1866-22 May 1951); m.4 Nov 1891 Olimpia Maria Borghese (3 Dec 1868-12 Dec 1928) %%
-		name=Nikolaus
-		dynasty=1002064
-		religion=catholic culture=german
-		father=100003653	# Friedrich Revertera von Salandra
-		mother=100020150	# Jelisaveta Buturlin
-		1866.02.13={birth=yes}
-		1891.11.04={add_spouse=100070652}	# Olimpia Maria Borghese
-		1951.05.22={death=yes}
-	}
-		100003651={ # B1. Peter (18 Mar 1893-19 Apr 1966); m.4 Sep 1917 Ida v. Schwarzenberg (10 Mar 1894-4 Jan 1974) %%
-			name=Peter
-			dynasty=1002064
-			religion=catholic culture=german
-			father=100003650	# Nikolaus Revertera von Salandra
-			mother=100070652	# Olimpia Maria Borghese
-			1893.03.18={birth=yes}
-			1917.09.04={add_spouse=100185536}	# Ida v. Schwarzenberg
-			1966.04.19={death=yes}
-		}
-## 				Revertera von Salandra   			1002064
-
-
-## 				von der Mark						1002061
-100002826={ # Johann (1490-1539)
-	name=Johann
-	dynasty=1002061
-	religion=catholic culture=german
-	1490.01.01={birth=yes}
-	1539.01.01={death=yes}
-}
-	100002827={ # A1. Sibylle (Düsseldorf 17 Jul 1512-Weimar 21 Feb 1554); m.9 Feb 1527 Johann Friedrich v. Wettin (Torgau 30 Jun 1503-Weimar 3 Mar 1554) %%
-		name=Sibylle
-		female=yes
-		dynasty=1002061
-		religion=catholic culture=german
-		father=100002826	# Johann von der Mark
-		1512.07.17={birth=yes}  # Düsseldorf
-		1554.02.21={death=yes}  # Weimar
-	}
-	100002825={ # A2. Wilhelm (8 Jul 1516-5 Jan 1592); m.18 Jul 1546 Maria v. Habsburg (15 May 1531-11 Dec 1581) %%
-		name=Wilhelm
-		dynasty=1002061
-		religion=catholic culture=german
-		father=100002826	# Johann von der Mark
-		1516.07.08={birth=yes}
-		1546.07.18={add_spouse=100021229}	# Maria v. Habsburg
-		1592.01.05={death=yes}
-	}
-		100002828={ # B1. Anna (Kleve 1 Mar 1552-Höchstädt 6 Oct 1632); m.27 Sep 1574 Philipp Ludwig v. Wittelsbach (Zweibrücken 2 Oct 1547-Neuburg 22 Aug 1614) %%
-			name=Anna
-			female=yes
-			dynasty=1002061
-			religion=catholic culture=german
-			father=100002825	# Wilhelm von der Mark
-			mother=100021229	# Maria v. Habsburg
-			1552.03.01={birth=yes}  # Kleve
-			1632.10.06={death=yes}  # Höchstädt
-		}
-		100002829={ # B2. Magdalene (Kleve 2 Nov 1553-Meisenheim 30 Jul 1633); m.4 Oct 1579 Johann v. Wittelsbach (Meisenheim 18 May 1550-Germersheim 12 Aug 1604) %%
-			name=Magdalene
-			female=yes
-			dynasty=1002061
-			religion=catholic culture=german
-			father=100002825	# Wilhelm von der Mark
-			mother=100021229	# Maria v. Habsburg
-			1553.11.02={birth=yes}  # Kleve
-			1633.07.30={death=yes}  # Meisenheim
-		}
-		100002830={ # B3. Sibylle (26 Aug 1557-16 Dec 1627); m.4 Mar 1601 Karl v. Habsburg (22 Nov 1560-31 Oct 1618) %%
-			name=Sibylle
-			female=yes
-			dynasty=1002061
-			religion=catholic culture=german
-			father=100002825	# Wilhelm von der Mark
-			mother=100021229	# Maria v. Habsburg
-			1557.08.26={birth=yes}
-			1627.12.16={death=yes}
-		}
-## 				von der Mark						1002061
 
 
 ##  100001750	Eltz								1002059
@@ -8505,8 +9499,8 @@
 			1795.02.10={birth=yes}  # Dresden
 			1859.03.12={death=yes}  # Prague
 		}
-		100000966={	# 2b) Maria Sophie Walpurga Thecla Antonia Auguste Francisca Johanna (Dresden 12 Mar 1796-Prague 4 Sep 1821); m.Prague 24 Apr 1817 Franz Gf von Schlik zu Bassano u.Weißkirchen (Prague 23 May 1789-Vienna 17 Mar 1862)
-			name=Sophie
+		100000966={	# 2b) Maria Sophie Walpurga Thecla Antonia Auguste Francisca Johanna (Dresden 12 Mar 1796-Prague 4 Sep 1821); m.Prague 24 Apr 1817 Franz Gf von Schlik zu Bassano u.Weißkirchen (Prague 23 May 1789-Vienna 17 Mar 1862) $$
+			name="Maria Sophie"
 			female=yes
 			dynasty=1002059
 			religion=catholic culture=german
@@ -9572,108 +10566,6 @@
 ##  100001750	Eltz								1002059
 
 
-##  			Pilati von Thassul zu Daxberg		1002055
-100003308={ # Pilar Pilati von Thassul zu Daxberg (b.23 Apr 1979); m.6 Jun 2012 Christian zu Salm-Horstmar (b.20 May 1975) %%
-	name=Pilar
-	female=yes
-	dynasty=1002055
-	religion=lutheran culture=german
-	1979.04.23={birth=yes}
-}
-100003636={ # Karl Pilati von Thassul zu Daxberg (1874-1949); m.25 Jul 1899 Maria Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (7 Jul 1877-3 Aug 1922) %%
-	name=Karl
-	dynasty=1002055
-	religion=lutheran culture=german
-	1874.01.01={birth=yes}
-	1899.07.25={add_spouse=100004581}	# Maria Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-	1949.01.01={death=yes}
-}
-
-
-100003309={ # Rudolf Pilati von Thassul zu Daxberg (Coritau 19 Apr 1863-Warmbrunn 22 Apr 1915); m.14 Feb 1898 Alice Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein (Warmbrunn 22 Jul 1874-Warmbrunn 28 Jun 1924) %%
-	name=Rudolf
-	dynasty=1002055
-	religion=lutheran culture=german
-	1863.04.19={birth=yes}  # Coritau
-	1898.02.14={add_spouse=100004580}	# Alice Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-	1915.04.22={death=yes}  # Warmbrunn
-}
-	100003300={ # A1. Gotthard (19 Jul 1906-22 Sep 1969); m.15 May 1939 Maria Anna v. Khevenhüller-Metsch (16 Jun 1911-6 Jan 1989) %%
-		name=Gotthard
-		dynasty=1002055
-		religion=catholic culture=german
-		father=100003309	# Rudolf Pilati von Thassul zu Daxberg
-		mother=100004580	# Alice Schaffgotsch gt Semperfrei v.u.zu Kynast u.Greiffenstein
-		1906.07.19={birth=yes}
-		1939.05.15={add_spouse=100115020}	# Maria Anna v. Khevenhüller-Metsch
-		1969.09.22={death=yes}
-	}
-		100003301={ # 1e) Gabrielle Gfn Pilati von Thassul zu Daxberg, b.Sagan 1 Jan 1941; m.Mariazell 1 Jan 1959 (div 1982) Zsigmond Gellerdi Vargha (b.Budapest 1 Jan 1936)
-			name=Gabrielle
-			female=yes
-			dynasty=1002055
-			religion=catholic culture=german
-			father=100003300	# Gotthard Pilati von Thassul zu Daxberg
-			mother=100115020	# Maria Anna v. Khevenhüller-Metsch
-			1941.01.01={birth=yes}
-		}
-			100003302={ # 1f) Zsigmond Gellerdi Vargha (1960-1983)
-				name=Zsigmond
-				dynasty=1002055
-				religion=catholic culture=hungarian
-				father=100084158	# Zsigmond Gellerdi Vargha
-				mother=100003301	# Gabrielle Pilati von Thassul zu Daxberg
-				1960.02.01={birth=yes}
-				1983.02.01={death=yes}
-			}
-			100003303={ # 2f) Christiana Gellerdi Vargha, b.1961
-				name=Christiana
-				dynasty=1002055
-				religion=catholic culture=hungarian
-				father=100084158	# Zsigmond Gellerdi Vargha
-				mother=100003301	# Gabrielle Pilati von Thassul zu Daxberg
-				1961.02.01={birth=yes}
-			}
-		100003304={ # 2e) Beatrix Gfn Pilati von Thassul zu Daxberg (1942-1975)
-			name=Beatrix
-			female=yes
-			dynasty=1002055
-			religion=catholic culture=german
-			father=100003300	# Gotthard Pilati von Thassul zu Daxberg
-			mother=100115020	# Maria Anna v. Khevenhüller-Metsch
-			1942.02.01={birth=yes}
-			1975.02.01={death=yes}
-		}
-		100003305={ # 3e) Gotthard Gf Pilati von Thassul zu Daxberg, b.Salzburg 1 Jan 1945; m.1st Rottach 1 Jan 1972 (div 1979) Kristina Paul (b.Eisenach 1 Jan 1948); m.2d Mespelbrunn 1 Jan 1986 Francesca Filo di Torre Santa Susanna (b.Naples 1 Jan 1946)
-			name=Gotthard
-			dynasty=1002055
-			religion=catholic culture=german
-			father=100003300	# Gotthard Pilati von Thassul zu Daxberg
-			mother=100115020	# Maria Anna v. Khevenhüller-Metsch
-			1945.01.01={birth=yes}
-			1971.01.01={add_spouse=100088860}	# Kristina Paul
-			1979.01.01={remove_spouse=100088860}
-			1986.01.01={add_spouse=100083871}	# Francesca Filo di Torre Santa Susanna
-		}
-			100003306={ # 1f) Tassilo Gf Pilati von Thassul zu Daxberg, b.München 1 Jan 1973
-				name=Tassilo
-				dynasty=1002055
-				religion=catholic culture=german
-				father=100003305	# Gotthard Pilati von Thassul zu Daxberg
-				mother=100088860	# Kristina Paul
-				1973.01.01={birth=yes}
-			}
-			100003307={ # 2f) Octavian Gf Pilati von Thassul zu Daxberg, b.Vienna 1 Jan 1989
-				name=Octavian
-				dynasty=1002055
-				religion=catholic culture=german
-				father=100003305	# Gotthard Pilati von Thassul zu Daxberg
-				mother=100083871	# Francesca Filo di Torre Santa Susanna
-				1989.03.15={birth=yes}
-			}
-##  			Pilati von Thassul zu Daxberg		1002055
-
-
 ##  			Montenuovo					1002048
 100203051={ # 1a) Wilhelm Reinhard, 1726 Graf von Neipperg, Gov of Luxemburg and Chiny, Commanding General in Austria, Head of the War Council 1755 (27 May 1684-Vienna 26 May 1774); m.Vienna 24 Apr 1726 Maria Franziska Theresia Gfn Khevenhüller zu Aichelberg (8 Nov 1702-2 Sep 1760)
 	name="Wilhelm Reinhard"
@@ -9683,20 +10575,21 @@
 	1792.05.26={death=yes}	# Wien
 }
 	100203134={ # 2b) Leopold Joseph Johann Nepomuck (27 Mar 1728-Schwaigern 5 Jan 1792); m.1st 24 Nov 1751 Maria Franziska Eugenia von Königsegg-Rothenfels-Erps (6 Apr 1723-24 Sep 1752); m.2nd Vienna 17 Feb 1754 Maria Wilhelmina Gfn von Althann (1733-Frankfurt 5 Jul 1773); m.3rd 4 May 1774 Marie Luise Gfn von Hatzfeldt-Wildenburg (28 Aug 1750-Paris 24 Jan 1784); m.4th 4 Feb 1787 Bernhardine Josepha Friederike Gfn von Wiser (26 Apr 1761-Schwaigern 14 Jul 1837) $$
-		name=Leopold
+		name="Leopold Joseph"
 		dynasty=1002101
 		religion=catholic culture=german
 		father=100203051	# Wilhelm Reinhard von Neipperg
 		1728.03.27={birth=yes}
 		1751.11.24={add_spouse=100010439}	# Maria von Königsegg-Aulendorf
-		1792.01.05={death=yes}
+		1754.02.17={add_spouse=100022273}	# Maria Wilhelmine v. Althann
+		1792.01.05={death=yes}  # Schwaigern
 	}
 		100184801={ # 2c) Maria Wilhelmina Josepha Theresia (24 May 1755-Vienna 25 Nov 1785); m.1 Feb 1774 Franz Xaver Gundakkar Gf von Starhemberg (d.Pressburg 6 Sep 1804) $$
 			name=Wilhelmina
 			female=yes
 			dynasty=1002101
 			religion=catholic culture=german
-			father=100203134	# Leopold von Neipperg
+			father=100203134	# Leopold Joseph von Neipperg
 			mother=100010439	# Maria von Königsegg-Aulendorf
 			1755.05.24={birth=yes}
 			1785.11.25={death=yes}
@@ -9705,7 +10598,7 @@
 			name="Adam Adalbert"
 			dynasty=1002101
 			religion=catholic culture=german
-			father=100203134	# Leopold von Neipperg
+			father=100203134	# Leopold Joseph von Neipperg
 			1775.04.08={birth=yes}
 			1821.09.07={add_spouse=100020026}	# Marie Louise v. Habsburg-Lothringen
 			1829.02.22={death=yes}
@@ -9871,7 +10764,7 @@
 			father=100003050	# Adam Adalbert von Neipperg
 			mother=100020026	# Marie Louise v. Habsburg-Lothringen
 			1819.08.08={birth=yes}
-			1850.05.18={add_spouse=100115023}	# Juliane Batthyány-Strattmann de Német-Ujvar
+			1850.05.18={add_spouse=100115324}	# Juliane Batthyány-Strattmann de Német-Ujvar
 			1895.04.06={death=yes}
 		}
 			100004354={ # 1e) Albertine Pss von Montenuovo (Vienna 30 Jun 1853, d.Schloß Chroberz, Poland 13 Nov 1895); m.Schwaigern 5 Aug 1873 Zygmunt Ct Wielopolski (Cracow 30 Jan 1833-Berlin 27 Feb 1902)  $$
@@ -9880,7 +10773,7 @@
 				dynasty=1002048
 				religion=catholic culture=german
 				father=100003055	# Wilhelm Albrecht di Montenuovo
-				mother=100115023	# Juliane Batthyány-Strattmann de Német-Ujvar
+				mother=100115324	# Juliane Batthyány-Strattmann de Német-Ujvar
 				1853.01.01={birth=yes}
 				1895.01.01={death=yes}
 			}
@@ -9889,7 +10782,7 @@
 				dynasty=1002048
 				religion=catholic culture=german
 				father=100003055	# Wilhelm Albrecht di Montenuovo
-				mother=100115023	# Juliane Batthyány-Strattmann de Német-Ujvar
+				mother=100115324	# Juliane Batthyány-Strattmann de Német-Ujvar
 				1854.09.16={birth=yes}
 				1879.10.30={add_spouse=100185942}	# Franziska Maria Kinsky von Wchinitz u.Tettau
 				1927.09.06={death=yes}
@@ -9920,7 +10813,7 @@
 				dynasty=1002048
 				religion=catholic culture=german
 				father=100003055	# Wilhelm Albrecht di Montenuovo
-				mother=100115023	# Juliane Batthyány-Strattmann de Német-Ujvar
+				mother=100115324	# Juliane Batthyány-Strattmann de Német-Ujvar
 				1859.09.10={birth=yes}  # Wien
 				1911.03.02={death=yes}  # Wien
 			}
@@ -10019,7 +10912,7 @@
 	father=100012856	# Antoine de Croÿ
 	mother=100085980	# DAME Margaret de Lorraine-Vaudémont
 	1436.01.01={birth=yes}  # EST.
-	1455.01.01={add_spouse=100385980}	# Jacqueline de Luxemburg
+	1455.01.01={add_spouse=100104251}	# Jacqueline de Luxemburg
 	1511.01.01={death=yes}
 }
 	100012825={ # A1. Henri de Croy, Cte de Porcean, +1514; m.Charlotte de Chateaubriand (+1509)
@@ -10027,7 +10920,7 @@
 		dynasty=1002044
 		religion=catholic culture=frankish
 		father=100002926	# Philippe de Croÿ
-		mother=100385980	# Jacqueline de Luxemburg
+		mother=100104251	# Jacqueline de Luxemburg
 		1457.01.01={birth=yes}  # EST.
 		1497.01.01={add_spouse=100099287}	# Charlotte de Chateaubriand
 		1514.01.01={death=yes}
@@ -10236,7 +11129,7 @@
 		father=100012863	# Jean de Croÿ
 		mother=100086730	# DAME Marie de Lalaing de Quievrain
 		1437.01.01={birth=yes}
-		1453.01.01={add_spouse=100103437}	# GFN Walburga von Mors-Saarwerden
+		1453.01.01={add_spouse=100103437}	# GFN Walburga von Mörs u.Saarwerden
 		1482.09.18={death=yes}  # Brugge
 	}
 		100012865={ # C1. Cte Charles de Chimay, -cr IV.1486 Pr de Chimay, *1455, +Beaumont 11.9.1527; m.9.12.1495 Louise d'Albret, Vcts de Limoges (+21.9.1531)
@@ -10244,7 +11137,7 @@
 			dynasty=1002044
 			religion=catholic culture=frankish
 			father=100012864	# Philippe de Croÿ
-			mother=100103437	# GFN Walburga von Mors-Saarwerden
+			mother=100103437	# GFN Walburga von Mörs u.Saarwerden
 			1455.01.01={birth=yes}
 			1495.12.09={add_spouse=100103440}	# VCTS Louise d'Albret de Limoges
 			1527.09.11={death=yes}  # Beaumont
@@ -10274,7 +11167,7 @@
 			dynasty=1002044
 			religion=catholic culture=frankish
 			father=100012864	# Philippe de Croÿ
-			mother=100103437	# GFN Walburga von Mors-Saarwerden
+			mother=100103437	# GFN Walburga von Mörs u.Saarwerden
 			1457.01.01={birth=yes}  # EST.
 			1507.01.01={add_spouse=100103447}	# VCTS Anna von der Gracht de Furnes
 			1507.12.01={add_spouse=100103446}	# Louise de Luxemburg
@@ -10844,7 +11737,7 @@
 				1750.01.01={death=yes}  # EST.
 			}
 			100012751={ # C2. Pr Jean Juste, Cde de Priego, *Brussels 27.5.1716, +Cordoba 1.VII.1790; m.12.2.1742 Pss Maria Fernanda Lante della Rovere
-				name="Jean _Juste"
+				name="Jean Juste"
 				dynasty=1002044
 				religion=catholic culture=frankish
 				father=100008158	# Jean de Croÿ
@@ -11254,7 +12147,7 @@
 					father=100000864	# Anton Prosper de Croÿ
 					mother=100092243	# Rosalie von Heyden-Linden
 					1926.09.07={birth=yes}
-					1955.07.27={add_spouse=100036224}	# Marie Therese von Schaesberg
+					1955.07.27={add_spouse=100036224}	# Marie-Therese von Schaesberg
 					2014.08.02={death=yes}
 				}
 					100000869={	# 1f) Eugen Alexander Clemens Josef (b.Mühlheim an der Ruhr 22 Apr 1956); m.Wehrden 29 Sep 1984 Carolyn-Huberta von Hennigs (b.Bonn-Dottendorf 12 Mar 1953)
@@ -11262,7 +12155,7 @@
 						dynasty=1002044
 						religion=catholic culture=german
 						father=100000868	# Clemens Anton de Croÿ
-						mother=100036224	# Marie Therese von Schaesberg
+						mother=100036224	# Marie-Therese von Schaesberg
 						1956.04.22={birth=yes}
 						1984.09.29={add_spouse=100092196}	# Carolyn-Huberta von Hennigs
 					}
@@ -11271,7 +12164,7 @@
 						dynasty=1002044
 						religion=catholic culture=german
 						father=100000868	# Clemens Anton de Croÿ
-						mother=100036224	# Marie Therese von Schaesberg
+						mother=100036224	# Marie-Therese von Schaesberg
 						1957.09.08={birth=yes}
 						1985.06.27={add_spouse=100003268}	# Margarete v. Oldenburg-Gottorf
 					}
@@ -11306,7 +12199,7 @@
 						dynasty=1002044
 						religion=catholic culture=german
 						father=100000868	# Clemens Anton de Croÿ
-						mother=100036224	# Marie Therese von Schaesberg
+						mother=100036224	# Marie-Therese von Schaesberg
 						1959.05.08={birth=yes}
 						2002.11.01={add_spouse=100084039}	# Katharina Frühe
 					}
@@ -11323,7 +12216,7 @@
 						dynasty=1002044
 						religion=catholic culture=german
 						father=100000868	# Clemens Anton de Croÿ
-						mother=100036224	# Marie Therese von Schaesberg
+						mother=100036224	# Marie-Therese von Schaesberg
 						1962.06.05={birth=yes}
 						1990.04.16={add_spouse=100011075}	# Elisabeth v. Waldburg zu Zeil u.Trauchburg
 					}
@@ -12772,15 +13665,15 @@
 					father=100000799	# Karl Franz de Croÿ
 					mother=100090811	# FRN Barbara Söll v.u.zu Teissenegg auf Stainburg
 					1940.06.23={birth=yes}
-					1972.04.04={add_spouse=100115038}	# Marie Antoinette v. Khevenhüller-Metsch
-					2004.01.01={remove_spouse=100115038}
+					1972.04.04={add_spouse=100025933}	# Marie Antoinette v. Khevenhüller-Metsch
+					2004.01.01={remove_spouse=100025933}
 				}
 					100000801={	# 1f) Clemens (b.Vienna 13 Aug 1974)
 						name=Clemens
 						dynasty=1002044
 						religion=catholic culture=german
 						father=100000800	# Ferdinand de Croÿ
-						mother=100115038	# Marie Antoinette v. Khevenhüller-Metsch
+						mother=100025933	# Marie Antoinette v. Khevenhüller-Metsch
 						1974.08.13={birth=yes}
 					}
 				100000802={	# 2e) Elisabeth Maria Brigitte Christiane Barbara (b.Buchberg 21 Dec 1941); m.Vienna 4 Jun 1966 (div 1980) Albrecht Frhr von dem Bongart (b.Vienna 9 Jan 1940)
@@ -14074,8 +14967,8 @@
 										father=100005180	# Clemens v. Schönborn
 										mother=100012307	# Dorothea von Pappenheim
 										1939.10.03={birth=yes}
-										1964.01.06={add_spouse=100014251}	# Tatjana Gorchakov
-										1974.01.01={remove_spouse=100014251}
+										1964.01.06={add_spouse=100021163}	# Tatjana Gorchakov
+										1974.01.01={remove_spouse=100021163}
 										1974.10.25={add_spouse=100003477}	# Felizitas Reuß
 										1992.01.01={remove_spouse=100003477}
 									}
@@ -14084,7 +14977,7 @@
 											dynasty=1002043
 											religion=lutheran culture=german
 											father=100005189	# Franz Clemens v. Schönborn
-											mother=100014251	# Tatjana Gorchakov
+											mother=100021163	# Tatjana Gorchakov
 											1964.09.29={birth=yes}
 											2013.01.01={add_spouse=100083129}	# CSS Orsola Rizzardi
 										}
@@ -14093,7 +14986,7 @@
 											dynasty=1002043
 											religion=lutheran culture=german
 											father=100005189	# Franz Clemens v. Schönborn
-											mother=100014251	# Tatjana Gorchakov
+											mother=100021163	# Tatjana Gorchakov
 											1966.03.29={birth=yes}
 											2002.09.23={add_spouse=100080385}	# Maria Carla Bargagli Petrucci
 										}
@@ -14111,7 +15004,7 @@
 											dynasty=1002043
 											religion=lutheran culture=german
 											father=100005189	# Franz Clemens v. Schönborn
-											mother=100014251	# Tatjana Gorchakov
+											mother=100021163	# Tatjana Gorchakov
 											1967.06.02={birth=yes}
 										}
 										100005194={	# 4j) Gregor Franz Friedrich Karl Teilhard (b.Geneva 18 Apr 1977)
@@ -14791,7 +15684,7 @@
 				mother=100035889	# Maria Theresia von Montfort-Tettnang
 				1727.01.17={birth=yes}
 				1751.08.01={add_spouse=100004276}	# Maria Elisabeth zu Salm
-				1776.06.16={add_spouse=100025005}	# Marie Therese v. Colloredo-Mannsfeld
+				1776.06.16={add_spouse=100025004}	# Marie Therese v. Colloredo-Mannsfeld
 				1801.07.25={death=yes}
 			}
 				100005265={	# 1d) Maria Christina Gabrielle Elisabeth (20 Sep 1754-25 Aug 1797); m.30 Jan 1772 Franz Gf von Silva-Tarouca (d.5 Mar 1797) $$
@@ -15205,144 +16098,129 @@
 
 ## SEITENLINIE DER DE LIGNE
 #ligne4
-100397061={ # Guillaume de Ligne, sn de Barbançon, +bef 30.6.1519; m.ca 1475 Anne Adriane van Halewyn (+1543)
-	name=Guillaume
-	dynasty=1007002
-	religion=catholic culture=frankish
-	father=100367061	# Michel de Ligne
-	1450.01.01={birth=yes}  # EST.
-	1519.01.01={death=yes}  # EST.
-}
-	100397062={ # A1. Louis de Ligne, sn de Barbançon, +ca 1559; m.27.2.1513 Marie de Glymes (+after 24.5.1566)
-		name=Guillaume
-		dynasty=1007002
+# LIGNE -> 
+	100295885={ # B1. Jean de Ligne, comte d'Arenberg, baron de Barbançon, heer van Zevenbergen, stadholder of Groningen and Friesland, *1528, +k.a.Heiligerlee 23.5.1568; m.Grave 18.10.1547 Gfn Margarethe von der Marck, Css d'Arenberg (*15.2.1527 +18.2.1599)
+		name=Jean
+		dynasty=1002040
 		religion=catholic culture=frankish
-		father=100397061	# Guillaume de Ligne
-		1483.01.01={birth=yes}  # EST.
-		1559.01.01={death=yes}
+		father=100397062	# Guillaume de Ligne
+		1528.01.01={birth=yes}
+		1549.01.01={add_spouse=100093355}	# GFN Margarethe von der Marck
+		1568.05.23={death=yes}
 	}
-		100295885={ # B1. Jean de Ligne, comte d'Arenberg, baron de Barbançon, heer van Zevenbergen, stadholder of Groningen and Friesland, *1528, +k.a.Heiligerlee 23.5.1568; m.Grave 18.10.1547 Gfn Margarethe von der Marck, Css d'Arenberg (*15.2.1527 +18.2.1599)
-			name=Jean
+		100295886={ # C1. Charles de Ligne, Prince d'Arenberg, Duc d'Aerschot, *Vollenhove 22.2.1550, +Enghien 18.1.1616; m.Beaumont 4.1.1587 Anne de Croy, Dss d'Aerschot (*4.1.1564 +26.2.1635) $$
+			name=Charles
 			dynasty=1002040
 			religion=catholic culture=frankish
-			father=100397062	# Guillaume de Ligne
-			1528.01.01={birth=yes}
-			1549.01.01={add_spouse=100093355}	# GFN Margarethe von der Marck
-			1568.05.23={death=yes}
+			father=100295885	# Jean v. Arenberg
+			mother=100093355	# GFN Margarethe von der Marck
+			1550.02.22={birth=yes}
+			1587.01.04={add_spouse=100012841}	# Anne de Croÿ
+			1616.01.18={death=yes}
 		}
-			100295886={ # C1. Charles de Ligne, Prince d'Arenberg, Duc d'Aerschot, *Vollenhove 22.2.1550, +Enghien 18.1.1616; m.Beaumont 4.1.1587 Anne de Croy, Dss d'Aerschot (*4.1.1564 +26.2.1635) $$
-				name=Charles
+			100295887={ # D1. Philippe-Charles, Prince d'Arenberg, Duc d'Aerschot, *Barbançon 28.10.1587, +Madrid 25.9.1640; 1m: 21.9.1610 Pierre Hippolyte Anne de Melun, Bsse de Caumont (+16.2.1615); 2m: 28.6.1620 Isabelle Claire de Berlaymont, Css de Lalaing (*18.8.1602, +9.8.1630); 3m: Köln 29.3.1632 Gfn Maria Cleopha von Hohenzollern-Sigmaringen (*11.6.1599 +26.2.1685) $$
+				name=Philippe-Charles
 				dynasty=1002040
 				religion=catholic culture=frankish
-				father=100295885	# Jean v. Arenberg
-				mother=100093355	# GFN Margarethe von der Marck
-				1550.02.22={birth=yes}
-				1587.01.04={add_spouse=100012841}	# Anne de Croÿ
-				1616.01.18={death=yes}
+				father=100295886	# Charles v. Arenberg
+				mother=100012841	# Anne de Croÿ
+				1587.10.28={birth=yes}
+				1632.03.29={add_spouse=100002300}	# Maria Cleopha v. Hohenzollern-Sigmaringen
+				1640.09.25={death=yes}
 			}
-				100295887={ # D1. Philippe-Charles, Prince d'Arenberg, Duc d'Aerschot, *Barbançon 28.10.1587, +Madrid 25.9.1640; 1m: 21.9.1610 Pierre Hippolyte Anne de Melun, Bsse de Caumont (+16.2.1615); 2m: 28.6.1620 Isabelle Claire de Berlaymont, Css de Lalaing (*18.8.1602, +9.8.1630); 3m: Köln 29.3.1632 Gfn Maria Cleopha von Hohenzollern-Sigmaringen (*11.6.1599 +26.2.1685) $$
-					name=Philippe-Charles
+				100295888={ # E1. [1m.] Pss Claire Eugenie, Bsse de Caumont, *Brussels 23.10.1611, +24.12.1660; m.Enghien 8.11.1635 her cousin Albert de Ligne, Pr de Chimay et de Croy d'Arenberg (*15.2.1618, +16.11.1643) $$
+					name=Claire
+					female=yes
 					dynasty=1002040
 					religion=catholic culture=frankish
-					father=100295886	# Charles v. Arenberg
-					mother=100012841	# Anne de Croÿ
-					1587.10.28={birth=yes}
-					1632.03.29={add_spouse=100002300}	# Maria Cleopha v. Hohenzollern-Sigmaringen
-					1640.09.25={death=yes}
+					father=100295887	# Philippe-Charles v. Arenberg
+					1629.11.02={birth=yes}  # Brussels
+					1670.09.07={death=yes}  # Messkirch
 				}
-					100295888={ # E1. [1m.] Pss Claire Eugenie, Bsse de Caumont, *Brussels 23.10.1611, +24.12.1660; m.Enghien 8.11.1635 her cousin Albert de Ligne, Pr de Chimay et de Croy d'Arenberg (*15.2.1618, +16.11.1643) $$
-						name=Claire
-						female=yes
+				100295889={ # E9. [3m.] Pss Marie Thérese, *Madrid 2/22.4.1639, +Messkirch 18.1.1705; m.Brussels 4.1.1660 Gf Franz Christof von Fürstenberg (*28.7.1625 +22.9.1671) $$
+					name="Maria Theresia"
+					female=yes
+					dynasty=1002040
+					religion=catholic culture=frankish
+					father=100295887	# Philippe-Charles v. Arenberg
+					mother=100002300	# Maria Cleopha v. Hohenzollern-Sigmaringen
+					1639.04.22={birth=yes}	# Madrid
+					1705.01.18={death=yes}	# Messkirch
+				}
+				100295432={ # E8. [3m.] Charles Eugene, 2.Duc d'Arenberg, 8.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Brussels 8.5.1633, +Mons 25.6.1681; m.Dole 19.6.1660 Marie Henriette de Cusance et de Vergy, Marquise de Varambon, Css de Champlitte (*Sancey 1.5.1624, +Leuven 8.5.1701)
+					name="Charles Eugene"
+					dynasty=1002040
+					religion=catholic culture=frankish
+					father=100295887	# Philippe-Charles v. Arenberg
+					mother=100002300	# Maria Cleopha v. Hohenzollern-Sigmaringen
+					1633.05.03={birth=yes}	# Brussel
+					1681.06.25={death=yes}	# Mons
+				}
+					100295433={ # F1. Philippe Charles François, 3.Duc d'Arenberg, 9.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *14.5.1663, +k.a.Peterwardein 25.8.1691; m.Brussels 12.2.1684 Donna Maria Enrietta del Caretto, Marchesa di Savona y Grana (*20.9.1671 +22.2.1744)
+						name="Philippe Charles François"
 						dynasty=1002040
 						religion=catholic culture=frankish
-						father=100295887	# Philippe-Charles v. Arenberg
-						1629.11.02={birth=yes}  # Brussels
-						1670.09.07={death=yes}  # Messkirch
+						father=100295432	# Charles Eugene v. Arenberg
+						1663.01.01={birth=yes}
+						1691.01.01={death=yes}
 					}
-					100295889={ # E9. [3m.] Pss Marie Thérese, *Madrid 2/22.4.1639, +Messkirch 18.1.1705; m.Brussels 4.1.1660 Gf Franz Christof von Fürstenberg (*28.7.1625 +22.9.1671) $$
-						name="Maria Theresia"
-						female=yes
-						dynasty=1002040
-						religion=catholic culture=frankish
-						father=100295887	# Philippe-Charles v. Arenberg
-						mother=100002300	# Maria Cleopha v. Hohenzollern-Sigmaringen
-						1639.04.22={birth=yes}	# Madrid
-						1705.01.18={death=yes}	# Messkirch
-					}
-					100295432={ # E8. [3m.] Charles Eugene, 2.Duc d'Arenberg, 8.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Brussels 8.5.1633, +Mons 25.6.1681; m.Dole 19.6.1660 Marie Henriette de Cusance et de Vergy, Marquise de Varambon, Css de Champlitte (*Sancey 1.5.1624, +Leuven 8.5.1701)
-						name="Charles Eugene"
-						dynasty=1002040
-						religion=catholic culture=frankish
-						father=100295887	# Philippe-Charles v. Arenberg
-						mother=100002300	# Maria Cleopha v. Hohenzollern-Sigmaringen
-						1633.05.03={birth=yes}	# Brussel
-						1681.06.25={death=yes}	# Mons
-					}
-						100295433={ # F1. Philippe Charles François, 3.Duc d'Arenberg, 9.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *14.5.1663, +k.a.Peterwardein 25.8.1691; m.Brussels 12.2.1684 Donna Maria Enrietta del Caretto, Marchesa di Savona y Grana (*20.9.1671 +22.2.1744)
-							name="Philippe Charles François"
+						100000368={ # G1. Pss Marie Anne, *30.8.1689, +Utrecht 24.4.1736; m.Brussels 20.11.1707 Francois Egon de La Tour Cte d'Auvergne (*15.12.1675 +26.7.1710) $$
+							name="Marie Anne"
+							female=yes
 							dynasty=1002040
 							religion=catholic culture=frankish
-							father=100295432	# Charles Eugene v. Arenberg
-							1663.01.01={birth=yes}
-							1691.01.01={death=yes}
+							father=100295433	# Philippe Charles François v. Arenberg
+							1689.08.30={birth=yes}
+							1736.04.24={death=yes}  # Utrecht
 						}
-							100000368={ # G1. Pss Marie Anne, *30.8.1689, +Utrecht 24.4.1736; m.Brussels 20.11.1707 Francois Egon de La Tour Cte d'Auvergne (*15.12.1675 +26.7.1710) $$
-								name="Marie Anne"
+						100200203={ # G2. Léopold-Philippe, 4.Duc d'Arenberg, 10.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Brussels 14.10.1690, +Heverlee 4.3.1754; m.Brussels 29.3.1711 Donna Maria Francesca Pignatelli, Dssa di Bisaccia, Css van Egmond (*Brussels 4.6.1696, +Brussels 3.5.1766)
+							name="Leopold Philippe"
+							dynasty=1002040
+							religion=catholic culture=frankish
+							father=100295433	# Philippe Charles François v. Arenberg
+							1690.10.14={birth=yes}
+							1754.03.04={death=yes}
+						}
+							100189304={ # H5. Pss Marie Flore, *Enghien 23.10.1722, +Brussels 10.2.1776; m.Heverlee 12.1.1744 Jean Charles Joseph Cte de Merode-Montfort (*3.12.1719, +10.8.1774) $$
+								name="Marie Flore"
 								female=yes
 								dynasty=1002040
 								religion=catholic culture=frankish
-								father=100295433	# Philippe Charles François v. Arenberg
-								1689.08.30={birth=yes}
-								1736.04.24={death=yes}  # Utrecht
+								father=100200203	# Leopold Philippe v. Arenberg
+								1722.10.23={birth=yes}  # Enghien
+								1776.02.10={death=yes}  # Brussels
 							}
-							100200203={ # G2. Léopold-Philippe, 4.Duc d'Arenberg, 10.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Brussels 14.10.1690, +Heverlee 4.3.1754; m.Brussels 29.3.1711 Donna Maria Francesca Pignatelli, Dssa di Bisaccia, Css van Egmond (*Brussels 4.6.1696, +Brussels 3.5.1766)
-								name="Leopold Philippe"
-								dynasty=1002040
-								religion=catholic culture=frankish
-								father=100295433	# Philippe Charles François v. Arenberg
-								1690.10.14={birth=yes}
-								1754.03.04={death=yes}
-							}
-								100189304={ # H5. Pss Marie Flore, *Enghien 23.10.1722, +Brussels 10.2.1776; m.Heverlee 12.1.1744 Jean Charles Joseph Cte de Merode-Montfort (*3.12.1719, +10.8.1774) $$
-									name="Marie Flore"
-									female=yes
-									dynasty=1002040
-									religion=catholic culture=frankish
-									father=100200203	# Leopold Philippe v. Arenberg
-									1722.10.23={birth=yes}  # Enghien
-									1776.02.10={death=yes}  # Brussels
-								}
-								# ligne5  ->  H1. Charles Marie Raymond, 5.Duc d'Arenberg, 11.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Enghien 1.4.1721, +Enghien 17.8.1778; m.Paris 18.6.1748 Louise Marguerite von der Marck, Css de La Marck, Gfn van Schleiden (*10.7.1730 +18.8.1820); for their issue see HERE
-			100062015={ # C4. Pr Robert d'Arenberg, -cr Pr de Barbançon 8.2.1614, *11.11.1564, +2.3.1614; m.VI.1588 Gfn Claudia zu Salm (*12.11.1569, +II.1632) $$
-				name=Robert
+							# ligne5  ->  H1. Charles Marie Raymond, 5.Duc d'Arenberg, 11.Duc d'Aerschot et de Croy, Pr de Porcean et de Rebecq, comte de Seneghem, baron de Zevenbergen, *Enghien 1.4.1721, +Enghien 17.8.1778; m.Paris 18.6.1748 Louise Marguerite von der Marck, Css de La Marck, Gfn van Schleiden (*10.7.1730 +18.8.1820); for their issue see HERE
+		100062015={ # C4. Pr Robert d'Arenberg, -cr Pr de Barbançon 8.2.1614, *11.11.1564, +2.3.1614; m.VI.1588 Gfn Claudia zu Salm (*12.11.1569, +II.1632) $$
+			name=Robert
+			dynasty=1002040
+			religion=catholic culture=frankish
+			father=100295885	# Jean v. Arenberg
+			mother=100093355	# GFN Margarethe von der Marck
+			1564.01.01={birth=yes}
+			1588.06.01={add_spouse=100004053}	# Claudia zu Salm
+			1614.03.02={death=yes}
+		}
+			100062014={ # D1. Albert Francois Pr et Duc d'Arenberg, 2.Prince de Barbançon, Gouverneur de Namur, *22.7.1600, +Madrid 8.4.1674; m.8.5.1616 Css Marie de Ligne Barbançon, vicomtesse de Dave (*20.4.1602, +after 1675)
+				name=Albert
 				dynasty=1002040
 				religion=catholic culture=frankish
-				father=100295885	# Jean v. Arenberg
-				mother=100093355	# GFN Margarethe von der Marck
-				1564.01.01={birth=yes}
-				1588.06.01={add_spouse=100004053}	# Claudia zu Salm
-				1614.03.02={death=yes}
+				father=100062015	# Robert v. Arenberg
+				mother=100004053	# Claudia zu Salm
+				1600.01.01={birth=yes}
+				1622.01.01={add_spouse=100092731}	# VCSS Marie de Barbançon
+				1674.01.01={death=yes}
 			}
-				100062014={ # D1. Albert Francois Pr et Duc d'Arenberg, 2.Prince de Barbançon, Gouverneur de Namur, *22.7.1600, +Madrid 8.4.1674; m.8.5.1616 Css Marie de Ligne Barbançon, vicomtesse de Dave (*20.4.1602, +after 1675)
-					name=Albert
-					dynasty=1007002
+				100062013={ # E3. Pss Isabelle Madeleine, Dss d'Arenberg, *Barbançon 1623, +Paris 17.8.1678, bur Barbançon; 1m: Antwerpen 4.11.1637 Cte Albert Francois de Lalaing, Cte de Hoogstraeten (*1610 +1643); 2m: Brussels 15.5.1651 Duke Ulrich von Württemberg-Neuenburg (*15.5.1617 +5.12.1671) $$
+					name="Isabelle Madeleine"
+					female=yes
+					dynasty=1002040
 					religion=catholic culture=frankish
-					father=100062015	# Robert v. Arenberg
-					mother=100004053	# Claudia zu Salm
-					1600.01.01={birth=yes}
-					1622.01.01={add_spouse=100092731}	# VCSS Marie de Barbançon
-					1674.01.01={death=yes}
+					father=100062014	# Albert v. Arenberg
+					mother=100092731	# VCSS Marie de Barbançon
+					1623.01.01={birth=yes}	# Barbançon
+					1678.08.17={death=yes}	# Paris
 				}
-					100062013={ # E3. Pss Isabelle Madeleine, Dss d'Arenberg, *Barbançon 1623, +Paris 17.8.1678, bur Barbançon; 1m: Antwerpen 4.11.1637 Cte Albert Francois de Lalaing, Cte de Hoogstraeten (*1610 +1643); 2m: Brussels 15.5.1651 Duke Ulrich von Württemberg-Neuenburg (*15.5.1617 +5.12.1671) $$
-						name="Isabelle Madeleine"
-						female=yes
-						dynasty=1007002
-						religion=catholic culture=frankish
-						father=100062014	# Albert de Ligne
-						mother=100092731	# VCSS Marie de Barbançon
-						1623.01.01={birth=yes}	# Barbançon
-						1678.08.17={death=yes}	# Paris
-					}
 #ligne4
 
 #ligne5
@@ -15840,7 +16718,7 @@
 				1865.08.14={add_spouse=100023080}	# Franziska v. Liechtenstein
 				1896.10.03={death=yes}
 			}
-		100000207={	# 5a) Pierre d'Alcantara Charles Marie, cr 24 Feb 1824 Duc d'Arenberg in France (Paris 2 Oct 1790-Brussels 27 Sep 1877); m.1st Paris 26 Jan 1829 Alix de Talleyrand-Périgord (Paris 4 Nov 1808-Paris 21 Sep 1842); m.2nd Vienna 19 Jun 1860 Caroline Gfn von Kaunitz-Rietberg (Vienna 27 May 1801-Görz 18 Jun 1875)
+		100000207={	# 5a) Pierre d'Alcantara Charles Marie, cr 24 Feb 1824 Duc d'Arenberg in France (Paris 2 Oct 1790-Brussels 27 Sep 1877); m.1st Paris 26 Jan 1829 Alix de Talleyrand-Périgord (Paris 4 Nov 1808-Paris 21 Sep 1842); m.2nd Vienna 19 Jun 1860 Caroline Gfn von Kaunitz-Rietberg (Vienna 27 May 1801-Görz 18 Jun 1875) $$
 			name=Pierre
 			dynasty=1002040
 			religion=catholic culture=frankish
@@ -15848,7 +16726,7 @@
 			mother=100082530	# CTE Louise de Lauraguais
 			1790.10.02={birth=yes}
 			1829.01.26={add_spouse=100069461}	# Alix de Talleyrand-Périgord
-			1860.06.19={add_spouse=100092394}	# GFN Karoline Leopoldine von Kaunitz
+			1860.06.19={add_spouse=100047776}	# Karoline Leopoldine v. Kaunitz
 			1877.09.27={death=yes}
 		}
 			100000210={	# 1b) Marie Nicolette Augustine (Maffliers 15 Nov 1830-Westerloo 11 Jun 1905); m.Paris 8 Oct 1849 Charles Cte de Mérode, Marquis de Westerloo, Pr de Rubempré et de Grimberghe, etc (Everbergh 1 Aug 1824- Brussels 6 Apr 1892) $$
@@ -16082,8 +16960,8 @@
 		religion=catholic culture=frankish
 		father=100000203	# Charles v. Arenberg
 		1757.01.01={birth=yes}
-		1792.02.04={add_spouse=100018339}	# Jelisaveta Shakhovsky
-		1795.01.01={remove_spouse=100018339}
+		1792.02.04={add_spouse=100018676}	# Jelisaveta Shakhovsky
+		1795.01.01={remove_spouse=100018676}
 		1795.01.01={death=yes}
 	}
 		100194413={ # B1. Amélie (Paris 10 Apr 1789-Bamberg 4 Apr 1823); m.26 May 1807 Pius August v. Wittelsbach (Landshut 1 Aug 1786-Bayreuth 3 Aug 1837) %%

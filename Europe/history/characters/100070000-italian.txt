@@ -37,7 +37,495 @@
 ##  100072240				Torlonia						  1006037
 ##  100072590				Chigi							  1006038
 ##  100072610				Torre							  1002283
+##  100072670				di Napoli						  1006039
+##  100072700				Orsini							  1006040
+##  100072730				XXX							      1xxxxxx
 #################################################################################################
+
+
+##  100072700				Orsini							  1006040
+100072727={ # Domenico Orsini (1719-1789); m.1741 Anna Paola Odescalchi (1722-1742) %%
+	name=Domenico
+	dynasty=1006040
+	religion=catholic culture=italian
+	1719.01.01={birth=yes}
+	1741.01.01={add_spouse=100084658}	# Anna Paola Odescalchi
+	1789.01.01={death=yes}
+}
+	100072726={ # A1. Filippo (1742-1824); m.1764 Maria Teresa Caracciolo (1738-1789) %%
+		name=Filippo
+		dynasty=1006040
+		religion=catholic culture=italian
+		father=100072727	# Domenico Orsini
+		mother=100084658	# Anna Paola Odescalchi
+		1742.01.01={birth=yes}
+		1764.01.01={add_spouse=100083293}	# Maria Teresa Caracciolo
+		1824.01.01={death=yes}
+	}
+		100072725={ # B1. Domenico (1765-1 Dec 1790); m.1787 Faustina Caracciolo (1767-1830) %%
+			name=Domenico
+			dynasty=1006040
+			religion=catholic culture=italian
+			father=100072726	# Filippo Orsini
+			mother=100083293	# Maria Teresa Caracciolo
+			1765.01.01={birth=yes}
+			1787.01.01={add_spouse=100083292}	# Faustina Caracciolo
+			1790.12.01={death=yes}
+		}
+			100072724={ # C1. Teresa (Roma/Napoli 23 Mar 1788-Roma 3 Jul 1829); m.1812 Luigi Doria-Pamphili-Landi (1779-1838) %%
+				name=Teresa
+				female=yes
+				dynasty=1006040
+				religion=catholic culture=italian
+				father=100072725	# Domenico Orsini
+				mother=100083292	# Faustina Caracciolo
+				1788.03.23={birth=yes}	# Roma/Napoli
+				1829.07.03={death=yes}	# Roma
+			}
+			100072704={ # Domenico Orsini (*Napoli 23.XI.1790 +Roma 28.IV.1874); m.Roma 6.II.1823 Donna Maria Luisa Torlonia dei Duchi di Poli e Guadagnolo (*Roma 4.I.1804 +ivi 21.XII.1883) $$
+				name=Domenico
+				dynasty=1006040
+				religion=catholic culture=italian
+				father=100072725	# Domenico Orsini
+				mother=100083292	# Faustina Caracciolo
+				1790.11.23={birth=yes}  # Napoli
+				1823.02.06={add_spouse=100072592}	# Maria Luisa Torlonia
+				1874.04.28={death=yes}  # Roma
+			}
+				100072728={ # D1. Teresa (Roma 1 Feb 1835-Roma 13 Jan 1915); m.2 Oct 1853 Enrico Colonna (Roma 26 Mar 1823-Roma 18 Feb 1889) %%
+					name=Teresa
+					female=yes
+					dynasty=1006040
+					religion=catholic culture=italian
+					father=100072704	# Domenico Orsini
+					mother=100072592	# Maria Luisa Torlonia
+					1835.02.01={birth=yes}  # Roma
+					1915.01.13={death=yes}  # Roma
+				}
+				100072705={ # A2. Filippo (*Roma 10.XII.1842 +ivi 17.III.1924); m.Vienna 17.X.1865 Giulia Contessa Hoyos-Wenckheim (*Vienna 11.X.1847 +Roma 19.VII.1909) $$
+					name=Filippo
+					dynasty=1006040
+					religion=catholic culture=italian
+					father=100072704	# Domenico Orsini
+					mother=100072592	# Maria Luisa Torlonia
+					1842.12.10={birth=yes}  # Roma
+					1865.10.17={add_spouse=100023383}	# Julie v. Hoyos
+					1924.03.17={death=yes}  # Roma
+				}
+					100072706={ # B1. Maria Isabella (*Roma 15.III.1867 +Montenero Sabina 6.II.1944); m.Poggio Mirteto 29.II.1892 Don Gabriele Vicentini Duca e Marchese di Montenero (*Rieti 9.X.1860 +Roma 19.VI.1920)
+						name="Maria Isabella"
+						female=yes
+						dynasty=1006040
+						religion=catholic culture=italian
+						father=100072705	# Filippo Orsini
+						mother=100023383	# Julie v. Hoyos
+						1867.03.15={birth=yes}  # Roma
+						1944.02.06={death=yes}  # Montenero Sabina
+					}
+					100072707={ # B2. Domenico Napoleone (*Roma 7.XI.1868 +ivi 21.III.1947); m.1st Napoli 22.VI.1891 Maria Domenica dei Conti Varo (*Foggia 2.VI.1867 +Roma 6.III.1919); m.2nd Deauville 9.VI.1924 Laura Schwarz (*Los Angeles 1.IX.1883)
+						name="Domenico Napoleone"
+						dynasty=1006040
+						religion=catholic culture=italian
+						father=100072705	# Filippo Orsini
+						mother=100023383	# Julie v. Hoyos
+						1868.11.07={birth=yes}  # Roma
+						1891.06.22={add_spouse=100083405}	# CSS Maria Domenica Varo
+						1924.06.09={add_spouse=100083416}	# Laura Schwarz
+						1947.03.21={death=yes}  # ivi
+					}
+						100072708={ # C1. Virginio (*Napoli 24.VIII.1892 +Roma 7.XI.1972); m.Milano 27.V.1919 Adele Pensa (*Milano 1.III.1896 +ivi 4.IV.1979)
+							name=Virginio
+							dynasty=1006040
+							religion=catholic culture=neapolitan
+							father=100072707	# Domenico Napoleone Orsini
+							mother=100083405	# CSS Maria Domenica Varo
+							1892.08.24={birth=yes}  # Napoli
+							1919.05.27={add_spouse=100083502}	# Adele Pensa
+							1972.11.07={death=yes}  # Roma
+						}
+							100072709={ # D1. Filippo (*Milano 28.III.1920 +Roma 22.X.1984); m.Pernumia 21.X.1946 Francesca Romana Bonacossi dei Conti di Costa Bissara (*Padova 18.III.1926, + 1.XII.2014)
+								name=Filippo
+								dynasty=1006040
+								religion=catholic culture=italian
+								father=100072708	# Virginio Orsini
+								mother=100083502	# Adele Pensa
+								1920.03.28={birth=yes}  # Milano
+								1946.10.21={add_spouse=100084202}	# CSS Francesca Romana Bonacossi di Costa Bissara
+								1984.10.22={death=yes}  # Roma
+							}
+								100072710={ # E1. Domenico Napoleone (*Roma 11.IV.1948); m.Roma 21.II.1977 Martine Bernheim (*1951)
+									name="Domenico Napoleone"
+									dynasty=1006040
+									religion=catholic culture=italian
+									father=100072709	# Filippo Orsini
+									mother=100084202	# CSS Francesca Romana Bonacossi di Costa Bissara
+									1948.04.11={birth=yes}  # Roma
+									1977.02.21={add_spouse=100084330}	# Martine Bernheim
+								}
+									100072711={ # F1. Leontia (*Parigi 6.V.1978); m.Port'Ercole 29.IX.2001 François-Xavier Diaz Ricard (*Marsiglia 21.VII.1971)
+										name=Leontia
+										female=yes
+										dynasty=1006040
+										religion=catholic culture=italian
+										father=100072710	# Domenico Napoleone Orsini
+										mother=100084330	# Martine Bernheim
+										1978.05.06={birth=yes}  # Parigi
+									}
+									100072712={ # F2. Cajetana (*Roma 13.IV.1984)
+										name=Cajetana
+										female=yes
+										dynasty=1006040
+										religion=catholic culture=italian
+										father=100072710	# Domenico Napoleone Orsini
+										mother=100084330	# Martine Bernheim
+										1984.04.13={birth=yes}  # Roma
+									}
+								100072713={ # E3. Benedetto (*Roma 21.VI.1956)
+									name=Benedetto
+									dynasty=1006040
+									religion=catholic culture=italian
+									father=100072709	# Filippo Orsini
+									mother=100084202	# CSS Francesca Romana Bonacossi di Costa Bissara
+									1956.06.21={birth=yes}  # Roma
+								}
+						100072714={ # C2. Ildegarda (*Roma 4.VI.1895 +Vienna 1945)
+							name=Ildegarda
+							female=yes
+							dynasty=1006040
+							religion=catholic culture=italian
+							father=100072707	# Domenico Napoleone Orsini
+							mother=100083405	# CSS Maria Domenica Varo
+							1895.06.04={birth=yes}  # Roma
+							1945.01.01={death=yes}  # Vienna
+						}
+						100072715={ # C3. Isabella (*Sorrento 21.IX.1897 +Roma 21.XI.1983)
+							name=Isabella
+							female=yes
+							dynasty=1006040
+							religion=catholic culture=italian
+							father=100072707	# Domenico Napoleone Orsini
+							mother=100083405	# CSS Maria Domenica Varo
+							1897.09.21={birth=yes}  # Sorrento
+							1983.11.21={death=yes}  # Roma
+						}
+					100072716={ # B3. Clarice (*Roma 12.VI.1871 +ivi 19.II.1956); m.Montopoli 12.VIII.1896 Giuseppe 1° Conte Frascara, avvocato, Senatore del Regno d’Italia (*Alessandria 8.III.1871 +Sezzadio 13.X.1925)
+						name=Clarice
+						female=yes
+						dynasty=1006040
+						religion=catholic culture=italian
+						father=100072705	# Filippo Orsini
+						mother=100023383	# Julie v. Hoyos
+						1871.06.12={birth=yes}  # Roma
+						1956.02.19={death=yes}  # ivi
+					}
+					100072717={ # B4. Lelio Nicolò Orsini d’Aragona (*Roma 5.XII.1877 +ivi 12.II.1952); m.Torino 27.X.1927 Luisa dei Conti Rignon (*Milano 11.III.1897 +Roma 2.X.1975)
+						name=Lelio
+						dynasty=1006040
+						religion=catholic culture=italian
+						father=100072705	# Filippo Orsini
+						mother=100023383	# Julie v. Hoyos
+						1877.12.05={birth=yes}  # Roma
+						1927.10.27={add_spouse=100084566}	# CSS Luisa Rignon
+						1952.02.12={death=yes}  # ivi
+					}
+						100072718={ # C1. Sveva (*Roma 19.III.1930); m.Roma 24.X.1953 Francesco Mancini
+							name=Sveva
+							female=yes
+							dynasty=1006040
+							religion=catholic culture=italian
+							father=100072717	# Lelio Orsini
+							mother=100084566	# CSS Luisa Rignon
+							1930.03.19={birth=yes}  # Roma
+							2007.01.01={death=yes}  # EST.
+						}
+						100072719={ # C2. Principe Raimondo (*Roma 18.XI.1931); m.Roma 6.VI.1978 Pss Kethevane Bagrationi Moukhrani (*Talence 20.VII.1954) $$
+							name=Raimondo
+							dynasty=1006040
+							religion=catholic culture=italian
+							father=100072717	# Lelio Orsini
+							mother=100084566	# CSS Luisa Rignon
+							1931.11.18={birth=yes}  # Roma
+							1978.06.06={add_spouse=100050207}	# Kethevan Bagrationi-Muchraneli
+							2008.01.01={death=yes}  # EST.
+						}
+							100072720={ # D1. Georgiana Maria (*Roma 15.VIII.1979 +ivi 26.VIII.2005)
+								name=Georgiana
+								female=yes
+								dynasty=1006040
+								religion=catholic culture=italian
+								father=100072719	# Raimondo Orsini
+								mother=100050207	# Kethevan Bagrationi-Muchraneli
+								1979.08.15={birth=yes}  # Roma
+								2005.08.26={death=yes}  # ivi
+							}
+							100072721={ # D2. Principe Lelio Nicolò (*Roma 27.V.1981)
+								name="Lelio Nicolò"
+								dynasty=1006040
+								religion=catholic culture=italian
+								father=100072719	# Raimondo Orsini
+								mother=100050207	# Kethevan Bagrationi-Muchraneli
+								1981.05.27={birth=yes}  # Roma
+							}
+							100072722={ # D3. Luisa Eleonora (*Roma 2.II.1986)
+								name="Luisa Eleonora"
+								female=yes
+								dynasty=1006040
+								religion=catholic culture=italian
+								father=100072719	# Raimondo Orsini
+								mother=100050207	# Kethevan Bagrationi-Muchraneli
+								1986.02.02={birth=yes}  # Roma
+							}
+							100072723={ # D4. Dorothea (*Roma 25.X.1990)
+								name=Dorothea
+								female=yes
+								dynasty=1006040
+								religion=catholic culture=italian
+								father=100072719	# Raimondo Orsini
+								mother=100050207	# Kethevan Bagrationi-Muchraneli
+								1990.10.25={birth=yes}  # Roma
+							}
+#1820.11.23={holder=100072704} # Domenico Orsini 
+#1874.04.28={holder=100072705} # A1. Filippo 
+#1924.03.17={holder=100072707} # B2. Domenico Napoleone 
+#1947.03.21={holder=100072708} # C1. Virginio 
+#1972.11.07={holder=100072709} # D1. Filippo 
+#1984.10.22={holder=100072710} # E1. Domenico Napoleone 
+##  100072700				Orsini							  1006040
+
+
+##  100072670				di Napoli						  1006039
+100072679={ # Don FRANCESCO di Paola di Napoli-Rampolla [or, Napoli Barresi Bellacera], Principe di Bonfornello, Principe di Resuttano, Principe di Monteleone, Principe di Condrò, Duca di Campobello, etc (Palermo 24 Oct 1871-Polizzi Generosa 6 Nov 1938); m.Rome 20 Jun 1897 Donna Theodolinda dei principi Altieri (Rome 5 Nov 1876-Rome 21 Sep 1947) $$
+	name=Francesco
+	dynasty=1006039
+	religion=catholic culture=sicilian
+	1871.10.24={birth=yes}  # Palermo
+	1897.06.20={add_spouse=100035174}	# Theodolinda Altieri
+	1938.11.06={death=yes}  # Polizzi Generosa
+}
+	100072680={ # 1a) VINCENZO Mariano Raimondo Maria di Napoli-Rampolla, Pr di Resuttano, di Bonfornello, etc (Rome 19 Apr 1898-Rome 5 Feb 1965); m.Siena 23 Sep 1920 Css Teresa di Bulgarini d'Elci (Rome 8 Apr 1900-7 May 1989)
+		name=Vincenzo
+		dynasty=1006039
+		religion=catholic culture=italian
+		father=100072679	# Francesco di Napoli
+		mother=100035174	# Theodolinda Altieri
+		1898.04.19={birth=yes}  # Rome
+		1920.09.23={add_spouse=100081576}	# CSS Teresa di Bulgarini d'Elci
+		1965.02.05={death=yes}  # Rome
+	}
+		100072681={ # 1b) Paola Eleonora Maria (Siena 26 Oct 1921-Rome 14 Jan 2014)
+			name=Paola
+			female=yes
+			dynasty=1006039
+			religion=catholic culture=italian
+			father=100072680	# Vincenzo di Napoli
+			mother=100081576	# CSS Teresa di Bulgarini d'Elci
+			1921.10.26={birth=yes}  # Siena
+			2014.01.14={death=yes}  # Rome
+		}
+		100072682={ # 2b) FRANCESCO Paolo Maria, Pr di Resuttano, di Bonfornello, etc (Rome 3 Jul 1923-Rome 14 Dec 2011); m.Rome 2 Dec 1950 Clara dei Conti de Marsanich (b.Nancy 1 Aug 1922)
+			name=Francesco
+			dynasty=1006039
+			religion=catholic culture=italian
+			father=100072680	# Vincenzo di Napoli
+			mother=100081576	# CSS Teresa di Bulgarini d'Elci
+			1923.07.03={birth=yes}  # Rome
+			1950.12.02={add_spouse=100081619}	# CSS Clara de Marsanich
+			2011.12.14={death=yes}  # Rome
+		}
+			100072683={ # 1c) Landolfo, Pr di Resuttano, di Bonfornello, etc, b.Rome 21 Nov 1951; m.Rome 16 Apr 1980 Maria Schiavone Panni (b.Rome 14 Jan 1957)
+				name=Landolfo
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072682	# Francesco di Napoli
+				mother=100081619	# CSS Clara de Marsanich
+				1951.11.21={birth=yes}  # Rome
+				1980.04.16={add_spouse=100081622}	# Maria Schiavone Panni
+			}
+				100072684={ # 1d) Camilla (b.Rome 28 Sep 1980)
+					name=Camilla
+					female=yes
+					dynasty=1006039
+					religion=catholic culture=italian
+					father=100072683	# Landolfo di Napoli
+					mother=100081622	# Maria Schiavone Panni
+					1980.09.28={birth=yes}  # Rome
+				}
+				100072685={ # 2d) Clemente (b.Rome 2 Jul 1982); m.Sarteano 7 Sep 2013 Flavia Benda
+					name=Clemente
+					dynasty=1006039
+					religion=catholic culture=italian
+					father=100072683	# Landolfo di Napoli
+					mother=100081622	# Maria Schiavone Panni
+					1982.07.02={birth=yes}  # Rome
+					2013.09.07={add_spouse=100081628}	# Flavia Benda
+				}
+				100072686={ # 3d) Carolina (b.Rome 6 Oct 1988)
+					name=Carolina
+					female=yes
+					dynasty=1006039
+					religion=catholic culture=italian
+					father=100072683	# Landolfo di Napoli
+					mother=100081622	# Maria Schiavone Panni
+					1988.10.06={birth=yes}  # Rome
+				}
+			100072687={ # 2c) Federica (b.Rome 3 Jul 1954)
+				name=Federica
+				female=yes
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072682	# Francesco di Napoli
+				mother=100081619	# CSS Clara de Marsanich
+				1954.07.03={birth=yes}  # Rome
+			}
+			100072688={ # 3c) Theodolinda (b.Rome 1 May 1955)
+				name=Theodolinda
+				female=yes
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072682	# Francesco di Napoli
+				mother=100081619	# CSS Clara de Marsanich
+				1955.05.01={birth=yes}  # Rome
+			}
+			100072689={ # 4c) Vincenzo (b.Rome 25 Jun 1965); m.Rome 19 Jun 1999 Anna del Gallo di Roccagiovine (b.Rome 11 Mar 1964)
+				name=Vincenzo
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072682	# Francesco di Napoli
+				mother=100081619	# CSS Clara de Marsanich
+				1965.06.25={birth=yes}  # Rome
+				1999.06.19={add_spouse=100081646}	# Anna del Gallo di Roccagiovine
+			}
+				100072690={ # 1d) Constanza (b.Rome 27 May 2001)
+					name=Constanza
+					female=yes
+					dynasty=1006039
+					religion=catholic culture=italian
+					father=100072689	# Vincenzo di Napoli
+					mother=100081646	# Anna del Gallo di Roccagiovine
+					2001.05.27={birth=yes}  # Rome
+				}
+				100072691={ # 2d) Ludovica (b.Rome 1 Jun 2003)
+					name=Ludovica
+					female=yes
+					dynasty=1006039
+					religion=catholic culture=italian
+					father=100072689	# Vincenzo di Napoli
+					mother=100081646	# Anna del Gallo di Roccagiovine
+					2003.06.01={birth=yes}  # Rome
+				}
+				100072692={ # 3d) Ilaria (b.Rome 22 Jan 2006)
+					name=Ilaria
+					female=yes
+					dynasty=1006039
+					religion=catholic culture=italian
+					father=100072689	# Vincenzo di Napoli
+					mother=100081646	# Anna del Gallo di Roccagiovine
+					2006.01.22={birth=yes}  # Rome
+				}
+		100072693={ # 3b) Alceo Claudio Maria (Rome 24 Aug 1925-Rome 5 Apr 1991); m.Pentolina 20 Aug 1950 Livia Borgia (b.Ferrara 21 Sep 1914)
+			name=Alceo
+			dynasty=1006039
+			religion=catholic culture=italian
+			father=100072680	# Vincenzo di Napoli
+			mother=100081576	# CSS Teresa di Bulgarini d'Elci
+			1925.08.24={birth=yes}  # Rome
+			1950.08.20={add_spouse=100081713}	# Livia Borgia
+			1991.04.05={death=yes}  # Rome
+		}
+			100072694={ # 1c) Matteo (b.Sao Paulo, Brazil 15 Jun 1951)
+				name=Matteo
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072693	# Alceo di Napoli
+				mother=100081713	# Livia Borgia
+				1951.06.15={birth=yes}  # Sao Paulo Brazil
+			}
+			100072695={ # 2c) Marco (b.Assis, Brazil 24 Oct 1952)
+				name=Marco
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072693	# Alceo di Napoli
+				mother=100081713	# Livia Borgia
+				1952.10.24={birth=yes}
+			}
+			100072696={ # 4c) Luca (b.Buenos Aires 28 Apr 1955); m.Santa Lucia 16 Aug 1980 Adelheid Maria Sticker (b.Ieper, Belgium 1 Oct 1957)
+				name=Luca
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072693	# Alceo di Napoli
+				mother=100081713	# Livia Borgia
+				1955.04.28={birth=yes}
+				1980.08.16={add_spouse=100081720}	# Adelheid Sticker
+			}
+				100072697={ # 1d) Martino (b.Lamole 19 Feb 1990)
+					name=Martino
+					dynasty=1006039
+					religion=catholic culture=italian
+					father=100072696	# Luca di Napoli
+					mother=100081720	# Adelheid Sticker
+					1990.02.19={birth=yes}  # Lamole
+				}
+			100072698={ # 5c) Maurizia (b.Florence 1 Sep 1957)
+				name=Maurizia
+				female=yes
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072693	# Alceo di Napoli
+				mother=100081713	# Livia Borgia
+				1957.09.01={birth=yes}  # Florence
+			}
+		100072699={ # 4b) Eleonora Teodolinda Maria (b.Rome 16 Nov 1927); m.Rome 6 Jul 1963 Gian Ludovico dei Conti Massetti Zannini (b.Brescia 2 Feb 1929)
+			name=Eleonora
+			female=yes
+			dynasty=1006039
+			religion=catholic culture=italian
+			father=100072680	# Vincenzo di Napoli
+			mother=100081576	# CSS Teresa di Bulgarini d'Elci
+			1927.11.16={birth=yes}  # Rome
+			2004.01.01={death=yes}  # EST.
+		}
+		100072700={ # 5b) Ferdinando Giuseppe Maria (b.Rome 15 Jan 1931); m.Naples 1 Jun 1964 Wanda Piscitelli (b.Naples 5 Feb 1929)
+			name=Ferdinando
+			dynasty=1006039
+			religion=catholic culture=italian
+			father=100072680	# Vincenzo di Napoli
+			mother=100081576	# CSS Teresa di Bulgarini d'Elci
+			1931.01.15={birth=yes}  # Rome
+			1964.06.01={add_spouse=100081770}	# Wanda Piscitelli
+			2008.01.01={death=yes}  # EST.
+		}
+	100072701={ # 2a) Federico Maria Leone (Rome 6 Sep 1900-1974); m.Milan 30 Apr 1930 Elsa Dragoni
+		name=Federico
+		dynasty=1006039
+		religion=catholic culture=italian
+		father=100072679	# Francesco di Napoli
+		mother=100035174	# Theodolinda Altieri
+		1900.09.06={birth=yes}  # Rome
+		1930.04.30={add_spouse=100081868}	# Elsa Dragoni
+		1974.01.01={death=yes}
+	}
+		100072702={ # 1b) Emilio (Milan 17 Jun 1931-1989); m.NN
+			name=Emilio
+			dynasty=1006039
+			religion=catholic culture=italian
+			father=100072701	# Federico di Napoli
+			mother=100081868	# Elsa Dragoni
+			1931.06.17={birth=yes}  # Milan
+			1989.01.01={death=yes}
+		}
+			100072703={ # 1c) Marc'Antonio
+				name=Marc'Antonio
+				dynasty=1006039
+				religion=catholic culture=italian
+				father=100072702	# Emilio di Napoli
+				1960.01.01={birth=yes}  # EST.
+			}
+####### 100072704
+#1901.10.24={holder=100072679} # Don FRANCESCO di Paola di Napoli-Rampolla [or
+#1938.11.06={holder=100072680} # 1a) VINCENZO Mariano Raimondo Maria di Napoli-Rampolla
+#1965.02.05={holder=100072682} # 2b) FRANCESCO Paolo Maria
+#2011.12.14={holder=100072683} # 1c) Landolfo
+##  100072670				di Napoli						  1006039
 
 
 ##  100072610				Torre							  1002283
@@ -51,7 +539,7 @@
 	1623.08.17={death=yes}  # Wien
 }
 	100072620={ # A1. [1m.] Johann Baptist Mathias Gf von Thurn und Valsassina, castellano di Cormons, Vipulziano e Ranziano; 1m: ca 1630 Cssa Giovanna Lantieri di Paratico (*26.11.1609, +9.4.1641); 2m: 23.2.1643 Pss Maximiliana Constanza von und zu Liechtenstein (*3.1.1608, +ca 1650)
-		name=Johann
+		name=Mathias
 		dynasty=1002283
 		religion=catholic culture=italian
 		father=100072619	# Raimund von Thurn-Valsássina und Hoffer
@@ -65,7 +553,7 @@
 			name="Karl Maximilian"
 			dynasty=1002283
 			religion=catholic culture=italian
-			father=100072620	# Johann von Thurn-Valsássina und Hoffer
+			father=100072620	# Mathias von Thurn-Valsássina und Hoffer
 			mother=100022833	# Maximiliana Constanza v. Liechtenstein
 			1653.10.15={birth=yes}
 			1678.01.01={add_spouse=100086542}	# GFN Anna Dorotea Raduit de Souches
@@ -158,7 +646,7 @@
 			1629.10.15={birth=yes}
 			1695.12.17={death=yes}  # Venezia
 		}
-		100072631={ # B6. Maria Beatrix Regina, *16.3.1631, +4.2.1688; 1m: 2.6.1650 Gf Johann Ambrosius von Thurn und Valsassina-Como-Vercelli (*1616, +30.5.1654); 2m: 27.5.1671 Gf Wolfgang Andreas von Orsini und Rosenberg (*2.2.1626, +21.10.1695)
+		100072631={ # B6. Maria Beatrix Regina, *16.3.1631, +4.2.1688; 1m: 2.6.1650 Gf Johann Ambrosius von Thurn und Valsassina-Como-Vercelli (*1616, +30.5.1654); 2m: 27.5.1671 Gf Wolfgang Andreas von Orsini und Rosenberg (*2.2.1626, +21.10.1695) $$
 			name="Maria Beatrix"
 			female=yes
 			dynasty=1002283
@@ -179,7 +667,7 @@
 			1691.02.06={death=yes}
 		}
 		100072633={ # B11. Raimondo Bonifacio, infeudato del castello di Duino nel 1678, Capitano di corazze imperiali, Gentiluomo di Camera, Sergente Generale e Tenente Maresciallo di campo nell’esercito austriaco, *16.5.1638, +6.9.1714; m.25.1.1681 Paolina Clara dei Signori di Caporiacco (*1655, +25.2.1735)
-			name="Raimondo _Bonifacio"
+			name="Raimondo Bonifacio"
 			dynasty=1002283
 			religion=catholic culture=italian
 			father=100072627	# Johann Philipp von Thurn-Valsássina und Hoffer
@@ -192,7 +680,7 @@
 				name=Giuseppe
 				dynasty=1002283
 				religion=catholic culture=italian
-				father=100072633	# Raimondo  Bonifacio von Thurn-Valsássina und Hoffer
+				father=100072633	# Raimondo Bonifacio von Thurn-Valsássina und Hoffer
 				mother=100092937	# SIGNORA Paolina Clara di Caporiacco
 				1681.09.05={birth=yes}
 				1775.10.15={death=yes}
@@ -202,7 +690,7 @@
 				female=yes
 				dynasty=1002283
 				religion=catholic culture=italian
-				father=100072633	# Raimondo  Bonifacio von Thurn-Valsássina und Hoffer
+				father=100072633	# Raimondo Bonifacio von Thurn-Valsássina und Hoffer
 				mother=100092937	# SIGNORA Paolina Clara di Caporiacco
 				1689.10.29={birth=yes}
 				1751.03.10={death=yes}
@@ -211,7 +699,7 @@
 				name="Giovanni Battista"
 				dynasty=1002283
 				religion=catholic culture=italian
-				father=100072633	# Raimondo  Bonifacio von Thurn-Valsássina und Hoffer
+				father=100072633	# Raimondo Bonifacio von Thurn-Valsássina und Hoffer
 				mother=100092937	# SIGNORA Paolina Clara di Caporiacco
 				1699.04.27={birth=yes}
 				1732.01.01={add_spouse=100092939}	# CSSA Maria Anna Rabatta
@@ -575,7 +1063,7 @@
 					1773.08.27={death=yes}
 				}
 		100072673={ # B13. Silvia Massimiliana, *ca 1640, +after 14.8.1679; m.Cte Antonio Lantieri di Paratico (*22.6.1631, +29.7.1690)
-			name="Silvia _Massimiliana"
+			name="Silvia Massimiliana"
 			female=yes
 			dynasty=1002283
 			religion=catholic culture=italian
@@ -634,7 +1122,6 @@
 		1608.01.01={birth=yes}
 		1680.08.02={death=yes}  # Gorizia
 	}
-####### 100072679
 ##  100072610				Torre							  1002283
 
 
@@ -657,14 +1144,14 @@
 		1796.01.01={add_spouse=100071729}	# Carlotta Amalia Colonna
 		1855.10.10={death=yes}  # Roma
 	}
-		100072593={ # Sigismondo, Pr Chigi Albani della Rovere (24 Aug 1798-10 May 1877); m.2 Jun 1829 Leopoldina dei Principi Doria-Pamfili-Landi (3 Dec 1811-22 Mar 1843)
+		100072593={ # Sigismondo, Pr Chigi Albani della Rovere (24 Aug 1798-10 May 1877); m.2 Jun 1829 Leopoldina dei Principi Doria-Pamfili-Landi (3 Dec 1811-22 Mar 1843) $$
 			name=Sigismondo
 			dynasty=1006038
 			religion=catholic culture=italian
 			father=100097316	# Agostino Chigi Albani della Rovere
 			mother=100071729	# Carlotta Amalia Colonna
 			1798.08.24={birth=yes}
-			1829.06.02={add_spouse=100081975}	# PSS Leopoldina Doria-Pamphilj-Landi
+			1829.06.02={add_spouse=100035175}	# Leopoldina Doria-Pamphili-Landi
 			1877.05.10={death=yes}
 		}
 			100072594={ # 1a) Teresa (21 May 1831-8 Dec 1884); m.16 Jun 1850 Giulio Torlonia, Duca di Poli e di Guadagnolo (15 Apr 1824-22 Jun 1871) $$
@@ -673,7 +1160,7 @@
 				dynasty=1006038
 				religion=catholic culture=italian
 				father=100072593	# Sigismondo Chigi Albani della Rovere
-				mother=100081975	# PSS Leopoldina Doria-Pamphilj-Landi
+				mother=100035175	# Leopoldina Doria-Pamphili-Landi
 				1831.05.21={birth=yes}
 				1884.12.08={death=yes}
 			}
@@ -682,7 +1169,7 @@
 				dynasty=1006038
 				religion=catholic culture=italian
 				father=100072593	# Sigismondo Chigi Albani della Rovere
-				mother=100081975	# PSS Leopoldina Doria-Pamphilj-Landi
+				mother=100035175	# Leopoldina Doria-Pamphili-Landi
 				1832.08.01={birth=yes}  # Rome
 				1857.09.01={add_spouse=100006246}	# Antoinette zu Sayn-Wittgenstein-Berleburg
 				1914.11.04={death=yes}  # Rome
@@ -870,7 +1357,7 @@
 				dynasty=1006038
 				religion=catholic culture=italian
 				father=100072593	# Sigismondo Chigi Albani della Rovere
-				mother=100081975	# PSS Leopoldina Doria-Pamphilj-Landi
+				mother=100035175	# Leopoldina Doria-Pamphili-Landi
 				1836.03.22={birth=yes}  # Rome
 				1898.09.18={death=yes}  # Grundlsee
 			}
@@ -880,7 +1367,7 @@
 				dynasty=1006038
 				religion=catholic culture=italian
 				father=100072593	# Sigismondo Chigi Albani della Rovere
-				mother=100081975	# PSS Leopoldina Doria-Pamphilj-Landi
+				mother=100035175	# Leopoldina Doria-Pamphili-Landi
 				1837.05.28={birth=yes}  # Rome
 				1901.01.12={death=yes}  # Macerata
 			}
@@ -890,7 +1377,7 @@
 				dynasty=1006038
 				religion=catholic culture=italian
 				father=100072593	# Sigismondo Chigi Albani della Rovere
-				mother=100081975	# PSS Leopoldina Doria-Pamphilj-Landi
+				mother=100035175	# Leopoldina Doria-Pamphili-Landi
 				1840.03.24={birth=yes}  # Rome
 				1859.06.11={death=yes}  # Rome
 			}
@@ -900,7 +1387,7 @@
 				dynasty=1006038
 				religion=catholic culture=italian
 				father=100072593	# Sigismondo Chigi Albani della Rovere
-				mother=100081975	# PSS Leopoldina Doria-Pamphilj-Landi
+				mother=100035175	# Leopoldina Doria-Pamphili-Landi
 				1843.02.19={birth=yes}  # Rome
 				1906.01.01={death=yes}
 			}
@@ -1087,7 +1574,7 @@
 							1981.04.25={add_spouse=100102899}	# CSS Cinzia di Campello
 						}
 							100072368={ # 1g) Maria Sole (b.Rome 13 Feb 1985); m.14 Jun 2014 Cte Filippo Fani Ciotti
-								name="Maria _Sole"
+								name="Maria Sole"
 								female=yes
 								dynasty=1006037
 								religion=catholic culture=italian
@@ -1505,7 +1992,7 @@
 			1856.02.19={birth=yes}  # Rome
 			1875.01.01={death=yes}  # Rome
 		}
-	100072592={ # 5a) Maria Luisa (4 Jan 1804-21 Dec 1883); m.6 Feb 1823 Don Domenico Pr Orsini (23 Nov 1790-18 Apr 1874)
+	100072592={ # 5a) Maria Luisa (4 Jan 1804-21 Dec 1883); m.6 Feb 1823 Don Domenico Pr Orsini (23 Nov 1790-18 Apr 1874) $$
 		name="Maria Luisa"
 		female=yes
 		dynasty=1006037
@@ -2121,7 +2608,7 @@
 					1734.08.15={birth=yes}
 					1761.12.24={death=yes}
 				}
-					100089727={ # E1. Cecilia (28 Jun 1759-16 Dec 1833); m.9 Feb 1776 Andrea Colonna (21 Nov 1748-9 Jul 1820) %%
+					100481752={ # E1. Cecilia (28 Jun 1759-16 Dec 1833); m.9 Feb 1776 Andrea Colonna (21 Nov 1748-9 Jul 1820) %%
 						name=Cecilia
 						female=yes
 						dynasty=1006035
@@ -3224,7 +3711,7 @@
 			father=100070137	# Tommaso Antici-Mattei
 			mother=100082842	# PSS Carlotta Gallaratti-Scotti di Molfetta
 			1889.01.19={birth=yes}  # Rome
-			1921.02.05={add_spouse=100119674}	# Julia Nemes de Hídvég et Oltszem
+			1921.02.05={add_spouse=100119669}	# Julia Nemes de Hídvég et Oltszem
 			1960.02.15={death=yes}  # Rome
 		}
 			100070142={ # 1c) Anna Maria Pia Albertina Giuseppina Carla Gabriella Tommasina (Rome 19 Feb 1922-Rome 3 Jul 1999); m.Recanati 14 Sep 1950 Ambrosio Marchese Spinola (Civitella d'Arno 6 Aug 1911-Rome 16 Dec 1972)
@@ -3233,7 +3720,7 @@
 				dynasty=1006032
 				religion=catholic culture=italian
 				father=100070141	# Guido Matteo Antici-Mattei
-				mother=100119674	# Julia Nemes de Hídvég et Oltszem
+				mother=100119669	# Julia Nemes de Hídvég et Oltszem
 				1922.02.19={birth=yes}  # Rome
 				1999.07.03={death=yes}  # Rome
 			}
@@ -3243,7 +3730,7 @@
 				dynasty=1006032
 				religion=catholic culture=italian
 				father=100070141	# Guido Matteo Antici-Mattei
-				mother=100119674	# Julia Nemes de Hídvég et Oltszem
+				mother=100119669	# Julia Nemes de Hídvég et Oltszem
 				1929.03.29={birth=yes}  # Rome
 				2007.07.05={death=yes}  # Oria
 			}
@@ -3253,7 +3740,7 @@
 				dynasty=1006032
 				religion=catholic culture=italian
 				father=100070141	# Guido Matteo Antici-Mattei
-				mother=100119674	# Julia Nemes de Hídvég et Oltszem
+				mother=100119669	# Julia Nemes de Hídvég et Oltszem
 				1933.06.30={birth=yes}  # Rome
 				2010.01.01={death=yes}  # EST.
 			}
@@ -3310,7 +3797,7 @@
 	dynasty=1006027
 	religion=catholic culture=italian
 	1752.01.01={birth=yes}
-	1783.01.01={add_spouse=100299524}	# Leopoldine v. Khevenhüller-Metsch
+	1783.01.01={add_spouse=100026103}	# Leopoldine v. Khevenhüller-Metsch
 	1829.01.01={death=yes}
 }
 	100072563={ # A1. Alessandro (1784-1 Oct 1842); m.4 Jun 1805 Marianna Esterházy de Galántha (Nagyszeben 23 Jan 1786-11 Dec 1821) %%
@@ -3318,7 +3805,7 @@
 		dynasty=1006027
 		religion=catholic culture=italian
 		father=100072559	# Francesco Ruspoli
-		mother=100299524	# Leopoldine v. Khevenhüller-Metsch
+		mother=100026103	# Leopoldine v. Khevenhüller-Metsch
 		1784.01.01={birth=yes}
 		1805.06.04={add_spouse=100117589}	# Marianna Esterházy de Galántha
 		1842.10.01={death=yes}
@@ -3349,7 +3836,7 @@
 		dynasty=1006027
 		religion=catholic culture=italian
 		father=100072559	# Francesco Ruspoli
-		mother=100299524	# Leopoldine v. Khevenhüller-Metsch
+		mother=100026103	# Leopoldine v. Khevenhüller-Metsch
 		1800.01.01={birth=yes}
 		1842.01.01={add_spouse=100089749}	# Carolina Ratti
 		1872.01.01={death=yes}
@@ -3824,11 +4311,35 @@
 
 
 ##  100072455-xxx		 	Gonzaga				              13052	 
-# gonzaga3
-100072456={ # Francesco II, Marchese di Mantova, *Mantova 10.8.1466, +Mantova 29.3.1519; m.Mantova 12.2.1490 Isabella d'Este (*18.5.1474 +13.2.1539); they had issue: $$
+#gonzaga2
+100092569={ # D1. Ludovico III "il Turco", Marchese di Mantova (1444-78), *Mantova 5.6.1414, +Goito 12.6.1478; m.Mantova 12.11.1433 Barbara von Hohenzollern (*1423 +7.11.1481) $$
+	name=Luigi
+	dynasty=13052
+	religion=catholic culture=italian
+	1414.06.05={birth=yes}
+	1433.11.12={add_spouse=100002050}	# Barbara v. Hohenzollern
+	1478.06.12={death=yes}
+}
+	100101738={ # E1. Federico I "il Gobbo", Marchese di Mantova (1478-84), *Mantova 25.6.1441, +Mantova 14.7.1484; m.Mantova 10.5.1463 Margerita von Bavaria-Munich (*1.1.1442 +14.10.1479) $$
+		name=Federigo
+		dynasty=13052
+		religion=catholic culture=italian
+		father=100092569	# Luigi Gonzaga
+		mother=100002050	# Barbara v. Hohenzollern
+		1441.06.25={birth=yes}
+		1463.05.10={add_spouse=100011798}	# Margarete v. Wittelsbach
+		1484.07.14={death=yes}
+	}
+		# gonzaga3 -> F1. Francesco II, Marchese di Mantova (1484-1519), *Mantova 10.8.1466, +Mantova 29.3.1519; m.Mantova 12.2.1490 Isabella d'Este (*18.5.1474 +13.2.1539); for his issue see HERE
+#gonzaga2
+
+#gonzaga3
+100072456={ # Francesco II, Marchese di Mantova, *Mantova 10.8.1466, +Mantova 29.3.1519; m.Mantova 12.2.1490 Isabella d'Este (*18.5.1474 +13.2.1539) $$
 	name=Francesco
 	dynasty=13052
-	religion=catholic culture=bohemian
+	religion=catholic culture=italian
+	father=100101738	# Federigo Gonzaga
+	mother=100011798	# Margarete v. Wittelsbach
 	1466.08.10={birth=yes}  # Mantova
 	1490.02.12={add_spouse=100071432}	# Isabella d'Este
 	1519.03.29={death=yes}  # Mantova
@@ -3837,7 +4348,7 @@
 		name=Eleonora
 		female=yes
 		dynasty=13052
-		religion=catholic culture=bohemian
+		religion=catholic culture=italian
 		father=100072456	# Francesco Gonzaga
 		mother=100071432	# Isabella d'Este
 		1493.12.31={birth=yes}  # Mantova
@@ -3846,7 +4357,7 @@
 	100072457={ # A1. Federico II, Marchese di Mantova, 1st Duca di Mantova, Marchese del Monferrato, *Mantova 17.5.1500, +Marmirolo 28.6.1540; m.Mantova 3.10.1531 Margherita Palaiologina (*11.8.1510 +28.12.1566)
 		name=Federico
 		dynasty=13052
-		religion=catholic culture=bohemian
+		religion=catholic culture=italian
 		father=100072456	# Francesco Gonzaga
 		mother=100071432	# Isabella d'Este
 		1500.05.17={birth=yes}  # Mantova
@@ -3856,7 +4367,7 @@
 		100072458={ # B1. Francesco III, Duca di Mantova, Marchese del Monferrato (1540-50), *Mantova 10.3.1533, +Mantova 22.2.1550; m.27.10.1549 Katharina von Habsburg (*15.9.1533 +28.2.1572) $$
 			name=Francesco
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072457	# Federico Gonzaga
 			mother=100081990	# Margherita Palaiologina
 			1533.03.10={birth=yes}  # Mantova
@@ -3867,7 +4378,7 @@
 			name=Isabella
 			female=yes
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072457	# Federico Gonzaga
 			mother=100081990	# Margherita Palaiologina
 			1537.04.18={birth=yes}  # Mantova
@@ -3876,7 +4387,7 @@
 		100072459={ # B2. Guglielmo I, Duca di Mantova (1550-87), Marchese del Monferrato, 1st Duca del Monferrato, *Mantova 24.4.1538, +Goito 14.8.1587; m.Mantova 26.4.1561 Eleonora von Habsburg (*2.11.1534 +5.8.1594) $$
 			name=Guglielmo
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072457	# Federico Gonzaga
 			mother=100081990	# Margherita Palaiologina
 			1538.04.24={birth=yes}  # Mantova
@@ -3886,7 +4397,7 @@
 			100072460={ # C1. Vincenzo I, Duca di Mantova, Duca del Monferrato, *Mantova 21.9.1562, +Mantova 9.2.1612; 1m: Piacenza 2.3.1581 (div 26.5.1583) Dss Margherita Farnese (*Parma 7.11.1567, +Piacenza 13.4.1643); 2m: Mantova 29.4.1584 Eleonora de Medici (*1.3.1566, +9.9.1611) $$
 				name=Vincenzo
 				dynasty=13052
-				religion=catholic culture=bohemian
+				religion=catholic culture=italian
 				father=100072459	# Guglielmo Gonzaga
 				mother=100021235	# Eleonora v. Habsburg
 				1562.09.21={birth=yes}  # Mantova
@@ -3898,7 +4409,7 @@
 				100072461={ # D1. [2m.] Francesco IV, Duca di Mantova e del Monferrato, *Mantova 7.5.1586, +Mantova 22.12.1612; m.Torino 19.2.1608 Margherita di Savoia (*28.4.1589 +26.6.1655) $$
 					name=Francesco
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072460	# Vincenzo Gonzaga
 					mother=100072430	# Eleonora de Medici
 					1586.05.07={birth=yes}  # Mantova
@@ -3909,7 +4420,7 @@
 						name=Maria
 						female=yes
 						dynasty=13052
-						religion=catholic culture=bohemian
+						religion=catholic culture=italian
 						father=100072461	# Francesco Gonzaga
 						mother=100070231	# Margherita de Savoie
 						1609.07.29={birth=yes}  # Mantova
@@ -3918,7 +4429,7 @@
 				100072463={ # D2. [2m.] Ferdinando I, Duca di Mantova, Duca del Monferrato, *Mantova 26.4.1587, +there 29.10.1626; m.17.2.1617 Caterina de Medici (*2.5.1593 +17.4.1629) $$
 					name=Ferdinando
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072460	# Vincenzo Gonzaga
 					mother=100072430	# Eleonora de Medici
 					1587.04.26={birth=yes}  # Mantova
@@ -3929,7 +4440,7 @@
 					name=Margherita
 					female=yes
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072460	# Vincenzo Gonzaga
 					mother=100072430	# Eleonora de Medici
 					1591.10.02={birth=yes}  # Mantova
@@ -3938,7 +4449,7 @@
 				100072465={ # D5. [2m.] Vincenzo II, Duca di Mantova, Duca del Monferrato, *Mantova 8.2.1594, +Mantova 26.12.1627; m.1617 Isabella Gonzaga (*1576 +1627), widow by Ferrante Gonzaga Marchese di Gazzuolo
 					name=Vincenzo
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072460	# Vincenzo Gonzaga
 					mother=100072430	# Eleonora de Medici
 					1594.02.08={birth=yes}  # Mantova
@@ -3949,7 +4460,7 @@
 					name=Eleonora
 					female=yes
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072460	# Vincenzo Gonzaga
 					mother=100072430	# Eleonora de Medici
 					1598.09.23={birth=yes}  # Mantova
@@ -3959,7 +4470,7 @@
 				name=Margherita
 				female=yes
 				dynasty=13052
-				religion=catholic culture=bohemian
+				religion=catholic culture=italian
 				father=100072459	# Guglielmo Gonzaga
 				mother=100021235	# Eleonora v. Habsburg
 				1564.05.27={birth=yes}  # Mantova
@@ -3969,7 +4480,7 @@
 				name="Anna Caterina"
 				female=yes
 				dynasty=13052
-				religion=catholic culture=bohemian
+				religion=catholic culture=italian
 				father=100072459	# Guglielmo Gonzaga
 				mother=100021235	# Eleonora v. Habsburg
 				1566.01.17={birth=yes}  # Mantova
@@ -3978,7 +4489,7 @@
 		100072469={ # B3. Luigi, Duc de Nevers et Rethel, *22.10.1539, +23.10.1595; m.4.3.1565 Henriette de La Marck, heiress of Nevers et Rethel (*31.10.1542, +24.6.1601)
 			name=Luigi
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072457	# Federico Gonzaga
 			mother=100081990	# Margherita Palaiologina
 			1539.10.22={birth=yes}
@@ -3989,7 +4500,7 @@
 				name=Caterina
 				female=yes
 				dynasty=13052
-				religion=catholic culture=bohemian
+				religion=catholic culture=italian
 				father=100072469	# Luigi Gonzaga
 				mother=100100233	# Henriette von der Marck
 				1568.01.21={birth=yes}
@@ -3999,7 +4510,7 @@
 				name=Enrichetta
 				female=yes
 				dynasty=13052
-				religion=catholic culture=bohemian
+				religion=catholic culture=italian
 				father=100072469	# Luigi Gonzaga
 				mother=100100233	# Henriette von der Marck
 				1571.09.03={birth=yes}
@@ -4018,7 +4529,7 @@
 				100072474={ # D2. Carlo II, Duc de Nevers et Rethel, Duc de Mayenne et d'Aiguillon, Marquis de Villars, *1609, +Cavriana 14.8.1631; m.Mantova 25.12.1627 Maria Gonzaga (*29.7.1609 +14.8.1660) $$
 					name=Carlo
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072472	# Carlo Gonzaga
 					mother=100066142	# Caterine de Lorraine
 					1609.01.01={birth=yes}
@@ -4029,7 +4540,7 @@
 						name=Eleonora
 						female=yes
 						dynasty=13052
-						religion=catholic culture=bohemian
+						religion=catholic culture=italian
 						father=100072474	# Carlo Gonzaga
 						mother=100072462	# Maria Gonzaga
 						1628.11.18={birth=yes}  # Mantova
@@ -4038,7 +4549,7 @@
 					100072476={ # E2. Carlo II, Duca di Mantova, Duca del Monferrato (1637-65), *Mantova 31.10.1629, +there 14.8.1665; m.7.11.1649 Isabella Klara of Austria (*12.8.1629 +31.10.1685) $$
 						name=Carlo
 						dynasty=13052
-						religion=catholic culture=bohemian
+						religion=catholic culture=italian
 						father=100072474	# Carlo Gonzaga
 						mother=100072462	# Maria Gonzaga
 						1629.10.31={birth=yes}  # Mantova
@@ -4048,7 +4559,7 @@
 						100072477={ # F1. Ferdinando Carlo I, Duca di Mantova, del Monferrato, di Guastalla, de Nevers, de Rethel, *Mantova 31.8.1652, +in exile Verona 5.7.1708; 1m: 1670 Anna Caterina Gonzaga (*1655, +11.8.1703); 2m: 8.11.1704 Suzanne Henriette de Lorraine (*1.2.1686 +19.12.1710) $$
 							name="Ferdinando Carlo"
 							dynasty=13052
-							religion=catholic culture=bohemian
+							religion=catholic culture=italian
 							father=100072476	# Carlo Gonzaga
 							mother=100021321	# Isabella Klara v. Habsburg
 							1652.08.31={birth=yes}  # Mantova
@@ -4059,7 +4570,7 @@
 							100072478={ # H1. Filippo, *1709, +1778; m.Css Rosalia Batthyány
 								name=Filippo
 								dynasty=13052
-								religion=catholic culture=bohemian
+								religion=catholic culture=italian
 								father=100072477	# Ferdinando Carlo Gonzaga
 								mother=100066345	# Suzanne Henriette de Lorraine
 								1709.01.01={birth=yes}
@@ -4069,7 +4580,7 @@
 				100072479={ # D3. Ferdinando, Duc de Mayenne et d'Aiguillon, Marquis de Villars, Comte du Maine, Comte de Tende, Comte de Sommerive, *1610, +25.5.1632
 					name=Ferdinando
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072472	# Carlo Gonzaga
 					mother=100066142	# Caterine de Lorraine
 					1610.01.01={birth=yes}
@@ -4098,7 +4609,7 @@
 	100072484={ # A3. Ferdinando I, Viceroy of Sicily, Viceroy of Milano, 1st Conte di Guastalla, *Mantova 28.1.1507, +Bruxelles 15.11.1557; m.1529 Dss Isabella di Capua (+Napoli 17.9.1559)
 		name=Ferdinando
 		dynasty=13052
-		religion=catholic culture=bohemian
+		religion=catholic culture=italian
 		father=100072456	# Francesco Gonzaga
 		mother=100071432	# Isabella d'Este
 		1507.01.28={birth=yes}  # Mantova
@@ -4108,7 +4619,7 @@
 		100072485={ # B1. Cesare I, 2nd Conte di Guastalla, Principe of Molfetta, Duca di Amalfi, Marchese di Pomponesco e Ortiano, Duca di Termoli, *1530, +Milano 17.2.1575; m.1560 Camilla Borromeo (+6.9.1582)
 			name=Cesare
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072484	# Ferdinando Gonzaga
 			mother=100100257	# DSS Isabella di Capua
 			1530.01.01={birth=yes}
@@ -4119,7 +4630,7 @@
 				name=Margherita
 				female=yes
 				dynasty=13052
-				religion=catholic culture=bohemian
+				religion=catholic culture=italian
 				father=100072485	# Cesare Gonzaga
 				mother=100100258	# Camilla Borromeo
 				1562.01.01={birth=yes}
@@ -4128,7 +4639,7 @@
 			100072486={ # C1. Ferdinando II, Marchese di Guastalla, Amalfi e Termoli, Principe di Molfetta, 1st Duca di Guastalla 1621, *1563, +5.8.1630; m.1587 Donna Vittoria Doria (*1569 +1618)
 				name=Ferdinando
 				dynasty=13052
-				religion=catholic culture=bohemian
+				religion=catholic culture=italian
 				father=100072485	# Cesare Gonzaga
 				mother=100100258	# Camilla Borromeo
 				1563.01.01={birth=yes}
@@ -4138,7 +4649,7 @@
 				100072495={ # D3. Andrea, Conte di San Paolo in the kingdom of Napoli, +1686; m.Laura Crespano
 					name=Andrea
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072486	# Ferdinando Gonzaga
 					mother=100100259	# DONNA Vittoria Doria
 					1588.01.01={birth=yes}  # EST.
@@ -4147,7 +4658,7 @@
 					100072496={ # E1. Giovanni, Conte di San Paolo; m.donna Ippolita Cavaniglia
 						name=Giovanni
 						dynasty=13052
-						religion=catholic culture=bohemian
+						religion=catholic culture=italian
 						father=100072495	# Andrea Gonzaga
 						1632.01.01={birth=yes}  # EST.
 						1657.01.01={add_spouse=100100268}	# DONNA Ippolita Cavaniglia
@@ -4156,7 +4667,7 @@
 					100072497={ # E2. Vincenzo I, Conte di San Paolo, Duca di Guastalla, Principe di Sabbioneta e Bozzolo, *1634, +Guastalla 27.4.1714; 1m: Porzia Guidi, dau.of Nicola Marquis of Bagno and Montebello by Teodora Gonzaga of Guastalla; 2m: 1679 Maria Vittoria Gonzaga di Guastalla (*1659, +5.9.1707)
 						name=Vicente
 						dynasty=13052
-						religion=catholic culture=bohemian
+						religion=catholic culture=italian
 						father=100072495	# Andrea Gonzaga
 						1634.01.01={birth=yes}
 						1659.01.01={add_spouse=100100269}	# Porzia Guidi
@@ -4167,7 +4678,7 @@
 							name="Eleonore Luisa"
 							female=yes
 							dynasty=13052
-							religion=catholic culture=bohemian
+							religion=catholic culture=italian
 							father=100072497	# Vicente Gonzaga
 							mother=100072490	# Maria Vittoria Gonzaga
 							1686.11.13={birth=yes}  # Guastalla
@@ -4176,7 +4687,7 @@
 						100072498={ # F1. [2m.] Antonio Ferdinando, Duca di Guastalla, Principe di Sabbioneta e Bozzolo 1714, *Guastalla 6.12.1687, +burned alive in an accident in Guastalla 19.4.1729; m.29.7.1727 Teodora of Hessen-Darmstadt (*Vienna 6.2.1709, +Parma 23.1.1784) $$
 							name="Anton Ferdinand"
 							dynasty=13052
-							religion=catholic culture=bohemian
+							religion=catholic culture=italian
 							father=100072497	# Vicente Gonzaga
 							mother=100072490	# Maria Vittoria Gonzaga
 							1687.12.06={birth=yes}  # Guastalla
@@ -4186,7 +4697,7 @@
 						100072499={ # F2. [2m.] Giuseppe Maria, Duca di Guastalla, Principe di Sabbioneta e Bozzolo 1729, an idiot, *Guastalla 20.4.1690, +Guastalla 16.8.1746; m.Lilienfeld 29.4.1731 Dss Eleonora von Schleswig-Holstein-Sondenburg (*18.2.1715, +18.4.1760) $$
 							name=Giuseppe
 							dynasty=13052
-							religion=catholic culture=bohemian
+							religion=catholic culture=italian
 							father=100072497	# Vicente Gonzaga
 							mother=100072490	# Maria Vittoria Gonzaga
 							1690.04.20={birth=yes}  # Guastalla
@@ -4197,7 +4708,7 @@
 					name=Zenobia
 					female=yes
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072486	# Ferdinando Gonzaga
 					mother=100100259	# DONNA Vittoria Doria
 					1588.01.01={birth=yes}
@@ -4207,7 +4718,7 @@
 					name=Teodora
 					female=yes
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072486	# Ferdinando Gonzaga
 					mother=100100259	# DONNA Vittoria Doria
 					1590.01.01={birth=yes}  # EST.
@@ -4216,7 +4727,7 @@
 				100072487={ # D1. Cesare II, 2nd Duca di Guastalla 1630, *Mantova 1592, +Guastalla 26.2.1632; m.1612 donna Isabella Orsini (*ca 1598 +1623)
 					name=Cesare
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072486	# Ferdinando Gonzaga
 					mother=100100259	# DONNA Vittoria Doria
 					1592.01.01={birth=yes}  # Mantova
@@ -4226,7 +4737,7 @@
 					100072488={ # E1. Ferdinando III, 3rd Duca di Guastalla 1632, *Mantova 4.4.1618, +Guastalla 11.1.1678; m.1647 Margherita d'Este (*1619, +12.11.1692) $$
 						name=Ferdinando
 						dynasty=13052
-						religion=catholic culture=bohemian
+						religion=catholic culture=italian
 						father=100072487	# Cesare Gonzaga
 						mother=100100260	# DONNA Isabella Orsini
 						1618.04.04={birth=yes}  # Mantova
@@ -4237,7 +4748,7 @@
 							name=Isabella
 							female=yes
 							dynasty=13052
-							religion=catholic culture=bohemian
+							religion=catholic culture=italian
 							father=100072488	# Ferdinando Gonzaga
 							mother=100071363	# Margherita d'Este
 							1655.02.12={birth=yes}  # Guastalla
@@ -4247,7 +4758,7 @@
 							name="Maria Vittoria"
 							female=yes
 							dynasty=13052
-							religion=catholic culture=bohemian
+							religion=catholic culture=italian
 							father=100072488	# Ferdinando Gonzaga
 							mother=100071363	# Margherita d'Este
 							1659.01.01={birth=yes}  # Guastalla
@@ -4256,7 +4767,7 @@
 					100072491={ # E2. Vespasiano Vincenzo, Viceroy of Valencia, *8.9.1621, +3.5.1687; m.1646 Css María Inés Manrique de Lara (+18.8.1679)
 						name="Vespasiano Vincenzo"
 						dynasty=13052
-						religion=catholic culture=bohemian
+						religion=catholic culture=italian
 						father=100072487	# Cesare Gonzaga
 						mother=100100260	# DONNA Isabella Orsini
 						1621.09.08={birth=yes}
@@ -4267,7 +4778,7 @@
 							name=Maria
 							female=yes
 							dynasty=13052
-							religion=catholic culture=bohemian
+							religion=catholic culture=italian
 							father=100072491	# Vespasiano Vincenzo Gonzaga
 							mother=100100264	# CSS María Inés Manrique de Lara
 							1649.04.17={birth=yes}
@@ -4277,7 +4788,7 @@
 							name="Maria Josefa"
 							female=yes
 							dynasty=13052
-							religion=catholic culture=bohemian
+							religion=catholic culture=italian
 							father=100072491	# Vespasiano Vincenzo Gonzaga
 							mother=100100264	# CSS María Inés Manrique de Lara
 							1651.01.01={birth=yes}  # EST.
@@ -4286,7 +4797,7 @@
 				100072494={ # D2. Vincenzo, Viceroy of Sicily, *1602, +23.11.1694
 					name="Vincenzo [Viceroy of Sicily"
 					dynasty=13052
-					religion=catholic culture=bohemian
+					religion=catholic culture=italian
 					father=100072486	# Ferdinando Gonzaga
 					mother=100100259	# DONNA Vittoria Doria
 					1602.01.01={birth=yes}
@@ -4296,7 +4807,7 @@
 				name=Ippolita
 				female=yes
 				dynasty=13052
-				religion=catholic culture=bohemian
+				religion=catholic culture=italian
 				father=100072485	# Cesare Gonzaga
 				mother=100100258	# Camilla Borromeo
 				add_trait=bastard
@@ -4307,7 +4818,7 @@
 			name=Ippolita
 			female=yes
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072484	# Ferdinando Gonzaga
 			mother=100100257	# DSS Isabella di Capua
 			1531.01.01={birth=yes}
@@ -4316,7 +4827,7 @@
 		100072507={ # B5. Ottavio, chivalry general in Milano, +1583; 1m: Css Isabella da Correggio; 2m: IX.1575 Cecilia Medici marquess of Marignano (*1552 +17.9.1616)
 			name=Ottavio
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072484	# Ferdinando Gonzaga
 			mother=100100257	# DSS Isabella di Capua
 			1533.01.01={birth=yes}  # EST.
@@ -4328,7 +4839,7 @@
 			name=Ippolita
 			female=yes
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072484	# Ferdinando Gonzaga
 			mother=100100257	# DSS Isabella di Capua
 			1535.01.01={birth=yes}  # EST.
@@ -4338,7 +4849,7 @@
 			name=Andrea
 			female=yes
 			dynasty=13052
-			religion=catholic culture=bohemian
+			religion=catholic culture=italian
 			father=100072484	# Ferdinando Gonzaga
 			mother=100100257	# DSS Isabella di Capua
 			1537.01.01={birth=yes}  # EST.
@@ -6358,7 +6869,7 @@
 										religion=catholic culture=italian
 										father=100188775	# Rolando Pallavicini
 										1901.03.13={birth=yes}  # Parma
-										1940.05.08={add_spouse=100026213}	# Maria Viktoria v. Attems
+										1940.05.08={add_spouse=100025418}	# Maria Viktoria v. Attems
 										1963.04.26={death=yes}
 									}
 						100072177={ # F2. Lodovico (Parma 10 Mar 1803-Turin 4 Jul 1879); m.8 Jun 1853 Marguerite Louise de Faucigny-Lucinge (Paris 9 Apr 1833-Turin 21 Jan 1922) %%
@@ -6392,7 +6903,7 @@
 			religion=catholic culture=italian
 			father=100188782	# Alessandro Pallavicini
 			1739.11.18={birth=yes}	# Genova
-			1786.01.01={add_spouse=100115301}	# Leopoldine Zichy de Zich et Vásonykõ
+			1786.01.01={add_spouse=100118762}	# Leopoldine Zichy de Zich et Vásonykõ
 			1789.03.04={death=yes}	# Wien
 		}
 			100071752={ # Odoardo, Mkgf Pallavicini (Wien 9 Mar 1787-Wien 20 Apr 1839); m.Vienna 22 Apr 1806 Josephine Gfn zu Hardegg (Vienna 2 May 1784-Vienna 23 Dec 1850) $$
@@ -6400,7 +6911,7 @@
 				dynasty=13002
 				religion=catholic culture=german
 				father=100188781	# Gian Carlo Pallavicini
-				mother=100115301	# Leopoldine Zichy de Zich et Vásonykõ
+				mother=100118762	# Leopoldine Zichy de Zich et Vásonykõ
 				1787.03.09={birth=yes}  # Wien
 				1806.04.22={add_spouse=100036493}	# Josephine zu Hardegg auf Glatz u.im Machlande
 				1839.04.20={death=yes}  # Wien
@@ -6452,7 +6963,7 @@
 						father=100071751	# Alfons Pallavicini
 						mother=100011487	# Gabriele v. Fürstenberg
 						1853.05.06={birth=yes}  # Vienna
-						1876.06.20={add_spouse=100116502}	# Marie Széchenyi de Sárvár-Felsõvidek
+						1876.06.20={add_spouse=100116500}	# Marie Széchenyi de Sárvár-Felsõvidek
 						1933.04.14={death=yes}  # Vienna
 					}
 						100072159={ # 2c) Alfons Maria (Vienna 10 Nov 1883-Vienna 18 Jan 1958); m.Vienna 30 May 1922 Maria Gfn von Wenckheim (Groß-Schützen 2 Jun 1898-Gmunden 3 Aug 1977) $$
@@ -6460,9 +6971,9 @@
 							dynasty=13002
 							religion=catholic culture=german
 							father=100072157	# Alexander Oswald Pallavicini
-							mother=100116502	# Marie Széchenyi de Sárvár-Felsõvidek
+							mother=100116500	# Marie Széchenyi de Sárvár-Felsõvidek
 							1883.11.10={birth=yes}  # Vienna
-							1922.05.30={add_spouse=100115776}	# Mária Wenckheim
+							1922.05.30={add_spouse=100115797}	# Mária Wenckheim
 							1958.01.18={death=yes}  # Vienna
 						}
 							100072160={ # 1d) Karl Alexander (Budapest 12 Apr 1923-Milan 25 Jul 2004); m.Lanzago di Silea 25 May 1963 Avagora Ctsa degli Azzoni Avagadro (b.Venice 23 Mar 1926)
@@ -6470,7 +6981,7 @@
 								dynasty=13002
 								religion=catholic culture=hungarian
 								father=100072159	# Alfons Pallavicini
-								mother=100115776	# Mária Wenckheim
+								mother=100115797	# Mária Wenckheim
 								1923.04.12={birth=yes}  # Budapest
 								1963.05.25={add_spouse=100082311}	# CTSA Avagora degli Azzoni Avagadro
 								2004.07.25={death=yes}  # Milan
@@ -6532,7 +7043,7 @@
 								dynasty=13002
 								religion=catholic culture=hungarian
 								father=100072159	# Alfons Pallavicini
-								mother=100115776	# Mária Wenckheim
+								mother=100115797	# Mária Wenckheim
 								1924.12.23={birth=yes}  # Budapest
 								1945.05.25={add_spouse=100185952}	# Maria Kinsky von Wchinitz u.Tettau
 								1949.01.01={remove_spouse=100185952}
@@ -6592,7 +7103,7 @@
 								dynasty=13002
 								religion=catholic culture=hungarian
 								father=100072159	# Alfons Pallavicini
-								mother=100115776	# Mária Wenckheim
+								mother=100115797	# Mária Wenckheim
 								1929.04.08={birth=yes}  # Budapest
 								1976.07.20={add_spouse=100083588}	# Mathilde Maleta
 								1983.04.16={death=yes}  # Vienna
@@ -6603,7 +7114,7 @@
 								dynasty=13002
 								religion=catholic culture=hungarian
 								father=100072159	# Alfons Pallavicini
-								mother=100115776	# Mária Wenckheim
+								mother=100115797	# Mária Wenckheim
 								1933.12.19={birth=yes}  # Szilvasvarad
 								2010.01.01={death=yes}  # EST.
 							}
@@ -6612,7 +7123,7 @@
 							dynasty=13002
 							religion=catholic culture=hungarian
 							father=100072157			# Alexander Oswald Pallavicini
-							mother=100116502			# Marie Széchenyi de Sárvár-Felsõvidek
+							mother=100116500			# Marie Széchenyi de Sárvár-Felsõvidek
 							1890.11.15={birth=yes}  	# Jamnitz
 							1941.12.26={death=yes}  	# Buda
 						}
@@ -7144,7 +7655,7 @@
 					father=100071752	# Odoardo Pallavicini
 					mother=100036493	# Josephine zu Hardegg auf Glatz u.im Machlande
 					1814.11.21={birth=yes}  # Vienna
-					1851.09.22={add_spouse=100117816}	# Eulália Vay de Vaja
+					1851.09.22={add_spouse=100117869}	# Eulália Vay de Vaja
 					1874.02.01={death=yes}  # Felsö-Nyarad
 				}
 				100072233={ # 7a) Oswald (Vienna 2 Jun 1817-Pinnye 12 Jun 1877); m.21 Jun 1856 Helene Gfn Zichy de Zich et Vásonykeö (Ödenburg 9 Aug 1834-Vienna 12 Jul 1883) $$
@@ -7154,7 +7665,7 @@
 					father=100071752	# Odoardo Pallavicini
 					mother=100036493	# Josephine zu Hardegg auf Glatz u.im Machlande
 					1817.06.02={birth=yes}  # Vienna
-					1856.06.21={add_spouse=100115961}	# Ilona Zichy de Zich et Vásonykõ
+					1856.06.21={add_spouse=100115598}	# Ilona Zichy de Zich et Vásonykõ
 					1877.06.12={death=yes}  # Pinnye
 				}
 					100072234={ # 1b) Julie (Vienna 10 May 1857-15 Dec 1935); m.Vienna 9 Apr 1888 Friedrich Gf von Schönborn-Wiesentheid (Würzburg 10 Mar 1847-16 Dec 1913) $$
@@ -7163,7 +7674,7 @@
 						dynasty=13002
 						religion=catholic culture=german
 						father=100072233	# Oswald Pallavicini
-						mother=100115961	# Ilona Zichy de Zich et Vásonykõ
+						mother=100115598	# Ilona Zichy de Zich et Vásonykõ
 						1857.05.10={birth=yes}  # Vienna
 						1935.12.15={death=yes}
 					}
@@ -7172,7 +7683,7 @@
 						dynasty=13002
 						religion=catholic culture=hungarian
 						father=100072233	# Oswald Pallavicini
-						mother=100115961	# Ilona Zichy de Zich et Vásonykõ
+						mother=100115598	# Ilona Zichy de Zich et Vásonykõ
 						1858.12.22={birth=yes}  # Ödenburg
 						1883.07.28={add_spouse=100096912}	# Mary Kyd von Rebenburg
 						1938.01.25={death=yes}  # Vienna
@@ -8135,7 +8646,7 @@
 
 
 ##  1006021		Collalto										100073050	
-100081416={ # Gfn        Juliane                   von Collalto und San Salvatore           (1623-1647)     1
+100081416={ # Gfn        Juliane                   von Collalto u.San Salvatore             (1623-1647)     1
 	name="Juliane von Collalto und San Salvatore"
 	female=yes
 	dynasty=0
@@ -8143,7 +8654,15 @@
 	1623.01.01={birth=yes}
 	1647.01.01={death=yes}
 }
-	
+100104032={ # Gf         Anton Franz               von Collalto u.San Salvatore             (1630-1696)     - [ALTHANN]
+	name="Anton Franz von Collalto u.San Salvatore"
+	dynasty=0
+	religion=catholic culture=german
+	1630.01.01={birth=yes}
+	1674.01.01={add_spouse=100022245}	# Maria v. Althann
+	1696.07.07={death=yes}
+}
+
 100070750={	# Cte Odoardo II di Collalto (25 May 1682-1749); m.Anna Maria di Collalto
 	name=Eduardo
 	dynasty=1006021
@@ -8177,7 +8696,7 @@
 				father=100070752	# Odoardo v. Collalto u.San Salvatore
 				mother=100094900	# CTSA Cecilia Gradenigo
 				1784.08.06={birth=yes}
-				1810.01.07={add_spouse=100117362}	# Caroline Apponyi de Nagy-Apponyi
+				1810.01.07={add_spouse=100117345}	# Caroline Apponyi de Nagy-Apponyi
 				1854.11.23={death=yes}
 			}
 				100070754={	# 1d) EDUARD Fst von Collalto u.San Salvatore (17 Oct 1810-24 Mar 1862); m.4 Nov 1834 Caroline Gfn Apponyi von Nagy Appony (18 Jul 1814-23 Jun 1886) $$
@@ -8185,9 +8704,9 @@
 					dynasty=1006021
 					religion=catholic culture=italian
 					father=100070753	# Anton v. Collalto u.San Salvatore
-					mother=100117362	# Caroline Apponyi de Nagy-Apponyi
+					mother=100117345	# Caroline Apponyi de Nagy-Apponyi
 					1810.10.17={birth=yes}
-					1834.11.04={add_spouse=100117354}	# Caroline Apponyi de Nagy-Apponyi
+					1834.11.04={add_spouse=100117353}	# Caroline Apponyi de Nagy-Apponyi
 					1862.03.24={death=yes}
 				}
 					100070755={	# 2e) Julie Caroline Therese (Pirnitz, Moravia 5 Mar 1838-Klafterbrunn 3 Apr 1922); m.Vienna 8 Apr 1861 Eduard Gf von Walderdorff (Molsberg 29 Jan 1833-Klafterbrunn 1 Oct 1887) $$
@@ -8196,7 +8715,7 @@
 						dynasty=1006021
 						religion=catholic culture=italian
 						father=100070754	# Odoardo v. Collalto u.San Salvatore
-						mother=100117354	# Caroline Apponyi de Nagy-Apponyi
+						mother=100117353	# Caroline Apponyi de Nagy-Apponyi
 						1838.03.05={birth=yes}  # Pirnitz Moravia
 						1922.04.03={death=yes}  # Klafterbrunn
 					}
@@ -8205,7 +8724,7 @@
 						dynasty=1006021
 						religion=catholic culture=italian
 						father=100070754	# Odoardo v. Collalto u.San Salvatore
-						mother=100117354	# Caroline Apponyi de Nagy-Apponyi
+						mother=100117353	# Caroline Apponyi de Nagy-Apponyi
 						1854.12.24={birth=yes}
 						1924.12.11={death=yes}
 					}
@@ -8215,7 +8734,7 @@
 					dynasty=1006021
 					religion=catholic culture=italian
 					father=100070753	# Anton v. Collalto u.San Salvatore
-					mother=100117362	# Caroline Apponyi de Nagy-Apponyi
+					mother=100117345	# Caroline Apponyi de Nagy-Apponyi
 					1812.04.30={birth=yes}
 					1890.10.07={death=yes}
 				}
@@ -8224,7 +8743,7 @@
 					dynasty=1006021
 					religion=catholic culture=italian
 					father=100070753	# Anton v. Collalto u.San Salvatore
-					mother=100117362	# Caroline Apponyi de Nagy-Apponyi
+					mother=100117345	# Caroline Apponyi de Nagy-Apponyi
 					1814.07.19={birth=yes}
 					1840.05.10={add_spouse=100024996}	# Ida v. Colloredo-Mannsfeld
 					1890.06.28={death=yes}
@@ -8420,7 +8939,7 @@
 					dynasty=1006021
 					religion=catholic culture=german
 					father=100070753	# Anton v. Collalto u.San Salvatore
-					mother=100117362	# Caroline Apponyi de Nagy-Apponyi
+					mother=100117345	# Caroline Apponyi de Nagy-Apponyi
 					1818.01.18={birth=yes}  # Vienna
 					1855.11.27={death=yes}  # Lich
 				}
@@ -8835,7 +9354,7 @@
 		father=100071550	# Camillo Massimo-Lancellotti
 		mother=100007559	# Christina Sabina v. Wettin
 		1803.08.15={birth=yes}  # Rome
-		1827.10.11={add_spouse=100083295}	# Maria Gabriella di Savoia-Villafranca
+		1827.10.11={add_spouse=100072734}	# Maria Gabriella de Savoie
 		1842.10.02={add_spouse=100083110}	# CTE Giacinta della Porta Rodiani
 		1873.04.06={death=yes}  # Rome
 	}
@@ -8844,7 +9363,7 @@
 			dynasty=1006019
 			religion=catholic culture=italian
 			father=100071553	# Camillo Massimo-Lancellotti
-			mother=100083295	# Maria Gabriella di Savoia-Villafranca
+			mother=100072734	# Maria Gabriella de Savoie
 			1836.12.03={birth=yes}  # Rome
 			1860.06.21={add_spouse=100071455}	# Francesca Lucchesi Palli
 			1921.01.21={death=yes}  # Rome
@@ -9917,7 +10436,7 @@
 								mother=100001183	# Charlotte v. Hannover
 								1698.07.02={birth=yes}  # Modena
 								1720.06.21={add_spouse=100066604}	# Charlotte-Aglaé d’Orléans
-								1762.01.01={add_spouse=100026292}	# Maria Renata von Harrach zu Rohrau u.Thannhausen
+								1762.01.01={add_spouse=100022117}	# Maria Renata von Harrach zu Rohrau u.Thannhausen
 								1780.02.22={death=yes}  # Varese
 							}
 								100071319={ # H5. Maria Teresa Felicitas, *Modena 6.10.1726, +Paris 30.4.1754, bur Dreux; m.Versailles 29.12.1744 Duc Louis-Jean de Penthiévre (*16.11.1725 +4.3.1793) $$
@@ -9937,7 +10456,7 @@
 									father=100071123	# Francesco d'Este
 									mother=100066604	# Charlotte-Aglaé d’Orléans
 									1727.11.22={birth=yes}  # Modena
-									1741.04.16={add_spouse=100100952}	# DSS Maria Theresa Cybo di Massa
+									1741.04.16={add_spouse=100084678}	# DSS Maria Theresa Cybo di Massa
 									1795.01.01={add_spouse=100100954}	# MARCHESA Chiara Marini di Scandiano
 									1803.10.14={death=yes}  # Treviso
 								}
@@ -9947,7 +10466,7 @@
 										dynasty=679
 										religion=catholic culture=italian
 										father=100071124	# Ercole d'Este
-										mother=100100952	# DSS Maria Theresa Cybo di Massa
+										mother=100084678	# DSS Maria Theresa Cybo di Massa
 										1750.04.07={birth=yes}  # Modena
 										1829.11.14={death=yes}  # Vienna
 									}
@@ -9956,7 +10475,7 @@
 										dynasty=679
 										religion=catholic culture=italian
 										father=100071124	# Ercole d'Este
-										mother=100100952	# DSS Maria Theresa Cybo di Massa
+										mother=100084678	# DSS Maria Theresa Cybo di Massa
 										1770.01.01={birth=yes}
 										1795.01.01={death=yes}
 									}
@@ -10114,7 +10633,7 @@
 						1653.01.01={birth=yes}
 						1713.10.27={death=yes}  # Reggio
 					}
-					100071372={ # E7. Angela Maria Caterina, *1.3.1656, +12.7.1722; m.Racconigi 7.11.1684 Duca Emanuele Filiberto di Savoia-Carignano (*1628 +1709)
+					100071372={ # E7. Angela Maria Caterina, *1.3.1656, +12.7.1722; m.Racconigi 7.11.1684 Duca Emanuele Filiberto di Savoia-Carignano (*1628 +1709) $$
 						name=Angela
 						female=yes
 						dynasty=679
@@ -16772,7 +17291,7 @@
 			mother=100083163	# PSS Caterina Giustiniani
 			1778.07.22={birth=yes}
 			1801.02.10={add_spouse=100192402}	# Anna Luisa Keglevich de Buzin
-			1831.03.13={add_spouse=100115814}	# Henriette Zichy de Zich et Vásonykõ
+			1831.03.13={add_spouse=100115745}	# Henriette Zichy de Zich et Vásonykõ
 			1833.09.24={death=yes}
 		}
 			100071653={	# 4c) Livio Ladislaus Giovanni Nepomuk Ignacio, Pr Odescalchi, etc (Vienna 20 Sep 1805-Rome 11 Nov 1885); m.11 Jul 1841 Css Sophie Katharina Rosa Branicka (Blatocerkiew 2 Sep 1821-Rome 18 Aug 1886) $$
@@ -17106,7 +17625,7 @@
 						father=100071686	# Gyula Odescalchi
 						mother=100010110	# Anna von Degenfeld-Schonburg
 						1858.02.09={birth=yes}
-						1882.04.29={add_spouse=100117173}	# Etelka Andrássy de Csíkszentkirály
+						1882.04.29={add_spouse=100117218}	# Etelka Andrássy de Csíkszentkirály
 						1937.08.22={death=yes}
 					}
 						100071689={	# 2f) Ilona (Zerdahely 19 Feb 1888-Vienna 25 Feb 1973)
@@ -17115,7 +17634,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071688	# Géza Odescalchi
-							mother=100117173	# Etelka Andrássy de Csíkszentkirály
+							mother=100117218	# Etelka Andrássy de Csíkszentkirály
 							1888.02.19={birth=yes}
 							1973.02.25={death=yes}
 						}
@@ -17124,7 +17643,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071688	# Géza Odescalchi
-							mother=100117173	# Etelka Andrássy de Csíkszentkirály
+							mother=100117218	# Etelka Andrássy de Csíkszentkirály
 							1890.10.06={birth=yes}
 							1924.12.17={add_spouse=100117379}	# Franciska Esterházy de Galántha
 							1938.05.28={add_spouse=100080478}	# Sarolta Bay de Bába
@@ -17179,7 +17698,7 @@
 							dynasty=1006007
 							religion=catholic culture=hungarian
 							father=100071688	# Géza Odescalchi
-							mother=100117173	# Etelka Andrássy de Csíkszentkirály
+							mother=100117218	# Etelka Andrássy de Csíkszentkirály
 							1893.08.07={birth=yes}
 							1949.10.19={add_spouse=100083877}	# Aloisia Fink
 							1967.12.30={death=yes}
@@ -17217,7 +17736,7 @@
 					1862.08.27={add_spouse=100035053}	# Eugenie Lo Presti di Fontana d'Angioli
 					1870.10.25={add_spouse=100117102}	# Valerie Erdõdy de Monyorókerék et Monoszló
 					1875.01.01={remove_spouse=100117102}
-					1876.01.10={add_spouse=100115417}	# Julie Zichy de Zich et Vásonykõ
+					1876.01.10={add_spouse=100118032}	# Julie Zichy de Zich et Vásonykõ
 					1924.01.09={death=yes}
 				}
 					100071700={	# 1e) Livio (Szolcsany 25 Apr 1863-Szolcsany Aug 1938); m.1st Klausenburg 14 May 1887 Ilona Bss Zeyk de Zeykfalva (Kolosvar 6 Oct 1865-Czisser 24 Jan 1920) $$
@@ -17332,7 +17851,7 @@
 						dynasty=1006007
 						religion=catholic culture=hungarian
 						father=100071699	# Arturo Odescalchi
-						mother=100115417	# Julie Zichy de Zich et Vásonykõ
+						mother=100118032	# Julie Zichy de Zich et Vásonykõ
 						1876.10.10={birth=yes}
 						1901.06.08={add_spouse=100116282}	# Pálma Eleonora Lónyay de Nagylónya et Vásárosnamény
 						1917.04.03={death=yes}
@@ -17405,7 +17924,7 @@
 						dynasty=1006007
 						religion=catholic culture=italian
 						father=100071699	# Arturo Odescalchi
-						mother=100115417	# Julie Zichy de Zich et Vásonykõ
+						mother=100118032	# Julie Zichy de Zich et Vásonykõ
 						1879.11.01={birth=yes}
 						1966.12.13={death=yes}
 					}
@@ -17415,7 +17934,7 @@
 						dynasty=1006007
 						religion=catholic culture=italian
 						father=100071699	# Arturo Odescalchi
-						mother=100115417	# Julie Zichy de Zich et Vásonykõ
+						mother=100118032	# Julie Zichy de Zich et Vásonykõ
 						1882.04.28={birth=yes}
 						1965.10.24={death=yes}
 					}
@@ -17424,7 +17943,7 @@
 						dynasty=1006007
 						religion=catholic culture=hungarian
 						father=100071699	# Arturo Odescalchi
-						mother=100115417	# Julie Zichy de Zich et Vásonykõ
+						mother=100118032	# Julie Zichy de Zich et Vásonykõ
 						1884.01.12={birth=yes}
 						1915.02.23={add_spouse=100082501}	# MARCHESA Mary Dorothea de Labouchère
 						1925.01.01={remove_spouse=100082501}
@@ -17485,7 +18004,7 @@
 				dynasty=1006007
 				religion=catholic culture=italian
 				father=100071652	# Innocenzo Odescalchi
-				mother=100115814	# Henriette Zichy de Zich et Vásonykõ
+				mother=100115745	# Henriette Zichy de Zich et Vásonykõ
 				1833.07.27={birth=yes}
 				1864.01.21={add_spouse=100084455}	# GFN Johanna Grimaud d'Orsay
 				1880.07.20={death=yes}
@@ -17723,7 +18242,7 @@
 	religion=catholic culture=italian
 	father=100071000	# Marcantonio Colonna
 	1748.11.21={birth=yes}
-	1776.02.09={add_spouse=100089727}	# Cecilia Ruffo di Bagnara
+	1776.02.09={add_spouse=100481752}	# Cecilia Ruffo di Bagnara
 	1820.07.09={death=yes}
 }
 	100070921={	# 1a) Maria Giulia (Naples 29 Oct 1783-Naples 24 Dec 1867); m.Naples 4 Nov 1804 Giangirolamo Acquaviva d’Aragona, Duca di Atri, etc (Naples 19 Dec 1786-29 Oct 1818)
@@ -17732,7 +18251,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1783.10.29={birth=yes}
 		1867.12.24={death=yes}
 	}
@@ -17741,7 +18260,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1785.06.16={birth=yes}
 		1806.11.20={add_spouse=100083383}	# PSS Giovanna Doria d'Angri
 		1819.06.04={add_spouse=100083384}	# PSS Anna Doria d'Angri
@@ -17852,7 +18371,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1786.08.16={birth=yes}
 		1827.08.20={add_spouse=100089349}	# Clementina Raimondi
 		1853.02.19={death=yes}
@@ -18252,7 +18771,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1787.11.04={birth=yes}
 		1831.01.14={add_spouse=100081504}	# Emilia Ciardulli
 		1860.12.23={death=yes}
@@ -18302,7 +18821,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1792.09.03={birth=yes}
 		1867.12.02={death=yes}
 	}
@@ -18312,7 +18831,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1795.06.13={birth=yes}
 		1855.01.01={death=yes}
 	}
@@ -18322,7 +18841,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1797.09.10={birth=yes}
 		1871.03.06={death=yes}
 	}
@@ -18331,7 +18850,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1799.05.15={birth=yes}
 		1834.01.08={add_spouse=100085179}	# Maria Luisa Hueber
 		1870.04.01={death=yes}
@@ -18619,7 +19138,7 @@
 		dynasty=1006006
 		religion=catholic culture=italian
 		father=100070919	# Andrea Colonna
-		mother=100089727	# Cecilia Ruffo di Bagnara
+		mother=100481752	# Cecilia Ruffo di Bagnara
 		1802.06.20={birth=yes}
 		1830.01.01={add_spouse=100088208}	# DSS Olimpia Monticelli della Valle di Ventignano
 		1856.09.19={death=yes}
@@ -18698,7 +19217,7 @@
 			father=100070803	# Giovanni Colonna
 			mother=100080125	# Isabella Álvarez de Toledo
 			1848.03.28={birth=yes}
-			1878.05.20={add_spouse=100083386}	# Olimpia Doria-Pamphilj-Landi
+			1878.05.20={add_spouse=100035167}	# Olimpia Doria-Pamphili-Landi
 			1923.08.08={death=yes}
 		}
 			100070823={	# 1c) MARCANTONIO Pr Colonna, Pr di Paliano, 1tc (Rome 25 Jul 1881-Rome 9 Mar 1947); m.Rome 8 Jul 1909 Isabella Helene Sursock (Beirut 16 Dec 1889-Rome 5 Nov 1984)
@@ -18706,7 +19225,7 @@
 				dynasty=1006006
 				religion=catholic culture=italian
 				father=100070821	# Fabrizio Colonna
-				mother=100083386	# Olimpia Doria-Pamphilj-Landi
+				mother=100035167	# Olimpia Doria-Pamphili-Landi
 				1881.07.25={birth=yes}
 				1909.07.08={add_spouse=100090725}	# Isabella Helene Sursock
 				1947.03.09={death=yes}
@@ -18832,7 +19351,7 @@
 				dynasty=1006006
 				religion=catholic culture=italian
 				father=100070821	# Fabrizio Colonna
-				mother=100083386	# Olimpia Doria-Pamphilj-Landi
+				mother=100035167	# Olimpia Doria-Pamphili-Landi
 				1883.08.08={birth=yes}
 				1925.10.22={add_spouse=100090537}	# Elly Stavro
 				1971.08.18={death=yes}
@@ -18843,7 +19362,7 @@
 				dynasty=1006006
 				religion=catholic culture=italian
 				father=100070821	# Fabrizio Colonna
-				mother=100083386	# Olimpia Doria-Pamphilj-Landi
+				mother=100035167	# Olimpia Doria-Pamphili-Landi
 				1885.03.13={birth=yes}
 				1955.02.22={death=yes}
 			}
@@ -18853,7 +19372,7 @@
 				dynasty=1006006
 				religion=catholic culture=italian
 				father=100070821	# Fabrizio Colonna
-				mother=100083386	# Olimpia Doria-Pamphilj-Landi
+				mother=100035167	# Olimpia Doria-Pamphili-Landi
 				1890.06.05={birth=yes}
 				1953.05.30={death=yes}
 			}
@@ -19845,14 +20364,14 @@
 									1844.03.30={birth=yes}  # Roma
 									1906.03.08={death=yes}
 								}
-							100071646={ # G3. Don Enrico, 7th Prince of Palestrina, Lord of Monte Castel San Pietro, Capranica Prenestina, Great of Spain and Nobile Romano Coscritto (1853/4-89), *Roma 26.3.1823, +Roma 18.2.1889; m.Roma 2.10.1853 Dss Teresa Orsini (*Roma 1.2.1835, +Roma 13.1.1915)
+							100071646={ # G3. Don Enrico, 7th Prince of Palestrina, Lord of Monte Castel San Pietro, Capranica Prenestina, Great of Spain and Nobile Romano Coscritto (1853/4-89), *Roma 26.3.1823, +Roma 18.2.1889; m.Roma 2.10.1853 Dss Teresa Orsini (*Roma 1.2.1835, +Roma 13.1.1915) $$
 								name=Enrico
 								dynasty=1006006
 								religion=catholic culture=italian
 								father=100071641	# Francesco Colonna
 								mother=100095219	# DONNA Vittoria Colonna
 								1823.03.26={birth=yes}  # Roma
-								1853.10.02={add_spouse=100096118}	# DSS Teresa Orsini
+								1853.10.02={add_spouse=100072728}	# Teresa Orsini
 								1889.02.18={death=yes}  # Roma
 							}
 								100071647={ # H1. Donna Maria, 8th Princess of Palestrina etc, *Castel Gandolfo 6.4.1872, +Roma 7.6.1955; m.Roma 21.11.1891 Don Luigi Sacchetti (*Roma 20.12.1863, +Roma 20.1.1936)
@@ -19861,7 +20380,7 @@
 									dynasty=1006006
 									religion=catholic culture=italian
 									father=100071646	# Enrico Colonna
-									mother=100096118	# DSS Teresa Orsini
+									mother=100072728	# Teresa Orsini
 									1872.04.06={birth=yes}  # Castel Gandolfo
 									1955.06.07={death=yes}  # Roma
 								}
@@ -19956,11 +20475,13 @@
 		1729.01.01={add_spouse=100080790}	# PSS Agnese Colonna di Paliano
 		1763.01.01={death=yes}
 	}
-		100087803={ # B0. Livia (Roma 22 Sep 1731-Roma 10 Mar 1802); m.1759 Emilio Altieri (1723-1801) %%
+		100071747={ # B0. Livia (Roma 22 Sep 1731-Roma 10 Mar 1802); m.1759 Emilio Altieri (1723-1801) %%
 			name=Livia
 			female=yes
-			dynasty=0
+			dynasty=1006005
 			religion=catholic culture=italian
+			father=100070682	# Camillo Borghese
+			mother=100080790	# PSS Agnese Colonna di Paliano
 			1731.09.22={birth=yes}	# Roma
 			1802.03.10={death=yes}	# Roma
 		}
@@ -20171,7 +20692,7 @@
 								father=100070548	# Livio Borghese
 								mother=100086762	# Valeria Keun
 								1906.06.06={birth=yes}
-								1931.09.30={add_spouse=100019101}	# Daria Shuvalov
+								1931.09.30={add_spouse=100018587}	# Daria Shuvalov
 								1974.07.26={death=yes}
 							}
 								100070567={	# 1e) Elena Maria Nives (Rome 28 Jul 1932-Paris 30 Dec 2004)
@@ -20180,7 +20701,7 @@
 									dynasty=1006005
 									religion=catholic culture=italian
 									father=100070566	# Junio Valerio Borghese
-									mother=100019101	# Daria Shuvalov
+									mother=100018587	# Daria Shuvalov
 									1932.07.28={birth=yes}
 									2004.12.30={death=yes}
 								}
@@ -20189,7 +20710,7 @@
 									dynasty=1006005
 									religion=catholic culture=italian
 									father=100070566	# Junio Valerio Borghese
-									mother=100019101	# Daria Shuvalov
+									mother=100018587	# Daria Shuvalov
 									1933.09.29={birth=yes}
 									1958.01.01={add_spouse=100080234}	# Nikè Arrighi
 									1999.06.20={death=yes}
@@ -20208,7 +20729,7 @@
 									dynasty=1006005
 									religion=catholic culture=italian
 									father=100070566	# Junio Valerio Borghese
-									mother=100019101	# Daria Shuvalov
+									mother=100018587	# Daria Shuvalov
 									1940.04.30={birth=yes}
 									1965.12.11={add_spouse=100091245}	# Piera Rita Loreta Vallone
 									1989.09.22={death=yes}
@@ -20253,7 +20774,7 @@
 									dynasty=1006005
 									religion=catholic culture=italian
 									father=100070566	# Junio Valerio Borghese
-									mother=100019101	# Daria Shuvalov
+									mother=100018587	# Daria Shuvalov
 									1942.02.09={birth=yes}
 									1967.01.01={add_spouse=100088366}	# Marisa N
 								}
@@ -21555,7 +22076,7 @@
 					1892.07.26={add_spouse=100020618}	# Maria Raineria v. Habsburg-Lothringen
 					1924.03.01={death=yes}
 				}
-					100071459={	# 1e) Maria Renata (Bozen 6 Jan 1895-Bozen 8 Feb 1976); m.Graz 29 May 1922 Siegfried Gf von Küenburg (St.Johann 11 Nov 1886-Bozen 29 Apr 1968)
+					100071459={	# 1e) Maria Renata (Bozen 6 Jan 1895-Bozen 8 Feb 1976); m.Graz 29 May 1922 Siegfried Gf von Küenburg (St.Johann 11 Nov 1886-Bozen 29 Apr 1968) $$
 						name="Maria Renata"
 						female=yes
 						dynasty=1006004
@@ -22455,22 +22976,38 @@
 
 
 #di Savoia|240|100070000-100070199
-100072042={ # Amedeo de Savoie (1360-1391) %%
-	name=Amedeo
-	dynasty=240
-	religion=catholic culture=italian
-	father=462155	# Amédée de Savoie
-	1360.01.01={birth=yes}
-	1391.01.01={death=yes}
-}
-	100072041={ # A1. Amedeo (1383-1451) %%
+#savoy2
+#462155 = C1. Ct Amedeo VI "il Conte Verde = the Green Count" of Savoy, Aosta and Moriana (1343-83), *Chambery 4.1.1334, +of the plague while on campaign in the kingdom of Naples 1.3.1383; m.Chambery VIII/IX.1355 Bonne de Bourbon (*ca 1340, +Chateau de Macon 19.1.1402)
+	100072042={ # D1. Ct Amedeo VII "il Conte Rosso = the Red Count" of Savoy, Aosta and Moriana (1383-91), Count of Nice (1388-91), *Chambery 24.2.1360, +there 1.11.1391; 
+				# m.Paris 18.6.1377 Bonne de Berry (*1362, +chateau de Carlat 30.12.1435), dau.of Jean Duc de Berry
 		name=Amedeo
 		dynasty=240
 		religion=catholic culture=italian
-		father=100072042	# Amedeo de Savoie
-		1383.01.01={birth=yes}
-		1451.01.01={death=yes}
+		father=462155	# Amédée de Savoie
+		1360.02.24={birth=yes}
+		1391.11.01={death=yes}
 	}
+		100072041={ # E1. Duke Amedeo VIII "il Pacifico" of Savoy, Aosta, Moriana and Nice (1391-1434), Ct of Geneva (1401-34), 1st Duke of Savoy (1416-34), Principe del Piemonte (1418-34) -abdicated 7.11.1434, he retired to a hermitage on the lake of Geneva (where he styled himself Count of Geneva), 
+					# *Chambery 4.9.1383, +Geneva 7.1.1451; in 1439, though a layman, he was elected as anti-pope Felix V by the remnants of the Council of Basel; he was never recognized by the whole church, and abdicated in 1449, whereupon he was made a cardinal and Bp of Sabina; 
+					# m.Arras 27.10.1401 Marie de Bourgogne (*1380 +8.10.1422)
+			name=Amedeo
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072042	# Amedeo de Savoie
+			1383.09.04={birth=yes}	# Chambery
+			1451.01.07={death=yes}	# Geneva
+		}
+			# savoy3  ->  F4. Duke Ludovico I of Savoy, Ct of Aosta, Moriana and Nice, Principe del Piemonte (1343-65), *Geneve 1413, +Lione 29.1.1465; m.Chambery 12.2.1434 Anne de Lusignan, Pss of Cyprus (*24.9.1415, +11.11.1462); for his descendants see HERE
+			100072149={ # F9. Margherita, *Morges 1416/7.8.1420, +Stuttgart 30.9.1479, bur there; 1m: Thonon-les-Bains VIII.1432 Duc Louis III d'Anjou (*25.9.1403 +12.11.1434); 2m: Heidelberg 18.10.1444 Kfst Ludwig IV von der Pfalz (*1.1.1424 +13.8.1449); 3m: Stuttgart 9.7.1453 Ct Ulrich V of Württemberg (*1413 +Leonberg 1.9.1480) $$
+				name=Margherita
+				female=yes
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072041	# Amedeo de Savoie
+				1420.08.07={birth=yes}
+				1479.09.30={death=yes}
+			}
+#savoy2
 
 #savoy3
 100072040={ # Duke Ludovico I of Savoy, *21.2.1402, +29.1.1465; m.Chambery 1.11.1433 Anne de Lusignan, Pss of Cyprus (*ca 1419, +11.11.1462)
@@ -22632,7 +23169,7 @@
 					religion=catholic culture=italian
 					father=100072048	# Emanuele de Savoie
 					mother=100100956	# DSS Marguerite of France de Berry
-					add_trait=bastard
+					trait=bastard
 					1556.01.01={birth=yes}  # EST.
 					1603.01.01={add_spouse=100101024}	# Costanza Ersilia Asinari
 					1610.01.01={death=yes}
@@ -22643,7 +23180,7 @@
 						dynasty=240
 						religion=catholic culture=italian
 						father=100070245	# Amedeo de Savoie
-						add_trait=bastard
+						trait=bastard
 						1605.01.01={birth=yes}  # EST.
 						1680.01.01={death=yes}  # EST.
 					}
@@ -23057,6 +23594,7 @@
 			dynasty=240
 			religion=catholic culture=italian
 			father=100072039	# Filippo de Savoie
+			trait=bastard
 			1470.01.01={birth=yes}  # EST.
 			1500.01.01={death=yes}
 		}
@@ -23066,7 +23604,7 @@
 			dynasty=240
 			religion=catholic culture=italian
 			father=100072039	# Filippo de Savoie
-			add_trait=bastard
+			trait=bastard
 			1493.01.01={birth=yes}  # EST.
 			1547.01.01={death=yes}  # EST.
 		}
@@ -23076,7 +23614,7 @@
 			dynasty=240
 			religion=catholic culture=italian
 			father=100072039	# Filippo de Savoie
-			add_trait=bastard
+			trait=bastard
 			1496.01.01={birth=yes}  # EST.
 			1528.05.02={death=yes}
 		}
@@ -23186,6 +23724,307 @@
 #1708.05.28={holder=100070241} # G4. Claudia Francesca Umberto
 #savoy3
 
+#savoy4
+100072044={ # Carlo Emanuele de Savoie (Torino 20 Jun 1634-Torino 12 Jun 1675); m.1st 4 Mar 1663 Françoise Madeleine d'Orléans (13 Oct 1648-14 Jan 1664); m.2nd 20 May 1665 Maria Joanna de Savoie (Paris 11 Apr 1644-Torino 15 Mar 1724) %%
+	name="Carlo Emanuele"
+	dynasty=240
+	religion=catholic culture=italian
+	father=100072046	# Vittorio Amedeo de Savoie
+	mother=100100973	# Christine of France
+	1634.06.20={birth=yes}  # Torino
+	1663.03.04={add_spouse=100100974}	# Françoise Madeleine d'Orléans
+	1665.05.20={add_spouse=100070380}	# Maria Joanna de Savoie
+	1675.06.12={death=yes}  # Torino
+}
+	100072043={	# VITTORIO AMEDEO II Francesco (Turin 14 May 1666-Moncalieri 31 Oct 1732); m.1st Versailles 10 Apr 1684 Anne Marie d'Orléans (St.Cloud 27 Aug 1669-Turin 26 Aug 1728); m.2nd 12 Oct 1730 Anna Teresa Canalis di Cumiano, Ctsa di Spigno (23 Apr 1680-13 Apr 1769)
+		name="Vittorio Amedeo"
+		dynasty=240
+		religion=catholic culture=italian
+		father=100072044	# Carlo Emanuele de Savoie
+		mother=100070380	# Maria Joanna de Savoie
+		1666.05.14={birth=yes}
+		1684.04.10={add_spouse=100066602}	# Anne Marie d’Orléans
+		1730.10.12={add_spouse=100081209}	# CTSA Anna Teresa Canalis di Cumiano
+		1732.10.31={death=yes}
+	}
+		100072045={	# 1a) Marie Adélaïde (Turin 6 Dec 1685-Versailles 12 Feb 1712); m.Turin 15 Sep 1696 Louis, Dauphin de Viennois (Versailles 6 Aug 1682-Versailles 18 Feb 1712) $$
+			name="Marie Adélaïde"
+			female=yes
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072043	# Vittorio Amedeo de Savoie
+			mother=100066602	# Anne Marie d’Orléans
+			1685.12.06={birth=yes}
+			1712.02.12={death=yes}
+		}
+		100072047={	# 3a) Maria Luisa Gabriella (Turin 17 Sep 1688-Madrid 14 Feb 1714); m.Turin 11 Sep 1701 King Felipe V of Spain (Versailles 19 Dec 1683-Buen Retiro 9 Jul 1746) $$
+			name="Maria Luisa"
+			female=yes
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072043	# Vittorio Amedeo de Savoie
+			mother=100066602	# Anne Marie d’Orléans
+			1688.09.17={birth=yes}
+			1714.02.14={death=yes}
+		}
+		100072049={	# 4a) Vittorio Amedeo Filippo Giuseppe, Pr of Piedmont (Turin 6 May 1699-22 Mar 1715)
+			name="Vittorio Amedeo"
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072043	# Vittorio Amedeo de Savoie
+			mother=100066602	# Anne Marie d’Orléans
+			1699.05.06={birth=yes}
+			1715.03.22={death=yes}
+		}
+		100072050={	# 5a) CARLO EMANUELE III, King of Sardinia (Turin 27 Apr 1701-Turin 20 Feb 1773); m.1st 16 Feb 1722 Anne Christine Luise Pfgfn von Sulzbach (Sulzbach 5 Feb 1704-Turin 12 Mar 1723); m.2nd Thonon 23 Jul 1724 Polyxene Christine Landgfn von Hessen-Rheinfels-Rotenburg (21 Sep 1706-Turin 13 Jan 1735); m.3rd 1 Apr 1737 Elisabeth of Lorraine (Lunéville 15 Oct 1711-Turin 3 Jul 1741) $$
+			name="Carlo Emanuele"
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072043	# Vittorio Amedeo de Savoie
+			mother=100066602	# Anne Marie d’Orléans
+			1701.04.27={birth=yes}
+			1722.02.16={add_spouse=100007731}	# Anna Christine v. Wittelsbach
+			1724.07.23={add_spouse=100001648}	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
+			1737.04.01={add_spouse=100066096}	# Elisabeth Thérèse de Lorraine
+			1773.02.20={death=yes}
+		}
+			100072051={	# 2b) VITTORIO AMEDEO III, King of Sardinia (Turin 26 Jun 1726-Moncalieri 16 Oct 1796); m.Oulx 31 May 1750 Maria Antonia Infanta of Spain (Seville 17 Nov 1729-Moncalieri 19 Sep 1785) $$
+				name="Vittorio Amedeo"
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072050	# Carlo Emanuele de Savoie
+				mother=100001648	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
+				1726.06.26={birth=yes}
+				1750.05.31={add_spouse=100025407}	# María Antonieta de Bourbon
+				1796.10.16={death=yes}
+			}
+				100072052={	# 1c) CARLO EMANUELE IV, King of Sardinia (Turin 24 May 1751-Rome 6 Oct 1819); m.Chambéry 6 Sep 1775 Clothilde of France (Versailles 23 Sep 1759-Naples 7 Mar 1802) $$
+					name="Carlo Emanuele"
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1751.05.24={birth=yes}
+					1775.09.06={add_spouse=100208555}	# Clotilde de Bourbon
+					1819.10.06={death=yes}
+				}
+				100072053={	# 3c) Maria Giuseppina Luigia (Turin 2 Sep 1753-Hartwell House, nr Aylesbury, Bucks 13 Nov 1810); m.Versailles 14 May 1771 Louis XVIII, King of France (Versailles 17 Nov 1755-Tuileries 16 Sep 1824) $$
+					name=Giuseppina
+					female=yes
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1753.09.02={birth=yes}
+					1810.11.13={death=yes}
+				}
+				100072054={	# 5c) Maria Teresa (Turin 31 Jan 1756-Graz 2 Jun 1805); m.Versailles 16 Nov 1773 King Charles of France (Versailles 9 Oct 1757-Schloß Graffenberg 6 Nov 1836) $$
+					name="Maria Teresa"
+					female=yes
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1756.01.31={birth=yes}
+					1805.06.02={death=yes}
+				}
+				100072055={	# 6c) Maria Anna Carolina Gabriella (Turin 17 Dec 1757-Stupinigi 11 Dec 1824); m.Turin 19 Mar 1775 Benedetto Pr of Savoy, Duke of Chablais (Turin 21 Jun 1741-Rome 4 Jan 1808) $$
+					name="Maria Anna"
+					female=yes
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1757.12.17={birth=yes}
+					1824.12.11={death=yes}
+				}
+				100072056={	# 7c) VITTORIO EMANUELE I, King of Sardinia (Turin 24 Jul 1759-Moncalieri 10 Jan 1824); m.Turin 25 Apr 1789 Maria Teresa Archdss of Austria-Este (Milan 1 Nov 1773-Genoa 29 Mar 1832) $$
+					name="Vittorio Emanuele"
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1759.07.24={birth=yes}
+					1789.05.15={add_spouse=100020630}	# Maria Theresia v. Habsburg-Lothringen
+					1824.01.10={death=yes}
+				}
+					100072057={	# 1d) Maria Beatrice Vittoria Giuseppina (Turin 6 Dec 1792-Cattajo 15 Sep 1840); m.Cagliari 20 Jun 1812 Francesco IV Duke of Modena, Archduke of Austria (Milan 6 Oct 1779-Modena 21 Jan 1846) $$
+						name="Maria Beatrice"
+						female=yes
+						dynasty=240
+						religion=catholic culture=italian
+						father=100072056	# Vittorio Emanuele de Savoie
+						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
+						1792.12.06={birth=yes}
+						1840.09.15={death=yes}
+					}
+					100072058={	# 2d) Marie Adelaide Clotilda Xaveria Borbonia (Turin 1 Oct 1794-Naples 9 Mar 1802)
+						name="Marie Adelaide"
+						female=yes
+						dynasty=240
+						religion=catholic culture=italian
+						father=100072056	# Vittorio Emanuele de Savoie
+						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
+						1794.10.01={birth=yes}
+						1802.03.09={death=yes}
+					}
+					100072059={	# 5d) Maria Teresa Ferdinanda Felicita Gaetana Pia (Rome 19 Sep 1803-San Martino, nr Lucca 16 Jun 1879); m.Lucca 5 Sep 1820 Duke Carlo II of Parma (Madrid 22 Sep 1799-Nice 17 Apr 1883) $$
+						name="Maria Teresa"
+						female=yes
+						dynasty=240
+						religion=catholic culture=italian
+						trait=twin
+						father=100072056	# Vittorio Emanuele de Savoie
+						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
+						1803.09.19={birth=yes}
+						1879.06.16={death=yes}
+					}
+					100072060={	# 6d) Maria Anna Carolina Pia (Rome 19 Sep 1803-Prague 4 May 1884); m.Vienna 27 Feb 1831 Emperor Ferdinand of Austria (Vienna 19 Apr 1793-Prague 29 Jun 1875) $$
+						name="Maria Anna"
+						female=yes
+						dynasty=240
+						religion=catholic culture=italian
+						trait=twin
+						father=100072056	# Vittorio Emanuele de Savoie
+						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
+						1803.09.19={birth=yes}
+						1884.05.04={death=yes}
+					}
+					100072061={	# 7d) Maria Cristina Carolina Giuseppina Gaetana Elisa (Cagliari 14 Nov 1812-Caserta 31 Jan 1836); m.Voltri 21 Nov 1832 King Ferdinando II of the Two Sicilies (Palermo 12 Jan 1810-Caserta 22 May 1859) $$
+						name=Cristina
+						female=yes
+						dynasty=240
+						religion=catholic culture=italian
+						father=100072056	# Vittorio Emanuele de Savoie
+						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
+						1812.11.14={birth=yes}
+						1836.01.31={death=yes}
+					}
+				100072062={	# 8c) Maria Cristina Giuseppa Ferdinanda (Turin 21 Nov 1760-Turin 19 May 1768)
+					name="Maria Cristina"
+					female=yes
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1760.11.21={birth=yes}
+					1768.05.19={death=yes}
+				}
+				100072063={	# 9c) Maurizio Giuseppe Maria, Duke of Montferrat (Turin 13 Sep 1762-Alghero, Sardinia 1 Sep 1799)
+					name="Maurizio Giuseppe"
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1762.09.13={birth=yes}
+					1799.09.01={death=yes}
+				}
+				100072064={	# 10c) Maria Carolina Antonietta Adelaide (Turin 17 Jan 1764-Dresden 28 Dec 1782); m.Dresden 24 Oct 1781 King Anton of Saxony (Dresden 27 Dec 1755-Dresden 6 Jun 1836) $$
+					name="Maria Carolina"
+					female=yes
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1764.01.17={birth=yes}
+					1782.12.28={death=yes}
+				}
+				100072072={	# 11c) CARLO FELICE Giuseppe Maria, King of Sardinia (Turin 6 Apr 1765-Turin 27 Apr 1831); m.Palermo 6 Apr 1807 Maria Cristina Pss of Bourbon-Two Sicilies (Caserta 17 Jan 1779-Savona 11 Mar 1849) $$
+					name="Carlo Felice"
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1765.04.06={birth=yes}
+					1807.04.06={add_spouse=100070516}	# Maria Cristina di Borbone-Due Sicilie
+					1831.04.27={death=yes}
+				}
+				100072065={	# 12c) Giuseppe Benedetto Maria Placido, Ct of Maurienne, Duke of Aosta (Turin 5 Oct 1766-Sassari, Sardinia 29 Oct 1802)
+					name="Giuseppe Benedetto"
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072051	# Vittorio Amedeo de Savoie
+					mother=100025407	# María Antonieta de Bourbon
+					1766.10.05={birth=yes}
+					1802.10.29={death=yes}
+				}
+			100072066={	# 3b) Eleonora Maria Teresa (Turin 28 Feb 1728-Moncalieri 15 Aug 1781)
+				name=Eleonora
+				female=yes
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072050	# Carlo Emanuele de Savoie
+				mother=100001648	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
+				1728.02.28={birth=yes}
+				1781.08.15={death=yes}
+			}
+			100072067={	# 4b) Maria Luisa Gabriella (Turin 25 Mar 1729-San Andrea di Chieri 22 Aug 1767)
+				name="Maria Luisa"
+				female=yes
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072050	# Carlo Emanuele de Savoie
+				mother=100001648	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
+				1729.03.25={birth=yes}
+				1767.08.22={death=yes}
+			}
+			100072068={	# 5b) Maria Felicita (Turin 19 Mar 1730-Rome 13 May 1801)
+				name="Maria Felicita"
+				female=yes
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072050	# Carlo Emanuele de Savoie
+				mother=100001648	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
+				1730.03.19={birth=yes}
+				1801.05.13={death=yes}
+			}
+			100072069={	# 8b) Carlo Francesco Maria Augusto, Duke of Aosta (Turin 1 Dec 1738-Turin 25 Mar 1745)
+				name="Carlo Francesco"
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072050	# Carlo Emanuele de Savoie
+				mother=100066096	# Elisabeth Thérèse de Lorraine
+				1738.12.01={birth=yes}
+				1745.03.25={death=yes}
+			}
+			100072070={	# 10b) Benedetto Maria Maurizio, Duke of Chablais (Turin 21 Jun 1741-Rome 4 Jan 1808); m.Turin 19 Mar 1775 Maria Anna Pss of Savoy (Turin 17 Dec 1757-Stupinigi 11 Dec 1824) $$
+				name=Benedetto
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072050	# Carlo Emanuele de Savoie
+				mother=100066096	# Elisabeth Thérèse de Lorraine
+				1741.06.21={birth=yes}
+				1775.03.19={add_spouse=100072055}	# Maria Anna de Savoie
+				1808.01.04={death=yes}
+			}
+		100072071={	# 7a) Vittorio Francesco Filippo, Marchese di Susa (10 Dec 1694-20 Mar 1762); m.Maria Lucrezia Franchi di Pont
+			name="Vittorio Francesco"
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072043	# Vittorio Amedeo de Savoie
+			mother=100066602	# Anne Marie d’Orléans
+			1694.12.10={birth=yes}
+			1719.01.01={add_spouse=100083974}	# Maria Lucrezia Franchi di Pont
+			1762.03.20={death=yes}
+		}
+		100072026={	# 8a) Vittoria Francesca, Madamigella di Susa (9 Feb 1690-Paris 8 Jul 1766); m.Moncalieri 1714 Pr Vittorio Amedeo I of Savoy-Carignano (1690-1741) $$
+			name="Vittoria Francesca"
+			female=yes
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072043	# Vittorio Amedeo de Savoie
+			mother=100066602	# Anne Marie d’Orléans
+			1690.02.09={birth=yes}
+			1766.07.08={death=yes}
+		}
+#1696.05.14={holder=100070115} # VITTORIO AMEDEO II Francesco 
+#1732.10.31={holder=100070124} # 5a) CARLO EMANUELE III
+#1773.02.20={holder=100070129} # 2b) VITTORIO AMEDEO III
+#1796.10.16={holder=100070131} # 1c) CARLO EMANUELE IV
+#1819.10.06={holder=100072035} # 7c) VITTORIO EMANUELE I
+#1824.01.10={holder=100008216} # 11c) CARLO FELICE Giuseppe Maria
+#savoy4
+
 #savoy5
 100072034={ # Tommaso Francesco, 1st Principe di Carignano 1620, Conte di Soissons 1641, *Torino 21/22.12.1596, +Torino 22.1.1656; m.Paris 14.4.1625 Marie de Bourbon, Cts de Soissons (*Paris 3.5.1606 +Paris 3.6.1692)
 	name="Tommaso Francesco"
@@ -23197,13 +24036,14 @@
 	1625.04.14={add_spouse=100101002}	# CTS Marie de Bourbon de Soissons
 	1656.01.22={death=yes}  # Torino
 }
-	100072033={ # A1. Emanuele Filiberto Amedeo, 2nd Principe di Carignano (1656-1709), Governor of Ivrea, Governor of Asti, a deaf mute, *20.8.1628, +23.4.1709; m.Racconigi 7.11.1684 Angelica Caterina d'Este (*1.3.1656 +12.7.1722)
+	100072033={ # A1. Emanuele Filiberto Amedeo, 2nd Principe di Carignano (1656-1709), Governor of Ivrea, Governor of Asti, a deaf mute, *20.8.1628, +23.4.1709; m.Racconigi 7.11.1684 Angelica Caterina d'Este (*1.3.1656 +12.7.1722) $$
 		name="Emanuele Filiberto"
 		dynasty=240
 		religion=catholic culture=italian
 		father=100072034	# Tommaso Francesco de Savoie
 		mother=100101002	# CTS Marie de Bourbon de Soissons
 		1628.08.20={birth=yes}	# Turin
+		1684.11.07={add_spouse=100071372}	# Angela d'Este
 		1709.04.21={death=yes}	# Turin
 	}
 		100072032={ # B1. Vittorio Amedeo, 2nd Principe di Carignano (1709-41), *Torino 29.2.1690, +there 4.4.1741; m.Moncalieri 7.11.1714 Maria Vittoria Francesca, legitimized dau.of King Vittorio Amedeo of Sardinia (*10.2.1690 +8.6.1766) $$
@@ -23211,6 +24051,7 @@
 			dynasty=240
 			religion=catholic culture=italian
 			father=100072033	# Emanuele Filiberto de Savoie
+			mother=100071372	# Angela d'Este
 			1690.02.29={birth=yes}
 			1714.01.01={add_spouse=100072026}	# Vittoria Francesca de Savoie
 			1741.04.04={death=yes}
@@ -23225,14 +24066,15 @@
 				1740.05.04={add_spouse=100001698}	# Christine Henriette v. Hessen-Rheinfels-Rotenburg
 				1778.12.16={death=yes}	# Turin
 			}
-				100072030={ # D1. Vittorio Amedeo, 5th Principe di Carignano (1778-80), *Torino 31.10.1743, +Torino IX.1780; m.Oulx 18.10.1768 Marie Josephe de Lorraine-Lambesc/Brionne (*26.8.1753 +8.2.1797)
+				100072030={ # D1. Vittorio Amedeo, 5th Principe di Carignano (1778-80), *Torino 31.10.1743, +Torino IX.1780; m.Oulx 18.10.1768 Marie Josephe de Lorraine-Lambesc/Brionne (*26.8.1753 +8.2.1797) $$
 					name="Vittorio Amedeo"
 					dynasty=240
 					religion=catholic culture=italian
 					father=100072031	# Lodovico Vittorio de Savoie
 					mother=100001698	# Christine Henriette v. Hessen-Rheinfels-Rotenburg
-					1743.01.01={birth=yes}
-					1780.01.01={death=yes}
+					1743.10.31={birth=yes}
+					1768.10.18={add_spouse=100066549}	# Marie de Lorraine
+					1780.09.01={death=yes}
 				}
 					100071975={ # E1. CARLO EMANUELE Ferdinando, 6th Principe di Carignano (1780-1800), *Torino 24.10.1770, +Chaillot nr Paris 16.8.1800; m.Torino/Dresden 24.10.1797 Pss Maria Cristina of Saxony (*7.12.1779 +24.11.1851) $$
 							    # m.Turin 24 Oct 1797 Maria Cristina Pss of Saxony (Dresden 7 Dec 1779-Paris 24 Nov 1851)
@@ -23240,6 +24082,7 @@
 						dynasty=240
 						religion=catholic culture=italian
 						father=100072030	# Vittorio Amedeo de Savoie
+						mother=100066549	# Marie de Lorraine
 						1770.10.24={birth=yes}
 						1797.10.24={add_spouse=100007535}	# Maria Christina v. Wettin
 						1800.08.16={death=yes}
@@ -23365,10 +24208,10 @@
 							1800.04.13={birth=yes}
 							1856.12.25={death=yes}
 						}
-				100083293={ # D5. Leopolda, *Torino 24.12.1744, +Rome 17.5.1807; m.6.5.1767 Pr Giovanni Andrea III Doria-Pamfili-Landi, Pr di Melfi (*30.10.1747 +28.3.1820)
+				100172031={ # D5. Leopolda, *Torino 24.12.1744, +Rome 17.5.1807; m.6.5.1767 Pr Giovanni Andrea III Doria-Pamfili-Landi, Pr di Melfi (*30.10.1747 +28.3.1820) $$
 					name=Leopolda
 					female=yes
-					dynasty=0
+					dynasty=240
 					religion=catholic culture=german
 					1744.12.24={birth=yes}	# Turin
 					1807.05.17={death=yes}	# Roma
@@ -23410,6 +24253,15 @@
 						1783.10.30={birth=yes}
 						1825.10.15={death=yes}
 					}
+						100072734={ # F2. Pss Maria Gabriella, *Paris 18.9.1811, +Arsoli 10.9.1837; m.Chambery 11.10.1827 Vittorio Emanuele Massimo, Principe di Arsoli, Marchese di Roccasecca (*Rome 14.8.1803, +there 6.4.1873) $$
+							name="Maria Gabriella"
+							female=yes
+							dynasty=240
+							religion=catholic culture=neapolitan
+							father=100072037	# Giuseppe Maria de Savoie
+							1811.09.18={birth=yes}
+							1837.09.10={death=yes}
+						}
 						100072021={ # F3. Pss Maria Vittoria Filiberta, *Boulogne-sur-Mer 29.9.1814, +Naples 20.1.1874; m.Naples 26.6.1837 Pr Leopoldo of Bourbon-Two Sicilies, Ct of Syracuse (*Palermo 22.5.1813 +Pisa 4.12.1860) $$
 							name="Maria Vittoria"
 							female=yes
@@ -23429,8 +24281,114 @@
 					1762.04.04={birth=yes}
 					1823.09.04={death=yes}
 				}		
+	100072740={ # A7. Luisa Cristina, *Paris 1.8.1627, +Paris 7.7.1689; m.Paris 15.3.1654 Mgve Ferdinand Maximilian of Baden-Baden (*23.9.1625 +4.11.1669) $$
+		name="Luisa Cristina"
+		female=yes
+		dynasty=240
+		religion=catholic culture=frankish
+		father=100072034	# Tommaso Francesco de Savoie
+		mother=100101002	# CTS Marie de Bourbon de Soissons
+		1627.08.01={birth=yes}  # Paris
+		1689.07.07={death=yes}  # Paris
+	}
+	100072597={ # A5. Eugenio Maurizio, Cte de Soissons et de Dreux 1656, French general, *Chambery 2.3.1635, +Wua, Westphalia 6.6.1673; m.Paris 21.2.1657 Olimpia Mancini (*Rome 1640, +Brussels 9.10.1708), Mazarin's niece, dau.of Michele Lorenzo Duca di Nevers by Geronima Mazarino
+		name="Eugenio Maurizio"
+		dynasty=240
+		religion=catholic culture=italian
+		father=100072034	# Tommaso Francesco de Savoie
+		mother=100101002	# CTS Marie de Bourbon de Soissons
+		1635.03.02={birth=yes}  # Chambery
+		1657.02.21={add_spouse=100080339}	# Olimpia Mancini
+		1673.06.06={death=yes}  # Wua Westphalia
+	}
+		100072729={ # B1. Louis Thomas, Cte de Soissons, *1.8.1657, +k.a.Landau 14/24.8.1702; m.12.10.1680 Uranie de la Cropte, sn de Beauvais (*12.1.1655, +14.11.1717)
+			name="Louis Thomas"
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072597	# Eugenio Maurizio de Savoie
+			mother=100080339	# Olimpia Mancini
+			1657.08.01={birth=yes}
+			1680.10.12={add_spouse=100081975}	# SN Uranie de la Cropte de Beauvais
+			1702.08.24={death=yes}  # Landau
+		}
+			100072733={ # C5. Marie Anna Victoria, heiress of Soissons, *Paris 11/13.9.1683, +of apoplexy Torino 11.10.1763; m.Paris 17.4.1738 (div 1752) Duke Joseph of Saxe-Hildburghausen (*Erbach 5.7.1702, +Hildburghausen 4.1.1787) $$
+				name="Anna Victoria"
+				female=yes
+				dynasty=240
+				religion=catholic culture=frankish
+				father=100072729	# Louis Thomas de Savoie
+				mother=100081975	# SN Uranie de la Cropte de Beauvais
+				1683.09.13={birth=yes}  # Paris
+				1763.10.11={death=yes}  # of apoplexy Torino
+			}
+			100072730={ # C2. Emanuel Thomas, Cte de Soissons 1702, Governor of Anversa, *8.12.1687, +Vienna 28.12.1729; m.Vienna 24.10.1713 Pss Maria Theresia von Liechtenstein (*11.5.1694 +Vienna 20.2.1772), heiress of Troppau $$
+				name="Emanuel Thomas"
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072729	# Louis Thomas de Savoie
+				mother=100081975	# SN Uranie de la Cropte de Beauvais
+				1687.12.08={birth=yes}
+				1713.10.24={add_spouse=100022825}	# Maria Theresia v. Liechtenstein
+				1729.12.28={death=yes}  # Vienna
+			}
+				100072731={ # D1. Eugene Jean Francois, Comte de Soissons, Duke of Troppau (1729-34), *23.9.1714, +Mannheim 23.11.1734; m.Massa 10.11.1734 Duchessa Maria Teresa di Massa, Principessa di Carrara (*29.6.1725 +25.12.1790)
+					name=Eugene
+					dynasty=240
+					religion=catholic culture=italian
+					father=100072730	# Emanuel Thomas de Savoie
+					mother=100022825	# Maria Theresia v. Liechtenstein
+					1714.09.23={birth=yes}
+					1734.11.10={add_spouse=100084678}	# DSS Maria Theresa Cybo di Massa
+					1734.11.23={death=yes}  # Mannheim
+				}
+			100072732={ # C4. Eugene, *4.7.1692, +London 8.3.1712
+				name=Eugene
+				dynasty=240
+				religion=catholic culture=italian
+				father=100072729	# Louis Thomas de Savoie
+				mother=100081975	# SN Uranie de la Cropte de Beauvais
+				1692.07.04={birth=yes}
+				1712.03.08={death=yes}  # London
+			}
+		100072736={ # B3. Louis Julius dit "Cavaliere di Savoia", *2.5.1660, +k.a.Petronell 12.6.1683
+			name=Louis
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072597	# Eugenio Maurizio de Savoie
+			mother=100080339	# Olimpia Mancini
+			1660.05.02={birth=yes}
+			1683.06.12={death=yes}  # Petronell
+		}
+		100072737={ # B5. Eugene, Governor of Austrian Netherland, *Paris 18.10.1663, +Vienna 21.4.1736
+			name="Eugene [Governor of Austrian Netherland"
+			dynasty=240
+			religion=catholic culture=frankish
+			father=100072597	# Eugenio Maurizio de Savoie
+			mother=100080339	# Olimpia Mancini
+			1663.10.18={birth=yes}  # Paris
+			1736.04.21={death=yes}  # Vienna
+		}
+		100072738={ # B6. Maria Jeanne, Mademoiselle de Soissons, *1.1.1665, +30.3.1705
+			name=Maria
+			female=yes
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072597	# Eugenio Maurizio de Savoie
+			mother=100080339	# Olimpia Mancini
+			1665.01.01={birth=yes}
+			1705.03.30={death=yes}
+		}
+		100072739={ # B7. Louise Philiberta, Mademoiselle de Carignano, *15.11.1667, +22.2.1726
+			name=Louise
+			female=yes
+			dynasty=240
+			religion=catholic culture=italian
+			father=100072597	# Eugenio Maurizio de Savoie
+			mother=100080339	# Olimpia Mancini
+			1667.11.15={birth=yes}
+			1726.02.22={death=yes}
+		}
 #savoy5
-
 
 #savoy6
 100071977={ # VITTORIO EMANUELE II, King of Sardinia (23.3.1849-17.3.1861) and King of Italy (17.3.1861-9.1.1878), *Turin 14.3.1820, +Rome 9.1.1878; 1m: Stupinigi 12.4.1842 Archdss Adelheid of Austria (*3.6.1822 +20.1.1855); 2m: (morganatically) Rome 7.11.1869 Rosa Teresa Vercellana, cr 11.4.1859 Ctsa di Mirafiori e Fontanafredda (*Moncalvo 3.6.1833, +Pisa 27.12.1885)
@@ -23838,304 +24796,3 @@
 			}
 #savoy6
 
-
-#di Savoia|240|100070000-100070199
-100072044={ # Carlo Emanuele de Savoie (Torino 20 Jun 1634-Torino 12 Jun 1675); m.1st 4 Mar 1663 Françoise Madeleine d'Orléans (13 Oct 1648-14 Jan 1664); m.2nd 20 May 1665 Maria Joanna de Savoie (Paris 11 Apr 1644-Torino 15 Mar 1724) %%
-	name="Carlo Emanuele"
-	dynasty=240
-	religion=catholic culture=italian
-	father=100072046	# Vittorio Amedeo de Savoie
-	mother=100100973	# Christine of France
-	1634.06.20={birth=yes}  # Torino
-	1663.03.04={add_spouse=100100974}	# Françoise Madeleine d'Orléans
-	1665.05.20={add_spouse=100070380}	# Maria Joanna de Savoie
-	1675.06.12={death=yes}  # Torino
-}
-	100072043={	# VITTORIO AMEDEO II Francesco (Turin 14 May 1666-Moncalieri 31 Oct 1732); m.1st Versailles 10 Apr 1684 Anne Marie d'Orléans (St.Cloud 27 Aug 1669-Turin 26 Aug 1728); m.2nd 12 Oct 1730 Anna Teresa Canalis di Cumiano, Ctsa di Spigno (23 Apr 1680-13 Apr 1769)
-		name="Vittorio Amedeo"
-		dynasty=240
-		religion=catholic culture=italian
-		father=100072044	# Carlo Emanuele de Savoie
-		mother=100070380	# Maria Joanna de Savoie
-		1666.05.14={birth=yes}
-		1684.04.10={add_spouse=100066602}	# Anne Marie d’Orléans
-		1730.10.12={add_spouse=100081209}	# CTSA Anna Teresa Canalis di Cumiano
-		1732.10.31={death=yes}
-	}
-		100072045={	# 1a) Marie Adélaïde (Turin 6 Dec 1685-Versailles 12 Feb 1712); m.Turin 15 Sep 1696 Louis, Dauphin de Viennois (Versailles 6 Aug 1682-Versailles 18 Feb 1712) $$
-			name="Marie Adélaïde"
-			female=yes
-			dynasty=240
-			religion=catholic culture=italian
-			father=100072043	# Vittorio Amedeo de Savoie
-			mother=100066602	# Anne Marie d’Orléans
-			1685.12.06={birth=yes}
-			1712.02.12={death=yes}
-		}
-		100072047={	# 3a) Maria Luisa Gabriella (Turin 17 Sep 1688-Madrid 14 Feb 1714); m.Turin 11 Sep 1701 King Felipe V of Spain (Versailles 19 Dec 1683-Buen Retiro 9 Jul 1746) $$
-			name="Maria Luisa"
-			female=yes
-			dynasty=240
-			religion=catholic culture=italian
-			father=100072043	# Vittorio Amedeo de Savoie
-			mother=100066602	# Anne Marie d’Orléans
-			1688.09.17={birth=yes}
-			1714.02.14={death=yes}
-		}
-		100072049={	# 4a) Vittorio Amedeo Filippo Giuseppe, Pr of Piedmont (Turin 6 May 1699-22 Mar 1715)
-			name="Vittorio Amedeo"
-			dynasty=240
-			religion=catholic culture=italian
-			father=100072043	# Vittorio Amedeo de Savoie
-			mother=100066602	# Anne Marie d’Orléans
-			1699.05.06={birth=yes}
-			1715.03.22={death=yes}
-		}
-		100072050={	# 5a) CARLO EMANUELE III, King of Sardinia (Turin 27 Apr 1701-Turin 20 Feb 1773); m.1st 16 Feb 1722 Anne Christine Luise Pfgfn von Sulzbach (Sulzbach 5 Feb 1704-Turin 12 Mar 1723); m.2nd Thonon 23 Jul 1724 Polyxene Christine Landgfn von Hessen-Rheinfels-Rotenburg (21 Sep 1706-Turin 13 Jan 1735); m.3rd 1 Apr 1737 Elisabeth of Lorraine (Lunéville 15 Oct 1711-Turin 3 Jul 1741) $$
-			name="Carlo Emanuele"
-			dynasty=240
-			religion=catholic culture=italian
-			father=100072043	# Vittorio Amedeo de Savoie
-			mother=100066602	# Anne Marie d’Orléans
-			1701.04.27={birth=yes}
-			1722.02.16={add_spouse=100007731}	# Anna Christine v. Wittelsbach
-			1724.07.23={add_spouse=100001648}	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
-			1737.04.01={add_spouse=100066096}	# Elisabeth Thérèse de Lorraine
-			1773.02.20={death=yes}
-		}
-			100072051={	# 2b) VITTORIO AMEDEO III, King of Sardinia (Turin 26 Jun 1726-Moncalieri 16 Oct 1796); m.Oulx 31 May 1750 Maria Antonia Infanta of Spain (Seville 17 Nov 1729-Moncalieri 19 Sep 1785) $$
-				name="Vittorio Amedeo"
-				dynasty=240
-				religion=catholic culture=italian
-				father=100072050	# Carlo Emanuele de Savoie
-				mother=100001648	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
-				1726.06.26={birth=yes}
-				1750.05.31={add_spouse=100025407}	# María Antonieta de Bourbon
-				1796.10.16={death=yes}
-			}
-				100072052={	# 1c) CARLO EMANUELE IV, King of Sardinia (Turin 24 May 1751-Rome 6 Oct 1819); m.Chambéry 6 Sep 1775 Clothilde of France (Versailles 23 Sep 1759-Naples 7 Mar 1802) $$
-					name="Carlo Emanuele"
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1751.05.24={birth=yes}
-					1775.09.06={add_spouse=100208555}	# Clotilde de Bourbon
-					1819.10.06={death=yes}
-				}
-				100072053={	# 3c) Maria Giuseppina Luigia (Turin 2 Sep 1753-Hartwell House, nr Aylesbury, Bucks 13 Nov 1810); m.Versailles 14 May 1771 Louis XVIII, King of France (Versailles 17 Nov 1755-Tuileries 16 Sep 1824) $$
-					name=Giuseppina
-					female=yes
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1753.09.02={birth=yes}
-					1810.11.13={death=yes}
-				}
-				100072054={	# 5c) Maria Teresa (Turin 31 Jan 1756-Graz 2 Jun 1805); m.Versailles 16 Nov 1773 King Charles of France (Versailles 9 Oct 1757-Schloß Graffenberg 6 Nov 1836) $$
-					name="Maria Teresa"
-					female=yes
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1756.01.31={birth=yes}
-					1805.06.02={death=yes}
-				}
-				100072055={	# 6c) Maria Anna Carolina Gabriella (Turin 17 Dec 1757-Stupinigi 11 Dec 1824); m.Turin 19 Mar 1775 Benedetto Pr of Savoy, Duke of Chablais (Turin 21 Jun 1741-Rome 4 Jan 1808) $$
-					name="Maria Anna"
-					female=yes
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1757.12.17={birth=yes}
-					1824.12.11={death=yes}
-				}
-				100072056={	# 7c) VITTORIO EMANUELE I, King of Sardinia (Turin 24 Jul 1759-Moncalieri 10 Jan 1824); m.Turin 25 Apr 1789 Maria Teresa Archdss of Austria-Este (Milan 1 Nov 1773-Genoa 29 Mar 1832) $$
-					name="Vittorio Emanuele"
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1759.07.24={birth=yes}
-					1789.05.15={add_spouse=100020630}	# Maria Theresia v. Habsburg-Lothringen
-					1824.01.10={death=yes}
-				}
-					100072057={	# 1d) Maria Beatrice Vittoria Giuseppina (Turin 6 Dec 1792-Cattajo 15 Sep 1840); m.Cagliari 20 Jun 1812 Francesco IV Duke of Modena, Archduke of Austria (Milan 6 Oct 1779-Modena 21 Jan 1846) $$
-						name="Maria Beatrice"
-						female=yes
-						dynasty=240
-						religion=catholic culture=italian
-						father=100072056	# Vittorio Emanuele de Savoie
-						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
-						1792.12.06={birth=yes}
-						1840.09.15={death=yes}
-					}
-					100072058={	# 2d) Marie Adelaide Clotilda Xaveria Borbonia (Turin 1 Oct 1794-Naples 9 Mar 1802)
-						name="Marie Adelaide"
-						female=yes
-						dynasty=240
-						religion=catholic culture=italian
-						father=100072056	# Vittorio Emanuele de Savoie
-						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
-						1794.10.01={birth=yes}
-						1802.03.09={death=yes}
-					}
-					100072059={	# 5d) Maria Teresa Ferdinanda Felicita Gaetana Pia (Rome 19 Sep 1803-San Martino, nr Lucca 16 Jun 1879); m.Lucca 5 Sep 1820 Duke Carlo II of Parma (Madrid 22 Sep 1799-Nice 17 Apr 1883) $$
-						name="Maria Teresa"
-						female=yes
-						dynasty=240
-						religion=catholic culture=italian
-						trait=twin
-						father=100072056	# Vittorio Emanuele de Savoie
-						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
-						1803.09.19={birth=yes}
-						1879.06.16={death=yes}
-					}
-					100072060={	# 6d) Maria Anna Carolina Pia (Rome 19 Sep 1803-Prague 4 May 1884); m.Vienna 27 Feb 1831 Emperor Ferdinand of Austria (Vienna 19 Apr 1793-Prague 29 Jun 1875) $$
-						name="Maria Anna"
-						female=yes
-						dynasty=240
-						religion=catholic culture=italian
-						trait=twin
-						father=100072056	# Vittorio Emanuele de Savoie
-						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
-						1803.09.19={birth=yes}
-						1884.05.04={death=yes}
-					}
-					100072061={	# 7d) Maria Cristina Carolina Giuseppina Gaetana Elisa (Cagliari 14 Nov 1812-Caserta 31 Jan 1836); m.Voltri 21 Nov 1832 King Ferdinando II of the Two Sicilies (Palermo 12 Jan 1810-Caserta 22 May 1859) $$
-						name=Cristina
-						female=yes
-						dynasty=240
-						religion=catholic culture=italian
-						father=100072056	# Vittorio Emanuele de Savoie
-						mother=100020630	# Maria Theresia v. Habsburg-Lothringen
-						1812.11.14={birth=yes}
-						1836.01.31={death=yes}
-					}
-				100072062={	# 8c) Maria Cristina Giuseppa Ferdinanda (Turin 21 Nov 1760-Turin 19 May 1768)
-					name="Maria Cristina"
-					female=yes
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1760.11.21={birth=yes}
-					1768.05.19={death=yes}
-				}
-				100072063={	# 9c) Maurizio Giuseppe Maria, Duke of Montferrat (Turin 13 Sep 1762-Alghero, Sardinia 1 Sep 1799)
-					name="Maurizio Giuseppe"
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1762.09.13={birth=yes}
-					1799.09.01={death=yes}
-				}
-				100072064={	# 10c) Maria Carolina Antonietta Adelaide (Turin 17 Jan 1764-Dresden 28 Dec 1782); m.Dresden 24 Oct 1781 King Anton of Saxony (Dresden 27 Dec 1755-Dresden 6 Jun 1836) $$
-					name="Maria Carolina"
-					female=yes
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1764.01.17={birth=yes}
-					1782.12.28={death=yes}
-				}
-				100072072={	# 11c) CARLO FELICE Giuseppe Maria, King of Sardinia (Turin 6 Apr 1765-Turin 27 Apr 1831); m.Palermo 6 Apr 1807 Maria Cristina Pss of Bourbon-Two Sicilies (Caserta 17 Jan 1779-Savona 11 Mar 1849) $$
-					name="Carlo Felice"
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1765.04.06={birth=yes}
-					1807.04.06={add_spouse=100070516}	# Maria Cristina di Borbone-Due Sicilie
-					1831.04.27={death=yes}
-				}
-				100072065={	# 12c) Giuseppe Benedetto Maria Placido, Ct of Maurienne, Duke of Aosta (Turin 5 Oct 1766-Sassari, Sardinia 29 Oct 1802)
-					name="Giuseppe Benedetto"
-					dynasty=240
-					religion=catholic culture=italian
-					father=100072051	# Vittorio Amedeo de Savoie
-					mother=100025407	# María Antonieta de Bourbon
-					1766.10.05={birth=yes}
-					1802.10.29={death=yes}
-				}
-			100072066={	# 3b) Eleonora Maria Teresa (Turin 28 Feb 1728-Moncalieri 15 Aug 1781)
-				name=Eleonora
-				female=yes
-				dynasty=240
-				religion=catholic culture=italian
-				father=100072050	# Carlo Emanuele de Savoie
-				mother=100001648	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
-				1728.02.28={birth=yes}
-				1781.08.15={death=yes}
-			}
-			100072067={	# 4b) Maria Luisa Gabriella (Turin 25 Mar 1729-San Andrea di Chieri 22 Aug 1767)
-				name="Maria Luisa"
-				female=yes
-				dynasty=240
-				religion=catholic culture=italian
-				father=100072050	# Carlo Emanuele de Savoie
-				mother=100001648	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
-				1729.03.25={birth=yes}
-				1767.08.22={death=yes}
-			}
-			100072068={	# 5b) Maria Felicita (Turin 19 Mar 1730-Rome 13 May 1801)
-				name="Maria Felicita"
-				female=yes
-				dynasty=240
-				religion=catholic culture=italian
-				father=100072050	# Carlo Emanuele de Savoie
-				mother=100001648	# Polyxena Christina v. Hessen-Rheinfels-Rotenburg
-				1730.03.19={birth=yes}
-				1801.05.13={death=yes}
-			}
-			100072069={	# 8b) Carlo Francesco Maria Augusto, Duke of Aosta (Turin 1 Dec 1738-Turin 25 Mar 1745)
-				name="Carlo Francesco"
-				dynasty=240
-				religion=catholic culture=italian
-				father=100072050	# Carlo Emanuele de Savoie
-				mother=100066096	# Elisabeth Thérèse de Lorraine
-				1738.12.01={birth=yes}
-				1745.03.25={death=yes}
-			}
-			100072070={	# 10b) Benedetto Maria Maurizio, Duke of Chablais (Turin 21 Jun 1741-Rome 4 Jan 1808); m.Turin 19 Mar 1775 Maria Anna Pss of Savoy (Turin 17 Dec 1757-Stupinigi 11 Dec 1824) $$
-				name=Benedetto
-				dynasty=240
-				religion=catholic culture=italian
-				father=100072050	# Carlo Emanuele de Savoie
-				mother=100066096	# Elisabeth Thérèse de Lorraine
-				1741.06.21={birth=yes}
-				1775.03.19={add_spouse=100072055}	# Maria Anna de Savoie
-				1808.01.04={death=yes}
-			}
-		100072071={	# 7a) Vittorio Francesco Filippo, Marchese di Susa (10 Dec 1694-20 Mar 1762); m.Maria Lucrezia Franchi di Pont
-			name="Vittorio Francesco"
-			dynasty=240
-			religion=catholic culture=italian
-			father=100072043	# Vittorio Amedeo de Savoie
-			mother=100066602	# Anne Marie d’Orléans
-			1694.12.10={birth=yes}
-			1719.01.01={add_spouse=100083974}	# Maria Lucrezia Franchi di Pont
-			1762.03.20={death=yes}
-		}
-		100072026={	# 8a) Vittoria Francesca, Madamigella di Susa (9 Feb 1690-Paris 8 Jul 1766); m.Moncalieri 1714 Pr Vittorio Amedeo I of Savoy-Carignano (1690-1741) $$
-			name="Vittoria Francesca"
-			female=yes
-			dynasty=240
-			religion=catholic culture=italian
-			father=100072043	# Vittorio Amedeo de Savoie
-			mother=100066602	# Anne Marie d’Orléans
-			1690.02.09={birth=yes}
-			1766.07.08={death=yes}
-		}
-#1696.05.14={holder=100070115} # VITTORIO AMEDEO II Francesco 
-#1732.10.31={holder=100070124} # 5a) CARLO EMANUELE III
-#1773.02.20={holder=100070129} # 2b) VITTORIO AMEDEO III
-#1796.10.16={holder=100070131} # 1c) CARLO EMANUELE IV
-#1819.10.06={holder=100072035} # 7c) VITTORIO EMANUELE I
-#1824.01.10={holder=100008216} # 11c) CARLO FELICE Giuseppe Maria
-#di Savoia|240|100070000-100070199

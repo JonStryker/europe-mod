@@ -194,18 +194,7 @@
 										1507.03.15={add_spouse=100012895}	# Salome v. Hohenzollern
 										1557.03.24={death=yes}  # Alerheim
 									}
-										100012457={ # J1. Ludwig XVI, Gf von Oettingen, *2.7.1508, +Harburg 1.10.1569; 1m: Oettingen 25.11.1543 Gfn Margaretha von Lutzelstein (*14.8.1523 +3.7.1560); 2m: 27.8.1562 Gfn Susanne von Mansfeld (+8.9.1565); 3m: 1566 Gfn Claudia von Hohenfels-Reipoltskirchen (+1582); for his issue see HERE
-											name=Ludwig
-											dynasty=1002607
-											religion=catholic culture=frankish
-											father=100012456	# Ludwig von Oettingen
-											mother=100012895	# Salome v. Hohenzollern
-											1508.07.02={birth=yes}
-											1543.11.25={add_spouse=100099649}	# GFN Margaretha von Lutzelstein
-											1562.08.27={add_spouse=100010747}	# Susanne von Mansfeld
-											1566.01.01={add_spouse=100099846}	# GFN Claudia von Hohenfels-Reipoltskirchen
-											1569.10.01={death=yes}  # Harburg
-										}
+										# oett2   ->  J1. Ludwig XVI, Gf von Oettingen, *2.7.1508, +Harburg 1.10.1569; 1m: Oettingen 25.11.1543 Gfn Margaretha von Lutzelstein (*14.8.1523 +3.7.1560); 2m: 27.8.1562 Gfn Susanne von Mansfeld (+8.9.1565); 3m: 1566 Gfn Claudia von Hohenfels-Reipoltskirchen (+1582); for his issue see HERE
 										100012458={ # J2. Gf Wolfgang II, *1511, +1573; m.München 12.11.1538 Mkgfn Margarethe von Baden-Durlach (*1519 +1574) $$
 											name=Wolfgang
 											dynasty=1002607
@@ -216,7 +205,7 @@
 											1538.11.12={add_spouse=100004404}	# Margarethe von Baden
 											1573.01.01={death=yes}
 										}
-										# UNTEN -> J3. Friedrich V, Gf von Oettingen-Wallerstein, *6.11.1516, +2.2.1579; m.17.3.1542 Gfn Euphrosyne von Oettingen-Wallerstein (*1523, +15.3.1560); for his issue see HERE
+										# oett3   ->  J3. Friedrich V, Gf von Oettingen-Wallerstein, *6.11.1516, +2.2.1579; m.17.3.1542 Gfn Euphrosyne von Oettingen-Wallerstein (*1523, +15.3.1560); for his issue see HERE
 										100012460={ # J6. Gf Lothar, +8.4.1566; m.24.10.1560 Gfn Claudia von Hohenfels-Reipoltskirchen (+1582)
 											name=Lothar
 											dynasty=1002607
@@ -224,7 +213,7 @@
 											father=100012456	# Ludwig von Oettingen
 											mother=100012895	# Salome v. Hohenzollern
 											1530.01.01={birth=yes}  # EST.
-											1560.10.24={add_spouse=100099846}	# GFN Claudia von Hohenfels-Reipoltskirchen
+											1560.10.24={add_spouse=100087590}	# GFN Claudia von Hohenfels-Reipoltskirchen
 											1566.04.08={death=yes}
 										}
 										100012461={ # J7. Gfn Anna, +Hilberhausen 19.4.1549; m.8.4.1537 Frhr Friedrich zu Schwarzenberg und Hohenlandsberg (*19.9.1498, +12.9.1561)
@@ -501,7 +490,7 @@
 					1343.12.01={add_spouse=100099963}	# GFN Margarethe von Hohenberg
 					1378.07.26={death=yes}
 				}
-				100012489={ # D3. Maria, +Lichtenthal 10.6.1369; 1m: 1312 Gf Rudolf III von Habsburg-Laufenburg (*15.2.1270 +22.1.1315); 2m: 1326 Mkgf Rudolf IV von Baden (+25.6.1348)
+				100012489={ # D3. Maria, +Lichtenthal 10.6.1369; 1m: 1312 Gf Rudolf III von Habsburg-Laufenburg (*15.2.1270 +22.1.1315); 2m: 1326 Mkgf Rudolf IV von Baden (+25.6.1348) $$
 					name=Maria
 					female=yes
 					dynasty=1002607
@@ -553,11 +542,374 @@
 #1467.04.13={holder=100012412} # H3. Wolfgang I
 #1522.01.29={holder=100012455} # I1. Karl
 #1549.10.03={holder=100012456} # I2. Ludwig XV
-#1557.03.24={holder=100012457} # J1. Ludwig XVI
+#1557.03.24={holder=100012899} # J1. Ludwig XVI
 #1569.10.01={holder=100012458} # J2. Gf Wolfgang II
 #1573.01.01={holder=100012459} # J3. Friedrich V
 #oett1
 
+#oett2
+100012899={ # Graf Ludwig XVI von Oettingen, *2.7.1508, +Harburg 1.10.1569; 1m: Oettingen 25.11.1543 Gfn Margaretha von Lützelstein (*14.8.1523 +3.7.1560); 2m: 27.8.1562 Gfn Susanne von Mansfeld (+8.9.1565); 3m: 26.8.1566 Gfn Claudia von Hohenfels-Reipoltskirchen (+1582)
+	name=Ludwig
+	dynasty=1002607
+	religion=catholic culture=hungarian
+	father=100012456	# Ludwig von Oettingen
+	mother=100012895	# Salome v. Hohenzollern
+	1508.07.02={birth=yes}
+	1543.11.25={add_spouse=100083683}	# GFN Margaretha von Lützelstein
+	1562.08.27={add_spouse=100010747}	# Susanne von Mansfeld
+	1566.08.26={add_spouse=100087590}	# GFN Claudia von Hohenfels-Reipoltskirchen
+	1569.10.01={death=yes}  # Harburg
+}
+	100012926={ # A1. [1m.] Judith, *9.10.1544, +Burgk 4.11.1600; m.Oettingen 21.9.1573 Heinrich II Reuss zu Burgk (*12.12.1543 +24.5.1608) $$
+		name=Judith
+		female=yes
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100083683	# GFN Margaretha von Lützelstein
+		1544.10.09={birth=yes}
+		1600.11.04={death=yes}  # Burgk
+	}
+	100012929={ # A2. [1m.] Anna Salome, *24.10.1545, +12.12.1599; m.Oettingen 25.4.1585 Hieronymus Schlik Gf von Passaun u.Weisskirchen (+1585)
+		name="Anna Salome"
+		female=yes
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100083683	# GFN Margaretha von Lützelstein
+		1545.10.24={birth=yes}
+		1599.12.12={death=yes}
+	}
+	100012932={ # A4. [1m.] Margareta, *Calw 17.8.1548, +1599; m.Oettingen 12.12.1574 Frhr Christoph von Puchheim (+Wien 6.10.1594)
+		name=Margareta
+		female=yes
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100083683	# GFN Margaretha von Lützelstein
+		1548.08.17={birth=yes}  # Calw
+		1599.01.01={death=yes}
+	}
+	100012933={ # A6. [1m.] Maria, *Steckborn 25.3.1552, +Oettingen 20.10.1605
+		name=Maria
+		female=yes
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100083683	# GFN Margaretha von Lützelstein
+		1552.03.25={birth=yes}  # Steckborn
+		1605.10.20={death=yes}  # Oettingen
+	}
+	100012934={ # A7. [1m.] Gottfried, Graf zu Oettingen-Oettingen, *Bietigheim 19.6.1554, +Oettingen 7.9.1622; 1m: Oettingen 30.1.1575 Gfn Johanna zu Hohenlohe-Waldenburg (*25.6.1557 +14.12.1585); 2m: Oettingen 7.11.1591 Pfgfn Barbara von Zweibrucken (*27.7.1559 +5.3.1618) $$
+		name=Gottfried
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100083683	# GFN Margaretha von Lützelstein
+		1554.06.19={birth=yes}  # Bietigheim
+		1575.01.30={add_spouse=100005691}	# Johanna von Hohenlohe in Öhringen
+		1591.11.07={add_spouse=100007760}	# Barbara v. Wittelsbach
+		1622.09.07={death=yes}  # Oettingen
+	}
+		100012935={ # B1. [1m.] Ludwig Eberhard, Graf zu Oettingen-Oettingen, *Schillingsfurst 9.7.1577, +Heidenheim 4.7.1634; m.Oettingen 17.5.1598 Gfn Margaretha zu Erbach (*Erbach 17.5.1576, +Ulm 5.6.1635) $$
+			name="Ludwig Eberhard"
+			dynasty=1002607
+			religion=catholic culture=hungarian
+			father=100012934	# Gottfried von Oettingen
+			mother=100005691	# Johanna von Hohenlohe in Öhringen
+			1577.07.09={birth=yes}  # Schillingsfurst
+			1598.05.17={add_spouse=100011856}	# Margaretha von Erbach
+			1634.07.04={death=yes}  # Heidenheim
+		}
+			100012936={ # C2. Gfn Maria Magdalena, *Oettingen 28.8.1600, +Strasbourg 29.5.1636; 1m: Oettingen 23.4.1620 Gf Heinrich Wilhelm zu Solms-Sonnenwalde (*21.3.1583 +21.3.1632); 2m: Würzburg 27.8.1633 Gf Georg Friedrich zu Hohenlohe-Neuenstein (*5.9.1569, +7.7.1645) $$
+				name="Maria Magdalena"
+				female=yes
+				dynasty=1002607
+				religion=catholic culture=hungarian
+				father=100012935	# Ludwig Eberhard von Oettingen
+				mother=100011856	# Margaretha von Erbach
+				1600.08.28={birth=yes}  # Oettingen
+				1636.05.29={death=yes}  # Strasbourg
+			}
+			100012937={ # C4. Johanna, *Harburg 10.9.1602, +Strasbourg 17.9.1639, bur Buchsweiler; m.Buchsweiler 24.11.1619 Gf Philipp Wolfgang von Hanau-Lichtenberg (*10.8.1595, +24.2.1641) $$
+				name=Johanna
+				female=yes
+				dynasty=1002607
+				religion=catholic culture=hungarian
+				father=100012935	# Ludwig Eberhard von Oettingen
+				mother=100011856	# Margaretha von Erbach
+				1602.09.10={birth=yes}  # Harburg
+				1639.09.17={death=yes}  # Strasbourg
+			}
+			100012938={ # C5. Anna Elisabeth, *Oettingen 3.11.1603, +Birkenfeld 3.6.1673, bur Meisenheim; 1m: Treuchtlingen 24.6.1629 Field-Marshal Gf Gottfried Heinrich zu Pappenheim (*29.5.1594, +k.a.Lutzen 16.11.1632); 2m: 11.6.1642 Gf Johann Philipp II zu Leiningen-Dagsburg-Hartenburg (*26.4.1588 +25.4.1643); 3m: Schloss Hardenburg 7.3.1649 Pfgf Georg Wilhelm von Birkenfeld (*16.8.1591 +25.12.1669)
+				name="Anna Elisabeth"
+				female=yes
+				dynasty=1002607
+				religion=catholic culture=hungarian
+				father=100012935	# Ludwig Eberhard von Oettingen
+				mother=100011856	# Margaretha von Erbach
+				1603.11.03={birth=yes}  # Oettingen
+				1673.06.03={death=yes}  # Birkenfeld
+			}
+			100012939={ # C6. Barbara Dorothea, *Oettingen 10.3.1605, +19.3.1651; m.Alecheim 16.11.1623 Joachim Gottfried zu Limpurg im Gaildorf (*25.6.1597, +19.3.1651)
+				name="Barbara Dorothea"
+				female=yes
+				dynasty=1002607
+				religion=catholic culture=hungarian
+				father=100012935	# Ludwig Eberhard von Oettingen
+				mother=100011856	# Margaretha von Erbach
+				1605.03.10={birth=yes}  # Oettingen
+				1651.03.19={death=yes}
+			}
+			100012940={ # C11. Agatha, *Oettingen 27.12.1610, +Wertheim 26.3.1680; 1m: 8.12.1633 (div 1649) Lorenz von Hofkirchen (+1680); 2m: Stuttgart 1.10.1657 Gf Gustav Axel zu Löwenstein-Wertheim-Virneburg (*2.12.1632 +26.3.1683)
+				name=Agatha
+				female=yes
+				dynasty=1002607
+				religion=catholic culture=hungarian
+				father=100012935	# Ludwig Eberhard von Oettingen
+				mother=100011856	# Margaretha von Erbach
+				1610.12.27={birth=yes}  # Oettingen
+				1680.03.26={death=yes}  # Wertheim
+			}
+			100012941={ # C12. Joachim Ernst, Graf zu Oettingen-Oettingen, *Oettingen 31.3.1612, +Harburg Castle 8.8.1659; 1m: Oettingen 18.12.1633 Gfn Anna Sibylle zu Solms-Sonnenwalde (*1615, +Nürnberg 29.9.1635); 2m: Neuenstein 5.12.1638 Gfn Anna Dorothea zu Hohenlohe-Neuenstein-Gleichen (*26.1.1621 +16.9.1643); 3m: Nürnberg 9.5.1647 Pfgfn Anna Sophia von Sulzbach (*6.7.1621 +25.5.1675) $$
+				name="Joachim Ernst"
+				dynasty=1002607
+				religion=catholic culture=hungarian
+				father=100012935	# Ludwig Eberhard von Oettingen
+				mother=100011856	# Margaretha von Erbach
+				1612.03.31={birth=yes}  # Oettingen
+				1633.12.18={add_spouse=100006814}	# Anna Sibylle von Solms-Sonnenwalde
+				1638.12.05={add_spouse=100002495}	# Anna Dorothea von Hohenlohe in Öhringen
+				1647.05.09={add_spouse=100007723}	# Anna Sophia v. Wittelsbach
+				1659.08.08={death=yes}  # Harburg Castle
+			}
+				100012942={ # D1. [1m.] Sofie Margarete, *Ulm 19.12.1634, +Ansbach 5.8.1664; m.Oettingen 15.10.1651 Mkgf Albrecht von Brandenburg-Ansbach (*16.9.1620 +22.10.1667) $$
+					name="Sophie Margarethe"
+					female=yes
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100006814	# Anna Sibylle von Solms-Sonnenwalde
+					1634.12.19={birth=yes}  # Ulm
+					1664.08.05={death=yes}  # Ansbach
+				}
+				100012950={ # D4. [2m.] Maria Dorothea Sophia, *Oettingen 29.12.1639, +Nürtingen 29.6.1698; m.Ansbach 20.7.1656 Duke Eberhard III von Württemberg (*26.12.1614 +2.7.1674) $$
+					name="Marie Dorothea"
+					female=yes
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100002495	# Anna Dorothea von Hohenlohe in Öhringen
+					1639.12.29={birth=yes}  # Oettingen
+					1698.06.29={death=yes}  # Nürtingen
+				}
+				100012943={ # D3. [2m.] Kraft Ludwig, Graf zu Oettingen-Oettingen, *28.3.1641, +27.5.1660
+					name=Kraft
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100002495	# Anna Dorothea von Hohenlohe in Öhringen
+					1641.03.28={birth=yes}
+					1660.05.27={death=yes}
+				}
+				100012944={ # D3. [2m.] Albrecht Ernst I, Gf zu Oettingen-Oettingen, -cr Reichsfürst zu Oettingen-Oettingen 10.10.1674, *Oettingen 14.5.1642, +Schrattenhofen 8.2.1683; 1m: Stuttgart 7.6.1665 Dss Christine Friederike von Württemberg (*9.3.1644 +9.11.1674); 2m: Oettingen 30.4.1682 Dss Eberhardine Katharine of Württemberg (*12.4.1651 +19.8.1683)
+					name="Albrecht Ernst"
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100002495	# Anna Dorothea von Hohenlohe in Öhringen
+					1642.05.14={birth=yes}  # Oettingen
+					1665.06.07={add_spouse=100103800}	# DSS Christine Friederike von Württemberg
+					1682.04.30={add_spouse=100009537}	# Eberhardine Katharine v. Württemberg
+					1683.02.08={death=yes}  # Schrattenhofen
+				}
+					100012947={ # E4. Pss Eberhardine Sophie, *Oettingen 16.8.1666, +Aurich 30.10.1700; m.Bayreuth 3.5.1685 Fst Christian Eberhard von Ostfriesland (*1.10.1665, +30.6.1708) $$
+						name="Eberhardine Sophie"
+						female=yes
+						dynasty=1002607
+						religion=catholic culture=hungarian
+						father=100012944	# Albrecht Ernst von Oettingen
+						mother=100103800	# DSS Christine Friederike von Württemberg
+						1666.08.16={birth=yes}  # Oettingen
+						1700.10.30={death=yes}  # Aurich
+					}
+					100012945={ # E1. [1m.] Albrecht Ernst II Fürst zu Oettingen-Oettingen, *Oettingen 8.8.1669, +Schrattenhofen 30.3.1731; m.Darmstadt 11.10.1688 Ldgfn Sofie Luise von Hesse-Darmstadt (*6.7.1670 +2.6.1758) $$
+						name="Albrecht Ernst"
+						dynasty=1002607
+						religion=catholic culture=hungarian
+						father=100012944	# Albrecht Ernst von Oettingen
+						mother=100103800	# DSS Christine Friederike von Württemberg
+						1669.08.08={birth=yes}  # Oettingen
+						1688.10.11={add_spouse=100001622}	# Sofie Luise v. Hessen
+						1731.03.30={death=yes}  # Schrattenhofen
+					}
+						100012946={ # F2. Pss Elisabeth Friederike, *Oettingen 14.3.1691, +Weikersheim 14.5.1758, bur there; m.Oettingen 11.11.1713 Gf Karl Ludwig zu Hohenlohe-Neuenstein-Gleichen (*23.9.1674 +5.5.1756) $$
+							name="Elisabeth Friederike"
+							female=yes
+							dynasty=1002607
+							religion=catholic culture=hungarian
+							father=100012945	# Albrecht Ernst von Oettingen
+							mother=100001622	# Sofie Luise v. Hessen
+							1691.03.14={birth=yes}  # Oettingen
+							1758.05.14={death=yes}  # Weikersheim
+						}
+					100012948={ # E6. Pss Christine Luise, *Oettingen 30.3.1671, +Blankenburg 12.11.1747; m.Aurich 22.4.1690 Duke Ludwig Rudolf von Braunschweig-Blankenberg (*22.7.1671 +1.3.1735) $$
+						name="Christine Luise"
+						female=yes
+						dynasty=1002607
+						religion=catholic culture=hungarian
+						father=100012944	# Albrecht Ernst von Oettingen
+						mother=100103800	# DSS Christine Friederike von Württemberg
+						1671.03.30={birth=yes}  # Oettingen
+						1747.11.12={death=yes}  # Blankenburg
+					}
+					100012949={ # E7. Pss Henriette Dorothea, *Oettingen 24.2.1672, +Wiesbaden 18.5.1728; m.Kirchheim unter Teck 22.9.1688 Fst Georg August von Nassau-Idstein (*26.2.1665 +26.10.1721) $$
+						name="Henriette Dorothea"
+						female=yes
+						dynasty=1002607
+						religion=catholic culture=hungarian
+						father=100012944	# Albrecht Ernst von Oettingen
+						mother=100103800	# DSS Christine Friederike von Württemberg
+						1672.02.24={birth=yes}  # Oettingen
+						1728.05.18={death=yes}  # Wiesbaden
+					}
+				100012951={ # D5. [2m.] Susanna Johanna, *16.9.1643, +Remlingen 28.11.1713; m.Oettingen 17.11.1678 Gf Friedrich Magnus zu Castell-Remlingen (*6.10.1646 +17.4.1717)
+					name="Susanna Johanna"
+					female=yes
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100002495	# Anna Dorothea von Hohenlohe in Öhringen
+					1643.09.16={birth=yes}
+					1713.11.28={death=yes}  # Remlingen
+				}
+				100012952={ # D6. [3m.] Joachim Ernst, *27.2.1648, +Landskrona 24.7.1677
+					name="Joachim Ernst"
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100007723	# Anna Sophia v. Wittelsbach
+					1648.02.27={birth=yes}
+					1677.07.24={death=yes}  # Landskrona
+				}
+				100012953={ # D7. [3m.] Maria Eleonora, *Oettingen 10.7.1649, +Wien 10.4.1681; m.Nürnberg 2.4.1665 Gf Gottlieb I Amadeus von Windisch-Graetz (*13.3.1630, +25.12.1695)
+					name="Maria Eleonora"
+					female=yes
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100007723	# Anna Sophia v. Wittelsbach
+					1649.07.10={birth=yes}  # Oettingen
+					1681.04.10={death=yes}  # Wien
+				}
+				100012954={ # D8. [3m.] Christian August, *Oettingen 22.7.1650, +Oettingen 19.7.1689
+					name="Christian August"
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100007723	# Anna Sophia v. Wittelsbach
+					1650.07.22={birth=yes}  # Oettingen
+					1689.07.19={death=yes}  # Oettingen
+				}
+				100012955={ # D10. [3m.] Hedwig Auguste, *Oettingen 9.12.1652, +14.3.1724; m.8.9.1677 Ferdinand von Stadl Frhr von Kornberg und Riegersburg (+1694)
+					name="Hedwig Auguste"
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100007723	# Anna Sophia v. Wittelsbach
+					1652.12.09={birth=yes}  # Oettingen
+					1677.09.08={add_spouse=100103811}	# FRHR Ferdinand von Stadl von Kornberg und Riegersburg
+					1724.03.14={death=yes}
+				}
+				100012956={ # D11. [3m.] Magdalena Sophia, *17.2.1654, +Künzelsau 13.2.1691, bur there; m.15.3.1681 Gf Johann Ludwig von Hohenlohe-Künzelsau (*1.6.1625, +15.8.1689) $$
+					name="Magdalene Sophie"
+					female=yes
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100007723	# Anna Sophia v. Wittelsbach
+					1654.02.17={birth=yes}
+					1691.02.13={death=yes}  # Künzelsau
+				}
+				100012957={ # D13. [3m.] Eberhardine Sophie Juliane, *Oettingen 20.10.1656, +Schillingsfürst 23.3.1743; m.Wallerstein 1.3.1678 Gf Philipp Karl zu Oettingen-Wallerstein (*24.1.1640, +27.8.1680) $$
+					name="Eberhardine Sophie"
+					female=yes
+					dynasty=1002607
+					religion=catholic culture=hungarian
+					father=100012941	# Joachim Ernst von Oettingen
+					mother=100007723	# Anna Sophia v. Wittelsbach
+					1656.10.20={birth=yes}  # Oettingen
+					1743.03.23={death=yes}  # Schillingsfürst
+				}
+			100012958={ # C12. Sophia, *8.7.1613, +17.2.1651
+				name=Sophia
+				female=yes
+				dynasty=1002607
+				religion=catholic culture=hungarian
+				father=100012935	# Ludwig Eberhard von Oettingen
+				mother=100011856	# Margaretha von Erbach
+				1613.07.08={birth=yes}
+				1651.02.17={death=yes}
+			}
+		100012959={ # B4. [1m.] Johanna Henrietta, *Oettingen 28.8.1578, +Michielstadt 18.3.1619; m.Heidenheim 18.9.1597 Gf Friedrich Magnus zu Erbach-Furstenau (*Erbach 18.4.1575, +Reichenberg 26.8.1618) $$
+			name="Johanna Henriette"
+			female=yes
+			dynasty=1002607
+			religion=catholic culture=hungarian
+			father=100012934	# Gottfried von Oettingen
+			mother=100005691	# Johanna von Hohenlohe in Öhringen
+			1578.08.28={birth=yes}  # Oettingen
+			1619.03.18={death=yes}  # Michielstadt
+		}
+	100012960={ # A11. [1m.] Ludwig, *30.6.1559, +Oettingen 31.3.1593; m.Westhofen 24.5.1587 Margareta Sidonia von Daun Gfn von Falkenstein $$
+		name=Ludwig
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100083683	# GFN Margaretha von Lützelstein
+		1559.06.30={birth=yes}
+		1587.05.24={add_spouse=100012972}	# Margareta Sidonia von Daun
+		1593.03.31={death=yes}  # Oettingen
+	}
+	100012961={ # A12. [2m.] Anna Dorothea, *18.5.1563, +after 1614; m.14.10.1582 Frhr Wolfgang von Hofkirchen (+11.7.1611)
+		name="Anna Dorothea"
+		female=yes
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100010747	# Susanne von Mansfeld
+		1563.05.18={birth=yes}
+		1615.01.01={death=yes}
+	}
+	100012962={ # A13. [2m.] Albrecht Ludwig, *22.5.1565, +Dachstein 1592
+		name="Albrecht Ludwig"
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100010747	# Susanne von Mansfeld
+		1565.05.22={birth=yes}
+		1592.01.01={death=yes}  # Dachstein
+	}
+	100012963={ # A14. [3m.] Weiprecht, *2.7.1567, +Hungary 1604
+		name=Weiprecht
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100087590	# GFN Claudia von Hohenfels-Reipoltskirchen
+		1567.07.02={birth=yes}
+		1604.01.01={death=yes}  # Hungary
+	}
+	100012964={ # A15. [3m.] Philipp, *11.3.1569, +Zimmern 3.2.1627; m.Sontheim 4.11.1594 Maria zu Limpurg im Speckfeld (*2.10.1559, +7.10.1634)
+		name=Philipp
+		dynasty=1002607
+		religion=catholic culture=hungarian
+		father=100012899	# Ludwig von Oettingen
+		mother=100087590	# GFN Claudia von Hohenfels-Reipoltskirchen
+		1569.03.11={birth=yes}
+		1594.11.04={add_spouse=100103817}	# Maria von Limpurg-Speckfeld
+		1627.02.03={death=yes}  # Zimmern
+	}
+#oett2
 
 #oett3
 100003635={ # Friedrich V Graf von Oettingen zu Wallerstein, *6.11.1516, +Wallerstein 2.2.1579; m.17.3.1542 Gfn Euphrosyne von Oettingen-Wallerstein (*1523, +15.3.1560) $$
@@ -680,14 +1032,14 @@
 					1633.01.01={birth=yes}
 					1693.09.07={death=yes}  # Wien
 				}
-				100012423={ # D3. Gf Philipp Karl, *Wallerstein 24.1.1640, +Wallerstein 27.8.1680; m.Wallerstein 1.3.1678 Gfn Eberhardine Sophie Juliane zu Oettingen-Oettingen (*20.10.1656, +23.3.1743)
+				100012423={ # D3. Gf Philipp Karl, *Wallerstein 24.1.1640, +Wallerstein 27.8.1680; m.Wallerstein 1.3.1678 Gfn Eberhardine Sophie Juliane zu Oettingen-Oettingen (*20.10.1656, +23.3.1743) $$
 					name="Philipp Karl"
 					dynasty=1002032
 					religion=catholic culture=frankish
 					father=100012415	# Ernst zu Oettingen-Wallerstein
 					mother=100010996	# Maria Magdalena Fugger
 					1640.01.24={birth=yes}  # Wallerstein
-					1678.03.01={add_spouse=100099919}	# GFN Eberhardine Sophie zu Oettingen-Oettingen
+					1678.03.01={add_spouse=100012957}	# Eberhardine Sophie von Oettingen
 					1680.08.27={death=yes}  # Wallerstein
 				}
 					100012424={ # E1. Anton Karl, Graf von Oettingen zu Wallerstein, *Wallerstein 28.6.1679, +Wien 14.4.1738; m.Neuburg 24.1.1702 Gfn Maria Agnes Magdalena Fugger von Glott (*21.10.1680 +17.6.1753) $$
@@ -695,7 +1047,7 @@
 						dynasty=1002032
 						religion=catholic culture=frankish
 						father=100012423	# Philipp Karl zu Oettingen-Wallerstein
-						mother=100099919	# GFN Eberhardine Sophie zu Oettingen-Oettingen
+						mother=100012957	# Eberhardine Sophie von Oettingen
 						1679.06.28={birth=yes}  # Wallerstein
 						1702.01.24={add_spouse=100011026}	# Maria Agnes Fugger
 						1738.04.14={death=yes}  # Wien
@@ -775,7 +1127,7 @@
 						dynasty=1002032
 						religion=catholic culture=frankish
 						father=100012423	# Philipp Karl zu Oettingen-Wallerstein
-						mother=100099919	# GFN Eberhardine Sophie zu Oettingen-Oettingen
+						mother=100012957	# Eberhardine Sophie von Oettingen
 						1680.08.28={birth=yes}  # Wallerstein
 						1749.09.08={death=yes}  # Schillingsfürst
 					}
@@ -1113,8 +1465,8 @@
 					1735.05.23={add_spouse=100009383}	# Theresa von Oldenburg
 					1780.02.16={death=yes}  # Ötingen
 				}
-					100012399={ # 1b) Marie Leopoldine Elisabeth Therese Sophie (Öttingen 28 Nov 1741-Vienna 28 Feb 1795); m.Vienna 12 Jan 1761 Ernst Christoph Fst von Kaunitz (d.Vienna 19 May 1797)
-						name=Marie
+					100012399={ # 1b) Marie Leopoldine Elisabeth Therese Sophie (Öttingen 28 Nov 1741-Vienna 28 Feb 1795); m.Vienna 12 Jan 1761 Ernst Christoph Fst von Kaunitz (d.Vienna 19 May 1797) $$
+						name="Marie Leopoldine"
 						female=yes
 						dynasty=1002102
 						religion=catholic culture=german
@@ -1587,7 +1939,7 @@
 				1873.02.22={birth=yes}
 				1959.03.15={death=yes}
 			}
-			100003090={	# 5c) Marie Karoline Ernestine Judith Notgere (Prague 10 Dec 1874-Wallerstein 19 Feb 1960); m.Vienna 27 Apr 1897 August Gf von Bellegarde (Hacking 26 May 1858-Groß-Herrlitz 24 Feb 1929)
+			100003090={	# 5c) Marie Karoline Ernestine Judith Notgere (Prague 10 Dec 1874-Wallerstein 19 Feb 1960); m.Vienna 27 Apr 1897 August Gf von Bellegarde (Hacking 26 May 1858-Groß-Herrlitz 24 Feb 1929) $$
 				name="Marie Karoline"
 				female=yes
 				dynasty=1002032
@@ -1644,7 +1996,7 @@
 					father=100003094	# Eugen Notger zu Oettingen-Wallerstein
 					mother=100001846	# Maria Anna zu Hohenlohe-Waldenburg-Schillingsfürst
 					1917.05.23={birth=yes}
-					1942.07.26={add_spouse=100036527}	# Delia Schenk von Stauffenberg
+					1942.07.26={add_spouse=100013211}	# Delia Schenk von Stauffenberg
 					1991.03.30={death=yes}
 				}
 					100003096={	# 1e) Ernestine Konstanze Olga Alexandra Maria Notgera (b.Wallerstein 18 Oct 1943); m.Rome 29 Nov 1967 Raffaello Massini (Macerata 4 Aug 1928-Rome 19 Jan 2001)
@@ -1653,7 +2005,7 @@
 						dynasty=1002032
 						religion=catholic culture=german
 						father=100003095	# Carl Friedrich zu Oettingen-Wallerstein
-						mother=100036527	# Delia Schenk von Stauffenberg
+						mother=100013211	# Delia Schenk von Stauffenberg
 						1943.10.18={birth=yes}
 					}
 					100003097={	# 2e) MORITZ Eugen Karl Friedrich Anton Kraft Notger Fst zu Oettingen-Oettingen und Oettingen-Wallerstein (b.München 20 May 1946); m.Reicholzheim 28 May 1969 (rel) Bronnbach 22 Jul 1969 Lioba Pss zu Löwenstein-Wertheim-Rosenberg (b.Bronnbach 2 Oct 1946) $$
@@ -1661,7 +2013,7 @@
 						dynasty=1002032
 						religion=catholic culture=german
 						father=100003095	# Carl Friedrich zu Oettingen-Wallerstein
-						mother=100036527	# Delia Schenk von Stauffenberg
+						mother=100013211	# Delia Schenk von Stauffenberg
 						1946.05.20={birth=yes}
 						1969.05.28={add_spouse=100002755}	# Lioba Ernestine v. Löwenstein-Wertheim-Rosenberg
 					}
@@ -1767,7 +2119,7 @@
 						dynasty=1002032
 						religion=catholic culture=german
 						father=100003095	# Carl Friedrich zu Oettingen-Wallerstein
-						mother=100036527	# Delia Schenk von Stauffenberg
+						mother=100013211	# Delia Schenk von Stauffenberg
 						1951.04.09={birth=yes}
 						1981.04.26={add_spouse=100087432}	# Helen Lins
 					}

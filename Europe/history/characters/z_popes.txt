@@ -85,7 +85,7 @@
 100094693={ # Sixtus
 	name=Sixtus
 	religion=catholic culture=italian
-	1414.01.01={birth=yes}
+	1414.07.21={birth=yes}
 	1484.08.12={death=yes}
 }
 100094694={ # Innocentius
@@ -94,13 +94,28 @@
 	1432.01.01={birth=yes}
 	1492.07.25={death=yes}
 }
-100201392={ # Alexander
-	name=Alexander
+
+100201392={ # 2b) Rodrigo de Borja, reigned as Pope Alexander VI 1492-1503, during which time he set up many of his relatives in powerful appanages and marriages, b.1431, d.of poisoning 1503; he had many illegitimate children:
+	name=Rodrigo
 	dynasty=10228
 	religion=catholic culture=castillan
-	1431.01.01={birth=yes}
+	1431.01.01={birth=yes}	# Xativa
+	1492.01.01={name=Alexander}
 	1503.08.18={death=yes}
 }
+	100201393={ # 5c) [by Vanozza Cattaneis] Lucrezia Borgia, b.Rome 1480, d.Ferrara 1519;  $$
+				# m.1st Vatican 1493 (div 1497) Giovanni Sforza d´Aragona, Cte di Cotognola, Pr di Pesaro; 
+				# m.2nd Vatican 1498			Alfonso de Aragon, Pr di Salerno, Duca di Biseglia (murdered in the Vatican 1500); 
+				# m.3rd 		1502			Alfonso d'Este, Duke of Ferrara, Modena and Reggio (d.1534)
+		name=Lucrezia
+		female=yes
+		dynasty=10228
+		religion=catholic culture=italian
+		father=100201392	# Rodrigo Borgia
+		1480.04.18={birth=yes}
+		1519.06.24={death=yes}
+	}
+
 100094695={ # Pius
 	name=Pius
 	religion=catholic culture=italian
